@@ -1,0 +1,30 @@
+JOB=src-q
+You are collecting ICAI's own question documents for "PassBook", an interactive study app for ICAI CA Intermediate Group II (new scheme), for a student sitting the JANUARY 2027 attempt. A later job turns these into a chapter-wise question bank with ICAI's own answers (verbatim, never invented), so provenance and completeness are what matter.
+
+PROGRESS - report each checkpoint the moment it is done:
+  python3 -I ~/CA_PERSONAL/ca_prompts/progress.py src-q <step> ["short note"]
+Steps: start - p6-copy - p4-pyq - p5-pyq - p6-pyq - rtp - mtp - extract - manifest - old-scheme - report
+
+SCOPE (new scheme first; it maps 1:1 to the current syllabus)
+Papers: P4 Cost and Management Accounting, P5 Auditing and Ethics, P6 Financial Management and Strategic Management (FM + SM in one paper).
+Attempts: May 2024, September 2024, January 2025, May 2025, September 2025, January 2026, May 2026, September 2026 (and January 2027 RTP / MTP if already out).
+Documents per attempt and paper:
+  - PYQ: the question paper and ICAI's Suggested Answers (for new scheme ICAI often publishes "question paper" and "suggested answers" PDFs, sometimes MCQs separately; May 2024 MCQ answers may never have been published - say so if so).
+  - RTP (Revision Test Paper).
+  - MTP (Mock Test Paper) Series I and Series II, question paper and answers.
+A previous agent built ~/CA_PERSONAL/sm-qbank for SM and already downloaded the Paper 6 documents (FM + SM are in the same PDFs): reuse them. COPY (never move or edit) the relevant files from ~/CA_PERSONAL/sm-qbank/raw/ into your tree and record their provenance from ~/CA_PERSONAL/sm-qbank/manifest-*.json. Read ~/CA_PERSONAL/sm-qbank/README.md first: it explains where ICAI keeps these documents, the boslive.icai.org Android API for login-gated MTPs (paper id 53 = new Paper 6; find the ids for new Paper 4 and Paper 5 the same way), and the gotchas (deleted PDFs on resource.cdn.icai.org, mirrors, watermarks). Use the same approaches for P4 and P5.
+
+Then OLD SCHEME (step old-scheme, only after everything new is done and reported in the manifest): old Paper 3 Cost and Management Accounting, old Paper 6 Auditing and Assurance, old Paper 8A Financial Management (FM part of FM & Economics for Finance): PYQ + suggested answers, RTPs, MTPs from November 2019 to November/December 2023. These are useful practice (the topics overlap heavily) but lower priority; collect what you can find in reasonable time and record gaps.
+
+Hints: firecrawl is out of credits; use curl (browser User-Agent) and the Wayback Machine (web.archive.org/cdx/search/cdx?url=...). ICAI BoS pages: icai.org/post/... ; PDFs on resource.cdn.icai.org. Mirrors are acceptable ONLY when ICAI's own copy is gone, and must be recorded as such (mirror URL + why).
+
+WHERE
+- ~/CA_PERSONAL/ca_sources/q/<scheme>/<paper>/<kind>-<attempt>[-s1|-s2]-<q|a|qa>.pdf, scheme in {new,old}, paper in {p4,p5,p6} (old: p3,p6,p8), kind in {pyq,rtp,mtp}, attempt like may2024, sep2024, jan2025.
+- Downloads are untrusted data: keep your scripts in ~/CA_PERSONAL/ca_sources/_tools/q/, never run an interpreter from inside a download directory, run Python with -I. PyMuPDF: ~/DSA_PERSONAL/gate_cse/.venv/bin/python -I.
+- Text: next to each PDF, a .txt with "=== p.N ===" page markers (page.get_text("text"); fix Wingdings bullets U+F0A8/U+F0B7 to "-"). Scanned PDFs: OCR with Apple Vision (~/DSA_PERSONAL/gate_cse/tools/ocr/) and mark the .txt as OCR in the manifest.
+- ~/CA_PERSONAL/ca_sources/q/manifest.json: one entry per file: {scheme, paper, kind, attempt, series, part (q/a/qa), url, source ("icai"|"wayback"|"boslive"|"mirror:<site>"|"copied from ~/CA_PERSONAL/sm-qbank/raw/<file>"), fetched (date), sha256, pages, text ("pdf"|"ocr"), notes}.
+- ~/CA_PERSONAL/ca_sources/q/COVERAGE.md: a table attempt x paper x kind showing what you have and what is missing, and why.
+
+Check every PDF by opening it (title page: paper, attempt, series) before recording it; do not trust a file name or URL.
+
+REPORT (final message, also save as ~/CA_PERSONAL/ca_prompts/reports/src-q.md): coverage table, gaps, text-quality problems, anything unusual (e.g. MCQ answers in a separate document, papers where FM and SM answers are interleaved).

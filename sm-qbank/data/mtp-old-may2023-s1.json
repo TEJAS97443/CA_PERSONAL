@@ -1,0 +1,537 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "May 2023",
+  "attempt_sort": "2023-05",
+  "series": "I",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://resource.cdn.icai.org/73377bos59163-inter-p7q.pdf",
+  "answers_url": "https://resource.cdn.icai.org/73392bos59178-inter-p7a.pdf",
+  "local_file": "raw/mtp-old-may2023-s1-q.pdf",
+  "local_answers_file": "raw/mtp-old-may2023-s1-a.pdf",
+  "test_series": "March 2023",
+  "mock_test_paper_no": null,
+  "source_is_mirror": false,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Official ICAI PDFs (Test Series: March 2023, MOCK TEST PAPER-I), linked from https://www.icai.org/post/intermediate-mtp-may2023-sr1. ICAI also serves this series via its BoS app API as MTP_6_22_QUESTIONS_1682676380.pdf / MTP_6_22_ANSWERS_1682676380.pdf, but those copies are image-only scans with no text layer, so the resource.cdn.icai.org copies were used."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-may2023-s1-q1",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Benchmarking — dropped from the 2023 syllabus (old Paper 7B Ch 8.8); no counterpart in current Paper 6B",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "ABC Ltd. and CHEETA Ltd. are two companies that are in the business of manufacturing electric\nscooters. Sales of ABC Ltd. are rising while sales of CHEETA Ltd. have been falling. During the\nlast five years, the market share of CHEETA Ltd. reduced from second to fifth position. Mr. Ramesh\nwas appointed as the CEO of CHEETA Ltd., last year, when the company was unable to make a\nmark for itself in the industry. As an immediate corrective measure Mr. Ramesh decided to emulate\nthe successful standards of ABC Ltd. and set them as their own yardsticks. With the help of\nstandards, he intended to compare, measure and judge the performance. Further, he introduced a\ncompany-wide competition for the best innovation. He has been influential in bringing about a\nculture of oneness and inspiration amongst the employees. Under his direction one of the\nemployees came up with the idea of inbuilt GPS system in the electric scooter. Another employee\ngave the idea of mobile charging point in the scooter with a pocket to hold the mobile hand set.\nCHEETA Ltd., adopted the innovations suggested by its employees in their new model. The new\nmodified model ‘RAFTAR’ loaded with new features was launched with a slogan “Reach right place\nin right time and stay connected”. Mr Ramesh’s leadership turned around the company to be a\nleader in innovation. CHEETA Ltd., envisaged to innovate mobility solutions with passion to\nenhance quality of life. The shape of scooter was made attractive. It was available in many colours.\nThe price of new model was higher than the other electric scooters in the market. ‘RAFTAR’ was\nwidely accepted by the young population.\nBased on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:\n\nWhat is the strategic tool adopted by CHEETA Ltd., as an immediate corrective measure?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Business Process Reengineering"
+    },
+    {
+     "label": "b",
+     "text": "Strategic Audit"
+    },
+    {
+     "label": "c",
+     "text": "Strategic Control"
+    },
+    {
+     "label": "d",
+     "text": "Benchmarking"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "benchmarking"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q2",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich leadership style has been adopted by Mr. Ramesh and this style is appropriate in:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Transformational Leadership, Turbulent Environment"
+    },
+    {
+     "label": "b",
+     "text": "Transactional Leadership, Static Environment"
+    },
+    {
+     "label": "c",
+     "text": "Transactional Leadership, Settled Environment"
+    },
+    {
+     "label": "d",
+     "text": "Transformational Leadership, Mature Industries"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic leadership"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q3",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich of the following Michael Porters’ Generic strategics has been followed in launching ‘RAFTAR’?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Cost Leadership"
+    },
+    {
+     "label": "b",
+     "text": "Differentiation"
+    },
+    {
+     "label": "c",
+     "text": "Focused Cost Leadership"
+    },
+    {
+     "label": "d",
+     "text": "Focused Differentiation"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q4",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nCHEETA Ltd., envisages to innovate mobility solutions with passion to enhance quality of life. This is______________ of the company.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Vision"
+    },
+    {
+     "label": "b",
+     "text": "Strategy"
+    },
+    {
+     "label": "c",
+     "text": "Mission"
+    },
+    {
+     "label": "d",
+     "text": "Objective"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q5",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Competitive landscape → Ch 2",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Tomtom a sneaker brand wanted to understand their competitive landscape and thus were looking for the weakest competitors to buy them and thereby decrease competition. Which of the following will be most helpful for them to begin with their plans?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Mergers and Acquisition Planning"
+    },
+    {
+     "label": "b",
+     "text": "BCG Growth Matrix"
+    },
+    {
+     "label": "c",
+     "text": "Strategic Group Mapping"
+    },
+    {
+     "label": "d",
+     "text": "GE Stop Light Matrix"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "competitive landscape"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q6",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic change / change management → Ch 5",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "After an earnest attempt to bring in a strategic change in your organization, you the operational head of XYZ ltd, succeeded but still your organization couldn’t achieve the desired competitive position in the market. Out of the following what could be the reason?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy Formulation"
+    },
+    {
+     "label": "b",
+     "text": "Strategy Model"
+    },
+    {
+     "label": "c",
+     "text": "Strategy Implementation"
+    },
+    {
+     "label": "d",
+     "text": "Strategy Decision"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic change"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q7",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Best Cost provider strategies:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Seek to attract buyers on the basis of charging low price for low quality"
+    },
+    {
+     "label": "b",
+     "text": "Aim at giving customers less value for more money"
+    },
+    {
+     "label": "c",
+     "text": "Seek to attract buyers on the basis of charging high price for high quality"
+    },
+    {
+     "label": "d",
+     "text": "Aim to giving customers low cost and better quality"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q8",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Walmart a global giant sells fast moving consumer goods at even less than wholesale prices to retail customers, this is a strategy of?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Market Penetration"
+    },
+    {
+     "label": "b",
+     "text": "Cost Differentiation"
+    },
+    {
+     "label": "c",
+     "text": "Cost Leadership"
+    },
+    {
+     "label": "d",
+     "text": "Market Development"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q9",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic control types / operational vs management control → Ch 5",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Technique to cope up with sudden change in Government, natural calamities, terrorist attacks, industrial disasters etc. is called",
+   "options": [
+    {
+     "label": "a",
+     "text": "Special Alert Control"
+    },
+    {
+     "label": "b",
+     "text": "Strategic Surveillance"
+    },
+    {
+     "label": "c",
+     "text": "Premise Control"
+    },
+    {
+     "label": "d",
+     "text": "Implementation Control"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic control"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q10",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Merger of two organisations that are operating in the same industry but at different stages of production and distribution system is called: -",
+   "options": [
+    {
+     "label": "a",
+     "text": "Horizontal Merger"
+    },
+    {
+     "label": "b",
+     "text": "Vertical Merger"
+    },
+    {
+     "label": "c",
+     "text": "Co-generic Merger"
+    },
+    {
+     "label": "d",
+     "text": "Conglomerate Merger"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q11",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations → Ch 1",
+   "qno": "1(H)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Functional level managers are concerned with-",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategies that are responsible for the operations of specific business"
+    },
+    {
+     "label": "b",
+     "text": "Strategies that span multiple businesses"
+    },
+    {
+     "label": "c",
+     "text": "Strategies that are specific to particular country"
+    },
+    {
+     "label": "d",
+     "text": "Strategies that encourage a favourable attitude toward change"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q12",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through strategic alliance / joint venture → Ch 4",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Jeff Inc., a leading USA based Mobile company decides to make India a hub for the company’s Android\nMobile having largest storage memory to be manufactured in collaboration with the Desi Group, a\nleading Indian mobile manufacturer. The production is to be exported to the company’s home market as\nwell as to other European countries.\nWhat is this growth strategy called? Point out the most important advantages both the companies expect\nfrom such strategy/collaboration.",
+   "options": null,
+   "answer": "Jeff Inc. of USA and Desi group of India opted for strategic alliance as their growth strategy. A strategic\nalliance is a relationship between two or more businesses that enables each to achieve certain strategic\nobjectives which neither would be able to achieve on its own. Strategic alliances are often formed in the global\nmarketplace between businesses that are based in different regions of the world.\nAdvantages of Strategic Alliance\nStrategic alliance usually is only formed if they provide an advantage to all the parties in the alliance. These\nadvantages can be broadly categorised as follows:\n1. Organizational: Strategic alliance helps to learn necessary skills and obtain certain capabilities\nfrom strategic partners. Strategic partners may also help to enhance productive capacity, provide\na distribution system, or extend supply chain. Having a strategic partner who is well-known and\nrespected also helps add legitimacy and creditability to a new venture.\n2. Economic: There can be reduction in costs and risks by distributing them across the members of\nthe alliance. Greater economies of scale can be obtained in an alliance, as production volume can\nincrease, causing the cost per unit to decline. Finally, partners can take advantage of co -\nspecialization, creating additional value, such as when a leading computer manufacturer bundles\nits desktop with a leading monitor manufacturer’s monitor.\n3. Strategic: Rivals can join together to cooperate instead of competing with each other. Vertical\nintegration can be created where partners are part of supply chain. Strategic alliances may also be\nuseful to create a competitive advantage by the pooling of resources and skills. This may also help\nwith future business opportunities and the development of new products and te chnologies.\nStrategic alliances may also be used to get access to new technologies or to pursue joint research\nand development.\n4. Political: Sometimes strategic alliances are formed with a local foreign business to gain entry into\na foreign market either because of local prejudices or legal barriers to entry. Forming strategic\nalliances with politically influential partners may also help improve your own influence and position.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic alliance"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q13",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Driving forces of industry change → Ch 2",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Shridhar who is running a medium size cloth manufacturing business in Panipat wishes to\nunderstand the driving forces that trigger change. He has sought advice from you and wishes to\nknow common driving forces.",
+   "options": null,
+   "answer": "Industry and competitive conditions of organisation change as environmental forces are in motion.\nThe most dominant forces are called driving forces because they have the biggest influence on\nwhat kinds of changes will take place in the industry's structure and competitive environment.\n\nAnalyzing driving forces has two steps: identifying what the driving forces are and assessing the\nimpact they will have on the industry.\nMany events can affect an industry powerfully enough to qualify as driving forces. Some are unique\nand specific to a particular industry situation, but many drivers of change fall into general category\naffecting different industries simultaneously. Some of the categories/examples of drivers are:\n• The internet and the new e-commerce opportunities and threats it breeds in the industry.\n• Increasing globalization.\n• Changes in the long-term industry growth rate.\n• Product innovation.\n• Marketing innovation.\n• Entry or exit of major forms.\n• Diffusion of technical know-how across more companies and more countries.\n• Changes in cost and efficiency.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "driving forces"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q14",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations → Ch 1",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain the difference between three levels of strategy formulation.",
+   "options": null,
+   "answer": "A typical large organization is a multidivisional organisation that competes in several different\nbusinesses. It has separate self-contained divisions to manage each of these. There are three\nlevels of strategy in management of business - corporate, business, and functional.\nThe corporate level of management consists of the chief executive officer and other top level\nexecutives. These individuals occupy the apex of decision making within the organization. The role\nof corporate-level managers is to oversee the development of strategies for the whole organization.\nThis role includes defining the mission and goals of the organization, determining what businesses\nit should be in, allocating resources among the different businesses and so on rests at the\nCorporate Level.\nThe development of strategies for individual business areas is the responsibility of the general\nmanagers in these different businesses or business level managers. A business unit is a self -\ncontained division with its own functions - for example, finance, production, and marketing. The\nstrategic role of business-level manager, head of the division, is to translate the general statements\nof direction and intent that come from the corporate level into concrete strategies for individual\nbusinesses.\nFunctional-level managers are responsible for the specific business functions or operations such\nas human resources, purchasing, product development, customer service, and so on. Thus, a\nfunctional manager’s sphere of responsibility is generally confined to one organizational activity,\nwhereas general managers oversee the operation of a whole company or division.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q15",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategic management — strategic decisions and the strategic manager → Ch 1",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"Strategic decisions are different in nature than all other decisions.\" In the light of this statement\nexplain major dimensions of strategic decisions.",
+   "options": null,
+   "answer": "Strategic decisions are different in nature than all other operational decisions. The dimensions of\nstrategic decisions are not similar to that of other decisions which are taken at various levels of the\norganization during day-to-day working.\nThe following major dimensions of strategic decisions make them different than operational\ndecisions:\n1. Strategic decisions require top-management decisions. Strategic decisions involve thinking\nin totality of the organizations and there is also a lot of risk involved in that.\n2. Strategic decisions involve the allocation of large amounts of company resources -\nfinancial, technical, human etc.\n3. Strategic decisions are likely to have a significant impact on the long-term prosperity of\nthe firm.\n\n4. Strategic decisions are future oriented.\n5. Strategic decisions usually have major multifunctional or multi-business consequences.\n6. Strategic decisions necessitate consideration of factors in the firm’s external environment.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q16",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Personal selling (promotion element of the marketing mix) — dropped from the 2023 syllabus (old Ch 6.2)",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Mr. Vicky Verma, a Gwalior based entrepreneur, has entered into an exclusive-retail deal with an\nItalian company selling ‘Fantasy-3D’, a Hologram LED Fan, which is being used for advertising at\npublic places. Mr. Verma procured a total of 500 units of the product and paid upfront as per the\nseller’s policy. This resulted in blocking of his working capital significantly and the shipment is\nexpected in a month. Meanwhile his continued efforts of establishing relations with the marke ting\nheads of corporates resulted in a series of meetings, where he demonstrated his specialist product\nknowledge by changing the hologram images to personalise basis specifications of the customer.\nThe management of a big automotive company was impressed with the quality and adaptability of\nthe product and awarded a contract of 125 units to be displayed in the auto-maker’s showrooms.\nIdentify and explain the product promotion strategy adopted by Mr. Verma.",
+   "options": null,
+   "answer": "Mr. Vicky Verma established personal contacts with potential buyers of the product and persuaded\nthe marketing department over several physical meetings and was finally able to make sales. The\npersonal relation establishment and physical demonstration, indicates that Mr. Verma used the\nPersonal Selling method of Promotion. Modern marketing is highly promotional oriented and\ninclude personal selling, advertising, publicity and sales promotion. Personal selling involves face\nto face interaction of salespersons with the prospective customers and provides a high degree of\npersonal attention. It involves working with one customer at a time and hence not cost effective.\nThe intention of oral communication is sale.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "promotion",
+    "personal selling"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q17",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / implementation issues → Ch 5",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between Strategy Formulation and Strategy Implementation.",
+   "options": null,
+   "answer": "Although inextricably linked, strategy implementation is fundamentally different from strategy\nformulation in the following ways:\nStrategy Formulation Strategy Implementation\n Strategy formulation focuses on  Strategy implementation focuses on efficiency.\neffectiveness.\n Strategy formulation is primarily an  Strategy implementation is primarily an\nintellectual process. operational process.\n Strategy formulation requires conceptual  Strategy implementation requires motivation\nintuitive and analytical skills. and leadership skills.\n Strategy formulation requires  Strategy implementation requires coordination\ncoordination among the executives at among the executives at the middle and lower\nthe top level. levels.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q18",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing mix / expanded marketing mix — part of the dropped functional Marketing Strategy (old Ch 6.2)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Elucidate Expanded Marketing Mix.",
+   "options": null,
+   "answer": "Expanded Marketing Mix:\nTypically, all organizations use a combination of 4 Ps in some form or the other that is product,\nprice, place, and promotion. However, the above elements of marketing mix are not exhaustive.\nThere are a few more elements that may form part of an organizational marketing mix strategy as\nfollows:\n1. People: all human actors who play a part in delivery of the market offering and thus influence\nthe buyer’s perception, namely the firm’s personnel and the customer.\n2. Physical evidence: the environment in which the market offering is delivered and where the\nfirm and customer interact.\n3. Process: the actual procedures, mechanisms and flow of activities by which the product/\nservice is delivered.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "marketing mix",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q19",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Bunch Pvt Ltd. is dealing in multiproduct like electronics and FMCG and are having outlets in\ndifferent cities and markets across India. Due to scale of operation, it is having technical difficulty\nin dealing with distinct product line and markets especially in coordination and control related\nproblems. Identify and suggest an ideal organizational structure for Bunch Pvt Ltd in resolving the\nproblem?",
+   "options": null,
+   "answer": "To deal with the problems facing by the Bunch Pvt Ltd., we suggest Multi divisional structure for\nthe organisation. Multidivisional (M-form) structure is composed of operating divisions where each\nfor day-to-day operations and business unit strategy to division managers. By such delegation, the\ncorporate office is responsible for formulating and implementing overall corporate strategy and\nmanages divisions through strategic and financial controls.\nMultidivisional or M-form structure was developed in the 1920s, in response to coordination-and\ncontrol-related problems in large firms. Functional departments often had difficulty dealing with\ndistinct product lines and markets, especially in coordinating conflicting priorities among the\nproducts. Costs were not allocated to individual products, so it was not possible to assess an\nindividual product’s profit contribution. Loss of control meant that optimal allocation of firm\n\nresources between products was difficult (if not impossible). Top managers became over-involved\nin solving short-run problems (such as coordination, communications, conflict resolution) and\nneglected long-term strategic issues.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2023-s1-q20",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain in brief the various basis of differentiation strategy.",
+   "options": null,
+   "answer": "There are several basis of differentiation, major being: Product, Pricing and Organization.\nProduct: Innovative products that meet customer needs can be an area where a company has an\nadvantage over competitors. However, the pursuit of a new product offering can be costly –\nresearch and development, as well as production and marketing costs can all add t o the cost of\nproduction and distribution. The payoff, however, can be great as customer’s flock to be among\nthe first to have the new product.\nPricing: It fluctuates based on its supply and demand and may also be influenced by the\ncustomer’s ideal value for a product. Companies that differentiate based on product price can either\ndetermine to offer the lowest price or can attempt to establish superiority through higher prices.\nOrganisation: Organisational differentiation is yet another form of differentiation. Maximizing the\npower of a brand or using the specific advantages that an organization possesses can be\ninstrumental to a company’s success. Location advantage, name recognition and customer loyalty\ncan all provide additional ways for a company differentiate itself from the competition.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  }
+ ]
+}

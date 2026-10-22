@@ -1,0 +1,254 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "May 2018",
+  "attempt_sort": "2018-05",
+  "series": "I",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/Enterprise_Information_Systems_.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/Enterprise_Information_Systems_-2.pdf",
+  "local_file": "raw/mtp-old-may2018-s1-q.pdf",
+  "local_answers_file": "raw/mtp-old-may2018-s1-a.pdf",
+  "test_series": "March 2018",
+  "mock_test_paper_no": null,
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP for the May 2018 attempt (Test Series: March 2018). The ICAI originals are no longer on resource.cdn.icai.org; retrieved from the castudynotes.com mirror of the official ICAI PDFs (https://castudynotes.com/2022/07/04/ca-inter-paper-7-eis-sm-mock-test-papers-mtp-compilation-from-may18-to-may22-at-one-place-in-pdf/). ICAI published only Series I for this attempt."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-may2018-s1-q1",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(a)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Explain competitive advantage.",
+   "options": null,
+   "answer": "Competitive advantage is the position of a firm to maintain and sustain a favorable market position\nwhen compared to the competitors. Competitive advantage is ability to offer buyers something\ndifferent and thereby providing more value for the money. It is the result of a successful strategy.\nThis position gets translated into higher market share, higher profits when compared to those that\nare obtained by competitors operating in the same industry. Competitive advantage may also be\nin the form of low cost relationship in the industry or being unique in the industry along dimensions\nthat are widely valued by the customers in particular and the society at large.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q2",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "1(b)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What is strategic vision?",
+   "options": null,
+   "answer": "A strategic vision delineates organisation’s aspirations for the business, providing a panoram ic\nview of the position where the organisation is going. A strategic vision points an organization in a\nparticular direction, charts a strategic path for it to follow in preparing for the future, and moulds\norganizational identity. A Strategic vision is a road map of a company’s future – providing specifics\nabout technology and customer focus, the geographic and product markets to be pursued, the\ncapabilities it plans to develop, and the kind of company that management is trying to create.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(c)",
+   "kind": "descriptive",
+   "marks": 4,
+   "question": "What do you understand by co-generic merger?",
+   "options": null,
+   "answer": "In co-generic merger two or more merging organizations are associated in some way or the other\nrelated to the production processes, business markets, or basic required technologies. Such\nmerger include the extension of the product line or acquiring components that are required in the\ndaily operations.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q4",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — partly proactive, partly reactive → Ch 1",
+   "qno": "2(a)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Which of the following statements are ‘correct’ and which are ‘incorrect’? Give reasons, in brief, for your\nanswer:\nEvery strategic move is the result of proactive planning.",
+   "options": null,
+   "answer": "Incorrect: In business, things happen that cannot be fully anticipated or planned for. When market\nand competitive conditions take an unexpected turn or some aspect of a company's strategy hits a\nstone wall, some kind of strategic reaction or adjustment is required.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "nature of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q5",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Economies of scale as a barrier to entry (threat of new entrants) → Ch 2",
+   "qno": "2(b)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Which of the following statements are ‘correct’ and which are ‘incorrect’? Give reasons, in brief, for your\nanswer:\nEconomies of scale discourages new entrants.",
+   "options": null,
+   "answer": "Correct: Economies of scale refer to the decline in the per-unit cost of production (or other activity)\nas volume grows. A large firm that enjoys economies of scale can produce high volumes of goods\nat successively lower costs. This tends to discourage new entrants.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "five forces",
+    "barriers to entry"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q6",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "2(c)",
+   "kind": "descriptive",
+   "marks": 4,
+   "question": "Which of the following statements are ‘correct’ and which are ‘incorrect’? Give reasons, in brief, for your\nanswer:\nHuman resource management aids in strategic management.",
+   "options": null,
+   "answer": "Correct: The human resource management helps the organization to effectively deal with the\nexternal environmental challenges. The function has been accepted as a partner in the formulation\nof organization’s strategies and in the implementation of such strategies through human resource\nplanning, employment, training, appraisal and rewarding of personnel.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q7",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Intrapreneur — Entrepreneurship/Intrapreneurship dropped from the 2023 syllabus (old Ch 7.5)",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Always Fit is a company that operates in pharmacy store chains. Its stores are specialized in\nproviding prescribed medicines, health and wellness products etc. in the country. The store chain\nis having surplus space which can be utilized for other purposes. Azad, a senior executive of the\nresearch and development wing in the company conceives an idea to manufacture and sell the\ncosmetic products for utilizing the surplus space available in the pharmacy stores.\nIdentify and explain the role of Azad in company.",
+   "options": null,
+   "answer": "Azad plays role as an intrapreneur who operates within the boundaries of an organisation. He is\nan employee of Always Fit, who is vested with authority of initiating creativity and innovation in the\ncompany’s products, services and projects, redesigning the processes, workflows and systems.\nAzad believes in change and do not fear failure. He discovers a new idea which can benefit the\nwhole organization by utilizing the surplus space in the stores. The job of Azad is extremely\nchallenging. He gets recognition and reward for the success achieved.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "intrapreneur"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q8",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "SWOT analysis → Ch 3",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Arena Ltd. manufactures computers that are of low in production cost, competitive price, and\nquality to their competitor’s product. Profits and market share are declining day by day. Shreekanth,\na senior executive realizes that drastic strategies have to be created for the survival of a company.\nAfter SWOT analysis by assessing the strengths and weaknesses, they come up with the\nconclusion that they cannot compete in the computers with the competitors. The management\ndirects Shreekanth to act quick and develop a suitable strategic plan.\nDiscuss the strategy which can be opted by Shreekanth.",
+   "options": null,
+   "answer": "Shreekant opt for turnaround strategy which is a highly-targeted effort to return Arena Ltd. to\nprofitability and increase positive cash flows to a sufficient level. Organizations those have faced\na significant crisis that has negatively affected operations require turnaround strategy. Once\nturnaround is successful the organization may turn to focus on growth.\n\nConditions for turnaround strategies\nWhen firms are losing their grips over market, profits due to several internal and external factors,\nand if they have to survive under the competitive environment they have to identify danger signals\nas early as possible and undertake rectification steps immediately. These conditions may be, inter\nalia cash flow problems, lower profit margins, high employee turnover and decline in market share,\ncapacity underutilization, low morale of employees, recessionary conditions, mismanagement, raw\nmaterial supply problems and so on.\nAction plan for turnaround strategy\n Stage One – Assessment of current problems\n Stage Two – Analyze the situation and develop a strategic plan\n Stage Three – Implementing an emergency action plan\n Stage Four – Restructuring the business\n Stage Five – Returning to normal",
+   "mcq_answer": null,
+   "topic_tags": [
+    "swot"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q9",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic group mapping → Ch 3",
+   "qno": "3(c)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Mr. Banerjee is head of marketing department of a manufacturing company. His company is in\ndirect competition with thirteen companies at national level. He wishes to study the market positions\nof rival companies by grouping them into like positions.\nName the tool that may be used by Mr. Banerjee? Explain the procedure that may be used to\nimplement the technique.",
+   "options": null,
+   "answer": "A tool to study the market positions of rival companies by grouping them into like positions is\nstrategic group mapping. Grouping competitors is useful when there are many competitors such\nthat it is not practical to examine each one in-depth. In the given scenario there are thirteen\ncompetitors. A strategic group consists of those rival firms which have similar competitive\napproaches and positions in the market.\nThe procedure for constructing a strategic group map and deciding which firms belong in which\nstrategic group is as follows:\n Identify the competitive characteristics that differentiate firms in the industry typical variables\nthat are price/quality range (high, medium, low); geographic coverage (local, regional,\nnational, global); degree of vertical integration (none, partial, full); product-line breadth (wide,\nnarrow); use of distribution channels (one, some, all); and degree of service offered (no-frills,\nlimited, full).\n Plot the firms on a two-variable map using pairs of these differentiating characteristics.\n Assign firms that fall in about the same strategy space to the same strategic group .\n Draw circles around each strategic group making the circles proportional to the size of the\ngroup's respective share of total industry sales revenues.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic group mapping"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q10",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Importance and benefits of strategic management → Ch 1",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Briefly explain the importance of strategic management.",
+   "options": null,
+   "answer": "Importance of Strategic Management: Strategic Management is very important for the survival and\ngrowth of business organizations in dynamic business environment. Other major benefits of\nstrategic management are as follows:\n It helps organizations to be more proactive rather than reactive in dealing with its future. It\nfacilitates the organisations to work within vagaries of environment and remains adaptable\nwith the turbulence or uncertain future. Therefore, they are able to control their own destiny\nin a better way.\n It provides better guidance to entire organization on the crucial point – what it is trying to do.\nAlso provides framework for all major business decisions of an enterprise such a decision on\nbusinesses, products, markets, organization structures, etc.\n It facilitates to prepare the organization to face the future and act as pathfinder to various\nbusiness opportunities. Organizations are able to identify the available opportunities and\nidentify ways and means as how to reach them.\n It serves as a corporate defence mechanism against mistakes and pitfalls. It helps\norganizations to avoid costly mistakes in product market choices or in vestments.\n\n Over a period of time, strategic management helps organizations to evolve certain core\ncompetencies and competitive advantages that assist in the fight for survival and growth.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "importance"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q11",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategic management — strategic decisions and the strategic manager → Ch 1",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What is strategic decision making? What are its major dimensions?",
+   "options": null,
+   "answer": "Decision making is a managerial process of selecting the best course of action out of several\nalternative courses for the purpose of accomplishment of the organizational goals. Decisions may\nbe operational i.e., which relate to general day-to-day operations. They may also be strategic in\nnature. According to Jauch and Glueck “Strategic decisions encompass the definition of the\nbusiness, products to be handled, markets to be served, functions to be performed and major\npolicies needed for the organisation to execute these decisions to achieve the strategic objectives.”\nThe major dimensions of strategic decisions are as follows:\n Strategic decisions require top-management involvement: Strategic decisions involve thinking\nin totality of the organization. Hence, problems calling for strategic decisions require to be\nconsidered by the top management.\n Strategic decisions involve commitment of organisational resources: For example, Strategic\ndecisions to launch a new project by a firm requires allocation of huge fund s and assignment\nof a large number of employees.\n Strategic decisions necessitate consideration of factors in the firm’s external environment:\nStrategic focus in organization involves orienting its internal environment to the changes of\nexternal environment.\n Strategic decisions are likely to have a significant impact on the long-term prosperity of the\nfirm: Generally, the results of strategic implementation are seen on a long-term basis and not\nimmediately.\n Strategic decisions are future oriented: Strategic thinking involves predicting the future\nenvironmental conditions and how to orient for the changed conditions.\n Strategic decisions usually have major multifunctional or multi-business consequences: As\nthey involve organization in totality they affect different sections of the organization with\nvarying degree.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q12",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Financial Strategy — dropped from the 2023 syllabus (old Ch 6.3)",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "“Evaluating the worth of a business is central to strategy implementation.” In the light of this\nstatement, explain the methods that can be used for determining the worth of a business.",
+   "options": null,
+   "answer": "It is true that evaluating the worth of a business is central to strategy implementation. There are\ncircumstances where it is important to evaluate the actual worth of the business. These\ncircumstances can be wide and varied. At a higher level they may include acquisition, merges or\ndiversification. They may also include other situations such as fixing of share price in an issue.\nAcquisition, merger, retrenchment may require establishing the financial worth or cash value of a\nbusiness to successfully implement such strategies.\nVarious methods for determining a business’s worth can be grouped into three main approaches.\n(i) Net worth or stockholders’ equity: Net worth is the total assets minus total outside liabilities\nof an organisation.\n(ii) Future benefits to owners through net profits: These benefits are considered to be much\ngreater than the amount of profits. A conservative rule of thumb is to establish a business’s\nworth as five times the firm’s current annual profit. A five-year average profit level could also\nbe used.\n(iii) Market-determined business worth: This, in turn, involves three methods. First, the firm’s\nworth may be based on the selling price of a similar company. The second approach is called\nthe price-earnings ratio method whereby the market price of the firm’s equity shares is divided\nby the annual earnings per share and multiplied by the firm’s average net income for the\npreceding years. The third approach can be called the outstanding shares method whereby\none has to simply multiply the number of shares outstanding by the market price per share\nand add a premium.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "financial strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q13",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between cost leadership and differentiation strategies.",
+   "options": null,
+   "answer": "Cost leadership emphasizes producing standardized products at a very low per-unit cost for\nconsumers who are price-sensitive. Differentiation is a strategy aimed at producing products and\nservices considered unique industry wide and directed at consumers who are relatively price -\ninsensitive.\nA primary reason for pursuing forward, backward, and horizontal integration strategies is to gain\ncost leadership benefits. But cost leadership generally must be pursued in conjunction with\ndifferentiation. Different strategies offer different degrees of differentiation. A differentiation\nstrategy should be pursued only after a careful study of buyers’ needs and preferences to\ndetermine the feasibility of incorporating one or more differentiating features into a unique product.\nA successful differentiation strategy allows a firm to charge a higher price for its product and to\ngain customer loyalty.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2018-s1-q14",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy audit / Rumelt’s criteria — dropped from the 2023 syllabus (old Paper 7B Ch 8.6)",
+   "qno": "6",
+   "kind": "descriptive",
+   "marks": 7,
+   "question": "What is strategy audit? Explain the criteria for strategy audit as given by Richard Rumelt.\nOr\nDefine strategic change. Explain the various stages/phases of change process as propounded by Kurt\nLewin.",
+   "options": null,
+   "answer": "A strategy audit is an examination and evaluation of areas affected by the operation of a strategic\nmanagement process within an organization. The audit of management performance with regard to\nexternal strategies helps an organization identify problem areas and correct the strategic approaches\nthat have not been effective so far. It is a process for taking an objective look at the existing strategies\nof the organization. It involves assessing the direction of a business and comparing that to the course\nrequired to succeed in a changing environment.”\nCompanies review their business plans and strategies on regular basis to identify weaknesses and\nshortcomings to enable a successful development plan. The strategy audit secures that all necessary\ninformation for the development of the company are included in the business plan and that the\nmanagement supports it.\nRichard Rumelt’s Criteria for Strategy Audit\na. Consistency: A strategy should not present inconsistent goals and policies which can lead to\norganizational problems and conflicts. Three guidelines to identify are:\n Strategies may be inconsistent if managerial problems tend to be issue-based rather than\npeople-based.\n If success for one organizational department means, or is interpreted to mean, failure for\nanother department, then strategies may be inconsistent.\n If policy problems and issues continue to be brought to the top for resolution, then strategies\nmay be inconsistent.\nb. Consonance: Consonance refers to the need for strategists to examine sets of trends, as well as\nindividual trends, in auditing strategies. A strategy must represent an adaptive response to the\nexternal environment and to the critical changes occurring within it. One difficulty in matching a\nfirm’s key internal and external factors in the formulation of strategy is that most trends ar e the\nresult of interactions among other trends.\nc. Feasibility: A strategy must neither overtax available resources nor create unsolvable sub -\nproblems. The final broad test of strategy is its feasibility; that is, can the strategy be attempted\nwithin the physical, human, and financial resources of the enterprise? In auditing a strategy, it is\nimportant to examine whether an organization has demonstrated in the past that it possesses the\nabilities, competencies, skills, and talents needed to carry out a given strategy.\nd. Advantage: A strategy must provide for the creation and/or maintenance of a competitive\nadvantage in a selected area of activity. Competitive advantages normally are the result of\nsuperiority in one of three areas:\n(1) resources, (2) skills, or (3) position.\n\nor\nThe changes in the environmental forces often require businesses to make modifications in their\nexisting strategies and bring out new strategies. Strategic change is a complex process and it\ninvolves a corporate strategy focused on new markets, products, services and new ways of doing\nbusiness.\nTo make the change lasting, Kurt Lewin proposed three phases of the change process for\nmoving the organization from the present to the future. These stages are unfreezing, changing\nand refreezing.\n(i) Unfreezing the situation: The process of unfreezing simply makes the individuals or\norganizations aware of the necessity for change and prepares them for such a change.\nLewin proposes that the changes should not come as a surprise to the members of the\norganization. Sudden and unannounced change would be socially destructive and\nmorale lowering. The management must pave the way for the change by first “unfreezing\nthe situation”, so that members would be willing and ready to accept the change.\n(ii) Changing to New situation: Once the unfreezing process has been completed and the\nmembers of the organization recognise the need for change and have been fully\nprepared to accept such change, their behaviour patterns need to be redefined. H.C.\nKellman has proposed three methods for reassigning new patterns of behaviour. These\nare compliance, identification and internalisation.\n(iii) Refreezing: Refreezing occurs when the new behaviour becomes a normal way of life.\nThe new behaviour must replace the former behaviour completely for successful and\npermanent change to take place. In order for the new behaviour to become permanent,\nit must be continuously reinforced so that this new acquired behaviour does not diminish\nor extinguish.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy audit",
+    "rumelt"
+   ]
+  }
+ ]
+}

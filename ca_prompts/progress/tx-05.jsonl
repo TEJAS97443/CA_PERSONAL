@@ -1,0 +1,5 @@
+{"t": 1792466183.577504, "step": "start", "note": "claiming first batch"}
+{"t": 1792467251.902406, "step": "b1", "note": "t-05 n-p5-pyq-may2026 44 items"}
+{"t": 1792468219.4971929, "step": "b2", "note": "t-12 n-p6-pyq-sep2025 25 items"}
+{"t": 1792470279.942654, "step": "b3", "note": "t-23 n-p5-pyq-may2024 25 items"}
+{"t": 1792470358.487742, "step": "report", "note": "3 batches: t-05 44, t-12 25, t-23 25 items; report in reports/tx-05.md"}

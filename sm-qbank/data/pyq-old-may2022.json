@@ -1,0 +1,198 @@
+{
+  "source": {
+    "type": "PYQ",
+    "attempt": "May 2022",
+    "attempt_sort": "2022-05",
+    "series": null,
+    "scheme": "old",
+    "paper": "Paper 7B: Strategic Management",
+    "pdf_url": "https://resource.cdn.icai.org/71486bos57500-p7.pdf",
+    "local_file": "raw/pyq-old-may2022-sa.pdf",
+    "retrieved": "2026-10-05",
+    "extract_ok": true,
+    "notes": "ICAI Suggested Answers, Intermediate (New) Paper 7, May 2022. Downloaded directly from ICAI (listed on https://www.icai.org/post/14971). Only Section B (Strategic Management) extracted; Section A (Enterprise Information Systems) skipped. Chapter mapping was reconciled against /Users/ztejas/CA_PERSONAL/sm-qbank/syllabus.json (retrieved 2026-10-05) and its evidence-backed dropped_from_old_scheme list; every OUT_OF_SYLLABUS flag cites that evidence in the record's mapping_note."
+  },
+  "questions": [
+    {
+      "id": "pyq-old-may2022-q6",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Benchmarking as a topic in its own right (meaning and common elements of the benchmarking process) - dropped from the 2023 syllabus (absent from all 5 chapters of syllabus.json)",
+      "qno": "6",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Paramount group of companies is having a strong foot print in the areas of Aviation, Healthcare, Fast moving consumer goods, Home appliances and Electronic goods. Processes, Technology and Marketing capabilities are different for each business. However, each business operates among a group of rivals that produce competing products. In order to get ahead of competition and to contribute for sustained competitive advantages, company intends to improve customer services and in turn increase its market share. To achieve this, company is desirous to analyze its products, processes and service levels for each of its segments.\nCompany is studying various trade publications, understanding the taste and preferences of customers, meeting with suppliers and also using other relevant information available in public domain for each of its business operations. After studying as above, company wants to compare diverse range of practices and processes being followed by acknowledged leaders in the industry, measures its own productivity and identify the gaps. Instead of following bricks-and-mortar practices, company will be setting goals to be achieved for improvement in its product, processes and services, based on best practices being followed by the companies on a regular basis.\nIdentify the strategic tool to be used by Paramount group of companies. Also explain in brief the common elements involved in using this tool.",
+      "options": null,
+      "answer": "Paramount group of companies have used Benchmarking as a strategic tool. Benchmarking is an approach of setting goals and measuring productivity of firms based on best industry practices or against the products, services and practices of its competitors or other acknowledged leaders in the industry. Thus, benchmarking is a process of continuous improvement in search for competitive advantage. Firms can use benchmarking practices to achieve improvements in diverse range of management functions like product development, customer services, human resources management, etc.\nSome of the common elements of benchmarking process are as under:\n- Identifying the need for benchmarking: This step will define the objectives of the benchmarking exercise. It will also involve selecting the type of benchmarking. Organizations identify realistic opportunities for improvements.\n- Clearly understanding existing decisions processes: The step will involve compiling information and data on performance. This will include mapping processes.\n- Identify best processes: Within the selected framework best processes are identified. These may be within the same organization or external to it.\n- Comparison of own process and performance with that of others: Benchmarking process also involves comparison of performance of the organization with performance of other organization. Any deviation between the two is analysed to make further improvements.\n- Prepare a report and implement the steps necessary to close the performance gap: A report on benchmarking initiatives containing recommendations is prepared. Such a report also contains the action plans for implementation.\n- Evaluation: Business organizations evaluate the results of the benchmarking process in terms of improvements vis-à-vis objectives and other criteria set for the purpose. It also periodically evaluates and reset the benchmarks in the light of changes in the conditions that impact the performance.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "benchmarking",
+        "best practices",
+        "performance gap"
+      ]
+    },
+    {
+      "id": "pyq-old-may2022-q7a",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Relevance of strategic management to a not-for-profit Association of Persons - the old named topic 'Strategic Management in Government and Not-for-profit organisation' (old Ch 1), which syllabus.json lists as dropped with high confidence.",
+      "qno": "7(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Good Health is an Association of Persons (AOP), providing awareness to downtrodden on immunization, vaccination, sanitation and other health and hygiene issues. It is a not-for-profit organization, working in coordination with hospitals, medical support centers and local administration.\nYou are asked to take over the organization and manage it in a better way. Identify whether the concept of strategic management is relevant in this connection? And if so, what basic activities you would perform in order to manage it efficiently?",
+      "options": null,
+      "answer": "The concept of strategic management process is effectively being used by a number of not-for-profit or charitable organizations. While ‘Good Health’ may have social and charitable existence, still it has to generate resources and use them wisely to achieve organisational objectives. Organisation needs to be managed strategically, irrespective whether they have profit motive. The strategic management at ‘Good Health’ should essentially cover:\n- Analyzing and interpreting the strategic intent in terms of vision, mission and objectives.\n- Generating required resources in terms of finance and manpower (volunteers, paid employees).\n- Undertaking SWOT analysis from time to time.\n- Setting goals in the area of downtrodden. It can be in terms of geographical coverage and number of downtrodden.\n- Analyzing the desired future position with the past and present situation.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic management",
+        "not-for-profit organisation",
+        "strategic intent"
+      ]
+    },
+    {
+      "id": "pyq-old-may2022-q7b",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Whether top-level strategies must be segregated into viable functional plans and policies -> Ch 1 (Strategic Levels in Organizations: Corporate, Business, Functional and Network, and the network of relationship between the levels). Judgement call: syllabus.json records the standalone chapter-level treatment of Functional Level Strategies (old Ch 6) as dropped, and ICAI's answer is the old 'why functional strategies are needed' list; but the corporate-to-functional linkage this question turns on is itself a named 2023 syllabus bullet, so it is mapped to the nearest chapter per SPEC §5 rather than flagged.",
+      "qno": "7(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "\"Is it imperative to segregate top level strategies into viable functional plans and policies?\" Do you agree with this statement? Support your answer with reason.",
+      "options": null,
+      "answer": "Yes, it is imperative to segregate the top-level strategies into viable functional plans and policies that are compatible with each other. Major strategies must be translated to lower levels to give holistic strategic direction to an organisation. Functional strategies provide details to business strategy & govern as to how key activities of the business will be managed. The reasons why functional strategies are needed can be enumerated as follows:\n- Functional strategies lay down clearly what is to be done at the functional level. They provide a sense of direction to the functional staff.\n- They are aimed at facilitating the implementation of corporate strategies and the business strategies formulation at the business level.\n- They act as basis for controlling activities in the different functional areas of business.\n- They help in bringing harmony and coordination as they are formulated to achieve major strategies.\n- These strategies help the functional managers in handling similar situations occurring in different functional areas in a consistent manner.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "functional strategies",
+        "strategic levels",
+        "functional plans"
+      ]
+    },
+    {
+      "id": "pyq-old-may2022-q8a",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Five-stage strategic management process plus steps for initiating strategic change -> Ch 5 (stages in strategic management, strategic change)",
+      "qno": "8(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "XYZ Ltd. is an automobile company that offers diversified products for all customer segments. Due to COVID-19, the changes took place in the economy forced the company to change its strategy. Being the CEO of the company, what stages will you follow for developing and executing the new strategy?",
+      "options": null,
+      "answer": "Today, India has become the outsourcing hub for many of the global automobile manufacturers. The auto industry comprises of four segments which are passenger vehicles, commercial vehicles, three wheelers and two wheelers. XYZ Ltd. is an automobile company that offers diversified products for all customer segments. The company has already in existence, so it has its own vision, mission and a strategy to execute for achieving its vision. While developing and executing the strategy, XYZ Ltd. might have followed the five-stage managerial process as given below:\n1. Developing a strategic vision.\n2. Environmental and organisational analysis.\n3. Formulation of strategy.\n4. Implementing and executing the strategy.\n5. Strategic evaluation and control.\nBut due to COVID-19, the automobile industry has faced the lockdown situation. Changes in the economy forced the XYZ Ltd. to change its existing strategy and prepare the new strategy. The changes in the environmental forces due to COVID-19 requires XYZ Ltd. to make modifications in their existing strategies and bring out new strategies.\nFor initiating strategic change, three steps can be followed by the CEO of the company which are as under:\n(i) Recognize the need for change: This is the first step to diagnose facets of the corporate culture that are strategy supportive or not. This has already identified by the XYZ Ltd.\n(ii) Create a shared vision to manage change: Objectives and vision of both individuals and organization should coincide. The CEO of XYZ Ltd. need to constantly and consistently communicate the vision not only to inform but also to overcome resistance.\n(iii) Institutionalize the change: Creating and sustaining a different attitude towards change is essential to ensure that the XYZ Ltd. does not slip back into old ways of thinking or doing things. All these changes should be set up as a practice to be followed by the company and be able to transfer from one level to another as a well settled practice.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic management process",
+        "strategic change",
+        "stages in strategic management"
+      ]
+    },
+    {
+      "id": "pyq-old-may2022-q8b",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Network structure (virtual organisation) and when it is useful -> Ch 5 (organisation structure)",
+      "qno": "8(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Due to reoccurrence of various variants of Corona virus, LMN Ltd. is facing unstable environment and it has started unbundling and disintegrating its activities. It also started relying on outside vendors for performing these activities. Identify the organisation structure LMN Ltd. is shifting to. Under what circumstances this structure becomes useful?",
+      "options": null,
+      "answer": "LMN Ltd. is shifting into network structure. It is a newer and somewhat more radical organisational design. The network structure could be termed a \"non-structure\" as it virtually eliminates in-house business functions and outsource many of them. An organization organized in this manner is often called a virtual organization because it is composed of a series of project groups or collaborations linked by constantly changing non-hierarchical, cobweb-like networks.\nThe network structure becomes most useful when the environment of a firm is unstable and is expected to remain so. Under such conditions, there is usually a strong need for innovation and quick response. Instead of having salaried employees, it may contract with people for a specific project or length of time. Long-term contracts with suppliers and distributors replace services that the company could provide for itself through vertical integration. The network structure provides organization with increased flexibility and adaptability to cope with rapid technological change and shifting pattern of international trade and competition.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "network structure",
+        "virtual organisation",
+        "organisation structure"
+      ]
+    },
+    {
+      "id": "pyq-old-may2022-q9a",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Forward and backward linkages between strategy formulation and implementation -> Ch 5 (linkages and issues in strategy implementation)",
+      "qno": "9(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "\"Strategy formulation and strategy implementation are intertwined and linked with each other.\" Elucidate this statement with suitable arguments.",
+      "options": null,
+      "answer": "The strategy formulation and strategy implementation are intertwined and linked with each other. Two types of linkages exist between these two phases of strategic management. The forward linkages deal with the impact of strategy formulation on strategy implementation while the backward linkages are concerned with the impact in the opposite direction.\nForward Linkages: The different elements in strategy formulation starting with objective setting through environmental and organizational appraisal, strategic alternatives and choice to the strategic plan determine the course that an organization adopts for itself. With the formulation of new strategies, or reformulation of existing strategies, many changes have to be affected within the organization. For instance, the organizational structure has to undergo a change in the light of the requirements of the modified or new strategy. The style of leadership has to be adapted to the needs of the modified or new strategies. In this way, the formulation of strategies has forward linkages with their implementation.\nBackward Linkages: Just as implementation is determined by the formulation of strategies, the formulation process is also affected by factors related with implementation. While dealing with strategic choice, remember that past strategic actions also determine the choice of strategy. Organizations tend to adopt those strategies which can be implemented with the help of the present structure of resources combined with some additional efforts. Such incremental changes, over a period of time, take the organization from where it is to where it wishes to be.\nIt is to be noted that while strategy formulation is primarily an entrepreneurial activity, based on strategic decision-making, the implementation of strategy is mainly an administrative task based on strategic as well as operational decision-making.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "forward linkages",
+        "backward linkages",
+        "strategy formulation",
+        "strategy implementation"
+      ]
+    },
+    {
+      "id": "pyq-old-may2022-q9b",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Four criteria of sustainable competitive advantage for identifying core competencies -> Ch 3 (resources and capabilities / core competence)",
+      "qno": "9(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "There are four specific criteria of sustainable competitive advantage that firms can use to determine those capabilities that are known as core competencies. Explain.",
+      "options": null,
+      "answer": "Four specific criteria of sustainable competitive advantage that firms can use to determine those capabilities that are core competencies. Capabilities that are valuable, rare, costly to imitate, and non-substitutable are core competencies.\ni. Valuable: Valuable capabilities are the ones that allow the firm to exploit opportunities or avert the threats in its external environment. A firm created value for customers by effectively using capabilities to exploit opportunities. Finance companies build a valuable competence in financial services. In addition, to make such competencies as financial services highly successful require placing the right people in the right jobs. Human capital is important in creating value for customers.\nii. Rare: Core competencies are very rare capabilities and very few of the competitors possess this. Capabilities possessed by many rivals are unlikely to be sources of competitive advantage for any one of them. Competitive advantage results only when firms develop and exploit valuable capabilities that differ from those shared with competitors.\niii. Costly to imitate: Costly to imitate means such capabilities that competing firms are unable to develop easily.\niv. Non-substitutable: Capabilities that do not have strategic equivalents are called non-substitutable capabilities. This final criterion for a capability to be a source of competitive advantage is that there must be no strategically equivalent valuable resources that are themselves either not rare or imitable.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "core competence",
+        "sustainable competitive advantage",
+        "resources and capabilities"
+      ]
+    },
+    {
+      "id": "pyq-old-may2022-q10a",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Stability strategy and its major reasons -> Ch 4 (corporate strategy alternatives)",
+      "qno": "10(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "ABC Steel Industries finds out that its products have reached at maturity stage and already has overcapacity. Therefore, it concentrates on maintaining operational efficiency of its plants. Identity the strategy implemented by ABC Steel Industries along with reasons.",
+      "options": null,
+      "answer": "ABC Steel Industries has opted to implement Stability strategy. Stability strategies are intended to safeguard the existing interests and strengths of business. It involves organisations to pursue established and tested objectives, continue on the chosen path, maintain operational efficiency and so on. A stability strategy is pursued when a firm continues to serve in the same or similar markets and deals in same products and services. In stability strategy, few functional changes are made in the products or markets, however, it is not a ‘do nothing’ strategy. This strategy is typical for mature business organizations. Some small organizations also frequently use stability as a strategic focus to maintain comfortable market or profit position.\nMajor reasons for Stability strategy are:\n- A product has reached the maturity stage of the product life cycle.\n- The staff feels comfortable with the status quo as it involves less changes and less risks.\n- It is opted when the environment in which an organisation is operating is relatively stable.\n- Where it is not advisable to expand as it may be perceived as threatening.\n- After rapid expansion, a firm might want to stabilize and consolidate itself.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "stability strategy",
+        "maturity stage",
+        "operational efficiency"
+      ]
+    },
+    {
+      "id": "pyq-old-may2022-q10b",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Diversification; concentric vs conglomerate diversification -> Ch 4 (expansion through diversification)",
+      "qno": "10(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "What do you understand by diversification? Distinguish between concentric and conglomerate diversification.",
+      "options": null,
+      "answer": "Diversification is defined as entry into new products or product lines, new services or new markets, involving substantially different skills, technology and knowledge. Diversification endeavours can be related or unrelated to existing businesses of the firm.\nFollowing are the differences between the concentric diversification and conglomerate diversifications:\n\n| Concentric Diversification | Conglomerate Diversification |\n| --- | --- |\n| Meaning: It occurs when a firm adds related products or markets. | Meaning: It occurs when a firm diversifies into areas that are unrelated to its current line of business. |\n| Linkage: The new business is linked to the existing businesses through process, technology or marketing. | Linkage: Here no such linkages exist; the new business/product is disjointed from the existing businesses/products. |\n| Reasons for pursuing: The most common reason for pursuing a concentric diversification is that opportunities in a firm’s existing line of business are available. | Reasons for pursuing: The common reason for pursuing a conglomerate growth strategy is that opportunities in a firm's current line of business are limited or opportunities outside are highly lucrative. |",
+      "mcq_answer": null,
+      "topic_tags": [
+        "diversification",
+        "concentric diversification",
+        "conglomerate diversification"
+      ]
+    },
+    {
+      "id": "pyq-old-may2022-q10b-or",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Bargaining power of suppliers and industry attractiveness -> Ch 2 (Porter's five forces)",
+      "qno": "10(b) OR",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "\"The bargaining power of suppliers determines an industry's attractiveness and profitability.\" Discuss.",
+      "options": null,
+      "answer": "Quite often, suppliers too, exercise considerable bargaining power over purchasing companies. The more specialised the offering from the supplier, greater may be its clout. Further, when the suppliers are limited in number, they may openly exhibit their bargaining power. The bargaining power of suppliers determines the cost of raw materials and other inputs of the industry, and therefore, an industry’s attractiveness and profitability. Suppliers can influence the profitability of an industry in a number of ways. Suppliers can command bargaining power over a firm when;\n(i) Their products are crucial to the buyer and substitutes are not available.\n(ii) They can erect/ensure high switching costs.\n(iii) They are more concentrated than their buyers. Less suppliers, more buyers.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "bargaining power of suppliers",
+        "porter's five forces",
+        "industry attractiveness"
+      ]
+    }
+  ]
+}

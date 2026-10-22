@@ -1,0 +1,462 @@
+{
+  "source": {
+    "type": "MTP",
+    "attempt": "January 2025",
+    "attempt_sort": "2025-01",
+    "series": "I",
+    "scheme": "new",
+    "paper": "Paper 6B: Strategic Management",
+    "pdf_url": "https://boslive.icai.org/mock_test_paper/MTP_39_53_QUESTIONS_1732273005.pdf",
+    "answers_url": "https://boslive.icai.org/mock_test_paper/MTP_39_53_ANSWERS_1732510710.pdf",
+    "local_file": "raw/mtp-jan2025-s1-q.pdf",
+    "retrieved": "2026-10-05",
+    "extract_ok": true,
+    "notes": "Mock Test Paper - Series I: November, 2024, Date of Paper: 23rd November, 2024. Official ICAI BoS Knowledge Portal files. Question paper: https://boslive.icai.org/mock_test_paper/MTP_39_53_QUESTIONS_1732273005.pdf (raw/mtp-jan2025-s1-q.pdf). Suggested Answers/Hints: https://boslive.icai.org/mock_test_paper/MTP_39_53_ANSWERS_1732510710.pdf (raw/mtp-jan2025-s1-a.pdf). The MTP prints no 'Chapter N' headings, so chapters are mapped per SPEC section 4. Extraction notes: Part II prints 'Question No. 1 is compulsory. Attempt any two questions out of the remaining three questions.', so Q1 has three sub-parts (a)-(c) and Q2-Q4 two each. In the answer to 1(b) ICAI prints a graphic captioned 'Figure: Process of consumer behaviour'; the caption line is retained but the picture itself is a graphic and cannot be reproduced in text. ICAI's Strategic planning vs Operational planning comparison in 4(b) (OR) is rendered as a markdown pipe table; the cell text is verbatim but is re-ordered out of the PDF's interleaved two-column line layout. Q4(b) prints its '(5 Marks)' line after the 'OR' alternative, covering both the main part and its alternative, so both records carry marks 5. ICAI's bullet glyphs (round bullet and diamond) are normalised to '- '. ICAI's own 'the organisationhas to deal' spacing and 'initiating corrective adjustments were deemed appropriate' wording in 2(b) are preserved verbatim."
+  },
+  "questions": [
+    {
+      "id": "mtp-jan2025-s1-q1A-i",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; ICAI prints no chapter heading in the MTP.",
+      "qno": "1(A)(i)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "EcoForge, a startup specializing in eco-friendly building materials crafted from agricultural waste, entered the highly competitive manufacturing industry with a vision of promoting sustainability. Despite its innovative approach, the company faced significant challenges as a new entrant, including high production costs, limited market visibility, regulatory hurdles, and fierce competition from established players. However, through strategic planning and effective execution, EcoForge successfully navigated these obstacles and positioned itself for sustainable growth.\n\nThe company's leadership recognized the importance of understanding its internal strengths and weaknesses, along with external opportunities and threats. This analysis revealed EcoForge's core advantage in sustainability and innovation, contrasted with scalability issues and market pressure from cheaper alternatives. Additionally, market analysis uncovered the potential of urban housing projects as an opportunity, while intense competition posed a significant threat.\n\nEcoForge's leadership focused on creating unique value propositions by emphasizing its eco-friendly materials. This differentiation helped the company appeal to environmentally conscious builders and developers. To expand its market reach, EcoForge adopted strategies to deepen its presence in existing markets and explore new ones. Concurrently, it analyzed the industry landscape and identified the critical influence of regulatory policies and socio-cultural factors shaping consumer preferences.\n\nInternally, EcoForge implemented structural and cultural changes to enhance its operational efficiency and responsiveness. By adopting a Strategic Business Unit (SBU) model, the company streamlined its decision-making process, allowing each product line to adapt quickly to market demands.\n\nRecognizing the need for collaborative leadership, EcoForge's CEO, Ms. Aarti Mehra, invested in leadership training programs for senior managers. This shifted the company's culture from hierarchical to team-driven, encouraging innovation and cross-functional collaboration.\n\nTo enhance its competitiveness, EcoForge optimized its production and supply chain processes by addressing inefficiencies and partnering with technology providers. These efforts significantly reduced costs and improved product quality. Simultaneously, the company pursued green certifications and localized marketing efforts to build brand recognition, attracting environmentally conscious clients. Over three years, these initiatives enabled EcoForge to expand into new markets, secure partnerships with leading developers, and increase its revenue by 40%.\n\nBy integrating market analysis, operational improvements, and a focus on cost efficiency, EcoForge transitioned from a struggling startup to a leader in sustainable building materials, setting a benchmark for innovation and environmental stewardship in the industry.\n\nBased on the above Case Scenario, answer the Multiple-Choice Questions.\n\n(i) The SBU model adopted by EcoForge is an example of strategic decision-making at which level?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Corporate Level"
+        },
+        {
+          "label": "b",
+          "text": "Business Level"
+        },
+        {
+          "label": "c",
+          "text": "Functional Level"
+        },
+        {
+          "label": "d",
+          "text": "Operational Level"
+        }
+      ],
+      "answer": "(a) Corporate Level",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "sbu",
+        "strategic levels",
+        "corporate level"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1A-ii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared EcoForge case scenario given in 1(A)(i).",
+      "qno": "1(A)(ii)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared EcoForge case scenario set out in 1(A)(i).)\n\n(ii) EcoForge's strategy of appealing to environmentally conscious builders and developers by emphasizing its eco-friendly materials is an example of which type of generic strategy by Michael Porter?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Cost Leadership"
+        },
+        {
+          "label": "b",
+          "text": "Differentiation"
+        },
+        {
+          "label": "c",
+          "text": "Focussed Cost Leadership"
+        },
+        {
+          "label": "d",
+          "text": "Focussed Differentiation"
+        }
+      ],
+      "answer": "(b) Differentiation",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "porter's generic strategies",
+        "differentiation"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1A-iii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared EcoForge case scenario given in 1(A)(i).",
+      "qno": "1(A)(iii)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared EcoForge case scenario set out in 1(A)(i).)\n\n(iii) The case mentions EcoForge identifying \"critical influence of regulatory policies and socio-cultural factors shaping consumer preferences.\" Which strategic analysis framework is most relevant here?",
+      "options": [
+        {
+          "label": "a",
+          "text": "SWOT Analysis"
+        },
+        {
+          "label": "b",
+          "text": "Value Chain Analysis"
+        },
+        {
+          "label": "c",
+          "text": "PESTLE Analysis"
+        },
+        {
+          "label": "d",
+          "text": "Ansoff's Matrix"
+        }
+      ],
+      "answer": "(c) PESTLE Analysis",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "pestle analysis",
+        "macro environment"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1A-iv",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared EcoForge case scenario given in 1(A)(i).",
+      "qno": "1(A)(iv)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared EcoForge case scenario set out in 1(A)(i).)\n\n(iv) EcoForge's strategy to deepen its presence in existing markets and explore new ones corresponds to which growth strategy in Ansoff's Matrix?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Market Penetration"
+        },
+        {
+          "label": "b",
+          "text": "Market Development"
+        },
+        {
+          "label": "c",
+          "text": "Product Development"
+        },
+        {
+          "label": "d",
+          "text": "Diversification"
+        }
+      ],
+      "answer": "(b) Market Development",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "ansoff matrix",
+        "market development"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1A-v",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared EcoForge case scenario given in 1(A)(i).",
+      "qno": "1(A)(v)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared EcoForge case scenario set out in 1(A)(i).)\n\n(v) Which key industry force, as per Porter's Five Forces, is reflected in EcoForge's challenges from cheaper alternatives and intense competition?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Threat of New Entrants"
+        },
+        {
+          "label": "b",
+          "text": "Bargaining Power of Suppliers"
+        },
+        {
+          "label": "c",
+          "text": "Bargaining Power of Buyers"
+        },
+        {
+          "label": "d",
+          "text": "Threat of Substitutes"
+        }
+      ],
+      "answer": "(d) Threat of Substitutes",
+      "mcq_answer": "d",
+      "topic_tags": [
+        "five forces",
+        "threat of substitutes"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1B-i",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Compulsory application based independent MCQ; ICAI prints no chapter heading.",
+      "qno": "1(B)(i)",
+      "kind": "mcq",
+      "marks": 2,
+      "question": "The CEO of GoFlyHigh Airlines has built a high-performance team over five years by closely monitoring performance metrics, setting clear expectations, and motivating employees through rewards and structured improvement plans. Her disciplined and results-focused approach has driven organizational success by fostering accountability and maintaining high standards. This leadership style emphasizes achieving defined goals through a structured framework, balancing performance recognition with corrective measures for sustained excellence. What strategic leadership style does the CEO exhibit?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Entrepreneur Leadership"
+        },
+        {
+          "label": "b",
+          "text": "Transformational Leadership"
+        },
+        {
+          "label": "c",
+          "text": "Transactional Leadership"
+        },
+        {
+          "label": "d",
+          "text": "Intrapreneur Leadership"
+        }
+      ],
+      "answer": "(c) Transactional Leadership",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "strategic leadership",
+        "transactional leadership"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1B-ii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Compulsory application based independent MCQ; ICAI prints no chapter heading.",
+      "qno": "1(B)(ii)",
+      "kind": "mcq",
+      "marks": 2,
+      "question": "UN&T reached out to Mukesh S, an entrepreneur from India to get his team to work on a mega solar energy project and enter India's deccan plateau which enjoys an abundance of sunshine. What strategy is UN&T trying to implement?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Market Penetration"
+        },
+        {
+          "label": "b",
+          "text": "Market Development"
+        },
+        {
+          "label": "c",
+          "text": "Strategic Alliance"
+        },
+        {
+          "label": "d",
+          "text": "Diversification"
+        }
+      ],
+      "answer": "(c) Strategic Alliance",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "strategic alliance"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1B-iii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Compulsory application based independent MCQ; ICAI prints no chapter heading.",
+      "qno": "1(B)(iii)",
+      "kind": "mcq",
+      "marks": 1,
+      "question": "Urbankey has a unique capability in rapid prototyping, allowing them to bring new products to market faster than the competitors. Such an advantage can be termed as?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Market Expansion Strategy"
+        },
+        {
+          "label": "b",
+          "text": "Core Competency"
+        },
+        {
+          "label": "c",
+          "text": "Cost Leadership Strategy"
+        },
+        {
+          "label": "d",
+          "text": "Appropriate SWOT Analysis"
+        }
+      ],
+      "answer": "(b) Core Competency",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "core competency"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1a",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Mendelow's Matrix / stakeholder power-interest grid (Key Players quadrant) -> Ch 3 (internal environment: key stakeholders).",
+      "qno": "1(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Chic Threads, a boutique fashion brand renowned for its commitment to sustainability and ethical practices, has recently launched a new line of eco-friendly clothing made from recycled materials. The brand recognizes the growing influence of environmentally conscious consumers who actively shape industry standards through their advocacy and purchasing decisions. These consumers align with Chic Threads' values and have a significant impact on its market position and reputation. How should Chic Threads effectively manage its relationship with environmentally conscious consumers, considering their high power and high interest in shaping the brand's success?",
+      "options": null,
+      "answer": "According to Mendelow's Matrix, environmentally conscious consumers who influence industry standards fall into the Key Players quadrant. These stakeholders possess both high power and high interest, making them crucial to the success of Chic Threads' sustainability-focused initiatives. Their high interest stems from their alignment with the brand's ethical and eco-friendly values, while their high power arises from their ability to shape market trends, advocate for sustainable practices, and impact on the brand's reputation through their purchasing decisions and influence within the industry.\n\nAs Key Players, these consumers require active engagement. Chic Threads must focus on satisfying their expectations by providing regular updates on sustainability efforts, maintaining transparent communication, and incorporating their feedback to ensure continued support. The brand should actively involve these stakeholders in its decision-making processes by seeking their input on product design and sustainability measures. Additionally, building strong relationships through targeted marketing campaigns, collaborations, and awareness initiatives will further solidify their trust and advocacy. Effectively managing this stakeholder group is vital, as their support and satisfaction directly contribute to the success of the brand's eco-friendly clothing line.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "mendelow's matrix",
+        "stakeholders",
+        "key players"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1b",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Consumer/customer behaviour and its conceptual domains -> Ch 2 (section 2.6.3, Customer Behaviour, in the ICAI SM study material).",
+      "qno": "1(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "You are a strategic manager for a tech company launching a new smartphone model. The company wants to target tech-savvy consumers who value innovation and cutting-edge technology. Using the concept of customer behavior, develop a marketing strategy to promote the new smartphone.",
+      "options": null,
+      "answer": "To target tech-savvy consumers for the new smartphone model, the tech company can develop a marketing strategy based on customer behavior. Consumer behaviour may be influenced by a number of things. These elements can be categorised into the following conceptual domains:\n\n- **External Influences:** Utilize online platforms and tech forums to generate buzz around the new smartphone. Partner with tech influencers and bloggers to review the product and create awareness among tech-savvy consumers.\n- **Internal Influences:** Appeal to the desire for innovation and advanced features among tech-savvy consumers. Highlight the unique selling points of the new smartphone, such as its cutting-edge technology, performance, and design.\n- **Decision Making:** Recognize that tech-savvy consumers are early adopters who value functionality and performance. Provide detailed specifications and comparisons with other smartphones to help them make an informed decision.\n- **Post-decision Processes:** Offer excellent customer service and support to address any technical issues or concerns. Encourage customers to provide feedback and reviews to build credibility and trust among tech-savvy consumers.\n\nFigure: Process of consumer behaviour\n\nBy understanding the behavior of tech-savvy consumers and aligning the marketing strategy with their preferences, the tech company can effectively promote the new smartphone and attract this demographic.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "consumer behaviour",
+        "customers",
+        "marketing strategy"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q1c",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic Performance Measures (SPM) and their types -> Ch 5 (strategic control and evaluation; 'Identify and Classify Strategic Performance Measures' is a Ch 5 learning outcome).",
+      "qno": "1(c)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "GreenEdge Solutions, a mid-sized technology company, has implemented a new strategic plan focused on achieving sustainable growth and strengthening its market presence. The leadership team is determined to monitor the effectiveness of their strategies to ensure they align with the organization's overall goals and objectives. They seek a systematic approach to assess key performance areas critical to their success. What are Strategic Performance Measures (SPM), and how can GreenEdge Solutions effectively use them to evaluate and enhance the success of their strategic plan?",
+      "options": null,
+      "answer": "Strategic Performance Measures (SPM) are metrics organizations use to evaluate and track the effectiveness of their strategies in achieving their goals and objectives. SPM provides a framework for monitoring key areas critical to the organization's success, ensuring progress toward desired outcomes and enabling timely adjustments to improve performance. For GreenEdge Solutions, various types of SPM can be utilized:\n\n- **Financial Measures:** Metrics like revenue growth, return on investment (ROI), and profit margins help evaluate the company's financial health and profitability.\n- **Customer Satisfaction Measures:** Assessments of customer satisfaction, retention, and loyalty indicate how well the company meets customer needs.\n- **Market Measures:** Market share, customer acquisition, and referral rates reflect competitiveness and market position.\n- **Employee Measures:** Employee satisfaction, engagement, and turnover rate help track workplace culture and talent retention.\n- **Innovation Measures:** R&D spending, patent filings, and new product launches gauge the company's innovation capabilities.\n- **Environmental Measures:** Monitoring energy consumption, waste reduction, and carbon emissions ensures the company aligns with sustainability goals.\n\nUsing these measures, GreenEdge Solutions can systematically assess its strategy and make informed decisions to drive sustainable growth and success.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic performance measures",
+        "strategic control"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q2a",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic change and the three steps for initiating strategic change -> Ch 5 (strategic change).",
+      "qno": "2(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Connect Group was one of the leading makers of the mobile handsets till a few years ago and which went at the bottom of the heap. Connect Group didn't adapt to the current market trends, which eventually led to its downfall. Which would have helped Connect Group to change, adapt and survive? Explain the steps to initiate the change.",
+      "options": null,
+      "answer": "Connect Group has to make strategic changes for its survival. The changes in the environmental forces often require businesses to make modifications in their existing strategies and bring out new strategies. Strategic change is a complex process that involves a corporate strategy focused on new markets, products, services and new ways of doing business. Unless companies embrace change, they are likely to freeze and unless companies prepare to deal with sudden, unpredictable, discontinuous, and radical change, they are likely to be extinct.\n\nThree steps for initiating strategic change are:\n\n(i) **Recognise the need for change** – The first step is to diagnose the which facets of the present corporate culture are strategy supportive and which are not.\n\n(ii) **Create a shared vision to manage change** – Objectives of both individuals and organisation should coincide. There should be no conflict between them. This is possible only if the management and the organisation members follow a shared vision.\n\n(iii) **Institutionalise the change** – This is an action stage which requires the implementation of the changed strategy. Creating and sustaining a different attitude towards change is essential to ensure that the firm does not slip back into old ways of doing things.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic change",
+        "change management"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q2b",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Meaning of strategic management and the limitations attached to strategic management -> Ch 1.",
+      "qno": "2(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Define strategic management. Also discuss the limitations of strategic management.",
+      "options": null,
+      "answer": "The term 'strategic management' refers to the managerial process of developing a strategic vision, setting objectives, crafting a strategy, implementing and evaluating the strategy, and initiating corrective adjustments were deemed appropriate.\n\nThe presence of strategic management cannot counter all hindrances and always achieve success as there are limitations attached to strategic management. These can be explained in the following lines:\n\n- **The environment is highly complex and turbulent.** It is difficult to understand the complex environment and exactly pinpoint how it will shape up in future. The organisational estimate about its future shape may awfully go wrong and jeopardise all strategic plans. The environment affects as the organisationhas to deal with suppliers, customers, governments and other external factors.\n- **Strategic management is a time-consuming process.** Organisations spend a lot of time preparing, communicating the strategies that may impede daily operations and negatively impact on routine business.\n- **Strategic management is a costly process.** Strategic management adds a lot of expenses to an organization. Expert strategic planners need to be engaged, efforts are made for analysis of external and internal environments devise strategies and properly implement. These can be really costly for organisations with limited resources particularly when small and medium organisation create strategies to compete.\n- **Competition is unpredictable.** In a competitive scenario, where all organisations are trying to move strategically, it is difficult to clearly estimate the competitive responses to the strategies.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic management",
+        "limitations"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q3a",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Barriers to entry and the threat of new entrants -> Ch 2 (Porter's five forces).",
+      "qno": "3(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Easy Access is a marketing services company providing consultancy to a range of business clients. Easy Access and its rivals have managed to persuade the Government to require all marketing services companies to complete a time-consuming and bureaucratic registration process and to comply with an industry code of conduct. Do you think that by doing this Easy Access and its rivals has an advantage in some ways to fight off competitors? Explain.",
+      "options": null,
+      "answer": "Yes, Easy Access and its rivals get advantage by this move. The new bureaucratic process is making it more complicated for organizations to start up and enter the Easy Access market, increasing barriers to entry and thereby reducing the threat of new entrants. New entrants can reduce an industry's profitability, because they add new production capacity, leading to increase in supply of the product, sometimes even at a lower price and can substantially erode existing firm's market share position. However, New entrants are always a powerful source of competition. The new capacity and product range they bring in throws up a new competitive pressure. The bigger the new entrant, the more severe the competitive effect. New entrants also place a limit on prices and affect the profitability of existing players, which is known as Price War.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "barriers to entry",
+        "threat of new entrants",
+        "five forces"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q3b",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Basis of differentiation (product, pricing, organisation) -> Ch 3 (section 3.6.2.2, Differentiation Strategy, in the ICAI SM study material).",
+      "qno": "3(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Explain in brief the various basis of differentiation strategies.",
+      "options": null,
+      "answer": "There are several basis of differentiation, major being: Product, Pricing and Organization.\n\n**Product:** Innovative products that meet customer needs can be an area where a company has an advantage over competitors. However, the pursuit of a new product offering can be costly – research and development, as well as production and marketing costs can all add to the cost of production and distribution. The payoff, however, can be great as customers' flocks are among the first to have the new product.\n\n**Pricing:** It fluctuates based on its supply and demand and may also be influenced by the customer's ideal value for a product. Companies that differentiate based on product price can either determine to offer the lowest price or can attempt to establish superiority through higher prices.\n\n**Organisation:** Organisational differentiation is yet another form of differentiation. Maximizing the power of a brand or using the specific advantages that an organization possesses can be instrumental to a company's success. Location advantage, name recognition and customer loyalty can all provide additional ways for a company to differentiate itself from the competition.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "differentiation strategy",
+        "basis of differentiation"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q4a",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Concentric (related) diversification -> Ch 4 (strategic choices: diversification).",
+      "qno": "4(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Leatherite Ltd. was started as a leather company to manufacture footwear. Currently, they are in the manufacturing of footwears for males and females. The top management desires to expand the business in leather manufacturing goods. To expand they decided to purchase more machines to manufacture leather bags for males and females. Identify and explain the strategy opted by the top management of Leatherite Ltd.",
+      "options": null,
+      "answer": "Leatherite Ltd. is currently manufacturing footwears for males and females and its top management has decided to expand its business by manufacturing leather bags for males and females. Both the products are similar in nature within the same industry. The strategic diversification that the top management of Leatherite Ltd. has opted for is concentric in nature. They were in business manufacturing leather footwear and now they will manufacture leather bags as well. They will be able to use existing infrastructure and distribution channels.\n\nConcentric diversification amounts to related diversification.\n\nIn concentric diversification, the new business is linked to the existing businesses through process, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. This means that in concentric diversification too, there are benefits of synergy with the current operations.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "concentric diversification",
+        "expansion"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q4b",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Prahalad and Hamel's three areas of core competence (competitor differentiation, customer value, application to other markets) -> Ch 3 (internal environment: core competence).",
+      "qno": "4(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Major core competencies are identified in three areas - competitor differentiation, customer value and application to other markets. Discuss.",
+      "options": null,
+      "answer": "According to C.K. Prahalad and Gary Hamel, major core competencies are identified in three areas - competitor differentiation, customer value, and application to other markets.\n\n- **Competitor differentiation:** The company can consider having a core competence if the competence is unique and it is difficult for competitors to imitate. This can provide a company an edge compared to competitors. It allows the company to provide better products or services to market with no fear that competitors can copy it.\n- **Customer value:** When purchasing a product or service it has to deliver a fundamental benefit for the end customer in order to be a core competence. It will include all the skills needed to provide fundamental benefits. The service or the product has to have real impact on the customer as the reason to choose to purchase them. If customer has chosen the company without this impact, then competence is not a core competence.\n- **Application of competencies to other markets:** Core competence must be applicable to the whole organization; it cannot be only one particular skill or specified area of expertise. Therefore, although some special capability would be essential or crucial for the success of business activity, it will not be considered as core competence, if it is not fundamental from the whole organization's point of view. Thus, a core competence is a unique set of skills and expertise, which will be used throughout the organisation to open up potential markets to be exploited.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "core competence",
+        "competitor differentiation"
+      ]
+    },
+    {
+      "id": "mtp-jan2025-s1-q4b-or",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic planning vs operational planning -> Ch 5 (section 5.2.2, where the ICAI SM study material contrasts the two).",
+      "qno": "4(b) (OR)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Differentiation between Strategic Planning and Operational Planning.",
+      "options": null,
+      "answer": "| Strategic planning | Operational planning |\n|---|---|\n| Strategic planning shapes the organisation and its resources. | Operational planning deals with current deployment of resources. |\n| Strategic planning assesses the impact of environmental variables. | Operational planning develops tactics rather than strategy. |\n| Strategic planning takes a holistic view of the organisation. | Operational planning projects current operations into the future. |\n| Strategic planning develops overall objectives and strategies. | Operational planning makes modifications to the business functions but not fundamental changes. |\n| Strategic planning is concerned with the long-term success of the organisation. | Operational planning is concerned with the short-term success of the organisation. |\n| Strategic planning is a senior management responsibility. | Operational planning is the responsibility of functional managers. |",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic planning",
+        "operational planning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+JOB=embed
+You are adding the interactive LAB EMBEDS to the lessons of PassBook (~/CA_PERSONAL/ca_passbook), an offline study app for ICAI CA Intermediate
+Group II. 30 step-through labs (the app's "animations") are built and ready (content/labs.json, app/js/labs/*.js). Each lab builder
+recommended exact embed lines for specific lessons in its report: ~/CA_PERSONAL/ca_prompts/reports/lab-c1.md ... lab-c5.md, lab-a1.md, lab-a2.md,
+lab-f1.md, lab-f2.md, lab-s1.md (read all ten; lab-c4.md has an updated material embed after a price-variance change).
+Also read ~/CA_PERSONAL/ca_passbook/docs/LAB_GUIDE.md (embed syntax and compact mode) and docs/CONTENT_GUIDE.md (§3 containers, §9 house rules).
+
+PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py embed <step> ["note"]
+(add {"id":"embed","kind":"embed","deps":[],"steps":["start","plan","cma","aud","fm","sm","verify","report"]} to ~/CA_PERSONAL/ca_prompts/jobs.json if unknown)
+
+RULES
+1 plan: build a table lesson -> embed lines -> target section from the ten reports. Only embed into lessons whose reviewer job is DONE:
+  a lesson id is done when its reviewer job r-<batch> has the step "report" in ~/CA_PERSONAL/ca_prompts/progress/r-<batch>.jsonl (map lessons to jobs
+  with ~/CA_PERSONAL/ca_prompts/jobs.json). Skip lessons still being written or reviewed and list them in your report as "pending" (the lead will
+  re-run you for them later). Never edit a lesson another agent is working on.
+2 For each embed: put the `::: lab <id> {...}` line in the recommended section (usually "How it works" or "Worked examples"), right after
+  the paragraph it illustrates, with ONE short lead-in sentence in the lesson's voice ("Step through it yourself: change the price and
+  watch the break-even point move."). Use the lab's exact config from the report; re-check that each config computes without error
+  (node, requiring the lab module, as the lab tests do). A lesson gets 1–3 embeds, not more. Also set the front-matter `labs:` line to the
+  ids used (comma separated). Do not change anything else in the lesson.
+  Where a lab's preset reproduces a real ICAI question, a worked example in the same lesson may say "the lab's preset '<label>' runs the
+  real ICAI question" - only if that preset exists.
+3 After each paper: lint each edited lesson, build --check, then `.venv/bin/python build.py` and check a sample of embeds in the real
+  app: tools/shot.sh "/l/<id>" /tmp/x.png 390 26000 "probe=1&fold=open" (phone) and at 1440 wide; LOOK at the region of the embed only
+  (crop; at most ~25 images in the whole job). Each embed must render (not "lab not found"), fit the column in compact mode and show its
+  final frame.
+4 verify: node tests/run.js (all), build --check, tools/smoke.py; all green.
+5 report (final message; also ~/CA_PERSONAL/ca_prompts/reports/embed.md): lessons embedded (lesson -> lab ids), lessons pending (not yet reviewed),
+  configs you had to change and why, and any embed that looked wrong.

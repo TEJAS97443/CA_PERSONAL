@@ -1,0 +1,2540 @@
+=== p.1 ===
+PAPER – 8: FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+SECTION A: FINANCIAL MANAGEMENT 
+Question No. 1 is compulsory. 
+Attempt any four questions out of the remaining five questions. 
+In case, any candidate answers extra question(s)/ sub-question(s) over and above the 
+required number, then only the requisite number of questions first answered in the answer 
+book shall be valued and subsequent extra question(s) answered shall be ignored. 
+Working notes should form part of the answer. 
+Question 1 
+(a) Following information are given for a company: 
+Earnings per share 
+₹ 10 
+P/E ratio 
+12.5 
+Rate of return on investment 
+12% 
+Market price per share as per Walter’s Model 
+₹ 130 
+ 
+You are required to calculate: 
+(i) 
+Dividend payout ratio. 
+(ii) Market price of share at optimum dividend payout ratio. 
+(iii) P/E ratio, at which the dividend policy will have no effect on the price of share. 
+(iv) Market price of share at this P/E ratio. 
+(v) Market price of share using Dividend growth model.     
+(5 Marks) 
+(b)  A company has current sale of ₹ 12 lakhs per year. The profit-volume ratio is 20% and 
+post-tax cost of investment in receivables is 15%. The current credit terms are 1/10, net 
+50 days and average collection period is 40 days. 50% of customers in terms of sales 
+revenue are availing cash discount and bad debt is 2% of sales.  
+ 
+In order to increase sales, the company want to liberalize its existing credit terms to 2/10, 
+net 35 days. Due to which, expected sales will increase to ₹ 15 lakhs. Percentage of default 
+in sales will remain same. Average collection period will decrease by 10 days. 80% of 
+customers in terms of sales revenue are expected to avail cash discount under this 
+proposed policy.  
+ 
+Tax rate is 30%. 
+ 
+ADVISE, should the company change its credit terms. (Assume 360 days in a year.) 
+(5 Marks) 
+© The Institute of Chartered Accountants of India
+=== p.2 ===
+2 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+(c) A company wants to invest in a project. This requires an initial investment of ₹ 4,50,000. 
+Salvage value after estimated useful life of 5 years is ₹ 50,000. Other details of project are 
+as follows: 
+ 
+Worst case 
+Most likely  Best case 
+Contribution (₹) 
+3,30,000 
+5,40,000 
+6,31,250 
+Fixed cost (excluding depreciation) (₹) 
+75,000 
+1,50,000 
+2,00,000 
+ 
+Tax rate is 40%. Expected cost of capital of project is 12%. Ignore tax on capital gain. 
+(i) 
+Calculate NPV in each scenario. 
+(ii) The company is certain about most likely result in first two years, but uncertain about 
+remaining period. In such a situation, calculate NPV expecting worst case scenario 
+during next two years and best case scenario in the remaining period.  
+Years 
+1 
+2 
+3 
+4 
+5 
+PVIF0.12,t 
+0.893 
+0.797 
+0.712 
+0.636 
+0.567 
+PVIFA0.12,t 
+0.893 
+1.690 
+2.402 
+3.038 
+3.605 
+(5 Marks) 
+(d) Following information is given for X Ltd.: 
+Total contribution (₹) 
+4,25,000 
+Operating leverage 
+3.125 
+15% Preference shares (₹ 100 each) 
+1,000 
+Number of equity shares  
+2,500 
+Tax rate 
+50% 
+ 
+Calculate EPS of X Ltd., if 40% decrease in sales will result EPS to zero. 
+(5 Marks) 
+Answer 
+(a) (i)  The EPS of the firm is ₹ 10, r =12%. The P/E Ratio is given at 12.5 and the cost of 
+capital (Ke) may be taken as the inverse of P/E ratio. Therefore, Ke is 8% (i.e., 1/12.5). 
+The value of the share is ₹ 130 which may be equated with Walter Model as follows: 
+ 
+e
+e
+r
+D+
+(E-D)
+K
+P    =     
+K
+ or 
+12
+8
+8
+D+
+(10-D)
+P    =     
+%
+%
+%
+ 
+ 
+or [D+1.5(10-D)]/0.08=130 
+ 
+or D+15-1.5D=10.4 
+© The Institute of Chartered Accountants of India
+=== p.3 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+3 
+ 
+or -0.5D=-4.6 
+ 
+So, D = ₹ 9.2 
+ 
+The firm has a dividend pay-out of 92% (i.e., 9.2/10).   
+(ii)  Since the rate of return of the firm (r) is 12% and it is more than the Ke of 8%, 
+therefore, by distributing 92% of earnings, the firm is not following an optimal dividend 
+policy.  The optimal dividend policy for the firm would be to pay zero dividend and in 
+such a situation, the market price would be: 
+12
+8
+8
+0+
+(10-0)
+P    =     
+%
+%
+%
+ 
+P = ₹ 187.5 
+ 
+So, theoretically the market price of the share can be increased by adopting a zero 
+pay-out. 
+(iii)  The P/E ratio at which the dividend policy will have no effect on the value of the share 
+is such at which the Ke would be equal to the rate of return (r) of the firm.  The Ke 
+would be 12% (= r) at the P/E ratio of 1/12%=8.33.  Therefore, at the P/E ratio of 8.33, 
+the dividend policy would have no effect on the value of the share.   
+(iv)  If the P/E is 8.33 instead of 12.5, then the Ke which is the inverse of P/E ratio, would 
+be 12% and in such a situation ke= r and the market price, as per Walter’s model 
+would be: 
+e
+e
+r
+D+
+(E-D)
+K
+P    =     
+K
+ 
+0 12
+0 12
+0 12
+9.2+
+(10-9.2)
+  =     
+.
+.
+.
+= ₹ 83.33 
+(v)  Dividend Growth Model applying growth on dividend 
+Ke = 8%, r = 12%, D0 = 9.2, b = 0.08 
+g = b.r 
+g = 0.08 x 0.12=0.96% 
+D1 = D0 (1+g) = 9.2 (1+0.0096) = ₹ 9.2883 
+P =
+D1
+(Ke
+g)
+−
+ = 9.2883/(0.08 – 0.0096) = 9.2883/0.0704 = ₹ 131.936 
+ 
+© The Institute of Chartered Accountants of India
+=== p.4 ===
+4 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+Alternative 
+Alternatively, without applying growth on dividend 
+P = E(1 b)
+Ke
+br
+−
+−
+= 
+10(1 0.08)
+0.08
+(0.08 0.12)
+−
+−
+×
+= ₹ 130.68 
+(b) (i) 
+Calculation of Cash Discount 
+ 
+Cash Discount = Total credit sales × % of customers who take up discount × Rate 
+ 
+Present Policy = 12,00,000×50×0.01 
+100
+= ₹ 6,000 
+ 
+Proposed Policy = 15,00,000 × 0.80 × 0.02 = ₹ 24,000 
+(ii) Opportunity Cost of Investment in Receivables 
+ 
+Present Policy: Opportunity Cost = Total Cost × Collection period 
+Rate of Return
+×
+360
+100
+ 
+ 
+= 9,60,000 × 40 
+15
+×
+360 100  = ₹ 16,000 
+ 
+Proposed Policy: = Total Cost × Collection period 
+Rate of Return
+×
+360
+100
+ 
+ 
+= 12,00,000 × 30 
+15
+×
+360 100 = ₹ 15,000  
+Statement showing Evaluation of Credit Policies 
+Particulars 
+Present 
+Policy 
+Proposed 
+Policy 
+Credit Sales 
+12,00,000 
+15,00,000 
+Variable Cost @ 80%* of sales 
+9,60,000 
+12,00,000 
+Bad Debts @ 2% 
+24,000 
+30,000 
+Cash Discount 
+6,000 
+24,000 
+Profit before tax 
+2,10,000 
+2,46,000 
+Tax @ 30% 
+63,000 
+73,800 
+Profit after Tax 
+1,47,000 
+1,72,200 
+Opportunity Cost of Investment in Receivables 
+16,000 
+15,000 
+Net Profit 
+1,31,000 
+1,57,200 
+© The Institute of Chartered Accountants of India
+=== p.5 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+5 
+ 
+*Only relevant or variable costs are considered for calculating the opportunity costs 
+on the funds blocked in receivables. Since 20% is profit-volume ratio, hence the 
+relevant costs are taken to be 80% of the respective sales. 
+ 
+Advise: Proposed policy should be adopted since the net benefit is increased by  
+(₹ 1,57,200 - ₹ 1,31,000) = ₹ 26,200. 
+Alternative presentation using incremental approach 
+ 
+ 
+ 
+ 
+ 
+                                              
+           ₹ 
+ 
+Incremental sales (15,00,000 – 12,00,000)  
+ 
+ 
+3,00,000 
+ 
+Less: Incremental variable cost (12,00,000 – 9,60,000) 
+ 
+2,40,000 
+ 
+Less: Incremental Bad debts (30,000 – 24,000) 
+      
+ 
+     6,000 
+ 
+Less: Incremental Cash discount (24,000 – 6,000) 
+ 
+   18,000 
+ 
+ 
+ 
+Increase in Profit Before Tax 
+ 
+ 
+   36,000 
+ 
+Less: Tax @ 30% 
+ 
+ 
+ 
+ 
+ 
+   10,800 
+ 
+ 
+ 
+Increase in Profit After Tax 
+ 
+ 
+   25,200 
+ 
+Add: Savings in opportunity cost (16,000 - 15,000) 
+ 
+     1,000 
+ 
+ 
+ 
+Increase in Net Profit 
+ 
+ 
+ 
+   26,200 
+ 
+Advise: Proposed policy should be adopted since the net benefit is increased by  
+(₹ 1,57,200 - ₹ 1,31,000)  
+ 
+= ₹ 26,200. 
+(c) (i)  Initial Investment = ₹ 4,50,000 
+ 
+Salvage Value = ₹ 50,000 
+ 
+Useful Life = 5 years 
+ 
+Calculation of cash flow in each scenario 
+Particulars 
+Scenario 
+Worst case 
+Most Likely 
+Best case 
+Contribution 
+3,30,000 
+5,40,000 
+6,31,250 
+Less: Fixed Cost 
+75,000 
+1,50,000 
+2,00,000 
+Less: Depreciation 
+80,000 
+80,000 
+80,000 
+Profit before tax 
+1,75,000 
+3,10,000 
+3,51,250 
+Less: Taxes 
+70,000 
+1,24,000 
+1,40,500 
+© The Institute of Chartered Accountants of India
+=== p.6 ===
+6 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+Profit after tax 
+1,05,000 
+1,86,000 
+2,10,750 
+Add: Depreciation 
+80,000 
+80,000 
+80,000 
+Cash Flow After Tax 
+1,85,000 
+2,66,000 
+2,90,750 
+ 
+The possible outcomes will be as follows: 
+Year PVF 
+@ 
+12% 
+Worst Case 
+Most likely 
+Best case 
+Cash 
+Flow  
+PV 
+ 
+Cash 
+Flow 
+PV 
+ 
+Cash 
+Flow  
+PV 
+ 
+0 
+1 (4,50,000) (4,50,000) (4,50,000) (4,50,000) (4,50,000) 
+(4,50,000) 
+1-5 3.605 1,85,000 6,66,925 2,66,000 9,58,930 2,90,750 10,48,153.75 
+5 
+0.567 
+50,000 
+28,350 
+50,000 
+28,350 
+50,000 
+28,350 
+NPV 
+ 
+ 2,45,275 
+ 5,37,280 
+ 6,26,503.75 
+Alternative presentation 
+(i)  Computation of NPV of different scenarios 
+Years 
+DF 
+Worst case 
+Most-likely case 
+Best case 
+CF 
+DCF 
+CF 
+DCF 
+CF 
+DCF 
+0 
+1.000 (450000) (450000) (450000) 
+(450000) (450000) (450000) 
+1 
+0.893 
+185000 
+165205 
+266000 
+237538 
+290750 
+259640 
+2 
+0.797 
+185000 
+147445 
+266000 
+212002 
+290750 
+231728 
+3 
+0.712 
+185000 
+131720 
+266000 
+189392 
+290750 
+207014 
+4 
+0.636 
+185000 
+117660 
+266000 
+169176 
+290750 
+184917 
+5 
+0.567 
+185000 
+104895 
+266000 
+150822 
+290750 
+164855 
+5 
+0.567 
+  50000 
+  28350 
+  50000 
+   28350 
+  50000    28350 
+NPV  
+2,45,275  
+5,37,280 
+ 
+6,26,504 
+(ii)  If the company is certain about the most likely result in first two years but uncertain 
+about the remaining period, then, NPV expecting worst case scenario during next two 
+years and best-case scenario in remaining period will be as follows: 
+ 
+=
+2,66,000
+2,66,000
+1,85,000
+1,85,000
+2,90,750
+50,000
+- 4,50,000+
++
++
++
++
++
+5
+5
+2
+3
+4
+(1+0.12)
+(1+0.12)
+(1+0.12)
+(1+0.12)
+(1+0.12)
+(1+0.12)
+₹
+₹
+₹
+₹
+₹
+₹
+ 
+ 
+= -4,50,000 + (2,66,000 × 0.893) + (2,66,000 × 0.797) + (1,85,000 × 0.712) + 
+(1,85,000 × 0.636) + (2,90,750 × 0.567) + (50,000 × 0.567) 
+© The Institute of Chartered Accountants of India
+=== p.7 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+7 
+ 
+= -4,50,000 + 2,37,538 + 2,12,002 + 1,31,720 + 1,17,660 + 1,64,855 + 28,350 
+ 
+= ₹ 4,42,125 
+Alternative presentation  
+(ii)  Computation of NPV on the basis of fixed scenarios 
+Years 
+Scenarios 
+DF 
+CF 
+DCF  
+(DF*CF) 
+0 
+Initial Outflow 
+1.000 
+(450000) 
+(450000) 
+1 
+Most-likely case 
+0.893 
+266000 
+237538 
+2 
+Most-likely case 
+0.797 
+266000 
+212002 
+3 
+Worst case 
+0.712 
+185000 
+131720 
+4 
+Worst case 
+0.636 
+185000 
+117660 
+5 
+Best case 
+0.567 
+290750 
+164855 
+5 
+Salvage 
+0.567 
+   50000 
+   28350 
+ 
+4,42,125 
+(All figures are in ₹) 
+(d) (i)  Operating Leverage (OL) = Contribution
+EBIT
+ Or, 3.125 = 
+4,25,000
+EBIT
+₹ 
+ Or EBIT  
+= ₹ 1,36,000 
+(ii)  Degree of Combined Leverage (CL) = % Change in EPS
+% Change in Sales = 100
+40 = 2.5 
+(iii)  Combined Leverage  
+= OL × FL = 3.125 × FL 
+ 
+So, Financial Leverage = 2.5 /3.125 = 0.8 
+(iv)  Financial Leverage    = EBIT
+EBT
+ = 
+1,36,000
+EBT
+ = 0.8 
+ 
+ 
+So, EBT =
+1,36,000
+0.80
+ = ₹ 1,70,000 
+Calculation of EPS of X Ltd 
+Particulars 
+(₹) 
+EBT 
+1,70,000 
+Less: Tax (50%) 
+85,000 
+© The Institute of Chartered Accountants of India
+=== p.8 ===
+8 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+EAT 
+85,000 
+Preference Dividend 
+15,000 
+Net Earnings for Equity Shareholders 
+70,000 
+Number of equity shares 
+2,500 
+EPS 
+28 
+Question 2 
+Following information and ratios are given in respect of AQUA Ltd. for the year ended  
+31st March, 2023: 
+Current ratio 
+4.0 
+Acid test ratio 
+2.5 
+Inventory turnover ratio (based on sales) 
+6 
+Average collection period (days) 
+70 
+Earnings per share 
+₹ 3.5 
+Current liabilities 
+₹ 3,10,000 
+Total assets turnover ratio (based on sales) 
+0.96 
+Cash ratio 
+0.43 
+Proprietary ratio 
+0.48 
+Total equity dividend  
+₹ 1,75,000 
+Equity dividend coverage ratio 
+1.60 
+Assume 360 days in a year. 
+You are required to complete Balance Sheet as on 31stMarch, 2023.  
+Balance Sheet as on 31stMarch, 2023. 
+Liabilities 
+₹ Assets 
+₹ 
+Equity share capital (₹10 per share) 
+XXX Fixed assets 
+XXX 
+Reserves & surplus 
+XXX Inventory 
+XXX 
+Long-term debt 
+XXX Debtors 
+XXX 
+Current liabilities 
+3,10,000 Loans & advances 
+XXX 
+ 
+ 
+ Cash & bank 
+XXX 
+Total 
+XXX Total 
+XXX 
+(10 Marks) 
+ 
+ 
+© The Institute of Chartered Accountants of India
+=== p.9 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+9 
+Answer 
+(i)  Current Ratio = 4 
+Current Assets
+Current Liabilities = 4 
+∴ Current Assets
+3,10,000
+= 4 
+∴ Current Assets = ₹ 12,40,000 
+(ii)  Acid Test Ratio = 2.5 
+Current Assets - Inventory
+Current Liabilities
+= 2.5 
+∴ 
+−
+12,40,000 Inventory
+3,10,000
+= 2.5 
+∴ 12,40,000 – Inventory = ₹ 7,75,000 
+Inventory = ₹ 4,65,000 
+(iii)  Inventory Turnover Ratio (on Sales) = 6 
+Sales
+Inventory
+= 6 
+Sales
+4,65,000 = 6 
+∴ Sales = ₹ 27,90,000 
+(iv)  Debtors Collection Period = 70 days 
+∴(Debtors / sales) x 360 = 70 
+∴ (Debtors / 27,90,000) x 360 = 70 
+Debtors = ₹ 5,42,500 
+(v)  Total Assets Turnover Ratio (on Sales) = 0.96 
+∴
+Sales
+Total Assets = 0.96 
+∴27,90,000
+Total Assets = 0.96 
+Total Assets = ₹ 29,06,250 
+© The Institute of Chartered Accountants of India
+=== p.10 ===
+10 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+(vi)  Fixed Assets (FA) = Total Assets – Current Assets 
+= 29,06,250 – 12,40,000 
+Fixed Assets = ₹ 16,66,250 
+(vii)  Cash Ratio = 
+Cash
+Current Liabilities = 0.43 
+∴
+Cash
+3,10,000 = 0.43 
+∴ Cash = ₹ 1,33,300 
+(viii) Proprietary Ratio = Proprietary Fund
+Total Assets
+= 0.48 
+∴Proprietary Fund
+29,06,250
+= 0.48 
+∴ Proprietary Fund = ₹ 13,95,000 
+(ix)  Equity Dividend Coverage Ratio = 1.6  
+or EPS
+3.5
+DPS
+DPS
+=
+ 
+∴ DPS = ₹ 2.1875 
+DPS = 
+Total Dividend
+Number of Equity Shares
+ 
+∴ 2.1875 = 
+1,75,000
+Number of Equity Shares
+ 
+∴ Number of Equity Shares = 80,000 
+∴ Equity Share Capital = 80,000 x 10 = ₹ 8,00,000 
+∴ Reserves &Surplus = 13,95,000 - 8,00,000 = ₹ 5,95,000 
+(x)  Loans and Advances = Current Assets - (Inventory + Receivables + Cash & Bank)  
+ 
+ 
+ 
+ = ₹ 12,40,000 - (₹ 4,65,000 + 5,42,500 + 1,33,300) = ₹ 99,200 
+ 
+ 
+© The Institute of Chartered Accountants of India
+=== p.11 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+11 
+Balance Sheet as on 31st March 2023 
+Liabilities 
+₹  Assets 
+₹  
+Equity Share Capital (₹ 10 per share) 
+8,00,000 Fixed Assets 
+16,66,250 
+Reserves & Surplus 
+5,95,000 Inventory 
+4,65,000 
+Long-term debt *(B/F) 
+12,01,250 Receivables 
+5,42,500 
+Current Liabilities 
+3,10,000 Loans & Advances 
+99,200 
+ 
+ Cash & Bank 
+1,33,300 
+Total 
+29,06,250 Total 
+29,06,250 
+Question 3 
+The following information pertains to CIZA Ltd.: 
+ 
+₹ 
+Capital Structure: 
+ 
+Equity share capital (₹ 10 each) 
+8,00,000 
+Retained earnings 
+20,00,000 
+9% Preference share capital (₹ 100 each) 
+12,00,000 
+12% Long-term loan 
+10,00,000 
+Interest coverage ratio 
+8 
+Income tax rate 
+30% 
+Price – earnings ratio 
+25 
+The company is proposed to take up an expansion plan, which requires an additional investment 
+of ₹ 34,50,000. Due to this proposed expansion, earnings before interest and taxes of the 
+company will increase by ₹ 6,15,000 per annum. The additional fund can be raised in following 
+manner: 
+• 
+By issue of equity shares at present market price, or  
+• 
+By borrowing 16% Long-term loans from bank. 
+You are informed that Debt-equity ratio (Debt/ Shareholders' fund) in the range of 50% to 80% 
+will bring down the price-earnings ratio to 22 whereas; Debt-equity ratio over 80% will bring 
+down the price-earnings ratio to 18.  
+Required: 
+Advise which option is most suitable to raise additional capital so that the Market Price per 
+Share (MPS) is maximized. 
+(10 Marks) 
+ 
+ 
+© The Institute of Chartered Accountants of India
+=== p.12 ===
+12 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+Answer 
+Working notes: 
+(i)  Interest Coverage ratio = 8 
+ 
+EBIT
+Interest = 8 
+ 
+EBIT
+1,20,000 = 8 
+ 
+So, EBIT = ₹ 9,60,000 
+(ii) Proposed Earnings Before Interest & Tax = 9,60,000 + 6,15,000 = ₹ 15,75,000 
+ 
+Option 1: Equity option 
+ 
+Debt = ₹ 10,00,000 
+ 
+Shareholders Fund = 8,00,000+20,00,000+12,00,000+34,50,000 = ₹ 74,50,000 
+ 
+Debt Equity ratio(Debt/Shareholders fund) = 10,00,000
+74,50,000 = 13.42% 
+ 
+P/E ratio in this case will be 25 times  
+ 
+Option 2: Debt option 
+ 
+Debt   = 10,00,000+34,50,000 = ₹ 44,50,000 
+ 
+Shareholders Fund = 8,00,000+20,00,000+12,00,000 = ₹ 40,00,000 
+Debt Equity ratio(Debt/Shareholders fund) = 44,50,000
+40,00,000 = 111.25% 
+Debt equity ratio has crossed the limit of 80% hence PE ratio in this case will remain at 18 
+times. 
+ 
+Number of Equity Shares to be issued = ₹ 34,50,000/ ₹ 150 = 23,000 
+(iii)  Calculation of Earnings per Share and Market Price per share 
+Particulars 
+₹  
+Current Earnings Before Interest & Tax 
+9,60,000 
+Less: Interest      
+1,20,000 
+Earnings Before Tax 
+8,40,000 
+Less: Taxes    
+2,52,000 
+Earnings After Tax 
+5,88,000 
+Less: Preference Dividend (@9%)  
+1,08,000 
+© The Institute of Chartered Accountants of India
+=== p.13 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+13 
+Net earnings for Equity shareholders 
+4,80,000 
+Number of equity shares 
+80,000 
+Earnings Per Share 
+6 
+Price-earnings ratio 
+25 
+Market Price per share 
+150 
+Calculation of EPS and MPS under two financial options 
+Particulars 
+Financial Options 
+Option I 
+Option II 
+Equity Shares 
+Issued (₹) 
+16% Long Term 
+Debt Raised (₹) 
+Earnings before interest and Tax (EBIT) 
+15,75,000 
+15,75,000 
+Less: Interest on old debentures @ 12% 
+1,20,000 
+1,20,000 
+Less: Interest on additional loan (new) @ 16% 
+on ₹ 34,50,000 
+NIL 
+5,52,000 
+Earnings before tax 
+14,55,000 
+9,03,000 
+Less: Taxes @ 30% 
+4,36,500 
+2,70,900 
+ (EAT/Profit after tax) 
+10,18,500 
+6,32,100 
+Less: Preference Dividend (@9%) 
+1,08,000 
+1,08,000 
+Net 
+Earnings 
+available 
+to 
+Equity 
+shareholders 
+9,10,500 
+5,24,100 
+Number of Equity Shares 
+1,03,000 
+80,000 
+Earnings per Share (EPS) 
+8.84 
+6.55 
+Price/ Earnings ratio 
+25 
+18 
+Market price per share (MPS) 
+221 
+117.9 
+ 
+Advise: Equity option has higher Market Price per Share therefore company should raise 
+additional fund through equity option.  
+Question 4 
+Capital structure of D Ltd. as on 31stMarch, 2023 is given below: 
+Particulars 
+₹ 
+Equity share capital (₹ 10 each) 
+8% Preference share capital (₹ 100 each) 
+12% Debentures (₹ 100 each) 
+30,00,000 
+10,00,000 
+10,00,000 
+© The Institute of Chartered Accountants of India
+=== p.14 ===
+14 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+• 
+Current market price of equity share is ₹ 80 per share. The company has paid dividend of 
+₹ 14.07 per share. Seven years ago, it paid dividend of ₹ 10 per share. Expected dividend 
+is ₹ 16 per share. 
+• 
+8% Preference shares are redeemable at 6% premium after five years. Current market 
+price per preference share is ₹ 104. 
+• 
+12% debentures are redeemable at 20% premium after 10 years. Flotation cost is ₹ 5 per 
+debenture.  
+• 
+The company is in 40% tax bracket. 
+• 
+In order to finance an expansion plan, the company intends to borrow 15% Long-term loan 
+of ₹ 30,00,000 from bank. This financial decision is expected to increase dividend on equity 
+share from ₹ 16 per share to ₹ 18 per share. However, the market price of equity share is 
+expected to decline from ₹ 80 to ₹ 72 per share, because investors' required rate of return 
+is based on current market conditions. 
+Required: 
+(i) 
+Determine the existing Weighted Average Cost of Capital (WACC) taking book value 
+weights. 
+(ii) Compute Weighted Average Cost of Capital (WACC) after the expansion plan taking book 
+value weights. 
+Interest Rate 
+1% 
+2% 
+3% 
+4% 
+5% 
+6% 
+7% 
+FVIFi,5 
+1.051 
+1.104 
+1.159 
+1.217 
+1.276 
+1.338 
+1.403 
+FVIFi,6 
+1.062 
+1.126 
+1.194 
+1.265 
+1.340 
+1.419 
+1.501 
+FVIFi,7 
+1.072 
+1.149 
+1.230 
+1.316 
+1.407 
+1.504 
+1.606 
+(10 Marks) 
+Answer 
+(i)  (a)  Growth rate in Dividends 
+14.07 = 10 x FVIF (i,7 years) 
+FVIF (i,7 years) = 1.407 
+FVIF (5%, 7 years) = 1.407 
+i = 5% 
+Growth rate in dividend= 5% 
+(b)  Cost of Equity  
+Ke = 
+1
+0
+D +g
+P
+ 
+© The Institute of Chartered Accountants of India
+=== p.15 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+15 
+Ke = 
+0.05
+80
+16 +
+ 
+Ke = 25% 
+(c)  Cost of Preference Shares 
+Kp = 
+(RV-NP)
+PD+
+n
+(RV+NP)
+2
+ 
+Kp = 
+(106
+104)
+8
+5
+(106
+104)
+2
+104)
+(106
+5
+1
+5
+104)
+ 
+Kp = 8.4/105 
+Kp = 8% 
+(d)  Cost of Debt 
+Kd = 
+(
+)
+(
+)
+(
+)
+RV -NP
+I 1-t +
+n
+RV+NP
+2
+ 
+Kd = 
+(120-95)
+12(1-0.4)+
+10
+(120+95)
+2
+ 
+Kd = (7.2+2.5)/107.5 = 9.02% 
+Kd = 9.02% 
+Calculation of existing Weighted Average Cost of Capital (WACC) 
+Capital 
+Amount (₹) 
+Weights 
+Cost 
+WACC 
+Equity Share Capital 
+30,00,000 
+0.6 
+25% 
+15.00% 
+Preference Share Capital 
+10,00,000 
+0.2 
+8% 
+1.60% 
+Debenture 
+10,00,000 
+0.2 
+9.02% 
+1.80% 
+  
+50,00,000 
+1 
+  
+18.40% 
+ 
+© The Institute of Chartered Accountants of India
+=== p.16 ===
+16 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+Alternative presentation 
+(i)  Computation of existing WACC on book value weights 
+Source 
+(1) 
+Book value 
+(₹) (2) 
+Weight 
+(3) 
+Cost of 
+capital (%) (4) 
+Product 
+(2) x (4) 
+Equity share capital 
+30,00,000 
+0.60 
+25 
+7,50,000 
+Preference share capital 
+10,00,000 
+0.20 
+8 
+80,000 
+Debentures 
+10,00,000 
+0.20 
+9.02 
+90,200 
+Total 
+50,00,000 
+1.00 
+ 
+9,20,200 
+WACC = (Product / Total book value) x 100 = (9,20,200 /50,00,000) x 100 = 18.4% 
+(ii)  Cost of Long Term Debt = 15% (1-0.4) = 9% 
+Revised Ke = 18 + 0.05
+72
+ = 30% 
+Calculation of WACC after expansion taking book value weights 
+Capital 
+Amount 
+Weights 
+Cost 
+W.C 
+Equity Share Capital 
+30,00,000 
+0.3750 
+30% 
+11.25% 
+Preference Share Capital 
+10,00,000 
+0.1250 
+8% 
+1.00% 
+Debenture 
+10,00,000 
+0.1250 
+9.02% 
+1.13% 
+Long Term Debt 
+30,00,000 
+0.3750 
+9.00% 
+3.38% 
+  
+80,00,000 
+1.0000 
+  
+16.76% 
+Alternative presentation 
+(i)  Computation of WACC on book value weights after expansion 
+Source 
+(1) 
+Book value 
+(₹) (2) 
+Weight 
+(3) 
+Cost of capital 
+(%) (4) 
+Product 
+(2) x (4) 
+Equity share capital 
+30,00,000 
+0.375 
+30 
+9,00,000 
+Preference share capital 
+10,00,000 
+0.125 
+8 
+80,000 
+Debentures 
+10,00,000 
+0.125 
+9.02 
+90,200 
+Long term loan 
+30,00,000 
+0.375 
+9 
+2,70,000 
+Total 
+80,00,000 
+1.00 
+ 
+13,40,200 
+ 
+WACC = (Product / Total book value) x 100 = (13,40,200 / 80,00,000) x 100 = 16.76% 
+ 
+ 
+© The Institute of Chartered Accountants of India
+=== p.17 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+17 
+Question 5 
+Four years ago, Z Ltd. had purchased a machine of ₹ 4,80,000 having estimated useful life of 
+8 years with zero salvage value. Depreciation is charged using SLM method over the useful life. 
+The company want to replace this machine with a new machine. Details of new machine are as 
+below: 
+• 
+Cost of new machine is ₹ 12,00,000, Vendor of this machine is agreed to take old machine 
+at a value of ₹ 2,40,000. Cost of dismantling and removal of old machine will be ₹ 40,000. 
+80% of net purchase price will be paid on spot and remaining will be paid at the end of one 
+year.  
+• 
+Depreciation will be charged @ 20% p.a. under WDV method. 
+• 
+Estimated useful life of new machine is four years and it has salvage value of ₹ 1,00,000 
+at the end of year four. 
+• 
+Incremental annual sales revenue is ₹ 12,25,000. 
+• 
+Contribution margin is 50%. 
+• 
+Incremental indirect cost (excluding depreciation) is ₹ 1,18,750 per year. 
+• 
+Additional working capital of ₹ 2,50,000 is required at the beginning of year and ₹ 3,00,000 
+at the beginning of year three. Working capital at the end of year four will be nil.  
+• 
+Tax rate is 30%.  
+• 
+Ignore tax on capital gain. 
+ 
+Z Ltd. will not make any additional investment, if it yields less than 12%  
+ 
+Advice, whether existing machine should be replaced or not. 
+Year 
+1 
+2 
+3 
+4 
+5 
+PVIF0.12, t 
+0.893 
+0.797 
+0.712 
+0.636 
+0.567 
+(10 Marks) 
+Answer 
+Working Notes: 
+(i)  
+ 
+Calculation of Net Initial Cash Outflow 
+Particulars 
+₹  
+Cost of New Machine 
+12,00,000 
+Less: Sale proceeds of existing machine 
+2,00,000 
+Net Purchase Price 
+10,00,000 
+Paid in year 0 
+8,00,000 
+Paid in year 1 
+2,00,000 
+© The Institute of Chartered Accountants of India
+=== p.18 ===
+18 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+(ii) Calculation of Additional Depreciation 
+Year 
+1 
+2 
+3 
+4 
+₹ 
+₹ 
+₹ 
+₹ 
+Opening WDV of machine 
+10,00,000 
+8,00,000 
+6,40,000 
+5,12,000 
+Depreciation on new machine  
+@ 20% 
+2,00,000 
+1,60,000 
+1,28,000 
+1,02,400 
+Closing WDV 
+8,00,000 
+6,40,000 
+5,12,000 
+4,09,600 
+Depreciation on old machine 
+(4,80,000/8) 
+60,000 
+60,000 
+60,000 
+60,000 
+Incremental depreciation 
+1,40,000 
+1,00,000 
+68,000 
+42,400 
+(iii) Calculation of Annual Profit before Depreciation and Tax (PBDT) 
+Particulars 
+Incremental Values 
+(₹) 
+Sales 
+12,25,000 
+Contribution 
+6,12,500 
+Less: Indirect Cost 
+1,18,750 
+Profit before Depreciation and Tax (PBDT) 
+4,93,750 
+ 
+Calculation of Incremental NPV 
+Year 
+PVF 
+@ 12% 
+PBTD 
+ 
+(₹) 
+Incremental 
+Depreciation 
+(₹) 
+PBT 
+ 
+(₹) 
+Tax @ 
+30% 
+(₹) 
+Cash Inflows 
+(₹) 
+PV of Cash 
+Inflows 
+(₹) 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) = (4) x 
+0.30 
+(6) = (4) – (5) 
++ (3) 
+(7) = (6) x (1) 
+1 
+0.893 4,93,750 
+1,40,000 3,53,750 106,125 
+3,87,625 
+3,46,149.125 
+2 
+0.797 4,93,750 
+1,00,000 3,93,750 1,18,125 
+3,75,625 
+2,99,373.125 
+3 
+0.712 4,93,750 
+68,000 4,25,750 1,27,725 
+3,66,025 
+2,60,609.800 
+4 
+0.636 4,93,750 
+42,400 4,51,350 1,35,405 
+3,58,345 
+2,27,907.420 
+                                       *                                               * 
+11,34,039.470 
+Add: PV of Salvage (₹ 1,00,000 x 0.636)  
+63,600 
+Less: Initial Cash Outflow - Year 0  
+ 
+                                     Year 1 (₹ 2,00,000 × 0.893) 
+8,00,000 
+1,78,600 
+© The Institute of Chartered Accountants of India
+=== p.19 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+19 
+Less: Working Capital - Year 0 
+                                     Year 2 (₹ 3,00,000 × 0.797) 
+2,50,000 
+2,39,100 
+Add: Working Capital released - Year 4 (₹ 5,50,000 × 0.636) 
+3,49,800 
+Incremental Net Present Value 
+79,739.470 
+Since the incremental NPV is positive, existing machine should be replaced. 
+Alternative Presentation 
+ 
+Computation of Outflow for new Machine: 
+ 
+₹  
+Cost of new machine 
+12,00,000 
+Replaced cost of old machine 
+2,40,000 
+Cost of removal 
+     40,000 
+Net Purchase price 
+10,00,000 
+Outflow at year 0 
+8,00,000 
+Outflow at year 1 
+2,00,000 
+ 
+Computation of additional deprecation 
+Year 
+1 
+2 
+3 
+4 
+ 
+₹  
+₹ 
+₹ 
+₹ 
+Opening WDV of machine 
+10,00,000 
+8,00,000 
+6,40,000 5,12,000 
+Depreciation on new machine @ 20% 
+2,00,000 
+1,60,000 
+1,28,000 1,02,400 
+Closing WDV 
+8,00,000 
+6,40,000 
+5,12,000 4,09,600 
+Depreciation 
+on 
+old 
+machine 
+(4,80,000/8) 
+60,000 
+60,000 
+60,000 
+60,000 
+Incremental depreciation 
+1,40,000 
+1,00,000 
+68,000 
+42,400 
+Computation of NPV 
+ 
+Year 
+0 
+1 
+2 
+3 
+4 
+₹ 
+₹ 
+₹ 
+₹ 
+₹ 
+1. Increase in sales revenue 
+ 
+12,25,000 12,25,000 
+12,25,000 12,25,000 
+2. Contribution 
+ 
+6,12,500 
+6,12,500 
+6,12,500 
+6,12,500 
+3. Increase in fixed cost 
+ 
+1,18,750 
+1,18,750 
+1,18,750 
+1,18,750 
+4. Incremental Depreciation 
+ 
+1,40,000 
+1,00,000 
+68,000 
+42,400 
+5. Net 
+profit 
+before 
+tax 
+[1-(2+3+4)] 
+ 
+3,53,750 
+3,93,750 
+4,25,750 
+4,51,350 
+© The Institute of Chartered Accountants of India
+=== p.20 ===
+20 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+6. Net 
+Profit 
+after 
+tax 
+(5 x 70%) 
+ 
+2,47,625 
+2,75,625 
+2,98,025 
+3,15,945 
+7. Add: Incremental  
+        depreciation 
+ 
+1,40,000 
+1,00,000 
+68,000 
+42,400 
+8. Net Annual cash inflows 
+(6 + 7) 
+ 
+3,87,625 
+3,75,625 
+3,66,025 
+3,58,345 
+9. Release of salvage value 
+ 
+ 
+ 
+ 
+1,00,000 
+10. (investment)/disinvestment 
+in working capital 
+(2,50,000) 
+ (3,00,000) 
+ 
+5,50,000 
+11. Initial cost 
+(8,00,000) 
+(2,00,000) 
+ 
+ 
+ 
+12. Total net cash flows 
+(10,50,000) 
+1,87,625.0 
+75,625 
+3,66,025 10,08,345 
+13. Discounting Factor 
+1 
+0.893 
+0.797 
+0.712 
+0.636 
+14. Discounted 
+cash 
+flows 
+(12 x 13) 
+(10,50,000) 1,67,549.125 60,273.125 2,60,609.800 641307.420 
+NPV = (1,67,549 + 60,273 + 2,60,610 + 6,41,307) - 10,50,000 = ₹ 79,739 
+Since the NPV is positive, existing machine should be replaced. 
+Question 6 
+(a)  List out the conditions, framed by SEBI, which a company needs to fulfil in order to issue 
+of bonus shares. 
+(4 Marks) 
+(b) “Permanent working capital and fluctuating (temporary) working capital, both are 
+necessary to facilitate production and sales through the operating cycle.” - Describe. 
+(4 Marks) 
+(c)  Briefly explain concept of "Trading on Equity" in financial leverage analysis. 
+(2 Marks) 
+OR 
+ 
+Discuss features of Secured Premium Notes. 
+(2 Marks) 
+Answer 
+(a)  To issue Bonus shares, a Company needs to fulfill all the conditions given by Securities 
+Exchange Board of India (SEBI): 
+(i) 
+As per SEBI, the bonus shares are issued not in lieu of cash dividends.  
+(ii) A bonus issue should be authorized by Article of Association (AOA) and not to be 
+declared unless all partly paid-up shares have been converted into fully paid-up 
+shares.  
+(iii) The Company should not have defaulted on re-payment of loan, interest, and any 
+statutory dues.  
+© The Institute of Chartered Accountants of India
+=== p.21 ===
+ 
+PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+21 
+(iv) Bonus shares are to be issued only from share premium and free reserves and not 
+from capital reserve on account of fixed assets revaluation. 
+(b) Both kinds of working capital i.e. permanent and fluctuating (temporary) are necessary to 
+facilitate production and sales through the operating cycle: 
+ 
+Permanent working capital refers to the base working capital, which is the minimum level 
+of investment in the current assets that is carried by the entity at all times to carry its day 
+to day activities. It generally stays invested in the business unless the operations are 
+scaled up or down permanently which would also result in increase or decrease in 
+permanent working capital. It is generally financed by long term sources of finance.  
+ 
+Temporary working capital refers to that part of total working capital, which is required by 
+an entity in addition to the permanent working capital. It is also called variable or fluctuating 
+working capital which is used to finance the short-term working capital requirements which 
+arises due to fluctuation in sales volume. For instance, an organization would maintain 
+increased levels of inventory to meet increased seasonal demand. 
+(c) Financial Leverage as ‘Trading on Equity’: 
+ 
+Financial leverage indicates the use of funds with fixed cost like long term debts and 
+preference share capital along with equity share capital which is known as trading on 
+equity. The basic aim of financial leverage is to increase the earnings available to equity 
+shareholders using fixed cost fund. A firm is known to have a positive/favourable leverage 
+when its earnings are more than the cost of debt. If earnings are equal to or less than cost 
+of debt, it will be a negative/unfavourable leverage. When the quantity of fixed cost fund is 
+relatively high in comparison to equity capital it is said that the firm is ‘trading on equity”. 
+OR 
+ 
+Features of Secured Premium Notes: 
+• 
+SPN instruments are issued with a detachable warrant. 
+• 
+These instruments are redeemable after a notified period of say 4 to 7 years.  
+• 
+No interest is paid during the lock in period. 
+• 
+The conversion of detachable warrant into equity shares will have to be done within 
+time period notified by the company.  
+© The Institute of Chartered Accountants of India
+=== p.22 ===
+22 
+INTERMEDIATE EXAMINATION: MAY, 2023 
+SECTION – B: ECONOMICS FOR FINANCE 
+Question No. 7 is compulsory.  
+Answer any three from the rest. 
+Question 7 
+(a) The following information relating to a particular financial year of a country is given 
+below: 
+Particulars 
+Amount (₹ in crore) 
+Private final consumption expenditure 
+1,620 
+Government final consumption expenditure 
+750 
+Net domestic fixed investment 
+500 
+Export 
+400 
+Import 
+440 
+Net Factor Income from Abroad 
+20 
+Net Indirect Taxes 
+100 
+ 
+You are required to compute the National Income of the country by using Expenditure 
+Method. 
+(3 Marks) 
+(b) Compute the Reserve Money from the following data relating to 31st March, 2023: 
+Particulars 
+(₹ in crore) 
+Currency in Circulation  
+28,637 
+Bank Deposits with RBI 
+5,673 
+Post Office Deposits 
+400 
+Other Deposits with RBI 
+210 
+(2 Marks) 
+(c) Explain the differences between Foreign Direct Investment (FDI) and Foreign Portfolio 
+Investment (FPI). 
+(3 Marks) 
+(d) Describe the name and salient features of the fiscal policy for combating inflationary 
+pressures in the economy. 
+(2 Marks) 
+Answer 
+(a)  Calculation of National Income Using Expenditure Method  
+ 
+NDPMP 
+=  
+Private Final – Consumption expenditure + Net domestic fixed investment  
+ 
+ 
+ 
++ Govt Final – consumption expenditure + Net exports (Exports–Imports) 
+ 
+ 
+ 
+= 
+1,620 + 500 + 750 + (400 – 440) 
+© The Institute of Chartered Accountants of India
+=== p.23 ===
+ 
+PAPER 8: FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+23 
+ 
+ 
+ 
+=  
+1,620 + 1,250 – 40 
+ 
+ 
+ 
+=  
+1,620 + 1,210 
+ 
+NDPMP 
+=  
+₹ 2,830 cr 
+ 
+NNPMP 
+= 
+NDPMP + Net factor Income from abroad 
+ 
+ 
+ 
+= 
+2,830 + 20 
+ 
+NNPMP 
+= 
+₹ 2,850 cr 
+ 
+NNPFC 
+= 
+National Income = NNPMP – Net Indirect Taxes 
+ 
+ 
+ 
+= 
+2,850 – 100 
+ 
+NNPFC 
+= 
+₹ 2,750 cr 
+(b)  Reserve Money  
+=  
+Currency in-circulation + Banker’s deposit within the RBI +  
+ 
+ 
+ 
+ 
+ 
+Other deposits with RBI 
+ 
+ 
+ 
+ 
+=  
+28,637 + 5,673 + 210 
+ 
+ 
+ 
+ 
+= 
+₹ 34,520 cr 
+(c) Foreign direct investment is defined as a process whereby the resident of one country 
+(i.e., home country) acquires ownership of an asset in another country (i.e. the host 
+country) and such movement of capital involves ownership, control as well as 
+management of the asset in the host country. 
+ 
+Foreign portfolio investment is the flow of ‘financial capital’ with stake in a firm at below 
+10 percent and does not involve manufacture of goods or provision of services, 
+ownership management or control of the asset on the part of the investor. 
+Foreign direct investment (FDI) 
+Foreign portfolio investment (FPI) 
+Investment involves creation of physical 
+assets 
+Investment is only in financial assets 
+Has a long-term interest and therefore 
+remain invested for long 
+Only short-term interest and generally 
+remain invested for short periods 
+Relatively difficult to withdraw 
+Relatively easy to withdraw 
+Not inclined to be speculative 
+Speculative in nature 
+Often 
+accompanied 
+by 
+technology 
+transfer 
+Not accompanied by technology transfer 
+Direct impact on employment of labour 
+and wages 
+No direct impact on employment of 
+labour and wages 
+© The Institute of Chartered Accountants of India
+=== p.24 ===
+24 
+INTERMEDIATE EXAMINATION: MAY 2023 
+Enduring interest in management and 
+control 
+No abiding interest in management and 
+control 
+Securities are held with significant degree 
+of influence by the investor on the 
+management of the enterprise 
+Securities are held purely as a financial 
+investment and no significant degree of 
+influence on the management of the 
+enterprise 
+(d)  Name: Contractionary Fiscal Policy 
+ 
+Contractionary fiscal policy refers to the deliberate policy of government applied to curtail 
+aggregate demand and consequently the level of economic activity. In other words, it is 
+fiscal policy aimed at eliminating an inflationary gap. This is achieved by adopting policy 
+measures that would result in the aggregate demand curve (AD) shifting to the left so the 
+equilibrium may be established at the full employment level of real GDP. This can be 
+achieved either by: 
+• 
+Decrease in government spending: With decrease in government spending, the 
+total amount of money available in the economy is reduced which in turn trim down 
+the aggregate demand. 
+• 
+Increase in personal income taxes and/or business taxes: An increase in 
+personal income taxes reduces disposable incomes leading to fall in consumption 
+spending and aggregate demand. An increase in taxes on business profits reduces 
+the surpluses available to businesses, and as a result, firms’ investments shrink 
+causing aggregate demand to fall. Increased taxes also dampen the prospects of 
+profits of potential entrants who will respond by holding back fresh investments. 
+• 
+A combination of decrease in government spending and increase in personal 
+income taxes and/or business taxes.   
+Question 8 
+(a)  (i)  Following information is related to an economy:                   
+Autonomous consumption 
+₹ 1,000 crore 
+Marginal propensity to consume 
+0.8 
+Equilibrium level of income 
+₹ 10,000 crore 
+ 
+You are required to calculate the investment expenditure and consumption 
+expenditure of the economy. 
+(3 Marks) 
+(ii)  Explain the government interventions for combating the market failures due to 
+information problem. 
+(2 Marks) 
+ 
+© The Institute of Chartered Accountants of India
+=== p.25 ===
+ 
+PAPER 8: FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+25 
+(b) (i) 
+Compute M1 and M4 from the following data relating to 31st March, 2023:  
+(₹ in crore) 
+Notes in circulation 
+3,01,78,670 
+Circulation of rupee coins 
+6,48,902 
+Demand deposits with banks 
+1,41,31,650 
+Time Deposits with Banks 
+31,24,276 
+Cash in hand with banks 
+7,64,130 
+Other Deposits with RBI 
+3,98,048 
+Post Office Savings Deposits 
+2,02,684 
+Post Office National Savings Certificates (NSCs) 
+820 
+(3 Marks) 
+(ii) Describe the exchange rate regime that is commonly used by the countries in real 
+world. 
+(2 Marks) 
+Answer 
+(a)  (i) 
+Y = C + I 
+ 
+Y = Ca + bY + I 
+ 
+Y – bY  
+= Ca + I 
+ 
+Y (1 – b) = Ca + I 
+ 
+10,000 (1-0.8)  = 1000 + I 
+ 
+10,000 x 0.2  = 1000 + I 
+ 
+2000  
+ 
+= 1000 + I 
+ 
+I = ₹ 1000 cr 
+ 
+Y = C + I 
+ 
+C = Y - I = 10,000 – 1000 
+ 
+ 
+ 
+= ₹ 9000 cr 
+ 
+Investment expenditures = ₹ 1000 cr 
+ 
+Consumption expenditure = ₹ 9000 cr 
+© The Institute of Chartered Accountants of India
+=== p.26 ===
+26 
+INTERMEDIATE EXAMINATION: MAY 2023 
+Alternative presentation 
+ 
+Equilibrium level of income (Y) = ₹ 10,000 crores 
+ 
+Autonomous consumption (a) = ₹ 1,000 Crores 
+ 
+Marginal Propensity to Consume (MPC) = 0.8  
+ 
+C = a + MPC (Y)    
+ 
+Consumption expenditure (C) = 1000 + 0.8 * 10,000 = 1000 + 8000 
+C = ₹ 9,000 crores 
+Similarly, 
+Y = C + I  
+Investment expenditure (I) = Y – C = 10000 – 9000 = ₹ 1,000 crores 
+(ii)  For combating the problem of market failure due to information problems and 
+considering the importance of information in making rational choices, the following 
+interventions are resorted to: 
+• 
+Government makes it mandatory to have accurate labelling and content 
+disclosures by producers. eg. Labelling on cigarette packets and nutritional 
+information in food packages. 
+• 
+Mandatory disclosure of information for example: SEBI requires that 
+accurate information be provided to prospective buyers of new stocks. 
+• 
+Public dissemination of information to improve knowledge and subsidizing 
+of initiatives in that direction. 
+• 
+Regulation of advertising and setting of advertising standards to make 
+advertising more responsible, informative, and less persuasive. 
+(b)  (i)  M1 =  
+(Notes in circulation + Circulation of rupee coins - Cash in hand with 
+banks) + demand deposit with banking system+ other deposits with RBI 
+ 
+= 
+30178670 + 648902 – 764130 +14131650+ 398048 
+M1 = 
+₹ 4,45,93,140 cr 
+M3 = 
+M1 + time deposit with the banking system 
+ 
+= 
+44593140 + 3124276 
+ 
+= 
+₹ 4,77,17,416 cr 
+© The Institute of Chartered Accountants of India
+=== p.27 ===
+ 
+PAPER 8: FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+27 
+M4 = 
+M3 + Total deposits within the Post office savings organisation (excluding  
+ 
+National Saving Certificate) 
+ 
+= 
+47717416+ 202684 
+M4 =  
+₹ 4,79,20,100 cr 
+(ii)  In the real world, there is a spectrum of ‘intermediate exchange rate regimes’ 
+which are either inflexible or have varying degrees of flexibility that lie in 
+between these two extremes (fixed and flexible). For example, a central bank can 
+implement soft peg and hard peg policies. A soft peg refers to an exchange 
+rate policy under which the exchange rate is generally determined by the 
+market, but in case the exchange rate tends to be move speedily in one direction, 
+the central bank will intervene in the market. With a hard peg exchange rate policy, 
+the central bank sets a fixed and unchanging value for the exchange rate. Both 
+soft peg and hard peg policy require that the central bank intervenes in the foreign 
+exchange market.  
+Question 9 
+(a) (i) 
+Two Countries G and Hare producing Sugar and Steel. The table given below 
+shows the number of labour hours required to produce Sugar and Steel: 
+Commodity 
+Country G 
+Country H 
+One Unit of Sugar 
+6.0 
+2.0 
+One Unit of Steel 
+2.5 
+5.0 
+(A)  Compute the Productivity of labour in both countries in respect of both 
+commodities. 
+(B)  Which country has absolute advantage of production of Steel? 
+(C)  Which country has absolute advantage of production of Sugar? 
+(3 Marks) 
+(ii)  In an economy investment have been increased by ₹ 5,000 crore. 
+ 
+The Marginal Propensity to Consume (MPC) is 0.82. 
+(2 Marks) 
+ 
+You are required to compute the total increase in income and saving in the 
+economy. 
+(b) (i) 
+Discuss the similarities between Fisher's Transaction approach and Cambridge 
+Cash Balance approach. 
+(3 Marks) 
+(ii)  Explain the following terms:  
+• 
+Stagflation 
+• 
+Contagion Effect 
+(2 Marks) 
+ 
+© The Institute of Chartered Accountants of India
+=== p.28 ===
+28 
+INTERMEDIATE EXAMINATION: MAY 2023 
+Answer 
+(a) (i) 
+(A)  Productivity of Labour in both Countries in respect of both commodities  
+Productivity of Labour 
+Country G 
+Country H 
+Units of Sugar per hour 
+0.16 
+0.5 
+Unit of Steel per hour  
+0.4 
+0.2 
+(B) Country G has absolute advantage in the production of Steel because 
+Productivity of Steel is higher in Country G or Conversely the number of labour 
+hour required to produce Steel in Country G is less compared to Country H. 
+(C) Country H has absolute advantage in the production of Sugar because 
+productivity of Sugar is higher in Country H or conversely the number of labour 
+hours required to Produce sugar in Country H is less compound to Country G. 
+(ii)  Δ I = 5000 
+ 
+MPC = 0.82 
+ 
+Multiplier K = 
+=
+=
+−
+−
+1
+1
+1
+1 MPC
+1 0.82
+0.18 = 5.55 
+ 
+MPS = 1 – MPC = 1 – 0.82 = 0.18 
+ 
+Increase in Income = ΔY = K x ΔI 
+ 
+  
+ 
+ 
+      = 5.55 x 5000 
+ 
+  
+ 
+ 
+      = ₹ 27,750 cr 
+ 
+Increase in Saving = ΔY x MPS 
+ 
+ 
+ 
+ 
+     = 27750 x 0.18 
+ 
+ 
+ 
+ 
+     = ₹ 4995 cr 
+(b) (i) 
+The Fisher’s version and Cambridge version lead to the same conclusion that 
+there is a direct and proportional relationship between the quantity of money and 
+the price level and an inverse proportionate relationship between the quantity of 
+money and the value of money. 
+ 
+The two approaches almost similar equations. Fishers’ equation P = MV/T is a 
+similar to Robertson’s equation P = M/kY.  However, the only difference is between 
+the two symbols V and k which are reciprocal to each other. The difference in the 
+two equations can be reconciled by substituting 1/V for K in Robertson’s equation 
+and 1/k for V in Fisher’s equation. 
+ 
+© The Institute of Chartered Accountants of India
+=== p.29 ===
+ 
+PAPER 8: FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+29 
+(ii)  Stagflation: A state of affairs in which inflation and unemployment exist side by 
+side. 
+Or 
+ 
+The combination of recession or stagnation and increasing prices or inflation. 
+ 
+Contagion Effect: The stabilization issue also becomes more complex due to 
+‘contagion effect’ whereby the increased international interdependence and financial 
+integration causes forces of instability to get easily transmitted from one country to 
+other countries. 
+Question 10 
+(a)  (i)  Following information relating to a developing country is available to you: 
+Investment (I) 
+₹ 140 crore 
+Government Expenditure (G) 
+₹ 90 crore 
+Export (X) 
+₹ 100 crore 
+Consumption Function (C) = 
+80 + 0.8 Yd (Disposable Income) 
+Import (M) = 
+50 + 0.09Y (Income) 
+Tax (T) 
+0.2 Y (Income) 
+You are required to: 
+(A)  Find out equilibrium level of income (Y). 
+(B)  Calculate foreign trade multiplier. 
+(C)  Calculate net export if investment is increased by ₹ 30 crore. 
+(3 Marks) 
+(ii)  A customer of a bank deposits ₹ 50,000 in his bank. The bank is required to keep a 
+cash reserve of 20 percent to meet the demand for cash by its depositors. 
+ 
+Calculate the amount of bank deposits the banking system as a whole would 
+generate on the basis of such deposit by the customer. 
+(2 Marks) 
+(b) (i) 
+Is World Trade Organization (WTO) better than General Agreement on Tariffs and 
+Trade (GATT)? Explain with reasons. 
+(3 Marks) 
+(ii) Write down the name of the terms used in the analysis of the effect of externalities 
+in the following conditions: 
+(A)  The change in the cost to parties other than the producer or buyer of a good or 
+service due to an additional unit of the good or service. 
+(B)  The change in society's total benefits associated with an additional unit of 
+good or service. 
+© The Institute of Chartered Accountants of India
+=== p.30 ===
+30 
+INTERMEDIATE EXAMINATION: MAY 2023 
+(C)  The change in the benefit to parties other than the producer or buyer of a good 
+or service due to an additional unit of the good or service. 
+(D)  The change in society's total cost brought about by an additional unit of a good 
+or service. 
+(2 Marks) 
+Answer 
+(a)  (i)  (A) C = 80 + 0.8 Yd  
+ 
+ 
+ 
+    = 80 + 0.8 (Y – 0.2Y)  
+ 
+ 
+ 
+Y = 80 + 0.8 (Y – 0.2Y) + 140 + 90 + 100 – 50 – 0.09Y 
+ 
+   = 0.55Y + 360 
+ 
+Or Y = ₹ 800 crores 
+(B) Foreign trade Multiplier = 
+1
+1 0.8(1 0.2)
+0.09
+−
+−
++
+ 
+ 
+ 
+ 
+ 
+ 
+       = 1/0.45 
+ 
+Change in  
+I = ₹ 30 
+(C) If investment is increased by ₹ 30 crores: 
+ 
+ΔY/30 
+ 
+ 
+= 1/0.45 
+ 
+ΔY = 66.67 
+ 
+Y = ₹ 866.67 Crores 
+ 
+Net export = 100 – 50-(0.09 x 866.67) 
+ 
+ 
+ 
+   = - ₹ 28 Crores 
+Alternative 
+ 
+Y = C + I + G + (X – M) 
+Y = 80 + 0.8 Yd + 140 + 90 (100 – (50 + 0.09Y) 
+Y = 80 + 0.8 (Y – T) + 140 + 90 (100 – (50 + 0.09 Y) 
+   = 80 + 0.8 (Y – 0.2Y) + 140 + 90 (100 – 50 – 0.09Y) 
+   = 80 + 0.8 (0.8Y) + 140 + 90 (50 – 0.09Y) 
+   = 80 + 0.64 Y + 140 + 4500 – 8.1 Y 
+Y = 4720 + 0.64Y – 8.1Y 
+© The Institute of Chartered Accountants of India
+=== p.31 ===
+ 
+PAPER 8: FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+31 
+Y (1 – 0.64 + 8.1) = 4720 
+ 
+ 
+8.46 Y  = 4720 
+Y = 4720
+8.46 = ₹ 557.92 cr 
+Foreign trade Multiplier = 
+1
+1 b
+m
+−+
+ 
+ 
+ 
+ 
+ 
+= 
+1
+1 0.8
+0.09
+−
++
+ 
+ 
+ 
+ 
+ 
+= 
+1
+0.29 = 3.45 
+Change in  
+I  
+ 
+= ₹ 30 
+Change in  
+Y  
+ 
+= 
+30
+1 b
+m
+−+
+ 
+ 
+ 
+ 
+    
+= 
+30
+1 0.8
+0.09
+−
++
+ 
+ 
+ 
+ 
+    
+= 30
+0.29 = ₹ 103.45 cr 
+Ye = 557.91 + 103.45 
+     = ₹ 661.36 cr 
+X - M @ Ye = 661.36 = 100 – (50+0.09×661.36) 
+= 50 + 0.09 x 661.36 
+ 
+= 50 + 59.53 
+ 
+ 
+ 
+= ₹ 109.53 cr  
+(ii)  Required reserve ratio, RR = 20% 
+ 
+Spending multiplier = 1/RR = 1/0.2 i.e. 5 
+ 
+Initial change in volume of deposits, ΔD = ₹ 50000 
+ 
+New deposits = (1/RR) x ΔD 
+ 
+ 
+ 
+ 
+= 5 x ₹ 50000 
+ 
+ 
+ 
+ 
+= ₹ 250000 
+© The Institute of Chartered Accountants of India
+=== p.32 ===
+32 
+INTERMEDIATE EXAMINATION: MAY 2023 
+Alternative 
+ 
+If the Customer A deposit ₹ 50000 in his bank (Bank X), this constitutes the bank 
+current total cash deposits. If the required reserve is 20 percent, the bank would 
+lend ₹ 40000 to B. by lending B ₹ 40000 the bank creates a deposit for ₹ 40000 
+that B now use. It is as though B owns ₹ 40000. This in turn mean that A can claim 
+against ₹ 50000 while B will have a claim against ₹ 40000. The bank has cash of  
+₹ 50000 against claim of ₹ 90000. In short, the bank has created ₹ 40000 out of 
+“thin air ‘” Since ₹ 40000 are not supported by any genuine money. At any time, the 
+fractional reserve commercial banks have more cash liabilities than cash in their 
+vaults. Now B buys good worth ₹ 40000 from c and pays by Cheque. C Places the 
+cheque in bank Y which bank y will lend to D. The Summation will end with an 
+amount which is equivalent to 1/20 % of ₹ 50000 which is equal to ₹ 250000. In this 
+example the Initial deposit is capable of multiplying itself 5 times.  
+ 
+In Short, we find that the fact that banks make use of demand deposits for lending it 
+sets in motion a series of activities leading to expansion of money that is not backed 
+by proper money. 
+(b)  (i) 
+The multilateral trading system, first under the General Agreement on Tariffs and 
+Trade (GATT) and later in the World Trade Organisation (WTO), has reduced 
+unilateral approaches to trade by gradually integrating the majority of the world’s 
+countries into our rules- based system.  But WTO has proved to be better GATT due 
+to the following reasons. 
+• 
+WTO dispute resolution is quicker than GATT (disputes have to be solved 
+within 18 months) 
+• 
+GATT talked only about Goods, but WTO talks about services and intellectual 
+property rights, along with Goods. 
+• 
+The working of WTO is more transparent. 
+ 
+(ii) A.  The change in the cost to parties other than the producer or buyer of a good or 
+service due to an additional unit of the good or service – Marginal External 
+Cost (MEC) 
+B.  The Change in society’s total benefits associated with an additional unit of 
+good or service –Marginal Social Benefit (MSB) 
+C.  The change in the benefit to parties other than the producer or buyer of a good 
+or service due to an additional unit of the good or service – Marginal External 
+benefit (MEB) 
+D.  The Change in society’s total cost brought about by an additional unit of a 
+good or service - Marginal Social Cost. (MSC) 
+© The Institute of Chartered Accountants of India
+=== p.33 ===
+ 
+PAPER 8: FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+33 
+Question 11 
+(a) (i)  Suppose in an economy, government expenditure is increased by ₹ 10 crore and 
+taxes increased by ₹ 5 crore. Spending multiplier of the economy is 5. What impact 
+would such increase have on GDP? 
+(3 Marks) 
+(ii)  Calculate the arbitrage for £2,00,000 from the following details:     
+£1 = ₹ 100 
+US$ 1 = ₹ 80 
+£1 = US $ 1.30 in UK 
+(2 Marks) 
+(b)  (i) 
+Repo injects liquidity into the system whereas the reverse repo absorbs the liquidity 
+from the system. In the light of this statement briefly state the impact of high repo 
+and reverse repo rate on a developing economy. 
+(3 Marks) 
+(ii)  What steps are to be taken by the Government as instruments of trade policy in the 
+following cases? 
+(A) There is severe shortage of an essential product X in Indian domestic market 
+due to its less production. 
+(B) The export of product Y is decreasing. continuously due to cost and 
+competition in the international market. 
+(2 Marks) 
+OR 
+ 
+Describe any two reasons for leakages which are responsible for decline in income. 
+(2 Marks) 
+Answer 
+(a)  (i)  Spending Multiplier = 1/1-b  
+ 
+5 = 1/1-b 
+ 
+5-5b = 1 
+             b = 4/5 = 0.8 
+ 
+MPC = 0.8    
+ 
+Change in GDP  = Initial Change in Government Expenditure × Spending Multiplier 
+ 
+ 
+ 
+  = 10 ×5 = ₹ 50 Cr   
+ 
+Tax Multiplier = -b/1-b 
+                              = -0.8/ 1-0.8  
+© The Institute of Chartered Accountants of India
+=== p.34 ===
+34 
+INTERMEDIATE EXAMINATION: MAY 2023 
+                              = -0.8/0.2 
+                             = -4 
+ 
+Decrease in GDP = Initial Change in Tax × 4 
+                                     = 5 × 4 
+                                     = ₹ 20 crore 
+ 
+Net Result is Output increases by 30 crore. 
+ 
+(ii)  (a)  (ii)  Arbitrage gain can be calculated as follows: 
+ 
+Buy US $ in UK market for £ 2,00,000. 
+ 
+Since £1 = US $ 1.30 for £2,00,000 = 2,00,000 x 1.3 = $2,60,000 
+ 
+So, total US $ in Indian market  
+ 
+US 4 2,60,000 x 80 = ₹ 2,08,00,000 
+ 
+Purchasing £ in Indian market for ₹ 2,08,00,000 
+ 
+2,08,00,000/100 = £2,08,000 
+ 
+Hence the arbitrage gain is £8000 
+(b)  (i)  The RBI uses the single independent ‘policy rate’ which is the repo rate (in the LAF 
+window) for balancing liquidity. The policy rate is in fact, the key lending rate of the 
+central bank in a country. A change in the policy rate gets transmitted through the 
+money market to the entire the financial system and alters all other short term 
+interest rates in the economy, thereby influencing aggregate demand – a key 
+determinant of the level of inflation and economic growth. If the RBI wants to make 
+it more expensive for banks to borrow money, it increases the repo rate. Similarly, if 
+it wants to make it cheaper for banks to borrow money, it reduces the repo rate. In 
+other words, an increase in the repo rate will lead to liquidity tightening and vice- 
+versa, other things remaining constant. The cost of funds increases from 
+commercial banks hence loans become more expensive. 
+ 
+It is a monetary policy instrument and in effect it absorbs the liquidity from the 
+system. This operation takes place when the RBI borrows money from commercial 
+banks by selling them securities (which RBI permits) with an agreement to 
+repurchase the securities on a mutually agreed future date at an agreed price which 
+includes interest for the funds borrowed. The interest rate paid by the RBI for such 
+borrowings is called the "Reverse Repo Rate". Thus, reverse repo rate is the rate of 
+interest paid by the RBI on its borrowings from commercial banks. In case of 
+reverse repo, the money supply in the economy decreases as the commercial banks  
+parks more funds with the RBI. 
+ 
+© The Institute of Chartered Accountants of India
+=== p.35 ===
+ 
+PAPER 8: FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE 
+35 
+ 
+(ii)   (A) Ban on exports or export restriction:   
+ 
+During the period of shortage of product X the government restricted the 
+export of product X to make the supply in domestic market.  It is export related 
+measure of trade   policy. 
+ 
+During periods of shortages, export of product X may be prohibited to make 
+them available for domestic consumption. Export restrictions have an important 
+effect on international markets. By reducing international supply, export 
+restrictions have been effective in increasing international prices. 
+(B) Export subsidies and Incentives: To encourage the export of product Y the 
+government provides subsidy, grant, loans, duty free access etc. It is also and 
+export related measure. 
+Or 
+ 
+There are two flows out of the household sector in addition to consumption 
+expenditure namely, saving flow and the flow of tax payments to the 
+government. These are leakages. The saving leakage flows into financial 
+markets, which means that the part of that is saved is held in the form of some 
+financial asset (currency, bank deposits, bonds, equities, etc.). The tax flow 
+goes to the government sector. The leakages which occur in household sector 
+do not necessarily mean that the total demand must fall short of output. There 
+are additional demands for output on the part of the business sector itself for 
+investment and from the government sector. In terms of the circular flow, these 
+are injections. The investment injection is shown as a flow from financial 
+markets to the business sector. The purchasers of the investment goods, 
+typically financed by borrowing, are actually the firms in the business sector 
+themselves. Thus, the amount of investment in terms of money represents an 
+equivalent flow of funds lent to the business sector. 
+ 
+© The Institute of Chartered Accountants of India

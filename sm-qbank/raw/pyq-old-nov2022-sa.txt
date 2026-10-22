@@ -1,0 +1,869 @@
+          PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                          SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                        Question No. 1 is compulsory.
+                                  Answer any three questions from the rest.
+        Question 1
+        (a) In a conventional sense, 'data’ is a raw entity whereas 'information' is a processed entity.
+            An Information System (IS) model converts data into information, so that it is meaningful
+            to the end user. What are those steps involved in accomplishing this in an IS model?
+                                                                                              (3 Marks)
+        (b) Information Systems Audit is the process of attesting objectives that focus on asset
+            safeguarding, data integrity and management objectives that include effectiveness and
+            efficiency. List the objectives of Information Systems audit.                (2 Marks)
+        Answer
+        (a) The steps involved in an Information System model are as follows:
+             •    Input: Data is collected from an organization or from external environments and
+                  converted into suitable format required for processing.
+             •    Processing: A process is a series of steps undertaken to achieve desired outcome
+                  or goal. Information Systems are becoming more and more integrated with
+                  organizational processes, bringing more productivity and better control to those
+                  processes.
+             •    Output: The system processes the data by applying the appropriate procedure on it
+                  and the information thus produced is stored for future use or communicated to user.
+             •    Storage: The storage of data shall be done at the most detailed level possible.
+                  Regular backups should be stored in a geographically different locations to avoid
+                  impact on both the original data storage and the backup data storage due to any
+                  major disasters such as flooding or fires etc.
+             •    Feedback: Apart from these activities, information system also needs feedback that
+                  is returned to appropriate members of the enterprises to help them to evaluate at the
+                  input stage.
+        (b) The objectives of Information Systems Audit are as follows:
+             •    Improved Safeguarding of Assets
+             •    Improved Data Integrity
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                    INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+             •    Improved System Effectiveness
+             •    Improved System Efficiency
+        Question 2
+        (a) In the modern era, the business gets well developed by using the aut omation technique
+            with a greater customer satisfaction of services and products, where customer -oriented
+            supply chain is playing a vital role. In this context, explain the benefits of automating
+            business processes.                                                             (6 Marks)
+        (b) Many organizations are moving towards cloud based technology for storage and thus
+            providing many benefits to the users. Explain any four reasons for cloud based applications
+            comparing to installed applications.                                             (4 Marks)
+        Answer
+        (a) The benefits of automating business processes are as follows:
+             •    Quality and Consistency: The automation ensures that every action is performed
+                  identically resulting in high quality and reliable results and stakeholders will
+                  consistently experience the same level of service.
+             •    Time Saving: Automation reduces the number of tasks the employees would
+                  otherwise need to do, manually. It frees up time to work on items that add genuine
+                  value to the business, allowing innovation and increasing employees’ levels of
+                  motivation.
+             •    Visibility: The automated processes are controlled, and they consistently operate
+                  accurately within the defined timeline. It gives visibility of the process status to the
+                  organization.
+             •    Improved Operational Efficiency: The automation reduces the time it takes to
+                  achieve a task, the effort required to undertake it and the cost of completing it
+                  successfully. Automation not only ensures that systems run smoothly and efficiently,
+                  but also that errors are eliminated and that best practices are constantly leveraged.
+             •    Governance and Reliability: The consistency of automated processes means
+                  stakeholders can rely on business processes to operate and offer reliable services to
+                  customers, thus, maintaining a competitive advantage.
+             •    Reduced Turnaround Time: The automation eliminates unnecessary tasks and
+                  realigns process steps to optimize the flow of information throughout production,
+                  service, billing, and collection. This adjustment of processes distils operational
+                  performance and reduces the turnaround time for both staff and external c ustomers.
+             •    Reduced Costs: The manual tasks, given that they are performed one-at-a-time and
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                             3
+
+
+                  at a slower rate than an automated task, will cost more. The automation allows to
+                  accomplish more by utilizing fewer resources.
+        (b) The reasons for Cloud based applications compared to Installed applications are as
+            follows:
+                  Particulars          Cloud Based Application             Installed Application
+              Installation      and Installation on user computer is As software is installed on hard
+              Maintenance           not required. Update and disc of the user’s computer, it
+                                    maintenance are defined needs to be installed on every
+                                    responsibility     of   service computer one by one. This may
+                                    provider.                        take lot of time. Also,
+                                                                     maintenance and updating of
+                                                                     software may take lot of time
+                                                                     and efforts.
+              Accessibility          As software is available As software is installed on the
+                                     through online access, to use hard disc of the user’s
+                                     the software a browser and an computer, user needs to go to
+                                     internet    connection    are the computer in which the
+                                     needed. It can be used from software is installed to use the
+                                     any computer in the world. software. It cannot be used from
+                                     Access to the software any other computer.
+                                     becomes very easy. Also, it
+                                     can be used 24 x 7.
+              Mobile Application Mobile application becomes Using the software through
+                                 very easy as data is available mobile application is difficult in
+                                 24x7. As technology evolves, this case.
+                                 mobile technology is becoming
+                                 an industry norm that makes
+                                 cloud-based application future
+                                 oriented.
+              Data Storage           Data is not stored in the user’s Data is physically stored in the
+                                     server computer. It is stored premises of the user, i.e. on the
+                                     on a web server. Ownership of hard disc of the user’s server
+                                     data is defined in Service Level computer. Hence user will
+                                     Agreement (SLA). SLA defines have full control over the data.
+                                     the rights, responsibilities and
+                                     authority of both service
+                                     provider and service user.
+              Data Security          Data security is a challenge in As the data is in physical control
+                                     case      of    cloud     based of the user, user shall have the
+                                     application as the data is not in full physical control over the
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                    INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+                                    control of the user or owner of data and he/she can ensure that
+                                    data. As time evolves; SLAs it is not accessed without proper
+                                    provide for details of back-up, access.
+                                    disaster recovery alternatives
+                                    being used by service provider.
+              Performance           Access is dependent on speed A well written installed
+                                    of internet. Slow internet slows application shall always be
+                                    access to information and may faster than web application,
+                                    slow operations.                 reason being data is picked from
+                                                                     local server without internet.
+              Flexibility           The success of cloud-based It shall have more flexibility and
+                                    applications is that they allow controls as compared to web
+                                    flexibility against both Capital application. It is very easy to
+                                    Expenditure (CAPEX) and write desktop applications that
+                                    Operating Expense (OPEX) to take advantage of the user’s
+                                    the user. User can scale up hardware (such as: scanners,
+                                    operations as per need.          cameras, Wi-Fi, serial ports,
+                                                                     network ports, etc.). Installed
+                                                                     applications have the dis-
+                                                                     advantage of higher Capital
+                                                                     Expenditure       (CAPEX)     in
+                                                                     comparison to cloud-based
+                                                                     application.
+        Question 3
+        (a) We have been using Emails and Google Drive's applications for our personal use, which
+            are free versions of cloud computing. However, it makes a major impact in business
+            organizations. Nowadays, why companies are migrating their business operations to cloud
+            computing environment? Give reasons by highlighting its advantages.          (6 Marks)
+        (b) Fixed assets process is used to ensure that the immovable assets of an enterprise are
+            traced for financial accounting related purposes. In order to accomplish those tasks, what
+            are the typical steps of fixed assets process to follow?                         (4 Marks)
+        Answer
+        (a) The advantages of Cloud Computing are as follows:
+             •    Achieve economies of scale: In cloud computing; computational resources, storage,
+                  and services are shared between multiple customers. This results in achieving
+                  efficient utilization of resources and that too at reduced cost. Volume output or
+                  productivity can be increased even with fewer systems and thereby reduce the cost
+                  per unit of a project or product.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                             5
+
+
+             •    Reduce spending on technology infrastructure: Data and information can be
+                  accessed with minimal upfront spending in a pay-as-you-go approach, which is based
+                  on demand. With the increased dependency of business organizations on IT, huge
+                  investment is required for acquiring IT resources. By using cloud computing, the
+                  organization can avoid purchasing hardware, software, and licensing fees. Moreover,
+                  cloud service providers are paid based on actual usage of resources, which is based
+                  on demand.
+             •    Globalize the workforce: Cloud computing allows users to globalize their workforce
+                  and improve accessibility while shortening training time and new employee learning
+                  curves.
+             •    Streamline business processes: Cloud Service Providers (CSPs) manage
+                  underlying infrastructure to enable organizations to focus on application development
+                  in less time with less resources.
+             •    Reduce capital costs: Cloud computing users worldwide can access the cloud with
+                  Internet connection that subsequently does not require them to spend on technology
+                  infrastructure, hardware, software, or licensing fees.
+             •    Easy access to information/applications: One can access information and
+                  applications as utilities anytime and anywhere, over the internet using any smart
+                  computing device.
+             •    Pervasive accessibility: Data and applications can be accessed anytime, anywhere,
+                  using any smart computing device, making our life so much easier.
+             •    Backup and Recovery: It is relatively much easier to backup and restore data stored
+                  in cloud. Even if one hard disk fails, data will be safe and will continue to be available
+                  automatically on another one.
+             •    Monitor projects more effectively: It is feasible to confine within budgetary
+                  allocations and can be ahead of completion cycle times.
+             •    Less personnel training is needed: It takes fewer people to do more work on a
+                  cloud with a minimal learning curve on hardware and software issues.
+             •    Minimize maintenance and licensing software: As there is not much of non-
+                  premise computing resources, maintenance becomes simple, and updates and
+                  renewals of software systems rely on the cloud vendor or provider.
+             •    Load balancing: Load balancing is defined as the process of distributing workloads
+                  across multiple servers to prevent any single server from getting overloaded and
+                  possibly breaking down. It plays an important role in maintaining the availability of
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                      INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+                    cloud-based applications to customers, business partners, and end users, thus
+                    making it more reliable.
+             •      Improved flexibility: Cloud users can make fast changes in their work environment
+                    without serious issues at stake to scale services to fit their needs.
+        (b) Typical steps of Fixed Assets process are as follows:
+             i.     Procuring an asset: An asset is most often entered into the accounting system when
+                    the invoice for the asset is entered into the accounts payable or purchasing module
+                    of the system.
+             ii.    Registering or adding an asset: Most of the information needed to set up the asset
+                    for depreciation is available at the time, the invoice is entered. Information entered at
+                    this stage could include acquisition date, placed-in-service date, description, asset
+                    type, cost basis, depreciable basis etc.
+             iii.   Adjusting the Assets: Adjustments to existing asset information is often needed to
+                    be made. Events may occur that can change the depreciable basis of an asset.
+                    Further, there may be improvements or repairs made to asset that either adds value
+                    to the asset or extend its economic life.
+             iv.    Transferring the Assets: A fixed asset may be sold or transferred to another
+                    subsidiary, reporting entity, or department within the company. These inter -company
+                    and intra-company transfers may result in changes that impact the asset’s
+                    depreciable basis, depreciation, or other asset data. This needs to be reflected
+                    accurately in the fixed assets management system.
+             v.     Depreciating the Assets: The decline in an asset’s economic and physical value is
+                    called Depreciation. Depreciation is an expense which should be periodically
+                    accounted on a company’s books, and allocated to the accounting periods, to match
+                    income and expenses. Sometimes, the revaluation of an asset, may also result in
+                    appreciation of its value.
+             vi.    Disposing the Assets: When a fixed asset is no longer in use, becomes obsolete,
+                    or is beyond repair; the asset is typically disposed. When an asset is taken out of
+                    service, depreciation cannot be charged on it. There are multiple types of disposals
+                    such as abandonments, sales, and trade-ins. Any difference between the book value
+                    and realized value is reported as a gain or loss.
+        Question 4
+        (a) ABC Bank, one of the largest public sector banks, is planning to deploy and implement
+            Core Banking System (CBS) to all its branches. As an IT consultant, suggest the
+            deployment and implementation of CBS at various stages to ensure that bank's automation
+            objectives are achieved.                                                      (6 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          7
+
+
+        (b) In recent times, new modes of money transfer have replaced the traditional methods of
+            funds transfer. Most of the banks have now introduced digital mode of remittance, called
+            Electronic Fund Transfer (EFT) which facilitates almost instantaneous transfer of funds.
+            Define EFT and explain its types.                                             (4 Marks)
+        Answer
+        (a) The deployment and implementation of Core Banking System (CBS) should be controlled
+            at various stages to ensure that banks automation objectives are achieved, are as follows:
+             •     Planning: Planning for implementing the CBS should be done as per strategic and
+                   business objectives of bank.
+             •     Approval: The decision to implement CBS requires high investment and recurring
+                   costs and will impact how banking services are provided by the bank. Hence, the
+                   decision must be approved by the Board of Directors.
+             •     Selection: Although there are multiple vendors of CBS, each solution has key
+                   differentiators. Hence, bank should select the right solution which is scalable and
+                   where different interfaces are readily available considering various parameters as
+                   defined by the bank, to meet their specific requirements and business objectives.
+             •     Design and develop or procured: CBS solutions used to be earlier developed in-
+                   house by the bank. Currently, most of the CBS deployments are procured. There
+                   should be appropriate controls covering the design or development or procurement
+                   of CBS for the bank.
+             •     Testing: Extensive testing must be done before the CBS is live. The testing is to
+                   be done at different phases at procurement stage to test suitability to data migration
+                   to ensure all existing data is correctly migrated and testing to confirm processing of
+                   various types of transactions of all modules produces the correct results.
+             •     Implementation: CBS must be implemented as per pre-defined and agreed plan
+                   with specific project milestones to ensure successful implementation.
+             •     Maintenance: CBS must be maintained as required. For example - program bugs
+                   fixed, version changes implemented, etc.
+             •     Support: CBS must be supported to ensure that it is working effectively.
+             •     Updation: CBS modules must be updated based on requirements of business
+                   processes, technology updates and regulatory requirements.
+             •     Audit: Audit of CBS must be done internally and externally as required to ensure
+                   that controls are working as envisaged.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                     INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+        (b) Electronic Funds Transfer (EFT) is another mode of remittance which facilitates almost
+            instantaneous transfer of funds between two centres electronically. Most of the banks have
+            introduced digital mode of remittance which makes remittance possible online and on
+            mobile devices directly by the customer in a few clicks.
+             New modes of money transfer include the following:
+             •    Real Time Gross Settlement (RTGS) is an electronic form of funds transfer where
+                  the transmission takes place on a real-time basis. In India, transfer of funds with
+                  RTGS is done for high value transactions, the minimum amount being Rs. 2 lakh. The
+                  beneficiary account receives the funds transferred, on a real- time basis.
+             •    National Electronic Funds Transfer (NEFT) is a nation-wide payment system
+                  facilitating one-to-one funds transfer. Under this scheme, individuals can
+                  electronically transfer funds from any bank branch to any individual having an account
+                  with any other bank branch in the country participating in the scheme.
+             •    Immediate Payment Service (IMPS) is an instant payment inter-bank electronic
+                  funds transfer system in India. IMPS offers an inter-bank electronic fund transfer
+                  service through mobile phones. Unlike NEFT and RTGS, the service is available 24x7
+                  throughout the year including bank holidays.
+        Question 5
+        (a) Computers are used extensively to process data and to provide Information for decision
+            making. However, uncontrolled use of computers can have a widespread impact on a
+            society. Explain the factors influencing the need for control and audit of information
+            systems.                                                                     (6 Marks)
+        (b) Today's ERP systems can cover a wide range of functions such as Human Resources,
+            Supply Chain Management, Customer Relationship Management, Financials, etc. and
+            integrating them into one unified database. As an IT consultant of a company, how will you
+            influence the Management to migrate their activities to ERP system by explaining its
+            benefits.                                                                       (4 Marks)
+                                                        OR
+             One of the major problems of doing online business is the question of security. Then, how
+             do you protect your e-commerce business from intrusion?
+        Answer
+        (a) The factors influencing the need for control and audit of Information Systems are as
+            follows:
+             •    Organizational costs of data loss: Data is a critical resource of an organization for
+                  its present and future processes. If the data is accurate, its ability to adapt and survive
+                  in a changing environment increases significantly. If such data is lost, an organization
+                  can incur substantial losses.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                         9
+
+
+             •    Cost of incorrect decision making: Making high-quality decisions are dependent
+                  on both – the quality of the data and quality of the decision rules that exist within
+                  computer-based information systems. While making strategic decisions, some errors
+                  may be allowed by management considering the long-run nature of strategic planning
+                  decisions whereas highly accurate data would be required while making operational
+                  control decisions by the managers. These operational controls taken by managers
+                  involve detection, investigations, and correction of the processes. Incorrect data can
+                  also have adverse impact on the other stakeholders having an interest in the
+                  organization.
+             •    Costs of computer abuse: Computer abuse is defined as any incident associated
+                  with computer technology in which the user suffered or could have suffered loss and
+                  a perpetrator by intention made or could have made gain. Unauthorized access to
+                  computer systems, malwares, unauthorized physical access to computer facilities,
+                  unauthorized copies of sensitive data, viruses, and hacking can lead to destruction of
+                  assets like hardware, software, data, information etc.
+             •    Value of computer hardware, software, and personnel: These are critical
+                  resources of an organization, which has a credible impact on its infrastructure and
+                  business competitiveness. The intentional or unintentional loss of hardware, the
+                  destructions or corruption of software, and non-availability of skilled computer
+                  professionals in some countries; an organization might be unable to continu e their
+                  operations seamlessly.
+             •    High costs of computer error: In a computerized enterprise environment where
+                  many critical business processes are performed, a data error during entry or process
+                  would cause great damage. For example - small data error during an operational flight
+                  can lead to loss of human lives; an error in any financial system can make an
+                  organization liable for penalty etc.
+             •    Maintenance of privacy: Nowadays, data collected in a business process contains
+                  private information about an individual too. These data were also collected before
+                  computers but now, there are many instances in which privacy of individuals has been
+                  eroded beyond acceptable levels.
+             •    Controlled evolution of computers’ use: Use of Technology and reliability of
+                  complex computer systems cannot be guaranteed and the consequences of using
+                  unreliable systems can be destructive. Governments, professional bodies, pressure
+                  groups, organizations, and individual persons all must be concerned with evaluating
+                  and monitoring how we deploy computer technology.
+        (b) The benefits of an Enterprise Resource Planning (ERP) System are as follows:
+             •    Information integration: The reason ERP systems are called integrated is because
+                  they possess the ability to automatically update data between related business
+                  functions and components. For example - one needs to only update the status of an
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                   INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+                  order at one place in the order-processing system and all the other components will
+                  automatically get updated.
+             •    Reduction of Lead-time: The elapsed time between placing an order and receiving
+                  it is known as the Lead-time. The ERP Systems by virtue of their integrated nature
+                  with many modules like Finance, Manufacturing, Material Management Module etc.;
+                  the use of the latest technologies like EFT (Electronic Fund Transfer), EDI (Electronic
+                  Data Interchange) reduce the lead times and make it possible for the organizations
+                  to have the items at the time they are required.
+             •    On-time shipment: Since the different functions involved in the timely delivery of the
+                  finished goods to the customers - purchasing, material management production,
+                  production planning, plant maintenance, sales and distribution are integrated, and the
+                  procedures are automated; the chances of errors are minimal, and the production
+                  efficiency is high. Thus, by integrating the various business functions and automating
+                  the procedures and tasks, the ERP system ensures on-time delivery of goods to the
+                  customers.
+             •    Reduction in Cycle Time: The Cycle time is the time between placement of the order
+                  and delivery of the product. In an ERP System, all the data updated to the minute, is
+                  available in the centralized database and all the procedures are automated. Almost
+                  all these activities are done without human intervention. This efficiency of the ERP
+                  systems helps in reducing the cycle time.
+             •    Improved resource utilization: The efficient functioning of different modules in the
+                  ERP system like manufacturing, material management, plant maintenance, sales and
+                  distribution ensures that the inventory is kept to a minimum level, the machine down
+                  time is minimum, the goods are produced only as per the demand and the finished
+                  goods are delivered to the customer in the most efficient way. Thus, the ERP systems
+                  help an organization in drastically improving the capacity and resource utilization.
+             •    Better customer satisfaction: Customer satisfaction means meeting or exceeding
+                  customers’ requirement for a product or service. With the help of web-enabled ERP
+                  systems, customers can place an order, track the status of the order, and make the
+                  payment while sitting at home. Since all the details of the product and the customer
+                  are available to the person at the technical support department also, the company
+                  can better support the customer.
+             •    Improved supplier performance: ERP systems provide vendor management and
+                  procurement support tools designed to coordinate all aspect of the procurement
+                  process. They support an organization in its efforts to effectively negotiate, monitor
+                  and control procurement costs and schedules while assuring superior product quality.
+                  The supplier management and control processes are comprised of features that will
+                  help the organization in managing supplier relations, monitoring vendor activities, and
+                  managing supplier quality.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                       11
+
+
+             •    Increased flexibility: ERP Systems help the companies to remain flexible by making
+                  the company’s information available across the departmental barriers and automating
+                  most of the processes and procedures, thus enabling the company to react quickly to
+                  the changing market conditions.
+             •    Reduced quality costs: Quality is defined in many different ways - excellence,
+                  conformance to specifications, fitness for use, value for the price and so on. An ERP
+                  System’s central database eliminates redundant specifications and ensures that a
+                  single change to standard procedures takes effect immediately throughout the
+                  organization. It also provides tools for implementing total quality management
+                  programs within an organization.
+             •    Better analysis and planning capabilities: Another advantage provided by ERP
+                  Systems is the boost to the planning functions. By enabling the compre hensive and
+                  unified management of related business functions such as production, finance,
+                  inventory management etc. and their data; it becomes possible to utilize fully many
+                  types of Decision Support Systems (DSS) and simulation functions, what -if analysis
+                  and so on; thus, enabling the decision-makers to make better and informed decisions.
+             •    Improved information accuracy and decision-making capability: The three
+                  fundamental characteristics of information are Accuracy, Relevancy and Timeliness.
+                  The information needs to be accurate, relevant for the decision-maker and available
+                  to the decision-makers when she/he requires it. The strength of ERP Systems-
+                  integration and automation help in improving the information accuracy and help in
+                  better decision-making.
+             •    Use of latest technology: ERP packages are adapted to utilize the latest
+                  developments in Information Technology such as open systems, client/server
+                  technology, Cloud computing, Mobile computing etc. It is this adaptation of ERP
+                  packages to the latest changes in IT that makes the flexible adaptation to changes in
+                  future development environments possible.
+                                                     OR
+             The ways to protect any e-Commerce business from intrusion are as follows:
+             •    Viruses: The business website should be checked daily for viruses, the presence of
+                  which can result in the loss of valuable data. Virus protection gains greater
+                  significance in e-commerce operations primarily because most of the users of e-
+                  commerce infrastructure are either unknown or are not under the control of business
+                  enterprise. These users have their own virus protection environment that may not be
+                  secure.
+             •    Hackers: Software packages to carry out regular assessments of how vulnerable
+                  their website is to hackers.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                   INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+             •    Passwords: Employees should ensure that they change their passwords regularly
+                  and that passwords set by former employees of an organization are defunct.
+             •    Regular software updates: A business website should always be up to date with the
+                  newest versions of security software. If it is not done regularly, the website m ay
+                  become vulnerable to attack.
+             •    Sensitive data: Financial information and other confidential data should be encrypted
+                  using encryption software. Hackers or third parties will not be able to access
+                  encrypted data without a key. This is particularly relevant for any e-commerce sites
+                  that use a shopping cart system.
+             •    Know the details of your payment service providers’ contract.
+
+
+
+
+© The Institute of Chartered Accountants of India
+                PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          13
+
+
+                             PAPER 7 - SECTION – B: STRATEGIC MANAGEMENT
+             Question paper comprises of 5 questions, Answer Question No. 6 which is compulsory and
+                                     any 3 out of the remaining 4 questions.
+        Question 6
+        Quick N Sturdy Inc., a multinational company, is undergoing feasibility study to introduce new
+        luxury and sports car for specific group of customers. The product is meant for customers with
+        distinctive preferences and special requirements. The product is not a standard one and as
+        such the target market is also narrow. Company knows that demand for the product is large
+        enough to be profitable for the company, but small enough to be ignored by other major
+        industry players. The company wants to position itself in the niche market with the prime
+        consideration to offer unique features in the product for the target market.
+        In the given situation, identify the generic strategy as suggested by Michael Porter. Also state
+        the advantages and disadvantages of such strategy.                        (1 + 2 + 2 = 5 Marks)
+        Answer
+        Quick N Sturdy Inc. has adopted Focused Differentiation Strategy which is one of the
+        Michael Porter’s Generic strategies. A focused differentiation strategy requires offering unique
+        features that fulfil the demands of a narrow market. Some firms using a focused differen tiation
+        strategy concentrate their efforts on a particular sales channel, such as selling over the
+        internet only. Others target particular demographic groups. Firms that compete based on
+        uniqueness and target a narrow market are following a focused differe ntiation strategy.
+        Advantages of Focused Strategy
+        1.      Premium prices can be charged by the organisations for their focused product/services.
+        2.      Due to the tremendous expertise in the goods and services that the organisations
+                following focus strategy offer, rivals and new entrants may find it difficult to compete.
+        Disadvantages of Focused Strategy
+        1.      The firms lacking in distinctive competencies may not be able to pursue focus strategy.
+        2.      Due to the limited demand of product/services, costs are high, which can cause
+                problems.
+        3.      In the long run, the niche could disappear or be taken over by larger competitors by
+                acquiring the same distinctive competencies.
+        Question 7
+        (a) "The strategic management cannot counter all hindrances and always achieve success
+            for an organization." Do you agree with this statement? Give arguments in support of
+            your answer.                                                       (1+ 4 = 5 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                   INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+        (b) You have been appointed as a Chief Executive Officer (CEO) in a company which is
+            facing many difficulties in proper execution of its strategy. Explain the leadership roles
+            which you should play in pushing for good strategy execution.                   (5 Marks)
+        Answer
+        (a) Yes, it is true that the presence of strategic management cannot counter all hindrances
+            and always achieve success for an organization. This is on account of complex multiple
+            forces acting on business organization and limiting its success.
+             These limitations are on account of following factors:
+                 Environment is highly complex and turbulent. It is difficult to understand the
+                  complex environment and exactly pinpoint how it will shape-up in future. The
+                  organisational estimate about its future shape may awfully go wrong and jeopardis e
+                  all strategic plans.
+                 Strategic management is a time-consuming process. Organisations spend a lot
+                  of time in preparing, communicating the strategies that may impede daily operations
+                  and negatively impact the routine business.
+                 Strategic management is a costly process. Strategic management adds a lot of
+                  expenses to an organization – particularly to small and medium organisations.
+                  Expert strategic planners need to be engaged, efforts are made for analysis of
+                  external and internal environments devise strategies and properly implement.
+                 Competition is unpredictable. In a competitive scenario, where all organisations
+                  are trying to move strategically, it is difficult to clearly estimate the competitive
+                  responses to the strategies.
+        (b) A Chief Executive Officer (CEO) has many different leadership roles to play: visionary,
+            chief entrepreneur and strategist, chief administrator, culture builder, resource acquirer
+            and allocator, capabilities builder, process integrator, crisis solver, spokesperson,
+            negotiator, motivator, arbitrator, policy maker, policy enforcer, and head cheerleader.
+            Managers have five leadership roles to play in pushing for good strategy execution:
+             1.   Staying on top of what is happening, closely monitoring progress, working through
+                  issues and obstacles.
+             2.   Promoting a culture that mobilizes and energizes organizational members to
+                  execute strategy and perform at a high level.
+             3.   Keeping the organization responsive to changing conditions, alert for new
+                  opportunities and remain ahead of rivals in developing competitively valuable
+                  competencies and capabilities.
+             4.   Ethical leadership and insisting that the organization conduct its affairs like a model
+                  corporate citizen.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                        15
+
+
+             5.   Pushing corrective actions to improve strategy execution and overall strategic
+                  performance.
+        Question 8
+        (a) A company started its operation in 2015 with Product Alpha. In early 2021, with intent to
+            have its better presence in the market, the company diversifies by acquiring a company
+            with product Beta. After sometime, it was observed that product Beta is not faring well.
+            Aggressive competition was therein market for the product. It was also revealed that
+            though customers are not price sensitive, but product was not keeping pace with the
+            fast changing unique features as expected by its customers.
+             Company has tried one of the retrenchment strategies by putting efforts to improve its
+             internal efficiency, but could not get desired results. In the situation, company is of a
+             considered view to remain and grow in product alpha and to decouple with product Beta
+             from its portfolio.
+             As a strategist, suggest the retrenchment strategy to be adopted by the company. Al so
+             delineate reasons why a company should adopt such strategy?           (1+ 4 = 5 Marks)
+        (b) What is cost leadership strategy? Under what circumstances an organization can gain
+            competitive advantages from cost leadership strategy? Is there any risk in pursuing co st
+            leadership strategy?                                               (1+ 3 + 1 = 5 Marks)
+        Answer
+        (a) As per the facts of the case, company had tried to improve its internal efficiency. In other
+            words, had tried turnaround strategy but could not get the desired results.
+             Company does not want to go for complete close down of business. Rather it wants to
+             continue and grow in its original business i.e. product Alpha.
+             As a strategist, it is advisable that the company should adopt divestment strategy. In
+             the given situation where the business of product Beta is not faring well and became
+             unprofitable and unviable due to aggressive competition in the market, the best option for
+             the company is to divest the product Beta which is loss-making business.
+             Retrenchment may be done either internally or externally. Turnaround strategy is
+             adopted in case of internal retrenchment where emphasis is laid on improving internal
+             efficiency of the organization, while divestment strategy is adopted when a business
+             turns unprofitable and unviable due to some external factors. In view of the above, the
+             company should go for divestment strategy.
+             A divestment strategy may be adopted due to various reasons:
+             1.   A business that had been acquired proves to be a mismatch and cannot be
+                  integrated within the company.
+             2.   Persistent negative cash flows from a particular business create financial problems
+                  for the whole company, creating the need for divestment of that business.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                   INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+             3.   Severity of competition and the inability of a firm to cope with it may cause it to
+                  divest.
+             4.   It is not possible for the business to do Technological up-gradation that is required
+                  for the business to survive, a preferable option would be to divest.
+             5.   A better alternative may be available for investment, causing a firm to divest a part
+                  of its unprofitable business.
+        (b) Cost leadership strategy emphasizes producing standardized products at a very low
+            per-unit cost for consumers who are price-sensitive. It frequently results from productivity
+            increases and aggressive pursuit of cost reduction throughout the development,
+            production, marketing, and distribution processes. It allows a firm to earn higher profits
+            than its competitors.
+             The circumstances in which an organization can gain competitive advantages from cost
+             leadership strategy are:
+                 when the market is composed of many price-sensitive buyers.
+                 when there are few ways to achieve product differentiation.
+                 when buyers do not care much about differences from brand to brand.
+                 when there are a large number of buyers with significant bargaining power.
+             The basic idea is to underprice competitors and thereby gain market share driving some
+             of the competitors out of the market.
+             Some risks of pursuing cost leadership are:
+                 that competitors may imitate the strategy, therefore driving overall industry profits
+                  down
+                 that technological breakthroughs in the industry may make the strategy ineffective;
+                  or that buyer interests may swing to other differentiating features besides price.
+        Question 9
+        (a) "The TOWS Marix is a tool for generating strategic options/choices." Do you agree with
+            this statement? How it can help a strategist in decision making?      (1 + 4 = 5 Marks)
+        (b) "Strategic intent provides the framework within which the firm would adopt a
+            predetermined direction and would operate to achieve strategic objectives." In the light
+            of this statement, discuss the elements of strategic intent.                 (5 Marks)
+        Answer
+        (a) Yes, TOWS Matrix is a relatively simple tool for generating strategic options. Through
+            TOWS matrix four distinct alternative kinds of strategic choices can be identified.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                        17
+
+
+             SO (Maxi-Maxi): Aggressive strategy - SO is a position that any firm would like to
+             achieve. The strengths can be used to capitalize or build upon existing or emerging
+             opportunities.
+             ST (Maxi-Mini): Conservative strategy - ST is a position in which a firm strives to
+             minimize existing or emerging threats through its strengths.
+             WO (Mini-Maxi): Competitive strategy - The strategies developed need to overcome
+             organizational weaknesses if existing or emerging opportunities are to be exploited to
+             maximum.
+             WT (Mini-Mini): Defensive strategy - WT is a position that any firm will try to avoid. An
+             organization facing external threats and internal weaknesses may have to struggle for its
+             survival.
+             The matrix is outlined below:
+                   Internal             Strengths – S                  Weaknesses – W
+                   External             List Strengths                 List Weaknesses
+                   Opportunities – O    SO Strategies Use strengths WO Strategies
+                   List Opportunities   to take advantage of Overcoming weaknesses by
+                                        opportunities               taking      advantage of
+                                                                    opportunities
+                   Threats – T          ST Strategies                WT Strategies
+                   List Threats         Use strengths     to   avoid Minimize weaknesses          and
+                                        threats                      avoid threats
+                                             Figure: The TOWS Matrix
+             By using TOWS Matrix, a strategist can look intelligently at how he can best take
+             advantage of the opportunities open to him, at the same time that he can minimize the
+             impact of weaknesses and protect himself against threats. Used after detailed analysis o f
+             threats, opportunities, strength and weaknesses, it helps the strategist to consider how to
+             use the external environment to his strategic advantage, and so he can identify some of
+             the strategic options available to him.
+        (b) Strategic intent can be understood as the philosophical base of strategic management. It
+            implies the purposes, which an organization endeavours to achieve. It is a statement that
+            provides a perspective. Strategic intent gives an idea of what the organization desires to
+            attain in future. Strategic intent provides the framework within which the firm would adopt
+            a predetermined direction and would operate to achieve strategic objectives.
+             Elements of strategic management are as follows:
+             (i)     Vision: Vision implies the blueprint of the company’s future position. It describes
+                     where the organisation wants to land. It depicts the organisation’s aspirations and
+
+
+
+
+© The Institute of Chartered Accountants of India
+        18                   INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+                  provides a glimpse of what the organization would like to become in future. Every
+                  sub system of the organization is required to follow its vision.
+             (ii) Mission: Mission delineates the firm’s business, its goals and ways to reach the
+                  goals. It explains the reason for the existence of the firm in the society. A mission
+                  statement helps to identify, ‘what business the company undertakes.’ It defines the
+                  present capabilities, activities, customer focus and role in society.
+             (iii) Business Definition: It seeks to explain the business undertaken by the firm, with
+                   respect to the customer needs, target markets, and alternative technologies. With
+                   the help of business definition, one can ascertain the strategic business choices.
+             (iv) Business Model: Business model, as the name implies is a strategy for the
+                  effective operation of the business, ascertaining sources of income, desired
+                  customer base, and financial details. Rival firms, operating in the same industry rely
+                  on the different business model due to their strategic choice.
+             (v) Goals and Objectives: These are the base of measurement. Goals are the end
+                 results, that the organization attempts to achieve. On the other hand, objectives are
+                 time-based measurable targets, which help in the accomplishment of goals. These
+                 are the end results which are to be attained with the help of an overall plan.
+                 However, in practice, no distinction is made between goals and objectives and both
+                 the terms are used interchangeably.
+        Question 10
+        (a) The growth rate of A & B Ltd. growth rate was around 10% per annum during the last
+            decade. But thereafter its growth rate started falling and presently the growth rate of the
+            company is very low around 1%. The company is facing twin problems, one the strategy
+            is not implemented as planned; and two the results produced by the strategy are not in
+            conformity with intended goals.
+             You being a strategy consultant, advise the tool for audit of management performance.
+             Also explain the need of such tool and its basic activities.      (1 + 2 + 2 = 5 Marks)
+        (b) "A well designed strategic management system can fail if insufficient attention is given to
+            the human resource dimension." ·Elucidate this statement.                        (5 Marks)
+                                                      OR
+             Write short note on Strategic Business Unit (SBU).
+        Answer
+        (a) A & B Ltd. reviews its business plans and strategies on regular basis to identify
+            weaknesses and shortcomings to enable a successful development plan. A strategy audit
+            is an examination and evaluation of areas affected by the operation of a strategic
+            management process within an organization. The audit of management performance with
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                        19
+
+
+             regard to its strategies helps an organization identify problem areas and correct the
+             strategic approaches that have not been effective.
+             Strategy audit is needed under the following conditions:
+                  When the performance indicators reflect that a strategy is not working properly or is
+                   not producing desired outcomes.
+                  When the goals and objectives of the strategy are not being accomplished.
+                  When a major change takes place in the external environment of the organization.
+                  When the top management plans:
+                   (a) To fine-tune the existing strategies and introduce new strategies; and
+                   (b) To ensure that a strategy that has worked in the past continues to be in-tune
+                       with subtle internal and external changes that may have occurred since the
+                       formulation of strategies.
+                   Adequate and timely feedback is the cornerstone of effective strategy audit.
+                   Strategy audit can be no better than the information on which it is based.
+             Strategy Audit includes three basic activities:
+             1.    Examining the underlying bases of a firm’s strategy,
+             2.    Comparing expected results with actual results, and
+             3.    Taking corrective actions to ensure that performance conforms to plans.
+        (b) A well-designed strategic-management system can fail if insufficient attention is given to
+            the human resource dimension. Human resource problems that arise when a business
+            implements strategies can usually be traced to one of three causes: (1) disruption of
+            social and political structures, (2) failure to match individuals’ aptitudes with
+            implementation tasks, and (3) inadequate top management support for implementation
+            activities.
+             i.    Disruption of social and political structures: Strategy implementation poses a
+                   threat to many managers and employees in an organization. New power and status
+                   relationships are anticipated and realized. New formal and informal groups’ values,
+                   beliefs, and priorities may be largely unknown. Managers and employees may
+                   become engaged in resistance behaviour as their roles, prerogatives, and power in
+                   the firm change. Disruption of social and political structures that accompany
+                   strategy execution must be anticipated and considered during strategy formulation
+                   and managed during strategy implementation.
+             ii.   Failure to match individuals’ aptitudes with implementation tasks: A concern in
+                   matching managers with strategy is that jobs have specific and relatively static
+                   responsibilities, although people are dynamic in their personal development.
+                   Commonly used methods that match managers with strategies to be implemented
+
+
+
+
+© The Institute of Chartered Accountants of India
+        20                   INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+                  include transferring managers, developing leadership workshops, offering career
+                  development activities, promotions, job enlargement, and job enrichment.
+                  It is surprising that so often during strategy formulation; individual values, skills, and
+                  abilities needed for successful strategy implementation are not considered. It is rare
+                  that a firm selecting new strategies or significantly altering existing strategies
+                  possesses the right line and staff personnel in the tight positions for successful
+                  strategy implementation. The need to match individual aptitudes with strategy -
+                  implementation tasks should be considered in strategy choice.
+             iii. Inadequate top management support for implementation activities: Inadequate
+                  support from strategists for implementation activities often undermines
+                  organizational success. Chief executive officers, small business owners, and
+                  government agency heads must be personally committed to strategy
+                  implementation and express this commitment in highly visible ways. Strategists’
+                  formal statements about the importance of strategic management must be
+                  consistent with actual support and rewards given for activities completed and
+                  objectives reached. Otherwise, stress created by inconsistency can cause
+                  uncertainty among managers and employees at all levels.
+                                                          OR
+             SBU is a part of a large business organization that is treated separately for strategic
+             management purposes. It is separate part of large business serving product markets wi th
+             readily identifiable competitors. It is created by adding another level of management in a
+             divisional structure after the divisions have been grouped under a divisional top
+             management authority based on the common strategic interests.
+             Very large organizations, particularly those running into several products, or operating at
+             distant geographical locations that are extremely diverse in terms of environmental
+             factors, can be better managed by creating strategic business units. SBU structure
+             becomes imperative in an organization with increase in number, size and diversity.
+             The three most important characteristics of a SBU are:
+             •    It is a single business or a collection of related businesses which offer scope for
+                  independent planning and which might feasibly standalone from the rest of the
+                  organization.
+             •    It has its own set of competitors.
+             •    It has a manager who has responsibility for strategic planning and profit
+                  performance, and who has control of profit-influencing factors.
+             Benefits of SBUs:
+             1.   Establishing coordination between divisions having common strategic interest.
+             2.   Facilitate strategic management and control.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                    21
+
+
+             3.   Determine accountability at the level of distinct business units.
+             4.   Allow strategic planning to be done at the most relevant level within the total
+                  enterprise.
+             5.   Make the task of strategic review by top executives more objective and more
+                  effective.
+             6.   Help to allocate resources to areas with better opportunities.
+             Thus, an SBU structure with its set of advantages would be most suitable for the
+             company with the given diverse businesses having separate identifiable competitors, but
+             a common organizational goal.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

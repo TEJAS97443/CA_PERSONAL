@@ -1,0 +1,349 @@
+                                                             Test Series: October, 2021
+                                 MOCK  TEST PAPER-I
+                           INTERMEDIATE  (NEW): GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                     ANSWERS
+                         PART I : MULTIPLE CHOICE QUESTIONS
+1.  (a) (i), (ii), (vi), (v), (iii), (iv)
+2.  (d) Different MIS reports automatically suggest the best solution to its stakeholders.
+3.  (a) Business to Consumer e-Commerce
+4.  (d) Removal, transfer of property to prevent tax recovery
+5.  (c) Concurrent
+6.  (c) Bring Your Own Device
+7.  (b)
+8.  (b) Integrated Test Facility
+9.  (c) Delivery of product to customer
+10. (a) Electronic Clearing Service (ECS) Debit
+                            Part II: DESCRIPTIVE QUESTIONS
+1.  (a) The different advanced Data Analytics techniques are as follows:
+        •   Data Mining involves sorting through large data sets to identify trends, patterns and
+            relationships;
+        •   Predictive Analytics seeks to predict customer behaviour, equipment failures and other
+            future events; and
+        •   Machine Learning is an artificial intelligence technique that uses automated algorithms to
+            churn through data sets more quickly than data scientists can do via conventional analytical
+            modelling.
+    (b) A Proxy Server is a computer that offers a computer network service to allow clients to make
+        indirect network connections to other network services. A client connects to the proxy server, and
+        then requests a connection, file, or other resource available on a different server. The proxy
+        server provides the resource either by connecting to the specified server or by serving it from a
+        cache and hence often used to increase the speed and managing network bandwidth. In some
+        cases, the proxy may alter the client’s request or the server’s response for various purposes.
+2.  (a) The module of Enterprise Resource Planning (ERP) discussed is Controlling Module. The
+        various key features of this module are as follows:
+        •   Cost Element Accounting: This component provides overview of the costs and revenues
+            that occur in an organization. The cost elements are the basis for cost accounting and
+            enable the user the ability to display costs for each of the accounts that have been assigned
+            to the cost element. Examples of accounts that can be assigned are Cost Centres, Internal
+            Orders, WBS (Work Breakdown Structures);
+
+        •   Cost Centre Accounting: This provides information on the costs incurred by the business.
+            Cost Centres can be created for such functional areas as Marketing, Purchasing, Human
+            Resources, Finance, Facilities, Information Systems, Administrative Support, Legal,
+            Shipping/Receiving, or even Quality. Some of the benefits of Cost Centre Accounting are
+            that the Managers can set Budget/Cost Centre targets; Planning; Availability of Cost
+            allocation methods; and Assessments/Distribution of costs to other cost objects;
+        •   Activity-Based-Accounting: This analyse cross-departmental business processes and
+            allows for a process-oriented and cross-functional view of the cost centres;
+        •   Internal Orders: Internal Orders provide a means of tracking costs of a specific job,
+            service, or task. These are used as a method to collect those costs and business
+            transactions related to the task. This level of monitoring can be very detailed but allows
+            management the ability to review Internal Order activity for better -decision making
+            purposes;
+        •   Product Cost Controlling: This calculates the costs that occur during the manufacture of a
+            product or provision of a service and allows the management the ability to analyse their
+            product costs and to make decisions on the optimal price(s) to market their produ cts;
+        •   Profitability Analysis: This allows the management to review information with respect to
+            the company’s profit or contribution margin by individual market segment; and
+        •   Profit Centre Accounting: This evaluates the profit or loss of individual, independent areas
+            within an organization.
+    (b) The drawbacks of Cloud Computing are as follows:
+           If Internet connection is lost, the link to the cloud and thereby to the data and applications is
+            lost.
+           Security is a major concern as entire working with data and applications depend on other
+            cloud vendors or providers.
+           Although Cloud computing supports scalability i.e. quickly scaling up and down computing
+            resources depending on the need, it does not permit the control on these resources as
+            these are not owned by the user or customer.
+           Depending on the cloud vendor or provide, customers may have to face restrictions on the
+            availability of applications, operating systems and infrastructure options.
+           Interoperability (ability of two or more applications that are requi red to support a business
+            need to work together by sharing data and other business-related resources) is an issue
+            wherein all the applications may not reside with a single cloud vendor and two vendors may
+            have applications that do not cooperate with each other.
+3.  (a) The advantages of using Database Management System (DBMS) are as follows:
+           Permitting Data Sharing: One of the principle advantages of a DBMS is that the same
+            information can be made available to different users.
+           Minimizing Data Redundancy: In a DBMS, duplication of information or redundancy is, if
+            not eliminated, carefully controlled or reduced i.e. there is no need to repeat the same data
+            repeatedly. Minimizing redundancy reduces significantly the cost of storing information on
+            storage devices.
+
+           Integrity can be maintained: Data integrity is maintained by having accurate, consistent,
+            and up-to-date data. Updates and changes to the data only must be made in one place in
+            DBMS  ensuring Integrity.
+           Program  and File consistency: Using a DBMS, file formats and programs are
+            standardized. The level of consistency across files and programs makes it easier to manage
+            data when multiple programmers are involved as the same rules and guidelines apply
+            across all types of data.
+           User-friendly: DBMS makes the data access and manipulation easier for the user. DBMS
+            also reduces the reliance of users on computer experts to meet their data needs.
+           Improved security: DBMS allows multiple users to access the same data resources in a
+            controlled manner by defining the security constraints. Some sources of information should
+            be protected or secured and only viewed by select individuals. Using passwords, DBMS can
+            be used to restrict data access to only those who should see it.
+           Achieving program/data independence: In a DBMS, data does not reside in applications
+            but data bases program and data are independent of each other.
+           Faster Application Development: In the case of deployment of DBMS, application
+            development becomes fast. The data is already therein databases, application developer
+            has to think of only the logic required to retrieve the data in the way a user needs.
+    (b) The risks and their corresponding controls related to the process of Mortgage involved in Core
+        Banking System are as follows:
+| S. Risks | Key Controls |
+| --- | --- |
+| No. |  |
+| 1. Incorrect customer and loan details are captured which will affect the over- all downstream process. | There is secondary review performed by an independent team member who will verify loan details captured in core banking application with offer letter. |
+| 2. Incorrect loan amount disbursed. | There is secondary review performed by an independent team member who will verify loan amount to be disbursed with the core banking application to the signed offer letter. |
+| 3. Interest amount is in- correctly calculated and charged. | Interest amount is auto calculated by the core banking application basis loan amount, ROI and tenure. |
+| 4. Unauthorized changes made to loan master data or customer data. | System enforced segregation of duties exist in the core banking application where the person putting in of the transaction cannot approve its own transaction and reviewer cannot edit any details submitted by person putting data. |
+4.  (a) The abbreviations used in the flowchart are defined as under:
+        Cust: Customer     Prod: Product      GS: Gas stove    WP: Water Purifier
+        AMT: Amount        DISC: Discount     RT: Retailer
+
+                   Start
+                Input Cust, Prod, AMT
+                                      Yes
+                 If Prod=WP?                      DISC =AMT*0.12
+                    80?
+                      No
+                                  Yes            If         Yes
+                 If Prod=GS?                                      DISC=AMT*0.09
+                                             Cust=RT?
+                    80?
+                                                80?
+                           NO                     No
+                       No
+                                          DISC=AMT*0.15
+                                                              Yes
+                                   Yes
+                 If Cust=RT?
+                                           DISC =AMT*0.10
+                       No
+                                       Yes
+              If AMT >= 30,000?                DISC=AMT*0.20
+                      No
+                               NO
+                   DISC=0
+                   Print DISC
+                    Stop
+    (b) The controls that can be adapted by management for its smooth functioning are as follows:
+        (i) Top Management & IS Management Controls
+        (ii) System Development Management Controls
+        (iii) Programming Management Controls
+        (iv) Data Resource Management Controls
+        (v) Quality Assurance Management Controls
+        (vi) Business Continuity Planning Management Controls
+
+        (vii) Security Management Controls
+        (viii) Operations Management Controls
+5.  (a) The benefits that SCI Labs may incur while using Grid Computing are as follows:
+           Making use of Underutilized Resources: In most organizations, there are large amounts
+            of underutilized computing resources including even the server machines. Grid computing
+            provides a framework for exploiting these underutilized resources and thus has the
+            possibility of substantially increasing the efficiency of resource usage. Grid computing (more
+            specifically, a data grid) can be used to aggregate this unused storage into a much larger
+            virtual data store, possibly configured to achieve improved performance and reliability over
+            that of any single machine.
+           Resource Balancing: For applications that are grid-enabled, the grid can offer a resource
+            balancing effect by scheduling grid jobs on machines with low utilization. This feature of grid
+            computing handles occasional peak loads of activity in parts of a larger organization. An
+            unexpected peak can be routed to relatively idle machines in the grid; and if the grid is
+            already fully utilized, the lowest priority work being performed on the grid can be temporarily
+            suspended or even cancelled and performed again later to make room fo r the higher priority
+            work.
+           Parallel CPU Capacity: The potential for usage of massive parallel CPU capacity is one of
+            the most common visions and attractive features of a grid. A CPU-intensive grid application
+            can be thought of as many smaller sub-jobs, each executing on a different machine in the
+            grid. To the extent that these sub-jobs do not need to communicate with each other, the
+            more scalable the application becomes. A perfectly scalable application will, for example,
+            finish in one tenth of the time if it uses ten times the number of processors.
+           Virtual resources and virtual organizations for collaboration: Grid computing provides
+            an environment for collaboration among a wider audience. The users of the grid can be
+            organized dynamically into several virtual organizations, each with different policy
+            requirements. These virtual organizations can share their resources such as data,
+            specialized devices, software, services, licenses, and so on, collectively as a larger grid.
+            The grid can help in enforcing security rules among them and implement policies, which can
+            resolve priorities for both resources and users.
+           Access to additional resources: In addition to CPU and storage resources, a grid can
+            provide access to other resources as well. For example, if a user needs to increase their
+            total bandwidth to the Internet to implement a data mining search engine, the work can be
+            split among grid machines that have independent connections to the Internet. In this way,
+            total searching capability is multiplied, since each machine has a separate connection to the
+            Internet.
+           Reliability: High-end conventional computing systems use expensive hardware to increase
+            reliability. The machines also use duplicate processors in such a way that when they fail,
+            one can be replaced without turning the other off. Power supplies and cooling systems are
+            duplicated. The systems are operated on special power sources that can start generators if
+            utility power is interrupted. All of this builds a reliable system, but at a great cost, due to th e
+            duplication of expensive components.
+           Management: The goal to virtualize the resources on the grid and more uniformly handle
+            heterogeneous systems create new opportunities to better manage a larger, more
+            distributed IT infrastructure. The grid offers management of priorities among different
+            projects. Aggregating utilization data over a larger set of projects can enhance an
+            organization’s ability to project future upgrade needs. When maintenance is required, grid
+            work can be rerouted to other machines without crippling the projects involved.
+
+    (b) The sequential steps of implementing Business Process Automation are as follows:
+        (i) Step 1: Define why we plan to implement a BPA?
+        (ii) Step 2: Understand the rules / regulation under which enterprise needs to comply with?
+        (iii) Step 3: Document the process, we wish to automate
+        (iv) Step 4: Define the objectives/goals to be achieved by implementing BPA
+        (v) Step 5: Engage the business process consultant
+        (vi) Step 6: Calculate the RoI for project
+        (vii) Step 7: Developing the BPA
+        (viii) Step 8: Testing the BPA
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+         (1)     (2)    (3)     (4)    (5)
+         (c)     (c)    (d)     (a)    (b)
+    (B) (b)
+    (C) (d)
+    (D) (b)
+    (E) (a)
+    (F) (c)
+    (G) (a)
+2.  In the recent years information technology and communications have significantly altered the functioning
+    of organizations. The role played by middle management is diminishing as the tasks performed by them
+    are increasingly being replaced by the technological tools. Hourglass organization structure consists of
+    three layers in an organisation structure with constricted middle layer. The structure has a short and
+    narrow middle management level.
+    Information technology links the top and bottom levels in the organization taking away many tasks that
+    are performed by the middle level managers. A shrunken middle layer coordinates diverse lower level
+    activities.
+                             Hourglass Organization Structure
+    Hourglass structure has obvious benefit of reduced costs. It also helps in enhancing responsiveness by
+    simplifying decision making. Decision making authority is shifted close to the source of information so
+    that it is faster. However, with the reduced size of middle management, the promotion opportunities for
+    the lower levels diminish significantly.
+3.  (a) Yummy foods are proactive in its approach. On the other hand, Tasty Food is reactive. Proactive
+        strategy is planned strategy whereas reactive strategy is adaptive reaction to changing
+        circumstances. A company’s strategy is typically a blend of proactive actions on the part of
+        managers to improve the company’s market position and financial performance and reactions to
+        unanticipated developments and fresh market conditions.
+        If organisational resources permit, it is better to be proactive rather than reactive. Being proactive
+        in aspects such as introducing new products will give you advantage in the mind of customers.
+
+        At the same time, crafting a strategy involves stitching together a proactive/intended strategy and
+        then adapting first one piece and then another as circumstances surrounding the company’s
+        situation change or better options emerge-a reactive/adaptive strategy. This aspect can be
+        accomplished by Yummy Foods.
+    (b) The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps
+        businesses decide their product and market growth strategy. With the use of this matrix a business
+        can get a fair idea about how its growth depends in new or existing products in both new and
+        existing markets.
+        Companies should always be looking to the future. Businesses that use the Ansoff matrix can
+        determine the best strategy. The matrix can help them to decide how to do this by demonstrating
+        their options clearly, breaking them down into four strategies, viz., Market Penetration, Market
+        Development, Product Development, Diversification. Determining which of these is best for their
+        business will depend on a number of variables including available resources, infrastructure, ma rket
+        position, location and budget.
+4.  (a) Implementation and execution are an operations-oriented activity aimed at shaping the
+        performance of core business activities in a strategy-supportive manner. To convert strategic plans
+        into actions and results, a manager must be able to direct organizational change, motivate people,
+        build and strengthen company’s competencies and competitive capabilities, create a strategy -
+        supportive work culture, and meet or beat performance targets. Good strategy execution involves
+        creating strong “fits” between strategy and organizational capabilities, structure, climate & culture.
+        In most situations, strategy-execution process includes the following principal aspects:
+        1.  Developing budgets that steer ample resources into those activities critical to strategic
+            success.
+        2.  Staffing the organization with the needed skills and expertise, consciously building and
+            strengthening strategy-supportive competencies and competitive capabilities and organizing
+            the work effort.
+        3.  Ensuring that policies and operating procedures facilitate rather than impede effective
+            execution.
+        4.  Using the best-known practices to perform core business activities and pushing for
+            continuous improvement.
+        5.  Installing information and operating systems that enable company personnel to better
+            carry out their strategic roles day in and day out.
+        6.  Motivating people to pursue the target objectives energetically.
+        7.  Creating a company culture and work climate conducive to successful strategy
+            implementation and execution.
+        8.  Exerting the internal leadership needed to drive implementation forward and keep
+            improving strategy execution. When the organization encounters stumbling blocks or
+            weaknesses, management has to see that they are addressed and rectified quickly.
+    (b) For a new product pricing strategies for entering a market needs to be designed. In pricing a really
+        new product at least three objectives must be kept in mind.
+        i.  Making the product acceptable to the customers.
+        ii. Producing a reasonable margin over cost.
+        iii. Achieving a market that helps in developing market share.
+        For a new product an organization may either choose to skim or penetrate the market. In skimming
+        prices are set at a very high level. The product is directed to those buyers who are relatively price
+
+        insensitive but sensitive to the novelty of the new product. For example call rates of mobile
+        telephony were set very high initially. Even the incoming calls were charged. Since the initial off
+        take of the product is low, high price, in a way, helps in rationing of supply in favour of those who
+        can afford it.
+        In penetration pricing firm keeps a temptingly low price for a new product which itself is selling
+        point. A very large number of the potential customers may be able to afford and willing to try the
+        product.
+5.  (a) Spacetek Pvt. Ltd. company has adopted Focus strategy which is one of the Michael Porter’s
+        Generic strategies. Focus strategies are most effective when consumers have distinctive
+        preferences or requirements and when rival firms are not attempting to specialize in the same
+        target segment. An organization using a focus strategy may concentrate on a particular group of
+        customers, geographic markets, or on particular product-line segments in order to serve a well-
+        defined but narrow market better than competitors who serve a broader market.
+        Advantages of Focus Strategy
+        1.  Premium prices can be charged by the organizations for their focused product/services.
+        2.  Due to the tremendous expertise about the goods and services that organizations following
+            focus strategy offer, rivals and new entrants may find it difficult to compete.
+        Disadvantages of Focus Strategy
+        1.  The firms lacking in distinctive competencies may not be able to pursue focus strategy.
+        2.  Due to the limited demand of product/services, costs are high which can cause problems.
+        3.  In the long run, the niche could disappear or be taken over by larger competitors by acquiring
+            the same distinctive competencies.
+    (b) There are at least three major R&D approaches for implementing strategies.
+        i.  Be the leader: The first strategy is to be the first firm to market new technological products.
+            This is a glamorous and exciting strategy but also a dangerous one. Firms such as 3M and
+            General Electric have been successful with this approach, but many other pioneering firms
+            have fallen, with rival firms seizing the initiative.
+        ii. Be an innovative imitator: A second R&D approach is to be an innovative imitator of
+            successful products, thus minimizing the risks and costs of startup. This approach e ntails
+            allowing a pioneer firm to develop the first version of the new product and to demonstrate that
+            a market exists. Then, laggard firms develop a similar product. This strategy requires excellent
+            R&D personnel and an excellent marketing department.
+        iii. Be a low-cost producer: A third R&D strategy is to be a low-cost producer by mass-
+            producing products similar to but less expensive than products recently introduced. As a new
+            product accepted by customers, price becomes increasingly important in the buying decision.
+            Also, mass marketing replaces personal selling as the dominant selling strategy. This R&D
+            strategy requires substantial investment in plant and equipment, but fewer expenditures in
+            R&D than the two approaches described earlier.
+6.  (a) Following are the differences between transformational and transactional leadership:
+        1.  Transformational leadership style uses charisma and enthusiasm to inspire people to exert
+            them for the good of organization. Transactional leadership style uses the authority of its
+            office to exchange rewards such as pay, status symbols etc.
+        2.  Transformational leadership style may be appropriate in turbulent environment, in industries
+            at the very start or end of their cycles, poorly performing organisations, when there is a need
+
+            to inspire a company to embrace major changes. Transactional leadership style can be
+            appropriate in static environment, in growing or mature industries and in organisations that
+            are performing well.
+        3.  Transformational leaders inspire employees by offering excitement, vision, intellectual
+            stimulation and personal satisfaction. Transactional leaders prefer a more formalized
+            approach to motivation, setting clear goals with explicit rewards or penalties for achievement
+            and non-achievement. Transactional leaders focus mainly to build on existing culture and
+            enhance current practices.
+    (b) Although inextricably linked, strategy implementation is fundamentally different from strategy
+        formulation in the following ways:
+                  Strategy Formulation               Strategy Implementation
+            Strategy formulation focuses on    Strategy implementation focuses on
+             effectiveness.                      efficiency.
+            Strategy formulation is primarily an  Strategy implementation is primarily an
+             intellectual process.               operational process.
+            Strategy   formulation  requires   Strategy  implementation requires
+             conceptual intuitive and analytical skills. motivation and leadership skills.
+            Strategy   formulation  requires   Strategy  implementation requires
+             coordination among the executives at coordination among the executives at the
+             the top level.                      middle and lower levels.

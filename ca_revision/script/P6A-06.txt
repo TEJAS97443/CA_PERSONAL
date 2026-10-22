@@ -1,0 +1,93 @@
+# P6A-06 · leverages · Leverages: fixed costs का lever, दोनों तरफ़
+
+## Introduction: एक छोटा बदलाव, बड़ा असर
+
+<|emotion:contentment|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+आज Paper six A का chapter six है, Financing Decisions: Leverages, जो पिछले chapter के capital structure और EBIT-EPS analysis से सीधा आगे बढ़ता है।
+देव मल्होत्रा debt और equity का mix तौल चुके हैं, और अब देखना है कि fixed costs और fixed interest EBIT और EPS को कितनी तेज़ी से हिलाते हैं।
+ICAI ने ये chapter पैंसठ documents में पूछा है, जिनमें सत्रह exam papers हैं, और new scheme के देखे गए बत्तीस question sets में से हर एक में leverages आया है।
+<|emotion:determination|>Episode के आख़िर तक आप DOL, DFL और DCL के सारे रूप, business risk और financial risk का फ़र्क, और double edged sword वाला जवाब लिख पाएँगे।
+
+## Operating leverage and business risk: sales से EBIT तक
+
+<|emotion:contemplation|>Tapri Kulhad Cafés Limited, Tapri की café subsidiary, साल में पचास करोड़ रुपये बेचती है, और इस दिवाली उसकी sales दस प्रतिशत बढ़ गईं।
+<|emotion:amusement|>केसर ने खुश होकर पूछा कि profit भी दस प्रतिशत बढ़ा होगा, और देव ने बताया कि EBIT चालीस प्रतिशत और EPS पूरे अस्सी प्रतिशत बढ़ा है।
+वजह ये है कि rent, salaries और machine leases sales के साथ नहीं बढ़ते, इसलिए contribution का हर extra rupee सीधा EBIT में जुड़ जाता है।
+Leverage का मतलब है एक financial variable का दूसरे पर असर, यानी एक का percentage change divided by दूसरे का percentage change, और ये असर fixed costs पैदा करते हैं।
+
+ICAI के words में business risk refers to the risk associated with the firm's operations, यानी the uncertainty about the future operating income, EBIT।
+Financial risk refers to the additional risk placed on the firm's shareholders because of use of debt, यानी debt से shareholders पर आया extra जोखिम।
+<|emotion:determination|>Operating leverage sales और EBIT को जोड़कर business risk दिखाता है, financial leverage EBIT और EPS को जोड़कर financial risk, और combined leverage sales और EPS को जोड़कर total risk।
+Profitability statement में ऊपर sales, फिर variable cost घटाकर contribution, fixed cost घटाकर EBIT, interest घटाकर EBT, और tax और preference dividend के बाद shares से divide करके EPS आता है।
+
+ICAI की definition है कि operating leverage is the tendency of operating income, EBIT, to change disproportionately with change in sale volume, caused by operating fixed cost।
+ये तीन factors का function है, amount of fixed cost, variable contribution margin, और volume of sales।
+<|prosody:speed_slow|>DOL है contribution divided by EBIT, जहाँ contribution है sales minus variable cost, और EBIT है contribution minus fixed operating cost।
+इसका दूसरा रूप है percentage change in EBIT by percentage change in sales, और cafés में DOL चार है, इसलिए sales दस प्रतिशत बढ़ने पर EBIT चालीस प्रतिशत बढ़ा।
+
+<|emotion:contemplation|>तीसरा रूप Paper four के break-even से आता है, DOL है one by margin of safety ratio, क्योंकि margin of safety ratio ठीक EBIT by contribution होता है।
+Cafés की break-even sales साढ़े सैंतीस करोड़ हैं, margin of safety पच्चीस प्रतिशत है, और one by पच्चीस प्रतिशत से वही DOL चार निकलता है।
+High fixed cost वाली firm का DOL और break-even point दोनों ऊँचे होते हैं, और higher margin of safety का मतलब है lower business risk।
+Fixed cost न हो तो DOL एक है, break-even point पर undefined है, और उसके नीचे EBIT negative होने से DOL भी negative हो जाता है।
+इसलिए DOL कभी zero और one के बीच नहीं आता, और sales break-even से जितनी ऊपर जाती हैं, DOL उतना ही एक की तरफ़ गिरता है।
+
+## Financial leverage and trading on equity: EBIT से EPS तक
+
+<|emotion:contemplation|>Sales से EBIT तक का gear fixed operating cost बनाता है, और EBIT से EPS तक का दूसरा gear interest और preference dividend जैसे fixed financial charges बनाते हैं।
+ICAI financial leverage को define करता है as the use of funds with a fixed cost in order to increase earnings per share।
+<|prosody:speed_slow|>DFL है EBIT divided by EBT, और इसका दूसरा रूप है percentage change in EPS by percentage change in EBIT।
+Cafés का EBIT पाँच करोड़ और interest ढाई करोड़ है, तो DFL दो है, और इसीलिए EBIT के चालीस प्रतिशत बढ़ने पर EPS अस्सी प्रतिशत बढ़ा।
+
+<|emotion:determination|>Preference shares हों तो DFL है EBIT by EBIT minus interest minus preference dividend by one minus t, जहाँ t tax rate है।
+Preference dividend tax के बाद दिया जाता है, इसलिए उसे one minus t से divide करके pre-tax बनाते हैं, ताकि वो interest के साथ EBIT से घट सके।
+Financial break-even point वो EBIT है जहाँ EPS zero होता है, वहाँ DFL undefined है, और DOL की तरह DFL भी zero और one के बीच कभी नहीं आता।
+
+Long-term debt और preference share capital जैसे fixed cost funds को equity share capital के साथ इस्तेमाल करना trading on equity कहलाता है।
+Earnings cost of debt से ज़्यादा हों तो leverage favourable है, और बराबर या कम हों तो unfavourable, और ये बात सीधे double edged sword तक ले जाती है।
+जब fixed cost funds की cost return on investment से कम हो, तो financial leverage return on equity और EPS बढ़ाता है, और interest पर tax भी बचता है।
+<|emotion:contemplation|>जब cost of debt return से ज़्यादा हो, तो वही leverage return on equity और EPS को गिराता है, और firm financial distress में आ सकती है।
+Cafés अठारह प्रतिशत कमाएँ और debt बारह प्रतिशत का हो, तो छह प्रतिशत equity को मिलता है, पर नौ प्रतिशत कमाएँ तो तीन प्रतिशत का घाटा भी equity उठाती है।
+इसीलिए इसे double edged sword कहते हैं, और इस जवाब में ICAI तीन cases लिखता है: ROI interest से ज़्यादा तो favourable, कम तो unfavourable, बराबर तो neutral।
+
+## Combined leverage and the four combinations: sales से सीधा EPS तक
+
+<|emotion:enthusiasm|>ICAI के words में combined leverage is the potential use of fixed costs, both operating and financial, which magnifies the effect of sales volume change on the EPS of the firm।
+<|prosody:speed_slow|>DCL है DOL into DFL, जो contribution by EBT के बराबर है, और percentage change in EPS by percentage change in sales के भी।
+Cafés में DOL चार और DFL दो है, तो DCL आठ है, यानी sales में हर एक प्रतिशत का बदलाव EPS को आठ प्रतिशत हिला देता है।
+<|emotion:amusement|>केसर ने तुरंत तीन सौ और cafés खोलने की बात छेड़ी, तो देव ने याद दिलाया कि lever दोनों तरफ़ चलता है, और उनका अपना optimism भी discount होकर आता है।
+
+EPS wipe out होने का मतलब है सौ प्रतिशत गिरावट, इसलिए DCL आठ हो तो sales में साढ़े बारह प्रतिशत की गिरावट cafés का पूरा EPS ख़त्म कर देती है।
+Tapri Cold Chain Private Limited के board की limit है कि sales पंद्रह प्रतिशत गिरें तो EPS पैंतालीस प्रतिशत से ज़्यादा न गिरे, तो allowed DCL पैंतालीस by पंद्रह, यानी तीन है।
+<|emotion:determination|>वहाँ DOL दो है, इसलिए highest DFL है तीन by दो, यानी डेढ़, और यहीं से पता चलता है कि कितना interest और कितना debt उठाया जा सकता है।
+
+ICAI के चार combinations में low DOL के साथ high DFL best combination है, क्योंकि higher financial risk lower business risk से balance हो जाता है।
+High DOL और high DFL very risky combination है, और high DOL के साथ low DFL को ICAI not a good combination कहता है।
+Low DOL और low DFL में total risk कम है, पर firm trading on equity का फ़ायदा नहीं उठा पाती।
+Tapri का milk supplier Dhaba Dairy Limited plant automate करे, तो fixed operating cost और loan दोनों बढ़ते हैं, और वो इसी very risky combination की तरफ़ खिसकता है।
+
+ICAI का एक theory सवाल है कि operating risk is associated with cost structure, whereas financial risk is associated with capital structure, इसे critically examine कीजिए।
+जवाब में लिखिए कि fixed और variable costs का mix, यानी cost structure, DOL तय करता है, और debt, preference और equity का mix, यानी capital structure, DFL तय करता है।
+DOL fixed cost पर, DFL interest और preference dividend पर, और DCL तीनों पर depend करता है।
+ICAI की table में DOL हर level of output के लिए, DFL हर level of EBIT के लिए, और DCL हर level of sales के लिए unique है।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>Past papers में leverages ज़्यादातर पाँच marks के numerical में आता है, और सवाल अक्सर उल्टे चलते हैं, यानी leverages देकर sales, fixed cost या interest निकलवाना।
+दो marks के short सवालों में double edged sword, business risk और financial risk का फ़र्क, trading on equity, और DOL-DFL combinations पर comment आते हैं।
+ICAI ने दो numericals दोहराए हैं: sales, costs, नौ प्रतिशत का debt और equity देकर पूछना कि financial leverage favourable है या नहीं, और दो companies के data से income statements बनवाना।
+
+<|emotion:contemplation|>सबसे बड़ी गलती fixed cost में interest जोड़ना है, जबकि operating leverage सिर्फ़ fixed operating cost लेता है, और interest EBIT के नीचे financial leverage में जाता है।
+सवाल कहे कि depreciation के अलावा सारे operating expenses variable हैं, तो depreciation ही fixed cost है, और percentage changes हमेशा present level से measure होते हैं।
+DCL में EPS का percentage change sales के percentage change से divide होता है, multiply नहीं, और zero और one के बीच का DOL मतलब ratio उलटा लिख दिया गया।
+Preference shares हों तो pre-tax preference dividend वाला DFL लीजिए, या साफ़ लिखिए कि उसे ignore किया है, क्योंकि ICAI के alternative answers दोनों तरीके दिखाते हैं।
+Full marks के लिए sales का working note, EBIT तक income statement, formula, figures और दो decimals तक result, और आख़िर में एक line कि leverage क्या indicate करता है।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: fixed costs lever हैं, और हर degree of leverage percentage change पर multiplier है, जो गिरावट को भी उतना ही बढ़ाता है जितना बढ़त को।
+DOL है contribution by EBIT, या percentage change in EBIT by percentage change in sales, या one by margin of safety ratio, और ये business risk दिखाता है।
+DFL है EBIT by EBT, preference shares हों तो EBIT by EBT minus pre-tax preference dividend, और ये financial risk दिखाता है।
+DCL है DOL into DFL, यानी contribution by EBT, EPS wipe out मतलब सौ प्रतिशत गिरावट, best combination low DOL high DFL, और financial leverage double edged sword है।
+
+अगले episode में देव board के सामने नए projects रखेंगे और तय होगा कि किसके cash flows पैसा लगाने लायक हैं, यानी Paper six A का chapter seven, Investment Decisions।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

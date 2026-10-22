@@ -1,0 +1,8 @@
+{"t": 1792475152.419318, "step": "start", "note": "QA started"}
+{"t": 1792487763.9745102, "step": "suites", "note": "build+check ok; node 1591/0; py 74 OK; smoke 342/0 (demo: 1 timeout under load); lint 181 clean; fixes: lint GA reset, qotd, word count, md lists"}
+{"t": 1792492000.392257, "step": "bank", "note": "check.py 98/99 checked files pass (n-p4-mtp-sep2025-s1: tool MARKS_N limit); flows ok; fixed unpublished label+hint, OR multi-part, navigator labels, result maxima, xm table padding"}
+{"t": 1792492797.002687, "step": "screens", "note": "29 routes x 1440/390 x light/dark captured + flows; ~45 images viewed; fixed paper-page hero/Year by year, denominators, palette, table padding, CTA overflow, sticky bar, tiles, ticks"}
+{"t": 1792492797.099294, "step": "wording", "note": "GATE strings in reachable UI replaced (search hint, settings, about table, planner 'past questions', RTP labels, build summary); fork-era internals left"}
+{"t": 1792492975.80701, "step": "readme", "note": "README rewritten: what/how to open/real counts/accuracy rules/develop/known limits"}
+{"t": 1792493310.979541, "step": "site", "note": "build.py --site ok (548 files, 28.1 MB); --check site sealed; _site opened from file:// with network off: 12 routes render, 0 errors, 0 network requests; nothing published"}
+{"t": 1792496198.4563808, "step": "report", "note": "reports/qa.md written; final: 238 docs/6,568 items, 181 lessons, 30 labs; node 1590/1 (race, passes alone), py 74 OK, lint 0, selftest 287/0 + touch 22/0; PDFs regenerated"}

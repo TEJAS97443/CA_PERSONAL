@@ -1,0 +1,38 @@
+[
+ {
+  "lesson": "aud.complete.sa450",
+  "kind": "quiz",
+  "title": "Which of the following must the audit documentation under SA",
+  "containment": 0.22,
+  "shared_numbers": 0,
+  "source": "new/p5/pyq-may2024-a.txt",
+  "offset": 5550
+ },
+ {
+  "lesson": "aud.evid.sa510",
+  "kind": "quiz",
+  "title": "Select all the procedures SA 510 lists for opening inventory",
+  "containment": 0.28,
+  "shared_numbers": 0,
+  "source": "new/p5/mtp-may2024-s2-a.txt",
+  "offset": 900
+ },
+ {
+  "lesson": "aud.evid.sa550",
+  "kind": "quiz",
+  "title": "Select all the matters about which SA 550 requires the audit",
+  "containment": 0.25,
+  "shared_numbers": 0,
+  "source": "new/p5/mtp-jan2026-s2-a.txt",
+  "offset": 0
+ },
+ {
+  "lesson": "aud.nature.scope",
+  "kind": "quiz",
+  "title": "Which quality does the Study Material call the sine qua non ",
+  "containment": 0.23,
+  "shared_numbers": 0,
+  "source": "old/p6/mtp-dec2021-s1-a.txt",
+  "offset": 600
+ }
+]

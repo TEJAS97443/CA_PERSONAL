@@ -1,0 +1,7 @@
+{"t": 1792437829.175346, "step": "start", "note": "reading brief + prior manifests"}
+{"t": 1792438084.0483682, "step": "find", "note": "BoS portal: Jan2027-applicable = July2024 ed (reprint Aug2025) set; also newer May2027 set exists"}
+{"t": 1792438180.5067651, "step": "download", "note": "90/90 PDFs ok: Jan2027 set (54) + May2027-onwards set for P4/P5/P6B (36)"}
+{"t": 1792439567.818629, "step": "extract", "note": "all 4 papers -> txt (pdftotext layout + cleanup), page markers p.N [X.Y]; QA (OCR cross-check) next"}
+{"t": 1792440818.9477708, "step": "toc", "note": "toc.json x4 (40 chapters, 1623 headings w/ PDF page + printed page); cross-checked vs ICAI printed Detailed Contents; OCR QA + fixes applied"}
+{"t": 1792441032.771025, "step": "applicability", "note": "Jan2027 notice: July2024 ed (Reprint Aug2025)+RTP Jan2027 for P4/P5/P6; no P4-6 study guidelines/statutory update; RTP Jan2027 not out yet"}
+{"t": 1792441531.894955, "step": "report", "note": "report saved ~/ca_prompts/reports/src-sm.md"}

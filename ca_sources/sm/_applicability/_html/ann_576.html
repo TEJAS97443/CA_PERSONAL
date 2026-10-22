@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/iconplugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>ICAI BoS</title>
+    <link rel="icon" type="image/png" href="assets/images/logo_icai.png">
+    <!--<script>document.addEventListener('contextmenu', event => event.preventDefault());</script>-->
+    <script>
+    document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+    function ctrlShiftKey(e, keyCode) {
+        return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+    }
+
+    document.onkeydown = (e) => {
+        // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+        if (
+            event.keyCode === 123 ||
+            ctrlShiftKey(e, 'I') ||
+            ctrlShiftKey(e, 'J') ||
+            ctrlShiftKey(e, 'C') ||
+            (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+        )
+            return false;
+    };
+    </script>
+
+</head>
+
+<body class="unslc" onselectstart="return false">
+    <!--<div id="preloader">
+         <div id="preloader-area">
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+         </div>
+         <div class="preloader-section preloader-left"></div>
+         <div class="preloader-section preloader-right"></div>
+      </div>-->
+
+
+    <header class="top-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="header-left">
+                        <ul>
+                            <li style="width:100%">
+                                <i class="ri-phone-fill"></i>
+                                <a href="tel:+91-99975 99975">ICAI Call Sahayata +91 - 99975 99975</a>
+                            </li>
+                            <!--<li style="width:30%">
+                       <a href="https://twitter.com/bosaicai">follow us on</a>
+                       <img src="images/icon_twitter_header.png" class="img-responsive" width="10%">
+                   </li>-->
+                        </ul>
+                        <!--<ul>
+					  <li>
+						 <i class="ri-phone-fill"></i>
+						 <a href="tel:0120-3876898">0120-3876898</a>
+					  </li>
+					  <li>
+						 <i class="ri-mail-fill"></i>
+						 <a href="mailto:bosmobileapp@icai.in">bosmobileapp@icai.in</a>
+					  </li>
+				   </ul>-->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <!--<marquee style="color:#fff;">
+               <img src="assets/images/new.gif" width="80px">
+                  <b>Success at CA. Exam BoS Schedule-Sessions starting from 18th March for CA. Final & Intermediate students appearing in May 2024 Examinations <a href="https://boslive.icai.org/schedule/Schedule_of_BoS_for_your_sucess.pdf" style="color:red;" target="_new">Click here.</a></b>
+               </marquee>-->
+                </div>
+
+                <!--<div class="col-lg-3 col-md-4">
+				<div class="header-right">
+				   <ul class="social-list">
+                  <li><a href="https://www.facebook.com/theicai" target="_new" class="social_icon"><i class="ri-facebook-fill"></i></a></li>
+                  <li><a href="https://twitter.com/theicai" target="_new" class="social_icon"><i class="ri-twitter-fill"></i></a></li>
+                  <li><a href="https://www.linkedin.com/school/theicai" target="_new" class="social_icon"><i class="ri-linkedin-fill"></i></a></li>
+                  <li><a href="https://www.youtube.com/user/icaiorgtube" target="_new" class="social_icon"><i class="ri-youtube-fill"></i></a></li>
+                  <li><a href="https://www.instagram.com/icaiorg/" target="_new" class="social_icon"><i class="ri-instagram-fill"></i></a></li>
+                  <li><a href="https://www.kooapp.com/profile/theicai" target="_new" class="social_icon"><i class="ri-qq-fill"></i></li>
+                  <li><a href="https://t.me/theicai" target="_new" class="social_icon"><i class="ri-telegram-fill"></i></a></li>
+				   </ul>
+				</div>
+			</div>-->
+            </div>
+        </div>
+    </header>
+
+
+    <!--<div class="navbar-area ledu-area">-->
+    <div class="ledu-area">
+        <div class="mobile-responsive-nav">
+            <div class="container">
+                <div class="mobile-responsive-menu">
+                    <div class="logo">
+                        <a href="index.php">
+                            <img src="assets/images/logo_icai_bos.png" class="logo-one" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desktop-nav nav-area">
+            <div class="col-md-12" style="width: 97%;margin: 0 auto;">
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    <a class="navbar-brand" href="index.php">
+                        <img src="assets/images/logo_icai_bos.png" class="logo-one" alt="Logo">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="home.php" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle ">About Us</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="about_icai.php" class="nav-link ">About ICAI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="about_bos.php" class="nav-link ">About BoS</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle ">Announcements</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="bos_announcement.php" class="nav-link ">BOS Announcement</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="examination_announcement.php" class="nav-link ">Examination
+                                            Announcement</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle ">LVC Schedule</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="schedule.php?course=foundation" class="nav-link ">Foundation (Jan 2027)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <!-- <a href="schedule.php?course=intermediate" class="nav-link ">Intermediate (May 2027)</a> -->
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="schedule.php?course=final" class="nav-link ">Final (May 2027)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="schedule_class2.php?course=intermediate" class="nav-link ">Intermediate (Sep 2026)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="schedule-lvc-class.php" class="nav-link ">Intermediate (May 2027)</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                 <a href="schedule_intermediate.php?course=intermediate" class="nav-link ">Intermediate May 2026 & September 2026</a>
+                              </li> -->
+
+                                    <!--<li class="nav-item">
+                                 <a href="schedule.php?course=intermediate&batch=batch-07" class="nav-link ">Intermediate (Batch 07 - Nov 2023)</a>
+                              </li>-->
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle ">LVRC Schedule</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="revisionary_schedule.php?course=foundation" class="nav-link ">Foundation Webinar (September 2026)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="revisionary_schedule.php?course=intermediate" class="nav-link ">Intermediate (January 2027)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="revisionary_schedule.php?course=final" class="nav-link ">Final (Nov 2026)</a>
+                                    </li>
+
+                                    <!--<li class="nav-item">
+                                 <a href="schedule.php?course=intermediate&batch=batch-07" class="nav-link ">Intermediate (Batch 07 - Nov 2023)</a>
+                              </li>-->
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="contact.php" class="nav-link">Contact Us</a>
+                            </li>
+                                                        <!-- <li class="nav-item">
+                           <a class="nav-link"><button class="openbtn" onclick="openNav()">Branch/Region Mock Test Login</button></a> 
+                        </li> -->
+                                                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div><style>
+	tr {
+		border: 1px solid #000;
+	}
+</style>
+
+<div class="inner-banner inner-banner-bg">
+	<div class="container">
+		<div class="inner-title text-center">
+			<h3>Applicability of Standards/Guidance Notes/Legislative Amendments etc. for May 2026 Examination</h3>
+		</div>
+	</div>
+</div>
+<div class="blog-details-area pt-100 pb-70">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="blog-details-content pr-20">
+					<h2>Applicability of Standards/Guidance Notes/Legislative Amendments etc. for May 2026 Examination</h2>
+					<iframe src='https://boslive.icai.org/assets/List_of_Pronouncement_May2026_Exam.pdf' class='embed-responsive-item' style='width:100%;height:900px;'></iframe>				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="side-bar-area">
+					<div class="side-bar-widget">
+						<h3 class="title">BOS Announcement</h3>
+						<div class="widget-popular-post">
+															<article class="item">
+									<div class="info">
+										<p>15 October, 2026, Thursday</p>
+										<h4 class="title-text">
+											<a href="announcement_details.php?id=610">
+												Mock Test Papers Series - I & Series II for students appearing in CA Interm....											</a>
+										</h4>
+									</div>
+								</article>
+															<article class="item">
+									<div class="info">
+										<p>24 September, 2026, Thursday</p>
+										<h4 class="title-text">
+											<a href="announcement_details.php?id=609">
+												Commencement of Live Virtual Revisionary Classes (LVRC) for the students of....											</a>
+										</h4>
+									</div>
+								</article>
+															<article class="item">
+									<div class="info">
+										<p>16 September, 2026, Wednesday</p>
+										<h4 class="title-text">
+											<a href="announcement_details.php?id=606">
+												BOS Study Material Applicable for Foundation and Intermediate Course, Janua....											</a>
+										</h4>
+									</div>
+								</article>
+															<article class="item">
+									<div class="info">
+										<p>09 September, 2026, Wednesday</p>
+										<h4 class="title-text">
+											<a href="announcement_details.php?id=605">
+												Board of Studies (Academic) Conducts 'Audit Insights - understanding of aud....											</a>
+										</h4>
+									</div>
+								</article>
+													</div>
+					</div>
+				</div>
+
+				<div class="side-bar-area">
+					<div class="side-bar-widget">
+						<h3 class="title">Examination Announcement</h3>
+						<div class="widget-popular-post">
+															<article class="item">
+									<div class="info">
+										<p>23 September, 2026, Wednesday</p>
+										<h4 class="title-text">
+											<a href="announcement_details.php?id=608">
+												Schedule of Intermediate & Foundation Examinations, January 2027. - (23-09-....											</a>
+										</h4>
+									</div>
+								</article>
+															<article class="item">
+									<div class="info">
+										<p>15 June, 2026, Monday</p>
+										<h4 class="title-text">
+											<a href="announcement_details.php?id=594">
+												Important Announcements for declaration of CA Final May 2026 Exam results. ....											</a>
+										</h4>
+									</div>
+								</article>
+															<article class="item">
+									<div class="info">
+										<p>04 May, 2026, Monday</p>
+										<h4 class="title-text">
+											<a href="announcement_details.php?id=584">
+												Important Announcement (CA Exams, September & November 2026) - (02-05-2026)....											</a>
+										</h4>
+									</div>
+								</article>
+															<article class="item">
+									<div class="info">
+										<p>06 April, 2026, Monday</p>
+										<h4 class="title-text">
+											<a href="announcement_details.php?id=581">
+												Re-Scheduling of Chartered Accountants' Intermediate Examination, Scheduled....											</a>
+										</h4>
+									</div>
+								</article>
+													</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<footer class="footer-area">
+         <div class="container">
+            <div class="row">
+               
+               <div class="col-lg-6 col-sm-6">
+                  <div class="footer-widget mt-30">
+                     <ul class="social-link">
+                        <li class="social-title">Follow Us:</li>
+                        <li><a href="https://www.facebook.com/theicai" target="_new" class="social_icon"><i class="ri-facebook-fill"></i></a></li>
+                        <li><a href="https://twitter.com/theicai" target="_new" class="social_icon"><i class="ri-twitter-fill"></i></a></li>
+                        <li><a href="https://www.linkedin.com/school/theicai" target="_new" class="social_icon"><i class="ri-linkedin-fill"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/icaiorgtube" target="_new" class="social_icon"><i class="ri-youtube-fill"></i></a></li>
+                        <li><a href="https://www.instagram.com/icaiorg/" target="_new" class="social_icon"><i class="ri-instagram-fill"></i></a></li>
+                        <li><a href="https://www.kooapp.com/profile/theicai" target="_new" class="social_icon"><i class="ri-qq-fill"></i></li>
+                        <li><a href="https://t.me/theicai" target="_new" class="social_icon"><i class="ri-telegram-fill"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-lg-6 col-sm-6">
+                  <div class="footer-widget mt-30">
+                     <p class="text-right">&copy;2026 All Rights reserved to the ICAI. |
+                     <a href="https://www.icai.org/post/16567" target="_new">Privacy Policy</a> | 
+                     <a href="https://www.icai.org/post/16566" target="_new">Terms and Conditions</a>
+                     </p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </footer>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/plugins.js"></script>
+      <script src="assets/js/custom.js"></script>
+	  
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+$("#search").keyup(function() {
+
+  // Retrieve the input field text and reset the count to zero
+  var search = $(this).val(),
+	count = 0;
+
+  // Loop through the comment list
+  $('#filter div').each(function() {
+
+
+	// If the list item does not contain the text phrase fade it out
+	if ($(this).text().search(new RegExp(search, "i")) < 0) {
+	  $(this).hide();  // MY CHANGE
+
+	  // Show the list item if the phrase matches and increase the count by 1
+	} else {
+	  $(this).show(); // MY CHANGE
+	  count++;
+	}
+
+  });
+
+});
+</script>
+
+
+   </body>
+</html>

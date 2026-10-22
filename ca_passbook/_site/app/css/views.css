@@ -1,0 +1,383 @@
+/* PassBook — view styles. Sections are marked "== name ==" in a comment and appended per view.
+   (Never nest a comment opener inside a comment: the first closer ends it and the next rule is silently dropped.) */
+
+/* == progress (/progress, formerly the dashboard) == */
+.dash { display: grid; gap: 22px; }
+.grad { color: inherit; }   /* gradient text is retired in v3 (spec section 1); the class is kept harmless */
+.kpis { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+.kpis .stat { padding: 14px 16px; min-width: 0; }
+.kpis .stat > div:not(.ring):not(.ico) { min-width: 0; flex: 1; }
+.kpis .stat span { display: block; line-height: 1.3; }
+
+.col { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; min-width: 0; }
+
+.ch-t { font: 600 10px var(--font-ui); fill: var(--faint); } .ch-lab { font-size: 10.5px; fill: var(--muted); font-weight: 700; }
+.ch-grid { stroke: var(--line-2); stroke-width: 1; opacity: .7; } .ch-ring { fill: none; stroke: var(--line-2); stroke-width: 1; opacity: .6; }
+
+.card-h .sub .link, p .link, .lead .link { display: inline; }
+.link { color: var(--accent); font-weight: 650; font-size: 13px; display: inline-flex; align-items: center; gap: 5px; } .link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.yrs { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 5px; height: 128px; align-items: end; }
+@media (max-width: 520px) { .yrs { gap: 3px; } .yr { font-size: 9px; } .yr:nth-child(even) span { visibility: hidden; } }
+.yr { display: grid; grid-template-rows: 1fr auto; gap: 4px; height: 100%; text-align: center; font-size: 10.5px; color: var(--faint); font-weight: 650; }
+.yr .yc { align-self: end; width: 100%; background: var(--heat0); border-radius: 5px 5px 2px 2px; position: relative; display: flex; align-items: flex-end; transition: filter .12s; overflow: hidden; }
+.yr:hover .yc { filter: brightness(.9); } .yr:hover span { color: var(--accent); }
+.yr .ya { display: block; width: 100%; background: var(--accent-soft-2); position: relative; }
+.wk { display: grid; grid-template-columns: 1fr auto 18px; align-items: center; gap: 10px; padding: 10px 6px; border-top: 1px solid var(--line); border-radius: var(--r-xs); }
+.wk:first-of-type { border-top: 0; } .wk:hover { background: var(--surface-2); } .wk b { display: block; font-size: 13.8px; } .wk small { color: var(--muted); font-size: 12px; }
+
+.due { display: flex; align-items: center; gap: 12px; padding: 11px 8px; border-top: 1px solid var(--line); border-radius: var(--r-xs); color: var(--muted); font-size: 13.5px; font-weight: 600; }
+.due:first-of-type { border-top: 0; } .due:hover { background: var(--surface-2); color: var(--ink); } .due span { flex: 1; }
+.due b { min-width: 28px; text-align: center; padding: 2px 9px; border-radius: 99px; background: var(--surface-3); color: var(--muted); font-variant-numeric: tabular-nums; }
+.due.has b { background: var(--accent); color: var(--accent-ink); } .due.has { color: var(--ink); }
+
+.stackbar { display: flex; height: 10px; border-radius: 99px; overflow: hidden; background: var(--heat0); } .stackbar i { display: block; height: 100%; }
+.prog { gap: 20px; }
+
+.kpis.k4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.prog .empty .em-i { width: 44px; height: 44px; border-radius: 13px; font-size: 20px; background: var(--surface-3); color: var(--faint); }
+.prog .empty p { color: var(--muted); }
+
+@media (max-width: 520px) { .kpis.k4 .stat { flex-direction: column; align-items: flex-start; gap: 10px; } }
+.card-h .sub { display: block; padding: 0; border-radius: 0; } .card-h .sub:hover { background: none; }   /* the syllabus row class .sub must not leak into card headers */
+@media (max-width: 1180px) { .kpis { grid-template-columns: repeat(3, 1fr); } .kpis.k4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+@media (max-width: 640px) { .kpis { grid-template-columns: 1fr 1fr; } }
+
+.card .empty { padding: 22px 12px; }
+
+/* == question card (v3: the mockup's practice card) == */
+/* a flex column, not a grid: nothing inside can widen the card (P0-24: an implicit auto column grew with an open solution), and the phone dock
+   below sticks across the whole card (a grid item's sticky box would be held to its own row) */
+.qc { --qc-pad: 24px; --qc-gap: 14px; background: var(--surface); border-radius: var(--r-xl); box-shadow: var(--lift); padding: 22px var(--qc-pad) 16px;
+  display: flex; flex-direction: column; gap: var(--qc-gap); position: relative; min-width: 0; }
+.qc > * { min-width: 0; }
+.qc[data-mode="embed"] { --qc-pad: 16px; --qc-gap: 11px; border-radius: var(--r-lg); box-shadow: none; padding: 14px 16px 10px; margin: 8px 0; background: var(--surface); border: 1px solid var(--line); }
+[data-theme="dark"] .qc[data-mode="embed"] { box-shadow: none; }
+.qc-h { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; min-width: 0; }
+.md .qc .qc-h a, .md .qc .qc-src a { text-decoration: none; }   /* embedded in a lesson: the reading column's link style must not reach the card chrome */
+.md .qc .qc-h a:not(.qc-subj) { color: inherit; } .md .qc a.qc-subj { color: var(--ink); } .md .qc a.qc-subj:hover { color: var(--accent-ink); } .md .qc .qc-src a { color: var(--muted); text-decoration: underline; text-decoration-color: var(--line-2); }
+.qc-n { width: 30px; height: 30px; border-radius: 10px; background: var(--ink); color: var(--bg); font: 750 13px var(--font-mono); display: grid; place-items: center; flex: none; }
+.qc-subj { font: 750 11.5px/1 var(--font-mono); letter-spacing: .02em; padding: 7px 9px; border-radius: var(--r-xs); background: var(--accent-soft-2); color: var(--ink); flex: none; }
+a.qc-subj:hover { background: var(--accent); color: var(--accent-ink); }
+.qc-idw { flex: 1; min-width: 0; display: grid; gap: 3px; }
+.qc-id { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font: 700 12.5px/1.3 var(--font-mono); letter-spacing: -.01em; }
+.qc-id a:hover { color: var(--accent); }
+.qc-hd { margin: 0; font: inherit; letter-spacing: inherit; color: inherit; }   /* the id line is the question page's h2 (P3-06); it keeps the line's look */
+.qc-ids, .qc-pc, .qc-meta { display: none; }   /* the phone header's one line and the meta under the options (P1-18) */
+.qc-hw:empty { display: none; }
+.qc .itip.qc-hist { display: inline-flex; align-items: center; gap: 4px; min-height: 0; font: 700 11px/1 var(--font-ui); padding: 4px 8px 4px 6px; border-radius: 99px; text-decoration: none; cursor: help; }
+.qc .itip.qc-hist.ok, .qc .itip.qc-hist.ok:hover { background: var(--ok-soft); color: var(--ok); } .qc .itip.qc-hist.bad, .qc .itip.qc-hist.bad:hover { background: var(--bad-soft); color: var(--bad); }
+.qc .itip.qc-hist svg.i { font-size: 12px; }
+.qc-sub { font-size: 13px; line-height: 1.45; color: var(--muted); font-weight: 550; display: flex; flex-wrap: wrap; align-items: center; column-gap: 7px; row-gap: 2px; }
+.qc-sub > i, .qc-meta > i { font-style: normal; color: var(--faint); }
+.qc-sub a:hover, .qc-meta a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.qc-diff { display: inline-flex; align-items: center; gap: 6px; }   /* 'Medium · our estimate': the honesty fact as text (P2-66) */
+.diff.qc-dg i { background: var(--line-2); }   /* a neutral ramp, never the error red for 'Hard' (P3-21) */
+.diff.qc-dg.l1 i:nth-child(1), .diff.qc-dg.l2 i:nth-child(-n+2), .diff.qc-dg.l3 i { background: var(--muted); }
+.qc .qc-warn, .qc .itip.qc-warn { display: inline-flex; align-items: center; gap: 5px; color: var(--warn); font-weight: 650; margin-left: 4px; line-height: inherit; }
+.qc .qc-warn svg.i { font-size: 14px; flex: none; }
+.qc-bw { margin-left: auto; display: flex; }
+.qc-badge { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+.qc .itip.qc-badge { display: inline-flex; min-height: 24px; line-height: 1.2; padding: 0 2px; font: 700 12.5px var(--font-ui); color: var(--muted); }
+.qc-badge svg.i { width: 16px; height: 16px; }
+.qc-badge.ok, .qc .itip.qc-badge.ok { color: var(--ok); } .qc-badge.warn, .qc .itip.qc-badge.warn { color: var(--warn); }
+.qc .itip.qc-badge:hover > span:not(.sr), .qc .itip.qc-badge[aria-describedby] > span:not(.sr) { text-decoration: underline dotted; text-underline-offset: 3px; }
+.qc-bm { flex: none; } .qc-bm[aria-pressed="true"] { color: var(--warn); background: var(--warn-soft); } .qc-bm[aria-pressed="true"] svg { fill: currentColor; }
+.qc-prog { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font: 650 12px var(--font-mono); color: var(--muted); }
+.qc-tr { width: 140px; height: 6px; border-radius: 3px; background: var(--surface-3); overflow: hidden; }
+.qc-tr i { display: block; height: 100%; background: var(--accent); border-radius: 3px; transition: width .4s cubic-bezier(.2, .8, .2, 1); }
+.qc-pl { font-family: var(--font-ui); font-weight: 600; color: var(--faint); }
+.qc-ctx { padding: 12px 16px; border-radius: var(--r-sm); background: var(--surface-2); } .qc .qc-ctx.md { font-size: 15px; line-height: 1.6; }
+.qc-ctx-t { display: block; font-size: 11.5px; font-weight: 750; color: var(--muted); margin-bottom: 4px; }
+.qc-body { min-width: 0; overflow-wrap: anywhere; } .qc .qc-body.md { font-size: 17px; line-height: 1.65; }   /* .qc .x.md outranks lesson.css .md.ui */ .qc-body > :last-child { margin-bottom: 0; } .qc-body > :first-child { margin-top: 0; }
+.qc[data-mode="embed"] .qc-body.md { font-size: 15.5px; }
+.qc-body pre, .qc-ctx pre { overflow-x: auto; max-width: 100%; }
+/* a table in a stem, an option or a solution is as wide as its columns (P2-26: a 258 px table no longer sits in an 846 px box); a bare table (no
+   .tw wrapper) scrolls inside itself */
+:is(.qc-body, .qc-ctx, .qc-t, .qc-sb) > .tw:not(.tw-cards) { width: fit-content; max-width: 100%; }
+:is(.qc-body, .qc-ctx, .qc-t) table:not(.tw > table) { display: block; max-width: 100%; overflow-x: auto; }
+/* scanned figures: line art on the page's own surface in dark mode (inverted, P1-20); colour figures and figures whose tone the build has not set
+   keep a softened paper panel instead of a glaring light box */
+.qc-fig { margin: 0; text-align: center; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-sm); overflow-x: auto; }
+.qc-fig img { max-width: 100%; height: auto; max-height: 420px; object-fit: contain; }   /* object-fit: a figure with its build size (P3-38) never stretches */
+[data-theme="dark"] .qc-fig { background: color-mix(in srgb, var(--ink) 74%, var(--surface)); border-color: transparent; }
+[data-theme="dark"] .qc-fig img, [data-theme="dark"] .qc-optfig { mix-blend-mode: multiply; }   /* the scan's white takes the panel's softer paper tone */
+[data-theme="dark"] .qc-fig[data-tone="mono"] { background: var(--surface-2); }
+[data-theme="dark"] .qc-fig[data-tone="mono"] img, [data-theme="dark"] .qc-optfig[data-tone="mono"] { filter: invert(.88) hue-rotate(180deg); mix-blend-mode: lighten; }
+/* options: big tappable rows with letter keys */
+.qc-opts { display: grid; gap: 9px; }
+.qc-opts:not(.figs) { grid-template-columns: minmax(0, 1fr); }
+.qc-opts.figs { grid-template-columns: repeat(2, minmax(0, 1fr)); }   /* two-up, never 3 + 1 (P3-22); one column below 520 px */
+@media (max-width: 520px) { .qc-opts.figs { grid-template-columns: minmax(0, 1fr); } }
+.qc-o { position: relative; display: flex; align-items: center; gap: 13px; min-height: 56px; min-width: 0; padding: 9px 14px 9px 10px; border-radius: 14px; background: var(--surface-2); border: 2px solid transparent;
+  cursor: pointer; font-size: 15.5px; font-weight: 550; line-height: 1.5; transition: border-color .2s, background .2s, transform .12s, color .2s; -webkit-tap-highlight-color: transparent; }
+.qc-o:hover { border-color: var(--line-2); }
+.qc-o:active { transform: scale(.985); }
+.qc-o input { position: absolute; opacity: 0; pointer-events: none; width: 1px; height: 1px; }
+.qc-o:has(input:focus-visible) { outline: 3px solid var(--accent); outline-offset: 2px; }
+.qc-k { width: 34px; height: 34px; border-radius: 10px; flex: none; display: grid; place-items: center; background: var(--surface); border: 1.5px solid var(--line-2); font: 700 13px var(--font-mono); color: var(--ink); transition: background .2s, color .2s, border-color .2s; align-self: flex-start; }
+.qc-o:has(.qc-t > p, .qc-t > pre, .qc-t > table, .qc-t > .tw, .qc-optfig) .qc-k { margin-top: 2px; }
+.qc[data-type="MSQ"] .qc-k { border-radius: 7px; }
+.qc-t { flex: 1; min-width: 0; padding: 5px 0; overflow-wrap: anywhere; } .qc .qc-t.md { font-size: inherit; line-height: 1.5; } .qc-t > :last-child { margin-bottom: 0; } .qc-t > :first-child { margin-top: 0; }
+.qc-t pre { margin: 4px 0; font-size: 12.5px; overflow-x: auto; }
+/* with its build size (P3-38) an option's figure keeps its shape and its box before it loads: the height follows the width, and where the 200 px
+   height cap binds the width stops at 192 px x its shape (--r = w / h, set by the card) plus the padding; contain is the guard */
+/* content-box (P3-38 with WP13's build sizes): the width and height attributes size the image's own pixels, the 4 px padding goes around them,
+   so a 165x94 option draws at 165x94 (in border-box it drew 8 px narrower); the caps are the old 200 px box less the padding */
+.qc-optfig { display: block; box-sizing: content-box; max-width: calc(100% - 8px); max-width: min(calc(100% - 8px), calc(192px * var(--r, 1000))); height: auto; max-height: 192px; object-fit: contain; margin-top: 6px; background: var(--surface); border-radius: var(--r-xs); padding: 4px; }
+[data-theme="dark"] .qc-optfig { background: color-mix(in srgb, var(--ink) 74%, var(--surface)); mix-blend-mode: normal; filter: brightness(.8); }   /* an option's own image: it cannot blend with its row */
+[data-theme="dark"] .qc-optfig[data-tone="mono"] { background: transparent; }
+.qc-mk { width: 22px; height: 22px; display: none; flex: none; margin-left: 4px; }
+.qc-o.sel { border-color: var(--accent); background: var(--accent-soft); }
+.qc-o.sel .qc-k { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+/* after a check (D17 option C): the pick keeps its fill and solid key, the correct answer is filled green, a missed MSQ option is dashed */
+.qc-o.ok { border-color: var(--ok); background: var(--ok-soft); }
+.qc-o.ok .qc-k { background: var(--ok); color: var(--surface); border-color: var(--ok); }
+.qc-o.bad { border-color: var(--bad); background: var(--bad-soft); }
+.qc-o.bad .qc-k { background: var(--bad); color: var(--surface); border-color: var(--bad); }
+.qc-o.miss { border-color: var(--ok); border-style: dashed; background: var(--surface-2); }
+.qc-o.miss .qc-k { background: var(--ok-soft); color: var(--ok); border-color: var(--ok); }
+.qc-o.ok .qc-mk.y, .qc-o.miss .qc-mk.y { display: block; color: var(--ok); } .qc-o.bad .qc-mk.x { display: block; color: var(--bad); }
+/* no official key / marks to all: our worked answer has a dashed neutral outline, never a fill (P1-23) */
+.qc-o.ours { border-color: var(--muted); border-style: dashed; }
+.qc-o.ours.sel { border-color: var(--accent); }
+.qc-o.ours::after { content: "our answer"; content: "our answer" / ""; flex: none; margin-left: 4px; font: 700 11.5px/1 var(--font-ui); color: var(--muted); }
+.qc-o.dim, .qc-o.dim .qc-t, .qc-o.dim .qc-t :is(strong, b, code, a) { color: var(--muted); }   /* the options a reveal sets aside are dimmed by colour, never opacity (P2-29: AA contrast kept) */
+.qc-o.dim .qc-k { color: var(--muted); border-color: var(--line); }
+.qc.locked .qc-o { cursor: default; } .qc.locked .qc-o:hover { border-color: transparent; } .qc.locked .qc-o.ok:hover, .qc.locked .qc-o.miss:hover { border-color: var(--ok); } .qc.locked .qc-o.bad:hover { border-color: var(--bad); } .qc.locked .qc-o.sel:hover { border-color: var(--accent); } .qc.locked .qc-o.ours:hover { border-color: var(--muted); } .qc.locked .qc-o.ours.sel:hover { border-color: var(--accent); }
+.qc.locked .qc-o:active { transform: none; }
+.qc-hint { font-size: 12.5px; line-height: 1.45; color: var(--muted); margin: 0 0 9px; font-weight: 550; }   /* the answering line, above the options (P3-18) */
+.qc-need { margin: 9px 0 0; font: 650 13px/1.4 var(--font-ui); color: var(--bad); }   /* 'Choose an answer first.': in place, never a toast over the docked Check */
+.qc-need:empty { display: none; }
+.qc[data-kind="nokey"] .qc-hint, .qc[data-kind="mta"] .qc-hint { font-weight: 650; color: var(--ink-2); }
+/* NAT: the box holds a number in the making; touch screens get a ± key (their number pads have no minus; P0-16) */
+.qc-nat { display: grid; gap: 8px; max-width: 420px; }
+.qc-natw { display: flex; align-items: center; gap: 8px; }
+.qc-nat input { flex: 1 1 auto; min-width: 0; height: 54px; font: 650 18px var(--font-mono); font-variant-numeric: tabular-nums; border-radius: 14px; border-width: 2px; padding: 0 16px; text-overflow: ellipsis; }   /* 'Your answer' fits beside the ± key; an ellipsis if a box is ever narrower */
+.qc-pm { display: none; width: 48px; height: 54px; flex: none; border-radius: 14px; border: 2px solid var(--line-2); background: var(--surface); color: var(--ink); font: 700 22px/1 var(--font-ui); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.qc-pm:active { transform: scale(.96); }
+@media (hover: none) and (pointer: coarse) { .qc-pm { display: inline-grid; place-items: center; } }
+.qc-pm:disabled { display: none; }
+.qc-nat-msg { font: 600 13px/1.4 var(--font-ui); color: var(--muted); }
+.qc-nat-msg:empty { display: none; }
+.qc-nat.bad .qc-nat-msg { color: var(--bad); }
+.qc-nat .qc-hint { margin: 0; }
+.qc-in[data-state="correct"] .qc-nat input { border-color: var(--ok); background: var(--ok-soft); }
+.qc-in[data-state="wrong"] .qc-nat input { border-color: var(--bad); background: var(--bad-soft); }
+/* the meta under the options on phones: subject · topic · difficulty · provenance */
+.qc-meta { flex-wrap: wrap; align-items: center; column-gap: 7px; row-gap: 4px; font-size: 13px; line-height: 1.45; color: var(--muted); font-weight: 550; }
+.qc-meta .qc-bw { margin-left: 0; }
+/* feedback: verdict, official answer, key note */
+.qc-fb { display: grid; gap: 8px; animation: qc-rise .32s cubic-bezier(.2, .8, .2, 1) both; }
+.qc-fb:focus { outline: none; } .qc-fb:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 14px; }
+.qc-v { display: flex; align-items: flex-start; gap: 11px; padding: 13px 15px; border-radius: 14px; font-size: 14.5px; line-height: 1.5; color: var(--ink); }
+.qc-v > svg.i { width: 20px; height: 20px; margin-top: 1px; flex: none; }
+.qc-v b { font-weight: 750; } .qc-v span { color: var(--ink-2); }
+.qc-v.ok { background: var(--ok-soft); } .qc-v.ok > svg { color: var(--ok); }
+.qc-v.bad { background: var(--bad-soft); } .qc-v.bad > svg { color: var(--bad); }
+.qc-v.miss { background: var(--surface-2); } .qc-v.miss > svg { color: var(--bad); }   /* a miss: neutral banner, the cross keeps the error colour (D17 C) */
+.qc-v.warn { background: var(--warn-soft); } .qc-v.warn > svg { color: var(--warn); }
+.qc-v.muted { background: var(--surface-2); } .qc-v.muted > svg { color: var(--muted); }
+.qc-trap { display: block; margin-top: 3px; color: var(--ink); }   /* 'Trap: …' from the solution, on its own line under the verdict (D17, CONTENT_GUIDE §2b) */
+.qc-v .qc-trap b { font-weight: 750; }
+.qc-off { display: flex; align-items: baseline; gap: 6px 18px; flex-wrap: wrap; padding: 0 4px; font-size: 13.5px; color: var(--muted); font-weight: 550; }
+.qc-off b { color: var(--ink); font: 750 15px var(--font-mono); margin-left: 4px; }
+.qc-you { margin-left: auto; }
+.qc-off.qc-ours { display: block; line-height: 1.7; } .qc-ours .qc-sep { color: var(--faint); margin: 0 2px; }   /* one sentence that wraps like text */
+.qc-same svg.i { width: 15px; height: 15px; vertical-align: -2px; color: var(--bad); } .qc-same.ok svg.i { color: var(--ok); }
+/* a questioned key (P2-24): one warn line under the answer; scores follow the official key */
+.qc-disp { display: flex; gap: 9px; align-items: flex-start; padding: 10px 14px; border-radius: var(--r-sm); background: var(--warn-soft); font-size: 13.5px; line-height: 1.5; color: var(--ink); }
+.qc-disp > svg.i { color: var(--warn); flex: none; margin-top: 2px; }
+.qc-disp a { color: var(--ink); font-weight: 650; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, var(--warn) 55%, transparent); white-space: nowrap; }
+.qc-disp a:hover { color: var(--accent); }
+/* the Hint (P2-64): the worked solution's Idea paragraph, before Check */
+.qc-hb { display: grid; gap: 4px; padding: 11px 16px 13px; border-radius: 14px; background: var(--surface-2); animation: qc-rise .32s cubic-bezier(.2, .8, .2, 1) both; }
+.qc-hb-h { display: flex; align-items: center; gap: 7px; font: 750 12.5px/1.3 var(--font-ui); color: var(--ink-2); }
+.qc-hb-h svg.i { color: var(--accent); width: 17px; height: 17px; }
+.qc .qc-hb-b.md { font-size: 15px; line-height: 1.6; } .qc-hb-b > :first-child { margin-top: 0; } .qc-hb-b > :last-child { margin-bottom: 0; }
+.qc-hb-none { display: flex; gap: 8px; align-items: flex-start; margin: 0; font: 600 13px/1.5 var(--font-ui); color: var(--muted); } .qc-hb-none svg.i { flex: none; margin-top: 2px; }
+.qc-hb .load-failed .empty { padding: 12px 10px; }
+.qc-nosol { font-size: 12.5px; color: var(--muted); display: flex; align-items: center; gap: 7px; }
+.qc-sol:empty { display: none; }
+.qc-sol .load-failed .empty { padding: 14px 10px; }
+/* worked solution: one fold, animated reveal (P1-19) */
+.qc-sd { border-radius: var(--r); background: var(--surface-2); min-width: 0; }
+.qc-sd > summary { list-style: none; cursor: pointer; display: flex; align-items: center; flex-wrap: wrap; column-gap: 10px; row-gap: 4px; padding: 13px 16px; font-weight: 750; font-size: 14.5px; border-radius: var(--r); user-select: none; }
+.qc-sd > summary::-webkit-details-marker { display: none; }
+.qc-sd > summary:hover { background: var(--surface-3); }
+.qc-sd > summary > svg.i:first-child { color: var(--accent); }
+.qc-sd > summary .qc-badge { font-size: 12px; white-space: normal; }
+.qc-chev { margin-left: auto; color: var(--muted); transition: transform .2s cubic-bezier(.2, .8, .2, 1); }
+.qc-sd[open] > summary .qc-chev, .qc-knd[open] > summary .qc-chev { transform: rotate(180deg); }   /* a fold's chevron points down and turns over (P3-33); arrow-r is for links */
+.qc-sb { padding: 2px 20px 18px; min-width: 0; overflow-x: auto; } .qc .qc-sb.md { font-size: 15px; line-height: 1.65; }
+.qc-sd[open] > .qc-sb { animation: qc-rise .4s cubic-bezier(.2, .8, .2, 1) both; }
+.qc-sb > :first-child { margin-top: .4em; } .qc-sb > :last-child { margin-bottom: 0; }
+.qc .qc-sb .qc-why { display: flex; gap: 8px; align-items: flex-start; font: 600 13px/1.5 var(--font-ui); color: var(--muted); } .qc-why svg.i { flex: none; margin-top: 2px; }
+@keyframes qc-rise { from { transform: translateY(12px); opacity: 0; } }
+/* your note (P1-27) */
+.qc-my { display: grid; gap: 4px; padding: 10px 14px 12px; border-radius: 14px; background: var(--surface-2); }
+.qc-my-h { display: flex; align-items: center; gap: 8px; font: 700 12px var(--font-ui); color: var(--muted); min-height: 30px; }
+.qc-my-h .btn { margin-left: auto; }
+.qc-my p { margin: 0; font-size: 14px; line-height: 1.55; color: var(--ink-2); white-space: pre-wrap; overflow-wrap: anywhere; }
+/* the toolbar and the main action: one row on wide screens */
+.qc-foot { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding-top: 16px; border-top: 1px solid var(--line); }
+.qc-bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; flex: 1 1 auto; min-width: 0; }
+.qc-bar:empty, .qc-act:empty { display: none; }
+.qc-bl, .qc-br { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.qc-br { margin-left: auto; }
+.qc-act { display: flex; margin-left: auto; }
+.qc-mark[aria-pressed="true"] { color: var(--warn); border-color: var(--warn); } .qc-mark[aria-pressed="true"] svg { fill: currentColor; }
+.qc[data-mode="embed"] .qc-foot { padding-top: 12px; }
+.qc-src { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; font-size: 11.5px; color: var(--faint); padding-top: 2px; }
+.qc-src a { position: relative; color: var(--muted); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 2px; margin: 0 2px; }
+@media (max-width: 700px) { .qc-src a::after { content: ''; position: absolute; inset: -6px -2px; } }   /* source links: a ≥26 px hit area at the same size (P2-54) */ .qc-src a:hover { color: var(--accent); } .qc-src svg.i { margin-right: 3px; }
+.qc-srcl { min-width: 0; }
+.qc-rep { display: inline-flex; align-items: center; gap: 2px; min-height: 24px; padding: 0 2px; border: 0; background: none; font: 600 11.5px var(--font-ui); color: var(--muted); cursor: pointer;
+  text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 2px; }   /* P3-48: opens GA.ui.report's copy-only sheet, else the card's own */
+.qc-rep:hover { color: var(--accent); }
+/* the card's copy-only 'Report a problem' dialog (inside GA.ui.modal; P3-48, D16): what the report names, the learner's words, a calm note */
+.qc-rp-for { margin: 0 0 14px; font: 650 12.5px/1.45 var(--font-mono); color: var(--muted); overflow-wrap: anywhere; }
+.qc-rp-l { display: block; margin-bottom: 6px; font-size: 14px; font-weight: 700; color: var(--ink); }
+.qc-rp-n { margin: 10px 0 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.qc-rp-out { margin-top: 12px; font-family: var(--font-mono); font-weight: 600; }   /* its size stays the field's (16 px on touch, P1-50) */
+.qc-rp-st { margin: 8px 0 0; font: 650 13px/1.45 var(--font-ui); color: var(--ink-2); }
+.qc-rp-st:empty { display: none; }
+.qc-kn { flex: 1 1 100%; min-width: 0; }
+.qc-knd > summary { list-style: none; display: inline-flex; align-items: center; gap: 4px; min-height: 24px; cursor: pointer; font-weight: 650; color: var(--muted); }
+.qc-knd > summary::-webkit-details-marker { display: none; }
+.qc-knd > summary:hover { color: var(--accent); }
+.qc-knd > summary .qc-chev { margin-left: 0; width: 14px; height: 14px; }
+.qc-knd p { margin: 4px 0 0; max-width: 72ch; font-size: 12.5px; line-height: 1.5; color: var(--muted); }   /* 'How we read the key' (P2-24) */
+/* feedback motion: burst on correct, shake on wrong (reduced motion: none, see qcard.js fx.calm) */
+.qc-burst { position: fixed; pointer-events: none; z-index: 400; }
+.qc-burst i { position: absolute; width: 8px; height: 8px; margin: -4px; border-radius: 3px; background: var(--ok); animation: qc-fly .62s cubic-bezier(.2, .8, .2, 1) forwards; }
+.qc-burst i:nth-child(even) { background: var(--accent); border-radius: 50%; }
+.qc-burst b { position: absolute; width: 14px; height: 14px; margin: -7px; border-radius: 50%; border: 3px solid var(--ok); animation: qc-ring .55s cubic-bezier(.2, .8, .2, 1) forwards; }
+@keyframes qc-fly { to { transform: translate(var(--x), var(--y)) rotate(160deg) scale(.4); opacity: 0; } }
+@keyframes qc-ring { to { transform: scale(4.6); opacity: 0; } }
+.qc-shake { animation: qc-shake .42s cubic-bezier(.2, .8, .2, 1); }
+@keyframes qc-shake { 20% { transform: translateX(-7px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(2px); } }
+@media (prefers-reduced-motion: reduce) { .qc-fb, .qc-hb, .qc-sd[open] > .qc-sb { animation: none; } }
+@media (max-width: 700px) {
+  .qc { --qc-pad: 18px; --qc-gap: 12px; padding: 14px var(--qc-pad) 14px; border-radius: var(--r-lg); }
+  .qc .qc-body.md { font-size: 16px; }
+  .qc-o { font-size: 15px; min-height: 52px; }
+  /* the header is one line ('Q11 · 1 mark · MSQ', the set position on the right); subject, topic, difficulty and provenance move under the options */
+  .qc-h { gap: 10px; flex-wrap: nowrap; }
+  .qc-idw { gap: 0; }
+  .qc-idf, .qc-h .qc-sub, .qc-h > .qc-bw { display: none; }
+  .qc-ids { display: inline; }
+  .qc-id { font-size: 12px; letter-spacing: -.02em; }
+  .qc-pc { display: inline-flex; flex: none; font: 700 12px var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .qpage .qc-pc { display: none; }   /* the question page shows the set position in its own 'Q n/N' chip (WP9b) */
+  .qpage:not(.in-q) .qc-idp { display: none; }   /* in paper order the page's h1 names the paper: the line reads 'Q38 · 2 marks · MCQ' (P1-18) */
+  .qc-meta { display: flex; }
+  .qc:not([data-mode="exam"]) .qc-prog { display: none; }
+  /* phone: the toolbar becomes quiet icon-over-label cells in the flow; the main action is the card's last control */
+  .qc-foot { display: contents; }
+  .qc-bar { display: flex; flex-wrap: wrap; gap: 6px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .qc-bl, .qc-br { display: contents; }
+  .qc-bar .btn { flex: 1 1 0; min-width: 0; }
+  .qc-bar .btn.sm { flex-direction: column; height: auto; min-height: 54px; padding: 7px 2px 6px; gap: 4px; font-size: 11.5px; line-height: 1.15; white-space: normal; text-align: center;
+    border-color: transparent; box-shadow: none; background: var(--surface-2); border-radius: var(--r-sm); transform: none; }
+  .qc-bar .btn.sm:active { background: var(--surface-3); }
+  .qc-bar .btn.sm svg.i { width: 18px; height: 18px; }
+  .qc-act { margin: 0; }
+  .qc-act .btn { flex: 1 1 100%; }
+  /* the question page's main action (Check answer, then Next) docks above the tab bar while the card is on screen (P1-18) */
+  .qc[data-dock] .qc-act { position: sticky; bottom: calc(var(--tabbar, 0px) + 8px); z-index: 6; }
+  .qc[data-dock] .qc-act::before { content: ""; position: absolute; z-index: -1; left: calc(-1 * var(--qc-pad)); right: calc(-1 * var(--qc-pad)); top: -14px; bottom: -8px;
+    background: linear-gradient(to bottom, color-mix(in srgb, var(--surface) 0%, transparent), var(--surface) 14px); pointer-events: none; }
+  /* a toast (Bookmarked, Note saved) never lands on the docked Check / Next or swallows a tap on it: the stack rises above the dock (its 48 px
+     button, 8 px gap and the fade) and lets taps through (components.css puts it at 22 px above the tab bar) */
+  body:has(.qc[data-dock]) .toasts { bottom: calc(80px + var(--tabbar, 0px) + env(safe-area-inset-bottom, 0px)); }
+  body:has(.qc[data-dock]) .toast { pointer-events: none; }
+  .qc-you { margin-left: 0; }
+}
+/* shared side-panel link rows (question page, test result) */
+.rail-a { display: flex; align-items: center; gap: 10px; padding: 9px 4px; border-top: 1px solid var(--line); font-size: 13.5px; font-weight: 600; color: var(--ink-2); } .rail-a:first-of-type { border-top: 0; margin-top: 4px; } .rail-a:hover { color: var(--accent); } .rail-a span { flex: 1; } .rail-a b { color: var(--faint); font-size: 12px; }
+
+/* == syllabus & subject pages == */
+.stack { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.card.pad > svg, .card > svg { max-width: 100%; height: auto; }
+.lead { font-size: 16px; max-width: 760px; margin: 0; } .small { font-size: 12.5px; }
+
+.changes { padding: 0; } .changes > summary { cursor: pointer; padding: 14px 20px; list-style: none; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; } .changes > summary::-webkit-details-marker { display: none; } .changes > summary svg { color: var(--info); }
+.changes[open] > summary { border-bottom: 1px solid var(--line); }
+.chg { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; padding: 16px 20px 6px; }
+.changes > p { padding: 6px 20px 16px; margin: 0; }
+
+.topic { padding: 0; overflow: hidden; } .topic > summary { list-style: none; cursor: pointer; padding: 14px 18px; display: grid; gap: 7px; position: relative; } .topic > summary::-webkit-details-marker { display: none; }
+.topic > summary::after { content: ""; position: absolute; right: 20px; top: 20px; width: 8px; height: 8px; border-right: 2px solid var(--faint); border-bottom: 2px solid var(--faint); transform: rotate(45deg); transition: transform .15s; } .topic[open] > summary::after { transform: rotate(-135deg); top: 24px; }
+.topic > summary:hover { background: var(--surface-2); }
+
+.subs { border-top: 1px solid var(--line); padding: 6px 10px 10px; display: grid; gap: 2px; }
+.sub { display: flex; align-items: center; gap: 10px; padding: 9px 10px; border-radius: 10px; font-size: 14px; } .sub:hover { background: var(--accent-soft); } .sub b { font-weight: 640; } .sub.plan b { color: var(--muted); font-weight: 560; }
+
+/* == practice pages: shared page header + side panels (pyq, question, tests, results, flashcards, notebook) == */
+.pr-page { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; min-width: 0; }
+.pr-head { display: flex; align-items: flex-end; gap: 14px 24px; flex-wrap: wrap; }
+.pr-ht { flex: 1 1 420px; min-width: 0; }
+.pr-ht p b { color: var(--ink); font-weight: 750; }
+.pr-acts { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.pr-tag { font: 650 12px/1.4 var(--font-mono); color: var(--muted); padding-bottom: 4px; }
+.pr-panel { background: var(--surface); border-radius: var(--r-lg); padding: var(--card-pad-tight); box-shadow: var(--lift); min-width: 0; }
+.pr-h4 { font-size: 15px; font-weight: 700; letter-spacing: -.01em; margin: 0; }
+.pr-sub { font-size: 12.5px; color: var(--muted); margin-top: 3px; font-weight: 550; }
+/* .pr-sec-h is the shared section head (components.css); a page section that opens with one sits --sec-gap below the block above, like a hub's */
+.pr-page > section:has(> .pr-sec-h:first-child) { margin-top: max(0px, calc(var(--sec-gap) - 22px)); }
+.pr-sec-h .grow { flex: 1; }
+.pr-empty { background: var(--surface); border-radius: var(--r-lg); box-shadow: var(--lift); }
+.pr-page .empty .em-i { background: var(--accent-soft); color: var(--accent); }
+
+/* == question bank == moved to bank.css (WP9b, 2026-10-16) */
+
+/* == question page: question card + side panel (palette, timer, marking) == */
+.prac { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 18px; align-items: start; }
+.qp-main { min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr); }
+.qpage .qc { --qc-pad: 28px; padding: 26px var(--qc-pad) 20px; }
+.qpage .qc .qc-body.md { font-size: 18px; }
+.qp-side { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; position: sticky; top: calc(var(--topbar, 64px) + 14px); }
+.pr-timer { display: flex; align-items: center; gap: 12px; margin-top: 14px; background: var(--surface-2); border-radius: 14px; padding: 10px 10px 10px 14px; }
+.pr-timer > div { flex: 1; min-width: 0; display: grid; }
+.pr-timer b { font: 700 28px/1.1 var(--font-mono); letter-spacing: -.03em; }
+.pr-timer small { font-size: 11.5px; color: var(--muted); font-weight: 600; }
+.pr-win { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 12px; font: 650 12px var(--font-mono); color: var(--muted); }
+.pr-pal { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin-top: 12px; }
+.pr-pb { height: 44px; border-radius: var(--r-sm); font: 750 14px var(--font-mono); background: var(--surface-2); border: 2px solid transparent; display: grid; place-items: center; position: relative; color: var(--muted); transition: transform .12s, background .2s; font-variant-numeric: tabular-nums; }
+.pr-pb.w2, .pr-pb.w3, .pr-pb.w4 { white-space: nowrap; padding: 0 6px; } .pr-pb.w2 { grid-column: span 2; } .pr-pb.w3 { grid-column: span 3; } .pr-pb.w4 { grid-column: span 4; }
+.pr-pb:hover { border-color: var(--line-2); color: var(--ink); }
+.pr-pb:active { transform: scale(.94); }
+.pr-pb.ans { background: var(--accent); color: var(--accent-ink); }
+.pr-pb.cur { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); }
+.pr-pb.ans.cur { background: var(--accent); color: var(--accent-ink); box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--accent); border-color: transparent; }
+.pr-pb.mk::after { content: ""; position: absolute; top: 5px; right: 5px; width: 8px; height: 8px; border-radius: 50%; background: var(--warn); box-shadow: 0 0 0 1.5px var(--surface); }
+.pr-legend { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; margin-top: 14px; font-size: 12.5px; color: var(--muted); font-weight: 600; }
+.pr-legend span { display: flex; align-items: center; gap: 7px; }
+.lgs { width: 12px; height: 12px; border-radius: 4px; flex: none; background: var(--surface-3); }
+.lgs.ans { background: var(--accent); } .lgs.cur { background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--accent); } .lgs.nv { background: var(--surface-3); } .lgs.mk { background: var(--warn); border-radius: 50%; }
+.lgs.na { background: transparent; box-shadow: inset 0 0 0 1.5px var(--bad); border-radius: 4px; } .lgs.am { background: var(--accent); position: relative; } .lgs.am::after { content: ""; position: absolute; right: -3px; top: -3px; width: 7px; height: 7px; border-radius: 50%; background: var(--warn); }
+.pr-mark { font-size: 14px; line-height: 1.55; margin: 8px 0 0; } .pr-mark b { font-weight: 700; } .pr-mark .p { color: var(--ok); } .pr-mark .n { color: var(--bad); }
+.pr-keys { font-size: 12px; color: var(--muted); margin: 2px 4px 0; line-height: 1.9; }
+@media (hover: none) and (pointer: coarse) { .pr-keys { display: none; } }   /* key hints only where there is a keyboard (P3-40) */
+.pr-panel .rail-a:first-of-type { margin-top: 6px; }
+.pr-panel .link { margin-top: 8px; }
+@media (max-width: 980px) { .prac { grid-template-columns: minmax(0, 1fr); } .qp-side { position: static; } }
+@media (max-width: 700px) {
+  .qpage .qc { --qc-pad: 16px; padding: 14px var(--qc-pad) 14px; } .qpage .qc .qc-body.md { font-size: 16.5px; }
+  .pr-ht p { font-size: 14px; }
+  .pr-acts { width: 100%; } .pr-acts > .btn { flex: 1; }
+}
+
+/* == tests: hub, runner (exam mode) and result == moved to tests.css (WP10, 2026-10-16; the runner now uses its own .xm-* classes) */
+
+/* == flashcards == moved to retention.css (WP11, 2026-10-16) */
+
+/* == notebook == moved to retention.css (WP11, 2026-10-16) */
+
+/* == planner == the road styles moved to hubs.css (.pl-road, WP6); the old .road / .rd rules here were unused and dimmed text with opacity (P2-29) */
+
+/* == settings / about == */
+.set { display: grid; gap: 14px; } .set h3 { font-size: 17px; } .set .field.row { display: flex; align-items: center; gap: 12px; }
+
+.set .seg { justify-self: start; }

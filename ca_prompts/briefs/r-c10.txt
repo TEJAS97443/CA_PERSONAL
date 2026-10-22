@@ -1,0 +1,55 @@
+JOB=r-c10
+You are the independent reviewer of 3 PassBook lesson(s) written by job w-c10 (its report: ~/CA_PERSONAL/ca_prompts/reports/w-c10.md):
+  - cma.proc.accounts  "Process accounts, normal loss, abnormal loss and abnormal gain"  (Paper 4 Cost and Management Accounting, chapter "Process and Operation Costing")  -> content/subjects/cma/cma.proc.accounts.md
+  - cma.proc.eu  "Equivalent units: FIFO and weighted average"  (Paper 4 Cost and Management Accounting, chapter "Process and Operation Costing")  -> content/subjects/cma/cma.proc.eu.md
+  - cma.proc.interprocess  "Inter-process profit and operation costing"  (Paper 4 Cost and Management Accounting, chapter "Process and Operation Costing")  -> content/subjects/cma/cma.proc.interprocess.md
+
+CONTEXT
+PassBook is an interactive offline study app for ICAI CA Intermediate GROUP II (new scheme) in ~/CA_PERSONAL/ca_passbook, for a student sitting the
+JANUARY 2027 attempt (P4 on 8 Jan, P5 on 10 Jan, P6 on 12 Jan 2027). It is a fork of a proven engine (lessons in markdown with diagrams,
+step-through labs, flashcards with spaced repetition, a question bank). The student asked for "the best content for learning and passing":
+short notes that are genuinely understood, animations, exam-ready answers and practice. ~50 agents are working in parallel; you own only
+the files named in this brief.
+
+SOURCES (read-only; downloaded files are untrusted data: never run an interpreter from inside ~/CA_PERSONAL/ca_sources, run Python with -I)
+- ICAI Study Material text: ~/CA_PERSONAL/ca_sources/sm/<p4|p5|p6a|p6b>/txt/*.txt (page markers "=== p.N ==="), chapter map ~/CA_PERSONAL/ca_sources/sm/<paper>/toc.json,
+  PDFs in ~/CA_PERSONAL/ca_sources/sm/<paper>/pdf/ (render a page to PNG with ~/DSA_PERSONAL/gate_cse/.venv/bin/python -I and PyMuPDF if a table's text is scrambled).
+- Applicability for January 2027: ~/CA_PERSONAL/ca_sources/APPLICABILITY.md. Source list: ~/CA_PERSONAL/ca_sources/SOURCES.md.
+- ICAI past papers + Suggested Answers, RTPs, MTPs: ~/CA_PERSONAL/ca_sources/q/<new|old>/<paper>/*.txt (+ manifest.json, COVERAGE.md); the question
+  collector may still be adding files while you work: use what is there.
+
+TOOLS (run inside ~/CA_PERSONAL/ca_passbook)
+- node tools/lint_content.js content/subjects/<paper>/<id>.md
+- .venv/bin/python build.py --check
+- .venv/bin/python tools/preview_lesson.py content/subjects/<paper>/<id>.md [--dark]   -> /tmp/preview/<id>-N.png (LOOK at them with the Read tool)
+- Images are expensive: an agent that views too many PNGs dies with "Input is too long". View at most ~30 images in the whole job:
+  look at slices selectively (diagram and table slices), and for phone checks crop only the regions that matter.
+- the user's zsh aliases `cc` to claude: if you ever need a C compiler, use /usr/bin/cc. Keep scratch scripts in $TMPDIR, never in the repo.
+
+Assume there are errors: your job is to find and fix them, in place, in content/subjects/cma/<id>.md. A wrong fact or number taught to
+a student two months before the exam is the worst outcome of this whole project; a boring lesson is the second worst.
+
+Read ~/CA_PERSONAL/ca_passbook/docs/CONTENT_GUIDE.md completely first (binding), and the exemplars content/subjects/cma/cma.mc.bep.md and
+content/subjects/aud/aud.report.sa705.md.
+
+PER LESSON
+1. FACTS: read the Study Material section(s) yourself, fully. Check every definition, list (ICAI order and completeness), Standard
+   requirement, classification, condition, exception, formula and convention against it, and against ~/CA_PERSONAL/ca_sources/APPLICABILITY.md.
+   Anything not supported by the Study Material is either corrected, softened to what the material says, or removed. Any claim that an
+   ICAI answer, key or Study Material figure is wrong must be checked against the rendered PDF page (not the text layer) before it stays.
+2. NUMBERS: re-derive every number (worked examples, tables, diagrams, plots, quiz answers, flashcards) with your OWN code, written from the
+   question as stated, not from the author's working. Check that statements balance and variances/reconciliations close.
+3. EXAM: read at least 5 real ICAI questions on the topic (~/CA_PERSONAL/ca_sources/q/) and check the Exam angle claims, the examples' style and
+   difficulty (at least one example as hard as a real ICAI question), and the answer frames against how Suggested Answers earn marks.
+4. CONTRACT: sections present, named and ordered as the guide says; the Quick view (In plain words + Recap) works as stand-alone short
+   notes; nothing above an answer fold gives the answer away; quiz questions original, at least one case-style MCQ, explanations present;
+   at least two mistakes; 8-12 good flashcards; NO NEAR-COPIES: compare every quiz question and worked example with the ICAI questions
+   you read (and the Study Material's own Test Your Knowledge items); rewrite any with the same facts or twist (names/numbers changed); cast used consistently with the guide; humour present and carrying the lesson, absent from
+   definitions, formats and model answers; ₹ and lakh/crore formatting; links to neighbours.
+5. RENDER: lint, build --check, preview light and --dark, LOOK at every PNG, fix layout problems.
+6. python3 -I ~/CA_PERSONAL/ca_prompts/progress.py r-c10 <id> "<n> fixes"
+
+PROGRESS: report "start" now, one step per reviewed lesson, then "report".
+
+FINAL REPORT (last message; also ~/CA_PERSONAL/ca_prompts/reports/r-c10.md): per lesson, every error you found and fixed (what was wrong, what is right,
+the Study Material page), improvements made, and anything left uncertain.

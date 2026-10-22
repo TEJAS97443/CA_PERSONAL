@@ -1,0 +1,356 @@
+                                                               Test Series: March, 2021
+                                 MOCK  TEST PAPER-I
+                            INTERMEDIATE (IIPC): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                     ANSWERS
+         Part I: MULTIPLE CHOICE QUESTIONS (Answer 1-5 are based on case scenario)
+1.  (b) Automating Redundant processes
+2.  (b) Back up arrangement needs to be strong.
+3.  (c) Software as a Service
+4.  (b) Preventive control
+5.  (d) Existence of Configuration/customization in the application to perform NPA classification as per
+        relevant RBI guidelines.
+6.  (c) Access Token
+7.  (b) Business to Consumer e-Commerce
+8.  (b) Layering
+9.  (a) XBRL runs on XML technologies such as XML schema, and ensures that financial and non -
+        financial data is tagged to form a comparable reporting format.
+10. (b) Vulnerability
+                               Part II: Descriptive Answers
+1.  (a) The key features of a banking business are as follows:
+        •   The custody of large volumes of monetary items, including cash and negotiable instruments,
+            whose physical security should be ensured.
+        •   Dealing in large volume (in number, value and variety) of transactions.
+        •   Operating through a wide network of branches and departments, which are geographically
+            dispersed.
+        •   Increased possibility of frauds as banks directly deal with money making it mandatory for
+            banks to provide multi-point authentication checks and the highest level of information
+            security.
+    (b) The disadvantages of Database Management System are as follows:
+        ♦   Cost: Implementing a DBMS  in terms of both system and user-training can be
+            expensive and time-consuming, especially in large enterprises. Training requirements
+            alone can be quite costly.
+        ♦   Security: Even with safeguards in place, it may be possible for some unauthorized
+            users to access the database. If one gets access to database, then it could be an all or
+            nothing proposition.
+2.  (a) The success of implementation of Enterprise Resource Planning (ERP) system majorly depends
+        upon issues related people, process and technology, however the risk related to other
+        implementation issues of ERP are as follows:
+
+        •   Lengthy implementation time: ERP projects are lengthy that takes anywhere between 1 to
+            4 years depending upon the size of the organization. Due to technological developments
+            happening every day, the business and technological environment during the start and
+            completion of the project will never be the same. Employee turnover is another problem.
+        •   Insufficient Funding: The budget for ERP implementation is generally allocated without
+            consulting experts and then implementation is stopped along the way, due to lack of funds.
+        •   Data Safety: As there is only one set of data, if this data is lost, whole business may come
+            to stand still.
+        •   Speed of Operation: As data is maintained centrally, gradually the data size becomes more
+            and more and it may reduce the speed of operation.
+        •   System Failure: As everybody is connected to a single system and central database, in
+            case of failure of system, the whole business may come to stand still may get affected
+            badly.
+        •   Data Access: Data is stored centrally and all the departments access the central data. This
+            creates a possibility of access to non-relevant data.
+    (b) The commercial laws applicable to e-commerce and m-commerce transactions are as
+        follows:
+        •   Income Tax Act, 1961
+        •   Companies Act, 2013
+        •   Foreign Trade (Development and Regulation) Act, 1992
+        •   The Factories Act, 1948
+        •   The Customs Act, 1962
+        •   The Goods and Services Tax (GST) Act, 2017
+        •   Indian Contract Act, 1872
+        •   The Competition Act, 2002
+        •   Foreign Exchange Management Act (FEMA 1999)
+        •   Consumer Protection Act, 1986
+3.  (a) The technical exposures that are used to protect unauthorized implementation of data and
+        software are as follows:
+           Data Diddling: This involves the change of data before or after they entered the
+            system. A limited technical knowledge is required to data diddle and the worst part with
+            this is that it occurs before computer security can protect the data.
+           Bomb: Bomb  is a piece of bad code deliberately planted by an insider or supplier of a
+            program. An event, which is logical, triggers a bomb or time based. The bombs explode
+            when  the conditions of explosion get fulfilled causing the damage immediately.
+            However, these programs cannot infect other programs. Since these programs do not
+            circulate by infecting other programs; chances of a widespread epidemic are relatively
+            low.
+           Christmas Card: It is a well-known example of Trojan and was detected on internal E-
+            mail of IBM system. On typing the word ‘Christmas’, it will draw the Christmas tree as
+
+            expected, but in addition, it will send copies of similar output to all other users
+            connected to the network. Because of this message on other terminals, other users
+            cannot save their half-finished work.
+           Worm: A worm does not require a host program like a Trojan to relocate itself. Thus, a
+            Worm  program copies itself to another machine on the network. Since, worms are
+            stand-alone programs, and they can be detected easily in comparison to Trojans and
+            computer viruses. Examples of worms are Existential Worm, Alarm clock Worm etc. The
+            Alarm Clock worm places wake-up calls on a list of users. It passes through the network
+            to an outgoing terminal while the sole purpose of existential worm is to remain alive.
+            Existential worm does not cause damage to the system, but only copies itself to several
+            places in a computer network.
+           Rounding Down:  This refers to rounding of small fractions of a denomination and
+            transferring these small fractions into an authorized account. As the amount is small, it
+            gets rarely noticed.
+           Salami Techniques: This involves slicing of small amounts of money from a
+            computerized transaction or account. A Salami technique is slightly different from a
+            rounding technique in the sense a fix amount is deducted. For example, in the rounding
+            off technique, Rs. 21,23,456.39 becomes Rs. 21,23,456.40, while in the Salami
+            technique the transaction amount Rs.  21,23,456.39 is truncated to either
+            Rs. 21,23,456.30 or Rs. 21,23,456.00, depending on the logic.
+           Trap Doors: Trap doors allow insertion of specific logic such as program interrupts that
+            permit a review of data. They also permit insertion of unauthorized logic.
+           Spoofing: A spoofing attack involves forging one’s source address. One machine is
+            used to impersonate the other in spoofing technique. Spoofing occurs only after a
+            particular machine has been identified as vulnerable. A penetrator makes the user think
+            that s/he is interacting with the operating system. For example, a penetrator duplicates
+            the login procedure, captures the user’s password, attempts for a system crash and
+            makes user login again.
+    (b) The technological risks related to Enterprise Resource Planning are as follows:
+        •   Software Functionality: ERP systems offer a myriad of features and functions, however,
+            not all organizations require those many features. Implementing all the functionality and
+            features just for the sake of it can be disastrous for an organization.
+        •   Technological Obsolescence: With the advent of more efficient technologies every day,
+            the ERP system also becomes obsolete as time goes on.
+        •   Enhancement and  Upgrades: ERP Systems are not upgraded and kept up-to-date.
+            Patches and upgrades are not installed and the tools are underutilised.
+        •   Application Portfolio Management: These processes focus on the selection of new
+            business applications and the projects required delivering them.
+4.  (a) Various types of cards used as digital payment mode are as follows:
+        o   Credit Cards: A small plastic card issued by a bank, or issuer etc., allowing the holder
+            to purchase goods or services on credit. It contains a unique number linked with an
+            account. It has also a magnetic strip embedded in it which is used to read credit card
+            via card readers. In this mode of payment, the buyer’s cash flow is not immediately
+
+            impacted. User of the card makes payment to card issuer at end of billing cycle. Credit
+            Card issuer charge customers per transactions / fixed amount as transaction fees.
+        o   Debits Cards: Debit card, is also a small plastic card with a unique number linked with
+            bank account number. It is required to have a bank account before getting debit card
+            from bank. It enables cardholder to pay for his/her purchases directly through his/her
+            account. The major difference between debit card and credit card is that in case of
+            payment through debit card, amount gets deducted from card’s bank account
+            immediately and there should be sufficient balance in bank account for the transaction
+            to get completed; whereas in case of credit card there is no such compulsion.
+        o   Smart Card: Smart card is a prepaid card similar to credit card and debit card in
+            appearance, but it has a small microprocessor chip embedded in it. It has capacity to
+            store customer’s personal information such as financial facts, private encryption keys,
+            credit card information, account information, and so on. Smart cards combine the
+            advantages of both debit card and credit card and are available to anyone, regardless
+            of credit ratings or income of applicant of smart card. Moreover, these are not linked to
+            any bank account. For this reason, smart card holder is not mandated to have a bank
+            account. It is also used to store money which is reduced as per usage. Mondex and
+            Visa Cash cards are examples of smart cards. The smart card holder has to load money
+            onto the card by paying cash or through transfer from his/her bank account. After
+            loading the money onto the card, the cardholder can use the card to spend money up to
+            the limit of loaded amount in the same way as using a credit or debit card. Once the
+            loaded amount is spent, the cardholder may reload money onto the card.
+    (b) The automation of the business processes is susceptible to challenges, which are as follows:
+           Automating Redundant Processes: Sometimes organizations start off an automation
+            project by automating the processes they find suitable for automation without considering
+            whether such processes are necessary and create value. In other cases, some business
+            processes and tasks require high amount of tacit knowledge (that cannot be documented
+            and transferred from one person to another) and therefore seek employees to use their
+            personal judgment. These processes are generally not good candidates for automation as
+            these processes are hard to encode and automate.
+           Defining Complex Processes: BPA requires reengineering of some business processes
+            that requires significant amount of time to be allocated and spent at this stage. This requires
+            a detailed understanding of the underlying business processes to develop an automated
+            process.
+           Staff Resistance: In most cases, human factor issues are the main obstacle to the
+            acceptance of automated processes. Staff may see process automation as a way of
+            reducing their decision-making power. This is due to the reason that with automated
+            processes, the management has a greater visibility of the process and can make decisions
+            that used to be made by the staff earlier. Moreover, the staff may perceive automated
+            processes as threat to their jobs.
+           Implementation Cost: The implementation of automated processes may be an expensive
+            proposition in terms of acquisition/development cost of automated systems and special skills
+            required to operate and maintain these systems.
+5.  (a) The various cyber-crime scenarios which can attract prosecution as per the penalties and
+        offences prescribed in Information Technology Act, 2000 that Mr Amar could have incorporated in
+
+        his advisory are as follows.
+           Harassment via fake public profile on social networking site: A fake profile of a person
+            is created on a social networking site with the correct address, residential information or
+            contact details but he/she is labelled as ‘prostitute’ or a person of ‘loose character’. This
+            leads to harassment of the victim. Section 67 of the IT Act, 2000 is applicable here.
+           Email Account Hacking: If victim’s email account is hacked and obscene emails are sent
+            to people in victim’s address book. Sections 43, 66, 66A, 66C, 67, 67A and 67B of IT Act,
+            2000 are applicable in this case.
+           Credit Card Fraud: Unsuspecting victims would use infected computers to make online
+            transactions. Sections 43, 66, 66C, 66D of IT Act, 2000 are applicable in this case.
+           Web  Defacement: The homepage of a website is replaced with a pornographic or
+            defamatory page. Government sites generally face the wrath of hackers on symbolic days.
+            Sections 43 and 66 of IT Act and Sections 66F and 67 of IT Act, 2000 also apply in some
+            cases.
+           Introducing Viruses, Worms, Backdoors, Rootkits, Trojans, and Bugs: All these are
+            some sort of malicious programs which are used to destroy or gain access to some
+            electronic information. Sections 43 and 66 of IT Act, 2000 are applicable in this case.
+           Cyber Terrorism: Cyber terrorism is the terrorism conducted in cyberspace, where the
+            criminals attempt to damage or disrupt computer systems or telecommunication services.
+            Examples are hacking into computer systems, introducing viruses to vulnerable networks,
+            web site defacing, denial-of-service attacks, or terroristic threats made via electronic
+            communication. Many terrorists use virtual (Drive, FTP sites) and physical storage media
+            (USB’s, hard drives) for hiding information and records of their illicit business. Sections 43,
+            66, 66A of IT Act, 2000 are applicable in this case.
+           Online sale of illegal Articles: Where sale of narcotics, drugs, weapons and wildlife is
+            facilitated by the Internet.
+           Cyber Pornography: Among the largest businesses on Internet, pornography may not be
+            illegal in many countries, but child pornography is. Sections 67, 67A and 67B of the IT Act,
+            2000 are applicable in this case.
+           Phishing and Email Scams: Phishing involves fraudulently acquiring sensitive information
+            through masquerading oneself as a trusted entity (e.g. usernames, Passwords, credit card
+            information). Sections 66, 66C and 66D of IT Act, 2000 are applicable in this case.
+           Theft of Confidential Information: Many business organizations store their confidential
+            information in computer systems. This information is targeted by rivals, criminals and
+            disgruntled employees. Sections 43, 66 and 66B of IT Act, 2000 are applicable in this case.
+           Source Code Theft: A Source code generally is the most coveted and important “crown
+            jewel” asset of a company. Sections 43, 65, 66 and 66B of IT Act, 2000 are applicable in
+            this case.
+    (b) The deployment and implementation of Core Banking System (CBS) should be controlled at
+        various stages to ensure that objective of DFK corporative bank are achieved. The detail is
+        as follows:
+       •   Planning: Planning for implementing the CBS should be done as per strategic and business
+           objectives of bank.
+
+       •   Approval: The decision to implement CBS requires high investment and recurring costs and
+           will impact how banking services are provided by the bank. Hence, the decision mu st be
+           approved by the board of directors.
+       •   Selection: Although there are multiple vendors of CBS, each solution has key differentiators.
+           Hence, bank should select the right solution which is scalable and where different interfaces
+           are readily available considering various parameters as defined by the bank to meet their
+           specific requirements and business objectives.
+       •   Design and develop or procured: CBS solutions used to be earlier developed in-house by
+           the bank. Currently, most of the CBS deployments are procured. There should be appropriate
+           controls covering the design or development or procurement of CBS for the bank.
+       •   Testing: Extensive testing must be done before the CBS is live. The testing is to be done at
+           different phases at procurement stage to test suitability to data migration to ensure all existing
+           data is correctly migrated and testing to confirm processing of various types of transactions of
+           all modules produces the correct results.
+       •   Implementation: CBS must be implemented as per pre-defined and agreed plan with specific
+           project milestones to ensure successful implementation.
+       •   Maintenance: CBS must be maintained as required. E.g. program bugs fixed, version
+           changes implemented, etc.
+       •   Support: CBS must be supported to ensure that it is working effectively.
+       •   Updation: CBS modules must be updated based on requirements of business processes,
+           technology updates and regulatory requirements;
+       •   Audit: Audit of CBS must be done internally and externally as required to ensure that controls
+           are working as envisaged.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+         (1)     (2)    (3)     (4)    (5)
+         (d)     (b)    (c)     (d)    (c)
+    (B) (a)
+    (C) (a)
+    (D) (b)
+    (E) (a)
+    (F) (b)
+    (G) (a)
+2.  According to Porter, strategies allow organizations to gain competitive advantage from three different bases:
+    cost leadership, differentiation, and focus. Porter called these base generic strategies.
+    X-Olympus is facing cutthroat competition due to saturation of market and price wars as there is no clear
+    leader out of the numerous competitors. For this, the strategy adopted by X-Olympus is Product
+    Differentiation by introducing a unique product to cater the customer needs at a lesser cost which would
+    insulate it from the fierce competition and never-ending price wars.
+3.  (a) Yes, strategy is partly proactive and partly reactive. In proactive strategy, organisations will analyse
+        possible environmental scenarios and create strategic framework after proper pla nning and set
+        procedures and work on these strategies in a pre-determined manner. However, in reality no
+        company can forecast both internal and external environment exactly. Everything cannot be
+        planned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour,
+        evolving technologies and so on.
+        There can be significant deviations between what was visualised and what actually happens. There
+        can be significant or major strategic changes when the environment demands. Reactive strateg y
+        is triggered by the changes in the environment and provides ways and means to cope with the
+        negative factors or take advantage of emerging opportunities.
+    (b) As industry’s Key Success Factors (KSFs) are those things that most affect industry members’
+        ability to prosper in the market place – the particular strategy elements, product attributes,
+        resources, competencies, competitive capabilities and business outcomes that spell the difference
+        between profit & loss and ultimately, between competitive success or failure. KSFs by their very
+        nature are so important that all firms in the industry must pay close attention to them. They are the
+        prerequisites for industry success, or, to put it in another way, KSFs are the rules that shape
+        whether a company will be financially and competitively successful.
+4.  (a) Decision making is a managerial process of selecting the best course of action out of several
+        alternative courses for the purpose of accomplishment of the organisational goals. Decisions may
+        be operational, i.e., which relate to general day-to-day operations. They may also be strategic in
+        nature.
+        As owner manager at the top level in the company, Shri Alok Kumar should concentrate on strategic
+        decisions. These are higher level decisions having organisation wide implications. The major
+        dimensions of strategic decisions are as follows:
+
+           Strategic decisions require top-management involvement as they involve thinking in totality of the
+            organisation.
+           Strategic decisions involve significant commitment of organisational resources.
+           Strategic decisions necessitate consideration of factors in the firm’s external environment.
+           Strategic decisions are likely to have a significant impact on the long-term prosperity of the firm.
+           Strategic decisions are future oriented.
+           Strategic decisions usually have major multifunctional or multi-business consequences.
+    (b) Corporate culture refers to company’s values, beliefs, business principles, traditions, ways of
+        operating and internal work environment. Changing problem cultures is very difficult because of
+        deeply held values and habits. It takes concerted management action over a period of time to
+        replace an unhealthy culture with a healthy culture or to root out certain unwanted cultural obstacles
+        and instil ones that are more strategy-supportive.
+           The first step is to diagnose which facets of the present culture are str ategy supportive and
+            which are not.
+           Then, managers have to talk openly and forthrightly to all concerned about those aspects of
+            the culture that have to be changed.
+           The talk has to be followed swiftly by visible, aggressive actions to modify the culture -actions
+            that everyone will understand are intended to establish a new culture more in tune with the
+            strategy.
+        Management through communication has to create a shared vision to manage changes. The menu
+        of culture-changing actions includes revising policies and procedures, altering incentive
+        compensation, shifting budgetary allocations for substantial resources to new strategy projects,
+        recruiting and hiring new managers and employees, replacing key executives, communication on
+        need and benefit to employees and so on.
+5.  (a) Stability strategies, as name suggests, are intended to safeguard the existing interests and
+        strengths of business. It involves organisations to pursue established and tested objectives,
+        continue on the chosen path, maintain operational efficiency and so on. A stability strategy is
+        pursued when a firm continues to serve in the same or similar markets and deals in same products
+        and services. In stability strategy, few functional changes are made in the products or markets,
+        however, it is not a ‘do nothing’ strategy. This strategy is typical for mature business organizations.
+        Some small organizations also frequently use stability as a strategic focus to maintain comfortable
+        market or profit position.
+        On the other hand, expansion strategy is aggressive strategy as it involves redefining the business
+        by adding the scope of business substantially, increasing efforts of the current business. In this
+        sense, it becomes opposite to stability strategy. Expansion is a promising and popular strategy that
+        tends to be equated with dynamism, vigor, promise and success. Expansion also includes
+        diversifying, acquiring and merging businesses. This strategy may take the enterprise along
+        relatively unknown and risky paths, full of promises and pitfalls.
+    (b) There are at least three major R&D approaches for implementing strategies.
+        i.  Be the leader: The first strategy is to be the first firm to market new technological products. This
+            is a glamorous and exciting strategy but also a dangerous one. Firms such as 3M and General
+            Electric have been successful with this approach, but many other pioneering firms have fallen,
+            with rival firms seizing the initiative.
+
+        ii. Be an innovative imitator: A second R&D approach is to be an innovative imitator of successful
+            products, thus minimizing the risks and costs of startup. This approach entails allowing a pioneer
+            firm to develop the first version of the new product and to demonstrate that a market exists. Then,
+            laggard firms develop a similar product. This strategy requires excellent R&D personnel and an
+            excellent marketing department.
+        iii. Be a low cost producer: A third R&D strategy is to be a low-cost producer by mass-producing
+            products similar to but less expensive than products recently introduced. As a new product
+            accepted by customers, price becomes increasingly important in the buying decision. Also, mass
+            marketing replaces personal selling as the dominant selling strategy. This R&D strategy requires
+            substantial investment in plant and equipment, but fewer expenditures in R&D than the two
+            approaches described earlier.
+6.  (a) Following are the differences between the market development and product development:
+| Market Development | Product Development |
+| --- | --- |
+| • Meaning | • Meaning |
+| It refers to a growth strategy where the business seeks to sell its existing products into new markets. It is a strategy for company growth by identifying and developing new markets for current company products. | It refers to a growth strategy where business aims to introduce new products into existing markets. It is a strategy for company growth by offering modified or new products to current markets. |
+| • Strategy Application | • Strategy Application |
+| It may be achieved through new geographical markets, new product dimensions or packaging, new distribution channels or different pricing policies to attract different | It is for company’s growth and requires the development of new competencies and the business to develop modified products which can appeal to existing markets. |
+         customers or create new market segments.
+    (b) Although inextricably linked, strategy implementation is fundamentally different from strategy
+        formulation in the following ways:
+                  Strategy Formulation               Strategy Implementation
+            Strategy formulation focuses on    Strategy implementation focuses on
+             effectiveness.                      efficiency.
+            Strategy formulation is primarily an  Strategy implementation is primarily an
+             intellectual process.               operational process.
+            Strategy formulation requires conceptual  Strategy implementation requires
+             intuitive and analytical skills.    motivation and leadership skills.
+            Strategy formulation requires coordination  Strategy implementation requires
+             among the executives at the top level. coordination among the executives at the
+                                                 middle and lower levels.

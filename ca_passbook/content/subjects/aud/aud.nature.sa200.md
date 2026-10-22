@@ -1,0 +1,372 @@
+---
+id: aud.nature.sa200
+title: SA 200: overall objectives, reasonable assurance and professional judgment
+minutes: 28
+needs: aud.nature.basics
+tags: SA 200, overall objectives, reasonable assurance, absolute assurance, professional judgment, professional skepticism, audit risk, premise
+labs: audit-journey
+summary: SA 200's two overall objectives, why reasonable assurance is high but never a guarantee, how evidence and audit risk produce it, and where professional judgment and skepticism do the work.
+---
+
+## In plain words
+
+### "100% pure", says the premix packet
+
+Tapri's chai premix packet promises "100% pure". Kesar wants the audit report to match.
+
+> **Kesar:** Lakshmi-ji, the packet says "100% pure". Your report should say "100% correct, guaranteed".
+> **Lakshmi:** My report will say that we obtained reasonable assurance, Kesar-ji. That is high. It is not a guarantee.
+> **Bunty:** I can make it a guarantee, Ma'am. I will tick all 31 lakh app orders myself.
+> **Lakshmi:** At thirty seconds an order, that is about thirteen years of office hours, Bunty. And a forged order would still look exactly like a real one.
+
+**SA 200** says what every audit is for. Its two objectives: be reasonably sure that the financial statements as a whole contain no misstatement big enough to change a user's decision (honest error or fraud), so that you can say whether they follow the rules they are meant to follow; then report and communicate what you found.
+
+"Reasonably sure" is the heart of it. **Reasonable assurance** is a high level of assurance, but not absolute: not a guarantee. The auditor reaches it by collecting enough good evidence (**sufficient appropriate audit evidence**) to push **audit risk**, the risk of giving the wrong opinion on accounts that are materially wrong, down to an acceptably low level. Never to zero.
+
+No formula decides whether the evidence is enough, which amount is material or which area is risky. Those calls are **professional judgment**: made by an auditor whose training, knowledge and experience let him reach reasonable judgments. Its constant companion is **professional skepticism**: a questioning mind that does not take "trust me" as evidence.
+
+::: analogy The annual health check-up
+A good doctor does not scan every cell in your body. She picks the tests that matter for your age and history (judgment), questions your cheerful "I feel fine" (skepticism), and gives you a report that says nothing significant was found. That report deserves high confidence. It is not a promise that you will never fall ill, and your diet is still your responsibility, just as Tapri's accounts are still Kesar's.
+:::
+
+::: key
+Reasonable assurance is a high level of assurance, never a guarantee. It is reached when sufficient appropriate audit evidence has reduced audit risk to an acceptably low level, and deciding when that point has been reached is a matter of professional judgment.
+:::
+
+## How it works
+
+SA 200, "Overall Objectives of the Independent Auditor and the Conduct of an Audit in Accordance with Standards on Auditing", sets the overall objectives that every audit in accordance with the SAs pursues.
+
+### 1. The two overall objectives
+
+::: definition Overall objectives of the auditor (SA 200)
+In conducting an audit of financial statements, the overall objectives of the auditor are (SM 1.8):
+
+- (a) To obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement, whether due to fraud or error, thereby enabling the auditor to express an opinion on whether the financial statements are prepared, in all material respects, in accordance with an applicable financial reporting framework; and
+- (b) To report on the financial statements, and communicate as required by the SAs, in accordance with the auditor's findings.
+:::
+
+### 2. Reading them phrase by phrase
+
+ICAI draws four points out of the objectives (SM 1.8–1.9):
+
+1. The auditor's objective is to obtain a **reasonable assurance** whether the financial statements as a whole are free from material misstatement, whether due to fraud or error. Reasonable assurance is to be distinguished from absolute assurance (section 4 below).
+2. Misstatements can occur due to **fraud or error or both**. The auditor seeks reasonable assurance against both, and has to see the effect of misstatements on the financial statements **as a whole, in totality**.
+3. Obtaining that reasonable assurance **enables the auditor to express an opinion** on whether the financial statements are prepared, in all material respects, in accordance with an applicable financial reporting framework.
+4. The opinion is **reported and communicated** in accordance with the audit findings, through a written report, as required by the Standards on Auditing.
+
+Two more phrases are defined ideas. A **material misstatement** is a difference between the amount, classification, presentation or disclosure of a reported item and what the framework requires that could reasonably be expected to influence users' economic decisions (SM 3.4, 3.16). And the framework is defined:
+
+::: definition Applicable financial reporting framework
+"A framework adopted in the preparation and presentation of the financial statements that is acceptable in view of the nature of the entity and the objective of the financial statements, or that is required by law or regulation" (SM 1.10). For companies in India, the financial reporting framework is provided under Schedule III of the Companies Act, 2013.
+:::
+
+Materiality itself, and how the auditor fixes it, are in [[aud.risk.sa320|SA 320 materiality]].
+
+### 3. The purpose behind the objectives
+
+The purpose of an audit is ==to enhance the degree of confidence of intended users in the financial statements==. This is achieved by the expression of an opinion by the auditor on whether the financial statements are prepared, in all material respects, in accordance with an applicable financial reporting framework (SM 1.10, 1.40). Users may be shareholders, employees, customers, government and regulatory authorities, bankers and others.
+
+### 4. Reasonable assurance, not absolute assurance
+
+::: definition Reasonable assurance and absolute assurance
+**Absolute assurance** is a complete assurance or a guarantee that the financial statements are free from material misstatements. **Reasonable assurance** is not a complete guarantee: although it is a high level of assurance, it is not complete assurance (SM 1.9). In the words of ICAI's model engagement letter, reasonable assurance is a high level of assurance, but is not a guarantee that an audit conducted in accordance with SAs will always detect a material misstatement when it exists (SM 11.17).
+:::
+
+**Why it is high.** The audit is carried out with professional competence and skills in accordance with the SAs: procedures are applied, evidence is obtained and evaluated, conclusions are drawn and the opinion is formed (SM 1.9).
+
+**Why it is not absolute.** The auditor is not expected to, and cannot, reduce audit risk to zero, and so cannot obtain absolute assurance that the financial statements are free from material misstatement due to fraud or error. This is because there are inherent limitations of an audit, which result in most of the audit evidence on which the auditor draws conclusions and bases the opinion being **persuasive rather than conclusive** (SM 1.40). The five limitations are in [[aud.nature.limits|inherent limitations of an audit]].
+
+::: diagram How much assurance?
+{"type": "layers", "layers": [{"label": "Absolute assurance", "note": "a complete assurance, a guarantee: no audit can give it", "right": "not attainable"}, {"label": "Reasonable assurance", "note": "a high level of assurance, not a guarantee", "right": "audit"}, {"label": "Limited assurance", "note": "lower than reasonable: a moderate level", "right": "review"}], "caption": "An audit is a reasonable assurance engagement; a review gives limited assurance (SM 1.9, 1.24). Engagement types are compared in the assurance engagements lesson."}
+:::
+
+The audit and review contrast is developed in [[aud.nature.assurance|assurance engagements]].
+
+### 5. How reasonable assurance is obtained
+
+::: definition Audit risk
+"Audit risk means the risk that the auditor gives an inappropriate audit opinion when the financial statements are materially misstated." It is a function of the risks of material misstatement and detection risk (SM 3.4; components in [[aud.risk.model|audit risk: inherent, control and detection risk]]).
+:::
+
+SA 200 states that the auditor shall obtain sufficient appropriate audit evidence to reduce audit risk to an acceptably low level, and thereby enable the auditor to draw reasonable conclusions on which to base the auditor's opinion (SM 3.4). Put the other way round: **reasonable assurance is obtained when the auditor has obtained sufficient appropriate audit evidence to reduce audit risk to an acceptably low level** (SM 3.23, 4.12). What "sufficient" and "appropriate" mean is [[aud.evid.sa500|SA 500]]'s subject.
+
+::: steps
+1. **Identify and assess the risks of material misstatement**, whether due to fraud or error (SM 8.18).
+2. **Design and perform audit procedures responsive to those risks** (SM 8.18).
+3. **Obtain and evaluate sufficient appropriate audit evidence** (SM 1.9).
+4. **Judge whether audit risk is acceptably low**; if not, obtain more or better evidence. This is professional judgment (SM 4.12).
+5. **Form the opinion, then report and communicate** as the SAs require.
+:::
+
+::: diagram SA 200: from risks to reasonable assurance
+{"type": "flow", "w": 360, "nodes": [{"id": "s", "kind": "start", "label": "Audit begins"}, {"id": "r", "kind": "process", "label": "Identify and assess risks\nof material misstatement"}, {"id": "p", "kind": "process", "label": "Design and perform\nresponsive procedures"}, {"id": "e", "kind": "process", "label": "Obtain and evaluate\naudit evidence"}, {"id": "d", "kind": "decision", "label": "Audit risk\nacceptably low?"}, {"id": "n", "kind": "end", "label": "Back to\nstep 2", "color": "mute"}, {"id": "a", "kind": "process", "label": "Reasonable\nassurance", "color": "g"}, {"id": "x", "kind": "end", "label": "Form the opinion;\nreport, communicate"}], "edges": [["s", "r"], ["r", "p"], ["p", "e"], ["e", "d"], ["d", "n", "no"], ["d", "a", "yes"], ["a", "x"]], "caption": "The answer to \"acceptably low?\" is a professional judgment (SM 4.12); \"no\" sends the team back for more or better evidence. Audit risk is brought to an acceptably low level, never to zero (SM 1.40). Green marks the point where reasonable assurance is obtained; grey, the loop back."}
+:::
+
+::: lab audit-journey {"upto":"file"}
+Step through the whole engagement SA 200 frames, one Standard at a time, from acceptance to the final audit file.
+:::
+
+### 6. The premise: what management accepts
+
+SA 200 explains the **premise**, relating to the responsibilities of management and, where appropriate, those charged with governance, on which an audit in accordance with SAs is conducted (SM 8.15–8.16). Management and, where appropriate, those charged with governance accept responsibility for:
+
+- (a) the **preparation of the financial statements**; and
+- (b) **such internal control as management determines is necessary** to enable the preparation of financial statements that are free from material misstatement, whether due to fraud or error.
+
+The auditor's report describes both responsibilities, because that explains to users the premise on which the audit was conducted ([[aud.report.sa700|SA 700]]); SA 210 requires the auditor to agree them in an engagement letter or other suitable form of written agreement ([[aud.ethics.sa210|SA 210]]). Preparation and presentation of the financial statements is not part of the scope of an audit (SM 1.13).
+
+### 7. Professional judgment
+
+::: definition Professional judgment (as the Study Material describes it)
+The assessment of risks is ==a matter of professional judgment, rather than a matter capable of precise measurement==. The distinguishing feature of the professional judgment expected of an auditor is that it is exercised by an auditor whose training, knowledge and experience have assisted in developing the necessary competencies to achieve reasonable judgments (SM 3.9).
+:::
+
+The Study Material shows the same judgment at work at every stage:
+
+| Stage | The judgment | SM |
+|---|---|---|
+| Planning | Which factors are significant in directing the engagement team's efforts | 2.11 |
+| Risk assessment | Assessing the risks of material misstatement | 3.9 |
+| Materiality | Determining materiality, choosing the benchmark and its level; affected by the auditor's perception of users' information needs | 3.18–3.19 |
+| Internal control | Whether a control is relevant to the audit | 3.32 |
+| Evidence | Whether sufficient appropriate audit evidence has been obtained | 4.12 |
+| Reporting | Which matters were of most significance in the audit (key audit matters) | 8.27 |
+
+In judging whether the evidence is sufficient and appropriate, the auditor considers matters that SA 200 discusses: **the nature of audit procedures, the timeliness of financial reporting, and the balance between benefit and cost** (SM 4.13). Significant professional judgments are documented: that documentation explains the auditor's conclusions and reinforces the quality of the judgment (SM 6.10; [[aud.doc.sa230|SA 230]]). And the auditor's report itself states that, as part of an audit in accordance with SAs, the auditor exercises professional judgment and maintains professional skepticism throughout the audit (SM 8.18).
+
+### 8. Professional skepticism, judgment's partner
+
+::: definition Professional skepticism
+"Professional skepticism refers to an attitude that includes a questioning mind, being alert to conditions which may indicate possible misstatement due to error or fraud, and a critical assessment of audit evidence" (SM 11.12).
+:::
+
+The auditor shall plan and perform an audit with professional skepticism, recognising that circumstances may exist that cause the financial statements to be materially misstated. It includes being alert to: audit evidence that contradicts other audit evidence; information that brings into question the reliability of documents and responses to inquiries; conditions that may indicate possible fraud; and circumstances that suggest the need for procedures beyond those the SAs require (SM 11.12). The auditor may accept records and documents as genuine unless he has reason to believe the contrary; but a belief that management is honest does not relieve him of the need to maintain professional skepticism (SM 11.13). The ethics chapter treats it alongside independence (SM 11.12): [[aud.ethics.independence|independence, threats and safeguards]].
+
+## Worked examples
+
+:::: example Kesar's three demands
+At the kick-off meeting for the 2025-26 audit of Tapri Tea Co. Ltd, Kesar makes three demands of Iyer & Associates:
+
+(i) "Your report must state that our financial statements are guaranteed free from all errors and frauds. Our investors deserve 100%."
+
+(ii) "To make that possible, your team will check every one of the 31 lakh orders on the TapriNow app."
+
+(iii) "Since you are checking everything, my accounts team will stop the monthly bank and stock reconciliations this year. Whatever you find, we will adjust. Sab adjust ho jayega."
+
+With reference to SA 200, examine whether Kesar's demands are tenable.
+
+::: answer Model answer
+**Relevant provision.** As per SA 200 "Overall Objectives of the Independent Auditor and the Conduct of an Audit in Accordance with Standards on Auditing", the overall objectives of the auditor are (a) to obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement, whether due to fraud or error, thereby enabling the auditor to express an opinion on whether the financial statements are prepared, in all material respects, in accordance with an applicable financial reporting framework; and (b) to report on the financial statements, and communicate as required by the SAs, in accordance with the auditor's findings. Reasonable assurance is a high level of assurance, but it is not absolute assurance, which would be a complete assurance or guarantee. The auditor is not expected to, and cannot, reduce audit risk to zero, because the inherent limitations of an audit make most audit evidence persuasive rather than conclusive. SA 200 also explains the premise on which an audit is conducted: management and, where appropriate, those charged with governance accept responsibility for the preparation of the financial statements and for such internal control as management determines is necessary to enable their preparation free from material misstatement, whether due to fraud or error.
+
+**Facts of the case.** Kesar wants (i) a guarantee in the report, (ii) every one of 31 lakh orders checked, and (iii) the accounts team to stop the monthly reconciliations because the auditors will find and adjust the errors.
+
+**Analysis.**
+
+(i) The auditor's objective is reasonable assurance, and the opinion is on whether the statements are prepared, in all material respects, in accordance with the framework. A statement that the financial statements are guaranteed free from all errors and frauds would claim absolute assurance, which an audit conducted in accordance with SAs cannot give.
+
+(ii) Checking all 31 lakh orders would not convert reasonable assurance into absolute assurance: audit risk cannot be reduced to zero even then, because the other inherent limitations (management's judgments, collusion, fabricated documents, future events) remain. The auditor seeks assurance about the financial statements as a whole, and the nature, timing and extent of procedures, and whether the evidence obtained is sufficient and appropriate, are decided by the auditor's professional judgment on the basis of the assessed risks.
+
+(iii) Preparing the financial statements, and maintaining the internal control needed to prepare them free from material misstatement (such as the monthly reconciliations), is management's responsibility. It is the premise on which the audit is conducted, and it does not pass to the auditor because the accounts are audited.
+
+**Conclusion.** None of the demands is tenable. Iyer & Associates should explain to Kesar that the audit will provide reasonable, not absolute, assurance; that the extent of checking is for the auditor's professional judgment; and that management's responsibilities, to be agreed in the engagement letter under SA 210, remain with management.
+:::
+::::
+
+:::: example Bunty asks for a formula
+During the audit of Tapri Cold Chain Pvt Ltd, a subsidiary of Tapri, Bunty raises three points with the engagement partner:
+
+(a) "Please give me the formula that tells us how many cold-storage invoices to check before our evidence becomes sufficient."
+
+(b) "We chose profit before tax as the materiality benchmark and assessed revenue as a high-risk area. Why write down the reasons? The figures are already in the file."
+
+(c) "The plant head has been honest for ten years. We can accept his year-end stock sheets without question."
+
+With reference to the Study Material, explain how professional judgment and professional skepticism apply to each point.
+
+::: answer Model answer
+**Relevant provisions.**
+
+- Whether sufficient appropriate audit evidence has been obtained to reduce audit risk to an acceptably low level is a matter of professional judgment, in which SA 200's factors (the nature of audit procedures, the timeliness of financial reporting, the balance between benefit and cost) are relevant. The quantity of evidence needed is affected by the assessed risks of misstatement (the higher the assessed risks, the more evidence is likely to be required) and by its quality (the higher the quality, the less may be required).
+- As per SA 530, the sample size can be determined by the application of a statistically-based formula or through the exercise of professional judgment; the lower the sampling risk the auditor is willing to accept, the greater the sample size.
+- The assessment of risks, and the determination of materiality, are matters of professional judgment rather than of precise measurement, exercised by an auditor whose training, knowledge and experience have assisted in developing the necessary competencies to achieve reasonable judgments.
+- As per SA 230, documentation of significant professional judgments serves to explain the auditor's conclusions and to reinforce the quality of the judgment.
+- The auditor shall plan and perform the audit with professional skepticism; a belief that management is honest and has integrity does not relieve the auditor of that need.
+
+**Analysis.**
+
+(a) A formula can answer only part of the question. Under SA 530 a statistically-based formula may be used to determine how many cold-storage invoices to sample, but its inputs, such as the sampling risk the team is willing to accept, follow from the assessed risks of misstatement in cold-storage revenue, and assessing risks is itself a matter of professional judgment. Whether the evidence obtained, from the sample and from all other procedures, is sufficient and appropriate to reduce audit risk to an acceptably low level is decided by the professional judgment of the engagement team, considering the factors SA 200 discusses. No formula makes that decision.
+
+(b) The choice of benchmark and the assessment of revenue as a high-risk area are significant professional judgments. Recording the reasons explains the conclusions to a reviewer and to whoever audits the next year, and reinforces the quality of the judgment; the figures alone do not show why they were chosen.
+
+(c) Past experience of the plant head's honesty need not be disregarded, but it does not relieve the auditor of the need to maintain professional skepticism. Year-end stock sheets prepared by the person responsible for the stock must be critically assessed, and corroborated where the risks call for it, like any other audit evidence.
+
+**Conclusion.** Bunty wants a formula to make the judgment, would leave significant judgments undocumented and would replace skepticism with trust. A formula may size a sample, but the extent of testing and the sufficiency of the evidence are decided by professional judgment on the assessed risks; the significant judgments should be documented; and the stock sheets should be evaluated with professional skepticism.
+:::
+::::
+
+## Under the hood
+
+### Where else the Study Material uses SA 200
+
+- **The external auditor's independence.** Internal auditors may perform procedures similar to the external auditor's, but neither the internal audit function nor internal auditors are independent of the entity "as is required of the external auditor in an audit of financial statements in accordance with SA 200". The external auditor has sole responsibility for the opinion, and using internal audit work does not reduce it (SM 4.35; [[aud.evid.sa610|SA 610]]).
+- **Laws on top of SAs.** SA 200 explains that the auditor may be required to comply with legal or regulatory requirements in addition to SAs. When law and the SAs differ only in the layout and wording of the report, SA 700 sets the minimum elements the report must contain to refer to the SAs (SM 8.24).
+- **The definitions of risk.** The risk of material misstatement, inherent, control and detection risk are SA 200's definitions (SM 3.4–3.7; [[aud.risk.model|audit risk]]).
+- **A related duty, from the overview of the engagement standards** (the Study Material does not tie it to SA 200): when a specific procedure required by a Standard would be ineffective in an engagement, the auditor documents how the alternative procedures achieve its purpose and, unless it is clear, the reason for the departure, and the report draws attention to the departure (SM 1.32; [[aud.nature.assurance|engagement and quality control standards]]).
+
+## Exam angle
+
+::: exam Where SA 200 appeared, May 2024 to September 2026
+Of the new-scheme ICAI documents read for this lesson, 8 examined SA 200's objectives or reasonable assurance and 3 examined professional judgment (MTP May 2026 Series II did both):
+
+- **"Can the auditor give a guarantee?", 3 to 5 marks.** MTP September 2025 Series I Q6(a) (5 marks: a CEO insists on absolute assurance); MTP September 2026 Series I Q1(b) (5 marks: "complete guarantee", and must the auditor also report?); RTP May 2024 Q1 (assistants see audit as a guarantee); RTP January 2026 Q9 (directors want complete assurance); RTP January 2025 Q9 (after a collusion); the September 2024 paper, Q1(c) (3 marks: a clause making the auditor responsible for detecting frauds; the answer opens with the SA 200 objective).
+- **MCQs, 2 marks.** MTP September 2024 Series I MCQ 14 (reasonable assurance means a high level of assurance); MTP May 2026 Series II MCQ 3 (misstatements of unknown origin: reasonable assurance against fraud or error, evaluated in aggregate).
+- **Professional judgment.** MTP January 2026 Series II Q1(a) (5 marks with audit risk: how training and experience support the judgment); MTP May 2026 Series II MCQ 11 (judgment, not "a precise calculation"); MTP January 2026 Series I Q3(a) (5 marks on evidence, using SA 200's factors).
+- **The premise.** MTP May 2025 Series I Q4(a) (5 marks), through SA 700's "Responsibilities of Management" section.
+- Old scheme, for practice: May 2022 Q2(c) (3 marks: an opinion without ascertaining whether the statements as a whole are free from material misstatement does not meet SA 200); January 2021 Q1(b) (2 marks: "the auditor is expected to reduce audit risk to zero and can therefore obtain absolute assurance": incorrect).
+:::
+
+::: exam How the marks are earned
+Most of the Suggested Answers above quote the objectives in full and the points of SM 1.8–1.9, then apply them ("In the given case ... therefore the contention is not correct"). The phrases that carry marks: "reasonable assurance", "financial statements as a whole", "free from material misstatement, whether due to fraud or error", "in all material respects", "applicable financial reporting framework", "report ... and communicate as required by the SAs".
+:::
+
+::: trick Objective (a) in five checkpoints
+**R**easonable assurance, **W**hole statements, **M**aterial misstatement, **F**raud or error, **F**ramework, in all material respects: "Really Wise Men Fear Frauds". Then add objective (b): report and communicate. The mnemonic only checks that no phrase is missing; write the full sentence.
+:::
+
+## Answer frame
+
+### "Discuss the objectives of the auditor" or "Can the auditor give a guarantee?"
+
+1. **Provision:** "As per SA 200 ..." with objectives (a) and (b) word for word.
+2. **The four points:** reasonable, not absolute, assurance (define both); fraud or error, statements as a whole; the opinion in all material respects per the framework; reporting and communication through a written report.
+3. **Why not absolute:** audit risk cannot be reduced to zero; inherent limitations; evidence persuasive rather than conclusive.
+4. **Facts and conclusion:** "In the given case, ... hence the contention of ... is not correct."
+
+### A case on judgment or skepticism
+
+Provision (SM 3.9 for judgment, SM 4.12–4.13 for sufficiency, SM 6.10 for documentation, SM 11.12–11.13 for skepticism) → facts → what the judgment or the skeptical step is in this case → conclusion.
+
+::: cols
+**Loses marks**
+
+"No, the auditor cannot give a guarantee because he checks on a test basis."
+
+One limitation, no objective, no definition of reasonable assurance.
+---
+**Passes**
+
+Objective (a) quoted, "reasonable assurance is high but not absolute", and a one-line conclusion.
+
+Objective (b) and the four points are missing.
+---
+**Full marks**
+
+Both objectives verbatim, the four points, absolute versus reasonable assurance defined, why audit risk cannot be zero, the facts applied, a clear conclusion.
+:::
+
+## Common mistakes
+
+::: mistake Hall of Shame: "reasonable assurance means moderate assurance"
+Bunty writes that an audit gives "a moderate, reasonable level of assurance". **Fix:** reasonable assurance is a **high** level of assurance; the moderate (limited) level belongs to a review (SM 1.9, 1.24).
+:::
+
+::: mistake Half an objective
+Writing only "to express an opinion on the financial statements", or dropping "as a whole", "material", "fraud or error" or objective (b). **Fix:** learn both objectives word for word; each phrase is a mark in ICAI's answers.
+:::
+
+::: mistake "Professional judgment means my opinion"
+Treating judgment as a licence to skip work or to decide without evidence. **Fix:** it is exercised by an auditor whose training, knowledge and experience support reasonable judgments, on the evidence obtained, and significant judgments are documented (SM 3.9, 6.10).
+:::
+
+::: mistake The audit that took over management's job
+Saying that, once audited, the accounts or the internal controls are the auditor's responsibility. **Fix:** the premise of SA 200: management and, where appropriate, those charged with governance accept responsibility for preparing the statements and for the necessary internal control (SM 8.15).
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. Midway through Tapri's audit, Bunty asks Lakshmi: "At what point will we actually have reasonable assurance?" Which answer is in line with SA 200?
+- [ ] When every material balance has been confirmed by a third party
+- [ ] When management has signed the written representation letter
+- [ ] When the samples tested so far have shown no misstatement
+- [x] When sufficient appropriate audit evidence has been obtained to reduce audit risk to an acceptably low level
+> SA 200: the auditor shall obtain sufficient appropriate audit evidence to reduce audit risk to an acceptably low level, and thereby draw reasonable conclusions on which to base the opinion (SM 1.9, 3.4); reasonable assurance is that high, though not absolute, level. Third-party confirmation of everything is neither required nor enough by itself, a representation letter does not replace other evidence, and a clean sample says nothing about areas not yet covered.
+
+Q: Which of the following is NOT part of the overall objectives of the auditor under SA 200?
+- [ ] To obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement, whether due to fraud or error
+- [ ] To express an opinion on whether the financial statements are prepared, in all material respects, in accordance with an applicable financial reporting framework
+- [ ] To report on the financial statements, and communicate as required by the SAs, in accordance with the auditor's findings
+- [x] To certify that every transaction recorded during the year is free from error
+> The first three are the objectives (SM 1.8). Certifying every transaction is neither the objective nor attainable.
+
+Q: Case scenario. Planning Tapri's audit, Bunty fixes materiality at exactly 5% of profit before tax "because SA 320 lays down 5%", and plans to treat every misstatement below that amount as immaterial. Which reply reflects the Study Material?
+- [ ] He is right: SA 320 prescribes 5% of profit before tax for every company, and nothing below it can be material
+- [ ] He is partly right: 5% is prescribed, but only for listed companies
+- [x] He is wrong: the percentage is a matter of professional judgment, and a smaller misstatement may be material by its nature
+- [ ] He is wrong: materiality is fixed by management, and the auditor adopts management's figure
+> Determining materiality, choosing the benchmark and the percentage are matters of professional judgment (SM 3.18–3.19, 3.21). The Study Material gives 5% of profit before tax only as an example for a profit-oriented manufacturing entity, and says higher or lower percentages may be appropriate (SM 3.21). And the circumstances of some misstatements may make them material even below materiality (SM 3.18).
+
+Q: Select all that apply. Under the premise explained in SA 200, management and, where appropriate, those charged with governance accept responsibility for:
+- [x] the preparation of the financial statements
+- [x] such internal control as management determines is necessary to enable preparation of financial statements free from material misstatement, whether due to fraud or error
+- [ ] designing the auditor's procedures
+- [ ] detecting every misstatement during the audit
+> SM 8.15–8.16. Designing the procedures is the auditor's job, and detecting every misstatement is no one's promise.
+
+Q: Iyer & Associates have found Tapri's CFO honest in six years of audits. This year he explains a ₹3 crore credit note to a distributor as "a volume discount agreed in March". The distributor's balance confirmation shows no such discount, and the credit note's system log shows it was created on 2 April although it is dated 31 March. What does professional skepticism require?
+- [ ] Accept the explanation: six years of the CFO's honesty are sufficient appropriate audit evidence
+- [ ] Obtain a written representation from the CFO that the discount was agreed in March, and close the matter
+- [ ] Treat it as a fraud and issue a disclaimer of opinion straight away
+- [x] Treat the contradictions as bringing the explanation into question and investigate further, for example by inspecting the discount agreement and asking the distributor
+> Skepticism means being alert to audit evidence that contradicts other evidence and to information that brings into question the reliability of responses to inquiries (SM 11.12). Past experience of the CFO's honesty need not be disregarded, but a belief that management is honest does not relieve the auditor of the need to maintain professional skepticism (SM 11.13). Jumping to a disclaimer skips the evidence-gathering that would resolve the matter.
+:::
+
+## Recap
+
+- **SA 200** "Overall Objectives of the Independent Auditor and the Conduct of an Audit in Accordance with Standards on Auditing".
+- **Objective (a):** reasonable assurance that the financial statements as a whole are free from material misstatement, whether due to fraud or error, enabling an opinion on whether they are prepared, in all material respects, in accordance with an applicable financial reporting framework. **Objective (b):** report and communicate as required by the SAs, in accordance with the findings.
+- **Purpose:** to enhance the degree of confidence of intended users in the financial statements.
+- **Reasonable assurance** = high, not a guarantee; **absolute assurance** = a complete guarantee, never attainable. Audit risk cannot be reduced to zero; evidence is persuasive rather than conclusive.
+- Reasonable assurance is obtained when sufficient appropriate audit evidence has reduced **audit risk** (an inappropriate opinion on materially misstated statements) to an acceptably low level.
+- **Premise:** management (and, where appropriate, those charged with governance) accept responsibility for preparing the statements and for the necessary internal control.
+- **Professional judgment:** risk assessment, materiality and sufficiency of evidence are judgments, not precise measurements, made by an auditor with the training, knowledge and experience to reach reasonable judgments; significant ones are documented.
+- **Professional skepticism:** a questioning mind, alertness to possible misstatement, critical assessment of evidence; honesty in the past does not excuse it. (Bunty's 13-year tick would not have helped either.)
+
+## Flashcards
+
+Q:: SA 200: what is its full title?
+A:: Overall Objectives of the Independent Auditor and the Conduct of an Audit in Accordance with Standards on Auditing.
+
+Q:: SA 200: what are the overall objectives of the auditor?
+A:: (a) To obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement, whether due to fraud or error, thereby enabling an opinion on whether they are prepared, in all material respects, in accordance with an applicable financial reporting framework; (b) to report on the financial statements, and communicate as required by the SAs, in accordance with the auditor's findings.
+
+Q:: Distinguish reasonable assurance from absolute assurance.
+A:: Absolute assurance is a complete assurance or guarantee that the financial statements are free from material misstatement. Reasonable assurance is a high level of assurance but not a complete guarantee.
+
+Q:: Why can an auditor not obtain absolute assurance?
+A:: The auditor is not expected to, and cannot, reduce audit risk to zero, because the inherent limitations of an audit make most audit evidence persuasive rather than conclusive.
+
+Q:: When is reasonable assurance obtained?
+A:: When the auditor has obtained sufficient appropriate audit evidence to reduce audit risk (the risk of an inappropriate opinion on materially misstated statements) to an acceptably low level.
+
+Q:: What is the purpose of an audit according to SA 200?
+A:: To enhance the degree of confidence of intended users in the financial statements, by expressing an opinion on whether they are prepared, in all material respects, in accordance with an applicable financial reporting framework.
+
+Q:: Define "applicable financial reporting framework".
+A:: A framework adopted in preparing and presenting the financial statements that is acceptable in view of the nature of the entity and the objective of the statements, or that is required by law or regulation (for Indian companies, Schedule III of the Companies Act, 2013).
+
+Q:: SA 200: what is the premise on which an audit is conducted?
+A:: Management and, where appropriate, those charged with governance accept responsibility for preparing the financial statements and for such internal control as management determines necessary to prepare them free from material misstatement, whether due to fraud or error.
+
+Q:: What is the distinguishing feature of the professional judgment expected of an auditor?
+A:: It is exercised by an auditor whose training, knowledge and experience have assisted in developing the necessary competencies to achieve reasonable judgments.
+
+Q:: Which matters does SA 200 discuss as relevant when the auditor judges whether sufficient appropriate evidence has been obtained?
+A:: The nature of audit procedures, the timeliness of financial reporting, and the balance between benefit and cost.
+
+Q:: Define professional skepticism.
+A:: An attitude that includes a questioning mind, being alert to conditions which may indicate possible misstatement due to error or fraud, and a critical assessment of audit evidence.
+
+Q:: Does a belief that management is honest relieve the auditor of professional skepticism?
+A:: No. Past experience need not be disregarded, but a belief in the honesty and integrity of management and those charged with governance does not relieve the auditor of the need to maintain professional skepticism.

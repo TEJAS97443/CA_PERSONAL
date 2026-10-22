@@ -1,0 +1,444 @@
+---
+id: sm.impl.matrix
+title: Formulation versus implementation: matrix, linkages and issues
+minutes: 30
+needs: sm.intro.meaning, sm.int.swot
+tags: strategic management process, strategy formulation, strategy implementation, formulation-implementation matrix, efficiency and effectiveness, forward and backward linkages, strategic planning, strategic uncertainty
+labs:
+summary: The five stages of strategic management, why a sound strategy still fails without good implementation, the A-B-C-D and thrive-or-die matrices, forward and backward linkages, and the issues in implementing strategy.
+---
+
+## In plain words
+
+### The kiosks that existed only in PowerPoint
+
+In April 2025 Ananya Rao showed Tapri's board a beautiful plan: **Kulhad Express**, 120 chai kiosks on national highways for truckers and families on road trips. The research was solid, BrewBucks had no highway presence, and the board loved it. Eighteen months later, 31 kiosks were open.
+
+> **Kesar:** The highway idea was a bad idea. Next festival we try something else.
+> **Ananya:** The idea was fine, Kesar-ji. The budget for kiosks came six months late, nobody hired kiosk managers, and the regional heads read about the plan in the newspaper.
+> **Dev:** The present value of a plan nobody executes is exactly zero. I checked.
+
+Kesar is making the classic mistake: blaming the strategy for what was really a failure to carry it out. Strategic management has two halves. **Strategy formulation** is deciding what to do: the vision, the analysis of the environment and of the firm, and the choice of strategy. **Strategy implementation** is making it happen: budgets, people, structure, systems, culture and leadership. Formulation is thinking, done by a few people at the top; implementation is doing, done by many people at the middle and lower levels.
+
+A company succeeds only when the strategy is **sound** and its implementation **excellent**. Put the two on a grid and you get four squares: sound and excellent (the ideal), sound but weak (Kulhad Express), flawed but excellent (a bad plan carried out beautifully), flawed and weak (both need redoing).
+
+A second grid asks a different pair of questions: is the firm doing **the right thing** (effectiveness, set by strategy), and is it doing **the thing right** (efficiency, run by operations)? Effective but wasteful firms survive; efficient firms heading the wrong way die slowly.
+
+::: analogy The biryani test
+A great recipe cooked badly gives burnt biryani: change the cook, not the recipe. A bad recipe cooked perfectly gives a perfectly made dish nobody wanted: change the recipe first. A bad recipe cooked badly needs both. Only a good recipe, well cooked, gets eaten. The recipe is formulation; the cooking is implementation.
+:::
+
+::: key
+Organisational success is a function of good strategy **and** proper implementation. Successful formulation does not guarantee successful implementation: it is always more difficult to do something than to say you are going to do it.
+:::
+
+## How it works
+
+### The strategic management process
+
+The process of developing a strategy is methodical: a clear vision, mission, values and goals; analysis of themes to find the most promising options; and a strategic plan with a high-level implementation plan and **key performance measures**, which link the themes back to the goals and measure the strategy's success after implementation (SM 5.3). The process is **dynamic and continuous**: a change in any one component (a shift in the economy, a failure to meet annual objectives, a competitor's change of strategy) can require a change in any or all of the others. So formulation, implementation and evaluation are performed on a continual basis; ==the strategic management process never really ends== (SM 5.3).
+
+::: diagram Strategic management model (Fred R David)
+{"type": "flow", "w": 430, "nodes": [{"id": "v", "kind": "process", "label": "Vision, mission,\nobjectives", "color": "a"}, {"id": "e", "kind": "process", "label": "Environment", "color": "a"}, {"id": "o", "kind": "process", "label": "Organisation", "color": "a"}, {"id": "g", "kind": "process", "label": "Generate, analyse,\nselect strategies", "color": "a"}, {"id": "i", "kind": "process", "label": "Implement strategies", "color": "b"}, {"id": "c", "kind": "process", "label": "Evaluation\nand control", "color": "c"}], "edges": [["v", "e"], ["v", "o"], ["e", "g"], ["o", "g"], ["g", "i"], ["i", "c"], ["c", "v", "feedback"]], "caption": "Blue: formulation (including environmental analysis and organisation appraisal); teal: implementation; amber: evaluation. The feedback arrow is why the process never ends. In practice strategists do not move in lockstep: the process is iterative, with give-and-take among levels (SM 5.3–5.4)."}
+:::
+
+Strategic management involves five **stages** (SM 5.4):
+
+1. Developing a strategic vision and formulation of statement of mission, goals and objectives.
+2. Environmental and organisational analysis.
+3. Formulation of strategy.
+4. Implementation of strategy.
+5. Strategic evaluation and control.
+
+**Stage 1. Vision, mission and objectives** (SM 5.5–5.6). A **strategic vision** delineates management's aspirations for the organisation and highlights a particular direction, or strategic path, for it to follow; a **mission** states the role of the organisation, the overall strategic direction rather than the details of SBU competitive strategy. **Objectives** convert the strategic vision into specific performance targets, the yardsticks for tracking progress, and are needed at all levels: broken down for each business, product line, functional department and work unit so that they support, rather than conflict with, the companywide objectives. (Vision and mission are taught in [[sm.intro.intent|strategic intent]].)
+
+**Stage 2. Environmental and organisational analysis** (SM 5.6–5.7). The diagnostic phase: **environmental scanning** of the economic, social, technological, market and other forces to find opportunities and threats, and **organisational analysis** of financial and technological resources, productive capacity, marketing and distribution, R&D and human resource skills to find strengths and weaknesses. Matched together they give the framework for [[sm.int.swot|SWOT analysis]].
+
+**Stage 3. Formulating strategy** (SM 5.7). First develop strategic alternatives in the light of SWOT; then analyse them deeply to choose the most appropriate. The alternatives: continue in the same business at the same volume; grow within it (expand existing units, establish new ones or acquire others); diversify into related or unrelated areas; or get out of a business fully or partially. These are **stability, growth/expansion and retrenchment**, and a mix of them is a **combination strategy** ([[sm.choice.retrench|stability and retrenchment]]).
+
+**Stage 4. Implementation of strategy** (SM 5.7–5.8). Implementation and execution are an **operations-oriented activity** aimed at shaping the performance of core business activities in a strategy-supportive manner. It is the **most demanding and time-consuming** part of the process: a manager must direct organisational change, motivate people, build competencies and capabilities, create a strategy-supportive work climate, and meet or beat performance targets. In most situations the strategy-execution process includes these **principal aspects**:
+
+1. Developing budgets that steer ample resources into those activities critical to strategic success.
+2. Staffing the organisation with the needed skills and expertise, consciously building and strengthening strategy-supportive competencies and competitive capabilities and organising the work effort.
+3. Ensuring that policies and operating procedures facilitate rather than impede effective execution.
+4. Using the best-known practices to perform core business activities and pushing for continuous improvement.
+5. Installing information and operating systems that enable company personnel to better carry out their strategic roles day in and day out.
+6. Motivating people to pursue the target objectives energetically.
+7. Creating a company culture and work climate conducive to successful strategy implementation and execution.
+8. Exerting the internal leadership needed to drive implementation forward and keep improving strategy execution; stumbling blocks and weaknesses must be addressed and rectified quickly.
+
+Good execution creates strong **"fits"**: between strategy and organisational capabilities, the reward structure, the internal operating systems, and the work climate and culture (SM 5.8).
+
+**Stage 5. Strategic evaluation and control** (SM 5.8–5.9). Evaluating progress, assessing the impact of new external developments and making corrective adjustments is the **trigger point** for deciding whether to continue or change the vision, objectives, strategy or execution methods. While direction and strategy fit the conditions and targets are met, executives may stay the course and fine-tune. After disruptive change, a downturn in market position or a performance shortfall, managers must find out whether the cause is **poor strategy, poor execution, or both**, and act in time. (The tools are in [[sm.impl.control|strategic control]].)
+
+### Strategy formulation: strategic and operational planning
+
+Planning is choosing what has to be done in the future and creating action plans. The game plan that directs the company towards success is **corporate strategy**; its formation is the result of **strategic planning**, done by senior management for the whole organisation after weighing strengths and weaknesses against the opportunities and threats outside. **Operational plans** are made at middle and lower levels and give specifics on how resources are to be used to achieve the goals (SM 5.9–5.10).
+
+::: compare
+| Strategic planning | Operational planning |
+|---|---|
+| Shapes the organisation and its resources | Deals with current deployment of resources |
+| Assesses the impact of environmental variables | Develops tactics rather than strategy |
+| Takes a holistic view of the organisation | Projects current operations into the future |
+| Develops overall objectives and strategies | Makes modifications to the business functions but not fundamental changes |
+| Is concerned with the long-term success of the organisation | — |
+| Is a senior management responsibility | Is the responsibility of functional managers |
+:::
+
+The Study Material's figure lists six characteristics of strategic planning and five of operational planning (SM 5.10), so the table pairs the two "responsibility" items and leaves one cell empty; see the Exam angle for the row ICAI's answers add.
+
+**Strategic planning** is the process of determining the objectives of the firm, the resources required to attain them and the policies to govern the acquisition, use and disposition of resources; it involves interactive and overlapping decisions; it determines where the organisation is going over the next year or more and how; and it is organisation-wide or focused on a major function such as a division (SM 5.10–5.11).
+
+### Strategic uncertainty
+
+::: definition Strategic uncertainty
+Strategic uncertainty refers to the unpredictability of future events and circumstances that can impact an organisation's strategy and goals. It can be driven by changes in the market, technology, competition, regulation and other external factors. (SM 5.11)
+:::
+
+Uncertainties are made manageable by grouping them into logical clusters or themes and assessing the importance of each cluster, to set priorities for information gathering and analysis. Organisations need flexibility, resilience and agility to respond. Ways of dealing with it (SM 5.11):
+
+1. **Flexibility**: build flexibility into strategies to adapt quickly to changes in the environment.
+2. **Diversification**: diversify the product portfolio, markets and customer base to reduce the impact of uncertainty.
+3. **Monitoring and scenario planning**: regularly monitor key indicators of change and plan for how different future scenarios might affect strategies.
+4. **Building resilience**: strengthen operational processes, increase financial flexibility, improve risk management capabilities.
+5. **Collaboration and partnerships**: work with other organisations, suppliers, customers and partners to pool resources, share risk and reach new markets and technologies.
+
+Its **impact** depends on the importance of the affected SBU, indicated by its sales, profits or costs, supplemented for potential growth, which present figures may not reflect: a trend toward natural foods may present opportunities for juices for a firm producing aerated drinks (SM 5.11–5.12).
+
+### Strategy implementation, and the matrix
+
+::: definition Strategy implementation
+Strategy implementation concerns the managerial exercise of putting a freshly chosen strategy into action. It deals with the managerial exercise of supervising the ongoing pursuit of strategy, making it work, improving the competence with which it is executed and showing measurable progress in achieving the targeted results. (SM 5.12)
+:::
+
+It translates a strategic decision into action, presupposing that the choice was made with some thought to **feasibility and acceptability**; it needs resources allocated to the new courses of action, perhaps an adapted structure, trained personnel and appropriate systems. Formulation and implementation need very different skills, and people often blame the strategy model when the flaw lies in failed implementation. Thus ==organisational success is a function of good strategy and proper implementation== (SM 5.12).
+
+::: diagram Formulation (rows) and implementation (columns) matrix
+{"type": "table", "head": ["Formulation", "Weak", "Excellent"], "rows": [["Sound", "A: fix execution", "B: ideal"], ["Flawed", "C: redo both", "D: redo strategy"]], "rowLabels": true, "cells": {"0,1": "c", "0,2": "ok", "1,1": "bad", "1,2": "d"}}
+:::
+
+The squares (SM 5.13), read with the table above (amber A, green B, rose C, blue D):
+
+- **Square A**: a very competitive strategy, but difficulties in implementing it, due to lack of experience (for example, start-ups), lack of resources, missing leadership and so on. The company aims to move from **A to B**, once it realises its implementation difficulties.
+- **Square B**: the ideal: a sound, competitive strategy, successfully implemented.
+- **Square D**: flawed formulation, excellent implementation. The first thing to do is to **redesign the strategy** before readjusting implementation and execution skills.
+- **Square C**: neither a sound strategy nor good implementation; the path to success goes through **business model redesign and implementation readjustment**.
+
+Strategy is a chosen set of actions by which a market position relative to competitors is sought and maintained (**competitive position**). It is not synonymous with a long-term plan: it is the enterprise's attempt to reach a preferred future state by adapting its competitive position as circumstances change, so planned moves are modified as competitors act (SM 5.13–5.14).
+
+### Efficiency and effectiveness
+
+Firms that lack strategic direction tend to look inwards in times of stress, cutting costs and shedding unprofitable divisions: a focus on **efficiency** (the relationship between inputs and outputs, usually with a short time horizon) rather than **effectiveness** (the attainment of organisational goals, including the desired competitive position). Efficiency is essentially introspective; effectiveness highlights the links between the organisation and its environment. Efficiency is the responsibility of **operational managers**; strategic orientation is the primary responsibility of **top management** (SM 5.14).
+
+::: diagram Operational management (rows) and strategic formulation (columns)
+{"type": "table", "head": ["Operations", "Effective", "Ineffective"], "rows": [["Efficient", "1: Thrive", "2: Die slowly"], ["Inefficient", "3: Survive", "4: Die quickly"]], "rowLabels": true, "cells": {"0,1": "ok", "0,2": "c", "1,1": "d", "1,2": "bad"}}
+:::
+
+These are the Study Material's principal combinations of efficiency and effectiveness. Cell 1 thrives: it achieves what it aspires to with an efficient output/input ratio. Cells 2 and 4 are doomed unless they establish some strategic direction. **Cell 2 is a worse place than cell 3**, because cell 3 has the strategic direction that ensures effectiveness even if too much input is used (SM 5.14–5.15). In crude terms, ==to be effective is to do the right thing, while to be efficient is to do the thing right==; to be effective is to survive, whereas efficiency is not in itself either necessary or sufficient for survival (SM 5.15).
+
+Who decides what is effective? An organisation is a **coalition of diverse interest groups**, each participating for some advantage: dividends to shareholders, wages to employees, continued business to suppliers, satisfaction to consumers, legal compliance for government, responsible behaviour for pressure groups (SM 5.15).
+
+Even the most technically perfect plan serves little purpose if not implemented effectively; **change comes through implementation and evaluation, not through the plan**. A technically imperfect plan implemented well achieves more than the perfect plan that never gets off the paper (SM 5.15).
+
+### Formulation versus implementation
+
+Although inextricably linked, the two are fundamentally different (SM 5.15–5.16):
+
+::: compare
+| Strategy formulation | Strategy implementation |
+|---|---|
+| Includes planning and decision-making involved in developing the organisation's strategic goals and plans | Involves all those means related to executing the strategic plans |
+| Placing the forces before the action | Managing forces during the action |
+| An entrepreneurial activity based on strategic decision-making | An administrative task based on strategic and operational decisions |
+| Emphasises effectiveness | Emphasises efficiency |
+| Primarily an intellectual and rational process | Primarily an operational process |
+| Requires co-ordination among few individuals at the top level | Requires co-ordination among many individuals at the middle and lower levels |
+| Requires a great deal of initiative, logical skills, conceptual, intuitive and analytical skills | Requires specific motivational and leadership traits |
+| Precedes strategy implementation | Follows strategy formulation |
+:::
+
+Formulation concepts and tools do not differ greatly for small, large, for-profit or non-profit organisations; implementation **varies substantially** among types and sizes. It requires actions such as altering sales territories, adding new departments, closing facilities, hiring and training employees, changing pricing or advertising strategies, developing financial budgets and employee benefits, establishing cost-control procedures, building facilities, transferring managers among divisions and building a better management information system, which differ greatly among manufacturing, service and governmental organisations (SM 5.16–5.17).
+
+### Forward and backward linkages
+
+The division into phases is only for orderly study; in real life formulation and implementation are intertwined, joined by two types of linkages (SM 5.17):
+
+::: diagram Two linkages between the phases
+{"type": "seq", "w": 400, "lanes": ["Formulation", "Implementation"], "events": [{"lane": "Formulation", "text": "new strategy"}, {"from": "Formulation", "to": "Implementation", "text": "forward: new structure, style"}, {"lane": "Implementation", "text": "present resources"}, {"from": "Implementation", "to": "Formulation", "text": "backward: shapes choice", "style": "dashed"}], "caption": "Forward linkages: the impact of formulation on implementation. Backward linkages: the impact in the opposite direction."}
+:::
+
+- **Forward linkages.** The elements of formulation, from objective setting through environmental and organisational appraisal, strategic alternatives and choice to the strategic plan, determine the course the organisation adopts. New or reformulated strategies require changes within the organisation: the **organisational structure** has to change to suit the strategy, and the **style of leadership** has to be adapted to it.
+- **Backward linkages.** Formulation is also affected by implementation. Past strategic actions determine the choice of strategy: organisations tend to adopt strategies that can be implemented with the **present structure of resources combined with some additional efforts**. Such incremental changes, over time, take the organisation from where it is to where it wishes to be.
+
+### Issues in strategy implementation
+
+Implementation tests the strategist's abilities to **allocate resources, design organisational structure, formulate functional policies and provide strategic leadership** (SM 5.18). The chain from intent to action:
+
+::: diagram From intent to action
+{"type": "nest", "w": 400, "root": {"title": "Strategy", "note": "a statement of intent", "mono": false, "color": "a", "children": [{"title": "Programme", "note": "funds allocated", "mono": false, "color": "b", "lines": ["goals, policies, procedures, rules, steps"], "children": [{"title": "Project", "note": "capital budgeting", "mono": false, "color": "c", "lines": ["time schedule and costs predetermined"]}]}]}, "caption": "A research and development programme may hold several projects, each with a specific, limited objective, its own funds and its own time schedule (SM 5.18)."}
+:::
+
+1. Strategies by themselves do not lead to action; they are a **statement of intent**, activated through implementation.
+2. Strategies lead to **programmes**: a broad term including goals, policies, procedures, rules and steps in putting a plan into action, usually supported by funds.
+3. Programmes lead to **projects**: highly specific programmes with predetermined time schedules and costs, funded through capital budgeting.
+
+Then resources are provided, a proper structure designed, systems installed, functional policies devised and behavioural inputs provided. The issues, in sequential manner (SM 5.18–5.19):
+
+::: diagram The issues, in the Study Material's order
+{"type": "layers", "layerH": 34, "layers": [{"label": "Project implementation"}, {"label": "Procedural implementation"}, {"label": "Resource allocation"}, {"label": "Structural implementation"}, {"label": "Functional implementation"}, {"label": "Behavioural implementation"}], "side": [{"label": "may overlap", "arrow": "down"}], "caption": "The sequence does not mean one after another: many are done simultaneously, some repeated over time, some only once."}
+:::
+
+**The shift in responsibility.** In all but the smallest organisations, implementation moves responsibility from strategists to **divisional and functional managers**; problems arise especially if strategic decisions come as a surprise to middle and lower-level managers, who are motivated more by perceived self-interest than by organisational interest unless the two coincide. So divisional and functional managers should be involved as much as possible in formulation, and strategists as much as possible in implementation (SM 5.19).
+
+**Management issues central to strategy implementation** (SM 5.19): establishing annual objectives, devising policies, allocating resources, altering an existing organisational structure, restructuring and reengineering, revising reward and incentive plans, minimising resistance to change, developing a strategy-supportive culture, adapting production/operations processes, developing an effective human resource system and, if necessary, downsizing. The changes are more extensive when the strategy moves the firm in a new direction.
+
+**Making it work** (SM 5.19–5.20): managers and employees should participate early and directly; strategists' genuine personal commitment is a powerful motivational force (their lack of interest can be detrimental); the rationale for objectives and strategies should be understood throughout; competitors' accomplishments and plans should be apparent to all; **top-down flow of communication is essential for developing bottom-up support**; every employee should benchmark against best-in-class competitors; and training keeps skills world-class.
+
+## Worked examples
+
+:::: example Two launches, two different failures
+Tapri Tea Co. Ltd's strategy committee is reviewing two launches of 2025.
+
+**Tapri Pods**, chai capsules for home coffee machines, was approved even though Tapri's own consumer survey had found that very few Indian households own a capsule machine, and BrewBucks already sells capsules to the few who do. The launch itself went exactly to plan: stock reached 3,000 stores on launch day, the advertising campaign ran on schedule and spending stayed within budget. Twelve months later, sales are a fraction of the target.
+
+**Tapri Frozen**, ready-to-fry samosas sold only to five-star hotels, was approved without any study of hotel kitchens, most of which make their own snacks. The refrigerated trucks it needed were ordered late, no sales team was hired, and the few hotels that did order faced repeated stock-outs.
+
+Kesar's verdict: "Both failed, so the execution team is the problem. Replace it."
+
+Required:
+
+(i) Using the strategy formulation and implementation matrix, place each launch and advise the path each should take.
+
+(ii) Comment on Kesar's verdict.
+
+::: answer Model answer
+**(i) Position of each launch.** The strategy formulation and implementation matrix distinguishes sound or flawed strategy formulation from excellent or weak strategy implementation. Square A is sound formulation with weak implementation; Square B, the ideal, is sound formulation with excellent implementation; Square C is flawed formulation with weak implementation; Square D is flawed formulation with excellent implementation. A company will be successful only when the strategy formulation is sound and implementation is excellent.
+
+- **Tapri Pods: Square D.** The formulation is **flawed**: the strategy was chosen against Tapri's own evidence that the market hardly exists and is already served by a competitor. The implementation is **excellent**: on time, on schedule and within budget. When a company finds itself in square D, the first thing it has to do is to **redesign its strategy** before readjusting its implementation/execution skills. Tapri should rethink the product-market choice; its proven launch capability can then be used for the redesigned strategy.
+- **Tapri Frozen: Square C.** The formulation is **flawed** (no analysis of whether hotels need the product) and the implementation is **weak** (trucks late, no sales team, stock-outs). Its path to success goes through **business model redesign and implementation/execution readjustment**: both must be redone.
+
+**(ii) Kesar's verdict.** Formulation and implementation require very different skills, and organisational success is a function of good strategy and proper implementation, so the cause of each failure must be traced to the right phase. The verdict is not correct for Tapri Pods, where the execution team performed excellently: replacing it would remove a strength and leave the flawed strategy in place. It is only partly correct for Tapri Frozen: execution did fail there, but better execution of a flawed strategy would still not succeed. The committee should first review how both strategies were formulated, and correct implementation where it was weak, that is, in Tapri Frozen.
+:::
+::::
+
+:::: example The vending machines that never break down
+After a weak quarter, Tapri's board reviewed two units.
+
+- **Chai-on-Tap**, the office vending business, has the lowest cost per cup in the industry (₹6.40) and machines that are almost never out of order. Since offices moved to hybrid work, cups sold have fallen in each of the last three years, and the unit has no plan for where else to sell.
+- **Tapri Town Cafés**, opened in tier-2 towns under the 2024 strategy, have customers queuing at the door and same-store sales up 26% this year, as the strategy intended. But wastage and overtime are high: cost per cup is ₹11.80 against a plan of ₹9.00.
+
+The board's proposal: "Close the town cafés, they are wasteful. Keep Chai-on-Tap, it is our most efficient unit."
+
+Required: Using the principal combinations of efficiency and effectiveness, place each unit and examine the board's proposal.
+
+::: answer Model answer
+**Efficiency and effectiveness.** Efficiency is the relationship between inputs and outputs, usually with a short time horizon; effectiveness is concerned with the attainment of organisational goals, including that of desired competitive position. To be effective is to do the right thing, while to be efficient is to do the thing right. The responsibility for efficiency lies with operational managers; top management has the primary responsibility for the strategic orientation of the organisation.
+
+**The principal combinations:**
+
+| | Effective | Ineffective |
+|---|---|---|
+| **Efficient** | 1: Thrive | 2: Die slowly |
+| **Inefficient** | 3: Survive | 4: Die quickly |
+
+**Placing the units.**
+
+- **Chai-on-Tap** is efficient (lowest cost per cup) but ineffective (its market is shrinking and it has no strategic direction): **cell 2, die slowly**.
+- **Tapri Town Cafés** are effective (they are attaining the goal the strategy set, with demand growing) but inefficient (cost per cup is about 31% above plan): **cell 3, survive**.
+
+**The board's proposal.** Organisations that lack strategic direction tend to look inwards in times of stress and devote their attention to cost cutting and to shedding unprofitable divisions: a focus on efficiency rather than effectiveness. The proposal does exactly this. But cell 2 is a worse place to be than cell 3, since cell 3 has the strategic direction that ensures effectiveness even if too much input is being used. To be effective is to survive, whereas to be efficient is not in itself either necessary or sufficient for survival. An emphasis on efficiency rather than effectiveness is clearly wrong.
+
+**Advice.** Keep the town cafés and move them from cell 3 to cell 1 by reducing wastage and overtime, a task for operational managers. Chai-on-Tap is doomed unless top management establishes some strategic direction for it, such as new places to sell. Closing the cafés would cut the unit that is doing the right thing.
+:::
+::::
+
+:::: example Why the app, and what changed after
+In 2024 Tapri chose between a chain of highway motels and expanding its delivery app. It chose the app because its existing cafés, cold chain and technology team could run it with some additional effort. After the decision, Tapri created a separate digital division with its own head, and the CEO moved from close personal supervision to a more participative style suited to young technology teams.
+
+Explain the linkages between strategy formulation and implementation in this case.
+
+::: answer Model answer
+Formulation and implementation are intertwined; two types of linkages exist between these phases.
+
+**Backward linkage (implementation affecting formulation).** Formulation is affected by factors related to implementation: past strategic actions determine the choice of strategy, and organisations adopt strategies that can be implemented with the present structure of resources combined with some additional efforts. Tapri chose the app over motels because its existing cafés, cold chain and technology team could implement it.
+
+**Forward linkage (formulation affecting implementation).** The formulation of a new strategy requires changes within the organisation: the structure has to change in the light of the new strategy, and the style of leadership has to be adapted to it. Tapri created a digital division and its CEO adapted his leadership style.
+
+Such incremental changes, over time, take the organisation from where it is to where it wishes to be.
+:::
+::::
+
+## Under the hood
+
+### Why D redesigns strategy first, and A does not
+
+In square D the execution machine is excellent, so readjusting it would only deliver the wrong strategy faster: redesign the strategy first. In square A the strategy is worth keeping; the work is on resources, experience and leadership. Square C needs both the business model and its execution redone (SM 5.13). The same logic sits under cell 2 of the efficiency grid: a well-run organisation pointed the wrong way.
+
+### "Strategy" is not "long-term plan"
+
+ICAI says this outright (SM 5.14): a series of strategic moves may be planned, but competitors' actions mean the moves must be modified. A question that equates strategy with a fixed five-year plan is inviting you to disagree.
+
+### Where the next lessons pick up
+
+The issues in implementation are the rest of this chapter: structure and culture in [[sm.impl.structure|organisation structure and culture]], leadership in [[sm.impl.leadership|strategic leadership]], and Stage 5 in [[sm.impl.control|strategic control and performance measures]]. Managing the change itself is [[sm.impl.digital|strategic change and digital transformation]].
+
+## Exam angle
+
+::: exam Where this lesson appeared, May 2024 to September 2026
+Of the 32 new-scheme ICAI documents searched (eight past papers, eight RTPs, sixteen MTPs), 13 ask about this lesson:
+
+- **Formulation versus implementation, 5 marks**: September 2025 Q8(b) ("Many managers fail to distinguish…"); MTP May 2025 Series II Q4(a).
+- **Efficiency and effectiveness**: RTP September 2025 Q15 and MTP May 2026 Series II Q4(b) (OR), the same Merako Appliances case: how to balance them, and the four situations; ICAI's answer draws the 2 × 2 grid.
+- **Principal aspects of the strategy-execution process**: RTP September 2025 Q16; MTP September 2024 Series II Q4(a) (5 marks).
+- **Forward and backward linkages, with examples**: MTP May 2024 Series II Q3(b) (5 marks).
+- **Strategic uncertainty and how to manage it**: May 2026 Q8(a) (5 marks); RTP January 2026 Q16.
+- **Strategic planning versus operational planning**: RTP May 2025 Q16; RTP September 2026 Q16; MTP January 2025 Series I Q4(b) (OR); MTP September 2025 Series I Q3(b) (5 marks).
+- **MCQ, 2 marks**: January 2026 MCQ 15 (a realty firm allocates budgets, assigns projects, sets up monitoring and builds culture: **strategy implementation**).
+:::
+
+::: exam How the marks are earned
+"Distinguish" answers in the Suggested Answers reproduce the Study Material's two-column table, row for row. Case answers name the concept first (the cell, the square, the linkage), quote its definition, apply it to the facts, and end with the advice. For strategic versus operational planning, ICAI's RTP answers add one row the Study Material's figure lacks: operational planning "is concerned with the short-term success of the organisation".
+:::
+
+::: trick A-B on top, C-D below; "sound" before "flawed", "weak" before "excellent"
+Draw the grid as ICAI does: formulation on the side (sound above, flawed below), implementation along the bottom (weak, then excellent). Then A = sound/weak, B = sound/excellent, C = flawed/weak, D = flawed/excellent, read like a page. For the second grid: effective survives, efficient alone dies slowly.
+:::
+
+## Answer frame
+
+### A case on the matrix or the efficiency grid (5 marks)
+
+1. Name the tool and the concept: "the strategy formulation and implementation matrix" or "the principal combinations of efficiency and effectiveness".
+2. Define the two dimensions in ICAI's words (sound or flawed formulation, weak or excellent implementation; efficiency as input-output, effectiveness as attainment of goals).
+3. Describe all four squares or cells, one line each.
+4. Place the company, with the facts that put it there.
+5. Advise the path: A to B; D redesigns strategy first; C redesigns both; cell 2 needs strategic direction.
+
+### Three answers to "Distinguish between strategy formulation and implementation"
+
+::: cols
+**Loses marks**
+
+"Formulation is planning, implementation is doing."
+
+True, but one point for a five-mark question.
+---
+**Passes**
+
+Four rows of the table: meaning, entrepreneurial versus administrative, effectiveness versus efficiency, precedes versus follows.
+
+About half the points.
+---
+**Full marks**
+
+All eight rows of ICAI's table in its order, as a two-column table, each row a contrast.
+
+Every point the Suggested Answer gives.
+:::
+
+## Common mistakes
+
+::: mistake Hall of Shame: Bunty's square D
+Asked about a company that executes a poor strategy brilliantly, Bunty writes "Square A, improve implementation". **Fix:** square A is sound strategy, weak implementation. Brilliant execution of a flawed strategy is **square D**, and the first step there is to redesign the strategy.
+:::
+
+::: mistake "Efficient is safer than effective"
+Ranking cell 2 (efficient, ineffective) above cell 3 (inefficient, effective). **Fix:** the Study Material says the opposite: cell 2 is a worse place than cell 3, because effectiveness (the right strategic direction) is what ensures survival.
+:::
+
+::: mistake The linkages written backwards
+"Forward linkage: implementation affects formulation." **Fix:** forward is formulation's impact on implementation (new strategy, so new structure and leadership style); backward is implementation's impact on formulation (strategies chosen that the present structure of resources can implement).
+:::
+
+::: mistake Tactics on the wrong side
+Writing "strategic planning develops tactics". **Fix:** operational planning develops tactics rather than strategy; strategic planning develops overall objectives and strategies.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. Pashmeena Foods Pvt Ltd, a two-year-old start-up, found that no brand sells ready-to-cook Kashmiri meals; investors praised its research and pricing, and two large retail chains want to stock it. But its founders have never run a factory: deliveries are late and quality varies from batch to batch. Using the strategy formulation and implementation matrix, which of the following is correct?
+- [ ] Square D: redesign the strategy before readjusting implementation
+- [ ] Square B: the ideal situation; no change is needed
+- [ ] Square C: redesign both the business model and implementation
+- [x] Square A: correct the implementation difficulties and move to square B
+> A sound, competitive strategy (an unserved market, demand from retailers) with weak implementation is square A; the Study Material names lack of experience, as in start-ups, as one cause. The company aims to move from A to B. Square D is the reverse: flawed strategy, excellent implementation.
+
+Q: According to the Study Material, which of these positions is worse for an organisation?
+- [x] Efficient but ineffective
+- [ ] Inefficient but effective
+- [ ] Efficient and effective
+- [ ] The two middle cells are equally placed
+> Cell 2 (efficient, ineffective: die slowly) is worse than cell 3 (inefficient, effective: survive), because cell 3 has the strategic direction that ensures effectiveness.
+
+Q: Which of the following are principal aspects of the strategy-execution process? Select all that apply.
+- [x] Developing budgets that steer ample resources into activities critical to strategic success
+- [x] Installing information and operating systems that help personnel carry out their strategic roles
+- [ ] Generating, analysing and selecting strategic alternatives
+- [x] Creating a company culture and work climate conducive to successful implementation
+> Generating and selecting alternatives is formulation (Stage 3). The other three are among the eight principal aspects of execution.
+
+Q: Tapri's board picks a strategy of opening cafés inside its existing petrol-pump partners' outlets, because the present structure of resources can carry it out with some additional efforts. This illustrates:
+- [ ] A forward linkage
+- [x] A backward linkage
+- [ ] Strategic surveillance
+- [ ] Operational planning
+> Implementation affecting the choice of strategy is a backward linkage. A forward linkage runs from a new strategy to changes in structure and leadership style.
+
+Q: Which of the following is a characteristic of operational planning?
+- [ ] Assesses the impact of environmental variables
+- [ ] Takes a holistic view of the organisation
+- [x] Projects current operations into the future
+- [ ] Is a senior management responsibility
+> The other three describe strategic planning. Operational planning deals with current deployment of resources, develops tactics, projects current operations into the future and is the responsibility of functional managers.
+:::
+
+## Recap
+
+- Strategic management has five stages, from vision, mission and objectives through analysis, formulation and implementation to evaluation and control, and the process never really ends; it is dynamic and continuous.
+- Implementation is operations-oriented, the most demanding and time-consuming stage; eight principal aspects from budgets to internal leadership, building "fits" with capabilities, rewards, systems and culture.
+- Matrix: A sound/weak (move to B), B sound/excellent (ideal), C flawed/weak (redesign both), D flawed/excellent (redesign strategy first).
+- Efficiency grid: 1 thrive, 2 die slowly, 3 survive, 4 die quickly; cell 2 is worse than cell 3. Effective = right thing; efficient = thing right.
+- Formulation: entrepreneurial, intellectual, effectiveness, few people at the top, precedes. Implementation: administrative, operational, efficiency, many people at middle and lower levels, follows.
+- Forward linkage: formulation changes structure and leadership style. Backward linkage: the present structure of resources shapes the choice.
+- Issues, in order: project, procedural, resource allocation, structural, functional, behavioural (they can overlap). Strategy, then programmes, then projects.
+- Strategic uncertainty: flexibility, diversification, monitoring and scenario planning, resilience, collaboration. (Kulhad Express needed a cook, not a new recipe.)
+
+## Flashcards
+
+Q:: What are the five stages of strategic management?
+A:: (1) Developing a strategic vision and formulating the mission, goals and objectives; (2) environmental and organisational analysis; (3) formulation of strategy; (4) implementation of strategy; (5) strategic evaluation and control.
+
+Q:: Strategy formulation and implementation matrix: what are squares A, B, C and D?
+A:: A: sound formulation, weak implementation (move to B). B: sound and excellent (ideal). C: flawed and weak (redesign business model and implementation). D: flawed formulation, excellent implementation (redesign strategy first).
+
+Q:: Efficiency and effectiveness: the four cells?
+A:: 1 Efficient and effective: thrive. 2 Efficient, ineffective: die slowly. 3 Inefficient, effective: survive. 4 Inefficient, ineffective: die quickly.
+
+Q:: Why is cell 2 (efficient but ineffective) worse than cell 3?
+A:: Because cell 3 has the strategic direction that ensures effectiveness, even if too much input is used; to be effective is to survive, while efficiency is neither necessary nor sufficient for survival.
+
+Q:: Effectiveness versus efficiency in one line each?
+A:: To be effective is to do the right thing; to be efficient is to do the thing right.
+
+Q:: Forward and backward linkages?
+A:: Forward: the impact of formulation on implementation (structure and leadership style change for the new strategy). Backward: the impact of implementation on formulation (firms adopt strategies the present structure of resources can implement with some additional efforts).
+
+Q:: The issues in strategy implementation, in sequence?
+A:: Project implementation, procedural implementation, resource allocation, structural implementation, functional implementation, behavioural implementation (not necessarily one after another).
+
+Q:: Formulation versus implementation: which is entrepreneurial and which administrative?
+A:: Formulation is an entrepreneurial activity based on strategic decision-making; implementation is an administrative task based on strategic and operational decisions.
+
+Q:: Name four principal aspects of the strategy-execution process.
+A:: Any four of: budgets steering resources to critical activities; staffing with needed skills; supportive policies and procedures; best practices and continuous improvement; information and operating systems; motivating people; a supportive culture and work climate; internal leadership driving implementation.
+
+Q:: How can an organisation deal with strategic uncertainty?
+A:: Flexibility; diversification; monitoring and scenario planning; building resilience; collaboration and partnerships.
+
+Q:: Strategic planning versus operational planning: who is responsible for each?
+A:: Strategic planning is a senior management responsibility; operational planning is the responsibility of functional managers.
+
+Q:: Programme versus project?
+A:: A programme is a broad term including goals, policies, procedures, rules and steps for putting a plan into action, supported by funds; a project is a highly specific programme with predetermined time schedule and costs, funded through capital budgeting.

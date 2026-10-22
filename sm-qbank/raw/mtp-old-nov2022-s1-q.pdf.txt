@@ -1,0 +1,330 @@
+                                                           Test Series: September, 2022
+                                 MOCK  TEST PAPER-I
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                   PART I: MULTIPLE CHOICE QUESTIONS           Total Marks: 15 Marks
+Question No(s). 1 to 5 carries 2 marks each.
+HappyTour is a Delhi based Tour and Travel agency that provides various travel facilities like making tour
+plans, charter flights, holiday packages, homestays and villas, Airline/Cruise ticketing, Hotel booking,
+Rental Cars/bikes etc. in India. At the time of the launch, they had manual booking system but over the
+period, they adopted the online booking system so that better services can be provided to its custom ers.
+The agency enjoys the huge increase in its clientele using its online portal that provides following services
+to its customers:
+•   Travel Management: This area of services includes the management and reservation of transport
+    tickets, searches for accommodations, car rentals, etc.
+•   Passenger assistance: Assisting passengers in case of exigencies like deportation due to illness,
+    accident or emergency, lost luggage, or documents, etc.
+•   Consulting: This includes consulting services like information of interest for the traveller, cost
+    optimisation and control, advice on travel policies, etc.
+•   Leisure Services: Through this, the company offers direct discounts or improved conditions on travel
+    and leisure activities to the employees and their families.
+Furthermore, the online system has smoothened its business processes and has helped the agency in
+improvising its services and receive prompt feedbacks from its customer. It has also prompted the digital
+payment methods that are often easy to make and provide its customers the flexibility to make payments
+from anywhere, anytime. Customers can pay using credit card, debit card or UPI methods. All these details
+are maintained by accounts department of the agency headed by Mr. Anil.
+Attempt the Q. No(s) 1 to 5 based on the above case scenario.
+1.  During the internal audit of ABC Bank, the payments made by the customers to the HappyTour Travel
+    agency brought special notice. It was noticed that such transactions that contained small fractions of
+    denomination, were getting replaced with the next lower whole number to the payment amount and the
+    difference amount was getting transferred into an authorized account of ABC Bank and was getting
+    unnoticed as the amount used to be very small. Which data related risk does this refer to?
+    (a) Salami Technique
+    (b) Rounding down
+    (c) Data Diddling
+    (d) Rounding up
+
+2.  Mr. Anil maintains the vouchers that are related to the money received in agency’s bank account
+    through any mode either cash or bank like receiving interest from bank. Which voucher is being
+    referred here?
+    (a) Receipt
+    (b) Payment
+    (c) Contra
+    (d) Journal
+3.  The HappyTour Travel agency hired the services of the company XYZ which provided the details like
+    credit scoring, and approval, customer segmentation, forecasting operations etc. by using the process
+    of data mining on the data collated through various travel agencies. But there shall be certain
+    criterions that the data warehouse of the agency shall follow so that the data mining can be well
+    implemented on it. Choose the odd criterion:
+    (a) Non-Operational Data
+    (b) Time-variant
+    (c) Standardized
+    (d) Operational Data
+4.  HappyTour Travel agency uses its online portal to provide various services to its customers.
+    Customers can book hotel or avail the facility of homestay and villas through the agency’s portal.
+    Which business model of e-commerce is being used by the agency in this case?
+    (a) Business – to – Consumer (B2C)
+    (b) Business – to – Business (B2C)
+    (c) Consumer – to – Business (C2B)
+    (d) Consumer – to – Government (C2G)
+5.  The online transactions between HappyTour travel agency and its customers involve the payment
+    gateways or third-party service providers, thereby possibility of many risks being pervasive in the
+    banking sector, is quite high. These risks could occur at any level like Operational, Strategic, Tactical
+    etc. Below mentioned are some Operational risks that could occur in the banking environment:
+    (i) Occurrence of errors during data entry.
+    (ii) Dispute in the contracts with the customers.
+    (iii) Threats and vulnerabilities associated with the use of Information Systems.
+    (iv) Unauthorized access to the dealing rooms and nexus between front and back -end offices.
+    Various terms to categorize these Operational Risks are given below:
+    (I) Legal Risk
+    (II) Transaction Processing Risk
+    (III) People Risk
+    (IV) Information Security Risk
+    Match the correct activity with the type of Operational risks involved under that risk:
+    (a) (i) – (I), (ii) – (II), (iii) – (III,) (iv) – (IV)
+    (b) (i) – (II), (ii) – (I), (iii) – (IV) (iv) – (III)
+
+    (c) (i) – (IV), (ii) – (III), (iii) – (II) (iv) – (I)
+    (d) (i) – (III), (ii) – (I), (iii) – (IV) (iv) – (II)
+Question No(s). 6 to 10 carries 1 Mark each.
+6.  The management of an organization anticipates that impact and probabili ty of some risks is very high
+    and therefore recommended to modify the project strategy to avoid those specific risks. Identify the
+    risk management strategy being followed by the organization in this case.
+    (a) Eliminate the risk
+    (b) Accept the risk
+    (c) Share the risk
+    (d) Mitigate the risk
+7.  Which of the following statement is incorrect about the process of Data Analytics?
+    (a) This process involves analysis of numerical or non-numerical data to draw conclusions about the
+        information they contain.
+    (b) The process involves collecting, integrating, and preparing data followed by developing, testing,
+        and revising analytical models to produce accurate results.
+    (c) The data used in the process can either be derived from internal systems or extern al data
+        sources and cannot be the blend of two.
+    (d) Big data analysis applies data mining, predictive analysis, and machine learning tools to big data
+        sets to produce the relevant results.
+8.  The key areas that an auditor should emphasize while auditing an Application Control Framework of
+    an organization are mentioned below.
+    (i) Auditors should determine whether the report collection, distribution and printing controls are well
+        executed in an organization or not.
+    (ii) Auditors should assess the performance of the validation controls to check for any data
+        processing errors.
+    (iii) Auditors need to determine how well the safeguard assets are used and preserve data integrity.
+    (iv) Auditors need to comprehend various approaches used to enter data into an appli cation system
+        and their relative strengths and weaknesses.
+    (v) Auditors must assess the topological controls to review the logical arrangement of various nodes
+        and their connectivity using various internetworking devices in a network.
+    The auditing of Application Control Framework can be categorised as under:
+    I.  Auditing Input Controls
+    II. Auditing Communication Controls
+    III. Auditing Boundary Controls
+    IV. Auditing Output Controls
+    V.  Auditing Processing Controls
+    Match the key area with its corresponding category of auditing of Application Control:
+    (a) (i) – I, (ii) – II, (iii) – III, (iv) – IV, (v) – V
+
+    (b) (i) – IV, (ii) – V, (iii) – III, (iv) – I, (v) – II
+    (c) (i) – V, (ii) – III, (iii) – I, (iv) – IV, (v) – II
+    (d) (i) – I, (ii) – V, (iii) – III, (iv) – II, (v) – IV
+9.  Which of the following statement is not correct about Mobile Wallet?
+    (a) A user can add money in his mobile wallet to purchase goods and services.
+    (b) A user can add money in the mobile wallet by using his Debit/Credit Card and entering t he CVV
+        or 4-digit pin.
+    (c) The mobile wallet can be used to make payments at physical shops, recharge phone and online
+        purchases.
+    (d) Some of the common examples of Mobile wallet are Paytm, Freecharge, Buddy, MobiKwik etc.
+10. Various controls that are mentioned below are associated with security of information in Banking
+    environment at different levels.
+    (i) Details of lost security forms are immediately advised to controlling authorities so that they can
+        exercise caution.
+    (ii) The access to the system is available only between stipulated hours and specific days only.
+    (iii) Maintenance of log-in and log-out records.
+    (iv) A system of job rotation among staff exists.
+    Following controls which are implemented at different levels in Banking environment are as under:
+    (I) Internal Controls
+    (II) Information Technology Controls
+    Match the risks with their corresponding controls.
+    (a) (i) – (I), (ii) – (II), (iii) – (II), (iv) – (I)
+    (b) (i) – (II), (ii) – (II), (iii) – (I), (iv) – (I)
+    (c) (i) – (II), (ii) – (I), (iii) – (I), (iv) – (II)
+    (d) (i) - (I), (ii) – (II), (iii) – (I), (iv) – (II)
+                            Part II: DESCRIPTIVE QUESTIONS
+Question No. 1 is compulsory. Attempt any three out of remaining four questions.
+1.  (a) In today’s world, the Core Banking System (CBS) that comprises of central server, back-end
+        applications and front-end applications have built a competitive environment in banking industry.
+        Briefly explain any three back-end applications involved in key module of CBS. (3 Marks)
+    (b) Write a short note on System Control Audit Review File (SCARF) audit tool. (2 Marks)
+2.  (a) ABC Ltd. is intending to implement ERP in its working environment to improve, streamline and
+        make the business processes more efficient and effective. The management of ABC Ltd. knows
+        the fact that ERP implementation involves risks related to various aspect s including people,
+        process, technological and implementation issues. Discuss any three People related risks and
+        their corresponding controls that management has to take care.     (6 Marks)
+    (b) Mr. Amit, an Executive Officer has been assigned a task to prepare a document for the Annual
+        Board meeting for which he is required to take inputs from Head HR, Head Marketing and Head
+        Production department. He prepares a Google document and shares the same with Head of
+
+        these three departments so that they can provide their suggestions in the Google document
+        online. Identify the service model of Cloud Computing that has been used at back-end at the time
+        Mr. Amit shared the Google document and further brief about the instances of that model.
+                                                                     (1 + 3 = 4 Marks)
+3.  (a) ABC  Ltd. is a Mumbai based financial service provider company with huge clientele. The
+        company owns a software to maintain data of its customers with Database controls in place to
+        ensure the integrity and privacy of its data. Describe all the Database controls that may have
+        been implemented under their Application Control framework of information system. (6 Marks)
+    (b) Being a global standard of exchanging information, eXtensible Business Reporting Language
+        (XBRL) is used to enhance the quality and consistency of their reports to exchange financial
+        information for many purposes. Briefly explain about the stakeholders of XBRL. (4 Marks)
+4.  (a) Grid Computing is a special kind of distributed computing model used to solve complex problems
+        among different interconnected domains with each domain administrated independently and free
+        to deploy technologies. Briefly explain the constraints that should be considered to develop the
+        security architecture of Grid Computing.                           (6 Marks)
+    (b) Business Process Automation (BPA) comprises of integrating applications and using software
+        application throughout the organization that ensures that errors are eliminated, and system runs
+        smoothly and efficiently. List the steps involved in implementation of BPA. (4 Marks)
+5.  (a) In any Information System; various controls are implemented to prevent, detect, and facilitate the
+        correction of several risks at various levels in the computer system. Describe various levels at
+        which implementation of these controls are required to be examined in computer system.
+                                                                           (6 Marks)
+    (b) Most of the banks offer Credit card as one of the key product services to their customers. The
+        processing flow of credit cards may have various risks and controls that may differ from bank to
+        bank. Elaborate various risks and their relevant controls involved in credit card processing of
+        bank.                                                              (4 Marks)
+                                        OR
+        Write a short note on the following:
+        (i) Cyber Crime
+        (ii) Reserve Bank of India (RBI)                             (2 x 2 = 4 Marks)
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                             Question 1 and 2 are compulsory.
+                  Attempt any three questions out of remaining four questions.
+1.  (A) Chantele, a management consultant from Rome (Italy) was on an official tour of Rajasthan, when
+        she realised the tourism boom that the state experiences from around the globe. More surprising
+        for her was the price offering of major cafes and lounges which were about 1/6th of what was
+        charged in her city Rome. Being a business enthusiast, she decided to explore the business
+        potential in Udaipur for a year.
+        She had five major areas to learn about and plan;
+        •   Existing Competition
+        •   Location and Rental of her Lounge
+        •   Trainable Team of Individuals (english speaking)
+        •   Raw Material Sourcing and Pricing
+        •   Promotion
+        Existing competition was high as people were already serving foreign tourists and even tourists
+        liked the desi touch and feel. However, Chantele saw the segment of customers who were willing
+        to find travel partners for their further trips. They would enjoy a cup of coffee, or a jug of cooler to
+        chit chat and build a network on their vacation. For location, she got lucky with an old property just
+        on the lake side but had to spend a little over budget to renovate even though she took multiple
+        quotations from designers. The rentals in Udaipur have always been high, but she was confident
+        of the cash flow from the business so decided to take the risk.
+        Rajasthani youth is well trained in english, french and german, and that came as a blessing for her.
+        She was able to employ three girls (customer facing) and two boys (for logistics). Raw Material
+        was a bit tricky to handle though. Good quality coffee beans and fruits were available only from
+        Delhi and Jaipur, which had its own cost of transportation. Milk being a main component for most
+        of the things on the menu needed to be of prime quality. For fruits, she found an alternative in
+        sourcing from nearby villages through local agents, while the milk and coffee had to come from
+        Delhi.
+        Promotion had been her area of expertise, and this came in handy as she executed a fool proof
+        digital promotion strategy for her lounge. She named it Aroma Lounge, as “A” would give top results
+        in alphabetic order of search by customers online. Within three months itself she managed to get
+        great reviews on major travel websites and thus, loads of customers.
+        The business was good, cashflows were strong, brand equity gained momentum and Chantele now
+        already plans to open two more branches in the state.
+        Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:
+        1.  Even though Chantele knew she was giving higher rent for the location of her lounge, which
+            of the following strategies helped her take that risk?
+            (a) Marketing Strategy
+            (b) Financial Strategy
+            (c) Negotiation Strategy
+
+            (d) Supply Chain Strategy                                       (1 Mark)
+        2.  Suppose Chantele decides to expand her business through franchises across different states
+            that attract major foreign tourists. For this she combines different retailers to source from and
+            makes her main employees as trainers to train more local youth. Which element of strategic
+            intent would this strategy need to focus on and what strategy would best suit her, given the
+            fact that she strongly believes in incremental growth over exponential growth?
+            (a) It would need focus on Goals & Objectives and the strategy that would best suit her
+                would be Growth Strategy.
+            (b) It would need focus on Mission and the strategy that would best suit her would be
+                Combination Strategy.
+            (c) It would need focus on Business Model and the strategy that would best suit her would
+                be Stability Strategy.
+            (d) It would need focus on Vision and the strategy that would best suit her would be Growth
+                Strategy.                                                  (2 Marks)
+        3.  For Chantele, pricing was an issue as she wanted to deliver international standards of quality
+            at traveler friendly prices. Cost plus pricing was one of the options she considered but quickly
+            realised its shortcomings. Which of the following could be a major reason for not selecting
+            cost plus pricing?
+            (a) Outsourcing of Products from Delhi was already costly
+            (b) Labour cost was low, but training cost was high so allocation of co st was difficult
+            (c) The cost of fruits fluctuates a lot, and hence cost plus also fluctuated variably
+            (d) The segment is highly competitive and her margin on cost was irrelevant as customers
+                already knew comparable prices                             (2 Marks)
+        4.  Suppose a big hotel chain which has no cafe business as yet, acquires Aroma Lounge and
+            its franchises. Can it group these cafes as an SBU? Which factors would be considered for
+            the same?
+            (i) No, they cannot be called as an SBU, as the cafe is not a separate business but same
+                line of business as hotels
+            (ii) Yes, as it has its own set of distinct competitors and strategy
+            (iii) Yes, as it can be subdivided from the core business in terms of functionalities and
+                objectives
+            (iv) No, as an SBU shall have a CEO and its set of business functions and Aroma Cafes
+                aren’t that big to be categorised as an SBU
+            (a) Only (i) is correct
+            (b) Both (i) and (iv) are correct
+            (c) Only (ii) is correct
+            (d) Both (ii) and (iii) are correct                            (2 Marks)
+        5.  For her vendors, Chantele had a clear thought and she iterated to them as well. The ideology
+            was to foster a long term relationship so as to introduce high quality innovative products that
+            would benefit the customers and other stakeholders?
+            (a) Mission
+            (b) Vision
+
+            (c) Business Definition
+            (d) Strategic Intent                                            (1 Mark)
+    (B) Swabhaav, a social media marketing firm introduced an AI based management tool that has the
+        capabilities of managing teams across functions all while being creative. What is the most likely
+        organisational structure post this implementation?
+        (a) Divisional
+        (b) Matrix
+        (c) Hourglass
+        (d) Network                                                        (2 Marks)
+    (C) Big Billion Days sale by Flipkart is an example of which type of strategic marketing technique?
+        (a) Synchro Marketing
+        (b) Concentrated Marketing
+        (c) Demarketing
+        (d) Enlightened Marketing                                           (1 Mark)
+    (D) The business news anchor said that “chillflix’s dead business is worth more than alive”. What did
+        she hint at?
+        (a) Restructuring Business
+        (b) Liquidation
+        (c) Business Process Re-engineering
+        (d) Divestment                                                      (1 Mark)
+    (E) Shreya, the owner of Kalakaari boutiques, delegated tasks as per competencies of her team. What
+        is she covering here?
+        (a) Risk
+        (b) Work Culture
+        (c) Employee friendly vision
+        (d) Proper use of mission statement                                 (1 Mark)
+    (F) Dogs in BCG Matrix can be minimized through?
+        (a) Converting to Cash Cows
+        (b) Liquidating or Divesting
+        (c) Foreign Direct Investment Opportunity
+        (d) Bad Debt Writing off                                            (1 Mark)
+    (G) Kanchan is the finance head for marketing strategies of a company. Which level of management
+        is she working at?
+        (a) Corporate Level
+        (b) Functional Level
+        (c) Shopfloor Level
+        (d) Consultant Level                                                (1 Mark)
+
+2.  Jynklo Ltd. is an established online children gaming company in Japan. They are performing good in the
+    gaming industry. The management of Jynklo Ltd. has decided to expand its business. They decided to
+    start a premium sports drink named JynX for athletes. Identify and explain the growth strategy adopted
+    by Jynklo Ltd.?                                                        (5 Marks)
+3.  (a) What do you understand by ‘Competitive Landscape’? What are steps to understand the
+        competitive landscape?                                             (5 Marks)
+    (b) ABC Ltd. is a shoe manufacturing company. The strategic manager of ABC ltd. is Ms. Suman. Ms.
+        Suman hired the best designers she could find online for her ethnic shoe brand but later she found
+        that the designers were better at leather designs. Identify and explain linkage in the given situation
+        as she had to change her strategy basis the actual resources she had? (5 Marks)
+4.  (a) Describe the principal aspects of strategy-execution process, which are included in most situations.
+                                                                           (5 Marks)
+    (b) What do you mean by differentiation strategy? How is it achieved?  (5 Marks)
+5.  (a) Define Strategic Management. Also discuss the limitations of Strategic Management. (5 Marks)
+    (b) Define the term 'Marketing'. Distinguish between social marketing and service marketing.
+                                                                           (5 Marks)
+6.  (a) Distinguish between Transformational Leadership Style and Transactional Leadership Style.
+                                                                           (5 Marks)
+    (b) Why is strategy evaluation more difficult? Give reasons.           (5 Marks)

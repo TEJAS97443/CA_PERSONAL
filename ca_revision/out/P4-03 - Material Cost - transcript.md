@@ -1,0 +1,86 @@
+# PassBook, Out Loud · P4-03 · Material Cost: खरीद से issue तक
+
+## Introduction: cost sheet की पहली line, खोलकर
+
+नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+पिछले episode में cost sheet की पहली line direct materials consumed थी, और आज ऋतु उसी line को खोलती हैं, यानी material खरीदने, रखने, issue करने और खोने का पूरा हिसाब।
+आज Paper four का chapter three है, Material Cost, जिसे ICAI ने तिरसठ documents में पूछा है, जिनमें सत्रह exam papers हैं, और अकेला EOQ सैंतीस documents में आया है।
+Episode के आख़िर तक आप receipt की valuation, EOQ और stock levels के formulas, ABC और Just in Time, और normal और abnormal loss की treatment ICAI के शब्दों में लिख पाएँगे।
+
+## Procurement, receipts and pricing of issues: कागज़, कीमत और price tag
+
+Tapri की samosa factory आलू ख़त्म होने से रुक गई, जबकि store में चालीस kilo इलायची पड़ी थी, जो केसर ने एक शादी से फ़ोन पर order कर दी थी।
+इसीलिए material control में हर कदम सही department के document पर चलता है: bill of materials, material requisition, purchase requisition, purchase order, और goods received note।
+Bill of materials engineering या planning department बनाता है और पूरे job की materials की schedule देता है, जबकि material requisition note production या consuming department बनाता है।
+Store keeper material requisition नहीं, बल्कि regular items की purchase requisition बनाता है, और ICAI ने इसी बात को true or false में पूछा है।
+Bin card store keeper store में रखता है और उसमें सिर्फ़ quantity होती है, जबकि stores ledger cost accounting department में quantity और value दोनों में रखा जाता है।
+GeM government buyers का e-market है, जिसमें e-bidding, reverse e-auction और demand aggregation हैं, और government users के लिए इससे purchase mandatory है।
+Receipt की valuation में material cost है purchase price, trade discount, subsidy और recoverable taxes घटाकर, plus उसे present location and condition तक लाने की हर cost।
+इसलिए freight inwards, transit insurance, customs duty, commission और non-returnable containers जुड़ते हैं, और returnable container का सिर्फ़ उतना हिस्सा जुड़ता है जितना refund नहीं हुआ।
+Cash discount finance item है और ignore होता है, चाहे मिला भी हो, और demurrage, detention charges और penalties abnormal costs हैं, जो material cost में नहीं आतीं।
+GST का credit available हो या question चुप हो तो वो cost से बाहर रहता है, पर credit न ले सकने वाले unregistered buyer के लिए cost में जुड़ता है।
+Rate बराबर total cost of material divided by good units, जहाँ good units purchased minus normal shortage हैं, और abnormal shortage इसी rate पर Costing Profit and Loss Account में जाती है।
+Issue की pricing में FIFO पुराने prices issues पर लगाता है, LIFO latest prices, और weighted average total cost in stock divided by total units in stock लेता है।
+Weighted average हर receipt के बाद फिर से निकलता है, और rising prices में FIFO issues की cost सबसे कम और closing stock सबसे ज़्यादा दिखाता है, जबकि LIFO उल्टा करता है।
+LIFO AS two और Ind AS two में permitted नहीं है, stores में returns original issue price पर लौटते हैं, और jobs के बीच transfer की stores ledger में entry नहीं होती।
+
+## Economic Order Quantity and stock levels: कितना खरीदें, और कब
+
+अब सवाल है कि एक बार में कितना खरीदें, और Tapri की Indore blending unit साल में छत्तीस हज़ार kilo Assam चाय इस्तेमाल करती है।
+केसर पहले साल भर की चाय एक बार में खरीदना चाहते थे, फिर हर तीन दिन में order देना, और ऋतु ने दोनों का खर्च गिनकर बीच का रास्ता निकाला।
+Ordering cost हर order पर लगती है और बड़े orders से घटती है, जबकि carrying cost store में पड़े औसतन आधे order पर लगती है और बड़े orders से बढ़ती है।
+ICAI के words में EOQ is the size of an order for which total of ordering and carrying cost are minimum, और basic model में वहाँ दोनों बराबर होती हैं।
+EOQ का formula है square root of two A O by C, जहाँ A annual requirement है, O cost per order है, और C carrying cost per unit per annum है।
+Ordering cost में quotations, purchase orders, procurement staff, transportation और inspection आते हैं, और carrying cost में cost of funds, storage, insurance और obsolescence।
+C में एक बड़ी गलती होती है, इसलिए पहले सारे annual rates जोड़िए, फिर price से गुणा कीजिए, और फिर कोई fixed rupees per unit हो तो जोड़िए।
+Carrying cost per month या per quarter दी हो तो उसे पहले annual बनाइए, क्योंकि formula में A और C दोनों per annum होने चाहिए।
+EOQ की चार assumptions ICAI के order में हैं: ordering और carrying costs known और fixed, usage known, price constant, और lead time zero।
+Orders की संख्या A by Q होती है, और वो whole number न हो तो ICAI के answers round up करते हैं, इसलिए round up कीजिए और एक line में लिख दीजिए।
+Quantity discount तभी लीजिए जब discount lot पर total cost, purchase price समेत, EOQ वाली total cost से कम हो।
+ICAI इस statement को Evaluation of Profitability of Different Options of Order Quantity कहता है, और हर option में purchase cost, ordering cost और carrying cost लिखता है।
+Carrying cost price का percentage हो, तो discount वाले option में उसे discounted price पर फिर से निकालिए, और answer advise वाली line से ख़त्म कीजिए।
+EOQ बताता है कितना, और stock levels बताते हैं कब, जो Indore café ने तब सीखा जब उसका chai premix एक बरसाती रविवार को ख़त्म हो गया।
+Re-order level बराबर maximum usage into maximum lead time, और इसी level पर store keeper purchase requisition शुरू करता है।
+Minimum level बराबर re-order level minus average usage into average lead time, और maximum level बराबर re-order level plus re-order quantity minus minimum usage into minimum lead time।
+Average level बराबर minimum plus half of re-order quantity, या maximum plus minimum by two, और danger level बराबर average usage into emergency lead time।
+Re-order quantity न हो तो पहले EOQ निकालिए, minimum consumption न दी हो तो two into average minus maximum लीजिए, और perishable material का maximum level shelf life से cap होता है।
+
+## Selective control, ratios and material losses: कहाँ ध्यान दें, और जो खो गया
+
+Store keeper रमेश रोज़ पचास हज़ार stirrers गिनता था, पर भीगी इलायची की बोरियाँ door पर पड़ी रहीं, और ऋतु ने कहा, per rupee, please, per piece नहीं।
+ICAI के words में ABC analysis exercises discriminating control over different items of inventory on the basis of the investment involved।
+A items लगभग दस प्रतिशत items और सत्तर प्रतिशत value होते हैं, B बीस और बीस, और C लगभग सत्तर प्रतिशत items और दस प्रतिशत value।
+Ranking total cost से होती है, units की गिनती से नहीं, जबकि FSN movement पर, VED production के लिए criticality पर, और HML एक unit की price पर चलता है।
+Just in Time, जिसे Demand pull या Pull through system कहते हैं, zero inventories का approach है, जिसमें material should only be purchased when it is actually required for production।
+इसके दो principles हैं, produce goods only when it is required, और the products should be delivered to customers at the time only when they want।
+Perpetual inventory bin cards और stores ledger को up to date रखती है, और continuous stock verification independent staff intervals पर without prior notice करता है।
+Inventory turnover ratio बराबर cost of materials consumed divided by cost of average stock held, और average stock opening plus closing by two है।
+Days held बराबर तीन सौ पैंसठ days divided by ratio, और high ratio fast moving material दिखाता है, जबकि low ratio over-investment और locked-up working capital का संकेत है।
+Ratio के ऊपर consumption आता है, purchases नहीं, और verification की shortage issue rate पर value होकर normal हो तो product cost में, वरना Costing Profit and Loss में जाती है।
+Festive rush के बाद samosa factory में पाँचों losses दिखे: flour dust waste, dough trimmings scrap, जले samosas spoilage, फटे samosas defectives, और पुराने logo वाले pouches obsolescence।
+ICAI के words में waste is the portion of raw material which is lost during storage or production and discarded।
+Scrap output से जुड़ा loss है जिसकी recoverable value insignificant होती है, जबकि defectives को rectify करके use किया जा सकता है।
+Normal loss inherent है और उसकी cost, realisable value घटाकर, good units उठाती हैं, जबकि abnormal loss avoidable है और Costing Profit and Loss Account में जाता है।
+Abnormal scrap में scrap account full cost से charge होता है, job या process credit होता है, और realisation का profit या loss Costing Profit and Loss में जाता है।
+Obsolescence हमेशा abnormal है, obsolete stock total loss है जिसे best available price पर dispose करना चाहिए, और rigid specification वाली spoilage good production absorb करता है।
+Defective work में allowed percentage तक rectification batch पर लगती है, bad workmanship वाली written off होती है, और Inspection Department की गलती वाली उसी पर charge होकर written off होती है।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+Exam में EOQ सबसे ज़्यादा आता है, तीन से छह marks के numerical में या case scenario के MCQs में, अक्सर re-order level या discount के साथ।
+Stock levels पाँच से आठ marks में पूरे set के रूप में, अक्सर EOQ के साथ, आते हैं, और reverse working में दिए levels से consumption या re-order quantity निकालनी पड़ती है।
+Theory में ICAI ने ये सवाल दोहराए हैं: Just in Time का demand pull और उसके दो principles, bin card बनाम stores ledger, और bill of materials बनाम material requisition note।
+Unregistered buyer वाला material cost का numerical दोहराया गया है, और spoiled और defective work की तीन circumstances वाली table चार marks में तीन बार आई है।
+आम गलतियाँ हैं cash discount को cost से घटाना, normal shortage को cost से भी और units से भी निकालना, और weighted average को हर receipt के बाद न बदलना।
+EOQ में C को price से गुणा करना भूलना, monthly figures को monthly ही छोड़ देना, ABC को units से rank करना, और VED को cost पर बताना भी marks काटता है।
+Full marks के लिए definition से शुरू कीजिए, formula पहले words में और फिर figures में लिखिए, हर छोड़े item का note दीजिए, और distinguish में ICAI का order रखिए।
+
+## Summary: साठ seconds की revision
+
+साठ seconds में chapter ये है: documents bill of materials से goods received note तक चलते हैं, bin card सिर्फ़ quantity रखता है, और stores ledger quantity और value दोनों।
+Receipt की cost में price और रास्ते की costs आती हैं, cash discount और penalties बाहर रहते हैं, और normal shortage good units पर फैलती है।
+FIFO पुराने prices issue करता है, LIFO नए, weighted average हर receipt पर बदलता है, और EOQ पर ordering और carrying costs बराबर होती हैं।
+Re-order level maximum usage into maximum lead time है, danger level emergency lead time पर बनता है, ABC value पर, VED criticality पर, और Just in Time demand pull पर चलता है।
+Normal loss की cost good units उठाती हैं, abnormal loss Costing Profit and Loss Account में जाता है, और obsolescence हमेशा abnormal total loss है।
+अगले episode में ऋतु cost sheet की दूसरी और तीसरी lines खोलेंगी, यानी Paper four का chapter four, Employee Cost and Direct Expenses।
+ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

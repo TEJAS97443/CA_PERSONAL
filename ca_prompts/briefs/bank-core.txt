@@ -1,0 +1,60 @@
+JOB=bank-core
+You are designing and building the ICAI QUESTION BANK of PassBook (~/CA_PERSONAL/ca_passbook), an offline study app for ICAI CA Intermediate Group II
+(new scheme; P4 Cost and Management Accounting, P5 Auditing and Ethics, P6 = 6A Financial Management + 6B Strategic Management), for a
+student sitting the January 2027 attempt. PassBook is a fork of ~/DSA_PERSONAL/gate_cse (GATE Ascent): read ~/CA_PERSONAL/ca_prompts/reports/fork.md first (what
+the fork changed, where the bank plugs in), then ~/CA_PERSONAL/ca_passbook/docs/ARCHITECTURE.md sections 5 (question model), 10.10-10.11, 11.9-11.11,
+and the current bank-related code (app/js/views/pyq.js, qcard.js, test.js, notebook.js, core/pyqlib.js, scoring.js, testgen.js,
+tools/buildlib/pyq.py, build.py). ~40 lesson writers and ~10 lab builders are working in the same repo: touch only bank files, and keep
+build.py --check, node tests/run.js and tools/smoke.py green at every step.
+
+THE HARD RULE: never invent or paraphrase an ICAI question or answer. Questions and ICAI's Suggested Answers / RTP and MTP answers are
+transcribed VERBATIM (markdown; tables as markdown tables), each with provenance (document, page, URL, sha256 from
+~/CA_PERSONAL/ca_sources/q/manifest.json). Our own additions (tags, a short "how to approach" note, difficulty) are marked as ours.
+
+PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py bank-core <step> ["note"]
+Steps: start - design - schema - importer - pilot - ui-bank - ui-question - ui-lesson - ui-paper - selfgrade - sm-import - tests - docs - report
+(Add these steps to ~/CA_PERSONAL/ca_prompts/jobs.json yourself if the tool says the job is unknown: {"id":"bank-core","kind":"bank","deps":[],"steps":[...]}.)
+
+1 design (write ~/CA_PERSONAL/ca_passbook/docs/ICAI_BANK.md first, then build to it):
+  - Item model. An ICAI paper question has sub-parts ((a), (b), (i)...) carrying marks (2-10 each); in the new scheme ALL THREE papers (P4, P5, P6)
+    have a 30-mark Part I of MCQs (case-scenario MCQs and stand-alone MCQs, 1-2 marks each). One bank item = the smallest independently answerable unit
+    ICAI gives marks for (usually a lettered sub-part), keeping its shared stem/case text (a case scenario with 5 MCQs = one case + 5 MCQ
+    items). Fields: id (e.g. "n-p4-rtp-sep2026-q3a"), scheme (new|old), paper (p4|p5|p6), section (fm|sm for p6), kind (pyq|rtp|mtp),
+    attempt, series (s1|s2 for MTP), qno, part, marks, type (descriptive|mcq), stem (shared case text, markdown), text (markdown),
+    options + key (MCQ, with ICAI's key), answer (ICAI's answer, markdown, verbatim; for MCQs ICAI's key and any explanation ICAI gives),
+    figures (cropped images only where a picture cannot be text), tags (PassBook sub-topic ids from content/syllabus/syllabus.txt; first
+    tag = primary), source {file, pages, url, sha256}, ours {approach?, difficulty?}, flags {oos?: true when ICAI marks it or the topic
+    left the syllabus, old-scheme mapping notes}.
+  - Storage: one file per ICAI document under ~/CA_PERSONAL/ca_passbook/bank/items/<scheme>/<paper>/<doc-id>.md (a readable markdown format with
+    front matter per item; easy for transcription agents to write and for reviewers to diff) compiled by the build into data/*.js.
+  - Self-grading for descriptive items: the student writes or thinks an answer, opens ICAI's answer, and marks Got it / Partly / Missed;
+    that feeds the error notebook and the SRS (Missed and Partly come back), and per-lesson/per-chapter mastery. MCQs auto-grade with
+    ICAI's key. No negative marking (ICAI has none).
+  - Paper sittings: any ICAI document (an MTP, a past paper) can be sat as a timed 3-hour paper (ICAI's real pattern: each paper 30 marks MCQ
+    (Part I) + 70 marks descriptive (Part II); ICAI's question choices honoured where the paper says "answer any four out of
+    five"), MCQs auto-marked, descriptive self-marked out of the item's marks after reading ICAI's answer, then a result page.
+2 schema + importer: the item format, its validator in the build (fail on missing provenance, bad tags, unbalanced tables, unknown
+  keys), and a transcription helper tool for agents: tools/bank/ (e.g. `seg.py <pdf>` prints the text of a page range with layout,
+  renders a page or a region to PNG for checking, `check.py <doc-file>` validates one document file and compares every number in the
+  transcription with the numbers in the PDF text of the cited pages (multiset diff), flagging any number present in one but not the
+  other). Text sources: ~/CA_PERSONAL/ca_sources/q/<scheme>/<paper>/*.txt (pdftotext/PyMuPDF; check), PDFs next to them.
+3 pilot: transcribe ONE complete document yourself with your own tools, end to end, to prove the format and tools:
+  the September 2026 RTP of Paper 4 (or the newest P4 RTP that exists), all questions and answers, tagged; then render it in the app.
+4 ui-bank / ui-question / ui-lesson / ui-paper: adapt the existing GATE screens rather than writing new ones, keeping the v3 look:
+  the bank (filters: paper, chapter, sub-topic, kind RTP/MTP/past paper, attempt, scheme, type, status: new / missed / got it), the
+  question page (stem, text, "Show ICAI answer", self-grade buttons; MCQ options), the lesson page's Practice section listing the ICAI
+  items tagged to that lesson ("ICAI asked this: 6 items" with the attempts), the chapter/paper pages' counts, and paper sittings (timer,
+  navigator, result). Empty states stay honest while items are few.
+5 sm-import: ~/CA_PERSONAL/sm-qbank already holds 1,177 verbatim ICAI Strategic Management questions with ICAI answers (RTP/MTP/PYQ 2018-Sep 2026,
+  mapped to the 5 new-scheme chapters; see ~/CA_PERSONAL/sm-qbank/README.md, SPEC.md, data/). Import them into the bank format with their provenance,
+  mapping chapters to PassBook sm.* sub-topic tags (tag by content; the chapter mapping is a first guess only) — or, if tagging all of
+  them by sub-topic is too slow for you, tag by chapter (sm.intro / sm.ext / ...) and record that a tagging pass is needed.
+6 tests + docs: unit tests for the model, build validation, self-grading, scoring of sittings; smoke steps for the new screens;
+  docs/ICAI_BANK.md complete, including the TRANSCRIPTION GUIDE that ~15 transcription agents will follow (format, verbatim rules,
+  tables, how to tag, how to run check.py, what to do with figures, MCQ keys, old-scheme flags), and a list of every ICAI document in
+  ~/CA_PERSONAL/ca_sources/q/manifest.json with an estimated item count, grouped into transcription batches of roughly equal size (aim ~45 minutes
+  of work each; P6 documents: FM part only, SM comes from sm-import) written to ~/CA_PERSONAL/ca_prompts/bank_batches.json as
+  [{"id":"t-01","docs":["<manifest file ids>"],"est_items":N}, ...].
+7 report (final message; also ~/CA_PERSONAL/ca_prompts/reports/bank-core.md): what you built, the formats, the tools, the pilot numbers, the batch
+  plan, screenshots you checked (light, dark, phone), and open questions for the lead.
+Look at every screen you change with tools/shot.sh (light, dark, 390 px phone) before calling it done.

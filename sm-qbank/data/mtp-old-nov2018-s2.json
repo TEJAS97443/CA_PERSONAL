@@ -1,0 +1,220 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "Nov 2018",
+  "attempt_sort": "2018-11",
+  "series": "II",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://resource.cdn.icai.org/52183bos41817-interp7-q.pdf",
+  "answers_url": "https://resource.cdn.icai.org/52184bos41817-interp7-a.pdf",
+  "local_file": "raw/mtp-old-nov2018-s2-q.pdf",
+  "local_answers_file": "raw/mtp-old-nov2018-s2-a.pdf",
+  "test_series": "October 2018",
+  "mock_test_paper_no": null,
+  "source_is_mirror": false,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Official ICAI PDFs (Test Series: October 2018, MOCK TEST PAPER - 2). Link discovered via the vsijaipur.com index of ICAI papers; files downloaded directly from resource.cdn.icai.org."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-nov2018-s2-q1",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management in Government and Not-for-profit organisations — dropped from the 2023 syllabus (old Ch 1)",
+   "qno": "1(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Helpbuddy is a not-for-profit organisation providing medical facilities to poor and needy at highly\naffordable costs. The organisation is dependent on Government grants and donations to manage\nits affairs. Rohit who is running the organization, believes in taking things as they come and will\nchange the level of activities based on the funds available.\nDo you think Rohit is right in taking things as they come? What will you advise him?",
+   "options": null,
+   "answer": "It is not advisable for any organisation to take things as they come. Organisations whether\ncommercial or non-commercial need proper planning. In fact, the strategic management process\nis being used effectively by countless non-profit governmental organizations. Many non-profit and\ngovernmental organizations outperform private firms and corporations on innovativeness,\nmotivation, productivity, and human relations.\nCompared to for-profit firms, non-profit and governmental organizations often function as a\nmonopoly, produce a product or service that offers little or no measurability of perf ormance, and\nare totally dependent on outside financing. Especially for these organizations, strategic\nmanagement provides an excellent vehicle for developing and justifying requests for needed\nfinancial support.\nRohit needs to understand the importance of strategic management in his organisation. His\norganisation is also depended on funds from government and donations. On one side, he needs to\nmaintain steady inflow of funds and on the other side he needs to ensure proper utilisation of funds.\nHe can plan to use funds in a manner to maintain similar level of continuous services. With proper\nplanning, resources can be better utilised, more funds can be generated and the quality of services\nmaintained.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "not-for-profit",
+    "government"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q2",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Business Process Reengineering — dropped from the 2023 syllabus (old Paper 7B Ch 8.7)",
+   "qno": "1(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Slow Ltd. is a fifty year old organisation engaged in manufacturing of consumer products. Over a\ntime, its processes have lengthened making it very slow in decision making, production, product\nand service delivery.\nAs a manager, you have been asked to suggest how the processes of Slow Ltd. can be improved?",
+   "options": null,
+   "answer": "Any organisation has a number of processes. Typically, a business process involves a number of\nsteps performed by different people in different departments. Slow Ltd. needs to identify and\nchange the processes improve the speed and quality. The tool that can be employed is Business\nProcess Reengineering. Steps are as follows:\ni. Determining objectives: Objectives are the desired end results of the redesign process which\nthe management and organization attempts to realise.\nii. Identify customers and determine their needs: The process designers have to understand\ncustomers - their profile, their steps in acquiring, using and disposing a product. The purpose is to\nredesign business process that clearly provides value addition to the customer.\niii. Study the existing processes: The study of existing processes will provide an important base\nfor the process designers. However, some organisation go through the reengineering process with\nclean perspective without laying emphasis on the past processes.\niv. Formulate a redesign process plan: Formulation of redesign plan is the real crux of the\nreengineering efforts. Customer focussed redesign concepts are identified and formulated. In this\nstep alternative processes are considered and the best is selected.\nv. Implement the redesigned process: Implementation of the redesigned process and application\nof other knowledge gained from the previous steps is key to achieve dramatic improvements.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "bpr",
+    "reengineering"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Divestment / liquidation → Ch 4 (strategic exits)",
+   "qno": "2(a)",
+   "kind": "descriptive",
+   "marks": 4,
+   "question": "Which of the following statements are ‘correct’ and which are ‘incorrect’? Give reasons, in brief, for\nyour answer:\n(i) Divesting a major product line or market is termed as retrenchment strategy.\n(ii) Marketers alone can deliver superior value to customers.",
+   "options": null,
+   "answer": "(i) Correct: An organization can redefine its business by divesting a major product line or\nmarket. The divesting can be termed as retrenchment strategy. The enterprise may withdraw\nfrom marginal markets, withdraw some brands or sizes of products. It may also withdraw\nsome of slow moving products. In an extreme manner, it may seek retirement either from\nthe production or the marketing activity.\n(ii) Incorrect: A marketer alone cannot deliver superior value to the customers. It needs to work\nin coordination with other departments to accomplish this. It is important to be part of\norganization chain and marketer needs to work in coordination with other departments in the\nsearch for competitive advantages. Organisations need to look at the value chain network\nalong with its own chain of activities and the chain of suppliers, distributors and ultimately\ncustomers.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "divestment",
+    "liquidation"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q4",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter’s five forces → Ch 2",
+   "qno": "2(b)",
+   "kind": "descriptive",
+   "marks": 6,
+   "question": "Explain Porter’s five forces model as to how businesses can deal with the competition.",
+   "options": null,
+   "answer": "To gain a deep understanding of a company’s industry and competitive environment, managers do\nnot need to gather all the information they can find and waste a l ot of time digesting it. Rather, the\ntask is much more focused. A powerful and widely used tool for systematically diagnosing the\nsignificant competitive pressures in a market and assessing the strength and importance of each\nis the Porter’s five-forces model of competition. This model holds that the state of competition in\nan industry is a composite of competitive pressures operating in five areas of the overall market:\n• Competitive pressures associated with the market manoeuvring and jockeying for buyer\npatronage that goes on among rival sellers in the industry.\n• Competitive pressures associated with the threat of new entrants into the market.\n• Competitive pressures coming from the attempts of companies in other industries to win\nbuyers over to their own substitute products.\n• Competitive pressures stemming from supplier bargaining power and supplier-seller\ncollaboration.\n• Competitive pressures stemming from buyer bargaining power and seller-buyer Collaboration.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "five forces"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q5",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Turnaround strategy → Ch 4 (strategic exits)",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Why a Turnaround Strategy is required for a business?",
+   "options": null,
+   "answer": "Turnaround is needed when an enterprise's performance deteriorates to a point that it needs a\nradical change of direction in strategy, and possibly in structure and culture as well. It is a highly -\ntargeted effort to return an organization to profitability and increase positive cash flows to a\nsufficient level. It is used when both threats and weaknesses adversely affect the health of an\norganization so much that its basic survival is difficult.\nThe overall goal of turnaround strategy is to transorm an underperforming or distressed company\nto normalcy in terms of acceptable levels of profitability, solvency, liquidity and cash flow. To\nachieve its objectives, turnaround strategy must reverse causes of distress, resolve the financial\ncrisis, achieve a rapid improvement in financial performance, regain stakeholder support, and\novercome internal constraints and unfavourable industry characteristics.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "turnaround"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q6",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Experience curve → Ch 2",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain the concept of Experience Curve and highlight its relevance in strategic management.",
+   "options": null,
+   "answer": "Experience curve is similar to learning curve which explains the efficiency gained by workers\nthrough repetitive productive work. Experience curve is based on the commonly observed\nphenomenon that unit costs decline as a firm accumulates experience in terms of a cumulative\nvolume of production. The implication is that larger firms in an industry would tend to have lower\nunit costs as compared to those of smaller organizations, thereby gaining a competitive cost\nadvantage. Experience curve results from a variety of factors such as learning effects, economies\nof scale, product redesign and technological improvements in production.\nThe concept of experience curve is relevant for a number of areas in strategic management. For\ninstance, experience curve is considered a barrier for new firms contemplating entry in an industry.\nIt is also used to build market share and discourage competition.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "experience curve"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q7",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Entrepreneurship / Intrapreneurship — dropped from the 2023 syllabus (old Ch 7.5)",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between Entrepreneurs and Intrapreneurs.",
+   "options": null,
+   "answer": "The terms Entrepreneur and the Intrapreneur might seem the same words to hear, but both the\nterms have much differences including their spelling and characteristics. The differences between\nthese two terms have been shortly gleaned below:-\nEntrepreneur Intrapreneur\n| Dependency An entrepreneur is independent in his operations. | An intraprenuer is dependent on the entrepreneur, i.e. the owner. |\n| --- | --- |\n| Raising of An entrepreneur himself raises | Funds are not raised by the Intrapreneur. |\n| Funds funds required for the enterprise. | |\n| Risk Entrepreneur bears the risk involved in the business. | An intraprenuer does not fully bear the risk involved in the enterprise. |\n| Operation An entrepreneur operates from out side. | On the contrary, an intraprenuer operates from within the organization itself. |\n| Orientation An entrepreneur begins his business with a newly set up enterprise. | An intrapreneur sets up his enterprise after working someone else’s organization. |\n| Experience As an entrepreneur establishes new business, so he does not possess any experience over | An intrapreneur establishes his business after gathering experiences through working in the other organizations. |\nthe business.\nAccording to the above table, anyone can differentiate between the entr epreneur and intrapreneur\nas both the terms are heterogeneous.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "entrepreneur",
+    "intrapreneur"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q8",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management — dropped from the 2023 syllabus (old Ch 6.4.3-6.4.4)",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between Logistic Management and Supply Chain Management.",
+   "options": null,
+   "answer": "Supply chain management is an extension of logistic management. However, there are differences\nbetween the two. Logistical activities typically include management of inbound and outbound\ngoods, transportation, warehousing, handling of material, fulfillment of orders, inventory\nmanagement and supply/demand planning. Although these activities also form part of supply chain\nmanagement, the latter is much broader. Logistic management can be termed as one of its part\nthat is related to planning, implementing, and controlling the movement and storage of goods,\nservices and related information between the point of origin and the point of consumption.\nSupply chain management is an integrating function of all the major business activities and\nbusiness processes within and across organisations. Supply Chain Management is a systems view\nof the linkages in the chain consisting of different channel partners – suppliers, intermediaries,\nthird-party service providers and customers. Different elements in the chain work together in a\ncollaborative and coordinated manner. Often it is used as a tool of business transformation and\ninvolves delivering the right product at the right time to the right place and at the right price.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q9",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Importance and benefits of strategic management → Ch 1",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Write short notes on the following:\nImportance of Strategic Management.",
+   "options": null,
+   "answer": "Importance of Strategic Management: Strategic Management is very important for the survival\nand growth of business organizations in dynamic business environment. Other major benefits of\nstrategic management are as follows:\n• It helps organizations to be more proactive rather than reactive in dealing with its future. It\nfacilitates the organisations to work within vagaries of environment and remains adaptable\nwith the turbulence or uncertain future. Therefore, they are able to control their own destiny\nin a better way.\n• It provides better guidance to entire organization on the crucial point – what it is trying to do.\nAlso provides framework for all major business decisions of an enterprise such a decision on\nbusinesses, products, markets, organization structures, etc.\n• It facilitates to prepare the organization to face the future and act as pathfinder to various\nbusiness opportunities. Organizations are able to identify the available opportunities and\nidentify ways and means as how to reach them.\n• It serves as a corporate defence mechanism against mistakes and pitfalls. It helps\norganizations to avoid costly mistakes in product market choices or investments.\n• Over a period of time, strategic management helps organizations to evolve cert ain core\ncompetencies and competitive advantages that assist in the fight for survival and growth.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "importance"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q10",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic control types / operational vs management control → Ch 5",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Write short notes on the following:\nImplementation Control.",
+   "options": null,
+   "answer": "Implementation Control: Managers implement strategy by converting major plans into concrete,\nsequential actions that form incremental steps. Implementation control is directed towards\nassessing the need for changes in the overall strategy in light of unfolding events and results\nassociated with incremental steps and actions.\n\nStrategic implementation control is not a replacement to operational control. St rategic\nimplementation control, unlike operational controls continuously monitors the basic direction of the\nstrategy. The two basic forms of implementation control are:\n(i) Monitoring strategic thrusts: Monitoring strategic thrusts help managers to determine\nwhether the overall strategy is progressing as desired or whether there is need for\nreadjustments.\n(ii) Milestone Reviews. All key activities necessary to implement strategy are segregated in\nterms of time, events or major resource allocation. It normally involves a complete\nreassessment of the strategy. It also assesses the need to continue or refocus the direction\nof an organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic control"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q11",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategic management — strategic decisions and the strategic manager → Ch 1",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 7,
+   "question": "What is Strategic Decision Making? Briefly explain the major dimensions of strategic decisions.",
+   "options": null,
+   "answer": "Decision making is a managerial process of selecting the best course of action out of several\nalternative courses for the purpose of accomplishment of the organizational goals. Decisions may\nbe operational i.e., which relate to general day-to-day operations. They may also be strategic in\nnature. According to Jahuch and Glueck “Strategic decisions encompass the definition of the\nbusiness, products to be handled, markets to be served, functions to be performed and\nmajor policies needed for the organisation to execute these decisions to achieve the\nstrategic objectives.”\nThe major dimensions of strategic decisions are as follows:\n Strategic decisions require top-management involvement: Strategic decisions involve thinking\nin totality of the organization. Hence, problems calling for strategic decisions require to be\nconsidered by the top management.\n Strategic decisions involve commitment of organisational resources: For example, Strategic\ndecisions to launch a new project by a firm requires allocation of huge funds and assignment\nof a large number of employees.\n Strategic decisions necessitate consideration of factors in the firm’s external environment:\nStrategic focus in organization involves orienting its internal environment to the changes of\nexternal environment.\n Strategic decisions are likely to have a significant impact on the long-term prosperity of the\nfirm: Generally, the results of strategic implementation are seen on a long-term basis and not\nimmediately.\n Strategic decisions are future oriented: Strategic thinking involves predicting the future\nenvironmental conditions and how to orient for the changed conditions.\n Strategic decisions usually have major multifunctional or multi-business consequences: As\nthey involve organization in totality they affect different sections of the organization with\nvarying degree.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2018-s2-q12",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 3,
+   "question": "Define Competitive Advantage.",
+   "options": null,
+   "answer": "Competitive advantage is the position of a firm to maintain and sustain a favorable market position\nwhen compared to the competitors. Competitive advantage is ability to offer buyers something\ndifferent and thereby providing more value for the money. It is the result of a successful strategy.\nThis position gets translated into higher market share, higher profits when compared to those that\nare obtained by competitors operating in the same industry. Competitive advantage may also be\nin the form of low cost relationship in the industry or being unique in the industry along dimensions\nthat are widely valued by the customers in particular and the society at large.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  }
+ ]
+}

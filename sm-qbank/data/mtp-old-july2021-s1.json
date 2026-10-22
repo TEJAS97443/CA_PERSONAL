@@ -1,0 +1,536 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "July 2021",
+  "attempt_sort": "2021-07",
+  "series": "I",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SMNew-Q-MTP-Inter-Mar-2021.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SMNew-A-MTP-Inter-Mar-2021.pdf",
+  "local_file": "raw/mtp-old-july2021-s1-q.pdf",
+  "local_answers_file": "raw/mtp-old-july2021-s1-a.pdf",
+  "test_series": "March 2021",
+  "mock_test_paper_no": null,
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series I for the May 2021 attempt, which was deferred and held in July 2021 (Test Series: March 2021, MOCK TEST PAPER - 1). ICAI originals removed; castudynotes.com mirror. Diagonal mirror watermark removed during extraction."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-july2021-s1-q1",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — unified, integrated and comprehensive plan → Ch 1",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "Rohansh Bakshi a 22-year-old from Maharashtra, started a gaming equipment company called\nTEEMOX, which specialises in gaming chairs, gaming consoles, controllers, wireless keyboard,\nand touchscreen mouse pads. Rohan has been an innovator and loves building products. Hence,\nto prioritise his time more on development, he insisted Mr. N. Muniyappa, his mentor, to be the\nCEO of the company and spearhead business from the front.\nRohansh has always believed in bringing something new to the consumer and that is clearly\nprojected in the products offered by TEEMOX. His designs reflect youth with exciting colors and\ncomfort, and they match the quality of global big brands. However, to make hi s products worth the\nmoney that his customers are paying, the procurement is done from Indonesia and Vietnam, where\nthe materials are easily available at low costs.\nInterestingly, Rohansh’s AI based gaming chairs have been a huge hit for the company, bringing\nin the maximum revenue and margins. The business has gone from 200 units sold to over 5000\nunits sold in just six months. To add to it, a famous FMCG Brand approached TEEMOX to\ncollaborate for a sports drink focused on gamers. The team is excited about this collaboration as\nthe deal shall bring in more awareness and open newer markets for them. But Mr. Muniyappa\ninsists that this might as well displease the existing consumers who relate to TEEMOX as a\ncustomer-oriented brand rather than yet another money minting business.\nNonetheless, the plans seem to be working in the company’s favour for now and the future seems\nbright. To put in context, the gaming industry is booming with a Compound Annual Growth Rate\n(CAGR) of 190%, adding over 20 million new customers every quarter. Clearly, o pportunities are\nenormous, and the brand is on track. A well-established vision and mission for the company could\nbe a strong strategic advantage for challenging times to come.\nBased on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:\n\nBased on the above case which of the following seems true above the Strategy of TEEMOX?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy was unified and comprehensive."
+    },
+    {
+     "label": "b",
+     "text": "Strategy was comprehensive and integrated."
+    },
+    {
+     "label": "c",
+     "text": "Strategy was integrated and unified."
+    },
+    {
+     "label": "d",
+     "text": "Strategy was integrated, unified and comprehensive."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "meaning of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q2",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG growth-share matrix → Ch 4",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nGaming chair business of TEEMOX is a cash cow. Which of the following strategies helped it become such an influential business?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Organisation differentiation"
+    },
+    {
+     "label": "b",
+     "text": "Product differentiation"
+    },
+    {
+     "label": "c",
+     "text": "Focused differentiation"
+    },
+    {
+     "label": "d",
+     "text": "Low-cost product provider"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "bcg matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q3",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nBy routing its products from Indonesian and Vietnam, TEEMOX was able to achieve which of the following strategies on the holistic level of business?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Product differentiation"
+    },
+    {
+     "label": "b",
+     "text": "Horizontal integration of business"
+    },
+    {
+     "label": "c",
+     "text": "Best cost provider in the industry"
+    },
+    {
+     "label": "d",
+     "text": "Globalisation of business"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q4",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations — functional head → Ch 1",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWith the appointment of Mr. N. Muniyappa, Rohansh can be designated as which of the following?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Vice President"
+    },
+    {
+     "label": "b",
+     "text": "CEO Emeritus"
+    },
+    {
+     "label": "c",
+     "text": "Chairman"
+    },
+    {
+     "label": "d",
+     "text": "Functional Head"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q5",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing mix (the 'Ps' of marketing) — part of the dropped functional Marketing Strategy (old Ch 6.2)",
+   "qno": "1(A)5",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich Ps of marketing have been the winning Ps for TEEMOX?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Product and Place"
+    },
+    {
+     "label": "b",
+     "text": "Promotion and Price"
+    },
+    {
+     "label": "c",
+     "text": "Price and Product"
+    },
+    {
+     "label": "d",
+     "text": "Promotion and Place"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "marketing mix",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q6",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG growth-share matrix → Ch 4",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "The Specialist Clothing Company (SCC) is a manufacturer of a wide range of clothing. Fashion is one of the five divisions of SCC. Fashion is operating in a market with high growth and is a market leader. By the next year, it is predicted to have 10% of the market share in a growing market. Fashion should be classified as which of the following according to the BCG matrix.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Star"
+    },
+    {
+     "label": "b",
+     "text": "Dog"
+    },
+    {
+     "label": "c",
+     "text": "Cash cow"
+    },
+    {
+     "label": "d",
+     "text": "Question mark"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "bcg matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q7",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Beta Company, a car manufacturer is buying up a supplier so that it gets a dedicated supplier with both guaranteed quality and price. The material could be manufactured when required by Beta Company leading to lower inventory levels. Which strategy has Beta Company adopted?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Backward integration"
+    },
+    {
+     "label": "b",
+     "text": "Forward integration"
+    },
+    {
+     "label": "c",
+     "text": "Conglomerate diversification"
+    },
+    {
+     "label": "d",
+     "text": "Horizontal integrated diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q8",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation as a stage of the strategic management process → Ch 5",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Developing vision and mission, identifying an organisation’s external opportunities and threats, and determining internal strengths and weaknesses are:",
+   "options": [
+    {
+     "label": "a",
+     "text": "SBU planning"
+    },
+    {
+     "label": "b",
+     "text": "Strategy formulation"
+    },
+    {
+     "label": "c",
+     "text": "Strategy implementation"
+    },
+    {
+     "label": "d",
+     "text": "Business process reengineering"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategy formulation"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q9",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Business Process Reengineering — dropped from the 2023 syllabus (old Paper 7B Ch 8.7); no counterpart in current Paper 6B",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "As the head of an MNC, you have been asked to bring in radical changes in your organisation through BPR. Which of these is the thrust area you would focus on reducing:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Total cycle time"
+    },
+    {
+     "label": "b",
+     "text": "Total order time"
+    },
+    {
+     "label": "c",
+     "text": "Total inventory time"
+    },
+    {
+     "label": "d",
+     "text": "None"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "bpr",
+    "reengineering"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q10",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — strategy is not always perfect, flawless or optimal → Ch 1",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Which of the following is correct?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy is always pragmatic and not flexible"
+    },
+    {
+     "label": "b",
+     "text": "Strategy is not always perfect, flawless and optimal"
+    },
+    {
+     "label": "c",
+     "text": "Strategy is always perfect, flawless and optimal"
+    },
+    {
+     "label": "d",
+     "text": "Strategy is always flexible but not pragmatic"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "meaning of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q11",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "A corporation organized in network structure is often called",
+   "options": [
+    {
+     "label": "a",
+     "text": "Virtual organization"
+    },
+    {
+     "label": "b",
+     "text": "Hierarchical organization"
+    },
+    {
+     "label": "c",
+     "text": "Structured organization"
+    },
+    {
+     "label": "d",
+     "text": "Simple organization"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q12",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "X-Olympus is a gaming software company specializing in developing games for ZBox and GameStation-\n4. The company is facing stiff competition due to saturation of market and price wars, which h as\nexcessively favor and highlight their dependence on gaming console manuf acturers. Thereby, the\ncompany desires to establish a competitive advantage over industry rivals by enhancing the gaming\nexperience by expanding into Edge-Cloud Gaming Service on a monthly subscription basis. This service\noffering does not require dedicated gaming consoles yet provide customers game streaming in 4K\nresolution with an ample range of games to select from. This move is expected to insulate X -Olympus\nfrom price wars and provide a competitive advantage. Identify and explain the generic strategies\nadopted by X-Olympus?",
+   "options": null,
+   "answer": "According to Porter, strategies allow organizations to gain competitive advantage from three different bases:\ncost leadership, differentiation, and focus. Porter called these base generic strategies.\nX-Olympus is facing cutthroat competition due to saturation of market and price wars as there is no clear\nleader out of the numerous competitors. For this, the strategy adopted by X-Olympus is Product\nDifferentiation by introducing a unique product to cater the customer needs at a lesser cost which would\ninsulate it from the fierce competition and never-ending price wars.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q13",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — partly proactive, partly reactive → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"Strategy is partly proactive and partly reactive.\" Elaborate.",
+   "options": null,
+   "answer": "Yes, strategy is partly proactive and partly reactive. In proactive strategy, organisations will analyse\npossible environmental scenarios and create strategic framework after proper pla nning and set\nprocedures and work on these strategies in a pre-determined manner. However, in reality no\ncompany can forecast both internal and external environment exactly. Everything cannot be\nplanned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour,\nevolving technologies and so on.\nThere can be significant deviations between what was visualised and what actually happens. There\ncan be significant or major strategic changes when the environment demands. Reactive strateg y\nis triggered by the changes in the environment and provides ways and means to cope with the\nnegative factors or take advantage of emerging opportunities.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "nature of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q14",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Key success factors → Ch 2",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Examine the significance of KSFs (Key Success Factors) for competitive success.",
+   "options": null,
+   "answer": "As industry’s Key Success Factors (KSFs) are those things that most affect industry members’\nability to prosper in the market place – the particular strategy elements, product attributes,\nresources, competencies, competitive capabilities and business outcomes that spell the difference\nbetween profit & loss and ultimately, between competitive success or failure. KSFs by their very\nnature are so important that all firms in the industry must pay close attention to them. They are the\nprerequisites for industry success, or, to put it in another way, KSFs are the rules that shape\nwhether a company will be financially and competitively successful.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "key success factors"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q15",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Shri Alok Kumar is having his own medium size factory in Aligarh manufacturing hardware\nconsisting handles, hinges, tower bolts and so on. He has a staff of more than 220 in his\norganisation. One of the leading brand of Hardware seller in India is rebranding and selling the\nmaterial from his factory. Shri Alok Kumar, believes in close supervision and takes all major and\nminor decisions in the organisation.\nDo you think Shri Alok should take all decisions himself? What should be the nature of decisions\nthat should be taken by him.",
+   "options": null,
+   "answer": "Decision making is a managerial process of selecting the best course of action out of several\nalternative courses for the purpose of accomplishment of the organisational goals. Decisions may\nbe operational, i.e., which relate to general day-to-day operations. They may also be strategic in\nnature.\nAs owner manager at the top level in the company, Shri Alok Kumar should concentrate on strategic\ndecisions. These are higher level decisions having organisation wide implications. The major\ndimensions of strategic decisions are as follows:\n\n Strategic decisions require top-management involvement as they involve thinking in totality of the\norganisation.\n Strategic decisions involve significant commitment of organisational resources.\n Strategic decisions necessitate consideration of factors in the firm’s external environment.\n Strategic decisions are likely to have a significant impact on the long-term prosperity of the firm.\n Strategic decisions are future oriented.\n Strategic decisions usually have major multifunctional or multi-business consequences.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q16",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation culture (soft) → Ch 5",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "How can management communicate that it is committed to creating a new culture assuming that\nthe old culture was problematic and not aligned with the company strategy?",
+   "options": null,
+   "answer": "Corporate culture refers to company’s values, beliefs, business principles, traditions, ways of\noperating and internal work environment. Changing problem cultures is very difficult because of\ndeeply held values and habits. It takes concerted management action over a period of time to\nreplace an unhealthy culture with a healthy culture or to root out certain unwanted cultural obstacles\nand instil ones that are more strategy-supportive.\n The first step is to diagnose which facets of the present culture are str ategy supportive and\nwhich are not.\n Then, managers have to talk openly and forthrightly to all concerned about those aspects of\nthe culture that have to be changed.\n The talk has to be followed swiftly by visible, aggressive actions to modify the culture-actions\nthat everyone will understand are intended to establish a new culture more in tune with the\nstrategy.\nManagement through communication has to create a shared vision to manage changes. The menu\nof culture-changing actions includes revising policies and procedures, altering incentive\ncompensation, shifting budgetary allocations for substantial resources to new strategy projects,\nrecruiting and hiring new managers and employees, replacing key executives, communication on\nneed and benefit to employees and so on.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisational culture"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q17",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level strategic choices → Ch 4",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Justify the statement \"Stability strategy is opposite of Expansion strategy\".",
+   "options": null,
+   "answer": "Stability strategies, as name suggests, are intended to safeguard the existing interests and\nstrengths of business. It involves organisations to pursue established and tested objectives,\ncontinue on the chosen path, maintain operational efficiency and so on. A stability strategy is\npursued when a firm continues to serve in the same or similar markets and deals in same products\nand services. In stability strategy, few functional changes are made in the products or markets,\nhowever, it is not a ‘do nothing’ strategy. This strategy is typical for mature business organizations.\nSome small organizations also frequently use stability as a strategic focus to maintain comfortable\nmarket or profit position.\nOn the other hand, expansion strategy is aggressive strategy as it involves redefining the business\nby adding the scope of business substantially, increasing efforts of the current business. In this\nsense, it becomes opposite to stability strategy. Expansion is a promising and popular strategy that\ntends to be equated with dynamism, vigor, promise and success. Expansion also includes\ndiversifying, acquiring and merging businesses. This strategy may take the enterprise along\nrelatively unknown and risky paths, full of promises and pitfalls.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic choices"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q18",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Research & Development Strategy — dropped from the 2023 syllabus (old Ch 6.5)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain the three major R & D approaches to implement strategic decisions.",
+   "options": null,
+   "answer": "There are at least three major R&D approaches for implementing strategies.\ni. Be the leader: The first strategy is to be the first firm to market new technological products. This\nis a glamorous and exciting strategy but also a dangerous one. Firms such as 3M and General\nElectric have been successful with this approach, but many other pioneering firms have fallen,\nwith rival firms seizing the initiative.\n\nii. Be an innovative imitator: A second R&D approach is to be an innovative imitator of successful\nproducts, thus minimizing the risks and costs of startup. This approach entails allowing a pioneer\nfirm to develop the first version of the new product and to demonstrate that a market exists. Then,\nlaggard firms develop a similar product. This strategy requires excellent R&D personnel and an\nexcellent marketing department.\niii. Be a low cost producer: A third R&D strategy is to be a low-cost producer by mass-producing\nproducts similar to but less expensive than products recently introduced. As a new product\naccepted by customers, price becomes increasingly important in the buying decision. Also, mass\nmarketing replaces personal selling as the dominant selling strategy. This R&D strategy requires\nsubstantial investment in plant and equipment, but fewer expenditures in R&D than the two\napproaches described earlier.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "r&d",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q19",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Ansoff’s product-market growth matrix → Ch 4",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nMarket Development and Product Development under Ansoff’s Product Market Growth Matrix.",
+   "options": null,
+   "answer": "Following are the differences between the market development and product development:\n| Market Development | Product Development |\n| --- | --- |\n| • Meaning | • Meaning |\n| It refers to a growth strategy where the business seeks to sell its existing products into new markets. It is a strategy for company growth by identifying and developing new markets for current company products. | It refers to a growth strategy where business aims to introduce new products into existing markets. It is a strategy for company growth by offering modified or new products to current markets. |\n| • Strategy Application | • Strategy Application |\n| It may be achieved through new geographical markets, new product dimensions or packaging, new distribution channels or different pricing policies to attract different | It is for company’s growth and requires the development of new competencies and the business to develop modified products which can appeal to existing markets. |\ncustomers or create new market segments.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "ansoff"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s1-q20",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / implementation issues → Ch 5",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nDistinguish between Strategy Formulation and Strategy Implementation.",
+   "options": null,
+   "answer": "Although inextricably linked, strategy implementation is fundamentally different from strategy\nformulation in the following ways:\nStrategy Formulation Strategy Implementation\n Strategy formulation focuses on  Strategy implementation focuses on\neffectiveness. efficiency.\n Strategy formulation is primarily an  Strategy implementation is primarily an\nintellectual process. operational process.\n Strategy formulation requires conceptual  Strategy implementation requires\nintuitive and analytical skills. motivation and leadership skills.\n Strategy formulation requires coordination  Strategy implementation requires\namong the executives at the top level. coordination among the executives at the\nmiddle and lower levels.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  }
+ ]
+}

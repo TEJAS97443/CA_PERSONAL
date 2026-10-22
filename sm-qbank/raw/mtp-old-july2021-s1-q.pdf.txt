@@ -1,0 +1,273 @@
+                                                             Test Series: March, 2021
+                                MOCK  TEST PAPER - 1
+                            INTERMEDIATE (IPC): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                            Part I : Multiple Choice Questions
+                                                                 Total Marks: 15 Marks
+Question Nos. 1 to 5 carries 2 marks each.
+M/s TAS & Sons is an automobile manufacturer of spare parts of four wheelers in India. The company has
+four manufacturing units in various locations across the country. It also has two branch offices located in
+Pune and Hyderabad to handle activities like orders, delivery, complaints and stock operations. The
+company maintains its account with ABC Bank from where it also has taken various loans and advances.
+Sometime ago, the company’s business processes like accounting, purchase, sales and inventory were
+maintained in manual mode. The management of the company observed that the manual processing of
+these activities hinder the overall working of the business related daily operations. This resulted in huge
+gap in the flow of information, pending orders, delayed deliveries, and delayed decision making due to lack
+of business reports and therefore overall non-performance. Thus, the management committee decides to
+adopt the process of automation for its various business operations so that information flow would be timely
+and consolidated within its branches and manufacturing units. To attain this objective, the service models of
+Cloud Computing are proposed to be adopted so that the branches and manufacturing units are
+interconnected with centralized mechanism of data sharing and storage. The proposed system with well-
+implemented access controls will provide robust data security among its systems of branches and
+manufacturing units. Not only the record keeping, but also data maintenance and reports generation would
+become simpler after the implementation of proposed system. The management is also looking for better
+prospects of adhering to the legal compliances of the country and also to initiate its business operations
+through online mode.
+Subsequently, the company hires a consultant Mr. Sumit to carry out the feasibility study of its proposed
+system who prepares a feasibility report and submits to the management. Based on the go ahead report of
+Mr. Sumit’s report, a project team is scheduled to be constituted who will work under him to execute the
+project and ensure its delivery on time.
+1.  The Management committee of M/s TAS & Sons decides to automate its entire business processes
+    anticipating reaping better benefits for the company. Which of the following does not come under the
+    category of benefits of Automation?
+    (a) Consistency of automated processes
+    (b) Automating Redundant processes
+    (c) Reduction of turnaround time
+    (d) Better utilization of employees’ time
+
+2.  In purview of above case scenario, the management of M/s TAS & Sons decides to adopt the process
+    of automation for its various business processes so that information flow within its units and branches
+    would be timely and consolidated. The data is centralized and in case of loss of any set of data from
+    this location, whole business may come to stand still. Identify from the following control s that may be
+    useful to overcome the aforementioned risk.
+    (a) It can be controlled by removing redundant data.
+    (b) Back up arrangement needs to be strong.
+    (c) To allocate some funds in case of contingencies.
+    (d) Overhauling of organizational structure is required.
+3.  If the company hires XYZ Ltd. as its Cloud Computing service provider, which of the following model of
+    Cloud Computing would be useful for M/s TAS & Sons if XYZ Ltd. proposes to host company’s
+    application at its data center over the internet to make it accessible to the customers of M/s TAS &
+    Sons?
+    (a) Infrastructure as a Service
+    (b) Platform as a Service
+    (c) Software as a Service
+    (d) Database as a Service
+4.  In purview of the above case scenario, the company decides to install various internetwork processors
+    like routers and firewalls etc. for its business application through online mode in order to make its
+    whole network secure. Which type of control the company is planning to work on?
+    (a) Corrective Control
+    (b) Preventive Control
+    (c) Network Control
+    (d) Detective Control
+5.  M/s TAS & Sons maintains its account in ABC Bank which faces the application risk of incorrect
+    classification and provisioning of Non Performing Asset (NPA) resulting in financial mismanagement,
+    of company’s account. Which control would be best suggested to take care of this?
+    (a) Access for changes made to the configuration, parameter settings should be restricted to
+        authorized user.
+    (b) Unique Id should be created for each asset.
+    (c) The system parameters need to be set up as per business process rules of the bank.
+    (d) To  ensure existence of configuration/customization in the application to perform NPA
+        classification as per relevant RBI guidelines.
+Question No(s) 6 to 10 carries 1 mark each.
+6.  Except one, following are the means through which protection can be achieved in case an internet
+    connection exposes an organization to the harmful elements of the outside world . Identify it.
+    (a) Security of network services
+    (b) Call back devices
+
+    (c) Access Token
+    (d) Segregation of Networks
+7   A company on the occasion of Diwali offers to provide an additional discount of 15% to its customers
+    on online bulk purchase of products worth Rs. 5,000 through its website. Which of the following
+    business model of e-commerce is being followed in this?
+    (a) Consumer to Business e-Commerce
+    (b) Business to Consumer e-Commerce
+    (c) Business to Business e-Commerce
+    (d) Consumer to Consumer e-Commerce
+8.  Money Laundering is commonly used by criminals to make dirty money appear legitimate. In this
+    context, which stage of Money Laundering involves the bank transfers between different accounts in
+    different names in different countries making deposit and withdrawals?
+    (a) Placement
+    (b) Layering
+    (c) Integration
+    (d) Financing
+9.  Which of the following statement is not correct for eXtensible Business Reporting Language (XBRL)?
+    (a) XBRL runs on XML technologies such as XML schema, and ensures that financial and non -
+        financial data is tagged to form a comparable reporting format.
+    (b) XBRL has the capability to allow the tagging of transactions that can themselves be aggregated
+        into XBRL reports.
+    (c) To publish performance information and allow straight through information processing are key
+        features of XBRL.
+    (d) XBRL  is an open standard reporting language which is governed by XBRL, a non -profit
+        organization.
+10. In the office of HNK Ltd., a master swipe access card is maintained at the front desk to enter into
+    executive’s cabin, in case of any emergency. In this case, the possibility of same may be misused by
+    an unauthorized employee to gain unauthorized access of the executive’s cabin would be categorized
+    as:
+    (a) Asset
+    (b) Vulnerability
+    (c) Accepted residual risk of exposure to potential risk of data theft
+    (d) Likelihood of compromise on CIA (Confidentiality, Integrity and Availability)
+                             Part II: Descriptive Questions   Total Marks: 35 Marks
+                             Question No. 1 is Compulsory.
+                Attempt any three questions out of remaining four questions.
+1.  (a) Banking has played a vital and significant role in development of economy. In the light of this
+        statement, explain the key features of banking business.           (3 Marks)
+
+    (b) Identify the disadvantages of Database Management System.          (2 Marks)
+2.  (a) ERP system integrates all business components and updates the data between related business
+        functions. However, its implementation is a huge task that may require lot of time, money and
+        energy and its success majorly depend upon issues related to factors like people, process, and
+        technology. Briefly explain other implementation risks, if any, apart from the issues related to the
+        factors mentioned above.                                           (6 Marks)
+    (b) With promotion of cashless economy, most of the businesses are using e-commerce and
+        m-commerce transactions. Enlist the commercial laws that are applicable to these transactions.
+                                                                           (4 Marks)
+3.  (a) ABC Ltd., a Delhi based financial consultant company has huge clientele having crucial data
+        about its clients. Therefore, the company has robust implementation of Logical Access Controls
+        to ensure that access to its systems, data and programs is restricted to authorized users to
+        safeguard information against unauthorized use. Describe all the technical exposure s against
+        which these Logical Access Controls provide security to the data and software of the company.
+                                                                           (6 Marks)
+    (b) XYZ Ltd. is the manufacturer of herbal medicines which is under the process of implementing
+        Enterprise Resource Planning (ERP) in its head office and various manufacturing units located
+        across the country. Explain the technological risks related to the implementation of ERP.
+                                                                           (4 Marks)
+4.  (a) During the pandemic Covid 19, the Government of India emphasized on the usage of various
+        digital mode of payments by the public at large. In light of this statement, explain various types of
+        cards that are provided to the account holders by the banks or companies to be used as digital
+        payment mode.                                                      (6 Marks)
+    (b) Though Business Process Automation (BPA) provides many benefits to companies which tend to
+        automate their business processes, however automation of the business processes is susceptible
+        to many challenges. Discuss these challenges.                      (4 Marks)
+5.  (a) Mr. Amar is the chief IT manager of a company who designed a new advisory for all employee s
+        mentioning the various cyber-crimes which may attract prosecution as per penalties and offences
+        prescribed in Information Technology Act, 2000. Describe the various cybercrimes that Mr. Amar
+        could have incorporated in his advisory.                           (6 Marks)
+    (b) DFK corporative bank of Uttar Pradesh decided to implement Core Banking System (CBS) to
+        facilitate integration of its entire business applications. Briefly explain how the deployment and
+        implementation of CBS can be controlled at various stages to ensure that objectives of DFK
+        corporative bank are achieved.                                     (4 Marks)
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                            Question 1 and 2 are compulsory.
+                  Attempt any three questions out of remaining four questions.
+1.  (A) Rohansh Bakshi a 22-year-old from Maharashtra, started a gaming equipment company called
+        TEEMOX, which specialises in gaming chairs, gaming consoles, controllers, wireless keyboard,
+        and touchscreen mouse pads. Rohan has been an innovator and loves building products. Hence,
+        to prioritise his time more on development, he insisted Mr. N. Muniyappa, his mentor, to be the
+        CEO of the company and spearhead business from the front.
+        Rohansh has always believed in bringing something new to the consumer and that is clearly
+        projected in the products offered by TEEMOX. His designs reflect youth with exciting colors and
+        comfort, and they match the quality of global big brands. However, to make hi s products worth the
+        money that his customers are paying, the procurement is done from Indonesia and Vietnam, where
+        the materials are easily available at low costs.
+        Interestingly, Rohansh’s AI based gaming chairs have been a huge hit for the company, bringing
+        in the maximum revenue and margins. The business has gone from 200 units sold to over 5000
+        units sold in just six months. To add to it, a famous FMCG Brand approached TEEMOX to
+        collaborate for a sports drink focused on gamers. The team is excited about this collaboration as
+        the deal shall bring in more awareness and open newer markets for them. But Mr. Muniyappa
+        insists that this might as well displease the existing consumers who relate to TEEMOX as a
+        customer-oriented brand rather than yet another money minting business.
+        Nonetheless, the plans seem to be working in the company’s favour for now and the future seems
+        bright. To put in context, the gaming industry is booming with a Compound Annual Growth Rate
+        (CAGR) of 190%, adding over 20 million new customers every quarter. Clearly, o pportunities are
+        enormous, and the brand is on track. A well-established vision and mission for the company could
+        be a strong strategic advantage for challenging times to come.
+        Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:
+        1.  Based on the above case which of the following seems true above the Strategy of TEEMOX?
+            (a) Strategy was unified and comprehensive.
+            (b) Strategy was comprehensive and integrated.
+            (c) Strategy was integrated and unified.
+            (d) Strategy was integrated, unified and comprehensive.         (1 Mark)
+        2.  Gaming chair business of TEEMOX is a cash cow. Which of the following strategies helped
+            it become such an influential business?
+            (a) Organisation differentiation
+            (b) Product differentiation
+            (c) Focused differentiation
+            (d) Low-cost product provider                                   (1 Mark)
+
+        3.  By routing its products from Indonesian and Vietnam, TEEMOX was able to achieve which of
+            the following strategies on the holistic level of business?
+            (a) Product differentiation
+            (b) Horizontal integration of business
+            (c) Best cost provider in the industry
+            (d) Globalisation of business                                   (1 Mark)
+        4.  With the appointment of Mr. N. Muniyappa, Rohansh can be designated as which of the
+            following?
+            (a) Vice President
+            (b) CEO Emeritus
+            (c) Chairman
+            (d) Functional Head                                             (1 Mark)
+        5.  Which Ps of marketing have been the winning Ps for TEEMOX?
+            (a) Product and Place
+            (b) Promotion and Price
+            (c) Price and Product
+            (d) Promotion and Place                                         (1 Mark)
+    (B) The Specialist Clothing Company (SCC) is a manufacturer of a wide range of clothing. Fashion is
+        one of the five divisions of SCC. Fashion is operating in a market with high growth and is a market
+        leader. By the next year, it is predicted to have 10% of the market share in a growing market.
+        Fashion should be classified as which of the following according to the BCG matrix.
+        (a) Star
+        (b) Dog
+        (c) Cash cow
+        (d) Question mark                                                  (2 Marks)
+    (C) Beta Company, a car manufacturer is buying up a supplier so that it gets a dedicated supplier with
+        both guaranteed quality and price. The material could be manufactured when required by Beta
+        Company leading to lower inventory levels. Which strategy has Beta Company adopted?
+        (a) Backward integration
+        (b) Forward integration
+        (c) Conglomerate diversification
+        (d) Horizontal integrated diversification                          (2 Marks)
+    (D) Developing vision and mission, identifying an organisation’s external opportunities and threats,
+        and determining internal strengths and weaknesses are:
+        (a) SBU planning
+        (b) Strategy formulation
+
+        (c) Strategy implementation
+        (d) Business process reengineering                                 (2 Marks)
+    (E) As the head of an MNC, you have been asked to bring in radical changes in your organisation
+        through BPR. Which of these is the thrust area you would focus on reducing:
+        (a) Total cycle time
+        (b) Total order time
+        (c) Total inventory time
+        (d) None                                                           (2 Marks)
+    (F) Which of the following is correct?
+        (a) Strategy is always pragmatic and not flexible
+        (b) Strategy is not always perfect, flawless and optimal
+        (c) Strategy is always perfect, flawless and optimal
+        (d) Strategy is always flexible but not pragmatic                   (1 Mark)
+    (G) A corporation organized in network structure is often called
+        (a) Virtual organization
+        (b) Hierarchical organization
+        (c) Structured organization
+        (d) Simple organization                                             (1 Mark)
+2.  X-Olympus is a gaming software company specializing in developing games for ZBox and GameStation-
+    4. The company is facing stiff competition due to saturation of market and price wars, which h as
+    excessively favor and highlight their dependence on gaming console manuf acturers. Thereby, the
+    company desires to establish a competitive advantage over industry rivals by enhancing the gaming
+    experience by expanding into Edge-Cloud Gaming Service on a monthly subscription basis. This service
+    offering does not require dedicated gaming consoles yet provide customers game streaming in 4K
+    resolution with an ample range of games to select from. This move is expected to insulate X -Olympus
+    from price wars and provide a competitive advantage. Identify and explain the generic strategies
+    adopted by X-Olympus?                                                  (5 Marks)
+3.  (a) "Strategy is partly proactive and partly reactive." Elaborate.     (5 Marks)
+    (b) Examine the significance of KSFs (Key Success Factors) for competitive success. (5 Marks)
+4.  (a) Shri Alok Kumar is having his own medium size factory in Aligarh manufacturing hardware
+        consisting handles, hinges, tower bolts and so on. He has a staff of more than 220 in his
+        organisation. One of the leading brand of Hardware seller in India is rebrandi ng and selling the
+        material from his factory. Shri Alok Kumar, believes in close supervision and takes all major and
+        minor decisions in the organisation.
+        Do you think Shri Alok should take all decisions himself? What should be the nature of decisions
+        that should be taken by him.                                       (5 Marks)
+    (b) How can management communicate that it is committed to creating a new culture assuming that
+        the old culture was problematic and not aligned with the company strategy? (5 Marks)
+
+5.  (a) Justify the statement "Stability strategy is opposite of Expansion strategy". (5 Marks)
+    (b) Explain the three major R & D approaches to implement strategic decisions. (5 Marks)
+6.  Distinguish between the following:
+    (a) Market Development and Product Development under Ansoff’s Product Market Growth Matrix.
+                                                                           (5 Marks)
+    (b) Distinguish between Strategy Formulation and Strategy Implementation. (5 Marks)

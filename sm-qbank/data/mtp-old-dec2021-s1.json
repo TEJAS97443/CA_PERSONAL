@@ -1,0 +1,540 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "Dec 2021",
+  "attempt_sort": "2021-12",
+  "series": "I",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/Eis-Sm-Q-MTP1-Inter-Oct21.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/Eis-Sm-A-MTP1-Inter-Oct21.pdf",
+  "local_file": "raw/mtp-old-dec2021-s1-q.pdf",
+  "local_answers_file": "raw/mtp-old-dec2021-s1-a.pdf",
+  "test_series": "October 2021",
+  "mock_test_paper_no": null,
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series I for Dec 2021 (Test Series: October 2021, MOCK TEST PAPER-I). The ICAI originals (resource.cdn.icai.org/67089bos54072-inter-p7q.pdf and /67151bos54085-inter-p7a.pdf, linked from https://www.icai.org/post/mtp-series-i-dec2021caexam) now return 404 and the Wayback Machine holds only the 404 responses; retrieved from the castudynotes.com mirror (https://castudynotes.com/2021/10/05/ca-inter-ipcc-oct-2021-mock-test-papers-mtps-for-new-old-syllabus-in-pdf-at-one-place/)."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-dec2021-s1-q1",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic choices — different strategic choices produce different business models → Ch 4",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "Zuberia, a London based choreographer with a master’s degree in social entrepreneurship, wanted\nto do something innovative and impactful with her international degree. Following which she took\non her dream to inculcate dance as a part of basic curriculum in primary education back in India.\nFor this, she set up a digital dance education company called DanceXT.\nThe business model was simple; approach active NGOs working on the field, conduct local\ncompetitions to spread awareness, offer scholarships to talented kids to lure in support, and finally\nbuild a community of interested individuals. This would act as a base for marketers to market their\nproducts amongst youth and also divert some of their CSR funds to a good cause. Interestingly,\nthere are numerous NGOs working for the same cause, but the business monetisation of\nDanceXT’s consumer data and easy approachability for businesses has created an advantage\nover others.\nA startup incubator was consulted to ensure free flow of funds in the initial few months until\nsponsors were arranged. The best alternative to bank loans was crowdfunding and that is what\nDanceXT opted for. Individuals and corporates were encouraged to provide for basic expenses\nwhile volunteerism was encouraged for on field support. The operations were smooth and\nfoolproof.\nThe company expanded exponentially in major cities of Delhi, Mumbai and Kolkata, while making\na surprising foothold in Jaipur, Indore, Surat and Nashik. With over 500 volunteers and 100 team\nleaders, many more college students expressed interest in joining the field force. Sports brands,\nFMCG giants, political candidates, and even government schools showed immense support to the\ncompany. It built a massive workforce making numerous local teams with one single target o f\ninculcating extra curricular in primary students especially through dance.\nThe highlight of their success was when four of their students got selected in a dance reality show\non television. Following it, the business is booming with marketers eyeing yout h while being true\nto the underlying cause of the company.\nBased on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:\n\nSimilar businesses in dance tutoring operated on different business models because of?",
+   "options": [
+    {
+     "label": "a",
+     "text": "The external environment"
+    },
+    {
+     "label": "b",
+     "text": "Customer Geographies"
+    },
+    {
+     "label": "c",
+     "text": "Choice of Strategy"
+    },
+    {
+     "label": "d",
+     "text": "Political Influence"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic choices",
+    "business model"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q2",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing mix / expanded marketing mix — part of the dropped functional Marketing Strategy (old Ch 6.2)",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nThe differentiating factor for DanceXT in comparison to its competitors has been which of the following?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Research and Development Strategy - Innovative Dance Forms"
+    },
+    {
+     "label": "b",
+     "text": "Vision Statement - Cultural Arts NGO aiming underprivileged talent"
+    },
+    {
+     "label": "c",
+     "text": "Marketing Mix Strategy - Product, Potential Consumer Insights for final businesses"
+    },
+    {
+     "label": "d",
+     "text": "Human Resource Strategy - Hiring quality dance trainers Pan-India"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "marketing mix",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q3",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Financial Strategy — dropped from the 2023 syllabus (old Ch 6.3)",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nIncubator was approached for which of the following aspects of financial strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Budgeting"
+    },
+    {
+     "label": "b",
+     "text": "Management of Funds"
+    },
+    {
+     "label": "c",
+     "text": "Evaluating worth of business"
+    },
+    {
+     "label": "d",
+     "text": "Acquisition of Capital`"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "financial strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q4",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through intensification → Ch 4",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nDanceXT can be categorised as which of the intensification strategies?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Market Penetration"
+    },
+    {
+     "label": "b",
+     "text": "Market Development"
+    },
+    {
+     "label": "c",
+     "text": "Product Development"
+    },
+    {
+     "label": "d",
+     "text": "Diversification of Services"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "intensification"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q5",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Chandler's strategy-structure relationship / intra-company conflicts → Ch 5",
+   "qno": "1(A)5",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich of the following could be the biggest challenge from Chandler’s Strategy-Structure Relationship for DanceXT?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Too many levels of management"
+    },
+    {
+     "label": "b",
+     "text": "Too much attention diverted to intracompany conflicts"
+    },
+    {
+     "label": "c",
+     "text": "Too many objectives to achieve"
+    },
+    {
+     "label": "d",
+     "text": "Too large a span of control"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q6",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Divestment / liquidation → Ch 4 (strategic exits)",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Baba Pvt Ltd has seventeen factories, nine of which they recently gave to other producers on lease. This has increased their cash inflows to a great extent, and they are enjoying this surplus by investing the same in financial assets. Such a strategy can be termed as which of the following?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Divest"
+    },
+    {
+     "label": "b",
+     "text": "Harvest"
+    },
+    {
+     "label": "c",
+     "text": "Hold"
+    },
+    {
+     "label": "d",
+     "text": "Build"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "divestment",
+    "liquidation"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q7",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Scenario analysis to reduce strategic uncertainty (external environment) → Ch 2",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Shreya, the owner of Kalakaari boutiques, wanted to reduce uncertainty of their business strategy for which she gathered a lot of information from peers, groups, industry reports and experts. But it did not give her comfort to take up new strategies. What tool can help her in this regard?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Risk Analysis"
+    },
+    {
+     "label": "b",
+     "text": "BCG Analysis"
+    },
+    {
+     "label": "c",
+     "text": "ADL Matrix"
+    },
+    {
+     "label": "d",
+     "text": "Scenario Analysis"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "scenario analysis",
+    "strategic uncertainty"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q8",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Divestment / liquidation → Ch 4 (strategic exits)",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Mixfix was having a tough time with its operations and wanting to restructure itself from scratch. For this, they consult a veteran in business strategy, Mrs. Sunita K, who post analysis of their business said, “your dead business is worth more than alive”. What did Mrs. Sunita hint at?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Restructuring Business"
+    },
+    {
+     "label": "b",
+     "text": "Liquidation"
+    },
+    {
+     "label": "c",
+     "text": "Business Process Re-engineering"
+    },
+    {
+     "label": "d",
+     "text": "Divestment"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "divestment",
+    "liquidation"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q9",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Premise control (type of strategic control) → Ch 5",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Systematic and continuous monitoring of the business environment to verify the accuracy of assumptions on which strategy is built is achieved by?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Premise Control"
+    },
+    {
+     "label": "b",
+     "text": "Special Alert Control"
+    },
+    {
+     "label": "c",
+     "text": "Implementation Control"
+    },
+    {
+     "label": "d",
+     "text": "Strategic Surveillance"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic control",
+    "premise control"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q10",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "DMart sells fast moving consumer goods at wholesale prices to retail customers, is a strategy of?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Market Penetration"
+    },
+    {
+     "label": "b",
+     "text": "Cost Differentiation"
+    },
+    {
+     "label": "c",
+     "text": "Cost Leadership"
+    },
+    {
+     "label": "d",
+     "text": "Market Development"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q11",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — objectives and goals → Ch 1",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "The philosophical base of strategic management falls within the concept of-",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategic Intent"
+    },
+    {
+     "label": "b",
+     "text": "Portfolio Analysis"
+    },
+    {
+     "label": "c",
+     "text": "Globalisation"
+    },
+    {
+     "label": "d",
+     "text": "Vision Statement"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "objectives"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q12",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Maadhyam, a hearing aid manufacturer recently introduced an AI based management tool in its\norganization which are having the qualities and capabilities of managing teams across functions. This\ntechnological tool in addition to saving organisational costs by replacing many tasks of the middle\nmanagement has also served as a link between top and bottom levels in the organisation and\nassists in quick decision making. The skewed middle level managers now perform cross-functional\nduties. What could be their new organizational structure post implementation of AI based management\ntool? How can this structure benefit the organization?",
+   "options": null,
+   "answer": "In the recent years information technology and communications have significantly altered the functioning\nof organizations. The role played by middle management is diminishing as the tasks performed by them\nare increasingly being replaced by the technological tools. Hourglass organization structure consists of\nthree layers in an organisation structure with constricted middle layer. The structure has a short and\nnarrow middle management level.\nInformation technology links the top and bottom levels in the organization taking away many tasks that\nare performed by the middle level managers. A shrunken middle layer coordinates diverse lower level\nactivities.\nHourglass Organization Structure\nHourglass structure has obvious benefit of reduced costs. It also helps in enhancing responsiveness by\nsimplifying decision making. Decision making authority is shifted close to the source of information so\nthat it is faster. However, with the reduced size of middle management, the promotion opportunities for\nthe lower levels diminish significantly.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q13",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — partly proactive, partly reactive → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Yummy Foods and Tasty Foods are successfully competing in the business of ready to eat snacks\nin Patna. Yummy has been pioneer in introducing innovative products. These products will give\nthem good sale. However, Tasty Foods will introduce similar products in reaction to the products\nintroduced by the Yummy Foods taking away the advantage gained by the former",
+   "options": null,
+   "answer": "Yummy foods are proactive in its approach. On the other hand, Tasty Food is reactive. Proactive\nstrategy is planned strategy whereas reactive strategy is adaptive reaction to changing\ncircumstances. A company’s strategy is typically a blend of proactive actions on the part of\nmanagers to improve the company’s market position and financial performance and reactions to\nunanticipated developments and fresh market conditions.\nIf organisational resources permit, it is better to be proactive rather than reactive. Being proactive\nin aspects such as introducing new products will give you advantage in the mind of customers.\n\nAt the same time, crafting a strategy involves stitching together a proactive/intended strategy and\nthen adapting first one piece and then another as circumstances surrounding the company’s\nsituation change or better options emerge-a reactive/adaptive strategy. This aspect can be\naccomplished by Yummy Foods.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "nature of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q14",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Ansoff’s product-market growth matrix → Ch 4",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "How Ansoff’s Product Market Growth Matrix is a useful tool for business organizations?",
+   "options": null,
+   "answer": "The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps\nbusinesses decide their product and market growth strategy. With the use of this matrix a business\ncan get a fair idea about how its growth depends in new or existing products in both new and\nexisting markets.\nCompanies should always be looking to the future. Businesses that use the Ansoff matrix can\ndetermine the best strategy. The matrix can help them to decide how to do this by demonstrating\ntheir options clearly, breaking them down into four strategies, viz., Market Penetration, Market\nDevelopment, Product Development, Diversification. Determining which of these is best for their\nbusiness will depend on a number of variables including available resources, infrastructure, ma rket\nposition, location and budget.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "ansoff"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q15",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / implementation issues → Ch 5",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Strategy execution is an operations-oriented activity which involves a good fit between strategy\nand organizational capabilities, structure, climate & culture. Enumerate the principal aspects of\nstrategy execution process which are used in most of the situations.",
+   "options": null,
+   "answer": "Implementation and execution are an operations-oriented activity aimed at shaping the\nperformance of core business activities in a strategy-supportive manner. To convert strategic plans\ninto actions and results, a manager must be able to direct organizational change, motivate people,\nbuild and strengthen company’s competencies and competitive capabilities, create a strategy -\nsupportive work culture, and meet or beat performance targets. Good strategy execution involves\ncreating strong “fits” between strategy and organizational capabilities, structure, climate & culture.\nIn most situations, strategy-execution process includes the following principal aspects:\n1. Developing budgets that steer ample resources into those activities critical to strategic\nsuccess.\n2. Staffing the organization with the needed skills and expertise, consciously building and\nstrengthening strategy-supportive competencies and competitive capabilities and organizing\nthe work effort.\n3. Ensuring that policies and operating procedures facilitate rather than impede effective\nexecution.\n4. Using the best-known practices to perform core business activities and pushing for\ncontinuous improvement.\n5. Installing information and operating systems that enable company personnel to better\ncarry out their strategic roles day in and day out.\n6. Motivating people to pursue the target objectives energetically.\n7. Creating a company culture and work climate conducive to successful strategy\nimplementation and execution.\n8. Exerting the internal leadership needed to drive implementation forward and keep\nimproving strategy execution. When the organization encounters stumbling blocks or\nweaknesses, management has to see that they are addressed and rectified quickly.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q16",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Promotion / pricing element of the marketing mix — part of the dropped functional Marketing Strategy (old Ch 6.2)",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What are the objectives that must be kept in mind while designing a pricing strategy of a new\nproduct?",
+   "options": null,
+   "answer": "For a new product pricing strategies for entering a market needs to be designed. In pricing a really\nnew product at least three objectives must be kept in mind.\ni. Making the product acceptable to the customers.\nii. Producing a reasonable margin over cost.\niii. Achieving a market that helps in developing market share.\nFor a new product an organization may either choose to skim or penetrate the market. In skimming\nprices are set at a very high level. The product is directed to those buyers who are relatively price\n\ninsensitive but sensitive to the novelty of the new product. For example call rates of mobile\ntelephony were set very high initially. Even the incoming calls were charged. Since the initial off\ntake of the product is low, high price, in a way, helps in rationing of supply in favour of those who\ncan afford it.\nIn penetration pricing firm keeps a temptingly low price for a new product which itself is selling\npoint. A very large number of the potential customers may be able to afford and willing to try the\nproduct.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "promotion",
+    "marketing mix"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q17",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Spacetek Pvt. Ltd. is an IT company. Although there is cut throat competition in the IT sector,\nSpacetek deals with distinctive niche clients and is generating high efficiencies for serving such\nniche market. Other rival firms are not attempting to specialize in the same target market. Identify\nthe strategy adopted by Spacetek Pvt. Ltd. and also explain the advantages and disadvantages of\nthat strategy.",
+   "options": null,
+   "answer": "Spacetek Pvt. Ltd. company has adopted Focus strategy which is one of the Michael Porter’s\nGeneric strategies. Focus strategies are most effective when consumers have distinctive\npreferences or requirements and when rival firms are not attempting to specialize in the same\ntarget segment. An organization using a focus strategy may concentrate on a particular group of\ncustomers, geographic markets, or on particular product-line segments in order to serve a well-\ndefined but narrow market better than competitors who serve a broader market.\nAdvantages of Focus Strategy\n1. Premium prices can be charged by the organizations for their focused product/services.\n2. Due to the tremendous expertise about the goods and services that organizations following\nfocus strategy offer, rivals and new entrants may find it difficult to compete.\nDisadvantages of Focus Strategy\n1. The firms lacking in distinctive competencies may not be able to pursue focus strategy.\n2. Due to the limited demand of product/services, costs are high which can cause problems.\n3. In the long run, the niche could disappear or be taken over by larger competitors by acquiring\nthe same distinctive competencies.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q18",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Research & Development Strategy — dropped from the 2023 syllabus (old Ch 6.5)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain the three major R & D approaches to implement strategic decisions.",
+   "options": null,
+   "answer": "There are at least three major R&D approaches for implementing strategies.\ni. Be the leader: The first strategy is to be the first firm to market new technological products.\nThis is a glamorous and exciting strategy but also a dangerous one. Firms such as 3M and\nGeneral Electric have been successful with this approach, but many other pioneering firms\nhave fallen, with rival firms seizing the initiative.\nii. Be an innovative imitator: A second R&D approach is to be an innovative imitator of\nsuccessful products, thus minimizing the risks and costs of startup. This approach e ntails\nallowing a pioneer firm to develop the first version of the new product and to demonstrate that\na market exists. Then, laggard firms develop a similar product. This strategy requires excellent\nR&D personnel and an excellent marketing department.\niii. Be a low-cost producer: A third R&D strategy is to be a low-cost producer by mass-\nproducing products similar to but less expensive than products recently introduced. As a new\nproduct accepted by customers, price becomes increasingly important in the buying decision.\nAlso, mass marketing replaces personal selling as the dominant selling strategy. This R&D\nstrategy requires substantial investment in plant and equipment, but fewer expenditures in\nR&D than the two approaches described earlier.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "r&d",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q19",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nTransformational leadership and Transactional leadership.",
+   "options": null,
+   "answer": "Following are the differences between transformational and transactional leadership:\n1. Transformational leadership style uses charisma and enthusiasm to inspire people to exert\nthem for the good of organization. Transactional leadership style uses the authority of its\noffice to exchange rewards such as pay, status symbols etc.\n2. Transformational leadership style may be appropriate in turbulent environment, in industries\nat the very start or end of their cycles, poorly performing organisations, when there is a need\n\nto inspire a company to embrace major changes. Transactional leadership style can be\nappropriate in static environment, in growing or mature industries and in organisations that\nare performing well.\n3. Transformational leaders inspire employees by offering excitement, vision, intellectual\nstimulation and personal satisfaction. Transactional leaders prefer a more formalized\napproach to motivation, setting clear goals with explicit rewards or penalties for achievement\nand non-achievement. Transactional leaders focus mainly to build on existing culture and\nenhance current practices.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic leadership"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s1-q20",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / implementation issues → Ch 5",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nStrategy Formulation and Strategy Implementation.",
+   "options": null,
+   "answer": "Although inextricably linked, strategy implementation is fundamentally different from strategy\nformulation in the following ways:\nStrategy Formulation Strategy Implementation\n Strategy formulation focuses on  Strategy implementation focuses on\neffectiveness. efficiency.\n Strategy formulation is primarily an  Strategy implementation is primarily an\nintellectual process. operational process.\n Strategy formulation requires  Strategy implementation requires\nconceptual intuitive and analytical skills. motivation and leadership skills.\n Strategy formulation requires  Strategy implementation requires\ncoordination among the executives at coordination among the executives at the\nthe top level. middle and lower levels.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4355 @@
+{
+ "extra_files": [
+  {
+   "name": "00-initial-pages-m1",
+   "title": "Module 1 Initial Pages",
+   "pdf": "pdf/m1-ip.pdf",
+   "txt": "txt/00-initial-pages-m1.txt"
+  },
+  {
+   "name": "00-initial-pages-m2",
+   "title": "Module 2 Initial Pages",
+   "pdf": "pdf/m2-ip.pdf",
+   "txt": "txt/00-initial-pages-m2.txt"
+  },
+  {
+   "name": "90-appendix-m1",
+   "title": "Module 1 Appendix (present value / annuity tables)",
+   "pdf": "pdf/m1-appendix.pdf",
+   "txt": "txt/90-appendix-m1.txt"
+  },
+  {
+   "name": "90-appendix-m2",
+   "title": "Module 2 Appendix (present value / annuity tables)",
+   "pdf": "pdf/m2-appendix.pdf",
+   "txt": "txt/90-appendix-m2.txt"
+  }
+ ],
+ "docs": {
+  "00-initial-pages-m1": {
+   "pages": [
+    1,
+    22
+   ],
+   "low_text_pages": []
+  },
+  "00-initial-pages-m2": {
+   "pages": [
+    1,
+    11
+   ],
+   "low_text_pages": []
+  },
+  "90-appendix-m1": {
+   "pages": [
+    1,
+    8
+   ],
+   "low_text_pages": []
+  },
+  "90-appendix-m2": {
+   "pages": [
+    1,
+    8
+   ],
+   "low_text_pages": []
+  },
+  "01-scope-and-objectives-of-financial-management": {
+   "pages": [
+    1,
+    30
+   ],
+   "printed": [
+    "1.1",
+    "1.30"
+   ],
+   "labels": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.9",
+    "1.10",
+    "1.11",
+    "1.12",
+    "1.13",
+    "1.14",
+    "1.15",
+    "1.16",
+    "1.17",
+    "1.18",
+    "1.19",
+    "1.20",
+    "1.21",
+    "1.22",
+    "1.23",
+    "1.24",
+    "1.25",
+    "1.26",
+    "1.27",
+    "1.28",
+    "1.29",
+    "1.30"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "1.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "1.2"
+    },
+    {
+     "h": "1. INTRODUCTION",
+     "num": "1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "1.2"
+    },
+    {
+     "h": "2. MEANING OF FINANCIAL MANAGEMENT",
+     "num": "2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "1.3"
+    },
+    {
+     "h": "2.1 Procurement of Funds",
+     "num": "2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "1.4"
+    },
+    {
+     "h": "2.2 Effective Utilisation of Funds",
+     "num": "2.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 7,
+     "level": 2,
+     "printed": "1.7"
+    },
+    {
+     "h": "3. EVOLUTION OF FINANCIAL MANAGEMENT",
+     "num": "3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 7,
+     "level": 1,
+     "printed": "1.7"
+    },
+    {
+     "h": "4. FINANCE FUNCTIONS/ FINANCE DECISION",
+     "num": "4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 8,
+     "level": 1,
+     "printed": "1.8"
+    },
+    {
+     "h": "5. IMPORTANCE OF FINANCIAL MANAGE- MENT",
+     "num": "5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 10,
+     "level": 1,
+     "printed": "1.10"
+    },
+    {
+     "h": "6. SCOPE OF FINANCIAL MANAGEMENT",
+     "num": "6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 11,
+     "level": 1,
+     "printed": "1.11"
+    },
+    {
+     "h": "7. OBJECTIVES OF FINANCIAL MANAGEMENT",
+     "num": "7",
+     "size": 16.0,
+     "numbered": true,
+     "page": 12,
+     "level": 1,
+     "printed": "1.12"
+    },
+    {
+     "h": "7.1 Profit Maximisation",
+     "num": "7.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 13,
+     "level": 2,
+     "printed": "1.13"
+    },
+    {
+     "h": "7.2 Wealth Maximisation/ Value Creation",
+     "num": "7.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 14,
+     "level": 2,
+     "printed": "1.14"
+    },
+    {
+     "h": "8. CONFLICTS IN PROFIT VERSUS VALUE MAXIMISATION PRINCIPLE",
+     "num": "8",
+     "size": 16.0,
+     "numbered": true,
+     "page": 16,
+     "level": 1,
+     "printed": "1.16"
+    },
+    {
+     "h": "9. ROLE OF FINANCE EXECUTIVE",
+     "num": "9",
+     "size": 16.0,
+     "numbered": true,
+     "page": 18,
+     "level": 1,
+     "printed": "1.18"
+    },
+    {
+     "h": "9.1 Role of Finance Executive in today’s World vis-a-vis in the past",
+     "num": "9.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "1.20"
+    },
+    {
+     "h": "10. FINANCIAL DISTRESS AND INSOLVENCY",
+     "num": "10",
+     "size": 16.0,
+     "numbered": true,
+     "page": 21,
+     "level": 1,
+     "printed": "1.21"
+    },
+    {
+     "h": "11. RELATIONSHIP OF FINANCIAL MANAGE- MENT WITH RELATED DISCIPLINES",
+     "num": "11",
+     "size": 16.0,
+     "numbered": true,
+     "page": 21,
+     "level": 1,
+     "printed": "1.21"
+    },
+    {
+     "h": "11.1 Financial Management and Accounting",
+     "num": "11.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 21,
+     "level": 2,
+     "printed": "1.21"
+    },
+    {
+     "h": "11.2 Financial Management and Other Related Disciplines",
+     "num": "11.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 23,
+     "level": 2,
+     "printed": "1.23"
+    },
+    {
+     "h": "12. AGENCY PROBLEM AND AGENCY COST",
+     "num": "12",
+     "size": 16.0,
+     "numbered": true,
+     "page": 24,
+     "level": 1,
+     "printed": "1.24"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 25,
+     "level": 1,
+     "printed": "1.25"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 26,
+     "level": 1,
+     "printed": "1.26"
+    },
+    {
+     "h": "Multiple Choice Questions (MCQs)",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 26,
+     "level": 1,
+     "printed": "1.26"
+    },
+    {
+     "h": "Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 28,
+     "level": 1,
+     "printed": "1.28"
+    },
+    {
+     "h": "ANSWERS",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 29,
+     "level": 1,
+     "printed": "1.29"
+    },
+    {
+     "h": "Answers to the MCQs",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 29,
+     "level": 1,
+     "printed": "1.29"
+    },
+    {
+     "h": "Answers to the Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 29,
+     "level": 1,
+     "printed": "1.29"
+    }
+   ],
+   "formula_pages": [],
+   "low_text_pages": [
+    30
+   ],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "SCOPE AND OBJECTIVES OF FINANCIAL",
+    "SCOPE AND OBJECTIVES OF FINANCIAL MANAGEMENT"
+   ],
+   "label_conflicts": []
+  },
+  "02-types-of-financing": {
+   "pages": [
+    1,
+    46
+   ],
+   "printed": [
+    "2.1",
+    "2.46"
+   ],
+   "labels": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "2.11",
+    "2.12",
+    "2.13",
+    "2.14",
+    "2.15",
+    "2.16",
+    "2.17",
+    "2.18",
+    "2.19",
+    "2.20",
+    "2.21",
+    "2.22",
+    "2.23",
+    "2.24",
+    "2.25",
+    "2.26",
+    "2.27",
+    "2.28",
+    "2.29",
+    "2.30",
+    "2.31",
+    "2.32",
+    "2.33",
+    "2.34",
+    "2.35",
+    "2.36",
+    "2.37",
+    "2.38",
+    "2.39",
+    "2.40",
+    "2.41",
+    "2.42",
+    "2.43",
+    "2.44",
+    "2.45",
+    "2.46"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "2.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "2.2"
+    },
+    {
+     "h": "1. FINANCIAL NEEDS AND SOURCES OF FINANCE OF A BUSINESS",
+     "num": "1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "2.2"
+    },
+    {
+     "h": "2. CLASSIFICATION OF FINANCIAL SOURCES",
+     "num": "2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "2.3"
+    },
+    {
+     "h": "2.1 Sources of Finance based on Basic Sources",
+     "num": "2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "2.4"
+    },
+    {
+     "h": "2.2 Sources of Finance based on Maturity of Payment",
+     "num": "2.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "2.4"
+    },
+    {
+     "h": "2.3 Sources of Finance based on Ownership and Control.",
+     "num": "2.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "2.5"
+    },
+    {
+     "h": "3. LONG-TERM SOURCES OF FINANCE",
+     "num": "3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 5,
+     "level": 1,
+     "printed": "2.5"
+    },
+    {
+     "h": "3.1 Owners Capital or Equity Capital",
+     "num": "3.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "2.5"
+    },
+    {
+     "h": "3.2 Preference Share Capital",
+     "num": "3.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 7,
+     "level": 2,
+     "printed": "2.7"
+    },
+    {
+     "h": "3.3 Retained Earnings",
+     "num": "3.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 10,
+     "level": 2,
+     "printed": "2.10"
+    },
+    {
+     "h": "3.4 Debentures",
+     "num": "3.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 10,
+     "level": 2,
+     "printed": "2.10"
+    },
+    {
+     "h": "3.5 Bond",
+     "num": "3.5",
+     "size": 14.0,
+     "numbered": true,
+     "page": 13,
+     "level": 2,
+     "printed": "2.13"
+    },
+    {
+     "h": "3.6 Loans from Financial Institutions",
+     "num": "3.6",
+     "size": 14.0,
+     "numbered": true,
+     "page": 16,
+     "level": 2,
+     "printed": "2.16"
+    },
+    {
+     "h": "3.7 Loans from Commercial Banks",
+     "num": "3.7",
+     "size": 14.0,
+     "numbered": true,
+     "page": 17,
+     "level": 2,
+     "printed": "2.17"
+    },
+    {
+     "h": "4. VENTURE CAPITAL FINANCING",
+     "num": "4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 18,
+     "level": 1,
+     "printed": "2.18"
+    },
+    {
+     "h": "4.1 Meaning of Venture Capital Financing",
+     "num": "4.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 18,
+     "level": 2,
+     "printed": "2.18"
+    },
+    {
+     "h": "4.2 Characteristics of Venture Capital Financing",
+     "num": "4.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 18,
+     "level": 2,
+     "printed": "2.18"
+    },
+    {
+     "h": "4.3 Methods of Venture Capital Financing",
+     "num": "4.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 19,
+     "level": 2,
+     "printed": "2.19"
+    },
+    {
+     "h": "5. DEBT SECURITISATION",
+     "num": "5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 19,
+     "level": 1,
+     "printed": "2.19"
+    },
+    {
+     "h": "6. LEASE FINANCING",
+     "num": "6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 20,
+     "level": 1,
+     "printed": "2.20"
+    },
+    {
+     "h": "6.1 Types of Lease Contracts",
+     "num": "6.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 21,
+     "level": 2,
+     "printed": "2.21"
+    },
+    {
+     "h": "6.2 Other Types of Leases",
+     "num": "6.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 23,
+     "level": 2,
+     "printed": "2.23"
+    },
+    {
+     "h": "7. SHORT-TERM SOURCES OF FINANCE",
+     "num": "7",
+     "size": 16.0,
+     "numbered": true,
+     "page": 24,
+     "level": 1,
+     "printed": "2.24"
+    },
+    {
+     "h": "8. OTHER SOURCES OF FINANCING",
+     "num": "8",
+     "size": 16.0,
+     "numbered": true,
+     "page": 32,
+     "level": 1,
+     "printed": "2.32"
+    },
+    {
+     "h": "9. INTERNATIONAL FINANCING",
+     "num": "9",
+     "size": 16.0,
+     "numbered": true,
+     "page": 35,
+     "level": 1,
+     "printed": "2.35"
+    },
+    {
+     "h": "10. CONTEMPORARY SOURCES OF FUNDING",
+     "num": "10",
+     "size": 16.0,
+     "numbered": true,
+     "page": 41,
+     "level": 1,
+     "printed": "2.41"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 42,
+     "level": 1,
+     "printed": "2.42"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 43,
+     "level": 1,
+     "printed": "2.43"
+    },
+    {
+     "h": "Multiple Choice Questions (MCQs)",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 43,
+     "level": 1,
+     "printed": "2.43"
+    },
+    {
+     "h": "Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 46,
+     "level": 1,
+     "printed": "2.46"
+    },
+    {
+     "h": "ANSWERS",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 46,
+     "level": 1,
+     "printed": "2.46"
+    },
+    {
+     "h": "Answers to the MCQs",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 46,
+     "level": 1,
+     "printed": "2.46"
+    },
+    {
+     "h": "Answers to Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 46,
+     "level": 1,
+     "printed": "2.46"
+    }
+   ],
+   "formula_pages": [],
+   "low_text_pages": [],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "TYPES OF FINANCING"
+   ],
+   "label_conflicts": []
+  },
+  "03-financial-analysis-and-planning-ratio-analysis": {
+   "pages": [
+    1,
+    100
+   ],
+   "printed": [
+    "3.1",
+    "3.100"
+   ],
+   "labels": [
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "3.8",
+    "3.9",
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14",
+    "3.15",
+    "3.16",
+    "3.17",
+    "3.18",
+    "3.19",
+    "3.20",
+    "3.21",
+    "3.22",
+    "3.23",
+    "3.24",
+    "3.25",
+    "3.26",
+    "3.27",
+    "3.28",
+    "3.29",
+    "3.30",
+    "3.31",
+    "3.32",
+    "3.33",
+    "3.34",
+    "3.35",
+    "3.36",
+    "3.37",
+    "3.38",
+    "3.39",
+    "3.40",
+    "3.41",
+    "3.42",
+    "3.43",
+    "3.44",
+    "3.45",
+    "3.46",
+    "3.47",
+    "3.48",
+    "3.49",
+    "3.50",
+    "3.51",
+    "3.52",
+    "3.53",
+    "3.54",
+    "3.55",
+    "3.56",
+    "3.57",
+    "3.58",
+    "3.59",
+    "3.60",
+    "3.61",
+    "3.62",
+    "3.63",
+    "3.64",
+    "3.65",
+    "3.66",
+    "3.67",
+    "3.68",
+    "3.69",
+    "3.70",
+    "3.71",
+    "3.72",
+    "3.73",
+    "3.74",
+    "3.75",
+    "3.76",
+    "3.77",
+    "3.78",
+    "3.79",
+    "3.80",
+    "3.81",
+    "3.82",
+    "3.83",
+    "3.84",
+    "3.85",
+    "3.86",
+    "3.87",
+    "3.88",
+    "3.89",
+    "3.90",
+    "3.91",
+    "3.92",
+    "3.93",
+    "3.94",
+    "3.95",
+    "3.96",
+    "3.97",
+    "3.98",
+    "3.99",
+    "3.100"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "3.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "3.2"
+    },
+    {
+     "h": "1. INTRODUCTION",
+     "num": "1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "3.2"
+    },
+    {
+     "h": "2. RATIO AND RATIO ANALYSIS",
+     "num": "2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "3.3"
+    },
+    {
+     "h": "2.1 Definition of Ratio",
+     "num": "2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 3,
+     "level": 2,
+     "printed": "3.3"
+    },
+    {
+     "h": "2.2 Ratio Analysis",
+     "num": "2.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 3,
+     "level": 2,
+     "printed": "3.3"
+    },
+    {
+     "h": "2.3 Sources of Financial Data for Analysis",
+     "num": "2.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "3.4"
+    },
+    {
+     "h": "3. TYPES OF RATIOS",
+     "num": "3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 4,
+     "level": 1,
+     "printed": "3.4"
+    },
+    {
+     "h": "3.1 Liquidity Ratios",
+     "num": "3.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "3.5"
+    },
+    {
+     "h": "3.2 Long-term Solvency Ratios/ Leverage Ratios",
+     "num": "3.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 8,
+     "level": 2,
+     "printed": "3.8"
+    },
+    {
+     "h": "3.2.1 Capital Structure Ratios",
+     "num": "3.2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 9,
+     "level": 2,
+     "printed": "3.9"
+    },
+    {
+     "h": "3.2.2 Coverage Ratios",
+     "num": "3.2.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 11,
+     "level": 2,
+     "printed": "3.11"
+    },
+    {
+     "h": "3.3 Activity Ratios/ Efficiency Ratios/ Performance Ratios/ Turnover Ratios",
+     "num": "3.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 13,
+     "level": 2,
+     "printed": "3.13"
+    },
+    {
+     "h": "3.4 Profitability Ratios",
+     "num": "3.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 18,
+     "level": 2,
+     "printed": "3.18"
+    },
+    {
+     "h": "3.4.1 Profitability Ratios based on Sales",
+     "num": "3.4.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "3.20"
+    },
+    {
+     "h": "3.4.2 Profitability Ratios related to Overall Return on Assets/ Investments",
+     "num": "3.4.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 22,
+     "level": 2,
+     "printed": "3.22"
+    },
+    {
+     "h": "3.4.3 Profitability Ratios Required for Analysis from Owner’s Point of View",
+     "num": "3.4.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 27,
+     "level": 2,
+     "printed": "3.27"
+    },
+    {
+     "h": "3.4.4 Profitability Ratios related to market/valuation/ Investors",
+     "num": "3.4.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 28,
+     "level": 2,
+     "printed": "3.28"
+    },
+    {
+     "h": "4. USERS AND OBJECTIVE OF FINANCIAL ANALYSIS - A BIRD'S EYE VIEW",
+     "num": "4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 30,
+     "level": 1,
+     "printed": "3.30"
+    },
+    {
+     "h": "5. APPLICATION OF RATIO ANALYSIS IN FINANCIAL DECISION MAKING",
+     "num": "5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 33,
+     "level": 1,
+     "printed": "3.33"
+    },
+    {
+     "h": "5.1 Financial Ratios for Evaluating Performance",
+     "num": "5.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 34,
+     "level": 2,
+     "printed": "3.34"
+    },
+    {
+     "h": "6. LIMITATIONS OF FINANCIAL RATIOS",
+     "num": "6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 36,
+     "level": 1,
+     "printed": "3.36"
+    },
+    {
+     "h": "7. FINANCIAL ANALYSIS",
+     "num": "7",
+     "size": 16.0,
+     "numbered": true,
+     "page": 37,
+     "level": 1,
+     "printed": "3.37"
+    },
+    {
+     "h": "8. SUMMARY OF RATIOS",
+     "num": "8",
+     "size": 16.0,
+     "numbered": true,
+     "page": 38,
+     "level": 1,
+     "printed": "3.38"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 60,
+     "level": 1,
+     "printed": "3.60"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 61,
+     "level": 1,
+     "printed": "3.61"
+    },
+    {
+     "h": "Multiple Choice Questions (MCQs)",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 61,
+     "level": 1,
+     "printed": "3.61"
+    },
+    {
+     "h": "Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 65,
+     "level": 1,
+     "printed": "3.65"
+    },
+    {
+     "h": "Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 71,
+     "level": 1,
+     "printed": "3.71"
+    },
+    {
+     "h": "ANSWERS/SOLUTION",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 75,
+     "level": 1,
+     "printed": "3.75"
+    },
+    {
+     "h": "Answers to the MCQs",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 75,
+     "level": 1,
+     "printed": "3.75"
+    },
+    {
+     "h": "Answers to the Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 75,
+     "level": 1,
+     "printed": "3.75"
+    },
+    {
+     "h": "Answers to the Practical Problems",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 76,
+     "level": 1,
+     "printed": "3.76"
+    },
+    {
+     "h": "Answers to the Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 97,
+     "level": 1,
+     "printed": "3.97"
+    }
+   ],
+   "formula_pages": [
+    6,
+    9,
+    26,
+    29,
+    38,
+    39,
+    41,
+    42,
+    45,
+    46,
+    48,
+    49,
+    50,
+    52,
+    55,
+    56,
+    57,
+    68,
+    76,
+    77,
+    78,
+    79,
+    81,
+    82,
+    83,
+    84,
+    85,
+    88,
+    96,
+    97,
+    98
+   ],
+   "low_text_pages": [
+    100
+   ],
+   "running_heads": [
+    "FINANCIAL ANALYSIS AND PLANNING",
+    "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
+    "FINANCIAL ANALYSIS AND PLANNING RATIO ANALYSIS",
+    "FINANCIAL MANAGEMENT",
+    "RATIO ANALYSIS"
+   ],
+   "label_conflicts": []
+  },
+  "04-cost-of-capital": {
+   "pages": [
+    1,
+    60
+   ],
+   "printed": [
+    "4.1",
+    "4.60"
+   ],
+   "labels": [
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "4.7",
+    "4.8",
+    "4.9",
+    "4.10",
+    "4.11",
+    "4.12",
+    "4.13",
+    "4.14",
+    "4.15",
+    "4.16",
+    "4.17",
+    "4.18",
+    "4.19",
+    "4.20",
+    "4.21",
+    "4.22",
+    "4.23",
+    "4.24",
+    "4.25",
+    "4.26",
+    "4.27",
+    "4.28",
+    "4.29",
+    "4.30",
+    "4.31",
+    "4.32",
+    "4.33",
+    "4.34",
+    "4.35",
+    "4.36",
+    "4.37",
+    "4.38",
+    "4.39",
+    "4.40",
+    "4.41",
+    "4.42",
+    "4.43",
+    "4.44",
+    "4.45",
+    "4.46",
+    "4.47",
+    "4.48",
+    "4.49",
+    "4.50",
+    "4.51",
+    "4.52",
+    "4.53",
+    "4.54",
+    "4.55",
+    "4.56",
+    "4.57",
+    "4.58",
+    "4.59",
+    "4.60"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "4.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "4.1"
+    },
+    {
+     "h": "1. INTRODUCTION",
+     "num": "1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "4.2"
+    },
+    {
+     "h": "2. MEANING OF COST OF CAPITAL",
+     "num": "2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "4.2"
+    },
+    {
+     "h": "3. SIGNIFICANCE OF COST OF CAPITAL",
+     "num": "3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "4.2"
+    },
+    {
+     "h": "4. DETERMINATION OF COST OF CAPITAL",
+     "num": "4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "4.3"
+    },
+    {
+     "h": "5. COST OF LONG-TERM DEBT (KD)",
+     "num": "5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 5,
+     "level": 1,
+     "printed": "4.5"
+    },
+    {
+     "h": "5.1 Features of Debentures or Bonds",
+     "num": "5.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "4.5"
+    },
+    {
+     "h": "5.2 Cost of Irredeemable Debentures",
+     "num": "5.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 7,
+     "level": 2,
+     "printed": "4.7"
+    },
+    {
+     "h": "5.3 Cost of Redeemable Debentures (using approximation method)",
+     "num": "5.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 8,
+     "level": 2,
+     "printed": "4.8"
+    },
+    {
+     "h": "5.3.1 Cost of Debt using Present value method [Yield to maturity (YTM) approach]",
+     "num": "5.3.1",
+     "size": 12.0,
+     "numbered": true,
+     "page": 11,
+     "level": 3,
+     "printed": "4.11"
+    },
+    {
+     "h": "5.3.2 Amortisation of Bond",
+     "num": "5.3.2",
+     "size": 12.0,
+     "numbered": true,
+     "page": 13,
+     "level": 3,
+     "printed": "4.13"
+    },
+    {
+     "h": "5.4 Cost of Convertible Debentures",
+     "num": "5.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 14,
+     "level": 2,
+     "printed": "4.14"
+    },
+    {
+     "h": "6. COST OF PREFERENCE SHARE CAPITAL (KP)",
+     "num": "6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 16,
+     "level": 1,
+     "printed": "4.16"
+    },
+    {
+     "h": "6.1 Cost of Irredeemable Preference Shares",
+     "num": "6.1",
+     "size": 14.1,
+     "numbered": true,
+     "page": 16,
+     "level": 2,
+     "printed": "4.16"
+    },
+    {
+     "h": "6.2 Cost of Redeemable Preference Shares",
+     "num": "6.2",
+     "size": 14.1,
+     "numbered": true,
+     "page": 18,
+     "level": 2,
+     "printed": "4.18"
+    },
+    {
+     "h": "7. COST OF EQUITY SHARE CAPITAL (KE)",
+     "num": "7",
+     "size": 16.0,
+     "numbered": true,
+     "page": 19,
+     "level": 1,
+     "printed": "4.19"
+    },
+    {
+     "h": "7.1 Dividend Price Approach",
+     "num": "7.1",
+     "size": 14.1,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "4.20"
+    },
+    {
+     "h": "7.2 Earnings Price Approach",
+     "num": "7.2",
+     "size": 14.1,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "4.20"
+    },
+    {
+     "h": "7.3 Growth Approach or Gordon’s Model",
+     "num": "7.3",
+     "size": 14.1,
+     "numbered": true,
+     "page": 21,
+     "level": 2,
+     "printed": "4.21"
+    },
+    {
+     "h": "7.4 Realized Yield Approach",
+     "num": "7.4",
+     "size": 14.1,
+     "numbered": true,
+     "page": 24,
+     "level": 2,
+     "printed": "4.24"
+    },
+    {
+     "h": "7.5 Capital Asset Pricing Model (CAPM) Approach",
+     "num": "7.5",
+     "size": 14.1,
+     "numbered": true,
+     "page": 25,
+     "level": 2,
+     "printed": "4.25"
+    },
+    {
+     "h": "8. COST OF RETAINED EARNINGS (KR)",
+     "num": "8",
+     "size": 16.0,
+     "numbered": true,
+     "page": 28,
+     "level": 1,
+     "printed": "4.28"
+    },
+    {
+     "h": "9. WEIGHTED AVERAGE COST OF CAPITAL (WACC)",
+     "num": "9",
+     "size": 16.0,
+     "numbered": true,
+     "page": 31,
+     "level": 1,
+     "printed": "4.31"
+    },
+    {
+     "h": "9.1 Choice of Weights",
+     "num": "9.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 33,
+     "level": 2,
+     "printed": "4.33"
+    },
+    {
+     "h": "10. MARGINAL COST OF CAPITAL",
+     "num": "10",
+     "size": 16.0,
+     "numbered": true,
+     "page": 38,
+     "level": 1,
+     "printed": "4.38"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 42,
+     "level": 1,
+     "printed": "4.42"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 43,
+     "level": 1,
+     "printed": "4.43"
+    },
+    {
+     "h": "Multiple Choice Questions (MCQs)",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 43,
+     "level": 1,
+     "printed": "4.43"
+    },
+    {
+     "h": "Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 45,
+     "level": 1,
+     "printed": "4.45"
+    },
+    {
+     "h": "Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 49,
+     "level": 1,
+     "printed": "4.49"
+    },
+    {
+     "h": "ANSWERS/SOLUTION",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 51,
+     "level": 1,
+     "printed": "4.51"
+    },
+    {
+     "h": "Answers to the MCQs",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 51,
+     "level": 1,
+     "printed": "4.51"
+    },
+    {
+     "h": "Answers to the Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 51,
+     "level": 1,
+     "printed": "4.51"
+    },
+    {
+     "h": "Answers to the Practical Problems",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 52,
+     "level": 1,
+     "printed": "4.52"
+    },
+    {
+     "h": "Answers to the Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 60,
+     "level": 1,
+     "printed": "4.60"
+    }
+   ],
+   "formula_pages": [
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    25,
+    31,
+    36,
+    37,
+    41,
+    52,
+    53,
+    54,
+    55,
+    57,
+    58,
+    59,
+    60
+   ],
+   "low_text_pages": [],
+   "running_heads": [
+    "COST OF CAPITAL",
+    "FINANCIAL MANAGEMENT"
+   ],
+   "label_conflicts": []
+  },
+  "05-financing-decisions-capital-structure": {
+   "pages": [
+    1,
+    76
+   ],
+   "printed": [
+    "5.1",
+    "5.76"
+   ],
+   "labels": [
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.9",
+    "5.10",
+    "5.11",
+    "5.12",
+    "5.13",
+    "5.14",
+    "5.15",
+    "5.16",
+    "5.17",
+    "5.18",
+    "5.19",
+    "5.20",
+    "5.21",
+    "5.22",
+    "5.23",
+    "5.24",
+    "5.25",
+    "5.26",
+    "5.27",
+    "5.28",
+    "5.29",
+    "5.30",
+    "5.31",
+    "5.32",
+    "5.33",
+    "5.34",
+    "5.35",
+    "5.36",
+    "5.37",
+    "5.38",
+    "5.39",
+    "5.40",
+    "5.41",
+    "5.42",
+    "5.43",
+    "5.44",
+    "5.45",
+    "5.46",
+    "5.47",
+    "5.48",
+    "5.49",
+    "5.50",
+    "5.51",
+    "5.52",
+    "5.53",
+    "5.54",
+    "5.55",
+    "5.56",
+    "5.57",
+    "5.58",
+    "5.59",
+    "5.60",
+    "5.61",
+    "5.62",
+    "5.63",
+    "5.64",
+    "5.65",
+    "5.66",
+    "5.67",
+    "5.68",
+    "5.69",
+    "5.70",
+    "5.71",
+    "5.72",
+    "5.73",
+    "5.74",
+    "5.75",
+    "5.76"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "5.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "5.2"
+    },
+    {
+     "h": "1. MEANING OF CAPITAL STRUCTURE",
+     "num": "1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "5.2"
+    },
+    {
+     "h": "2. CAPITAL STRUCTURE THEORIES",
+     "num": "2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 5,
+     "level": 1,
+     "printed": "5.5"
+    },
+    {
+     "h": "2.1 Net Income (NI) Approach",
+     "num": "2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 6,
+     "level": 2,
+     "printed": "5.6"
+    },
+    {
+     "h": "2.2 Traditional Approach",
+     "num": "2.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 8,
+     "level": 2,
+     "printed": "5.8"
+    },
+    {
+     "h": "2.3 Net Operating Income (NOI) Approach",
+     "num": "2.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 11,
+     "level": 2,
+     "printed": "5.11"
+    },
+    {
+     "h": "2.4 Modigliani-Miller (MM) Approach",
+     "num": "2.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 15,
+     "level": 2,
+     "printed": "5.15"
+    },
+    {
+     "h": "2.5 The Trade-off Theory",
+     "num": "2.5",
+     "size": 14.0,
+     "numbered": true,
+     "page": 27,
+     "level": 2,
+     "printed": "5.27"
+    },
+    {
+     "h": "2.6 Pecking Order Theory",
+     "num": "2.6",
+     "size": 14.0,
+     "numbered": true,
+     "page": 29,
+     "level": 2,
+     "printed": "5.29"
+    },
+    {
+     "h": "3. FACTORS DETERMINING CAPITAL STRUC- TURE",
+     "num": "3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 30,
+     "level": 1,
+     "printed": "5.30"
+    },
+    {
+     "h": "3.1 Choice of source of funds",
+     "num": "3.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 30,
+     "level": 2,
+     "printed": "5.30"
+    },
+    {
+     "h": "3.2 Factors affecting capital structure",
+     "num": "3.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 30,
+     "level": 2,
+     "printed": "5.30"
+    },
+    {
+     "h": "4. OPTIMAL CAPITAL STRUCTURE",
+     "num": "4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 32,
+     "level": 1,
+     "printed": "5.32"
+    },
+    {
+     "h": "5. EBIT-EPS-MPS ANALYSIS",
+     "num": "5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 33,
+     "level": 1,
+     "printed": "5.33"
+    },
+    {
+     "h": "5.1 Relationship between EBIT-EPS-MPS",
+     "num": "5.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 33,
+     "level": 2,
+     "printed": "5.33"
+    },
+    {
+     "h": "5.2 Financial Break-Even Point (BEP) and Indifference Point Analysis",
+     "num": "5.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 36,
+     "level": 2,
+     "printed": "5.36"
+    },
+    {
+     "h": "6. OVER-CAPITALISATION AND UNDER-CAPIT- ALISATION",
+     "num": "6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 45,
+     "level": 1,
+     "printed": "5.45"
+    },
+    {
+     "h": "6.1 Over-Capitalisation",
+     "num": "6.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 45,
+     "level": 2,
+     "printed": "5.45"
+    },
+    {
+     "h": "6.2 Under-Capitalisation",
+     "num": "6.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 46,
+     "level": 2,
+     "printed": "5.46"
+    },
+    {
+     "h": "6.3 Over-Capitalisation vis-à-vis Under-Capitalisation",
+     "num": "6.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 47,
+     "level": 2,
+     "printed": "5.47"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 47,
+     "level": 1,
+     "printed": "5.47"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 48,
+     "level": 1,
+     "printed": "5.48"
+    },
+    {
+     "h": "Multiple Choice Questions (MCQs)",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 48,
+     "level": 1,
+     "printed": "5.48"
+    },
+    {
+     "h": "Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 51,
+     "level": 1,
+     "printed": "5.51"
+    },
+    {
+     "h": "Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 57,
+     "level": 1,
+     "printed": "5.57"
+    },
+    {
+     "h": "ANSWERS/SOLUTION",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 59,
+     "level": 1,
+     "printed": "5.59"
+    },
+    {
+     "h": "Answers to the MCQs",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 59,
+     "level": 1,
+     "printed": "5.59"
+    },
+    {
+     "h": "Answers to the Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 59,
+     "level": 1,
+     "printed": "5.59"
+    },
+    {
+     "h": "Answers to the Practical Problems",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 60,
+     "level": 1,
+     "printed": "5.60"
+    },
+    {
+     "h": "Answers to the Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 75,
+     "level": 1,
+     "printed": "5.75"
+    }
+   ],
+   "formula_pages": [
+    8,
+    10,
+    12,
+    13,
+    19,
+    22,
+    27,
+    37,
+    39,
+    40,
+    41,
+    43,
+    61,
+    62,
+    63,
+    64,
+    65,
+    67,
+    70,
+    74
+   ],
+   "low_text_pages": [
+    4
+   ],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "FINANCING DECISIONS - CAPITAL STRUCTURE",
+    "FINANCING DECISIONS CAPITAL STRUCTURE"
+   ],
+   "label_conflicts": []
+  },
+  "06-financing-decisions-leverages": {
+   "pages": [
+    1,
+    56
+   ],
+   "printed": [
+    "6.1",
+    "6.56"
+   ],
+   "labels": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.5",
+    "6.6",
+    "6.7",
+    "6.8",
+    "6.9",
+    "6.10",
+    "6.11",
+    "6.12",
+    "6.13",
+    "6.14",
+    "6.15",
+    "6.16",
+    "6.17",
+    "6.18",
+    "6.19",
+    "6.20",
+    "6.21",
+    "6.22",
+    "6.23",
+    "6.24",
+    "6.25",
+    "6.26",
+    "6.27",
+    "6.28",
+    "6.29",
+    "6.30",
+    "6.31",
+    "6.32",
+    "6.33",
+    "6.34",
+    "6.35",
+    "6.36",
+    "6.37",
+    "6.38",
+    "6.39",
+    "6.40",
+    "6.41",
+    "6.42",
+    "6.43",
+    "6.44",
+    "6.45",
+    "6.46",
+    "6.47",
+    "6.48",
+    "6.49",
+    "6.50",
+    "6.51",
+    "6.52",
+    "6.53",
+    "6.54",
+    "6.55",
+    "6.56"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "6.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "6.2"
+    },
+    {
+     "h": "1. INTRODUCTION",
+     "num": "1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "6.2"
+    },
+    {
+     "h": "2. MEANING AND TYPES OF LEVERAGE",
+     "num": "2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "6.3"
+    },
+    {
+     "h": "2.1 Meaning of Leverage",
+     "num": "2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 3,
+     "level": 2,
+     "printed": "6.3"
+    },
+    {
+     "h": "2.2 Types of Leverage",
+     "num": "2.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 3,
+     "level": 2,
+     "printed": "6.3"
+    },
+    {
+     "h": "2.3 Chart Showing Degree of Operating Leverage, Financial Leverage and Combined leverage",
+     "num": "2.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "6.4"
+    },
+    {
+     "h": "3. OPERATING LEVERAGE",
+     "num": "3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 5,
+     "level": 1,
+     "printed": "6.5"
+    },
+    {
+     "h": "3.1 Degree of Operating Leverage (DOL)",
+     "num": "3.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "6.5"
+    },
+    {
+     "h": "3.2 Break-Even Analysis and Operating Leverage",
+     "num": "3.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 6,
+     "level": 2,
+     "printed": "6.6"
+    },
+    {
+     "h": "3.3 Margin of Safety (MOS) and Operating Leverage (OL)",
+     "num": "3.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 8,
+     "level": 2,
+     "printed": "6.8"
+    },
+    {
+     "h": "4. FINANCIAL LEVERAGE",
+     "num": "4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 14,
+     "level": 1,
+     "printed": "6.14"
+    },
+    {
+     "h": "4.1 Degree of Financial Leverage (DFL)",
+     "num": "4.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 14,
+     "level": 2,
+     "printed": "6.14"
+    },
+    {
+     "h": "4.2 Financial Leverage as ‘Trading on Equity’",
+     "num": "4.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 17,
+     "level": 2,
+     "printed": "6.17"
+    },
+    {
+     "h": "4.3 Financial Leverage as a ‘Double edged Sword’",
+     "num": "4.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 18,
+     "level": 2,
+     "printed": "6.18"
+    },
+    {
+     "h": "5. COMBINED LEVERAGE",
+     "num": "5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 19,
+     "level": 1,
+     "printed": "6.19"
+    },
+    {
+     "h": "5.1 Degree of Combined Leverage (DCL)",
+     "num": "5.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "6.20"
+    },
+    {
+     "h": "5.2 Analysis of Combined Leverage",
+     "num": "5.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "6.20"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 27,
+     "level": 1,
+     "printed": "6.27"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 27,
+     "level": 1,
+     "printed": "6.27"
+    },
+    {
+     "h": "Multiple Choice Questions (MCQs)",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 27,
+     "level": 1,
+     "printed": "6.27"
+    },
+    {
+     "h": "Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 31,
+     "level": 1,
+     "printed": "6.31"
+    },
+    {
+     "h": "Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 38,
+     "level": 1,
+     "printed": "6.38"
+    },
+    {
+     "h": "ANSWERS\\SOLUTION",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 40,
+     "level": 1,
+     "printed": "6.40"
+    },
+    {
+     "h": "Answers to the MCQs",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 40,
+     "level": 1,
+     "printed": "6.40"
+    },
+    {
+     "h": "Answers to the Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 40,
+     "level": 1,
+     "printed": "6.40"
+    },
+    {
+     "h": "Answers to the Practical Problems",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 40,
+     "level": 1,
+     "printed": "6.40"
+    },
+    {
+     "h": "Answers to the Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 54,
+     "level": 1,
+     "printed": "6.54"
+    }
+   ],
+   "formula_pages": [
+    5,
+    6,
+    7,
+    8,
+    12,
+    13,
+    14,
+    15,
+    16,
+    22,
+    23,
+    41,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+   ],
+   "low_text_pages": [],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "FINANCING DECISIONS - LEVERAGES",
+    "FINANCING DECISIONS LEVERAGES"
+   ],
+   "label_conflicts": []
+  },
+  "07-investment-decisions": {
+   "pages": [
+    1,
+    108
+   ],
+   "printed": [
+    "7.1",
+    "7.108"
+   ],
+   "labels": [
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "7.5",
+    "7.6",
+    "7.7",
+    "7.8",
+    "7.9",
+    "7.10",
+    "7.11",
+    "7.12",
+    "7.13",
+    "7.14",
+    "7.15",
+    "7.16",
+    "7.17",
+    "7.18",
+    "7.19",
+    "7.20",
+    "7.21",
+    "7.22",
+    "7.23",
+    "7.24",
+    "7.25",
+    "7.26",
+    "7.27",
+    "7.28",
+    "7.29",
+    "7.30",
+    "7.31",
+    "7.32",
+    "7.33",
+    "7.34",
+    "7.35",
+    "7.36",
+    "7.37",
+    "7.38",
+    "7.39",
+    "7.40",
+    "7.41",
+    "7.42",
+    "7.43",
+    "7.44",
+    "7.45",
+    "7.46",
+    "7.47",
+    "7.48",
+    "7.49",
+    "7.50",
+    "7.51",
+    "7.52",
+    "7.53",
+    "7.54",
+    "7.55",
+    "7.56",
+    "7.57",
+    "7.58",
+    "7.59",
+    "7.60",
+    "7.61",
+    "7.62",
+    "7.63",
+    "7.64",
+    "7.65",
+    "7.66",
+    "7.67",
+    "7.68",
+    "7.69",
+    "7.70",
+    "7.71",
+    "7.72",
+    "7.73",
+    "7.74",
+    "7.75",
+    "7.76",
+    "7.77",
+    "7.78",
+    "7.79",
+    "7.80",
+    "7.81",
+    "7.82",
+    "7.83",
+    "7.84",
+    "7.85",
+    "7.86",
+    "7.87",
+    "7.88",
+    "7.89",
+    "7.90",
+    "7.91",
+    "7.92",
+    "7.93",
+    "7.94",
+    "7.95",
+    "7.96",
+    "7.97",
+    "7.98",
+    "7.99",
+    "7.100",
+    "7.101",
+    "7.102",
+    "7.103",
+    "7.104",
+    "7.105",
+    "7.106",
+    "7.107",
+    "7.108"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "7.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "7.2"
+    },
+    {
+     "h": "1. INTRODUCTION",
+     "num": "1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "7.2"
+    },
+    {
+     "h": "2. PURPOSE OF CAPITAL BUDGETING",
+     "num": "2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "7.3"
+    },
+    {
+     "h": "3. CAPITAL BUDGETING PROCESS",
+     "num": "3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 4,
+     "level": 1,
+     "printed": "7.4"
+    },
+    {
+     "h": "4. TYPES OF CAPITAL INVESTMENT DECISIONS",
+     "num": "4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 5,
+     "level": 1,
+     "printed": "7.5"
+    },
+    {
+     "h": "4.1 On the basis of firm’s existence",
+     "num": "4.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "7.5"
+    },
+    {
+     "h": "4.2 On the basis of situations",
+     "num": "4.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 6,
+     "level": 2,
+     "printed": "7.6"
+    },
+    {
+     "h": "4.3 Steps of Capital Budgeting Procedure",
+     "num": "4.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 7,
+     "level": 2,
+     "printed": "7.7"
+    },
+    {
+     "h": "5. ESTIMATION OF PROJECT CASH FLOWS",
+     "num": "5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 7,
+     "level": 1,
+     "printed": "7.7"
+    },
+    {
+     "h": "6. BASIC PRINCIPLES FOR MEASURING PROJECT CASH FLOWS",
+     "num": "6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 12,
+     "level": 1,
+     "printed": "7.12"
+    },
+    {
+     "h": "6.1 Block of Assets and Depreciation",
+     "num": "6.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 12,
+     "level": 2,
+     "printed": "7.12"
+    },
+    {
+     "h": "6.2 Exclusion of Financing Costs Principle",
+     "num": "6.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 14,
+     "level": 2,
+     "printed": "7.14"
+    },
+    {
+     "h": "6.3 Post-tax Principle",
+     "num": "6.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 16,
+     "level": 2,
+     "printed": "7.16"
+    },
+    {
+     "h": "7. CAPITAL BUDGETING TECHNIQUES",
+     "num": "7",
+     "size": 16.0,
+     "numbered": true,
+     "page": 17,
+     "level": 1,
+     "printed": "7.17"
+    },
+    {
+     "h": "8. TRADITIONAL OR NON-DISCOUNTING TECHNIQUES",
+     "num": "8",
+     "size": 16.0,
+     "numbered": true,
+     "page": 18,
+     "level": 1,
+     "printed": "7.18"
+    },
+    {
+     "h": "8.1 Payback Period",
+     "num": "8.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 18,
+     "level": 2,
+     "printed": "7.18"
+    },
+    {
+     "h": "8.1.1 Payback Reciprocal",
+     "num": "8.1.1",
+     "size": 12.0,
+     "numbered": true,
+     "page": 21,
+     "level": 3,
+     "printed": "7.21"
+    },
+    {
+     "h": "8.2 Accounting (Book) Rate of Return (ARR) or Average Rate of Return (ARR)",
+     "num": "8.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 22,
+     "level": 2,
+     "printed": "7.22"
+    },
+    {
+     "h": "9. DISCOUNTING TECHNIQUES",
+     "num": "9",
+     "size": 16.0,
+     "numbered": true,
+     "page": 26,
+     "level": 1,
+     "printed": "7.26"
+    },
+    {
+     "h": "9.1 Net Present Value Technique (NPV)",
+     "num": "9.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 27,
+     "level": 2,
+     "printed": "7.27"
+    },
+    {
+     "h": "9.2 Profitability Index/Desirability Factor/Present Value Index Method (PI)",
+     "num": "9.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 31,
+     "level": 2,
+     "printed": "7.31"
+    },
+    {
+     "h": "9.3 Internal Rate of Return Method (IRR)",
+     "num": "9.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 32,
+     "level": 2,
+     "printed": "7.32"
+    },
+    {
+     "h": "9.3.1 Acceptance Rule",
+     "num": "9.3.1",
+     "size": 12.0,
+     "numbered": true,
+     "page": 37,
+     "level": 3,
+     "printed": "7.37"
+    },
+    {
+     "h": "9.3.2 Internal Rate of Return (IRR) and Mutually Exclusive Projects",
+     "num": "9.3.2",
+     "size": 12.0,
+     "numbered": true,
+     "page": 38,
+     "level": 3,
+     "printed": "7.38"
+    },
+    {
+     "h": "9.3.3 The Reinvestment Assumption",
+     "num": "9.3.3",
+     "size": 12.0,
+     "numbered": true,
+     "page": 40,
+     "level": 3,
+     "printed": "7.40"
+    },
+    {
+     "h": "9.3.4 Multiple Internal Rate of Return",
+     "num": "9.3.4",
+     "size": 12.0,
+     "numbered": true,
+     "page": 41,
+     "level": 3,
+     "printed": "7.41"
+    },
+    {
+     "h": "9.4 Discounted Payback Period Method",
+     "num": "9.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 42,
+     "level": 2,
+     "printed": "7.42"
+    },
+    {
+     "h": "9.5 Modified Internal Rate of Return (MIRR)",
+     "num": "9.5",
+     "size": 14.0,
+     "numbered": true,
+     "page": 43,
+     "level": 2,
+     "printed": "7.43"
+    },
+    {
+     "h": "9.6 Comparison of Net Present Value and Internal Rate of Return Methods",
+     "num": "9.6",
+     "size": 14.0,
+     "numbered": true,
+     "page": 45,
+     "level": 2,
+     "printed": "7.45"
+    },
+    {
+     "h": "9.7 Different conclusion in the following scenarios",
+     "num": "9.7",
+     "size": 14.0,
+     "numbered": true,
+     "page": 45,
+     "level": 2,
+     "printed": "7.45"
+    },
+    {
+     "h": "10. SUMMARY OF DECISION CRITERIA OF CAPITAL BUDGETING TECHNIQUES",
+     "num": "10",
+     "size": 16.0,
+     "numbered": true,
+     "page": 52,
+     "level": 1,
+     "printed": "7.52"
+    },
+    {
+     "h": "11. SPECIAL CASES",
+     "num": "11",
+     "size": 16.0,
+     "numbered": true,
+     "page": 53,
+     "level": 1,
+     "printed": "7.53"
+    },
+    {
+     "h": "11.1 Capital Budgeting under Capital Rationing",
+     "num": "11.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 53,
+     "level": 2,
+     "printed": "7.53"
+    },
+    {
+     "h": "11.2 Projects with unequal lives",
+     "num": "11.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 54,
+     "level": 2,
+     "printed": "7.54"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 69,
+     "level": 1,
+     "printed": "7.69"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 70,
+     "level": 1,
+     "printed": "7.70"
+    },
+    {
+     "h": "Multiple Choice Questions (MCQs)",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 70,
+     "level": 1,
+     "printed": "7.70"
+    },
+    {
+     "h": "Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 74,
+     "level": 1,
+     "printed": "7.74"
+    },
+    {
+     "h": "Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 83,
+     "level": 1,
+     "printed": "7.83"
+    },
+    {
+     "h": "ANSWERS/SOLUTIONS",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 86,
+     "level": 1,
+     "printed": "7.86"
+    },
+    {
+     "h": "Answers to the MCQs",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 86,
+     "level": 1,
+     "printed": "7.86"
+    },
+    {
+     "h": "Answers to Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 87,
+     "level": 1,
+     "printed": "7.87"
+    },
+    {
+     "h": "Answers to Practical Problems",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 87,
+     "level": 1,
+     "printed": "7.87"
+    },
+    {
+     "h": "Answers to the Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 104,
+     "level": 1,
+     "printed": "7.104"
+    }
+   ],
+   "formula_pages": [
+    15,
+    17,
+    21,
+    27,
+    34,
+    37,
+    47,
+    49,
+    51,
+    60,
+    61,
+    66,
+    67,
+    69,
+    70,
+    78,
+    87,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    99,
+    100,
+    103,
+    107
+   ],
+   "low_text_pages": [
+    108
+   ],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "INVESTMENT DECISIONS"
+   ],
+   "label_conflicts": []
+  },
+  "08-dividend-decision": {
+   "pages": [
+    1,
+    56
+   ],
+   "printed": [
+    "8.1",
+    "8.56"
+   ],
+   "labels": [
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6",
+    "8.7",
+    "8.8",
+    "8.9",
+    "8.10",
+    "8.11",
+    "8.12",
+    "8.13",
+    "8.14",
+    "8.15",
+    "8.16",
+    "8.17",
+    "8.18",
+    "8.19",
+    "8.20",
+    "8.21",
+    "8.22",
+    "8.23",
+    "8.24",
+    "8.25",
+    "8.26",
+    "8.27",
+    "8.28",
+    "8.29",
+    "8.30",
+    "8.31",
+    "8.32",
+    "8.33",
+    "8.34",
+    "8.35",
+    "8.36",
+    "8.37",
+    "8.38",
+    "8.39",
+    "8.40",
+    "8.41",
+    "8.42",
+    "8.43",
+    "8.44",
+    "8.45",
+    "8.46",
+    "8.47",
+    "8.48",
+    "8.49",
+    "8.50",
+    "8.51",
+    "8.52",
+    "8.53",
+    "8.54",
+    "8.55",
+    "8.56"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "8.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "8.1"
+    },
+    {
+     "h": "1. INTRODUCTION",
+     "num": "1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "8.2"
+    },
+    {
+     "h": "2. MEANING OF DIVIDEND",
+     "num": "2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "8.3"
+    },
+    {
+     "h": "3. FORMS OF DIVIDEND",
+     "num": "3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "8.3"
+    },
+    {
+     "h": "4. SIGNIFICANCE OF DIVIDEND POLICY",
+     "num": "4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 6,
+     "level": 1,
+     "printed": "8.6"
+    },
+    {
+     "h": "5. RELATIONSHIP BETWEEN RETAINED EARNINGS",
+     "num": "5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 8,
+     "level": 1,
+     "printed": "8.8"
+    },
+    {
+     "h": "6. DETERMINANTS OF DIVIDEND DECISIONS",
+     "num": "6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 9,
+     "level": 1,
+     "printed": "8.9"
+    },
+    {
+     "h": "7. PRACTICAL CONSIDERATIONS IN DIVIDEND POLICY",
+     "num": "7",
+     "size": 16.0,
+     "numbered": true,
+     "page": 10,
+     "level": 1,
+     "printed": "8.10"
+    },
+    {
+     "h": "8. THEORIES OF DIVIDEND",
+     "num": "8",
+     "size": 16.0,
+     "numbered": true,
+     "page": 14,
+     "level": 1,
+     "printed": "8.14"
+    },
+    {
+     "h": "8.1 Dividend’s Irrelevance Theory",
+     "num": "8.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 14,
+     "level": 2,
+     "printed": "8.14"
+    },
+    {
+     "h": "8.2 Dividend’s Relevance Theory",
+     "num": "8.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 21,
+     "level": 2,
+     "printed": "8.21"
+    },
+    {
+     "h": "9. STOCK SPLITS",
+     "num": "9",
+     "size": 16.0,
+     "numbered": true,
+     "page": 33,
+     "level": 1,
+     "printed": "8.33"
+    },
+    {
+     "h": "9.1 Meaning of Stock Split",
+     "num": "9.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 33,
+     "level": 2,
+     "printed": "8.33"
+    },
+    {
+     "h": "9.2 Advantages of Stock Splits",
+     "num": "9.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 33,
+     "level": 2,
+     "printed": "8.33"
+    },
+    {
+     "h": "9.3 Limitations of Stock Splits",
+     "num": "9.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 33,
+     "level": 2,
+     "printed": "8.33"
+    },
+    {
+     "h": "10. SHARE BUYBACK",
+     "num": "10",
+     "size": 16.0,
+     "numbered": true,
+     "page": 33,
+     "level": 1,
+     "printed": "8.33"
+    },
+    {
+     "h": "10.1 Meaning of Share Buyback",
+     "num": "10.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 33,
+     "level": 2,
+     "printed": "8.33"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 39,
+     "level": 1,
+     "printed": "8.39"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 40,
+     "level": 1,
+     "printed": "8.40"
+    },
+    {
+     "h": "Multiple Choice Questions (MCQs)",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 40,
+     "level": 1,
+     "printed": "8.40"
+    },
+    {
+     "h": "Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 42,
+     "level": 1,
+     "printed": "8.42"
+    },
+    {
+     "h": "Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 45,
+     "level": 1,
+     "printed": "8.45"
+    },
+    {
+     "h": "ANSWERS/SOLUTIONS",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 47,
+     "level": 1,
+     "printed": "8.47"
+    },
+    {
+     "h": "Answers to the MCQs",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 47,
+     "level": 1,
+     "printed": "8.47"
+    },
+    {
+     "h": "Answers to Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 47,
+     "level": 1,
+     "printed": "8.47"
+    },
+    {
+     "h": "Answers to Practical Problems",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 48,
+     "level": 1,
+     "printed": "8.48"
+    },
+    {
+     "h": "Answers to the Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 54,
+     "level": 1,
+     "printed": "8.54"
+    }
+   ],
+   "formula_pages": [
+    14,
+    17,
+    18,
+    19,
+    20,
+    21,
+    29,
+    35,
+    44,
+    49,
+    51,
+    53
+   ],
+   "low_text_pages": [
+    56
+   ],
+   "running_heads": [
+    "DIVIDEND DECISION",
+    "DIVIDEND DECISIONS",
+    "FINANCIAL MANAGEMENT"
+   ],
+   "label_conflicts": []
+  },
+  "09-management-of-working-capital-u1": {
+   "pages": [
+    1,
+    36
+   ],
+   "printed": [
+    "9.1",
+    "9.36"
+   ],
+   "labels": [
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7",
+    "9.8",
+    "9.9",
+    "9.10",
+    "9.11",
+    "9.12",
+    "9.13",
+    "9.14",
+    "9.15",
+    "9.16",
+    "9.17",
+    "9.18",
+    "9.19",
+    "9.20",
+    "9.21",
+    "9.22",
+    "9.23",
+    "9.24",
+    "9.25",
+    "9.26",
+    "9.27",
+    "9.28",
+    "9.29",
+    "9.30",
+    "9.31",
+    "9.32",
+    "9.33",
+    "9.34",
+    "9.35",
+    "9.36"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "9.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "9.2"
+    },
+    {
+     "h": "1. MEANING AND CONCEPT OF WORKING CAPITAL",
+     "num": "1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "9.3"
+    },
+    {
+     "h": "2. SIGNIFICANCE OF WORKING CAPITAL",
+     "num": "2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 6,
+     "level": 1,
+     "printed": "9.6"
+    },
+    {
+     "h": "2.1 Importance of Adequate Working Capital",
+     "num": "2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 6,
+     "level": 2,
+     "printed": "9.6"
+    },
+    {
+     "h": "2.2 Optimum Working Capital",
+     "num": "2.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 7,
+     "level": 2,
+     "printed": "9.7"
+    },
+    {
+     "h": "3. DETERMINANTS OF WORKING CAPITAL",
+     "num": "3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 8,
+     "level": 1,
+     "printed": "9.8"
+    },
+    {
+     "h": "4. MANAGEMENT OF WORKING CAPITAL",
+     "num": "4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 10,
+     "level": 1,
+     "printed": "9.10"
+    },
+    {
+     "h": "4.1 Liquidity and Profitability",
+     "num": "4.1",
+     "size": 14.1,
+     "numbered": true,
+     "page": 11,
+     "level": 2,
+     "printed": "9.11"
+    },
+    {
+     "h": "4.2 Investment and Financing",
+     "num": "4.2",
+     "size": 14.1,
+     "numbered": true,
+     "page": 12,
+     "level": 2,
+     "printed": "9.12"
+    },
+    {
+     "h": "4.3 Approaches of working capital investment",
+     "num": "4.3",
+     "size": 14.1,
+     "numbered": true,
+     "page": 13,
+     "level": 2,
+     "printed": "9.13"
+    },
+    {
+     "h": "4.4 Current Assets to Fixed Assets Ratio",
+     "num": "4.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 15,
+     "level": 2,
+     "printed": "9.15"
+    },
+    {
+     "h": "5. ESTIMATING WORKING CAPITAL NEEDS",
+     "num": "5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 16,
+     "level": 1,
+     "printed": "9.16"
+    },
+    {
+     "h": "6. OPERATING OR WORKING CAPITAL CYCLE",
+     "num": "6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 17,
+     "level": 1,
+     "printed": "9.17"
+    },
+    {
+     "h": "6.1 Working Capital Based on Operating Cycle",
+     "num": "6.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "9.20"
+    },
+    {
+     "h": "6.2 Estimation of amount of Different Components of Current Assets and Current Liabilities",
+     "num": "6.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 22,
+     "level": 2,
+     "printed": "9.22"
+    },
+    {
+     "h": "6.3 Working Capital Requirement Estimation based on Cash Cost",
+     "num": "6.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 28,
+     "level": 2,
+     "printed": "9.28"
+    },
+    {
+     "h": "6.4 Effect of Double Shift Working on Working Capital Requirements",
+     "num": "6.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 31,
+     "level": 2,
+     "printed": "9.31"
+    }
+   ],
+   "formula_pages": [
+    20,
+    26,
+    27,
+    29,
+    30,
+    34,
+    35
+   ],
+   "low_text_pages": [],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "MANAGEMENT OF WORKING CAPITAL"
+   ],
+   "label_conflicts": []
+  },
+  "09-management-of-working-capital-u2": {
+   "pages": [
+    1,
+    32
+   ],
+   "printed": [
+    "9.37",
+    "9.68"
+   ],
+   "labels": [
+    "9.37",
+    "9.38",
+    "9.39",
+    "9.40",
+    "9.41",
+    "9.42",
+    "9.43",
+    "9.44",
+    "9.45",
+    "9.46",
+    "9.47",
+    "9.48",
+    "9.49",
+    "9.50",
+    "9.51",
+    "9.52",
+    "9.53",
+    "9.54",
+    "9.55",
+    "9.56",
+    "9.57",
+    "9.58",
+    "9.59",
+    "9.60",
+    "9.61",
+    "9.62",
+    "9.63",
+    "9.64",
+    "9.65",
+    "9.66",
+    "9.67",
+    "9.68"
+   ],
+   "headings": [
+    {
+     "h": "UNIT - II",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "9.37"
+    },
+    {
+     "h": "7. TREASURY MANAGEMENT: MEANING",
+     "num": "7",
+     "size": 16.0,
+     "numbered": true,
+     "page": 1,
+     "level": 1,
+     "printed": "9.37"
+    },
+    {
+     "h": "8. FUNCTIONS OF TREASURY DEPARTMENT",
+     "num": "8",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "9.38"
+    },
+    {
+     "h": "9. MANAGEMENT OF CASH",
+     "num": "9",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "9.39"
+    },
+    {
+     "h": "9.1 The Need for Cash",
+     "num": "9.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 3,
+     "level": 2,
+     "printed": "9.39"
+    },
+    {
+     "h": "9.2 Cash Planning",
+     "num": "9.2",
+     "size": 14.1,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "9.40"
+    },
+    {
+     "h": "9.3 Cash Budget",
+     "num": "9.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "9.40"
+    },
+    {
+     "h": "10. METHODS OF CASH FLOW BUDGETING",
+     "num": "10",
+     "size": 16.0,
+     "numbered": true,
+     "page": 5,
+     "level": 1,
+     "printed": "9.41"
+    },
+    {
+     "h": "10.1 Cash budget for short period",
+     "num": "10.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 6,
+     "level": 2,
+     "printed": "9.42"
+    },
+    {
+     "h": "10.2 Cash Budget for long period",
+     "num": "10.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 14,
+     "level": 2,
+     "printed": "9.50"
+    },
+    {
+     "h": "10.3 Managing Cash Collection and Disbursements",
+     "num": "10.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 17,
+     "level": 2,
+     "printed": "9.53"
+    },
+    {
+     "h": "10.4 Accelerating Cash Collections",
+     "num": "10.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 17,
+     "level": 2,
+     "printed": "9.53"
+    },
+    {
+     "h": "10.5 Controlling Payments",
+     "num": "10.5",
+     "size": 14.0,
+     "numbered": true,
+     "page": 19,
+     "level": 2,
+     "printed": "9.55"
+    },
+    {
+     "h": "10.6 Determining the Optimum Cash Balance",
+     "num": "10.6",
+     "size": 14.0,
+     "numbered": true,
+     "page": 23,
+     "level": 2,
+     "printed": "9.59"
+    },
+    {
+     "h": "11. CASH MANAGEMENT MODELS",
+     "num": "11",
+     "size": 16.0,
+     "numbered": true,
+     "page": 23,
+     "level": 1,
+     "printed": "9.59"
+    },
+    {
+     "h": "11.1 William J. Baumol’s Economic Order Quantity Model,(1952)",
+     "num": "11.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 23,
+     "level": 2,
+     "printed": "9.59"
+    },
+    {
+     "h": "11.2 Miller-Orr Cash Management Model (1966)",
+     "num": "11.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 25,
+     "level": 2,
+     "printed": "9.61"
+    },
+    {
+     "h": "12. RECENT DEVELOPMENTS IN CASH MANAGEMENT",
+     "num": "12",
+     "size": 16.0,
+     "numbered": true,
+     "page": 26,
+     "level": 1,
+     "printed": "9.62"
+    },
+    {
+     "h": "12.1 Electronic Fund Transfer",
+     "num": "12.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 27,
+     "level": 2,
+     "printed": "9.63"
+    },
+    {
+     "h": "12.2 Zero Balance Account",
+     "num": "12.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 27,
+     "level": 2,
+     "printed": "9.63"
+    },
+    {
+     "h": "12.3 Money Market Operations",
+     "num": "12.3",
+     "size": 14.1,
+     "numbered": true,
+     "page": 27,
+     "level": 2,
+     "printed": "9.63"
+    },
+    {
+     "h": "12.4 Petty Cash Imprest System",
+     "num": "12.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 28,
+     "level": 2,
+     "printed": "9.64"
+    },
+    {
+     "h": "12.5 Management of Temporary Cash Surplus",
+     "num": "12.5",
+     "size": 14.0,
+     "numbered": true,
+     "page": 28,
+     "level": 2,
+     "printed": "9.64"
+    },
+    {
+     "h": "12.6 Electronic Cash Management System",
+     "num": "12.6",
+     "size": 14.0,
+     "numbered": true,
+     "page": 28,
+     "level": 2,
+     "printed": "9.64"
+    },
+    {
+     "h": "12.7 Virtual Banking",
+     "num": "12.7",
+     "size": 14.0,
+     "numbered": true,
+     "page": 29,
+     "level": 2,
+     "printed": "9.65"
+    },
+    {
+     "h": "13. MANAGEMENT OF MARKETABLE SECURITIES",
+     "num": "13",
+     "size": 15.0,
+     "numbered": true,
+     "page": 31,
+     "level": 2,
+     "printed": "9.67"
+    }
+   ],
+   "formula_pages": [
+    24
+   ],
+   "low_text_pages": [],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "MANAGEMENT OF WORKING CAPITAL"
+   ],
+   "label_conflicts": []
+  },
+  "09-management-of-working-capital-u3": {
+   "pages": [
+    1,
+    1
+   ],
+   "printed": [
+    "9.69",
+    "9.69"
+   ],
+   "labels": [
+    "9.69"
+   ],
+   "headings": [
+    {
+     "h": "UNIT - III",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "9.69"
+    },
+    {
+     "h": "14. INVENTORY MANAGEMENT",
+     "num": "14",
+     "size": 16.0,
+     "numbered": true,
+     "page": 1,
+     "level": 1,
+     "printed": "9.69"
+    }
+   ],
+   "formula_pages": [],
+   "low_text_pages": [],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "MANAGEMENT OF WORKING CAPITAL"
+   ],
+   "label_conflicts": []
+  },
+  "09-management-of-working-capital-u4": {
+   "pages": [
+    1,
+    28
+   ],
+   "printed": [
+    "9.70",
+    "9.97"
+   ],
+   "labels": [
+    "9.70",
+    "9.71",
+    "9.72",
+    "9.73",
+    "9.74",
+    "9.75",
+    "9.76",
+    "9.77",
+    "9.78",
+    "9.79",
+    "9.80",
+    "9.81",
+    "9.82",
+    "9.83",
+    "9.84",
+    "9.85",
+    "9.86",
+    "9.87",
+    "9.88",
+    "9.89",
+    "9.90",
+    "9.91",
+    "9.92",
+    "9.93",
+    "9.94",
+    "9.95",
+    "9.96",
+    "9.97"
+   ],
+   "headings": [
+    {
+     "h": "15. MEANING AND OBJECTIVE",
+     "num": "15",
+     "size": 16.0,
+     "numbered": true,
+     "page": 1,
+     "level": 1,
+     "printed": "9.70"
+    },
+    {
+     "h": "16. ASPECTS OF MANAGEMENT OF DEBTORS",
+     "num": "16",
+     "size": 16.0,
+     "numbered": true,
+     "page": 1,
+     "level": 1,
+     "printed": "9.70"
+    },
+    {
+     "h": "17. FACTORS DETERMINING CREDIT POLICY",
+     "num": "17",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "9.71"
+    },
+    {
+     "h": "18. FACTORS UNDER THE CONTROL OF THE FINANCE MANAGER",
+     "num": "18",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "9.72"
+    },
+    {
+     "h": "19. APPROACHES TO EVALUATION OF CREDIT POLICIES",
+     "num": "19",
+     "size": 16.0,
+     "numbered": true,
+     "page": 4,
+     "level": 1,
+     "printed": "9.73"
+    },
+    {
+     "h": "20. FINANCING RECEIVABLES",
+     "num": "20",
+     "size": 16.0,
+     "numbered": true,
+     "page": 13,
+     "level": 1,
+     "printed": "9.82"
+    },
+    {
+     "h": "20.1 Pledging and Factoring",
+     "num": "20.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 13,
+     "level": 2,
+     "printed": "9.82"
+    },
+    {
+     "h": "20.2 Forfaiting",
+     "num": "20.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 17,
+     "level": 2,
+     "printed": "9.86"
+    },
+    {
+     "h": "21. INNOVATIONS IN RECEIVABLE MANAGEMENT",
+     "num": "21",
+     "size": 14.5,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "9.89"
+    },
+    {
+     "h": "22. MONITORING OF RECEIVABLES",
+     "num": "22",
+     "size": 16.0,
+     "numbered": true,
+     "page": 25,
+     "level": 1,
+     "printed": "9.94"
+    }
+   ],
+   "formula_pages": [
+    12,
+    28
+   ],
+   "low_text_pages": [],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "MANAGEMENT OF WORKING CAPITAL"
+   ],
+   "label_conflicts": []
+  },
+  "09-management-of-working-capital-u5": {
+   "pages": [
+    1,
+    4
+   ],
+   "printed": [
+    "9.98",
+    "9.101"
+   ],
+   "labels": [
+    "9.98",
+    "9.99",
+    "9.100",
+    "9.101"
+   ],
+   "headings": [
+    {
+     "h": "UNIT - V",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "9.98"
+    },
+    {
+     "h": "23. INTRODUCTION",
+     "num": "23",
+     "size": 16.0,
+     "numbered": true,
+     "page": 1,
+     "level": 1,
+     "printed": "9.98"
+    },
+    {
+     "h": "24. COST AND BENEFITS OF TRADE CREDIT",
+     "num": "24",
+     "size": 16.0,
+     "numbered": true,
+     "page": 1,
+     "level": 1,
+     "printed": "9.98"
+    },
+    {
+     "h": "25. COMPUTATION OF COST OF PAYABLES",
+     "num": "25",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "9.99"
+    }
+   ],
+   "formula_pages": [
+    2,
+    3
+   ],
+   "low_text_pages": [],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "MANAGEMENT OF WORKING CAPITAL"
+   ],
+   "label_conflicts": []
+  },
+  "09-management-of-working-capital-u6": {
+   "pages": [
+    1,
+    55
+   ],
+   "printed": [
+    "9.102",
+    "9.156"
+   ],
+   "labels": [
+    "9.102",
+    "9.103",
+    "9.104",
+    "9.105",
+    "9.106",
+    "9.107",
+    "9.108",
+    "9.109",
+    "9.110",
+    "9.111",
+    "9.112",
+    "9.113",
+    "9.114",
+    "9.115",
+    "9.116",
+    "9.117",
+    "9.118",
+    "9.119",
+    "9.120",
+    "9.121",
+    "9.122",
+    "9.123",
+    "9.124",
+    "9.125",
+    "9.126",
+    "9.127",
+    "9.128",
+    "9.129",
+    "9.130",
+    "9.131",
+    "9.132",
+    "9.133",
+    "9.134",
+    "9.135",
+    "9.136",
+    "9.137",
+    "9.138",
+    "9.139",
+    "9.140",
+    "9.141",
+    "9.142",
+    "9.143",
+    "9.144",
+    "9.145",
+    "9.146",
+    "9.147",
+    "9.148",
+    "9.149",
+    "9.150",
+    "9.151",
+    "9.152",
+    "9.153",
+    "9.154",
+    "9.155",
+    "9.156"
+   ],
+   "headings": [
+    {
+     "h": "26. INTRODUCTION",
+     "num": "26",
+     "size": 16.0,
+     "numbered": true,
+     "page": 1,
+     "level": 1,
+     "printed": "9.102"
+    },
+    {
+     "h": "27. SOURCES OF FINANCE",
+     "num": "27",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "9.103"
+    },
+    {
+     "h": "27.1 Spontaneous Sources of Finance",
+     "num": "27.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 2,
+     "level": 2,
+     "printed": "9.103"
+    },
+    {
+     "h": "27.2 Inter-corporate Loans and Deposits",
+     "num": "27.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 3,
+     "level": 2,
+     "printed": "9.104"
+    },
+    {
+     "h": "27.3 Commercial Papers",
+     "num": "27.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 3,
+     "level": 2,
+     "printed": "9.104"
+    },
+    {
+     "h": "27.4 Funds Generated from Operations",
+     "num": "27.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "9.105"
+    },
+    {
+     "h": "27.5 Public Deposits",
+     "num": "27.5",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "9.105"
+    },
+    {
+     "h": "27.6 Bills Discounting",
+     "num": "27.6",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "9.105"
+    },
+    {
+     "h": "27.7 Bill Rediscounting Scheme",
+     "num": "27.7",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "9.105"
+    },
+    {
+     "h": "27.8 Factoring",
+     "num": "27.8",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "9.105"
+    },
+    {
+     "h": "28. WORKING CAPITAL FINANCE FROM BANKS",
+     "num": "28",
+     "size": 15.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "9.106"
+    },
+    {
+     "h": "28.1 Instructions on Working Capital Finance by Banks",
+     "num": "28.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "9.106"
+    },
+    {
+     "h": "29. FORMS OF BANK CREDIT",
+     "num": "29",
+     "size": 16.0,
+     "numbered": true,
+     "page": 6,
+     "level": 1,
+     "printed": "9.107"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 7,
+     "level": 1,
+     "printed": "9.108"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 9,
+     "level": 1,
+     "printed": "9.110"
+    },
+    {
+     "h": "Multiple Choice Questions (MCQs)",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 9,
+     "level": 1,
+     "printed": "9.110"
+    },
+    {
+     "h": "Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 14,
+     "level": 1,
+     "printed": "9.115"
+    },
+    {
+     "h": "Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 25,
+     "level": 1,
+     "printed": "9.126"
+    },
+    {
+     "h": "ANSWERS/SOLUTIONS",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 27,
+     "level": 1,
+     "printed": "9.128"
+    },
+    {
+     "h": "Answers to the MCQs",
+     "num": null,
+     "size": 14.1,
+     "numbered": false,
+     "page": 27,
+     "level": 1,
+     "printed": "9.128"
+    },
+    {
+     "h": "Answers to the Theoretical Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 27,
+     "level": 1,
+     "printed": "9.128"
+    },
+    {
+     "h": "Answers to the Practical Problems",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 28,
+     "level": 1,
+     "printed": "9.129"
+    },
+    {
+     "h": "Answers to the Case Scenarios",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 53,
+     "level": 1,
+     "printed": "9.154"
+    }
+   ],
+   "formula_pages": [
+    29,
+    30,
+    31,
+    38,
+    39,
+    42,
+    43,
+    44,
+    48,
+    49,
+    53
+   ],
+   "low_text_pages": [],
+   "running_heads": [
+    "FINANCIAL MANAGEMENT",
+    "MANAGEMENT OF WORKING CAPITAL"
+   ],
+   "label_conflicts": []
+  }
+ }
+}

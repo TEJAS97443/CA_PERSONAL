@@ -1,0 +1,7 @@
+{"t": 1792485051.626719, "step": "start", "note": "reading docs"}
+{"t": 1792488783.665314, "step": "paragraphs", "note": "paras.py geometry re-join in smimport: 2,283 joins, 18 old MTPs; check.py reports unchanged"}
+{"t": 1792489759.004768, "step": "tags", "note": "1,089 items re-read in 10 batches; 147 changed (103 primary), 942 confirmed; all in sm_tags.json"}
+{"t": 1792489759.234506, "step": "syllabus", "note": "worth of a business out; NFP 4 out; HR-manager 1 out; inbound/outbound logistics + functional-strategy need 5 in"}
+{"t": 1792490121.733147, "step": "verify", "note": "check.py 76/76 0 errors (reports unchanged), build --check green, bank tests 10+20 ok, 3 items viewed"}
+{"t": 1792490231.887129, "step": "report", "note": "reports/sm-tags.md written"}
+{"t": 1792491368.365431, "step": "report", "note": "addendum: 4 topic calls (13 out, 12 kept with notes), table rebuilt via sm_text.json, key note"}

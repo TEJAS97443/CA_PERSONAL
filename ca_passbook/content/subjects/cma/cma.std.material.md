@@ -1,0 +1,500 @@
+---
+id: cma.std.material
+title: Material variances
+minutes: 35
+needs: cma.std.setting
+tags: material cost variance, material price variance, material usage variance, mix variance, yield variance, revised standard quantity
+labs: variance
+summary: Why the material bill differs from the standard: price, usage, and usage split into mix and yield, with standard loss, purchases against consumption, and the checks ICAI expects.
+---
+
+## In plain words
+
+### Kesar's sweeter recipe
+
+Tapri's premix plant in Indore blends sugar and milk powder into a "Lite" chai premix. The recipe card says 60 kg of sugar and 40 kg of milk powder go in, and 90 kg of premix comes out: 10 kg are lost in sieving and dust. One month Kesar has an idea.
+
+> **Kesar:** Sugar is ₹40 a kilo, milk powder ₹250. Put in more sugar, less milk powder. Cheaper premix, same taste!
+> **Ritu:** The month's material cost came in ₹3,100 below the standard.
+> **Kesar:** Told you. Sab adjust ho jayega.
+> **Ritu:** Per unit, please. That ₹3,100 is three different stories, and one of them is bad news.
+
+Ritu's first question is: **what should the material for this month's output have cost?** Not the output Kesar planned: the output the plant actually made. Standard quantities at standard prices for it give the **standard cost of actual output**. The gap between it and the actual cost is the **material cost variance**: **favourable** (F) when actual cost is lower, **adverse** (A) when higher.
+
+Then she splits the gap into causes. **Price**: the purchase team paid more or less per kg than the standard price. **Usage**: the plant used more or fewer kg than the standard allows for the output. Usage has two causes of its own: a changed **mix**, the proportions of the recipe (Kesar's extra sugar), and a changed **yield**, the output the inputs gave (Kesar's sugary blend lost more in sieving).
+
+This month the cheaper mix saved ₹10,500, the poorer yield cost ₹12,400, and the purchase team saved ₹5,000 on prices: net ₹3,100 favourable. Kesar's idea lost more than it saved; the buyers rescued him.
+
+::: analogy The wedding caterer's bill
+A caterer quoted for 500 plates of biryani from 50 kg of rice and 25 kg of chicken, and the bill came in higher. Chicken may have cost more per kg (price). The kitchen may have used more kg than 500 plates need (usage), either by putting in more chicken against rice, the costlier ingredient (mix), or by burning a pot so that the same pots fed fewer plates (yield).
+:::
+
+::: key
+Compare the actual cost with the standard cost of the **actual output**, then explain the gap: price (what each kg cost) and usage (how many kg), with usage split into mix (the proportions) and yield (what the inputs produced). The parts must add back to the whole.
+:::
+
+## How it works
+
+**Material cost variance** is the difference between the standard cost of materials used and the actual cost of materials: the difference between the standard material cost of the actual production volume and the actual cost of material (SM 13.14). It arises from a price different from the standard price, a consumption different from the standard consumption, or both, so it is analysed into a **material price variance** and a **material usage variance**.
+
+The Lite premix month, step by step. Standard: sugar 60 kg at ₹40 and milk powder 40 kg at ₹250 for 90 kg of premix (standard loss 10% of input). Actual: 1,710 kg of premix from 1,250 kg of sugar at ₹42 and 750 kg of milk powder at ₹240.
+
+### Six steps from a recipe card to five variances
+
+::: steps
+1. **Standard quantity for actual output (SQ).** 90 kg of output needs 100 kg of input, so 1,710 kg needs 1,710 × 100 ÷ 90 = 1,900 kg: sugar 60% = 1,140 kg, milk powder 40% = 760 kg. Standard cost of actual output = 1,140 × ₹40 + 760 × ₹250 = **₹2,35,600**.
+2. **Material cost variance (MCV)** = standard cost − actual cost = ₹2,35,600 − (1,250 × ₹42 + 750 × ₹240 = ₹2,32,500) = **₹3,100 (F)**.
+3. **Material price variance (MPV)**: the price difference on the actual quantity. Sugar (₹40 − ₹42) × 1,250 = ₹2,500 (A); milk powder (₹250 − ₹240) × 750 = ₹7,500 (F); total **₹5,000 (F)**. The purchase department is answerable for it.
+4. **Material usage variance (MUV)**: the quantity difference at standard price. Sugar (1,140 − 1,250) × ₹40 = ₹4,400 (A); milk powder (760 − 750) × ₹250 = ₹2,500 (F); total **₹1,900 (A)**. The production department is answerable for it.
+5. **Split usage with the revised standard quantity (RSQ)**: the actual total input, 2,000 kg, in the standard 60 : 40 proportion: sugar 1,200 kg, milk powder 800 kg. **Mix variance** = (RSQ − AQ) × SP: sugar (1,200 − 1,250) × ₹40 = ₹2,000 (A), milk powder (800 − 750) × ₹250 = ₹12,500 (F), total **₹10,500 (F)**. **Yield variance** = (SQ − RSQ) × SP: sugar (1,140 − 1,200) × ₹40 = ₹2,400 (A), milk powder (760 − 800) × ₹250 = ₹10,000 (A), total **₹12,400 (A)**.
+6. **Check**: mix + yield = usage (₹10,500 F + ₹12,400 A = ₹1,900 A), and price + usage = cost (₹5,000 F + ₹1,900 A = ₹3,100 F).
+:::
+
+The whole analysis is four amounts in a row, each with one thing changed from the one before. Learn the ladder and the formulas follow:
+
+::: diagram The material variance ladder, Lite premix month
+{"type": "layers", "w": 430, "layers": [
+ {"label": "(1) SQ × SP = ₹2,35,600", "note": "standard cost of actual output"},
+ {"label": "(2) RSQ × SP = ₹2,48,000", "note": "actual total input in the standard mix", "right": "yield (1) − (2): ₹12,400 (A)"},
+ {"label": "(3) AQ × SP = ₹2,37,500", "note": "actual quantities at standard prices", "right": "mix (2) − (3): ₹10,500 (F)"},
+ {"label": "(4) AQ × AP = ₹2,32,500", "note": "actual cost", "right": "price (3) − (4): ₹5,000 (F)"}],
+ "caption": "Each rung changes one thing from the rung above: total quantity (yield), proportions (mix), price (price). A positive difference is favourable, a negative one adverse. Yield + mix = usage, (1) − (3) = ₹1,900 (A); all three = cost variance, (1) − (4) = ₹3,100 (F)."}
+:::
+
+::: diagram Lite premix: the variance tree
+{"type": "tree", "root": {"label": "Material cost\n₹3,100 F", "color": "ok", "children": [
+ {"label": "Price\n₹5,000 F", "color": "ok"},
+ {"label": "Usage\n₹1,900 A", "color": "bad", "children": [
+  {"label": "Mix\n₹10,500 F", "color": "ok"},
+  {"label": "Yield\n₹12,400 A", "color": "bad"}]}]},
+ "caption": "Green: favourable (F); rose: adverse (A). Each pair of children adds up to its parent."}
+:::
+
+::: lab variance {"mode":"material"}
+Grow the tree yourself, one branch per step, while the working table fills column by column beside it.
+:::
+
+### The vocabulary, in ICAI's words
+
+| Term | Meaning (SM 13.17) |
+|---|---|
+| Standard quantity (SQ) | Quantity of inputs to be used to produce actual output |
+| Actual quantity (AQ) | Quantity of inputs actually used to produce actual output |
+| Revised standard quantity (RSQ) | The actual total quantity of inputs, if used in standard proportion |
+
+A **mix variance** only arises when two or more inputs are used to produce a product (SM 13.16). The **yield variance** is also called the **material sub-usage variance** (and, in the check, the "revised usage" variance); it may arise from sub-standard quality of materials, inefficiency of workers or wrong processing (SM 13.17).
+
+## Formats and formulas
+
+Every material variance answer starts from a working table with the standard for actual output on one side and the actual on the other. *Reproduce the formulas and the table from memory.* A variance computed as standard minus actual is favourable when positive and adverse when negative; write F or A after every figure (SM 13.12).
+
+::: formula Material cost variance
+$$\text{MCV} = (SQ \times SP) - (AQ \times AP)$$
+SQ = standard quantity for actual output, SP = standard price, AQ = actual quantity, AP = actual price. In words: standard cost of actual output − actual cost (SM 13.14).
+:::
+
+::: formula Material price variance
+$$\text{MPV} = AQ \times (SP - AP) \qquad = (SP \times AQ) - (AP \times AQ)$$
+AQ here is the quantity **purchased**; if purchases are not given, take it as equal to the quantity consumed (SM 13.15). The Study Material calls the quantity used "also correct", and its own worked answers use it (Illustration 4, Practical Problem 6): when purchases and consumption differ, state the basis you use (Under the hood).
+:::
+
+::: formula Material usage variance
+$$\text{MUV} = SP \times (SQ - AQ) \qquad = (SQ \times SP) - (AQ \times SP)$$
+AQ here is the quantity **used** (SM 13.16).
+:::
+
+::: formula Material mix variance
+$$\text{MMV} = SP \times (RSQ - AQ) \qquad = (RSQ \times SP) - (AQ \times SP)$$
+:::
+
+::: formula Material yield (sub-usage) variance
+$$\text{MYV} = SP \times (SQ - RSQ) \qquad = (SQ \times SP) - (RSQ \times SP)$$
+:::
+
+::: formula Standard quantity with a standard loss, and the revised standard quantity
+$$SQ = \text{Actual output} \times \frac{\text{Std input}}{\text{Std output}} \qquad RSQ_{\text{A}} = \text{Total AQ} \times \frac{SQ_{\text{A}}}{\text{Total SQ}}$$
+Std input and std output: the standard batch's input and output.
+Then split SQ by the standard mix: with a 15% standard loss, 1,700 kg of output needs 1,700 × 100 ÷ 85 = 2,000 kg of input (SM 13.23).
+:::
+
+::: formula The checks
+$$\text{MCV} = \text{MPV} + \text{MUV} \qquad \text{MUV} = \text{MMV} + \text{MYV}$$
+The first holds when the quantity purchased equals the quantity consumed (SM 13.17).
+:::
+
+### The working table
+
+| Material | SQ × SP (₹) | RSQ × SP (₹) | AQ × SP (₹) | AQ × AP (₹) |
+|---|---:|---:|---:|---:|
+| A | xxx | xxx | xxx | xxx |
+| B | xxx | xxx | xxx | xxx |
+| **Total** | **xxx** | **xxx** | **xxx** | **xxx** |
+
+Yield = column 1 − column 2; mix = column 2 − column 3; price = column 3 − column 4; usage = column 1 − column 3; cost = column 1 − column 4. Show the quantities (SQ, RSQ, AQ) and prices in a working note above it.
+
+## Worked examples
+
+:::: example The tea that went into the godown
+Tapri's premix plant uses Assam CTC tea. The standard is 0.25 kg of tea per carton of premix at ₹400 per kg. During November the plant made 12,000 cartons. It purchased 3,500 kg of tea for ₹13,65,000 and used 3,100 kg; there was no opening stock.
+
+**Required:**
+
+(i) Calculate the material cost variance.
+
+(ii) Calculate the material price variance at the time of purchase.
+
+(iii) Calculate the material usage variance.
+
+(iv) Explain why (ii) and (iii) do not add up to (i), and show the price variance that does.
+
+::: answer Show the working
+**Working notes**
+
+1. Standard quantity for actual output = 12,000 × 0.25 kg = **3,000 kg**.
+2. Actual price = ₹13,65,000 ÷ 3,500 kg = **₹390 per kg**.
+
+**(i)** MCV = (SQ × SP) − (AQ × AP) = (3,000 × ₹400) − (3,100 × ₹390) = ₹12,00,000 − ₹12,09,000 = **₹9,000 (A)**.
+
+**(ii)** MPV = (SP − AP) × AQ purchased = (₹400 − ₹390) × 3,500 = **₹35,000 (F)**.
+
+**(iii)** MUV = (SQ − AQ used) × SP = (3,000 − 3,100) × ₹400 = **₹40,000 (A)**.
+
+**(iv)** ₹35,000 (F) + ₹40,000 (A) = ₹5,000 (A), not ₹9,000 (A). The price variance at purchase includes ₹4,000 (F) on the 400 kg still in stock (400 × ₹10), which is not part of the cost of material used. On the quantity consumed:
+
+| Particulars | Working | Amount (₹) |
+|---|---|---:|
+| Price variance on material used | (₹400 − ₹390) × 3,100 | 31,000 (F) |
+| Usage variance | (3,000 − 3,100) × ₹400 | 40,000 (A) |
+| **Material cost variance** | | **9,000 (A)** |
+
+Convention: the Study Material prefers the purchase basis because it reports a price variance as soon as it arises (SM 13.15); the check MCV = MPV + MUV then holds only on the consumption basis. State the basis you use.
+:::
+::::
+
+::::: example Three ingredients, a standard loss and a cheaper mix
+Tapri's masala chai premix is blended from three ingredients. The standard mix for 100 kg of input and the standard prices are:
+
+| Ingredient | Standard mix | Standard price (₹ per kg) |
+|---|---:|---:|
+| Sugar | 50% | 40 |
+| Milk powder | 30% | 260 |
+| Tea and masala | 20% | 450 |
+
+A standard loss of 10% of input is expected. In December, 45,900 kg of premix was produced from:
+
+| Ingredient | Quantity used (kg) | Actual price (₹ per kg) |
+|---|---:|---:|
+| Sugar | 27,000 | 42 |
+| Milk powder | 15,800 | 255 |
+| Tea and masala | 9,200 | 460 |
+
+Purchases equalled consumption.
+
+**Required:**
+
+(i) Calculate the material cost, price, usage, mix and yield variances, for each ingredient and in total, indicating whether each is favourable (F) or adverse (A).
+
+(ii) Verify your answers.
+
+(iii) Comment on the result in two sentences.
+
+:::: answer Show the working
+**Working notes**
+
+1. Standard input for 45,900 kg of output = 45,900 × 100 ÷ 90 = 51,000 kg; split 50 : 30 : 20.
+2. Total actual input = 27,000 + 15,800 + 9,200 = 52,000 kg; RSQ = 52,000 split 50 : 30 : 20.
+
+| Ingredient | SQ (kg) | RSQ (kg) | AQ (kg) | SP / AP (₹) |
+|---|---:|---:|---:|---:|
+| Sugar | 25,500 | 26,000 | 27,000 | 40 / 42 |
+| Milk powder | 15,300 | 15,600 | 15,800 | 260 / 255 |
+| Tea and masala | 10,200 | 10,400 | 9,200 | 450 / 460 |
+| **Total** | **51,000** | **52,000** | **52,000** | |
+
+| Ingredient | SQ × SP (₹) | RSQ × SP (₹) | AQ × SP (₹) | AQ × AP (₹) |
+|---|---:|---:|---:|---:|
+| Sugar | 10,20,000 | 10,40,000 | 10,80,000 | 11,34,000 |
+| Milk powder | 39,78,000 | 40,56,000 | 41,08,000 | 40,29,000 |
+| Tea and masala | 45,90,000 | 46,80,000 | 41,40,000 | 42,32,000 |
+| **Total** | **95,88,000** | **97,76,000** | **93,28,000** | **93,95,000** |
+
+**(i) Variances.** Cost = (SQ × SP) − (AQ × AP); price = (SP − AP) × AQ; usage = (SQ − AQ) × SP; mix = (RSQ − AQ) × SP; yield = (SQ − RSQ) × SP. From the table above:
+
+| Variance (₹) | Sugar | Milk powder | Tea and masala | Total |
+|---|---:|---:|---:|---:|
+| Cost | 1,14,000 (A) | 51,000 (A) | 3,58,000 (F) | **1,93,000 (F)** |
+| Price | 54,000 (A) | 79,000 (F) | 92,000 (A) | **67,000 (A)** |
+| Usage | 60,000 (A) | 1,30,000 (A) | 4,50,000 (F) | **2,60,000 (F)** |
+| Mix | 40,000 (A) | 52,000 (A) | 5,40,000 (F) | **4,48,000 (F)** |
+| Yield | 20,000 (A) | 78,000 (A) | 90,000 (A) | **1,88,000 (A)** |
+
+**(ii) Check**
+
+- MUV = MMV + MYV: ₹2,60,000 (F) = ₹4,48,000 (F) + ₹1,88,000 (A).
+- MCV = MPV + MUV: ₹1,93,000 (F) = ₹67,000 (A) + ₹2,60,000 (F).
+
+::: diagram Masala premix: the variance tree
+{"type": "tree", "root": {"label": "Material cost\n₹1,93,000 F", "color": "ok", "children": [
+ {"label": "Price\n₹67,000 A", "color": "bad"},
+ {"label": "Usage\n₹2,60,000 F", "color": "ok", "children": [
+  {"label": "Mix\n₹4,48,000 F", "color": "ok"},
+  {"label": "Yield\n₹1,88,000 A", "color": "bad"}]}]},
+ "caption": "Green: favourable (F); rose: adverse (A). The favourable total comes from the mix."}
+:::
+
+**(iii) Comment.** The favourable cost variance comes entirely from the mix: 1,200 kg less of tea and masala, the costliest input, than the standard proportion. The yield variance shows the price of that mix, 900 kg less output than 52,000 kg should give (46,800 kg), and the taste of the premix should be checked before the "saving" is welcomed.
+::::
+:::::
+
+::: lab variance {"mode":"material","out":1600,"stdOut":1,"mStd":[["A",4,50],["B",8,40]],"mAct":[["A",7000,40],["B",12500,45]]}
+Here is September 2024 Q4(a): two materials, and the cost, price, usage, mix and yield variances branch by branch.
+:::
+
+:::: example Bunty's chai-stained standard cost card
+On the audit visit to the premix plant, Bunty spilt chai over the standard cost card of the elaichi-adrak premix, a blend of ginger powder and cardamom. The standard mix and the standard loss are illegible; the standard prices survived. The plant's records for October and Ritu's variance summary are intact:
+
+| Particulars | Ginger powder | Cardamom |
+|---|---:|---:|
+| Standard price (₹ per kg) | 200 | 1,600 |
+| Actual input (kg) | 340 | 60 |
+| Actual price (₹ per kg) | 205 | 1,650 |
+
+Actual output was 324 kg. Ritu's summary shows a total material usage variance of ₹8,800 (F) and a total material yield variance of ₹19,200 (A). Purchases equalled consumption.
+
+**Required:**
+
+(i) Find the standard mix and the standard loss as a percentage of input.
+
+(ii) Calculate the material cost, price, usage, mix and yield variances for each material and in total.
+
+(iii) Compare the actual loss with the standard loss, and comment on the month in two sentences.
+
+::: answer Show the working
+**(i) Recovering the standard**
+
+1. Mix = usage − yield: ₹8,800 (F) − ₹19,200 (A) = 8,800 + 19,200 = **₹28,000 (F)**.
+2. In total, mix = (total AQ × standard cost per kg of the standard mix) − Σ(AQ × SP). Σ(AQ × SP) = 340 × ₹200 + 60 × ₹1,600 = ₹68,000 + ₹96,000 = ₹1,64,000. So 400 × c − ₹1,64,000 = ₹28,000 and c = ₹1,92,000 ÷ 400 = **₹480 per kg of input**.
+3. If ginger is a fraction g of the standard mix: ₹200g + ₹1,600(1 − g) = ₹480, so ₹1,400g = ₹1,120 and g = 0.80. **Standard mix: ginger 80%, cardamom 20%.**
+4. Yield = (total SQ − total AQ) × standard cost per kg of input (SM 13.71): (SQ − 400) × ₹480 = −₹19,200, so total SQ = 400 − 40 = **360 kg** of input for 324 kg of output. Standard loss = 36 kg ÷ 360 kg = **10% of input**.
+
+**(ii) Variances**
+
+SQ (360 kg at 80 : 20): ginger 288 kg, cardamom 72 kg. RSQ (400 kg at 80 : 20): ginger 320 kg, cardamom 80 kg.
+
+| Variance (₹) | Ginger powder | Cardamom | Total |
+|---|---:|---:|---:|
+| Cost: (SQ × SP) − (AQ × AP) | 12,100 (A) | 16,200 (F) | **4,100 (F)** |
+| Price: (SP − AP) × AQ | 1,700 (A) | 3,000 (A) | **4,700 (A)** |
+| Usage: (SQ − AQ) × SP | 10,400 (A) | 19,200 (F) | **8,800 (F)** |
+| Mix: (RSQ − AQ) × SP | 4,000 (A) | 32,000 (F) | **28,000 (F)** |
+| Yield: (SQ − RSQ) × SP | 6,400 (A) | 12,800 (A) | **19,200 (A)** |
+
+Workings: cost, ginger 288 × ₹200 − 340 × ₹205 = ₹57,600 − ₹69,700; cardamom 72 × ₹1,600 − 60 × ₹1,650 = ₹1,15,200 − ₹99,000. Check: MCV = MPV + MUV = ₹4,700 (A) + ₹8,800 (F) = ₹4,100 (F); MUV = MMV + MYV = ₹28,000 (F) + ₹19,200 (A) = ₹8,800 (F), the figures Ritu recorded.
+
+**(iii) Loss and comment.** Actual loss = 400 − 324 = **76 kg** (19% of input) against a standard loss of 10% × 400 = **40 kg**: 36 kg of output short. At the standard cost of ₹1,72,800 ÷ 324 kg of output, 36 kg is worth ₹19,200, the yield variance again. The ₹4,100 (F) total hides a blend with 20 kg less cardamom than the standard proportion (a ₹28,000 mix saving) that lost 36 kg of output, and dearer purchases of both spices; the aroma of October's premix should be tested before anyone calls it a saving.
+:::
+::::
+
+## Under the hood
+
+### Purchase basis or consumption basis
+
+**The rule** (SM 13.15): "actual quantity means actual quantity of material purchased. If in the question material purchase is not given, it is taken as equal to material consumed." The reason: a price variance within the purchase department's control should be reported as early as possible. Taking material used "is also correct but does not serve the purpose of variance computation".
+
+**The Study Material's own answers** nevertheless compute it on the quantity used whenever the two differ:
+
+| Where | Purchased | Used | Price variance in the answer |
+|---|---:|---:|---|
+| Illustration 4 (SM 13.21–13.22) | A 800 kg, B 1,200 kg | A 830 kg, B 1,190 kg | On the 795 kg and 1,150 kg used out of purchases: ₹376.25 (F) |
+| Practical Problem 6, Novell & Co. (SM 13.74) | 20,000 units | 19,000 units | 19,000 × (₹4 − ₹4.40) = ₹7,600 (A); on purchases it would be ₹8,000 (A) |
+| Practical Problem 13, J.K. Ltd. (SM 13.80–13.81) | 8,200 kg | 7,500 kg | ₹3,000 (A) on material used; the purchase basis, ₹2,200 (A), in a note |
+
+ICAI's later papers follow the question: MTP January 2026 Series II Q5(a) asks for "all material variances based on actual material consumption"; RTP September 2025 Case Scenario 1, where stocks are valued at standard cost, takes "Actual Quantity purchased".
+
+**What to write.** If the question names a basis, follow it. If it is silent and purchases differ from consumption, take the quantity purchased (the rule), say so, and add the consumption-basis figure in a note, as Practical Problem 13 does: that answer is right on either reading. On the consumption basis, MCV = MPV + MUV closes; on the purchase basis it does not (SM 13.17).
+
+::: diagram Which quantity for the price variance?
+{"type": "flow", "w": 420, "nodes": [
+ {"id": "s", "kind": "start", "label": "Price variance to compute"},
+ {"id": "p", "kind": "decision", "label": "Purchases given separately?"},
+ {"id": "u", "kind": "end", "label": "Quantity used", "color": "a"},
+ {"id": "q", "kind": "decision", "label": "Question names a basis?"},
+ {"id": "f", "kind": "end", "label": "Follow the question", "color": "a"},
+ {"id": "b", "kind": "end", "label": "Quantity purchased;\nnote the used basis", "color": "c"}],
+ "edges": [["s", "p"], ["p", "u", "no"], ["p", "q", "yes"], ["q", "f", "yes"], ["q", "b", "no"]],
+ "caption": "With purchases as the basis, MCV = MPV + MUV holds only after the price variance on unused stock is taken out."}
+:::
+
+### Opening stock valued at standard price
+
+In Illustration 4 (SM 13.21–13.24) opening stock is valued at standard price, and the answer issues it first. Quantity used = opening stock + purchases − closing stock (A: 35 + 800 − 5 = 830 kg), and the price variance arises only on the 795 kg drawn from purchases: the 35 kg already at standard price carry none. That is the consumption basis: on purchases it would be 800 kg.
+
+### Short-cuts for the totals
+
+When only totals are asked (common in "missing figures" questions):
+
+- **Yield** = (total SQ − total AQ) × standard cost per unit of input, used in the Study Material's own solution (SM 13.71). Lite premix: (1,900 − 2,000) × ₹124 = ₹12,400 (A), where ₹124 = ₹2,48,000 ÷ 2,000 kg.
+- **Yield from the output side** = (actual output − standard output of the actual input) × standard cost per unit of output: (1,710 − 1,800) × ₹2,35,600 ÷ 1,710 = ₹12,400 (A). Illustration 4 computes this standard cost per unit of output (₹4 per kg) in its working notes.
+- **Mix** = total AQ × (standard cost per unit of the standard mix − standard cost per unit of the actual mix): 2,000 × (₹124 − ₹2,37,500 ÷ 2,000) = 2,000 × (₹124 − ₹118.75) = ₹10,500 (F). ICAI's answer to RTP January 2026 Q16 uses this form.
+
+### Next door
+
+The same ladder with hours for kilograms gives [[cma.std.labour|labour variances]]. Recording and disposing of variances, and the profit reconciliation, are in [[cma.std.recon|reconciling budgeted and actual profit]]; how the price and quantity standards are set, in [[cma.std.setting|standards and standard costing]].
+
+## Exam angle
+
+::: exam Where material variances appeared, May 2024 to September 2026
+In the ICAI documents read for this lesson, material variances were asked in 23 of them: 4 past papers, 7 RTPs and 12 MTPs.
+
+- **Descriptive, 4 to 9 marks**, usually with labour variances alongside. Full analysis with mix and yield and labour idle time: September 2024 Q4(a) (9 marks). Price and usage from budget and actual totals: January 2026 Q4(a) (7 marks). Actual price worked back from the price variance: May 2026 Q1(b) (5 marks). Three-material mix and yield: RTP January 2025 Q16. Missing figures for a two-material mix: RTP May 2025 Q17 and MTP May 2026 Series I Q2(a) (8 marks); RTP January 2026 Q16. Purchases larger than consumption: MTP January 2026 Series II Q5(a) (11 marks, "based on actual material consumption").
+- **Multiple choice, 2 marks each**: price and mix variances from the cost, usage and yield variances (September 2025 MCQ 11); usage variance (RTP January 2026 MCQ 3); actual price from the price variance (MTP September 2025 Series I MCQ 13); mix, yield, price and cost for two fabrics with a normal loss (MTP September 2024 Series II MCQs 6–8).
+:::
+
+::: exam The wording traps ICAI used
+- "Purchased" and "consumed" given separately: the rule is purchases unless the question says otherwise (RTP September 2025 Case Scenario 1 does it on purchases; MTP January 2026 Series II Q5(a) asks for consumption), but the Study Material's own Novell & Co. answer uses consumption: state the basis and give the other figure in a note.
+- "Standard loss 10% of input" or "yield 80%": scale the input up from the actual output before anything else.
+- A material usage variance "adjusted for abnormal loss" (MTP January 2026 Series I Q3(a)) takes the abnormal loss out of the actual quantity; follow the question's instruction and say so.
+- "Indicate the nature of variance": every figure needs its (F) or (A).
+:::
+
+::: trick Read the ladder backwards for missing figures
+Any two of cost, price and usage give the third; any two of usage, mix and yield give the third. Condition: purchases equal consumption, or all the variances are on the same quantity. September 2025 MCQ 11 is just this: MPV = MCV − MUV and MMV = MUV − MYV, with F as plus and A as minus.
+:::
+
+## Answer frame
+
+### A full-marks material variance answer
+
+1. **Working notes first**: the standard quantity for actual output (show the standard-loss scaling), the actual quantity (opening stock + purchases − closing stock where stocks are given), the actual price, and the RSQ.
+2. **The working table**: SQ × SP, RSQ × SP, AQ × SP, AQ × AP for each material, with totals.
+3. **Each variance**: the formula in symbols, then each material's figure with (F) or (A), then the total.
+4. **The check lines**: MUV = MMV + MYV and MCV = MPV + MUV; if purchases differ from consumption, state the basis of the price variance and show the consumption-basis figure, on which the second check closes.
+5. **A one-line comment** when the question asks for one: which variance drives the total, and who is responsible.
+
+### "State the reasons for, and the responsibility for, material variances"
+
+| Variance | Reasons (Study Material) | Responsibility |
+|---|---|---|
+| Price | Purchase price different from standard; some causes within the purchase department's control, some beyond it | Purchase department, for adverse variances from factors it controls |
+| Usage | Consumption different from standard: a different proportion (mix) or a different yield | Production department |
+| Mix | Proportion of inputs actually used different from the standard mix; only with two or more inputs | Production department (mix is part of usage) |
+| Yield | Sub-standard quality of materials, inefficiency of workers, wrong processing | Production department (yield is part of usage) |
+
+### Three answers to the same question
+
+::: cols
+**Loses marks**
+
+"Mix variance = ₹4,48,000."
+
+No formula, no material-wise figures, no F or A.
+---
+**Passes**
+
+"Mix variance = (RSQ − AQ) × SP = ₹4,48,000 (F)."
+
+Formula and nature, but no RSQ shown: one slip in it costs every later mark.
+---
+**Full marks**
+
+Working notes (SQ with the 10% loss, RSQ), the table, each material's mix figure with F or A, the total, and the check MUV = MMV + MYV.
+:::
+
+## Common mistakes
+
+::: mistake Hall of Shame: the standard quantity for the output Kesar planned
+Taking SQ from the budgeted output instead of the actual output. Kesar planned 1,800 kg of Lite premix and the plant made 1,710 kg: an SQ of 2,000 kg from the plan turns the usage variance of ₹1,900 (A) into a "saving" of ₹10,500 (F) that never happened. **Fix:** SQ is always the standard quantity for the **actual** output; the budget plays no part in material variances.
+:::
+
+::: mistake The revised standard quantity built from the standard total
+RSQ splits the **actual total input** (52,000 kg) in the standard proportion, not the standard total (51,000 kg). Built from 51,000 kg, the RSQ equals the SQ, the yield variance vanishes and the mix variance swallows the whole usage variance. **Fix:** RSQ = total AQ × standard proportion; its total must equal the total AQ.
+:::
+
+::: mistake The standard loss forgotten
+For 45,900 kg of output, SQ = 45,900 kg of input ignores the 10% loss. **Fix:** standard input = actual output × standard input ÷ standard output (here × 100 ÷ 90 = 51,000 kg).
+:::
+
+::: mistake Price variance on the wrong quantity, without a word
+Using consumption when purchases are given (or purchases when the question asks for consumption), silently. **Fix:** purchases unless told otherwise (SM 13.15); state the basis, and give the consumption-basis figure in a note so that MPV + MUV reconciles to MCV.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Tapri's kulhad unit has a standard of 0.5 kg of clay per kulhad at ₹12 per kg. In March it made 40,000 kulhads, purchased 24,000 kg of clay at ₹11.50 per kg and used 21,000 kg. What is the material price variance at the time of purchase, in rupees (favourable)?
+= 12000
+> MPV = (SP − AP) × quantity purchased = (₹12 − ₹11.50) × 24,000 = ₹12,000 (F). On the 21,000 kg used it would be ₹10,500 (F).
+
+Q: Case scenario. Ritu's notes on a two-spice blend for November: the standard input allowed for the actual output is 2,000 kg; the actual input was 2,080 kg; the standard mix costs ₹500 per kg of input; the material mix variance is ₹6,000 (F) and the material price variance ₹9,000 (A). Purchases equal consumption. What is the material cost variance?
+- [ ] ₹49,000 (A)
+- [ ] ₹55,000 (A)
+- [ ] ₹25,000 (A)
+- [x] ₹43,000 (A)
+> Yield = (total SQ − total AQ) × standard cost per kg of input = (2,000 − 2,080) × ₹500 = ₹40,000 (A). Usage = mix + yield = ₹6,000 (F) + ₹40,000 (A) = ₹34,000 (A). Cost = price + usage = ₹9,000 (A) + ₹34,000 (A) = ₹43,000 (A). ₹49,000 leaves out the mix variance, ₹55,000 treats it as adverse, and ₹25,000 treats the price variance as favourable.
+
+Q: A unit's budget was 1,000 units; it produced 900. The standard is 2 kg per unit at ₹50 per kg, and it used 1,850 kg. What is the material usage variance?
+- [ ] ₹7,500 (F)
+- [x] ₹2,500 (A)
+- [ ] ₹2,500 (F)
+- [ ] ₹5,000 (A)
+> SQ for the actual 900 units = 1,800 kg; MUV = (1,800 − 1,850) × ₹50 = ₹2,500 (A). ₹7,500 (F) uses the budgeted 2,000 kg, the commonest mistake.
+
+Q: When can a material mix variance arise?
+- [ ] Whenever the actual price differs from the standard price
+- [ ] Whenever there is a standard loss in processing
+- [x] Only when two or more materials are used to make the product
+- [ ] Only when purchases differ from consumption
+> The mix variance compares actual with standard proportions, so it needs at least two inputs (SM 13.16).
+
+Q: Which of these can cause an adverse material yield variance? Select all that apply.
+- [x] Sub-standard quality of materials
+- [x] Inefficiency of workers
+- [ ] A rise in the market price of the material
+- [x] Wrong processing
+> The Study Material's three causes of a yield variance are sub-standard materials, inefficient workers and wrong processing (SM 13.17). A price rise shows up in the price variance.
+:::
+
+## Recap
+
+- MCV = (SQ × SP) − (AQ × AP): standard cost of **actual** output minus actual cost.
+- MPV = AQ × (SP − AP), on the quantity **purchased** (consumed if purchases are not given); the purchase department's.
+- MUV = SP × (SQ − AQ), on the quantity **used**; the production department's.
+- MMV = SP × (RSQ − AQ); MYV (sub-usage) = SP × (SQ − RSQ); RSQ = actual total input in the standard proportion.
+- Checks: MUV = MMV + MYV; MCV = MPV + MUV when purchases equal consumption.
+- Standard loss: SQ = actual output × standard input ÷ standard output, then split by the standard mix.
+- Ladder: SQ × SP → RSQ × SP → AQ × SP → AQ × AP gives yield, mix, price. (Kesar's sweeter recipe: mix favourable, yield adverse.)
+
+## Flashcards
+
+Q:: Formula: material cost variance?
+A:: (Standard quantity for actual output × standard price) − (actual quantity × actual price): the standard cost of actual output minus the actual cost.
+
+Q:: Formula: material price variance, and which actual quantity it uses?
+A:: AQ × (SP − AP), where AQ is the quantity purchased; if purchases are not given, it is taken as equal to the quantity consumed.
+
+Q:: Formula: material usage variance, and which actual quantity it uses?
+A:: SP × (SQ − AQ), where AQ is the quantity actually used.
+
+Q:: Formula: material mix variance?
+A:: SP × (RSQ − AQ): actual quantity in standard proportion minus actual quantity in actual proportion, at standard price.
+
+Q:: Formula: material yield (sub-usage) variance?
+A:: SP × (SQ − RSQ): standard quantity for actual production minus actual quantity in standard proportion, at standard price.
+
+Q:: What is the revised standard quantity (RSQ)?
+A:: The actual total quantity of inputs used, split in the standard proportion.
+
+Q:: When does a material mix variance arise?
+A:: Only when two or more inputs are used to produce a product.
+
+Q:: Material variances: the two verification formulas?
+A:: MCV = MPV + MUV (if quantity purchased equals quantity consumed); MUV = MMV + MYV.
+
+Q:: Standard input for 1,700 kg of output with a 15% standard loss?
+A:: 1,700 × 100 ÷ 85 = 2,000 kg, split by the standard mix.
+
+Q:: Who is responsible for material price and material usage variances?
+A:: Price: the purchase department (for adverse variances from factors it controls). Usage: the production department.
+
+Q:: Three causes of a material yield variance (SM)?
+A:: Sub-standard quality of materials, inefficiency of workers, wrong processing.

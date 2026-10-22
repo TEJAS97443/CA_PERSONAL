@@ -1,0 +1,750 @@
+           PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                             SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                           Question No. 1 is compulsory
+                                      Answer any five questions from the rest.
+        Question 1
+        Explain the following in brief:
+        (a) Business Intelligence (BI)
+        (b) Line Error Control
+        (c) Internet of Things (IoT)
+        (d) Cyber Crime
+        (e) Risk Assessment
+        Answer
+        (a) Business Intelligence (BI): Business Intelligence (BI) is a technology-driven process for
+            analyzing data and presenting actionable information to help corporate executives,
+            business managers and other end users make more informed business decisions. BI
+            encompasses a wide variety of tools, applications and methodologies that enable
+            organizations to collect data from internal systems and external sources, prepare it for
+            analysis, develop and run queries against the data, and create reports, dashboards and
+            data visualizations to make the analytical results available to corporate decision makers as
+            well as operational workers.
+             The potential benefits of business intelligence programs include accelerating and
+             improving decision making; optimizing internal business processes; increasing operational
+             efficiency; driving new revenues; and gaining competitive advantages over business rivals.
+             BI systems can also help companies identify market trends and spot business problems
+             that need to be addressed.
+        (b) Line Error Control: Whenever data is transmitted over a communication line in a
+            telecommunication network, an error may occur because of attenuation distortion or noise
+            that occurs on the line. These line errors must be detected and corrected.
+             •     Error Detection: The errors can be detected by either using a loop (echo) check or
+                   building some form of redundancy into the message transmitted.
+             •     Error Correction: When line errors have been detected, they must then be corrected
+                   using either forward error correcting codes or backward error correcting codes.
+        (c) Internet of Things (IoT): IoT is a system of interrelated computing devices, mechanical
+            and digital machines, objects, animals or people that are provided with unique identifiers
+            and the ability to transfer data over a network without requiring human-to-human or human-
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+             to-computer interaction. For example: Washing machines with Wi-Fi networking
+             capabilities can connect themselves to home Wi-Fi. Once these machines are so
+             connected, they can be controlled through machine manufacturer mobile app from
+             anywhere in the world.
+        (d) Cyber Crime: Cyber-crime also known as Computer Crime are crimes that involve use of
+            a computer and a network. It is defined as the offences that are committed against
+            individuals or groups of individuals with a criminal motive to intentionally harm the
+            reputation of the victim or cause physical or mental harm, or loss, to the victim directly or
+            indirectly, using modern telecommunication networks such as Internet (Chat rooms,
+            emails, notice boards and groups) and mobile phones. Committing of a fraud by
+            manipulation of the input, output or throughput of a computer based system; Computer
+            forgery which involves changing images or data stored in computers; Deliberate damage
+            caused to computer data or programs through virus programs or logic bombs;
+            Unauthorized access to computers by hacking into systems or stealing passwords; and
+            unauthorized reproduction of computer programs or software piracy are some examples of
+            Cybercrimes.
+        (e) Risk Assessment: Risk Assessment is one of the five components that define Internal
+            Control under SA 315. Every entity faces a variety of risks from external and internal
+            resources. Risk assessment involves a dynamic and iterative process for identifying and
+            assessing risks to the achievement of objectives. Thus, risk assessment forms the basis
+            for determining how risks will be managed. A precondition to risk assessment is the
+            establishment of objectives, linked at different levels of the entity. Management specifies
+            objectives within categories of operations, reporting, and compliance with sufficien t clarity
+            to be able to identify and assess risks to those objectives. Risk assessment also requires
+            management to consider the impact of possible changes in the external environment and
+            within its own business model that may render internal control ineffective.
+        Question 2
+        (a) Data Warehouse extracts data from one or more of the organization’s databases and loads
+            it into another database for storage and analysis purpose. As a Data Warehouse Manager,
+            determine the design criteria, which should be met while designing Date Warehouse.
+                                                                                               (6 Marks)
+        (b) Explain the positive aspects contained in the IT Act, 2000 and its provisions, from the
+            perspective of e-commerce in India.                                           (4 Marks)
+        Answer
+        (a) The Data Warehouse extracts data from one or more of the organization’s databases and
+            loads it into another database for storage and analysis purpose. A data warehouse should
+            be designed so that it meets the following criteria:
+             •    It uses non-operational data. This means that the data warehouse is using a copy of
+                  data from the active databases that the company uses in its day- to-day operations,
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            3
+
+
+                  so the data warehouse must pull data from the existing databases on a regular,
+                  scheduled basis.
+             •    The data is time-variant. This means that whenever data is loaded into the data
+                  warehouse, it receives a time stamp, which allows for comparisons between different
+                  time periods.
+             •    The data is standardized. Because the data in a data warehouse usually comes from
+                  several different sources, it is possible that the data does not use the same definitions
+                  or units. For the data warehouse to match up different formats, a standard format (for
+                  example – date) would have to be agreed upon and all data loaded into the data
+                  warehouse would have to be converted to use this standard format. This process is
+                  called Extraction-Transformation-Load (ETL).
+             •    There are two approaches to follow when designing a data warehouse:
+                  o    The Bottom-Up Approach starts by creating small data warehouses called
+                       Data Marts to solve specific business problems. As these data marts are
+                       created, they can be combined into a larger data warehouse.
+                  o    The Top-Down Approach suggests that we should start by creating an
+                       enterprise-wide data warehouse and then, as specific business needs are
+                       identified, create smaller data marts from the data warehouse.
+        (b) From the perspective of e-commerce in India, the IT Act, 2000 and its provisions contain
+            many positive aspects which are as follows:
+                 The implications for the e-businesses is that email is now a valid and legal form of
+                  communication in India that can be duly produced and approved in a court of law.
+                 Companies shall now be able to carry out electronic commerce using the legal
+                  infrastructure provided by the Act.
+                 Digital Signatures have been given legal validity and sanction in the Act.
+                 The Act throws open the doors for the entry of corporate companies in the business
+                  of being Certifying Authorities for issuing Digital Signatures Certificates.
+                 The Act allows Government to issue notification on the web thus heralding e -
+                  governance.
+                 The Act enables the companies to file any form, application or any other document
+                  with any office, authority, body or agency owned or controlled by the appropriate
+                  Government in electronic form by means of such electronic form as may be prescribed
+                  by the appropriate Government.
+                 The IT Act also addresses the important issues of security, which are so critical to the
+                  success of electronic transactions.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                 The Act has given a legal definition to the concept of secure digital signatures that
+                  would be required to have been passed through a system of a security procedure, as
+                  stipulated by the Government at a later date.
+             Under the IT Act, 2000, it shall now be possible for corporates to have a statutory remedy
+             in case if anyone breaks into their computer systems or network and causes damages or
+             copies data. The remedy provided by the Act is in the form of monetary damages, not
+             exceeding ` 1 crore.
+        Question 3
+        (a) A manufacturing company is implementing an ideal ERP software, where a single database
+            is being utilized and it contains all the data for various software modules. Identify the
+            modules of an ideal ERP software along with their functions.                   (6 Marks)
+        (b) Explain briefly the objectives of Information System’s Auditing.                 (4 Marks)
+        Answer
+        (a) An ideal ERP System where a single database is being utilized and contains all data for
+            various software modules includes the following modules:
+                 Manufacturing: Some of the functions include engineering, capacity, workflow
+                  management, quality control, bills of material, manufacturing process, etc.
+                 Financials: Accounts payable, accounts receivable, fixed assets, general ledger and
+                  cash management, etc.
+                 Human Resources: Benefits, training, payroll, time and attendance, etc.
+                 Supply Chain Management: Inventory, supply chain planning, supplier scheduling,
+                  claim processing, order entry, purchasing, etc.
+                 Projects: Costing, billing, activity management, time and expense, etc.
+                 Customer Relationship Management (CRM): CRM is a term applied to processes
+                  implemented by a company to handle its contact with its customers. CRM software is
+                  used to support these processes, storing information on current and prospective
+                  customers. Information in the system can be accessed and entered by employees in
+                  different departments, such as sales, marketing, customer service, trai ning,
+                  professional development, performance management, human resource development
+                  and compensation.
+                 Data Warehouse: Usually this is a module that can be accessed by an organization’s
+                  customers, suppliers and employees. Data warehouse is a repository of an
+                  organization’s electronically stored data. These are designed to facilitate reporting
+                  and analysis, to retrieve and analyse data; tools to extract, transform and load data
+                  into the repository; and to manage the data dictionary.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            5
+
+
+        (b) The major objectives of Information System’s (IS) Auditing are as follows:
+             •    Asset Safeguarding: The information system assets (hardware, software, data
+                  information etc.) must be protected by a system of internal controls from unauthorized
+                  access.
+             •    Data Integrity: The importance to maintain integrity of data of an organization
+                  requires all the time and is a fundamental attribute of IS Auditing. It is also important
+                  from the business perspective of the decision maker, competition and the market
+                  environment.
+             •    System Effectiveness: Effectiveness of a system is evaluated by auditing the
+                  characteristics and objective of the system to meet business and user requirements.
+             •    System Efficiency: To optimize the use of various information system resources
+                  such as machine time, peripherals, system software and labour along with the impact
+                  on its computing environment.
+        Question 4
+        (a) Automation of business processes has introduced new types of risks in banking service.
+            You being the Branch Manager of a CBS branch, list out some of the internal controls you
+            think to be implemented in your branch.                                       (6 Marks)
+        (b) Explain various Control Objectives of e-commerce or m-commerce.                     (4 Marks)
+        Answer
+        (a) Some examples of Internal Controls that can be implemented in a bank branch to avoid
+            the risks are as below:
+             •    Work of one staff member is invariably supervised/ checked by another staff member,
+                  irrespective of the nature of work (Maker-Checker process).
+             •    A system of job rotation among staff exists.
+             •    Financial and administrative powers of each official/ position is fixed and
+                  communicated to all persons concerned.
+             •    Branch managers must send periodic confirmation to their controlling authority on
+                  compliance of the laid down systems and procedures.
+             •    All books are to be balanced periodically. Balancing is to be confirmed by an
+                  authorized official.
+             •    Details of lost security forms are immediately advised to controlling so that th ey can
+                  exercise caution.
+             •    Fraud prone items like currency, valuables, draft forms, term deposit receipts,
+                  traveller’s cheques and other such security forms are in the custody of at least two
+                  officials of the branch.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+        (b) Various Control Objectives of e-Commerce or m-Commerce are as follows:
+             •    Prevent organizational costs of data Loss: Data is a critical resource of an
+                  organization for its present and future process and its ability to adapt and survive in
+                  a changing environment.
+             •    Prevent loss from incorrect decision making: Management and operational
+                  controls taken by managers involve detection, investigations and correction of out-of-
+                  control processes. These high-level decisions require accurate data to make quality
+                  decision rules.
+             •    Prevent loss of Computer Hardware, Software and Personnel: These are critical
+                  resources of an organization which has a credible impact on its infrastructure and
+                  business competitiveness.
+             •    Prevent from high costs of computer Error: In a computerized enterprise
+                  environment where many critical business processes are performed, a data error
+                  during entry or process would cause great damage.
+             •    Safeguard assets from un-authorized access: The information system assets
+                  (hardware, software, data files etc.) must be protected by a system of internal controls
+                  from unauthorized access.
+             •    Ensure data integrity: The importance to maintain integrity of data of an organization
+                  depends on the value of information, the extent of access to the information and the
+                  value of data to the business from the perspective of the decision maker, competition
+                  and the market environment.
+             •    System Effectiveness Objectives: Effectiveness of a system is evaluated by
+                  auditing the characteristics and objective of the system to meet substantial user
+                  requirements.
+             •    System Efficiency Objectives: To optimize the use of various information system
+                  resources (machine time, peripherals, system software and labour) along with the
+                  impact on its computing environment.
+        Question 5
+        (a) An e-commerce website is offering following discounts:
+             •    If the purchase mode is via website, a discount of 5% is given on the bill amount.
+             •    If the purchase mode is via phone app, a discount of 10% is given on bill amount.
+             •    If purchase is done via any other mode, customer is not eligible for any discount.
+             Draw a Flowchart to calculate and display the bill amount payable by the customer.
+                                                                                               (6 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            7
+
+
+        (b) Now-a-days, Credit Cards are extensively being used for payment purpose. As a
+            consultant to credit card section of a bank, advise the risks involved in the credit card
+            process.                                                                       (4 Marks)
+        Answer
+        (a) Let us define the variables first:
+             PM: Purchase Mode                                BA: Bill Amount
+             FIN_BA: Final Bill Amount                        DISC: Discount
+
+
+
+                                            Start
+
+
+
+                                         FIN_BA = 0
+
+
+
+                                          Read PM, BA
+
+
+
+
+                                     If PM = Website?                                Yes
+                                          No
+
+                                      If PM = Phone App?
+                                                                             Yes
+                                         No
+
+                                           DISC = 0                 DISC = 0.10            DISC = 0.05
+
+
+
+
+                                                           FIN_BA = BA – (BA*DISC)
+
+
+
+                                                              Print FIN_BA
+
+
+
+                                                                Stop
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+
+        (b) Various risks that are involved in the Credit Card process are as follows:
+             •    Credit Line setup is unauthorized and not in line with the banks policy.
+             •    Masters defined for the customer are not in accordance with the Pre-Disbursement
+                  Certificate.
+             •    Credit Line setup can be breached.
+             •    Inaccurate interest/charge being calculated in the Credit Card system.
+             •    Inaccurate reconciliations performed.
+        Question 6
+        (a) Draw Workflow Diagram for e-commerce and describe various steps and corresponding
+            activities involved in this diagram.                                    (8 Marks)
+        (b) Explain the significance of Front End and Back End in a software.                   (2 Marks)
+                                                         OR
+             Explain various types of Data Coding Errors.                                       (2 Marks)
+        Answer
+        (a) The workflow diagram for e-Commerce is as follows:
+
+
+                                                   Pays through     Order sent to         Shipping is
+                                   Submits          Credit Card     Warehouse for     scheduled and sent
+                                 Online Order       Transaction       Shipping           to Customer
+
+
+
+
+                  Customer                      Submit order
+                                                 via phone
+
+
+
+
+                                       E-Commerce Workflow Diagram
+             Description of various steps and corresponding activities in e-Commerce workflow are as
+             follows:
+             Step 1: Customers login: Few e-commerce merchants may allow same transactions to
+             be done through phone, but the basic information flow is e-mode.
+             Step 2: Product / Service Selection: Customer selects products/services from available
+             options.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                           9
+
+
+             Step 3: Customer Places Order: Order placed for selected product/service by customer
+             that leads to next important activity “Payment Gateway”.
+             Step 4: Payment Gateway: Here, customer makes a selection of the payment method. In
+             case payment methods is other than Cash on Delivery(COD), the merchant gets the update
+             from payment gateway about payment realization from customer. In case of COD, e -
+             commerce vendor may do an additional check to validate customer.
+             Step 5: Dispatch and Shipping Process: This process may be executed at two different
+             ends. First if product/service inventory is managed by e-commerce vendor than dispatch
+             shall be initiated at merchant warehouse. Second, many e-commerce merchants allow
+             third party vendors to sale through merchant websites.
+             Step 6: Delivery Tracking: Another key element denoting success of e-commerce
+             business is timely delivery. To keep a track of this, merchants provide their delivery staff
+             with hand held devices, where product / service delivery to customers are immediately
+             updated.
+             Step 7: COD Tracking: In case products are sold on Cash on Delivery (COD) payment
+             mode, merchants need to have additional check on matching delivery with payments.
+        (b) Front End of a Software: It is part of the overall software which interacts with the user
+            who is using the software. For example - If a user wants to have some information from
+            the Balance Sheet; user will interact with Front End part of the software and request front
+            end to generate the report.
+             Back End of a Software: It is a part of the overall software which does not directly interact
+             with the user, but interact with Front End only. Front End will receive the instruction from
+             user and pass it on to the back end. Back End will process the data, generate the report
+             and send it to the front end. Front end will then display the information to user.
+                                                       OR
+        (b) Data Coding Errors: Data Coding errors can cause serious problems in data processing
+            if they go undetected. Two types of errors - Transcription and Transposition errors can
+            corrupt a data code and cause processing errors.
+             •    Transcription Errors: It is a special type of data entry error that is commonly made
+                  by human operators or by Optical Character Recognition (OCR) programs. These
+                  falls into three classes: Addition errors, Truncation errors and Substitution errors.
+             •    Transposition Errors: It is a simple error of data entry that occur when two digits
+                  that are either individual or part of larger sequence of numbers are reversed
+                  (Transpose) when posting a transaction. There are two types of transposition errors:
+                  Single transposition and Multiple transposition errors.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                                   SECTION –B: STRATEGIC MANAGEMENT
+                                           Question No. 7 is compulsory
+                                     Answer any four questions from the rest.
+        Question 7
+        (a) Explain the concept of competitive advantage.
+        (b) Describe the term 'Strategic Vision'.
+        (c) Explain the meaning of Directional Strategy.
+        (d) Explain the meaning of core competencies.
+        (e) Describe the term 'Co-generic merger'.                                       (5 x 2 = 10 Marks)
+        Answer
+        (a) Competitive advantage is the position of a firm to maintain and sustain a favorable market
+            position when compared to the competitors. Competitive advantage is ability to offer buyers
+            something different and thereby providing more value for the money. It is achieved
+            advantage over rivals when a company’s profitability is greater than average profitability
+            of firms in its industry. It is the result of a successful strategy. This position gets translated
+            into higher market share, higher profits when compared to those that are obtained by
+            competitors operating in the same industry. Competitive advantage may also be in the form
+            of low cost relationship in the industry or being unique in the industry along dimensions
+            that are widely valued by the customers in particular and the society at large.
+        (b) A strategic vision delineates organisation’s aspirations for the business, providing a
+            panoramic view of the position where the organisation is going. A strategic vision
+            points an organization in a particular direction, charts a strategic path for it to follow in
+            preparing for the future, and moulds organizational identity.
+             A Strategic vision is a roadmap of a company’s future – providing specifics about
+             technology and customer focus, the geographic and product markets to be pursued, the
+             capabilities it plans to develop, and the kind of company that management is trying to
+             create.
+        (c) Directional strategies, also called grand strategies, provide basic directions for strategic
+            actions towards achieving strategic goals. Such strategies are formulated at the corporate
+            level so are also known as corporate strategies. The corporate strategies a firm can
+            adopt have been classified into four broad categories: stability, expansion,
+            retrenchment, and combination.
+        (d) A core competenceis a unique strength of an organization which may not be shared by
+            others. It is defined as a combination of skills and techniques rather than individual skill or
+            separate technique. Core competencies are those capabilities that are critical to a business
+            achieving competitive advantage. In order to qualify as a core competence, the
+            competency should differentiate the business from any other similar businesses.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          11
+
+
+        (e) In co-generic merger two or more merging organizations are associated in some way or
+            the other related to the production processes, business markets, or basic required
+            technologies. Such merger includes the extension of the product line or acquiring
+            components that are required in the daily operations. It offers great opportunities to
+            business to diversify around a common set of resources and strategic requirements.
+        Question 8
+        Which of the following statements are 'correct' and which are 'incorrect'?
+        Give reasons, in brief, for your answer:
+        (a) Non-profit organizations do not require Strategic Management.
+        (b) Human Resource Manager's role is significant in building up core competency of the firm.
+        (c) Corporate culture is always identical in all the business organizations.
+        (d) Marketing function has no relation with production function.
+        (e) Economies of scale discourages new entrants.                               (5 x 2 = 10 Marks)
+        Answer
+        (a) Incorrect: Strategic management applies equally to profit as well as non-profit
+            organisations. Similar to commercial organizations, ‘not-for-profit’ organizations must also
+            have strategies, purpose, vision and mission also. Strategic Management is required to
+            give direction, focus and lead to efficient utilization of resources. In many ‘not-for-profit’
+            organizations surpluses are important for their survival and growth.
+        (b) Correct: The human resource manager has a significant role to play in developing cor e
+            competency of the firm. A core competence is a unique strength of an organization which
+            may not be shared by others. Core-competencies can be generated and maintained only
+            through the effective management of human resources and their skills.
+        (c) Incorrect: Every company has its own organisational culture. Each has its own business
+            philosophy and principles, its own ways of approaching to the problems and making
+            decisions, its own work climate, work ethics, etc. Therefore, corporate culture is not
+            identical in all organisations. Organisations over a period of time inherit and percolate down
+            its own specific work ethos and approaches.
+        (d) Incorrect: Marketing function and production function complement each other. They need
+            to work in tandem to produce goods as per the needs and preferences of the customers.
+            Marketing links the production with the customers.
+        (e) Correct: Economies of scale leads to decline in the per-unit cost of production (or other
+            activity) as volume grows. A large firm that enjoys economies of scale can produce high
+            volumes of goods at successively lower costs. This tends to discourage new entrants.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+        Question 9
+        (a) XYZ Ltd. is a multi-product company, suffering from continuous losses since last few years
+            and has accumulated heavy losses which have eroded its net worth.
+             What strategic option is available to the management of this sick company? Advise with
+             reasons.                                                                    (5 Marks)
+        (b) Ram and Shyam are two brothers engaged in the business of spices. Both have different
+            approaches to management. Ram prefers the conventional and formal approach in which
+            authority is used for explicit rewards and punishment. While, on the other hand , Shyam
+            believes in democratic participative management approach, involving employees to give
+            their best.
+             Analyse the leadership style followed by Ram and Shyam.                            (5 Marks)
+        Answer
+        (a) XYZ Ltd. is a sick company with accumulated losses that have eroded its net worth. The
+            multi-product company may analyse its various products to take decisions on the viability
+            of each. The company may consider retrenchment strategy. Retrenchment becomes
+            necessary for coping with hostile and adverse situations in the environment and when any
+            other strategy is likely to be suicidal.
+             Retrenchment strategy is adopted because of continuous losses and unviability and
+             stability can be ensured by reallocation of resources from unprofitable to profitable
+             businesses.
+             Retrenchment strategy is followed when an organization substantially reduces the scope
+             of its activity. This is done through an attempt to find out the problem areas and diagnose
+             the causes of the problems. Next, steps are taken to solve the problems. These steps
+             result in different kinds of retrenchment strategies as follows:
+             Turnaround strategy: If the organization chooses to transform itself into a leaner structure
+             and focuses on ways and means to reverse the process of decline, it adopts a turnaround
+             strategy. It may try to reduce costs, eliminate unprofitable outputs, generate revenue,
+             improve coordination, better control, and so on.
+             Divestment Strategy: Divestment strategy involves the sale or liquidation of a portion of
+             business, or a major division, profit centre or SBU. Divestment is usually a part of
+             rehabilitation or restructuring plan and is adopted when a turnaround has been attempted
+             but has proved to be unsuccessful.
+             Liquidation Strategy: In the retrenchment strategy, the most extreme and unattractive is
+             liquidation strategy. It involves closing down a firm and selling its assets. It is considered
+             as the last resort because it leads to serious consequences such as loss of employment
+             for workers and other employees, termination of opportunities where a firm could pursue
+             any future activities, and the stigma of failure.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                           13
+
+
+             The management of multiproduct sick company manufacturing various items need to
+             understand pros and cons of each strategic option. The decision will depend upon the
+             specific circumstances of each product and management goals of the company.
+        (b) Ram is a follower of transactional leadership style that focuses on designing systems
+            and controlling the organization’s activities. Such a leader believes in using authority of its
+            office to exchange rewards, such as pay and status. They prefer a more formalized
+            approach to motivation, setting clear goals with explicit rewards or penalties for
+            achievement or non-achievement. Transactional leaders try to build on the existing culture
+            and enhance current practices. The style is better suited in persuading people to work
+            efficiently and run operations smoothly.
+             On the other hand, Shyam is a follower of transformational leadership style. The style
+             uses charisma and enthusiasm to inspire people to exert them for the good of the
+             organization. Transformational leaders offer excitement, vision, intellectual stimulation and
+             personal satisfaction. They inspire involvement in a mission, giving followers a ‘dream’ or
+             ‘vision’ of a higher calling so as to elicit more dramatic changes in organizational
+             performance. Such a leadership motivates followers to do more than originally affected to
+             do by stretching their abilities and increasing their self-confidence, and also promote
+             innovation throughout the organization.
+        Question 10
+        (a) Define Strategic Management. Also discuss the limitations of Strategic Management.
+                                                                                                (5 Marks)
+        (b) Describe the principal aspects of strategy-execution process, which are included in most
+            situations.                                                                    (5 Marks)
+        Answer
+        (a) The term ‘strategic management’ refers to the managerial process of developing a
+            strategic vision, setting objectives, crafting a strategy, implementing and evaluating the
+            strategy, and initiating corrective adjustments where deemed appropriate.
+             The presence of strategic management cannot counter all hindrances and always achieve
+             success as there are limitations attached to strategic management. These can be
+             explained in the following lines:
+                 Environment is highly complex and turbulent. It is difficult to understand the
+                  complex environment and exactly pinpoint how it will shape-up in future. The
+                  organisational estimate about its future shape may awfully go wrong and jeopardise
+                  all strategic plans. The environment affects as the organisationhas to deal with
+                  suppliers, customers, governments and other external factors.
+                 Strategic Management is a time-consuming process. Organisations spend a lot of
+                  time in preparing, communicating the strategies that may impede daily operations and
+                  negatively impact the routine business.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                 Strategic Management is a costly process. Strategic management adds a lot of
+                  expenses to an organization. Expert strategic planners need to be engaged, efforts
+                  are made for analysis of external and internal environments devise strategies and
+                  properly implement. These can be really costly for organisations with limited
+                  resources particularly when small and medium organisation create strategies to
+                  compete.
+                 Competition is unpredictable. In a competitive scenario, where all organisations
+                  are trying to move strategically, it is difficult to clearly estimate the competitive
+                  responses to the strategies.
+        (b) Implementation or execution is an operations-oriented, activity aimed at shaping the
+            performance of core business activities in a strategy-supportive manner. In most situations,
+            strategy-execution process includes the following principal aspects:
+                 Developing budgets that steer ample resources into those activities that are critical
+                  to strategic success.
+                 Staffing the organization with the needed skills and expertise, consciously
+                  building and strengthening strategy-supportive competencies and competitive
+                  capabilities, and organizing the work effort.
+                 Ensuring that policies and operating procedures facilitate rather than impede
+                  effective execution.
+                 Using the best-known practices to perform core business activities and pushing
+                  for continuous improvement.
+                 Installing information and operating systems that enable company personnel to
+                  better carry out their strategic roles day in and day out.
+                 Motivating people to pursue the target objectives energetically.
+                 Creating culture and climate conducive to successful strategy implementation and
+                  execution.
+                 Exerting the internal leadership needed to drive implementation forward and keep
+                  improving strategy execution.
+        Question 11
+        (a) Explain briefly the competitive forces in any industry as identified by Michael Porter.
+                                                                                              (5 Marks)
+        (b) Define the term 'Marketing'. Distinguish between social marketing and service marketing.
+                                                                                              (5 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                         15
+
+
+        Answer
+        (a) Five forces model of Michael Porter is a popular tool for systematically diagnosing the
+            significant competitive pressures in the market and assessing their strength and
+            importance. The model holds that the state of competition in an industry is a composite of
+            competitive pressures operating in five forces as follows:
+             1.   Threat of new entrants: New entrants place a limit on prices and affect the
+                  profitability of existing players. The new capacity and product range the new entrants
+                  bring increases competitive pressure. bigger the new entrant, the more severe the
+                  competitive effect.
+             2.   Bargaining power of customers: The bargaining power of the buyers influences not
+                  only the prices that the producer can charge but also influence costs and investments
+                  of the producer. This force will become heavier depending on the possibilities of the
+                  buyers forming groups or cartels, particularly in case of industrial products.
+             3.   Bargaining power of suppliers: Often suppliers can exercise considerable
+                  bargaining power. If the suppliers are also limited in number they stand a still better
+                  chance to exhibit their bargaining power. The bargaining power of suppliers
+                  determines the cost of raw materials and other inputs of the industry and, therefore,
+                  can affect industry attractiveness and profitability.
+             4.   Rivalry among current players: The rivalry among existing players is quite obvious.
+                  This is what is normally understood as competition. The impact is evident more at
+                  functional level in the prices being charged, advertising, and pressures on costs,
+                  product and so on.
+             5.   Threats from substitutes: Substitute products are a latent source of competition in
+                  an industry. Substitute products offering a price advantage and/or performance
+                  improvement to the consumer can have significant impact.
+                  The five forces together determine industry attractiveness/profitability . This is
+                  so because these forces influence the causes that underlie industry attractiveness/
+                  profitability.
+        (b) In general, marketing is an activity performed by business organizations. In the present
+            day for business, it is considered to be the activities related to identifying the needs of
+            customers and taking such actions to satisfy them in return of some conside ration. The
+            term marketing constitutes different processes, functions, exchanges and activities that
+            create perceived value by satisfying needs of individuals.
+             Social marketing and service marketing are marketing strategies primarily with different
+             orientations. Social Marketing refers to the design, implementation, and control of
+             programs seeking to increase the acceptability of a social ideas, cause, or practice among
+             a target group. For instance, the publicity campaign for prohibition of smoking or
+             encouraging girl child, etc.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+             On the other hand, service marketing is applying the concepts, tools, and techniques,
+             of marketing to services. Service is any activity or benefit that one party can offer to
+             another that is essentially intangible and non-perishing. These may be from business to
+             consumer and from business to business.
+        Question 12
+        (a) Explain the concept and need of Strategy Audit. Why is it more difficult in present scenario?
+                                                                                                (7 Marks)
+        (b) Explain different types of strategic control in brief.                               (3 Marks)
+                          OR
+             Write a short note on SWOT analysis.
+        Answer
+        (a) A strategy audit is an examination and evaluation of areas affected by the operation
+            of a strategic management process within an organization. The audit of management
+            performance with regard to its strategies helps an organization identify problem areas and
+            correct the strategic approaches that have not been effective.
+             Strategy audit is needed under the following conditions:
+             (a) When the performance indicators reflect that a strategy is not working properly or is not
+                 producing desired outcomes.
+             (b) When the goals and objectives of the strategy are not being accomplished.
+             (c)   When a major change takes place in the external environment of the organization.
+             (d) When the top management plans:
+                   i.    to fine-tune the existing strategies and introduce new strategies and
+                   ii.   to ensure that a strategy that has worked in the past continues to be in-tune with
+                         subtle internal and external changes that may have occurred since the formulation
+                         of strategies.
+             The difficulties in strategy audit can be explained in terms of following trends:
+                  A dramatic increase in the environment’s complexity.
+                  The increasing difficulty of predicting the future with accuracy.
+                  The increasing number of variables in the environment.
+                  The rapid rate of obsolescence of even the best plans.
+                  The increase in the number of both domestic and world events affecting
+                   organizations.
+                  The decreasing time span for which planning can be done with any degree of
+                   certainty.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          17
+
+
+        (b) Strategic Control focuses on the dual questions of whether: (1) the strategy is being
+            implemented as planned; and (2) the results produced by the strategy are those intended .
+            There are four types of strategic control:
+             (a) Premise control: A strategy is formed on the basis of certain assumptions or
+                 premises about the environment. Premise control is a tool for systematic and
+                 continuous monitoring of the environment to verify the validity and accuracy of the
+                 premises on which the strategy has been built.
+             (b) Strategic surveillance: Strategic surveillance is unfocussed. It involves general
+                 monitoring of various sources of information to uncover unanticipated information
+                 having a bearing on the organizational strategy.
+             (c) Special alert control: At times, unexpected events may force organizations to
+                 reconsider their strategy. Sudden changes in government, natural calamities,
+                 unexpected merger/acquisition by competitors, industrial disasters and other such
+                 events may trigger an immediate and intense review of strategy.
+             (d) Implementation control: managers implement strategy by converting major plans
+                 into concrete, sequential actions that form incremental steps. Implementation control
+                 is directed towards assessing the need for changes in the overall strategy in light of
+                 unfolding events and result.
+                                                       or
+                  SWOT analysis is a tool used by organizations for evolving strategic options for the
+                  future. The term SWOT refers to the analysis of strengths, weaknesses, opportunities
+                  and threats facing a company. Strengths and weaknesses are identified in the internal
+                  environment, whereas opportunities and threats are located in the external
+                  environment.
+                  (a) Strength: Strength is an inherent capability of the organization which it can use to
+                      gain strategic advantage over its competitor.
+                  (b) Weakness: A weakness is an inherent limitation or constraint of the organisation
+                      which creates strategic disadvantage to it.
+                  (c)   Opportunity: An opportunity is a favourable condition in the external environment
+                        which enables it to strengthen its position.
+                  (d) Threat: An unfavourable condition in the external environment which causes a risk
+                      for, or damage to the organisation’s position.
+                        The major purpose of SWOT analysis is to enable the management to create a
+                        firm-specific business model that will best align, fit or match an organisational
+                        resources and capabilities to the demands for environment in which it operates.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

@@ -1,0 +1,315 @@
+                                                               Test Series: March, 2022
+                                 MOCK  TEST PAPER-I
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+Time Allowed – 1½ Hours                                     Maximum Marks: 50 Marks
+                            Part I: Multiple Choice Questions   Total Marks: 15 Marks
+Question Nos. 1 to 5 carries 2 marks each.
+KL Mart deals in grocery items, adults’ apparels, electronic items, stationery items and gym related equipment.
+These items are sold in its two showrooms one each in Noida and East Delhi. To purchase items from any of
+these two showrooms; the customers must have GST number against which free of cost membership card is
+issued to them which the customers may use in any of the showroom. KL Mart has its warehouse located at
+Greater Noida, quite distant from the location of its two showrooms. All the three locations - both showrooms and
+warehouse maintain their separate computerized billing and inventory systems with both showrooms not aware
+of inventory available at warehouse at any point in time. Therefore, the integration between the inventory system
+of both showrooms and warehouse store is lacking.
+As a regular practice, after every three days, both showrooms raise their inventory requirement to warehouse
+and accordingly the warehouse based on the availability of the stock items, either accepts or rejects partially/fully
+the requisition raised by any showroom. Once the order of any showroom is confirmed, the warehouse is bound
+to deliver the products to that showroom latest by the next day of its order confirmation. The management
+observes few incidents wherein the products were not supplied as per the requirement of showroom because of
+their non-availability. The time to place the clearance for the order of various products from the warehouse
+makes the showrooms to wait forcibly for their ordered products to be received.
+To solve the problem of delay in products’ delivery and reduce the turnaround time, the management of KL Mart
+proposes to procure new software with an objective to automate inventory, billing, and stock modules to
+synchronize integration of inventory systems between the showrooms and warehouse. So, the Management
+approaches a software provider/developer company named Gigs Software Ltd. to procure the software to
+automate and integrate their inventory process of warehouse and showrooms. Mr. Anil from Gigs Software Ltd.
+leads its team to understand and realize the needs and requirements of KL Mart for which he interviews various
+officials from management and employees of warehouse/showroom to know about their expectation from
+proposed system.
+1.  Mr. Anil after understanding the needs and requirements of KL Mart compiles a report and decides to
+    provide an overview of what data would the proposed system be processing and storing, what
+    transformations shall be performed, what results would be produced and flow of data among external
+    entities. Identify the tool used by Mr. Anil in this case.
+    (a) Data Flow Diagram
+    (b) Flowchart
+    (c) Decision Table
+    (d) Decision Box
+2.  In purview of above case scenario, whenever there is delivery of ordered products by warehouse to
+    any of the showroom, the vouchers are required to be issued to record the physical movement of stock
+    from one location to another. What type of voucher is relevant in this case?
+    (a) Receipt Note
+    (b) Stock Journal
+
+    (c) Delivery Note
+    (d) Physical Stock
+3.  While developing the proposed software for KL Mart, which of the following control from Data
+    Resource Management Control should be applied by developer of Mr. Anil’s team from Gigs Software
+    Ltd. so that only authorized users can change or delete the inventory database?
+    (a) Update Control
+    (b) Concurrency Control
+    (c) Definition Control
+    (d) Quality Control
+4.  Mr. Ramesh purchased various grocery and electronic items from KL Mart of ₹ 20,000/-. He used a
+    digital mode of payment wherein the payment was based through quick response code without using
+    internet banking. Identify the digital payment method used by Mr. Ramesh.
+    (a) Cryptocurrency
+    (b) Smart Card
+    (c) e-Rupi
+    (d) Credit Card
+5.  KL Mart maintains its bank account with Noida Branch of DEF bank for all types of transactions. Which
+    of the following server of DEF bank stores the login details of its customers and authenticates them at
+    the time of login?
+    (a) Internet Banking Application Server
+    (b) Internet Banking Channel Server
+    (c) Application Server
+    (d) Automated Teller Machine Channel Server
+Question No(s). 6 to 10 carries 1 Mark each.
+6.  Consider the following flowchart.
+                    Start
+               X = 100, Y =200, Z = 300, S = 0
+                   X = Y
+                   Y = Z
+                   Z = X
+                   S = Z
+                   Print S
+                    Stop
+
+    Choose the correct value of S.
+    (a) 100
+    (b) 200
+    (c) 300
+    (d)  0
+7.  Below mentioned activities are involved in overall Purchase Process of Material Management (MM)
+    Module in ERP Systems.
+    (i) Placing an order for Approved Quotation.
+    (ii) Release of payment to vendor.
+    (iii) Issue of material to production.
+    (iv) Receipt of material by stores.
+    (v) Purchase requisition from production department.
+    (vi) Evaluation of quotations.
+    (vii) Asking for quotation from approved vendors.
+    (viii) Evaluation of purchase request by Purchase department.
+    (ix) Recording of purchase invoice by Accounts.
+    Arrange them in sequence.
+    (a) (v) – (viii) – (vii) – (vi) – (i) - (iv) – (iii) – (ix) – (ii)
+    (b) (iii) – (iv) – (ii) – (vi) – (i) – (ix) – (viii) – (v) – (vii)
+    (c) (i) – (ii) – (iii) – (iv) – (ix) – (viii) – (vii) – (vi) – (v)
+    (d) (v) – (vii) – (ix) – (vi) – (iv) – (i) –(iii) – (ii) – (viii)
+8.  The Information Systems Auditing is defined as the process of attesting various objectives that are
+    mentioned below:
+    (i) Asset safeguarding
+    (ii) Data integrity
+    (iii) System effectiveness
+    (iv) System efficiency
+    The underpinned definition of these objectives is as under:
+    I.  This involves protecting of various resources like hardware, software, data files etc. by using
+        internal controls from unauthorized access.
+    II. This involves whether a system reports information in a way that facilitates its users in decision -
+        making or not.
+    III. This involves use of various Information system resources minimally with their optimum
+        utilization.
+    IV. This involves maintaining the accuracy, completeness, reliability, and transparency of the data.
+
+    Match the objectives with their definitions:
+    (a) (i) – I, (ii) – IV, (iii) - II, (iv) - III
+    (b) (i) – I, (ii) – II, (iii) - III, (iv) - IV
+    (c) (i) – IV, (ii) – III, (iii) - II, (iv) - I
+    (d) (i) – II, (ii) – III, (iii) - I, (iv) - IV
+9.  There are few examples of e-business model.
+    (i) A consumer selling his refrigerator on the website.
+    (ii) Consumer placing an estimate of amount s/he wants to spend on hiring the particular service.
+    (iii) Seller selling its products to an intermediate buyer who then sells its products to the final
+        customer.
+    (iv) Online retailer selling its products and services to consumers through its website.
+    The business models are listed below:
+    I.  Business - to - Business (B2B)
+    II. Consumer - to - Consumer (C2C)
+    III. Business - to - Consumer (B2C)
+    IV. Consumer - to - Business (C2B)
+    Identify the statement that shows the correct match of the example with its corresponding e-business
+    model.
+    (a) (i) - I, (ii) - II, (iii) - III, (iv) - IV
+    (b) (i) - II, (ii) - IV, (iii) - I, (iv) - III
+    (c) (i) - III, (ii) - II, (iii) - I, (iv) - IV
+    (d) (i) - IV, (ii) - III, (iii) - II, (iv) - I
+10. Following are the various risks that are associated with security of information in an automated
+    environment.
+    (i) Lack of management direction and commitment to protect information assets.
+    (ii) Potential loss of confidentiality, availability and integrity of data and system.
+    (iii) Non-establishment of user accountability.
+    (iv) Security breaches may go undetected.
+    Following are the controls for afore-mentioned risks to Information Security.
+    I.  Establishment of security policies.
+    II. Vendor default passwords are approximately modified, eliminated, or disabled.
+    III All users to have unique user-id.
+    IV  Logs are maintained and regularly reviewed.
+
+    Match the risks with their corresponding controls.
+    (a) (i) – I, (ii) – II, (iii) – III, (iv) - IV
+    (b) (i) – IV, (ii) – II, (iii) – III, (iv) – I
+    (c) (i) – II, (ii) – III, (iii) – IV, (iv) – I
+    (d) (i) – III, (ii) – I, (iii) – IV, (iv) - II
+                      Part II: Descriptive Questions             Total Marks: 35 Marks
+    Question No. 1 is compulsory. Attempt any three out of remaining four questions.
+1.  (a) ABC Bank has introduced digital mode of remittance to make online transfer of funds from one
+        place to another. Explain the various modes of Electronic Funds Transfer (EFT). (3 Marks)
+    (b) Mention various controls under the Application Control Framework of Information Systems.
+                                                                           (2 Marks)
+2.  (a) Enterprise Resource Planning (ERP) System comprises of various modules that share common
+        database and work in congruence and harmony with each other. Why do you think the integration
+        between different modules of ERP is required? Also, briefly explain integration of Material
+        Management (MM) Module with other modules.                     ([1 + 5] Marks)
+    (b) Blockchain is a shared immutable ledger that facilitates the process of recording transactions and
+        tracking assets in various business fields. Discuss various application areas of blockchain in
+        detail.                                                            (4 Marks)
+3.  (a) ABC Ltd. is a coaching institute with its three branches in Delhi/NCR that provides coaching to
+        engineering aspirants for various competitive examinations. The Institute wishes to develop an IT
+        setup to initiate online coaching and assessment tests. To attain its objective, ABC Ltd.
+        approaches an IT based company named KK Software Ltd. to develop the proposed system for
+        them. Discuss in detail the activities that the Systems Development Management team of KK
+        Software Ltd. would perform to develop the proposed system for ABC Ltd. (6 Marks)
+    (b) Data Analytics involves much more than just analyzing the data and help the businesses to
+        increase revenues, improve operational efficiency and to respond more quickly to emerging
+        market trends. Discuss the process of Data Analytics in detail.    (4 Marks)
+4.  (a) Grid Computing is special kind of distributed computing model used to solve complex problems
+        among different interconnected domains with each domain administrated independently and free
+        to deploy technologies. Briefly explain the constraints that should be considered to develop the
+        security architecture of Grid Computing.                           (6 Marks)
+    (b) Data in each business is considered as a unique resource and therefore its security is a primary
+        concern for organizations as various risks are associated with it. Briefly discuss the
+        Asynchronous attacks that fall under Data related risks.           (4 Marks)
+5.  (a) In any Information System; various controls are implemented to prevent, detect, and facilitate the
+        correction of several risks. Describe various levels at which implementation of these controls are
+        required to be examined in computer system.                        (6 Marks)
+    (b) RBI has prescribed comprehensive Cyber Security Framework for banks to ensure effective
+        information security governance in CBS environment. Specify the key measures required to
+        implement Network Security and Secure configuration in digital environment of bank. (4 Marks)
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                            Question 1 and 2 are compulsory.
+                  Attempt any three questions out of remaining four questions.
+1.  (A) Pantheon Yoga Center (PYC), situated in the dense forests of Chhattisgarh by Dr. Manohar
+        Dasgupta, a less known meditation center is visited by affluent Indians and foreign seekers, only
+        by invitation. The uniqueness of his methodologies remains in the fact that only a few people have
+        been able to experience them yet.
+        Recently, CEO of a big investment bank approached Dr. Dasgupta to take special sessions for his
+        management team in Los Angeles, USA - and given Dr. Dasgupta’s popularity amongst business
+        leaders, he wanted to strengthen his network as well for business purposes by building relations
+        with him. Though Dr. Dasgupta was reluctant at first but understanding the need to publicize his
+        practice and an offer by the CEO to get access to more corporates through this route, he took the
+        opportunity, and called his corporate suite of sessions, the ‘Shanti Classes’.
+        There were certain risks though; first, his techniques could be shunned by the top management as
+        being too orthodox and old. Second, maybe they could be revealed to the outside world in a very
+        disruptive manner, thus taking away the core uniqueness of exclusivity, and lastly, how would he
+        monetize his methodologies if they expanded so quickly.
+        With above risks also came the need to build a strong team of like minded individuals who could
+        support and propagate the ideologies in a positive fashion. For this he relied on his daughter,
+        Sukanya. She took three months to build a team of fifty young-vibrant men and women from
+        different backgrounds and trained them with basics and a few specializations.
+        PYC opened its first branch in Los Angeles, USA, and then took the opportunity to open three
+        more in India. One each in Madhya Pradesh, Gujarat and Assam.
+        The center and its techniques have now been recognised globally, especially in Northern America,
+        while Europe is still to be explored business wise. One thing that Pantheon model reassures is
+        that strategy has no boundation with respect to product or service; it applies to each kind in its
+        own way.
+        Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:
+        1.  Core competencies cannot be built on single know how, instead it has to be integration of
+            many resources. From the above case, what was the core competency of PYC and which of
+            the following competencies were missing from its bunch of competencies?
+            (a) Customer Satisfaction was the core competency and its competencies did not include
+                meditation expertise.
+            (b) Location of the Yoga Center was the core competency and its competencies did not
+                include technological know-how.
+            (c) Exclusivity was the core competency and its competencies did not include easy
+                scalability.
+            (d) Dr. Dasgupta’s brand name was the core competency and its competencies did not
+                include exclusivity.                                       (2 Marks)
+
+        2.  Suppose you are a banker funding PYC’s new ventures. Please apprise the management
+            about the third risk mentioned above and which of the functional level strategies is it
+            associated with for PYC?
+            (a) Associated with Delivering Value to Customer, Marketing Strategy
+            (b) Associated with Sources of Funds, Financial Strategy
+            (c) Associated with Free Publicity, Marketing Strategy
+            (d) Associated with Management of Funds, Financial Strategy    (2 Marks)
+        3.  The formation of “Shanti Classes’ by Dr. Dasgupta to popularise his business can be
+            categorised as which of the following growth strategies?
+            (a) Product Development
+            (b) Diversification
+            (c) Market Penetration
+            (d) Market Development                                          (1 Mark)
+        4.  Which growth strategy was the CEO of the investment bank trying to achieve with Dr.
+            Dasgupta’s classes?
+            (a) Merger
+            (b) Diversification
+            (c) Acquisition
+            (d) Strategic Alliance                                          (1 Mark)
+        5.  The biggest challenge that you think Sukanya would face while implementing Human
+            Resource Strategy for the newly trained 50 odd individuals would be?
+            (a) Building core competency with faith in employees
+            (b) Creating Competitive Advantage based on employee skills
+            (c) Managing Diversity of Workforce
+            (d) Providing Purposeful Direction                              (1 Mark)
+    (B) Greg was heading the Global Biscuits SBU for Jonky’s Ltd. and he got an email congratulating him
+        for being promoted as the head of entire business of Jonky’s in India. Which of the following
+        statements is true about Greg’s position?
+        (a) Greg was a business level manager but now he is a corporate level manager
+        (b) Greg was a functional level manager but now he is a corporate level manager
+        (c) Greg was a business level manager and now also he is a business level manager
+        (d) Greg was a corporate level manager and now also he is a corporate level manager
+                                                                            2 Marks)
+    (C) J&P, a western wear brand has contracted Pee Kaw marketing firm from Singapore, product design
+        team working as an outsource company from Mexico and Humans branding company taking care
+        of its people’s operations. What kind of structure is this?
+        (a) Hourglass Structure
+
+        (b) Outsourcing
+        (c) Network Structure
+        (d) Tree Branch Structure                                          (2 Marks)
+    (D) Which is not the major dimension of strategic decision making?
+        (a) Top management involvement
+        (b) Commitment of organizational resources
+        (c) Future Oriented
+        (d) Impact on short term prosperity of firm                         (1 Mark)
+    (E) Functional level managers are concerned with_________
+        (a) Strategies that are responsible for the operations of specific business
+        (b) Strategies that span multiple businesses
+        (c) Strategies that are specific to particular country
+        (d) Strategies that encourage a favourable attitude toward change   (1 Mark)
+    (F) Best Cost provider strategies
+        (a) Seek to attract buyers on the basis of charging low price for low quality
+        (b) Aim at giving customers less value for more money
+        (c) Seek to attract buyers on the basis of charging high price for high quality
+        (d) Aim to giving customers low cost and better quality             (1 Mark)
+    (G) The statement “where we want to go “denotes company
+        (a) Objective
+        (b) Policy
+        (c) Strategy
+        (d) Vision                                                          (1 Mark)
+2.  A private Moneyload Ltd. Bank that targets high worth individuals. They offer a premium service with
+    many additional and personal services not normally available through other banks. They charge a
+    significant annual fee for these services. The company makes full use of information technology
+    throughout its operations in order to minimize costs. Identify and explain the generic strategy adopted
+    by Moneyload Ltd. Bank?                                                (5 Marks)
+3.  (a) Sky chemical industry intends to grow its business. Advise the company on the available options
+        using Ansoff’s product market growth matrix.                       (5 Marks)
+    (b) The presence of strategic management cannot counter all hindrances and always achieve success
+        for an organisation. What are the limitations attached to strategic management? (5 Marks)
+4.  (a) There has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass
+        consumption pens while FlyBee is a notebook and diary brand - both being complementary goods
+        of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens
+        segment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?
+                                                                           (5 Marks)
+    (b) Explain briefly the. key areas in which the strategic planner should concentrate his mind to achieve
+        desired results.                                                   (5 Marks)
+
+5.  (a) Explain the steps for initiating strategic change.                 (5 Marks)
+    (b) What do you understand by functional structure?                    (5 Marks)
+6.  Distinguish between the following:
+    (a) Strategic Planning and Operational Planning.
+                                                                            5 Marks)
+    (b) Publicity & Sales Promotion.                                       (5 Marks)

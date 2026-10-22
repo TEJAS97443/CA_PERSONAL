@@ -1,0 +1,27 @@
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 12.39,
+ "words": 1715,
+ "overall_wpm": 138,
+ "lines": 63,
+ "lines_below_bar": [
+  "L001"
+ ],
+ "mean_recall": 0.939,
+ "min_recall": 0.615,
+ "mp3": "/Users/ztejas/CA_PERSONAL/ca_revision/out/P4-08 - Unit and Batch Costing - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.0,
+ "loudness_in": {
+  "input_i": "-25.64",
+  "input_tp": "-4.81",
+  "input_lra": "2.50",
+  "input_thresh": "-36.02",
+  "output_i": "-16.42",
+  "output_tp": "-1.50",
+  "output_lra": "2.50",
+  "output_thresh": "-26.81",
+  "normalization_type": "dynamic",
+  "target_offset": "0.42"
+ }
+}

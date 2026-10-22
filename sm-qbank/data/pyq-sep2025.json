@@ -1,0 +1,455 @@
+{
+ "source": {
+  "type": "PYQ",
+  "attempt": "September 2025",
+  "attempt_sort": "2025-09",
+  "series": null,
+  "scheme": "new",
+  "paper": "Paper 6B: Strategic Management",
+  "pdf_url": "https://resource.cdn.icai.org/88294bos160925.pdf",
+  "local_file": "raw/pyq-sep2025-qp.pdf",
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Section B (Strategic Management) only; Section A (Financial Management) skipped. The exam question paper PDF is a scanner output with no text layer, so question text, options and marks are taken from ICAI's Suggested Answers PDF, which reproduces the question paper verbatim. Suggested Answers (answers source): https://resource.cdn.icai.org/89275bos-aps3012-int-p6.pdf"
+ },
+ "questions": [
+  {
+   "id": "pyq-sep2025-q9",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 1.",
+   "qno": "9",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "Case Scenario - II Solar Tech Innovation, a start-up specialization in next-generation solar panels entered the highly competitive renewable energy sector with a mission to make solar power more accessible and efficient. However, the company faced significant challenges, including high R&D costs, limited consumer awareness, regulatory compliance hurdles and stiff competition from established energy providers. To navigate these challenges, Solar Tech conducted an in-depth market analysis, identifying a strong demand for residential and commercial solar solution due to rising electricity cost and government incentives on green energy. However, it also noted threats from lower-cost alternatives and slow adoption in some regions. To differentiate itself, Solar Tech developed ultra-thin, high efficiency solar panels that could generate more power in less space. This innovation appealed to homeowners and businesses looking for cost-effective grand space-saving solutions. The company also adopted a strategic expansion model, first targeting urban centers with high energy consumption and gradually moving to rural areas. Internally, the leadership headed by CEO Mr. Rajiv, implemented structural changes to improve decision making. The company embraced a decentralized approach enabling regional teams adapt their sales and marketing strategies to local market conditions. Additionally, Solar Tech partnered with financial institutions to offer easy financing options, making solar energy more affordable. To enhance operational efficiency, Solar Tech streamlined its supply chain and secured bulk raw material procurement deals, reducing cost without compromising quality. Simultaneously, the company focused on customer education through digital marketing and community outreach programs, increasing awareness and adoption. Over four years, these strategic initiatives led to Solar Tech's expansion across multiple states, partnerships with real estate developers, and a 60% increase in annual revenue. By aligning technological innovation, operational efficiency and market expansion, the company successfully positioned itself in the renewable energy sector.\nBased on the above case scenario, choose the correct answer to Q. Nos. 9 to 13.\n\nA company's core values are essential for decision making and strategic alignment. Which of the following would be considered a violation of Solar Tech Innovation's values?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Investing in high-efficiency solar panels that reduce carbon emissions."
+    },
+    {
+     "label": "b",
+     "text": "Partnering with fossil fuel companies to increase short term profitability."
+    },
+    {
+     "label": "c",
+     "text": "Launching an initiative to make solar energy more affordable for rural areas."
+    },
+    {
+     "label": "d",
+     "text": "Encouraging employees to participate in sustainability programs."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "values",
+    "strategic intent"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q10",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 2.",
+   "qno": "10",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the shared case scenario given with Question 9.]\n\nSolar Tech expands its distribution network by forming partnerships with retail chains. This directly affects which value chain activity?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Firms infrastructure"
+    },
+    {
+     "label": "b",
+     "text": "Inbound logistics"
+    },
+    {
+     "label": "c",
+     "text": "Outbound logistics"
+    },
+    {
+     "label": "d",
+     "text": "Technology development"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "value chain analysis",
+    "outbound logistics"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q11",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 1.",
+   "qno": "11",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the shared case scenario given with Question 9.]\n\nSolar Tech innovation partnered with financial institutions to offer easy financing options to make solar energy more affordable. This decision falls under which strategic level?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Corporate Level"
+    },
+    {
+     "label": "b",
+     "text": "Business Level"
+    },
+    {
+     "label": "c",
+     "text": "Functional Level"
+    },
+    {
+     "label": "d",
+     "text": "Operational Levél"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic levels",
+    "functional level"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q12",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 2.",
+   "qno": "12",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the shared case scenario given with Question 9.]\n\nSolar Tech is considering expanding into a developing country where electricity access is low. Which external factor is the primary reason for this decision?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Low production costs in the target country"
+    },
+    {
+     "label": "b",
+     "text": "Strong competition from global solar brands"
+    },
+    {
+     "label": "c",
+     "text": "Availability of skilled solar engineers"
+    },
+    {
+     "label": "d",
+     "text": "High demand for alternative energy sources"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "external environment",
+    "market opportunity"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q13",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 3.",
+   "qno": "13",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the shared case scenario given with Question 9.]\n\nA leading real estate developer, Green Habitat Constructions, wants to integrate Solar Tech's next-generation panels into its residential and commercial projects. Where would Green Habitat Constructions fall in Mendelow Matrix?",
+   "options": [
+    {
+     "label": "a",
+     "text": "High power, High interest (Key Players)"
+    },
+    {
+     "label": "b",
+     "text": "Low power, Low interest (Low Priority)"
+    },
+    {
+     "label": "c",
+     "text": "Low power, High interest (Keep informed)"
+    },
+    {
+     "label": "d",
+     "text": "High power, Low interest (Keep Satisfied)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "mendelow matrix",
+    "stakeholders"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q14",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 4.",
+   "qno": "14",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Bio Cure is pioneer in low-cost rapid diagnostic kits and commands strong brand loyalty in Tier-2 and Tier-3 Indian cities. The company holds a leading competitive position, thanks to its proprietary technology and wide distribution network. However, the rapid diagnostic industry is maturing, with new regulations, consolidation, and slowing growth rates. Many firms are shifting their focus to Al-powered health platforms, making it harder for traditional players to innovate without high R&D spend.\nBased on the ADL matrix, where is Bio Cure positioned?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Dominant position in a declining industry"
+    },
+    {
+     "label": "b",
+     "text": "Strong position in a mature industry"
+    },
+    {
+     "label": "c",
+     "text": "Tenable position in a growing industry"
+    },
+    {
+     "label": "d",
+     "text": "Weak position in an ageing industry"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "adl matrix",
+    "portfolio analysis"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q15",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 5.",
+   "qno": "15",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Edu Edge Learning a digital education start-up, struggled with inconsistent communication and poor integration across departments. Although the strategy and talent were in place, collaboration was ineffective. In order to resolve this issue, the leadership launched a centralized knowledge-sharing platform and defined clear internal communication protocols. Performance appraisal systems were linked to teamwork and collaboration goals, ensuring alignment of all the processes with strategic intent. Which aspects of the McKinsey 7-S Framework is being strengthened at Edu Edge?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy"
+    },
+    {
+     "label": "b",
+     "text": "Structure"
+    },
+    {
+     "label": "c",
+     "text": "System"
+    },
+    {
+     "label": "d",
+     "text": "Skills"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "mckinsey 7s model",
+    "systems"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q16",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 4.",
+   "qno": "16",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "In General Electric Matrix, what strategy is recommended for business units with high market attractiveness and strong business strength?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Invest/Expand"
+    },
+    {
+     "label": "b",
+     "text": "Select/Earn"
+    },
+    {
+     "label": "c",
+     "text": "Harvest/Divest"
+    },
+    {
+     "label": "d",
+     "text": "Liquidate"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "ge matrix",
+    "portfolio analysis"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q5a",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Best-cost provider strategy -> Ch 3 (Competitive Advantage, 3.6)",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "ARP Motors, an automobile company, was struggling in the competitive SUV market in India. As a business strategist, you recommended that ARP launch a compact SUV that balances affordability with premium features. In response, ARP developed and introduced FLEXON, strategically pricing it and incorporating high-end features such as a 5-star Global NCAP safety rating, a modern design and an advanced technology. Furthermore, the company expanded into the electric vehicle segment with FLEXON EV, positioning it as one of the most affordable yet feature-rich electric SUVs in India. Which strategy did you recommend to ARP Motors to achieve a competitive advantage? Explain the strategy briefly and enumerate the key ways ARP Motors implemented it.",
+   "options": null,
+   "answer": "The strategy recommended to ARP Motors is the Best-Cost Provider Strategy.\nBest-cost provider strategy is directed towards giving customers more value for their money by emphasizing both low cost and premium features. The objective is to keep costs and prices lower than those of other sellers of comparable products while offering better quality and superior features. Application in ARP Motors Case:\n• Launch of FLEXON (Compact SUV): ARP priced FLEXON strategically at an affordable level, while at the same time incorporating premium features such as a 5-star Global NCAP safety rating, advanced technology and a modern design. This reflects the approach of offering better quality at lower or comparable prices.\n• Introduction of FLEXON EV: By entering the electric vehicle market, ARP positioned FLEXON EV as one of the most affordable yet feature-rich electric SUVs in India. This aligns with the principle of charging lower prices for comparable products or offering higher quality for similar prices thereby giving customers more value for money.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "best-cost provider strategy",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q5b",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Divestment strategy -> Ch 4 (Strategic Exits, 4.3)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "You are the CFO of a multinational corporation that has been facing declining profitability in one of its business units for the past three years. It has been struggling with negative cash flows and intense competition. Significant investment would be needed for technological upgrades. You are not interested in investing in restructuring and revitalizing. A more promising investment opportunity is available elsewhere. As CFO, what step would you take in response to this situation? How would you justify your decision?",
+   "options": null,
+   "answer": "As CFO, the appropriate step would be to adopt a Divestment Strategy for the business unit.\nDivestment strategy involves the sale or liquidation of a portion of business, a major division, profit centre or SBU. It is usually adopted when a turnaround has been attempted but has proved unsuccessful or when it is obvious that divestment is the only answer. The decision is further justified because:\n• Persistent negative cash flows from this unit are creating financial strain.\n• Intensity of competition makes survival difficult.\n• Technological up gradation is not feasible for the company at this stage.\n• A better alternative investment opportunity is available elsewhere making it preferable to release resources from the loss-making unit.\nThus, adopting Divestment Strategy will allow the company to stop financial losses, free resources and reallocate them to more promising opportunities, thereby ensuring long-term value creation.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "divestment",
+    "strategic exit"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q5c",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic control function of the strategic management process -> Ch 5 (5.6)",
+   "qno": "5(c)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "XYZ Ltd. recently formulated an international expansion strategy and implemented the new market expansion strategy with the aim of increasing its presence in international markets. However, six months into the implementation, sales figures are not meeting projections. Improper use of resources, undesirable tendencies of the workers, non-conformance to norms and standards and unforeseen regulatory challenges have emerged. Additionally, competitor activity has intensified, affecting market share. As a strategic decision-maker, which function of strategic management process would you perform? What specific elements of that function would\nyou implement to overcome these issues and ensure that planned actions translate into successful achievement of goals and results?",
+   "options": null,
+   "answer": "In the given case, XYZ Ltd. should perform the Strategic Control function of the strategic management process. Strategic control ensures that what is planned is translated into results by regulating behaviour, placing curbs on undesirable tendencies, ensuring conformance to norms and standards, monitoring proper use of resources, and coping with changes in the environment. The process of control involves the following elements:\n1. Objectives of the business system operationalized into measurable and controllable standards.\n2. Monitoring and measuring performance of the system.\n3. Comparison of results with standards, detecting deviations and gaining insights on standards themselves.\n4. Feedback and corrective action to make desired changes and keep the system on course.\nBy applying strategic control and its elements XYZ Ltd. can overcome deviations and ensure successful achievement of its international expansion goals.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic control"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q6a",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Significance of vision and mission statements -> Ch 1 (Strategic Intent, 1.5)",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"A well-defined vision and mission statement provide direction and purpose to an organization.\" Explain the significance of vision and mission statements in strategic planning.",
+   "options": null,
+   "answer": "Strategic Management is a dynamic process of formulation, implementation, evaluation and control of strategies to realise the organisation’s strategic intent. Strategic intent clarifies what the organisation wants to do and why it wants to do it, which forms the basis of vision and mission statements. A vision statement describes the organisation’s future aspirations and desired position while a mission statement explains its present business scope, purpose, goals and the means to achieve them. Together, they provide direction and purpose in strategic planning. Significance of Vision in Strategic Planning:\n• Provides a blueprint of where the organisation wants to be.\n• Aligns organisational efforts on a chosen path.\n• Creates enthusiasm and mould’s identity.\n• Clarifies aspirations in products, markets, customers and technology.\nSignificance of Mission in Strategic Planning:\n• Explains the reason for the firm’s existence.\n• Ensures unanimity of purpose and efficient resource use.\n• Standard for allocation and goal translation.\n• Gives distinct identity and direction.\n• Reflects present activities and ensures legitimacy.\nThus, a well-defined vision and mission provide clarity of purpose, direction for growth and a framework for decision-making. Vision answers, “where we want to go,” and mission answers “what business we are in and why we exist.” Together, they form the philosophical base of strategy and guide the organisation toward long-term success.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q6b",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Experience curve -> Ch 2 (2.5.3)",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Which concept explains the efficiency increase gained by worker through repetitive production work, leading to cost reduction and competitive advantage? List down its relevance features in strategic management.",
+   "options": null,
+   "answer": "The concept is Experience Curve. The experience curve, akin to a learning curve, explains the efficiency increase gained by workers through repetitive productive work. It is based on the phenomenon that unit costs decline as a firm accumulates experience in terms of a cumulative volume of production – the idea being, “we learn as we grow.” Relevant Features of Experience Curve in Strategic Management\n• As business organisations grow, they gain experience which enables cost efficiencies.\n• Experience may provide an advantage over competition as lower costs create a barrier for new entrants.\n• Experience is considered a key barrier to entry for new firms contemplating industry entry.\n• Large and successful organisations possess stronger experience effect, helping in leadership and cost advantage.\nThus, the experience curve is a critical concept in strategic management as it links growth with learning, cost reduction and competitive advantage, making it a strong determinant of industry positioning and entry barriers.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "experience curve"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q7a",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "SWOT analysis -> Ch 3 (Combining External and Internal analysis, 3.5)",
+   "qno": "7(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"The primary objective of SWOT analysis is to help organizations develop a full awareness of all factor involved in making a business decision.\" In the light of the above statement, explain why is it necessary to do SWOT analysis for business organization before using the strategy.",
+   "options": null,
+   "answer": "The primary objective of SWOT analysis is to help organizations develop a full awareness of all the factors (internal as well as external) involved in making a business decision. Hence, it becomes necessary to conduct SWOT analysis before strategy formulation for the following reasons:\n• SWOT analysis identifies the Strengths and Weaknesses (internal factors) and Opportunities and Threats (external factors). This ensures that management considers all aspects before deciding on a strategic move.\n• It helps in discovering recommendations and strategies with a focus on leveraging strengths and opportunities while working to overcome weaknesses and threats. This lays the base for realistic and practical strategies.\n• SWOT highlights both – the areas where the business is performing well and the areas which need improvement. This helps organizations to align resources efficiently to achieve objectives.\n• Periodic SWOT analysis helps organizations to check the current landscape of their business and to make necessary improvements in operations, thus keeping strategies relevant to changing circumstances.\n• It places complex internal and external issues into a simple framework, making it easier for managers to identify challenges, opportunities, and competitive factors before finalizing a strategy.\nThus, SWOT analysis is a necessary step before using any strategy, as it ensures that decisions are based on both internal capabilities and external realities, thereby increasing the chances of success in achieving organizational objectives.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "swot analysis"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q7b",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Mergers, their classification and impact -> Ch 4 (Strategic Choices)",
+   "qno": "7(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "“In a dynamic business environment, merger serves as a critical tool for companies seeking expansion, synergy creation and competitive advantage.” Discuss the concept of mergers, their classifications and their impact on business performance.",
+   "options": null,
+   "answer": "Merger is a process when two or more companies come together to expand their business operations. In such a case the deal gets finalized on friendly terms and both the organizations share profits in the newly created entity. In a merger two organizations combine to increase their strength and financial gains along with breaking of the trade barriers. Types of Mergers and their impact on business performance\n(a) Horizontal Merger: A horizontal merger occurs when two firms in the same industry and direct competitors combine. Its objective is to achieve economies of scale by eliminating duplication, widening product lines, reducing investment in working capital and fixed assets and removing competition, thereby strengthening market position and efficiency.\n(b) Vertical Merger: A vertical merger occurs between firms in the same industry at different production or distribution stages. It may involve backward integration (taking over suppliers) or forward integration (acquiring buyers/distributors). Such mergers create synergies, cost efficiencies and advantages by controlling inputs, reducing dependence and enhancing overall operational and financial performance.\n(c) Co-generic Merger: A co-generic merger takes place between firms related through production processes, markets, or technologies. It allows product line extension or acquisition of components essential for operations. Such mergers enable businesses to diversify around common resources and strategic needs, creating opportunities for growth, synergy and better utilization of existing capabilities.\n(d) Conglomerate Merger: A conglomerate merger involves firms from unrelated industries with no direct linkages in customers, functions or technologies. It helps companies diversify risk, enter new markets and expand business portfolios. Though largely unrelated, some overlap in production, marketing or R&D may exist, offering opportunities for growth and financial stability.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "merger",
+    "acquisition"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q8a",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Business environment and its interaction with the firm -> Ch 2 (2.3)",
+   "qno": "8(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "“A close and continuous interaction between a business and its environment helps in strengthening the business firm and using its resources more effectively.\" Explain Business environment and discuss how does the interaction between a business and its environment helps the business firm.",
+   "options": null,
+   "answer": "The term business environment refers to all external factors, influences, or situations that in some way affect business decisions, plans, and operations. It is highly dynamic and continuously evolving. Organizational success depends not only on its internal abilities but also on its relationship with the external environment.\nInteraction between Business and Environment: A close and continuous interaction strengthens the business firm and enables effective utilization of resources in the following ways: i. Determine opportunities and threats: The interaction between the business and its environment would explain opportunities and threats to the business. It helps to find new needs and wants of the consumers, changes in laws, changes in social behaviours and tells what new products the competitors are bringing in the market to attract consumers. ii. Give direction for growth: The interaction with the environment enables the business to identify the areas for growth and expansion of their activities. Once the business is aware and understands the changes happening around, it can plan and strategies to have successful business. iii. Continuous Learning: The managers are motivated to continuously update their knowledge, understanding and skills to meet the predicted changes in the realm of business. iv. Image Building: Environmental understanding helps the business organizations to improve their image by showing their sensitivity to the environment in which they operate. v. Meeting Competition: It helps the businesses to analyse the competitors’ strategies and formulate their own strategies accordingly. The idea is to flourish and beat competition for its products and services.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "business environment"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q8b",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs strategy implementation -> Ch 5 (5.2)",
+   "qno": "8(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "“Many managers fail to distinguish between strategy formulation and strategy implementation. Yet, it is crucial to realize the difference between the two because they both require very different skills.” On the basis of this statement, outline the key distinctions between strategy formulation and strategy implementation.",
+   "options": null,
+   "answer": "Difference between Strategy Formulation and Implementation\n\n| Strategy Formulation | Strategy Implementation |\n|---|---|\n| Strategy Formulation includes planning and decision-making involved in developing the organization’s strategic goals and plans. | Strategy Implementation involves all those means related to executing the strategic plans. |\n| In short, Strategy Formulation is placing the Forces before the action. | In short, Strategy Implementation is managing forces during the action. |\n| An Entrepreneurial Activity based on strategic decision-making. | An Administrative Task based on strategic and operational decisions. |\n| Emphasizes on effectiveness. | Emphasizes on efficiency. |\n| Primarily an intellectual and rational process. | Primarily an operational process. |\n| Requires co-ordination among few individuals at the top level. | Requires co-ordination among many individuals at the middle and lower levels. |\n| Requires a great deal of initiative, logical skills, conceptual intuitive and analytical skills. | Requires specific motivational and leadership traits. |\n| Strategic Formulation precedes Strategy Implementation. | Strategy Implementation follows Strategy Formulation. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy formulation",
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "pyq-sep2025-q8b-or",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Hourglass organisation structure -> Ch 5 (5.4.1)",
+   "qno": "8(b)-OR",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Write a short note on the hourglass organizational structure.",
+   "options": null,
+   "answer": "In recent years information technology and communications have significantly altered the functioning of organizations. The role played by middle management is diminishing as the tasks performed by them are increasingly being replaced by the technological tools. Hourglass organization structure consists of three layers in an organization structure with constricted middle layer. The structure has a short and narrow middle management level. Information technology links the top and bottom levels in the organization reducing away many tasks that are performed by the middle level managers. A shrunken middle layer coordinates diverse lower-level activities. Hourglass structure has obvious benefits from reduced costs. It also helps in enhancing responsiveness by simplifying decision making. Decision making authorities are shifted close to the source of information, so decision making is faster. However, with the reduced size of middle management, the promotion opportunities for the lower levels diminish significantly.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hourglass structure",
+    "organisation structure"
+   ]
+  }
+ ]
+}

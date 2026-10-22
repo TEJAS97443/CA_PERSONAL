@@ -1,0 +1,672 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "May 2019",
+  "attempt_sort": "2019-05",
+  "series": "I",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SMNew-Q-MTP-Mar19-CA-Inter.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SMNew-A-MTP-Mar19-CA-Inter.pdf",
+  "local_file": "raw/mtp-old-may2019-s1-q.pdf",
+  "local_answers_file": "raw/mtp-old-may2019-s1-a.pdf",
+  "test_series": "March 2019",
+  "mock_test_paper_no": null,
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series I for May 2019 (Test Series: March 2019, MOCK TEST PAPER - 1). ICAI originals removed from resource.cdn.icai.org; retrieved from the castudynotes.com mirror. The mirror stamps a diagonal \"www.castudynotes.com\" watermark over the page; it was removed during extraction by filtering the oversized watermark glyphs, and the resulting text was verified word-for-word against pdftotext output."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-may2019-s1-q1",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — objectives and goals → Ch 1",
+   "qno": "1(i)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "What can be defined as the art and science of formulating, implementing and evaluating cross- functional decisions that enable an organization to achieve its objectives?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy formulation"
+    },
+    {
+     "label": "b",
+     "text": "Strategy evaluation"
+    },
+    {
+     "label": "c",
+     "text": "Strategy implementation"
+    },
+    {
+     "label": "d",
+     "text": "Strategic management"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "objectives"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q2",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — objectives and goals → Ch 1",
+   "qno": "1(ii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Financial objectives involve all of the following except:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Growth in revenues"
+    },
+    {
+     "label": "b",
+     "text": "Larger market share"
+    },
+    {
+     "label": "c",
+     "text": "Higher dividends"
+    },
+    {
+     "label": "d",
+     "text": "Greater return on investment"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "objectives"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(iii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Vertical integration may be beneficial when",
+   "options": [
+    {
+     "label": "a",
+     "text": "Lower transaction costs and improved coordination are vital and achievable through vertical\nintegration."
+    },
+    {
+     "label": "b",
+     "text": "Flexibility is reduced, providing a more stationary position in the competitive environment."
+    },
+    {
+     "label": "c",
+     "text": "Various segregated specializations will be combined."
+    },
+    {
+     "label": "d",
+     "text": "The minimum efficient scales of two corporations are different."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q4",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Stage of the strategic management process in which internal strengths and weaknesses are determined (formulation) → Ch 5",
+   "qno": "1(iv)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "During what stage of strategic management are a firm’s specific internal strengths and weaknesses determined?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Formulation"
+    },
+    {
+     "label": "b",
+     "text": "Implementation"
+    },
+    {
+     "label": "c",
+     "text": "Evaluation"
+    },
+    {
+     "label": "d",
+     "text": "Feedback"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategy formulation",
+    "stages"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q5",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy audit / Rumelt’s criteria — dropped from the 2023 syllabus (old Paper 7B Ch 8.6)",
+   "qno": "1(v)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In evaluating strategies, which one of Rumelt’s criteria for evaluating strategies, refers to the need for strategists to examine sets of trends?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Consistency"
+    },
+    {
+     "label": "b",
+     "text": "Consonance"
+    },
+    {
+     "label": "c",
+     "text": "Feasibility"
+    },
+    {
+     "label": "d",
+     "text": "Advantage"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategy audit",
+    "rumelt"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q6",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Importance of strategic management — adding value for investors → Ch 1",
+   "qno": "1(vi)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Individual investors are reliant on upon the organisation's managers to",
+   "options": [
+    {
+     "label": "a",
+     "text": "Maximize short-term returns in the form of dividends."
+    },
+    {
+     "label": "b",
+     "text": "Add value to their investments in a way that the stockholders could not accomplish on their\nown."
+    },
+    {
+     "label": "c",
+     "text": "Achieve risk reduction at a lower cost than stockholders c ould obtain on their own."
+    },
+    {
+     "label": "d",
+     "text": "Diversify the stockholder's investments in order to reduce risk."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "importance"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q7",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level strategic choices → Ch 4",
+   "qno": "1(vii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Stability strategy is a ____________ strategy.",
+   "options": [
+    {
+     "label": "a",
+     "text": "SBU level"
+    },
+    {
+     "label": "b",
+     "text": "Corporate level"
+    },
+    {
+     "label": "c",
+     "text": "Business level"
+    },
+    {
+     "label": "d",
+     "text": "Functional level"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic choices"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q8",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(viii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "What type of organizational structure do most small businesses follow?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Divisional structure"
+    },
+    {
+     "label": "b",
+     "text": "Functional structure"
+    },
+    {
+     "label": "c",
+     "text": "Hour Glass structure"
+    },
+    {
+     "label": "d",
+     "text": "Matrix structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q9",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(ix)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Conglomerate diversification is another name for which of the following?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Related diversification"
+    },
+    {
+     "label": "b",
+     "text": "Unrelated diversification"
+    },
+    {
+     "label": "c",
+     "text": "Portfolio diversification"
+    },
+    {
+     "label": "d",
+     "text": "Acquisition diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q10",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG growth-share matrix → Ch 4",
+   "qno": "1(x)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "What does Dogs symbolize in BCG matrix?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Invest"
+    },
+    {
+     "label": "b",
+     "text": "Harvest"
+    },
+    {
+     "label": "c",
+     "text": "Build"
+    },
+    {
+     "label": "d",
+     "text": "Divest"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "bcg matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q11",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "1(xi)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Which of these basic questions should a vision statement answer?",
+   "options": [
+    {
+     "label": "a",
+     "text": "What is our business?"
+    },
+    {
+     "label": "b",
+     "text": "Who are our competitors?"
+    },
+    {
+     "label": "c",
+     "text": "Where we are to go?"
+    },
+    {
+     "label": "d",
+     "text": "Why do we exist?"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q12",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Internal strengths (SWOT analysis) → Ch 3",
+   "qno": "1(xii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Internal __________ are activities in an organization that are performed especially well.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Opportunities"
+    },
+    {
+     "label": "b",
+     "text": "Competencies"
+    },
+    {
+     "label": "c",
+     "text": "Strengths"
+    },
+    {
+     "label": "d",
+     "text": "Management"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "swot",
+    "strengths"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q13",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(xiii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Anything that a firm does especially well compared to rival firms is referred to as _____.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Competitive advantage"
+    },
+    {
+     "label": "b",
+     "text": "Comparative advantage"
+    },
+    {
+     "label": "c",
+     "text": "Opportunity cost"
+    },
+    {
+     "label": "d",
+     "text": "Sustainable advantage"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q14",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy evaluation and control → Ch 5",
+   "qno": "1(xiv)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "An important activity in __________ is taking corrective action.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy evaluation"
+    },
+    {
+     "label": "b",
+     "text": "Strategy implementation"
+    },
+    {
+     "label": "c",
+     "text": "Strategy formulation"
+    },
+    {
+     "label": "d",
+     "text": "Strategy leadership"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategy evaluation"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q15",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(xv)",
+   "kind": "mcq",
+   "marks": 15,
+   "question": "A firm successfully implementing a differentiation strategy would expect:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Customers to be sensitive to price increases."
+    },
+    {
+     "label": "b",
+     "text": "To charge premium prices."
+    },
+    {
+     "label": "c",
+     "text": "Customers to perceive the product as standard."
+    },
+    {
+     "label": "d",
+     "text": "To automatically have high levels of power over suppliers."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q16",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Infant care is a successful store chain that caters products for expectant mothers and new moms. They\noffer everything from nursing classes to strollers, toys, infant clothes, diapers and baby furniture. Due\nto a one-stop shop for infants, they are charging a premium for its products.\nIdentify and explain how the strategy adopted by infant care.",
+   "options": null,
+   "answer": "Infant care is opting for differentiation strategy. A one-stop shop is a benefit for this type of customers,\nseeking convenience in a time. Infant care is catering the products only related to infants that is\nperceived by the customers as unique. Because of differentiation, the Infant care is charging a premium\nfor its product.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q17",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Limitations of strategic management → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "The presence of strategic management cannot counter all hindrances and always achieve success\nfor an organisation. What are the limitations attached to strategic management?",
+   "options": null,
+   "answer": "The presence of strategic management cannot counter all hindrances and always achieve success\nas there are limitations attached to strategic management. These can be explained in the following\nlines:\n Environment is highly complex and turbulent. It is difficult to understand the complex\nenvironment and exactly pinpoint how it will shape-up in future. The organisational estimate\nabout its future shape may awfully go wrong and jeopardise all strategic plans. The\nenvironment affects as the organisation has to deal with suppliers, customers, governments\nand other external factors.\n Strategic Management is a time-consuming process. Organisations spend a lot of time in\npreparing, communicating the strategies that may impede daily operations and negatively\nimpact the routine business.\n Strategic Management is a costly process. Strategic management adds a lot of expenses to\nan organization. Expert strategic planners need to be engaged, efforts are made for analysis\nof external and internal environments devise strategies and properly implement. These can\nbe really costly for organisations with limited resources particularly when small and medium\norganisation create strategies to compete.\n In a competitive scenario, where all organisations are trying to move strategically, it is difficult\nto clearly estimate the competitive responses to the strategies.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "limitations"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q18",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Competitive landscape → Ch 2",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Dinesh Yadav is the owner of a beverage-based private company in Sonipat, Haryana. His unit is\nproducing fruit juices, cold drinks, soda and lime. While its products have significant market share\nin the northern part of country, the sales are on decline in last couple of years. He seeks help of a\nmanagement expert who advises him to first understand the competitive landscape.\nExplain the steps to be followed by Dinesh Yadav to understand competitive landscape.",
+   "options": null,
+   "answer": "Steps to understand the competitive landscape:\n(i) Identify the competitor: The first step to understand the competitive landscape is to identify\nthe competitors in the firm’s industry and have actual data about their respective market\nshare.\n(ii) Understand the competitors: Once the competitors have been identified, the strategist can\nuse market research report, internet, newspapers, social media, industry reports, and various\nother sources to understand the products and services offered by them in different markets.\n(iii) Determine the strengths of the competitors: What are the strength of the competitors?\nWhat do they do well? Do they offer great products? Do they utilize marketing in a way that\ncomparatively reaches out to more consumers. Why do customers give them their business?\n(iv) Determine the weaknesses of the competitors: Weaknesses (and strengths) can be\n\nidentified by going through consumer reports and reviews appearing in various media. After\nall, consumers are often willing to give their opinions, especially when the products or services\nare either great or very poor.\n(v) Put all of the information together: At this stage, the strategist should put together all\ninformation about competitors and draw inference about what they are not offering and what\nthe firm can do to fill in the gaps. The strategist can also know the areas which need to be\nstrengthen by the firm.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "competitive landscape"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q19",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / implementation issues → Ch 5",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "To convert strategic plans into actions and results, a manager must be able to direct organizational\nchange, motivate people, build and strengthen company competencies and competitive\ncapabilities, create a strategy-supportive work climate, and meet or beat performance targets.\nExplain the principal aspects of strategy-execution process.",
+   "options": null,
+   "answer": "In most situations, strategy-execution process includes the following principal aspects:\n Developing budgets that steer ample resources into those activities critical to strategic\nsuccess.\n Staffing the organization with the needed skills and expertise, consciously building and\nstrengthening strategy-supportive competencies and competitive capabilities, and organizing\nthe work effort.\n Ensuring that policies and operating procedures facilitate rather than impede effective\nexecution.\n Using the best-known practices to perform core business activities and pushing for continuous\nimprovement.\n Installing information and operating systems that enable company personnel to better carry\nout their strategic roles day in and day out.\n Motivating people to pursue the target objectives energetically.\n Creating a company culture and work climate conducive to successful strategy\nimplementation and execution.\n Exerting the internal leadership needed to drive implementation forward and keep improving\nstrategy execution. When the organization encounters stumbling blocks or weaknesses,\nmanagement has to see that they are addressed and rectified quickly.\nGood strategy execution involves creating strong “fits” between strategy and organizational\ncapabilities, between strategy and the reward structure, between strategy and internal operating\nsystems, and between strategy and the organization’s work climate and culture.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q20",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Leatherite Ltd., was started as a leather company to manufacture footwear. Currently, they are in\nthe manufacturing of footwears for males and females. The top management desires to expand the\nbusiness in the leather manufacturing goods. To expand they decided to purchase more machines\nto manufacture leather bags for males and females.\nIdentify and explain the strategy opted by the top management of Leatherite Ltd.",
+   "options": null,
+   "answer": "Leatherite Ltd. is currently manufacturing footwears for males and females and its top management\nhas decided to expand its business by manufacturing leather bags for males and females. Both the\nproducts are similar in nature within the same industry. The strategic diversification that the top\nmanagement of Leatherite Ltd. has opted is concentric in nature. They were in business of\nmanufacturing leather footwears and now they will manufacture leather bags as well. They will be\nable to use existing infrastructure and distribution channel. Concentric diversification amounts to\nrelated diversification.\nIn concentric diversification, the new business is linked to the existing businesses through process,\ntechnology or marketing. The new product is a spin-off from the existing facilities and\nproducts/processes. This means that in concentric diversification too, there are benefits of synergy\nwith the current operations.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q21",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter’s five forces → Ch 2",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain Porter’s five forces model as to how businesses can deal with the competition.",
+   "options": null,
+   "answer": "To gain a deep understanding of a company’s industry and competitive environment, managers do\nnot need to gather all the information they can find and waste a lot of time digesting it. Rather, the\ntask is much more focused. A powerful and widely used tool for systematically diagnosing the\nsignificant competitive pressures in a market and assessing the strength and importance of each\nis the Porter’s five-forces model of competition. This model holds that the state of competition in\nan industry is a composite of competitive pressures operating in five areas of the overall market:\n• Competitive pressures associated with the market manoeuvring and jockeying for buyer\npatronage that goes on among rival sellers in the industry.\n• Competitive pressures associated with the threat of new entrants into the market.\n\n• Competitive pressures coming from the attempts of companies in other industries to win\nbuyers over to their own substitute products.\n• Competitive pressures stemming from supplier bargaining power and supplier-seller\ncollaboration.\n• Competitive pressures stemming from buyer bargaining power and seller-buyer Collaboration.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "five forces"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q22",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management — dropped from the 2023 syllabus (old Ch 6.4.3-6.4.4)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between Logistic Management and Supply Chain Management.",
+   "options": null,
+   "answer": "Supply chain management is an extension of logistic management. However, there are differences\nbetween the two. Logistical activities typically include management of inbound and outbound\ngoods, transportation, warehousing, handling of material, fulfillment of orders, inventory\nmanagement and supply/demand planning. Although these activities also form part of supply chain\nmanagement, the latter is much broader. Logistic management can be termed as one of its part\nthat is related to planning, implementing, and c ontrolling the movement and storage of goods,\nservices and related information between the point of origin and the point of consumption.\nSupply chain management is an integrating function of all the major business activities and\nbusiness processes within and across organisations. Supply Chain Management is a systems view\nof the linkages in the chain consisting of different channel partners – suppliers, intermediaries,\nthird-party service providers and customers. Different elements in the chain work together in a\ncollaborative and coordinated manner. Often it is used as a tool of business transformation and\ninvolves delivering the right product at the right time to the right place and at the right price.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q23",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation culture (soft) → Ch 5",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "How can a corporate culture be both strength and weakness of an organisation?",
+   "options": null,
+   "answer": "The most important phenomenon which often distinguishes one organisation with another is its\ncorporate culture. Corporate culture refers to a company’s values, beliefs, business principles,\ntraditions, and ways of operating and internal work environment. Every corporation has a culture\nthat exerts powerful influences on the behaviour of managers.\n(i) As a strength: Culture can facilitate communication, decision making and control and instil\ncooperation and commitment. An organization’s culture could be strong and cohesive when it\nconducts its business according to clear and explicit set of principles and values, which the\nmanagement devotes considerable time to communicating to employees and which values\nare shared widely across the organisation.\n(ii) As a weakness: Culture, as a weakness can obstruct the smooth implementation of strategy\nby creating resistance to change. An organization’s culture could be characterised as weak\nwhen many sub-cultures exists, few values and behavioural norms are shared and traditions\nare rare. In such organizations, employees do not have a sense of commitment, loyalty and\nsense of identity.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisational culture"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s1-q24",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic control types / operational vs management control → Ch 5",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Write a short note on Implementation Control.",
+   "options": null,
+   "answer": "Implementation control: Managers implement strategy by converting major plans into concrete,\nsequential actions that form incremental steps. Implementation control is directed towards\nassessing the need for changes in the overall strategy in light of unfolding events and results\nassociated with incremental steps and actions.\nStrategic implementation control is not a replacement to operational control. Strategic\nimplementation control, unlike operational controls continuously monitors the basic direction of the\nstrategy. The two basic forms of implementation control are:\n(i) Monitoring strategic thrusts: Monitoring strategic thrusts help managers to determine\nwhether the overall strategy is progressing as desired or whether there is need for\nreadjustments.\n(ii) Milestone Reviews. All key activities necessary to implement strategy are segregated in\nterms of time, events or major resource allocation. It normally involves a complete\nreassessment of the strategy. It also assesses the need to continue or refocus the direction\nof an organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic control"
+   ]
+  }
+ ]
+}

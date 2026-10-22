@@ -1,0 +1,309 @@
+---
+id: sm.int.resources
+title: Resources, capabilities and core competence
+minutes: 24
+needs: sm.int.drivers
+tags: core competence, resources and capabilities, Prahalad and Hamel, valuable rare costly to imitate non-substitutable, sustainability of competitive advantage, durability, transferability, imitability, appropriability
+labs:
+summary: How resources and capabilities combine into a core competence, Prahalad and Hamel's three conditions, the four criteria (valuable, rare, costly to imitate, non-substitutable), and the four characteristics that decide whether an advantage lasts.
+---
+
+## In plain words
+
+### They stole the recipe. So what?
+
+BrewBucks has launched a "Desi Masala Latte" with Tapri's own masala recipe, carried off by a former employee. Kesar is pacing the corridor.
+
+> **Kesar:** They have our recipe! Dev, call the lawyers. Ananya, call the pandit.
+> **Ananya:** Let them keep it. A recipe is one skill. Look at what reaches the customer: tea blended from fourteen estates by our tasters, kulhads at the right temperature in forty cities, staff trained the Tapri way.
+> **Dev:** The present value of a stolen recipe without the other thirteen things is close to zero.
+
+Three months later, BrewBucks' latte is quietly off the menu. Tapri did not win because of one ingredient. It won because of how its **resources** (what it has: tea contracts, a blending plant, cold-chain trucks, a brand, money, people) and **capabilities** (what it can do with them: blend, deliver, train, launch) fit together. When many of them are integrated so well that the whole organisation does something better than anyone else, the Study Material calls it a **core competence**.
+
+C.K. Prahalad and Gary Hamel say a competence is core only if it **sets the firm apart** from rivals (and they find it hard to copy), **customers value** it (it is the reason they buy), and it **applies across the organisation**, opening up new markets. A second test asks four questions: is the capability **valuable, rare, costly to imitate and non-substitutable**? A third asks whether the advantage will **last**: how durable it is, how easily rivals can acquire it, how easily they can build it, and who gets the profits it earns.
+
+::: analogy The IPL auction
+A star fast bowler can be bought at the next auction, and he will not bowl at 150 km/h for ever. What no franchise can bid for is a rival's scouting system, its years of training together and its dressing-room trust, which keep producing match-winners season after season and in every format. The bowler is a resource. The system is a core competence.
+:::
+
+::: key
+A core competence is not one skill or one asset: it is the integration of many resources and capabilities (5–15 areas of developed expertise) that differentiates the firm from competitors, delivers customer value and applies across the organisation. Only a capability that is **valuable, rare, costly to imitate and non-substitutable** is a core competence, and the advantage lasts according to its **durability, transferability, imitability and appropriability**.
+:::
+
+## How it works
+
+### From resources to core competence
+
+An organisation may be viewed as an entity **endowed with resources and capabilities**. These may be so synergised as to impart **distinct competencies** that the organisation can leverage to its advantage (SM 3.18).
+
+::: definition Core competency (Prahalad and Hamel)
+The collective learning in the organisation, especially coordinating diverse production skills and integrating multiple streams of technologies (SM 3.18).
+:::
+
+- An organisation's combination of technological and managerial know-how, wisdom and experience is a complex set of capabilities and resources that can lead to a competitive advantage over a competitor (SM 3.18).
+- **Competency** is a combination of skills and techniques rather than an individual skill or a separate technique. So a core competence **cannot be built on one capability or a single technological know-how**: it has to be the integration of many resources. The optimal way to define it is as the sum of **5–15 areas of developed expertise** (SM 3.18).
+
+::: diagram How a core competence is built
+{"type": "layers", "layers": [{"label": "Resources and capabilities", "note": "technological, physical and human resources; know-how, wisdom, experience", "color": "e"}, {"label": "Integration", "note": "collective learning: coordinating diverse skills, integrating streams of technologies", "color": "a"}, {"label": "Core competence", "note": "5–15 areas of developed expertise, used across the organisation", "color": "g"}, {"label": "Competitive advantage", "note": "only when it creates value by exploiting opportunities in the external environment", "color": "c"}], "side": [{"label": "builds", "arrow": "down"}], "caption": "Read top to bottom: no single layer is a core competence on its own (SM 3.18, 3.20, 3.21)."}
+:::
+
+### Prahalad and Hamel's three conditions
+
+According to Prahalad and Hamel, major core competencies are identified in three areas (SM 3.18–3.19):
+
+1. **Competitor differentiation.** The competence is unique and difficult for competitors to imitate. This gives an edge and lets the company offer better products or services with no fear that competitors can copy them; it must keep improving these skills to sustain its position. All companies in a market may have equal skills and resources, but if one performs significantly better, it has a core competence. Patented innovation is hard to imitate: Tesla has been winning in electric vehicles.
+2. **Customer value.** It must deliver a **fundamental benefit to the end customer**, with a real impact that is the reason the customer chooses to buy. If customers choose the company without this impact, it is not a core competence and does not affect market position. The consumer should value the differentiation offered.
+3. **Application to other markets.** It must be **applicable to the whole organisation**, not one particular skill or area of expertise. A special capability crucial to one business activity is not a core competence if it is not fundamental from the whole organisation's point of view. A core competence is a unique set of skills and expertise used throughout the organisation to open up potential markets to be exploited.
+
+If the three conditions are met, the company can regard its competence as a core competency (SM 3.19).
+
+Core competencies are often visible as **organisational functions**: marketing and sales is a core competence of HUL, which lets it market its products better than competitors and launch new brands successfully. ==A core competency for a firm is whatever it does best==: Wal-Mart's focus on lowering operating costs lets it price below most competitors, and its ability to generate large sales volume keeps it profitable at a low margin (SM 3.19–3.20).
+
+### What a core competence is made of
+
+- Core competencies are the **knowledge, skills and facilities** necessary to design and produce **core products**. They are created by **superior integration of technological, physical and human resources** (SM 3.20).
+- They represent distinctive skills as well as **intangible, invisible, intellectual assets and cultural capabilities**. Cultural capabilities are the ability to manage change, the ability to learn, and teamwork (SM 3.20).
+- Organisations should be viewed as **a bundle of a few core competencies, each supported by several individual skills**. **Core competence-based diversification** reduces risk and investment and increases the opportunities for transferring learning and best practice across business units (SM 3.20).
+- Core technological competencies are **corporate assets** that give access to a variety of markets and businesses; for competitive advantage they should be difficult for competitors to imitate (SM 3.20).
+
+### The four criteria for core competencies
+
+Four specific criteria of sustainable competitive advantage determine which capabilities are core competencies: capabilities that are **valuable, rare, costly to imitate and non-substitutable** (SM 3.20–3.21).
+
+| Criterion | Meaning | Study Material example |
+|---|---|---|
+| **Valuable** | Allows the firm to exploit opportunities or avert threats in its external environment; value is created for customers by using capabilities to exploit opportunities | Finance companies' competence in financial services, which needs the right people in the right jobs: human capital creates value |
+| **Rare** | Very few competitors possess it. Capabilities possessed by many rivals are unlikely to be a source of advantage for any one of them; advantage comes only from valuable capabilities that differ from those shared with competitors | |
+| **Costly to imitate** | Competing firms are unable to develop it easily | Intel's fast R&D cycle time brought SRAM, DRAM and microprocessors to market ahead of rivals: the products could be imitated, the cycle-time capability much less so |
+| **Non-substitutable** | Has no strategic equivalent: there must be no strategically equivalent valuable resources that are themselves either not rare or imitable. Strategic value rises as a capability becomes harder to substitute | Tata's low-cost strategy, built on a unique culture and top talent, which rivals could not duplicate; Apple's iOS, which no competitor has imitated, protected by copyrights |
+
+::: diagram The four-criteria test
+{"type": "flow", "w": 370, "nodes": [{"id": "s", "kind": "start", "label": "A capability"}, {"id": "v", "kind": "decision", "label": "Valuable?"}, {"id": "r", "kind": "decision", "label": "Rare?"}, {"id": "i", "kind": "decision", "label": "Costly to\nimitate?"}, {"id": "n", "kind": "decision", "label": "Non-\nsubstitutable?"}, {"id": "cc", "kind": "end", "label": "Core competence", "color": "g"}, {"id": "x1", "kind": "end", "label": "Not a core\ncompetence", "color": "mute"}, {"id": "x2", "kind": "end", "label": "Not a core\ncompetence", "color": "mute"}, {"id": "x3", "kind": "end", "label": "Not a core\ncompetence", "color": "mute"}, {"id": "x4", "kind": "end", "label": "Not a core\ncompetence", "color": "mute"}], "edges": [["s", "v"], ["v", "x1", "no"], ["v", "r", "yes"], ["r", "x2", "no"], ["r", "i", "yes"], ["i", "x3", "no"], ["i", "n", "yes"], ["n", "x4", "no"], ["n", "cc", "yes"]], "caption": "Only when a capability passes all four is it a core competence and a source of competitive advantage (SM 3.21). Green: the core competence; grey: every other outcome."}
+:::
+
+To sum up, only a capability that is valuable, rare, costly to imitate and non-substitutable is a core competence and a source of competitive advantage. Over time core competencies **must be supported**, and they are a source of competitive advantage **only when they allow the firm to create value by exploiting opportunities in its external environment** (SM 3.21). Airtel's "Zero Customer Complaints" campaign is about building a core competency of great customer service (SM 3.21).
+
+### Will the advantage last?
+
+The sustainability of competitive advantage, and a firm's ability to earn profits from it, depends on four major characteristics of resources and capabilities (SM 3.24–3.25, printed under competitive advantage; see [[sm.int.generic|Porter's generic strategies]] for the definition of competitive advantage):
+
+| Characteristic | The question | Study Material's points |
+|---|---|---|
+| **Durability** | How fast do the resources and capabilities deteriorate? | Where product innovation is fast, patents soon become obsolete; capabilities that come from the CEO's expertise are vulnerable to retirement or departure; many consumer brand names have a highly durable appeal |
+| **Transferability** | How easily can rivals gain access to them? | Even durable advantages are eroded by rivals who acquire the necessary resources and capabilities; the easier they are to transfer between companies, the less sustainable the advantage |
+| **Imitability** | If they cannot be bought, how easily and quickly can rivals build them from scratch? | The true test of imitability. Financial-services innovations lack legal protection and are easily copied; capabilities that need networks of organisational routines, whose effectiveness depends on corporate culture, are difficult to imitate |
+| **Appropriability** | Who receives the returns? | The ability of the firm's owners to appropriate the returns on its resource base: rewards should go to those who invested the funds, not create an advantage with no actual reward to the people who invested capital |
+
+## Worked examples
+
+:::: example Six hours from blend to kulhad
+Tapri's "Fresh in Six" system gets premix from its Indore blending plant to any of its 40 cities within six hours. It combines tea blended by Tapri's tasters from fourteen estates, 22 cold-chain hubs, route-planning software built in-house over seven years of delivery data, and café staff trained at the Tapri Academy to brew to one standard. Customers say they choose Tapri because the chai "tastes the same in Delhi as in Indore". Last year BrewBucks bought the same model of trucks and licensed a route-planning package, but its deliveries still arrive late and its taste varies from city to city. Tapri now uses the same system to supply office chai machines and railway caterers.
+
+Examine whether "Fresh in Six" is a core competence of Tapri, with reference to the four criteria of sustainable competitive advantage.
+
+::: answer Model answer
+Four specific criteria of sustainable competitive advantage determine which capabilities are core competencies: capabilities that are **valuable, rare, costly to imitate and non-substitutable**.
+
+1. **Valuable.** Valuable capabilities allow the firm to exploit opportunities or avert threats in its external environment. "Fresh in Six" creates value for customers (a consistent taste, the reason they choose Tapri) and lets Tapri exploit new opportunities in office machines and railway catering.
+2. **Rare.** Core competencies are rare: very few competitors possess them. No rival in Tapri's market can supply fresh premix to 40 cities within six hours.
+3. **Costly to imitate.** Competing firms are unable to develop it easily. BrewBucks bought the same trucks and similar software but could not reproduce the result, because the capability rests on the integration of tasters' skill, seven years of data, in-house software, training and culture, not on any single asset.
+4. **Non-substitutable.** There is no strategically equivalent resource: buying trucks or software does not substitute for the integrated system, and no other route gives customers the same consistency.
+
+The capability is not a single skill but the integration of many resources and capabilities across the organisation. Since it meets all four criteria, **"Fresh in Six" is a core competence** of Tapri and a source of competitive advantage, which Tapri must keep supporting over time.
+:::
+::::
+
+:::: example Can Tapri keep its edge?
+Tapri's board asks whether its advantage in cafés will last:
+
+- The **Tapri brand**, built over 15 years, is trusted in every city it serves.
+- Its chief tea-taster, Mr. Bhatt, designs every blend himself and is due to retire in two years; BrewBucks has offered him a job.
+- Tapri's café routines (how orders flow, how staff are trained and rewarded) have grown out of its culture and are not written down anywhere.
+- In 25 cities the cafés are franchised, and franchisees keep most of the café profits under agreements signed when Tapri was small.
+
+Discuss the four characteristics of resources and capabilities on which the sustainability of Tapri's competitive advantage depends, applying them to these facts.
+
+::: answer Model answer
+The sustainability of competitive advantage, and a firm's ability to earn profits from it, depends on four major characteristics of resources and capabilities:
+
+1. **Durability**: the period over which an advantage is sustained depends on the rate at which resources and capabilities deteriorate. Consumer brand names often have a highly durable appeal, so the **Tapri brand** supports a lasting advantage. Capabilities that rest on one person's expertise are vulnerable to retirement or departure: **Mr. Bhatt's** blending skill is not durable unless Tapri builds it into a team.
+2. **Transferability**: even durable resources are eroded if rivals can gain access to them; the easier they are to transfer between companies, the less sustainable the advantage. BrewBucks' offer to Mr. Bhatt shows that this capability **can be transferred** by hiring him away.
+3. **Imitability**: if resources cannot be purchased, rivals must build them from scratch, and the test is how easily and quickly they can do so. Capabilities that require networks of organisational routines whose effectiveness depends on corporate culture are difficult to imitate: Tapri's unwritten **café routines** are a sustainable source of advantage.
+4. **Appropriability**: the ability of the firm's owners to appropriate the returns on its resource base. Even where resources offer a sustainable advantage, the issue is who receives the returns: in the franchised cities the **franchisees** capture most of the profit that Tapri's brand and system generate.
+
+Tapri should therefore protect and spread the blending capability, keep investing in its brand and culture, and revisit the franchise terms so that the returns reach the owners who invested in the resources.
+:::
+::::
+
+:::: example Which of the three conditions?
+For each statement, identify the condition of a core competence, according to Prahalad and Hamel, that it demonstrates.
+
+(a) Tapri used its blending expertise to launch premix, ready-to-drink chai and kulhad cafés, each in a different market.
+
+(b) BrewBucks has tried for two years to copy Tapri's blend consistency and failed.
+
+(c) Surveys show that customers choose Tapri over cheaper chains because the taste never varies.
+
+::: answer Model answer
+**(a) Application to other markets.** A core competence must be applicable to the whole organisation and is used throughout it to open up potential markets.
+
+**(b) Competitor differentiation.** The competence is unique and difficult for competitors to imitate, giving Tapri an edge with no fear of being copied.
+
+**(c) Customer value.** It delivers a fundamental benefit to the end customer, a real impact that is the reason the customer buys.
+:::
+::::
+
+## Under the hood
+
+### Three lists that look alike
+
+ICAI asks each of these separately. Do not mix them:
+
+| List | Its items | What it decides | SM |
+|---|---|---|---|
+| Prahalad and Hamel's three areas | Competitor differentiation, customer value, application to other markets | Whether a competence can be regarded as core | 3.18–3.19 |
+| Four criteria for building core competencies | Valuable, rare, costly to imitate, non-substitutable | Which capabilities are core competencies | 3.20–3.21 |
+| Four characteristics of resources and capabilities | Durability, transferability, imitability, appropriability | Whether the competitive advantage is sustained, and who earns its profits | 3.24–3.25 |
+
+### Competencies and the rest of the paper
+
+A core competence matters only when it exploits an opportunity in the external environment (SM 3.21), which is exactly the strength-meets-opportunity reading of [[sm.int.swot|SWOT analysis]]. Core competence-based diversification "reduces risk and investment" (SM 3.20): keep it in mind when you meet related (concentric) diversification in [[sm.choice.growth|growth strategies]]. The Study Material's own scenario answer on a small chemist shop competing with online sellers lists competencies it can build (personal relations with customers, free and speedy home delivery, extended hours, easy credit) (SM 3.50–3.51): even a small firm can build competencies against a much larger rival.
+
+## Exam angle
+
+::: exam Where this lesson appeared, May 2024 to September 2026
+Of the 32 new-scheme ICAI documents searched (eight past papers, eight RTPs, sixteen MTPs), 15 ask about this lesson:
+
+- **The four criteria, 5 marks**: "Explain the four specific criteria of sustainable competitive advantages that a company can use to determine the capabilities that are core competencies" (September 2024 Q7(a); MTP May 2025 Series I Q4(b); RTP May 2024 Q12). A case: a hospital whose surgical expertise rivals cannot copy despite buying the same robots (RTP September 2026 Q11: costly to imitate).
+- **Prahalad and Hamel's three areas, 5 marks**: "Major core competencies are identified in three areas - competitor differentiation, customer value and application to other markets. Discuss" (MTP September 2024 Series I Q4(b); MTP January 2025 Series I Q4(b); MTP May 2025 Series II Q3(a); MTP January 2026 Series I Q4(b), an OR choice). "Explain the concept of core competency. What are the conditions required to be met for a company to regard its competence as core competency?" (September 2026 Q8(a); answers not yet published).
+- **The four characteristics, 5 marks**: "explain the major characteristics of resources and capabilities" for sustainable competitive advantage (May 2025 Q6(b)).
+- **Build competencies, 5 marks**: a small chemist shop against online sellers (MTP January 2025 Series II Q3(a)).
+- **MCQs, 1 or 2 marks**: a product crucial across many industries (RTP September 2024 MCQ 4: application to other markets); rapid prototyping that beats rivals to market (MTP January 2025 Series I (B)(iii) and MTP September 2026 Series II (B)(iii): core competency); building AI strength through R&D, talent and training (MTP September 2024 Series I (B)(i): core competency building); easily copied R&D but an inimitable culture of innovation (MTP May 2026 Series I (B)(ii): the culture is the core competency); a fashion company's trend forecasting (RTP May 2025 MCQ 1(v)).
+:::
+
+::: exam How the marks are earned
+ICAI's suggested answers open with the list's own sentence ("Capabilities that are valuable, rare, costly to imitate, and non-substitutable are core competencies"; "major core competencies are identified in three areas"; "the sustainability of competitive advantage ... depends upon four major characteristics"), then give each item with its Study Material explanation. In a case, apply each item to a fact and end with a conclusion.
+:::
+
+::: trick VRIN and "Dear Tapri, Invest Appropriately"
+Core competence test: **V**aluable, **R**are, **I**nimitable (costly to imitate), **N**on-substitutable. Sustainability: **D**urability, **T**ransferability, **I**mitability, **A**ppropriability. Condition: ICAI's answers use the full words ("costly to imitate", not "inimitable"); the letters are only for recall.
+:::
+
+## Answer frame
+
+### "Explain the four criteria ... core competencies" (5 marks)
+
+1. Opening: four specific criteria of sustainable competitive advantage determine which capabilities are core competencies; capabilities that are valuable, rare, costly to imitate and non-substitutable are core competencies.
+2. Each criterion with its meaning, in this order: valuable (exploit opportunities or avert threats; human capital), rare (few competitors possess it; shared capabilities give no advantage), costly to imitate (rivals cannot develop it easily; Intel), non-substitutable (no strategic equivalent; Tata, Apple).
+3. Closing: only when all four are met is a capability a core competence and a source of competitive advantage; it must be supported over time.
+
+### "Major core competencies are identified in three areas ... Discuss" (5 marks)
+
+1. Opening: according to C.K. Prahalad and Gary Hamel, major core competencies are identified in three areas.
+2. Competitor differentiation; customer value; application of competencies to other markets: each with its Study Material explanation.
+3. Closing: if the three conditions are met, the company can regard its competence as a core competency.
+
+### Case: "Is X a core competence?" or "Can the advantage be sustained?"
+
+| Step | What to write |
+|---|---|
+| The list | The opening sentence of the right list (criteria, conditions or characteristics) |
+| Each item | Its meaning in the Study Material's words, then the case fact that meets or fails it |
+| Conclusion | Core competence or not; advantage sustainable or not, and what the firm should do |
+
+## Common mistakes
+
+::: mistake Hall of Shame: "Our core competence is our new machine"
+One patent, one machine, one star employee is a resource or a single skill. **Fix:** a core competence cannot be built on one capability or a single technological know-how; it is the integration of many resources, 5–15 areas of developed expertise (SM 3.18).
+:::
+
+::: mistake The criteria answered with the characteristics
+Asked for the four criteria, the answer gives durability, transferability, imitability and appropriability. **Fix:** criteria for core competencies = valuable, rare, costly to imitate, non-substitutable. Durability and the rest decide whether the advantage is sustained.
+:::
+
+::: mistake "Imitability" written as "costly to imitate"
+They overlap in meaning but belong to different lists, and the examiner looks for the list's own words. **Fix:** in the core-competence criteria write "costly to imitate"; in the sustainability characteristics write "imitability" with its test: how easily and quickly can competitors build the resources from scratch?
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. Every bank in Indore offers the same kind of mobile banking app, and Sahyog Bank claims that its app is its core competence. Which criterion does the app most clearly fail?
+- [ ] Valuable
+- [x] Rare
+- [ ] Durability
+- [ ] Customer value
+> Capabilities possessed by many rivals are unlikely to be a source of competitive advantage for any one of them: the app is not rare. Durability is a sustainability characteristic; customer value is one of Prahalad and Hamel's areas.
+
+Q: According to Prahalad and Hamel, major core competencies are identified in which three areas?
+- [x] Competitor differentiation, customer value and application to other markets
+- [ ] Durability, transferability and imitability
+- [ ] Valuable, rare and non-substitutable
+- [ ] Cost leadership, differentiation and focus
+> The other options are the sustainability characteristics, three of the four criteria, and Porter's generic strategies.
+
+Q: A railway caterer says its core competence is a new imported tea kettle, which any rival can buy from the same supplier next month. Why is this not a core competence?
+- [ ] Kettles are physical resources, and core competencies are always intangible
+- [x] It is a single resource that rivals can acquire easily, so it is neither rare nor costly to imitate
+- [ ] It fails the appropriability test
+- [ ] It is a core competence, because it is valuable
+> A core competence is the integration of many resources, not one asset or one know-how, and a resource any rival can buy fails "rare" and "costly to imitate". Core competencies include facilities as well as intangible assets (SM 3.20).
+
+Q: Which of the following are among the four characteristics of resources and capabilities on which the sustainability of competitive advantage depends? Select all that apply.
+- [x] Durability
+- [x] Transferability
+- [x] Appropriability
+- [ ] Profitability
+> Durability, transferability, imitability and appropriability (SM 3.24–3.25).
+
+Q: A firm's competitive advantage rests on the personal expertise of its CEO, who retires next year. Which characteristic of its resources is weakest?
+- [x] Durability
+- [ ] Appropriability
+- [ ] Customer value
+- [ ] Rarity
+> Capabilities that result from the CEO's management expertise are vulnerable to his or her retirement or departure: durability (SM 3.25).
+:::
+
+## Recap
+
+- Core competency (Prahalad and Hamel): the collective learning in the organisation, especially coordinating diverse production skills and integrating multiple streams of technologies.
+- Never one skill or one know-how: the integration of many resources; 5–15 areas of developed expertise; superior integration of technological, physical and human resources plus cultural capabilities (managing change, learning, teamwork).
+- Three areas: competitor differentiation (unique, hard to imitate), customer value (fundamental benefit to the end customer), application to other markets (whole organisation, opens new markets).
+- Four criteria: valuable, rare, costly to imitate, non-substitutable; only all four make a core competence, and only when it exploits opportunities in the external environment.
+- Sustainability of competitive advantage: durability, transferability, imitability, appropriability.
+- Examples to quote: HUL (marketing and sales), Wal-Mart (low operating costs), Intel (R&D cycle time), Tata (culture and talent), Apple (iOS), Airtel (customer service). (A star bowler can be bought at auction; the team's system cannot.)
+
+## Flashcards
+
+Q:: Core competency: Prahalad and Hamel's definition?
+A:: The collective learning in the organisation, especially coordinating diverse production skills and integrating multiple streams of technologies.
+
+Q:: Why can a core competence not be one skill?
+A:: Competency is a combination of skills and techniques; a core competence must be the integration of many resources, best seen as the sum of 5–15 areas of developed expertise.
+
+Q:: Prahalad and Hamel: the three areas in which major core competencies are identified?
+A:: Competitor differentiation, customer value, and application to other markets.
+
+Q:: Core competence: what does "customer value" require?
+A:: A fundamental benefit to the end customer: a real impact that is the reason the customer chooses to buy.
+
+Q:: Core competence: what does "application to other markets" require?
+A:: It must be applicable to the whole organisation, not one skill or area, and be used throughout the organisation to open up potential markets.
+
+Q:: The four criteria that make a capability a core competence?
+A:: Valuable, rare, costly to imitate and non-substitutable.
+
+Q:: Valuable capability: definition?
+A:: One that allows the firm to exploit opportunities or avert threats in its external environment.
+
+Q:: Non-substitutable capability: definition?
+A:: One with no strategic equivalent: there must be no strategically equivalent valuable resources that are themselves either not rare or imitable.
+
+Q:: The four characteristics of resources and capabilities on which sustainability of competitive advantage depends?
+A:: Durability, transferability, imitability and appropriability.
+
+Q:: Appropriability?
+A:: The ability of the firm's owners to appropriate the returns on its resource base: the question of who receives the returns.
+
+Q:: What are the "cultural capabilities" in a core competence?
+A:: The ability to manage change, the ability to learn, and teamwork.

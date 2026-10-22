@@ -1,0 +1,757 @@
+          PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                           SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                        Question No. 1 is compulsory.
+                                   Answer any five questions from the rest.
+        Question 1
+        (a) Data Analytics is the process of examining data sets to draw conclusions about the
+            information they contain, increasingly with the aid of specialized systems and software,
+            List out any three application areas of Data Analytics in today's world.      (3 Marks)
+        (b) Briefly explain any two types of Mortgage loan in a Banking system.              (2 Marks)
+        Answer
+        (a) Application Areas of Application areas of Data Analytics are as follows:
+            •    Data Analytics initiatives support a wide variety of business uses. For example, banks
+                 and credit card companies analyse withdrawal and spending patterns to prevent fraud
+                 and identity theft.
+            •    E-commerce companies and marketing services providers do clickstream analysis to
+                 identify website visitors who are more likely to buy a product or service based on
+                 navigation and page-viewing patterns.
+            •    Mobile network operators examine customer data to forecast so they can take steps to
+                 prevent defections to business rivals; to boost customer relationship management
+                 efforts. Other companies engage in CRM analytics to segment customers for marketing
+                 campaigns and equip call centre workers with up-to-date information about callers.
+            •    Healthcare organizations mine patient data to evaluate the effectiveness of treatments
+                 for cancer and other diseases.
+        (b) Mortgage Loan in a Banking system are as follows:
+             •    Home Loan: This is a traditional mortgage where customer has an option of selecting
+                  fixed or variable rate of interest and is provided for the purchase of property.
+             •    Top Up Loan: Here the customer already has an existing loan and is applying for
+                  additional amount either for refurbishment or renovation of the house.
+             •    Loans for Under Construction Property: In case of under construction properties
+                  the loan is disbursed in tranches / parts as per construction plan.
+        Question 2
+        (a) Protecting the integrity of a database when application software acts as an interface to
+            interact between the user and the database are called update controls and report controls.
+            Discuss any three update controls and three report controls.                   (6 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                 INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2020
+
+
+        (b) After defining risk appetite, strategies are set to manage risks. Explain any four risk
+            management strategies.                                                       (4 Marks)
+        Answer
+        (a) Major Update Controls under Database Controls are as follows:
+             •    Sequence Check between Transaction and Master Files: Synchronization and the
+                  correct sequence of processing between the master file and transaction file is critical
+                  to maintain the integrity of updating, insertion or deletion of records in the master file
+                  with respect to the transaction records. If errors, in this stage are overlooked, it leads
+                  to corruption of the critical data.
+             •    Ensure All Records on Files are processed: While processing, the transaction file
+                  records mapped to the respective master file, and the end-of-file of the transaction
+                  file with respect to the end-of-file of the master file is to be ensured.
+             •    Process multiple transactions for a single record in the correct order: Multiple
+                  transactions can occur based on a single master record (e.g. dispatch of a product to
+                  different distribution centers). Here, the order in which transactions are processed
+                  against the product master record must be done based on a sorted transaction codes.
+             •    Maintain a suspense account: When mapping between the master record to
+                  transaction record results in a mismatch due to failure in the corresponding record
+                  entry in the master record; then these transactions are maintained in a suspense
+                  account.
+             Major Report Controls under Database Controls are as follows:
+             •    Standing Data: Application programs use many internal tables to perform various
+                  functions like gross pay calculation, billing calculation based on a price table, bank
+                  interest calculation etc. Maintaining integrity of the pay rate table, price table and
+                  interest table is critical within an organization.
+             •    Print-Run-to Run Control Totals: Run-to-Run control totals help in identifying errors
+                  or irregularities like record dropped erroneously from a transaction file, wrong
+                  sequence of updating or the application software processing errors.
+             •    Print Suspense Account Entries: Similar to the update controls, the suspense
+                  account entries are to be periodically monitors with the respective error file and action
+                  taken on time.
+             •    Existence/Recovery Controls: The back-up and recovery strategies together
+                  encompass the controls required to restore failure in a database. Backup strategies
+                  are implemented using prior version and logs of transactions or changes to the
+                  database. Recovery strategies involve roll-forward (current state database from a
+                  previous version) or the roll-back (previous state database from the current version)
+                  methods.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                           3
+
+
+        (b) Various Risk Management Strategies are as follows:
+             •    Tolerate/Accept the risk. One of the primary functions of management is managing
+                  risk. Some risks may be considered minor because their impact and probability of
+                  occurrence is low. In this case, consciously accepting the risk as a cost of doing
+                  business is appropriate, as well as periodically reviewing the risk to ensure its impact
+                  remains low.
+             •    Terminate/Eliminate the risk. It is possible for a risk to be associated with the use
+                  of a technology, supplier, or vendor. The risk can be eliminated by replacing the
+                  technology with more robust products and by seeking more capable suppliers and
+                  vendors.
+             •    Transfer/Share the risk. Risk mitigation approaches can be shared with trading
+                  partners and suppliers. A good example is outsourcing infrastructure management.
+                  In such a case, the supplier mitigates the risks associated with managing the IT
+                  infrastructure by being more capable and having access to more highly skilled staff
+                  than the primary organization. Risk also may be mitigated by transferring the cost of
+                  realized risk to an insurance provider.
+             •    Treat/mitigate the risk. Where other options have been eliminated, suitable controls
+                  must be devised and implemented to prevent the risk from manifesting itself or to
+                  minimize its effects.
+             •    Turn back. Where the probability or impact of the risk is very low, then management
+                  may decide to ignore the risk.
+        Question 3
+        (a) Many organizations are implementing Enterprise Resource Planning (ERP) software,
+            where it integrates all of the processes needed to run their business with a single system.
+            As a System analyst briefly explain the benefits of ERP systems.                  (6 Marks)
+        (b) Define any four constraints which are usually taken from the characteristics of grid
+            environment and application in order to develop grid computing security architecture.
+                                                                                               (4 Marks)
+        Answer
+        (a) Benefits of an Enterprise Resource Planning (ERP) System are as follows:
+             •    Information integration: The reason ERP systems are called integrated is because
+                  they possess the ability to automatically update data between related business
+                  functions and components. For example - one needs to only update the status of an
+                  order at one place in the order-processing system; and all the other components will
+                  automatically get updated.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2020
+
+
+             •    Reduction of lead-time: The elapsed time between placing an order and receiving it
+                  is known as the Lead-time. The ERP Systems by virtue of their integrated nature with
+                  many modules like Finance, Manufacturing, Material Management Module etc.; the
+                  use of the latest technologies like EFT (Electronic Fund Transfer), EDI (Electronic
+                  Data Interchange) reduce the lead times and make it possible for the organizations
+                  to have the items at the time they are required.
+             •    On-time Shipment: Since the different functions involved in the timely delivery of the
+                  finished goods to the customers- purchasing, material management production,
+                  production planning, plant maintenance, sales and distribution – are integrated and
+                  the procedures automated; the chances of errors are minimal and the production
+                  efficiency is high. Thus, by integrating the various business functions and automating
+                  the procedures and tasks the ERP system ensures on-time delivery of goods to the
+                  customers.
+             •    Reduction in Cycle Time: Cycle time is the time between placement of the order
+                  and delivery of the product. In an ERP System; all the data, updated to the minute, is
+                  available in the centralized database and all the procedures are automated, almost
+                  all these activities are done without human intervention. This efficiency of the ERP
+                  systems helps in reducing the cycle time.
+             •    Improved Resource utilization: The efficient functioning of the different modules in
+                  the ERP system like manufacturing, material management, plant maintenance, sales
+                  and distribution ensures that the inventory is kept to a minimum level, the machine
+                  down time is minimum and the goods are produced only as per the demand and the
+                  finished goods are delivered to the customer in the most efficient way. Thus, the ERP
+                  systems help the organization in drastically improving the capacity and resource
+                  utilization.
+             •    Better Customer Satisfaction: Customer satisfaction means meeting or exceeding
+                  customer’s requirements for a product or service. With the help of web -enabled ERP
+                  systems, customers can place the order, track the status of the order and make the
+                  payment sitting at home. Since all the details of the product and the customer are
+                  available to the person at the technical support department also, the company will be
+                  able to better support the customer.
+             •    Improved Supplier Performance: ERP systems provide vendor management and
+                  procurement support tools designed to coordinate all aspects of the procurement
+                  process. They support the organization in its efforts to effectively negotiate, monitor
+                  and control procurement costs and schedules while assuring superior product quality.
+                  The supplier management and control processes are comprised of features that will
+                  help the organization in managing supplier relations, monitoring vendor activities and
+                  managing supplier quality.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                         5
+
+
+             •    Increased Flexibility: ERP Systems help the companies to remain flexible by making
+                  the company information available across the departmental barriers and automating
+                  most of the processes and procedures, thus enabling the company to react quickly to
+                  the changing market conditions.
+             •    Reduced Quality Costs: Quality is defined in many different ways- excellence,
+                  conformance to specifications, fitness for use, value for the price and so on. The ERP
+                  System’s central database eliminates redundant specifications and ensures that a
+                  single change to standard procedures takes effect immediately throughout the
+                  organization. The ERP systems also provide tools for implementing total quality
+                  management programs within an organization.
+             •    Better Analysis and Planning Capabilities: Another advantage provided by ERP
+                  Systems is the boost to the planning functions. By enabling the comprehensive and
+                  unified management of related business functions such as production, finance,
+                  inventory management etc. and their data, it becomes possible to utilize fully many
+                  types of Decision Support Systems (DSS) and simulation functions, what-if analysis
+                  and so on; thus, enabling the decision-makers to make better and informed decisions.
+             •    Improved information accuracy and decision-making capability: The three
+                  fundamental characteristics of information are accuracy, relevancy and timeliness.
+                  The information needs to be accurate, relevant for the decision-maker and available
+                  to the decision-makers when he requires it. The strength of ERP Systems- integration
+                  and automation – help in improving the information accuracy and help in better
+                  decision-making.
+             •    Use of Latest Technology: ERP packages are adapted to utilize the latest
+                  developments in Information Technology such as open systems, client/server
+                  technology, Cloud Computing, Mobile computing etc. It is this adaptation of ERP
+                  packages to the latest changes in IT that makes the flexible adaptation to changes in
+                  future development environments possible.
+        (b) To develop grid computing security architecture, following constraints are taken from the
+            characteristics of grid environment and application:
+             •    Single Sign-on: A user should authenticate once and they should be able to acquire
+                  resources, use them, and release them and to communicate internally without any
+                  further authentication.
+             •    Protection of Credentials: User passwords, private keys, etc. should be protected.
+             •    Interoperability with local security solutions: Access to local resources should
+                  have local security policy at a local level. Despite of modifying every local resource
+                  there is an inter-domain security server for providing security to local resource.
+             •    Exportability: The code should be exportable i.e. they cannot use a large amount of
+                  encryption at a time. There should be a minimum communication at a time.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                  INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2020
+
+
+             •     Support for secure group communication: In a communication, there are number
+                   of processes which coordinate their activities. This coordination must be secure and
+                   for this there is no such security policy.
+             •     Support for multiple implementations: There should be a security policy which
+                   should provide security to multiple sources based on public and private key
+                   cryptography.
+        Question 4
+        (a) Once the complete business of a bank is captured by technology and processes are
+            automated in Core Banking System (CBS), the data of the bank, customer, management
+            and staff are completely dependent on the Data Centre. From a risk assessment point of
+            view, it is critical to ensure that the bank can impart training to its staff in the core areas of
+            technology for efficient risk management. Explain any six common IT risks related to CBS.
+                                                                                                   (6 Marks)
+        (b) Public cloud is the cloud infrastructure that is provisioned for open use by the general
+            public. Explain any four characteristics of public cloud.                      (4 Marks)
+        Answer
+        (a) The common IT risks related to Core Banking Systems (CBS) are as follows:
+             •     Ownership of Data/ process: Data resides at the Data Centre. Establish clear
+                   ownership.
+             •     Authorization process: Anybody with access to the CBS, including the customer
+                   himself, can enter data directly. What is the authorization process? If the process is
+                   not robust, it can lead to unauthorized access to the customer information.
+             •     Authentication procedures: Usernames and Passwords, Personal Identification
+                   Number (PIN), One Time Password (OTP) are some of the most commonly used
+                   authentication methods. However, these may be inadequate and hence the user
+                   entering the transaction may not be determinable or traceable.
+             •     Several software interfaces across diverse networks: A Data Centre can have as
+                   many as 75-100 different interfaces and application software. A data center must also
+                   contain adequate infrastructure, such as power distribution and supplemental power
+                   subsystems, including electrical switching; uninterruptable power supplies; backup
+                   generators and so on. Lapse in any of these may lead to real-time data loss.
+             •     Maintaining response time: Maintaining the interfacing software and ensuring
+                   optimum response time and up time can be challenging.
+             •     User Identity Management: This could be a serious issue. Some Banks may have
+                   more than 5000 users interacting with the CBS at once.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          7
+
+
+             •    Access Controls: Designing and monitoring access control is an extremely
+                  challenging task. Bank environments are subject to all types of attacks; thus, a strong
+                  access control system is a crucial part of a bank’s overall security plan. Access
+                  control, however, does vary between branch networks and head office locations.
+             •    Incident handling procedures: Incident handling procedures are used to address
+                  and manage the aftermath of a security breach or cyberattack. However, these at
+                  times, may not be adequate considering the need for real-time risk management.
+             •    Change Management: Though Change management reduces the risk that a new
+                  system or other change will be rejected by the users; however, at the same time, it
+                  requires changes at application level and data level of the database - Master files,
+                  transaction files and reporting software.
+        (b) The characteristics of Public Cloud are as follows:
+             •    Highly Scalable: The resources in the public cloud are large in number and the
+                  service providers make sure that all requests are granted. Hence public clouds are
+                  scalable.
+             •    Affordable: The cloud is offered to the public on a pay-as-you-go basis; hence the
+                  user has to pay only for what he or she is using on a per-hour basis. And this does
+                  not involve any cost related to the deployment.
+             •    Less Secure: Since it is offered by a third party and they have full control over the
+                  cloud, the public cloud is less secure out of all the other deployment models.
+             •    Highly Available: It is highly available because anybody from any part of the world
+                  can access the public cloud with proper permission, and this is not possible in other
+                  models as geographical or other access restrictions might be there.
+             •    Stringent Service Level Agreements (SLAs): As the service provider’s business
+                  reputation and customer strength are totally dependent on the cloud services, they
+                  follow the SLAs strictly and violations are avoided.
+        Question 5
+        (a) Enterprise Risk Management (ERM) framework consists of integrated components that are
+            derived from the way management runs a business and are integrated with the
+            management process. Define any six components of ERM framework.           (6 Marks)
+        (b) (i)   Define any two information system controls based on objectives of controls.
+                                                                                              (2 Marks)
+             (ii) Name any four activities executed by the Operating System.                  (2 Marks)
+                                                      OR
+                  Write short note on Cryptography.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                  INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2020
+
+
+        Answer
+        (a) The components of Enterprise Resource Management (ERM) framework are as follows:
+             (i)   Internal Environment: The internal environment encompasses the tone of an
+                   organization and sets the basis for how risk is viewed and addressed by an entity’s
+                   people, including risk management philosophy and risk appetite, integrity and ethical
+                   values, and the environment in which they operate. Management sets a philosophy
+                   regarding risk and establishes a risk appetite. The internal environment sets the
+                   foundation for how risk and control are viewed and addressed by an entity’s people.
+                   The core of any business is its people – their individual attributes, including integrity,
+                   ethical values and competence – and the environment in which they operate. They
+                   are the engine that drives the entity and the foundation on which everything rests.
+             (ii) Objective Setting: Objectives should be set before management can identify events
+                  potentially affecting their achievement. ERM ensures that management has a process
+                  in place to set objectives and that the chosen objectives support and align with the
+                  entity’s mission/vision and are consistent with the entity’s risk appetite.
+             (iii) Event Identification: Potential events that might have an impact on the entity should
+                   be identified. Event identification includes identifying factors – internal and external –
+                   that influence how potential events may affect strategy implementation and
+                   achievement of objectives. It includes distinguishing between potential events that
+                   represent risks, those representing opportunities and those that may be both.
+                   Opportunities are channelled back to management’s strategy or objective-setting
+                   processes. Management identifies inter-relationships between potential events and
+                   may categorize events to create and reinforce a common risk language across the
+                   entity and form a basis for considering events from a portfolio perspective.
+             (iv) Risk Assessment: Identified risks are analyzed to form a basis for determining how
+                  they should be managed. Risks are associated with related objectives that may be
+                  affected. Risks are assessed on both an inherent and a residual basis, and the
+                  assessment considers both risk likelihood and impact. A range of possible results
+                  may be associated with a potential event, and management needs to consider them
+                  together.
+             (v) Risk Response: Management selects an approach or set of actions to align assessed
+                 risks with the entity’s risk tolerance and risk appetite, in the context of the strategy
+                 and objectives. Personnel identify and evaluate possible responses to risks, including
+                 avoiding, accepting, reducing and sharing risk.
+             (vi) Control Activities: Policies and procedures are established and executed to help
+                  ensure that the risk responses that management selected, are effectively carried out.
+             (vii) Information and Communication: Relevant information is identified, captured and
+                   communicated in a form and time frame that enable people to carry out their
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                             9
+
+
+                  responsibilities. Information is needed at all levels of an entity for identifying,
+                  assessing and responding to risk. Effective communication also should occur in a
+                  broader sense, flowing down, across and up the entity. Personnel need to re ceive
+                  clear communications regarding their role and responsibilities.
+             (viii) Monitoring: The entire ERM process should be monitored, and modifications made
+                    as necessary. In this way, the system can react dynamically, changing as conditions
+                    warrant. Monitoring is accomplished through ongoing management activities,
+                    separate evaluations of the ERM processes or a combination of the both.
+        (b) (i)   The Information System controls based in their objective of controls are as follows:
+                  •    Preventive Controls: These controls prevent errors, omissions, or security
+                       incidents from occurring. Examples include simple data-entry edits that block
+                       alphabetic characters from being entered in numeric fields, access controls that
+                       protect sensitive data/ system resources from unauthorized people, and
+                       complex and dynamic technical controls such as anti-virus software, firewalls,
+                       and intrusion prevention systems. In other words, Preventive Controls are those
+                       inputs, which are designed to prevent an error, omission or malicious act
+                       occurring. Some of the examples of preventive controls can be Employing
+                       qualified personnel; Segregation of duties; Access control; Vaccination against
+                       diseases; Documentation; Prescribing appropriate books for a course; Training
+                       and retraining of staff; Authorization of transaction; Validation, edit checks in the
+                       application; Firewalls; Anti-virus software (sometimes this acts like a corrective
+                       control also), etc., and Passwords.
+                  •    Detective Controls: These controls are designed to detect errors, omissions or
+                       malicious acts that occur and report the occurrence. In other words, Detective
+                       Controls detect errors or incidents that elude preventive controls. For example,
+                       a detective control may identify account numbers of inactive accounts or
+                       accounts that have been flagged for monitoring of suspicious activities.
+                       Detective controls can also include monitoring and analysis to uncover activities
+                       or events that exceed authorized limits or violate known patterns in data that
+                       may indicate improper manipulation. For sensitive electronic communications,
+                       detective controls can indicate that a message has been corrupted or the
+                       sender’s secure identification cannot be authenticated. Some of the examples
+                       of Detective Controls are: Review of payroll reports; Compare transactions on
+                       reports to source documents; Monitor actual expenditures against budget; Use
+                       of automatic expenditure profiling where management gets regular reports of
+                       spend to date against profiled spend; Hash totals; Check points in production
+                       jobs; Echo control in telecommunications; Duplicate checking of calculations;
+                       Past-due accounts report; The internal audit functions; Intrusion Detection
+                       System; Cash counts and bank reconciliation and Monitoring expenditures
+                       against budgeted amount.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10               INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2020
+
+
+                  •    Corrective Controls: It is desirable to correct errors, omissions, or incidents
+                       once they have been detected. They vary from simple correction of data-entry
+                       errors, to identifying and removing unauthorized users or software from systems
+                       or networks, to recovery from incidents, disruptions, or disasters. Generally, it is
+                       most efficient to prevent errors or detect them as close as possible to their
+                       source to simplify correction. These corrective processes also should be subject
+                       to preventive and detective controls, because they represent another
+                       opportunity for errors, omissions, or falsification. Corrective controls are
+                       designed to reduce the impact or correct an error once it has been detected.
+                       Corrective controls may include the use of default dates on invoices where an
+                       operator has tried to enter the incorrect date. Some of the other examples of
+                       Corrective Controls are submitting corrective journal entries after discovering an
+                       error; A Business Continuity Plan (BCP); Contingency planning; Backup
+                       procedure; Rerun procedures; Change input value to an application system; and
+                       Investigate budget variance and report violations.
+             (ii) The activities executed by Operating System are as follows:
+                  •    Performing hardware functions
+                  •    User Interfaces
+                  •    Hardware Independence
+                  •    Memory Management
+                  •    Task Management
+                  •    Networking Capability
+                  •    Logical Access Security
+                  •    File management
+                                                             OR
+
+             (ii) Cryptography: It deals with programs for transforming data into cipher text that are
+                  meaningless to anyone, who does not possess the authentication to access the
+                  respective system resource or file. A cryptographic technique encrypts data (clear
+                  text) into cryptograms (cipher text) and its strength depends on the time and cost to
+                  decipher the cipher text by a cryptanalyst. Three techniques of cryptography are
+                  transposition (permute the order of characters within a set of data), substitution
+                  (replace text with a key-text) and product cipher (combination of transposition and
+                  substitution).
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                         11
+
+
+                                 SECTION –B: STRATEGIC MANAGEMENT
+                                         Question No. 6 is compulsory
+                                   Answer any four questions from the rest.
+        Question 6
+        ABC Ltd. is a beverage manufacturing company. It chiefly manufactures soft drinks. The
+        products are priced on the lower side which has made the company a leader in the business.
+        Currently it is holding 35 percent market share. The R & D of company developed a formula for
+        manufacturing sugar free beverages. On successful trial and approval by the competent
+        authorities, company was granted to manufacture sugar free beverages. This company is the
+        pioneer to launch sugar free beverages which are sold at a relatively higher price. This new
+        product has been accepted widely by a class of customers. These produc ts have proved
+        profitable for the company. Identify the strategy employed by the company ABC Ltd. and
+        mention what measures could be adopted by the company to achieve the employed strategy.
+                                                                                              (5 Marks)
+        Answer
+        According to Porter, strategies allow organizations to gain competitive advantage from three
+        different bases: cost leadership, differentiation, and focus. Porter called these base generic
+        strategies.
+        ABC Ltd. has opted Differentiation Strategy. The company has invested huge amount in R &
+        D and developed a formula for manufacturing sugar free beverages to give the customer value
+        and quality. They are pioneer and serve specific customer needs that are not met by other
+        companies in the industry. The new product has been accepted by a class of customers.
+        Differentiated and unique sugar free beverages enable ABC Ltd. to charge relatively higher
+        for its products hence making higher profits and maintain its competitive position in the market.
+        Sugar free beverage of ABC Ltd. is being accepted widely by a class of customers.
+        Differentiation strategy is aimed at broad mass market and involves the creation of a product or
+        service that is perceived by the customers as unique. The uniqueness can be associated with
+        product design, brand image, features, technology, and dealer network or customer service.
+        Achieving Differentiation Strategy
+        To achieve differentiation, following strategies are generally adopted by an organization:
+        1.   Offer utility to the customers and match products with their tastes and preferences.
+        2.   Elevate/Improve performance of the product.
+        3.   Offer the high-quality product/service for buyer satisfaction.
+        4.   Rapid product innovation to keep up with dynamic environment.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2020
+
+
+        5.   Taking steps for enhancing brand image and brand value.
+        6.   Fixing product prices based on the unique features of product and buying capacity of the
+             customer.
+        Question 7
+        (a) Draw 'Divisional Structure' with the help of a diagram. Also, give advantages and
+            disadvantages of this structure in brief.                                (5 Marks)
+        (b) What is strategic control? Kindly explain the statement that "premise control is a tool for
+            systematic and continuous monitoring of the environment".                       (5 Marks)
+        Answer
+        (a) Divisional structure is that organizational structure which is based on extensive delegation
+            of authority and built on division basis. The divisional structure can be organized in one of
+            the four ways: by geographic area, by product or service, by customer, or by process. With
+            a divisional structure, functional activities are performed both centrally and in each division
+            separately.
+
+
+
+
+                                          Figure: Divisional Structure
+             Advantages of divisional structure
+             •    Accountability is clear: Divisional managers can be held responsible for sales and
+                  profit levels. Because a divisional structure is based on extensive delegation of
+                  authority, managers and employees can easily see the results of their good or bad
+                  performances and thus their morale is high.
+             •    Other advantages: It creates career development opportunities for managers, allows
+                  local control of local situations, leads to a competitive climate within an organization,
+                  and allows new businesses and products to be added easily.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                         13
+
+
+             Disadvantages of divisional structure
+             •     Higher cost: Owing to following reasons: (i). requires qualified functional specialist
+                   at different divisions and needed centrally (at headquarters); (ii). It requires an
+                   elaborate, headquarters –driven control system.
+             •     Conflicts between divisional managers: Certain regions, products, or customers
+                   may sometimes receive special treatment, and it may be difficult to maintain
+                   consistent, company-wide practices.
+        (b) Strategic Control
+             Strategic control is the process of evaluating formulated and implemented strategy. It
+             is directed towards identifying changes in the internal and external environments of the
+             organization and making necessary adjustments accordingly.
+             Strategic Control focuses on the dual questions of whether: (1) the strategy is being
+             implemented as planned; and (2) the results produced by the strategy are those intended.
+             Yes, Premise control is a tool for systematic and continuous monitoring of the
+             environment to verify the validity and accuracy of the premises on which the strategy has
+             been built. It primarily involves monitoring two types of factors:
+             (i)   Environmental factors such as economic (inflation, liquidity, interest rates),
+                   technology, social and legal-regulatory.
+             (ii) Industry factors such as competitors, suppliers, substitutes.
+             It is neither feasible nor desirable to control all types of premises in the same manner.
+             Different premises may require different amount of control. Thus, managers are required
+             to select those premises that are likely to change and would severely impact the functioning
+             of the organization and its strategy.
+        Question 8
+        (a) Discuss the guidelines for selection of Research & Development expertise by an
+            organization.                                                         (5 Marks)
+        (b) Why companies should go global? Mention any five reasons.                          (5 Marks)
+        Answer
+        (a) A critical question is whether a firm should develop research and development expertise
+            internally or outside to external agencies. The answer to this critical question mainly
+            depends on rate of technology progress and rate of market growth. The following
+            guidelines can be used to help make this decision:
+                  If the rate of technical progress is slow, the rate of market growth is moderate,
+                   and there are significant barriers to possible new entrants, then in-house R&D is the
+                   preferred solution. The reason is that R&D, if successful, will result in a temporary
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2020
+
+
+                  product or process monopoly that the company can exploit.
+                 If technology is changing rapidly and the market is growing slowly, then a major
+                  effort in R&D may be very risky, because it may lead to the development of an
+                  ultimately obsolete technology or one for which there is no market.
+                 If technology is changing slowly but the market is growing quickly, there
+                  generally is not enough time for in-house development. The prescribed approach is
+                  to obtain R&D expertise on an exclusive or non-exclusive basis from an outside
+                  firm.
+                 If both technical progress and market growth are fast, R&D expertise should be
+                  obtained through acquisition of a well-established firm in the industry.
+        (b) There are several reasons why companies go global. These are discussed as
+            follows:
+             •    One reason could be the rapid shrinking of time and distance across the globe -
+                  thanks to faster communication, speedier transportation, growing financial flows and
+                  rapid technological changes.
+             •    It is being realized that the domestic markets are no longer adequate and rich.
+                  Companies globalize to take advantage of opportunities available elsewhere.
+             •    A new product may gradually get acceptance and grow locally and then globally.
+                  This may initially be in form of exports and then later production facilities may begin
+                  in other countries.
+             •    Organizations may go global to take advantage of cheaper raw material and
+                  labour costs.
+             •    Companies often set up overseas plants to reduce high transportation costs.
+             •    The motivation to go global in high-tech industries is slightly different. Companies
+                  in electronics and telecommunications must spend large sums on research and
+                  development for new products and thus may be compelled to seek ways to improve
+                  sales volume to support high overhead expenses.
+             •    The companies may also go global to take advantage of local taxation laws.
+             •    To form strategic alliances to ward off economic and technological threats and
+                  leverage their respective comparative and competitive advantages.
+        Question 9
+        (a) State the factors of human resource that have a strong influence on employee competence.
+                                                                                              (5 Marks)
+        (b) What is strategic vision? Describe the essentials of strategic vision.            (5 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                             15
+
+
+        Answer
+        (a) Human resource management has been accepted as a strategic partner in the
+            formulation of organization’s strategies and in the implementation of such strategies
+            through human resource planning, employment, training, appraisal and reward systems.
+            The following points should be kept in mind as they can have a strong influence on
+            employee competence:
+             1.   Recruitment and selection: The workforce will be more competent if a firm can
+                  successfully identify, attract, and select highly competent applicants.
+             2.   Training: The workforce will be more competent if employees are well trained to
+                  perform their jobs properly.
+             3.   Appraisal of performance: The performance appraisal is to identify any performance
+                  deficiencies experienced by employees due to lack of competence. Such deficiencies,
+                  once identified, can often be solved through counseling, coaching or training.
+             4.   Compensation: A firm can usually increase the competency of its workforce by
+                  offering pay, benefits and rewards that are not only attractive than those of their
+                  competitors but also recognizes merit.
+        (b) Strategic Vision
+             A strategic vision is a roadmap of a company’s future – providing specifics about
+             technology and customer focus, the geographic and product markets to be pursued, the
+             capabilities it plans to develop, and the kind of company that management is trying to
+             create. It helps the company to answer the question “where we are to go” and provides
+             a convincing rationale for why this makes good business sense for the company.
+             A strategic vision delineates organization’s aspirations for the business, providing a
+             panoramic view of the position where the organization is going. A strategic vision points
+             an organization in a particular direction, charts a strategic path for it to follow in preparing
+             for the future, and molds organizational identity.
+             Essentials of a strategic vision
+                 The entrepreneurial challenge in developing a strategic vision is to think creatively
+                  about how to prepare a company for the future.
+                 Forming a strategic vision is an exercise in intelligent entrepreneurship.
+                 A well-articulated strategic vision creates enthusiasm among the members of the
+                  organization.
+                 The best-worded vision statement clearly illuminates the direction in which
+                  organization is headed.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2020
+
+
+        Question 10
+        (a) "There is a need for Strategic Management for government and medical organization too."
+            Comments.                                                                   (5 Marks)
+        (b) Briefly describe the meaning of divestment and liquidation strategy and establish difference
+            between the two.
+                                                      OR
+             Write a short note on requirement of strategy audit. What are the basic activities of
+             strategic audit?                                                          (5 Marks)
+        Answer
+
+        (a) Need for strategic management for government and medical organization
+             Yes, there is a need of strategic management for government and medical organizations
+             like the commercial organizations because optimum utilization of resources in view of their
+             scarcity, good strategy formulation and its effective implementation & proper monitoring is
+             needed equally in both types of organizations.
+             Organizations can be classified as commercial and non-commercial on the basis of the
+             interest they have. Typically, a government or medical organization may function without
+             any commercial objectives. A commercial organization has profit as its main aim. We can
+             find many organizations around us, which do not have any commercial objective of making
+             profits. Their genesis may be for social, charitable, or educational purposes.
+             The strategic-management process is being used effectively by countless non-profit
+             governmental organizations. Many non-profit and governmental organizations
+             outperform private firms and corporations on innovativeness, motivation, productivity, and
+             human resource.
+             Compared to for-profit firms, non-profit and governmental organizations often function as
+             a monopoly, produce a product or service that offers little or no measurability of
+             performance, and are totally dependent on outside financing. Especially for these
+             organizations, strategic management provides an excellent vehicle for developing
+             and justifying requests for needed financial support.
+             Government Organizations: Central, state, municipal agencies, public sector units,
+             department are responsible for formulating, implementing and evaluating strategies that
+             use taxpayers’ money in the most cost-effective way to provide services and programs.
+             Therefore, strategic management concepts are required for them.
+             Medical Organizations: Modern hospitals quite often are using strategic management for
+             creating new strategy and implementing properly for diagnosis and treatment of different
+             diseases at lower price. Forward and Backward integration strategies are also required in
+             hospitals for providing better services at lower cost.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                        17
+
+
+        (b) Divestment strategy involves the sale or liquidation of a portion of business, or a
+            major division, profit centre or SBU. Divestment is usually a part of rehabilitation or
+            restructuring plan and is adopted when a turnaround has been attempted but has proved
+            to be unsuccessful.
+             Liquidation strategy is a retrenchment strategy considered the most extreme and
+             unattractive strategy, which involves closing down a firm and selling its assets.
+                     Difference between Divestment strategy and Liquidation strategy:
+                 Basis of Difference    Divestment Strategy                 Liquidation Strategy
+                 Meaning                Divestment strategy involves        Liquidation      strategy
+                                        sale or liquidation of a            involves closing down a
+                                        portion of business.                firm and selling its
+                                                                            business.
+                 Policy option          Divestment is usually a part of     Liquidation becomes only
+                                        rehabilitation                or    option in case of severe
+                                        restructuring plan and is           and critical conditions
+                                        adopted when a turnaround           where either turnaround or
+                                        has been attempted but has          divestment are not seen as
+                                        proved to be unsuccessful.          solution or have been
+                                        Option of a turnaround may          attempted but failed.
+                                        even be ignored if it is obvious
+                                        that divestment is the only
+                                        answer.
+                 Purpose                Efforts are made for survival Liquidation as a form of
+                                        of the organization.          retrenchment strategy is
+                                                                      unattractive and considered
+                                                                      as the last resort.
+                 Consequences           Survival of organization helps There       is loss     of
+                                        in retaining personnel, at employment                and
+                                        least to some extent.          opportunities with stigma
+                                                                       of failure.
+                                                       Or
+             Need of Strategy Audit
+             A strategy audit is an examination and evaluation of areas affected by the operation of a
+             strategic management process within an organization.
+             A strategy audit is required under the following conditions:
+                  When the performance indicators reflect that a strategy is not working properly or
+                   is not producing desired outcomes.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        18                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2020
+
+
+                 When the goals and objectives of the strategy are not being accomplished.
+                 When a major change takes place in the external environment of the organization.
+                 When the top management plans:
+                  (a) To fine-tune the existing strategies and introduce new strategies; and
+                  (b) To ensure that a strategy that has worked in the past continues to be in-tune
+                      with subtle internal and external changes that may have occurred since the
+                      formulation of strategies.
+             Adequate and timely feedback is the cornerstone of effective strategy audit. Strategy audit
+             can be no better than the information on which it is based.
+             Strategy Audit includes three basic activities:
+             1.   Examining the underlying bases of a firm’s strategy,
+             2.   Comparing expected results with actual results, and
+             3.   Taking corrective actions to ensure that performance conforms to plans.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

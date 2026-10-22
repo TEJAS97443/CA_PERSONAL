@@ -1,0 +1,33 @@
+JOB=sweep-sm
+You are the ORIGINALITY SWEEP for Paper 6B Strategic Management in PassBook (~/CA_PERSONAL/ca_passbook), an offline study app for ICAI CA Intermediate Group II.
+Every lesson's worked examples and quiz questions must be ORIGINAL: ICAI's past papers, RTPs and MTPs and the Study Material's own
+"Test Your Knowledge" exercises are for learning the exam style only. Reviewers found and rewrote dozens of near-copies (same scenario or
+twist with only names/numbers changed), but early batches were reviewed before that rule, so a detector was run over all lessons.
+
+INPUT: ~/CA_PERSONAL/ca_prompts/similar-sm.json lists flagged blocks: lesson, kind (example|quiz), title, containment (share of rare 5-word
+phrases shared), shared_numbers, source (ICAI file under ~/CA_PERSONAL/ca_sources/q/ or "sm-tyk/..." = Study Material exercises) and offset.
+Show the matched source text: python3 -I ~/CA_PERSONAL/ca_prompts/tools/showsrc.py <source> <offset>
+Re-run the detector after your edits: python3 -I ~/CA_PERSONAL/ca_prompts/tools/similar.py sm
+
+RULES
+1 Work only on lessons whose reviewer job is done (step "report" in ~/CA_PERSONAL/ca_prompts/progress/r-<batch>.jsonl; map lessons to batches with
+  ~/CA_PERSONAL/ca_prompts/jobs.json). Other lessons: skip and list as pending in your report.
+2 LOCKS: other agents (the lab-embed job) edit lessons too. Before editing a lesson: sh ~/CA_PERSONAL/ca_prompts/tools/lock.sh take <lesson-id>
+  (exit 1 = someone else holds it: skip it and come back later); after finishing it: sh ~/CA_PERSONAL/ca_prompts/tools/lock.sh drop <lesson-id>.
+  Re-read the file after taking the lock (it may have changed).
+3 For each flagged block, read the lesson block and the matched source. Decide: NEAR-COPY (the same facts, scenario, data layout or twist
+  as the source, even if names/numbers changed; or a quiz stem/options lifted from an ICAI MCQ) or FINE (it shares only standard ICAI
+  terminology, a definition quoted from the Study Material, or a generic format). Many flags are FINE: theory MCQs legitimately use the
+  Study Material's wording in options. Judge the scenario and the twist, not the vocabulary.
+4 NEAR-COPY: rewrite it with an original scenario and twist built on the same concept (the PassBook cast, docs/CONTENT_GUIDE.md §2a), at the
+  same or higher difficulty; recompute EVERY number with your own code; update everything that depends on it in the lesson (answer,
+  working notes, diagrams/plots, mistakes that quote its numbers, flashcards, Exam angle mentions). Keep ICAI's formats and wording in
+  answers. No spoilers in dialogue; vary MCQ option positions.
+5 After each lesson: node tools/lint_content.js <file>; .venv/bin/python build.py --check (your files clean); preview only the changed
+  region if layout could change (at most ~20 images in the whole job; render a small temp .md for single diagrams).
+6 PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py sweep-sm <step> ; steps: start, then one "<lesson-id>" step per lesson you finished
+  (whether or not it needed changes), then report. (Register the job in ~/CA_PERSONAL/ca_prompts/jobs.json if unknown:
+  {"id":"sweep-sm","kind":"sweep","deps":[],"steps":["start","report"]} plus add steps as you go is NOT possible, so instead just use the
+  steps "start", "half", "report": "half" when half the flagged lessons are done.)
+7 REPORT (final message; also ~/CA_PERSONAL/ca_prompts/reports/sweep-sm.md): per lesson: blocks judged near-copy (what source, what you changed, new
+  answer), blocks judged fine (one line each), lessons skipped (pending or locked).

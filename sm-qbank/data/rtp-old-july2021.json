@@ -1,0 +1,628 @@
+{
+ "source": {
+  "type": "RTP",
+  "attempt": "July 2021",
+  "attempt_sort": "2021-07",
+  "series": null,
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://cacult.com/wp-content/uploads/2021/05/rtp-may-21-6.pdf",
+  "local_file": "raw/rtp-old-july2021-p7.pdf",
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Mirror: CA Cult (https://cacult.com/rtps-ca-intermediate-course/), which hosts the official ICAI RTP PDF. Not retrieved from an icai.org URL."
+ },
+ "questions": [
+  {
+   "id": "rtp-old-july2021-q1i",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy is partly proactive and partly reactive → Ch 1 (Meaning and Nature of Strategic Management)",
+   "qno": "1(i)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "Increasing investment in the share market, mutual funds, and equity/debt investment plans from the growing salaried middle class gave birth to Scripzy, an Artificial Intelligence based market predictor and digital brokerage company. The company is headquartered in Mumbai and has a team of 100+ IT professionals working on building a safe and secure digital infrastructure.\nThe market is saturated. There is fierce competition and big brands have all jumped in with digital offerings for their existing customers. Scripzy, on the other hand, is new and vulnerable but its organic reach to the young earning set of customers is a winning streak. This was achieved by project Force.\nProject Force was a secret market analysis conducted by internal teams to find sustainable competitive advantages, focus on final product attributes most valued by customers and imitate the competitive capabilities of competitors. It was a complete final product-customer approach which helped them win over youngsters.\nInterestingly, the company being AI based has also automated its internal decision making with in-house AI decision making bots. The top management explains their requirements to the AI bot and the bot makes functional decisions that are to be executed by respective teams. It also engages with team leaders and sends regular reports on fulfilments. This projected a very strong image for the company in the international market and a Chinese investor offered them a huge undisclosed amount to buy-out the AI system. Scripzy immediately accepted the offer and earned huge sums from the unexpected sale.\nRepercussions followed and their core customers, the youth, boycotted their product. The team had to approach the share market leaders to support and with a little influence from the share market leaders, they were able to regain their “True Indian Company” status in the media. Nonetheless, damage had been done and they saw their customer base shattered to an all time low.\nDecisions which seem economically attractive are multi-faceted, and this is one lesson that Scripzy shall remember for times to come. Business for now is low and weak, but a good strategy can change the landscape for Scripzy’s future.\nBased on the above Case Scenario, answer the Multiple Choice Questions.\n\nWhich of the following statement by Ansoff is most appropriate for Scripzy’s strategy in the changing environment?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Preparedness of worst case scenarios"
+    },
+    {
+     "label": "b",
+     "text": "Far fetched planning of leadership"
+    },
+    {
+     "label": "c",
+     "text": "Money has the power to influence environment"
+    },
+    {
+     "label": "d",
+     "text": "Blend of proactive and reactive actions"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "proactive and reactive strategy",
+    "ansoff matrix",
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q1ii",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Key success factors → Ch 2 (Key Factors for Competitive Success)",
+   "qno": "1(ii)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nProject Force was crucial in determining Scripzy’s position in the market. However, which of the following metrics was missed by the team while understanding KSFs?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Crucial product attributes"
+    },
+    {
+     "label": "b",
+     "text": "Sustainable competitive advantage"
+    },
+    {
+     "label": "c",
+     "text": "Resources for competitive success"
+    },
+    {
+     "label": "d",
+     "text": "Competitive capabilities to be competitively successful"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "key success factors"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q1iii",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "qno": "1(iii)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nScripzy’s huge investment in Artificial Intelligence has caused its organisational structure to be which of the following structures?",
+   "options": [
+    {
+     "label": "a",
+     "text": "SBU Structure"
+    },
+    {
+     "label": "b",
+     "text": "Divisional Structure"
+    },
+    {
+     "label": "c",
+     "text": "Hourglass Structure"
+    },
+    {
+     "label": "d",
+     "text": "Multidivisional Structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q1iv",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic uncertainty and how to deal with it → Ch 5 (the current Ch 5 covers \"Strategic uncertainty and how to deal with it\", incl. monitoring and scenario planning)",
+   "qno": "1(iv)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nIn future, to fight out uncertainties like geo-political influences, which of the following can be used by Scripzy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategic Audit"
+    },
+    {
+     "label": "b",
+     "text": "Scenario Analysis"
+    },
+    {
+     "label": "c",
+     "text": "Benchmarking"
+    },
+    {
+     "label": "d",
+     "text": "ADL Matrix"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic uncertainty",
+    "scenario planning"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q1v",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Understanding customers and markets → Ch 2",
+   "qno": "1(v)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nNot all customers can be satisfied, and Scripzy addressed the same by connecting with the right customers. Arrange the following in the order that Scripzy followed while pursuing their customer reach out.\n(i) Market Positioning\n(ii) Market Segmentation\n(iii) Market Target",
+   "options": [
+    {
+     "label": "a",
+     "text": "(i), (ii), (iii)"
+    },
+    {
+     "label": "b",
+     "text": "(ii), (iii), (i)"
+    },
+    {
+     "label": "c",
+     "text": "(iii), (ii), (i)"
+    },
+    {
+     "label": "d",
+     "text": "(i), (iii), (ii)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "customer analysis"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q2",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter's generic strategies → Ch 3 (Competitive Advantage)",
+   "qno": "2",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Sanjivni Pharmaceuticals Limited manufacturers a cough syrup Zenus. It has modified Zenus syrup, claiming that the Zenus cough syrup is sugar-free, and the consumer will not feel drowsiness after consuming this cough syrup. Consumers found this product as unique. The sales of Zenus cough syrup have increased as expected. The price of this sugar-free syrup is higher by 20% than the earlier syrup. Identify the strategy adopted by Sanjivni Pharmaceuticals Limited.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Focus strategy"
+    },
+    {
+     "label": "b",
+     "text": "Best cost provider strategy"
+    },
+    {
+     "label": "c",
+     "text": "Differentiation strategy"
+    },
+    {
+     "label": "d",
+     "text": "Cost leadership strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "generic strategies"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q3",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing Mix / promotion (old Ch 6.2.2) — dropped with the functional-strategy chapter",
+   "qno": "3",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Everyouth Beauty Products Limited, the makers of Feel-Fresh soaps have been suffering from low sales volume from the last six months due to stiff competition. To regain its position, Everyouth Beauty Products Limited launched various schemes such as ‘win a phone every hour’, scratch cards, buy 1 get 1 free and contest on social media. This resulted into increase in sales. Which type of promotional activity did Everyouth Beauty Products Limited adopted?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Sales promotion"
+    },
+    {
+     "label": "b",
+     "text": "Advertising"
+    },
+    {
+     "label": "c",
+     "text": "Publicity"
+    },
+    {
+     "label": "d",
+     "text": "Personal selling"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "marketing mix"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q4",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Product life cycle → Ch 2 (Defining the industry for analysis)",
+   "qno": "4",
+   "kind": "mcq",
+   "marks": null,
+   "question": "ABC Ltd. has identified that all three of its main products are at the maturity phase of the product life cycle. Which of the following is ABC Ltd. likely to be experiencing due to this?",
+   "options": [
+    {
+     "label": "a",
+     "text": "High, but declining sales"
+    },
+    {
+     "label": "b",
+     "text": "Growing numbers of competitors"
+    },
+    {
+     "label": "c",
+     "text": "Product diversification and differentiation strategies"
+    },
+    {
+     "label": "d",
+     "text": "Adoption of price skimming strategies"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "product life cycle"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q5",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Portfolio analysis / GE matrix → Ch 4",
+   "qno": "5",
+   "kind": "mcq",
+   "marks": null,
+   "question": "A tool by which management identifies and evaluates the various businesses that make up a company is termed as:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Value chain analysis"
+    },
+    {
+     "label": "b",
+     "text": "Portfolio analysis"
+    },
+    {
+     "label": "c",
+     "text": "Competition analysis"
+    },
+    {
+     "label": "d",
+     "text": "Strategic analysis"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "portfolio analysis"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q6",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Diversification / integration → Ch 4 (Expansion through diversification)",
+   "qno": "6",
+   "kind": "mcq",
+   "marks": null,
+   "question": "If suppliers are unreliable or too costly, which of these strategies may be appropriate?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Horizontal integration"
+    },
+    {
+     "label": "b",
+     "text": "Backward integration"
+    },
+    {
+     "label": "c",
+     "text": "Market penetration"
+    },
+    {
+     "label": "d",
+     "text": "Forward integration"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "diversification"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q7",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 1 \"Introduction to Strategic Management\" → Ch 1",
+   "qno": "7",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Dharam Singh, the procurement department head of Cyclix, a mountain biking equipment company, was recently promoted to look after sales department along with procurement department. His seniors at the corporate level have always liked his way of leadership and are assures that he would ensure the implementation of policies and strategies to the best of his capacity but have never involved him in decision making for the company. Do you think this is the right approach? Validate your answer with logical reasoning around management levels and decision making.",
+   "options": null,
+   "answer": "Functional managers provide most of the information that makes it possible for business and corporate level managers to formulate realistic and attainable strategies. This is so because functional managers like Dharam Singh are closer to the customer than the typical general manager is. A functional manager may generate important ideas that subsequently may become major strategies for the company. Thus, it is important for general managers to listen closely to the ideas of their functional managers and in voice them in decision making.\nAn equally great responsibility for managers at the operational level is strategy implementation: the execution of corporate and business level plans, and if they are involved in formulation, the clarity of thoughts while implementation can benefit too. Thus, the approach of Cylcix Corporate management is not right. They should involve Dharam Singh, as well as other functional managers too in strategic management.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy implementation",
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q8",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Limitations of strategic management → Ch 1",
+   "qno": "8",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Define strategic management. Also discuss the limitations of strategic management.",
+   "options": null,
+   "answer": "The term ‘strategic management’ refers to the managerial process of developing a strategic vision, setting objectives, crafting a strategy, implementing and evaluating the strategy, and initiating corrective adjustments where deemed appropriate.\nThe presence of strategic management cannot counter all hindrances and always achieve success as there are limitations attached to strategic management. These can be explained in the following lines:\n• Environment is highly complex and turbulent. It is difficult to understand the complex environment and exactly pinpoint how it will shape-up in future. The organisational estimate about its future shape may awfully go wrong and jeopardise all strategic plans. The environment affects as the organisationhas to deal with suppliers, customers, governments and other external factors.\n• Strategic management is a time-consuming process. Organisations spend a lot of time in preparing, communicating the strategies that may impede daily operations and negatively impact the routine business.\n• Strategic management is a costly process. Strategic management adds a lot of expenses to an organization. Expert strategic planners need to be engaged, efforts are made for analysis of external and internal environments devise strategies and properly implement. These can be really costly for organisations with limited resources particularly when small and medium organisation create strategies to compete.\n• Competition is unpredictable. In a competitive scenario, where all organisations are trying to move strategically, it is difficult to clearly estimate the competitive responses to the strategies.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "limitations",
+    "vision",
+    "objectives",
+    "strategic management"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q9",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Product life cycle → Ch 2 (Defining the industry for analysis)",
+   "qno": "9",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "ABC Ltd. manufactures and sells air purifier ‘Fresh Breath’. The ‘Fresh Breath’ has seen sales growth of around 1% for the last two years, after strong growth in the previous five years. This is due to new products entering the market in competition with the ‘Fresh Breath’. ABC Ltd. is therefore considering cutting its prices to be in line with its major rivals with a hope to maintain the market share. Market research indicates that this will now cause a significant increase in the level of sales, even though in previous years price cuts have had little effect on demand. ABC ltd. is also planning to launch a promotional campaign to highlight the benefits of the ‘Fresh Breath’ against its rival products. Identify and explain the stage of the product life cycle in which ‘Fresh Breath’ falls.",
+   "options": null,
+   "answer": "Product Life Cycle is a useful concept for guiding strategic choice. PLC is an S-shaped curve which exhibits the relationship of sales with respect of time for a product that passes through the four successive stages of introduction (slow sales growth), growth (rapid market acceptance) maturity (slowdown in growth rate) and decline (sharp downward drift).\nThe product ‘Fresh Breath’ of ABC Ltd. falls under Maturity stage of product life cycle. In this stage, the competition gets tough and market gets stablised. Profit comes down because of stiff competition. At this stage, ABC Ltd. have to work for maintaining stability by cutting the prices to be in line with its major rivals with a hope to maintain the market share and by launching a promotional campaign to highlight the benefits of the ‘Fresh Breath’ against its rival products.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "product life cycle",
+    "importance of sm"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q10",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "SWOT analysis → Ch 3 (Combining external and internal analysis)",
+   "qno": "10",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Write a short note on SWOT analysis.",
+   "options": null,
+   "answer": "SWOT analysis is a tool used by organizations for evolving strategic options for the future. The term SWOT refers to the analysis of strengths, weaknesses, opportunities and threats facing a company. Strengths and weaknesses are identified in the internal environment, whereas opportunities and threats are located in the external environment.\n(a) Strength: Strength is an inherent capability of the organization which it can use to gain strategic advantage over its competitor.\n(b) Weakness: A weakness is an inherent limitation or constraint of the organisation which creates strategic disadvantage to it.\n(c) Opportunity: An opportunity is a favourable condition in the external environment which enables it to strengthen its position.\n(d) Threat: An unfavourable condition in the external environment which causes a risk for, or damage to the organisation’s position.\nThe major purpose of SWOT analysis is to enable the management to create a firm - specific business model that will best align, fit or match an organisational resources and capabilities to the demands for environment in which it operates.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "swot analysis",
+    "limitations"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q11",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management process / strategic planning → Ch 5 (5.2)",
+   "qno": "11",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Explain briefly the key areas in which the strategic planner should concentrate his mind to achieve desired results.",
+   "options": null,
+   "answer": "A strategic manager defines the strategic intent of the organisation and take it on the path of achieving the organisational objectives. There can be a number of areas that a strategic manager should concentrate on to achieve desired results. They commonly establish long-term objectives in seven areas as follows:\n• Profitability.\n• Productivity.\n• Competitive Position.\n• Employee Development.\n• Employee Relations.\n• Technological Leadership.\n• Public Responsibility.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic management process",
+    "strategic intent",
+    "objectives"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q12",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Objectives and goals → Ch 1 (Strategic Intent)",
+   "qno": "12",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What are 'objectives'? What characteristics it must possess to be mea ningful?",
+   "options": null,
+   "answer": "Objectives are organizations performance targets – the results and outcomes it wants to achieve. They function as yardstick for tracking an organization’s performance and progress.\nObjectives with strategic focus relate to outcomes that strengthen an organization’s overall business position and competitive vitality. Objectives, to be meaningful to serve the intended role, must possess the following characteristics:\n• Objectives should define the organization’s relationship with its environment.\n• Objectives should be facilitative towards achievement of mission and purpose.\n• Objectives should provide the basis for strategic decision-making.\n• Objectives should provide standards for performance appraisal.\n• Objectives should be understandable.\n• Objectives should be concrete and specific.\n• Objectives should be related to a time frame.\n• Objectives should be measurable and controllable.\n• Objectives should be challenging.\n• Different objectives should correlate with each other.\n• Objectives should be set within constraints.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "objectives",
+    "mission"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q13",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 4 \"Corporate Level Strategies\" → Ch 4 (Strategic Choices)",
+   "qno": "13",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Mini theatre Ltd. was a startup venture of three young IIM graduates. They developed an application to watch web-based content like web series, TV Shows, theatre shows, etc. after purchasing their exclusive rights. They were successful in getting many consumers enrolled with them. After a certain span of time, the company realized that some regional content like ‘bangla movies’, ‘Gujarati shows’ etc. were having high cost and less viewership. The leadership team of Mini theatre Ltd. decided to sell the rights and curtail any further content development in these areas.\nIdentify and explain the corporate strategy adopted by the leadership team of Mini theatre Ltd.",
+   "options": null,
+   "answer": "The leadership team of Mini theatre Ltd. decided to cuts off the loss-making units, reduces the functions performed that some of regional content like ‘bangla movies’, ‘Gujarati shows’ etc. were having high cost and less viewership, it adopts a divestment strategy. The leadership team of Mini theatre Ltd. decided to sell the rights and curtail any further content development in these areas.\nDivestment strategy involves the sale or liquidation of a portion of business, or a major division, profit centre or SBU. Divestment is usually a part of rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful. The option of a turnaround may even be ignored if it is obvious that divestment is the only answer.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "divestment",
+    "liquidation",
+    "strategic business unit"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q14",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Stability strategy → Ch 4",
+   "qno": "14",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Justify the statement \"Stability strategy is opposite of Expansion strategy\".",
+   "options": null,
+   "answer": "Stability Strategies, as name suggests, are intended to safeguard the existing interests and strengths of business. It involves organisations to pursue established and tested objectives, continue on the chosen path, maintain operational efficiency and so o n. A stability strategy is pursued when a firm continues to serve in the same or similar markets and deals in same products and services. In stability strategy, few functional changes are made in the products or markets, however, it is not a ‘do nothing’ s trategy. This strategy is typical for mature business organizations. Some small organizations also frequently use stability as a strategic focus to maintain comfortable market or profit position. On the other hand, expansion strategy is aggressive strategy as it involves redefining the business by adding the scope of business substantially, increasing efforts of the current business. In this sense, it becomes opposite to stability strategy. Expansion is a promising and popular strategy that tends to be equated with dynamism, vigor, promise and success. Expansion also includes diversifying, acquiring and merging businesses. This strategy may take the enterprise along relatively unknown and risky paths, full of promises and pitfalls.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "stability strategy",
+    "objectives",
+    "expansion strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q15",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter's five forces / industry environment analysis → Ch 2",
+   "qno": "15",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Competitive pressures operate as a composite in five areas of the overall market. Elaborate.",
+   "options": null,
+   "answer": "Competition makes organizations work harder, however, it is neither a coincidence nor bad luck. All organizations have competition and its benefit are enjoyed by the markets. The customers are able to get better products at lower costs. They get better value for their money because of competition. A powerful and widely used tool for systematically diagnosing the significant competitive pressures in a market and assessing the strength and importance of each is the Porter’s five-forces model of competition. This model holds that the state of competition in an industry is a composite of competitive pressures operating in five areas of the overall market as follows:\n(i) Rivalry among current players: Competitive pressures associated with the market manoeuvring and jockeying for buyer patronage that goes on among rival sellers in the industry.\n(ii) Threat of new entrants: Competitive pressures associated with the threat of new entrants into the market.\n(iii) Threats from substitutes: Competitive pressures coming from the attempts of companies in other industries to win buyers over to their own substitute products.\n(iv) Bargaining power of suppliers: Competitive pressures stemming from supplier bargaining power and supplier-seller collaboration.\n(v) Bargaining power of customers: Competitive pressures stemming from buyer bargaining power and seller-buyer collaboration.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "five forces",
+    "importance of sm"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q16",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter's generic strategies → Ch 3 (Competitive Advantage)",
+   "qno": "16",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Write a short note on the concept of cost leadership strategy and how to achieve it?",
+   "options": null,
+   "answer": "Cost leadership strategy requires vigorous pursuit of cost reduction in the areas of procurement, production, storage and distribution of product or service and als o economies in overhead costs. Accordingly, the cost leader is able to charge a lower price for its products than its competitors and still make satisfactory profits. The low cost leadership should be such that no competitors are able to imitate so that it can result in sustainable competitive advantage to the cost leader firm.\nTo achieve cost leadership, following are the actions that could be taken:\n1. Forecast the demand of a product or service promptly.\n2. Optimum utilization of the resources to get cost advantages.\n3. Achieving economies of scale leads to lower per unit cost of product/service.\n4. Standardisation of products for mass production to yield lower cost per unit.\n5. Invest in cost saving technologies and try using advance technology for smart working.\n6. Resistance to differentiation till it becomes essential.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "cost leadership"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q17",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Formulation of functional strategies (old Ch 6) — the standalone functional-strategy treatment has no counterpart in the 2023 scheme",
+   "qno": "17",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "ABC Ltd is a company that has grown eleven times its size in last five years. With the increase in size, the company is facing difficulty in managing things. Many a times functional level is not in sync with the corporate level. What will you like to advise to the company and why?",
+   "options": null,
+   "answer": "The higher-level corporate strategies need to be segregated into viable plans and policies that are compatible with each other and communicated down the line. The higher-level strategies need to be broken into functional strategies for implementation. These functional strategies, in form of marketing, finance, human resource, production, research and development help in achieving the organisational objective. The reasons why functional strategies are needed can be enumerated as follows:\n• Functional strategies lay down clearly what is to be done at the functional level. They provide a sense of direction to the functional staff.\n• They are aimed at facilitating the implementation of corporate strategies and the business strategies formulation at the business level.\n• They act as basis for controlling activities in the different functional areas of business.\n• They help in bringing harmony and coordination as they are formulated to achieve major strategies.\n• Similar situations occurring in different functional areas are handled in a consistent manner by the functional managers.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "functional strategy",
+    "objectives",
+    "hr strategy",
+    "r&d strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q18",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing Mix / promotion (old Ch 6.2.2) — dropped with the functional-strategy chapter",
+   "qno": "18",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Write short note on Publicity and Sales Promotion.",
+   "options": null,
+   "answer": "Publicity and Sales promotion are adopted by organizations when they are undertaking promotion in the overall marketing mix.\nPublicity is a non-personal form of promotion similar to advertising. However, no payments are made to the media as in case of advertising. Organizations skillfully seek to promote themselves and their product without payment. Publicity is communication of a product, brand or business by placing information about it in the media without paying for the time or media space directly.\nThus, it is way of reaching customers with negligible cost. Basic tools for publicity are press releases, press conferences, reports, stories, and internet releases. These releases must be of interest to the public.\nSales promotion is an omnibus term that includes all activities that are undertaken to promote the business but are not specifically included under personal selling, advertising or publicity. Activities like discounts, contests, money refunds, installments, kiosks, exhibitions and fairs constitute sales promotion. All these are meant to give a boost to the sales. Sales promotion done periodically may help in getting a larger market share to an organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "marketing mix",
+    "promotion mix"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q19",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "19",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Suraj Prakash and Chander Prakash are two brothers engaged in the business of spices. Both have different approaches to management. Suraj Prakash prefers the conventional and formal approach in which authority is used for explicit rewards and punishment. While, on the other hand, Chander Prakash believes in democratic participative management approach, involving employees to give their best.\nAnalyse the leadership style followed by Suraj Prakash and Chander Prakash.",
+   "options": null,
+   "answer": "Suraj Prakesh is a follower of transactional leadership style that focuses on designing systems and controlling the organization’s activities. Such a leader believes in using authority of its office to exchange rewards, such as pay and status. They prefer a more formalized approach to motivation, setting clear goals with explicit rewards or penalties for achievement or non-achievement. Transactional leaders try to build on the existing culture and enhance current practices. The style is better suited in persuading people to work efficiently and run operations smoothly.\nOn the other hand, Chander Prakash is a follower of transformational leadership style. The style uses charisma and enthusiasm to inspire people to exert them for the good of the organization. Transformational leaders offer excitement, vision, intellec tual stimulation and personal satisfaction. They inspire involvement in a mission, giving followers a ‘dream’ or ‘vision’ of a higher calling so as to elicit more dramatic changes in organizational performance. Such a leadership motivates followers to do m ore than originally affected to do by stretching their abilities and increasing their self-confidence, and also promote innovation throughout the organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic leadership",
+    "culture"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q20",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisational culture → Ch 5 (Culture (soft))",
+   "qno": "20",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "How can management communicate that it is committed to creating a new culture assuming that the old culture was problematic and not aligned with the company strategy?",
+   "options": null,
+   "answer": "Corporate culture refers to company’s values, beliefs, business principles, traditions, ways of operating and internal work environment. Changing problem cultures is very difficult because of deeply held values and habits. It takes concerted management action over a period of time to replace an unhealthy culture with a healthy culture or to roo t out certain unwanted cultural obstacles and instil ones that are more strategy-supportive.\n• The first step is to diagnose which facets of the present culture are strategy supportive and which are not.\n• Then, managers have to talk openly and forthrightly to all concerned about those aspects of the culture that have to be changed.\n• The talk has to be followed swiftly by visible, aggressive actions to modify the culture-actions that everyone will understand are intended to establish a new culture more in tune with the strategy.\nManagement through communication has to create a shared vision to manage changes. The menu of culture-changing actions includes revising policies and procedures, altering incentive compensation, shifting budgetary allocations for substantial resources to new strategy projects, recruiting and hiring new managers and employees, replacing key executives, communication on need and benefit to employees and so on.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "culture"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q21",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic control types → Ch 5 (Strategic Control)",
+   "qno": "21",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Why is Strategic Control important for organizations? Discuss briefly 4 types of strategic control that can be implemented to achieve the enterprise goals.",
+   "options": null,
+   "answer": "Importance of strategic control: Strategic control is an important process that keeps organisation on its desired path. It involves evaluating strategy as it is formulated and implemented. It is directed towards identifying problems and changes in premises and making necessary adjustments. Strategic control focuses on the dual questions of whether: (1) the strategy is being implemented as planned; and (2) the results produced by the strategy are those intended.\nThere are four types of strategic control:\n• Premise control: A strategy is formed on the basis of certain assumptions or premises about the environment. Premise control is a tool for systematic and continuous monitoring of the environment to verify the validity and accuracy of the premises on which the strategy has been built.\n• Strategic surveillance: Strategic surveillance is unfocussed. It involves general monitoring of various sources of information to uncover unanticipated information having a bearing on the organizational strategy.\n• Special alert control: At times, unexpected events may force organizations to reconsider their strategy. Sudden changes in government, natural calamities, unexpected merger/acquisition by competitors, industrial disasters and other such events may trigger an immediate and intense review of strategy.\n• Implementation control: Managers implement strategy by converting major plans into concrete, sequential actions that form incremental steps. Implementation control is directed towards assessing the need for changes in the overall strategy in light of unfolding events and results.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic control",
+    "premise control"
+   ]
+  },
+  {
+   "id": "rtp-old-july2021-q22",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Benchmarking (old Ch 8.8) — dropped from the 2023 syllabus",
+   "qno": "22",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Do you agree with the statement that 'Benchmarking is a process of continuous improvement in search of competitive advantage'? Discuss.",
+   "options": null,
+   "answer": "Yes, benchmarking is a process of continuous improvement in search for competitive advantage. It measures factors related to products, services and practices against those of its competitors or other acknowledged leaders in their field.\nBenchmarking is an approach of setting goals and measuring productivity based on best industry practices. It developed out of need to have information against which performances can be measured. It helps in improving performance by learning from best practices and the processes by which they are achieved.\nBenchmarking involves regularly comparing different aspects of performance with the best practices, identifying gaps and finding out novel methods to not only reduce the gaps but to improve the situations so that the gaps are positive for the organization. Better processes are not merely copied. Efforts are made to learn, improve and evolve them to suit the organizational circumstances. Further, benchmarking exercises are also repeated periodically so that the organization does not lag behind in the dynamic environment. Firms can use benchmarking process to achieve improvement in diverse range of management function like maintenance operations, assessment of total manufacturing costs, product development, product distribution, customer services, plant utilisation levels and human resource management.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "benchmarking"
+   ]
+  }
+ ]
+}

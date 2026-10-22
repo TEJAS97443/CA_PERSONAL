@@ -1,0 +1,2810 @@
+{
+ "contents": {
+  "1": [
+   {
+    "num": null,
+    "title": "ACCOUNTING",
+    "printed": "1.1"
+   },
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "1.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "1.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "1.2"
+   },
+   {
+    "num": "1.1",
+    "title": "Meaning and Definition",
+    "printed": "1.2"
+   },
+   {
+    "num": "2",
+    "title": "Objectives of Cost Accounting",
+    "printed": "1.4"
+   },
+   {
+    "num": "2.1",
+    "title": "Difference between Cost Control and Cost Reduction",
+    "printed": "1.6"
+   },
+   {
+    "num": "3",
+    "title": "Scope of Cost Accounting",
+    "printed": "1.7"
+   },
+   {
+    "num": "4",
+    "title": "Relationship of Cost and Management Accounting with other related disciplines",
+    "printed": "1.8"
+   },
+   {
+    "num": "4.1",
+    "title": "Cost Accounting with Management Accounting",
+    "printed": "1.8"
+   },
+   {
+    "num": "4.2",
+    "title": "Cost Accounting with Financial Accounting",
+    "printed": "1.9"
+   },
+   {
+    "num": "4.3",
+    "title": "Cost and Management Accounting with Financial Management",
+    "printed": "1.10"
+   },
+   {
+    "num": "5",
+    "title": "Role & Functions of Cost and Management Accounting",
+    "printed": "1.11"
+   },
+   {
+    "num": "6",
+    "title": "Users of Cost and Management Accounting",
+    "printed": "1.12"
+   },
+   {
+    "num": "7",
+    "title": "Essentials of a Good Cost Accounting System",
+    "printed": "1.14"
+   },
+   {
+    "num": "8",
+    "title": "Installation of Costing System",
+    "printed": "1.15"
+   },
+   {
+    "num": "9",
+    "title": "Cost Accounting with the use of Information Technology (IT)",
+    "printed": "1.17"
+   },
+   {
+    "num": "9.1",
+    "title": "Digital Costing System",
+    "printed": "1.18"
+   },
+   {
+    "num": "10",
+    "title": "Cost Objects",
+    "printed": "1.19"
+   },
+   {
+    "num": "10.1",
+    "title": "Cost Units",
+    "printed": "1.20"
+   },
+   {
+    "num": "10.2",
+    "title": "Cost Driver",
+    "printed": "1.21"
+   },
+   {
+    "num": "11",
+    "title": "Responsibility Centres",
+    "printed": "1.22"
+   },
+   {
+    "num": null,
+    "title": "xvii v 12. Limitations of Cost Accounting",
+    "printed": "1.23"
+   },
+   {
+    "num": "13",
+    "title": "Classification of Costs",
+    "printed": "1.24"
+   },
+   {
+    "num": "13.1",
+    "title": "By Nature or Element",
+    "printed": "1.24"
+   },
+   {
+    "num": "13.2",
+    "title": "By Functions",
+    "printed": "1.26"
+   },
+   {
+    "num": "13.3",
+    "title": "By Variability or Behaviour",
+    "printed": "1.27"
+   },
+   {
+    "num": "13.3.1",
+    "title": "Methods of segregating Semi-variable Costs into Fixed and Variable Costs",
+    "printed": "1.29"
+   },
+   {
+    "num": "13.4",
+    "title": "By Controllability",
+    "printed": "1.33"
+   },
+   {
+    "num": "13.5",
+    "title": "By Normality",
+    "printed": "1.33"
+   },
+   {
+    "num": "13.6",
+    "title": "By Costs used in Managerial Decision Making",
+    "printed": "1.34"
+   },
+   {
+    "num": "14",
+    "title": "Methods of Costing",
+    "printed": "1.36"
+   },
+   {
+    "num": "15",
+    "title": "Techniques of Costing",
+    "printed": "1.38"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "1.40"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "1.43"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "1.43"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "1.45"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "1.46"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "1.46"
+   }
+  ],
+  "2": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "2.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "2.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "2.2"
+   },
+   {
+    "num": "2",
+    "title": "Material Control",
+    "printed": "2.3"
+   },
+   {
+    "num": "2.1",
+    "title": "Objectives of System of Material Control",
+    "printed": "2.4"
+   },
+   {
+    "num": "2.2",
+    "title": "Requirements of Material Control",
+    "printed": "2.4"
+   },
+   {
+    "num": "2.3",
+    "title": "Elements of Material Control",
+    "printed": "2.5"
+   },
+   {
+    "num": "3",
+    "title": "Materials Procurement Procedure",
+    "printed": "2.6"
+   },
+   {
+    "num": "3.1",
+    "title": "Bill of Materials",
+    "printed": "2.7"
+   },
+   {
+    "num": "3.2",
+    "title": "Material Requisition xviiiNote",
+    "printed": "2.7"
+   },
+   {
+    "num": null,
+    "title": "Difference between Bill of Materials and Material Requisition Note",
+    "printed": "2.8"
+   },
+   {
+    "num": "3.3",
+    "title": "Purchase Requisition",
+    "printed": "2.8"
+   },
+   {
+    "num": "3.4",
+    "title": "Inviting Quotation/Request for Proposal (RFP)/ Notification Inviting Tender (NIT)",
+    "printed": "2.9"
+   },
+   {
+    "num": "3.5",
+    "title": "Selection of Quotation / Proposal",
+    "printed": "2.11"
+   },
+   {
+    "num": "3.6",
+    "title": "Preparation and Execution of Purchase Orders",
+    "printed": "2.11"
+   },
+   {
+    "num": "3.7",
+    "title": "Receipt and Inspection of Materials",
+    "printed": "2.12"
+   },
+   {
+    "num": "3.7.1",
+    "title": "Goods Received Note",
+    "printed": "2.12"
+   },
+   {
+    "num": "3.7.2",
+    "title": "Material Returned Note",
+    "printed": "2.12"
+   },
+   {
+    "num": "3.8",
+    "title": "Checking and Passing of Bills for Payment",
+    "printed": "2.13"
+   },
+   {
+    "num": "4",
+    "title": "Valuation of Material Receipts",
+    "printed": "2.13"
+   },
+   {
+    "num": "5",
+    "title": "Material Storage & Records",
+    "printed": "2.18"
+   },
+   {
+    "num": "5.1",
+    "title": "Duties of Store Keeper",
+    "printed": "2.18"
+   },
+   {
+    "num": "5.2",
+    "title": "Store Records",
+    "printed": "2.19"
+   },
+   {
+    "num": "5.3",
+    "title": "Difference between Bin Card & Stores Ledger",
+    "printed": "2.21"
+   },
+   {
+    "num": "6",
+    "title": "Inventory Control",
+    "printed": "2.21"
+   },
+   {
+    "num": "6.1",
+    "title": "Inventory Control- By Setting Quantitative Levels",
+    "printed": "2.22"
+   },
+   {
+    "num": "6.2",
+    "title": "Inventory Stock-Out",
+    "printed": "2.31"
+   },
+   {
+    "num": "6.3",
+    "title": "Just In Time (JIT) Inventory Management",
+    "printed": "2.35"
+   },
+   {
+    "num": "6.4",
+    "title": "Inventory Control- On the basis of Relative Classification",
+    "printed": "2.35"
+   },
+   {
+    "num": "1",
+    "title": "ABC Analysis",
+    "printed": "2.35"
+   },
+   {
+    "num": "2",
+    "title": "Fast Moving, Slow Moving and Non- Moving (FSN) Inventory",
+    "printed": "2.40"
+   },
+   {
+    "num": "3",
+    "title": "Vital, Essential and Desirable (VED)",
+    "printed": "2.41"
+   },
+   {
+    "num": null,
+    "title": "xix v 4. High Cost, Medium Cost, Low Cost (HML) Inventory",
+    "printed": "2.42"
+   },
+   {
+    "num": "6.5",
+    "title": "Using Ratio Analysis",
+    "printed": "2.42"
+   },
+   {
+    "num": "6.6",
+    "title": "Physical Control",
+    "printed": "2.45"
+   },
+   {
+    "num": "7",
+    "title": "Material Issue Procedure",
+    "printed": "2.47"
+   },
+   {
+    "num": "8",
+    "title": "Valuation of Material Issues",
+    "printed": "2.49"
+   },
+   {
+    "num": "8.1",
+    "title": "Cost Price Methods",
+    "printed": "2.50"
+   },
+   {
+    "num": "1",
+    "title": "Specific Price Method",
+    "printed": "2.50"
+   },
+   {
+    "num": "2",
+    "title": "First-in First-out (FIFO) Method",
+    "printed": "2.50"
+   },
+   {
+    "num": "3",
+    "title": "Last-in First-out (LIFO) Method",
+    "printed": "2.52"
+   },
+   {
+    "num": "4",
+    "title": "Base Stock Method",
+    "printed": "2.59"
+   },
+   {
+    "num": "8.2",
+    "title": "Average Price Methods",
+    "printed": "2.59"
+   },
+   {
+    "num": "1",
+    "title": "Simple Average Price Method",
+    "printed": "2.59"
+   },
+   {
+    "num": "2",
+    "title": "Weighted Average Price Method",
+    "printed": "2.60"
+   },
+   {
+    "num": "8.3",
+    "title": "Market Price Methods",
+    "printed": "2.61"
+   },
+   {
+    "num": "1",
+    "title": "Replacement Price Method",
+    "printed": "2.61"
+   },
+   {
+    "num": "2",
+    "title": "Inflataed Price Method",
+    "printed": "2.61"
+   },
+   {
+    "num": "8.4",
+    "title": "Notional Price Methods",
+    "printed": "2.62"
+   },
+   {
+    "num": "1",
+    "title": "Standard Price Method",
+    "printed": "2.62"
+   },
+   {
+    "num": "2",
+    "title": "Inflated Price Method",
+    "printed": "2.62"
+   },
+   {
+    "num": "3",
+    "title": "Re-use Price Method",
+    "printed": "2.62"
+   },
+   {
+    "num": "9",
+    "title": "Valuation of Returns & Shortages",
+    "printed": "2.63"
+   },
+   {
+    "num": "9.1",
+    "title": "Valuation of Materials Returned to the Vendor",
+    "printed": "2.63"
+   },
+   {
+    "num": "9.2",
+    "title": "Valuation of Materials Returned to Stores",
+    "printed": "2.63"
+   },
+   {
+    "num": "9.3",
+    "title": "Valuation of Shortages during Physical Verification",
+    "printed": "2.63"
+   },
+   {
+    "num": "10",
+    "title": "Treatment of Normal and Abnormal Loss of Materials",
+    "printed": "2.64"
+   },
+   {
+    "num": null,
+    "title": "Difference between Waste and Scrap",
+    "printed": "2.66"
+   },
+   {
+    "num": null,
+    "title": "Difference between Scrap and Defectives",
+    "printed": "2.67"
+   },
+   {
+    "num": "11",
+    "title": "Consumption of Materials",
+    "printed": "2.70"
+   },
+   {
+    "num": "11.1",
+    "title": "Identification of Materials",
+    "printed": "2.70"
+   },
+   {
+    "num": "11.2",
+    "title": "Monitoring Consumption of Materials",
+    "printed": "2.71"
+   },
+   {
+    "num": "11.3",
+    "title": "Basis for Consumption Entries in Financial Accounts",
+    "printed": "2.72"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "2.73"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "2.76"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "2.76"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "2.78"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "2.79"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "2.83"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "2.85"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "2.85"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "2.85"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "2.97"
+   }
+  ],
+  "3": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "3.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "3.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "3.2"
+   },
+   {
+    "num": "2",
+    "title": "Employee (Labour Cost)",
+    "printed": "3.3"
+   },
+   {
+    "num": null,
+    "title": "Distinction between Direct and Indirect Employee Cost",
+    "printed": "3.3"
+   },
+   {
+    "num": "3",
+    "title": "Employee (Labour) Cost Control",
+    "printed": "3.4"
+   },
+   {
+    "num": "3.1",
+    "title": "Important Factors for the Control of Employee Cost",
+    "printed": "3.5"
+   },
+   {
+    "num": "3.2",
+    "title": "Collection of Employee Costs",
+    "printed": "3.6"
+   },
+   {
+    "num": "4",
+    "title": "Attendance & Payroll Procedures",
+    "printed": "3.6"
+   },
+   {
+    "num": "4.1",
+    "title": "Attendance Procedure / Time-keeping",
+    "printed": "3.6"
+   },
+   {
+    "num": "4.2",
+    "title": "Time-Booking",
+    "printed": "3.9"
+   },
+   {
+    "num": null,
+    "title": "xxi v 4.3 Payroll Procedure",
+    "printed": "3.11"
+   },
+   {
+    "num": "5",
+    "title": "Idle Time",
+    "printed": "3.13"
+   },
+   {
+    "num": "6",
+    "title": "Overtime",
+    "printed": "3.17"
+   },
+   {
+    "num": "7",
+    "title": "Labour Utilisation",
+    "printed": "3.26"
+   },
+   {
+    "num": "7.1",
+    "title": "Identification of Utilisation of labours with Cost Centres",
+    "printed": "3.26"
+   },
+   {
+    "num": "7.2",
+    "title": "Identification of labour hours with work order or batches or capital job",
+    "printed": "3.26"
+   },
+   {
+    "num": "8",
+    "title": "Systems of Wage Payment and Incentives",
+    "printed": "3.27"
+   },
+   {
+    "num": "8.1",
+    "title": "Time Based (Time Rate System)",
+    "printed": "3.27"
+   },
+   {
+    "num": "8.2",
+    "title": "Output Based (Piece Rate System)",
+    "printed": "3.28"
+   },
+   {
+    "num": "8.3",
+    "title": "Premium Bonus Method",
+    "printed": "3.28"
+   },
+   {
+    "num": "1",
+    "title": "Halsey Premium Plan",
+    "printed": "3.28"
+   },
+   {
+    "num": "2",
+    "title": "Rowan Premium Plan",
+    "printed": "3.29"
+   },
+   {
+    "num": "9",
+    "title": "Absorption of Wages",
+    "printed": "3.38"
+   },
+   {
+    "num": "9.1",
+    "title": "Elements of Wages",
+    "printed": "3.38"
+   },
+   {
+    "num": "9.2",
+    "title": "Component of Wages Cost or Wages for Costing Purposes",
+    "printed": "3.39"
+   },
+   {
+    "num": "9.3",
+    "title": "Holiday and Leave Wages",
+    "printed": "3.41"
+   },
+   {
+    "num": "9.4",
+    "title": "Night Shift Allowance",
+    "printed": "3.42"
+   },
+   {
+    "num": "9.5",
+    "title": "Absorption Rates of Employee Cost",
+    "printed": "3.42"
+   },
+   {
+    "num": "10",
+    "title": "Efficiency Rating Procedures",
+    "printed": "3.43"
+   },
+   {
+    "num": "10.1",
+    "title": "Need for Efficiency Rating",
+    "printed": "3.43"
+   },
+   {
+    "num": "11",
+    "title": "Employee (Labour) Turnover",
+    "printed": "3.45"
+   },
+   {
+    "num": "11.1",
+    "title": "Employee (Labour) Turnover",
+    "printed": "3.45"
+   },
+   {
+    "num": "11.2",
+    "title": "Causes of Employee (Labour) Turnover",
+    "printed": "3.48"
+   },
+   {
+    "num": "11.3",
+    "title": "Effects of Employee (Labour) Turnover",
+    "printed": "3.50"
+   },
+   {
+    "num": "12",
+    "title": "Direct Expenses",
+    "printed": "3.52"
+   },
+   {
+    "num": "12.1",
+    "title": "Direct Expenses",
+    "printed": "3.52"
+   },
+   {
+    "num": "12.2",
+    "title": "Measurement of Direct Expenses",
+    "printed": "3.53"
+   },
+   {
+    "num": "12.3",
+    "title": "Treatment of Direct Expenses",
+    "printed": "3.53"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "3.54"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "3.57"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "3.57"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "3.59"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "3.60"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "3.61"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "3.63"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "3.63"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "3.63"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "3.68"
+   }
+  ],
+  "4": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "4.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "4.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "4.2"
+   },
+   {
+    "num": "2",
+    "title": "Classification of Overheads",
+    "printed": "4.3"
+   },
+   {
+    "num": "2.1",
+    "title": "Advantages of Classification of Overheads into Fixed and Variable .. 4.6 3. Accounting and Control of Manufacturing Overheads",
+    "printed": "4.7"
+   },
+   {
+    "num": "4",
+    "title": "Steps for the Distribution of Overheads",
+    "printed": "4.11"
+   },
+   {
+    "num": "4.1",
+    "title": "Estimation and Collection of Overheads",
+    "printed": "4.11"
+   },
+   {
+    "num": "4.2",
+    "title": "Allocation of Overheads over Various Departments or Departmentalisation of Overheads",
+    "printed": "4.12"
+   },
+   {
+    "num": "4.3",
+    "title": "Apportioning Overhead Expenses Over Various Departments",
+    "printed": "4.13"
+   },
+   {
+    "num": null,
+    "title": "Difference between Allocation and Apportionment",
+    "printed": "4.16"
+   },
+   {
+    "num": "4.4",
+    "title": "Re-apportionment of Service Department Overheads over xxiii v Production Departments",
+    "printed": "4.16"
+   },
+   {
+    "num": "4.5",
+    "title": "Absorbing Overheads over Cost Units, Products, etc",
+    "printed": "4.27"
+   },
+   {
+    "num": "5",
+    "title": "Methods of Absorbing Overheads to various Products or Jobs",
+    "printed": "4.29"
+   },
+   {
+    "num": "5.1",
+    "title": "Percentage of Direct Material Cost",
+    "printed": "4.30"
+   },
+   {
+    "num": "5.2",
+    "title": "Percentage of Prime Cost Method",
+    "printed": "4.30"
+   },
+   {
+    "num": "5.3",
+    "title": "Percentage of Direct Labour Cost",
+    "printed": "4.32"
+   },
+   {
+    "num": "5.4",
+    "title": "Labour Hour Rate Method",
+    "printed": "4.32"
+   },
+   {
+    "num": "5.5",
+    "title": "Machine Hour Rate Method",
+    "printed": "4.33"
+   },
+   {
+    "num": "5.6",
+    "title": "Rate Per Unit of Output Method",
+    "printed": "4.35"
+   },
+   {
+    "num": "6",
+    "title": "Types of Overhead Rates",
+    "printed": "4.36"
+   },
+   {
+    "num": "7",
+    "title": "Treatment of Under-Absorbed and Over-Absorbed Overheads in Cost Accounting",
+    "printed": "4.41"
+   },
+   {
+    "num": "8",
+    "title": "Accounting and Control of Administrative Overheads",
+    "printed": "4.46"
+   },
+   {
+    "num": "8.1",
+    "title": "Accounting of Administrative Overheads",
+    "printed": "4.47"
+   },
+   {
+    "num": "8.2",
+    "title": "Control of Administrative Overheads",
+    "printed": "4.48"
+   },
+   {
+    "num": "9",
+    "title": "Accounting and Control of Selling and Distribution Overheads",
+    "printed": "4.53"
+   },
+   {
+    "num": "9.1",
+    "title": "Accounting of Selling and Distribution Overheads",
+    "printed": "4.53"
+   },
+   {
+    "num": "9.2",
+    "title": "Control of Selling and Distribution Overheads",
+    "printed": "4.55"
+   },
+   {
+    "num": "10",
+    "title": "Concepts related to Capacity",
+    "printed": "4.58"
+   },
+   {
+    "num": "11",
+    "title": "Treatment of Certain Items in Costing",
+    "printed": "4.59"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "4.63"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "4.64"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "4.64"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "4.66"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "4.67"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "4.78"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "4.80"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "4.80"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "4.80"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios xxiv",
+    "printed": "4.100"
+   }
+  ],
+  "5": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "5.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "5.1"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "5.2"
+   },
+   {
+    "num": "1.1",
+    "title": "Factors prompting the development of ABC",
+    "printed": "5.2"
+   },
+   {
+    "num": "1.2",
+    "title": "Usefulness/Suitability of ABC",
+    "printed": "5.3"
+   },
+   {
+    "num": "2",
+    "title": "Meaning and Definition",
+    "printed": "5.3"
+   },
+   {
+    "num": "3",
+    "title": "Meaning of terms used in ABC",
+    "printed": "5.4"
+   },
+   {
+    "num": "4",
+    "title": "Cost Allocation under ABC",
+    "printed": "5.5"
+   },
+   {
+    "num": "5",
+    "title": "Traditional Absorption Costing vs ABC",
+    "printed": "5.6"
+   },
+   {
+    "num": null,
+    "title": "Difference between Activity Based Costing and Traditional Absorption Costing",
+    "printed": "5.7"
+   },
+   {
+    "num": "6",
+    "title": "Level of Activities under ABC Methodology/ Cost Hierarchy",
+    "printed": "5.8"
+   },
+   {
+    "num": "7",
+    "title": "Stages in Activity Based Costing (ABC)",
+    "printed": "5.9"
+   },
+   {
+    "num": "8",
+    "title": "Advantages of Activity Based Costing",
+    "printed": "5.17"
+   },
+   {
+    "num": "9",
+    "title": "Limitations of Activity Based Costing",
+    "printed": "5.18"
+   },
+   {
+    "num": "10",
+    "title": "Requirements in ABC Implementation",
+    "printed": "5.18"
+   },
+   {
+    "num": "11",
+    "title": "Practical Applications of Activity Based Costing",
+    "printed": "5.19"
+   },
+   {
+    "num": "11.1",
+    "title": "As a Decision-Making Tool",
+    "printed": "5.19"
+   },
+   {
+    "num": "11.2",
+    "title": "As Activity Based Management",
+    "printed": "5.19"
+   },
+   {
+    "num": "11.3",
+    "title": "Facilitate Activity Based Budgeting",
+    "printed": "5.21"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "5.30"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "5.31"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "5.31"
+   },
+   {
+    "num": null,
+    "title": "xxv v Theoretical Questions",
+    "printed": "5.33"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "5.34"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "5.41"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "5.43"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "5.43"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "5.44"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "5.59"
+   }
+  ],
+  "6": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "6.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "6.1"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "6.1"
+   },
+   {
+    "num": "2",
+    "title": "Functional Classification of Elements of Cost",
+    "printed": "6.2"
+   },
+   {
+    "num": "3",
+    "title": "Cost Heads in a Cost Sheet",
+    "printed": "6.2"
+   },
+   {
+    "num": "3.1",
+    "title": "Prime Cost",
+    "printed": "6.3"
+   },
+   {
+    "num": "3.2",
+    "title": "Cost of Production",
+    "printed": "6.4"
+   },
+   {
+    "num": "3.3",
+    "title": "Cost of Goods Sold",
+    "printed": "6.6"
+   },
+   {
+    "num": "3.4",
+    "title": "Cost of Sales",
+    "printed": "6.6"
+   },
+   {
+    "num": "4",
+    "title": "Cost Sheet/Statement",
+    "printed": "6.8"
+   },
+   {
+    "num": "4.1",
+    "title": "Presentation of Cost Information",
+    "printed": "6.8"
+   },
+   {
+    "num": "4.2",
+    "title": "Treatment of various items of Cost in Cost Sheet/Statement",
+    "printed": "6.9"
+   },
+   {
+    "num": "4.3",
+    "title": "Advantages of Cost Sheet or Cost Statements",
+    "printed": "6.10"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "6.19"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "6.20"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "6.20"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "6.22"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "6.23"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "6.27"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "6.29"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "6.29"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems xxvi",
+    "printed": "6.30"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "6.36"
+   }
+  ],
+  "7": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "7.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "7.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "7.2"
+   },
+   {
+    "num": "2",
+    "title": "Non-Integrated Accounting System",
+    "printed": "7.2"
+   },
+   {
+    "num": "2.1",
+    "title": "Principal Accounts",
+    "printed": "7.3"
+   },
+   {
+    "num": "2.2",
+    "title": "Scheme of Accounting Entries",
+    "printed": "7.5"
+   },
+   {
+    "num": "3",
+    "title": "Integrated (or Integral) Accounting System",
+    "printed": "7.19"
+   },
+   {
+    "num": "3.1",
+    "title": "Advantages",
+    "printed": "7.20"
+   },
+   {
+    "num": "3.2",
+    "title": "Essential pre-requisites for Integrated Accounts",
+    "printed": "7.20"
+   },
+   {
+    "num": "3.3",
+    "title": "Features of Integrated Accounting System",
+    "printed": "7.21"
+   },
+   {
+    "num": "4",
+    "title": "Reconciliation of Cost and Financial Accounts",
+    "printed": "7.31"
+   },
+   {
+    "num": "4.1",
+    "title": "Causes of differences in Financial and Cost Accounts",
+    "printed": "7.31"
+   },
+   {
+    "num": "4.2",
+    "title": "Procedure forReconciliation",
+    "printed": "7.33"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "7.43"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "7.43"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "7.43"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "7.45"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "7.46"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "7.50"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "7.50"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "7.51"
+   }
+  ],
+  "8": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "8.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "8.1"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "8.2"
+   },
+   {
+    "num": "1.1",
+    "title": "For industry doing job work",
+    "printed": "8.2"
+   },
+   {
+    "num": "1.2",
+    "title": "For continuous or process type of industries",
+    "printed": "8.2"
+   },
+   {
+    "num": "2",
+    "title": "Unit Costing",
+    "printed": "8.3"
+   },
+   {
+    "num": "3",
+    "title": "Cost Collection Procedure in Unit Costing",
+    "printed": "8.3"
+   },
+   {
+    "num": "3.1",
+    "title": "Treatment of spoiled and defective work",
+    "printed": "8.4"
+   },
+   {
+    "num": "4",
+    "title": "Batch Costing",
+    "printed": "8.8"
+   },
+   {
+    "num": "5",
+    "title": "Costing Procedure in Batch Costing",
+    "printed": "8.8"
+   },
+   {
+    "num": "6",
+    "title": "Economic Batch Quantity (EBQ)",
+    "printed": "8.11"
+   },
+   {
+    "num": "7",
+    "title": "Difference between Job and Batch Costing",
+    "printed": "8.15"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "8.15"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "8.16"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "8.16"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "8.18"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "8.18"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "8.20"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "8.22"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "8.22"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "8.23"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "8.27"
+   }
+  ],
+  "9": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "9.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "9.1"
+   },
+   {
+    "num": "1",
+    "title": "Job Costing",
+    "printed": "9.2"
+   },
+   {
+    "num": "1.1",
+    "title": "Meaning of Job Costing",
+    "printed": "9.2"
+   },
+   {
+    "num": "1.2",
+    "title": "Principles of Job Costing",
+    "printed": "9.2"
+   },
+   {
+    "num": "1.3",
+    "title": "Process of Job Costing",
+    "printed": "9.2"
+   },
+   {
+    "num": "1.4",
+    "title": "Suitability of Job Costing",
+    "printed": "9.3"
+   },
+   {
+    "num": "2",
+    "title": "Job Cost Card/ Sheet",
+    "printed": "9.3"
+   },
+   {
+    "num": "3",
+    "title": "Collection of costs for a Job",
+    "printed": "9.4"
+   },
+   {
+    "num": "3.1",
+    "title": "Collection of Materials Cost",
+    "printed": "9.4"
+   },
+   {
+    "num": "3.2",
+    "title": "Collection of Labour Cost",
+    "printed": "9.5"
+   },
+   {
+    "num": "3.3",
+    "title": "Collection of Overheads",
+    "printed": "9.6"
+   },
+   {
+    "num": "3.4",
+    "title": "Treatment of spoiled and defective work",
+    "printed": "9.6"
+   },
+   {
+    "num": "4",
+    "title": "Accounting of Costs for a Job",
+    "printed": "9.8"
+   },
+   {
+    "num": "4.1",
+    "title": "Entries in Control Accounts",
+    "printed": "9.8"
+   },
+   {
+    "num": "4.2",
+    "title": "Advantages and Disadvantages of Job Costing",
+    "printed": "9.13"
+   },
+   {
+    "num": "4.3",
+    "title": "Difference between Job Costing and Process Costing",
+    "printed": "9.13"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "9.14"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "9.14"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "9.14"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "9.16"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "9.16"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "9.20"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "9.20"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "9.20"
+   }
+  ],
+  "10": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "10.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "10.2"
+   },
+   {
+    "num": "1",
+    "title": "Meaning of Process Costing",
+    "printed": "10.2"
+   },
+   {
+    "num": "1.1",
+    "title": "Basic Features",
+    "printed": "10.2"
+   },
+   {
+    "num": "2",
+    "title": "Costing Procedure in Process Costing",
+    "printed": "10.3"
+   },
+   {
+    "num": "3",
+    "title": "Treatment of Normal , Abnormal Loss and Abnormal Gain",
+    "printed": "10.5"
+   },
+   {
+    "num": "3.1",
+    "title": "Normal and Abnormal loss",
+    "printed": "10.5"
+   },
+   {
+    "num": "3.2",
+    "title": "Abnormal Process Gain/ Yield",
+    "printed": "10.9"
+   },
+   {
+    "num": "4",
+    "title": "Valuation of Work in-Process",
+    "printed": "10.15"
+   },
+   {
+    "num": "4.1",
+    "title": "Equivalent Units",
+    "printed": "10.16"
+   },
+   {
+    "num": "5",
+    "title": "Steps in Process Costing",
+    "printed": "10.18"
+   },
+   {
+    "num": "6",
+    "title": "Process Costing Methods",
+    "printed": "10.19"
+   },
+   {
+    "num": "7",
+    "title": "Inter-Process Profits",
+    "printed": "10.23"
+   },
+   {
+    "num": "8",
+    "title": "Operation Costing",
+    "printed": "10.26"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "10.27"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "10.28"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "10.28"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "10.31"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "10.32"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "10.37"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "10.39"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "10.39"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "10.39"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "10.49"
+   }
+  ],
+  "11": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "11.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "11.1"
+   },
+   {
+    "num": "1",
+    "title": "Meaning of Joint Products and By Products",
+    "printed": "11.2"
+   },
+   {
+    "num": "2",
+    "title": "Apportionment of Joint Costs",
+    "printed": "11.4"
+   },
+   {
+    "num": "3",
+    "title": "Methods of Apportionment of Joint Cost to Joint Products",
+    "printed": "11.4"
+   },
+   {
+    "num": "4",
+    "title": "Methods of Apportionment of Joint Costs to By Products",
+    "printed": "11.15"
+   },
+   {
+    "num": "5",
+    "title": "Treatment of By Products Cost in Cost Accounting",
+    "printed": "11.17"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "11.18"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "11.20"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "11.20"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "11.23"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "11.23"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "11.27"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "11.29"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "11.30"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "11.30"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "11.37"
+   }
+  ],
+  "12": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "12.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "12.1"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "12.2"
+   },
+   {
+    "num": "1.1",
+    "title": "Application of Service Costing",
+    "printed": "12.2"
+   },
+   {
+    "num": "1.2",
+    "title": "Service Costing vs. Product Costing",
+    "printed": "12.3"
+   },
+   {
+    "num": "2",
+    "title": "Service Cost Unit and KPI",
+    "printed": "12.3"
+   },
+   {
+    "num": null,
+    "title": "a 2.1 Methods for ascertaining Service Cost Unit",
+    "printed": "12.7"
+   },
+   {
+    "num": "3",
+    "title": "Statement of Costs for Service Sectors",
+    "printed": "12.10"
+   },
+   {
+    "num": "4",
+    "title": "Applications of Costing Methods in Service Costing",
+    "printed": "12.11"
+   },
+   {
+    "num": "5",
+    "title": "Costing of Transport Services",
+    "printed": "12.11"
+   },
+   {
+    "num": "6",
+    "title": "Costing of Hotels and Lodges",
+    "printed": "12.22"
+   },
+   {
+    "num": "7",
+    "title": "Costing of Hospitals",
+    "printed": "12.28"
+   },
+   {
+    "num": "7.1",
+    "title": "Unit of Cost",
+    "printed": "12.28"
+   },
+   {
+    "num": "7.2",
+    "title": "Cost Segregation",
+    "printed": "12.29"
+   },
+   {
+    "num": "8",
+    "title": "Costing of IT & ITES",
+    "printed": "12.30"
+   },
+   {
+    "num": "8.1",
+    "title": "Concept of Project",
+    "printed": "12.32"
+   },
+   {
+    "num": "8.2",
+    "title": "Effort Involved",
+    "printed": "12.32"
+   },
+   {
+    "num": "8.3",
+    "title": "Parameters in Computation of Total Cost",
+    "printed": "12.34"
+   },
+   {
+    "num": "9",
+    "title": "Costing of Toll Roads",
+    "printed": "12.36"
+   },
+   {
+    "num": "9.1",
+    "title": "Cost Involved",
+    "printed": "12.37"
+   },
+   {
+    "num": "9.1.1",
+    "title": "Capital Costs",
+    "printed": "12.37"
+   },
+   {
+    "num": "9.1.2",
+    "title": "Operating and Maintenance Costs",
+    "printed": "12.37"
+   },
+   {
+    "num": "9.2",
+    "title": "Build-Operate-Transfer (BOT) Approach",
+    "printed": "12.38"
+   },
+   {
+    "num": "9.3",
+    "title": "Toll Rate",
+    "printed": "12.38"
+   },
+   {
+    "num": "10",
+    "title": "Costing of Educational Institutions",
+    "printed": "12.41"
+   },
+   {
+    "num": "10.1",
+    "title": "Income of the Educational Institutions",
+    "printed": "12.41"
+   },
+   {
+    "num": "10.2",
+    "title": "Expenditure of the Educational Institutions",
+    "printed": "12.41"
+   },
+   {
+    "num": "11",
+    "title": "Costing in Insurance Companies",
+    "printed": "12.47"
+   },
+   {
+    "num": "11.1",
+    "title": "Income of Insurance Companies",
+    "printed": "12.48"
+   },
+   {
+    "num": "11.2",
+    "title": "Expenditure of Insurance Companies",
+    "printed": "12.48"
+   },
+   {
+    "num": "11.3",
+    "title": "Method of Costing in an Insurance Company",
+    "printed": "12.48"
+   },
+   {
+    "num": "12",
+    "title": "Costing in Financial Institutions",
+    "printed": "12.51"
+   },
+   {
+    "num": null,
+    "title": "a ix a 12.1 Cost Measurement in Financial Institutions",
+    "printed": "12.51"
+   },
+   {
+    "num": "12.2",
+    "title": "Activity Based Costing in Financial Institutions",
+    "printed": "12.52"
+   },
+   {
+    "num": "13",
+    "title": "Other Services-Costing for Power Houses",
+    "printed": "12.53"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "12.57"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "12.57"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "12.57"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "12.59"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "12.59"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "12.63"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "12.65"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "12.65"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "12.66"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "12.71"
+   }
+  ],
+  "13": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "13.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "13.1"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "13.2"
+   },
+   {
+    "num": "1.1",
+    "title": "What is a Standard or Standard Cost?",
+    "printed": "13.2"
+   },
+   {
+    "num": "1.2",
+    "title": "Why Standard Costing is Needed?",
+    "printed": "13.2"
+   },
+   {
+    "num": "2",
+    "title": "Types of Standards",
+    "printed": "13.3"
+   },
+   {
+    "num": "3",
+    "title": "The Process of Standard Costing",
+    "printed": "13.5"
+   },
+   {
+    "num": "4",
+    "title": "Setting-up of Standard Cost",
+    "printed": "13.5"
+   },
+   {
+    "num": "4.1",
+    "title": "Physical Standards",
+    "printed": "13.6"
+   },
+   {
+    "num": "4.1.1",
+    "title": "Problems faced while setting physical standards",
+    "printed": "13.8"
+   },
+   {
+    "num": "4.2",
+    "title": "Price or Rate Standards",
+    "printed": "13.9"
+   },
+   {
+    "num": "5",
+    "title": "Types of Variances",
+    "printed": "13.11"
+   },
+   {
+    "num": null,
+    "title": "a 6. Classification of Variances",
+    "printed": "13.12"
+   },
+   {
+    "num": "7",
+    "title": "Computation of Variances",
+    "printed": "13.13"
+   },
+   {
+    "num": "7.1",
+    "title": "Material Cost Variance",
+    "printed": "13.14"
+   },
+   {
+    "num": "7.2",
+    "title": "Labour Cost Variance",
+    "printed": "13.24"
+   },
+   {
+    "num": "7.3",
+    "title": "Variable Overhead Cost Variance",
+    "printed": "13.36"
+   },
+   {
+    "num": "7.4",
+    "title": "Fixed Overhead Cost Variance",
+    "printed": "13.38"
+   },
+   {
+    "num": "8",
+    "title": "Advantages and Criticism of Standard Costing",
+    "printed": "13.49"
+   },
+   {
+    "num": "8.1",
+    "title": "Advantages of Standard Costing",
+    "printed": "13.49"
+   },
+   {
+    "num": "8.2",
+    "title": "Criticism of Standard Costing",
+    "printed": "13.51"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "13.52"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "13.54"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "13.54"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "13.57"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "13.57"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "13.65"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "13.67"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "13.67"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "13.67"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "13.85"
+   }
+  ],
+  "14": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "14.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "14.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "14.2"
+   },
+   {
+    "num": "2",
+    "title": "Characteristics of Marginal Costing",
+    "printed": "14.5"
+   },
+   {
+    "num": "3",
+    "title": "Facts about Marginal Costing",
+    "printed": "14.6"
+   },
+   {
+    "num": "4",
+    "title": "Determination of Cost and Profit under Marginal Costing",
+    "printed": "14.7"
+   },
+   {
+    "num": null,
+    "title": "a xi a 5. Absorption Costing",
+    "printed": "14.9"
+   },
+   {
+    "num": "6",
+    "title": "Advantages and Limitations of Marginal Costing",
+    "printed": "14.9"
+   },
+   {
+    "num": "7",
+    "title": "Cost-Volume-Profit (CVP) Analysis",
+    "printed": "14.11"
+   },
+   {
+    "num": "7.1",
+    "title": "Marginal Cost Equation",
+    "printed": "14.13"
+   },
+   {
+    "num": "7.2",
+    "title": "Profit Volume Ratio or P/V ratio",
+    "printed": "14.13"
+   },
+   {
+    "num": "7.3",
+    "title": "Break-Even Analysis",
+    "printed": "14.14"
+   },
+   {
+    "num": "8",
+    "title": "Methods of Break-Even Analysis",
+    "printed": "14.14"
+   },
+   {
+    "num": "8.1",
+    "title": "Break-even Point",
+    "printed": "14.14"
+   },
+   {
+    "num": "8.2",
+    "title": "Cash Break-even Point",
+    "printed": "14.15"
+   },
+   {
+    "num": "8.3",
+    "title": "Multi-Product Break-even Analysis",
+    "printed": "14.16"
+   },
+   {
+    "num": "8.4",
+    "title": "Break-even Chart",
+    "printed": "14.20"
+   },
+   {
+    "num": "8.5",
+    "title": "Contribution Breakeven Chart",
+    "printed": "14.20"
+   },
+   {
+    "num": "8.6",
+    "title": "Profit-Volume Chart",
+    "printed": "14.21"
+   },
+   {
+    "num": "9",
+    "title": "Limitations of Break-Even Analysis",
+    "printed": "14.25"
+   },
+   {
+    "num": "10",
+    "title": "Margin of Safety",
+    "printed": "14.26"
+   },
+   {
+    "num": "11",
+    "title": "Variations of Basic Marginal Cost Equation and Other Formulae",
+    "printed": "14.28"
+   },
+   {
+    "num": "12",
+    "title": "Angle of Incidence",
+    "printed": "14.31"
+   },
+   {
+    "num": "13",
+    "title": "Application of CVP Analysis in Decision Making",
+    "printed": "14.32"
+   },
+   {
+    "num": "13.1",
+    "title": "Framework for Decision Making",
+    "printed": "14.32"
+   },
+   {
+    "num": "13.2",
+    "title": "Principles for Identification of Cost and Benefits for Measurement",
+    "printed": "14.33"
+   },
+   {
+    "num": "13.3",
+    "title": "Principles of Estimation of Costs and Benefits",
+    "printed": "14.35"
+   },
+   {
+    "num": "13.4",
+    "title": "Short-term Decision Making using concepts of CVP Analysis",
+    "printed": "14.36"
+   },
+   {
+    "num": "14",
+    "title": "Distinction between Marginal and Absorption Costing",
+    "printed": "14.43"
+   },
+   {
+    "num": "14.1",
+    "title": "Main Points of distinction between Marginal and Absorption Costing",
+    "printed": "14.43"
+   },
+   {
+    "num": null,
+    "title": "a 14.2 Difference in Profit under Marginal and Absorption Costing",
+    "printed": "14.44"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "14.49"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "14.50"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions(MCQs)",
+    "printed": "14.50"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "14.52"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "14.52"
+   },
+   {
+    "num": null,
+    "title": "Case Senarios",
+    "printed": "14.59"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "14.61"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "14.61"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "14.61"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Senarios",
+    "printed": "14.79"
+   }
+  ],
+  "15": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "15.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "15.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "15.2"
+   },
+   {
+    "num": "2",
+    "title": "Essentials Characteristics of Budget",
+    "printed": "15.3"
+   },
+   {
+    "num": "3",
+    "title": "Essentials Steps for Preparing Budget",
+    "printed": "15.4"
+   },
+   {
+    "num": "4",
+    "title": "Objectives of Budgeting",
+    "printed": "15.5"
+   },
+   {
+    "num": "5",
+    "title": "Budgetary Control",
+    "printed": "15.7"
+   },
+   {
+    "num": "5.1",
+    "title": "Budgetary Control Involves",
+    "printed": "15.7"
+   },
+   {
+    "num": "5.2",
+    "title": "Objectives of Budgetary Control System",
+    "printed": "15.7"
+   },
+   {
+    "num": "5.3",
+    "title": "Steps for establishing Budgetary Conrol",
+    "printed": "15.8"
+   },
+   {
+    "num": "5.4",
+    "title": "Feedback and Feedforward Control",
+    "printed": "15.9"
+   },
+   {
+    "num": "5.5",
+    "title": "Budget Committee and Budget Officer",
+    "printed": "15.10"
+   },
+   {
+    "num": "5.6",
+    "title": "Advantages of Budgetary Control System",
+    "printed": "15.12"
+   },
+   {
+    "num": "5.7",
+    "title": "Limitations of Budgetary Control System",
+    "printed": "15.13"
+   },
+   {
+    "num": null,
+    "title": "a xiii a 5.8 Components of Budgetary Control System",
+    "printed": "15.14"
+   },
+   {
+    "num": "6",
+    "title": "Budgets and Motivation",
+    "printed": "15.14"
+   },
+   {
+    "num": "7",
+    "title": "Preparation of Budgets",
+    "printed": "15.16"
+   },
+   {
+    "num": "8",
+    "title": "Different Types of Budgets",
+    "printed": "15.19"
+   },
+   {
+    "num": "8.1",
+    "title": "Classification on the basis of Capacity or Flexibility",
+    "printed": "15.19"
+   },
+   {
+    "num": "8.2",
+    "title": "Classification on the basis of Function",
+    "printed": "15.29"
+   },
+   {
+    "num": "8.3",
+    "title": "Master Budget",
+    "printed": "15.55"
+   },
+   {
+    "num": "8.4",
+    "title": "Classification on the basis of Time Period",
+    "printed": "15.58"
+   },
+   {
+    "num": "9",
+    "title": "Zero Based Budgeting (ZBB)",
+    "printed": "15.59"
+   },
+   {
+    "num": "9.1",
+    "title": "Stages in Zero-based Budgeting",
+    "printed": "15.60"
+   },
+   {
+    "num": "9.2",
+    "title": "Advantages of Zero-based budgeting",
+    "printed": "15.60"
+   },
+   {
+    "num": "9.3",
+    "title": "Difference between Traditional and Zero- based Budgeting",
+    "printed": "15.61"
+   },
+   {
+    "num": "9.4",
+    "title": "Limitations of Zero- based Budgeting",
+    "printed": "15.62"
+   },
+   {
+    "num": "10",
+    "title": "Performance Budgeting (PB)",
+    "printed": "15.62"
+   },
+   {
+    "num": "10.1",
+    "title": "Traditional Budgeting vs. Performance Budgeting",
+    "printed": "15.63"
+   },
+   {
+    "num": "10.2",
+    "title": "Steps in Performance Budgeting",
+    "printed": "15.63"
+   },
+   {
+    "num": "11",
+    "title": "Budget Ratio",
+    "printed": "15.67"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "15.70"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "15.71"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "15.71"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "15.74"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "15.74"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "15.81"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "15.83"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "15.84"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "15.84"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "15.96"
+   }
+  ]
+ },
+ "report": [
+  {
+   "ch": 1,
+   "title": "Introduction to Cost and Management Accounting",
+   "contents_numbered": 29,
+   "detected_numbered": 30,
+   "missing_in_detected": [],
+   "not_in_contents": [
+    {
+     "h": "12. LIMITATIONS OF COST ACCOUNTING",
+     "page": 23
+    }
+   ]
+  },
+  {
+   "ch": 2,
+   "title": "Material Cost",
+   "contents_numbered": 57,
+   "detected_numbered": 42,
+   "missing_in_detected": [
+    {
+     "num": "5.3",
+     "title": "Difference between Bin Card & Stores Ledger",
+     "printed": "2.21"
+    }
+   ],
+   "not_in_contents": []
+  },
+  {
+   "ch": 3,
+   "title": "Employee Cost and Direct Expenses",
+   "contents_numbered": 35,
+   "detected_numbered": 34,
+   "missing_in_detected": [],
+   "not_in_contents": [
+    {
+     "h": "4.3 Payroll Procedure",
+     "page": 11
+    }
+   ]
+  },
+  {
+   "ch": 4,
+   "title": "Overheads - Absorption Costing Method",
+   "contents_numbered": 26,
+   "detected_numbered": 27,
+   "missing_in_detected": [],
+   "not_in_contents": [
+    {
+     "h": "3. ACCOUNTING AND CONTROL OF MANUFACTURING OVERHEADS",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "ch": 5,
+   "title": "Activity Based Costing",
+   "contents_numbered": 16,
+   "detected_numbered": 16,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 6,
+   "title": "Cost Sheet",
+   "contents_numbered": 11,
+   "detected_numbered": 11,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 7,
+   "title": "Cost Accounting Systems",
+   "contents_numbered": 11,
+   "detected_numbered": 11,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 8,
+   "title": "Unit & Batch Costing",
+   "contents_numbered": 10,
+   "detected_numbered": 10,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 9,
+   "title": "Job Costing",
+   "contents_numbered": 15,
+   "detected_numbered": 15,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 10,
+   "title": "Process & Operation Costing",
+   "contents_numbered": 12,
+   "detected_numbered": 12,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 11,
+   "title": "Joint Products and By Products",
+   "contents_numbered": 5,
+   "detected_numbered": 5,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 12,
+   "title": "Service Costing",
+   "contents_numbered": 31,
+   "detected_numbered": 33,
+   "missing_in_detected": [],
+   "not_in_contents": [
+    {
+     "h": "2.1 Methods for ascertaining Service Cost Unit",
+     "page": 7
+    },
+    {
+     "h": "12.1 Cost Measurement in Financial Institutions",
+     "page": 51
+    }
+   ]
+  },
+  {
+   "ch": 13,
+   "title": "Standard Costing",
+   "contents_numbered": 18,
+   "detected_numbered": 19,
+   "missing_in_detected": [],
+   "not_in_contents": [
+    {
+     "h": "6. CLASSIFICATION OF VARIANCES",
+     "page": 12
+    }
+   ]
+  },
+  {
+   "ch": 14,
+   "title": "Marginal Costing",
+   "contents_numbered": 27,
+   "detected_numbered": 29,
+   "missing_in_detected": [],
+   "not_in_contents": [
+    {
+     "h": "5. ABSORPTION COSTING",
+     "page": 9
+    },
+    {
+     "h": "14.2 Difference in Profit under Marginal and Absorption costing",
+     "page": 44
+    }
+   ]
+  },
+  {
+   "ch": 15,
+   "title": "Budgets and Budgetary Control",
+   "contents_numbered": 28,
+   "detected_numbered": 29,
+   "missing_in_detected": [
+    {
+     "num": "11",
+     "title": "Budget Ratio",
+     "printed": "15.67"
+    }
+   ],
+   "not_in_contents": [
+    {
+     "h": "5.8 Components of Budgetary Control System",
+     "page": 14
+    },
+    {
+     "h": "15.11. BUDGET RATIO",
+     "page": 67
+    }
+   ]
+  }
+ ]
+}

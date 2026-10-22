@@ -1,0 +1,393 @@
+                                                            Test Series: March 2023
+                                MOCK  TEST PAPER - I
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                 Maximum  Marks: 50 Marks
+                                     ANSWERS
+                         PART I: MULTIPLE CHOICE QUESTIONS
+1.  (d) Treat the risk
+2.  (b) (v) – (i) – (vi) – (ix) – (ii) – (vii) – (iii) – (iv) – (viii)
+3.  (c) He might employ test data to evaluate whether access controls and update controls in ABC Ltd.
+        are working or not.
+4.  (a) (i) – (C), (ii) – (A), (iii) – (B), (iv) – (D)
+5.  (b) Section 66B
+6.  (a) Preventive Control
+7.  (a) Educational Qualification
+8.  (c) Journal
+9.  (a) Infrastructure as a Service (IaaS)
+10. (c) Top up Loan
+                           PART II: DESCRIPTIVE QUESTIONS
+1.  (a) Various advantages of Database Management System (DBMS) are as follows:
+        •   Permitting Data Sharing: One of the major advantages of a DBMS is that the same
+            information can be made available to different users.
+        •   Minimizing Data Redundancy: In a DBMS, duplication of information or redundancy is, if not
+            eliminated, carefully controlled or reduced i.e. there is no need to repeat the same data repeatedly.
+            Minimizing redundancy significantly reduce the cost of storing information on storage devices.
+        •   Integrity can be maintained: Data integrity is maintained by having accurate, consistent, and up-
+            to-date data. Updates and changes to the data only must be made in one place in DBMS ensuring
+            Integrity.
+        •   Program and File consistency: Using a DBMS, file formats and programs are standardized. The
+            level of consistency across files and programs makes it easier to manage data when multiple
+            programmers are involved as the same rules and guidelines apply across all types of data.
+        •   User-friendly: DBMS makes the data access and manipulation easier for the user. DBMS
+            also reduces the reliance of users on computer experts to meet their data needs.
+
+        •   Improved security: DBMS allows multiple users to access the same data resources in a
+            controlled manner by defining the security constraints. Some sources of information should
+            be protected or secured and only viewed by select individuals. Using passwords, DBMS can
+            be used to restrict data access to only those who should see it. Security will only be improved
+            in a database when appropriate access privileges are allotted to prohibit unauthorized
+            modification of data.
+        •   Achieving program/data independence: In a DBMS, data does not reside in applications,
+            but data bases program and data are independent of each other.
+        •   Faster Application Development: In the case of deployment of DBMS, application
+            development becomes fast. The data is already therein databases, application developer
+            must think of only the logic required to retrieve the data in the way a user needs.
+    (b) The factors that affect the success of Business Process Automation are as follows:
+        •   Confidentiality
+        •   Integrity
+        •   Availability
+        •   Timeliness
+2.  (a) Various Business Risks that APC Ltd. may face are as follows:
+        •   Strategic Risks: These are the risks that would prevent an organization from accomplishing
+            its objectives (meeting its goals). Examples include risks related to strategy, political,
+            economic relationship issues with suppliers and global market conditions; also, could include
+            reputation risk, leadership risk, brand risk, and changing customer needs.
+        •   Financial Risks: Financial risks are those risks that could result in a negative financial impact
+            to the organization (waste or loss of assets). Examples include risks from volatility in foreign
+            currencies, interest rates, and commodities, credit risk, liquidity risk, and market risk.
+        •   Regulatory (Compliance) Risks: This includes risks that could expose the organization to
+            fines and penalties from a regulatory agency due to non-compliance with laws and
+            regulations. Examples include Violation of laws or regulations governing areas such as
+            environmental, employee health and safety, lack of due diligence, protection of personal data
+            in accordance with global data protection requirements and local tax or statutory laws.
+        •   Operational Risks: Operational risks include those risks that could prevent an organization
+            from operating in the most effective and efficient manner or be disruptive to other operations
+            due to inefficiencies or breakdown in internal processes, people and systems. Examples
+            include risk of loss resulting from inadequate or failed internal processes, fraud or any c riminal
+            activity by an employee, business continuity, channel effectiveness, customer satisfaction and
+            product/service failure, efficiency, capacity, and change integration.
+        •   Hazard Risks: Hazard risks include risks that are insurable, such as natural disasters; various
+            insurable liabilities; impairment of physical assets; terrorism etc.
+        •   Residual Risks: This includes any risk remaining even after the counter measures are
+            analyzed and implemented. Even when safeguards are applied, there is probably going to b e
+            some residual risk.
+    (b) Various Back- End applications of Core Banking System (CBS) whose related transactions are
+        interfaced with central server are as follows:
+
+        •   Back Office: The Back Office is the portion of a company made up of administration and
+            support personnel, who are not client-facing. Back-office functions include settlements,
+            clearances, record maintenance, regulatory compliance, accounting and IT services. Back
+            Office professionals may also work in areas like monitoring employees' conversations and
+            making sure they are not trading forbidden securities on their own accounts.
+        •   Data Warehouse: Banking professionals use data warehouses to simplify and standardize
+            the way they gather data - and finally get to one clear version of the truth. Data warehouses
+            take care of the difficult data management - digesting large quantities of data and ensuring
+            accuracy - and make it easier for professionals to analyze data.
+        •   Credit-Card System: Credit card system provides customer management, credit card
+            management, account management, customer information management and general ledger
+            functions; provides the online transaction authorization and service of the bank card in each
+            transaction channel of the issuing bank; support in the payment application; and at the same
+            time, the system has a flexible parameter system, complex organization support mechanism
+            and product factory based design concept to speed up product time to market.
+        •   Automated Teller Machines (ATM): An Automated Teller Machine (ATM) is an electronic
+            banking outlet that allows customers to complete basic transactions without the aid of a
+            branch representative or teller. Anyone with a credit card or debit card can access most ATMs.
+            ATMs are convenient, allowing consumers to perform quick, self-serve transactions from
+            everyday banking like deposits and withdrawals to more complex transactions like bill
+            payments and transfers.
+3.  (a) The module of ERP discussed in this case is Customer Relationship Management (CRM). The
+        key benefits of a CRM Module are as follows:
+           Improved customer relations: One of the prime benefits of using a CRM is obtaining better
+            customer satisfaction. By using this strategy, all dealings involving servicing, marketing, and
+            selling out products to the customers can be carried out in an organized and systematic way.
+            Better services can be provided to customers through improved understanding of their issues
+            and this in turn helps in increasing customer loyalty and decreasing customer agitation. In
+            this way, continuous feedback from the customers regarding the products and services can
+            be received. It is also possible that the customers may recommend the product to their
+            acquaintances when efficient and satisfactory services are provided.
+           Increase customer revenues: By using a CRM strategy for any business, the revenue of the
+            company can be increased. Using the data collected, marketing campaigns can be
+            popularized in a more effective way. With the help of CRM software, it can be ensured that
+            the product promotions reach a different and brand-new set of customers, and not the ones
+            who had already purchased the product, and thus effectively increase the customer revenue.
+           Maximize up-selling and cross-selling: A CRM system allows up-selling which is the
+            practice of giving customers premium products that fall in the same category of their purchase.
+            The strategy also facilitates cross selling which is the practice of offering complementary
+            products to customers, based on their previous purchases. This is done by interacting with
+            the customers and getting an idea about their wants, needs, and patterns of purchase. The
+            details thus obtained will be stored in a central database, which is accessible to all company
+            executives. So, when an opportunity is spotted, the executives can promote their products to
+            the customers, thus maximizing up-selling and cross selling.
+           Better internal communication: Following a CRM strategy helps in building up better
+            communication within the company. The sharing of customer data between different
+
+            departments will enable them to work as a team. This is better than functioning as an isolated
+            entity, as it will help in increasing the company’s profitability and enabling better service to
+            customers.
+           Optimize marketing: CRM enables to understand the customer needs and behavior in a
+            better way, thereby allowing any enterprise to identify the correct time to market its product
+            to the customers. CRM will also give an idea about the most profitable customer groups, and
+            by using this information, similar prospective groups, at the right time will be targeted. In this
+            way, marketing resources can be optimized efficiently, and time is not wasted on less
+            profitable customer groups.
+    (b) The drawbacks of digital payments are as follows:
+        (i) Difficult for a non-technical person: As most of the digital payment modes are based on
+            mobile phone, the internet and cards; these modes are somewhat difficult for non -technical
+            persons such as farmers, workers etc.
+        (ii) Risk of data theft: There is a big risk of data theft associated with the digital payment.
+            Hackers can hack the servers of the bank or the E-Wallet a customer is using and easily get
+            his/her personal information. They can use this information to steal money from the
+            customer’s account.
+        (iii) Overspending: One keeps limited cash in his/her physical wallet and hence thinks twice
+            before buying anything. But if digital payment modes are used, one has access to all his/her
+            money that can result in overspending.
+        (iv) Disputed transactions: In case the electronic money such as credit card is misused by
+            someone else, it is very difficult to receive a refund.
+        (v) Increased business costs: Digital payment systems come with an increased need to protect
+            sensitive financial information stored in a business’s computer systems from unauthorized
+            access. Businesses have to incur additional costs in procuring, installing and maintaining
+            sophisticated payment-security technologies.
+        (vi) The necessity of internet access: Digital payment cannot be performed if Internet
+            connection fails.
+4.  (a) Mr. Anil’s presentation shall be based on various benefits of using e- business from the perspective
+        of seller.
+        •   Increased Customer Base: Since the number of people getting online is increasing which
+            are creating not only new customers but also retaining the old ones. E-commerce enables a
+            business to offer its products and services to almost everyone in the world who has an
+            internet-enabled device. It facilitates to reach narrow market segments that are widely
+            scattered geographically.
+        •   Recurring payments made easy: Each business has number of operations that are
+            homogeneous in nature. This brings in uniformity of scaled operations.
+        •   Instant Transaction: The interaction with the system takes place on real time and therefore,
+            allows the customers to respond quickly. This has made possible to crack number of deals.
+        •   Provides a dynamic market: Since there are several players, a dynamic market is provided
+            which enhances quality and business.
+        •   Reduction in:
+            o   costs to buyers from increased competition in procurement as more suppliers can
+                compete in an electronically open marketplace.
+            o   costs to suppliers by electronically accessing on-line databases of bid opportunities, on-
+                line abilities to submit bids, and on-line review of rewards.
+            o   overhead costs through uniformity, automation, and large-scale integration of
+                management processes.
+            o   advertising costs.
+        •   Efficiency improvement due to:
+            o   reduction in time to complete business transactions, particularly from delivery to
+                payment.
+            o   reduction in errors, time, for information processing by eliminating requirements for re -
+                entering data.
+            o   reduction in inventories and reduction of risk of obsolete inventories as the demand for
+                goods and services is electronically linked through just-in-time inventory and integrated
+                manufacturing techniques.
+        •   Creation of new markets: This is done through the ability to reach potential customers easily
+            and with low cost.
+        •   Easier entry into new markets: This is especially into geographically remote markets for
+            enterprises regardless of size and location.
+        •   Low barriers to entry: Home page gives equal footing to small organizations with large
+            international firms. Small and large organizations have like opportunity to be on WWW and
+            conduct business on the internet.
+        •   Better quality of goods: Standardized specifications and competition have increased and
+            improved variety of goods through expanded markets and the ability to produc e customized
+            goods.
+        •   Elimination of Time Delays: Faster time to market as business processes are linked, thus
+            enabling seamless processing and eliminating time delays.
+    (b) Various risks that should have been controlled by Core Banking System (CBS) of DEF Co-operative
+        bank before disbursing the loan and advances to Mr. Rajesh are as follows:
+        •   Credit Line setup is unauthorized and not in line with the bank’s policy.
+        •   Credit Line setup is unauthorized and not in line with the bank’s policy.
+        •   Masters defined for the customer are not in accordance with the re- Disbursement Certificate.
+        •   Credit Line setup can be breached in Loan disbursement system/CBS.
+        •   Lower rate of interest/ Commission may be charged to customer.
+        •   Facilities/Loan’s granted may be unauthorized/in- appropriate.
+        •   Inaccurate interest / charge being calculated in the Loan disbursal system.
+5.  (a) Some  of the major concerns that Ms. Puja should address under different activities involved in
+        Programming Management Control Phase are as follows:
+        •   Planning: Auditors should evaluate whether nature of and extent of planning are appropriate to
+            different types of software that are developed or acquired. Auditors must evaluate how well the
+            planning work is being undertaken.
+
+        •   Control: Auditors must evaluate whether the nature of an extent of control activities undertaken
+            are appropriate for the different types of software that are developed or acquired. Auditors must
+            gather evidence on whether the control procedures are operating reliably. For example - they
+            might first choose a sample if past and current software development and acquisition projects
+            carried out at different locations in the organization, they are auditing.
+        •   Design: Auditors should find out whether programmers use some type of systematic approach to
+            design. Auditors can obtain evidence of the design practices used by undertaking interviews,
+            observations, and reviews of documentation.
+        •   Coding: Auditors should seek evidence –
+            o   On the level of care exercised by programming management in choosing a module
+                implementation and integration strategy.
+            o   To determine whether programming management ensures that programmers follow
+                structured programming conventions.
+            o   To check whether programmers employ automated facilities to assist them with their
+                coding work.
+        •   Testing: Auditors can use interviews, observations, and examination of documentation to evaluate
+            how well unit testing is conducted. Auditors are most likely concerned primarily with the quality of
+            integration testing work carried out by information systems professionals rather than end users.
+            Auditors primary concern is to see that whole-of-program tests have been undertaken for all
+            material programs and that these tests have been well-designed and executed.
+        •   Operation and Maintenance: Auditors need to ensure effective and timely reporting of
+            maintenance needs that occur so that maintenance is carried out in a well-controlled manner.
+            Auditors should ensure that management has implemented a review system and assigned
+            responsibility for monitoring the status of operational programs.
+    (b) Various application areas of Data Analytics are as follows:
+        •   Data Analytics initiatives support a wide variety of business uses. For example, banks and credit
+            card companies analyse withdrawal and spending patterns to prevent fraud and identity theft.
+        •   E-commerce companies and marketing services providers do click stream analysis to identify
+            website visitors who are more likely to buy a product or service based on navigation and page-
+            viewing patterns.
+        •   Mobile network operators examine customer data to forecast so that they can take steps to prevent
+            defections to business rivals; to boost customer relationship management efforts. Other
+            companies also engage in CRM analytics to segment customers for marketing campaigns and
+            equip call centre workers with up-to-date information about callers.
+        •   Healthcare organizations mine patient data to evaluate the effectiveness of treatments for cancer
+            and other diseases.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+     (1)       (2)      (3)     (4)
+     (d)       (a)      (b)     (c)
+    (B) (c)
+    (C) (c)
+    (D) (d)
+    (E) (c)
+    (F) (a)
+    (G) (b)
+    (H) (a)
+2.  Jeff Inc. of USA and Desi group of India opted for strategic alliance as their growth strategy. A strategic
+    alliance is a relationship between two or more businesses that enables each to achieve certain strategic
+    objectives which neither would be able to achieve on its own. Strategic alliances are often formed in the global
+    marketplace between businesses that are based in different regions of the world.
+    Advantages of Strategic Alliance
+    Strategic alliance usually is only formed if they provide an advantage to all the parties in the alliance. These
+    advantages can be broadly categorised as follows:
+    1.  Organizational: Strategic alliance helps to learn necessary skills and obtain certain capabilities
+        from strategic partners. Strategic partners may also help to enhance productive capacity, provide
+        a distribution system, or extend supply chain. Having a strategic partner who is well -known and
+        respected also helps add legitimacy and creditability to a new venture.
+    2.  Economic: There can be reduction in costs and risks by distributing them across the members of
+        the alliance. Greater economies of scale can be obtained in an alliance, as production volume can
+        increase, causing the cost per unit to decline. Finally, partners can take advantage of co -
+        specialization, creating additional value, such as when a leading computer manufacturer bundles
+        its desktop with a leading monitor manufacturer’s monitor.
+    3.  Strategic: Rivals can join together to cooperate instead of competing with each other. Vertical
+        integration can be created where partners are part of supply chain. Strategic alliances may also be
+        useful to create a competitive advantage by the pooling of resources and skills. This may also help
+        with future business opportunities and the development of new products and te chnologies.
+        Strategic alliances may also be used to get access to new technologies or to pursue joint research
+        and development.
+    4.  Political: Sometimes strategic alliances are formed with a local foreign business to gain entry into
+        a foreign market either because of local prejudices or legal barriers to entry. Forming strategic
+        alliances with politically influential partners may also help improve your own influence and position.
+3.  (a) Industry and competitive conditions of organisation change as environmental forces are in motion.
+        The most dominant forces are called driving forces because they have the biggest influence on
+        what kinds of changes will take place in the industry's structure and competitive environment.
+
+        Analyzing driving forces has two steps: identifying what the driving forces are and assessing the
+        impact they will have on the industry.
+        Many events can affect an industry powerfully enough to qualify as driving forces. Some are unique
+        and specific to a particular industry situation, but many drivers of change fall into general category
+        affecting different industries simultaneously. Some of the categories/examples of drivers are:
+        •   The internet and the new e-commerce opportunities and threats it breeds in the industry.
+        •   Increasing globalization.
+        •   Changes in the long-term industry growth rate.
+        •   Product innovation.
+        •   Marketing innovation.
+        •   Entry or exit of major forms.
+        •   Diffusion of technical know-how across more companies and more countries.
+        •   Changes in cost and efficiency.
+    (b) A typical large organization is a multidivisional organisation that competes in several different
+        businesses. It has separate self-contained divisions to manage each of these. There are three
+        levels of strategy in management of business - corporate, business, and functional.
+        The corporate level of management consists of the chief executive officer and other top level
+        executives. These individuals occupy the apex of decision making within the organization. The role
+        of corporate-level managers is to oversee the development of strategies for the whole organization.
+        This role includes defining the mission and goals of the organization, determining what businesses
+        it should be in, allocating resources among the different businesses and so on rests at the
+        Corporate Level.
+        The development of strategies for individual business areas is the responsibility of the general
+        managers in these different businesses or business level managers. A business unit is a self -
+        contained division with its own functions - for example, finance, production, and marketing. The
+        strategic role of business-level manager, head of the division, is to translate the general statements
+        of direction and intent that come from the corporate level into concrete strategies for individual
+        businesses.
+        Functional-level managers are responsible for the specific business functions or operations such
+        as human resources, purchasing, product development, customer service, and so on. Thus, a
+        functional manager’s sphere of responsibility is generally confined to one organizational activity,
+        whereas general managers oversee the operation of a whole company or division.
+4.  (a) Strategic decisions are different in nature than all other operational decisions. The dimensions of
+        strategic decisions are not similar to that of other decisions which are taken at various levels of the
+        organization during day-to-day working.
+       The following major dimensions of strategic decisions make them different than operational
+        decisions:
+        1.  Strategic decisions require top-management decisions. Strategic decisions involve thinking
+            in totality of the organizations and there is also a lot of risk involved in that.
+        2.  Strategic decisions involve the allocation of large amounts of company resources -
+            financial, technical, human etc.
+        3.  Strategic decisions are likely to have a significant impact on the long-term prosperity of
+            the firm.
+
+        4.  Strategic decisions are future oriented.
+        5.  Strategic decisions usually have major multifunctional or multi-business consequences.
+        6.  Strategic decisions necessitate consideration of factors in the firm’s external environment.
+    (b) Mr. Vicky Verma established personal contacts with potential buyers of the product and persuaded
+        the marketing department over several physical meetings and was finally able to make sales. The
+        personal relation establishment and physical demonstration, indicates that Mr. Verma used the
+        Personal Selling method of Promotion. Modern marketing is highly promotional oriented and
+        include personal selling, advertising, publicity and sales promotion. Personal selling involves face
+        to face interaction of salespersons with the prospective customers and provides a high degree of
+        personal attention. It involves working with one customer at a time and hence not cost effective.
+        The intention of oral communication is sale.
+5.  (a) Although inextricably linked, strategy implementation is fundamentally different from strategy
+        formulation in the following ways:
+                  Strategy Formulation                Strategy Implementation
+            Strategy formulation focuses on   Strategy implementation focuses on efficiency.
+             effectiveness.
+            Strategy formulation is primarily an  Strategy implementation is primarily an
+             intellectual process.              operational process.
+            Strategy formulation requires conceptual  Strategy implementation requires motivation
+             intuitive and analytical skills.   and leadership skills.
+            Strategy   formulation  requires  Strategy implementation requires coordination
+             coordination among the executives at among the executives at the middle and lower
+             the top level.                     levels.
+    (b) Expanded Marketing Mix:
+        Typically, all organizations use a combination of 4 Ps in some form or the other that is product,
+        price, place, and promotion. However, the above elements of marketing mix are not exhaustive.
+        There are a few more elements that may form part of an organizational marketing mix strategy as
+        follows:
+        1.  People: all human actors who play a part in delivery of the market offering and thus influence
+            the buyer’s perception, namely the firm’s personnel and the customer.
+        2.  Physical evidence: the environment in which the market offering is delivered and where the
+            firm and customer interact.
+        3.  Process: the actual procedures, mechanisms and flow of activities by which the product/
+            service is delivered.
+6.  (a) To deal with the problems facing by the Bunch Pvt Ltd., we suggest Multi divisional structure for
+        the organisation. Multidivisional (M-form) structure is composed of operating divisions where each
+        division represents a separate business to which the top corporate officer delegates responsibility
+        for day-to-day operations and business unit strategy to division managers. By such delegation, the
+        corporate office is responsible for formulating and implementing overall corporate strategy and
+        manages divisions through strategic and financial controls.
+        Multidivisional or M-form structure was developed in the 1920s, in response to coordination- and
+        control-related problems in large firms. Functional departments often had difficulty dealing with
+        distinct product lines and markets, especially in coordinating conflicting priorities among the
+        products. Costs were not allocated to individual products, so it was not possible to assess an
+        individual product’s profit contribution. Loss of control meant that optimal allocation of firm
+
+        resources between products was difficult (if not impossible). Top managers became over -involved
+        in solving short-run problems (such as coordination, communications, conflict resolution) and
+        neglected long-term strategic issues.
+    (b) There are several basis of differentiation, major being: Product, Pricing and Organization.
+        Product: Innovative products that meet customer needs can be an area where a company has an
+        advantage over competitors. However, the pursuit of a new product offering can be costly –
+        research and development, as well as production and marketing costs can all add t o the cost of
+        production and distribution. The payoff, however, can be great as customer’s flock to be among
+        the first to have the new product.
+        Pricing: It fluctuates based on its supply and demand and may also be influenced by the
+        customer’s ideal value for a product. Companies that differentiate based on product price can either
+        determine to offer the lowest price or can attempt to establish superiority through higher prices.
+        Organisation: Organisational differentiation is yet another form of differentiation. Maximizing the
+        power of a brand or using the specific advantages that an organization possesses can be
+        instrumental to a company’s success. Location advantage, name recognition and customer loyalty
+        can all provide additional ways for a company differentiate itself from the competition.

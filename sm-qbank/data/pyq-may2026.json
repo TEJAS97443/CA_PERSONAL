@@ -1,0 +1,457 @@
+{
+ "source": {
+  "type": "PYQ",
+  "attempt": "May 2026",
+  "attempt_sort": "2026-05",
+  "series": null,
+  "scheme": "new",
+  "paper": "Paper 6B: Strategic Management",
+  "pdf_url": "https://resource.cdn.icai.org/92261bos-aps4903-int-may2026-p6.pdf",
+  "local_file": "raw/pyq-may2026-qp.pdf",
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Section B (Strategic Management) only; Section A (Financial Management) skipped. The exam question paper PDF is a scanner output with no text layer, so question text, options and marks are taken from ICAI's Suggested Answers PDF, which reproduces the question paper verbatim. Suggested Answers (answers source): https://resource.cdn.icai.org/92877bos-sa-int-may2026-p6.pdf"
+ },
+ "questions": [
+  {
+   "id": "pyq-may2026-q9",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 3.",
+   "qno": "9",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "Case Scenario - II Alex Motor Company was born out of crisis in a small garage on the edge of a dusty town. In the early 90s when the fuel prices soared and imported vehicles flooded the market, many automobile companies were forced to shut down their operations. Many employees lost their jobs. Ajay Sharma, a production engineer at a failing automobile plant along with ten of his colleagues, rented an abandoned garage and a portion of unused equipment from a shutdown factory and decided to start operations. Their main aim was to transform Indian auto industry by providing comprehensive, affordable and fuel-efficient vehicles. Instead of chasing volumes, the company focused on customization-adjustable cargo layouts, fuel efficient engines and easy maintenance to cater demand of narrow market. Alex Motor Company developed its first commercial model Alex One which was simple but could survive floods, heat waves, bumpy roads, and most importantly was fuel efficient. The customers loved it and hence sales grew steadily. Ajay made a simple promise that every decision would begin on the factory floor and not in the board-room. Mechanics were encouraged to suggest improvement in design and were rewarded for the best innovations, but success brought a new challenge. The younger generation demanded technology with higher connectivity, better safety systems and cleaner energy. Due to these matters Alex Motor Company lagged behind from the flashy foreign brands that entered the Indian market. As a result, sales declined and critics called the company outdated. Ajay, now the CEO of the company, faced defining choice, either to sell the company or reinvent it. Ajay's team of engineers, through participation, shared their next plan of action to the employees for the further technology upgradation, in order to gain growth and success of business. The team took the initiative to develop the good working culture and code of ethics. They focused on training and various motivational plans for employees so they can be tuned up with new working system. In this way the company made its breakthrough with the launch of Alex Electra; a hybrid vehicle designed specifically for congested urban environment. It was not just the technology that made Electra different, but the mindset. Engineers, designers and data-analysts worked side by side, decision making became faster and mistakes were treated as learning cost and not failures. Alex Motor Company also established company-owned showrooms and service centers to increase their sales and provide free after-sale services which led to improved customer services and brand image. Today Alex Motor Company's success is studied in business schools as it proved that companies that listen, learn and adapt can outlast any crisis.\nBased on the above case scenario, choose the correct answer to questions no. 9 to13:\n\nIdentify the initial strategy to gain competitive advantage adopted by Alex Motor Company.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Growth strategy emphasizing strong and fuel-efficient vehicles."
+    },
+    {
+     "label": "b",
+     "text": "Focused cost leadership strategy emphasizing fuel efficiency and easy maintenance."
+    },
+    {
+     "label": "c",
+     "text": "Focused differentiation strategy emphasizing customized commercial vehicles, easy maintenance and fuel efficiency rather than mass production."
+    },
+    {
+     "label": "d",
+     "text": "Expansion strategy emphasizing customized vehicles and mass production."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "focused differentiation",
+    "porter generic strategies"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q10",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 5.",
+   "qno": "10",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the shared case scenario given with Question 9.]\n\nUse McKinsey's 7S Model to identify the soft elements that change during reinvention.\n(i) Shared value\n(ii) Style\n(iii) Strategy\n(iv) Staff",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only (i) and (ii) are correct."
+    },
+    {
+     "label": "b",
+     "text": "Only (i), (iii) and (iv) are correct."
+    },
+    {
+     "label": "c",
+     "text": "(i), (ii), (iii) and (iv) are correct."
+    },
+    {
+     "label": "d",
+     "text": "Only (i), (ii) and (iv) are correct."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "mckinsey 7s model",
+    "soft elements"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q11",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 1.",
+   "qno": "11",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the shared case scenario given with Question 9.]\n\nStrategic Management allowed Alex Motor Company to be",
+   "options": [
+    {
+     "label": "a",
+     "text": "More directive towards the cross-functional team to reduce communication barrier."
+    },
+    {
+     "label": "b",
+     "text": "Partly proactive as the company anticipated future urban mobility needs and partly reactive as the company responded to the declining sales."
+    },
+    {
+     "label": "c",
+     "text": "More proactive as it readily launched Alex Electra with updated technology to stay competitive."
+    },
+    {
+     "label": "d",
+     "text": "More authoritative in taking faster decisions."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "proactive strategy",
+    "reactive strategy"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q12",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 4.",
+   "qno": "12",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the shared case scenario given with Question 9.]\n\nAjay Sharma undertook a retrenchment strategy to save his company when the sales of his company declined, and his company was called outdated. The action plan undertaken to implement it was\n(i) Assessing the current problem\n(ii) Providing innovative transport service\n(iii) Developing an action plan with specific goals\n(iv) Restructuring organizational hierarchy\nWhich of the above actions does not pertain to the strategy undertaken by Ajay Sharma?",
+   "options": [
+    {
+     "label": "a",
+     "text": "(ii) and (iv)"
+    },
+    {
+     "label": "b",
+     "text": "(iii) and (iv)"
+    },
+    {
+     "label": "c",
+     "text": "(i), (iii) and (iv)"
+    },
+    {
+     "label": "d",
+     "text": "Only (iii)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "turnaround strategy",
+    "action plan"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q13",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 1.",
+   "qno": "13",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the shared case scenario given with Question 9.]\n\nThe mission of Alex Motor Company was:",
+   "options": [
+    {
+     "label": "a",
+     "text": "To adopt new technology such as connectivity, advanced safety features and cleaner energy solutions."
+    },
+    {
+     "label": "b",
+     "text": "Introducing cross-functional teams so that decision making process becomes faster."
+    },
+    {
+     "label": "c",
+     "text": "To establish company owned showrooms and service centers to increase their sales and provide after sale services."
+    },
+    {
+     "label": "d",
+     "text": "To transform Indian auto industry by providing comprehensive, affordable and fuel-efficient vehicles through present capability and activities."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "mission statement",
+    "strategic intent"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q14",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 3.",
+   "qno": "14",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Altex Ltd. is a company that produces and sells home appliances. However, at present the company is facing stiff competition from the new entrants who are offering similar products at a lower price. To stay competitive the top management of the company decided to adopt the best cost provider strategy. Which of the following actions should the company take to align with their best cost provider strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Reducing the price of their products without making changes in manufacturing process and product features."
+    },
+    {
+     "label": "b",
+     "text": "Streamlining manufacturing processes to reduce cost, sourcing materials from cost-effective suppliers and adding innovative features to their products."
+    },
+    {
+     "label": "c",
+     "text": "Streamlining manufacturing processes to reduce cost with no innovation in product feature."
+    },
+    {
+     "label": "d",
+     "text": "Focusing solely on premium features thereby increasing the cost of the products to reflect the added value."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "cost leadership",
+    "porter generic strategies"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q15",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 2.",
+   "qno": "15",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "A fashion retail company is designing a new marketing campaign for Generation Z. During its market survey, the company observes that customers' personal preferences, attitudes, lifestyle, motivation, and perception of quality strongly influence their buying behaviour, even before they are exposed to advertisements or peer opinions. Considering these facts, the company should primarily focus on which conceptual domain of the consumer behaviour?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Cultural influences"
+    },
+    {
+     "label": "b",
+     "text": "Social influences"
+    },
+    {
+     "label": "c",
+     "text": "External influences"
+    },
+    {
+     "label": "d",
+     "text": "Internal influences"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "consumer behaviour",
+    "internal influences"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q16",
+   "chapter": "MCQ",
+   "chapter_source": "mapped",
+   "mapping_note": "Section B MCQ from the exam paper; ICAI prints no chapter heading for exam MCQs, so bucketed as MCQ per SPEC section 2. Topic maps to Ch 4.",
+   "qno": "16",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "In General Electric (GE) Nine-Cell Matrix, which two dimensions form the basis of portfolio analysis to develop the strategic options?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Business Strength and Market Attractiveness"
+    },
+    {
+     "label": "b",
+     "text": "Company's Strength and Weakness"
+    },
+    {
+     "label": "c",
+     "text": "Market Share and Market Growth Rate"
+    },
+    {
+     "label": "d",
+     "text": "Competitive Intensity and Pricing Trends"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "ge matrix",
+    "portfolio analysis"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q5a",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Kurt Lewin's three-phase model of change -> Ch 5 (Strategic Change, 5.3.1)",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Eagle Manufacturing Ltd. has been facing declining productivity due to outdated working methods, rigid routines and workforce inefficiency leading to quality degradation and increasing customer complaints. To enhance operations, productivity, quality and work routines, the Board introduces new technologies and operating procedures to ensure continuous improvement and efficient workflow with operator feedback and performance evaluation. The management faces initial backlash from the employees to adopt these new techniques as they are a bit hesitant and scared of change. To cater to their concerns, the management introduces various awareness sessions, capacity building programs and exercises to handhold the operators during this transition while effectively communicating the need for change for future resilience and long-term benefits. Post these training sessions, the new techniques and procedures are gradually implemented in a phase-wise integration with constant support for seamless adoption by the employees in a moderated manner to accept. Finally, the management takes steps to stabilize these new work methods through revised policies, performance measures, and reward systems to ensure that employees do not revert to old practices. Identify the model being applied by Eagle Manufacturing Ltd. in the above case. Explain the different phases of the process for moving the organization from the present to the future. Is this a one-time Process/ application?",
+   "options": null,
+   "answer": "The model being applied by Eagle Manufacturing Ltd. is Kurt Lewin’s Three Phase Model of Change comprising Unfreezing, Changing and Refreezing. It reflects strategic change undertaken to improve organizational efficiency, productivity and competitiveness. Phases of Kurt Lewin’s Change Model\n(a) Unfreezing the Situation: Unfreezing means making employees aware of the need for change and preparing them to accept it by breaking old attitudes, rigid routines and existing work practices. In the given case, employees initially resisted the new technologies and procedures. Therefore, management conducted awareness sessions, capacity building programmes and communication exercises to explain the need and long-term benefits of change.\n(b) Changing to the New Situation: In this stage, new behaviour patterns, systems and procedures are introduced after employees recognize the need for change. In the given case, new technologies and operating procedures were gradually implemented through phase wise integration with continuous support, guidance and feedback mechanisms for employees.\n(c) Refreezing: Refreezing occurs when the new behaviour becomes a permanent way of organizational life and employees do not revert to old practices. In the given case, revised policies, performance measures and reward systems were introduced to stabilize the new work methods and institutionalise the changed practices successfully.\nIs it a One-Time Process? No, it is not a one-time process. Change is a continuous and cyclical process due to dynamic business environment, technological changes and competition. Therefore, organizations continuously undergo the stages of unfreezing, changing and refreezing.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "kurt lewin",
+    "strategic change"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q5b",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Differentiation as a Porter generic strategy -> Ch 3 (3.6.2)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Pearl India Ltd. is a major packaged food company which dominates in some sectors like snacks, diary, biscuits and instant meals. It offers high quality and unique products that match the taste and preference of the customers. It always takes steps to enhance brand image and charge a premium price for which buyers do not negotiate. Often the unique features of their products that are not available with their competitors help them to gain competitive advantage. Hence, using this strategy, today Pearl India Ltd. is consistently gaining its position in the industry over its competitors. Identify and explain Michael Porter's generic strategy being followed by Pearl India Ltd. to gain competitive advantage. What are the disadvantages of following such strategy?",
+   "options": null,
+   "answer": "Pearl India Ltd. is following the Differentiation Strategy propounded by Michael Porter. Differentiation strategy is aimed at a broad market and involves creation of products or services that are perceived by customers as unique. The uniqueness may be associated with product quality, features, brand image, technology or customer preferences. Because of differentiation, the business can charge a premium price and gain competitive advantage. In the given case, Pearl India Ltd. offers high quality and unique food products matching customer tastes and preferences. It continuously enhances its brand image and charges premium prices for which buyers do not negotiate. The special features of its products help it gain a strong competitive position over rivals. Disadvantages of Differentiation Strategy\n1. In the long run, uniqueness may be difficult to sustain as competitors may imitate product features.\n2. Charging very high prices for differentiated products may force customers to switch to alternative products.\n3. Differentiation strategy fails if the basis of differentiation is not valued by customers.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "differentiation strategy",
+    "porter generic strategies"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q5c",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Stability strategy -> Ch 4 (Broad Strategies)",
+   "qno": "5(c)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "A well-established MM Company is manufacturing tubeless tyre as one of its major products for quite some time. The product has reached at the maturity stage of the product life cycle. Company is aware about the competitive scenario and fast change in technology. Cost benefit analysis indicates that it would be better to modernise its plant and machinery so as to improve its efficiency and productivity. The basic idea is to remain competitive in the dynamic and volatile business world and at the same time having an objective to preserve their market share. Suggest the specific corporate strategy to be adopted by the MM Company in the given situation. Also state the reasons why a company should adopt such strategy in general. Justify your opinion about identified strategy in a case of start-up venture.",
+   "options": null,
+   "answer": "MM Company should adopt a Stability Strategy. A stability strategy is pursued when a firm continues in the same business and aims to maintain its market position through incremental improvements in efficiency and operations. In the given case, the company’s product has reached the maturity stage of the product life cycle, and the company wants to modernise its plant and machinery to improve efficiency and productivity while preserving market share in a dynamic business environment. Reasons for Adopting Stability Strategy\n1. A product has reached the maturity stage of the product life cycle.\n2. The staff feels comfortable with the status quo as it involves less changes and less risks.\n3. It is opted when the environment in which an organisation is operating is relatively stable.\n4. It is adopted where expansion may be perceived as threatening.\n5. After rapid expansion, a firm may want to stabilise and consolidate itself.\nApplicability in Case of Start-up Venture: Stability strategy is generally not suitable for start-ups because startups are in the early stages of ideation and development where speed, agility and expansion are important. Stability strategy is more meaningful for mature businesses operating at full capacity rather than emerging ventures.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "stability strategy"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q6a",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Inherent characteristics of business products -> Ch 2 (2.4)",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"In a modern competitive landscape, the interaction of supply and demand determines the price at which quantity provided equals to quantity desired.\" Analyse the inherent characteristics of business products that must be managed to maintain profitability under these market dynamics.",
+   "options": null,
+   "answer": "Business products possess certain inherent characteristics that businesses must manage effectively to maintain profitability in a competitive market where price is determined by the interaction of supply and demand. Characteristics of Business Products\n1. Products are Tangible or Intangible: A product may be tangible such as a car, mobile phone or table or intangible such as banking, insurance or telecom services. Businesses must manage both types efficiently to satisfy customer requirements.\n2. Product has a Price: Every product has a price determined by market forces of supply and demand. The market price is the price at which quantity supplied equals quantity demanded. In the present competitive environment, businesses often cannot fix prices by simply adding profit margins over cost. Therefore, firms need to control and reduce costs to maintain profitability.\n3. Products have Features that Deliver Satisfaction: Products possess features relating to design, quality, function and customer experience that provide value and satisfaction to consumers. Businesses continuously improve product features to optimise customer experience and differentiate products from competitors.\n4. Product is Pivotal for Business: Product is the centre around which all strategic and operational activities revolve, including production, quality control, marketing, logistics and sales. Thus, product acts as the driving force behind business operations and profitability.\n5. Product has a Useful Life: Every product has a useful life and product life cycle after which it may require replacement, reinvention or discontinuation. Businesses need to innovate and update products continuously to remain competitive and profitable in changing market conditions.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "business products",
+    "product and industry"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q6b",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate level strategies -> Ch 4 (Strategic Choices)",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What is meant by corporate level strategies? Identify and explain the basic features of corporate level strategies being represented by each of the following decisions:\n(i) The company decided to expand its profit-making units of packaged food division into the international market and closing down the loss-making units.\n(ii) The company decided to sell-out its commercial real estate division entirely as it is incurring heavy losses due to intense competition.\n(iii) The company has decided to maintain the current operations of the home appliances division which is maintaining steady sales and strong brand loyalty with no major investments.\n(iv) The company decided to make high investments in a rapidly growing online learning platform division to take greater control over the market.",
+   "options": null,
+   "answer": "Corporate level strategies are the strategies formulated at the top management level which define the overall direction and scope of the organization. These strategies deal with decisions relating to stability, expansion, retrenchment and combination of businesses.\n(i) Combination Strategy: The company is simultaneously expanding its profitable packaged food business into international markets while closing down loss-making units. Thus, it is adopting a Combination Strategy involving both expansion and retrenchment strategies.\n(ii) Retrenchment Strategy: The decision to sell out the commercial real estate division due to heavy losses represents Retrenchment Strategy. Under this strategy, the firm retrenches or drops loss making businesses through sell out or liquidation to improve overall performance.\n(iii) Stability Strategy: The decision to continue current operations of the home appliances division with steady sales and strong brand loyalty represents Stability Strategy. Under this strategy, the firm continues with the same business and maintains the existing level of effort without major investments.\n(iv) Expansion/Growth Strategy: The decision to make high investments in a rapidly growing online learning platform to gain greater market control represents Expansion/Growth Strategy. This strategy involves substantial investments and business growth to achieve greater market control and competitive advantage.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "corporate level strategies",
+    "portfolio"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q7a",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Reasons for globalising operations -> Ch 2 (Internationalization of Business, 2.3.4)",
+   "qno": "7(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"Beyond the basic need to grow modern organizations are driven by a mix of market inadequacy resource needs and the collapse of international barriers.\" Analyse the various reasons why companies choose to globalise their operations.",
+   "options": null,
+   "answer": "Globalisation refers to the process of expanding business operations beyond domestic boundaries into international markets. Companies choose to globalise their operations due to various strategic, economic and competitive reasons. Reasons for Globalisation of Business\n1. Need for Growth: The foremost reason for internationalisation is the need to grow. Organizations expand globally in search of new business opportunities, higher sales and greater earnings.\n2. Shrinking Time and Distance: Rapid technological developments, faster communication, speedier transportation and increased financial flows have reduced geographical barriers and made global operations easier.\n3. Inadequacy of Domestic Markets: Domestic markets are often not sufficient for long-term growth. Companies enter international markets where competition may be less intense and growth opportunities may be higher.\n4. Availability of Resources: Businesses globalise to access reliable and cheaper sources of raw materials, skilled labour and talent pools available in foreign countries.\n5. Reduction in Transportation Costs: Companies establish overseas manufacturing plants near target markets to reduce transportation costs, delivery time and logistics expenses.\n6. Expansion of Foreign Markets: When foreign markets grow substantially, organizations establish overseas production and sales units to increase sales volume and improve cash flows.\n7. Growth of Service Sector and Regional Integration: The growing importance of the service sector and regional economic integration among countries encourage firms to expand internationally.\n8. Collapse of International Trade Barriers: Reduction in trade tariffs, customs barriers and government restrictions has increased the flow of international business and encouraged globalization.\n9. Formation of Strategic Alliances: Globalization enables companies from different countries to form strategic alliances to face technological and economic challenges and leverage competitive advantages.\nThus, modern organizations globalise their operations to achieve growth, access resources, reduce costs, enhance competitiveness and exploit opportunities arising from technological and economic integration across nations.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "globalisation",
+    "internationalisation"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q7b",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Channels and channel analysis -> Ch 3 (3.3.4)",
+   "qno": "7(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"The wider and stronger the channel the better position a business has to fight and win over competition.\" In the context of this statement, define the concept of channels. Why is channel analysis more important for a business strategy? Explain different type of channels.",
+   "options": null,
+   "answer": "Channels refer to the distribution system through which an organisation distributes its products or provides its services to customers. Strong and wide channels help businesses reach customers effectively and gain competitive advantage. Importance of Channel Analysis Channel analysis is important when a business strategy aims to scale up and expand into new geographies and markets. Businesses need suitable channels to reach new customers effectively. Strong channels also help businesses fight competition and create barriers for new entrants into the industry. Types of Channels\n1. Sales Channel: Sales channel refers to intermediaries involved in selling the product to the end user. It focuses on who sells the product to customers. For example, fashion designers use agencies and retail stores to sell products to consumers.\n2. Product Channel: Product channel refers to intermediaries who physically handle and distribute the product from producer to customer. For example, logistics companies and delivery services distribute products purchased through online platforms.\n3. Service Channel: Service channel refers to entities providing support services such as installation, maintenance and customer assistance after purchase. For example, installation of appliances by authorised service providers after sales.\nThus, strong and efficient channels act as important strategic tools for market reach, customer satisfaction and competitive advantage.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "channels",
+    "strategic drivers"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q8a",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Managing strategic uncertainty -> Ch 5 (Strategic Control)",
+   "qno": "8(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"Strategic uncertainty refers to the unpredictability of future events and circumstances that can impact an organization's strategy and goals.\" In the light of this statement, discuss how an organization can deal with or manage such uncertainty.",
+   "options": null,
+   "answer": "Strategic uncertainty refers to the unpredictability of future events and circumstances that may affect an organization’s strategy and goals. It may arise due to changes in market conditions, technology, competition, regulations and other external environmental factors. An organization can deal with strategic uncertainty in the following ways:\n1. Flexibility: Organizations should build flexibility into their strategies so that they can quickly adapt to environmental changes and respond effectively to uncertainties.\n2. Diversification: Diversifying product portfolio, markets and customer base helps reduce dependence on a single business area and minimizes the impact of uncertainty.\n3. Monitoring and Scenario Planning: Organizations should continuously monitor key indicators of change and undertake scenario planning to understand how different future situations may affect strategies and business operations.\n4. Building Resilience: Firms should strengthen operational processes, improve financial flexibility and enhance risk management capabilities to withstand uncertain situations effectively.\n5. Collaboration and Partnerships: Strategic alliances and collaborations with suppliers, customers and other organizations help in sharing resources, reducing risk and accessing new markets and technologies.\nThus, organizations can manage strategic uncertainty through flexibility, diversification, resilience, monitoring and collaboration to remain competitive and sustainable in a dynamic environment.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic uncertainty"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q8b",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Objective and limitations of strategic management -> Ch 1 (1.4)",
+   "qno": "8(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"Relying blindly on business strategy can go absolutely wrong when daily operation are impeded or when environmental estimates prove inaccurate.\" Discuss the overall objective of strategic management and evaluate the limitations attached to it that may prevent from overcoming a turbulent environment.",
+   "options": null,
+   "answer": "The overall objective of strategic management is:\n1. To create competitive advantage so that the company can outperform competitors.\n2. To guide the company successfully through environmental changes and react in the right manner.\nLimitations of Strategic Management\n1. Complex and Turbulent Environment: Business environment is highly dynamic and uncertain. Organisational estimates about future conditions may go wrong, thereby affecting strategic plans adversely. Hence, strategy cannot always overcome a turbulent environment.\n2. Time Consuming Process: Strategic management involves extensive planning, analysis and communication which may impede daily\noperations and routine business activities. Excessive planning may reduce execution efficiency.\n3. Costly Process: Strategic management requires expert planners, environmental analysis and implementation efforts, which increase organizational costs, especially for small and medium enterprises.\n4. Difficulty in Predicting Competitive Responses: In a competitive environment, it is difficult to estimate competitors’ strategic actions and responses accurately, as such decisions are generally confidential and uncertain.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "objective of strategic management",
+    "limitations of strategic management"
+   ]
+  },
+  {
+   "id": "pyq-may2026-q8b-or",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Proactive vs reactive strategies -> Ch 1 (Concept of Strategy, 1.3)",
+   "qno": "8(b)-OR",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Differentiate between Proactive and Reactive strategies. Explain in detail, why it is important for every organisation to use both these strategies in a dynamic and an uncertain business environment.",
+   "options": null,
+   "answer": "Difference between Proactive and Reactive Strategies\n\n| Basis | Proactive Strategy | Reactive Strategy |\n|---|---|---|\n| Meaning | Proactive strategy refers to planned and deliberate actions taken by management to improve market position and performance. | Reactive strategy refers to adaptive responses to unforeseen changes and unexpected developments in the business environment. |\n| Nature | It is planned and intentional. | It is responsive and adaptive in nature. |\n| Objective | To gain competitive advantage through advance planning. | To cope with changing circumstances and environmental uncertainties. |\n\nImportance of Using Both Strategies\nEvery organization needs both proactive and reactive strategies because the business environment is dynamic and uncertain.\n1. Helps in Achieving Planned Objectives: Proactive strategies help organizations define long-term direction, improve market position and achieve organizational objectives through planned managerial actions.\n2. Helps in Coping with Uncertainty: Business conditions may change unexpectedly due to competition, technology, regulations or customer preferences. Reactive strategies help firms respond effectively to such unforeseen developments.\n3. Provides Flexibility and Adaptability: A combination of proactive and reactive strategies enables organizations to remain flexible and adapt to changing environmental conditions.\n4. Ensures Survival and Competitive Advantage: Organizations using both strategies can exploit opportunities, tackle threats, handle crises and maintain competitiveness in turbulent business environments.\nThus, a company’s actual strategy is always a blend of proactive planned actions and reactive adaptive responses to changing business circumstances.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "proactive strategy",
+    "reactive strategy"
+   ]
+  }
+ ]
+}

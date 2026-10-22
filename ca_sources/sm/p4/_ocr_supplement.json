@@ -1,0 +1,378 @@
+{
+ "txt/02-material-cost.txt": {
+  "2": {
+   "lines": [
+    "Material Procurement:",
+    "Valuation of Materials Received",
+    "- Bill of Materials",
+    "- Material Requisition Note",
+    "- Purchase Requisition",
+    "- Goods Received Note",
+    "Material Storage & Records:",
+    "- Material Returned Note etc.",
+    "- Bin Cards",
+    "- Stores Ledger",
+    "- Stock Control Cards etc.",
+    "Inventory Control:",
+    "- Setting of various stock levels",
+    "- Economic Order Quantity (EOQ)",
+    "Valuation of Material Issues:",
+    "- Techniques of Inventory Control",
+    "— Cost Price method (FIFO, LIFO",
+    "- Average Price methods",
+    "- Market Price methods",
+    "Accounting & Control of:",
+    "- Notional Price methods",
+    "- Waste, Scrap, Spoilage,",
+    "Defectives etc.",
+    "Consumption of Materials"
+   ],
+   "dict_words": [
+    "average",
+    "bill",
+    "cards",
+    "consumption",
+    "control",
+    "defectives",
+    "fifo",
+    "inventory",
+    "issues",
+    "ledger",
+    "levels",
+    "lifo",
+    "market",
+    "note",
+    "notional",
+    "order",
+    "price",
+    "procurement",
+    "purchase",
+    "quantity",
+    "received",
+    "records",
+    "requisition",
+    "returned",
+    "scrap",
+    "setting",
+    "spoilage",
+    "stock",
+    "storage",
+    "stores",
+    "techniques",
+    "valuation",
+    "various",
+    "waste"
+   ]
+  },
+  "6": {
+   "lines": [
+    "Engineering/Planning",
+    "1. Bill of Materials",
+    "oduction Department/",
+    "lorksho",
+    "2. Material Requisition",
+    "3. Purchase Requisition",
+    "Purchase Department",
+    "Store",
+    "10. Goods delivery with",
+    "Challan or/and Invoice",
+    "5. Quotation",
+    "4. Tender or Request for Proposal",
+    "13. Material Abstract",
+    "12. Material Returned Note",
+    "11. Goods Received Note",
+    "12. Material Returned Note",
+    "-7. Performa Invoice\"",
+    "Suppliers(s)",
+    "--8. Payment etc.",
+    "-9. Invoice"
+   ],
+   "dict_words": [
+    "abstract",
+    "bill",
+    "delivery",
+    "engineering",
+    "goods",
+    "invoice",
+    "note",
+    "payment",
+    "proposal",
+    "purchase",
+    "quotation",
+    "received",
+    "request",
+    "requisition",
+    "returned",
+    "store",
+    "suppliers",
+    "tender"
+   ]
+  }
+ },
+ "txt/03-employee-cost-and-direct-expenses.txt": {
+  "2": {
+   "lines": [
+    "Control",
+    "Attendance and",
+    "Payroll Procedures",
+    "Over-time cost",
+    "Idle time cost",
+    "turnover",
+    "Wage payment and",
+    "Efficiency Rating",
+    "incentive systems",
+    "Procedure"
+   ],
+   "dict_words": [
+    "attendance",
+    "control",
+    "efficiency",
+    "idle",
+    "payment",
+    "payroll",
+    "procedure",
+    "procedures",
+    "rating",
+    "systems",
+    "time",
+    "turnover"
+   ]
+  },
+  "37": {
+   "lines": [
+    "EMPLOVEE COST AND DIRECT ExPENSES",
+    "+ Piece rate with",
+    "minimum guaranteed",
+    "+ Halsey Plan",
+    "Wage Minimum Guranteed Wage",
+    "Standard output"
+   ],
+   "dict_words": [
+    "guaranteed",
+    "minimum",
+    "piece",
+    "standard",
+    "with"
+   ]
+  },
+  "38": {
+   "lines": [
+    "- Piece rate",
+    "Halsey-",
+    "Guaranteed rate",
+    "piece",
+    "Piece rate plan",
+    "per piece",
+    ".Rowan",
+    "Standard output",
+    "Rowan platalsey plan",
+    "Output →"
+   ],
+   "dict_words": [
+    "guaranteed",
+    "output",
+    "piece",
+    "plan",
+    "rate",
+    "rowan",
+    "standard"
+   ]
+  }
+ },
+ "txt/04-overheads-absorption-costing-method.txt": {
+  "2": {
+   "lines": [
+    "Administrative",
+    "Concepts",
+    "related with",
+    "Rates",
+    "Capacity"
+   ],
+   "dict_words": [
+    "administrative",
+    "capacity",
+    "concepts",
+    "rates",
+    "related"
+   ]
+  },
+  "28": {
+   "lines": [
+    "SCOST AND MANAGEMENT ACCOUNTING",
+    "Synopsis of Allocations, Apportionment, Re-apportionment and Absorption",
+    "Expenses related to",
+    "Expenses related to All Departments",
+    "Departments-A",
+    "Allocation",
+    "Apportionment",
+    "Service",
+    "Department-C",
+    "Department-B",
+    "Department-A",
+    "Service",
+    "Department- Department-",
+    "Allocated",
+    "Allocated",
+    "Allocated",
+    "Allocated",
+    "Allocated",
+    "Overheads",
+    "Overheads",
+    "Overheads",
+    "Overheads",
+    "Overheads",
+    "Apportioned",
+    "Apportioned",
+    "Apportioned",
+    "Apportioned Apportioned",
+    "Overheads",
+    "Overheads",
+    "Overheads",
+    "Overheads",
+    "Overheads",
+    "apportioned)apportioned)",
+    "Total",
+    "Total",
+    "Overheads",
+    "Overheads",
+    "Re-apportionment",
+    "Re-apportioned",
+    "Re-apportioned",
+    "Re-apportioned",
+    "Overheads",
+    "Overheads",
+    "Overheads",
+    "Total Overheads",
+    "Total Overheads",
+    "Total Overheads",
+    "Absorption",
+    "Unit Unit UnitUnit Unit Unit Unit Unit Unit Unit Unit Unit"
+   ],
+   "dict_words": [
+    "absorption",
+    "allocated",
+    "allocation",
+    "allocations",
+    "apportioned",
+    "apportionment",
+    "department",
+    "departments",
+    "expenses",
+    "overheads",
+    "related",
+    "service",
+    "synopsis",
+    "total",
+    "unit"
+   ]
+  },
+  "43": {
+   "lines": [
+    "Is there any",
+    "Amount of under/over",
+    "absorption is small",
+    "Due to wrong",
+    "estimation and",
+    "abnormal reasons",
+    "Calculate Supplementary Rate and Charge to Cost of",
+    "Sales A/c. Finished Goods A/c and W-I-P A/c."
+   ],
+   "dict_words": [
+    "abnormal",
+    "amount",
+    "calculate",
+    "charge",
+    "estimation",
+    "finished",
+    "goods",
+    "reasons",
+    "sales",
+    "small",
+    "supplementary",
+    "there",
+    "wrong"
+   ]
+  }
+ },
+ "txt/05-activity-based-costing.txt": {
+  "13": {
+   "lines": [
+    "Overhead Cost",
+    "(Capacity Cost)",
+    "Hierarchy of",
+    "Activities",
+    "Facility Level",
+    "Unit Level",
+    "Batch Level",
+    "Product Level",
+    "Identification of Cost Drivers for each level",
+    "Calculation of Driver Rate for each cost pool at each level"
+   ],
+   "dict_words": [
+    "activities",
+    "batch",
+    "calculation",
+    "capacity",
+    "each",
+    "facility",
+    "hierarchy",
+    "identification",
+    "level",
+    "overhead",
+    "unit"
+   ]
+  }
+ },
+ "txt/07-cost-accounting-systems.txt": {
+  "9": {
+   "lines": [
+    "Materials Control A/c",
+    "Weages Control A/c",
+    "Work in Progress",
+    "Finished Goods",
+    "Cost of Goods Sold",
+    "Selling & Distribution"
+   ],
+   "dict_words": [
+    "distribution",
+    "finished",
+    "goods",
+    "materials",
+    "progress",
+    "selling",
+    "sold",
+    "work"
+   ]
+  }
+ },
+ "txt/14-marginal-costing.txt": {
+  "20": {
+   "lines": [
+    "Toial cost",
+    "Variable",
+    "Number of units"
+   ],
+   "dict_words": [
+    "number",
+    "toial",
+    "units",
+    "variable"
+   ]
+  },
+  "24": {
+   "lines": [
+    "fotal cast line",
+    "Varjable cost line",
+    "Sales line",
+    "Production in '00 units"
+   ],
+   "dict_words": [
+    "cast",
+    "fotal",
+    "line",
+    "production",
+    "units"
+   ]
+  }
+ }
+}

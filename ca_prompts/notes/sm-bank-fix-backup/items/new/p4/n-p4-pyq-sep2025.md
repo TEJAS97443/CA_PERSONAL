@@ -1,0 +1,1341 @@
+<!-- PassBook ICAI bank: docs/ICAI_BANK.md. Text under Instructions, Case, Question, Options and Answer is ICAI's, verbatim. -->
+---
+doc: n-p4-pyq-sep2025
+paper: p4
+kind: pyq
+attempt: sep2025
+qfile: new/p4/pyq-sep2025-a.pdf
+afile: new/p4/pyq-sep2025-a.pdf
+paperfile: new/p4/pyq-sep2025-q.pdf
+choice: q1; any 4 of q2-q6
+q: 8
+accept: 4, 1, 2, 3, 4, 5, 6
+status: checked
+by: tx-03
+date: 2026-10-20
+note: Transcribed from ICAI's Suggested Answers (text PDF), which reproduce every question; the question-paper scan (paperfile) holds Part II only. Part I MCQs: ICAI's answer is only the Answer Key table on p.7 (keys from it, Answer left empty, a: 7). check.py: the accepted numbers are the 4 of the title 'PAPER – 4: COST AND MANAGEMENT ACCOUNTING' (p.1) and the question numbers 1-6, which the Suggested Answers print once ('Question 1' before the question, the answer headed 'Answer' only) while check.py counts each for the question and the answer side. ICAI's wording kept as printed: 'Herbs Infused Mineral Water (no closing quote, MCQs 6-10), 'written off obsolete stores (MCQ 15), 'Al' and 'A1' (Q4(a)), 'Below ₹ 15.000' (Q5(a)), 'Over/Under 3 absorption' (Q5(c)), '₹ 60 lakh vehicles' (Q2(a)), '₹ 1,88,00000' (Q2(a) answer).
+---
+#### Instructions
+**Part II – Descriptive Questions**
+
+**Question No. 1 is compulsory.**
+
+**Attempt any four questions out of the remaining five questions.**
+
+In case, any candidate answers extra question(s)/ sub-question(s) over and above the required number, then only the requisite number of questions first answered in the answer book shall be valued and subsequent extra question(s) answered shall be ignored.
+
+Working notes should form part of the answer.
+
+---
+case: c1
+qno: 1-5
+label: Case Scenario - I
+q: 1-2
+---
+#### Case
+The following information pertains to ABC Limited for the period 1st April, 2024 to 31st March, 2025:
+
+| Sl. No. | Particulars | Amount (₹) | Amount (₹) |
+|---|---|---:|---:|
+| 1 | Royalty paid for production | | 7,76,400 |
+| 2 | Amount paid for power & fuel | | 2,15,200 |
+| 3 | Packing cost paid for re-distribution of Finished Goods | | 70,500 |
+| 4 | Repairs & Maintenance paid for:<br>- Plant & Machinery<br>- Sales office building | <br>65,000<br>80,000 | <br><br>1,45,000 |
+| 5 | Insurance premium paid for Plant & Machinery | | 1,17,520 |
+| 6 | Research & Development cost paid for improvement in production process | | 17,800 |
+| 7 | Depreciation on office building | | 75,500 |
+| 8 | Salary paid to General Manager | | 15,50,000 |
+| 9 | Salary & bonus paid to Sales & Marketing staff | | 11,40,500 |
+| 10 | Receipt from sale of scrap and waste generated during production | | 20,000 |
+| 11 | Value of Stock as on 1st April,2024:<br>- Raw materials<br>- Work-in- process<br>- Finished goods | | <br>5,00,000<br>8,40,000<br>? |
+| 12 | Value of stock as on 31st March,2025:<br>- Raw materials<br>- Work-in- process<br>- Finished goods | | <br>1,10,000<br>6,50,000<br>? |
+
+Other information are as follows:
+
+(i) Raw materials purchased were 15,000 kgs @₹ 300 per kg.
+
+(ii) Freight inwards paid at 4% of the cost of raw materials purchased.
+
+(iii) Wages paid to factory workers was 30% of raw material consumed.
+
+(iv) Closing stock of finished goods was ₹ 9,90,000 more than the opening stock. The average stock of finished goods was ₹ 11,55,000.
+
+(v) Sales during the period 1st April, 2024 to 31st March, 2025 was ₹ 1,10,00,000.
+
+On the basis of above Case Scenario, you are required to answer the following MCQs 1 to 5:
+
+---
+item: m1
+case: c1
+qno: 1
+marks: 2
+type: mcq
+key: A
+tags: cma.sheet.mfg, cma.intro.classify
+difficulty: medium
+q: 2
+a: 7
+---
+#### Question
+What is the Direct employee (labour) cost?
+#### Options
+(A) ₹ 15,21,000
+(B) ₹ 14,67,000
+(C) ₹ 14,62,500
+(D) ₹ 15,29,500
+#### Answer
+#### Approach
+Find the raw material consumed first: purchases plus freight inwards, adjusted for the opening and closing stock of raw materials.
+
+---
+item: m2
+case: c1
+qno: 2
+marks: 2
+type: mcq
+key: C
+tags: cma.sheet.mfg, cma.intro.classify
+difficulty: medium
+q: 2
+a: 7
+---
+#### Question
+What is the Prime cost?
+#### Options
+(A) ₹ 78,88,000
+(B) ₹ 65,91,600
+(C) ₹ 75,82,600
+(D) ₹ 72,92,000
+#### Answer
+#### Approach
+Prime cost is material consumed, direct wages and direct expenses: decide which of the listed payments are direct expenses of production.
+
+---
+item: m3
+case: c1
+qno: 3
+marks: 2
+type: mcq
+key: B
+tags: cma.sheet.mfg
+difficulty: medium
+q: 2
+a: 7
+---
+#### Question
+What is the Factory cost?
+#### Options
+(A) ₹ 78,85,520
+(B) ₹ 79,55,120
+(C) ₹ 75,75,650
+(D) ₹ 76,45,840
+#### Answer
+#### Approach
+Add the factory overheads to prime cost, adjust for the work-in-process stocks and deduct the scrap realised.
+
+---
+item: m4
+case: c1
+qno: 4
+marks: 2
+type: mcq
+key: C
+tags: cma.sheet.mfg
+difficulty: hard
+q: 3
+a: 7
+---
+#### Question
+What is the cost of goods sold?
+#### Options
+(A) ₹ 76,55,520
+(B) ₹ 78,35,850
+(C) ₹ 69,62,920
+(D) ₹ 70,82,500
+#### Answer
+#### Approach
+The two facts on finished goods (the closing stock exceeds the opening by a given amount; their average is given) fix both stocks; cost of goods sold = cost of production + opening finished goods − closing finished goods.
+
+---
+item: m5
+case: c1
+qno: 5
+marks: 2
+type: mcq
+key: D
+tags: cma.sheet.mfg
+difficulty: hard
+q: 3
+a: 7
+---
+#### Question
+What is the amount of Profit?
+#### Options
+(A) ₹ 12,25,350
+(B) ₹ 11,33,000
+(C) ₹ 10,95,500
+(D) ₹ 11,20,580
+#### Answer
+#### Approach
+Add the selling and distribution overheads to the cost of goods sold to get the cost of sales, and compare it with sales.
+
+---
+case: c2
+qno: 6-10
+label: Case Scenario - II
+q: 3-4
+---
+#### Case
+JMS Limited, a soft drink company, is intending to introduce a new product viz. 'Herbs Infused Mineral Water to the market. Annual sales of this new product is estimated at 36,000 units with a selling price of ₹ 75 per unit. The cost estimates for this new product are as follows:
+
+| Elements of Cost | Amount (₹) |
+|---|---:|
+| Direct material consumed | 9,50,000 |
+| Direct labour cost | 5,93,750 |
+| Manufacturing overheads (variable) | 2,85,000 |
+| Manufacturing overheads (fixed) | 1,90,000 |
+| General & Administration overheads (variable) | 1,42,500 |
+| General & Administration overheads (fixed) | 2,13,750 |
+| Selling and distribution overheads (variable) | 80,750 |
+| Selling and distribution overheads (fixed) | 64,250 |
+
+There will be no closing stock of 'Herbs Infused Mineral Water'.
+
+On the basis of above Case Scenario, you are required to answer the following MCQs 6 to 10:
+
+---
+item: m6
+case: c2
+qno: 6
+marks: 2
+type: mcq
+key: C
+tags: cma.mc.absorb, cma.sheet.mfg
+difficulty: easy
+q: 4
+a: 7
+---
+#### Question
+What is the 'Cost of production' and 'Total Cost' as per Absorption costing?
+#### Options
+(A) ₹ 18,28,750 and ₹ 27,00,000
+(B) ₹ 19,71,250 and ₹ 25,00,000
+(C) ₹ 20,18,750 and ₹ 25,20,000
+(D) ₹ 17,67,000 and ₹ 26,20,000
+#### Answer
+
+---
+item: m7
+case: c2
+qno: 7
+marks: 2
+type: mcq
+key: A
+tags: cma.mc.basics
+difficulty: easy
+q: 4
+a: 7
+---
+#### Question
+What is the amount of total variable cost?
+#### Options
+(A) ₹ 20,52,000
+(B) ₹ 19,71,250
+(C) ₹ 23,75,000
+(D) ₹ 25,20,000
+#### Answer
+
+---
+item: m8
+case: c2
+qno: 8
+marks: 2
+type: mcq
+key: B
+tags: cma.mc.basics
+difficulty: easy
+q: 4
+a: 7
+---
+#### Question
+What is the amount of contribution per unit earned at the estimated level of sales?
+#### Options
+(A) ₹ 21
+(B) ₹ 18
+(C) ₹ 23
+(D) ₹ 15
+#### Answer
+
+---
+item: m9
+case: c2
+qno: 9
+marks: 2
+type: mcq
+key: D
+tags: cma.mc.bep
+difficulty: medium
+q: 4
+a: 7
+---
+#### Question
+What is the Break-even Sales (in Rupees)?
+#### Options
+(A) ₹ 32,50,000
+(B) ₹ 23,69,000
+(C) ₹ 16,33,000
+(D) ₹ 19,50,000
+#### Answer
+#### Approach
+Break-even sales = total fixed cost ÷ P/V ratio, with every fixed overhead (manufacturing, administration and selling) in the fixed cost.
+
+---
+item: m10
+case: c2
+qno: 10
+marks: 2
+type: mcq
+key: A
+tags: cma.mc.bep, cma.mc.basics
+difficulty: medium
+q: 4-5
+a: 7
+---
+#### Question
+What will be the profit if the actual sales are 10% less than the estimated sales?
+#### Options
+(A) ₹ 1,15,200
+(B) ₹ 1,62,000
+(C) ₹ 1,71,500
+(D) ₹ 1,51,200
+#### Answer
+#### Approach
+Profit = contribution at the lower sales less the unchanged fixed costs (or margin of safety sales × P/V ratio).
+
+---
+item: m11
+qno: 11
+marks: 2
+type: mcq
+key: D
+tags: cma.std.material
+difficulty: medium
+q: 5
+a: 7
+---
+#### Question
+The Cost Accountant of AQ Limited has provided the following information for investigation of variances:
+
+| | |
+|---|---|
+| Material Cost Variance | ₹ 4,220 (F) |
+| Material Usage Variance | ₹ 18,540 (A) |
+| Material Yield Variance | ₹ 8,390 (F) |
+
+The Management Accountant is not able to comment on the reason of variances as information is not sufficient and seeks your help to find out the correct amount of Material Price Variance and Material Mix Variance. What is the correct amount of Material Price Variance (MPV) and Material Mix Variance (MMV)?
+#### Options
+(A) MPV ₹ 24,880 (A) and MMV ₹ 27,440 (F)
+(B) MPV ₹ 14,320 (A) and MMV ₹ 10,150 (F)
+(C) MPV ₹ 14,320 (F) and MMV ₹ 10,150 (A)
+(D) MPV ₹ 22,760 (F) and MMV ₹ 26,930 (A)
+#### Answer
+#### Approach
+Use the two identities: cost variance = price variance + usage variance, and usage variance = mix variance + yield variance; keep the signs (F positive, A negative).
+
+---
+item: m12
+qno: 12
+marks: 2
+type: mcq
+key: B
+tags: cma.joint.apportion
+difficulty: medium
+q: 5-6
+a: 7
+---
+#### Question
+A company produces two joint products X and Y, using the same type of material. The cost data to produce 200 units of product X and 400 units of product Y are as under:
+
+| | |
+|---|---|
+| Material | ₹ 80,000 |
+| Labour | ₹ 40,000 |
+| Fixed overheads | ₹ 20,000 |
+
+Sales of product X was 200 units @₹ 350 per unit and product Y was 400 units @ ₹ 250 per unit.
+
+Using the Contribution margin method, in what ratio fixed overheads will be apportioned between Product X and Product Y?
+#### Options
+(A) 4:8
+(B) 3:2
+(C) 2:3
+(D) 8:4
+#### Answer
+#### Approach
+Under the contribution margin method the variable costs (material and labour) are shared on physical units and the fixed costs in the ratio of the products' contributions.
+
+---
+item: m13
+qno: 13
+marks: 2
+type: mcq
+key: C
+tags: cma.mat.ratios
+difficulty: easy
+q: 6
+a: 7
+---
+#### Question
+The management of Y Limited has provided the following information:
+
+Opening stock of raw material - ₹ 25,000
+
+Closing stock of raw material - ₹ 75,000
+
+Raw material consumed during the year - ₹ 7,50,000
+
+What will be the number of days for which average inventory of raw material is to be held by Y Limited? Assume 360 days in a year.
+#### Options
+(A) 14 days
+(B) 15 days
+(C) 24 days
+(D) 26 days
+#### Answer
+
+---
+item: m14
+qno: 14
+marks: 2
+type: mcq
+key: A
+tags: cma.proc.accounts
+difficulty: medium
+q: 6
+a: 7
+---
+#### Question
+A product passes through Process-I and Process-II. Materials issued to Process-1 amounted to ₹ 1,60,000. Wages ₹ 70,000 and Manufacturing Overheads ₹ 58,000 were charged to Process 1. Anticipated normal loss was 6% of input. 9,200 units of output were produced and transferred to Process-II. There was no opening stock. Input of raw material issued to Process-1 was 10,000 units. Scrap has a realizable value of ₹ 10 per unit. What is the value of units transferred to Process-II?
+#### Options
+(A) ₹ 2,76,000
+(B) ₹ 2,82,000
+(C) ₹ 2,88,000
+(D) ₹ 2,78,000
+#### Answer
+#### Approach
+Cost per normal unit = (total cost − scrap value of the normal loss) ÷ (input − normal loss units); the output above normal output is an abnormal gain valued at that rate.
+
+---
+item: m15
+qno: 15
+marks: 2
+type: mcq
+key: C
+tags: cma.oh.underover
+difficulty: medium
+q: 6-7
+a: 7
+---
+#### Question
+PMP Limited manufactures a single product and absorbs the production overheads at a pre-determined rate of ₹ 20 per machine hour. At the end of financial year 2024-25, it has been found that actual production overheads incurred were ₹ 12,00,000. It included ₹ 80,000 on account of 'written off obsolete stores and ₹ 30,000 being the wages paid for the strike period under an award. The actual machine hours worked during the period were 50,000 hours. The production and sale was 20,000 units and 18,000 units respectively. What will be the amount of under-absorbed production overhead to be charged to Cost of Sales?
+#### Options
+(A) ₹ 91,000
+(B) ₹ 90,000
+(C) ₹ 81,000
+(D) ₹ 80,000
+#### Answer
+#### Approach
+Take the abnormal items (obsolete stores written off, strike-period wages) out of actual overheads first; the remaining under-absorption is shared between cost of sales and closing stock in the ratio of units sold and units in stock.
+
+---
+item: q1a
+qno: 1
+part: (a)
+marks: 5
+type: descriptive
+tags: cma.sheet.quote, cma.intro.behaviour
+difficulty: medium
+q: 8
+a: 9-10
+---
+#### Question
+RST Ltd. manufactures a standard line of office desks. The company operates with a monthly manufacturing capacity of 5,000 units. The following data relates to the output and cost of two consecutive months of production:
+
+| Month | Units Manufactured | Direct Material (₹) | Direct Wages (₹) | Factory Overheads (₹) |
+|---|---:|---:|---:|---:|
+| April | 3,000 | 15,00,000 | 6,00,000 | 3,50,000 |
+| May | 3,800 | 19,00,000 | 7,60,000 | 4,30,000 |
+
+In the month of June, the number of units manufactured will be 4,000 units. However, the prices of direct material will increase by 10% and direct wages will increase by 15%. The fixed factory overheads will reduce by 20%.
+
+The company desires to earn a profit of 11% on selling price.
+
+Calculate the selling price per desk in the month of June when the monthly output is 4,000 units.
+#### Answer
+**Statement of total cost and Sales**
+
+| Particulars | Amount (₹) |
+|---|---:|
+| Direct Material (15,00,000/3,000 x 4,000) x 110% | 22,00,000 |
+| Direct Labour (6,00,000/3,000 x 4,000) x 115% | 9,20,000 |
+| Factory Overheads: | |
+| Variable (4,000 x 100) | 4,00,000 |
+| Fixed (50,000 x 80%) | 40,000 |
+| Total Cost | 35,60,000 |
+| Profit (Bal. Fig) | 4,40,000 |
+| Sales (35,60,000/89%) | 40,00,000 |
+| No of units | 4,000 |
+| Selling Price per unit | **1,000** |
+
+**Calculation of fixed and variable factory overhead**
+
+Variable Factory overhead (per unit) = $\dfrac{4{,}30{,}000 - 3{,}50{,}000}{3{,}800 - 3{,}000}$ = ₹ 100
+
+Fixed factory overheads {3,50,000 - (3,000 x 100)} = ₹ 50,000
+#### Approach
+Split the factory overheads into variable and fixed by the high-low method on the two months; direct material and wages are variable, then apply the price changes and gross the cost up for a profit of 11% on selling price.
+
+---
+item: q1b
+qno: 1
+part: (b)
+marks: 5
+type: descriptive
+tags: cma.emp.incentives
+difficulty: medium
+q: 8-9
+a: 10-11
+---
+#### Question
+The following information relates to two workers - Ajoy and Bijoy who are engaged in producing the same product by using the same material:
+
+| | |
+|---|---|
+| Time allowed to make the product: | 40 hours |
+| Actual time taken to complete the product | 32 hours by Ajoy<br>30 hours by Bijoy |
+| Normal Wage Rate | Same for both |
+| Bonus payment plan | Halsey 50% plan for Ajoy<br>Rowan plan for Bijoy |
+| Factory overhead recovered | @₹ 360 per hour for actual time taken by each worker. |
+| Factory cost for the product for each worker | ₹ 1,24,800 Ajoy<br>₹ 1,24,800 Bijoy |
+
+**Required:**
+
+(i) Compute the normal hourly wage rate.
+
+(ii) Compute the cost of material used.
+#### Answer
+**Step 1:** Let X be the cost of material and Y be the normal rate of wages per hour.
+
+**Step 2:** Factory Cost of Worker ‘Ajoy’
+
+| | (₹) |
+|---|---:|
+| A. Material Cost | X |
+| B. Wages (Halsey Plan) | 32 Y |
+| C. Bonus = 50% of (SH - AH) × R | 4 Y |
+| = 50% of (40 - 32) × R | |
+| D. Overheads (32 hours × ₹ 360 per hour) | 11,520 |
+| E. Factory Cost | 1,24,800 |
+| Or X + 36 Y = ₹1,24,800 (Given) – ₹11,520 = ₹ 1,13,280………...equation (i) | |
+
+**Step 3 :** Factory Cost of Worker ‘Bijoy’
+
+| | (₹) |
+|---|---:|
+| A. Material Cost | X |
+| B. Wages (Rowan Plan) | 30 Y |
+| C. Bonus = 30/40 × (40 - 30) × Y | 7.5 Y |
+| D. Overheads (30 hours × ₹ 360 per hour)) | 10,800 |
+| E. Factory Cost | 1,24,800 |
+| Or X + 37.5 Y = ₹ 1,24,800 (Given) – ₹ 10,800 = ₹ 1,14,000……...equation (ii) | |
+
+**Step 4:** Subtracting equation (i) from equation (ii)
+
+1.5Y = ₹ 720
+
+Y = ₹ 480 per hour
+
+(a) The normal rate of wages: ₹ 480 per hour
+
+(b) The cost of material: X + 36 × ₹ 480 = ₹ 1,13,280
+
+Or X = ₹ 1,13,280 – ₹ 17,280 = ₹ 96,000
+
+**Statement of the Factory Cost of the product made by the two workers**
+
+| | ‘Ajoy’ (₹) | ‘Bijoy’ (₹) |
+|---|---:|---:|
+| Material cost | 96,000 | 96,000 |
+| Direct Wages | 15,360<br>(32 x ₹ 480) | 14,400<br>(30 x ₹ 480) |
+| Bonus | 1,920<br>(4 x ₹ 480) | 3,600<br>(7.5 x ₹ 480) |
+| Factory Overhead | 11,520 | 10,800 |
+| Factory Cost | 1,24,800 | 1,24,800 |
+#### Approach
+Let the material cost and the hourly rate be the two unknowns: each worker's factory cost gives one equation (time wages + bonus under his plan + overheads on his actual hours).
+
+---
+item: q1c
+qno: 1
+part: (c)
+marks: 4
+type: descriptive
+tags: cma.std.voh, cma.std.foh
+difficulty: medium
+q: 9
+a: 11-12
+---
+#### Question
+MD Limited has furnished following information for the month of August, 2025:
+
+| | |
+|---|---|
+| Standard Variable Overhead rate | ₹ 3 per hour |
+| Standard Hours for per unit of production | 5 hours |
+| Actual Output | 15,560 units |
+| Variable Overhead Efficiency Variance | ₹ 11,400 (F) |
+| Variable Overhead Expenditure Variance | ₹ 37,000 (A) |
+| Standard Fixed Overhead rate | ₹ 2 per hour |
+| Actual Fixed Overheads | ₹ 1,85,000 |
+
+You are required to calculate:
+
+(i) Actual Hours
+
+(ii) Actual Variable Overhead rate per hour
+
+(iii) Variable Overhead Cost Variance
+
+(iv) Fixed Overhead Cost Variance
+#### Answer
+(i) Actual Hours
+
+Variable overhead efficiency variance:
+
+(Standard hours for Actual Production – Actual Hours) x Standard Rate
+
+{(15,560 x 5) - Actual Hours} x 3 = ₹ 11,400 F
+
+Actual Hours = 74,000
+
+(ii) Actual Variable Overhead rate per hour
+
+Variable overhead expenditure Variance:
+
+Std. overhead for Actual hours – Actual Variable Overhead
+
+(74,000 x 3) – Actual Variable overheads = ₹ 37,000 (A)
+
+Actual Variable overhead = ₹ 2,59,000
+
+Actual Variable Rate per hour = $\dfrac{2{,}59{,}000}{74{,}000}$ = ₹ 3.5 per hour
+
+(iii) Variable overhead Cost Variance
+
+Variable overhead Efficiency Variance + Variable overhead Expenditure Variance
+
+11,400 (F) + 37,000 (A) = ₹ 25,600(A)
+
+(iv) Fixed Overhead cost Variance
+
+Fixed overhead Cost Variance:
+
+(Absorbed Fixed Overheads) - (Actual Fixed Overheads)
+
+(SH × SR) – (AH × AR)
+
+(77,800 x 2) – 1,85,000 = ₹29,400 (A)
+#### Approach
+Work backwards from the efficiency variance: standard hours for actual output are known, so the variance gives the actual hours; the expenditure variance then gives the actual variable overheads.
+
+---
+item: q2a
+qno: 2
+part: (a)
+marks: 10
+type: descriptive
+tags: cma.svc.others, cma.svc.basics
+difficulty: medium
+q: 12-13
+a: 14-15
+---
+#### Question
+XYZ Highway Toll Plaza Limited operates a toll plaza on a 100 km highway and collects tolls from vehicles passing through the plaza. The company has estimated that every year a total of ₹ 60 lakh vehicles (60% Passenger vehicles, 15% Heavy Commercial Vehicles and rest are Buses) will be using the highway during the 15 years toll collection tenure.
+
+Toll Operating and Maintenance cost for the month (30 days in a month) are as follows:
+
+(1) Personnel Costs (Salaries):
+
+Collection Personnel:
+
+- Number of shifts: 3
+- Number of toll collection personnel per shift: 10
+- Salary per day per person: ₹ 800
+
+Supervisors:
+
+- Number of shifts: 2
+- Number of supervisors per shift: 3
+- Salary per day per supervisor: ₹ 1,200
+
+Security Personnel:
+
+- Number of shifts: 3
+- Number of security personnel per shift: 10
+- Salary per day per security person: ₹ 500
+
+Toll Plaza Manager:
+
+- Number of shifts: 2
+- Number of managers per shift: 1
+- Salary per day per manager: ₹ 2,000
+
+(2) Other Annual costs:
+
+| | |
+|---|---:|
+| Electricity | ₹ 14,40,000 |
+| Telephone & Communication Cost | ₹ 2,40,000 |
+| Maintenance Cost | ₹ 60,00,000 |
+| Depreciation and amortization | ₹ 12,00,00,000 |
+| Insurance and safety cost | ₹ 15,00,000 |
+| Interest expense incurred for servicing term loans | ₹ 7,83,48,000 |
+
+The toll rate per vehicle is to be fixed as under:
+
+| | |
+|---|---|
+| Heavy commercial vehicles | 500% of toll rate for Passenger vehicle |
+| Bus | 400% of toll rate for Passenger vehicle |
+
+**Required:**
+
+(i) Calculate the total cost per month for the toll plaza.
+
+(ii) The company aims to achieve a 20% profit margin over total takings. Calculate the toll rate to be charged for each type of vehicle. (Assume a 360 days year)
+#### Answer
+(i) **Statement of Cost**
+
+| Particulars | Amount (₹) |
+|---|---:|
+| **Personnel Cost:** | |
+| Collection Personnel (3 x 10 x 800 x 30) | 7,20,000 |
+| Supervisor (2 x 3 x 1,200 x 30) | 2,16,000 |
+| Security Personnel (3 x 10 x 500 x 30) | 4,50,000 |
+| Toll Plaza manager (2 x 1 x 2,000 x 30) | 1,20,000 |
+| **Other Cost:** | |
+| Electricity | 1,20,000 |
+| Telephone and Communication | 20,000 |
+| Maintenance Cost | 5,00,000 |
+| Depreciation and Amortization | 1,00,00,000 |
+| Insurance and Safety Cost | 1,25,000 |
+| Interest Expense | 65,29,000 |
+| **Total Cost** | **1,88,00,000** |
+
+(ii)
+
+| | |
+|---|---|
+| Total cost | ₹ 1,88,00000 |
+| Profit | ₹ 47,00,000 |
+| Takings (1,88,00,000/80%) | ₹ 2,35,00,000 |
+| No. of vehicles (monthly) | |
+| Passenger vehicles (5,00,000 x 60%) | 3,00,000 |
+| Heavy Commercial vehicles (5,00,000 x 15%) | 75,000 |
+| Buses (5,00,000 x 25%) | 1,25,000 |
+| Let the toll rate for Passenger vehicles be | X |
+| Then toll rate for Heavy Commercial vehicles be | 5X |
+| Then toll rate for Buses be | 4X |
+
+Therefore
+
+3,00,000\*X +75,000\*5X +1,25,000\*4X = 11,75,000X = ₹ 2,35,00,000
+
+X = ₹ 2,35,00,000/11,75,000 = ₹ 20
+
+**Toll Rate (per vehicle)**
+
+| | |
+|---|---:|
+| Passenger vehicles | 20 |
+| Heavy Commercial vehicles | 100 |
+| Buses | 80 |
+#### Approach
+Convert everything to one month: the salaries are per day (30 days) and the other costs annual; the vehicles too (annual traffic ÷ 12). Then gross the cost up for a 20% margin on takings and express the other vehicles' tolls as multiples of the passenger toll.
+
+---
+item: q2b
+qno: 2
+part: (b)
+marks: 4
+type: descriptive
+tags: cma.oh.secondary
+difficulty: easy
+q: 13-14
+a: 15-16
+---
+#### Question
+A factory has three production departments, P1, P2, P3 and two service departments S1, and S2 Both the service departments are independent and provide services to each other. Following is the detail of expenses of each service department:
+
+| Department | Amount (₹) |
+|---|---:|
+| S1 | 1,60,000 |
+| S2 | 2,40,000 |
+
+Further the expenses of department S1 and S2 are apportioned on the following basis:
+
+| | P1 | P2 | P3 | S1 | S2 |
+|---|---:|---:|---:|---:|---:|
+| S1 | 25% | 35% | 20% | - | 20% |
+| S2 | 35% | 30% | 25% | 10% | - |
+
+You are required to apportion the expenses of departments S1 and S2 to production departments P1, P2 and P3 using Simultaneous Equation Method.
+#### Answer
+The total expenses of the two service departments will be determined as follows:
+
+S1 = 1,60,000 + 0.10 S2
+
+S2 = 2,40,000 + 0.20 S1
+
+Substituting the value of S1,
+
+S2 = 2,40,000 + 0.20 (1,60,000 + 0.1 S2)
+
+= 2,40,000 + 32,000 + 0.02 S2
+
+= 2,72,000 + 0.02 S2
+
+S2 - 0.02 S2 = 2,72,000
+
+S2 = $\left(\dfrac{2{,}72{,}000}{0.98}\right)$ = ₹ 2,77,551
+
+The total of expenses of the S2 is ₹ 2,77,551 and that of the S1 is ₹ 1,87,755 *i.e.*, ₹ 1,60,000 + 0.1 x ₹ 2,77,551.
+
+The expenses will be allocated to the production departments as under:
+
+| | Production Department | | |
+|---|---:|---:|---:|
+| | **Dept.-P1** | **Dept.-P2** | **Dept.-P3** |
+| S1 (25%, 35% and 20% of ₹1,87,755) | 46,939 | 65,714 | 37,551 |
+| S2(35%, 30% and 25% of ₹ 2,77,551) | 97,143 | 83,265 | 69,388 |
+| Total | 1,44,082 | 1,48,979 | 1,06,939 |
+
+The total of expenses apportioned to P1, P2 and P3 is ₹ 4,00,000.
+#### Approach
+Write each service department's total cost as its own expenses plus its share of the other's total, and solve the two equations before apportioning.
+
+---
+item: q3a
+qno: 3
+part: (a)
+marks: 8
+type: descriptive
+tags: cma.abc.compute, cma.abc.concept
+difficulty: medium
+q: 16-17
+a: 18-19
+note: ICAI prints a single marks note (8 Marks) for requirements (i) and (ii); one item.
+---
+#### Question
+A consultancy firm provides project management service in three sectors Technology, Healthcare and Education. The Project management service covers development and implementation of software for various MIS requirements of its clients. The fees charged per project is as follows:
+
+Technology: ₹ 90,000
+
+Healthcare: ₹ 1,20,000
+
+Education: ₹ 1,10,000
+
+The company uses Activity-Based Costing (ABC) to allocate its overhead costs. For the month of August 2025, the following informations are provided:
+
+| Service Sector | Number of Projects | Software Development Hours | Consulting Hours | Number of Client Meetings |
+|---|---|---|---|---:|
+| Technology | 20 projects | 10,000 hours | 6,400 hours | 30 |
+| Healthcare | 10 projects | 7,000 hours | 5,600 hours | 20 |
+| Education | 10 projects | 5,000 hours | 2,000 hours | 40 |
+
+**Overhead Costs and Activities:**
+
+| Activity | Total Cost (₹) | Cost Driver |
+|---|---:|---|
+| Management of Projects | 8,10,000 | Number of projects |
+| Consulting Service Delivery | 4,20,000 | Consulting hours |
+| Client Interaction & Meetings | 6,30,000 | Number of client meetings |
+| Administration and Support | 15,40,000 | Software development hours |
+
+**You are required to:**
+
+(i) Prepare a statement showing the total cost and per project cost of project management service for each service sector Technology, Healthcare and Education using Activity Based Costing Approach.
+
+(ii) Identify the most profitable sector based on profitability percentage on fees charged.
+#### Answer
+(i) **Statement Showing “Total cost and Cost *per project* - Activity Based Costing”**
+
+| Particulars | Technology | Healthcare | Education |
+|---|---:|---:|---:|
+| Management of Project @ ₹ 20,250 per project (20,10,10) | 4,05,000 | 2,02,500 | 2,02,500 |
+| Consulting Service Delivery @ ₹30 per hour (6,400, 5,600, 2,000) | 1,92,000 | 1,68,000 | 60,000 |
+| Client Interaction and Meeting @ ₹ 7,000 per meeting (30,20,40) | 2,10,000 | 1,40,000 | 2,80,000 |
+| Administration and Support @ ₹ 70 per hour (10,000, 7,000, 5,000) | 7,00,000 | 4,90,000 | 3,50,000 |
+| Total Cost | 15,07,000 | 10,00,500 | 8,92,500 |
+| Project | 20 | 10 | 10 |
+| Cost per Project | 75,350 | 1,00,050 | 89,250 |
+| Fee Charged | 90,000 | 1,20,000 | 1,10,000 |
+| % of fee Charged | 119.44 | 119.94 | 123.25 |
+| **OR** | | | |
+| Profit | 14,650 | 19,950 | 20,750 |
+| Profitability % | 16.28% | 16.63% | 18.86% |
+
+**(ii) Education is the most profitable sector.**
+
+**Working Note:**
+
+**Statement showing calculation of Cost Driver rate**
+
+| Activity | Total Cost | Cost Driver Basis | Cost Driver | Cost Driver Rate |
+|---|---:|---|---:|---:|
+| | **(₹)** | | **(Units)** | **(₹)** |
+| Management of Project | 8,10,000 | No of Projects | 40 | 20,250 per project |
+| Consulting Service Delivery | 4,20,000 | Consulting Hours | 14,000 | 30 per hour |
+| Client Interaction and Meeting | 6,30,000 | No of client meeting | 90 | 7,000 per meeting |
+| Administration and Support | 15,40,000 | Software Development Hours | 22,000 | 70 per hour |
+#### Approach
+Find each activity's cost driver rate first (activity cost ÷ total driver units across the three sectors), then charge each sector by its own driver units and divide by its number of projects.
+
+---
+item: q3b
+qno: 3
+part: (b)
+marks: 6
+type: descriptive
+tags: cma.mc.keyfactor
+difficulty: easy
+q: 17-18
+a: 19-20
+---
+#### Question
+SM Limited is the manufacturer of the two products A & B. The following particulars are extracted from the records of the company:
+
+| | A | B |
+|---|---:|---:|
+| Maximum Capacity | 5,000 units | 3,500 units |
+| Selling price per unit | ₹ 1,000 | ₹ 1,500 |
+| Cost per unit: | | |
+| Raw Material @ ₹ 20 per kg | ₹ 200 | ₹ 400 |
+| Wages @ 10 per hour | ₹ 150 | ₹ 100 |
+| Direct Expenses | ₹ 200 | ₹ 300 |
+| Variable overhead | ₹ 80 | ₹ 120 |
+
+The total fixed overhead for product A is ₹ 2,50,000 and for product B is ₹ 3,50,000.
+
+The company manufactures both the products using the same grade of material. The company is facing a constraint of raw material which is available in limited quantity of 1,10,000 kgs only.
+
+**Required:**
+
+Determine the optimum product mix, considering material as the limiting factor, to generate maximum profit and calculate the maximum profit.
+#### Answer
+| | A | B |
+|---|---:|---:|
+| | **(₹)** | **(₹)** |
+| Selling Price | 1,000 | 1,500 |
+| Less: Direct Materials | 200 | 400 |
+| Direct Labour | 150 | 100 |
+| Direct Expenses | 200 | 300 |
+| Variable Overheads | 80 | 120 |
+| Contribution per unit | 370 | 580 |
+| Raw Material required per unit | 10 kg | 20 kg |
+| Contribution per kg of raw material | 37 | 29 |
+| Rank | I | II |
+
+**Calculation of Product Mix:**
+
+| | | |
+|---|---|---|
+| Raw material available | 1,10,000 kg | |
+| Product A (5,000 x 10) | 50,000 kg | 5,000 units |
+| Product B (3,000 x 20) | 60,000 kg | 3,000 units |
+
+**Statement of Profit:**
+
+| Particulars | A | B | Total |
+|---|---:|---:|---:|
+| Units | 5,000 | 3,000 | |
+| Total Contribution | 18,50,000 | 17,40,000 | 35,90,000 |
+| Fixed Cost | 2,50,000 | 3,50,000 | 6,00,000 |
+| Profit | 16,00,000 | 13,90,000 | 29,90,000 |
+#### Approach
+Rank the products by contribution per kg of the scarce material, fill the higher-ranked product up to its maximum capacity, and give the remaining material to the other.
+
+---
+item: q4a
+qno: 4
+part: (a)
+marks: 9
+type: descriptive
+tags: cma.bud.functional
+difficulty: medium
+q: 20-21
+a: 21-22
+note: ICAI prints a single marks note (9 Marks) for requirements (i) and (ii); one item. The product is printed 'Al' in the first sentence and 'A1' afterwards (ICAI's text, kept).
+---
+#### Question
+SVS Limited manufactures a single product 'Al'. The company has estimated its quarter-wise sales for the next year as follows:
+
+| Quarter | I | II | III | IV |
+|---|---:|---:|---:|---:|
+| Sales (Units) | 72,000 | 90,000 | 99,000 | 1,08,000 |
+
+In the beginning of the year, the opening stock of finished goods is 14,400 units and the company expects to maintain the closing stock of finished goods at 29,400 units at the end of the year. The production pattern in each quarter is based on 80% of the sales of the current quarter and 20% of the sales of the next quarter. The company maintains this 20% of sales of next quarter as closing stock of current quarter.
+
+The opening stock of raw materials in the beginning of the year is 24,000 kgs and the closing stock at the end of the year is required to be maintained at 12,000 kgs. Each unit of finished output requires 2 kgs of raw material. The production time required to produce one unit of product 'A1' is 5 hours. During the production, the product uses two machines as under:
+
+| Product | Machine A | Machine B | Total |
+|---|---|---|---|
+| A1 | 2 hours | 3 hours | 5 hours |
+
+Machine A requires 100 hours of maintenance after a use of 5000 hours and Machine B requires 100 hours of maintenance after use of 3000 hours.
+
+**Required:**
+
+(i) Prepare quarter-wise Production Budget (in units) and the Raw Material Consumption budget (in quantity) for the next year.
+
+(ii) Calculate total machine hours including maintenance time required during the year for Machine A and Machine B to manufacture product 'A1'.
+#### Answer
+(i) **Production Budget (in units)**
+
+| Quarters | I<br>Units | II<br>Units | III<br>Units | IV<br>Units | Total<br>Units |
+|---|---:|---:|---:|---:|---:|
+| Sales | 72,000 | 90,000 | 99,000 | 1,08,000 | 3,69,000 |
+| Production in current quarter | 57,600 | 72,000 | 79,200 | 86,400 | |
+| (80% of the sale of current quarter) | | | | | |
+| Production for next quarter | 18,000 | 19,800 | 21,600 | 29,400 | |
+| (20% of the sale of next quarter) | | | | | |
+| Total production | 75,600 | 91,800 | 1,00,800 | 1,15,800 | 3,84,000 |
+
+**Raw material consumption budget in quantity**
+
+| Quarters | I | II | III | IV | Total |
+|---|---:|---:|---:|---:|---:|
+| Units to be produced in each quarter: (A) | 75,600 | 91,800 | 1,00,800 | 1,15,800 | 3,84,000 |
+| Raw material consumption p.u. (kg.): (B) | 2 | 2 | 2 | 2 | |
+| Total raw material consumption (Kg.): (A × B) | 1,51,200 | 1,83,600 | 2,01,600 | 2,31,600 | 7,68,000 |
+
+(ii)
+
+| | Machine A | Machine B |
+|---|---:|---:|
+| Units to be produced | 3,84,000 | 3,84,000 |
+| Machine hours per unit | 2 | 3 |
+| Total Hours | 7,68,000 | 11,52,000 |
+| Maintenance Hours | 15,360 | 38,400 |
+| **Total machine hours including maintenance** | **7,83,360** | **11,90,400** |
+#### Approach
+Each quarter's production is 80% of its own sales plus 20% of the next quarter's sales (the last quarter's 20% being the year-end closing stock); material consumption is production × 2 kg, and maintenance hours are added per block of machine running hours.
+
+---
+item: q4b
+qno: 4
+part: (b)
+marks: 5
+type: descriptive
+tags: cma.sys.ledgers
+difficulty: easy
+q: 21
+a: 22-23
+---
+#### Question
+Sundar Limited maintains its Cost Accounting System on the basis of Non-Integral System of Accounting. The following transactions arose during the month of August, 2025:
+
+| Particulars | Amount (₹) |
+|---|---:|
+| Materials purchased on credit | 10,25,000 |
+| Materials issued to production (Direct) | 5,55,000 |
+| Direct Wages allocated to production | 3,00,000 |
+| Factory Overheads over-absorbed | 2,20,000 |
+| Administration Overheads under-absorbed | 1,40,000 |
+
+**Required:**
+
+Journalize the above-mentioned transactions in Cost Books maintained on Non-Integrated System of Accounting.
+#### Answer
+**Journal entries are as follows:**
+
+| | | | Dr. | Cr. |
+|---|---|---|---:|---:|
+| | | | **(₹)** | **(₹)** |
+| 1. | Stores Ledger Control A/c | Dr. | 10,25,000 | |
+| | To Cost Ledger Control A/c | | | 10,25,000 |
+| | (Materials purchased) | | | |
+| | **OR** | | | |
+| | Material Control A/c | Dr. | 10,25,000 | |
+| | To Cost Ledger Control A/c | | | 10,25,000 |
+| | Stores Ledger Control A/c | Dr. | 10,25,000 | |
+| | To Material Control A/c | | | 10,25,000 |
+| 2. | Work-in-Process Control A/c | Dr. | 5,55,000 | |
+| | To Store Ledger Control A/c | | | 5,55,000 |
+| | (Materials issued to production) | | | |
+| 3. | Work-in-Process Control A/c | Dr. | 3,00,000 | |
+| | To Wages Control A/c | | | 3,00,000 |
+| | (Direct wages charged to production) | | | |
+| 4. | Factory Overheads Control A/c | Dr. | 2,20,000 | |
+| | To Costing Profit & Loss A/c | | | 2,20,000 |
+| | (Factory overheads over absorbed) | | | |
+| 5. | Costing Profit & Loss A/c | Dr. | 1,40,000 | |
+| | To Administrative Overhead Control A/c | | | 1,40,000 |
+| | (Admin overheads under absorbed) | | | |
+#### Approach
+In cost books the Cost Ledger Control Account stands for every outside party, so a credit purchase is credited to it; over-absorption is a credit and under-absorption a debit to Costing Profit & Loss.
+
+---
+item: q5a
+qno: 5
+part: (a)
+marks: 8
+type: descriptive
+tags: cma.mat.techniques
+difficulty: easy
+q: 23-24
+a: 24-25
+note: "Below ₹ 15.000" (with a point) is ICAI's printing in the question.
+---
+#### Question
+TS Limited is suffering from material deterioration and finds that their valuable stocks are not properly stored. The company furnishes following information:
+
+| Serial No. | Material Name | Units | Total Cost (₹) |
+|---|---|---:|---:|
+| 1 | MA | 54,105 | 14,855 |
+| 2 | MB | 32,300 | 12,823 |
+| 3 | MC | 28,600 | 13,972 |
+| 4 | MD | 10,250 | 47,685 |
+| 5 | ME | 23,410 | 39,015 |
+| 6 | MF | 2,580 | 1,08,260 |
+| 7 | MG | 8,900 | 89,410 |
+| 8 | MH | 4,855 | 98,980 |
+
+Store-keeper of the company argues that he has taken proper care in storing three types of material named MA, MB and MC as they are in bulk quantity. He further argues that only a few units of material MG and MH has been deteriorated due to bad weather.
+
+The management of TS Limited wants to get him aware about value of different items.
+
+**Required:**
+
+Rank the materials and draw a plan of ABC selective control by using the following basis of selective control.
+
+| | |
+|---|---|
+| ₹ 50,000 & above | 'A' category items |
+| ₹ 15,000 to ₹ 50,000 | 'B' category items |
+| Below ₹ 15.000 | 'C' category items |
+#### Answer
+**Statement of Total Cost and Ranking**
+
+| Item | Material Name | Units | % of Total units | Total cost (₹) | % of Total cost | Ranking |
+|---|---|---:|---:|---:|---:|---:|
+| 1 | MA | 54,105 | 32.80 | 14,855 | 3.49 | 6 |
+| 2 | MB | 32,300 | 19.58 | 12,823 | 3.02 | 8 |
+| 3 | MC | 28,600 | 17.33 | 13,972 | 3.29 | 7 |
+| 4 | MD | 10,250 | 6.21 | 47,685 | 11.22 | 4 |
+| 5 | ME | 23,410 | 14.19 | 39,015 | 9.18 | 5 |
+| 6 | MF | 2,580 | 1.56 | 1,08,260 | 25.47 | 1 |
+| 7 | MG | 8,900 | 5.39 | 89,410 | 21.04 | 3 |
+| 8 | MH | 4,855 | 2.94 | 98,980 | 23.29 | 2 |
+| | | 1,65,000 | 100 | 4,25,000 | 100 | |
+
+Basis for selective control
+
+₹ 50,000 & above -- ‘A’ items
+
+₹ 15,000 to 50000 -- ‘B’ items
+
+Below ₹ 15,000 -- ‘C’ items
+
+On this basis, a plan of A B C selective control is given below:
+
+| Ranking | Item Nos. | % of Total units | Cost (₹) | % of Total Cost | Category |
+|---|---:|---:|---:|---:|---|
+| 1 | 6 | 1.56 | 1,08,260 | 25.47 | |
+| 2 | 8 | 2.94 | 98,980 | 23.29 | |
+| 3 | 7 | 5.39 | 89,410 | 21.04 | |
+| **Total** | **3** | **9.89** | **2,96,650** | **69.80** | **A** |
+| 4 | 4 | 6.21 | 47,685 | 11.22 | |
+| 5 | 5 | 14.19 | 39,015 | 9.18 | |
+| **Total** | **2** | **20.40** | **86,700** | **20.40** | **B** |
+| 6 | 1 | 32.80 | 14,855 | 3.49 | |
+| 7 | 3 | 17.33 | 13,972 | 3.29 | |
+| 8 | 2 | 19.58 | 12,823 | 3.02 | |
+| **Total** | **3** | **69.71** | **41,650** | **9.80** | **C** |
+| **Grand Total** | **8** | **100** | **4,25,000** | **100** | |
+#### Approach
+Rank by total cost (value), not by units: work out each item's share of total units and of total cost, then group them by the given value bands.
+
+---
+item: q5b
+qno: 5
+part: (b)
+marks: 3
+type: descriptive
+tags: cma.mat.eoq
+difficulty: easy
+q: 24
+a: 26
+---
+#### Question
+A company manufactures electronic gadgets and uses a specialized component. The company incurs an ordering cost of ₹ 1,250 per order. The carrying cost for storing the specialized components is ₹ 25 per unit per annum. The company's annual production is 90,000 gadgets, and each gadget requires one component for its assembly.
+
+**You are required to calculate:**
+
+(i) Economic Order Quantity
+
+(ii) Number of orders to be placed in a year
+#### Answer
+EOQ = $\sqrt{\dfrac{2 \times A \times O}{C}}$
+
+A = Units consumed during year = 90,000 components
+
+O = Ordering cost per order = ₹ 1,250
+
+C = Inventory carrying cost per unit per annum = ₹ 25
+
+EOQ = $\sqrt{\dfrac{2 \times 90{,}000 \times 1{,}250}{25}}$ = 3,000 components
+
+**No. of orders to be placed in a year**
+
+= $\dfrac{\text{Total consumption of materials per annum}}{\text{EOQ}}$
+
+= $\dfrac{90{,}000}{3{,}000}$ = 30 orders per year
+
+---
+item: q5c
+qno: 5
+part: (c)
+marks: 3
+type: descriptive
+tags: cma.oh.underover
+difficulty: easy
+q: 24
+a: 26
+note: The "3" in "Over/Under 3 absorption" is printed so in ICAI's question (kept verbatim; it reads like a stray mark).
+---
+#### Question
+Complete the table regarding accounting entries pertaining to Over/Under 3 absorption of overheads:
+
+| Absorption of overhead | Accounts | Dr/Cr | Calculation of Amount Formula |
+|---|---|---|---|
+| Under-absorption | Stock of Finished goods Account | | |
+| Over-absorption | Stock of Semi-finished goods (WIP) Account | | |
+| Under-absorption | Cost of Sales Account | | |
+#### Answer
+**Accounting entries pertaining to over/under absorption of overheads**
+
+| Absorption of Overhead | Accounts | Dr/Cr | Calculation of Amount Formula |
+|---|---|---|---|
+| Under-absorption | Stock of Finished Goods Account | Dr | Units of Finished Stock x Supplementary rate per unit |
+| Over-absorption | Stock of Semi-finished Goods (WIP) Account | Cr | Equivalent Completed Units x Supplementary rate per unit |
+| Under-absorption | Cost of Sales Account | Dr | Units sold x Supplementary rate per unit |
+#### Approach
+Think of the supplementary rate: under-absorption adds cost (a debit) to each account that holds the units, over-absorption takes it away (a credit).
+
+---
+item: q6a
+qno: 6
+part: (a)
+marks: 5
+type: descriptive
+tags: cma.intro.terms
+difficulty: easy
+q: 26
+a: 27
+---
+#### Question
+Define Responsibility Centre and discuss the types of Responsibility Centres.
+#### Answer
+As the organization grows, its functions, organisational structure and other related functions also grow in terms of volume and complexity. To have a better control over the organisation, management delegates its responsibility and authority to various departments or persons. These departments or persons are known as responsibility centres and are held responsible for performance in terms of expenditure, revenue, profitability and return on investment.
+
+**Types of Responsibility Centres are as follows:**
+
+(i) **Cost Centres:** The responsibility centre which is held accountable for incurrence of costs which are under its control.
+
+(ii) **Revenue Centres:** The responsibility centres which are accountable for generation of revenue for the entity.
+
+(iii) **Profit Centres:** These are the responsibility centres which have both responsibility of generation of revenue and incurrence of expenditures. Profitability is the basis for measurement of performance of these responsibility centres.
+
+(iv) **Investment Centres:** These are the responsibility centres which are not only responsible for profitability but also have the authority to make capital investment decisions. The performance of these responsibility centres are measured on the basis of Return on Investment (ROI) besides profit.
+
+---
+item: q6b
+qno: 6
+part: (b)
+marks: 5
+type: descriptive
+tags: cma.job.job
+difficulty: easy
+q: 26
+a: 27-28
+---
+#### Question
+List the advantages of Job Costing.
+#### Answer
+Some of the advantages of Job costing are summarised as below:
+
+1. The details of Cost of material, labour and overhead for all job is available to control.
+2. Profitability of each job can be derived.
+3. It facilitates production planning.
+4. Budgetary control and Standard Costing can be applied in job costing.
+5. Spoilage and defective can be identified and responsibilities can be fixed accordingly.
+
+---
+item: q6c
+qno: 6
+part: (c)
+marks: 4
+type: descriptive
+tags: cma.emp.payroll, cma.emp.idle
+difficulty: easy
+q: 26
+a: 28
+---
+#### Question
+List the important factors which need consideration for controlling employee costs.
+#### Answer
+The main points which need consideration for controlling employee costs are the following:
+
+(i) Assessment of manpower requirements.
+
+(ii) Control over time-keeping and time-booking.
+
+(iii) Time & Motion Study.
+
+(iv) Control over idle time and overtime.
+
+(v) Control over employee turnover.
+
+(vi) Wage and Incentive systems.
+
+(vii) Job Evaluation and Merit Rating.
+
+(viii) Employee productivity.
+
+---
+item: q6c-or
+qno: 6
+part: (c)
+alt: q6c
+marks: 4
+type: descriptive
+tags: cma.mat.procure
+difficulty: easy
+q: 27
+a: 28
+---
+#### Question
+Discuss the uses of Bill of Material in the following departments:
+
+(i) Marketing (Purchase) Department
+
+(ii) Production Department
+
+(iii) Stores Department
+
+(iv) Cost/Accounting Department
+#### Answer
+**Uses of Bill of Material**
+
+| Marketing (Purchase) Dept. | Production Dept. | Stores Dept. | Cost/ Accounting Dept. |
+|---|---|---|---|
+| Materials are procured (purchased) on the basis of specifications mentioned in it. | Production is planned according to the nature, volume of the materials required to be used. Accordingly, material requisition lists are prepared. | It is used as a reference document while issuing materials to the requisitioning department. | It is used to estimate cost and profit. Any purchase, issue and usage are compared/verified against this document. |

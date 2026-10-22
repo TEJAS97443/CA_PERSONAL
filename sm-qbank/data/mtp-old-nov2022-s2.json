@@ -1,0 +1,538 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "Nov 2022",
+  "attempt_sort": "2022-11",
+  "series": "II",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://resource.cdn.icai.org/71867bos57833-inter-p7q.pdf",
+  "answers_url": "https://resource.cdn.icai.org/71887bos57845-inter-p7a.pdf",
+  "local_file": "raw/mtp-old-nov2022-s2-q.pdf",
+  "local_answers_file": "raw/mtp-old-nov2022-s2-a.pdf",
+  "test_series": "October 2022",
+  "mock_test_paper_no": null,
+  "source_is_mirror": false,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Official ICAI PDFs (Test Series: October 2022, MOCK TEST PAPER-II), linked from https://www.icai.org/post/intermediate-mtp-nov2022-sr2."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-nov2022-s2-q1",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Financial Strategy — dropped from the 2023 syllabus (old Ch 6.3)",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "SKS, a Bollywood actor, was so affected by the chaos in the country due to the Pandemic that he\nand his team took upon themselves to cater to the poorest section of the society and formed SKS\nFoundation.\nThey had to plan in accordance with the policies of the government, arrange for quality medical\ncare especially the internationally acclaimed medicine, which was available in extreme scarcity,\ntransportation of people to and from their hometowns, and on time delivery of basic necessities.\nThe task was humongous given the number of people to be cared for and the restrictions in place\nfor goods/people movement. To execute the plan, they distributed the work amongst themselves\nas follows;\n● Two people worked on the communication flow - WhatsApp, Facebook and IVR systems, were\nsetup to reach out people, and for arrangements\n● Three people setup logistics - finding medicine suppliers around India, negotiating prices,\nfixing transportation agents, making basic necessities available at the very doorstep (last mile\ndelivery)\n● Three other people were given the responsibility of food distribution - they took help from\ntemples, gurdwaras and NGOs for making food available to the most needy first, aim was to\nprovide at least two meals a day.\n● Finally, one person worked on fund management - major sources being crowdfunding, NGO\nsupport, further support was carried through high net worth individuals networking, and\ncelebrity support.\nThe major challenges were getting the medicines and hospital beds as the demand was sky high\nand the availability was skewed. But the team was passionate and as they gathered support from\nthe general public, it became easier to operate and arrange necessities.\nManagement is tougher when the motive is not making profit, because all essential elements of\nstrategy are to be considered, while the only way to measure success is people’s safety,\nsatisfaction and happiness. The numeric metrics fail to give a direction and the only measurement\nis psychological.\nBased on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:\n\nGiven the prices of medicines were widely fluctuating every single day based on the media reports and various medical practitioners recommendations, plus oxygen availability was also not under control, which of the following aspects of Financial Strategy would have been most challenging for the team member responsible?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategising sources of funds"
+    },
+    {
+     "label": "b",
+     "text": "Budgeting of available funds"
+    },
+    {
+     "label": "c",
+     "text": "Strategizing usage of funds"
+    },
+    {
+     "label": "d",
+     "text": "Valuing the worth of operations"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "financial strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q2",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nLet us suppose the foundation wants to expand with a dedicated 7 to 10 member team for each city. Which of the following structures would ensure each area to be handled by the central team to ensure no compromise on the quality and prices?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Matrix Structure"
+    },
+    {
+     "label": "b",
+     "text": "Divisional Structure"
+    },
+    {
+     "label": "c",
+     "text": "Multidivisional Structure"
+    },
+    {
+     "label": "d",
+     "text": "Functional Structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q3",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management — dropped from the 2023 syllabus (old Ch 6.4.3-6.4.4)",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich of the following questions would have to be taken care of by the logistics team in particular? i. What are the most reliable sources of medicine sellers? ii. How many of them would be willing to supply at affordable rates? iii. Nature of their business, whether sole proprietorship, LLP, Partnership or Company, for compliance ease? iv. Method of distribution they use if the transportation had to be done nation-wide? v. What volumes can these distributors handle per day/week/month?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only (i), (ii), (iv) and (v)"
+    },
+    {
+     "label": "b",
+     "text": "Only (i), (ii) and (v)"
+    },
+    {
+     "label": "c",
+     "text": "Only (iv) and (v)"
+    },
+    {
+     "label": "d",
+     "text": "All of these would have to be taken care"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q4",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Skimming/penetration pricing and benchmarking — both dropped from the 2023 syllabus (old Ch 6.2 and Ch 8.8)",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nGiven the huge demand and extremely low supply of a new internationally acclaimed medicine, the unethical retailers followed which of the following strategies for maximum profits. Further, in the long term, when the availability stabilizes, what would help them define the target selling price?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Skimming Pricing Policy followed currently, and later on stabilisation they would need\npenetration price strategy to set target price."
+    },
+    {
+     "label": "b",
+     "text": "Skimming Pricing Policy followed currently, and later on stabilisation they would need\nbenchmarking to set target price."
+    },
+    {
+     "label": "c",
+     "text": "Penetration Pricing Policy followed currently, and later on stabilisation they would need\nskimming to win customer who could afford it."
+    },
+    {
+     "label": "d",
+     "text": "Penetration Pricing Policy followed currently, and later on stabilisation they would need\nflexible pricing strategy to set target price."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "pricing",
+    "benchmarking"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q5",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management in Government and Not-for-profit organisations — dropped from the 2023 syllabus (old Ch 1)",
+   "qno": "1(A)5",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nStrategising a not for profit demands a different strategic mindset. Which of the following would not form part of the food distribution team’s strategic checklist? i. Cost Saving ii. Reduced Inventory iii. Improved Delivery Time iv. Competitive Advantage",
+   "options": [
+    {
+     "label": "a",
+     "text": "Options (i) and (iv)"
+    },
+    {
+     "label": "b",
+     "text": "Only (i)"
+    },
+    {
+     "label": "c",
+     "text": "Only (iv)"
+    },
+    {
+     "label": "d",
+     "text": "Options (i), (ii) and (iv)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "not-for-profit",
+    "government"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q6",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic change / change management → Ch 5",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "After an earnest attempt to bring in a strategic change in your organization, you the operational head of XYZ ltd, succeeded but still your organization couldn’t achieve the desired competitive position in the market. Out of the following what could be the reason?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy Formulation"
+    },
+    {
+     "label": "b",
+     "text": "Strategy Model"
+    },
+    {
+     "label": "c",
+     "text": "Strategy Implementation"
+    },
+    {
+     "label": "d",
+     "text": "Strategy Decision"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic change"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q7",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic change / change management → Ch 5",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "You being the core strategist of your company, entrusted with bringing about strategic change in your company, how will you initiate “unfreezing of the situation”?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Promoting new ideas throughout the organization"
+    },
+    {
+     "label": "b",
+     "text": "Promoting compliance throughout the organization"
+    },
+    {
+     "label": "c",
+     "text": "Promoting change in process throughout the organization"
+    },
+    {
+     "label": "d",
+     "text": "None of the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic change"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q8",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Maadhyam, a hearing aid manufacturer recently introduced an AI based management tool that has the capabilities of managing teams across functions. What could be their new organisational structure post this implementation?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Divisional Structure"
+    },
+    {
+     "label": "b",
+     "text": "Matrix Structure"
+    },
+    {
+     "label": "c",
+     "text": "Hourglass Structure"
+    },
+    {
+     "label": "d",
+     "text": "Network Structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q9",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / implementation issues → Ch 5",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "When there is impact of strategy implementation on strategy formulation it can be referred as?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Backward Linkages"
+    },
+    {
+     "label": "b",
+     "text": "Forward Linkages"
+    },
+    {
+     "label": "c",
+     "text": "Vertical Linkages"
+    },
+    {
+     "label": "d",
+     "text": "Horizontal Linkages"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q10",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Conglomerate diversification is another name for which of the following?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Related diversification"
+    },
+    {
+     "label": "b",
+     "text": "Unrelated diversification"
+    },
+    {
+     "label": "c",
+     "text": "Portfolio diversification"
+    },
+    {
+     "label": "d",
+     "text": "Acquisition diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q11",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation culture (soft) → Ch 5",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Corporate culture refers to:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Company’s values and beliefs"
+    },
+    {
+     "label": "b",
+     "text": "Company’s business principles"
+    },
+    {
+     "label": "c",
+     "text": "Internal work environment"
+    },
+    {
+     "label": "d",
+     "text": "All the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "organisational culture"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q12",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations → Ch 1",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "ABC Limited is in a wide range of businesses which include apparels, lifestyle products, furniture, real\nestate and electrical products. The company is looking to hire a suitable Chief Executive Officer.\nConsider yourself as the HR consultant for ABC limited. You have been assigned the task to enlist the\nactivities involved with the role of the Chief Executive Officer. Name the strategic level that this role\nbelongs to and enlist the activities associated with it.",
+   "options": null,
+   "answer": "The role of Chief Executive Officer pertains to Corporate level.\nThe corporate level of management consists of the Chief Executive Officer (CEO) and other top-level\nexecutives. These individuals occupy the apex of decision making within the organization.\nThe role of Chief Executive Officer is to:\n1. oversee the development of strategies for the whole organization;\n2. defining the mission and goals of the organization;\n3. determining what businesses, it should be in;\n4. allocating resources among the different businesses;\n5. formulating, and implementing strategies that span individual businesses;\n6. providing leadership for the organization;\n7. ensuring that the corporate and business level strategies which company pursues are c onsistent\nwith maximizing shareholders wealth; and\n8. managing the divestment and acquisition process.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q13",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Ansoff’s product-market growth matrix → Ch 4",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Sky chemical industry intends to grow its business. Advise the company on the available options\nusing Ansoff’s product market growth matrix.",
+   "options": null,
+   "answer": "The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps\nbusinesses decide their product and market growth strategy. With the use of this matrix, a business\ncan get a fair idea about how its growth depends upon its markets in new or existing products in\nboth new and existing markets.\nThe Ansoff’s product market growth matrix is as follows:\nAnsoff’s Product Market Growth Matrix\n\nSky chemical industry can adopt market penetration, product development, market development\nor diversification simultaneously for its different products.\nMarket penetration refers to a growth strategy where the business focuses on selling existing\nproducts into existing markets. It is achieved by making more sales to present customers without\nchanging products in any major way.\nMarket development refers to a growth strategy where the business seeks to sell its existing\nproducts into new markets. It is a strategy for company growth by identifying and developing new\nmarkets for the existing products of the company.\nProduct development refers to a growth strategy where business aims to introduce new products\ninto existing markets. It is a strategy for company growth by offering modified or new products to\ncurrent markets.\nDiversification refers to a growth strategy where a business markets new products in new\nmarkets. It is a strategy by starting up or acquiring businesses outside the company’s current\nproducts and markets.\nAs market conditions change overtime, a company may shift product-market growth strategies. For\nexample, when its present market is fully saturated a company may have no choice other than to\npursue new market.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "ansoff"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q14",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Changing a problem organisational culture → Ch 5",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "You are appointed as a manager of a company where you find that the company's culture is out of\nsync with what is needed for strategic success. Discuss steps you would initiate to tackle the\nproblem.",
+   "options": null,
+   "answer": "Changing problem cultures is very difficult because of deeply held values and habits. It takes\nconcerted management action over a period of time to replace an unhealthy culture with a healthy\nculture or to root out certain unwanted cultural obstacles and instil ones that are more strategy -\nsupportive.\n The first step is to diagnose which facets of the present culture are strategy supportive and\nwhich are not.\n Then, managers have to talk openly and forthrightly to all concerned about those aspects of\nthe culture that have to be changed.\n The talk has to be followed swiftly by visible, aggressive actions to modify the culture-actions\nthat everyone will understand are intended to establish a new culture more in tune with the\nstrategy.\nThe menu of culture-changing actions includes revising policies and procedures, altering incentive\ncompensation, recruiting and hiring new managers and employees, replacing key executives,\ncommunication on need and benefit to employees and so on.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisational culture"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q15",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Research & Development Strategy — dropped from the 2023 syllabus (old Ch 6.5)",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "You are Research and Development manager of Sun Ltd. You are assigned the responsibility of\ntechnology enhancement. You have to take a decision either to acquire R & D expertise from\nexternal firms or develop R & D expertise internally. Do you need guidelines to help you take\ndecision? Validate your answer.",
+   "options": null,
+   "answer": "Yes, there is always need of guidelines which help in taking correct and appropriate decision to\nacquire internal and external R&D expertise.\nThe following guidelines can be used to help in making this decision:\n• If the rate of technical progress is slow, the rate of market growth is moderate, and there\nare significant barriers to possible new entrants, then in-house R&D is the preferred solution.\nThe reason is that R&D, if successful, will result in a temporary product or process monopoly\nthat the company can exploit.\n• If technology is changing rapidly and the market is growing slowly, then a major effort\nin R&D may be very risky, because it may lead to the development of an ultimately obsolete\ntechnology or one for which there is no market.\n• If the technology is changing slowly but the market is growing quickly, there generally\nis not enough time for in-house development. The prescribed approach is to obtain R&D\nexpertise on an exclusive or nonexclusive basis from an outside firm.\n• If both technical progress and market growth are fast, R&D expertise should be obtained\nthrough acquisition of a well-established firm in the industry.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "r&d",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q16",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Give the meaning of Strategic Human Resource management. State the key Human Resource\nManagement practices on which strategic focus should be given to achieve competitive advantage.",
+   "options": null,
+   "answer": "Strategic Human Resource Management may be defined as the linking of human resource\nmanagement with strategic goals and objectives to improve business performance and develop\norganizational culture that fosters innovation and flexibility. The success of an orga nization\ndepends on its human resources. This means how they are acquired, developed, motivated and\nretained in the organization – plays an important role in organizational success. This presupposes\nan integrated approach towards human resource functions and overall business functions of an\norganization.\nThe key Human Resource Management practices on which strategic focus should be given to\nachieve competitive advantage are:\n• Pre-selection practices including human resource planning and job analysis.\n• Selection practices meant to staff various positions in the organization. Both recruitment and\nselection policies and procedures should be designed keeping in view the mission and the\npurpose of the organization.\n• Post-selection practices to maintain and improve the workers job performance levels. Human\nResources decisions related to training and development, performance appraisal,\ncompensation and motivation should be based on corporate strategy of the organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q17",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic control types / operational vs management control → Ch 5",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between Operational Control and Management Control.",
+   "options": null,
+   "answer": "Differences between Operational Control and Management Control are as under:\n(i) The thrust of operational control is on individual tasks or transactions as against total or more\naggregative management functions. When compared with operational, management control\nis more inclusive and more aggregative, in the sense of embracing the integrated activities of\na complete department, division or even entire organization, instead or mere narrowly\ncircumscribed activities of sub-units. For example, procuring specific items for inventory is a\nmatter of operational control, in contrast to inventory management as a whole.\n(ii) Many of the control systems in organizations are operational and mechanistic in nature. A set\nof standards, plans and instructions are formulated. On the other hand, the basic purpose of\nmanagement control is the achievement of enterprise goals – short range and long range –\nin an effective and efficient manner.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic control"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q18",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What are the various alternative strategies which the managers need to identify that will create and\nsustain a competitive advantage in the business? Discuss.",
+   "options": null,
+   "answer": "According to Porter, strategies allow organizations to gain competitive advantage from three\ndifferent bases: cost leadership, differentiation, and focus. These bases form different generic\nstrategies as follows:\n• Cost leadership emphasizes producing standardized products at a very low per-unit cost for\nconsumers who are price-sensitive. It frequently results from productivity increases and\naggressive pursuit of cost reduction throughout the development, production, marketing, and\ndistribution processes. It allows a firm to earn higher profits than its competitors.\n• Differentiation is a strategy aimed at producing products and services considered unique\nindustry wide and directed at consumers who are relatively price-insensitive. It concerns with\ndistinguishing a product/service from that of its competitors through unique design features,\ntechnological leadership, unique uses of products and attributes like quality, environmental\nimpact and customer service.\n• Focus means producing products and services that fulfill the specific needs of small groups\nof consumers. It involves selecting or focusing a market or customer segment in which to\noperate.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q19",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Limitations of strategic management → Ch 1",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Are there any limitations attached to strategic management in organizations? Discuss.",
+   "options": null,
+   "answer": "The presence of strategic management cannot counter all hindrances and always achieve success.\nThere are limitations attached to strategic management. These can be explained in the following\nlines:\n\n Environment is highly complex and turbulent. It is difficult to understand the complex\nenvironment and exactly pinpoint how it will shape-up in future. The organisational estimate\nabout its future shape may awfully go wrong and jeopardise all strategic plans.\n Strategic management is a time-consuming process. Organisations spend a lot of time in\npreparing, communicating the strategies that may impede daily operations and negatively\nimpact the routine business.\n Strategic management is a costly process. Strategic management adds a lot of expenses to\nan organization. Expert strategic planners need to be engaged, efforts are made for analysis\nof external and internal environments devise strategies and properly implement. These can\nbe really costly for organisations with limited resources.\n In a competitive scenario, where all organisations are trying to move strategically, it is difficult\nto clearly estimate the competitive responses to a firm’s strategies.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "limitations"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2022-s2-q20",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Diversification endeavours can be categorized into four broad classifications. State the basis for\nthis classification and name the four categories. How is concentric diversification different from\nvertically diversification? Explain.",
+   "options": null,
+   "answer": "Diversification strategy involves expansion into new businesses that are outside the current\nbusiness and markets of an organisation. Based on the nature and extent of their relationship to\nexisting businesses, diversification can be classified into four broad categories:\n(i) Vertically integrated diversification\n(ii) Horizontally integrated diversification\n(iii) Concentric diversification\n(iv) Conglomerate diversification\nConcentric diversification takes place when the products are related. The new product is a spin-off\nfrom the existing facilities and products/processes. This means that in concentric diversification\ntoo, there are benefits of synergy with the current operations. However, concentric diversification\ndiffers from vertically integrated diversification in the nature of the linkage the new product has with\nthe existing ones.\nIn vertically integrated diversification, firms opt to engage in businesses that are related to the\nexisting business of the firm. The firm remains vertically within the same process. Sequence moves\nforward or backward in the chain and enters specific product/process steps with the intention of\nmaking them into new businesses for the firm. The new product falls within the firm’s current\nprocess-product chain. In concentric diversification, there is a departure from this vertical linkage,\na new related product is added to the existing business. The new product is only connected in a\nloop-like manner at one or more points in the firm’s existing process/technology/product chain.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  }
+ ]
+}

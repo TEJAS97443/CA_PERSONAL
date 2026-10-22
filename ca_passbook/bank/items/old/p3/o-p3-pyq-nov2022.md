@@ -1,0 +1,1239 @@
+<!-- PassBook ICAI bank: docs/ICAI_BANK.md. Text under Instructions, Case, Question, Options and Answer is ICAI's, verbatim. -->
+---
+doc: o-p3-pyq-nov2022
+paper: p3
+kind: pyq
+attempt: nov2022
+qfile: old/p3/pyq-nov2022-a.pdf
+afile: old/p3/pyq-nov2022-a.pdf
+paperfile: old/p3/pyq-nov2022-q.pdf
+choice: q1; any 4 of q2-q6; q6: any 4 of (a)-(e)
+q: 1
+status: checked
+by: tx-38
+date: 2026-10-20
+note: Old-scheme Intermediate Paper 3 Cost and Management Accounting, November 2022. Transcribed from ICAI's Suggested Answers (qfile and afile), which reproduce every question before its answer; the question-paper scan is linked as paperfile and was not used for the text. The paper is all descriptive (Q1-Q6, 100 marks). Instructions: the lines printed under the paper's title on p.1. No choice rule: besides "Question No. 1 is compulsory. Attempt any four questions out of the remaining five", Q6 says "Answer any four of the following" for its five 5-mark parts (a)-(e) "(4 x 5 = 20 Marks)", a choice inside a question that choice: cannot express (it would count 25 marks for Q6), so, as with o-p7-mtp-may2018-s1, the paper is practice only and never sat. Q1's and Q6's lead-ins ("Answer the following:", "Answer any four of the following:") are headings of the question, not transcribed in the items. Each lettered part is one item: ICAI prints one marks line per part and answers its requirements (i), (ii) ... in one connected working. ICAI's stacked fractions are written in KaTeX with ICAI's own words and numbers. Kept as printed (ICAI's typos): "is₹ 2,70,000" and "With the of the robot" (Q2(a)), "Piece -rete" (Q2(b)), "Y Lid" (Q5(a)), "Legal Chargers" and the column head "(₹ )" (Q5(b)), "(Cost Driver rate - ₹ 12,000))" (Q2(c) answer), "Material Usages Variance" (Q5(a) answer), "(Reconciliation the profit as per financial records ...)" (Q5(b) answer); see also the notes on q3a, q4a and q4b. Accepted numbers (each read on the page): 3 is the paper's title on p.1 (PAPER – 3: COST AND MANAGEMENT ACCOUNTING); 1 to 6 are the question numbers, which the Suggested Answers print once (Question N, before the reproduced question) and not again before the answer (headed only Answer), while check.py expects each number on the answer side as well. Old-scheme mapping (ours): Q3(a), contract costing, is flagged out of syllabus (see its note); every other item is tagged to the current Paper 4 sub-topics. | choice: added by choice-ext from ICAI's printed instruction (2026-10-20): Question No. 1 is compulsory and any four of the remaining five questions (the Instructions), and Q6's "Answer any four of the following" over its five 5-mark parts (a)-(e), written q6: any 4 of (a)-(e); the paper can now be sat (maximum 100, as ICAI prints), and the "No choice rule" above predates the part-choice syntax.
+---
+#### Instructions
+Question No. 1 is compulsory.
+
+Attempt any **four** questions out of the remaining **five** questions.
+
+In case, any candidate answers extra question(s)/ sub-question(s) over and above the required number, then only the requisite number of questions first answered in the answer book shall be valued and subsequent extra question(s) answered shall be ignored.
+
+Working notes should form part of the answer
+
+---
+item: q1a
+qno: 1
+part: (a)
+marks: 5
+type: descriptive
+tags: cma.unit.batch, cma.sheet.quote
+difficulty: easy
+q: 1
+a: 3
+---
+#### Question
+A Ltd. is a pharmaceutical company which produces vaccines for diseases like Monkey Pox, Covid-19 and Chickenpox. A distributor had given an order for 1,600 Monkey Pox Vaccines. The company can produce 80 vaccines at a time. To process a batch of 80 Monkey Pox vaccines, the following costs would be incurred:
+
+| | ₹ |
+|---|---:|
+| Direct Materials | 4,250 |
+| Direct wages | 500 |
+| Lab set-up cost | 1,400 |
+
+The Production Overheads are absorbed at a rate of 20% of direct wages and 20% of total production cost is charged in each batch for Selling, distribution and administration Overheads. The company is willing to earn profit of 25% on sales value.
+
+You are required to determine:
+
+(i) Total Sales value for 1,600 Monkey Pox Vaccines
+
+(ii) Selling price per unit of the Vaccine.
+#### Answer
+**(i) & (ii) Calculation of Sales value and Selling price per unit of Monkey Pox vaccine**
+
+| Particulars | Amount (₹) per Batch | Amount (₹) for 1600 units or 20 batches | Amount (₹) per unit |
+|---|---:|---:|---:|
+| Direct materials | 4,250 | 85,000 | 53.125 |
+| Direct wages | 500 | 10,000 | 6.250 |
+| Lab set-up cost | 1,400 | 28,000 | 17.500 |
+| Production overheads (20% of direct wages) | 100 | 2,000 | 1.250 |
+| Production Cost | 6,250 | 1,25,000 | 78.125 |
+| Selling, distribution and administration cost (20% of Production cost) | 1,250 | 25,000 | 15.625 |
+| Total Cost | 7,500 | 1,50,000 | 93.75 |
+| *Add:* Profit (1/3rd of Total cost or 25% of Sales value) | 2,500 | 50,000 | 31.25 |
+| **Sales value** | 10,000 | 2,00,000 | 125.00 |
+#### Approach
+Cost one batch first (overheads on wages, then selling overheads on production cost), scale to the number of batches, and turn a margin on sales into a mark-up on cost.
+
+---
+item: q1b
+qno: 1
+part: (b)
+marks: 5
+type: descriptive
+tags: cma.svc.others, cma.oh.classify
+difficulty: medium
+q: 1-2
+a: 3-4
+---
+#### Question
+ABC Bank is having a branch which is engaged in processing of ‘Vehicle Loan’ and ‘Education Loan’ applications in addition to other services to customers. 30% of the overhead costs for the branch are estimated to be applicable to the processing of ‘Vehicle Loan’ applications and ‘Education Loan’ applications each.
+
+Branch is having four employees at a monthly salary of ₹ 50,000 each, exclusively for processing of Vehicle Loan applications and two employees at a monthly salary of ₹ 70,000 each, exclusively for processing of Education Loan applications.
+
+In addition to above, following expense are incurred by the Branch:
+
+- Branch Manager who supervises all the activities of branch, is paid at ₹ 90,000 per month.
+- Legal charges, Printing & stationery and Advertising Expenses are incurred at ₹ 30,000, ₹ 12,000 and ₹ 18,000 respectively for a month.
+- Other expenses are ₹ 10,000 per month.
+
+You are required to:
+
+(i) Compute the cost of processing a Vehicle Loan application on the assumption that 496 Vehicle Loan applications are processed each month.
+
+(ii) Find out the number of Education Loan Applications processed, if the total processing cost per Education Loan Application is same as in the Vehicle Loan Application as computed in (i) above.
+#### Answer
+| Particulars | Vehicle loan Applications (₹) | Education loan Application (₹) | Total (₹) |
+|---|---:|---:|---:|
+| Employee Cost | 2,00,000 (₹ 50,000 × 4) | 1,40,000 (₹ 70,000 × 2) | 3,40,000 |
+| Apportionment of Branch manager’s salary | 27,000 | 27,000 | 54,000 |
+| Legal charges, Printing & stationery and Advertising expenses | 18,000 | 18,000 | 36,000 |
+| Other expenses | 3,000 | 3,000 | 6,000 |
+| **Total cost** | 2,48,000 | 1,88,000 | 4,36,000 |
+
+**(i) Computation of cost of processing a vehicle loan application:**
+
+Total Cost ÷ No. of applications
+
+₹ 2,48,000 ÷ 496 = ₹ 500
+
+**(ii) Computation of no. of Education loan Processed**
+
+Total Cost = No. of applications × Processing cost per application
+
+₹ 1,88,000 = No. of applications × ₹ 500
+
+No. of education loan applications = ₹1,88,000 ÷ ₹500 = 376 applications
+#### Approach
+Charge each activity its own staff directly and its 30% share of each common branch cost; then divide by the number of applications, or work back from the cost per application.
+
+---
+item: q1c
+qno: 1
+part: (c)
+marks: 5
+type: descriptive
+tags: cma.mat.eoq, cma.mat.levels
+difficulty: easy
+q: 2
+a: 4
+---
+#### Question
+MM Ltd. uses 7500 valves per month which is purchased at a price of ₹ 1.50 per unit. The carrying cost is estimated to be 20% of average inventory investment on an annual basis. The cost to place an order and getting the delivery is ₹ 15. It takes a period of 1.5 months to receive a delivery from the date of placing an order and a safety stock of 3200 valves is desired.
+
+You are required to determine:
+
+(i) The Economic Order Quantity (EOQ) and the frequency of orders.
+
+(ii) The re-order point.
+
+(iii) The Economic Order Quantity (EOQ) if the valve cost ₹ 4.50 each instead of 1.50 each.
+
+(Assume a year consists of 360 days)
+#### Answer
+**(i) Calculation of Economic Order Quantity**
+
+| | |
+|---|---|
+| Annual requirement (A) | = 7500×12= 90,000 Valves |
+| Cost per order (O) | = ₹ 15 |
+| Inventory carrying cost (i) | = 20% |
+| Cost per unit of spare (c) | = ₹ 1.5 |
+| Carrying cost per unit (i × c) | = ₹ 1.5 × 20% = ₹ 0.30 |
+
+Economic Order Quantity (EOQ) = $\sqrt{\dfrac{2 \times A \times O}{i \times c}}$
+
+= $\sqrt{\dfrac{2 \times 90{,}000 \times 15}{0.3}}$ = 3,000 Valves
+
+Frequency of order or Number of Orders = 90,000/3,000 = 30 orders.
+
+So Order can be placed in every 12 (360days/30) days
+
+**(ii) Re-order Quantity** = {Maximum Consumption X Maximum lead time} + safety Stock
+
+= {7500X1.5} + 3200 = 14,450 Valves
+
+**(iii) Calculation of Economic Order Quantity if valve costs ₹ 4.50**
+
+Carrying cost is 20% of ₹ 4.50 = ₹ 0.90
+
+Economic Order Quantity (EOQ) = $\sqrt{\dfrac{2 \times A \times O}{i \times c}}$
+
+= $\sqrt{\dfrac{2 \times 90{,}000 \times 15}{0.9}}$
+
+= 1732.0508 units or 1733 Valves
+#### Approach
+Put demand, ordering cost and carrying cost on an annual basis before using the EOQ formula; the re-order point adds lead-time consumption to the safety stock.
+
+---
+item: q1d
+qno: 1
+part: (d)
+marks: 5
+type: descriptive
+tags: cma.mc.bep, cma.mc.basics
+difficulty: easy
+q: 2
+a: 4-5
+---
+#### Question
+ABC Ltd sells its Product ‘Y’ at a price of ₹ 300 per unit and its variable cost is ₹ 180 per unit. The fixed costs are ₹ 16,80,000 per year uniformly incurred throughout the year. The Profit for the year is ₹ 7,20,000.
+
+You are required to calculate:
+
+(i) BEP in value (₹) and units.
+
+(ii) Margin of Safety
+
+(iii) Profits made when sales are 24,000 units.
+
+(iv) Sales in value (₹) to be made to earn a net profit of ₹ 10,00,000 for the year.
+#### Answer
+**(i) Calculation of BEP in value**
+
+P / V ratio = $\dfrac{\text{Sales price - Variable Cost}}{\text{Sales}} = \dfrac{300 - 180}{300}$ = 40%
+
+Break Even Point in Value (₹) = $\dfrac{\text{Fixed Cost}}{\text{P / V ratio}} = \dfrac{16{,}80{,}000}{40\%}$ = ₹ 42,00,000
+
+Break Even Point in Units = $\dfrac{\text{Fixed Cost}}{\text{Contribution}} = \dfrac{16{,}80{,}000}{120}$ = 14,000 Units
+
+(Alternatively, $\dfrac{\text{₹ 42,00,000}}{300}$ = 14000 units)
+
+**(ii) Margin of safety** (In Amount) = $\dfrac{\text{Profit}}{\text{P / V ratio}} = \dfrac{7{,}20{,}000}{40\%}$ = ₹ 18,00,000
+
+Margin of safety may also be calculated by deducting BEP sales from present sale. Present sale is ₹ 60,00,000 i.e. (16,80,000 + 7,20,000)/40%.
+
+**Margin of safety** (In units) = $\dfrac{\text{Profit}}{\text{Contribution per unit}} = \dfrac{7{,}20{,}000}{120}$ = 6,000 units
+
+**(iii) Profit when sales are 24,000 units**
+
+| Particular | (₹) |
+|---|---:|
+| Contribution (24,000 × 120) | 28,80,000 |
+| *Less:* Fixed cost | 16,80,000 |
+| Profit | 12,00,000 |
+
+**(iv) Sales in value to earn a net profit of ₹10,00,000**
+
+$\dfrac{\text{Fixed Cost + Desired profit}}{\text{P / V Ratio}} = \dfrac{16{,}80{,}000 + 10{,}00{,}000}{40\%}$ = ₹ 67,00,000
+#### Approach
+Find the contribution per unit and the P/V ratio first; every requirement is then fixed cost (plus any profit) divided by one of them.
+
+---
+item: q2a
+qno: 2
+part: (a)
+marks: 10
+type: descriptive
+tags: cma.oh.absorb
+difficulty: medium
+q: 5-6
+a: 7-8
+---
+#### Question
+USP Ltd. is the manufacturer of ‘double grip motorcycle tyres’. In the manufacturing process, it undertakes three different jobs namely, Vulcanising, Brushing and Striping. All of these jobs require the use of a special machine and also the aid of a robot when necessary. The robot is hired from outside and the hire charges paid for every six months is₹ 2,70,000. An estimate of overhead expenses relating to the special machine is given below:
+
+- Rent for a quarter is ₹ 18,000.
+- The cost of the special machine is ₹ 19,20,000 and depreciation is charged @10% per annum on straight line basis.
+- Other indirect expenses are recovered at 20% of direct wages.
+
+The factory manager has informed that in the coming year, the total direct wages will be ₹ 12,00,000 which will be incurred evenly throughout the year.
+
+During the first month of operation, the following details are available from the job book:
+
+Number of hours the special machine was used
+
+| Jobs | Without the aid of the robot | With the of the robot |
+|---|---:|---:|
+| Vulcanising | 500 | 400 |
+| Brushing | 1000 | 400 |
+| Striping | - | 1200 |
+
+You are required to :
+
+(i) Compute the Machine Hour Rate for the company as a whole for a month (A) when the robot is used and (B) when the robot is not used.
+
+(ii) Compute the Machine Hour Rate for the individual jobs i.e. Vulcanising, Brushing and Striping.
+#### Answer
+**Working notes:**
+
+| | | |
+|---|---|---:|
+| (I) | Total machine hours use (500 + 1,000 + 400 + 400 + 1,200) | 3,500 |
+| (II) | Total machine hours without the use of robot (500 + 1,000) | 1,500 |
+| (III) | Total machine hours with the use of robot (400 + 400 + 1,200) | 2,000 |
+| (IV) | Total overheads of the machine per month | |
+| | Rent (₹ 18,000 ÷ 3 months) | 6,000 |
+| | Depreciation [(₹ 19,20,000 x 10%) ÷ 12 months] | 16,000 |
+| | Indirect expenses [(₹ 12,00,000 x 20%) ÷ 12 months] | 20,000 |
+| | Total | 42,000 |
+| (V) | Robot hire charges for a month (₹ 2,70,000 ÷ 6 months) | ₹ 45,000 |
+| (VI) | Overheads for using machines without robot = ₹ 42,000/3,500 hrs. × 1,500 hrs. = | ₹ 18,000 |
+| (VII) | Overheads for using machines with robot = ₹ 42,000/3,500 hrs. ×2,000 hrs. + ₹ 45,000 = | ₹ 69,000 |
+
+**(i) Computation of Machine hour rate for the firm as a whole for a month.**
+
+(A) When the robot was used: $\dfrac{\text{₹ 69,000}}{\text{2,000 hours}}$ = ₹ 34.50 per hour
+
+(B) When the robot was not used: $\dfrac{\text{₹ 18,000}}{\text{1,500 hrs.}}$ = ₹ 12 per hour
+
+**(ii) Computation of Machine hour rate for the individual job**
+
+| | Rate per hour | Job | | | | | |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| | | **Vulcanising** | | **Brushing** | | **Striping** | |
+| | **(₹)** | **Hrs.** | **(₹)** | **Hrs.** | **(₹)** | **Hrs.** | **(₹)** |
+| **Overheads** | | | | | | | |
+| Without robot | 12.00 | 500 | 6,000 | 1,000 | 12,000 | - | - |
+| With robot | 34.50 | 400 | 13,800 | 400 | 13,800 | 1,200 | 41,400 |
+| Total | | 900 | 19,800 | 1,400 | 25,800 | 1,200 | 41,400 |
+| **Machine hour rate** | | | 22 | | 18.43 | | 34.50 |
+#### Approach
+Bring every overhead to a monthly figure, share the machine's own overheads over all machine hours, and load the robot's hire only on the hours that used it.
+
+---
+item: q2b
+qno: 2
+part: (b)
+marks: 6
+type: descriptive
+tags: cma.emp.incentives
+difficulty: easy
+q: 6
+a: 8-9
+---
+#### Question
+A skilled worker, in PK Ltd., is paid a guaranteed wage rate of ₹ 15.00 per hour in a 48-hour week. The standard time to produce a unit is 18 minutes. During a week, a skilled worker -Mr. ‘A’ has produced 200 units of the product. The Company has taken a drive for cost reduction and wants to reduce its labour cost.
+
+You are required to:
+
+(i) Calculate wages of Mr. ‘A’ under each of the following methods:
+
+(A) Time rate,
+
+(B) Piece -rete with a guaranteed weekly wage,
+
+(C) Halsey Premium Plan
+
+(D) Rowan Premium Plan
+
+(ii) Suggest which bonus plan i.e. Halsey Premium Plan or Rowan Premium Plan, the company should follow.
+#### Answer
+**(i) Calculation of wages of Mr. ‘A’ under different wage schemes:**
+
+**A. Time rate**
+
+Wages = Time Worked × Rate for the time
+
+= 48 hours x ₹ 15
+
+= ₹ 720
+
+**B. Piece rate with a guaranteed weekly wage**
+
+Wages = Number of units produced × Rate per unit
+
+= 200 units x ₹ 4.50\*
+
+= ₹ 900
+
+\*(₹ 15 / 60 minutes) x 18 minutes = ₹ 4.50
+
+**C. Halsey Premium Plan**
+
+Wages = Time taken × Time rate + 50% of time saved × Time rate
+
+Wages = Time taken × Time rate + 50% (Standard time – Actual time) × Time rate
+
+= (48 hours x ₹ 15) + 50% of (60 hours\# – 48 hours) x ₹ 15
+
+= ₹ 720 + ₹ 90
+
+= ₹ 810
+
+\#(200 units x 18 minutes) / 60 minutes = 60 hours
+
+**D. Rowan Premium Plan**
+
+Wages = Time taken × Rate per hour + $\dfrac{\text{Time Saved}}{\text{Time Allowed}}$ × Time taken × Rate per hour
+
+= (48 hours x ₹ 15) + ($\dfrac{\text{60 - 48 hours}}{\text{60 hours}}$ x 48 hours x ₹ 15)
+
+= ₹ 720 + ₹ 144
+
+= ₹ 864
+
+**(ii)** The company may follow Halsey Premium Plan over Rowan Premium Bonus Plan as the total wages paid is lower than that of Rowan Premium Bonus Plan.
+#### Approach
+Work out the standard time allowed for the output first; the time saved then drives both premium plans.
+
+---
+item: q2c
+qno: 2
+part: (c)
+marks: 4
+type: descriptive
+tags: cma.abc.compute
+difficulty: easy
+q: 6-7
+a: 9
+---
+#### Question
+XYZ Ltd. is engaged in manufacturing two products- Express Coffee and Instant Coffee. It furnishes the following data for a year:
+
+| Product | Actual Output (units) | Total Machine hours | Total Number of Purchase orders | Total Number of set ups |
+|---|---:|---:|---:|---:|
+| Express Coffee | 5,000 | 20,000 | 160 | 20 |
+| Instant Coffee | 60,000 | 1,20,000 | 384 | 44 |
+
+The annual overheads are as under:
+
+| Particulars | ₹ |
+|---|---:|
+| Machine Processing costs | 7,00,000 |
+| Set up related costs | 7,68,000 |
+| Purchase related costs | 6,80,000 |
+
+You are required to:
+
+(i) Compute the costs allocated to each product – Express Coffee and Instant Coffee from each activity on the basis of Activity- Based Costing (ABC) method.
+
+(ii) Find out the overhead cost per unit of each product – Express coffee and Instant coffee based on (i) above.
+#### Answer
+**(i) Estimation of Cost-Driver rate**
+
+| Activity | Overhead cost (₹) | Cost-driver level | Cost driver rate (₹) |
+|---|---:|---:|---:|
+| Machine processing | 7,00,000 | 1,40,000 Machine hours | 5 |
+| Set up Costs | 7,68,000 | 64 Number of set up | 12,000 |
+| Purchase related Costs | 6,80,000 | 544 Number of purchase order | 1250 |
+
+**Cost Allocation under Activity based Costing**
+
+| | Express Coffee (₹) | Instant Coffee (₹) |
+|---|---:|---:|
+| **Overhead Cost** | | |
+| Machine processing (Cost Driver rate - ₹ 5) (or 20,000:1,20,000) | 5 × 20,000 = 1,00,000 | 5 × 1,20,000 = 6,00,000 |
+| Set up Costs (Cost Driver rate - ₹ 12,000)) (or 20:44) | 12,000 × 20 = 2,40,000 | 12,000 × 44 = 5,28,000 |
+| Purchase related Costs (Cost Driver rate - ₹ 1250) (or 160:384) | 1,250 × 160 = 2,00,000 | 1,250 × 384 = 4,80,000 |
+| Total overhead cost | 5,40,000 | 16,08,000 |
+
+**(ii) Overhead Cost per unit**
+
+| Per unit Overhead cost | (₹) | (₹) |
+|---|---:|---:|
+| 5,40,000 /5,000 | 108 | |
+| 16,08,000/60,000 | | 26.80 |
+#### Approach
+Divide each activity's cost by the total of its driver to get a rate, then charge each product by its own driver volume.
+
+---
+item: q3a
+qno: 3
+part: (a)
+marks: 10
+type: descriptive
+tags: cma.job
+oos: yes
+difficulty: medium
+q: 10
+a: 11-13
+note: Out of syllabus (old scheme): contract costing (the contract account, notional profit on work certified and uncertified, estimated total profit) is not in the new-scheme Paper 4 syllabus or the January 2027 Study Material, which has no Contract Costing chapter; tagged with the nearest chapter, Job Costing. Kept as printed: "Sundry Expenses (3,5000-7,500 +5,000)" in ICAI's second calculation of estimated profit.
+---
+#### Question
+XYZ Construction Ltd. has obtained a contract of ₹ 25,00,000 in the Financial Year 2021-22. The work on the contract commenced immediately and it is expected that the contract will be completed by 31st March,2023. Chief accountant of the company has provided following information related to the Contract:
+
+| Particulars | 2021-22 (Actual) (in ₹) | 2022-23 (Estimated) (in₹) |
+|---|---:|---:|
+| Material issued | 4,00,000 | 3,50,000 |
+| Wages: Paid | 2,50,000 | 1,40,000 |
+| - Prepaid at the end of the Year | 15,000 | - |
+| Plant | 2,00,000 | - |
+| Sundry Expenses: Paid | 50,000 | 35,000 |
+| - Outstanding at the end of the year | 7,500 | 5,000 |
+| Office Expenses: Paid | 65,000 | 55,000 |
+| - Outstanding at the end of the year | 12,500 | 15,000 |
+| Contingency Expenses | - | 1,25,000 |
+
+Following additional information is also available:
+
+- A part of plant costing ₹ 12,000 was scrapped and written off in the F.Y.2021-22.
+- The value of Plant-at-Site on 31st March,2022 was ₹ 18,000.
+- Company would have to spend an additional sum of ₹ 80,000 on the plant in FY. 2022-23 and the residual value of the plant on the completion of contract would be ₹ 10,000.
+- A part of material costing ₹ 30,000 was scrapped and sold for ₹ 20,000 in F.Y. 2021-22.
+- The value of Material-at-Site on 31st March, 2022 was ₹ 17,000.
+- Cash received on account till 31st March,2022 was ₹ 13,50,000 representing 90% of the work certified.
+- The cost of work uncertified on 31st March, 2022 was valued at 20% of work certified.
+
+You are required to:
+
+(i) Prepare a Contract Account for the year ended 31st March, 2022
+
+(ii) Calculate Estimated Total Profit on this Contract.
+#### Answer
+**Contract Account (2021-22)**
+
+| Particulars | | (₹) | Particulars | | (₹) |
+|---|---:|---:|---|---:|---:|
+| To Materials issued | | 4,00,000 | By Costing P & L A/c | | 12,000 |
+| To Wages paid | 2,50,000 | | By Material sold | | 20,000 |
+| *Less:* Prepaid | 15,000 | 2,35,000 | By Plant at site c/d | | 18,000 |
+| To Plant | | 2,00,000 | By Material at site c/d | | 17,000 |
+| To Sundry Expenses | 50,000 | | By Costing P & L A/c (₹ 30,000 – ₹ 20,000) | | 10,000 |
+| *Add:* Outstanding | 7,500 | 57,500 | By Work-in-progress c/d | | |
+| To Office Expenses | 65,000 | | Work certified (13,50,000 ÷ 90%) | 15,00,000 | |
+| *Add:* Outstanding | 12,500 | 77,500 | Work uncertified (15,00,000 x 20%) | 3,00,000 | 18,00,000 |
+| To Notional profit (Profit for the year) | | 9,07,000 | | | |
+| | | 18,77,000 | | | 18,77,000 |
+
+**Calculation of Estimated Profit**
+
+| | | | (₹) | (₹) |
+|---|---|---|---:|---:|
+| (1) | Material consumed | (4,00,000-10,000-20,000) | 3,70,000 | |
+| | *Add:* Further consumption | | 3,50,000 | 7,20,000 |
+| (2) | Wages: | | 2,35,000 | |
+| | *Add:* Further cost | (1,40,000+15,000) | 1,55,000 | 3,90,000 |
+| (3) | Plant used | (2,00,000-12,000) | 1,88,000 | |
+| | *Add:* Further plant introduced | | 80,000 | |
+| | *Less:* Closing balance of plant | | (10,000) | 2,58,000 |
+| (4) | Sundry expenses | | 57,500 | |
+| | *Add:* Further expenses | (35,000-7,500) | 27,500 | |
+| | *Add:* Outstanding | | 5,000 | 90,000 |
+| (5) | Office expenses | | 77,500 | |
+| | *Add:* Further expenses | (55,000 – 12,500) | 42,500 | |
+| | *Add:* Outstanding | | 15,000 | 1,35,000 |
+| (6) | Reserve for contingencies | | | 1,25,000 |
+| Estimated profit (balancing figure) | | | | 7,82,000 |
+| Contract price | | | | 25,00,000 |
+
+Estimated Profit can also be calculated showing cost as per Contract Account for the year 2021-22 and estimated cost for the year 2022-23 in the following manner
+
+**Calculation of Estimated Profit**
+
+| | | |
+|---|---:|---:|
+| Cost as per contract A/c 2021-22 (A) | | 8,93,000 |
+| Estimated cost for 2022-23 | | |
+| Material (3,50,000 +17,000) | 3,67,000 | |
+| Wages (1,40,000 +15,000) | 1,55,000 | |
+| Sundry Expenses (3,5000-7,500 +5,000) | 32,500 | |
+| Contingency Expenses | 1,25,000 | |
+| Office expenses (55,000 +15,000-12,500) | 57,500 | |
+| Plant (80,000+18,000-10,000) | 88,000 | |
+| Total estimated cost of 2022-23(B) | | 8,25,000 |
+| C=(A)+(B) | | 17,18,000 |
+| **Estimated Profit (D)-(C)** | | 7,82,000 |
+| Contract Price(D) | | 25,00,000 |
+#### Approach
+Adjust each expense for prepaid and outstanding amounts, credit the scrapped items and the closing plant and material at site, and value work-in-progress from the cash received; for the total profit, add the next year's estimated costs to this year's.
+
+---
+item: q3b
+qno: 3
+part: (b)
+marks: 10
+type: descriptive
+tags: cma.proc.accounts
+difficulty: medium
+q: 10-11
+a: 13-14
+---
+#### Question
+N Ltd. produces a product which passes through two processes – Process – I and Process-II. The company has provided following information related to the Financial Year 2021-22:
+
+| | Process-I | Process -II |
+|---|---:|---:|
+| Raw Material @ ₹ 65 per unit | 6,500 units | - |
+| Direct Wages | ₹ 1,40,000 | ₹ 1,30,000 |
+| Direct Expenses | 30% of Direct Wages | 35% of Direct Wages |
+| Manufacturing Overheads | ₹ 21,500 | ₹ 24,500 |
+| Realisable value of scrap per unit | ₹ 4.00 | ₹ 16.00 |
+| Normal Loss | 250 units | 500 units |
+| Units transferred to Process-II / finished stock | 6,000 units | 5,500 units |
+| Sales | - | 5,000 units |
+
+There was no opening or closing stock of work-in progress.
+
+You are required to prepare:
+
+(i) Process-I Account
+
+(ii) Process -II Account
+
+(iii) Finished Stock Account
+#### Answer
+**Process-I A/c**
+
+| Particulars | Units | (₹) | Particulars | Units | (₹) |
+|---|---:|---:|---|---:|---:|
+| To Raw material used (₹ 65 × 6,500 units) | 6,500 | 4,22,500 | By Normal loss (250 units × ₹ 4) | 250 | 1,000 |
+| To Direct wages | -- | 1,40,000 | By Process- II A/c (₹ 100 × 6,000 units) | 6,000 | 6,00,000 |
+| To Direct expenses (30% of ₹ 1,40,000) | -- | 42,000 | By Abnormal loss (₹ 100 × 250 units) | 250 | 25,000 |
+| To Manufacturing overhead | | 21,500 | | | |
+| | 6,500 | 6,26,000 | | 6,500 | 6,26,000 |
+
+Cost per unit of completed units and abnormal loss: $\dfrac{\text{Total Cost-Realisable value from normal loss}}{\text{Inputs Units-Normal loss units}}$
+
+= $\dfrac{\text{₹ 6,26,000 - ₹ 1,000}}{\text{6,500units - 250 units}} = \dfrac{\text{₹ 6,25,000}}{\text{6,250 units}}$ = ₹ 100
+
+**Process- II A/c**
+
+| Particulars | Units | (₹) | Particulars | Units | (₹) |
+|---|---:|---:|---|---:|---:|
+| To Process - I A/c | 6,000 | 6,00,000 | By Normal loss (500 units × ₹16) | 500 | **8,000** |
+| To Direct wages | -- | 1,30,000 | By Finished Stock A/c (₹144 × 5,500 units) | 5,500 | 7,92,000 |
+| To Direct expenses (35% of ₹ 1,30,000) | -- | 45,500 | | | |
+| To Manufacturing overhead | -- | 24,500 | | | |
+| | 6,000 | 8,00,000 | | 6,000 | 8,00,000 |
+
+Cost per unit of completed units and abnormal loss:
+
+$\dfrac{\text{TotalCost -Realisable value from normal loss}}{\text{Inputsunits -Normallossunits}}$
+
+= $\dfrac{\text{₹ 8,00,000 - ₹ 8,000}}{\text{6,000 units - 500 units}} = \dfrac{\text{₹ 7,92,000}}{\text{5,500 units}}$ = ₹144
+
+**Finished Goods Stock A/c**
+
+| Particulars | Units | (₹) | Particulars | Units | (₹) |
+|---|---:|---:|---|---:|---:|
+| To Process II A/c | 5,500 | 7,92,000 | By Cost of Sales (₹144 × 5,000 units) | 5,000 | 7,20,000 |
+| | | | By Balance c/d | 500 | 72,000 |
+| | 5,500 | 7,92,000 | | 5,500 | 7,92,000 |
+#### Approach
+In each process, spread the cost net of the scrap value of the normal loss over the expected good units; units lost beyond the normal loss are abnormal and are valued at that same rate.
+
+---
+item: q4a
+qno: 4
+part: (a)
+marks: 10
+type: descriptive
+tags: cma.mc.keyfactor
+difficulty: medium
+q: 14
+a: 15-17
+note: Kept as printed: in ICAI's alternative presentation of (iii) the contribution of Rice is "24" ₹ per kg, while the ranking statement gives 27 and the total contribution printed (6,75,000 for 25,000 kgs) is at 27.
+---
+#### Question
+An agriculture based company having 210 hectares of land is engaged in growing three different cereals namely, wheat, rice and maize annually. The yield of the different crops and their selling prices are given below:
+
+| | Wheat | Rice | Maize |
+|---|---:|---:|---:|
+| Yield (in kgs per hectare) | 2,000 | 500 | 100 |
+| Selling Price (₹ per kg) | 20 | 40 | 250 |
+
+The variable cost data of different crops are given below:
+
+**(All figures in ₹ per kg)**
+
+| Crop | Labour charges | Packing Materials | Other variable expenses |
+|---|---:|---:|---:|
+| Wheat | 8 | 2 | 4 |
+| Rice | 10 | 2 | 1 |
+| Maize | 120 | 10 | 20 |
+
+The company has a policy to produce and sell all the three kinds of crops. The maximum and minimum area to be cultivated for each crop is as follows:
+
+| Crop | Maximum Area (in hectares) | Minimum Area (in hectares) |
+|---|---:|---:|
+| Wheat | 160 | 100 |
+| Rice | 50 | 40 |
+| Maize | 60 | 10 |
+
+You are required to:
+
+(i) Rank the crops on the basis of contribution per hectare.
+
+(ii) Determine the optimum product mix considering that all the three cereals are to be produced.
+
+(iii) Calculate the maximum profit which can be achieved if the total fixed cost per annum is ₹ 21,45,000.
+
+(Assume that there are no other constraints applicable to this company)
+#### Answer
+**(i) Statement showing Ranking of crops on the basis of Contribution per hectare**
+
+| Sl. No | Particulars | Wheat | Rice | Maize |
+|---|---|---:|---:|---:|
+| (I) | Sales price per kg (₹) | 20 | 40 | 250 |
+| (II) | Variable cost\* per kg (₹) | 14 | 13 | 150 |
+| (III) | Contribution per kg (₹) | 6 | 27 | 100 |
+| (IV) | Yield (in kgs per hectare) | 2,000 | 500 | 100 |
+| (V) | Contribution per hectare (₹) | 12,000 | 13,500 | 10,000 |
+| (VI) | Ranking | II | I | III |
+
+\*Variable cost = Labour Charges +Packing Material+ Other Variable Expenses
+
+Therefore, to maximize profits, the order of priority of production would be Rice, Wheat and Maize.
+
+**(ii) & (iii) Statement showing optimum product mix considering that all the three cereals are to be produced and maximum profit thereof**
+
+| Sl. No. | Particulars | Wheat | Rice | Maize | Total |
+|---|---|---:|---:|---:|---:|
+| (i) | Minimum Area (in hectare) | 100 | 40 | 10 | 150 |
+| (ii) | Remaining area (in hectare) | | | | 60 |
+| (iii) | Distribution of remaining area based on ranking considering Maximum area | 50 | 10 | - | 60 |
+| (iv) | Optimum mix (in hectare) | 150 | 50 | 10 | 210 |
+| (v) | Contribution per hectare (₹) | 12,000 | 13,500 | 10,000 | |
+| (vi) | Total contribution (₹) | 18,00,000 | 6,75,000 | 1,00,000 | 25,75,000 |
+| (vii) | Fixed cost (₹) | | | | 21,45,000 |
+| (viii) | Maximum Profit (₹) | | | | 4,30,000 |
+
+Optimum Product Mix and calculation of maximum profit earned by company can also be presented as below
+
+**(ii) Optimum Product Mix:**
+
+| Particular | Area (in hectares) | Yield (kg per hectare) | Total Production (in kgs) |
+|---|---:|---:|---:|
+| (a) Maximum of Rice | 50 | 500 | 25000 |
+| (b) Minimum of Maize | 10 | 100 | 1000 |
+| (c) Balance of Wheat | 150 | 2000 | 300000 |
+| | 210 | | 326000 |
+
+**(iii) Calculation of maximum profit earned by the company:**
+
+| | Production (in kgs) | Contribution (₹ per kg) | Total contribution (₹) |
+|---|---:|---:|---:|
+| (a) Rice | 25,000 | 24 | 6,75,000 |
+| (b) Maize | 1,000 | 100 | 1,00,000 |
+| (c) Wheat | 3,00,000 | 6 | 18,00,000 |
+| Total contribution | | | 25,75,000 |
+| *Less:* Total Fixed Cost per annum | | | (21,45,000) |
+| Maximum profits earned by the company | | | 4,30,000 |
+#### Approach
+Land is the key factor, so rank by contribution per hectare; allot every crop its minimum area first, then give the remaining hectares to the best-ranked crops up to their maximum areas.
+
+---
+item: q4b
+qno: 4
+part: (b)
+marks: 10
+type: descriptive
+tags: cma.sheet.mfg
+difficulty: medium
+q: 15
+a: 17-18
+note: Kept as printed: working note (ii), which finds the direct wages per unit of a Cloth Mask, ends "Therefore, Direct material Cost per unit of Cloth Mask = ₹ 5".
+---
+#### Question
+PNME Ltd. manufactures two types of masks- 'Disposable Masks' and ‘Cloth Masks'. The cost data for the year ended 31stMarch, 2022 is as follows:
+
+| | ₹ |
+|---|---:|
+| Direct Materials | 12,50,000 |
+| Direct Wages | 7,00,000 |
+| Production Overhead | 4,00,000 |
+| Total | 23,50,000 |
+
+It is further ascertained that:
+
+- Direct material cost per unit of Cloth Mask was twice as much of Direct material cost per unit of Disposable Mask.
+- Direct wages per unit for Disposable Mask were 60% of those for Cloth Mask.
+- Production overhead per unit was at same rate for both the types of the masks.
+- Administration overhead was 50% of Production overhead for each type of mask.
+- Selling cost was ₹ 2 per Cloth Mask.
+- Selling Price was ₹ 35 per unit of Cloth Mask.
+- No. of units of Cloth Masks sold- 45,000
+- No. of units of Production of
+
+| | |
+|---|---:|
+| Cloth Masks: | 50,000 |
+| Disposable Masks: | 1,50,000 |
+
+You are required to prepare a cost sheet for Cloth Masks showing:
+
+(i) Cost per unit and Total Cost.
+
+(ii) Profit per unit and Total Profit.
+#### Answer
+**Preparation of Cost Sheet for Cloth Masks**
+
+No. of units produced = 50,000 units
+
+No. of units sold = 45,000 units
+
+| Particulars | Per unit (₹) | Total (₹) |
+|---|---:|---:|
+| Direct materials (Working note- (i)) | 10.00 | 5,00,000 |
+| Direct wages (Working note- (ii)) | 5.00 | 2,50,000 |
+| Prime cost | 15.00 | 7,50,000 |
+| Production overhead (Working note- (iii)) | 2.00 | 1,00,000 |
+| Factory Cost | 17.00 | 8,50,000 |
+| Administration Overhead\* (50% of Production Overhead) | 1.00 | 50,000 |
+| Cost of production | 18.00 | 9,00,000 |
+| *Less:* Closing stock (50,000 units – 45,000 units) | - | (90,000) |
+| Cost of goods sold i.e. 45,000 units | 18.00 | 8,10,000 |
+| Selling cost | 2.00 | 90,000 |
+| Cost of sales/ Total cost | 20.00 | 9,00,000 |
+| **Profit** | 15.00 | 6,75,000 |
+| Sales value (₹ 35 × 45,000 units) | 35.00 | 15,75,000 |
+
+**Working Notes:**
+
+(i) Direct material cost per unit of Disposable Mask = M
+
+Direct material cost per unit of Cloth Mask = 2M
+
+Total Direct Material cost = 2M × 50,000 units + M × 1,50,000 units
+
+Or, ₹ 12,50,000 = 1,00,000 M + 1,50,000 M
+
+Or, M = $\dfrac{\text{₹ 12,50,000}}{\text{2,50,000}}$ = ₹ 5
+
+Therefore, Direct material Cost per unit of Cloth Mask = 2 × ₹ 5 = ₹ 10
+
+(ii) Direct wages per unit for Cloth Mask = W
+
+Direct wages per unit for Disposable Mask= 0.6W
+
+So, (W x 50,000) + (0.6W x 1,50,000) = ₹ 7,00,000
+
+W = ₹5 per unit
+
+Therefore, Direct material Cost per unit of Cloth Mask = ₹ 5
+
+(iii) Production overhead per unit = $\dfrac{\text{₹ 4,00,000}}{\text{(50,000+1,50,000)}}$ = ₹ 2
+
+Production overhead for Cloth Mask = ₹ 2 × 50,000 units = ₹ 1,00,000
+
+\* Administration overhead is related to production overhead in the question and hence to be considered in cost of production only.
+#### Approach
+Express the per-unit material and wage costs of the two masks with one unknown each and solve from the totals; then build the cost sheet on units produced and value the unsold units at cost of production.
+
+---
+item: q5a
+qno: 5
+part: (a)
+marks: 10
+type: descriptive
+tags: cma.std.material
+difficulty: medium
+q: 18
+a: 20-21
+---
+#### Question
+Y Lid manufactures "Product M" which requires three types of raw materials - "A", "B" & "C". Following information related to 1st quarter of the F.Y. 2022-23 has been collected from its books of accounts. The standard material input required for 1,000 kg of finished product 'M' are as under:
+
+| Material | Quantity (Kg.) | Std. Rate per Kg. (₹) |
+|---|---:|---:|
+| A | 500 | 25 |
+| B | 350 | 45 |
+| C | 250 | 55 |
+| | 1100 | |
+| Standard Loss | 100 | |
+| Standard Output | 1000 | |
+
+During the period, the company produced 20,000 kg of product "M" for which the actual quantity of materials consumed and purchase prices are as under:
+
+| Material | Quantity (Kg.) | Purchase price per Kg. (₹) |
+|---|---:|---:|
+| A | 11,000 | 23 |
+| B | 7,500 | 48 |
+| C | 4,500 | 60 |
+
+You are required to calculate:
+
+(i) Material Cost Variance
+
+(ii) Material Price Variance for each raw material and Product 'M'
+
+(iii) Material Usage Variance for each raw material and Product 'M'
+
+(iv) Material Yield Variance
+
+Note: Indicate the nature of variance i.e. Favourable or Adverse.
+#### Answer
+**Basic Calculations:**
+
+| | Standard for 20,000 kg. | | | Actual for 20,000 kg. | | |
+|---|---:|---:|---:|---:|---:|---:|
+| | **Qty.** | **Rate** | **Amount** | **Qty.** | **Rate** | **Amount** |
+| | **Kg.** | **(₹)** | **(₹)** | **Kg.** | **(₹)** | **(₹)** |
+| A | 10,000 | 25 | 2,50,000 | 11,000 | 23 | 2,53,000 |
+| B | 7,000 | 45 | 3,15,000 | 7,500 | 48 | 3,60,000 |
+| C | 5,000 | 55 | 2,75,000 | 4,500 | 60 | 2,70,000 |
+| Total | 22,000 | | 8,40,000 | 23,000 | | 8,83,000 |
+
+**Calculation of Variances:**
+
+(i) Material Cost Variance = Std. Cost for actual output–Actual cost
+
+MCV =8,40,000– 8,83,000 = ₹ 43,000(A)
+
+(ii) Material Price Variance = (SP–AP) × AQ
+
+| | | |
+|---|---|---:|
+| A | = (25 - 23) x 11,000 | = 22,000 (F) |
+| B | = (45 – 48) x 7,500 | = 22,500 (A) |
+| C | = (55 – 60) x 4,500 | = 22,500 (A) |
+| | | 23000 (A) |
+
+(iii) Material Usages Variance = (SQ–AQ) × SP
+
+| | | |
+|---|---|---:|
+| A | = (10,000 – 11,000) x 25 | = 25,000 (A) |
+| B | = (7,000 – 7,500) x 45 | = 22,500 (A) |
+| C | = (5,000 – 4,500) x 55 | = 27,500 (F) |
+| | | 20,000 (A) |
+
+(iv) Material Yield Variance = (SQ–RSQ\*) × SP
+
+| | | |
+|---|---|---:|
+| A | = (10,000 – 10,454.54) x 25 | = 11,363.5(A) |
+| B | = (7,000 – 7,318.18) x 45 | = 14,318.1(A) |
+| C | = (5,000 – 5,227.27) x 55 | = 12,500(A) |
+| | | 38,181.6(A) |
+
+\*Revised Standard Quantity (RSQ)
+
+A = $\dfrac{10{,}000}{22{,}000} \times 23{,}000$ = 10,454.54
+
+B = $\dfrac{7{,}000}{22{,}000} \times 23{,}000$ = 7,318.18
+
+C = $\dfrac{5{,}000}{22{,}000} \times 23{,}000$ = 5,227.27
+
+Material Yield Variance can also be Calculated as below
+
+Material yield variance = Standard cost per unit (Actual yield – Standard yield)
+
+Standard cost per unit = $\dfrac{\text{₹ 8,40,000}}{20{,}000}$ = ₹ 42
+
+New Standard Yield = $\dfrac{20{,}000}{22{,}000} \times 23{,}000$ = 20,909
+
+Material yield variance = ₹ 42 (20,000 – 20,909)
+
+= ₹ 38,178 (A)
+#### Approach
+Scale the standard mix to the actual output of 20,000 kg first; price and usage variances then compare material by material, and the yield variance compares the standard quantity with the actual total input in standard mix.
+
+---
+item: q5b
+qno: 5
+part: (b)
+marks: 5
+type: descriptive
+tags: cma.sys.recon
+difficulty: easy
+q: 19
+a: 21
+---
+#### Question
+X Ltd. follows Non-Integrated Accounting System. Financial Accounts of the company show a Net Profit of ₹ 5,50,000 for the year ended 31st March, 2022. The chief accountant of the company has provided following information from the Financial Accounts and Cost Accounts:
+
+| Sr. No | Particulars | (₹ ) |
+|---|---|---:|
+| (i) | Legal Chargers Provided in Financial accounts | 15,250 |
+| (ii) | Interim Dividend received credited in financial accounts | 4,50,000 |
+| (iii) | Preliminary Expenses written off in financial accounts | 25,750 |
+| (iv) | Over recovery of selling overheads in cost accounts | 11,380 |
+| (v) | Profit on sale of capital asset credited in financial accounts | 30,000 |
+| (vi) | Under valuation of closing stock in cost accounts | 25,000 |
+| (vii) | Over recovery of production overheads in cost accounts | 10,200 |
+| (viii) | Interest paid on Debentures shown in financial accounts | 50,000 |
+
+Required:
+
+Find out the Profit (Loss) as per Cost Accounts by preparing a Reconciliation Statement.
+#### Answer
+**Reconciliation Statement**
+
+**(Reconciliation the profit as per financial records with the profit as per costing records)**
+
+| | Particulars | (₹) | Total (₹) |
+|---|---|---:|---:|
+| | Profit as per Financial Accounts | | 5,50,000 |
+| *Add:* | Legal Charges | 15,250 | |
+| | Preliminary expenses written off | 25,750 | |
+| | Interest paid | 50,000 | 91,000 |
+| | | | 6,41,000 |
+| *Less:* | Under-valuation of closing stock in cost book | 25,000 | |
+| | Interim Dividend Received | 4,50,000 | |
+| | Over recovery of selling overheads in cost accounts | 11,380 | |
+| | Over recovery of production overhead in cost accounts | 10,200 | 5,26,580 |
+| | Profit on sale of Assets | 30,000 | |
+| | Profit as per Cost Accounts | | 1,14,420 |
+#### Approach
+Start from the financial profit and ask, item by item, whether it made the financial profit lower or higher than the cost profit: add back the former, deduct the latter.
+
+---
+item: q5c
+qno: 5
+part: (c)
+marks: 5
+type: descriptive
+tags: cma.joint.byprod
+difficulty: easy
+q: 19
+a: 21-22
+---
+#### Question
+ASR Ltd mainly produces Product 'L' and gets a by-Product 'M' out of a joint process. The net realizable value of the by-product is used to reduce the joint production costs before the joint costs are allocated to the main product. During the month of October 2022, company incurred joint production costs of ₹ 4,00,000. The main Product 'L' is not marketable at the split off point. Thus, it has to be processed further. Details of company's operation are as under:
+
+| Particulars | Product L | By- Product M |
+|---|---:|---:|
+| Production (units) | 10,000 | 200 |
+| Selling price per kg | ₹ 45 | ₹5 |
+| Further processing cost | ₹ 1,01,000 | - |
+
+You are required to find out:
+
+(i) Profit earned from Product 'L'.
+
+(ii) Selling price per kg of product 'L', if the company wishes to earn a profit of ₹ 1,00,000 from the above production.
+#### Answer
+**(i) Calculation of profit on product ‘L’**
+
+| Particular | ₹ |
+|---|---:|
+| Sales | 4,50,000 |
+| *Less:* Further processing cost | (1,01,000) |
+| | 3,49,000 |
+| *Less:* Joint Production Cost\* | (3,99,000) |
+| loss | (50,000) |
+
+\*Joint Production Cost = [4,00,000 – (200 × 5)] = 3,99,000
+
+**(ii) Calculation of desired selling price of product ‘L’**
+
+Desired selling price = $\dfrac{\text{Desired Profit + Total Cost}}{\text{units measured}}$
+
+= $\dfrac{1{,}00{,}000+1{,}01{,}000+3{,}99{,}000}{10{,}000}$ = ₹ 60 per kg.
+#### Approach
+Reduce the joint cost by the by-product's realisable value, then charge the main product with the rest plus its further processing cost.
+
+---
+item: q6a
+qno: 6
+part: (a)
+marks: 5
+type: descriptive
+tags: cma.mat.techniques
+difficulty: easy
+q: 22
+a: 23
+note: Question 6 opens with ICAI's instruction "Answer any four of the following:" for parts (a) to (e), "(4 x 5 = 20 Marks)" (pp.22-23); the instruction is a heading of the question, not transcribed in the items.
+---
+#### Question
+Which system of inventory management is known as 'Demand pull' or 'Pull through' system of production? Explain. Also, specify the two principles on which this system is based.
+#### Answer
+**Just in Time (JIT) Inventory Management is also known as ‘Demand pull’ or ‘Pull through’ system of production.** In this system, production process actually starts after the order for the products is received. Based on the demand, production process starts and the requirement for raw materials is sent to the purchase department for purchase.
+
+It is a system of inventory management with an approach to have a zero inventories in stores. According to this approach material should only be purchased when it is actually required for production.
+
+**JIT is based on two principles**
+
+(i) Produce goods only when it is required and
+
+(ii) the products should be delivered to customers at the time only when they want.
+#### Approach
+Name the system first, then explain what "pull" means for when production and purchasing start.
+
+---
+item: q6b
+qno: 6
+part: (b)
+marks: 5
+type: descriptive
+tags: cma.sys.recon
+difficulty: easy
+q: 22
+a: 23-24
+note: Question 6: "Answer any four of the following" (a)-(e), see q6a.
+---
+#### Question
+Indicate, for following items, whether to be shown in the Cost Accounts or Financial Accounts:
+
+(i) Preliminary expenses written off during the year
+
+(ii) Interest received on bank deposits
+
+(iii) Dividend, interest received on investments
+
+(iv) Salary for the proprietor at notional figure though not incurred
+
+(v) Charges in lieu of rent where premises are owned
+
+(vi) Rent receivables
+
+(vii) Loss on sale of Fixed Assets
+
+(viii) Interest on capital at notional figure though not incurred
+
+(ix) Goodwill written off
+
+(x) Notional Depreciation on the assets fully depreciated for which book value is Nil.
+#### Answer
+| S. No. | Items | Accounts |
+|---|---|---|
+| (i) | Preliminary expenses written off during the year | Financial Accounts |
+| (ii) | Interest received on bank deposits | Financial Accounts |
+| (iii) | Dividend, interest received on investments | Financial Accounts |
+| (iv) | Salary for the proprietor at notional figure though not incurred | Cost Accounts |
+| (v) | Charges in lieu of rent where premises are owned | Cost Accounts |
+| (vi) | Rent receivables | Financial Accounts |
+| (vii) | Loss on the sales of Fixed Assets | Financial Accounts |
+| (viii) | Interest on capital at notional figure though not incurred | Cost Accounts |
+| (ix) | Goodwill written off | Financial Accounts |
+| (x) | Notional Depreciation on the assets fully depreciated for which book value is nil | Cost Accounts |
+#### Approach
+Sort the items into purely financial charges and incomes on one side and notional costs on the other.
+
+---
+item: q6c
+qno: 6
+part: (c)
+marks: 5
+type: descriptive
+tags: cma.abc.concept
+difficulty: easy
+q: 22
+a: 24
+note: Question 6: "Answer any four of the following" (a)-(e), see q6a.
+---
+#### Question
+PP Limited is in the process of implementation of Activity Based Costing System in the organisation. For this purpose, it has identified the following Business Functions in its organisation:
+
+(i) Research and Development
+
+(ii) Design of Products, Services and Procedures
+
+(iii) Customer Service
+
+(iv) Marketing
+
+(v) Distribution
+
+You are required to specify two cost drivers for each Business Function Identified above.
+#### Answer
+| Business functions | Cost Driver |
+|---|---|
+| Research and Development | • Number of research projects<br>• Personnel hours on a project<br>• Technical complexities of the project |
+| Design of products, services and procedures | • Number of products in design<br>• Number of parts per product<br>• Number of engineering hours |
+| Customer Service | • Number of service calls<br>• Number of products serviced<br>• Hours spent on servicing products |
+| Marketing | • Number of advertisements<br>• Number of sales personnel<br>• Sales revenue |
+| Distribution | • Number of units distributed<br>• Number of customers<br>• Weight of items distributed |
+
+(Any two cost drivers of each business function)
+#### Approach
+For each function, ask what makes its cost go up: the number of things it handles, the hours it spends, or their complexity.
+
+---
+item: q6d
+qno: 6
+part: (d)
+marks: 5
+type: descriptive
+tags: cma.bud.basics
+difficulty: easy
+q: 23
+a: 24-25
+note: Question 6: "Answer any four of the following" (a)-(e), see q6a.
+---
+#### Question
+Define Budget Manual. What are the salient features of Budget Manual?
+#### Answer
+**Budget Manual:** The budget manual is a booklet specifying the objectives of an organisation in relation to its strategy. The budget is made to decide how much an organisation would earn and spend and in what manner. In the budget, the organisation sets its priorities too.
+
+Effective budgetary planning relies on the provision of adequate information to the individuals involved in the planning process. Many of these information needs are contained in the budget manual. A budget manual is a collection of documents that contains key information for those involved in the planning process.
+
+CIMA London defines budget manual as, 'A document which sets out the responsibilities of the persons engaged in, the routines of, and the forms and records required for, budgetary control'.
+
+**Contents of a budget manual:** Typical budget manual may include the following:
+
+(i) A statement regarding the objectives of the organisation and how they can be achieved through budgetary control;
+
+(ii) A statement about the functions and responsibilities of each executive, both regarding preparation and execution of budgets;
+
+(iii) Procedures to be followed for obtaining the necessary approval of budgets. The authority of granting approval should be stated in explicit terms. Whether, one two or more signatures are required on each document should be clearly stated;
+
+(iv) A form of organisation chart to show who are responsible for the preparation of each functional budget and the way in which the budgets are interrelated.
+
+(v) A timetable for the preparation of each budget.
+
+(vi) The manner of scrutiny and the personnel to carry it out;
+
+(vii) Reports, statements, forms and other record to be maintained.
+
+(viii) The accounts classification to be employed. It is necessary that the framework within which the costs, revenue and other financial accounts are classified must be identical both in the accounts and budget department.
+
+(ix) The reporting of the remedial action.
+
+(x) The manner in which budgets, after acceptance and issuance, are to be revised or amended, these are included in budgets and on which action can be taken only with the approval of top management
+
+(xi) This will prevent the formation of a ‘bottleneck’ with the late preparation of one budget holding up the preparation of all others.
+
+(xii) Copies of all forms to be completed by those responsible for preparing budgets, with explanations concerning their completion.
+
+(xiii) A list of the organization’s account codes, with full explanations of how to use them.
+
+(xiv) Information concerning key assumptions to be made by managers in their budgets, for example the rate of inflation, key exchange rates, etc.
+
+(Any four points)
+#### Approach
+Define it as a document for those who prepare budgets, then list what such a document must tell them: who does what, by when, on which forms and with which approvals.
+
+---
+item: q6e
+qno: 6
+part: (e)
+marks: 5
+type: descriptive
+tags: cma.intro.terms
+difficulty: easy
+q: 23
+a: 26
+note: Question 6: "Answer any four of the following" (a)-(e), see q6a.
+---
+#### Question
+Mention the cost units (physical measurements) for the following Industry/product:
+
+(i) Automobile
+
+(ii) Gas
+
+(iii) Brick works
+
+(iv) Power
+
+(v) Steel
+
+(vi) Transport (by road)
+
+(vii) Chemical
+
+(viii) Oil
+
+(ix) Brewing
+
+(x) Cement
+#### Answer
+| Industry or Product | Cost Units |
+|---|---|
+| Automobile | Number |
+| Gas | Cubic feet |
+| Brick works | 1,000 bricks |
+| Power | Kilo-watt hour (kWh) |
+| Steel | Tonne |
+| Transport (by road) | Passenger- kilometer or Tonne-kilometer |
+| Chemical | Litre, gallon, kilogram, tonne etc. |
+| Oil | Barrel, tonne, litre |
+| Brewing | Barrel |
+| Cement | Ton/ per bag etc. |
+#### Approach
+For each industry, think of the physical unit in which its output is counted, measured or sold.

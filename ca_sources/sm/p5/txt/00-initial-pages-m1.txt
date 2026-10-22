@@ -1,0 +1,781 @@
+# ICAI Board of Studies - Intermediate (New Scheme) Study Material - Paper 5: Auditing and Ethics
+# Module 1 Initial Pages
+# Edition: July 2024, Reprint August 2025 (cover: "Relevant for May 2026 Examination"); ICAI lists this edition as applicable for January 2027
+# Source: https://resource.cdn.icai.org/87755bos280825-ip-5.pdf  (local ../pdf/m1-ip.pdf, sha256 2e641b44e0c38b28)
+# Page markers "=== p.N [X.Y] ===": N = page number inside the PDF file above, X.Y = ICAI printed page number
+# Text: poppler pdftotext -layout (columns of tables kept), symbol-font bullets -> "-", Rupee-font backtick -> ₹, running heads/footers removed. Equations from MathType objects are not reliable as text: see formula_pages in toc.json and render the PDF page
+
+=== p.1 ===
+                          Intermediate Course
+                                                 Study Material
+                                                 (Modules 1 to 2)
+
+                                                       Paper 5
+
+          Auditing & Ethics
+                     (Relevant for May, 2026 Examination)
+                                                      Module – 1
+
+                 BOARD OF STUDIES
+THE INSTITUTE OF CHARTERED ACCOUNTANTS OF INDIA
+
+=== p.2 ===
+This Study Material has been prepared by the faculty of the Board of Studies. The
+objective of the Study Material is to provide teaching material to the students to
+enable them to obtain knowledge in the subject. In case students need any
+clarification or have any suggestion for further improvement of the material
+contained herein, they may write to the Joint Director, Board of Studies.
+All care has been taken to provide interpretations and discussions in a manner
+useful for the students. However, the Study Material has not been specifically
+discussed by the Council of the Institute or any of its committees and the views
+expressed herein may not be taken to necessarily represent the views of the
+Council or any of its Committees.
+Permission of the Institute is essential for reproduction of any portion of this
+material.
+
+All rights reserved. No part of this book may be reproduced, stored in a retrieval
+system, or transmitted, in any form, or by any means, electronic, mechanical,
+photocopying, recording, or otherwise, without prior permission, in writing, from the
+publisher.
+
+Basic draft of this publication was prepared by CA. (Dr.) Rashmi Goel
+
+Edition                                 :       July, 2024
+
+Reprint                                 :       August, 2025
+
+Committee/Department                    :       Board of Studies
+
+E-mail                                  :       bosnoida@icai.in
+
+Website                                 :       www.icai.org
+
+Price                                   :       ₹   /-   (For All Modules)
+
+ISBN No.                                :       978-81-19472-88-8
+
+Published by                            :       The Publication & CDS Directorate on behalf of
+                                                The Institute of Chartered Accountants of India,
+                                                ICAI     Bhawan,    Post     Box   No.    7100,
+                                                Indraprastha Marg, New Delhi 110 002 (India)
+Printed by                              :
+
+=== p.3 ===
+                        BEFORE WE BEGIN….
+At the Intermediate level, Auditing and Ethics as a subject is introduced for the
+first time. You would learn new jargon of auditing after reading contents of
+modules. The content has been developed in a student friendly manner to make
+you understand things through storyline, examples, situational case scenarios and
+application-based questions.
+Story-telling is one of ancient Indian traditions. Do you remember Panchtantra? –
+an ancient Sanskrit treatise which taught principles of good governance to three
+princes of a king by telling them animal fables. They are a unique contribution of
+India to the world of Literature. We, at Board of Studies of ICAI, have made a
+small effort to assist you to gain overview of each chapter by telling a story. The
+story moves on along with your course content.
+Auditing is an analytical subject requiring application of various skills. Apart from
+knowledge of subject, it requires understanding based learning, a knack for
+applying conceptual knowledge to practical situations and ability to write concisely.
+As Shakespeare wrote” Brevity is the soul of wit”. You have to develop ability to
+write what you intend to say. It would not only help you to come out of your
+exams with flying colours but would also groom you as versatile professional.
+As you would be studying through the chapters step by step, you will learn the
+concepts of auditing, namely, meaning of audit, audit planning, audit strategy,
+audit risk, audit evidence, audit documentation, etc. Audit procedures as required
+to be followed in different auditing situations, have been explained point wise
+and also with the help of diagrams. This learning of yours would hone your
+auditing skills which will be put into practice when you undergo practical training.
+
+Know your Syllabus
+The study material deals with the conceptual theoretical framework in detail.
+In each chapter, the topic has been covered in a step by step approach. The text
+has been explained, where appropriate, through illustrations, diagrams, tables,
+flowcharts, screenshots etc. You should go through the chapter carefully ensuring
+that you understand the topic and then can tackle the MCQs, Correct/Incorrect
+and other question.
+The entire syllabus has been divided into Eleven chapters.
+Chapter-1 discusses the basics of audit such as Origin, nature, scope, objectives,
+limitations etc. of audit. Meaning and Types of Assurance Engagements.
+
+=== p.4 ===
+Chapter-2 is devoted to Audit Strategy; Audit planning and Audit programme;
+
+Chapter-3 is devoted to Audit Risk, Identifying and Assessing the Risk of Material
+Misstatement, Risk Assessment procedures; Understanding the entity and its
+environment; Internal Control; Materiality.
+
+Chapter-4 discusses about Audit evidence; Internal audit function; Audit
+Sampling; Audit Evidence - Specific Considerations for Selected Items; External
+Confirmations; Initial Audit Engagements-Opening Balances; Related Party
+Transactions; analytical procedures.
+Chapter-5 is devoted to the Audit of Items of Financial Statements
+Chapter-6 focusses on Audit Documentation.
+Chapter-7 discusses about Completion and Review
+
+Chapter-8 discusses about various aspects of Auditor’s Report.
+Chapter-9 extensively deals with the Audit Procedures in respect of different
+Category of Entities.
+Chapter-10 deals with the Audit of Banks.
+Chapter-11 deals with Ethics and Terms of Audit Engagements
+Structure of the Study Material
+The content for each chapter/unit at the Intermediate level has been structured in
+the following manner –
+
+       Components of                   About the component
+       each Chapter
+ 1.    Learning Outcomes               Learning outcomes which you need to demonstrate
+                                       after learning each topic have been detailed in the first
+                                       page of each chapter/unit. Demonstration of these
+                                       learning outcomes would help you to achieve the
+                                       desired level of technical competence.
+ 2.    Chapter Overview                As the name suggests, this chart/table would give a
+                                       broad outline of the contents covered in the chapter.
+ 3.    Introduction                    A brief introduction is given at the beginning of each
+                                       chapter/unit which would help you get a feel of the
+                                       topic.
+
+=== p.5 ===
+ 4     Storyline                       A story is given at the beginning of each chapter
+                                       which will help to gain overview of the chapter and
+                                       develop interest in the topics systematically.
+ 5.    Content                         The concepts and provisions of standards/law are
+                                       explained in student-friendly manner with the aid of
+                                       Story/Examples/illustrations/diagrams/ flow charts/
+                                       Case Studies. These value additions would help you
+                                       develop conceptual clarity and get a good grasp of the
+                                       topic. Diagrams and Flow charts would help you
+                                       understand the concept/ provision in a better manner.
+                                       Illustrations would help you understand the
+                                       application of concepts/provisions.
+ 6.    Test Your                       Test Your Understanding would help you to check
+       Understanding                   your knowledge after understanding the topic.
+ 7.    Exercise Questions The exercise questions and answers would help you to
+       with Answers       apply what you have learnt in problem solving. In
+                          effect, it would sharpen your application skills and test
+                          your understanding as well as your application of
+                          concepts/ provisions.
+ 8.    Summary                         A summary of the chapter is given at the end to help
+                                       you revise what you have learnt. It would especially
+                                       help you to revise the chapter quickly the day before
+                                       the examination.
+ 9.    Test Your                       This comprises of Multiple-Choice Questions, Correct/
+       Knowledge                       incorrect and other questions which test the breadth
+                                       and depth of your understanding of the topic.
+
+We hope that these student-friendly features in the Study Material would make your
+learning process more enjoyable, enrich your knowledge and sharpen your
+application skills.
+                           Happy Reading and Best Wishes!
+
+=== p.6 ===
+                                            SYLLABUS
+
+                PAPER 5- AUDITING AND ETHICS (100 MARKS)
+                                (One paper – Three hours – 100 Marks)
+
+Objective:
+(a)       To develop an understanding of the concepts in auditing and of the
+          generally accepted auditing procedures, techniques and skills and acquire
+          the ability to apply the same in audit and attestation engagements.
+(b)       To understand and apply the concept of ethics while performing audit.
+Contents:
+1.      Nature, Objective and Scope of Audit
+
+          Auditing Concepts: Origin of Auditing, Meaning and Nature of Audit, Need
+          for audit (Benefits of an Audit), Objective of the audit, Scope of Audit,
+          External Audit engagements, Qualities of Auditor. Inherent Limitations of
+          an audit; Relationship of auditing with other disciplines. (SA 200 Overall
+          Objectives of the Independent Auditor and the Conduct of an Audit in
+          Accordance with Standards on Auditing).
+2.        Audit Strategy, Audit Planning and Audit Program
+          (SA 300 Planning an Audit of Financial statements). Auditor’s responsibility
+          to plan an audit of financial statements. Benefits of audit planning.
+          Planning is a continual and iterative process. Discussion of elements of
+          planning with the entity’s management. Involvement of Key Engagement
+          Team Members in planning the audit. Preliminary engagement activities.
+          The auditor’s consideration of client continuance and ethical requirements.
+          Planning activities. Establishing an overall audit strategy- Assistance for
+          the auditor. Development of audit plan. Documenting the overall audit
+          strategy and audit plan; Audit program. Development of Audit Plan and
+          Program.
+
+=== p.7 ===
+3.      Risk Assessment and Internal Control
+
+          Audit Risk, Risk of Material Misstatement, Inherent Risk and Control Risk,
+          Detection Risk. Sampling and Non-Sampling Risk. Concept of Materiality,
+          Materiality in Planning and Performing an Audit. Auditor’s responsibility to
+          apply the concept of materiality. Auditor’s determination of materiality is a
+          matter of professional judgement.
+
+          Materiality and Audit Risk. Application of materiality in planning and
+          performing the audit. Concept of Performance materiality. Determining
+          materiality and performance materiality when planning the audit. Use of
+          Benchmarks in determining materiality for the financial statements as a
+          whole. Materiality level or levels for particular classes of transactions,
+          account balances or disclosures. Revision              in   materiality   as   the     audit
+          progresses. Documenting the Materiality. (SA 320 Materiality in Planning
+          and Performing an Audit).
+
+          Identifying and Assessing the Risk of Material Misstatement, Risk
+          Assessment procedures. Understanding the entity and its environment;
+          Internal control, Documenting the Risks; Evaluation of internal control
+          system; Testing of Internal control; Internal Control and IT Environment (SA
+          315 Identifying and Assessing the Risks of Material Misstatement Through
+          Understanding the Entity and Its Environment).
+
+          Digital Audit: Key features of an automated environment, Impact of IT
+          related Risks, Impact on Controls, Internal Financial Controls as per
+          Regulatory         requirements,          Types   of    Controls,    Audit     approach,
+          Understanding           and      documenting      Automated      environment,        Testing
+          methods, data analytics for audit, assessing and reporting audit findings.
+          Overview and Introduction - The Auditor’s Responses to Assessed
+          Risks-SA 330.
+4.      Audit Evidence
+
+          Meaning of Audit Evidence. Relevance and Reliability of audit evidence;
+          Sufficient appropriate audit evidence, Meaning of Assertions. Assertions
+          contained in the Financial Statements. Source of audit evidence; Test of
+
+=== p.8 ===
+          controls. Substantive Procedures- Test of details and Substantive analytical
+          procedures, Audit procedures for obtaining audit evidence. Evaluation of
+          Audit Evidence (SA 500 Audit Evidence).
+
+          Audit Trail.
+
+          (Using the work of Internal Auditors – SA 610). Internal audit function.
+          External Auditor’s Responsibility for the audit, Evaluating the internal audit
+          function.
+
+          Basics of Internal Financial Control and reporting requirements. Distinction
+          between Internal Financial Control and Internal Control over Financial
+          Reporting.
+
+          Audit Sampling: (SA 530 Audit Sampling). Meaning of Audit Sampling;
+          Designing an audit sample; Types of Sampling (Approaches to Sampling);
+          Sample Size and selection of items for testing; Sample selection method.
+
+          Obtaining evidence of existence of inventory; Audit procedure to identify
+          litigation & claims, obtaining evidence regarding the presentation and
+          disclosure of segment information (SA 501 Audit Evidence - Specific
+          Considerations for Selected Items); External confirmation procedures;
+          Management’s refusal to allow the auditor to send a confirmation request;
+          Negative Confirmations (SA 505 External Confirmations); Audit evidence
+          about opening balances; Accounting policies relating to opening balances;
+          Reporting with regard to opening balances (SA 510 Initial Audit
+          Engagements-Opening Balances); Meaning of Related Party; Nature of
+          Related Party Relationships & Transactions; Understanding the Entity’s
+          Related Party Relationships & Transactions (SA 550 Related Parties);
+
+          Analytical Procedures: Meaning, nature, purpose and timing of analytical
+          procedures; Substantive analytical procedures, Designing and performing
+          analytical procedures prior to Audit; Investigating the results of analytical
+          procedures (SA 520 Analytical Procedures).
+5.      Audit of Items of Financial Statements:
+          Audit of sale of Products and Services; Audit of Interest Income, Rental
+          Income, Dividend Income, Net gain/loss on sale of Investments etc.
+
+=== p.9 ===
+          Audit of Purchases, Employee benefits expenses, Depreciation, Interest
+          expense, Expenditure on Power & Fuel, Rent, Repair to building, Repair to
+          Machinery, Insurance, Taxes, Travelling Expenses, Miscellaneous Expenses
+          etc. Audit of Share Capital, Reserve & Surplus, Long Term Borrowings,
+          Trade Payables, Provisions, Short Term Borrowings & Other Current
+          Liabilities. Audit of Land, Buildings, Plant & Equipment, Furniture &
+          Fixtures, Vehicles, Office Equipment, Goodwill, Brand/Trademarks,
+          Computer Software etc. Audit of Loan & Advances, Trade Receivable,
+          Inventories, Cash & Cash Equivalent, Other Current Assets. Audit of
+          Contingent Liabilities. (The list of items is illustrative only).
+6.      Audit Documentation
+          Concept of Audit Documentation. Nature & Purpose of Audit
+          Documentation; Form, Content & Extent of Audit Documentation.
+          Completion Memorandum; Ownership and custody of Audit
+          Documentation (SA 230 Audit Documentation).
+7.      Completion and Review
+
+          Meaning of Subsequent Events. Auditor’s obligations in different situations
+          of subsequent events. Procedures for subsequent events. (SA 560
+          Subsequent Events). Responsibilities of the Auditor with regard to Going
+          Concern Assumption; Objectives of the Auditor regarding Going Concern.
+          Events or Conditions that may cast doubt about Going Concern
+          Assumption. Audit Procedures when events or conditions are identified (SA
+          570 Going Concern). Overview and Introduction of Evaluations of
+          Misstatements           identified        during   the   audit   (SA   450).   Written
+          Representations as Audit Evidence. Objective of Auditor regarding Written
+          Representation. Management from whom Written Representations may be
+          requested. Written Representations about Management’s Responsibilities
+          (SA 580 Written Representations);
+
+          Overview and Introduction of SA 260: Communication with Those Charged
+          with Governance.
+
+          Overview and Introduction of SA 265 Communicating Deficiencies in
+          Internal Control to Those Charged with Governance and Management.
+
+=== p.10 ===
+8.      Audit Report:
+
+          Forming an opinion on the Financial Statements. Auditor’s Report- basic
+          elements (SA 700 Forming an Opinion and Reporting on Financial
+          Statements). Communicating key Audit Matters in the Independent
+          Auditor’s Report (SA 701) Types of Modified Opinion, Circumstances When
+          a Modification to the Auditor’s Opinion is Required, Qualified, Adverse,
+          Disclaimer of Opinion (SA 705 Modification to the Opinion in the
+          Independent Auditor’s Report). SA 706 Emphasis of Matter Paragraphs and
+          Other Matter Paragraphs in the Independent Auditor’s Report. Nature of
+          Comparative Information. Corresponding Figure; Comparative Financial
+          Statements (SA 710 Comparative Information – Corresponding Figures and
+          Comparative Financial Statements). Branch audit; Joint audit; Reporting
+          requirements under the Companies Act, 2013 including CARO;
+
+9.      Special Features of Audit of Different Type of Entities
+          Appointment of Auditor, Audit Procedure and Audit Report in respect of
+          different Category of Entities: Government; Local bodies; Not-for-profit
+          organizations; Trust and Societies, Partnership Firms, Audit of different
+          type of undertakings, i.e., educational institutions, Hotels, Clubs, Hospitals
+          etc. Basics of Limited Liability Partnerships (LLPs)audit and Co-operative
+          Societies Audit.
+10.       Audit of Banks
+          Understanding of accounting system in Banks, Audit Approach, Audit of
+          Revenue items, Special Consideration in Bank Audit with emphasis on
+          Advances and NPAs.
+11.       Ethics and Terms of Audit Engagements
+
+          Meaning of Ethics; Ethics is a State of Mind, Need for Professional Ethics;
+          Principles based approach v Rules based approach (Ethical or Legal)
+          The fundamental principles of Professional Ethics: Integrity; Objectivity;
+          Professional Competence and Due care; Confidentiality; Professional
+          Behaviour. Independence of Auditors. Threats to Independence: Self
+          Interest threats; Self Review threats; Advocacy threats; Familiarity threats;
+          Intimidation threats. Safeguards to Independence; Professional Skepticism,
+          Terms of Audit Engagements Preconditions for an audit; Audit
+
+=== p.11 ===
+          Engagement. Agreement on Audit Engagement Terms. Terms of
+          Engagement in Recurring Audits (SA 210 Agreeing the Terms of Audit
+          Engagements).
+          Overview and Introduction of SQC 1 Quality Control for Firms that Perform
+          Audits and Reviews of Historical Financial Information and Other
+          Assurance and Related Services Engagements.
+
+          Overview and Introduction of SA 220 - Quality Control for an Audit of
+          Financial Statements).
+Note:
+(i)     The specific inclusions/exclusions, in any topic covered in the syllabus, will
+        be effected every year by way of Study Guidelines.
+(ii)    If new legislations/ Standards on Auditing/Guidance Notes/Statements are
+        enacted in place of the existing legislations/ Standards on
+        Auditing/Guidance Notes/Statements, the syllabus would include the
+        corresponding provisions of such new legislations/ Standards on
+        Auditing/Guidance Notes/Statements with effect from a date notified by the
+        Institute. The changes in this regard would also form part of Study
+        Guidelines.
+
+=== p.12 ===
+                                          CONTENTS
+
+MODULE – 1
+Chapter 1 : Nature, Objective and Scope of Audit
+Chapter 2 : Audit Strategy, Audit Planning and Audit Programme
+Chapter 3 : Risk Assessment and Internal Control
+Chapter 4 : Audit Evidence
+Chapter 5 : Audit of Items of Financial Statements
+
+MODULE – 2
+Chapter 6 : Audit Documentation
+Chapter 7 : Completion and Review
+Chapter 8 : Audit Report
+Chapter 9 : Special Features of Audit of Different Type of Entities
+Chapter 10 : Audit of Banks
+Chapter 11 : Ethics and Terms of Audit Engagements
+
+=== p.13 ===
+      MODULE – 1: DETAILED CONTENTS
+
+ CHAPTER – 1: NATURE, OBJECTIVE AND SCOPE OF AUDIT
+
+Learning Outcomes ........................................................................................................... 1.1
+Chapter Overview .............................................................................................................. 1.2
+Contents:
+1.         Introduction............................................................................................................. 1.3
+2.         Origin of Auditing ................................................................................................... 1.4
+3.         Meaning and nature of auditing .......................................................................... 1.5
+4          Interdisciplinary nature of auditing ..............................................................1.6
+5.         Objectives of Audit ................................................................................................. 1.8
+6.         Scope of audit .......................................................................................................................1.10
+           6.1          Scope of audit-What it does not include ............................................. 1.12
+7.         Inherent limitations of audit................................................................................ 1.14
+8.         What is an engagement? ..................................................................................................1.17
+           8.1          External audit engagements ................................................................... 1.17
+
+9.         Benefits of audit-Why audit is needed? ....................................................................1.17
+10.        Audit- Mandatory or voluntary?.....................................................................................1.18
+11.        Who appoints an auditor? ................................................................................................1.18
+
+12.        To Whom report is submitted by an auditor? ....................................................... 1.19
+13.        Meaning of Assurance engagement.............................................................................1.22
+           13.1         Elements of an Assurance Engagement .......................................................1.23
+
+           13.2         Meaning of Review; Audit Vs. Review ...........................................................1.24
+
+=== p.14 ===
+            13.3        Types of Assurance Engagements....................................................................... 1.24
+
+14.         Qualities of Auditor .............................................................................................................1.27
+15.         Engagement and Quality control Standards: An Overview............................. 1.28
+            15.1        Standards on Auditing ........................................................................................1.29
+
+            15.2        Standards on review engagements ................................................................1.29
+            15.3        Standards on Assurance engagements ........................................................1.30
+            15.4        Standards on Related Services .........................................................................1.30
+
+            15.5        Standards on Quality Control ...........................................................................1.31
+            15.6        Why are Standards needed? .............................................................................1.31
+            15.7 Duties in relation to Engagement and Quality Control Standards ..........1.32
+
+Summary............................................................................................................................ 1.36
+Test Your Knowledge ......................................................................................................................1.37
+
+ CHAPTER – 2: AUDIT STRATEGY, AUDIT PLANNING AND AUDIT PROGRAMME
+
+Learning Outcomes ........................................................................................................... 2.1
+Chapter Overview .............................................................................................................. 2.2
+Contents:
+1.          Auditor’s responsibility to plan an audit of financial statements ........................ 2.4
+            1.1         Why Planning an audit is necessary? - Its Benefits .................................... 2.4
+            1.2         Nature of Audit Planning- A Continuous and iterative process ............ 2.5
+2.          Planning Process- Elements of Planning ...................................................................... 2.7
+
+3.          Relationship Between Overall Audit Strategy and Audit Plan.............................2.15
+4.          Overall audit strategy and the audit plan- The auditor’s responsibility ..........2.15
+5.          Changes to Planning decisions during the course of audit .................................2.16
+
+6.          Planning supervision and review of work of engagement team members ...2.16
+7.          Documentation .....................................................................................................................2.17
+8.          Audit Programme.................................................................................................................2.18
+
+=== p.15 ===
+             8.1          Evolving one audit programmes .....................................................................2.18
+             8.2          The Assistant to keep an open mind .............................................................2.19
+             8.3          Periodic review of the audit programme .....................................................2.19
+
+             8.4          Constructing an audit programme .................................................................2.20
+             8.5          Audit Programme- Designed to provide audit evidence.......................2.22
+             8.6          Advantages and disadvantages of an audit programme.......................2.23
+Summary ...............................................................................................................................................2.28
+Test Your Knowledge ......................................................................................................................2.29
+
+ CHAPTER – 3: Risk Assessment and Internal Control
+
+Learning Outcomes ........................................................................................................... 3.1
+Chapter Overview .............................................................................................................. 3.2
+Contents
+1.           Audit risk ................................................................................................................................... 3.4
+             1.1          Risks of material misstatement .......................................................................... 3.4
+             1.2          Components of risk of material misstatement............................................. 3.5
+             1.3          Detection risk ............................................................................................................ 3.7
+             1.4          Audit risk-What is not included? ....................................................................... 3.8
+             1.5          Assessment of risks- A matter of professional Judgment ....................... 3.9
+             1.6          Identifying and assessing the risk of material misstatement ...............3.12
+             1.7          Risk Assessment Procedures .............................................................................3.13
+             1.8          Information obtained by performing risk assessment procedures ....3.15
+2.           Materiality ...............................................................................................................................3.16
+
+             2.1          What is meant by materiality?..........................................................................3.16
+             2.2          Materiality in Planning and performing an audit......................................3.17
+             2.3          Determination of materiality- a matter of professional judgment ....3.19
+
+=== p.16 ===
+          2.4          Performance Materiality .....................................................................................3.19
+
+          2.5          Determining Materiality and Performance Materiality when
+                       Planning the Audit ................................................................................................3.20
+
+          2.6          Use of Benchmarks in Determining Materiality for the Financial
+                       Statements as a Whole .......................................................................................3.20
+          2.7          Materiality Level or Levels for Particular Classes of Transactions,
+                       Account Balances or Disclosures .....................................................................3.22
+          2.8          Revision in Materiality level as the Audit Progresses ..............................3.22
+          2.9          Documenting the Materiality............................................................................3.23
+
+          2.10         Materiality and audit risk ...................................................................................3.23
+3.        Understanding the entity and its environment ........................................................3.24
+          3.1          Why understanding the entity and its environment is significant? ...3.27
+
+          3.2          Understanding the entity-a continuous process.......................................3.28
+4.        Internal Control .....................................................................................................................3.29
+          4.1          Meaning of Internal Control .............................................................................3.29
+          4.2          Purpose of Internal Control ...............................................................................3.30
+          4.3          Benefits of Internal Control ...............................................................................3.30
+          4.4          Limitations of Internal Control .........................................................................3.30
+
+          4.5          Components of Internal Control .....................................................................3.32
+          4.6          Are all Controls Relevant to the audit? .........................................................3.38
+          4.7          Controls over the completeness and accuracy of information............3.39
+          4.8          Internal control over safeguarding of assets ..............................................3.39
+          4.9          Controls relating to objectives that are not relevant to an audit .......3.40
+          4.10         Nature and Extent of the Understanding of Relevant Controls ..........3.40
+
+5.        Risks that Require Special Audit Consideration .......................................................3.41
+          5.1          Identifying Significant Risks ..............................................................................3.42
+
+=== p.17 ===
+          5.2          Risks of Material Misstatement– Greater for Significant
+                       Non-Routine Transactions .................................................................................3.42
+          5.3          Risks of material misstatement– Greater for Significant
+                       Judgmental Matters .............................................................................................3.42
+6.        Evaluation of Internal Control System..........................................................................3.43
+          6.1          Benefits of Evaluation of Internal Control to the Auditor ......................3.43
+          6.2          Evaluation of Internal Control– Methods .....................................................3.46
+7.        Testing of Internal Control ...............................................................................................3.52
+8.        What is an automated environment? ...........................................................................3.54
+          8.1          Key features of an automated environment ...............................................3.54
+          8.2          Understanding and documenting automated environment ................3.55
+          8.3          Risks arising from use of IT Systems ..............................................................3.55
+          8.4          Impact of IT related risks ....................................................................................3.56
+          8.5          Types of Controls in an automated environment .....................................3.56
+          8.6          General IT Controls vs. Application Controls ..............................................3.58
+          8.7          Testing methods in an automated environment ......................................3.58
+9.      Characteristics of manual and automated elements of internal control relevant
+        to the auditor’s risk assessment ........................................................................................3.59
+          9.1          Manual elements vs automated elements in entity’s
+                       internal control.......................................................................................................3.60
+10.       Audit approach in an automated environment ........................................................3.61
+11.       Data analytics for audit ......................................................................................................3.61
+12.       Digital audit ............................................................................................................................3.62
+13.       Internal financial controls as per regulatory requirements ..................................3.63
+
+14.       Documenting the risks .......................................................................................................3.64
+15.       Assess and report audit findings ....................................................................................3.65
+16.       The auditor’s responses to assessed risks ..................................................................3.65
+
+=== p.18 ===
+            16.1         Nature and Extent of Test of Controls ..........................................................3.67
+
+            16.2         Timing of Test of Controls .................................................................................3.68
+            16.3         Using Audit Evidence Obtained in Previous Audits .................................3.68
+            16.4         Evaluating the Operating Effectiveness of Controls ................................3.69
+
+            16.5         Specific inquiries by auditor when deviations from controls are
+                         detected       ..........................................................................................................3.69
+            16.6         Tests of Details .......................................................................................................3.70
+
+            16.7         Substantive analytical procedures ..................................................................3.71
+Summary............................................................................................................................ 3.77
+Test Your Knowledge ...................................................................................................... 3.79
+
+ CHAPTER – 4: Audit Evidence
+
+Learning Outcomes ........................................................................................................... 4.1
+Chapter Overview ............................................................................................................................... 4.2
+Contents:
+1.          Audit Evidence......................................................................................................................... 4.4
+            1.1          Introduction............................................................................................................... 4.4
+            1.2          Meaning of Audit Evidence ................................................................................. 4.5
+            1.3          Types of Audit Evidence ....................................................................................... 4.6
+            1.4          Relevance and Reliability of audit evidence.................................................. 4.8
+            1.5          Sufficient appropriate audit evidence ...........................................................4.11
+            1.6          Source of audit evidence....................................................................................4.14
+            1.7          Audit procedures for obtaining audit evidence ........................................4.15
+            1.8          Assertions .................................................................................................................4.23
+            1.9          Audit Trail .................................................................................................................4.27
+            1.10         Information to Be Used as Audit Evidence ..................................................4.28
+            1.11         Selecting Items for Testing to Obtain Audit Evidence ............................4.29
+
+=== p.19 ===
+          1.12        Inconsistency in or Doubts over Reliability of Audit Evidence ............4.31
+          1.13        Relying on the work of a management’s expert .......................................4.32
+          1.14        Evaluation of Audit Evidence ............................................................................4.32
+
+2.        Using the work of Internal Auditors (SA 610)............................................................4.33
+          2.1         Definition of Internal Audit Function .............................................................4.33
+          2.2         Ways in which the external auditor may make use of ............................4.34
+          2.3         Scope of SA 610.....................................................................................................4.35
+          2.4         External Auditor’s Responsibility for the audit...........................................4.35
+          2.5         Objectives of the external auditor, where the entity has an internal
+                      audit function .........................................................................................................4.36
+          2.6         Evaluating the Internal Audit Function .........................................................4.36
+          2.7         Circumstances When Work of the Internal Audit Function
+                      Cannot Be Used .....................................................................................................4.39
+          2.8         Determining the Nature and Extent of Work of the Internal Audit
+                      Function that Can Be Used ................................................................................4.39
+          2.9         Circumstances in which the external auditor shall plan to use less
+                      of the work of the Internal audit function and perform more of the
+                      work directly............................................................................................................4.40
+          2.10        Using the Work of the Internal Audit Function .........................................4.40
+          2.11        Determining Whether, in Which Areas, and to What Extent Internal
+                      Auditors Can Be Used to Provide Direct Assistance ................................4.42
+          2.12        Basics of Internal Financial Control and Reporting Requirements .....4.43
+3.        Audit Sampling (SA 530) ...................................................................................................4.44
+          3.1         Sampling: An Audit Procedure .........................................................................4.44
+          3.2         Meaning of Audit Sampling ..............................................................................4.45
+          3.3         Population................................................................................................................4.46
+          3.4         Sampling Unit .........................................................................................................4.47
+
+=== p.20 ===
+          3.5       Approaches to Sampling ....................................................................................4.48
+
+          3.6       Sampling Vs Traditional method of Auditing .............................................4.50
+          3.7       Appropriateness of Sampling Approaches..................................................4.52
+          3.8       Sampling Process ..................................................................................................4.53
+
+          3.9       Sample Design, Size and Selection of Items for Testing ........................4.53
+          3.10      Performing Audit Procedures ...........................................................................4.64
+          3.11      Nature and Cause of Deviations and Misstatements ..............................4.65
+
+          3.12      Projecting Misstatements ..................................................................................4.66
+          3.13      Evaluating Results of Audit Sampling ...........................................................4.66
+4.        Audit Evidence -Specific Considerations for Selected Items (SA 501) .............4.68
+
+          4.1       Meaning of Audit Evidence- Specific Considerations for
+                    Selected Items   .................................................................................................4.68
+          4.2       Objective of the Auditor in respect of Specific Considerations
+                    for Selected Items .................................................................................................4.68
+          4.3       Inventory ..................................................................................................................4.68
+          4.4       Attendance at Physical Inventory Counting ................................................4.69
+          4.5       Matters Relevant in Planning Attendance at Physical
+                    Inventory Counting...............................................................................................4.69
+          4.6       Physical Inventory Counting Conducted other than at the
+                    Date of the Financial Statements ....................................................................4.70
+          4.7       If the auditor unable to Attend Physical Inventory Counting
+                    due to Unforeseen Circumstances..................................................................4.70
+
+          4.8       Attendance at Physical Inventory Counting becomes impractical. ....4.70
+          4.9       When inventory under the custody and control of a third party-
+                    What will the auditor do?...................................................................................4.71
+
+          4.10      Litigation and Claims ...........................................................................................4.72
+
+=== p.21 ===
+          4.11       If the Auditor Assesses a Risk of Material Misstatement regarding
+                     Litigation or Claims - Communication with the Entity’s External Legal
+                     Counsel .....................................................................................................................4.73
+          4.12       Segment Information ..........................................................................................4.76
+          4.13       Obtaining sufficient appropriate audit evidence regarding the
+                     presentation and disclosure of segment information .............................4.76
+
+          4.14       Auditor’s responsibility regarding the presentation and disclosure
+                     of segment information ......................................................................................4.76
+          4.15       Understanding of the Methods Used by Management .........................4.76
+5.        External Confirmations (SA 505) .....................................................................................4.77
+          5.1        Introduction.............................................................................................................4.77
+          5.2        Scope of this SA.....................................................................................................4.77
+          5.3        Definition of External Confirmation ...............................................................4.78
+          5.4        Definitions of other terms..................................................................................4.78
+          5.5        External Confirmation Procedures adopted by the Auditor to
+                     Obtain Audit Evidence.........................................................................................4.79
+          5.6        Management’s refusal to allow the auditor to send a
+                     confirmation request-steps taken by the Auditor ....................................4.82
+          5.7        Negative Confirmations ......................................................................................4.85
+          5.8        Evaluating the Evidence Obtained ..................................................................4.86
+6.        Initial Audit Engagements - Opening Balances (SA 510) ......................................4.87
+          6.1        Scope of this SA.....................................................................................................4.87
+          6.2        Definitions ................................................................................................................4.87
+          6.3        Objective of Auditor with respect to Opening
+                     Balances– in conducting an Initial Audit Engagement ...........................4.88
+          6.4        Obtaining sufficient appropriate Audit evidence about
+                     opening balances by the Auditor....................................................................4.88
+
+=== p.22 ===
+          6.5         Procedures adopted by the Auditor to Obtain Audit Evidence
+                      regarding opening balances .............................................................................4.89
+          6.6         Consistency of Accounting Policies relating to opening balances.....4.91
+          6.7         Reporting by the auditor with regard to opening balances .................4.91
+
+7.        Related Parties (SA 550) ....................................................................................................4.92
+          7.1         Scope of this SA.....................................................................................................4.92
+          7.2         Definition of Related Party ................................................................................4.92
+          7.3         Meaning of control and significant influence in reference
+                      to related party ......................................................................................................4.93
+          7.4         Meaning of Related Parties with Dominant Influence ............................4.93
+          7.5         Meaning of Special-Purpose Entities as Related Parties ........................4.94
+          7.6         Nature of Related Party Relationships and Transactions .......................4.94
+          7.7         Understanding the Entity’s Related Party Relationships &
+                      Transactions   .....................................................................................................4.94
+          7.8         Considerations specific to smaller entities by the auditor ....................4.95
+8.      Analytical Procedures (SA 520) ..........................................................................................4.97
+          8.1         Meaning of Analytical Procedures ..................................................................4.97
+          8.2         Scope of SA 520.................................................................................................. 4.101
+          8.3         Purpose and timing of Analytical Procedures ......................................... 4.101
+          8.4         Substantive Analytical Procedures............................................................... 4.105
+          8.5         Factors to be considered for Substantive Audit Procedures ............. 4.105
+          8.6         Techniques available as Substantive Analytical Procedures .............. 4.107
+          8.7         Analytical Procedures used as Substantive Tests................................... 4.109
+          8.8         Suitability of particular analytical procedures for
+                      given assertions ................................................................................................. 4.110
+          8.9         The reliability of DATA ..................................................................................... 4.112
+          8.10        Evaluation of whether the expectation is sufficiently ........................... 4.113
+
+=== p.23 ===
+             8.11          Amount of difference of recorded amounts from expected values that
+                           is acceptable ........................................................................................................ 4.113
+             8.12          Investigating results of Analytical Procedures ........................................ 4.114
+             8.13          Analytical procedures that assist when forming an
+                           overall conclusion .............................................................................................. 4.114
+Summary.......................................................................................................................... 4.119
+Test Your Knowledge .................................................................................................... 4.122
+
+ CHAPTER – 5: Audit of Items of Financial Statements
+
+Learning Outcomes ....................................................................................................5.1
+
+Contents:
+
+Introduction............................................................................................................................................. 5.4
+
+1.           Income Statement Captions Comprising Revenue and
+             Expense Balances ................................................................................................................... 5.5
+
+2            Balance Sheet Captions Comprising Assets, Liabilities and
+             Equity Balances ....................................................................................................................... 5.8
+
+3            Balance Sheet Captions .....................................................................................................5.11
+
+             3.1           Share Capital ................................................................................................ 5.11
+
+             3.2           Reserve and Surplus .................................................................................. 5.24
+
+             3.3           Borrowings ................................................................................................... 5.27
+
+             3.4           Trade Receivables ....................................................................................... 5.37
+
+             3.5           Cash and Cash Equivalents ...................................................................... 5.45
+
+             3.6           Inventories .................................................................................................... 5.50
+
+             3.7           Land, Buildings, Plant & Equipment, Furniture & Fixtures,
+                           Vehicles, Office Equipment, Computers etc. [referred to as
+                           “Property, Plant and Equipment” (“PPE”) ............................................. 5.56
+
+             3.8           Intangible Assets Comprising Goodwill, Brand/
+                           Trademarks, Computer Software etc. .................................................... 5.65
+
+=== p.24 ===
+          3.9        Trade Payables and Other Current Liabilities ..................................... 5.71
+
+          3.10       Loans and Advances, and Other Current Assets ................................ 5.80
+
+          3.11       Provisions and Contingent Liabilities .................................................... 5.85
+
+4         Statement of Profit and Loss Captions .............................................................. 5.91
+
+          4.1        Sale of Products and Services .........................................................5.91
+
+          4.2        Other Income Comprising Interest Income, Dividend
+                     Income, Gain/ Loss on Sale of Investments etc. ................................ 5.97
+
+          4.3        Purchases ...................................................................................................... 5.99
+
+          4.4        Employee Benefits Expense .................................................................. 5.104
+
+          4.5        Depreciation and Amortisation ........................................................... 5.107
+
+          4.6        Other Expenses like Power and Fuel, Rent, Repair to Building,
+                     Plant and Machinery, Insurance, Travelling, Legal and
+                     Professional, Miscellaneous Expenses ............................................... 5.110
+
+Summary ............................................................................................................... 5.118
+
+Test Your Knowledge ........................................................................................... 5.119
+

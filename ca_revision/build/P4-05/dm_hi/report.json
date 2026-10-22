@@ -1,0 +1,29 @@
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 13.31,
+ "words": 1743,
+ "overall_wpm": 131,
+ "lines": 64,
+ "lines_below_bar": [
+  "L001",
+  "L019",
+  "L020"
+ ],
+ "mean_recall": 0.9517,
+ "min_recall": 0.6,
+ "mp3": "/Users/ztejas/CA_PERSONAL/ca_revision/out/P4-05 - Overheads - Absorption Costing - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.8,
+ "loudness_in": {
+  "input_i": "-25.65",
+  "input_tp": "-3.95",
+  "input_lra": "2.40",
+  "input_thresh": "-36.01",
+  "output_i": "-16.46",
+  "output_tp": "-1.50",
+  "output_lra": "2.30",
+  "output_thresh": "-26.83",
+  "normalization_type": "dynamic",
+  "target_offset": "0.46"
+ }
+}

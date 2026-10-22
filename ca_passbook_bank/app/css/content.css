@@ -1,0 +1,186 @@
+/* PassBook — lesson-content rendering (owner: WP8, audit wave 1), shared by lessons, question cards and their worked solutions, lab stages
+   and the home widgets: display maths that fits or fades with a swipe cue, figures that keep at least 80 % of their size, tables with a sticky
+   first column or row cards on phones, and diagram label contrast in both themes (P0-17, P1-12, P1-13, P1-14, P1-54; P0-16 for the self-check
+   NAT box); part B: formulas kept with their punctuation, HTML figure titles, headers as written (P2-18), code that wraps or says it scrolls
+   (P2-19), figure-only columns without a card (P2-17), steps and captions (P3-10).
+   The cues it styles are set by GA.fit (app/js/core/fit.js) and the markup by app/js/core/md.js. Linked after views.css and lesson.css,
+   so its rules win over the older ones there, and before labs.css and the page sheets, which may specialise them. Tokens only
+   (docs/FRONTEND_V3_SPEC.md §1). Stub created by WP0 on 2026-10-16; contract in docs/ARCHITECTURE.md §10. */
+
+/* ===================================================================== display maths (P0-17) */
+/* KaTeX's htmlAndMathml output (P0-18) holds an absolutely positioned .katex-mathml copy: every formula is its containing block, so that copy can
+   never escape a scroll box and widen the page (lesson.css had this for .md only; cards, solutions and home widgets need it too) */
+.katex { position: relative; }
+/* a formula written as several equations side by side (top-level \qquad) is one row per equation; the rows wrap on narrow screens */
+.m.md.mrows { display: flex; flex-wrap: wrap; justify-content: center; justify-content: safe center; align-items: baseline; column-gap: 2.2em; row-gap: 0; }
+.m.md.mrows > .mrow { flex: 0 1 auto; min-width: 0; }
+.m.md.mrows > .mrow > .katex-display { margin: .35em 0; }
+/* GA.fit steps a wide formula down to a share of its own size (--fit-fs on the .m.md, applied to its drawing: a percentage on the .m.md would
+   resolve against the parent, whose size it was not measured at), then marks what is still too wide: a right-edge fade until the end is
+   reached, the swipe line, and a keyboard stop (tabindex, set by GA.fit) */
+.m.md[data-fs] > .katex-display, .m.md[data-fs] > .mrow > .katex-display { font-size: calc(var(--fit-fs, 1) * 100%); }
+.fit-x:not(.fit-end) { -webkit-mask-image: linear-gradient(to right, var(--ink) calc(100% - 40px), transparent); mask-image: linear-gradient(to right, var(--ink) calc(100% - 40px), transparent); }   /* a mask: only the alpha counts */
+.m.md.fit-x { text-align: left; }
+.m.md.fit-x::before { content: "Swipe sideways to see the whole formula →"; content: "Swipe sideways to see the whole formula →" / ""; position: sticky; left: 0; display: block; margin: 0 0 2px; font: 600 12px/1.3 var(--font-ui); color: var(--muted); text-align: left; white-space: nowrap; }
+.m.md.mrows.fit-x::before { flex: 1 0 100%; }
+.m.md.fit-x:focus-visible, .m.m-wide:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+@media (hover: hover) and (pointer: fine) {
+  .m.md.fit-x::before { content: "Scroll sideways to see the whole formula →"; content: "Scroll sideways to see the whole formula →" / ""; }
+}
+/* an inline formula wider than its line is its own scroll box (.m-wide, lesson.css; set by GA.fit and the lesson's guard): the same right-edge
+   fade until the reader reaches its end (GA.fit keeps .fit-end), so a cut-off schedule or sum reads as "more to the right" */
+.m.m-wide:not(.fit-end) { -webkit-mask-image: linear-gradient(to right, var(--ink) calc(100% - 32px), transparent); mask-image: linear-gradient(to right, var(--ink) calc(100% - 32px), transparent); }
+/* a short formula and the punctuation that follows it stay on one line (md.js .m-nw, P2-18): no comma starting a line */
+.m-nw { white-space: nowrap; }
+
+/* ===================================================================== figures (P1-12) */
+/* the title is HTML above the drawing (md.js, P2-18): full size at any scale, and it stays in view while a wide figure scrolls */
+.dg > .dg-tt { margin: 0 0 8px; line-height: 1.35; }
+.dg.dg-wide > .dg-tt { position: sticky; left: 0; text-align: left; max-width: 100%; }
+.dg > .dg-tt .m.m-wide { max-width: none; -webkit-mask-image: none; mask-image: none; }   /* not a scroll box here: no fade */
+/* a table figure's caption is centred like every other figure's (the figure carries .dg-table too, which left-aligns its text; P3-10) */
+figure.dg.dg-table > figcaption { text-align: center; }
+/* GA.fit's cue is a real button (it opens the figure at its drawn size); the older pseudo-element cue stays for pages that do not run GA.fit */
+.dg.dg-wide:has(> .dg-cue)::before { content: none; display: none; }
+@media (hover: hover) and (pointer: fine) { .dg.dg-wide::before { content: "Scroll sideways to see the whole figure →"; } }
+.dg-cue { position: sticky; left: 0; display: block; width: max-content; max-width: 100%; min-height: 32px; margin: -6px 0 6px; padding: 6px 8px 6px 2px;
+  border: 0; border-radius: var(--r-xs); background: none; font: 600 12.5px/1.3 var(--font-ui); color: var(--accent); text-align: left; cursor: zoom-in; }
+.dg-cue:hover { text-decoration: underline; text-underline-offset: 3px; }
+.dg.dg-wide > svg.dgs { cursor: zoom-in; }
+.dg.dg-wide:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+/* the enlarged figure */
+.fit-zoom { width: min(96vw, 1180px); max-width: 96vw; max-height: 92vh; margin: auto; padding: 0; border: 0; border-radius: var(--r-lg); background: var(--surface); color: var(--ink);
+  box-shadow: var(--shadow-2); overflow: hidden; display: flex; flex-direction: column; }
+.fit-zoom:not([open]) { display: none; }
+.fit-zoom::backdrop { background: color-mix(in srgb, var(--ink) 45%, transparent); }
+.fit-zoom-bar { display: flex; align-items: center; gap: 12px; padding: 12px 14px 12px 18px; border-bottom: 1px solid var(--line); font: 700 14.5px/1.35 var(--font-ui); }
+.fit-zoom-bar b { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fit-zoom-b { overflow: auto; overscroll-behavior: contain; padding: 14px; }
+.fit-zoom-b:focus-visible { outline: 2.5px solid var(--accent); outline-offset: -3px; }
+.fit-zoom .fit-zoom-f { margin: 0; padding: 12px; box-shadow: none; overflow: visible; display: inline-block; min-width: 100%; }
+.fit-zoom .fit-zoom-f > svg.dgs { margin: 0 auto; }
+.fit-zoom .fit-zoom-f figcaption { position: sticky; left: 0; max-width: calc(min(96vw, 1180px) - 56px); margin: 10px 0 4px; text-align: left; }
+@media (max-width: 700px) {
+  .fit-zoom { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; }
+  .fit-zoom-bar { padding-top: max(12px, env(safe-area-inset-top)); }
+  .fit-zoom .fit-zoom-f figcaption { max-width: calc(100vw - 56px); }
+}
+
+/* ===================================================================== tables (P1-13) */
+/* headers as the author wrote them (P2-18): not set in capitals, so 'Sort key', 'count(roll)' and '$n$' read alike */
+.md th, .md th.kc { text-transform: none; letter-spacing: .01em; font-size: 12.5px; font-weight: 700; color: var(--muted); }
+/* a wide table: the first column stays put, the right edge fades until the end, and a line says it scrolls */
+.tw.tw-x::before { content: "Swipe sideways to see the whole table →"; content: "Swipe sideways to see the whole table →" / ""; position: sticky; left: 0; display: block; padding: 8px 14px 0; font: 600 12px/1.3 var(--font-ui); color: var(--muted); white-space: nowrap; }
+@media (hover: hover) and (pointer: fine) { .tw.tw-x::before { content: "Scroll sideways to see the whole table →"; content: "Scroll sideways to see the whole table →" / ""; } }
+/* a diagram table's title stays first and in view; the line comes under it */
+.tw.tw-x.dg-table { display: flex; flex-direction: column; }
+.tw.tw-x.dg-table > .dg-tt { order: -1; position: sticky; left: 0; }
+.tw.tw-x.dg-table::before { padding-top: 0; padding-bottom: 6px; }
+.tw.tw-x > table :is(th, td):first-child { position: sticky; left: 0; z-index: 1; background-color: var(--surface); box-shadow: inset -1px 0 0 var(--line); }
+.tw.tw-x > table thead th:first-child { background-color: var(--surface-2); }
+.tw.tw-x > table tbody tr:hover > :is(th, td):first-child { background-color: var(--surface-2); }
+.dg .tw.tw-x > table :is(th, td).tc-a:first-child, .dg .tw.tw-x > table :is(th, td).tc-ok:first-child { background: linear-gradient(var(--ok-soft), var(--ok-soft)) var(--surface); }
+.dg .tw.tw-x > table :is(th, td).tc-b:first-child, .dg .tw.tw-x > table :is(th, td).tc-bad:first-child { background: linear-gradient(var(--bad-soft), var(--bad-soft)) var(--surface); }
+.dg .tw.tw-x > table :is(th, td).tc-c:first-child, .dg .tw.tw-x > table :is(th, td).tc-hl:first-child { background: linear-gradient(var(--warn-soft), var(--warn-soft)) var(--surface); }
+.dg .tw.tw-x > table :is(th, td).tc-d:first-child { background: linear-gradient(var(--info-soft), var(--info-soft)) var(--surface); }
+.dg .tw.tw-x > table tr.hl > :is(th, td):first-child { background: linear-gradient(var(--accent-soft), var(--accent-soft)) var(--surface); }
+.tw.tw-x:focus-visible, .tw > table.fit-x:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+/* row cards (prose tables in a column under 600 px): one card per row, each value under its column's name */
+.tw .tw-lab { display: none; }
+.tw.tw-cards { overflow: visible; background: none; box-shadow: none; border: 0; border-radius: 0; }
+.tw.tw-cards > table, .tw.tw-cards > table > tbody { display: block; width: auto; max-width: none; overflow: visible; }
+.tw.tw-cards > table > thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.tw.tw-cards > table > tbody { display: grid; gap: 10px; }
+.tw.tw-cards > table > tbody > tr { display: block; padding: 10px 14px 12px; border-radius: 14px; background: var(--surface); box-shadow: var(--lift); border: 1px solid var(--line); }
+[data-theme="dark"] .tw.tw-cards > table > tbody > tr { box-shadow: none; }
+.tw.tw-cards > table > tbody > tr > :is(td, th) { display: block; padding: 5px 0 0; border: 0; background: none; text-align: left !important; white-space: normal; text-transform: none; letter-spacing: normal; font-size: 14px; font-weight: 400; color: var(--ink); }
+.tw.tw-cards > table > tbody > tr > :first-child { padding-top: 0; font-weight: 700; font-size: 15px; }
+.tw.tw-cards > table > tbody > tr:hover > :is(td, th) { background: none; }
+.tw.tw-cards .tw-lab { display: block; margin: 0 0 1px; font: 700 12px/1.3 var(--font-ui); letter-spacing: .01em; color: var(--muted); }
+.tw.tw-cards > table > tbody > tr > :first-child > .tw-lab { margin-bottom: 0; }
+
+/* ===================================================================== reading on phones: nested boxes keep their text column (P1-12, P1-54) */
+@media (max-width: 700px) {
+  .ex-b { padding: 12px 12px 14px; }
+  .rev-b { padding: 2px 12px 14px; }
+  .co { padding: 12px 12px 13px 12px; }
+  .steps > li { grid-template-columns: 26px minmax(0, 1fr); gap: 10px; padding: 10px 12px; }
+  .steps > li::before { width: 26px; height: 26px; }
+  .cols > div { padding: 10px 12px; }
+  /* figures run edge to edge inside answers, examples and side-boxes */
+  :is(.rev-b, .ex-b, .co-b, .qc-sb) > figure.dg { margin-left: -10px; margin-right: -10px; padding-left: 4px; padding-right: 4px; border-radius: var(--r-sm); }
+  .co-b > figure.dg { margin-left: -6px; margin-right: -6px; }
+  /* question cards inside lessons and solutions: text column about 230 -> 270 px at 360 (P1-54); the grey solution panel stays */
+  .ga-pyq-embed .pq-b { padding: 2px 6px 12px; }
+  .qc[data-mode="embed"] { --qc-pad: 12px; padding-left: 12px; padding-right: 12px; }
+  .qc-sb { padding: 2px 12px 14px; }
+}
+/* card content never widens the card (P1-54): passages, options and stems shrink to the card, their wide parts scroll inside. A self-check
+   NAT question is a flex row, so its stem and explanation need it too: GA.fit measures an inline formula against the stem's box */
+.qc > *, .qc-ctx, .qc-opts, .qc-o, .qc-t, .qc-sd, .qc-sb, .ga-quiz, .qz-q, .qz-opts, .qz-o, .qz-t, .qz-q > :is(.qz-s, .qz-exp), .qz-s > div { min-width: 0; }
+
+/* ===================================================================== code (P2-19) */
+/* 13 px with 14 px padding; programs (md.js .code-w: c, sql, pseudo, python …) wrap a long line under its own indent plus two columns, so
+   an end-of-line comment is never hidden; 'text' blocks keep their columns and, when wide, fade and say they scroll (GA.fit .code-x) */
+.md pre { font-size: 13px; padding: 14px; }
+.md .code-w > pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.md .code-w > pre .cl { display: block; padding-left: calc((var(--i, 0) + 2) * 1ch); text-indent: calc((var(--i, 0) + 2) * -1ch); }
+.md .code.code-x::before { content: "Swipe sideways to see the whole block →"; content: "Swipe sideways to see the whole block →" / ""; display: block; padding: 8px 14px 0; font: 600 12px/1.3 var(--font-ui); color: var(--muted); }
+@media (hover: hover) and (pointer: fine) { .md .code.code-x::before { content: "Scroll sideways to see the whole block →"; content: "Scroll sideways to see the whole block →" / ""; } }
+.md .code > pre.fit-x:focus-visible { outline: 2.5px solid var(--accent); outline-offset: -3px; }
+
+/* ===================================================================== columns (P2-17) */
+/* a column that holds only drawings (two or more; lesson.css covers a single one) is not a card inside the drawings' cards */
+.cols > div:has(> figure.dg):not(:has(> :not(figure.dg))) { padding: 0; background: none; box-shadow: none; }
+
+/* ===================================================================== steps (P3-10) */
+/* the step cards line up with the text: .md ol's list indent does not apply to them */
+.md .steps { padding: 0; }
+
+/* ===================================================================== diagram contrast (P1-14) */
+/* text in a series colour is mixed toward the ink (>= 6.3:1 on the surface, >= 4.5:1 on the kit's tints, both themes) */
+svg.dgs :is(.vn-t, .sh-tc, .ns-t, .ns-al, .pfl), svg.dgs .tr-c .tr-el, svg.dgs .er-lc .dt, svg.dgs .ck-c .ck-wl, svg.dgs .wv-c :is(.wv-ml, .wv-al) { fill: color-mix(in srgb, var(--c) 60%, var(--ink)); }
+/* a letter on a shaded die face (diagram.js marks the face sh-ftx, P1-14): in dark the lit top face (62 % of the colour) is too bright for the
+   light ink (3.97:1 on fill e), so a lettered face drops to a tone it reads on at 4.5:1 or more for every kit colour, keeping the lighting order
+   top > left > right (light theme faces already pass) */
+[data-theme="dark"] svg.dgs .sh-ct.sh-ftx { fill: color-mix(in srgb, var(--c) 40%, var(--surface)); }
+[data-theme="dark"] svg.dgs .sh-cl.sh-ftx { fill: color-mix(in srgb, var(--c) 30%, var(--surface)); }
+/* numbers drawn on solid fills (diagram.js marks those fills sh-tx): a tone the ink reads on */
+svg.dgs .sh-solid.sh-tx { fill: color-mix(in srgb, var(--c) 60%, var(--surface)); }
+[data-theme="dark"] svg.dgs .sh-solid.sh-tx { fill: color-mix(in srgb, var(--c) 42%, var(--surface)); }
+/* dark theme: muted sub-labels on tinted boxes and K-map don't-cares use the second ink */
+[data-theme="dark"] svg.dgs g[class^="k"] .dtm, [data-theme="dark"] svg.dgs g[class*=" k"] .dtm, [data-theme="dark"] svg.dgs .km-x { fill: var(--ink-2); }
+/* a muted label the kit marks as lying on a tint (diagram.js on-tint: a venn universe's name on its shaded outside, a K-map don't-care under
+   a highlight or a loop's fill, where overlapping loops stack their tints) takes the second ink in both themes; in dark, a don't-care under
+   three or more tints takes the ink itself */
+svg.dgs .dtm.on-tint, svg.dgs .km-x.on-tint { fill: var(--ink-2); }
+[data-theme="dark"] svg.dgs .km-x.on-tint-3 { fill: var(--ink); }
+/* a memory block that a phone strip cuts keeps its cut edge open and dashed: it continues on the next strip (diagram.js memoryStrips) */
+svg.dgs .mm-cut { stroke-dasharray: 3 3; }
+/* numbered K-map loops (diagram.js kmap number: true, P2-61): the badge on the loop and in the legend, its number in the text-safe tone */
+svg.dgs .km-nb { fill: var(--surface); stroke: var(--c); stroke-width: 1.6; }
+svg.dgs .dt.km-n { fill: color-mix(in srgb, var(--c) 60%, var(--ink)); }
+/* structure that carries meaning (axes, lifelines, the K-map grid) at >= 3:1 */
+svg.dgs .dg-axis, svg.dgs .dg-life { stroke: var(--faint); }
+svg.dgs .km-c { stroke: var(--faint); }
+
+/* ===================================================================== self-check NAT box (P0-16) */
+.qz-nat { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 10px; }
+.qz-pm { display: none; width: 48px; height: 48px; flex: none; border-radius: var(--r-sm); border: 2px solid var(--line-2); background: var(--surface); color: var(--ink); font: 700 20px/1 var(--font-ui); cursor: pointer; }
+.qz-pm:active { transform: scale(.96); }
+.qz-pm:disabled { display: none; }
+@media (hover: none) and (pointer: coarse) { .qz-nat .qz-pm { display: inline-grid; place-items: center; } }
+.qz-nat:has(input:disabled) .qz-pm { display: none; }
+.qz-nat-msg { flex: 1 1 100%; font: 600 13px/1.4 var(--font-ui); color: var(--muted); }
+.qz-nat-bad .qz-nat-msg { color: var(--bad); }
+.qz-nat-msg:empty { display: none; }
+.qz-nat-bad { animation: fit-shake .3s cubic-bezier(.2, .8, .2, 1); }
+@keyframes fit-shake { 20% { transform: translateX(-6px); } 40% { transform: translateX(5px); } 60% { transform: translateX(-3px); } 80% { transform: translateX(2px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .qz-nat-bad { animation: none; }
+}
+@media print {
+  .fit-x, .m.m-wide { -webkit-mask-image: none; mask-image: none; }
+  .m.md.fit-x::before, .tw.tw-x::before, .dg-cue, .md .code.code-x::before { display: none; }
+}

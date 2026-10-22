@@ -1,0 +1,707 @@
+{
+ "source": {
+  "type": "RTP",
+  "attempt": "November 2018",
+  "attempt_sort": "2018-11",
+  "series": null,
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://drive.google.com/uc?id=1_w382dSA2mU4TvA9mPVJCkkImN1oALSO&export=download",
+  "local_file": "raw/rtp-old-nov2018-p7.pdf",
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Mirror: CA Study Web (https://castudyweb.com/ca-inter-rtp/) Google Drive copy of the official ICAI RTP PDF. Not retrieved from an icai.org URL."
+ },
+ "questions": [
+  {
+   "id": "rtp-old-nov2018-q1a",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations → Ch 1",
+   "qno": "1(a)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Briefly answer the following questions: Define the role of corporate level managers.",
+   "options": null,
+   "answer": "Corporate-level managers participate in strategic decision making within the organization. The role of corporate-level managers is to oversee the development of strategies for the whole organization. This role includes defining the mission and goals of the organization, determining what businesses it should be in, allocating resources among the different businesses, formulating and implementing strategies that span individual businesses, and providing leadership for the organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic levels",
+    "mission",
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q1b",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Key success factors → Ch 2",
+   "qno": "1(b)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Briefly answer the following questions: Define key success factors (KSFs).",
+   "options": null,
+   "answer": "An industry’s key success factors (KSFs) are those things or strategic elements that affect industry members’ ability to prosper in a market place. For a business organization within an industry, it may include, cost structure, technology, distribution system and so on. It is correct to state that the KSFs help to shape whether a company will be financially and competitively successful.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "key success factors",
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q1c",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Vision / mission → Ch 1 (Strategic Intent)",
+   "qno": "1(c)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Briefly answer the following questions: What is strategic vision?",
+   "options": null,
+   "answer": "A strategic vision delineates organisation’s aspirations for the business, providing a panoramic view of the position where the organisation is going. A strategic vision points an organization in a particular direction, charts a strategic path for it to fo llow in preparing for the future, and moulds organizational identity.\nA strategic vision is a roadmap of a company’s future – providing specifics about technology and customer focus, the geographic and product markets to be pursued, the capabilities it plans to develop, and the kind of company that management is trying to create.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q1d",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level expansion / combination strategies → Ch 4",
+   "qno": "1(d)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Briefly answer the following questions: Explain the meaning of the combination strategies.",
+   "options": null,
+   "answer": "Combination strategies refer to a mix of different strategies like stability; expansion, diversification or retrenchment to suit particular situations that an enterprise is facing. For instance, a strategy of diversification/acquisition may call for retrenchment in some obsolete product lines.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "expansion strategy",
+    "acquisitions",
+    "retrenchment",
+    "diversification"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q1e",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter's generic strategies (cost leadership) → Ch 3 (Competitive Advantage)",
+   "qno": "1(e)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Briefly answer the following questions: Explain the meaning of cost leadership strategy.",
+   "options": null,
+   "answer": "A number of cost elements affect the relative attractiveness of generic strategies. A successful cost leadership strategy usually permeates the entire firm, as evidenced by high efficiency, low overhead cost, and waste reduction. The low cost leadership should be such that no competitors are able to imitate so that it can result in sustainable competitive advantage to the cost leader firm.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "cost leadership"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q1f",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management (old Ch 6.4.3-6.4.4) — dropped with the functional-strategy chapter",
+   "qno": "1(f)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Briefly answer the following questions: Define logistics strategy.",
+   "options": null,
+   "answer": "Logistics is a process that integrates the flow of supplies into, through and out of an organization to achieve a level of service that facilitate movement and availability of materials in a proper manner. When a company creates a logistics strategy, it is defining the service levels at which its logistics is smooth and is cost effective.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q1g",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "qno": "1(g)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Briefly answer the following questions: Explain strategic business unit (SBUs).",
+   "options": null,
+   "answer": "A strategic business unit (SBU) is a unit of the company that has a separate mission and objectives which can be planned independently from other company businesses. SBU can be a company division, a product line within a division or even a single product/brand, specific group of customers or geographical location. The SBU is given the authority to make its own strategic decisions within corporate guidelines as long as it meets corporate objectives.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure",
+    "vision",
+    "mission",
+    "objectives"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q1h",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic control types → Ch 5 (Strategic Control)",
+   "qno": "1(h)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Briefly answer the following questions: Explain premise control.",
+   "options": null,
+   "answer": "A strategy is formed on the basis of certain assumptions or premises about the complex and turbulent organizational environment. Premise control is a tool for systematic and continuous monitoring of the environment to verify the validity and accuracy of the premises on which the strategy has been built. It primarily involves monitoring two types of factors:\n(i) Environmental factors such as economic (inflation, liquidity, interest rates), technology, social and regulatory.\n(ii) Industry factors such as competitors, suppliers, substitutes.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic control",
+    "substitutes",
+    "premise control"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q2a",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Control systems run parallel with strategic levels → Ch 5 (Strategic Control)",
+   "qno": "2(a)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "State with reasons which of the following statements are correct/incorrect: Control systems run parallel with strategic levels.",
+   "options": null,
+   "answer": "Correct: There are three strategic levels in an organisation – corporate, business and functional. Control systems are required at all the three levels. At the top level, strategic controls are built to check whether the strategy is being implemented as planned and the results produced by the strategy are those intended. Down the hierarchy management controls and operational controls are built in the systems. Operational controls are required for day-to-day management of business.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic control",
+    "operational control"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q2b",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Competitive strategy and competitive advantage → Ch 3 (Gaining competitive advantage)",
+   "qno": "2(b)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "State with reasons which of the following statements are correct/incorrect: Competitive strategy is designed to help firms achieve competitive advantage.",
+   "options": null,
+   "answer": "Correct: Competitive strategy is designed to help firms achieve competitive advantage. Having a competitive advantage is necessary for a firm to compete in the market. Competitive advantage comes from a firm’s ability to perform activities more effectively than its rivals.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q2c",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision, mission, business definition and business model → Ch 1",
+   "qno": "2(c)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "State with reasons which of the following statements are correct/incorrect: For a small entrepreneur vision and mission are irrelevant.",
+   "options": null,
+   "answer": "Incorrect: Entrepreneur, big or small has to function within several influences from external forces. Competition in different form and different degree is present in all kind and sizes of business. Even entrepreneur with small businesses can have complicated environment. To grow and prosper they need to have clear vision and mission.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission",
+    "entrepreneur"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q2d",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Stability strategy → Ch 4",
+   "qno": "2(d)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "State with reasons which of the following statements are correct/incorrect: Stability strategy is not a ‘do-nothing’ strategy.",
+   "options": null,
+   "answer": "Correct: Stability strategies are implemented by approaches wherein few functional changes are made in the products or markets. It is not a ‘do nothing’ strategy. It involves keeping track of new developments to ensure that the strategy continues to make sense. This strategy is typical for mature business organizations. Some small organizations will also frequently use stability as a strategic focus to maintain comfortable market or profit position.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "stability strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q2e",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter's five forces / industry environment analysis → Ch 2",
+   "qno": "2(e)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "State with reasons which of the following statements are correct/incorrect: Porter’s five forces model considers new entrants as a significant source of competition.",
+   "options": null,
+   "answer": "Correct: Porter’s five forces model considers new entrants as major source of competition. The new capacity and product range that the new entrants bring in throw up new competitive pressure. The bigger the new entrant, the more severe the competitive effect. New entrants also place a limit on prices and affect the profitability of existing players.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "five forces",
+    "barriers to entry"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q2f",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic Marketing Techniques → Ch 3 (relocated verbatim into Ch 3.3.3 Strategic Drivers: Product/Services)",
+   "qno": "2(f)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "State with reasons which of the following statements are correct/incorrect: Tele-shopping is an instance of direct marketing.",
+   "options": null,
+   "answer": "Correct: Direct marketing is done through various advertising media that interact directly with customer. Teleshopping is a form of direct marketing which operates without conventional intermediaries and employs television and other IT devices for reaching the customer. The communication between the marketer and the customer is direct through third party interfaces such as telecom or postal systems.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "marketing techniques",
+    "vision"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q2g",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "qno": "2(g)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "State with reasons which of the following statements are correct/incorrect: Strategies may require changes in organizational structure.",
+   "options": null,
+   "answer": "Correct: Strategies may require changes in structure as the structure dictates how resources will be allocated. Structure should be designed to facilitate the strategic pursuit of a firm and, therefore, should follow strategy. Without a strategy or reasons for being, companies find it difficult to design an effective structure.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q2h",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Benchmarking (old Ch 8.8) — dropped from the 2023 syllabus; no definition, types or process in the current Paper 6B study material",
+   "qno": "2(h)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "State with reasons which of the following statements are correct/incorrect: Benchmarking and business process reengineering are one and the same.",
+   "options": null,
+   "answer": "Incorrect: Benchmarking relates to setting goals and measuring productivity based on best industry practices. The idea is to learn from the practices of competitors and others to improve the firm’s performance. On the other hand, business process reengineering relates to analysis and redesign of workflows and processes both within and between the organizations.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "benchmarking",
+    "bpr"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q3a",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Importance / benefits of strategic management → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Write short notes on the following: Importance of strategic management.",
+   "options": null,
+   "answer": "Strategic Management is very important for the survival and growth of busines s organizations in dynamic business environment. Other major benefits of strategic management are as follows:\n• It helps organizations to be more proactive rather than reactive in dealing with its future. It facilitates the organisations to work within vagaries of environment and remains adaptable with the turbulence or uncertain future. Therefore, they are able to control their own destiny in a better way.\n• It provides better guidance to entire organization on the crucial point – what it is trying to do. Also provides framework for all major business decisions of an enterprise such a decision on businesses, products, markets, organization structures, etc.\n• It facilitates to prepare the organization to face the future and act as pathfinder to various business opportunities. Organizations are able to identify the available opportunities and identify ways and means as how to reach them.\n• It serves as a corporate defence mechanism against mistakes and pitfalls. It helps organizations to avoid costly mistakes in product market choices or investments.\n• Over a period of time, strategic management helps organizations to evolve\ncertain core competencies and competitive advantages that assist in the fight for survival and growth.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "importance of sm",
+    "proactive and reactive strategy",
+    "strategic management"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q3b",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "SWOT analysis → Ch 3 (Combining external and internal analysis)",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Write short notes on the following: SWOT analysis.",
+   "options": null,
+   "answer": "SWOT analysis is a tool used by organizations for evolving strategic options for the future. The term SWOT refers to the analysis of strengths, weaknesses, opportunities and threats facing a company. Strengths and weaknesses are identified in the internal environment, whereas opportunities and threats are located in the external environment.\nStrength: Strength is an inherent capability of the organization which it can use to gain strategic advantage over its competitor.\nWeakness: A weakness is an inherent limitation or constraint of the organisation which creates strategic disadvantage to it.\nOpportunity: An opportunity is a favourable condition in the external environment which enables it to strengthen its position.\nThreat: An unfavourable condition in the external environment which causes a risk for, or damage to the organisation’s position.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "swot analysis",
+    "limitations"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q3c",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Vision / mission → Ch 1 (Strategic Intent)",
+   "qno": "3(c)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Write short notes on the following: Essentials of a strategic vision.",
+   "options": null,
+   "answer": "Essentials of a strategic vision:\n• The entrepreneurial challenge in developing a strategic vision is to think creatively about how to prepare a company for the future.\n• Forming a strategic vision is an exercise in intelligent entrepreneurship.\n• A well-articulated strategic vision creates enthusiasm among the members of the organisation.\n• The best-worded vision statement clearly illuminates the direction in which organization is headed.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission",
+    "entrepreneur"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q3d",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisational culture → Ch 5 (Culture (soft))",
+   "qno": "3(d)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Write short notes on the following: Importance of corporate culture.",
+   "options": null,
+   "answer": "A culture where creativity, embracing change, and challenging the status quo are pervasive is very conducive to successful execution of a product innovation and technological leadership strategy. A culture built around such business principles as listening to customers, encouraging employees to take pride in their work, and giving employees a high degree of decision-making responsibility is very conducive to successful execution of a strategy of delivering superior customer service. A strong strategy-supportive culture nurtures and motivates people to do their jobs in ways conducive to effective strategy execution; it provides structure, standards, and a value system in which to operate; and it promotes strong employee identification with the company’s vision, performance targets, and strategy. All this makes employees feel genuinely better about their jobs and work environment and the merits of what the company is trying to accomplish. Employees are stimulated to take on the challenge of realizing the company’s vision, do their jobs competently and with enthusiasm, and collaborate with others as needed to bring the strategy to success.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "culture"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q4a",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Diversification / integration → Ch 4 (Expansion through diversification)",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Distinguish between the following: Forward integration and backward integration.",
+   "options": null,
+   "answer": "Forward and backward integration form part of vertically integrated diversification. In vertically integrated diversification, firms opt to engage in businesses that are vertically related to the existing business of the firm. The firm remains vertically within the same process. While diversifying, firms opt to engage in businesses that are linked forward or backward in the chain and enters specific product/process steps with the intention of making them into new businesses for the firm.\nBackward integration is a step towards creation of effective supply by enterin g business of input providers. Strategy employed to expand profits and gain greater control over production of a product whereby a company will purchase or build a business that will increase its own supply capability or lower its cost of production. On the other hand, forward integration is moving forward in the value chain and entering business lines that use existing products. Forward integration will also take place where organisations enter into businesses of distribution channels.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "diversification",
+    "integration"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q4b",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Cost leadership vs differentiation → Ch 3 (Michael Porter's generic strategies)",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Distinguish between the following: Cost leadership and differentiation strategies.",
+   "options": null,
+   "answer": "Cost leadership emphasizes producing standardized products at a very low per-unit cost for consumers who are price-sensitive. Differentiation is a strategy aimed at producing products and services considered unique industry wide and directed at consumers who are relatively price-insensitive.\nA primary reason for pursuing forward, backward, and horizontal integration strategies is to gain cost leadership benefits. But cost leadership generally must be pursued in conjunction with differentiation. Different strategies offer different degrees of differentiation. A differentiation strategy should be pursued only after a careful study of buyers’ needs and preferences to determine the feasibility of incorporating one or more differentiating features into a unique product. A successful differentiation strategy allows a firm to charge a higher price for its product and to gain customer loyalty.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "cost leadership",
+    "differentiation",
+    "importance of sm",
+    "integration"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q4c",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic control types → Ch 5 (Strategic Control)",
+   "qno": "4(c)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Distinguish between the following: Operational control and management control.",
+   "options": null,
+   "answer": "Differences between operational control and management control are as under:\n(i) The thrust of operational control is on individual tasks or transactions as against total or more aggregative management functions. When compared with operational, management control is more inclusive and more aggregative, in the sense of embracing the integrated activities of a complete department, division or even entire organisation, instead or mere narrowly circumscribed activities of sub-units. For example, procuring specific items for inventory is a matter of operational control, in contrast to inventory management as a whole.\n(ii) Many of the control systems in organisations are operational and mechanistic in nature. A set of standards, plans and instructions are formulated. On the other hand, the basic purpose of management control is the achievement of enterprise goals – short range and long range – in an effective and efficient manner.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic control",
+    "vision",
+    "operational control"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q4d",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management (old Ch 6.4.3-6.4.4) — dropped with the functional-strategy chapter",
+   "qno": "4(d)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Distinguish between the following: Logistic management and supply chain management.",
+   "options": null,
+   "answer": "Supply chain management is an extension of logistic management. However, there are differences between the two. Logistical activities typically include management of inbound and outbound goods, transportation, warehousing, handling of material, fulfillment of orders, inventory management and supply/demand planning. Although these activities also form part of supply chain management, the latter is much broader. Logistic management can be termed as one of its part that is related to planning, implementing, and controlling the movement and storage of goods, services and related information between the point of origin and the point of consumption. Supply chain management is an integrating function of all the major business activities and business processes within and across organisations. Supply Chain Management is a systems view of the linkages in the chain consisting of different channel partners – suppliers, intermediaries, third-party service providers and customers. Different elements in the chain work together in a collaborative and coordinated manner. Often it is used as a tool of business transformation and involves delivering the right product at the right time to the right place and at the right price.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q5",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 1 \"Introduction to Strategic Management\" → Ch 1",
+   "qno": "5",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Yummy Foods and Tasty Foods are successfully competing in the business of ready to eat snacks in Patna. Yummy has been pioneer in introducing innovative products. These products will give them good sale. However, Tasty Foods will introduce similar products in reaction to the products introduced by the Yummy Foods taking away the advantage gained by the former.\nDiscuss the strategic approach of the two companies. Which is superior?",
+   "options": null,
+   "answer": "Yummy foods is proactive in its approach. On the other hand Tasty Food is reactive. Proactive strategy is planned strategy whereas reactive strategy is adaptive reaction to changing circumstances. A company’s strategy is typically a blend of proactive actions on the part of managers to improve the company’s market position and financial performance and reactions to unanticipated developments and fresh market conditions.\nIf organisational resources permit, it is better to be proactive rather than reactive. Being proactive in aspects such as introducing new products will give you advantage in the mind of customers.\nAt the same time, crafting a strategy involves stitching together a proactive/intended strategy and then adapting first one piece and then another as circumstances surrounding the company’s situation change or better options emerge-a reactive/adaptive strategy. This aspect can be accomplished by Yummy Foods.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "proactive and reactive strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q6",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Importance / benefits of strategic management → Ch 1",
+   "qno": "6",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What benefits accrue by following a strategic approach to managing?",
+   "options": null,
+   "answer": "The following are the benefits of strategic approach to managing:\n• Strategic management helps organisations to be more proactive i nstead of reactive in shaping its future. Organisations are able to analyse and take actions instead of being mere spectators. Thereby they are able to control their own destiny in a better manner. It helps them in working within vagaries of environment and shaping it, instead of getting carried away by its turbulence or uncertainties.\n• Strategic management provides framework for all the major decisions of an enterprise such as decisions on businesses, products, markets, manufacturing facilities, investments and organisational structure. It provides better guidance to entire organisation on the crucial point - what it is trying to do.\n• Strategic management is concerned with ensuring a good future for the firm. It seeks to prepare the corporation to face the future and act as pathfinder to various business opportunities. Organisations are able to identify the available opportunities and identify ways and means as how to reach them.\n• Strategic management serves as a corporate defence mechanism against mistakes and pitfalls. It help organisations to avoid costly mistakes in product market choices or investments. Over a period of time strategic management helps organisation to evolve certain core competencies and competitive advantages that assist in its fight for survival and growth.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "importance of sm",
+    "proactive and reactive strategy",
+    "strategic management"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q7",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Core competence → Ch 3 (Role of resources and capabilities)",
+   "qno": "7",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "‘Value for Money’ is a leading retail chain, on account of its ability to operate its business at low costs. The retail chain aims to further strengthen its top position in the retail industry. Marshal, the CEO of the retail chain is of the view that to achieve the goals they should focus on lowering the costs of procurement of products.\nHighlight and explain the core competence of the ‘Value for Money’ retail chain.",
+   "options": null,
+   "answer": "A core competence is a unique strength of an organization which may not be shared by others. Core competencies are those capabilities that are critical to a business achieving competitive advantage. In order to qualify as a core competence, the competency should differentiate the business from any other similar businesses. A core competency for a firm is whatever it does is highly beneficial to the organisation.\n‘Value for Money’ is the leader on account of its ability to keep costs low. The cost advantage that ‘Value for Money’ has created for itself has allowed the retailer to price goods lower than competitors. The core competency in this case is derived from the company’s ability to generate large sales volume, allowing the company to remain profitable with low profit margin.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "core competence"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q8",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Ansoff's product-market growth matrix → Ch 4 (Strategic Options)",
+   "qno": "8",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "How Ansoff’s Product Market Growth Matrix is a useful tool for business organizations?",
+   "options": null,
+   "answer": "The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps businesses decide their product and market growth strategy. With the use of this matrix a business can get a fair idea about how its growth depends in new or existing products in both new and existing markets.\nCompanies should always be looking to the future. Businesses that use the Ansoff matrix can determine the best strategy. The matrix can help them to decide how to do this by demonstrating their options clearly, breaking them down into four strategies, viz., Market Penetration, Market Development, Product Development, Diversification. Determining which of these is best for their business will depend on a number of variables including available resources, infrastructure, market position, location and budget.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "ansoff matrix"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q9",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / issues in implementation → Ch 5",
+   "qno": "9",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "To convert strategic plans into actions and results, a manager must be able to direct organizational change, motivate people, build and strengthen company competencies and competitive capabilities, create a strategy-supportive work climate, and meet or beat performance targets.\nExplain the principal aspects of strategy-execution process.",
+   "options": null,
+   "answer": "In most situations, strategy-execution process includes the following principal aspects:\n• Developing budgets that steer ample resources into those activities critical to strategic success.\n• Staffing the organization with the needed skills and expertise, consciously building and strengthening strategy-supportive competencies and competitive capabilities, and organizing the work effort.\n• Ensuring that policies and operating procedures facilitate rather than impede effective execution.\n• Using the best-known practices to perform core business activities and pushing for continuous improvement.\n• Installing information and operating systems that enable company personnel to better carry out their strategic roles day in and day out.\n• Motivating people to pursue the target objectives energetically.\n• Creating a company culture and work climate conducive to successful strategy implementation and execution.\n• Exerting the internal leadership needed to drive implementation forward and keep improving strategy execution. When the organization encounters stumbling blocks or weaknesses, management has to see that they are addressed and rectified quickly.\nGood strategy execution involves creating strong “fits” between strategy and organizational capabilities, between strategy and the reward structure, between strategy and internal operating systems, and between strategy and the organization’s work climate and culture.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q10",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Objectives and goals → Ch 1 (Strategic Intent)",
+   "qno": "10",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "‘Objectives’ and ‘Goals’ provide meaning and sense of direction to organizational endeavour. Explain.",
+   "options": null,
+   "answer": "Business organization translates their vision and mission into objectives. Objectives are open-ended attributes that denote the future states or outcomes. Goals are close-ended attributes which are precise and expressed in specific terms. Thus, the goals are more specific and translate to objectives to short term perspective.\nAll organizations have objectives. The pursuit of objectives is an unending process such that organizations sustain themselves. They provide meaning and sense of direction to organizational endeavour. Organizational structure and activities are designed and resources are allocated around the objectives to facilitate their achievement. They also act as benchmarks for guiding organizational activity and for evaluating how the organization is performing.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "objectives",
+    "vision",
+    "mission",
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q11",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 4 \"Corporate Level Strategies\" → Ch 4 (Strategic Choices)",
+   "qno": "11",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Vastralok Ltd., was started as a textile company to manufacture cloth. Currently, they are in the manufacturing of silk cloth. The top management desires to expand the business in the cloth manufacturing. To expand they decided to purchase more machines to manufacture cotton cloth.\nIdentify and explain the strategy opted by the top management of Vastralok Ltd.",
+   "options": null,
+   "answer": "Vastralok Ltd. is currently manufacturing silk cloth and its top management has decided to expand its business by manufacturing cotton cloth. Both the products are similar in nature within the same inductry. The strategic diversification that the top management of Vastralok Ltd. has opted is concentric in nature. They were in business of manufacturing silk and now they will manufacture cotton as well. They wil be able to use existing infrastructure and distribution channel. Concentric diversification amounts to related diversification. In concentric diversification, the new business is linked to the existing businesses through process, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. This means that in concentric diversification too, there are benefits of synergy with the current operations.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "diversification",
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q12",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Divestment / liquidation → Ch 4 (Strategic Exits)",
+   "qno": "12",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What is Divestment strategy? When is it adopted?",
+   "options": null,
+   "answer": "Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit centre or SBU. For a multiple product company, divestment could be a part of rehabilitating or restructuring plan called turnaround.\n• A divestment strategy may be adopted due to various reasons:\n• When a turnaround has been attempted but has proved to be unsuccessful.\n• A business that had been acquired proves to be a mismatch and cannot be integrated within the company.\n• Persistent negative cash flows from a particular business create financial problems for the whole company.\n• Severity of competition and the inability of a firm to cope with it.\n• Technological upgradation is required if the business is to survive but where it is not possible for the firm to invest in it.\n• A better alternative may be available for investment.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "divestment",
+    "vision",
+    "turnaround",
+    "liquidation"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q13",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter's generic strategies (differentiation) → Ch 3 (Competitive Advantage)",
+   "qno": "13",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Gennex is a company that designs, manufactures and sells computer hardware and software. Gennex is well known for its innovative products that has helped the company to have advantage over its competitors. It also spends on research and development and concerned with innovative softwares. Often the unique features of their product, that are not available with their competitors helps them to gain competitive advantage. Gennex using the strategy is consistently gaining its position in the industry over its competitors. Identify and explain the Porter’s generic strategy which Gennex has opted to gain the competitive advantage.",
+   "options": null,
+   "answer": "According to Porter, strategies allow organizations to gain competitive advantage from three different bases: cost leadership, differentiation, and focus. Porter called these base generic strategies.\nGennex has opted differentiation strategy. Its products are designed and produced to give the customer value and quality. They are unique and serve specific customer needs that are not met by other companies in the industry. Highly differentiated and unique hardware and software enables Gennex to charge premium prices for its products hence making higher profits and maintain its competitive position in the market.\nDifferentiation strategy is aimed at broad mass market and involves the creation of a product or service that is perceived by the customers as unique. The uniqueness can be associated with product design, brand image, features, technology, dealer network or customer service.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "differentiation",
+    "cost leadership",
+    "r&d strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q14",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter's five forces / industry environment analysis → Ch 2",
+   "qno": "14",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Explain Porter’s five forces model as to how businesses can deal with the competition.",
+   "options": null,
+   "answer": "To gain a deep understanding of a company’s industry and competitive environment, managers do not need to gather all the information they can find and waste a lot of time digesting it. Rather, the task is much more focused. A powerful and widely used tool for systematically diagnosing the significant competitive pressures in a market and assessing the strength and importance of each is the Porter’s five-forces model of competition. This model holds that the state of competition in an industry is a composite of competitive pressures operating in five areas of the overall market:\n• Competitive pressures associated with the market manoeuvring and jockeying for buyer patronage that goes on among rival sellers in the industry.\n• Competitive pressures associated with the threat of new entrants into the market.\n• Competitive pressures coming from the attempts of companies in other industries to win buyers over to their own substitute products.\n• Competitive pressures stemming from supplier bargaining power and supplier-seller collaboration.\n• Competitive pressures stemming from buyer bargaining power and seller-buyer Collaboration.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "five forces"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q15",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Formulation of functional strategies (old Ch 6) — the standalone functional-strategy treatment has no counterpart in the 2023 scheme",
+   "qno": "15",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Rohit Bhargava is the Managing Director of Smooth and Simple Pvt Ltd. The company established in 2011, with 35 employees grew very fast to become an organisation with 335 employees in the year 2016. With the increase in size Rohit started facing difficulty in managing things. Many a times he finds that personnel at the functional level are not in sync with the strategies of the top. He felt that strategies need to be segregated into viable plans and policies that are compatible with each other and communicated down the line. Why does Rohit need to segregate the strategies into functional plans? Discuss.",
+   "options": null,
+   "answer": "Rohit Bhargava needs to break higher level strategies into functional strategies for implementation. These functional strategies, in form of Marketing, Finance, Human Resource, Production, Research and Development help in achieving the organisational objective. The reasons why functional strategies are needed can be enumerated as follows:\n• Functional strategies lay down clearly what is to be done at the functional level. They provide a sense of direction to the functional staff.\n• They are aimed at facilitating the implementation of corporate strategies and the business strategies formulation at the business level.\n• They act as basis for controlling activities in the different functional areas of business.\n• They help in bringing harmony and coordination as they are formulated to achieve major strategies.\n• Similar situations occurring in different functional areas are handled in a consistent manner by the functional managers.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "functional strategy",
+    "objectives",
+    "hr strategy",
+    "r&d strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q16",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing mix / promotion (old Ch 6.2.2) — dropped with the functional-strategy chapter",
+   "qno": "16",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What are the objectives that must be kept in mind while designing a pricing strategy of a new product?",
+   "options": null,
+   "answer": "For a new product pricing strategies for entering a market needs to be designed. In pricing a really new product at least three objectives must be kept in mind.\ni. Making the product acceptable to the customers.\nii. Producing a reasonable margin over cost.\niii. Achieving a market that helps in developing market share.\nFor a new product an organization may either choose to skim or penetrate the market. In skimming prices are set at a very high level. The product is directed to those buyers who are relatively price insensitive but sensitive to the novelty of the new product. For example call rates of mobile telephony were set very high initially. Even the incoming calls were charged. Since the initial off take of the product is low, high price, in a way, helps in rationing of supply in favour of those who can afford it.\nIn penetration pricing firm keeps a temptingly low price for a new product which itself is selling point. A very large number of the potential customers may be able to afford and willing to try the product.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "pricing strategy",
+    "objectives"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q17",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 7 \"Organisation and Strategic Leadership\" → Ch 5",
+   "qno": "17",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "KaAthens Ltd., a diversified business entity having business operations across the globe. The company leadership has just changed as Mr. D. Bandopadhyay handed over the pedals to his son Aditya Bandopadhyay, due to his poor health. Aditya is a highly educated with an engineering degree from IIT, Delhi. However, being very young he is not clear about his role and responsibilities, In your view, what are the responsibilities of Aditya Bandopadhyay as CEO of the company.",
+   "options": null,
+   "answer": "Aditya Bandopadhyay, an effective strategic leader of KaAthens Ltd. must be able to deal with the diverse and cognitively complex competitive situations that are characteristic of today’s competitive landscape.\nA Strategic leader has several responsibilities, including the following:\n• Making strategic decisions.\n• Formulating policies and action plans to implement strategic decision.\n• Ensuring effective communication in the organisation.\n• Managing human capital (perhaps the most critical of the strategic leader’s skills).\n• Managing change in the organisation.\n• Creating and sustaining strong corporate culture.\n• Sustaining high performance over time.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "competitive landscape",
+    "diversification",
+    "strategic leadership",
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q18",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "qno": "18",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Davis and Lawrence have proposed three distinct phases to develop matrix structure. Explain.",
+   "options": null,
+   "answer": "For development of matrix structure; Davis and Lawrence have proposed three distinct phases:\n• Cross-functional task forces: Temporary cross-functional task forces are initially used when a new product line is being introduced. A project manager is in charge as the key horizontal link.\n• Product/brand management: If the cross-functional task forces become more permanent, the project manager becomes a product or brand manager a nd a second phase begins. In this arrangement, function is still the primary organizational structure, but product or brand managers act as the integrators of semi-permanent products or brands.\n• Mature matrix: The third and final phase of matrix development involves a true dual-authority structure. Both the functional and product structures are permanent. All employees are connected to both a vertical functional superior and a horizontal product manager.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q19",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Benchmarking (old Ch 8.8) — dropped from the 2023 syllabus",
+   "qno": "19",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Swift Ltd and Quick Ltd are two companies that are in the business of light industrial machines. While Swift is the market leader the sales of Quick has been falling. In the year 2017-18 the market share of the two companies was forty per cent and five per cent respectively. During the last five years the market share of quick reduced from third to sixth position. As an immediate corrective measure top management of Quick decided to emulate the successful standards of Swift Ltd and set them as their own yardsticks. With the help of standards they intended to compare, measure and judge their performance. What is the strategic tool Quick Ltd is adopting? How is it implemented?",
+   "options": null,
+   "answer": "The top management of Quick Ltd is doing benchmarking. The benchmarking helps an organization to get ahead of competition. A benchmark may be defined as a standard or a point of reference against which things may be compared and by which something can be measured and judged. In simple words, benchmarking is an approach of setting goals and measuring productivity based on best industry practices. In recent years, different commercial and non-commercial organizations are discovering the value of benchmarking and are applying it to improve their processes and systems.\nBenchmarking processes used by different organisations lack standardization. However, common elements are as follows:\nI. Identifying the need for benchmarking: This step will define the objectives of the benchmarking exercise. It will also involve selecting the type of benchmarking. Organizations identify realistic opportunities for improvements.\nII. Clearly understanding existing business processes: This step will involve compiling information and data on performance. This will include mapping processes.\nIII. Identify best processes: Within the selected framework, best processes are identified. These may be within the same organization or external to it.\nIV. Compare own processes and performance with that of others: While comparing gaps in performance between the organization and better performers is identified. Further, gaps in performance are analysed to seek explanations. Feasibility of making the improvements is also examined.\nV. Prepare a report and Implement the steps necessary to close the performance gap: A report on the Benchmarking initiatives containing recommendations is prepared. Such a report includes the action plan(s) for implementation.\nVI. Evaluation: A business organization must evaluate the results of the benchmarking process in terms of improvements vis-à-vis objectives and other criteria set for the purpose. It should also periodically evaluate and reset the benchmarks in the light of changes in the conditions that impact its performance.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "benchmarking"
+   ]
+  },
+  {
+   "id": "rtp-old-nov2018-q20",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy Audit (old Ch 8.6) — dropped from the 2023 syllabus",
+   "qno": "20",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What is Strategy Audit? Explain briefly the criteria for strategy audit given by Richard Rumelt’s.",
+   "options": null,
+   "answer": "A strategy audit is an examination and evaluation of areas affected by the operation of a strategic management process within an organization.\nRichard Rumelt’s Criteria for Strategy Audit\na. Consistency: A strategy should not present inconsistent goals and policies. Organizational conflict and interdepartmental bickering are often symptoms of managerial disorder, but these problems may also be a sign of strategic inconsistency. Three guidelines help determine if organizational problems are due to inconsistencies in strategy:\n• If managerial problems continue despite changes in personnel and if they tend to be issue-based rather than people-based, then strategies may be inconsistent.\n• If success for one organizational department means, or is interpreted to mean, failure for another department, then strategies may be inconsistent.\n• If policy problems and issues continue to be brought to the top for resolution, then strategies may be inconsistent.\nb. Consonance: Consonance refers to the need for strategists to examine sets of trends, as well as individual trends, in auditing strategies. A strategy must represent an adaptive response to the external environment and to the critical changes occurring within it. One difficulty in matching a firm’s key internal and external factors in the formulation of strategy is that most trends are the result of interactions among other trends. For example, the day-care school/centre came about as a combined result of many trends that included a rise in the average level of education, need for different education pedagogy, increase in income, inflation, and an increase in women in the workforce. Although single economic or demographic trends might appear steady for many years, there are waves of change going on at the interaction level.\nc. Feasibility: A strategy must neither overtax available resources nor create unsolvable sub-problems. The final broad test of strategy is its feasibility; that is, can the strategy be attempted within the physical, human, and financial resources of the e nterprise? The financial resources of a business are the easiest to quantify and are normally the first limitation against which strategy is audited. It is sometimes forgotten, however, that innovative approaches to financing are often possible. Devices, s uch as captive subsidiaries, sale-leaseback arrangements, and tying plant mortgages to long-term contracts, have all been used effectively to help win key positions in suddenly expanding industries. A less quantifiable, but actually more rigid, limitation on strategic choice is that imposed by individual and organizational capabilities. In auditing a strategy, it is important to examine whether an organization has demonstrated in the past that it possesses the abilities, competencies, skills, and talents needed to carry out a given strategy.\nd. Advantage: A strategy must provide for the creation and/or maintenance of a\ncompetitive advantage in a selected area of activity. Competitive advantages normally are the result of superiority in one of three areas:\n(1) resources, (2) skills, or (3) position.\nThe idea that the positioning of firm’s resources that enhance their combined effectiveness is familiar to military theorists and chess players. Position can also play a crucial role in an organization’s strategy. Once gained, a good position is defensible-meaning that it is so costly to capture that rivals are deterred from full-scale attacks. Positional advantage tends to be self-sustaining as long as the key internal and environmental factors that underlie it remain stable. This is why entrenched firms can be almost impossible to unseat, even if their skill levels are only average. Although not all positional advantages are associated with size, it is true that larger organizations tend to operate in markets and use procedures that turn their size into advantage, while smaller firms seek product/market positions that exploit other types of advantage. The principal characteristic of good position is that it permits the firm to obtain advantage from policies that would not similarly benefit rivals without the same position. Therefore, in auditing strategy, organizations should examine the nature of positional advantages associated with a given strategy.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy audit",
+    "strategic management"
+   ]
+  }
+ ]
+}

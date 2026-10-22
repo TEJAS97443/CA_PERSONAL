@@ -1,0 +1,8 @@
+{"t": 1792462974.8083892, "step": "start", "note": "reading reports"}
+{"t": 1792463335.0722291, "step": "plan", "note": "165 candidate embeds computed OK in node; 12 lessons pending review"}
+{"t": 1792465882.395864, "step": "cma", "note": "34 lessons, 70 embeds; lint+check+build ok; all mount, final frame, no overflow at 390/1440"}
+{"t": 1792466983.503104, "step": "aud", "note": "15 lessons, 26 embeds (bank.advances, sa300, sa230, ethics now reviewed); all mount/final/no overflow 390+1440; bank.advances word-count warning"}
+{"t": 1792468164.603221, "step": "fm", "note": "18 lessons, 40 embeds (ratio x4 and wc.cash now reviewed); all mount/final/no overflow 390+1440"}
+{"t": 1792468974.867563, "step": "sm", "note": "10 lessons, 21 embeds (porter, industry, levels now reviewed); all mount/final/no overflow 390+1440"}
+{"t": 1792472809.6262841, "step": "verify", "note": "157 embeds/77 lessons mount+final frame+no overflow at 390/1440; lint+check ok (1 word warn); tests: kit's diagram.test clobbers GA in full run; per-file 1601/2 fail (bank); smoke 339/2 (bank)"}
+{"t": 1792472869.884235, "step": "report", "note": "reports/embed.md: 157 embeds in 77 lessons, none pending"}

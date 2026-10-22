@@ -1,0 +1,344 @@
+                                                           Test Series: September, 2023
+                                 MOCK TEST PAPER  1
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                                     ANSWERS
+                         PART I: MULTIPLE CHOICE QUESTIONS
+1.  (d) Treat the risk
+2.  (a) Data Mining
+3.  (b) Section 43A
+4.  (c) Resiliency
+5.  (b) System Control Audit Review File (SCARF)
+6.  (c) Business Process Automation
+7.  (c) Journal
+8.  (b) Concurrent Audit
+9.  (b) Desktop as a Service
+10. (c) Market Risk
+                           PART II: DESCRIPTIVE QUESTIONS
+1.  (a) Application Controls are controls which are implemented in an application to prevent or detect
+        and correct errors. These controls are in-built in the application software to ensure accurate and
+        reliable processing. These are designed to ensure completeness, accuracy, authoriza tion and
+        validity of data capture and transaction processing. For example: In banking, application software
+        ensures that only transactions of the day are accepted by the system. Withdrawals are not allowed
+        beyond limits, etc.
+        Some examples of Application controls are as follows-
+        -   Data edits (editing of data is allowed only for permissible fields).
+        -   Separation of business functions (e.g., transaction initiation versus authorization).
+        -   Balancing of processing totals (debit and credit of all transactions are tal lied).
+        -   Transaction logging (all transactions are identified with unique id and logged).
+        -   Error reporting (errors in processing are reported).
+        -   Exception Reporting (all exceptions are reported).
+    (b) Cache memory is a smaller, extremely fast memory type built into a computer’s Central Processing
+        Unit (CPU) and that acts as a buffer between RAM and the CPU. Cache Memory stores copies of
+        the data from the most frequently used main memory locations so that CPU can ac cess it more
+        rapidly than main memory.
+
+2.  (a) Data is generally moved synchronously across telecommunication lines, however such data that is
+        waiting to be transmitted are liable to unauthorized access called Asynchronous Attacks. These
+        kinds of attacks make use of the timing difference between the time when the data is inputted to
+        the system and the time when it gets processed by the system. These attacks are hard to detect
+        because they are usually very small pin like insertions and are of following types :
+        •   Data Leakage: This involves leaking information out of the computer by means of dumping
+            files to paper or stealing computer reports and tape.
+        •   Subversive Attacks: These can provide intruders with important information about messages
+            being transmitted and the intruder may attempt to violate the integrity of some components in
+            the sub-system.
+        •   Wire-Tapping: This involves spying on information being transmitted over communication
+            network.
+        •   Piggybacking: This is the act of following an authorized person through a secured door or
+            electronically attaching to an authorized telecommunication link that intercepts and alters
+            transmissions. This involves intercepting communication between the operating system and
+            the user and modifying them or substituting new messages.
+    (b) Various risks that are associated with the Current Account and Savings Account (CASA) process
+        of Core Banking Systems (CBS) are as follows:
+        •   Credit Line setup is unauthorized and not in line with the bank’s policy.
+        •   Credit Line setup in CBS is unauthorized and not in line with the bank’s policy.
+        •   Customer Master defined in CBS is not in accordance with the Pre-Disbursement Certificate.
+        •   Inaccurate interest/charge being calculated in CBS.
+        •   Unauthorized personnel approving the CASA transaction in CBS.
+        •   Inaccurate accounting entries generated in CBS.
+3.  (a) Accounting or Book-keeping cycle covers the business processes involved in recording and
+        processing accounting events of a company. It begins when a transaction or financial event occurs
+        and ends with its inclusion in the financial statements. A typical life cycle of an accounting
+        transaction may include the following transactions:
+             Source                Financial Statement
+                                                                Closing Entries
+            Document
+                             THE   ACCOUNTING
+                                                             Adjusted Trial Balance
+            Journal           PROCESS      FLOW
+                      Ledger             Trial Balance           Adjustments
+        •   Source Document: A document that captures data from transactions and events.
+        •   Journal: Transactions are recorded into journals from the source document.
+        •   Ledger: Entries are posted to the ledger from the journal.
+        •   Trial Balance: Unadjusted trial balance containing totals from all account heads is
+            prepared.
+
+        •   Adjustments: Appropriate adjustment entries are passed.
+        •   Adjusted Trial balance: The trial balance is finalized post adjustments.
+        •   Closing Entries: Appropriate entries are passed to transfer accounts to financial
+            statements.
+        •   Financial statement: The accounts are organized into the financial statements.
+    (b) Hardware Virtualization: Hardware Virtualization refers to the creation of a virtual machine that
+        acts like a real computer with an operating system. Software executed on these virtual machines
+        is separated from the underlying hardware resources. This enables the users to run different
+        operating systems on the same machine simultaneously. For example, a computer that is running
+        Microsoft Windows may host a virtual machine that looks like a computer with the Linux operating
+        system-based software that can be run on the virtual machine.
+        The basic idea of hardware virtualization is to consolidate many small physical servers into one
+        large physical server so that the processor can be used more effectively. The software that creates
+        a virtual machine on the host hardware is called a Hypervisor that controls the processor, memory,
+        and other components by allowing several different operating systems to run on the same machine
+        without the need for a source code. The operating system running on the machi ne will appear to
+        have its own processor, memory and other components.
+        Storage Virtualization: Storage Virtualization is an apparent pooling of data from multiple storage
+        devices, even different types of storage devices into what appears to be a single device that is
+        managed from a central console. Storage virtualization helps the storage administra tor perform the
+        tasks of backup, archiving, and recovery more easily and in less time by disguising the actual
+        complexity of a Storage Area Network (SAN). Administrators can implement virtualization with
+        software applications or by using hardware and software hybrid appliances. The servers connected
+        to the storage system are not aware of where the data really is. Storage virtualization is sometimes
+        described as “abstracting the logical storage from the physical storage”.
+4.  (a) The steps involved in the process of Data Mining are as follows:
+        •   Data Integration: Firstly, the data are collected and integrated from all the different sources
+            which could be flat files, relational database, data warehouse or web etc.
+        •   Data Selection: It may be possible that all the data collected may not be required in the first
+            step. So, in this step we select only those data which we think is useful for data mining.
+        •   Data Cleaning: The data that is collected are not clean and may contain errors, missing
+            values, noisy or inconsistent data. Thus, we need to apply different techniques to get rid of
+            such anomalies.
+        •   Data Transformation: The data even after cleaning are not ready for mining as it needs to
+            be transformed into an appropriate form for mining using different techniques like - smoothing,
+            aggregation, normalization etc.
+        •   Data Mining: In this, various data mining techniques are applied on the data to discover the
+            interesting patterns. Techniques like clustering and association analysis are among the many
+            different techniques used for data mining.
+        •   Pattern Evaluation and Knowledge Presentation: This step involves visualization,
+            transformation, removing redundant patterns etc. from the patterns we generated.
+        •   Decisions / Use of Discovered Knowledge: This step helps user to make use of the
+            knowledge acquired to take better informed decisions.
+
+    (b) In Core Banking Systems, Operational Risk is defined as a risk arising from direct or in direct loss
+        to the bank which could be associated with inadequate or failed internal process, peop le, and
+        systems. For example- Inadequate audits, improper management, ineffective internal control
+        procedures etc. Various types of Operational Risk are as follows:
+        •   Transaction Processing Risk arises because faulty reporting of important market
+            developments to the bank management may occur due to errors in entry of data for
+            subsequent bank computations.
+        •   Information Security Risk comprises the impact to an organization and its stakeholders that
+            could occur due to the threats and vulnerabilities associated with the operation and use of
+            information systems and the environments in which those systems operate. Data breaches
+            can cost a bank its reputation, customers can lose time and money and above a ll their
+            confidential information.
+        •   Legal Risk arises because of the treatment of clients, the sale of products, or business
+            practices of a bank. There are countless examples of banks being taken to court by
+            disgruntled corporate customers, who claim they were misled by advice given to them or
+            business products sold. Contracts with customers may be disputed.
+        •   Compliance Risk is exposure to legal penalties, financial penalty, and material loss an
+            organization faces; when it fails to act in accordance with industry laws and regulations,
+            internal policies or prescribed best practices.
+        •   People Risk arises from lack of trained key personnel, tampering of records, unauthorized
+            access to dealing rooms and nexus between front and back-end offices.
+5.  (a) The risks that are involved in an e-Business environment are as follows:
+        (i) Privacy and Security: When an organization uses internet to engage in e-commerce, it
+            exposes itself to additional security threats and privacy issues. There are often issues of
+            security and privacy due to lack of personalized digital access and knowledge. The nature of
+            e-commerce operations is an important factor determining the security risks perceptions of
+            any e-commerce installation. For example, if the type of industry is banking and fin ance, it
+            would require more stringent deployment of security solutions than would be for
+            manufacturing industry.
+        (ii) Quality issues: There are quality issues raised by customers as the original product differs
+            from the one that was ordered.
+        (iii) Delay in goods and Hidden Costs: When goods are ordered from another country, the
+            shipment may be delayed due to factors such as port congestion, bad weather, custom
+            clearances, etc. Moreover, e-commerce companies may have these hidden costs.
+        (iv) Needs access to internet and lack of personal touch: The e-commerce requires an internet
+            connection which is an extra expense and lacks personal touch.
+        (v) Security and Credit card issues: The credit card and debit card information may be stolen
+            and misused which poses a security threat. There is also possibility of cloning of credit cards
+            and debit cards.
+        (vi) Infrastructure: There is a greater need of not only digital infrastructure but also network
+            expansion of roads and railways which remains a substantial challenge in developing
+            countries.
+
+        (vii) Problem of anonymity: There is a need to identify and authenticate users in the virtual global
+            market where anyone can sell to or buy from anyone, anything from anywhere.
+        (viii) Repudiation of contract: There is possibility that the electronic transaction in the form of
+            contract, sale order or purchase by the trading partner or customer may be denied.
+        (ix) Lack of authenticity of transactions: The electronic documents that are produced during
+            an e-commerce transaction may not be authentic and reliable.
+        (x) Data Loss or theft or duplication: The data transmitted over the Internet may be lost,
+            duplicated, tampered with, or replayed.
+        (xi) Attack from hackers: Web servers used for e-commerce may be vulnerable to hackers. A
+            hacker is an unauthorized user who attempts to or gains access to the system with/without
+            the intention to steal or modify data or to insert viruses or worms to cause damage to the
+            system.
+        (xii) Denial of Service: Service to customers may be denied due to non-availability of system as
+            it may be affected by viruses, e-mail bombs and by transmitting so many data packets to a
+            server that it cannot process them all. The denial of service may cause a network to shut
+            down, making it impossible for users to access the site. For busy e-commerce sites such as
+            Flipkart, these attacks are costly; while the site is shut down, customers cannot make
+            purchases. Moreover, the longer a site is shut down, the more damage is done to a site’s
+            reputation.
+        (xiii) Non-recognition of electronic transactions: e-Commerce transactions, as electronic
+            records and digital signatures may not be recognized as evidence in courts of law in some
+            countries.
+        (xiv) Lack of audit trails: Audit trails in e-Commerce system may be lacking and the logs may be
+            incomplete, too voluminous, or easily tampered with.
+        (xv) Problem of piracy: Intellectual property such as copyright may not be adequately protected
+            when such property is transacted through e-Commerce.
+    (b) Various aspects that an auditor shall consider while auditing the processes of an Enterprise
+        Resource Planning (ERP) are as follows:
+        •   Functional Audit – This includes testing of different functions / features in the system and
+            testing of the overall process or part of process in the system and its comparison with actual
+            process. For example - Purchase Process, Sales Process, Salary Calculation Process,
+            Recruitment Process, etc. Auditor may check this process in the system and compare it with
+            actual process. It is quite possible that all the aspect present in the actual process may not
+            be integrated in the ERP system. There may be some manual intervention.
+        •   Input Validation – This stand for checking of rules for input of data into the system. For
+            example - a transaction of cash sales on sales counter must not be recorded in a date other
+            than today (not a future date or a back date), amount field must not be zero, stock item field
+            shall not be empty, etc. Input validations shall change according to each data input form.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+         (1) (2)   (3)    (4)   (5)
+         (b) (c)   (d)    (a)   (c)
+    (B)  (b)
+    (C)  (a)
+    (D)  (b)
+    (E)  (d)
+    (F)  (b)
+    (G)  (b)
+2.  Sandeep group of companies have used Benchmarking as a strategic tool. Benchmarking is an approach
+    of setting goals and measuring productivity of firms based on best industry practices or against the products,
+    services and practices of its competitors or other acknowledged leaders in the industry. Thus, benchmarking
+    is a process of continuous improvement in search for competitive advantage. Firms can use benchmarking
+    practices to achieve improvements in a diverse range of management functions like product development,
+    customer services, human resources management, etc.
+    Some of the common elements of benchmarking process are as under:
+    •   Identifying the need for benchmarking: This step will define the objectives of the benchmarking
+        exercise. It will also involve selecting the type of benchmarking. Organizations identify realistic
+        opportunities for improvements.
+    •   Clearly understanding existing decisions processes: The step will involve compiling information
+        and data on performance. This will include mapping processes.
+    •   Identify best processes: Within the selected framework best processes are identified. These may be
+        within the same organization or external to it.
+    •   Comparison of own process and performance with that of others: Benchmarking process also
+        involves comparison of performance of the organization with performance of other organization. Any
+        deviation between the two is analysed to make further improvements.
+    •   Prepare a report and implement the steps necessary to close the performance gap: A report on
+        benchmarking initiatives containing recommendations is prepared. Such a report also contains the
+        action plans for implementation.
+    •   Evaluation: Business organizations evaluate the results of the benchmarking process in terms of
+        improvements vis-à-vis objectives and other criteria set for the purpose. It also periodically evaluates
+        and resets the benchmarks in the light of changes in the conditions that impact the performance.
+3.  (a) Expansion strategy is implemented by redefining the business by adding to the scope of business
+        substantially increasing the efforts of the current business. On the other hand, Retrenchment
+        strategy involves redefinition of business by divesting a major product line or market.
+        Expansion is a promising and popular strategy that tends to be equated with dynamism, vigour,
+        promise and success. Retrenchment or retreat becomes necessary or expedient for coping with
+        particularly hostile and adverse situations in the environment and when any other strategy is likely
+        to be suicidal.
+
+        Expansion may take the enterprise along relatively unknown and risky paths, full of promises and
+        pitfalls. Retrenchment involves regrouping and recouping of the resources.
+    (b) SWOT  analysis is a tool used by organizations for evolving strategic options for the future. The
+        term SWOT refers to the analysis of strengths, weaknesses, opportunities and threats facing a
+        company. Strengths and weaknesses are identified in the internal environment, whereas
+        opportunities and threats are located in the external environment.
+        (a) Strength: Strength is an inherent capability of the organization which it can use to gain strategic
+            advantage over its competitor.
+        (b) Weakness: A weakness is an inherent limitation or constraint of the organisation which creates
+            strategic disadvantage to it.
+        (c) Opportunity: An opportunity is a favourable condition in the external environment which enables
+            it to strengthen its position.
+        (d) Threat: An unfavourable condition in the external environment which causes a risk for, or damage
+            to the organisation’s position.
+            The major purpose of SWOT analysis is to enable the management to create a firm-specific
+            business model that will best align, fit or match an organisational resources and capabilities
+            to the demands of the environment in which it operates.
+4.  (a) The role of Chief Executive Officer pertains to corporate level.
+        The corporate level of management consists of the Chief Executive Officer (CEO) and other top-level
+        executives. These individuals occupy the apex of decision making within the organization.
+        The role of Chief Executive Officer is to:
+        1.  oversee the development of strategies for the whole organization;
+        2.  defining the mission and goals of the organization;
+        3   determining what businesses, it should be in;
+        4.  allocating resources among the different businesses;
+        5.  formulating, and implementing strategies that span individual businesses;
+        6.  providing leadership for the organization;
+        7.  ensuring that the corporate and business level strategies which company pursues are
+            consistent with maximizing shareholders wealth; and
+        8.   managing the divestment and acquisition process.
+    (b) Decision making is a managerial process of selecting the best course of action out of several
+        alternative courses for the purpose of accomplishment of the organizational goals. Decisions may
+        be operational i.e., which relate to general day-to-day operations. They may also be strategic in
+        nature. According to Jauch and Glueck “Strategic decisions encompass the definition of the
+        business, products to be handled, markets to be served, functions to be performed and
+        major policies needed for the organisation to execute these decisions to achieve the
+        strategic objectives.”
+        The primary task of the strategic manager is conceptualizing, designing and executing company
+        strategies. For this purpose, his tasks include:
+        ♦    Defining the mission and goals of the organization.
+        ♦    Determining what businesses, it should be in.
+        ♦    Allocating resources among the different businesses.
+        ♦    Formulating and implementing strategies that span individual businesses.
+        ♦    Providing leadership for the organization.
+5.   (a) Budget Smart Retailers adopted a cost leadership strategy to enhance profitability in the fiercely
+        competitive grocery retail sector. It is a low-cost competitive strategy that aims at broad mass
+        market. It requires vigorous pursuit of cost reduction in the areas of procurement, production,
+        storage and distribution of product or service and also economies in overhead costs. Because of
+        its lower costs, the cost leader is able to charge a lower price for its products than most of its
+        competitors and still earn satisfactory profits.
+        By negotiating bulk procurement deals with suppliers, BudgetSmart Retailers lowered their cost of
+        goods, allowing them to offer competitive prices to customers. The revamping of store layouts
+        aimed to maximize space utilization and product placement, reducing operational costs and
+        improving the overall shopping experience. Embracing lean principles minimized waste in the
+        supply chain, reducing unnecessary expenses and improving efficiency. Comprehensive staff
+        training boosted employee productivity and customer service efficiency, contributing to cost
+        reduction and enhanced customer satisfaction.
+    (b) Modern marketing is highly promotional oriented and includes personal selling, advertising,
+        publicity and sales promotion.
+        Personal selling – involves face to face interaction of salespersons with prospective customers
+        and provides a high degree of personal attention. It involves working with one customer at a time
+        and hence is not cost effective. The intention of oral communication is sale.
+        Advertising – is a non-personal, flexible and dynamic promotion method. The media for
+        advertising are several and choice of an appropriate one is important for effectiveness of message.
+        The sales of the product and the amount of expenditure cannot be directly measured.
+        Publicity – is also non-personal but no payments are made to the media. Publicity is
+        communication of a product, brand or business by placing information about it in the media without
+        paying for the time or media space directly. It could be through press releases, press conferences,
+        reports, etc.
+        Sales promotion – includes all activities that are undertaken to promote the business but are not
+        specifically included under personal selling, advertising or publicity. Activities like discounts,
+        contests, money refunds, exhibitions etc. are included.
+6.  (a) Differences between Operational Control and Management Control are as under:
+        (i) The thrust of operational control is on individual tasks or transactions as against total or more
+            aggregative management functions. When compared with operational, management control
+            is more inclusive and more aggregative, in the sense of embracing the integrated activities of
+            a complete department, division or even entire organization, instead or mere narrowly
+            circumscribed activities of sub-units. For example, procuring specific items for inventory is a
+            matter of operational control, in contrast to inventory management as a whole.
+        (ii) Many of the control systems in organizations are operational and mechanistic in nature. A set
+            of standards, plans and instructions are formulated. On the other hand, the basic purpose of
+            management control is the achievement of enterprise goals – short range and long range –
+            in an effective and efficient manner.
+    (b) Suraj Prakesh is a follower of transactional leadership style that focuses on designing systems
+        and controlling the organization’s activities. Such a leader believes in using the authority of his
+        office to exchange rewards, such as pay and status. They prefer a more formalized approach to
+        motivation, setting clear goals with explicit rewards or penalties for achievement or non-
+        achievement. Transactional leaders try to build on the existing culture and enhance current
+        practices. The style is better suited in persuading people to work efficiently and run operations
+        smoothly.
+
+        On the other hand, Chander Prakash is a follower of transformational leadership style. The style
+        uses charisma and enthusiasm to inspire people to exert them for the good of the organization.
+        Transformational leaders offer excitement, vision, intellectual stimulation and personal satisfaction.
+        They inspire involvement in a mission, giving followers a ‘dream’ or ‘vision’ of a higher calling so
+        as to elicit more dramatic changes in organizational performance. Such a leadership motivates
+        followers to do more than originally affected to do by stretching their abilities and increasing their
+        self-confidence, and also promote innovation throughout the organization.

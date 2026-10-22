@@ -1,0 +1,32 @@
+JOB=choice-ext
+You are extending the CHOICE RULE of PassBook's ICAI question bank (~/CA_PERSONAL/ca_passbook, an offline study app for ICAI CA Intermediate
+Group II). Read ~/CA_PERSONAL/ca_passbook/docs/ICAI_BANK.md (all of it: model, `choice`, sittings, §9 transcription guide) and
+tools/buildlib/bank.py (parse_choice and the paper record), the app's sitting/scoring code (grep app/js for `choice`), tools/bank/check.py,
+and the tests that cover parse_choice and sitting scoring (tests/*.test.js, tests/py).
+PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py choice-ext <step>; steps start, design, build, app, files, verify, report
+(register {"id":"choice-ext","kind":"qa","deps":[],"steps":["start","design","build","app","files","verify","report"]} in
+~/CA_PERSONAL/ca_prompts/jobs.json if unknown).
+
+THE PROBLEM: `choice:` can only say "q1; any 4 of q2-q6" (whole questions). Many old-scheme ICAI papers also choose INSIDE one question:
+"Q1: answer any seven of (a)-(h), 2 marks each" (old P6 Audit), "Q6: answer any four of (a)-(e)" (old P3 Costing), "Section B: any two
+parts of Q1 and Q2" (o-p7-mtp-may2018-s1). Transcribers left `choice:` out of those files, so the papers are practice only (not sittable).
+List them: grep the bank notes for "practice only" / "any seven" / "any four of the following" and ~/CA_PERSONAL/ca_prompts/EMBEDS.md (tx-34/35/38
+entries) and ~/CA_PERSONAL/ca_prompts/reports/tx-3*.md, tx-4*.md.
+
+1 design: a backward-compatible syntax, e.g. `choice: q1[any 7]; any 4 of q2-q6[q6: any 4]` or a clearer form you justify; it must say
+  which parts count and how many, keep every existing rule meaning the same, and make the paper's maximum equal what ICAI prints.
+  Write it into ICAI_BANK.md (the `choice` row and the §9 guide) with two examples taken from real files.
+2 build: parse_choice + validation (named questions/parts exist; maximum = printed total, as today's warning); unit tests.
+3 app: sitting scoring honours part choices the same way it honours `any n of` today (best n answered parts count; excess answers rule as
+  documented; OR pairs still work); the Part II instructions box shows the rule in ICAI's words; tests.
+4 files: add the `choice:` line to each affected file whose status is `checked` (only that header line, the rule read from ICAI's own
+  printed instruction which the file already quotes; record "choice: added by choice-ext from ICAI's printed instruction" in the doc
+  note). Do not touch files that are not `checked` (a transcriber is working on them): list them for the lead. Run check.py on every file
+  you touched.
+5 verify: .venv/bin/python build.py and --check, node tests/run.js, python3 -I -m unittest discover -s tests/py, tools/smoke.py; then sit
+  one affected paper in the app (tools/shot.sh, the sitting route) to its result page and LOOK (crop; ~10 images max).
+6 report (final message; also ~/CA_PERSONAL/ca_prompts/reports/choice-ext.md): the syntax, files updated (and the papers now sittable), files left
+  for the lead, tests added.
+Also verify every existing old-scheme `choice:` line (grep bank/items/old) builds to the printed total; fix or report any that does not.
+Never invent an ICAI instruction: if a paper's printed instruction is not in the file or is ambiguous, leave that file practice only and
+list it. Do not edit lessons.

@@ -1,0 +1,407 @@
+/* PassBook — interactive labs: the lab frame (header, inputs, stage, player, stat tiles, results, challenge) drawn by app/js/labs/framework.js,
+   the labs hub (/labs, .lb-*) and the lab page extras (views/labs.js), then per-lab legibility rules. Owner: hubs (docs/FRONTEND_V3_SPEC.md section 6).
+   v3 language: solid cards (radius 22, var(--lift), none in dark), 16 px inner tiles, primary for progress and selection, the page's one .pop CTA is
+   "Test yourself" (lab page; "Check" in the question bar while testing) or "Open the lab" (hub's featured card). Subject identity = glyph + name; tokens only, light + dark, 360 -> 1920 px. */
+
+/* ===================================================================== lab frame (full page and lesson embeds) */
+.lab { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; outline: 0; min-width: 0; } .lab:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 6px; border-radius: var(--r-lg); }   /* the lab takes Space / arrow keys, so its focus must show */ .ga-lab-embed { min-width: 0; max-width: 100%; }
+.lab [hidden] { display: none !important; }   /* the frame toggles whole regions with [hidden]; view rules below must not resurrect them */
+/* a lab inside a lesson must not inherit the 18px reading font (selects truncated, controls oversized) */
+.md .ga-lab-embed { font-family: var(--font-ui); font-size: 14.5px; line-height: 1.55; hyphens: none; }
+.ga-lab-embed :is(.lab-try, .lab-cap, .lab-gv) code { white-space: normal; overflow-wrap: anywhere; -webkit-box-decoration-break: slice; box-decoration-break: slice; }   /* a long inline SQL fragment wraps inside a 360 px embed (slice: a cloned end padding would stick out past the line, 5 px on db.sql.nested at 390) */
+/* ---- header: title, a two-line blurb, the meta line (views/labs.js) and the one coral (Test yourself) */
+.lab-h { display: flex; align-items: flex-end; justify-content: space-between; gap: 14px 28px; flex-wrap: wrap; margin: 2px 0 4px; }
+.lab-ht { flex: 1 1 460px; min-width: 0; }
+.lab-ht > .lab-blurb { max-width: 78ch; }
+.lab-h .eyebrow { font-size: 13.5px; font-weight: 700; color: var(--muted); margin-bottom: 12px; }
+.lab-h .btns { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.lab-h .btns .btn svg.i { width: 17px; height: 17px; }
+/* ---- body. DOM order = reading order: stage, 'hidden until you check', tiles, inputs, results. Desktop: the inputs are the left column
+   (sticky only when the whole column fits the window: .stick, set by the frame), everything else flows down the right column (P1-36) */
+.lab-body { display: grid; grid-template-columns: 300px minmax(0, 1fr); grid-template-rows: auto auto auto auto 1fr; gap: 14px; align-items: start; }
+.lab-body > * { grid-column: 2; min-width: 0; }
+.lab-body > .lab-ctl { grid-column: 1; grid-row: 1 / 6; align-self: start; }
+.lab-ctl.stick { position: sticky; top: calc(var(--nav-h, var(--topbar)) + 12px); }
+.lab .lab-controls { display: grid; gap: 14px; padding: 18px; border: 0; border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--lift); min-width: 0; }
+.lab .lab-controls .field > .input, .lab .lab-controls .field > select.input { width: 100%; max-width: none; }
+.lab-ctl-h { display: grid; gap: 4px; }
+.lab-ctl-t { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--ink); }
+.lab-lock { margin: 0; display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 650; color: var(--muted); } .lab-lock svg.i { width: 14px; height: 14px; }
+.lab-fields { display: grid; gap: 14px; min-width: 0; }
+.lab-pick-ex > select { width: 100%; }
+.lab-controls .field-h { display: flex; align-items: center; gap: 2px; min-width: 0; }
+.lab-controls .field-h > label, .lab-controls .field-h > .lbl, .lab-controls .lab-pick-ex > label { font-size: 12.5px; font-weight: 700; color: var(--ink-2); }
+.lab-controls .field-h .itip { margin: -4px 0; }
+.lab-controls .field.row { display: flex; align-items: center; gap: 10px; } .lab-controls .field.row > label:not(.switch) { font-size: 13.5px; color: var(--ink); font-weight: 600; }
+.lab-controls .mono { font-family: var(--font-mono); font-size: 13px; }
+.lab-controls .rv { color: var(--accent); margin-left: 4px; }
+.lab-controls input[type=range], .lab-player input[type=range] { accent-color: var(--accent); }
+.lab-reset-row { display: flex; gap: 8px; } .lab-reset-row .btn svg.i { width: 16px; height: 16px; }
+.ltab table { width: 100%; border-collapse: collapse; margin-bottom: 8px; } .ltab th { font-size: 11px; text-align: left; color: var(--muted); font-weight: 700; padding: 0 4px 4px; text-transform: uppercase; letter-spacing: .05em; }
+.ltab td { padding: 2px 3px; } .ltab .input.sm { height: 31px; padding: 0 8px; font-size: 13px; border-radius: var(--r-xs); width: 100%; min-width: 0; }   /* scoped: components.css owns .input.sm elsewhere (P1-50) */
+.lab.locked .lab-controls { opacity: .72; }
+/* the lab page's 'Edit inputs' button: phones and tablets only (the panel is the left column above 900 px). A lesson embed's 'Change the
+   inputs' (.lab-gv > .lab-edit, a small ghost button after the Given line) shows at every width (P1-16) */
+.lab-ctl > .lab-edit { display: none; }
+/* ---- stage: question bar (testing), example chip, drawing, caption, and the player sticky to the stage's bottom (P1-36) */
+.lab .lab-stage { position: relative; padding: 14px 14px 0; border: 0; border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--lift); min-width: 0; scroll-margin-top: calc(var(--nav-h, var(--topbar)) + 12px); }
+/* 'Test yourself' scrolls the stage to the top: this margin adds to html's scroll-padding-top (nav-h + 12 px, base.css) on purpose, so the
+   header's ghost 'Back to exploring' stays in view above the question bar (measured: 140 px on phones, 160 px on desktops) */
+.lab-view { min-height: 150px; display: grid; gap: 8px; align-content: start; }
+.lab-view .dg { margin: 0; box-shadow: none; border-color: transparent; border-radius: var(--r); background: var(--surface-2); }
+.lab-html { font-size: 14px; }
+/* a lab's own {html} block is a grid item of the stage: min-width 0 lets it take the stage's width, so a drawing whose label floor (P2-60's
+   inline min-width) is wider than a phone scrolls inside its .dg box instead of widening the stage and the page (bst, crc, tcp-window, bplus, …) */
+.lab-view > .lab-html { min-width: 0; }
+.lab-cap { min-height: 44px; padding: 11px 15px; margin: 10px 0 0; border-radius: 14px; background: var(--accent-soft); color: var(--ink); font-size: 14.5px; line-height: 1.5; border: 0; }
+.lab-cap:empty { display: none; }
+.lab-player { position: sticky; bottom: var(--tabbar, 0px); z-index: 3; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 10px -14px 0; padding: 10px 14px 12px; border-radius: 0 0 var(--r-lg) var(--r-lg); background: var(--surface); }
+.lab-player input[type=range] { flex: 1; min-width: 120px; } .lab-n { font: 600 12px var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; min-width: 52px; text-align: right; }
+/* dim the controls, never the bar: its background stays opaque over the drawing it sticks to. While testing the player is inert, so it
+   stops sticking (it would only cover the picture) */
+.lab-player.off > * { opacity: .4; }
+.lab.locked .lab-player { position: static; } .lab.locked .lab-player > * { opacity: .42; }
+.lab-ph { min-height: 168px; display: grid; place-content: center; justify-items: center; gap: 6px; padding: 20px; border-radius: var(--r); background: var(--surface-2); text-align: center; color: var(--muted); font-size: 13.5px; }
+.lab-ph b { color: var(--ink); font-size: 15px; } .lab-ph svg.i { width: 22px; height: 22px; color: var(--accent); }
+/* the question bar (P0-09): the top of the stage while testing; Check is the screen's coral */
+.lab-chal { display: grid; gap: 10px; margin: -14px -14px 14px; padding: 16px 18px 14px; border-radius: var(--r-lg) var(--r-lg) 0 0; background: var(--accent-soft); }
+.lab-chal-h { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+.lab-chal-t { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: var(--accent); } .lab-chal-t svg.i { width: 16px; height: 16px; }
+.lab-chal-pk { font-size: 12.5px; font-weight: 650; color: var(--muted); }
+.lab-chal-q { margin: 0; font-family: var(--font-ui); font-size: 15.5px; line-height: 1.55; font-weight: 600; color: var(--ink); outline: 0; max-width: 78ch; }
+.lab-chal-q:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 4px; border-radius: 6px; }
+.lab-chal-a { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.lab-ans-w { display: inline-flex; gap: 6px; align-items: stretch; flex: 0 1 260px; min-width: 0; }
+.lab-chal .lab-ans { height: 44px; width: 100%; min-width: 0; border-radius: var(--r-sm); font: 650 15px var(--font-mono); background: var(--surface); }
+.lab-pm { display: none; }
+.lab-pick { flex: 0 1 auto; } .lab-pick button { height: 38px; padding: 0 18px; font-size: 14px; }
+.lab-chal-m { margin: -4px 0 0; min-height: 0; font-size: 13px; font-weight: 600; color: var(--bad); } .lab-chal-m:empty { display: none; }
+.lab-chal-r:empty { display: none; }
+.lab-chal-r .lab-verdict { margin: 0; } .lab-chal-r .lab-verdict .lab-want { font-family: var(--font-mono); }
+.lab-chal-x { margin-top: 8px; }
+.lab-chal-f { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.lab-chal-f .btn svg.i, .lab-chal-a .btn svg.i { width: 16px; height: 16px; }
+/* the loaded GATE example (P1-38): which paper, and a way to solve the real question first */
+.lab-ex { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin: 0 0 12px; padding: 9px 13px; border-radius: 14px; background: var(--surface-2); font-size: 13.5px; line-height: 1.45; }
+.lab-ex-k { display: inline-flex; align-items: center; gap: 6px; font-weight: 750; color: var(--ink); } .lab-ex-k svg.i { width: 14px; height: 14px; color: var(--accent); }
+.lab-ex-t { color: var(--ink-2); flex: 1 1 200px; min-width: 0; }
+.lab-ex-d { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; font-weight: 700; color: var(--warn); } .lab-ex-d svg.i { width: 14px; height: 14px; }
+.lab-ex-a { display: inline-flex; align-items: center; gap: 5px; font-weight: 700; white-space: nowrap; } .lab-ex-a svg.i { width: 14px; height: 14px; }
+/* ---- tiles and results */
+.lab-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.lab-stat { padding: 14px 16px 13px; border-radius: var(--r); border: 0; background: var(--surface); box-shadow: var(--lift); display: grid; gap: 4px; align-content: start; text-align: left; color: inherit; font: inherit; min-width: 0; }
+button.lab-stat { cursor: help; } button.lab-stat:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.lab-stat b { font-size: 24px; line-height: 1.15; font-weight: 700; letter-spacing: -.022em; font-variant-numeric: tabular-nums; } .lab-stat > span:not(.sr) { font-size: 12.5px; line-height: 1.35; color: var(--muted); font-weight: 600; }
+.lab-stat.ok b { color: var(--ok); } .lab-stat.bad b { color: var(--bad); } .lab-stat.warn b { color: var(--warn); }
+.lab-hid { display: flex; align-items: center; gap: 12px; padding: 14px 18px; border: 0; border-radius: var(--r); background: var(--surface); box-shadow: var(--lift); font-size: 13.5px; color: var(--muted); }
+.lab-hid b { display: block; color: var(--ink); font-size: 14px; } .lab-hid svg.i { width: 20px; height: 20px; flex: none; color: var(--accent); }
+.lab-res { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+/* a remark on this result (a verdict, a warning, how the input was read): neutral, never the warning fill (P2-57) */
+.lab-note { padding: 11px 15px; border-radius: 14px; background: var(--surface); box-shadow: var(--lift); font-size: 13.5px; line-height: 1.5; color: var(--ink-2); }
+[data-theme="dark"] .lab-note { box-shadow: inset 0 0 0 1px var(--line); }
+/* 'How this lab counts' (P2-57): the lab's conventions as neutral bullets at the foot of the inputs (in a lesson embed: inside 'Show the numbers') */
+.lab-conv { display: grid; gap: 6px; padding-top: 12px; border-top: 1px solid var(--line); min-width: 0; }
+.lab-conv-h { margin: 0; font: 700 13px/1.3 var(--font-ui); letter-spacing: 0; color: var(--ink); }
+.lab-conv ul { margin: 0; padding-left: 18px; display: grid; gap: 5px; font-size: 13px; line-height: 1.5; color: var(--ink-2); overflow-wrap: anywhere; }
+.lab-conv li::marker { color: var(--muted); }
+.lab-res > .lab-conv { padding: 12px 14px; border: 0; border-radius: 14px; background: var(--surface-2); }
+.lab-res > .card { border: 0; border-radius: var(--r-lg); background: var(--surface); box-shadow: var(--lift); overflow: hidden; }
+.lab-res > .card table.t th { background: transparent; }
+.lab-res > .card table.t :is(th, td):first-child { padding-left: 18px; } .lab-res > .card table.t :is(th, td):last-child { padding-right: 18px; }
+.lab-err { padding: 14px 16px; border-radius: 14px; background: var(--bad-soft); color: var(--bad); font-weight: 600; display: flex; gap: 10px; align-items: center; }
+/* ---- lesson embeds (compact, P1-16): Given + 'Change the inputs' (collapsed) → stage → ≤ 4 tiles → 'Show the numbers' → 'Open full lab →'.
+   At most 700 px at rest: the frame gives the drawing what the rest leaves (views that do not fit fold away, a taller one is clipped under
+   'Show the whole drawing'); the parts here are kept tight: a one-row Given line, a one-row player, one row of tiles, a one-row footer */
+.lab.compact { gap: 8px; }
+.lab-gv { display: flex; align-items: flex-start; gap: 4px 10px; }
+.lab-gv > p { flex: 1 1 0; min-width: 0; margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--ink-2); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.lab-gv > p b { color: var(--ink); font-weight: 750; margin-right: 4px; }
+.lab-gv > .lab-edit { flex: none; height: 30px; margin: -4px -6px 0 0; padding: 0 9px; }
+.lab-gv .btn svg.i { width: 15px; height: 15px; }
+.lab.compact .lab-controls { padding: 14px; border-radius: var(--r); }
+.lab.compact .lab-fields { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); align-items: start; gap: 12px 14px; }
+.lab.compact .lab-fields > .field:has(.ltab, textarea, .seg, table) { grid-column: 1 / -1; }
+.lab.compact .lab-fields .seg { width: max-content; max-width: 100%; }
+.lab.compact .lab-stage { padding: 10px 10px 0; border-radius: var(--r); }
+.lab.compact .lab-player { position: static; gap: 6px; margin: 6px -10px 0; padding: 5px 10px 7px; border-radius: 0 0 var(--r) var(--r); }   /* an embed is short: its player does not stick over the lesson */
+.lab.compact .lab-player [data-p="play"] { width: 36px; height: 36px; }
+.lab.compact .lab-cap { margin-top: 8px; padding: 8px 12px; font-size: 14px; line-height: 1.45; min-height: 0; }
+.lab.compact .lab-player .lab-scrub { min-width: 60px; } .lab.compact .lab-speed button { padding: 0 8px; }
+.lab.compact .lab-view { min-height: 0; }   /* a short drawing (one Gantt row) leaves no blank band above the caption */
+/* a drawing taller than its budget: clipped (the frame sets max-height) and faded at the cut, with the way to see all of it on top of the fade */
+.lab.compact .lab-view.lab-clip { overflow: hidden; -webkit-mask-image: linear-gradient(to bottom, currentColor calc(100% - 72px), transparent); mask-image: linear-gradient(to bottom, currentColor calc(100% - 72px), transparent); }
+.lab-whole { position: relative; z-index: 1; display: flex; align-items: center; gap: 6px; width: max-content; max-width: 100%; height: 34px; margin: -40px auto 6px; padding: 0 14px;
+  border: 1px solid var(--line-2); border-radius: 999px; background: var(--surface); box-shadow: var(--lift); color: var(--accent); font: 700 13px var(--font-ui); cursor: pointer; }
+.lab-whole svg.i { width: 15px; height: 15px; } .lab-whole:hover { color: var(--ink); } .lab-whole:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+/* at most 4 small tiles that share rows: each grows from a width that fits its value (set by the frame), so short numbers share one row and a
+   long value takes a row of its own instead of a tall column; display: flex wins over every per-lab grid */
+.lab.compact > .lab-stats { display: flex; flex-wrap: wrap; gap: 8px; } .lab.compact > .lab-stats > .lab-stat { flex: 1 1 120px; min-width: 0; }
+.lab.compact .lab-stat { padding: 8px 11px 7px; border-radius: 14px; gap: 1px; } .lab.compact .lab-stat b { font-size: 17px; } .lab.compact .lab-stat > span:not(.sr) { font-size: 12px; line-height: 1.3; }
+/* the drawing shows the views that fit (the frame measures them once per compute and folds the rest off screen, inert); 'N more views' in the
+   player opens them. !important: per-lab rules position some figures (wide / narrow twins) with more specific selectors */
+.lab-view > .lab-vx { position: absolute !important; left: -9999px !important; top: auto; width: 1px !important; height: 1px !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important; }
+.lab-allv { min-height: 32px; height: 32px; padding: 0 10px; font-size: 13px; white-space: nowrap; margin-left: auto; } .lab-allv svg.i { width: 15px; height: 15px; }
+/* 'Show the numbers' and 'Open full lab' share one row; an open fold takes the full width and the link drops below it */
+.lab-foot { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px 16px; }
+.lab-foot > .lab-more { flex: 1 1 170px; min-width: 0; }
+.lab-foot > .lab-more[hidden] + .lab-open { margin-left: 0; }
+.lab-foot:has(> .lab-more[open]) > .lab-more { flex-basis: 100%; }
+.lab-foot > .lab-open { margin: 0 0 0 auto; min-height: 36px; display: flex; align-items: center; }   /* margin: a lesson's .md p must not add its own */
+.lab-more { border-radius: 14px; background: var(--surface); box-shadow: var(--lift); }
+.lab-more > summary { display: flex; align-items: center; gap: 8px; min-height: 36px; padding: 0 14px; cursor: pointer; font-size: 13.5px; font-weight: 700; color: var(--ink-2); list-style: none; border-radius: 14px; }
+.lab-more > summary::-webkit-details-marker { display: none; }
+.lab-more > summary::before { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform .15s; margin-right: 2px; }
+.lab-more[open] > summary::before { transform: rotate(45deg); }
+.lab-more > summary:hover { color: var(--ink); } .lab-more > summary:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.lab-more[open] { padding-bottom: 12px; } .lab-more > .lab-stats, .lab-more > .lab-res { margin: 0 12px; } .lab-more > .lab-stats { margin-bottom: 10px; }
+.lab-more .lab-res > .card, .lab-more .lab-stat, .lab-more .lab-note { box-shadow: none; background: var(--surface-2); }
+.lab-open { margin: 0; font-size: 13.5px; } .lab-open a { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; min-height: 32px; } .lab-open svg.i { width: 15px; height: 15px; }
+[data-theme="dark"] .lab-more { box-shadow: inset 0 0 0 1px var(--line); }
+/* phones: the Given button keeps its first word ('Change', named in full for screen readers); the player is one row: back, play, forward,
+   the scrubber (or 'N more views' when there are more views) and the step count; first, last and speed are on the full lab page */
+@media (max-width: 640px) {
+  .lab-gv-x { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+  .lab.compact .lab-player :is([data-p="first"], [data-p="last"]), .lab.compact .lab-player .lab-speed { display: none; }
+  .lab.compact .lab-player:has(.lab-allv:not([hidden])) .lab-scrub { display: none; }
+  .lab.compact .lab-player .lab-allv { padding: 0 8px; }
+  .lab.compact > .lab-stats { gap: 6px; } .lab.compact .lab-stat { padding: 7px 8px 6px; } .lab.compact .lab-stat b { font-size: 15px; } .lab.compact .lab-stat > span:not(.sr) { font-size: 11.5px; }
+}
+@media (pointer: coarse) { .lab-more > summary, .lab-foot > .lab-open { min-height: 44px; } .lab-whole { height: 40px; } .lab-gv > .lab-edit { height: 36px; margin-top: -6px; } }
+/* ---- tablets and phones (P1-36): the stage comes first; the inputs fold into 'Edit inputs' (its summary lists the actual values) */
+@media (max-width: 900px) {
+  .lab-body { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; }
+  .lab-body > *, .lab-body > .lab-ctl { grid-column: 1; grid-row: auto; }
+  .lab-ctl.stick { position: static; }
+  .lab-ctl { display: grid; gap: 8px; }
+  .lab .lab-ctl > .lab-edit { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 2px 12px; width: 100%; min-height: 52px; padding: 10px 16px; border: 0; border-radius: var(--r); background: var(--surface); box-shadow: var(--lift);
+    color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
+  .lab-edit-t { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; } .lab-edit-t svg.i { width: 17px; height: 17px; color: var(--accent); }
+  .lab-edit .lab-given { min-width: 0; font-size: 13px; line-height: 1.4; color: var(--muted); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+  .lab-edit .lab-edit-c { width: 18px; height: 18px; color: var(--muted); transition: transform .15s; }
+  .lab-edit[aria-expanded="true"] .lab-edit-c { transform: rotate(180deg); }
+  .lab-edit:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+  .lab-ctl:not(.open) > .lab-controls { display: none; }
+  .ltab { overflow-x: auto; max-width: 100%; }
+  .lab-ht > .lab-blurb { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+}
+@media (max-width: 700px) {
+  .lab-h { margin-bottom: 0; }
+  .lab-h .btns { width: 100%; } .lab-h .btns .btn { flex: 1 1 auto; }
+  .lab .lab-controls, .lab .lab-stage, .lab-res > .card { border-radius: var(--r-lg); }
+  .lab .lab-stage { padding: 10px 10px 0; } .lab-player { gap: 6px; margin: 8px -10px 0; padding: 8px 10px 10px; }
+  /* two rows, not three (the bar sticks above the tab bar): the step buttons and the step count, then the scrubber and the speed */
+  .lab-player .lab-n { order: 1; margin-left: auto; } .lab-player .lab-scrub { order: 2; flex: 1 1 120px; } .lab-player .lab-speed { order: 3; }
+  .lab-player .lab-speed button { padding: 0 9px; min-height: 34px; }
+  /* embeds keep their one-row order (the phone rules above): the page's two-row player order does not apply */
+  .lab.compact .lab-player > * { order: 0; } .lab.compact .lab-player .lab-n { margin-left: 2px; } .lab.compact .lab-player .lab-allv svg.i { display: none; }
+  .lab-chal { margin: -10px -10px 12px; padding: 14px 14px 12px; }
+  .lab-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .lab-stat b { font-size: 20px; }
+  .lab-ans-w { flex: 1 1 100%; } .lab-chal-a .btn.pop { flex: 1 1 auto; }
+}
+/* touch: every field is 16 px so iPhone Safari does not zoom on focus (P1-50); a 44 px ± key for signed answers (P0-16) */
+@media (pointer: coarse) {
+  .lab .input, .lab select.input, .lab textarea.input, .lab .lab-controls .mono, .lab .input.sm, .lab-chal .lab-ans { font-size: 16px; }
+  .lab .input.sm { height: auto; min-height: 44px; }
+  .lab-pm { display: inline-grid; place-items: center; min-width: 44px; min-height: 44px; padding: 0; font-size: 20px; font-weight: 700; }
+  .lab-player .btn.icon.sm { min-width: 40px; min-height: 40px; }
+}
+
+/* ===================================================================== lab page extras (views/labs.js) */
+.lb-page { display: grid; gap: 0; }
+.lb-page > nav[data-crumbs] { margin: 0 0 14px; }
+.lb-page > nav[data-crumbs]:empty { display: none; }
+.lb-eb { margin-bottom: 12px; }
+.lb-subj { display: inline-flex; align-items: center; gap: 9px; color: var(--ink); }
+.lb-subj:hover { color: var(--accent); }
+.lb-hm { margin: 10px 0 0; color: var(--muted); }
+.lb-hm b { color: var(--ink); font-weight: 750; }
+.lb-you { display: inline-flex; align-items: center; gap: 5px; color: var(--ok); font-weight: 650; } .lb-you svg.i { width: 15px; height: 15px; } .lb-you.none { color: var(--ink-2); }
+.lb-more { margin-top: 12px; }
+.lb-more:empty { display: none; }
+.lb-more-g { display: grid; gap: 12px; grid-template-columns: minmax(0, 1.6fr) minmax(260px, 1fr); align-items: start; }
+.lb-more-g > :only-child { grid-column: 1 / -1; }
+.lb-more-g > .lb-pyq:not(:only-child) { grid-row: span 2; }       /* From the papers on the left; the lessons and More <subject> labs stacked on the right */
+.lb-jump { display: inline-flex; align-items: center; gap: 4px; padding: 0; border: 0; background: none; font: inherit; font-weight: 700; color: var(--accent); cursor: pointer; }
+.lb-jump svg.i { width: 14px; height: 14px; } .lb-jump:hover { text-decoration: underline; text-underline-offset: 3px; } .lb-jump:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.lb-pyq h2[tabindex="-1"]:focus { outline: 0; }
+.lb-ul { list-style: none; margin: 0 -10px; padding: 0; display: grid; gap: 2px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.lb-ul a { display: flex; align-items: center; gap: 12px; padding: 10px; border-radius: 14px; color: inherit; transition: background-color .15s; }
+.lb-ul a:hover { background: var(--surface-2); }
+.lb-ul a > span:nth-child(2) { flex: 1; min-width: 0; }
+.lb-ul b { display: block; font-size: 14px; font-weight: 700; line-height: 1.35; }
+.lb-ul small { display: block; margin-top: 2px; font-size: 12.5px; color: var(--muted); }
+.lb-ul a > svg.i { flex: none; color: var(--muted); transition: transform .2s; } .lb-ul a:hover > svg.i { transform: translateX(3px); color: var(--ink); }
+.lb-pq { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 16px; }
+.lb-pq div { padding: 12px 14px; border-radius: 14px; background: var(--surface-2); }
+.lb-pq b { display: block; font-size: 24px; line-height: 1; font-weight: 700; letter-spacing: -.025em; font-variant-numeric: tabular-nums; }
+.lb-pq b small { font-size: 13px; color: var(--muted); font-weight: 700; letter-spacing: 0; }
+.lb-pq span { display: block; margin-top: 5px; font-size: 12.5px; color: var(--muted); font-weight: 600; }
+/* From the papers (P1-38): one row per GATE question the lab was built from — solve it first, then see it in the lab */
+.lb-pr { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 2px; }
+.lb-pr li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 14px; padding: 10px 0; border-top: 1px solid var(--line); }
+.lb-pr li:first-child { border-top: 0; }
+.lb-pr-t { flex: 1 1 260px; min-width: 0; display: grid; gap: 2px; } .lb-pr-t b { font-size: 13.5px; font-weight: 750; } .lb-pr-t span { font-size: 13px; color: var(--muted); line-height: 1.45; }
+.lb-pr-a { display: inline-flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13.5px; font-weight: 700; } .lb-pr-a a { min-height: 32px; display: inline-flex; align-items: center; }
+.lb-pr-n { margin: 0 0 12px; font-size: 12.5px; color: var(--muted); }
+@media (max-width: 900px) { .lb-more-g { grid-template-columns: minmax(0, 1fr); } .lb-more-g > .lb-pyq:not(:only-child) { grid-row: auto; } }
+
+/* ===================================================================== labs hub (/labs) */
+.lb-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 0 0 16px; }
+.lb-filter { max-width: 100%; }
+.lb-filter button svg.i { color: var(--accent); }
+.lb-count { margin: 0; font-size: 13px; color: var(--muted); font-weight: 550; }
+.lb .hb-sub { max-width: none; }
+/* the list: the featured card, then one section per subject (P2-59: an h2 with glyph, name and count; the subjects with the most marks first) */
+.lb-list { display: grid; gap: 30px; }
+/* the subject sections pack into the cards' own columns, in DOM order (most marks first; no dense packing, so reading and Tab order are the
+   page order): a section of 4+ labs takes a full row, a smaller one as many columns as it has cards, beside the one before it when they fit
+   (the 1-lab subjects sit side by side instead of a row each). Every section is two rows of the outer grid, its heading and its cards
+   (subgrid), so sections that share a row share the heading line and the card height: their footers line up (P1-39). Without subgrid the
+   sections still stretch to the row and the cards fill them, so the footers line up at the bottom */
+.lb-gs { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 30px 12px; align-items: stretch; }
+.lb-g { display: grid; gap: 12px; grid-column: 1 / -1; min-width: 0; grid-template-rows: auto 1fr; }
+@supports (grid-template-rows: subgrid) { .lb-g { grid-row: span 2; grid-template-rows: subgrid; } .lb-g > .lb-gh { align-self: end; } }
+.lb-g.n1 { grid-column: auto; }
+@media (min-width: 680px) { .lb-g.n2 { grid-column: span 2; } .lb-g.n2 > .lb-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1000px) { .lb-g.n3 { grid-column: span 3; } .lb-g.n3 > .lb-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.lb-g.n1 > .lb-grid { grid-template-columns: minmax(0, 1fr); }
+.lb-gh { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 20px; line-height: 1.2; font-weight: 700; letter-spacing: -.02em; }
+.lb-gn { min-width: 0; } .lb-gh em { font-style: normal; font-size: 13px; font-weight: 650; letter-spacing: 0; color: var(--muted); white-space: nowrap; margin-left: 4px; }
+.lb-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); }
+.lb-card { display: flex; flex-direction: column; gap: 10px; }
+.lb-h { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.lb-t { flex: 1; min-width: 0; display: grid; gap: 1px; }
+.lb-t .lb-tt { margin: 0; font-size: 16px; font-weight: 750; letter-spacing: -.015em; line-height: 1.25; }
+.lb-t small { font-size: 12.5px; font-weight: 550; color: var(--muted); }
+.lb-go { display: none; flex: none; width: 18px; height: 18px; color: var(--muted); }
+.lb-p { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--muted); text-wrap: pretty; }
+.lb-f { margin-top: auto; display: grid; gap: 8px; }
+/* the numbers line is the card's last line, so it lines up across a row whether or not a card shows the learner's record (P1-39);
+   the record sits above it (screen readers still read the numbers first: DOM order). Phones (one column) keep the numbers first */
+.lb-card:not(.lb-feat) .lb-f > .lb-mine { order: -1; }
+.lb-m { margin: 0; }
+.lb-m b { color: var(--ink); font-weight: 750; }
+.lb-mine { display: flex; flex-wrap: wrap; gap: 6px; }
+.lb-card.planned { opacity: .62; box-shadow: none; background: var(--surface-2); }
+a.lb-card:hover .lb-t .lb-tt { color: var(--accent); }
+/* featured (D21): a solid cobalt frame (an approved bold-layer panel, FRONTEND_V3_SPEC.md section 1) with its text and the one coral on the left,
+   the live thumbnail on its own surface tile on the right, and four big numbers below; phones stack text, coral, numbers, thumbnail */
+.lb-feat.hb-card { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); grid-template-areas: "ft pv" "nums nums"; gap: 18px 26px; padding: 24px;
+  background: var(--panel); color: var(--panel-ink); --accent-ink: var(--panel-ink); }   /* .hb-card (hubs.css, loaded later) must not repaint it */
+.lb-ft { grid-area: ft; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.lb-eb { margin: 0; font: 750 12.5px/1.3 var(--font-ui); letter-spacing: .01em; color: color-mix(in srgb, var(--accent-ink) 84%, transparent); }
+.hb-eb.lb-eb { margin: 0 0 12px; font-size: 13.5px; font-weight: 700; color: var(--muted); }   /* the lab page's eyebrow keeps the page-header eyebrow (.hb-eb); the rule above is the featured card's, on cobalt */
+.lb-feat .lb-t .lb-tt { font-size: clamp(22px, 1vw + 16px, 28px); font-weight: 700; letter-spacing: -.022em; line-height: 1.1; }
+.lb-feat .lb-tt a { color: inherit; text-decoration: none; } .lb-feat .lb-tt a:hover { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; }
+.lb-feat .lb-tt a:focus-visible { outline: 2.5px solid var(--accent-ink); outline-offset: 3px; border-radius: 6px; }
+.lb-feat .hb-ic { background: color-mix(in srgb, var(--accent-ink) 16%, transparent); color: var(--accent-ink); }
+.lb-feat .lb-t small { font-size: 13.5px; margin-top: 3px; color: color-mix(in srgb, var(--accent-ink) 82%, transparent); }
+.lb-feat .lb-p { font-size: 15px; color: color-mix(in srgb, var(--accent-ink) 88%, transparent); max-width: 62ch; }
+.lb-feat .lb-mine .hb-chip { background: color-mix(in srgb, var(--accent-ink) 14%, transparent); color: var(--accent-ink); border-color: transparent; }   /* .hb-chip.ok's green (hubs.css) is unreadable on cobalt */
+.lb-feat .lb-mine .hb-chip svg.i { color: inherit; }
+.lb-nums { grid-area: nums; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.lb-nums div { padding: 14px; border-radius: var(--r); background: color-mix(in srgb, var(--accent-ink) 12%, transparent); min-width: 0; }
+.lb-nums b { display: block; font-size: clamp(24px, 1vw + 18px, 32px); line-height: 1; font-weight: 700; letter-spacing: -.025em; font-variant-numeric: tabular-nums; }
+.lb-nums b small { font-size: .45em; color: var(--accent-ink); font-weight: 700; letter-spacing: 0; }
+.lb-nums span { display: block; margin-top: 6px; font-size: 12.5px; line-height: 1.35; color: var(--accent-ink); font-weight: 600; }
+/* the captions and the '/30' are small text on a 12 % tile, so they keep the full ink: 5.0:1 light, 5.0:1 dark (an 82 % mix measured 3.9:1;
+   WCAG AA needs 4.5:1, P1-57). Size and weight carry the hierarchy under the numerals */
+.lb-pv { grid-area: pv; position: relative; min-height: 190px; max-height: 280px; border-radius: var(--r); background: var(--surface); color: var(--ink); overflow: hidden; cursor: pointer;
+  display: grid; place-items: center; padding: 12px 14px 34px; align-self: stretch; }
+.lb-pvlab { display: block; width: 100%; pointer-events: none; }
+.lb-pvlab .lab-view { min-height: 0; display: grid; place-items: center; }
+.lb-pvlab .lab-view .dg { background: transparent; padding: 0; margin: 0; width: 100%; display: grid; place-items: center; }
+.lb-pvlab .lab-view svg.dgs { max-width: 100% !important; max-height: 220px; height: auto; }
+.lb-pvlab .dg-table { max-height: 220px; overflow: hidden; width: 100%; }
+.lb-pvlab .dg-table table.t { font-size: 12px; }
+.lb-pvlab .lab-html { max-height: 220px; overflow: hidden; }
+.lb-pv::after { content: ""; position: absolute; inset: auto 0 0 0; height: 46px; background: linear-gradient(to bottom, transparent, var(--surface) 70%); pointer-events: none; }
+.lb-pv-k { position: absolute; left: 12px; bottom: 9px; z-index: 1; display: inline-flex; align-items: center; gap: 6px; font: 650 11px var(--font-mono); color: var(--muted); }
+.lb-pv-k svg.i { width: 12px; height: 12px; color: var(--accent); }
+.lb-pv.play .lb-pv-k { color: var(--ink); }
+.lb .btn.lg { width: auto; background: var(--b); border-radius: var(--r); }   /* guard: a global .lg legend-swatch rule (views.css) must not shrink or repaint the CTA */
+.lb-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 4px; }
+.lb-feat .lb-cta .btn.pop { box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-ink) 30%, transparent); }
+.lb-cta .btn svg.i { width: 18px; height: 18px; }
+@media (max-width: 860px) {
+  .lb-feat.hb-card { grid-template-columns: minmax(0, 1fr); grid-template-areas: "ft" "nums" "pv"; padding: 18px 16px; gap: 16px; }
+  .lb-nums { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lb-pv { min-height: 168px; }
+}
+@media (max-width: 700px) {
+  .lb-cta .btn.pop { flex: 1 1 auto; }
+  .lb-bar { margin-bottom: 12px; }
+  .lb-list { gap: 22px; } .lb-gh { font-size: 18px; }
+}
+/* phones: every card is a compact two-line row (title, then its numbers and the learner's record); the blurb is on the lab's page */
+@media (max-width: 640px) {
+  .lb-grid { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .lb-card:not(.lb-feat) { gap: 4px; padding: 12px 14px; border-radius: var(--r); }
+  .lb-card:not(.lb-feat) .lb-p { display: none; }
+  .lb-card:not(.lb-feat) .lb-go { display: block; }
+  .lb-card:not(.lb-feat) .lb-f { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; } .lb-card:not(.lb-feat) .lb-f > .lb-mine { order: 0; }
+  .lb-card:not(.lb-feat) .lb-mine .hb-chip { height: 22px; font-size: 11.5px; }
+}
+@media (prefers-reduced-motion: reduce) { .lb-ul a > svg.i { transition: none; } }
+
+/* ===================================================================== per-lab legibility rules
+   (secondary text in lab figures uses --muted, never --faint: --faint drops under 4.5:1 on the figures' surface-2 in light mode; P2-60) */
+/* any lab: a 'Quantity | Formula | Value' table (lab-fx, marked by the frame) stacks each row on phones: the quantity and its value on one
+   line, the formula under them, so the value column is never cut off (P2-60). Explicit roles keep it a table for screen readers */
+@media (max-width: 640px) {
+  .lab-fx table.t, .lab-fx table.t > tbody { display: block; width: 100%; }
+  .lab-fx table.t > thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .lab-fx table.t tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; padding: 9px 14px; border-top: 1px solid var(--line); }
+  .lab-fx table.t tbody tr:first-child { border-top: 0; }
+  .lab-fx table.t :is(th, td) { display: block; padding: 0 !important; border: 0; text-align: left !important; white-space: normal !important; min-width: 0; background: none; }
+  .lab-fx table.t :is(th, td):nth-child(1) { grid-column: 1; grid-row: 1; font-weight: 650; color: var(--ink); }
+  .lab-fx table.t :is(th, td):nth-child(3) { grid-column: 2; grid-row: 1; text-align: right !important; font-weight: 750; font-variant-numeric: tabular-nums; }
+  .lab-fx table.t :is(th, td):nth-child(2) { grid-column: 1 / -1; grid-row: 2; font-size: 13px; color: var(--ink-2); overflow-wrap: anywhere; }
+  .lab-fx table.t tr:has(> :is(.tc-a, .tc-b, .tc-c, .tc-d, .tc-hl, .tc-ok, .tc-bad)) { background: var(--accent-soft); }
+}
+/* any lab: a 640-px drawing (a Gantt chart, a wide plot) keeps a readable size on phones and scrolls inside its box */
+@media (max-width: 640px) { .lab .lab-view svg.dgs[width="640"] { min-width: 560px; } }
+.ltab table { table-layout: fixed; } .ltab th:last-child, .ltab td:last-child { width: 30px; }
+.ltab input[type=number]::-webkit-inner-spin-button, .ltab input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } .ltab input[type=number] { -moz-appearance: textfield; text-align: center; }
+.ltab .input.sm { padding: 0 5px; }
+/* lab: process — the input tables give names and amounts the room they need; a two-sided account has a phone twin (stacked Dr then Cr) */
+.field:is([data-c="costLines"], [data-c="processes"], [data-c="wipElements"]) .ltab th { letter-spacing: 0; text-transform: none; padding: 0 2px 4px; }
+.field:is([data-c="costLines"], [data-c="processes"], [data-c="wipElements"]) .ltab td { padding: 2px 1px; } .field:is([data-c="costLines"], [data-c="processes"], [data-c="wipElements"]) .ltab .input.sm { padding: 0 3px; }
+.field[data-c="costLines"] .ltab th:nth-child(1) { width: 15%; } .field[data-c="costLines"] .ltab th:nth-child(2) { width: 25%; } .field[data-c="costLines"] .ltab th:nth-child(3) { width: 22%; } .field[data-c="costLines"] .ltab th:nth-child(4) { width: 27%; }
+.field[data-c="processes"] .ltab th:nth-child(1) { width: 20%; } .field[data-c="processes"] .ltab th:nth-child(2) { width: 13%; } .field[data-c="processes"] .ltab th:nth-child(3) { width: 14%; } .field[data-c="processes"] .ltab th:nth-child(4) { width: 21%; } .field[data-c="processes"] .ltab th:nth-child(5) { width: 21%; }
+.field[data-c="wipElements"] .ltab th:nth-child(1) { width: 33%; } .field[data-c="wipElements"] .ltab th:nth-child(2) { width: 28%; }
+.lab .lab-html:has(> .pc-narrow) { display: none; }
+@media (max-width: 599px) { .lab .lab-html:has(> .pc-wide) { display: none; } .lab .lab-html:has(> .pc-narrow) { display: block; } }
+/* lab: leverage — the eight-column financing-plans table keeps every amount readable and scrolls sideways inside the inputs column */
+.field[data-c="plans"] .ltab { overflow-x: auto; } .field[data-c="plans"] .ltab table { min-width: 640px; }
+.field[data-c="plans"] .ltab th:nth-child(1) { width: 15%; } .field[data-c="plans"] .ltab th:nth-child(2), .field[data-c="plans"] .ltab th:nth-child(4) { width: 16%; } .field[data-c="plans"] .ltab th:nth-child(6) { width: 14%; }
+/* lab: threats — the clue words on a scenario card: a soft warning tint plus weight, so the mark does not rely on colour alone */
+.lab-html .th-card mark { background: color-mix(in srgb, var(--warn) 24%, transparent); color: inherit; font-weight: 650; padding: 0 2px; border-radius: var(--r-xs); }
+/* lab: audit-opinion and threats — a case card is the first view of the stage, so it sits flush (no lesson-flow margin) */
+.lab-html > .ex.ao-card, .lab-html > .ex.th-card { margin: 0; }
+/* lab: cvp — the product-mix table gives names room; the four-column period table keeps its default layout */
+.field[data-c="mixProducts"] .ltab th { letter-spacing: 0; padding: 0 2px 4px; } .field[data-c="mixProducts"] .ltab th:nth-child(1) { width: 34%; }
+/* lab: key-factor — the six-column product and part tables keep every figure readable and scroll sideways inside the inputs column */
+.field:is([data-c="kfProducts"], [data-c="kfParts"]) .ltab { overflow-x: auto; } .field:is([data-c="kfProducts"], [data-c="kfParts"]) .ltab table { min-width: 480px; }
+.field:is([data-c="kfProducts"], [data-c="kfParts"]) .ltab th { letter-spacing: 0; padding: 0 2px 4px; } .field:is([data-c="kfProducts"], [data-c="kfParts"]) .ltab th:nth-child(1) { width: 24%; }
+/* lab: sampling — the voucher grid and the random number table: narrow cells, so ten columns fit a phone without scrolling */
+.dg table.t tr.smp-g > :is(td, th) { padding: 8px 4px; }
+/* lab: spot-strategy — the case card is the stage's first view, so it sits flush; its clue words carry a soft warning tint plus weight
+   (never colour alone), and the clue the caption is talking about gets a ring */
+.lab-html > .ex.ss-card { margin: 0; }
+.lab-html .ss-card mark { background: color-mix(in srgb, var(--warn) 24%, transparent); color: inherit; font-weight: 650; padding: 0 2px; border-radius: var(--r-xs); }
+.lab-html .ss-card mark.now { box-shadow: 0 0 0 2px var(--warn); }
+/* lab: joint — the product tables give names and amounts the room they need */
+.field:is([data-c="products"], [data-c="further"]) .ltab th { letter-spacing: 0; text-transform: none; padding: 0 2px 4px; }
+.field:is([data-c="products"], [data-c="further"]) .ltab td { padding: 2px 1px; } .field:is([data-c="products"], [data-c="further"]) .ltab .input.sm { padding: 0 3px; }
+.field[data-c="products"] .ltab th:nth-child(1) { width: 32%; } .field[data-c="products"] .ltab th:nth-child(2) { width: 20%; } .field[data-c="products"] .ltab th:nth-child(3) { width: 17%; }
+.field[data-c="further"] .ltab th:nth-child(1) { width: 19%; } .field[data-c="further"] .ltab th:nth-child(2) { width: 23%; } .field[data-c="further"] .ltab th:nth-child(3) { width: 16%; } .field[data-c="further"] .ltab th:nth-child(4) { width: 15%; }
+/* lab: working-capital — the stages (5 columns) and policies (6 columns) tables keep their amounts readable and scroll sideways in the inputs column */
+.field[data-c="stages"] .ltab, .field[data-c="policies"] .ltab { overflow-x: auto; } .field[data-c="stages"] .ltab table { min-width: 470px; } .field[data-c="policies"] .ltab table { min-width: 540px; }
+.field[data-c="stages"] .ltab th:nth-child(1) { width: 22%; } .field[data-c="policies"] .ltab th:nth-child(1) { width: 17%; } .field[data-c="policies"] .ltab th:nth-child(2) { width: 22%; }
+/* lab: recon — the items table gives the item its room; the memorandum account has a phone twin (stacked Dr then Cr) */
+.field[data-c="items"] .ltab th { letter-spacing: 0; text-transform: none; padding: 0 2px 4px; }
+.field[data-c="items"] .ltab td { padding: 2px 1px; } .field[data-c="items"] .ltab .input.sm { padding: 0 3px; }
+.field[data-c="items"] .ltab th:nth-child(1) { width: 40%; } .field[data-c="items"] .ltab th:nth-child(2) { width: 13%; } .field[data-c="items"] .ltab th:nth-child(3) { width: 18%; }
+.lab .lab-html:has(> .rc-narrow) { display: none; }
+@media (max-width: 599px) { .lab .lab-html:has(> .rc-wide) { display: none; } .lab .lab-html:has(> .rc-narrow) { display: block; } }

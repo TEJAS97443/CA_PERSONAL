@@ -1,0 +1,991 @@
+     PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                            QUESTIONS
+                                 MULTIPLE CHOICE QUESTIONS
+Chek-N-Cure is a diagnostic center that provides various facilities such as blood tests, allergy
+tests, MRI, CT-Scans etc. and customized need- based packages to its clients on nominal
+charges. The center has total 15 laboratory setups spread all over in Nagpur and Pune. As a
+normal practice, the diagnostic samples of various clients formed a part of Chek-N-Cure’s data
+server which the company used to share with Government aided organizations at regular
+intervals for research and innovation purposes keeping the anonymity of its clients.
+In the recent past, the diagnostic center faced a cyber-data theft wherein vast quantities of
+sensitive personal information and medical details of some clients were compromised and made
+available in the public domain. Due to negligence of center’s Chief Information Officer
+Mr. Rajesh, the hackers could plan an asynchronous attack whereby they could successfully
+violate the integrity of certain components of diagnostic center’s subsystems and got
+unauthorized access to various client’s crucial sensitive data stored on the diagnostics center’s
+data server. The Government regulators took a serious note of such a gross negligence and
+issued a show cause notice to Chek-N-Cure diagnostic center.
+The management of Chek-N-Cure diagnostic center took an immediate remedial step to reduce
+its reputational and financial loss and hired an IT consultant Mr. Anil from the industry to advise
+them on way ahead. After detailed investigation and analysis, Mr. Anil suggested the Chek -N-
+Cure diagnostic center to firstly implement the Intrusion Prevention System for the protection of
+its sensitive data and install the ERP system in its working environment with adequate controls
+in place to manage the access privileges given to user aligned with job requirement and
+responsibility. He further suggested to upgrade the existing network of diagnostic center with
+cloud for ease and expansion so as to allow its clients access their reports from various devices
+such as tablets, mobile phones etc. The due remittance of Mr. Anil’s consultancy services was
+credited to his bank account by Chek-N-Cure diagnostic center through National Electronic
+Funds Transfer (NEFT) of Core Banking System (CBS).
+Based on the above case scenario, answer the Question No(s) 1 to 5.
+1.     The Chek-N-Cure diagnostic center has been negligent in implementing and maintaining
+       reasonable security practices and procedures to handle the sensitive personal data of
+       information of its clients on its data server. Under which provision of IT Act 2000; will the
+       diagnostic center have to pay to its clients for the damage caused to them?
+       (a) Section 43
+       (b) Section 66E
+2                          INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+     (c) Section 43A
+     (d) Section 66C
+2.   The risks that are associated with the proposed implementation of ERP systems in Chek-
+     N-Cure diagnostic center are given below:
+     (I)   Insufficient funding
+     (II) Program Management
+     (III) Lifelong implementation
+     (IV) Application Portfolio Management
+     (V) Top Management Support
+     The various aspects to which these risks can be associated are mentioned below:
+     (A) Post implementation
+     (B) Process
+     (C) Technological
+     (D) Implementation
+     (E) People
+     Choose the correct option that highlights the risks with their associated aspects.
+     (a) (I) – (A), (II)- (B), (III)-(C), (IV) – (D), (V) – (E)
+     (b) (IV) – (B), (II)- (A), (II)-(D), (IV) – (E), (V) – (C)
+     (c) (I) – (D), (II)- (C), (III)-(E), (IV) – (A), (V) – (B)
+     (d) (I) – (D), (II)- (B), (III)-(A), (IV) – (C), (V) – (E)
+3.   Various risks that may persist in the working environment of the Chek-N-Cure diagnostic
+     centre are controlled using following measures.
+     (I)   Fire Alarms
+     (II) Identification Badges
+     (III) Privilege Management
+     (IV) Firewall
+     (V) Password Management System
+PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           3
+
+
+     The controls under which the aforementioned measures are categorized as under:
+     (A) Network Access Control
+     (B) User Access Management
+     (C) Physical Controls
+     (D) Environmental Controls
+     (E) Operating System Access Control
+     Choose the correct option that pairs the measure/factors with its associated controls.
+     (a) (I) – (A), (II)- (B), (III)-(C), (IV) – (D), (V) – (E)
+     (b) (IV) – (B), (II)- (A), (II)-(D), (IV) – (E), (V) – (C)
+     (c) (I) – (D), (II)- (C), (III)-(B), (IV) – (A), (V) – (E)
+     (d) (I) – (D), (II)- (B), (III)-(A), (IV) – (C), (V) – (E)
+4.   In purview of the suggestions made by Mr. Anil, which of the following characteristics of
+     Cloud Computing is reflected in case the reports are accessed by clients from different
+     devices?
+     (a) Network Access Capabilities
+     (b) Multi Tenancy
+     (c) Resiliency
+     (d) Scalability
+5.   Some statements regarding National Electronic Funds Transfer (NEFT) of Core Banking
+     System (CBS) are mentioned below:
+     (I)   This facility of Core Banking System facilitates one-to-one funds transfer.
+     (II) The individuals can transfer the funds electronically from one bank’s branch to any
+          individual having an account with any other branch of the same bank.
+     (III) Individuals can transfer the funds electronically from one bank’s branch to any
+           individual having an account with any other bank branch.
+     (IV) A maximum amount of Rs. 2 lakhs can be transferred through this facility.
+     Which of the following statement(s) are not true?
+     (a) (I), (II)
+     (b) (II), (IV)
+     (c) (I), (III)
+     (d) (III), (IV)
+4                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+                                    DESCRIPTIVE QUESTIONS
+Chapter 1: Automated Business Processes
+6.   No entity operates in risk-free environment and therefore any management needs to
+     implement framework to operate more effectively and efficiently in such an environment
+     filled with risks. Discuss the ERM framework that an enterprise may adapt for the
+     successful management of various risks prevailing in their working environment.
+7.   What do you think shall be the generic reasons due to which an enterprise may decide to
+     implement BPA in its working environment?
+Chapter 2: Financial and Accounting Systems
+8.   XYZ Ltd. has well implemented ERP systems, in which its Sales and Distribution Module
+     has high level of integration complexity starting from enquiry to order and the ending with
+     delivery. Discuss in detail the sub-processes involved in the Module.
+9.   The Data Analytics applications involve many steps so that appropriate results can be
+     produced which are useful for the management in decisions making. Discuss the processes
+     involved in the Data Analytics Process.
+Chapter 3: Information Systems and its Components
+10. Computers are used extensively to process data and provide information for decision -
+    making. However, uncontrolled use of computers can have a widespread impact on a
+    society. Because computers play a large part in assisting us to process data and make
+    decisions, it is significant that their use is in controlled manner. Discuss various f actors
+    that influence an organization towards control and audit of its computer-based information
+    systems.
+11. Discuss the concept of Segregation of Duties (SoD) with example.
+Chapter 4: E-Commerce, M-Commerce and Emerging Technologies
+12. Though the e-commerce industry has grown exponentially, every e-commerce business
+    has unique rules and regulations to follow, and cybersecurity is a top priority to ensure all
+    data stored online is protected and vulnerable to online security breaches and cyber-
+    attacks. As an e-commerce business owner, you have unique challenges compared to
+    brick-and-mortar shop owners. Discuss various risks associated in an e-business
+    environment.
+13. The digital payment system is growing exponentially with evolving payment methods, rising
+    e-commerce use, enhanced broadband connectivity, and emergence of new technologies.
+    Discuss various advantages and drawbacks of Digital Payments.
+PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                                5
+
+
+Chapter 5: Core Banking Systems
+14. In Core Banking System, what do you think shall be the key features of the full-fledged
+    security policy that needs to be developed and implemented to ensure Confidentiality,
+    Integrity and Availability of data and information.
+15. Discuss the process of authorization of any Credit Card used by any customer.
+
+                                      SUGGESTED ANSWERS
+
+1.   (c) Section 43A
+2.   (d) (I) – (D), (II)- (B), (III)-(A), (IV) – (C), (V) – (E)
+3.   (c) (I) – (D), (II)- (C), (III)-(B), (IV) – (A), (V) – (E)
+4.   (a) Network Access Capabilities
+5.   (b) (II), (IV)
+6.   The ERM framework consists of eight interrelated components that are derived from the
+     way management runs a business and are integrated with the management process as
+     discussed below. These components are as follows:
+     (i)   Internal Environment: The internal environment encompasses the tone of an
+           organization and sets the basis for how risk is viewed and addressed by an entity’s
+           people, including risk management philosophy and risk appetite, integrity and ethical
+           values, and the environment in which they operate. Management sets a philosophy
+           regarding risk and establishes a risk appetite. The internal environment s ets the
+           foundation for how risk and control are viewed and addressed by an entity’s people.
+           The core of any business is its people, their individual attributes including integrity,
+           ethical values and competence and the environment in which they operate. Th ey are
+           the engine that drives the entity and the foundation on which everything rests.
+     (ii) Objective Setting: Objectives should be set before management can identify events
+          potentially affecting their achievement. ERM ensures that management has a process
+          in place to set objectives and that the chosen objectives support and align with the
+          entity’s mission/vision and are consistent with the entity’s risk appetite.
+     (iii) Event Identification: Potential events that might have an impact on the entity should
+           be identified. Event identification includes identifying factors – internal and external –
+           that influence how potential events may affect strategy implementation and
+           achievement of objectives. It includes distinguishing between potential events that
+           represent risks, those representing opportunities and those that may be both.
+6                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+          Opportunities are channeled back to management’s strategy or objective-setting
+          processes. Management identifies inter-relationships between potential events and
+          may categorize events to create and reinforce a common risk language across the
+          entity and form a basis for considering events from a portfolio perspective.
+     (iv) Risk Assessment: Identified risks are analysed to form a basis for determining how
+          they should be managed. Risks are assessed on both an inherent and a residual
+          basis, and the assessment considers both risk likelihood and impact. A range of
+          possible results may be associated with a potential event, and management needs to
+          consider them together.
+     (v) Risk Response: Management selects an approach or set of actions to align assessed
+         risks with the entity’s risk tolerance and risk appetite, in the context of the strategy
+         and objectives. Personnel identify and evaluate possible responses to risks, including
+         avoiding, accepting, reducing and sharing risk.
+     (vi) Control Activities: Policies and procedures are established and executed to help
+          ensure that the risk responses that management selected are effectively carried out.
+     (vii) Information and Communication: Relevant information is identified, captured and
+           communicated in a form and time frame that enables people to carry out their
+           responsibilities. Information is needed at all levels of an entity for identifying,
+           assessing and responding to risk. Effective communication also should occur in a
+           broader sense, flowing down, across and up the entity. Personnel need to receive
+           clear communications regarding their role and responsibilities.
+     (viii) Monitoring: The entire ERM process should be monitored, and modifications made
+            as necessary. In this way, the system can react dynamically, changing as conditions
+            warrant. Monitoring is accomplished through ongoing management activities,
+            separate evaluations of the ERM processes or a combination of both.
+7.   A list of generic reasons for which an enterprise shall go for BPA may include any or
+     combination of the following:
+     •    Errors in manual processes leading to higher costs.
+     •    Payment processes not streamlined, due to duplicate or late payments, missing early
+          pay discounts, and losing revenue.
+     •    Paying for goods and services not received.
+     •    Poor debtor management leading to high invoice aging and poor cash flow.
+     •    Not being able to find documents quickly during an audit or lawsuit or not being able
+          to find all documents.
+PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             7
+
+
+     •    Lengthy or incomplete information of new employee or new account on -boarding.
+     •    Unable to recruit and train new employees, but where employees are urgently
+          required.
+     •    Lack of management understanding of business processes.
+     •    Poor customer service.
+8.   The Sales and Distribution Module of ERP systems of XYZ Ltd. has following sub-
+     processes:
+         Pre-Sales Activities: Include prospecting of customers, identifying prospective
+          customers, gathering data, contacting them and fixing appointments, showing demo,
+          discussion, submission of quotations, etc.
+         Sales Order: Sales order is recorded in our books after getting a confirmed
+          purchased order from our customer. Sales order shall contain details just like
+          purchase order. For example- Stock Item Details, Quantity, Rate, Due Date of
+          Delivery, Place of Delivery, etc.
+         Inventory Sourcing: It includes making arrangements before delivery of goods;
+          ensuring goods are ready and available for delivery.
+         Material Delivery: Material is delivered to the customer as per sales order. All
+          inventory details are copied from Sales Order to Material Delivery for saving user’s
+          time and efforts. This transaction shall have a linking with Sales Order. Stock balance
+          shall be reduced on recording of this transaction.
+         Billing: This is a transaction of raising an invoice against the delivery of material to
+          customer. This transaction shall have a linking with Material Delivery and all the
+          details shall be copied from it. Stock balance shall not affect again.
+         Receipt from Customer/Payment: This is a transaction of receiving amount from
+          customer against sales invoice and shall have a linking with sales invoice.
+9.   Data Analytics applications involve more than just analysing data. Particularly on advanced
+     analytics projects, much of the required work takes place upfront, in collecting, integrating
+     and preparing data and then developing, testing and revising analytical models to ensure
+     that they produce accurate results. Data analytics process includes the following steps:
+     Data Collection: The analytics process starts with data collection, in which data scientists
+     identify the information they need for an analytics application and then work on their own
+     or with data engineers and IT staffers to assemble it for use. Data from different source
+     systems may need to be combined via data integration routines transformed into a common
+8                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+     format and loaded into an analytics system, such as a Hadoop cluster, NoSQL database
+     or data warehouse.
+     Find and Fix Data Quality Problem: Once the data that’s needed is in place, the next
+     step is to find and fix data quality problems that could affect the accuracy of analytics
+     applications. That includes running data profiling and data cleansing jobs to make sure
+     that the information in a data set is consistent and that errors and duplicate entries are
+     eliminated. Additional data preparation work is then done to manipulate and organize the
+     data for the planned analytics use, and data governance policies are applied to ensure that
+     the data hews to corporate standards and is being used properly.
+     At that point, the data analytics work begins in earnest. A data scientist builds an analytical
+     model, using predictive modelling tools or other analytics software and programming
+     languages such as Python, Scala, R and SQL. The model is initially run against a partial
+     data set to test its accuracy; typically, it’s then revised and tested again, a process known
+     as “training” the model that continues until it functions as intended. Finally, the model is
+     run in production mode against the full data set, something that can be done once to
+     address a specific information need or on an ongoing basis as the data is updated.
+     Building Analytical Model: In some cases, analytics applications can be set to
+     automatically trigger business actions. For example, stock trades by a financial services
+     firm. Otherwise, the last step in the data analytics process is communicating the results
+     generated by analytical models to business executives and other end users to aid in their
+     decision-making. That usually is done with the help of data visualization techniques, which
+     analytics teams use to create charts and other info graphics designed to make their
+     findings easier to understand. Data visualizations often are incorporated into Business
+     Intelligence dashboard applications that display data on a single screen and can be
+     updated in real time as new information becomes available.
+10. Various factors that influence an organization towards control and audit of its computer -
+    based information systems are as follows:
+     •    Organizational Costs of Data Loss: Data is a critical resource of an organization
+          for its present and future processes. If the data is accurate, its ability to adapt and
+          survive in a changing environment increases significantly. If such data is lo st, an
+          organization can incur substantial losses.
+     •    Cost of Incorrect Decision Making: Making high-quality decisions are dependent
+          on both – the quality of the data and quality of the decision rules that exist within
+          computer-based information systems. While making strategic decisions, some errors
+          may be allowed by management considering the long-run nature of strategic planning
+          decisions whereas highly accurate data would be required while making operational
+PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           9
+
+
+          control decisions by the managers. These operational controls taken by managers
+          involve detection, investigations and correction of the processes. Incorrect data can
+          also have adverse impact on the other stakeholders having an interest in the
+          organization.
+     •    Costs of Computer Abuse: Computer abuse is defined as any incident associated
+          with computer technology in which the user suffered or could have suffered loss and
+          a perpetrator by intention made or could have made gain. Unauthorized access to
+          computer systems, malwares, unauthorized physical access to computer facilities,
+          unauthorized copies of sensitive data, viruses, and hacking can lead to destruction of
+          assets (hardware, software, data, information etc.).
+     •    Value of Computer Hardware, Software and Personnel: These are critical
+          resources of an organization, which has a credible impact on its infrastructure and
+          business competitiveness. The intentional or unintentional loss of hardware, the
+          destructions or corruption of software, and non-availability of skilled computer
+          professionals in some countries; an organization might be unable to continue their
+          operations seamlessly.
+     •    High Costs of Computer Error: In a computerized enterprise environment where
+          many critical business processes are performed, a data error during entry or process
+          would cause great damage. For example - small data error during an operational flight
+          can lead to loss of human lives; an error in any financial system can make an
+          organization liable for penalty etc.
+     •    Maintenance of Privacy: Today, data collected in a business process contains
+          private information about an individual too. These data were also collected before
+          computers but now, there are many instances in which privacy of individuals has been
+          eroded beyond acceptable levels.
+     •    Controlled evolution of computers’ Use: Use of Technology and reliability of
+          complex computer systems cannot be guaranteed and the consequences of using
+          unreliable systems can be destructive. Governments, professional bodies, pressure
+          groups, organizations and individual persons all must be concerned with evaluating
+          and monitoring how we deploy computer technology.
+11. The concept of Segregation of Duties (SoD), also known as Separation of Duties, ensures
+    that single individuals do not possess excess privileges that could result in unauthorized
+    activities such as fraud or the manipulation or exposure of sensitive data. The concept of
+    segregation of duties has been long-established in organization accounting departments
+    where, for instance, separate individuals or groups are responsible for the creation of
+    vendors, the request for payments, and the printing of checks. Since accounting personnel
+10                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+     frequently handle checks and currency, the principles, and practices of segregation of
+     duties controls in accounting departments are the norm. For example-the person approving
+     the purchase orders should not be allowed to make payment and pass entries in the books
+     at the same time.
+     Preventive and detective controls should be put into place to manage segregation of duties
+     matters. In most organizations, both the preventive and detective controls will be manual,
+     particularly when it comes to unwanted combinations of access between different
+     applications. However, in some transaction-related situations, controls can be automated
+     although they may still require intervention by others.
+     Some Examples of Segregation of Duties Controls
+          Transaction Authorization: Information systems can be programmed or configured
+           to require two (or more) persons to approve certain transactions. For Example - in
+           retail establishments where a manager is required to approve a large transaction or
+           a refund.
+          Split custody of high-value assets: Assets of high importance or value can be
+           protected using various means of split custody. For example, a password to an
+           encryption key that protects a highly valued asset or sensitive data can be split in two
+           halves, one half assigned to two persons, and the other half assigned to two persons,
+           so that no single individual knows the entire password.
+          Workflow: Applications that are workflow-enabled can use a second (or third) level
+           of approval before certain high-value or high-sensitivity activities can take place. For
+           example, a workflow application that is used to provision user accounts can include
+           extra management approval steps in requests for administrative privileges.
+          Periodic reviews: IT or internal audit personnel can periodically review user access
+           rights to identify whether any segregation of duties issues exist. Care should also be
+           taken to ensure that the access privileges are reviewed and updated with the
+           changing job roles.
+12. Various risks that are associated with any e-business environment are as follows:
+     (i)   Privacy and Security: When an organization uses internet to engage in e-commerce,
+           it exposes itself to additional security threats and privacy issues. There are often
+           issues of security and privacy due to lack of personalized digital access and
+           knowledge. The nature of e-commerce operations is an important factor determining
+           the security risks perceptions of any e-commerce installation. For example, if the type
+           of industry is banking and finance, it would require more stringent deployment of
+           security solutions than would be for manufacturing industry.
+PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                         11
+
+
+   (ii) Quality issues: There are quality issues raised by customers as the original product
+        differs from the one that was ordered.
+   (iii) Delay in goods and Hidden Costs: When goods are ordered from another country,
+         the shipment may be delayed due to factors such as port congestion, bad weather,
+         custom clearances, etc. Moreover, e-commerce companies may have these hidden
+         costs.
+   (iv) Needs access to internet and lack of personal touch: The e-commerce requires
+        an internet connection which is an extra expense and lacks personal touch.
+   (v) Security and Credit card issues: The credit card and debit card information may be
+       stolen and misused which poses a security threat. There is also possibility of cloning
+       of credit cards and debit cards.
+   (vi) Infrastructure: There is a greater need of not only digital infrastructure but also
+        network expansion of roads and railways which remains a substantial challenge in
+        developing countries.
+   (vii) Problem of anonymity: There is a need to identify and authenticate users in the
+         virtual global market where anyone can sell to or buy from anyone, anything from
+         anywhere.
+   (viii) Repudiation of contract: There is possibility that the electronic transaction in the
+          form of contract, sale order or purchase by the trading partner or customer may be
+          denied.
+   (ix) Lack of authenticity of transactions: The electronic documents that are produced
+        during an e-commerce transaction may not be authentic and reliable.
+   (x) Data Loss or theft or duplication: The data transmitted over the Internet may be
+       lost, duplicated, tampered with, or replayed.
+   (xi) Attack from hackers: Web servers used for e-commerce may be vulnerable to
+        hackers. A hacker is an unauthorized user who attempts to or gains access to the
+        system with/without the intention to steal or modify data or to insert viruses or worms
+        to cause damage to the system.
+   (xii) Denial of Service: Service to customers may be denied due to non-availability of
+         system as it may be affected by viruses, e-mail bombs and by transmitting so many
+         data packets to a server that it cannot process them all. The denial of service may
+         cause a network to shut down, making it impossible for users to access the site. For
+         busy e-commerce sites such as Flipkart, these attacks are costly; while the site is
+         shut down, customers cannot make purchases. Moreover, the longer a site is shut
+         down, the more damage is done to a site’s reputation.
+12                       INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+     (xiii) Non-recognition of electronic transactions: e-Commerce transactions, as
+            electronic records and digital signatures may not be recognized as evidence in courts
+            of law in some countries.
+     (xiv) Lack of audit trails: Audit trails in e-Commerce system may be lacking and the logs
+           may be incomplete, too voluminous, or easily tampered with.
+     (xv) Problem of piracy: Intellectual property such as copyright may not be adequately
+          protected when such property is transacted through e-Commerce.
+13. Some advantages of Digital Payments are as follows:
+     (i)   Easy and convenient: Digital payments are easy and convenient. E-payment
+           eliminates the security risks associated with handling cash.
+     (ii) Pay or send money from anywhere: With digital payment modes, one can pay from
+          anywhere anytime.
+     (iii) Discounts from taxes: Government has announced many discounts to encourage
+           digital payments. Users get 0.75% discounts on fuels and 10% discount on insurance
+           premiums of government insurers.
+     (iv) Written record: User often forgets to note down his/her spending, or even if nothing
+          is done it takes a lot of time. These are automatically recorded in passbook or inside
+          E-Wallet app. This helps to maintain record, track spending and budget planning.
+     (v) Less Risk: Digital payments have less risk if used wisely. If user losses mobile phone
+         or debit/credit card or Aadhar card, he/she need not to worry a lot. No one can use
+         anyone else’s money without MPIN, PIN or fingerprint in the case of Aadhar. It is
+         advised that user should get card blocked, if lost.
+     (vi) Competitive advantage to business: Digital payment enables businesses to make
+          sales to customers who choose to pay electronically and gain a competitive
+          advantage over those who accept payment only through traditional methods.
+     (vii) Environment Friendly: Digital payment eliminates the use of paper.
+     Few disadvantages of Digital Payments are listed below:
+     (i)   Difficult for a non-technical person: As most of the digital payment modes are
+           based on mobile phone, the internet and cards; these modes are somewhat difficult
+           for non-technical persons such as farmers, workers etc.
+     (ii) Risk of data theft: There is a big risk of data theft associated with the digital payment.
+          Hackers can hack the servers of the bank or the e-Wallet a customer is using and
+PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                          13
+
+
+          easily get his/her personal information and can use this information to steal money
+          from the customer’s account.
+     (iii) Overspending: One keeps limited cash in his/her physical wallet and hence thinks
+           twice before buying anything. But if digital payment modes are used, one has access
+           to all his/her money that can result in overspending.
+     (iv) Disputed transactions: In case the electronic money such as credit card is misused
+          by someone else, it is very difficult to receive a refund.
+     (v) Increased business costs: Digital payment systems come with an increased need
+         to protect sensitive financial information stored in a business’s computer systems
+         from unauthorized access. Businesses have to incur additional costs in procuring,
+         installing and maintaining sophisticated payment-security technologies.
+     (vi) The necessity of internet access: Digital payment cannot be performed if Internet
+          connection fails.
+14. In CBS, the full-fledged Security policy that needs to be developed and implemented to
+    ensure Confidentiality, Integrity, and Availability (CIA) of data and information shall have
+    following key features:
+     •    Implementation of bank specific email domains (example, XYZ bank with mail domain
+          xyz.in) with anti-phishing (security measures to prevent steal of user data) and anti-
+          malware software (software tool/program to identify and prevent malicious
+          software/malware from infecting network) with controls enforced at the email solution.
+     •    Two factor authentication, an extra step added to the log-in process, such as a code
+          sent to user’s phone or a fingerprint scan, that helps verify the user’s identity and
+          prevent cybercriminals from accessing private information.
+     •    Implementation of Password Management policy to provide guidance on creating and
+          using passwords in ways that maximize security of the password and minimize misuse
+          or theft of the password.
+     •    Effective training of employees to educate them to strictly avoid clicking any links
+          received via email.
+     •    Proper reporting mechanism to save the banks from the effects of misconduct –
+          including legal liability, lasting reputational harm, and serious financial losses.
+     •    Required to conduct effective due diligence and oversight to thoroughly assess the
+          credentials of vendors/third party service providers/partners and making non-
+          disclosure and security policy compliance agreements mandated for them.
+14                       INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+     •     Effective change management process to record/ monitor all the changes that are
+           moved/ pushed into production environment.
+     •     Robust configuration management processes to register changes to business
+           applications, supporting technology, service components and facilities.
+     •     Incident response and management mechanism to take appropriate action in case of
+           any cyber security incident with well written incident response procedures elaborating
+           the roles of staff handling such incidents.
+     •     Capturing of the audit logs pertaining to user actions and an alert mechanism to
+           monitor any change in the log settings.
+     •     Continuous surveillance to stay regularly updated on the latest nature of emerging
+           cyber threats.
+15. The process of authorization of Credit Card Facility is as under:
+     (i)   Customer will swipe the credit card for the purchase made by him/her on the Point of
+           Sale (PoS) machine at merchant’s shop/establishment.
+     (ii) PoS will process the transaction only once the same is authenticated.
+     (iii) The PoS will send the authentication request to the merchant’s bank which will then
+           send the transaction authentication verification details to the credit card network such
+           as VISA. from which the data will be validated by the credit card issuing bank within
+           a fraction of seconds.
+     (iv) Once the transaction is validated, the approval message is received from credit card
+          issuing bank to the credit card network which then flows to the merchant’s bank and
+          approves the transaction in the PoS machine.
+     (v) The receipt of the transaction is generated, and the sale is completed. The transaction
+         made is charged during the billing cycle of that month.
+PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                            15
+
+
+
+                         SECTION – B: STRATEGIC MANAGEMENT
+
+Multiple Choice Questions
+1.   Anand, a fashion designer from Mumbai, started a nail art parlour in a posh Mumbai urban
+     area, in partnership with his college friend Aanya. They had a clear choice of business as
+     per their field of study and were assured that cosmetics is one of the biggest industries in
+     India.
+     Cosmetics include a huge range of products, from skin care to hair care, makeup (the most
+     profitable), lip care, hygiene products and many more lines of personal care. However,
+     Aanya being a trained nano art designer and Anand driven by Nail Art, happened to share
+     common interests, and hence, built Naileo.
+     The business plan was simple, collaborate with online service providers, be active on social
+     media, offer paid promotions, and give out free trials to lure in customers. The focus being
+     on creating a connection. Clearly, the target group was young working females who could
+     spend decent amounts of money on personal luxury. The brand wanted to cash on easy
+     disposal income of the target consumers. However, in the same segment for men, tattoo
+     parlours were already taking away the share of business. These tattoo brands could easily
+     transition into Nail Art and be a tough competition to Naileo. The team had to be aware of
+     the competitor dynamics.
+     Anand had personal connections in Solan district of Himachal Pradesh, where they
+     planned to open small workshops to produce artificial nails of high quality to be sold pan-
+     India, online as well as to other parlours. The team of two also wanted to add value to the
+     society. For that they offered free training to young girls and offered them permanent
+     employment. The customers found the initiative quite enriching and supported them by
+     being loyal to their services. This was an unplanned aspect of brand building that added
+     more value than paid promotions.
+     The brand has been doing well lately, with the economic model being sustainable so far.
+     They plan to open two more stores in Mumbai and a flagship store in Bengaluru. With a
+     set vision of the future and a socially impactful mission, Naileo has been a profitable bet
+     for Anand and Aanya.
+     Based on the above Case Scenario, answer the Multiple Choice Questions.
+     (i)   Tattoo Parlours are an indirect competition to Naileo. Application of which of the
+           following can be utilised to understand the in-depth intricacies of their competitive
+           strength?
+           (a) Competitive Landscape
+           (b) Identification Tools
+           (c) Competitive Intelligence
+16                      INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+          (d) Collation of all gathered information
+     (ii) Anand’s decision of opening Solan Workshop can be described as?
+          (a) Horizontal Integration Diversification
+          (b) Vertical Integration Diversification
+          (c) Concentric Diversification
+          (d) Strategic Alliance
+     (iii) The main idea behind marketing is to connect with the customers. In this context,
+           which of the following has been willingly ignored by the marketing team at Naileo?
+          (a) Market Segmentation
+          (b) Market Scanning
+          (c) Market Positioning
+          (d) Marketing Target
+     (iv) Based on question three above, what was the core methodology behind willingly
+          ignoring a major aspect of marketing?
+          (a) SWOT Analysis, founders’ area of expertise
+          (b) BCG Matrix, Artificial Nails being a cash cow
+          (c) Vision, to employ underprivileged youth
+          (d) Mission, to be a national leader in new cosmetic segment
+     (v) Anand being the strategy implementer of Naileo, should be aware of which of the
+         following statements around corporate culture?
+          (a) Corporate Culture prevails strategic decisions
+          (b) Change all the hindering facets of corporate culture for effective strategy
+              execution
+          (c) Implementation is a superset of corporate culture
+          (d) Leadership Style is a subset of culture
+2.   Sanjay guided the team of young entrepreneurs to hold to the current position in the market
+     till they get a big opportunity. What could be their business termed as basis Sanjay’s
+     advice?
+     (a) Question Mark
+     (b) Cash Cow
+     (c) Star
+     (d) Dog
+PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                               17
+
+
+3.   Sumedha has a home-grown brand which makes traditional lehengas. She thought of
+     expanding her business and added linen jackets and cotton trousers to her product line.
+     Which strategy is she working on?
+     (a) Backward integration
+     (b) Intensification
+     (c) Diversification
+     (d) Horizontal Diversification
+4.   Raju started a samosa stall in a local market and the existing momos and bhelpuri stall
+     owners started creating problems for him. This is an example of-
+     (a) Bargaining power of suppliers
+     (b) Threat of new entrants
+     (c) Substitute products
+     (d) Nature of rivalry in industry
+5.   The activity of identifying the strongest and weakest companies is known as:
+     (a) Strategic Audit
+     (b) Portfolio Analysis
+     (c) Strategic Surveillance
+     (d) Strategic Group mapping
+6.   An airline operator is providing special lounge at major airports for its frequent flyers. This
+     marketing technique is known as :-
+     (a) Relationship Marketing
+     (b) Augmented Marketing
+     (c) Social Marketing
+     (d) Synchro Marketing
+Descriptive Questions
+Chapter 1-Introduction to Strategic Management
+7.   "A business organization cannot always plan all their strategies in advance and often need
+     to blend planned strategies with reactive strategies." Do you agree with the statement?
+     Give reasons.
+8.   What benefits accrue by following a strategic approach to managing?
+18                      INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+Chapter 2-Dynamics of Competitive Strategy
+9.   Sky chemical industry intends to grow its business. Advise the company on the available
+     options using Ansoff’s product market growth matrix.
+10. Write a brief note on ‘Driving Forces’ that affect an industry.
+Chapter 3-Strategic Management Process
+11. Mission statement of a company focuses on the question: ‘who we are’ and ‘what we do’.
+    Explain briefly.
+12. Mr. Batra is working in Apex Corporation, a leading manufacturer of electronic products, is
+    considering whether to enter the fitness trackers and smartwatches technology market.
+    The market is growing rapidly, but the competition is fierce. Mr. Batra and his team has to
+    decide whether to invest in research and development for fitness trackers and
+    smartwatches technology or to focus on their core products. The decision could have
+    significant implications for the company's future growth and profitability.
+     Where will you place Mr. Batra in organisational hierarchy? What are the dimensions of
+     the decisions being taken by him?
+Chapter 4-Corporate Level Strategies
+13. Redefinition of business is involved in both "Expansion" and "Retrenchment" strategy,
+    however, method involved in their execution is completely different. Explain.
+14. ABC Inc. a successful company in the healthcare industry, was facing a decline due to
+    outdated technology and lack of innovation. The company was losing market share and
+    struggling to retain customers. In an effort to reverse the trend, the management decided
+    to implement a strategy. They hired new talent, invested in research and development, and
+    streamlined their operations to increase efficiency. Through these efforts, ABC Inc. was
+    able to introduce new products and services, reposition themselves in t he market, and
+    eventually regain their competitive edge. The company’s revenue and profits increased,
+    and they were once again on the path to success.
+     Discuss the strategy which has been implemented by the management of ABC Inc. t
+Chapter 5-Business Level Strategies
+15. Domolo is a premium cycle and cycling equipments brand which targets high spending
+    customer with a liking for quality and brand name. Their cycles range from rupees fifteen
+    thousand to rupees one lac. The recent trend of fitness through cycling has created
+    humongous demand for cycles and peripherals like helmets, lights, braking systems,
+    fitness applications, etc. The customer base has grown 150% in the last three months. Mr.
+    Vijay, who is an investor wants to tap in this industry and bring about cheaper options to
+PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                            19
+
+
+     people who cannot spend so much. Which business level strategy would best suit for Mr.
+     Vijay’s idea and what are the major sub-strategies that can be implemented to capture
+     maximum market?
+16. What are the common barriers that are faced by new entrants when an existing firm earns
+    higher profits?
+Chapter 6-Functional Level Strategies
+17. What are the objectives that must be kept in mind while designing a pricing strategy of a
+    new product?
+18. How would you argue that Research and Development Personnel are important for
+    effective strategy implementation?
+Chapter 7-Organisation and Strategic Leadership
+19. Anshuman was a CEO at a struggling company. Despite the challenges, he believed in the
+    potential of his team and was determined to turn the company around. He started by
+    communicating his vision to his employees. He encouraged them to think outside the box,
+    take risks and be creative. He also invested in training programs to help employees
+    develop new skills. He regularly recognized and rewarded employees for their hard work,
+    which increased their job satisfaction and commitment. As a result, the company began to
+    see positive changes.
+     Identify and discuss the leadership style adopted by Anshuman?
+20. You are appointed as a manager of a company where you find that the company's culture
+    is out of sync with what is needed for strategic success. Discuss steps you would initiate
+    to tackle the problem.
+Chapter 8-Strategy Implementation and Control
+21. India's luxurious domestic airline Indijet in an attempt to retain its leadership in aviation
+    sector has hired J S Dutta as its Chief Executive. Mr Dutta wishes to reorient company to
+    make it a domestic discount carrier. He desires to introduce no frills business model by
+    offering extremely low fares and improve margins by cutting down traditional ameni ties
+    such as reclining seats and complimentary meals. At the same time setting the stage for a
+    new air revolution, he wishes to brand itself as on-time airlines having proper systems in
+    place and removing additional and wasteful activities and processes.
+     What steps will you advise to Mr Dutta?
+22. What is Strategy Audit? Explain briefly the criteria for strategy audit given by Richard
+    Rumelt’s.
+20                      INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+                                       SUGGESTED ANSWERS
+
+
+1.   (i)      (c)   (ii) (b)   (iii)    (d) (iv)   (a)   (v)    (b)
+2.   (a)
+3.   (b)
+4.   (b)
+5.   (d)
+6.   (a)
+7.   Yes, a business organization cannot always plan all their strategies in advance and often
+     need to blend planned strategies with reactive strategies.
+     In planned strategy, organisations will analyse possible environmental scenarios and
+     create strategic framework after proper planning and set procedures and work on these
+     strategies in a pre-determined manner. However, in reality no company can forecast both
+     internal and external environment exactly. Everything cannot be planned in advance. It is
+     not possible to anticipate moves of rival firms, consumer behaviour, evolving technologies
+     and so on.
+     There can be significant deviations between what was visualised and what actually
+     happens. There can be significant or major strategic changes when the environment
+     demands. Reactive strategy is triggered by the changes in the environment and provides
+     ways and means to cope with the negative factors or take advantage of emerging
+     opportunities.
+8.   The following are the benefits of strategic approach to managing:
+          Strategic management helps organisations to be more proactive instead of reactive
+           in shaping its future. Organisations are able to analyse and take actions instead of
+           being mere spectators. Thereby they are able to control their own destiny in a better
+           manner. It helps them in working within vagaries of environment and shaping it,
+           instead of getting carried away by its turbulence or uncertainties.
+          Strategic management provides framework for all the major decisions of an enterprise
+           such as decisions on businesses, products, markets, manufacturing facilities,
+           investments and organisational structure. It provides better guidance to entire
+           organisation on the crucial point - what it is trying to do.
+          Strategic management is concerned with ensuring a good future for the firm. It seeks
+           to prepare the corporation to face the future and act as pathfinder to various business
+           opportunities. Organisations are able to identify the available opportunities and
+           identify ways and means as how to reach them.
+PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           21
+
+
+         Strategic management serves as a corporate defence mechanism against mistakes
+          and pitfalls. It help organisations to avoid costly mistakes in product market choices
+          or investments. Over a period of time strategic management helps organisation to
+          evolve certain core competencies and competitive advantages that assist in its fight
+          for survival and growth.
+9.   The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that
+     helps businesses decide their product and market growth strategy. With the us e of this
+     matrix, a business can get a fair idea about how its growth depends upon its markets in
+     new or existing products in both new and existing markets.
+     The Ansoff’s product market growth matrix is as follows:
+
+
+
+
+                          Ansoff’s Product Market Growth Matrix
+     Sky chemical industry can adopt market penetration, product development, market
+     development or diversification simultaneously for its different products.
+     Market penetration refers to a growth strategy where the business focuses on selling
+     existing products into existing markets. It is achieved by making more sales to present
+     customers without changing products in any major way.
+     Market development refers to a growth strategy where the business seeks to sell its
+     existing products into new markets. It is a strategy for company growth by identifying and
+     developing new markets for the existing products of the company.
+     Product development refers to a growth strategy where business aims to introduce new
+     products into existing markets. It is a strategy for company growth by offering modified or
+     new products to current markets.
+     Diversification refers to a growth strategy where a business markets new products in new
+     markets. It is a strategy by starting up or acquiring businesses outside the company’s
+     current products and markets.
+22                      INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+     As market conditions change overtime, a company may shift product -market growth
+     strategies. For example, when its present market is fully saturated a company may have
+     no choice other than to pursue new market.
+10. The most dominant forces are called driving forces because they have the biggest
+    influence on what kinds of changes will take place in the industry’s structure and
+    competitive environment. The most common driving forces are as follows:
+     •    The internet and the new e-commerce opportunities and threats it breeds in the
+          industry.
+     •    Increasing globalization
+     •    Changes in the long-term industry growth rate
+     •    Product innovation
+     •    Marketing innovations
+     •    Entry or exit of major firms
+     •    Diffusion of technical now-how across more companies and more countries
+     •    Changes in cost and efficiency.
+11. A company’s mission statement is typically focused on its present business scope — “who
+    we are and what we do”; mission statements broadly describe an organizations present
+    capabilities, customer focus activities and business makeup. An organisation’s mission
+    states what customers it serves, what need it satisfies, and what type of product it offers.
+    It is an expression of the growth ambition of the organisation. It helps organisation to set
+    its own special identity, business emphasis and path for development. Mission amplifies
+    what brings the organisation to this business or why it is there, what existence it seeks and
+    what purpose it seeks to achieve as a business organisation.
+     In other words, the mission serves as a justification for the firm's very pre sence and
+     existence; it legitimizes the firm's presence.
+12. As the decisions taken by Mr. Batra have organisation wide impact, involves large
+    commitments and have implication on the future, he is at the top level in organisational
+    hierarchy. These characteristics also indicate that he is taking strategic decisions in the
+    organisation. The major dimensions of strategic decisions are as follows:
+           Strategic decisions require top-management involvement: Strategic decisions
+            involve thinking in totality of the organisation. Hence, problems calling for strategic
+            decisions require to be considered by the top management.
+           Strategic decisions involve commitment of organisational resources:
+            Strategic decisions to launch a new project by a firm requires allocation of huge
+            funds and assignment of a large number of employees.
+PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                                 23
+
+
+           Strategic decisions necessitate consideration of factors in the firm’s external
+            environment: Strategic focus in organisation involves orienting its internal
+            environment to the changes of external environment.
+           Strategic decisions are likely to have a significant impact on the long -term
+            prosperity of the firm: Generally, the results of strategic implementation are seen
+            on a long-term basis and not immediately.
+           Strategic decisions are future oriented: Strategic thinking involves predicting the
+            future environmental conditions and how to orient for the changed conditions.
+           Strategic decisions usually have major multifunctional or multi-business
+            consequences: As they involve organisation in totality, they affect different
+            sections of the organisation with varying degree.
+13. Expansion strategy is implemented by redefining the business by adding the scope of
+    business substantially increasing the efforts of the current business. On the other hand,
+    Retrenchment strategy involves redefinition of business by divesting a major product line
+    or market.
+     Expansion is a promising and popular strategy that tends to be equated with dynamism,
+     vigour, promise and success. Retrenchment or retreat becomes necessary or expedient
+     for coping with particularly hostile and adverse situations in the environment and when any
+     other strategy is likely to be suicidal.
+     Expansion may take the enterprise along relatively unknown and risky paths, full of
+     promises and pitfalls. Retrenchment involves regrouping and recouping of the resources.
+14. The management of ABC Inc. implemented turnaround strategy which is a highly-targeted
+    effort to return ABC Inc. to profitability and increase positive cash flows to a sufficient level.
+    Organizations those have faced a significant crisis that has negatively affected operations
+    require turnaround strategy. Once turnaround is successful the organization may turn to
+    focus on growth.
+     Conditions for turnaround strategies
+     When firms are losing their grips over market, profits due to several internal and external
+     factors, and if they have to survive under the competitive environment they have to identify
+     danger signals as early as possible and undertake rectification steps immediately. These
+     conditions may be, inter alia cash flow problems, lower profit margins, high employee
+     turnover and decline in market share, capacity underutilization, low morale of employees,
+     recessionary conditions, mismanagement, raw material supply problems and so on.
+     Action plan for turnaround strategy
+     •      Stage One – Assessment of current problems
+     •      Stage Two – Analyze the situation and develop a strategic plan
+     •      Stage Three – Implementing an emergency action plan
+24                      INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+     •      Stage Four – Restructuring the business
+     •      Stage Five – Returning to normal
+15. The Best Cost Provider strategy would ensure a better reach to the not so affluent
+    customers and provide them with good quality cycles and equipments, thus tapping in on
+    the increasing trend of cycling.
+     Two sub-strategies that can be implemented are:
+     1.    Offering lower prices than rivals for the same quality of products
+     2.    Charging same prices for better quality of products
+     The idea of Mr. Vijay is to provide almost same quality of products in terms of functionality
+     if not so in terms of branding, to customer who do not have huge sums of money to pay.
+     Thus, sub-strategy number one, offering lower prices for almost same quality should be
+     implemented to become the best cost provider of cycles and related equipments in the
+     market.
+16. A firm’s profitability tends to be higher when other firms are blocked from entering the
+    industry. New entrants can reduce industry profitability because they add new production
+    capacity leading to increase supply of the product even at a lower price and can
+    substantially erode existing firm’s market share. Barriers to entry represent economic
+    forces (or ‘hurdles’) that slow down or impede entry by other firms. Common barriers to
+    entry include:
+     (i)   Capital requirements: When a large amount of capital is required to enter an
+           industry, firms lacking funds are effectively barred from the industry, thus enhancing
+           the profitability of existing firms in the industry.
+     (ii) Economies of scale: Many industries are characterized by economic activities driven
+          by economies of scale. Economies of scale refer to the decline in the per-unit cost of
+          production (or other activity) as volume grows. A large firm that enjoys economies of
+          scale can produce high volumes of goods at successively lower costs. This tends to
+          discourage new entrants.
+     (iii) Product differentiation: Production differentiation refers to the physical or
+           perceptual differences, or enhancements, that make a product special or unique in
+           the eyes of customers. Firms in the personal care products and cosmetics industries
+           actively engage in product differentiation to enhance their products’ features.
+           Differentiation works to reinforce entry barriers because the cost of creating genuine
+           product differences may be too high for the new entrants.
+     (iv) Switching costs: To succeed in an industry, new entrant must be able to persuade
+          existing customers of other companies to switch to its products. To make a switch,
+          buyers may need to test a new firm’s product, negotiate new purchase contracts, and
+          train personnel to use the equipment, or modify facilities for product use. Buyers often
+PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                              25
+
+
+            incur substantial financial (and psychological) costs in switching between firms. When
+            such switching costs are high, buyers are often reluctant to change.
+     (v) Brand identity: The brand identity of products or services offered by existing firms
+         can serve as another entry barrier. Brand identity is particularly important for
+         infrequently purchased products that carry a high unit cost to the buyer. New entrants
+         often encounter significant difficulties in building up the brand identity, because to do
+         so they must commit substantial resources over a long period.
+     (vi) Access to distribution channels: The unavailability of distribution channels for new
+          entrants poses another significant entry barrier. Despite the growing power of the
+          internet, many firms may continue to rely on their control of physical distribution
+          channels to sustain a barrier to entry to rivals. Often, existing firms have significant
+          influence over the distribution channels and can retard or impede their use by new firms.
+     (vii) Possibility of aggressive retaliation: Sometimes the mere threat of aggressive
+           retaliation by incumbents can deter entry by other firms into an existing industry. For
+           example, introduction of products by a new firm may lead existing firms to reduce
+           their product prices and increase their advertising budgets.
+17. For a new product pricing strategies for entering a market needs to be designed. In pricing
+    a really new product at least three objectives must be kept in mind.
+     i.     Making the product acceptable to the customers.
+     ii.    Producing a reasonable margin over cost.
+     iii.   Achieving a market that helps in developing market share.
+     For a new product an organization may either choose to skim or penetrate the market. In
+     skimming prices are set at a very high level. The product is directed to those buyers who
+     are relatively price insensitive but sensitive to the novelty of the new product. For example
+     call rates of mobile telephony were set very high initially. Even the incoming calls were
+     charged. Since the initial off take of the product is low, high price, in a way, helps in
+     rationing of supply in favour of those who can afford it.
+     In penetration pricing firm keeps a temptingly low price for a new product which itself is
+     selling point. A very large number of the potential customers may be able to afford and
+     willing to try the product.
+18. Research and Development (R&D) personnel can play an integral part in strategy
+    implementation. These individuals are generally charged with developing new products
+    and improving old products in a way that will allow effective strategy implementation. R&D
+    employees and managers perform tasks that include transferring complex technology,
+    adjusting processes to local raw materials, adapting processes to local markets, and
+    altering products to particular tastes and specifications.
+     Strategies such as product development, market penetration, and concentric diversification
+     require that new products be successfully developed and that old products be significantly
+26                      INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+     improved. But the level of management support for R&D is often constrained by resource
+     availability.
+19. Being a CEO of a struggling company, Anshuman has adopted Transformational
+    leadership style. The style uses charisma and enthusiasm to inspire people to exert them
+    for the good of the organization. Transformational leaders offer excitement, vision,
+    intellectual stimulation and personal satisfaction. They inspire involvement in a mission,
+    giving followers a ‘dream’ or ‘vision’ of a higher calling so as to elicit more dramatic
+    changes in organizational performance. Such a leadership motivates followers to do more
+    than originally affected to do by stretching their abilities and increasing their self -
+    confidence, and also promote innovation throughout the organization.
+     Anshuman believed in the potential of his team. He started by communicating his vision to
+     his employees. He encouraged them to think outside the box, take risks and be creative.
+     He also invested in training programs to help employees develop new skills. He regularly
+     recognized and rewarded employees for their hard work, which increased their job
+     satisfaction and commitment.
+20. Changing problem cultures is very difficult because of deeply held values and habits. It
+    takes concerted management action over a period of time to replace an unhealthy culture
+    with a healthy culture or to root out certain unwanted cultural obstacles and instil ones that
+    are more strategy-supportive.
+         The first step is to diagnose which facets of the present culture are strategy supportive
+          and which are not.
+         Then, managers have to talk openly and forthrightly to all concerned about those
+          aspects of the culture that have to be changed.
+         The talk has to be followed swiftly by visible, aggressive actions to modify the culture-
+          actions that everyone will understand are intended to establish a new culture more in
+          tune with the strategy.
+     The menu of culture-changing actions includes revising policies and procedures, altering
+     incentive compensation, recruiting and hiring new managers and employees, replacing key
+     executives, communication on need and benefit to employees and so on.
+21. Mr Dutta should adopt business process reengineering (BPR). It is an approach to unusual
+    improvement in operating effectiveness through the redesigning of critical business
+    processes and supporting business systems. It is revolutionary redesign of key business
+    processes that involves examination of the basic process itself. BPR refers to the analysis
+    and redesign of workflows and processes both within the organization and between the
+    organization and the external entities like suppliers, distributors, and service providers.
+     The orientation of redesigning efforts involves total deconstruction and rethinking of
+     business process BPR involves the following steps:
+PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                                 27
+
+
+      i.     Determining objectives: Objectives are the desired end results of the redesign
+             process. They will provide the required focus, direction, and motivation for the
+             redesign process and help in building a comprehensive foundation for the
+             reengineering process.
+      ii.    Identify customers and determine their needs: The process designers have to
+             understand customers. The purpose is to redesign business process that clearly
+             provides value addition to the customer.
+      iii.   Study the existing processes: The study of existing processes will provide an
+             important base for the process designers. The purpose is to gain an understanding
+             of the ‘what’, and ‘why’ of the targeted process.
+      iv.    Formulate a redesign process plan: Formulation of redesign plan is the real crux
+             of the reengineering efforts. Customer focussed redesign concepts are identified and
+             formulated. In this step alternative processes are considered and the best is selected.
+      v.     Implement the redesigned process: It is easier to formulate new process than to
+             implement them. Implementation of the redesigned process and application of other
+             knowledge gained from the previous steps is key to achieve dramatic improvements.
+22.    A strategy audit is an examination and evaluation of areas affected by the operation of a
+      strategic management process within an organization.
+      Richard Rumelt’s Criteria for Strategy Audit
+      (i)    Consistency: A strategy should not present inconsistent goals and policies which
+             can lead to organizational problems and conflicts. Inconsistencies in strategy are
+             indicated if
+             (a) the cause of organizational problems is issue based;
+             (b) success for one department implies failure for another;
+             (c)   the top management is expected to resolve policy problems and issues every time.
+      (ii) Consonance: Consonance refers to the need for strategists to examine sets of
+           trends, as well as individual trends, in auditing strategies. The difficulty is that most
+           trends are the result of interactions among other trends. A strategy must represent
+           an adaptive response to the external environment and to the critical changes
+           occurring within it.
+      (iii) Feasibility: A strategy must neither overtax available resources nor create
+            unsolvable sub-problems. The final broad test of strategy is its feasibility; that is, can
+            the strategy be attempted within the physical, human, and financial resources of the
+            enterprise?
+      (iv) Advantage: A strategy must provide for the creation and/or maintenance of a
+           competitive advantage in a selected area of activity. The advantage may reflect
+           superiority in any one or combination of: resources, skills and position.
+

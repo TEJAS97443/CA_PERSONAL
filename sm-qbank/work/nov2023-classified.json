@@ -1,0 +1,684 @@
+{
+ "source": {
+  "type": "RTP",
+  "attempt": "November 2023",
+  "attempt_sort": "2023-11",
+  "series": null,
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://cacult.com/wp-content/uploads/2023/10/EIS.pdf",
+  "local_file": "raw/rtp-old-nov2023-p7.pdf",
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Mirror: CA Cult (https://cacult.com/rtps-ca-intermediate-course/), which hosts the official ICAI RTP PDF. Not retrieved from an icai.org URL."
+ },
+ "questions": [
+  {
+   "qno": "1(i)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "Easy Drinks LLP, a company in the health drink industry, found itself grappling with a severe cash crunch due to high production costs and sluggish sales amid tough competition. Led by KK Batra, the team realized that a significant overhaul of their existi ng processes and business approach was necessary to turn the tide. Taking a bold leap, they took the decision to invest all of their debt in their balance sheet into brand building. Their new strategy comprised of two key elements. First, they sought to position their brand as a leading extreme sports drink, aiming to elevate the customer's experience and perceived value. Second, they opted to outsource their production and distribution to external vendors. This move was driven by the intention to reduce operational costs significantly and channel the savings into strengthening their brand positioning. With these transformative changes in mind, the company reimagined itself as \"Purple Tiger.\" The brand's new identity featured a distinctive logo—a roaring tiger on a bright purple can, setting it apart from its competitors in the market.\nTo build a brand that resonated with consumers, Easy Drinks LLP heavily invested in extreme sports sponsorships. They supported world record holders' attempts, sponsored skydiving, fishing, deep diving, paragliding, bullfights, hot air balloon races, and various other adventure sports worldwide. The vision was to capture the attention of every individual who identified with the thrill of adventure sports. This approach marked a revolutionary step for the company.\nAnother aspect that set Purple Tiger apart from its competitors was its packaging. While most other brands offered standard 150 ml fat cans, Purple Tiger introduced a unique 180 ml long slimmer can. This differentiation allowed the company to charge a premium for the perceived \"pride\" it added to the consumer's experience, a strategy they termed \"Pride Premium Pricing.\"\nHowever, the decision to outsource the entire operations posted its own set of risks, mainly concerning quality control and measurement. Despite this, Easy Drinks LLP carefully selected Thai Beverages, a reputable Thailand-based company, as their strategic partner to support them in this endeavour. To instill confidence and ensure a long-term relationship, Thai Beverages was offered a share in the profits. This move aimed to free up the team's focus from operational and supply chain matters, enabling them to concentrate fully on brand building.\nPurple Tiger's transformation exemplifies how a change in strategy can bring about a complete shift in the outlook, vision, and mission of a company. The successful execution of their new approach demonstrates the potential for newer dimensions to emerge in the business landscape.\nBased on the above Case Scenario, answer the Multiple-Choice Questions.\n\nHow did Purple Tiger's unique packaging contribute to its competitive advantage?",
+   "options": [
+    {
+     "label": "a",
+     "text": "It attracted more customers"
+    },
+    {
+     "label": "b",
+     "text": "It reduced production costs"
+    },
+    {
+     "label": "c",
+     "text": "It allowed them to charge a premium"
+    },
+    {
+     "label": "d",
+     "text": "It strengthened the partnership with Thai Beverages"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "sub": "i",
+   "scenario_len": 2850,
+   "_ch": "OUT_OF_SYLLABUS",
+   "_note": "Logistics Management / Supply Chain Management (old Ch 6.4.3-6.4.4) — dropped with the functional-strategy chapter",
+   "_tags": [
+    "logistics",
+    "supply chain"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "1(ii)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "[Shared case scenario — see question 1(i).]\nWhich of the following growth strategy did Easy Drinks LLP use to free up their own teams and focus on their core specification of brand building?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Horizontal integrated diversification"
+    },
+    {
+     "label": "b",
+     "text": "Vertical integrated diversification"
+    },
+    {
+     "label": "c",
+     "text": "Conglomerate diversification"
+    },
+    {
+     "label": "d",
+     "text": "Concentric diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "sub": "ii",
+   "scenario_len": 2850,
+   "_ch": 4,
+   "_note": "Diversification / integration → Ch 4 (Expansion through diversification)",
+   "_tags": [
+    "diversification"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "1(iii)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "[Shared case scenario — see question 1(i).]\nThe partnership with Thai Beverages is an outbound version of which of these?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Supply chain management"
+    },
+    {
+     "label": "b",
+     "text": "Logistics management"
+    },
+    {
+     "label": "c",
+     "text": "Financial strategy"
+    },
+    {
+     "label": "d",
+     "text": "Ease of operational control"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "sub": "iii",
+   "scenario_len": 2850,
+   "_ch": "OUT_OF_SYLLABUS",
+   "_note": "Logistics Management / Supply Chain Management (old Ch 6.4.3-6.4.4) — dropped with the functional-strategy chapter",
+   "_tags": [
+    "logistics",
+    "supply chain"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "1(iv)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "[Shared case scenario — see question 1(i).]\nPurple Tiger's decision to involve Thai Beverages in profit sharing reflects a strategic focus on:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategic alliances"
+    },
+    {
+     "label": "b",
+     "text": "Competitive benchmarking"
+    },
+    {
+     "label": "c",
+     "text": "Financial leverage"
+    },
+    {
+     "label": "d",
+     "text": "Outsourcing"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "sub": "iv",
+   "scenario_len": 2850,
+   "_ch": "OUT_OF_SYLLABUS",
+   "_note": "Benchmarking (old Ch 8.8) — dropped from the 2023 syllabus; no definition, types or process in the current Paper 6B study material",
+   "_tags": [
+    "benchmarking"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "1(v)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "[Shared case scenario — see question 1(i).]\nEasy Drinks LLP's decision to sponsor extreme sports aligns with which strategic objective?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Market development"
+    },
+    {
+     "label": "b",
+     "text": "Market penetration"
+    },
+    {
+     "label": "c",
+     "text": "Product development"
+    },
+    {
+     "label": "d",
+     "text": "Diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "sub": "v",
+   "scenario_len": 2850,
+   "_ch": 4,
+   "_note": "Diversification / integration → Ch 4 (Expansion through diversification)",
+   "_tags": [
+    "diversification"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "2",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "Big retail stores (e.g., Big Bazaar) and supermarkets have special core competenc ies in the areas of:\nA. Merchandising\nB. Securing supplies at lower cost\nC. In-house activity management\nD. Computerized stock ordering and billing systems\nE. Own brand labels\nSelect the correct options:",
+   "options": [
+    {
+     "label": "a",
+     "text": "A, C, D"
+    },
+    {
+     "label": "b",
+     "text": "B, D, E"
+    },
+    {
+     "label": "c",
+     "text": "A, B, C, D"
+    },
+    {
+     "label": "d",
+     "text": "A, B, D, E"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 3,
+   "_note": "Core competence → Ch 3 (Role of resources and capabilities)",
+   "_tags": [
+    "core competence"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "3",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "The tool for analyzing and comparing the best practices being used by established players in each segment, is known as:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Benchmarking"
+    },
+    {
+     "label": "b",
+     "text": "Strategic Analysis"
+    },
+    {
+     "label": "c",
+     "text": "Strategic Decision making"
+    },
+    {
+     "label": "d",
+     "text": "BPR"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": "OUT_OF_SYLLABUS",
+   "_note": "Benchmarking (old Ch 8.8) — dropped from the 2023 syllabus; no definition, types or process in the current Paper 6B study material",
+   "_tags": [
+    "benchmarking"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "4",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "Which one of the following cannot be considered as a part of proa ctive approach in strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Planned strategy"
+    },
+    {
+     "label": "b",
+     "text": "Deliberate management design"
+    },
+    {
+     "label": "c",
+     "text": "Forecast about future market condition"
+    },
+    {
+     "label": "d",
+     "text": "Adaptive reactions to changing circumstances"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": null,
+   "_note": "",
+   "_tags": [],
+   "_how": "none"
+  },
+  {
+   "qno": "5",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "Indian Company plans to offer snack during travel through ropeways and two fre e movies tickets on completion of the travel. This marketing technique is known as________",
+   "options": [
+    {
+     "label": "a",
+     "text": "Augmented marketing"
+    },
+    {
+     "label": "b",
+     "text": "Synchro"
+    },
+    {
+     "label": "c",
+     "text": "Social"
+    },
+    {
+     "label": "d",
+     "text": "Demarketing"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 3,
+   "_note": "Strategic Marketing Techniques → Ch 3 (relocated verbatim into Ch 3.3.3 Strategic Drivers: Product/Services)",
+   "_tags": [
+    "marketing techniques"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "6",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "In which type of organization are Strategic Business Units (SBUs) commonly found?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Sole proprietorships"
+    },
+    {
+     "label": "b",
+     "text": "One-business organizations"
+    },
+    {
+     "label": "c",
+     "text": "Non-profit organizations"
+    },
+    {
+     "label": "d",
+     "text": "Multi-business organizations"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 5,
+   "_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "_tags": [
+    "organisation structure"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "7",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "XYZ is a high-end department store chain that is struggling to survive. A number of other department store chains compete with it and are also struggling. How should XYZ best analyse the industry in order to work out how to increase performance?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Identify groups of department stores that compete in a similar way."
+    },
+    {
+     "label": "b",
+     "text": "Show the competitive pathways that various competitors will adopt."
+    },
+    {
+     "label": "c",
+     "text": "Determine the combined effect of all the stores’ different strategies."
+    },
+    {
+     "label": "d",
+     "text": "Ignore key success factors that affect discount stores."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 2,
+   "_note": "Key success factors → Ch 2",
+   "_tags": [
+    "key success factors"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "8",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 1-Introduction to Strategic Management",
+   "question": "\"The strategic management cannot counter all hindrances and always achieve success for an organization.\" Do you agree with this statement? Give arguments in support of your answer.",
+   "options": null,
+   "answer": "Yes, it is true that the presence of strategic management cannot counter all hindrances and always achieve success for an organization. This is on account of complex multiple forces acting on business organization and limiting its success.\nThese limitations are on account of following factors:\n• Environment is highly complex and turbulent. It is difficult to understand the complex environment and exactly pinpoint how it will shape-up in future. The organisational estimate about its future shape may awfully go wrong and jeopardise all strategic plans.\n• Strategic management is a time-consuming process. Organisations spend a lot\nof time in preparing, communicating the strategies that may impede daily operations and negatively impact the routine business.\n• Strategic management is a costly process. Strategic management adds a lot of expenses to an organization – particularly to small and medium organisations. Expert strategic planners need to be engaged, efforts are made for analysis of external and internal environments devise strategies and properly implement.\n• Competition is unpredictable. In a competitive scenario, where all organisations are trying to move strategically, it is difficult to clearly estimate the competitive responses to the strategies.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 1,
+   "_note": "Limitations of strategic management → Ch 1",
+   "_tags": [
+    "limitations"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "9",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 1-Introduction to Strategic Management",
+   "question": "Falguni, CFO of Warships Advertisement Agency, stated that strategic management helps the organisation to develop certain core competencies and competitive advantages that facilitate management in the turbulent environment. Do you agree, if yes, then what and how does it facilitate in?",
+   "options": null,
+   "answer": "Yes, strategic management plays a crucial role in an organization's survival and growth, particularly in a turbulent environment. It provides the framework for developing and leveraging core competencies and competitive advantages that enable the organization to not only withstand challenges but also seize opportunities for expansion and success.\n• Survival: In a turbulent environment characterized by rapid changes, uncertainties, and challenges, strategic management helps an organization adapt and respond effectively. By developing core competencies and competitive advantages, an organization becomes better equipped to navigate unexpected disruptions and stay relevant in the market.\n• Growth: Strategic management goes beyond survival. It enables an organization to identify opportunities, innovate, and create value for its customers. By leveraging core competencies and competitive advantages, the organization can capture market share, expand its offerings, and achieve sustained growth.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 3,
+   "_note": "Core competence → Ch 3 (Role of resources and capabilities)",
+   "_tags": [
+    "core competence"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "10",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 2-Dynamics of Competitive Strategy",
+   "question": "A company has recently launched a new product in the market. Initially, it faced slow sales growth, limited markets, and high prices. However, over time, the demand for the product expanded rapidly, prices fell, and competition increased. Identify the stages of the product life cycle (PLC) that the company went through.",
+   "options": null,
+   "answer": "The company went through the following stages of the product life cycle (PLC): Introduction stage: Initially, the company faced slow sales growth, limited markets, and high prices, which are characteristic of the introduction stage. During this stage, competition is almost negligible, and customers have limited knowledge about the product. Growth stage: Over time, the demand for the product expanded rapidly, prices fell, and competition increased. These are typical features of the growth stage in the PLC. In this stage, the product gains market acceptance, and customers become more aware of the product's benefits and show interest in purchasing it.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 2,
+   "_note": "Product life cycle → Ch 2",
+   "_tags": [
+    "product life cycle"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "11",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 2-Dynamics of Competitive Strategy",
+   "question": "ABC Corporation is a conglomerate with a diverse portfolio of businesses. One of its businesses is a well-established division in a mature and stable market. The division has maintained a high market share over the years but is experiencing slow growth due to market saturation. The management team is contemplating the best course of action for this division. How should ABC Corporation approach this division according to the BCG growth-share matrix, and what would be the rationale behind it?",
+   "options": null,
+   "answer": "According to the BCG growth-share matrix, the division in a mature and stable market falls into the \"Cash Cows\" category. \"Cash Cows\" are low-growth, high market share businesses that generate cash with low costs. The recommended approach for ABC Corporation would be to adopt the \"Hold\" strategy. This means the company should preserve the market share of the division and continue generating cash with low costs. Since the market is mature and growth opportunities are limited, the division's focus should be on maintaining profitability and using the generated cash to support other high-potential businesses within the conglomerate. By holding onto the \"Cash Cow\" division, ABC can leverage its stability and cash flow to invest strategically in other areas of the business for future growth and innovation.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 4,
+   "_note": "BCG growth-share matrix → Ch 4 (Strategic Options)",
+   "_tags": [
+    "bcg matrix"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "12",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 3-Strategic Management Process",
+   "question": "ABC Pharmaceuticals, a leading pharmaceutical company, is in the process of formulating its strategic intent. The top management of ABC Pharmaceuticals wants to define the company's future direction, objectives, and goals. They aim is to create a vision that sets the organization apart and provides a roadmap for future growth. ABC Pharmaceuticals aspires to enrich the lives of people by producing high-quality pharmaceutical products at competitive prices and wants to become the world's leading pharmaceutical company by 2030.\" Based on this context, draft a vision and mission statement that could be formulated by the top management of ABC Pharmaceuticals.",
+   "options": null,
+   "answer": "ABC Pharmaceuticals may have following vision and mission:\nVision: Vision implies the blueprint of the company’s future position. It describes where the organisation wants to land. ABC Pharmaceuticals may have vision \"To be the globally recognized leader in pharmaceutical innovation and enriching the lives of people worldwide by providing high-quality, affordable, and accessible pharmaceutical products.\" Mission: Mission delineates the firm’s business, its goals and ways to reach the goals. It explains the reason for the existence of the firm in the society. It is designed to help potential shareholders and investors understand the purpose of the company.\nABC Pharmaceuticals may identify mission in the following lines:\n• To improve the well-being of individuals and communities by relentlessly pursuing excellence in pharmaceutical research, development, and manufacturing.\n• Committed to producing safe, effective, and sustainable medicines that address unmet medical needs and enhance the quality of life for patients.\n• Through innovation, collaboration, and ethical practices, we aim to make a positive impact on global healthcare and become the trusted partner of healthcare providers and patients alike.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 1,
+   "_note": "Strategic intent → Ch 1",
+   "_tags": [
+    "strategic intent"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "13",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 3-Strategic Management Process",
+   "question": "What is strategic decision making? What tasks are performed by a Strategic Manager?",
+   "options": null,
+   "answer": "Decision making is a managerial process of selecting the best course of action out of several alternative courses for the purpose of accomplishment of the organisational goals. Decisions may be operational i.e., which relate to general day-to-day operations. They may also be strategic in nature. According to Jauch and Glueck “Strategic decisions encompass the definition of the business, products to be handled, markets to be served, functions to be performed and major policies needed for the organisation to execute these decisions to achieve the strategic objectives.”\nThe primary task of the strategic manager is conceptualizing, designing and executing company strategies. For this purpose, his tasks include:\n• Defining the mission and goals of the organisation.\n• Determining what businesses, it should be in.\n• Allocating resources among the different businesses.\n• Formulating and implementing strategies that span individual businesses.\n• Providing leadership for the organisation.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 5,
+   "_note": "Strategic decision making / tasks of a strategic manager → Ch 5",
+   "_tags": [
+    "strategic decision making"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "14",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 4-Corporate Level Strategies",
+   "question": "Jynklo Ltd. is an established online children gaming company in Japan. They are performing good in the gaming industry. The management of Jynklo Ltd. has decided to expand its business. They decided to start a premium sports drink named JynX for athletes. Identify and explain the growth strategy adopted by Jynklo Ltd.?",
+   "options": null,
+   "answer": "Currently Jynklo Ltd. is performing in the children gaming industry. But now its management has decided to expand their business by starting a premium sports drink named JynX for athletes. As there are no linkages in both products with respect to customer groups, customer functions, or the technologies being used, so Jynklo Ltd. have opted Conglomerate diversification.\nJynklo Ltd. diversify in a business that is not related to their existing line of product and can be termed as conglomerate diversification. In conglomerate diversification, the new businesses/ products are disjointed from the existing businesses/products in every way; it is an unrelated diversification. In process/ technology/ function, there is no connection between the new products and the existing ones. Conglomerate diversification has no common thread at all with the firm's present position.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 4,
+   "_note": "Old Ch 4 \"Corporate Level Strategies\" → Ch 4 (Strategic Choices)",
+   "_tags": [],
+   "_how": "oldhead"
+  },
+  {
+   "qno": "15",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 4-Corporate Level Strategies",
+   "question": "What is stability strategy? What are the reasons to pursue stability strategy?",
+   "options": null,
+   "answer": "One of the important goals of a business enterprise is stability - to safeguard its existing interests and strengths, to pursue well established and tested objectives, to continue in the chosen business path, to maintain operational efficiency on a sustain ed basis, to consolidate the commanding position already reached, and to optimise returns on the resources committed in the business. A stability strategy is pursued by a firm when:\n• It continues to serve in the same or similar markets and deals in same or similar products and services.\n• The strategic decisions focus on incremental improvement of functional performance. Major reasons for stability strategy are as follows:\n• A product has reached the maturity stage of the product life cycle.\n• It is less risky as it involves less changes and the staff feel comfortable with things as they are.\n• The environment faced is relatively stable.\n• Expansion may be perceived as being threatening.\n• Consolidation is sought through stabilizing after a period of rapid expansion.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 4,
+   "_note": "Stability strategy → Ch 4",
+   "_tags": [
+    "stability strategy"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "16",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 5-Business Level Strategies",
+   "question": "Easy Access is a marketing services company providing consultancy to a range of business clients. Easy Access and its rivals have managed to persuade the Government to require all marketing services companies to complete a time-consuming and bureaucratic registration process and to comply with an industry code of conduct. Do you think that by doing this Easy Access and its rivals has an advantage in some way to fight off competitors? Explain.",
+   "options": null,
+   "answer": "Yes, Easy Access and its rivals get advantage by this move. The new bureaucratic process is making it more complicated for organizations to start up and enter in Easy Access market, increasing barriers to entry and thereby reducing the threat of new entrants. New entrants can reduce an industry’s profitability, because they add new production capacity, leading to increase in supply of the product, sometimes even at a lower price and can substantially erode existing firm’s market share position. However, New entrants are always a powerful source of competition. The new capacity and product range they bring in throws up a new competitive pressure. The bigger the new entrant, the more severe the competitive effect. New entrants also place a limit on prices and affect the profitability of existing players, which is known as Price War.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 3,
+   "_note": "Old Ch 5 \"Business Level Strategies\" → Ch 3 (Competitive Advantage/generic strategies)",
+   "_tags": [],
+   "_how": "oldhead"
+  },
+  {
+   "qno": "17",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 5-Business Level Strategies",
+   "question": "Explain in brief the various basis of differentiation strategy.",
+   "options": null,
+   "answer": "There are several basis of differentiation, major being: Product, Pricing and Org anization. Product: Innovative products that meet customer needs can be an area where a company has an advantage over competitors. However, the pursuit of a new product offering can be costly – research and development, as well as production and marketing costs can all add to the cost of production and distribution. The payoff, however, can be great as customer’s flock to be among the first to have the new product.\nPricing: It fluctuates based on its supply and demand and may also be influenced by the customer’s ideal value for a product. Companies that differentiate based on product price can either determine to offer the lowest price or can attempt to establish superiority through higher prices.\nOrganisation: Organisational differentiation is yet another form of differentiation. Maximizing the power of a brand or using the specific advantages that an organization possesses can be instrumental to a company’s success. Location advantage, name recognition and customer loyalty can all provide additional ways for a company differentiate itself from the competition.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 3,
+   "_note": "Michael Porter's generic strategies → Ch 3 (Competitive Advantage)",
+   "_tags": [
+    "generic strategies"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "18",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 6-Functional Level Strategies",
+   "question": "\"A well designed strategic management system can fail if insufficient attention is given to the human resource dimension.\" ·Elucidate this statement.",
+   "options": null,
+   "answer": "A well-designed strategic-management system can fail if insufficient attention is given to the human resource dimension. Human resource problems that arise when a business implements strategies can usually be traced to one of three causes: (1) disruption of social and political structures, (2) failure to match individuals’ aptitudes with implementation tasks, and (3) inadequate top management support for implementation activities.\ni. Disruption of social and political structures: Strategy implementation poses a threat to many managers and employees in an organization. New power and status relationships are anticipated and realized. New formal and informal groups’ values, beliefs, and priorities may be largely unknown. Managers and employees may become engaged in resistance behaviour as their roles, prerogatives, and power in the firm change. Disruption of social and political structures that accompany strategy execution must be anticipated and considered during strategy formulation and managed during strategy implementation.\nii. Failure to match individuals’ aptitudes with implementation tasks: A concern in matching managers with strategy is that jobs have specific and relatively static responsibilities, although people are dynamic in their personal development. Commonly used methods that match managers with strategies to be implemented include transferring managers, developing leadership workshops, offering career development activities, promotions, job enlargement, and job enrichment.\nIt is surprising that so often during strategy formulation; individual values, skills, and abilities needed for successful strategy implementation are not considered. It is rare that a firm selecting new strategies or significantly altering existing strategies possesses the right line and staff personnel in the tight positions for successful strategy implementation. The need to match individual aptitudes with strategy-implementation tasks should be considered in strategy choice.\niii. Inadequate top management support for implementation activities: Inadequate support from strategists for implementation activities often undermines organizational success. Chief executive officers, small business owners, and government agency heads must be personally committed to strategy implementation and express this commitment in highly visible ways. Strategists’ formal statements about the importance of strategic management must be consistent with actual support and rewards given for activities completed and objectives reached. Otherwise, stress created by inconsistency can cause uncertainty among managers and employees at all levels.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": "OUT_OF_SYLLABUS",
+   "_note": "Old Ch 6 \"Functional Level Strategies\" — the standalone functional-strategy chapter has no counterpart in the 2023 scheme",
+   "_tags": [],
+   "_how": "oldhead"
+  },
+  {
+   "qno": "19",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 6-Functional Level Strategies",
+   "question": "Define the term 'Marketing'. Distinguish between social marketing and service marketing.",
+   "options": null,
+   "answer": "In general, marketing is an activity performed by business organizations. In the present day for business, it is considered to be the activities related to identifying the needs of customers and taking such actions to satisfy them in return of some consideration. Th e term marketing constitutes different processes, functions, exchanges and activities that create perceived value by satisfying needs of individuals.\nSocial marketing and service marketing are marketing strategies primarily with different orientations. Social Marketing refers to the design, implementation, and control of programs seeking to increase the acceptability of a social ideas, cause, or practice among a target group. For instance, the publicity campaign for prohibition of smoking or encouraging girl child, etc.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 3,
+   "_note": "Strategic Marketing Techniques → Ch 3 (relocated verbatim into Ch 3.3.3 Strategic Drivers: Product/Services)",
+   "_tags": [
+    "marketing techniques"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "20",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 7-Organisation and Strategic Leadership",
+   "question": "Write a short note on Matrix structure.",
+   "options": null,
+   "answer": "In matrix structure, functional and product forms are combined simultaneously at the same level of the organization. Employees have two superiors, a product / project manager and a functional manager. The “home” department - that is, engineering, manufacturing, or marketing - is usually functional and is reasonably permanent. People from these functional units are often assigned temporarily to one or more product units or projects.\nThe product units / projects are usually temporary and act like divisions in that they are differentiated on a product-market basis. The matrix structure may be very appropriate when organizations conclude that neither functional nor divisional forms, even when combined with horizontal linking mechanisms like strategic business units, are right for the implementation of their strategies. Matrix structure was developed to combine the stability of the functional structure with flexibility of the product form. It is very useful when the external environment (especially its technological and market aspects) is very complex and changeable.\nA matrix structure is most complex of all designs because it depends upon both vertical and horizontal flows of authority and communication. It may result in higher overhead costs due to more management positions.\nThe matrix structure is often found in an organization when the following three conditions exist:\n1. Ideas need to be cross-fertilized across projects or products;\n2. Resources are scarce; and\n3. Abilities to process information and to make decisions need to be improved.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 5,
+   "_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "_tags": [
+    "organisation structure"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "21",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 7-Organisation and Strategic Leadership",
+   "question": "\"Entrepreneur is an individual who conceives the idea of starting a new venture.\" In light of this statement discuss who is an entrepreneur.",
+   "options": null,
+   "answer": "Entrepreneurship is an attitude of mind to seek opportunities, take calculated risk and drive benefits by starting and running a venture. It comprises of numerous activities involved in conception, creation and running an enterprise. An entrepreneur is an individual who conceives the idea of starting a new venture, takes all type of risks, not only to put the product or service into reality but also to make it an extremely demanding one. An entrepreneur is one who:\n➢ Initiates and innovates a new concept.\n➢ Recognises and utilises opportunity.\n➢ Arranges and coordinates resources such as man, material, machine and capital. ➢ Faces risks and uncertainties.\n➢ Establishes a startup company.\n➢ Adds value to the product or service.\n➢ Takes decisions to make the product or service a profitable one.\n➢ Is responsible for the profits or losses of the company.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": "OUT_OF_SYLLABUS",
+   "_note": "Entrepreneurship and Intrapreneurship (old Ch 7.5) — dropped from the 2023 syllabus",
+   "_tags": [
+    "entrepreneur"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "22",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 8-Strategy Implementation and Control",
+   "question": "ABC Ltd. is a shoe manufacturing company. The strategic manager of ABC ltd. is Ms. Suman. Ms. Suman hired the best designers she could find online for her ethnic shoe brand but later she found that the designers were better at leather designs. Identify and explain linkage in the given situation as she had to change her strategy basis the actual resources she had?",
+   "options": null,
+   "answer": "The strategy formulation and strategy implementation are intertwined and linked with each other. Two types of linkages exist between these two phases of strategic management. The forward linkages deal with the impact of strategy formulation on strategy implementation while the backward linkages are concerned with the impact in the opposite direction.\nIn the given situation Ms. Suman has to follow Backward Linkages as she had to change her strategy basis the actual resources she had. While dealing with strategic choice, remember that past strategic actions also determine the choice of strategy. Organizations tend to adopt those strategies which can be implemented with the help of the present structure of resources combined with some additional efforts. Such incremental changes, over a period of time, take the organization from where it is to where it wishes to be.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 5,
+   "_note": "Linkages between strategy formulation and implementation → Ch 5",
+   "_tags": [
+    "linkages"
+   ],
+   "_how": "rule"
+  },
+  {
+   "qno": "23",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 8-Strategy Implementation and Control",
+   "question": "What is implementation control? Discuss its basic forms.",
+   "options": null,
+   "answer": "Managers implement strategy by converting major plans into concrete, sequential actions that form incremental steps. Implementation control is directed towards assessing the need for changes in the overall strategy in light of unfolding events and results associated with incremental steps and actions.\nStrategic implementation control is not a replacement to operational control. Strategic implementation control, unlike operational controls continuously monitors the basic direction of the strategy. The two basic forms of implementation control are:\n(i) Monitoring strategic thrusts: Monitoring strategic thrusts help managers to determine whether the overall strategy is progressing as desired or whether there is need for readjustments.\n(ii) Milestone reviews: All key activities necessary to implement strategy are segregated in terms of time, events or major resource allocation. It normally involves a complete reassessment of the strategy. It also assesses the need to continue or refocus the direction of an organization.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0,
+   "_ch": 5,
+   "_note": "Strategic control types → Ch 5 (Strategic Control)",
+   "_tags": [
+    "strategic control"
+   ],
+   "_how": "rule"
+  }
+ ]
+}

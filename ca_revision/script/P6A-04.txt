@@ -1,0 +1,91 @@
+# P6A-04 · fm-cost-of-capital · Cost of Capital: हर rupee की असली कीमत
+
+## Introduction: सस्ता दिखने वाला पैसा
+
+<|emotion:enthusiasm|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+पिछले episode में देव ने हर तरह के source गिनाए थे, और आज Paper six A का chapter four है, Cost of Capital, यानी उन sources की असली कीमत।
+<|emotion:amusement|>Tapri के नए loan पर bank बारह प्रतिशत interest माँग रहा था और preference shareholders दस प्रतिशत dividend, तो केसर ने preference को सस्ता मानकर deal पक्की कर दी।
+देव ने समझाया कि पच्चीस प्रतिशत tax पर interest का एक चौथाई taxman चुकाता है, इसलिए loan असल में नौ प्रतिशत का है, जबकि preference dividend दस ही रहता है।
+<|emotion:determination|>ICAI ने ये chapter बासठ documents में पूछा है, जिनमें सत्रह exam papers हैं, और आज के बाद आप debt, preference, equity, retained earnings और WACC के formulas बोलकर लिख पाएँगे।
+
+## Cost of debt and preference capital: interest पर tax की छूट
+
+<|emotion:contemplation|>ICAI के words में cost of capital is the return expected by the providers of capital, और इसे cut-off rate, hurdle rate या minimum rate of return भी कहते हैं।
+ICAI इस पर असर डालने वाले पाँच factors देता है, supply and demand, investor preferences, risk and return, inflation, और exchange rates।
+Issue पर underwriting, brokerage, legal, registration और printing के खर्चों का जोड़ floatation cost है, और issue price minus यही cost net proceeds है।
+Issue price न दिया हो तो current market price लीजिए, issue expenses न दिए हों तो zero, और existing debt के लिए current market price ही NP है।
+<|prosody:speed_slow|>Irredeemable debentures के लिए K d है I into one minus t, by NP, जहाँ I साल का interest है, t tax rate, और NP net proceeds या current market price।
+
+<|emotion:contemplation|>Interest tax-deductible है, इसलिए K d after-tax होता है, और interest face value पर लगता है, issue price या net proceeds पर नहीं।
+Redeemable debentures के approximation formula का numerator है I into one minus t, plus RV minus NP को n से divide करके, जहाँ RV redemption value है और n बची हुई life।
+Denominator RV और NP का average है, यानी RV plus NP by two।
+अगर discount और premium भी tax-deductible हों, तो पहले I में RV minus NP by n वाला हिस्सा जोड़िए, और फिर पूरे जोड़ को one minus t से multiply कीजिए।
+
+ICAI के words में yield to maturity is the annual return of an investment from the current date till maturity date।
+ये वो internal rate of return है जिस पर debt की current price उसके सारे cash flows के present value के बराबर हो जाती है।
+YTM में year zero पर net proceeds या existing debt की market price, एक से n साल तक I into one minus t, और year n पर redemption value आती है।
+<|emotion:determination|>Lower rate L और higher rate H पर NPV निकालिए, फिर NPV at L को दोनों NPVs के अंतर से divide करके H minus L से multiply कीजिए, और L में जोड़िए।
+ICAI YTM को approximation से superior मानता है, और दोनों trial rates जितने दूर हों, accuracy उतनी कम होती है।
+
+Zero coupon bond में कोई interest नहीं, इसलिए RV equals NP into one plus K d to the power n से K d निकलता है, यानी पूरा return discount से आता है।
+<|emotion:determination|>Convertible debenture में redemption value दो में से जो बड़ी हो वो है, cash value, या N into P zero into one plus g to the power n।
+यहाँ N shares per debenture हैं, P zero आज की share price और g उसकी growth rate, और फिर approximation या YTM लगाइए।
+Irredeemable preference का K p है P D by P zero, यानी preference dividend by net proceeds, और redeemable में वही approximation formula P D के साथ चलता है।
+<|emotion:contemplation|>Preference dividend after-tax profit से जाता है, इसलिए K p पर कोई tax adjustment नहीं होता, और tax holiday के दौरान debt को भी tax shield नहीं मिलता।
+
+## Cost of equity and retained earnings: free दिखने वाला सबसे महँगा पैसा
+
+<|emotion:amusement|>फिर केसर बोले कि equity पर जो चाहें दें, और रोका हुआ profit अपना है, दोनों free हैं, तो देव ने कहा free money has the longest invoice।
+K e वो return है जो equity shareholders expect करते हैं, और ये share price से balancing figure की तरह, या CAPM में risk से निकलता है।
+Dividend price approach में K e है D by P zero, जहाँ D expected dividend है और P zero ex-dividend market price, और ये dividend per share को हमेशा constant मानता है।
+Earnings price approach में K e है E by P, यानी EPS by market price, जो EPS को constant मानता है और dividend policy के बदलाव का असर nullify करता है।
+
+<|prosody:speed_slow|>Gordon के growth model में K e है D one by P zero, plus g, जहाँ g dividend की constant growth rate है।
+D one अगला expected dividend है, यानी D zero into one plus g, इसलिए पिछले साल का dividend पहले grow कीजिए।
+नए issue के लिए D one को P zero minus F से divide कीजिए और g जोड़िए, जहाँ F per share floatation cost है, और retained earnings पर F कभी नहीं लगता।
+Growth rate का पहला तरीका है D zero by D n का nth root, minus one, जहाँ D zero आज का dividend है और D n, n साल पहले का।
+दूसरा तरीका है b into r, जहाँ b retention rate है और r invested funds पर return।
+Realised yield approach में K e हर साल के yield का geometric mean है, या purchase price, dividends और sale price का IRR।
+
+<|emotion:determination|>CAPM में K e है R f plus beta into R m minus R f, जहाँ R f risk-free rate of return है।
+R m market portfolio का return है, और R m minus R f market risk premium है, जिसे beta से multiply किया जाता है।
+Beta सिर्फ़ systematic risk को price करता है, जो diversification से ख़त्म नहीं होता, जबकि unsystematic risk company-specific है और diversification से घट जाता है।
+<|emotion:contemplation|>Cost of retained earnings is the opportunity cost of dividends foregone by shareholders, यानी वो return जो वो खुद invest करके कमा सकते थे।
+इसलिए K r उन्हीं formulas से market price पर, बिना floatation cost के निकलता है, और normally K r, K e से थोड़ा कम होता है।
+Traps हैं cum-dividend price को P zero ले लेना, और beta को market return से multiply करना, premium से नहीं।
+
+## WACC and marginal cost of capital: पूरी थाली की कीमत
+
+<|emotion:amusement|>सारे costs देखकर केसर ने thali की सबसे सस्ती dish उठाई, कि debt सात दशमलव सात प्रतिशत का है, तो आठ प्रतिशत कमाने वाला हर café approve कर दो।
+देव ने याद दिलाया कि Tapri का कोई café सिर्फ़ debt से नहीं बनता, हर rupee उसी mix से आता है, तीस पैसे debt, दस preference और साठ equity।
+ICAI के words में WACC is the weighted average after-tax costs of the individual components of the firm's capital structure, जिसे overall cost of capital भी कहते हैं।
+<|prosody:speed_slow|>K o equals W e K e plus W r K r, यानी equity और retained earnings, plus W p K p plus W d K d, यानी preference और debt।
+हर W उस source का total capital में हिस्सा है, हर K उसकी after-tax cost, और weights का जोड़ हमेशा एक होता है।
+WACC सबसे सस्ते और सबसे महँगे source के बीच होनी चाहिए, और यही discount rate और hurdle rate है, जिससे ऊपर का return value बनाता है।
+
+<|emotion:contemplation|>Book value weights balance sheet के historical figures लेते हैं, आसान और stable हैं, और reserves equity के अंदर गिने जाते हैं।
+Market value weights हर security की संख्या into market price लेते हैं, current conditions दिखाते हैं और investors के लिए ज़्यादा relevant हैं, पर volatile होते हैं।
+Market value weights में equity की market value share capital और retained earnings के बीच उनकी book values के ratio में बाँटी जाती है, क्योंकि reserves की अपनी market price नहीं होती।
+<|emotion:determination|>Marginal cost of capital एक additional rupee जुटाने की cost है, जो marginal weights यानी नए funds के proportions से निकलती है, इसलिए वहाँ book या market का सवाल नहीं उठता।
+Component costs एक level के बाद बढ़ती हैं, तो average cost बढ़ती है और marginal cost उससे तेज़ बढ़ती है, और break point है cheaper source available by its proportion।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>ये chapter ज़्यादातर पाँच से आठ marks के numerical में आता है, जिसमें पहले K d, K p और K e, और आख़िर में market value WACC पूछी जाती है।
+Cost of equity में CAPM सबसे ज़्यादा आया है, फिर Gordon का model, और convertible debentures, YTM और WACC से उल्टा interest rate निकालने वाले सवाल भी बार-बार आए हैं।
+Theory में dividend price approach पर दो marks का सवाल दोहराया गया है, और debentures के features और cost of equity के चार methods भी पूछे गए हैं।
+
+<|emotion:contemplation|>Existing security के लिए NP issue price लें या market price, ICAI के answers दोनों लेते हैं, इसलिए जो basis लिया उसे एक line में लिख दीजिए।
+Life हमेशा costing की तारीख से बची हुई लीजिए, market values संख्या into price से निकालिए, और नया debt आने पर K e नई price पर दोबारा निकालिए।
+सस्ता नया debt भी WACC बढ़ा सकता है, क्योंकि financial risk बढ़ने से equity और पुराने debt दोनों की cost बढ़ सकती है।
+Answer में हर cost का working note, फिर source, amount, weight, after-tax cost और product वाली table, और आख़िर में WACC, यही ICAI का layout है।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: K d है I into one minus t, by NP, redeemable में average investment पर, और YTM interpolation से, जो approximation से बेहतर है।
+K p पर tax adjustment नहीं होता, K e Gordon में D one by P zero, plus g है, और CAPM में R f plus beta into market risk premium।
+K r dividends foregone की opportunity cost है, बिना floatation के, और WACC हर source की after-tax cost का weighted average है, जिसके weights का जोड़ एक है।
+Market value weights में equity का value book ratio में बँटता है, और marginal cost नए funds के proportions से निकलती है और break point के बाद ऊपर चढ़ती है।
+
+अगले episode में केसर पूछेंगे कि debt सस्ता है तो सारा पैसा loan से क्यों नहीं, यानी Paper six A का chapter five, Financing Decisions, Capital Structure।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

@@ -1,0 +1,14 @@
+{"t": 1792446856.149566, "step": "start", "note": "reading brief"}
+{"t": 1792448201.1603708, "step": "design", "note": "docs/ICAI_BANK.md: item model, ids, file format, build, app, marking, sittings, tools, transcription guide"}
+{"t": 1792449543.716444, "step": "schema", "note": "bank file format + validator (tools/buildlib/bank.py), sources vendored"}
+{"t": 1792449543.7704399, "step": "importer", "note": "build integration, tools/bank/seg.py + check.py (number multiset diff, word runs)"}
+{"t": 1792458163.939407, "step": "pilot", "note": "P4 RTP Sep 2026: 28 items (12 MCQ + 16 descriptive), 3 cases, 0 check errors"}
+{"t": 1792458164.012833, "step": "ui-bank", "note": "ICAI filters: kind, attempt, document, type, scheme, status, oos (scratch copy)"}
+{"t": 1792458164.0860941, "step": "ui-question", "note": "MCQ + descriptive card: answer box, ICAI's answer, Got it/Partly/Missed"}
+{"t": 1792458164.160528, "step": "ui-lesson", "note": "ICAI asked this block + practise link"}
+{"t": 1792458164.2368052, "step": "ui-paper", "note": "sittings: briefing, navigator, timer, self-marking, result"}
+{"t": 1792458164.3047092, "step": "selfgrade", "note": "grades feed notebook, SRS, mastery (Partly = half)"}
+{"t": 1792459880.324589, "step": "sm-import", "note": "1,476 SM items from 76 sm-qbank files: 69 docs imported, 7 draft; 1,231 tagged by sub-topic, 176 by chapter, 159 oos"}
+{"t": 1792462977.2262971, "step": "tests", "note": "node 1578/0 (bank.test.js 9), python test_bank 19/0, smoke 342/0 default + demo (scratch)"}
+{"t": 1792462977.2901042, "step": "docs", "note": "docs/ICAI_BANK.md: model, format, build, app, marking, sittings, tools, guide, SM import, batches, tests"}
+{"t": 1792465852.996267, "step": "report", "note": "live: build green, smoke 342/0 x2, node 1576/4 (4 content/CSS, not bank); report written"}

@@ -1,0 +1,19 @@
+{"t": 1792463707.369597, "step": "start", "note": ""}
+{"t": 1792464283.715392, "step": "fm.capbud.cashflows", "note": "2 rewritten (replacement example vs May 2024 Q3(a); block example vs SM 7.13 Example 2)"}
+{"t": 1792464460.6881669, "step": "fm.capbud.payback", "note": "1 rewritten (ARR versions example vs SM 7.23 Example 7)"}
+{"t": 1792464701.205438, "step": "fm.capbud.npv", "note": "2 rewritten (unequal-lives example vs SM Illustration 14; NPV/PI MCQ vs RTP Jan 2026 MCQ 2)"}
+{"t": 1792464929.4304729, "step": "fm.capbud.irr", "note": "2 rewritten (uniform-inflow IRR vs MTP May 2020/Nov 2023 Q1(c); IRR-backwards vans vs May 2025 Q3(a))"}
+{"t": 1792465081.892554, "step": "fm.capbud.rationing", "note": "1 rewritten (divisible/indivisible package vs Nov 2019 Q1(d))"}
+{"t": 1792465277.680555, "step": "fm.coc.debt", "note": "2 rewritten (four-source example vs May 2024 Q2(a); tax-holiday MCQ vs Sep 2026 MCQ 1)"}
+{"t": 1792465444.449749, "step": "fm.coc.equity", "note": "2 rewritten (realised yield vs SM Illustration 10 + two-peer CAPM vs RTP May 2026 Q5; cum-div MCQ vs Sep 2024 MCQ 7)"}
+{"t": 1792465715.174313, "step": "fm.coc.wacc", "note": "2 rewritten (new WACC after debt vs MTP S1 May 2025 Q2(a) family; MCC vs SM Illustration 18 / RTP May 2024 Q2)"}
+{"t": 1792465894.145018, "step": "fm.cs.ebiteps", "note": "1 rewritten (pref-dividend-from-indifference MCQ vs SM PP2 / MTP S2 May 2026 MCQ 7)"}
+{"t": 1792465936.415262, "step": "fm.cs.planning", "note": "0 rewritten (8 fine)"}
+{"t": 1792466429.947468, "step": "fm.cs.theories", "note": "3 rewritten (arbitrage vs SM Ill 7/May 2024 Q2(b); MM buyback vs RTP Dec 2021 Q3/May 2025 Q2(b); MM MCQ vs Sep 2025 MCQ 6)"}
+{"t": 1792466569.049746, "step": "fm.div.basics", "note": "0 rewritten (9 fine)"}
+{"t": 1792466902.976158, "step": "fm.div.models", "note": "3 rewritten (Walter sister companies vs SM 8 PP2; two-stage DDM vs SM 8 PP5/MTP Nov 2023; MM vs SM 8 PP7 family)"}
+{"t": 1792467329.048309, "step": "fm.lev.leverage", "note": "2 rewritten (balance-sheet leverages vs Jan 2025 Q1(b)/MTP S2 Sep 2026; wipe-out back-solve vs SM 6 PP5)"}
+{"t": 1792467427.9708512, "step": "fm.wc.basics", "note": "0 rewritten (7 fine)"}
+{"t": 1792467526.747666, "step": "fm.wc.estimate", "note": "0 rewritten (9 fine)"}
+{"t": 1792467580.255136, "step": "fm.wc.receivables", "note": "0 rewritten (8 fine)"}
+{"t": 1792467672.395968, "step": "report", "note": "23 near-copies rewritten in 12 lessons; 114 fine; report written"}

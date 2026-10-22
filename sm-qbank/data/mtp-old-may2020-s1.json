@@ -1,0 +1,569 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "May 2020",
+  "attempt_sort": "2020-05",
+  "series": "I",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SMNew-Q-MTP1-May-2020.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SM-New-A-MTP1-May-2020.pdf",
+  "local_file": "raw/mtp-old-may2020-s1-q.pdf",
+  "local_answers_file": "raw/mtp-old-may2020-s1-a.pdf",
+  "test_series": "May 2020",
+  "mock_test_paper_no": "1",
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series I for May 2020 (Test Series: May 2020, MOCK TEST PAPER 1) - the May 2020 exam was eventually cancelled but the MTP was published. ICAI originals (55077bos44257inter-p7-q.pdf / 55078bos44257inter-p7-a.pdf) now return 404; castudynotes.com mirror. Diagonal mirror watermark removed during extraction. Only Series I was published."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-may2020-s1-q1",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "Trepsico Trito Company is one of the most famous brands in food and beverages industry in the\nworld. It has seventeen food and beverage brands worth more than 100 crores. Trepsico Trito,\nCrisppy Chips (subsidiary), Tasty Chips (acquisition), Tangy (joint venture), Twisters (acquisition),\nand Threshold drink are just some of the household names that Trepsico Trito Company manages.\nTrepsico Trito’s mission is to provide consumers around the world with delicious, affordable,\nconvenient and complementary foods and beverages from wholesome breakfasts to healthy and\nfun daytime snacks and beverages to evening treats. Convenient F&B defines Trepsico Trito’s\nbusiness. Trepsico Trito’s vision is articulated as achieving business and financial success while\nleaving a positive imprint on society – delivering what it calls Performance with Purpose. For\nexample, Trepsico Trito India’s Agri program presently benefits over 24,000 farmers across 14\nstates through various Agri and sourcing initiatives. All the potato used in Crisppy Chips and Tasty\nChips is grown in India and sourced from Indian farmers. Through its 360-degree farmer connect\ninitiatives for potato cultivation, Trepsico Trito provides training and seed support, advanced plant\nprotection programs, and assured buy-back with reasonable returns. Besides backward integration\nwith farmers it has invested in cold storages along its supply chain. Since 2009 it has been Water\nPositive by conserving, utilising and managing this important resource in a sustainable manner.\nThe company is geographically diverse too. Trepsico Trito operates all around the world-only 50\nper cent of its sales come from the United States and Canada.\nGiven this breadth of business and market scope, Trepsico Trito faces a variety of strategic\nscenarios: capitalizing on scale advantage in its core brand where it is a global leader; building\nbusinesses in fast-developing and unpredictable markets, categories, and products more so on\naccount of shifts in consumer behaviour such as a greater focus on healthy living away from its\n“star” carbonated beverages and “cash cow” fried snacks businesses; the need for greater\nexperimentation and innovation, for example in new flavours of chips to create and capitalize on\nnewer sources of growth.\nIt is not inconceivable that Trepsico Trito’s different businesses at different times go through\ndifferent stages of strategy thus necessitating a portfolio approach to strategy formulation with\nreference to market /business growth and market share such as BCG Matrix. While it competes\nfiercely with Chilled drink in different countries, it proactively fosters strategic partnerships with\nquick service restaurants and multiplex players.\nBased on the above Case Scenario, answer the Multiple Choice Questions which are as follows:\n\nMatch the columns in respect of the following elements of the strategic intent and their descriptions: Column A Column B (i) Vision (a) Product-Market Configuration (ii) Business Model (b) The way business is conducted (iii) Business Definition (c) Aspiration for a desired future (iv) Mission (d) The scope of Business",
+   "options": [
+    {
+     "label": "a",
+     "text": "(i)-(a); (ii)-(b); (iii)-(c); (iv)-(d)"
+    },
+    {
+     "label": "b",
+     "text": "(i)-(b); (ii)-(c); (iii)-(d); (iv)-(a)"
+    },
+    {
+     "label": "c",
+     "text": "(i)-(c); (ii)-(b); (iii)-(d); (iv)-(a)"
+    },
+    {
+     "label": "d",
+     "text": "(i)-(d); (ii)-(c): (iii)-(b); (iv)-(a)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q2",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG matrix — the two dimensions (market growth and relative market share) → Ch 4",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nState the two dimensions implied by portfolio approach to strategy formulation in Trepsico Trito’s experiences are:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Vision and Mission"
+    },
+    {
+     "label": "b",
+     "text": "Food Business and Beverages Business"
+    },
+    {
+     "label": "c",
+     "text": "Market Growth and Relative Market Share"
+    },
+    {
+     "label": "d",
+     "text": "Performance and Purpose"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "bcg matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG growth-share matrix → Ch 4",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nThe business/ product portfolio classification implied by BCG Matrix comprises which of the following combinations?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Growth; Stability; Retrenchment; Turnaround"
+    },
+    {
+     "label": "b",
+     "text": "Weakness-Threat; Weakness-Opportunity; Strength-Opportunity; Strength-Threat"
+    },
+    {
+     "label": "c",
+     "text": "Cash-Cows; Stars; Question Marks; Dogs"
+    },
+    {
+     "label": "d",
+     "text": "Market Penetration; Product Development; Market Development; Diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "bcg matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q4",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through strategic alliance / joint venture → Ch 4",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich of the following may be cited as instances of collaborative approach/ strategic alliance Trepsico Trito follows in its strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Diversification from carbonated drinks to fruit juices"
+    },
+    {
+     "label": "b",
+     "text": "Diversification from fried to baked chips"
+    },
+    {
+     "label": "c",
+     "text": "Partnerships with quick service restaurants and multiplexes"
+    },
+    {
+     "label": "d",
+     "text": "Diversification into breakfast cereals"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic alliance"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q5",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level strategic choices → Ch 4",
+   "qno": "1(A)5",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich of the following is the most correct corporate level strategic alternative by the overall strategic direction evident from Trepsico Trito’s corporate strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Growth/Expansion strategy"
+    },
+    {
+     "label": "b",
+     "text": "Stability strategy"
+    },
+    {
+     "label": "c",
+     "text": "Retrenchment strategy"
+    },
+    {
+     "label": "d",
+     "text": "Turnaround strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic choices"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q6",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Human resource management has been accepted as a strategic partner in the formulation of organization’s strategies and in the implementation of such strategies through human resource planning, employment, training, appraisal and reward systems. Factors that influence on employee competence are: i. Recruitment and selection ii. Training iii. Appraisal of performance iv. Compensation",
+   "options": [
+    {
+     "label": "a",
+     "text": "i, ii & iii"
+    },
+    {
+     "label": "b",
+     "text": "ii, iii & iv"
+    },
+    {
+     "label": "c",
+     "text": "i, ii, iii & iv"
+    },
+    {
+     "label": "d",
+     "text": "iii & iv"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q7",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Perscopter, a manufacturer of private helicopter offers unique features that fullfill the demands of a narrow market. It competes in market based on its uniqueness and custom-oriented private helicopters. Perscopter provides limited number of high-end helicopters with ultimate features. Which business strategy is being followed by Perscopter?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Differentiation"
+    },
+    {
+     "label": "b",
+     "text": "Focused differentiation"
+    },
+    {
+     "label": "c",
+     "text": "Cost leadership"
+    },
+    {
+     "label": "d",
+     "text": "Focused cost leadership"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q8",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Which of the following is more radical organisation design and is also called as non-structure which virtually eliminates in-house business functions and outsources many of them?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Network structure"
+    },
+    {
+     "label": "b",
+     "text": "Strategic business unit"
+    },
+    {
+     "label": "c",
+     "text": "Hourglass structure"
+    },
+    {
+     "label": "d",
+     "text": "Simple structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q9",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Relationship marketing (strategic marketing techniques) → Ch 3",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "The process of creating, maintaining, and enhancing strong, value-laden relationships with customers and other stakeholder is:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Social marketing"
+    },
+    {
+     "label": "b",
+     "text": "Augmented marketing"
+    },
+    {
+     "label": "c",
+     "text": "Direct marketing"
+    },
+    {
+     "label": "d",
+     "text": "Relationship marketing"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "relationship marketing",
+    "strategic marketing techniques"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q10",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management process / stages → Ch 5",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Gennex industries are analyzing the technological forces for the firm which may provide it opportunities and threats for which of the following stage/s of strategic management process?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy formulation"
+    },
+    {
+     "label": "b",
+     "text": "Strategy implementation"
+    },
+    {
+     "label": "c",
+     "text": "Strategy evaluation"
+    },
+    {
+     "label": "d",
+     "text": "All of the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic management process"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q11",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — partly proactive, partly reactive → Ch 1",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Strategic management allows an organization to be more:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Authoritative"
+    },
+    {
+     "label": "b",
+     "text": "Participative"
+    },
+    {
+     "label": "c",
+     "text": "Commanding"
+    },
+    {
+     "label": "d",
+     "text": "Proactive"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "nature of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q12",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — strategy is not always perfect, flawless or optimal → Ch 1",
+   "qno": "1(H)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Which of the following is correct?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy is always pragmatic and not flexible"
+    },
+    {
+     "label": "b",
+     "text": "Strategy is not always perfect, flawless and optimal"
+    },
+    {
+     "label": "c",
+     "text": "Strategy is always perfect, flawless and optimal"
+    },
+    {
+     "label": "d",
+     "text": "Strategy is always flexible but not pragmatic"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "meaning of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q13",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic change / change management → Ch 5",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Dr. Raman has been running a nursing home for about twenty two years now, and has gained enormous\nname for his benevolence in Balram district of Chhattisgarh. Recently, his daughter, Dr. Radhika\ncompleted her medicine degree from the United States of America and returned to her hometown to be a\npart of her father’s practice. She has been given the baton to promote modern medicine and retain the\nlocal skilled youth in their practice. However, their nursing home’s skilled youth has been more inclined\nto E-Commerce employment opportunities. Dr. Radhika has taken it as a challenge to imbibe the very\nessence of service in them, by being employed as nurses and caretakers of the ill. This shall be very\ncrucial in growing the practice as desired. Which of the following phases of Kurt Lewin’s Model of\nChange will be most challenging for Dr. Radhika to strategically positioning her father’s nursing home?",
+   "options": null,
+   "answer": "Kurt Lewin’s Model of Change proposes three phases of change process to make the change lasting.\nThey are Compliance, Identification and Internalization.\nFor Dr. Radhika, Compliance and Identification will not a big challenge, as her father has been one of\nthe most sort after personalities serving the ill in their district. And her return from the USA to serve her\ncountry, especially her district, will help the workforce identify her as a role model and there would\nactually be no need for compliance, i.e. Reward and Punishment for bringing about a change.\nHowever, the new lucrative E-Commerce employment opportunities will have to be fought through\nInternalization, i.e. internal changing of the individual’s thought process, to give them freedom to learn\nand succeed. Thus, Internalization will be the most challenging phase.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic change"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q14",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What is a strategic business unit? What are its advantages?",
+   "options": null,
+   "answer": "A strategic business unit (SBU) is any part of a business organization which is treated separately\nfor strategic management purposes. The concept of SBU is helpful in creating an SBU\norganizational structure. It is discrete element of the business serving product markets with readily\nidentifiable competitors and for which strategic planning can be concluded. It is created by adding\nanother level of management in a divisional structure after the divisions have been grouped under\na divisional top management authority based on the common strategic interests.\nAdvantages of SBU are:\n♦ Establishing coordination between divisions having common strategic interests.\n♦ Facilitates strategic management and control on large and diverse organizations.\n♦ Fixes accountabilities at the level of distinct business units.\n♦ Allows strategic planning to be done at the most relevant level within the total enterprise.\n♦ Makes the task of strategic review by top executives more objective and more effective.\n♦ Helps allocate corporate resources to areas with greatest growth opportunities.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q15",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain the prominent areas where the human resource manager can play a strategic role.",
+   "options": null,
+   "answer": "Prominent areas where the Human Resource Manager can play strategic role are as follows:\n1. Providing purposeful direction: The human resource manager leads people and the\norganization towards the desired direction involving people. He can ensure harmony between\norganisational objectives and individual objectives.\n2. Creating competitive atmosphere: In the present business environment, maintaining\ncompetitive position or gains is an important objective of any business. Having a highly\ncommitted and competent workforce is very important for getting a competitively\nadvantageous position.\n3. Facilitation of change: The human resource manager will be more concerned about\nfurthering the organization not just maintaining it. He can devote more time to promote\nacceptance of change rather than maintaining the status quo.\n4. Managing workforce diversity: In a modern organization, management of diverse workforce\nis a great challenge. Workforce diversity can be observed in terms of male and female, young\nand old, educated and uneducated, unskilled and professional employee and so on.\nMotivation, maintaining morale and commitment are some of the key tasks that a HR manager\ncan perform.\n5. Empowerment of human resources: Empowerment involves giving more power to those\nwho, at present, have little control on what they do and little ability to influence the decisions\nbeing made around them.\n6. Building core competency: The human resource manager has an important role to play in\ndeveloping core competency of the firm. A core competence is a unique strength of an\norganization which may not be shared by others. Organization of business around core\ncompetence implies leveraging the limited resources of a firm.\n7. Development of works ethics and culture: A vibrant work culture will have to be developed\nin the organizations to create an atmosphere of trust among people and to encourage creative\nideas by the people.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q16",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Limitations of strategic management → Ch 1",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Are there any limitations attached to strategic management in organizations? Discuss.",
+   "options": null,
+   "answer": "The presence of strategic management cannot counter all hindrances and always achieve success.\nThere are limitations attached to strategic management. These can be explained in the following\nlines:\n♦ Environment is highly complex and turbulent. It is difficult to understand the complex\nenvironment and exactly pinpoint how it will shape-up in future. The organisational estimate\nabout its future shape may awfully go wrong and jeopardise all strategic plans.\n♦ Strategic management is a time-consuming process. Organisations spend a lot of time in\npreparing, communicating the strategies that may impede daily operations and negatively\nimpact the routine business.\n♦ Strategic management is a costly process. Strategic management adds a lot of expenses to\nan organization. Expert strategic planners need to be engaged, efforts are made for analysis\nof external and internal environments devise strategies and properly implement. These can\nbe really costly for organisations with limited resources.\n♦ In a competitive scenario, where all organisations are trying to move strategically, it is difficult\nto clearly estimate the competitive responses to a firm’s strategies.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "limitations"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q17",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Write a short note on the concept of competitive advantage.",
+   "options": null,
+   "answer": "Competitive advantage is the position of a firm to maintain and sustain a favorable market position\nwhen compared to the competitors. Competitive advantage is ability to offer buyers something\ndifferent and thereby providing more value for the money. It is achieved advantage over rivals when\na company’s profitability is greater than average profitability of firms in its industry. It is the result\nof a successful strategy. This position gets translated into higher market share, higher profits when\ncompared to those that are obtained by competitors operating in the same industry. Competitive\nadvantage may also be in the form of low cost relationship in the industry or being unique in the\nindustry along dimensions that are widely valued by the customers in particular and the society at\nlarge.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q18",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategic management — strategic decisions and the strategic manager → Ch 1",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "“Strategic decisions are different in nature than all other decisions.” In the light of this statement,\nexplain any three major dimensions of strategic decisions.",
+   "options": null,
+   "answer": "Decision-making is a managerial process and a function of choosing a particular course of action\nout of several alternative courses for the purpose of accomplishment of the organizational goals.\nStrategic decisions are different in nature than all other decisions which are taken at various levels\nof the organization during their day-to-day working. The major dimensions of strategic decisions\nare given below:\n1. Strategic issues require top-management decisions. Strategic issues involve thinking in\ntotality of the organizations and there is lot of risk involved.\n2. Strategic issues involve the allocation of large amounts of company resources - financial,\ntechnical, human etc.\n3. Strategic issues are likely to have a significant impact on the long-term prosperity of the firm.\n4. Strategic issues are future oriented.\n5. Strategic issues usually have major multifunctional or multi-business consequences.\n6. Strategic issues necessitate consideration of factors in the firm’s external environment.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q19",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Turnaround strategy → Ch 4 (strategic exits)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain in brief the reasons to adopt turnaround strategy.",
+   "options": null,
+   "answer": "Reasons to adopt Turnaround Strategy:\n1. Turnaround is needed when an enterprise's performance deteriorates to a point that it needs\na radical change of direction in strategy, and possibly in structure and culture as well.\n2. It is a highly targeted effort to return an organization to profitability and increase positive cash\nflows to a sufficient level.\n3. It is used when both threats and weaknesses adversely affect the health of an organization\nso much that its basic survival is difficult.\n4. The overall goal of turnaround strategy is to return an underperforming or distressed company\nto normalcy in terms of acceptable levels of profitability, solvency, liquidity and cash flow.\n5. To achieve its objectives, turnaround strategy must reverse causes of distress, resolve the\nfinancial crisis, achieve a rapid improvement in financial performance, regain stakeholder\nsupport, and overcome internal constraints and unfavourable industry characteristics.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "turnaround"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q20",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between cost leadership and differentiation strategies.",
+   "options": null,
+   "answer": "According to Porter, strategies allow organizations to gain competitive advantage from three\ndifferent bases: cost leadership, differentiation, and focus. Cost leadership emphasizes producing\nstandardized products at a very low per-unit cost for consumers who are price-sensitive.\nDifferentiation is a strategy aimed at producing products and services considered unique industry\nwide and directed at consumers who are relatively price-insensitive.\nA primary reason for pursuing forward, backward, and horizontal integration strategies is to gain\ncost leadership benefits. But cost leadership generally must be pursued in conjunction with\ndifferentiation. Different strategies offer different degrees of differentiation. A differentiation\n\nstrategy should be pursued only after a careful study of buyers’ needs and preferences to\ndetermine the feasibility of incorporating one or more differentiating features into a unique product.\nA successful differentiation strategy allows a firm to charge a higher price for its product and to\ngain customer loyalty.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2020-s1-q21",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Benchmarking — dropped from the 2023 syllabus (old Paper 7B Ch 8.8); no counterpart in current Paper 6B",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "“Firms can use benchmarking process to achieve improvement in diverse range of management\nfunctions.” Elucidate.",
+   "options": null,
+   "answer": "Benchmarking is a process of finding the best practices within and outside the industry to which an\norganisation belongs. Knowledge of the best practices helps in setting standards and finding ways\nto match or even surpass own performances with the best performances.\nBenchmarking is a process of continuous improvement in search for competitive advantage. Firms\ncan use benchmarking process to achieve improvement in diverse range of management function\nsuch as mentioned below:\n| • | Maintenance operations, |\n| --- | --- |\n| • | Assessment of total manufacturing costs, |\n| • | Product development, |\n| • | Product distribution, |\n| • | Customer services, |\n| • | Plant utilisation levels; and |\n| • | Human resource management. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "benchmarking"
+   ]
+  }
+ ]
+}

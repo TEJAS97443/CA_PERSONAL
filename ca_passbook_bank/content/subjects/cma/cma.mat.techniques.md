@@ -1,0 +1,499 @@
+---
+id: cma.mat.techniques
+title: ABC, FSN, HML, VED, JIT and perpetual inventory
+minutes: 28
+needs: cma.mat.levels
+tags: ABC analysis, FSN, VED, HML, just in time, perpetual inventory, continuous stock verification, two bin system
+labs:
+summary: Four ways to sort stock so that control goes where it matters (value, movement, criticality, unit price), the demand-pull JIT system, and the physical controls behind the records.
+---
+
+## In plain words
+
+### Guarding the stirrers, losing the cardamom
+
+Tapri's central store in Indore holds everything from Assam tea to wooden stirrers. Ramesh, the storekeeper, is proud of it.
+
+> **Ramesh:** Fifty thousand stirrers, forty thousand paper cups, all counted every morning. Nothing goes missing on my watch.
+> **Ritu:** And the cardamom sacks by the loading door, the ones that got damp in the rain?
+> **Ramesh:** Only a few sacks, madam. The bulk items are what fill the store.
+> **Ritu:** The stirrers are worth ₹30,000. Those "few sacks" are part of ₹3,00,000. Per rupee, please, not per piece.
+
+Ramesh controls by bulk; Ritu wants control by value. That is **ABC analysis**: rank items by the money tied up in them. A handful of "A" items usually hold most of the value and get tight control; a long tail of "C" items gets light control; "B" sits in between.
+
+A store can also be sorted by how fast an item moves (fast, slow or non-moving: **FSN**), by how badly production suffers if it runs out (vital, essential or desirable: **VED**), or by the price of one unit (high, medium or low: **HML**). Or it can be emptied: under **Just in Time (JIT)** Tapri buys gift-box ribbon only when a Diwali order arrives. And the records need guarding too: **perpetual inventory** keeps bin cards and the stores ledger up to date, and **continuous stock verification** checks a few items every day, by surprise, against them.
+
+::: analogy The household budget
+Nobody tracks matchboxes the way they track the rent and the school fees (ABC). The medicine cabinet is sorted differently: the asthma inhaler must never run out, the cough sweets can (VED). And the cook who buys vegetables only after fixing tonight's menu runs JIT.
+:::
+
+::: key
+Each technique sorts stock on its own basis so that control effort goes where it matters: ABC by value, FSN by movement, VED by criticality, HML by unit price. JIT removes stock by letting demand pull material in. Perpetual inventory with continuous stock verification keeps the records true.
+:::
+
+## How it works
+
+### Four ways to control inventory
+
+ICAI defines inventory control (after CIMA) as "the function of ensuring that sufficient goods are retained in stock to meet all requirements without carrying unnecessarily large stocks" (SM 2.21). Management may control it on four bases (SM 2.22):
+
+::: diagram The four bases of inventory control (SM 2.22)
+{"type": "layers", "layers": [
+  {"label": "By setting quantitative levels", "note": "re-order level, EOQ, maximum, minimum, danger level", "right": "when and how much"},
+  {"label": "On the basis of relative classification", "note": "ABC, FSN, VED, HML", "right": "where to look"},
+  {"label": "Using ratio analysis", "note": "input-output ratio, inventory turnover", "right": "how well it moves"},
+  {"label": "Physical control", "note": "two bin, budgets, perpetual inventory, stock verification", "right": "what is really there"}],
+ "caption": "This lesson covers relative classification, JIT and physical control; the levels, EOQ and ratios have their own lessons."}
+:::
+
+Levels and the re-order quantity are in [[cma.mat.levels|stock levels]] and [[cma.mat.eoq|EOQ]]; the ratios in [[cma.mat.ratios|inventory turnover ratios]].
+
+### Relative classification: four questions, four sortings
+
+The Study Material's one-line bases (SM 2.35): ABC on the value and frequency of inventory; FSN on inventory turnover; VED on the importance of inventory; HML on the price of an item of inventory.
+
+**ABC analysis** "exercises discriminating control over different items of inventory on the basis of the investment involved" (SM 2.35). The Study Material's typical split (SM 2.36):
+
+- **A**: about 10% of the items, about 70% of the inventory value, because of high prices or heavy requirement or both. Controlled by a regular system that plans total requirements through budgets and fixes maximum, minimum and re-order levels.
+- **B**: about 20% of the items, about 20% of the value. Orders placed after reviewing the situation periodically.
+- **C**: about 70% of the items, about 10% of the value. No constant control; orders placed once in six months or a year, after ascertaining requirements, to economise on ordering and handling costs.
+
+::: diagram ABC: a few items, most of the money
+{"type": "plot", "h": 280, "x": [0.4, 3.6], "y": [0, 80],
+ "xticks": [[1, "A items"], [2, "B items"], [3, "C items"]],
+ "yticks": [0, 10, 20, 40, 60, 70, 80], "ylabel": "% of total", "legend": "top-right",
+ "series": [
+  {"label": "% of items", "bars": true, "bw": 0.32, "values": true, "color": "e", "pts": [[0.82, 10], [1.82, 20], [2.82, 70]]},
+  {"label": "% of inventory value", "bars": true, "bw": 0.32, "values": true, "color": "a", "pts": [[1.18, 70], [2.18, 20], [3.18, 10]]}
+ ],
+ "caption": "The Study Material's typical shares (SM 2.36). Sky blue: share of the items; blue: share of the value. A and C are mirror images, and the thresholds in a question are management's."}
+:::
+
+The steps of an ABC plan, as ICAI's answers lay them out:
+
+::: steps
+1. Total cost of each item (units × unit cost), and its % of total units and of total cost.
+2. **Rank** the items by total cost, highest first.
+3. Put each item in A, B or C by the basis of selective control the question gives (a ₹ range or a % of total cost).
+4. Present the **plan of ABC selective control**: items in rank order, with a total line for each category.
+:::
+
+**Advantages of ABC analysis** (SM 2.39):
+
+1. **Continuity in production**: no danger of interruption for want of materials, with minimum investment in inventories.
+2. **Lower cost**: the cost of placing orders, receiving goods and maintaining stocks is minimised, especially if coupled with proper economic order quantities.
+3. **Less attention required**: management time is saved, since attention is paid only to some of the items.
+4. **Systematic working**: much of the purchase work can be systematised on a routine basis and handled by subordinate staff.
+
+**FSN** (also called FNS: fast, normal and slow moving) classifies on frequency of usage, with a threshold range of inventory turnover decided by management (SM 2.40–2.41). **Fast moving**: placed nearer the store issue point, reviewed frequently for fresh orders. **Slow moving**: stored a little far, reviewed periodically for obsolescence, may be shifted to non-moving. **Non-moving**: kept for disposal, reported to management; an appropriate provision for loss may be created.
+
+**VED** classifies on criticality for the production function and the final product, generally for **spare parts** (SM 2.41–2.42). **Vital**: unavailability can interrupt production and cause a production loss; strictly controlled by setting a re-order level. **Essential**: essential but not vital; unavailability may cause sub-standardisation and loss of efficiency; reviewed periodically, second priority. **Desirable**: optional; unavailability causes no production or efficiency loss. In a hospital, life-saving, rare and critical drugs are vital (SM 2.42).
+
+**HML** classifies on the cost of an individual item, "unlike ABC analysis where inventories are classified on the basis of overall value of inventory"; high-cost items get more priority (SM 2.42). With Tapri's ranges of ₹1,000 a unit and above (H) and below ₹50 (L), cardamom at ₹2,400 a kg is H, and a ₹6 kulhad is L even though 30,000 kulhads are a B item by value.
+
+### Slow-moving and non-moving stores
+
+Reasons (SM 2.41): (i) failure of production management to communicate the updated requirement to the stores; (ii) technological upgradation (a new machine needs new material, or the material becomes obsolete); (iii) lack of periodic review of inventories. Remedies: timely identification, a minimum level or JIT, and turnover ratios reported against standards.
+
+ICAI's suggested answer to "How is slow moving and non-moving item of stores detected and what steps are necessary to reduce such stocks?" (MTP May 2024 Series II Q4(b); also MTP January 2025 Series II Q6(c)):
+
+- **Detection**: (i) preparing and perusing periodic reports showing the status of different items of stores; (ii) calculating the inventory turnover period of various items in terms of number of days or months of consumption; (iii) computing the inventory turnover ratio periodically, relating issues as a percentage of average stock held; (iv) implementing a well-designed information system.
+- **Steps to reduce them**: (i) lay down proper procedure and guidelines for the disposal of non-moving items before they deteriorate further in value; (ii) diversify production to use up such materials; (iii) use these materials as substitutes in place of other materials.
+
+### Just in Time: let the order pull the material
+
+JIT "is a system of inventory management with an approach to have zero inventories in stores. According to this approach material should only be purchased when it is actually required for production" (SM 2.35). It is based on two principles: (i) produce goods only when it is required, and (ii) the products should be delivered to customers at the time only when they want. It is also known as the **'Demand pull' or 'Pull through' system** of production: production starts after the order for the products is received.
+
+::: diagram JIT: the demand pulls the material (SM 2.35)
+{"type": "flow", "w": 420, "nodes": [
+  {"id": "a", "kind": "start", "label": "Demand for the\nfinal product"},
+  {"id": "b", "kind": "process", "label": "Production starts to\nprocess the demand"},
+  {"id": "c", "kind": "process", "label": "Requirement sent to\npurchase department"},
+  {"id": "d", "kind": "process", "label": "Order for raw materials\nsent to the supplier"},
+  {"id": "e", "kind": "end", "label": "Supplier sends material\nfor production"}],
+ "edges": [["a", "b"], ["b", "c"], ["c", "d"], ["d", "e"]],
+ "caption": "Nothing moves until a customer orders: the opposite of producing to stock and buying to a re-order level."}
+:::
+
+### Physical control: the records and the shelves
+
+The fourth basis keeps the stock itself under control (SM 2.45–2.47):
+
+- **Two bin system.** Each bin is divided into two parts: (I) a smaller part to stock the quantity equal to the minimum stock or even the re-ordering level, and (II) the other part to keep the remaining quantity. Issues are made out of the larger part; as soon as it becomes necessary to use quantity out of the smaller part, a fresh order is placed. The two bin system is supplemental to the record of quantities on the bin card and the stores ledger card.
+- **Establishment of a system of budgets.** To control investment in inventories, the exact quantity of each type of inventory and the time it is required are found by studying production plans and production schedules; an inventories requirement budget prepared on this basis discourages unnecessary investment in inventories.
+- **Perpetual inventory records and continuous stock verification**, below.
+
+**Perpetual inventory** "represents a system of records maintained by the stores department"; it comprises (i) bin cards and (ii) the stores ledger (SM 2.45). Its success depends on the steps in the flow below:
+
+::: diagram Perpetual inventory: what its success depends on (SM 2.45)
+{"type": "flow", "w": 420, "nodes": [
+  {"id": "a", "kind": "process", "label": "(a) Stores ledger and\n(b) bin cards"},
+  {"id": "c", "kind": "process", "label": "(c) Reconcile the\nquantity balances"},
+  {"id": "d", "kind": "process", "label": "(d) Check some items\nevery day, by rotation"},
+  {"id": "q", "kind": "decision", "label": "Physical = book?"},
+  {"id": "e", "kind": "process", "label": "(e) Explain the\ncauses promptly"},
+  {"id": "f", "kind": "process", "label": "(f) Make corrective\nentries"},
+  {"id": "g", "kind": "end", "label": "(g) Remove\nthe causes"}],
+ "edges": [["a", "c"], ["c", "d"], ["d", "q"], ["q", "d", "yes"], ["q", "e", "no"], ["e", "f"], ["f", "g"]],
+ "caption": "How a discrepancy is valued and charged (normal or abnormal) is in the lesson on stock discrepancies."}
+:::
+
+**Continuous stock verification** is the physical verification of items, which may be done by the internal audit department, independent of the store and production staff, at appropriate intervals and ==without prior notice==: "the element of surprise is essential" (SM 2.46). It is a part of perpetual inventory (SM 2.77, 2.85). Valuing and booking the differences it finds is in [[cma.mat.ratios|stock discrepancies]].
+
+### Annual stock-taking against continuous stock-taking
+
+Annual stock-taking must cover all items in a given number of days: production shuts down, or the check is of a limited character (SM 2.46). **Continuous stock-taking** has these advantages (SM 2.47); who verifies, and how, is in [[cma.mat.procure|stock verification]]:
+
+1. Closure of normal functioning is not necessary.
+2. Stock discrepancies are likely to be noticed and corrected much earlier.
+3. It has a sobering influence on the stores staff because of the element of surprise.
+4. The stores auditor can watch the movement of items more closely, so the chances of obsolescence buying are reduced.
+5. Final accounts can be ready quickly, and interim accounts are possible quite conveniently.
+
+The **advantages of perpetual inventory** (SM 2.46):
+
+1. Physical stocks can be counted and book balances adjusted as and when desired, without waiting for the entire stock-taking to be done.
+2. Quick compilation of the Profit and Loss Account for an interim period, due to prompt availability of stock figures.
+3. Discrepancies are easily located, so corrective action can be taken promptly to avoid their recurrence.
+4. A systematic review reveals the existence of surplus, dormant, obsolete and slow-moving materials, so that remedial measures may be taken in time.
+5. Fixing the various stock levels and checking actual balances against them helps the storekeeper keep stocks within limits and raise purchase requisitions for the correct quantity at the appropriate time.
+
+## Formats and formulas
+
+*Reproduce both statements from memory: the column headings carry marks.*
+
+### Statement of total cost and ranking
+
+On paper ICAI's statement has seven columns: Item, Units, % of total units, Unit cost (₹), Total cost (₹), % of total cost, Ranking (SM 2.37). Here it is in two halves:
+
+| Item | Units | % of total units | Unit cost (₹) |
+|---|---:|---:|---:|
+| 1 | xxx | xx.xx | xx |
+| … | … | … | … |
+| **Total** | **xxx** | **100** | |
+
+| Item | Total cost (₹) | % of total cost | Ranking |
+|---|---:|---:|---:|
+| 1 | xxx | xx.xx | x |
+| … | … | … | … |
+| **Total** | **xxx** | **100** | |
+
+### Plan of ABC selective control
+
+State the basis first ("₹ 50,000 & above: 'A' items …"), then:
+
+| Ranking: item | % of total units | Cost (₹) | % of total cost |
+|---|---:|---:|---:|
+| 1: item … | xx.xx | xxx | xx.xx |
+| 2: item … | xx.xx | xxx | xx.xx |
+| **Total A (n items)** | **xx.xx** | **xxx** | **xx.xx** |
+| … B items, then **Total B** | | | |
+| … C items, then **Total C** | | | |
+| **Grand total** | **100** | **xxx** | **100** |
+
+ICAI writes the category in a last column next to each total line; here the total line names it.
+
+## Worked examples
+
+::::: example Ramesh's store: a plan of ABC selective control
+Tapri's central store gives you the following for 2025-26. Ramesh says he takes great care of items 7 and 10 because they fill the store, and that "only a little" of items 1 and 3 was damaged by rain.
+
+| Item | Material | Units | Unit cost (₹) |
+|---|---|---:|---:|
+| 1 | Assam CTC tea (kg) | 6,000 | 200.00 |
+| 2 | Milk powder (kg) | 3,000 | 200.00 |
+| 3 | Cardamom (kg) | 125 | 2,400.00 |
+| 4 | Kulhads | 30,000 | 6.00 |
+| 5 | Sugar (kg) | 4,000 | 42.00 |
+| 6 | Saffron (g) | 400 | 300.00 |
+| 7 | Paper cups | 40,000 | 1.20 |
+| 8 | Masala sachets | 20,000 | 2.50 |
+| 9 | Napkin packs | 4,100 | 11.00 |
+| 10 | Stirrers | 50,000 | 0.60 |
+
+**Required:** Rank the items and draw a plan of ABC selective control on this basis: ₹2,00,000 and above, 'A' items; ₹60,000 to ₹2,00,000, 'B' items; below ₹60,000, 'C' items. Comment on Ramesh's claim.
+
+:::: answer Show the working
+**Statement of total cost and ranking**
+
+| Item | Units | % of total units | Unit cost (₹) |
+|---|---:|---:|---:|
+| 1 | 6,000 | 3.81 | 200.00 |
+| 2 | 3,000 | 1.90 | 200.00 |
+| 3 | 125 | 0.08 | 2,400.00 |
+| 4 | 30,000 | 19.03 | 6.00 |
+| 5 | 4,000 | 2.54 | 42.00 |
+| 6 | 400 | 0.25 | 300.00 |
+| 7 | 40,000 | 25.38 | 1.20 |
+| 8 | 20,000 | 12.69 | 2.50 |
+| 9 | 4,100 | 2.60 | 11.00 |
+| 10 | 50,000 | 31.72 | 0.60 |
+| **Total** | **1,57,625** | **100.00** | |
+
+| Item | Total cost (₹) | % of total cost | Ranking |
+|---|---:|---:|---:|
+| 1 | 12,00,000 | 43.78 | 1 |
+| 2 | 6,00,000 | 21.89 | 2 |
+| 3 | 3,00,000 | 10.94 | 3 |
+| 4 | 1,80,000 | 6.57 | 4 |
+| 5 | 1,68,000 | 6.13 | 5 |
+| 6 | 1,20,000 | 4.38 | 6 |
+| 7 | 48,000 | 1.75 | 8 |
+| 8 | 50,000 | 1.82 | 7 |
+| 9 | 45,100 | 1.65 | 9 |
+| 10 | 30,000 | 1.09 | 10 |
+| **Total** | **27,41,100** | **100.00** | |
+
+**Plan of ABC selective control**
+
+| Ranking: item | % of total units | Cost (₹) | % of total cost |
+|---|---:|---:|---:|
+| 1: item 1 | 3.81 | 12,00,000 | 43.78 |
+| 2: item 2 | 1.90 | 6,00,000 | 21.89 |
+| 3: item 3 | 0.08 | 3,00,000 | 10.94 |
+| **Total A (3 items)** | **5.79** | **21,00,000** | **76.61** |
+| 4: item 4 | 19.03 | 1,80,000 | 6.57 |
+| 5: item 5 | 2.54 | 1,68,000 | 6.13 |
+| 6: item 6 | 0.25 | 1,20,000 | 4.38 |
+| **Total B (3 items)** | **21.82** | **4,68,000** | **17.08** |
+| 7: item 8 | 12.69 | 50,000 | 1.82 |
+| 8: item 7 | 25.38 | 48,000 | 1.75 |
+| 9: item 9 | 2.60 | 45,100 | 1.65 |
+| 10: item 10 | 31.72 | 30,000 | 1.09 |
+| **Total C (4 items)** | **72.39** | **1,73,100** | **6.31** |
+| **Grand total (10 items)** | **100.00** | **27,41,100** | **100.00** |
+
+::: diagram Ramesh's store, ranked: cumulative share of value against share of units
+{"type": "plot", "h": 300, "x": [0, 100], "y": [0, 100], "xlabel": "cumulative % of units (items in rank order)", "ylabel": "cumulative % of value",
+ "xticks": [0, 20, 40, 60, 80, 100], "yticks": [0, 20, 40, 60, 76.61, 100], "legend": "none",
+ "series": [{"label": "ranked items", "pts": [[0, 0], [3.81, 43.78], [5.71, 65.67], [5.79, 76.61], [24.82, 83.18], [27.36, 89.31], [27.61, 93.69], [40.3, 95.51], [65.68, 97.26], [68.28, 98.91], [100, 100]], "color": "a", "dots": true}],
+ "areas": [
+  {"under": 0, "from": 0, "to": 5.79, "color": "d", "label": "A"},
+  {"under": 0, "from": 5.79, "to": 27.61, "color": "c", "label": "B"},
+  {"under": 0, "from": 27.61, "to": 100, "color": "mute", "label": "C"}],
+ "caption": "Orange band: the three A items, 5.79% of the units and 76.61% of the value. Amber band: B items. Grey band: the C items, 72.39% of the units for the last 6.31% of the value."}
+:::
+
+**Comment.** Items 7 and 10, which Ramesh guards, are C items: 57.10% of the units but under 3% of the value. Items 1 and 3, damaged "only a little", are A items worth 54.72% of the value. His care is upside down: A items need protected storage, budgets and fixed stock levels; C items can be bought once in six months or a year.
+::::
+:::::
+
+:::: example Spare parts by the thousand: classify with reasons
+Tapri's cold-chain workshop stocks 2,400 varieties of spare parts:
+
+| Number of varieties | % of varieties | % of average inventory value | % of usage |
+|---:|---:|---:|---:|
+| 2,160 | 90.0 | 8 | 4 |
+| 192 | 8.0 | 22 | 16 |
+| 48 | 2.0 | 70 | 80 |
+| **2,400** | **100.0** | **100** | **100** |
+
+**Required:** Classify the varieties as per ABC analysis, with reasons.
+
+::: answer Show the working
+1. **48 varieties: 'A' category**, because they (i) are only 2% of the varieties handled by the store, the smallest share; (ii) hold 70% of the average value of inventory, the largest share; and (iii) are highest in consumption, 80% of usage.
+2. **192 varieties: 'B' category**, because they (i) are 8% of the varieties; (ii) need a moderate investment, 22% of the average inventory value; and (iii) are moderate in consumption, 16% of usage.
+3. **2,160 varieties: 'C' category**, because they (i) are 90% of the varieties; (ii) hold only 8% of the average inventory value; and (iii) are the lowest in consumption, 4% of usage.
+
+The layout follows the Study Material's Illustration 9 (SM 2.40): each category, then three reasons (share of items, share of value, share of consumption).
+:::
+::::
+
+:::: example Kesar's spare parts: vital, essential or desirable?
+The samosa factory's maintenance store holds: (a) a compressor for the blast freezer, with no substitute and a three-week import lead time; (b) a spare belt for the packing conveyor (if it fails, packing continues by hand at half speed); (c) an LED display panel for the visitors' lobby; (d) gaskets for a freezer model scrapped last year, untouched for 14 months; and (e) printer ribbons for the batch-coding machine, issued every day. Kesar wants "the same control for everything".
+
+Advise the factory on classifying these items and the control each needs.
+
+::: answer Model answer
+**Basis.** Under VED analysis, inventories are classified on the basis of their criticality for the production function and the final product; generally this classification is done for spare parts. Under FSN analysis, inventories are classified on the basis of frequency of usage (inventory turnover) (SM 2.40–2.42).
+
+**Classification and control.**
+
+| Item | Class | Reason | Control |
+|---|---|---|---|
+| (a) Freezer compressor | Vital | Unavailability stops production | Strictly controlled by a re-order level |
+| (b) Conveyor belt | Essential | Loss of efficiency, not a stoppage | Reviewed periodically; second priority |
+| (c) Lobby LED panel | Desirable | Optional: no production or efficiency loss | Lowest priority, after vital and essential |
+| (d) Old gaskets | Non-moving | No issues in 14 months; machine scrapped | Keep for disposal, report to management, provide for loss |
+| (e) Printer ribbons | Fast moving | Issued daily | Near the issue point; reviewed frequently |
+
+**Conclusion.** Uniform control is not advisable: it spends as much effort on the lobby panel as on the compressor whose absence stops the factory. Apply VED to the spare parts and FSN to all items, with control in proportion to criticality and movement.
+:::
+::::
+
+## Under the hood
+
+### Two ABCs
+
+ABC analysis of inventory is not **Activity Based Costing**. An MTP asks for "the total cost of Product A and B using the ABC analysis" and means activity based costing (MTP May 2024 Series II MCQ 4). Units and unit costs mean inventory; cost pools and drivers mean [[cma.abc.concept|activity based costing]].
+
+## Exam angle
+
+::: exam Where these techniques appeared, May 2024 to September 2026
+In the ICAI documents read for this lesson:
+
+- **ABC plan, 8 marks**: rank eight materials and draw the plan on a ₹ basis, with a storekeeper who "has taken proper care" of the bulk items while a few units of valuable ones deteriorated (September 2025 Q5(a)).
+- **JIT, 5 marks**: "Which system of inventory management is known as 'Demand Pull' or 'Pull through' system of production? Explain. Also, specify the two principles on which this system is based." (May 2026 Q6(a)).
+- **Slow and non-moving stores, 4 marks**: "HOW is slow moving and non-moving item of stores detected and WHAT steps are necessary to reduce such stocks?" (MTP May 2024 Series II Q4(b)); the same as a scenario, "HOW would you identify slow-moving and non-moving items, and WHAT strategies would you implement" (MTP January 2025 Series II Q6(c)).
+- The chapter's own theory questions ask for ABC as a technique of inventory control, the detection and reduction of slow-moving and non-moving stores, and a short note on JIT (SM 2.78).
+- **Old scheme**: an ABC plan on % of total inventory cost (July 2021 Q1(a), 5 marks); a short note on VED, on which the examiners found performance "below average" (July 2021 Q6(e)); JIT in the May 2026 words (November 2022 Q6(a)); "Under VED analysis, inventories are classified on the basis of cost of individual items", true or false (false; November 2023 Q6(b)(ii)).
+:::
+
+::: exam What the suggested answers do
+- ABC: the "Statement of Total Cost and Ranking", the basis restated, then the plan with a total line per category (September 2025 Q5(a); SM 2.37–2.39). A % basis that leaves the B band implicit is filled in ("7% to 14%", July 2021 Q1(a)).
+- JIT: the definition, "production process actually starts after the order for the products is received", and the two principles, numbered (May 2026 Q6(a)).
+:::
+
+::: trick One word per technique
+**A**BC = **A**mount (value). **F**SN = **F**requency (movement). **V**ED = **V**ital to production (criticality). **H**ML = **H**ow much one unit costs (unit price). Condition: these are memory hooks for the basis only; write ICAI's full basis in the answer.
+:::
+
+## Answer frame
+
+### "Explain the concept of ABC analysis as a technique of inventory control"
+
+1. Basis: discriminating control over different items of inventory on the basis of the investment involved; categories by relative importance, their value and frequency of replenishment.
+2. A: about 10% of items, about 70% of value; controlled by budgets and maximum, minimum and re-order levels.
+3. B: about 20% of items, about 20% of value; orders after periodic review.
+4. C: about 70% of items, about 10% of value; no constant control; orders once in six months or a year, to economise on ordering and handling costs.
+5. The four advantages: continuity in production, lower cost, less attention required, systematic working.
+6. A one-line example or a sketch of items against value.
+
+### "Which system is known as demand pull? Explain, and state its two principles" (5 marks)
+
+1. Name it: Just in Time (JIT) inventory management, the 'Demand pull' or 'Pull through' system.
+2. ICAI's definition: zero inventories in stores; material purchased only when actually required for production.
+3. Working: production starts after the order for the products is received; the material requirement then goes to the purchase department.
+4. The two principles, numbered, in ICAI's words.
+5. The five-box chain from demand to supplier.
+
+### Distinguish ABC and HML (or VED)
+
+| Point | ABC | HML | VED |
+|---|---|---|---|
+| Basis | Investment involved: the overall value of the item's inventory, and frequency of replenishment | Cost of an individual item, by a range of cost | Criticality for the production function and the final product; generally for spare parts |
+| Categories | A, B, C | High, medium, low cost | Vital, essential, desirable |
+| Priority and control | A: budgets and maximum, minimum and re-order levels; B: periodic review; C: orders once in six months or a year | High-cost items get more priority; medium and low cost, less | Vital: strictly controlled by a re-order level; essential: periodic review, second priority |
+
+### Three answers to "Write a short note on VED analysis"
+
+::: cols
+**Loses marks**
+
+"VED classifies stock on cost: very expensive, expensive, desirable."
+
+The basis is wrong: the very statement ICAI set as a true-or-false trap (November 2023).
+---
+**Passes**
+
+"Vital, Essential and Desirable: items classified by their importance for production."
+
+Basis right; no meaning of each class, no control, no field of use.
+---
+**Full marks**
+
+The basis (criticality for the production function and the final product), generally used for spare parts; each class with its effect on production and its control; the hospital example.
+:::
+
+## Common mistakes
+
+::: mistake Hall of Shame: ABC ranked by the number of units
+Ranking by units makes 50,000 stirrers the top item. **Fix:** rank by total cost (units × unit cost). The % of units column is shown to prove the point that A items are few, not to rank them.
+:::
+
+::: mistake ABC and HML swapped
+Classifying cardamom as an A item "because it costs ₹2,400 a kg". **Fix:** ABC uses the item's total inventory value; a high unit price makes it H under HML. In the example cardamom is A only because 125 kg × ₹2,400 = ₹3,00,000 crosses the ₹2,00,000 limit.
+:::
+
+::: mistake VED on cost
+**Fix:** VED is on criticality for production; a cheap seal without which the freezer stops is vital, an expensive lobby panel is desirable.
+:::
+
+::: mistake Perpetual inventory confused with annual stock-taking
+**Fix:** perpetual inventory is the continuously updated records (bin cards and stores ledger), checked by continuous stock verification of a few items daily, by surprise; annual stock-taking counts everything once and is what it replaces.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: A store has four items: P, 2,000 units at ₹150; Q, 500 units at ₹900; R, 12,000 units at ₹5; S, 300 units at ₹40. The basis is: ₹2,00,000 and above, A; ₹50,000 to ₹2,00,000, B; below ₹50,000, C. What is the total cost of the A items, in rupees?
+= 750000
+> Values: P ₹3,00,000; Q ₹4,50,000; R ₹60,000; S ₹12,000. A = P + Q = ₹7,50,000 (of ₹8,22,000, 91.24%). R is B, S is C. Ranking by units would wrongly put R first.
+
+Q: Case scenario. At Tapri's Nagpur depot, the storekeeper counts the 80,000 paper napkins (₹40,000 in all) every day, while the four drums of saffron extract (₹6,00,000) are checked once a year. The depot's total inventory is ₹9,00,000. Ritu introduces ABC analysis. Which of the following is correct?
+- [ ] The napkins are A items, because they are the largest share of the units
+- [x] The saffron extract is an A item and needs budgets and fixed stock levels; the napkins are C items needing little control
+- [ ] Both are B items, because ABC looks at value and frequency together
+- [ ] The saffron extract is an H item under ABC because of its high unit price
+> The saffron is 66.7% of the value in four units: A, with tight control. The napkins are 4.4% of the value: C. Units do not decide ABC, and "H" belongs to HML, not ABC.
+
+Q: Under VED analysis, inventories are classified on the basis of:
+- [ ] The cost of an individual item
+- [ ] The frequency of usage
+- [x] Their criticality for the production function and the final product
+- [ ] The value of the inventory held
+> Cost of one item is HML, frequency of usage is FSN, value is ABC. VED is criticality, generally for spare parts.
+
+Q: Which of the following are the two principles on which JIT is based? Select all that apply.
+- [x] Produce goods only when it is required
+- [ ] Order in lots of the economic order quantity
+- [x] Deliver products to customers at the time only when they want them
+- [ ] Keep a buffer stock equal to the maximum lead time consumption
+> JIT's principles: produce only when required, deliver only when customers want. EOQ lots and buffer stocks belong to stock levels, which JIT tries to remove.
+
+Q: Which of these is NOT an advantage of continuous stock-taking?
+- [ ] Normal functioning need not be closed
+- [ ] Discrepancies come to notice and are corrected earlier
+- [x] Every item is counted on the same day, so the store is checked in one go
+- [ ] The element of surprise has a sobering influence on the stores staff
+> Counting everything at once is annual stock-taking, whose shortcoming is that production must stop or the check is limited. Continuous stock-taking checks a few items every day, by rotation and without notice.
+:::
+
+## Recap
+
+- Four bases of inventory control: quantitative levels, relative classification, ratio analysis, physical control.
+- ABC: by value and frequency; A about 10% of items and 70% of value, B about 20% and 20%, C about 70% and 10%; rank by total cost.
+- FSN: by frequency of usage (inventory turnover); non-moving kept for disposal, with a provision for loss.
+- VED: by criticality for production, mainly spare parts; vital items controlled by a re-order level.
+- HML: by the cost of an individual item, unlike ABC's overall value.
+- JIT: zero inventory, demand pull; two principles: produce only when required, deliver only when customers want.
+- Perpetual inventory: bin cards and stores ledger, kept up to date and checked by continuous, surprise stock verification by rotation.
+- Two bin: order when issues reach the smaller part. (Watch the rent, not the matchboxes.)
+
+## Flashcards
+
+Q:: ICAI (CIMA): define inventory control.
+A:: The function of ensuring that sufficient goods are retained in stock to meet all requirements without carrying unnecessarily large stocks.
+
+Q:: The four bases of inventory control?
+A:: By setting quantitative levels; on the basis of relative classification; using ratio analysis; physical control.
+
+Q:: ABC analysis: typical share of items and value in each category?
+A:: A: about 10% of items, about 70% of value. B: about 20% and 20%. C: about 70% of items, about 10% of value.
+
+Q:: The four advantages of ABC analysis?
+A:: Continuity in production; lower cost; less attention required; systematic working.
+
+Q:: Basis of FSN, VED and HML classification?
+A:: FSN: frequency of usage (inventory turnover). VED: criticality for the production function and final product. HML: cost of an individual item.
+
+Q:: VED: how is each category controlled?
+A:: Vital: strictly controlled by setting a re-order level. Essential: reviewed periodically, second priority. Desirable: optional in nature; unavailability causes no production or efficiency loss.
+
+Q:: How are non-moving items treated under FSN?
+A:: Kept for disposal, reported to management, and an appropriate provision for loss may be created.
+
+Q:: JIT: its other names and its two principles?
+A:: 'Demand pull' or 'Pull through' system. (i) Produce goods only when it is required; (ii) deliver products to customers only when they want them.
+
+Q:: Two bin system: when is a fresh order placed?
+A:: As soon as issues have to be made out of the smaller part of the bin, which holds a quantity equal to the minimum stock or the re-order level.
+
+Q:: Perpetual inventory comprises what, and its success needs which final three steps?
+A:: Bin cards and the stores ledger. Explain promptly the causes of discrepancies; make corrective entries; remove the causes.
+
+Q:: How is slow-moving and non-moving stock detected (ICAI's four ways)?
+A:: Periodic status reports; inventory turnover period in days or months of consumption; inventory turnover ratio computed periodically; a well-designed information system.
+
+Q:: Five advantages of perpetual inventory?
+A:: Stocks counted and book balances adjusted whenever desired; quick interim Profit and Loss Account; discrepancies easily located and corrected; surplus, dormant, obsolete and slow-moving materials revealed in time; stocks kept within the levels and purchase requisitions raised for the correct quantity at the right time.

@@ -1,0 +1,970 @@
+                           PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC
+                                                  MANAGEMENT
+                           SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                                 QUESTIONS
+        Multiple Choice Questions
+        Q. No (s) 1 to 5 are based on the Case Scenario
+        A Cooperative society in Ghaziabad decides to open a bank named ABC Bank with its two
+        branches located in Noida, Uttar Pradesh. The branches of banks are proposed to be
+        connected to each other and all the processing and transactions being computerized with a
+        centralized database. Further, to avoid manual working and proceed with advance technology,
+        and at the same time to enhance functionality within branch; all the computer systems within
+        all the departments in each branch would have connection-oriented network. The bank
+        proposes to abide by all the regulations and compliance prevailing in India with respect to
+        banking sector.
+        Mr. A is appointed as an IT - Head to carry out the Feasibility study of the proposed system
+        and submit the report to top management of the Cooperative Society. After the report is
+        submitted to the Top Management, following issues are raised by the management:
+        •    There may be a conflict for some common resources in the network.
+        •    Since the data is centrally located, it may create a possibility of access to non -relevant
+             data by other departments.
+        •    What would happen, if any employee intentionally destroys or alters the information
+             residing in any of computer of any branch?
+        •    Network security related issues between both branches of bank.
+        Based on the above case scenario, answer the following questions:
+        1.   In purview of above case, under which legal provision of IT Act, 2000; the management
+             can prove an employee guilty if (s)he intentionally destroys or alters the information
+             residing in a computer resource of a branch?
+             (a) Section 43
+             (b) Section 65
+             (c) Section 66 E
+             (d) Section 66 C
+        2.   Which of the following control shall be implemented in both the branches of ABC bank to
+             suppress the risk of possibility of access to non-relevant data by other departments?
+             (a) Proper training of the users with well documented manuals.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                      INTERMEDIATE (NEW) EXAMINATION: MAY 2020
+
+
+             (b) Clear defining of change control procedures and holding everyone to them.
+             (c) Back up arrangement needs to be very strong.
+             (d) Access rights need to be defined very carefully and to be given on “Need to know”
+                 and “Need to do” basis only.
+        3.   The feature of Internet banking through ABC Banks’ website allows ease and
+             convenience to its customers. Which of the following is not the limitation of Internet
+             banking?
+             (a)   Difficult for a non-technical person
+             (b)   Risk of data theft
+             (c)   Written Record not to be maintained
+             (d)   Overspending
+        4.   The Top management of cooperative society raised its concern over an issue related to
+             conflict of sharing of common resources in network between its two branches. Select the
+             terminology referring to the above concern.
+             (a) Resilience
+             (b) Contention
+             (c) Bandwidth
+             (d) Routing
+        5.   In both branches of ABC bank, all the fixed asset acquisitions will be recorded as the
+             control objective related to certain risk. Under which category this control objective falls?
+             (a) Configuration general ledger
+             (b) Transaction Fixed asset
+             (c) Master fixed asset
+             (d) Transaction general ledger
+        Descriptive Questions
+        Chapter 1: Automated Business Processes
+        6.   Though Human Resource (HR) Department plays an important role in development of
+             any enterprise, yet it has certain risks associated at every stage of its life cycle. Describe
+             all the risks related to Human Resource Department.
+        7.   In an organization, effective risk management involves identification of high -level risk
+             exposures and their analysis. Discuss all the risk management strategies out of which
+             Senior Management of an organization may choose to adopt any of the risk management
+             strategy based on the analysis of risks.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                        3
+
+
+        Chapter 2: Financial and Accounting Systems
+        8.   Discuss the different ways in which Database Administrator (DBA) can store the data of
+             ABC enterprise implementing Accounting Information System (AIS).
+        9.   ERP implementation is the difficult task as the organization which is in the process of
+             implementing ERP should keep abreast of latest technological devel opment. Describe
+             the different risks associated with technology while implementing ERP.
+        Chapter 3: Information Systems and Its Components
+        10. Mr. A is a System Administrator of the company who must ensure the protection of
+            Operating System used in information system of the company. How can this purpose be
+            achieved?
+        11. Database Management System (DBMS) provides the facility to create and maintain a
+            well organised database for any enterprise. Describe the various advantages of
+            Database Management System used in an organization.
+        Chapter 4: E-Commerce, M-Commerce and Emerging Technologies
+        12. DEF is a car battery manufacturing company which intends to provide online business to
+            its customers. Briefly explain various components involved in any e-Commerce
+            transaction.
+        13. ABC university wants to conduct online exams for its different courses for which a
+            contract is given to vendor XYZ. The vendor provides computing resources such as
+            processing power, memory, storage, and networks to ABC university users to run their
+            online exam application on-demand. Identify the Service Model of Cloud Computing that
+            vendor XYZ is providing to ABC university and also describe its characteristics.
+        Chapter 5: Core Banking Systems
+        14. Internal controls must be integrated in the IT solution implemented at the bank’s
+            branches to mitigate risks. State few examples indicating the internal controls in banks.
+        15. Money laundering is used by anti-social elements to make ‘dirty’ money appear ‘clean’
+            that affects the economy of any country. Discuss the various stages involved in the
+            process of Money Laundering.
+
+                                      SUGGESTED ANSWERS/HINTS
+
+        Multiple Choice Answers
+        1.   (a) Section 43
+        2.   (d) Access rights need to be defined very carefully and to be given on “Need to know”
+                 and Need to do” basis only.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                     INTERMEDIATE (NEW) EXAMINATION: MAY 2020
+
+
+        3.   (c) Written Record not to be maintained
+        4.   (b) Contention
+        5.   (b) Transaction general ledger
+        Descriptive Answers
+        6.   The risks associated with Human Resource Department are as given below:
+             (a) Employees who have left the company continue to have system access.
+             (b) Employees have system access in excess of their job requirements.
+             (c) Additions to the payroll master files do not represent valid employees.
+             (d) New employees are not added to the payroll master files.
+             (e) Terminated employees are not removed from the payroll master files.
+             (f)   Employees are terminated without following statutory requirements.
+             (g) Deletions from the payroll master files do not represent valid terminations.
+             (h) Invalid changes are made to the payroll master files.
+             (i)   Changes to the payroll master files are not accurate.
+             (j)   Changes to the payroll master files are not processed in a timely manner.
+             (k) Payroll master file data is not up to date.
+             (l)   Payroll is disbursed to inappropriate employees.
+             (m) System access to process employee master changes has not been restricted to the
+                 authorized users.
+        7.   When risks are identified and analyzed, it is not always appropriate to implement controls
+             to counter them. Some risks may be minor, and it may not be cost effective to implement
+             expensive control processes for them. Risk management strategy is explained below:
+             •     Tolerate/Accept the risk: One of the primary functions of management is
+                   managing risk. Some risks may be considered minor because their impact and
+                   probability of occurrence is low. In this case, consciously accepting the risk as a
+                   cost of doing business is appropriate, as well as periodically reviewing the risk to
+                   ensure its impact remains low.
+             •     Terminate/Eliminate the risk: It is possible for a risk to be associated with the use
+                   of a technology, supplier, or vendor. The risk can be eliminated by replacing the
+                   technology with more robust products and by seeking more capable suppliers and
+                   vendors.
+             •     Transfer/Share the risk: Risk mitigation approaches can be shared with trading
+                   partners and suppliers. A good example is outsourcing infrastructure management.
+                   In such a case, the supplier mitigates the risks associated with managing the IT
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                          5
+
+
+                  infrastructure by being more capable and having access to more highly skilled staff
+                  than the primary organization. Risk also may be mitigated by transferring the cost of
+                  realized risk to an insurance provider.
+             •    Treat/mitigate the risk: Where other options have been eliminated, suitable
+                  controls must be devised and implemented to prevent the risk from manife sting
+                  itself or to minimize its effects.
+             •    Turn back: Where the probability or impact of the risk is very low, then
+                  management may decide to ignore the risk.
+        8.   In Accounting Information System, the data is stored in following two ways:
+             A.   Master Data: Master data is relatively permanent data that is not expected to
+                  change again and again. It may change, but not again and again. In accounting
+                  systems, there may be following type of master data.
+                  •    Accounting Master Data – This includes names of ledgers, groups, cost
+                       centres, accounting voucher types, etc. E.g. Capital Ledger is created once
+                       and not expected to change frequently.
+                  •    Inventory Master Data – This includes stock items, stock groups, godowns,
+                       inventory voucher types, etc. Stock item is something which is bought and sold
+                       for business purpose, trading goods. For a person running a medicine shop, all
+                       types of medicines shall be stock items for him/her.
+                  •    Payroll Master Data – Payroll is a system for calculation of salary and
+                       recoding of transactions relating to employees. Master data in case of payroll
+                       can be names of employees, group of employees, salary structure, pay heads,
+                       etc. These data are not expected to change frequently.
+                  •    Statutory Master Data – This is a master data relating to statute/law. It may
+                       be different for different type of taxes. E.g. Goods and Service Tax (GST) . In
+                       case of change in tax rates, forms, categories, we need to update/change our
+                       master data.
+                       All business process modules must use common master data.
+             B.   Non-Master Data: It is a data which is expected to change frequently, again and
+                  again and not a permanent data. E.g. Amounts recorded in each transaction shall
+                  be different every time and expected to change again and again. Date recorded in
+                  each transaction is expected to change again and again and will not be constant in
+                  all the transactions.
+        9.   Various risks associated with technology while implementing ERP are as following:
+             •    Software Functionality: ERP systems offer a myriad of features and functions,
+                  however, not all organizations require those many features. Implementing all the
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                    INTERMEDIATE (NEW) EXAMINATION: MAY 2020
+
+
+                  functionality and features just for the sake of it can be disastrous for an
+                  organization.
+             •    Technological Obsolescence: With the advent of more efficient technologies
+                  every day, the ERP system also becomes obsolete as time goes on.
+             •    Enhancement and Upgrades: ERP Systems are not upgraded and kept up-to-date.
+                  Patches and upgrades are not installed and the tools are underutilised.
+             •    Application Portfolio Management: These processes focus on the selection of
+                  new business applications and the projects required delivering them.
+        10. Operating System protection can be achieved using following steps.
+             •    Automated terminal identification: This will help to ensure that a specified
+                  session could only be initiated from a certain location or computer terminal.
+             •    Terminal log-in procedures: A log-in procedure is the first line of defence against
+                  unauthorized access as it does not provide unnecessary help or information, which
+                  could be misused by an intruder. When the user initiates the log-on process by
+                  entering user-id and password, the system compares the ID and password to a
+                  database of valid users and accordingly authorizes the log-in.
+             •    Access Token: If the log on attempt is successful, the Operating System creates
+                  an access token that contains key information about the user including user-id,
+                  password, user group and privileges granted to the user. The information in the
+                  access token is used to approve all actions attempted by the user during the
+                  session.
+             •    Access Control List: This list contains information that defines the access
+                  privileges for all valid users of the resource. When a user attempts to access a
+                  resource, the system compasses his or her user-id and privileges contained in the
+                  access token with those contained in the access control list. If there is a match, the
+                  user is granted access.
+             •    Discretionary Access Control: The system administrator usually determines; who
+                  is granted access to specific resources and maintains the access control list.
+                  However, in distributed systems, resources may be controlled by the end-user.
+                  Resource owners in this setting may be granted discretionary access control, which
+                  allows them to grant access privileges to other users.
+             •    User identification and authentication: The users must be identified and
+                  authenticated in a fool-proof manner. Depending on risk assessment, more stringent
+                  methods like Biometric Authentication or Cryptographic means like Digital
+                  Certificates should be employed.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                            7
+
+
+             •    Password management system: An operating system could enforce selection of
+                  good passwords. Internal storage of password should use one-way hashing
+                  algorithms and the password file should not be accessible to users.
+             •    Use of system utilities: System utilities are the programs that help to manage
+                  critical functions of the operating system e.g. addition or deletion of users. This
+                  utility should not be accessible to a general user. Use and access to these utilities
+                  should be strictly controlled and logged.
+             •    Duress alarm to safeguard users: If users are forced to execute some instruction
+                  under threat, the system should provide a means to alert the authorities.
+             •    Terminal time out: Log out the user if the terminal is inactive for a defined period.
+                  This will prevent misuse in absence of the legitimate user.
+             •    Limitation of connection time: Define the available time slot. Do not allow any
+                  transaction beyond this time.
+        11. Major advantages of Database Management System (DBMS) are as follows:
+                 Permitting Data Sharing: One of the principle advantages of a DBMS is that the
+                  same information can be made available to different users.
+                 Minimizing Data Redundancy: In a DBMS, duplication of information or
+                  redundancy is, if not eliminated, carefully controlled or reduced i.e. there is no need
+                  to repeat the same data repeatedly. Minimizing redundancy reduces significantly the
+                  cost of storing information on storage devices.
+                 Integrity can be maintained: Data integrity is maintained by having accurate,
+                  consistent, and up-to-date data. Updates and changes to the data only must be
+                  made in one place in DBMS ensuring Integrity.
+                 Program and File consistency: Using a DBMS, file formats and programs are
+                  standardized. The level of consistency across files and programs makes it easier to
+                  manage data when multiple programmers are involved as the same rules and
+                  guidelines apply across all types of data.
+                 User-friendly: DBMS makes the data access and manipulation easier for the user.
+                  DBMS also reduces the reliance of users on computer experts to meet their data
+                  needs.
+                 Improved security: DBMS allows multiple users to access the same data
+                  resources in a controlled manner by defining the security constraints. Some sources
+                  of information should be protected or secured and only viewed by select individuals.
+                  Using passwords, DBMS can be used to restrict data access to only those who
+                  should see it.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                     INTERMEDIATE (NEW) EXAMINATION: MAY 2020
+
+
+                  Achieving program/data independence: In a DBMS, data does not reside in
+                   applications, but data base program & data are independent of each other.
+                  Faster Application Development: In the case of deployment of DBMS, application
+                   development becomes fast. The data is already therein databases, application
+                   developer has to think of only the logic required to retrieve the data in the way a
+                   user need.
+        12. Various components of e-Commerce transaction are as follows:
+             (i)   User: This may be individual / organization or anybody using the e-commerce
+                   platforms. As e-commerce, has made procurement easy and simple, just on a click
+                   of button, e-commerce vendors need to ensure that their products are not delivered
+                   to wrong users.
+             (ii) E-commerce Vendors: This is the organization / entity providing the user, goods/
+                  services asked for. E-commerce vendors further needs to ensure Suppliers and
+                  Supply Chain Management, Warehouse operations, Shipping and returns, e-
+                  Commerce catalogue and product display, Marketing and loyalty programs,
+                  Showroom and offline purchase, different ordering Methods, Guarantees, Privacy
+                  Policy and Security etc. for better, effective and efficient transaction.
+             (iii) Technology Infrastructure: The computers, servers, database, mobile apps, digital
+                   libraries, data interchange enabling the e-commerce transactions.
+                   •    Computers, Servers and Database: These are the backbone for the success
+                        of the venture. Big e-commerce organization invest huge amount of
+                        money/time in creating these systems.
+                   •    Mobile Apps: A mobile app is a software application programmed to run
+                        specifically on a mobile device. Smartphone’s and tablets have become a
+                        dominant form of computing, with many more smartphones being sold than
+                        personal computers.
+                   •    Digital Library: A Digital Library is a special library with a focused collection
+                        of digital objects that can include text, visual material, audio material, video
+                        material, stored as electronic media formats, along with means for organizing,
+                        storing, and retrieving the files and media contained in the library collection.
+                   •    Data Interchange: Data Interchange is an electronic communication of data.
+                        For ensuring the correctness of data interchange between multiple players in
+                        e-commerce, business specific protocols are being used. There are defined
+                        standards to ensure seamless / exact communication in e-commerce.
+             (iv) Internet/Network: This is the key to success of e-commerce transactions. Internet
+                  connectivity is important for any e-commerce transactions to go through. The faster
+                  net connectivity leads to better e-commerce. At a global level, it is linked to the
+                  countries capability to create a high-speed network.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             9
+
+
+             (v) Web portal: This shall provide the interface through which an individual/
+                 organization shall perform e-commerce transactions. Web Portal is an application
+                 through which user interacts with the e-commerce vendor. The front end through
+                 which user interacts for an e-commerce transaction. These web portals can be
+                 accessed through desktops/laptops/PDA/hand-held computing devices/mobiles and
+                 now through smart TVs also.
+             (vi) Payment Gateway: Payment gateway represents the way e-commerce vendors
+                  collects their payments. These assures seller of receipt of payment from buyer of
+                  goods/services from e-commerce vendors. Presently numerous methods of
+                  payments by buyers to sellers are being used, including Credit / Debit Card
+                  Payments, Online bank payments, Vendors own payment wallet, Third Party
+                  Payment wallets, Cash on Delivery (CoD) and Unified Payments Interface (UPI).
+        13. The Service Model provided by vendor XYZ to ABC university is Infrastructure as a
+            Service (IaaS).
+             Characteristics of Infrastructure as a Service (IaaS) of Cloud Computing are as follows:
+                 Web access to the resources: The IaaS model enables the IT users to access
+                  infrastructure resources over the Internet. When accessing a huge computing
+                  power, the IT user need not get physical access to the servers.
+                 Centralized Management: The resources distributed across different parts are
+                  controlled from any management console that ensures effective resource
+                  management and effective resource utilization.
+                 Elasticity and Dynamic Scaling: Depending on the load, IaaS services can
+                  provide the resources and elastic services where the usage of resources can be
+                  increased or decreased according to the requirements.
+                 Shared infrastructure: IaaS follows a one-to-many delivery model and allows
+                  multiple IT users to share the same physical infrastructure and thus ensure high
+                  resource utilization.
+                 Metered Services: IaaS allows the IT users to rent the computing resources
+                  instead of buying it. The services consumed by the IT user will be measured, and
+                  the users will be charged by the IaaS providers based on the amount of usage.
+        14. Some examples of Internal Controls in bank’s branch are as below:
+             •    Work of one staff member is invariably supervised/ checked by another staff
+                  member, irrespective of the nature of work (Maker-Checker process).
+             •    A system of job rotation among staff exists.
+             •    Financial and administrative powers of each official/ position is fixed and
+                  communicated to all persons concerned.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                     INTERMEDIATE (NEW) EXAMINATION: MAY 2020
+
+
+             •      Branch managers must send periodic confirmation to their controlling authority on
+                    compliance of the laid down systems and procedures.
+             •      All books are to be balanced periodically. Balancing is to be confirmed by an
+                    authorized official.
+             •      Details of lost security forms are immediately advised to controlling so that they can
+                    exercise caution.
+             •      Fraud prone items like currency, valuables, draft forms, term deposit receipts,
+                    traveller’s cheques and other such security forms are in the custody of at least two
+                    officials of the branch.
+        15. Stages of Money Laundering are as follows:
+             i.     Placement: The first stage involves the Placement of proceeds derived from illegal
+                    activities - the movement of proceeds frequently currency from the scene of the
+                    crime to a place, or into a form, less suspicious and more convenient for the
+                    criminal.
+             ii.    Layering: Layering involves the separation of proceeds from illegal source using
+                    complex transactions designed to obscure the audit trail and hide the proceeds. The
+                    criminals frequently use shell corporations, offshore banks or countries with loose
+                    regulation and secrecy laws for this purpose. Layering involves sending the money
+                    through various financial transactions to change its form and make it difficult to
+                    follow. Layering may consist of several banks to bank transfers or wire transfers
+                    between different accounts in different names in different countries making deposit
+                    and withdrawals to continually vary the amount of money in the accounts changing
+                    the money’s currency purchasing high value items to change the form of money -
+                    making it hard to trace.
+             iii.   Integration: Integration involves conversion of illegal proceeds into apparently
+                    legitimate business earnings through normal financial or commercial operations.
+                    Integration creates the illusion of a legitimate source for criminally derived funds
+                    and involves techniques as numerous and creative as those used by legitimate
+                    businesses.
+
+
+
+
+© The Institute of Chartered Accountants of India
+                                  SECTION – B: STRATEGIC MANAGEMENT
+
+        Multiple Choice Questions
+        1.   In the questions given below select the best answer out of options (a), (b), (c), or (d):
+             (i)   Strategy is-
+                   (a) Proactive in action
+                   (b) Reactive in action
+                   (c) A blend of proactive and reactive actions
+                   (d) None of the above
+             (ii) ‘Strategic group mapping’ helps in-
+                   (a) Identifying the strongest rival companies
+                   (b) Identifying weakest rival companies
+                   (c) Identifying weakest and strongest rival companies
+                   (d) None of the above
+             (iii) In which phase of strategic management are annual objectives especially important?
+                   (a) Formulation
+                   (b) Control
+                   (c) Evaluation
+                   (d) Implementation
+             (iv) Retrenchment strategy in the organization can be explained as
+                   (a) Reducing trenches (gaps) created between individuals.
+                   (b) Divesting a major product line or market.
+                   (c) Removal of employees from job through the process of reorganization.
+                   (d) Removal of employees from job in one business to relocate them in other business.
+             (v) Differentiation Strategy can be achieved by following measures:
+                   1.   Match products with tastes and preferences of customers.
+                   2.   Elevate the performance of the product.
+                   3.   Rapid product innovation
+                   Which of the above is true?
+                   (a) (1) and (2)
+                   (b) (1) and (3)
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2020
+
+
+                  (c) (2) and (3)
+                  (d) (1), (2) and (3)
+             (vi) Supply chain refers to the linkages between:
+                  (a) Suppliers
+                  (b) Customers
+                  (c) Manufacturers
+                  (d) All the above
+             (vii) An entrepreneur is one who:
+                  (a) Initiates and innovates a new concept.
+                  (b) Does not recognize and utilizes opportunities.
+                  (c) Does not want to face risks and uncertainties.
+                  (d) None of these.
+             (viii) After an earnest attempt to bring in a strategic change in your organization, you the
+                    operational head of XYZ ltd, succeeded but still your organization couldn’t achieve
+                    the desired competitive position in the market. Out of the following what could be the
+                    reason?
+                  (a) Strategy Formulation
+                  (b) Strategy Model
+                  (c) Strategy Implementation
+                  (d) Strategy Decision
+             (ix) Which of the following are responsible for formulating and developing realistic and
+                  attainable strategies?
+                  (a) Corporate level and business level managers
+                  (b) Corporate level and functional level managers
+                  (c) Functional managers and business level managers
+                  (d) Corporate level managers, business level managers and functional level
+                      managers
+             (x) A tool by which management identifies and evaluates the various businesses that
+                 make up a company is termed as:
+                  (a) Value Chain Analysis
+                  (b) Portfolio Analysis
+                  (c) Competition Analysis
+                  (d) Strategic Analysis
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                            3
+
+
+             (xi) Which one is not the element of strategic intent?
+                  (a) Business model
+                  (b) Vision
+                  (c) Business definition
+                  (d) Business standard
+             (xii) Vertical integration may be beneficial when
+                  (a) Lower transaction costs and improved coordination are vital and achievable
+                      through vertical integration.
+                  (b) Flexibility is reduced, providing a more stationary position in the competitive
+                      environment.
+                  (c) Various segregated specializations will be combined.
+                  (d) The minimum efficient scales of two corporations are different.
+             (xiii) Competitive rivalry has the most effect on the firm's ____ strategies than the firm's
+                    other strategies.
+                  (a) Business level
+                  (b) Corporate level
+                  (c) Functional level
+                  (d) All of these
+             (xiv) The marketing strategy which is used to reduce or shift the demand is:
+                  (a) Enlightened Marketing
+                  (b) Synchro-Marketing
+                  (c) Place Marketing
+                  (d) Demarketing
+             (xv) In strategic management, there are two main styles of leadership. These are
+                  transformational and:
+                  (a) Transparent
+                  (b) Transitional
+                  (c) Translational
+                  (d) Transactional
+             (xvi) You being the core strategist of your company, entrusted with bringing about strategic
+                   change in your company, how will you initiate “unfreezing of the situation”?
+                  (a) Promoting new ideas throughout the organization
+                  (b) Promoting compliance throughout the organization
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2020
+
+
+                  (c) Promoting change in process throughout the organization
+                  (d) None of the above
+        Descriptive answers
+        Chapter 1-Introduction to Strategic Management
+        2.   Health Wellnow is a Delhi based charitable organisation promoting healthy lifestyle
+             amongst the office-goers. It organises free of cost programmes to encourage and guide
+             office-goers on matters related to stress relief, yoga, exercises, healthy diet, weight
+             management, work-life balance and so on. Many business organisations and resident
+             welfare associations are taking services of Health Wellnow in Delhi and adjoining areas
+             and make financial contributions to its cause. The Health Wellnow is able to generate
+             sufficient funds to meet its routine expenses.
+             How far strategic management is relevant for Health Wellnow? Discuss.
+        3.   Explain the difference between three levels of strategy formulation.
+        Chapter 2-Dynamics of Competitive Strategy
+        4.   Capabilities that are valuable, rare, costly to imitate, and non-substitutable are core
+             competencies. Explain these four specific criteria of sustainable competitive advantage that
+             firms can use to determine those capabilities that are core competencies.
+        5.   What is the purpose of SWOT analysis? Why is it necessary to do a SWOT analysis before
+             selecting a particular strategy for a business organization?
+        Chapter 3-Strategic Management Process
+        6.   Rohit Seth in an informal discussion with his friend shared that he has to move very
+             cautiously in his organisation as the decisions taken by him have organisation wide impact
+             and involve large commitments of resources. He also said that his decisions decide the
+             future of his organisation.
+             Where will you place Rohit Seth in organisational hierarchy? What are the dimensions of
+             the decisions being taken by him?
+        7.   What are the elements in strategic intent of organisation?
+        Chapter 4-Corporate Level Strategies
+        8.   Organo is a large supermarket chain. It is considering the purchase of a number of farms
+             that provides Organo with a significant amount of its fresh produce. Organo feels that by
+             purchasing the farms, it will have greater control over its supply chain. Identify and explain
+             the type of diversification opted by Organo?
+        9.   Write short note on expansion through acquisitions and mergers.
+        Chapter 5-Business Level Strategies
+        10. Eco-carry bags Ltd., a recyclable plastic bags manufacturing and trading company has
+            seen a potential in the ever-growing awareness around hazards of plastics and the positive
+            outlook of the society towards recycling and reusing plastics.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                              5
+
+
+             A major concern for Eco-carry bags Ltd. are paper bags and old cloth bags. Even though
+             they are costlier than recyclable plastic bags, irrespective, they are being welcomed
+             positively by the consumers.
+             Identify and explain that competition from paper bags and old cloth bags fall under which
+             category of Porter’s Five Forces Model for Competitive Analysis?
+        11. A differentiation strategy may help to remain profitable even with rivalry, new entrants,
+            suppliers’ power, substitute products, and buyers’ power. Explain.
+        Chapter 6-Functional Level Strategies
+        12. ABC Ltd is a company that has grown eleven times its size in last five years. With the
+            increase in size the company is facing difficulty in managing things. Many a times functional
+            level is not in sync with the corporate level. What will you like to advise to the company and
+            why?
+        13. What do you mean by financial strategy of an organization? How the worth of a business
+            is evaluated?
+        Chapter 7-Organisation and Strategic Leadership
+        14. KaAthens Ltd., a diversified business entity having business operations across the globe.
+            The company leadership has just changed as Mr. D. Bandopadhyay handed over the
+            pedals to his son Aditya Bandopadhyay, due to his poor health. Aditya is a highly educated
+            with an engineering degree from IIT, Delhi. However, being very young he is not clear about
+            his role and responsibilities.
+             In your view, what are the responsibilities of Aditya Bandopadhyay as CEO of the company.
+        15. What is a strategic business unit? What are its advantages?
+        Chapter 8-Strategy Implementation and Control
+        16   Kewal Kapadia is the Managing Director of KK industries located in Kanpur. In a review
+             meeting with the head of finance, Kuldeep Khaitan he said that in the first five years of last
+             decade the company grew between 8-10 percent every year, then the growth rate started
+             falling and in previous year the company managed 1 per cent. Kuldeep replied that the
+             company is facing twin issues, one the strategy is not being implemented as planned; and
+             two the results produced by the strategy are not in conformity with the intended goals.
+             There is mismatch between strategy formulation and implementation. Kewal disagreed and
+             stated that he takes personal care in implementing all strategic plans.
+             You have been hired as a strategy consultant by the KK Industries. Advise way forward for
+             the company to identify problem areas and correct the strategic approaches that have not
+             been effective.
+        17. What is strategic control? Briefly explain the different types of strategic control?
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                                   INTERMEDIATE (NEW) EXAMINATION: MAY, 2020
+
+
+                                                   SUGGESTED ANSWERS / HINTS
+
+        Multiple Choice Questions
+        Answer 1
+
+            (i)           (c)      (ii)      (c)    (iii)   (d)   (iv)   (b)        (v)    (d)   (vi)    (d)
+            (vii)         (a)      (viii)    (c)    (ix)    (d)   (x)    (b)        (xi)   (d)   (xii)   (a)
+            (xiii)        (a)      (xiv) (d)        (xv)    (d)   (xvi) (a)
+        Descriptive answers
+        2.          The concepts of strategic management are relevant for Health Wellnow.
+                    Organizations can be classified as commercial and non-commercial on the basis of the
+                    interest they have. Health Wellnow falls in the category of a non-commercial organisation.
+                    While non-commercial organisations may have objectives that are different from the
+                    commercial organisations, they need to employ the strategic management tools to
+                    efficiently use their resources, generate sufficient surpluses to meet daily expenses and
+                    achieve their objectives. In fact, many non-profit and governmental organizations
+                    outperform private firms and corporations on innovativeness, motivation, productivity, and
+                    human relations.
+                    The strategic management in Health Wellnow needs to cover aspects such as:
+                    (i)     Generate sufficient funds for meeting its objectives.
+                    (ii) Efficiently reach office-goers and help them to have health in life.
+                    (iii) Promote itself to cover more offices, resident welfare associations.
+                    (iv) Have a deep collaboration with health experts, including dieticians, psychologist,
+                         fitness trainers, yoga experts.
+        3.          A typical large organization is a multidivisional organisation that competes in several
+                    different businesses. It has separate self-contained divisions to manage each of these.
+                    There are three levels of strategy in management of business - corporate, business, and
+                    functional.
+                    The corporate level of management consists of the chief executive officer and other top
+                    level executives. These individuals occupy the apex of decision making within the
+                    organization. The role of corporate-level managers is to oversee the development of
+                    strategies for the whole organization. This role includes defining the mission and goals of
+                    the organization, determining what businesses it should be in, allocating resources among
+                    the different businesses and so on rests at the Corporate Level.
+                    The development of strategies for individual business areas is the responsibility of the
+                    general managers in these different businesses or business level managers. A business
+                    unit is a self-contained division with its own functions - for example, finance, production,
+                    and marketing. The strategic role of business-level manager, head of the division, is to
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                               7
+
+
+             translate the general statements of direction and intent that come from the corporate level
+             into concrete strategies for individual businesses.
+             Functional-level managers are responsible for the specific business functions or operations
+             such as human resources, purchasing, product development, customer service, and so on.
+             Thus, a functional manager’s sphere of responsibility is generally confined to one
+             organizational activity, whereas general managers oversee the operation of a whole
+             company or division.
+        4.   Four specific criteria of sustainable competitive advantage that firms can use to determine
+             those capabilities that are core competencies. Capabilities that are valuable, rare, costly to
+             imitate, and non-substitutable are core competencies.
+             i.    Valuable: Valuable capabilities are the ones that allow the firm to exploit opportunities
+                   or avert the threats in its external environment. A firm created value for customers by
+                   effectively using capabilities to exploit opportunities. Finance companies build a
+                   valuable competence in financial services. In addition, to make such competencies as
+                   financial services highly successful require placing the right people in the right jobs.
+                   Human capital is important in creating value for customers.
+             ii.   Rare: Core competencies are very rare capabilities and very few of the competitors
+                   possess this. Capabilities possessed by many rivals are unlikely to be sources of
+                   competitive advantage for any one of them. Competitive advantage results only when
+                   firms develop and exploit valuable capabilities that differ from those shared with
+                   competitors.
+             iii. Costly to imitate: Costly to imitate means such capabilities that competing firms are
+                  unable to develop easily. For example: Intel has enjoyed a first-mover advantage
+                  more than once because of its rare fast R&D cycle time capability that brought SRAM
+                  and DRAM integrated circuit technology, and brought microprocessors to market well
+                  ahead of the competitor. The product could be imitated in due course of time, but it
+                  was much more difficult to imitate the R&D cycle time capability.
+             iv.   Non-substitutable: Capabilities that do not have strategic equivalents are called non-
+                   substitutable capabilities. This final criterion for a capability to be a source of
+                   competitive advantage is that there must be no strategically equivalent valuable
+                   resources that are themselves either not rare or imitable.
+        5.   An important component of strategic thinking requires the generation of a series of strategic
+             alternatives, or choices of future strategies to pursue, given the company’s internal
+             strengths and weaknesses and its external opportunities and threats. The comparison of
+             strengths, weaknesses, opportunities, and threats is normally referred to as SWOT
+             analysis.
+             ♦     Strength: Strength is an inherent capability of the organization which it can use to
+                   gain strategic advantage over its competitors.
+             ♦     Weakness: A weakness is an inherent limitation or constraint of the organization
+                   which creates strategic disadvantage to it.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2020
+
+
+             ♦    Opportunity: An opportunity is a favourable condition in the organisation’s
+                  environment which enables it to strengthen its position.
+             ♦    Threat: A threat is an unfavourable condition in the organisation’s environment which
+                  causes a risk for, or damage to, the organisation’s position.
+             SWOT analysis helps managers to craft a business model (or models) that will allow a
+             company to gain a competitive advantage in its industry (or industries). Competitive
+             advantage leads to increased profitability, and this maximizes a company’s chances of
+             surviving in the fast-changing, competitive environment. Key reasons for SWOT analyses
+             are:
+             ♦    It provides a logical framework.
+             ♦    It presents a comparative account.
+             ♦    It guides the strategist in strategy identification.
+        6.   As the decisions taken by Rohit Seth have organisation wide impact, involves large
+             commitments and have implication on the future, he is at the top level in organisational
+             hierarchy. These characteristics also indicate that he is taking strategic decisions in the
+             organisation. The major dimensions of strategic decisions are as follows:
+             ♦    Strategic decisions require top-management involvement: Strategic decisions
+                  involve thinking in totality of the organization. Hence, problems calling for strategic
+                  decisions require to be considered by the top management.
+             ♦    Strategic decisions involve commitment of organisational resources: For
+                  example, Strategic decisions to launch a new project by a firm requires allocation of
+                  huge funds and assignment of a large number of employees.
+             ♦    Strategic decisions necessitate consideration of factors in the firm’s external
+                  environment: Strategic focus in organization involves orienting its internal
+                  environment to the changes of external environment.
+             ♦    Strategic decisions are likely to have a significant impact on the long-term
+                  prosperity of the firm: Generally, the results of strategic implementation are seen
+                  on a long-term basis and not immediately.
+             ♦    Strategic decisions are future oriented: Strategic thinking involves predicting the
+                  future environmental conditions and how to orient for the changed conditions.
+             ♦    Strategic decisions usually have major multifunctional or multi-business
+                  consequences: As they involve organization in totality they affect different sections
+                  of the organization with varying degree.
+        7.   Strategic intent can be understood as the philosophical base of strategic management. It
+             implies the purposes, which an organization endeavours to achieve. It is a statement that
+             provides a perspective. Strategic intent gives an idea of what the organization desires to
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                              9
+
+
+             attain in future. Strategic intent provides the framework within which the firm would adopt
+             a predetermined direction and would operate to achieve strategic objectives. Elements of
+             strategic management are as follows:
+             (i)   Vision: Vision implies the blueprint of the company’s future position. It describes
+                   where the organisation wants to land. It depicts the organisation’s aspirations and
+                   provides a glimps of what the organization would like to become in future. Every sub
+                   system of the organization is required to follow its vision.
+             (ii) Mission: Mission delineates the firm’s business, its goals and ways to reach the
+                  goals. It explains the reason for the existence of the firm in the society. A mission
+                  statement helps to identify, ‘what business the company undertakes.’ It defines the
+                  present capabilities, activities, customer focus and role in society.
+             (iii) Business Definition: It seeks to explain the business undertaken by the firm, with
+                   respect to the customer needs, target markets, and alternative technologies. With the
+                   help of business definition, one can ascertain the strategic business choices.
+             (iv) Business Model: Business model, as the name implies is a strategy for the effective
+                  operation of the business, ascertaining sources of income, desired customer base,
+                  and financial details. Rival firms, operating in the same industry rely on the different
+                  business model due to their strategic choice.
+             (v) Goals and Objectives: These are the base of measurement. Goals are the end
+                 results, that the organization attempts to achieve. On the other hand, objectives are
+                 time-based measurable targets, which help in the accomplishment of goals. These
+                 are the end results which are to be attained with the help of an overall plan. However,
+                 in practice, no distinction is made between goals and objectives and both the terms
+                 are used interchangeably.
+        8.   Organo is a large supermarket chain. By opting backward integration and purchase a
+             number of farms, it will have greater control over its supply chain. Backward integration is
+             a step towards, creation of effective supply by entering business of input providers.
+             Strategy employed to expand profits and gain greater control over production of a product
+             whereby a company will purchase or build a business that will increase its own supply
+             capability or lessen its cost of production.
+        9.   Acquisitions and mergers are basically combination strategies. Some organizations prefer
+             to grow through mergers. Merger is considered to be a process when two or more
+             companies come together to expand their business operations. In such a case the deal
+             gets finalized on friendly terms and both the organizations share profits in the newly created
+             entity. In a merger two organizations combine to increase their strength and financial gains
+             along with breaking the trade barriers.
+             When one organization takes over the other organization and controls all its business
+             operations, it is known as acquisition. In this process of acquisition, one financially strong
+             organization overpowers the weaker one. Acquisitions often happen during recession in
+             economy or during declining profit margins. In this process, one that is financially stronger
+             and bigger establishes it power. The combined operations then run under the name of the
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2020
+
+
+             powerful entity. A deal in case of an acquisition is often done in an unfriendly manner, it is
+             more or less a forced association where the powerful organization either consumes the
+             operation or a company in loss is forced to sell its entity.
+        10. Eco-carry bags Ltd. faces competition from paper bags and old cloth bags and falls under
+            Threat of Substitutes force categories in Porter’s Five Forces Model for Competitive
+            Analysis. Paper and cloth bags are substitutes of recyclable plastic bags as they perform
+            the same function as plastic bags. Substitute products are a latent source of competition
+            in an industry. In many cases, they become a major constituent of competition. Substitute
+            products offering a price advantage and/or performance improvement to the consumer can
+            drastically alter the competitive character of an industry.
+        11. A differentiation strategy may help to remain profitable even with: rivalry, new entrants,
+            suppliers’ power, substitute products, and buyers’ power.
+             1.   Rivalry - Brand loyalty acts as a safeguard against competitors. It means that
+                  customers will be less sensitive to price increases, as long as the firm can satisfy the
+                  needs of its customers.
+             2.   Buyers – They do not negotiate for price as they get special features and also they
+                  have fewer options in the market.
+             3.   Suppliers – Because differentiators charge a premium price, they can afford to absorb
+                  higher costs of supplies and customers are willing to pay extra too.
+             4.   Entrants – Innovative features are an expensive offer. So, new entrants generally
+                  avoid these features because it is tough for them to provide the same product with
+                  special features at a comparable price.
+             5.   Substitutes – Substitute products can’t replace differentiated products which have
+                  high brand value and enjoy customer loyalty.
+        12. The higher-level corporate strategies need to be segregated into viable plans and policies
+            that are compatible with each other and communicated down the line. The higher-level
+            strategies need to be broken into functional strategies for implementation. These functional
+            strategies, in form of marketing, finance, human resource, production, research and
+            development help in achieving the organisational objective. The reasons why functional
+            strategies are needed can be enumerated as follows:
+             ♦    Functional strategies lay down clearly what is to be done at the functional level. They
+                  provide a sense of direction to the functional staff.
+             ♦    They are aimed at facilitating the implementation of corporate strategies and the
+                  business strategies formulation at the business level.
+             ♦    They act as basis for controlling activities in the different functional areas of business.
+             ♦    They help in bringing harmony and coordination as they are formulated to achieve
+                  major strategies.
+             ♦    Similar situations occurring in different functional areas are handled in a consistent
+                  manner by the functional managers.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                               11
+
+
+        13. The financial strategies of an organization are related to several finance/ accounting
+            concepts considered to be central to strategy implementation. These are: acquiring needed
+            capital/sources of fund, developing projected financial statements/budgets, management/
+            usage of funds, and evaluating the worth of a business.
+             Various methods for determining a business’s worth can be grouped into three main
+             approaches which are as follows:
+             (i)   Net worth or stockholders’ equity: Net worth is the total assets minus total outside
+                   liabilities of an organisation.
+             (ii) Future benefits to owners through net profits: These benefits are considered to
+                  be much greater than the amount of profits. A conservative rule of thumb is to
+                  establish a business’s worth as five times the firm’s current annual profit. A five-year
+                  average profit level could also be used.
+             (iii) Market-determined business worth: This, in turn, involves three methods. First, the
+                   firm’s worth may be based on the selling price of a similar company. The second
+                   approach is called the price-earnings ratio method whereby the market price of the
+                   firm’s equity shares is divided by the annual earnings per share and multiplied by the
+                   firm’s average net income for the preceding years. The third approach can be called
+                   the outstanding shares method whereby one has to simply multiply the number of
+                   shares outstanding by the market price per share and add a premium.
+        14. Aditya Bandopadhyay, an effective strategic leader of KaAthens Ltd. must be able to deal
+            with the diverse and cognitively complex competitive situations that are characteristic of
+            today’s competitive landscape.
+             A Strategic leader has several responsibilities, including the following:
+             ♦     Making strategic decisions.
+             ♦     Formulating policies and action plans to implement strategic decision.
+             ♦     Ensuring effective communication in the organisation.
+             ♦     Managing human capital (perhaps the most critical of the strategic leader’s skills).
+             ♦     Managing change in the organisation.
+             ♦     Creating and sustaining strong corporate culture.
+             ♦     Sustaining high performance over time.
+
+
+        15. A strategic business unit (SBU) is any part of a business organization which is treated
+            separately for strategic management purposes. The concept of SBU is helpful in creating
+            an SBU organizational structure. It is discrete element of the business serving product
+            markets with readily identifiable competitors and for which strategic planning can be
+            concluded. It is created by adding another level of management in a divisional structure
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2020
+
+
+             after the divisions have been grouped under a divisional top management authority based
+             on the common strategic interests.
+             Advantages of SBU are:
+             ♦     Establishing coordination between divisions having common strategic interests.
+             ♦     Facilitates strategic management and control on large and diverse organizations.
+             ♦     Fixes accountabilities at the level of distinct business units.
+             ♦     Allows strategic planning to be done at the most relevant level within the total
+                   enterprise.
+             ♦     Makes the task of strategic review by top executives more objective and more
+                   effective.
+             ♦     Helps allocate corporate resources to areas with greatest growth opportunities.
+        16. The company needs to conduct strategy audit.
+             A strategy audit is needed under the following conditions:
+             ♦     When the performance indicators reflect that a strategy is not working properly or is
+                   not producing desired outcomes.
+             ♦     When the goals and objectives of the strategy are not being accomplished.
+             ♦     When a major change takes place in the external environment of the organization.
+             ♦     When the top management plans:
+                   -    to fine-tune the existing strategies and introduce new strategies and
+                   -    to ensure that a strategy that has worked in the past continues to be in-tune with
+                        subtle internal and external changes that may have occurred since the
+                        formulation of strategies.
+             Adequate and timely feedback is the cornerstone of effective strategy audit. Strategy audit
+             can be no better than the information on which it is based.
+             Strategy Audit includes three basic activities:
+             (i)   Examining the underlying bases of a firm’s strategy,
+             (ii) Comparing expected results with actual results, and
+             (iii) Taking corrective actions to ensure that performance conforms to plans.
+        17. Strategic Control focuses on the dual questions of whether: (1) the strategy is being
+            implemented as planned; and (2) the results produced by the strategy are those intended.
+             There are four types of strategic control:
+             ♦     Premise control: A strategy is formed on the basis of certain assumptions or
+                   premises about the environment. Premise control is a tool for systematic and
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             13
+
+
+                  continuous monitoring of the environment to verify the validity and accuracy of the
+                  premises on which the strategy has been built.
+             ♦    Strategic surveillance: Strategic surveillance is unfocussed. It involves general
+                  monitoring of various sources of information to uncover unanticipated information
+                  having a bearing on the organizational strategy.
+             ♦    Special alert control: At times, unexpected events may force organizations to reconsider
+                  their strategy. Sudden changes in government, natural calamities, unexpected
+                  merger/acquisition by competitors, industrial disasters and other such events may trigger
+                  an immediate and intense review of strategy.
+             ♦    Implementation control: Managers implement strategy by converting major plans
+                  into concrete, sequential actions that form incremental steps. Implementation control
+                  is directed towards assessing the need for changes in the overall strategy in light of
+                  unfolding events and results.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

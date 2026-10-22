@@ -1,0 +1,20 @@
+{
+  "_comment": "Exam calendar (docs/ARCHITECTURE.md §10.5). Official dates only, copied from ICAI's own announcement on the day in `checked`; build.py validates this file and ships it as manifest.exam. `days` lists every Group II exam day of the attempt; `papers` maps each paper code to its day(s). ICAI's announcement No. 13-CA (EXAM)/JANUARY/2027 (23 Sep 2026) gives the Group II days (8, 10 and 12 January 2027, 2 PM to 5 PM IST, 15 minutes' reading time from 1.45 PM); the paper on each day follows ICAI's Group II order (Paper 4, then 5, then 6), which the admit card confirms. Add the next attempt when ICAI announces it; never guess one.",
+  "cycles": [
+    {
+      "id": "icai-inter-2027-01",
+      "label": "CA Inter January 2027",
+      "organiser": "ICAI",
+      "group": "Group II",
+      "days": ["2027-01-08", "2027-01-10", "2027-01-12"],
+      "papers": {"P4": ["2027-01-08"], "P5": ["2027-01-10"], "P6": ["2027-01-12"]},
+      "time": {"start": "14:00", "end": "17:00", "reading": "13:45", "zone": "IST"},
+      "result": null,
+      "source": "https://resource.cdn.icai.org/94359exam-aps6372-stu-iff-jan2027.pdf",
+      "sha256": "64f07db5a7c90eaa59216abad7fa472c896574037b1456d32a596cf561b0c189",
+      "listed": "https://www.icai.org/category/announcements",
+      "checked": "2026-10-20",
+      "note": "Dates as announced by ICAI (Important Announcement of 23 September 2026); the paper on each day follows ICAI's Group II order. Verify on icai.org and your admit card."
+    }
+  ]
+}

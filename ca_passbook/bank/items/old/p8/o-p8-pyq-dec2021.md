@@ -1,0 +1,724 @@
+<!-- PassBook ICAI bank: docs/ICAI_BANK.md. Text under Instructions, Case, Question, Options and Answer is ICAI's, verbatim. -->
+---
+doc: o-p8-pyq-dec2021
+paper: p8
+kind: pyq
+attempt: dec2021
+qfile: old/p8/pyq-dec2021-a.pdf
+afile: old/p8/pyq-dec2021-a.pdf
+paperfile: old/p8/pyq-dec2021-q.pdf
+choice: q1; any 4 of q2-q6
+q: 1
+status: checked
+by: tx-37
+date: 2026-10-20
+note: Old-scheme Paper 8 (Financial Management and Economics for Finance), December 2021: only Section A Financial Management (pp.1-16 of ICAI's Suggested Answers) is transcribed; Section B Economics for Finance (pp.17-27) is not (no blocks cite it). Text from the Suggested Answers (qfile and afile), which reproduce every question (in italics, not reproduced) before its answer; the question-paper booklet scan (OCR text) is linked as paperfile and was not used for the text. Instructions: ICAI's Section A box on p.1, which gives the choice rule; Section A carries 60 marks (Q1 20 + four of Q2-Q6 at 10 each). ICAI prints no separate time for Section A (3 hours for the whole paper), so minutes: is left out. Item model: Q1 (a)-(d) are separate 5-mark questions; Q2-Q5 each carry one marks note (10) and one connected answer, so each is one item; Q6(c) has an OR alternative (q6c-or, alt: q6c). Old-scheme mapping (ours): Q6(b) (scenario versus sensitivity analysis) and Q6(c) OR (risk adjustment in capital budgeting) are out of syllabus, see their notes; Q4's requirement (ii) is a sensitivity analysis, but the item is tagged by its requirement (i), see its note; every other item is tagged to the current Paper 6A sub-topics. ICAI's own wording kept as printed: "Working notes should form part of the answer" without a full stop, "Total variable costs is", "monthly cash, budget", "(EAT)is", "Advise to the Company", "Reserved surplus" and a space before the full stop in "obtained by the bank .". Repaired extraction damage only: words split by the layout ("expansi on", "Eq uity"), the × of "4×1.25" (Q5) and the subscripts of K_d, K_e, D_1 and PVIF_0.12,t, written in KaTeX. Accepted numbers (each read on the page): 8 is the paper's title "PAPER – 8 : FINANCIAL MANAGEMENT AND ECONOMICS FOR FINANCE" on p.1 (not transcribed); 1 to 6 twice each are the question numbers: ICAI prints "Question N" once, above the question, and check.py drops those lines as a running head (they recur on most pages of the PDF) while counting each number for the question and the answer; 80 is the denominator of 100/80 in Q2's working note (5), the last line of p.6, and 360 the numerator of 360/55 in working note (6), the first line of p.7, which check.py takes for page numbers.
+---
+#### Instructions
+**SECTION – A: FINANCIAL MANAGEMENT**
+
+Question No. **1** is compulsory.
+
+Attempt any **four** questions out of the remaining **five** questions.
+
+In case, any candidate answers extra question(s)/ sub-question(s) over and above the required number, then only the requisite number of questions first answered in the answer book shall be valued and subsequent extra question(s) answered shall be ignored.
+
+Working notes should form part of the answer
+
+---
+item: q1a
+qno: 1
+part: (a)
+marks: 5
+type: descriptive
+tags: fm.wc.receivables
+difficulty: easy
+q: 1
+a: 2-3
+---
+#### Question
+A factoring firm has offered a company to buy its accounts receivables.
+
+The relevant information is given below:
+
+(i) The current average collection period for the company's debt is 80 days and ½% of debtors default. The factor has agreed to pay over money due to the company after 60 days and it will suffer all the losses of bad debts also.
+
+(ii) Factor will charge commission @2%.
+
+(iii) The company spends ₹ 1,00,000 p.a. on administration of debtor.
+
+These are avoidable cost.
+
+(iv) Annual credit sales are ₹ 90 lakhs. Total variable costs is 80% of sales. The company's cost of borrowing is 15% per annum. Assume 365 days in a year.
+
+Should the company enter into agreement with factoring firm?
+#### Answer
+| | Particulars | (₹) |
+|---|---|---:|
+| **A.** | **Annual Savings (Benefit) on taking Factoring Service** | |
+| | Cost of credit administration saved | 1,00,000 |
+| | Bad debts avoided (₹ 90 lakh x ½%) | **45,000** |
+| | Interest saved due to reduction in average collection period [₹ 90 lakh x 0.80 × 0.15 × (80 days – 60 days)/365 days] | **59,178** |
+| | **Total** | **2,04,178** |
+| **B.** | **Annual Cost of Factoring to the Firm:** | |
+| | Factoring Commission [₹ 90 lakh × 2%] | 1,80,000 |
+| | **Total** | **1,80,000** |
+| **C.** | **Net Annual Benefit of Factoring to the Firm (A – B)** | **24,178** |
+
+**Advice:** Since savings to the firm exceeds the cost to the firm on account of factoring, therefore, the company should enter into agreement with the factoring firm.
+#### Approach
+Set what factoring saves (administration, bad debts, interest on the funds tied up for the 20 days cut from the collection period, at variable cost) against the commission it costs.
+
+---
+item: q1b
+qno: 1
+part: (b)
+marks: 5
+type: descriptive
+tags: fm.coc.wacc, fm.coc.debt, fm.coc.equity
+difficulty: easy
+q: 1
+a: 3-4
+---
+#### Question
+Book value of capital structure of B Ltd. is as follows:
+
+| Sources | Amount |
+|---|---:|
+| 12%, 6,000 Debentures @ ₹ 100 each | ₹ 6,00,000 |
+| Retained earnings | ₹ 4,50,000 |
+| 4,500 Equity shares @ ₹ 100 each | ₹ 4,50,000 |
+| | **₹ 15,00,000** |
+
+Currently, the market value of debenture is ₹ 110 per debenture and equity share is ₹ 180 per share. The expected rate of return to equity shareholder is 24% p.a. Company is paying tax @ 30%.
+
+Calculate WACC on the basis of market value weights.
+#### Answer
+**Calculation of Cost of Capital of debentures ignoring market value:**
+
+Cost of Debentures ($K_d$)= 12 (1 - .30) = 8.40%
+
+**Computation of Weighted Average Cost of Capital based on Market Value Weights**
+
+| Source of Capital | Market Value (₹) | Weights to Total Capital | After tax Cost of capital (%) | WACC (%) |
+|---|---:|---:|---:|---:|
+| Debentures (6,000 nos. × ₹ 110) | 6,60,000 | 0.45(approx.) | 8.40 | 3.78 |
+| Equity Shares (4,500 nos. × ₹180) | 8,10,000 | 0.55(approx.) | 24.00 | 13.20 |
+| | 14,70,000 | 1.00 | | 16.98 |
+
+**Note:** Cost of Debenture and Cost of equity considered as given without considering market value. Cost of sources of capital can be computed based on the Market price and accordingly Weighted Average Cost of Capital can be calculated as below:
+
+**Calculation of Cost of Capital for each source of capital considering market value of capital:**
+
+(1) Cost of Equity share capital:
+
+$K_e = \dfrac{\text{Earnings}}{\text{Market Price per share}} = \dfrac{24\% \times \text{₹ } 100}{\text{₹ } 180}$ = 13.333%
+
+(2) Cost of Debentures ($K_d$)= $\dfrac{I(1-t)}{NP} = \dfrac{\text{₹ } 12(1 - 0.3)}{\text{₹ } 110}$ = 7.636%
+
+**Computation of Weighted Average Cost of Capital based on Market Value Weights**
+
+| Source of Capital | Market Value (₹) | Weights to Total Capital | After tax Cost of capital (%) | WACC (%) |
+|---|---:|---:|---:|---:|
+| Debentures (6,000 nos. × ₹ 110) | 6,60,000 | 0.45(approx.) | 7.636 | **3.44** (approx.) |
+| Equity Shares (4,500 nos. × ₹ 180) | 8,10,000 | 0.55(approx.) | 13.333 | **7.33** (approx.) |
+| | 14,70,000 | 1.00 | | **10.77** (approx.) |
+#### Approach
+Weights come from market values (debentures at ₹ 110, equity at ₹ 180; retained earnings have no separate market value). The after-tax cost of debt is the coupon × (1 – tax).
+
+---
+item: q1c
+qno: 1
+part: (c)
+marks: 5
+type: descriptive
+tags: fm.div.models, fm.coc.equity
+difficulty: medium
+q: 2
+a: 4
+---
+#### Question
+X Ltd. is a multinational company. Current market price per share is ₹ 2,185. During the F.Y. 2020-21, the company paid ₹ 140 as dividend per share. The company is expected to grow @ 12% p.a. for next four years, then 5% p.a. for an indefinite period. Expected rate of return of shareholders is 18% p.a.
+
+(i) Find out intrinsic value per share.
+
+(ii) State whether shares are overpriced or underpriced.
+
+| Year | 1 | 2 | 3 | 4 | 5 |
+|---|---:|---:|---:|---:|---:|
+| Discounting Factor @ 18% | 0.847 | 0.718 | 0.608 | 0.515 | 0.436 |
+#### Answer
+**As per Dividend discount model, the price of share is calculated as follows:**
+
+P= $\dfrac{D_1}{(1+K_e)^1} + \dfrac{D_2}{(1+K_e)^2} + \dfrac{D_3}{(1+K_e)^3} + \dfrac{D_4}{(1+K_e)^4} + \dfrac{D_4(1+g)}{(K_e-g)} \times \dfrac{1}{(1+K_e)^4}$
+
+Where,
+
+P = Price per share
+
+$K_e$ = Required rate of return on equity
+
+g = Growth rate
+
+P= $\dfrac{\text{₹ 140} \times 1.12}{(1 + 0.18)^1} + \dfrac{\text{₹ 156.80} \times 1.12}{(1 + 0.18)^2} + \dfrac{\text{₹ 175.62} \times 1.12}{(1 + 0.18)^3} + \dfrac{\text{₹ 196.69} \times 1.12}{(1 + 0.18)^4} + \dfrac{\text{₹ 220.29} (1 + 0.05)}{(0.18 - 0.05)} \times \dfrac{1}{(1 + 0.18)^4}$
+
+**P= 132.81 + 126.10 + 119.59 + 113.45 + 916.34** = **₹ 1,408.29**
+
+Intrinsic value of share is ₹ 1,408.29 as compared to latest market price of ₹2,185. **Market price of share is over-priced by ₹ 776.71.**
+#### Approach
+Two-stage dividend discount: discount the four dividends growing at 12%, then add the Gordon value at the end of year 4 (D4 × 1.05 ÷ (18% – 5%)) discounted back four years; compare with ₹ 2,185.
+
+---
+item: q1d
+qno: 1
+part: (d)
+marks: 5
+type: descriptive
+tags: fm.wc.cash
+difficulty: medium
+q: 2
+a: 4-5
+---
+#### Question
+A garment trader is preparing cash forecast for first three months of calendar year 2021. His estimated sales for the forecasted periods are as below:
+
+| | January (₹ '000) | February (₹ '000) | March (₹ '000) |
+|---|---:|---:|---:|
+| Total sales | 600 | 600 | 800 |
+
+(i) The trader sells directly to public against cash payments and to other entities on credit. Credit sales are expected to be four times the value of direct sales to public. He expects 15% customers to pay in the month in which credit sales are made, 25% to pay in the next month and 58% to pay in the next to next month. The outstanding balance is expected to be written off.
+
+(ii) Purchases of goods are made in the month prior to sales and it amounts to 90% of sales and are made on credit. Payments of these occur in the month after the purchase. No inventories of goods are held.
+
+(iii) Cash balance as on 1st January, 2021 is ₹ 50,000.
+
+(iv) Actual sales for the last two months of calendar year 2020 are as below:
+
+| | November (₹ '000) | December (₹ '000) |
+|---|---:|---:|
+| Total sales | 640 | 880 |
+
+You are required to prepare a monthly cash, budget for the three months from January to March, 2021.
+#### Answer
+**Working Notes:**
+
+**(1) Calculation of cash and credit sales** (₹ in thousands)
+
+| | Nov. | Dec. | Jan. | Feb. | Mar. |
+|---|---:|---:|---:|---:|---:|
+| Total Sales | 640 | 880 | 600 | 600 | 800 |
+| Cash Sales (1/5th of total sales) | 128 | 176 | 120 | 120 | 160 |
+| Credit Sales (4/5th of total sales) | 512 | 704 | 480 | 480 | 640 |
+
+**(2) Calculation of Credit Sales Receipts** (₹ in thousands)
+
+| Month | Nov. | Dec. | Jan. | Feb. | Mar. |
+|---|---:|---:|---:|---:|---:|
+| Forecast Credit sales (Working note 1) | 512.00 | 704.00 | 480.00 | 480.00 | 640.00 |
+| Receipts: | | | | | |
+| 15% in the month of sales | | | **72.00** | **72.00** | **96.00** |
+| 25% in next month | | | **176.00** | **120.00** | **120.00** |
+| 58% in next to next month | | | **296.96** | **408.32** | **278.40** |
+| **Total** | | | 544.96 | 600.32 | 494.40 |
+
+**Cash Budget** (₹in thousands)
+
+| | Nov. | Dec. | Jan. | Feb. | Mar. |
+|---|---:|---:|---:|---:|---:|
+| Opening Balance **(A)** | | | 50.00 | 174.96 | 355.28 |
+| Sales | 640.00 | 880.00 | 600.00 | 600.00 | 800.00 |
+| **Receipts:** | | | | | |
+| Cash Collection (Working note 1) | | | 120.00 | 120.00 | 160.00 |
+| Credit Collections (Working note 2) | | | 544.96 | 600.32 | 494.40 |
+| Total **(B)** | | | 664.96 | 720.32 | 654.40 |
+| Purchases (90% of sales in the month prior to sales) | | 540 | 540 | 720 | |
+| **Payments:** | | | | | |
+| Payment for purchases (next month) | | | **540** | **540** | **720** |
+| Total **(C)** | | | 540 | 540 | 720 |
+| Closing balance**(D) = (A + B – C)** | | | 174.96 | 355.28 | **289.68** |
+#### Approach
+Split sales 1 : 4 into cash and credit, spread each month's credit sales 15% / 25% / 58% over three months, and pay for purchases (90% of next month's sales) a month after buying them, i.e. in the month of the sale.
+
+---
+item: q2
+qno: 2
+marks: 10
+type: descriptive
+tags: fm.ratio.prepare, fm.ratio.liquidity, fm.ratio.activity
+difficulty: medium
+note: Kept as printed: "Reserved surplus" in ICAI's balance sheet; working note (3) works on equity shareholders' fund, with ICAI's footnote that the question can also be solved with share capital alone as 'equity'.
+q: 5-6
+a: 6-7
+---
+#### Question
+Following are the data in respect of ABC Industries for the year ended 31st March, 2021:
+
+| | | |
+|---|---|---|
+| Debt to Total assets ratio | : | 0.40 |
+| Long-term debts to equity ratio | : | 30% |
+| Gross profit margin on sales | : | 20% |
+| Accounts receivables period | : | 36 days |
+| Quick ratio | : | 0.9 |
+| Inventory holding period | : | 55 days |
+| Cost of goods sold | : | ₹ 64,00,000 |
+
+| Liabilities | ₹ | Assets | ₹ |
+|---|---:|---|---:|
+| Equity Share Capital | 20,00,000 | Fixed assets | |
+| Reserves & surplus | | Inventories | |
+| Long-term debts | | Accounts receivable | |
+| Accounts payable | | Cash | |
+| Total | 50,00,000 | Total | |
+
+Required:
+
+Complete the Balance Sheet of ABC Industries as on 31st March, 2021. All calculations should be in nearest Rupee. Assume 360 days in a year.
+#### Answer
+**Working Notes:**
+
+(1) Total liability = Total Assets = ₹ 50,00,000
+
+Debt to Total Asset Ratio = 0.40
+
+$\dfrac{\text{Debt}}{\text{Total Assets}}$ = 0.40
+
+Or, $\dfrac{\text{Debt}}{\text{50,00,000}}$ =0.40
+
+So, **Debt** **= 20,00,000**
+
+(2) Total Liabilities = ₹ 50,00,000
+
+Equity share Capital + Reserves + Debt = ₹ 50,00,000
+
+So, Reserves =₹ 50,00,000 - ₹ 20,00,000 - ₹ 20,00,000
+
+**So, Reserves & Surplus** **= ₹ 10,00,000**
+
+(3) $\dfrac{\text{Long term Debt}}{\text{Equity Shareholders' Fund}}$ = 30%\*
+
+$\dfrac{\text{Long term Debt}}{\text{(20,00,000+10,00,000)}}$ =30%
+
+**Long Term Debt** **= ₹ 9,00,000**
+
+(4) So, Accounts Payable = ₹ 20,00,000 – ₹ 9,00,000
+
+**Accounts Payable** **= ₹ 11,00,000**
+
+(5) Gross Profit to sales = 20%
+
+Cost of Goods Sold = 80% of Sales = ₹ 64,00,000
+
+**Sales =** $\dfrac{100}{80}$ × 64,00,000 **= 80,00,000**
+
+(6) Inventory Turnover = $\dfrac{360}{55}$
+
+$\dfrac{\text{COGS}}{\text{Closing inventory}} = \dfrac{360}{55}$
+
+$\dfrac{\text{64,00,000}}{\text{Closing inventory}} = \dfrac{360}{55}$
+
+**Closing inventory** **= 9,77,778**
+
+(7) Accounts Receivable period = 36 days
+
+$\dfrac{\text{Accounts Receivable}}{\text{Credit sales}} \times 360$ = 36
+
+Accounts Receivable = $\dfrac{36}{360}$ × credit sales
+
+= $\dfrac{36}{360}$ × 80,00,000 (assumed all sales are on credit)
+
+**Accounts Receivable** **= ₹ 8,00,000**
+
+(8) Quick Ratio = 0.9
+
+$\dfrac{\text{Quick Assets}}{\text{Current liabilities}}$ = 0.9
+
+$\dfrac{\text{Cash + Debtors}}{\text{11,00,000}}$ = 0.9
+
+Cash + 8,00,000 = ₹ 9,90,000
+
+**Cash** **= ₹ 1,90,000**
+
+(9) Fixed Assets = Total Assets- Current Assets = 50,00,000 – (9,77,778+8,00,000+1,90,000) = **30,32,222**
+
+**Balance Sheet of ABC Industries as on 31st March 2021**
+
+| Liabilities | (₹) | Assets | (₹) |
+|---|---:|---|---:|
+| Share Capital | 20,00,000 | Fixed Assets | **30,32,222** |
+| Reserved surplus | **10,00,000** | Current Assets: | |
+| Long Term Debt | **9,00,000** | Inventory | **9,77,778** |
+| Accounts Payable | **11,00,000** | Accounts Receivables | **8,00,000** |
+| | | Cash | **1,90,000** |
+| **Total** | 50,00,000 | **Total** | **50,00,000** |
+
+(**\*Note:** Equity shareholders’ fund represent equity in ‘Long term debts to equity ratio’. The question can be solved assuming only share capital as ‘equity’)
+#### Approach
+Start from the total of ₹ 50,00,000: the debt ratio gives total debt, the balance of equity is reserves, and the long-term debt to equity ratio splits debt into long-term debt and payables. Sales come from COGS and the gross margin; the holding periods then give inventory and receivables, and the quick ratio gives cash.
+
+---
+item: q3
+qno: 3
+marks: 10
+type: descriptive
+tags: fm.cs.ebiteps, fm.lev.leverage
+difficulty: medium
+q: 8
+a: 8-9
+---
+#### Question
+Earnings before interest and tax of a company are ₹ 4,50,000. Currently the company has 80,000 Equity shares of ₹ 10 each, retained earnings of ₹ 12,00,000. It pays annual interest of ₹ 1,20,000 on 12% Debentures. The company proposes to take up an expansion scheme for which it needs additional fund of ₹ 6,00,000. It is anticipated that after expansion, the company will be able to achieve the same return on investment as at present.
+
+It can raise fund either through debts at rate of 12% p.a. or by issuing Equity shares at par. Tax rate is 40%.
+
+Required:
+
+Compute the earning per share if:
+
+(i) The additional funds were raised through debts.
+
+(ii) The additional funds were raised by issue of Equity shares.
+
+Advise whether the company should go for expansion plan and which sources of finance should be preferred.
+#### Answer
+**Working Notes:**
+
+(1) **Capital employed before expansion plan:**
+
+| | (₹) |
+|---|---:|
+| Equity shares (₹ 10 × 80,000 shares) | 8,00,000 |
+| Debentures {(₹ 1,20,000/12) × 100} | 10,00,000 |
+| Retained earnings | 12,00,000 |
+| Total capital employed | **30,00,000** |
+
+(2) **Earnings before interest and tax (EBIT) =** 4,50,000
+
+(3) **Return on Capital Employed (ROCE):**
+
+ROCE = $\dfrac{\text{EBIT}}{\text{Capital employed}} \times 100 = \dfrac{\text{₹ 4,50,000}}{\text{₹ 30,00,000}} \times 100$ = **15%**
+
+(4) **Earnings before interest and tax (EBIT) after expansion scheme:**
+
+After expansion, capital employed = ₹ 30,00,000 + ₹ 6,00,000 = ₹ 36,00,000
+
+**Desired EBIT** = 15% × ₹ 36,00,000 = **₹ 5,40,000**
+
+**(i) & (ii) Computation of Earnings Per Share (EPS) under the following options:**
+
+| | Present situation | Expansion scheme Additional funds raised as | |
+|---|---:|---:|---:|
+| | | **Debt (i)** | **Equity (ii)** |
+| | (₹) | (₹) | (₹) |
+| Earnings before Interest and Tax (EBIT) | 4,50,000 | 5,40,000 | 5,40,000 |
+| Less: Interest - Old Debt | 1,20,000 | 1,20,000 | 1,20,000 |
+| - New Debt | -- | **72,000**<br>(₹ 6,00,000 × 12%) | -- |
+| Earnings before Tax (EBT) | 3,30,000 | 3,48,000 | 4,20,000 |
+| Less: Tax (40% of EBT) | 1,32,000 | 1,39,200 | 1,68,000 |
+| PAT/EAT | 1,98,000 | **2,08,800** | **2,52,000** |
+| No. of shares outstanding | 80,000 | 80,000 | 1,40,000 |
+| Earnings per Share (EPS) | 2.475<br>(₹ 1,98,000/80,000) | **2.610**<br>(₹ 2,08,800/80,000) | **1.800**<br>(₹ 2,52,000/1,40,000) |
+
+**Advise to the Company**: When the expansion scheme is financed by additional debt, the EPS is higher. Hence, the company **should finance the expansion** scheme by **raising debt**.
+#### Approach
+Find today's capital employed (debentures from the ₹ 1,20,000 interest at 12%) and the return on it; the same ROCE on the enlarged capital gives the new EBIT. Then compare EPS with the ₹ 6,00,000 raised as 12% debt and as 60,000 shares at par.
+
+---
+item: q4
+qno: 4
+marks: 10
+type: descriptive
+tags: fm.capbud.npv, fm.capbud.cashflows
+difficulty: hard
+note: One item: requirements (i) and (ii) share one marks note (10) and one connected answer. Old-scheme mapping (ours): requirement (i), the annualised equivalent (equivalent annual) approach, is in the current Paper 6A syllabus (Investment Decisions: equivalent annual cost); requirement (ii) asks for a sensitivity of the recommendation, and sensitivity analysis is not in the current syllabus or the January 2027 Study Material, so the item is tagged by (i) and not marked out of syllabus.
+q: 9-10
+a: 10-11
+---
+#### Question
+Stand Ltd. is contemplating replacement of one of its machines which has become outdated and inefficient. Its financial manager has prepared a report outlining two possible replacement machines. The details of each machine are as follows:
+
+| | Machine 1 | Machine 2 |
+|---|---|---|
+| Initial investment | ₹ 12,00,000 | ₹ 16,00,000 |
+| Estimated useful life | 3 years | 5 years |
+| Residual value | ₹ 1,20,000 | ₹ 1,00,000 |
+| Contribution per annum | ₹ 11,60,000 | ₹ 12,00,000 |
+| Fixed maintenance costs per annum | ₹ 40,000 | ₹ 80,000 |
+| Other fixed operating costs per annum | ₹ 7,20,000 | ₹ 6,10,000 |
+
+The maintenance costs are payable annually in advance. All other cash flows apart from the initial investment assumed to occur at the end of each year. Depreciation has been calculated by straight line method and has been included in other fixed operating costs. The expected cost of capital for this project is assumed as 12% p.a.
+
+Required:
+
+(i) Which machine is more beneficial, using Annualized Equivalent Approach? Ignore tax.
+
+(ii) Calculate the sensitivity of your recommendation in part (i) to changes in the contribution generated by machine 1.
+
+| Year | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---:|---:|---:|---:|---:|---:|
+| $\text{PVIF}_{0.12{,}t}$ | 0.893 | 0.797 | 0.712 | 0.636 | 0.567 | 0.507 |
+| $\text{PVIFA}_{0.12{,}t}$ | 0.893 | 1.690 | 2.402 | 3.038 | 3.605 | 4.112 |
+#### Answer
+**(i) Calculation of Net Cash flows**
+
+**Machine 1**
+
+Other fixed operating costs (excluding depreciation) = 7,20,000–[(12,00,000–1,20,000)/3] = ₹ 3,60,000
+
+| Year | Initial Investment | Contribution | Fixed maintenance costs | Other fixed operating costs (excluding depreciation) | Residual Value | Net cash flow |
+|---|---:|---:|---:|---:|---:|---:|
+| | (₹) | (₹) | (₹) | (₹) | (₹) | (₹) |
+| 0 | (12,00,000) | | (40,000) | | | (12,40,000) |
+| 1 | | 11,60,000 | (40,000) | (3,60,000) | | 7,60,000 |
+| 2 | | 11,60,000 | (40,000) | (3,60,000) | | 7,60,000 |
+| 3 | | 11,60,000 | | (3,60,000) | 1,20,000 | 9,20,000 |
+
+**Machine 2**
+
+Other fixed operating costs (excluding depreciation) = 6,10,000–[(16,00,000–1,00,000)/5] = ₹ 3,10,000
+
+| Year | Initial Investment | Contribution | Fixed maintenance costs | Other fixed operating costs (excluding depreciation) | Residual Value | Net cash flow |
+|---|---:|---:|---:|---:|---:|---:|
+| | (₹) | (₹) | (₹) | (₹) | (₹) | (₹) |
+| 0 | (16,00,000) | | (80,000) | | | (16,80,000) |
+| 1 | | 12,00,000 | (80,000) | (3,10,000) | | 8,10,000 |
+| 2 | | 12,00,000 | (80,000) | (3,10,000) | | 8,10,000 |
+| 3 | | 12,00,000 | (80,000) | (3,10,000) | | 8,10,000 |
+| 4 | | 12,00,000 | (80,000) | (3,10,000) | | 8,10,000 |
+| 5 | | 12,00,000 | | (3,10,000) | 1,00,000 | 9,90,000 |
+
+**Calculation of Net Present Value**
+
+| Year | 12% discount factor | Machine 1 | | Machine 2 | |
+|---|---:|---:|---:|---:|---:|
+| | | **Net cash flow (₹)** | **Present value (₹)** | **Net cash flow (₹)** | **Present value (₹)** |
+| 0 | 1.000 | (12,40,000) | (12,40,000) | (16,80,000) | (16,80,000) |
+| 1 | 0.893 | 7,60,000 | 6,78,680 | 8,10,000 | 7,23,330 |
+| 2 | 0.797 | 7,60,000 | 6,05,720 | 8,10,000 | 6,45,570 |
+| 3 | 0.712 | 9,20,000 | 6,55,040 | 8,10,000 | 5,76,720 |
+| 4 | 0.636 | | | 8,10,000 | 5,15,160 |
+| 5 | 0.567 | | | 9,90,000 | 5,61,330 |
+| **NPV @ 12%** | | | **6,99,440** | | **13,42,110** |
+| PVAF @ 12% | | | 2.402 | | 3.605 |
+| **Equivalent Annualized Criterion** | | | **2,91,190.674** | | **3,72,291.262** |
+
+**Recommendation: Machine 2 is more beneficial using Equivalent Annualized Criterion.**
+
+**(ii) Calculation of sensitivity of recommendation in part (i) to changes in the contribution generated by machine 1**
+
+Difference in Equivalent Annualized Criterion of Machines required for changing the recommendation in part (i) = 3,72,291.262- 2,91,190.674 = ₹ **81,100.588**
+
+∴ Sensitivity relating to contribution = $\dfrac{\text{₹ 81,100.588}}{\text{₹ 11,60,000.00}}$ ×100 = 6.991 or **7% yearly**
+
+**Alternatively,**
+
+The annualized equivalent cash flow for machine 1 is lower by ₹ (3,72,291.262– 2,91,190.674) = ₹**81,100.588** than for machine 2. Therefore, it would need to increase contribution for **complete 3 years** before the decision would be to invest in this machine.
+
+Sensitivity w.r.t contribution = 81,100.588 / (11,60,000 × 2.402) x100 = **2.911%**
+#### Approach
+Take depreciation out of the other fixed costs, put the maintenance paid in advance in years 0 to n – 1, and compute each machine's NPV; dividing by the annuity factor for its own life puts machines of unequal lives on a per-year footing.
+
+---
+item: q5
+qno: 5
+marks: 10
+type: descriptive
+tags: fm.lev.leverage
+difficulty: medium
+note: The text layer's "41.25" in (ii) is "4×1.25" on the page (the multiplication sign is a symbol glyph) and is written so.
+q: 12
+a: 12-14
+---
+#### Question
+Information of A Ltd. is given below:
+
+- Earnings after tax: 5% on sales
+- Income tax rate: 50%
+- Degree of Operating Leverage: 4 times
+- 10% Debenture in capital structure: ₹ 3 lakhs
+- Variable costs: ₹ 6 lakhs
+
+Required:
+
+(i) From the given data complete following statement:
+
+| | |
+|---|---:|
+| Sales | XXXX |
+| Less: Variable costs | ₹ 6,00,000 |
+| Contribution | XXXX |
+| Less: Fixed costs | XXXX |
+| EBIT | XXXX |
+| Less: Interest expenses | XXXX |
+| EBT | XXXX |
+| Less: Income tax | XXXX |
+| EAT | XXXX |
+
+(ii) Calculate Financial Leverage and Combined Leverage.
+
+(iii) Calculate the percentage change in earning per share, if sales increased by 5%.
+#### Answer
+**(i) Working Notes**
+
+Earning after tax (EAT)is 5% of sales
+
+Income tax is 50%
+
+So, EBT is 10% of Sales
+
+Since Interest Expenses is ₹ 30,000
+
+EBIT = 10% of Sales + ₹30,000 ……………………………. (Equation i)
+
+Now Degree of operating leverage = 4
+
+So, $\dfrac{\text{Contribution}}{\text{EBIT}}$ = 4
+
+Or, Contribution = 4 EBIT
+
+Or, Sales – Variable Cost = 4 EBIT
+
+Or, Sales – ₹ 6,00,000 = 4 EBIT ……………………………… (Equation ii)
+
+Replacing the value of EBIT of equation (i) in Equation (ii)
+
+We get, Sales – ₹ 6,00,000 = 4 (10% of Sales + ₹ 30,000)
+
+Or, Sales – ₹ 6,00,000 = 40% of Sales + ₹ 1,20,000
+
+Or, 60% of Sales = ₹ 7,20,000
+
+**So, Sales** = $\dfrac{\text{₹ 7,20,000}}{60\%}$ =**₹ 12,00,000**
+
+Contribution = Sales – Variable Cost = ₹ 12,00,000 – ₹ 6,00,000 =₹ 6,00,000
+
+**EBIT** = $\dfrac{\text{₹ 6,00,000}}{4}$= **₹ 1,50,000**
+
+Fixed Cost = Contribution – EBIT = ₹ 6,00,000 – ₹ 1,50,000 = ₹ 4,50,000
+
+**EBT** = EBIT – Interest = ₹ 1,50,000 – ₹ 30,000 = **₹ 1,20,000**
+
+EAT = 50% of ₹ 1,20,000 = ₹ 60,000
+
+**Income Statement**
+
+| Particulars | (₹) |
+|---|---:|
+| **Sales** | **12,00,000** |
+| *Less:* Variable cost | 6,00,000 |
+| Contribution | 6,00,000 |
+| *Less:* Fixed cost | 4,50,000 |
+| **EBIT** | **1,50,000** |
+| *Less:* Interest | 30,000 |
+| **EBT** | **1,20,000** |
+| *Less:* Tax (50%) | 60,000 |
+| EAT | 60,000 |
+
+**(ii)** Financial Leverage= $\dfrac{\text{EBIT}}{\text{EBT}} = \dfrac{1{,}50{,}000}{1{,}20{,}000}$ **= 1.25 times**
+
+Combined Leverage = Operating Leverage × Financial Leverage
+
+= 4×1.25 = **5 times**
+
+Or,
+
+Combined Leverage = $\dfrac{\text{Contribution}}{\text{EBIT}} \times \dfrac{\text{EBIT}}{\text{EBT}}$
+
+Combined Leverage = $\dfrac{\text{Contribution}}{\text{EBT}} = \dfrac{\text{₹ 6,00,000}}{\text{₹ 1,20,000}}$ = **5 times**
+
+**(iii)** Percentage Change in Earnings per share
+
+Combined Leverage = $\dfrac{\text{\% Change in EPS}}{\text{\% change in Sales}} = 5 = \dfrac{\text{\% change in EPS}}{5\%}$
+
+∴ % Change in EPS = **25%**
+
+Hence, if sales increased by 5 %, EPS will be increased by 25 %.
+#### Approach
+Interest is 10% of ₹ 3 lakhs; EAT at 5% of sales with 50% tax makes EBT 10% of sales. Write EBIT = 10% of sales + interest and contribution = 4 × EBIT, and solve for sales.
+
+---
+item: q6a
+qno: 6
+part: (a)
+marks: 4
+type: descriptive
+tags: fm.sources.long, fm.sources.short
+difficulty: easy
+q: 14
+a: 14-15
+---
+#### Question
+Write short notes on Bridge Finance and Clean Packing Credit.
+#### Answer
+**Bridge Finance:** Bridge finance refers to loans taken by a company normally from commercial banks for a short period because of pending disbursement of loans sanctioned by financial institutions. Though it is of short-term nature but since it is an important step in the facilitation of long-term loan, therefore it is being discussed along with the long term sources of funds. Normally, it takes time for financial institutions to disburse loans to companies. However, once the loans are approved by the term lending institutions, companies, in order not to lose further time in starting their projects, arrange short term loans from commercial banks. The bridge loans are repaid/ adjusted out of the term loans as and when disbursed by the concerned institutions. Bridge loans are normally secured by hypothecating movable assets, personal guarantees and demand promissory notes. Generally, the rate of interest on bridge finance is higher as compared with that on term loans.
+
+**Clean packing credit:** This is an advance made available to an exporter only on production of a firm export order or a letter of credit without exercising any charge or control over raw material or finished goods. It is a clean type of export advance. Each proposal is weighed according to particular requirements of the trade and credit worthiness of the exporter. A suitable margin has to be maintained. Also, Export Credit Guarantee Corporation (ECGC) cover should be obtained by the bank .
+
+---
+item: q6b
+qno: 6
+part: (b)
+marks: 4
+type: descriptive
+tags: fm.capbud
+oos: yes
+note: Out of syllabus (old scheme): sensitivity analysis and scenario analysis (risk analysis in capital budgeting) are not in the current Paper 6A syllabus or the January 2027 Study Material (its Investment Decisions chapter has no risk-analysis section); tagged with the nearest chapter, Investment Decisions.
+q: 14
+a: 15
+---
+#### Question
+Distinguish between Scenario Analysis & Sensitivity Analysis.
+#### Answer
+**Scenario Analysis Vs Sensitivity Analysis**
+
+Sensitivity analysis calculates the impact of the change of a single input variable on the outcome of the project viz., NPV or IRR. The sensitivity analysis thus enables to identify that single critical variable which can impact the outcome in a huge way and the range of outcomes of the project given the change in the input variable.
+
+Scenario analysis, on the other hand, is based on a scenario. The scenario may be recession or a boom wherein depending on the scenario, all input variables change. Scenario Analysis calculates the outcome of the project considering this scenario where the variables have changed simultaneously. Similarly, the outcome of the project would also be considered for the normal and recessionary situation. The variability in the outcome under the three different scenarios would help the management to assess the risk a project carries. Higher deviation in the outcome can be assessed as higher risk and lower to medium deviation can be assessed accordingly.
+
+Scenario analysis is far more complex than sensitivity analysis because in scenario analysis all inputs are changed simultaneously, considering the situation in hand while in sensitivity analysis, only one input is changed, and others are kept constant.
+
+---
+item: q6c
+qno: 6
+part: (c)
+marks: 2
+type: descriptive
+tags: fm.intro.role
+difficulty: easy
+q: 14
+a: 15-16
+---
+#### Question
+Explain in brief the phases of the evolution of financial management.
+#### Answer
+**Evolution of Financial Management:** Financial management evolved gradually over the past 50 years. The evolution of financial management is divided into three phases. Financial Management evolved as a separate field of study at the beginning of the century.
+
+The three stages of its evolution are:
+
+**The Traditional Phase:** During this phase, financial management was considered necessary only during occasional events such as takeovers, mergers, expansion, liquidation, etc. Also, when taking financial decisions in the organisation, the needs of outsiders (investment bankers, people who lend money to the business and other such people) to the business was kept in mind.
+
+**The Transitional Phase:** During this phase, the day-to-day problems that financial managers faced were given importance. The general problems related to funds analysis, planning and control were given more attention in this phase.
+
+**The Modern Phase:** Modern phase is still going on. The scope of financial management has greatly increased now. It is important to carry out financial analysis for a company. This analysis helps in decision making. During this phase, many theories have been developed regarding efficient markets, capital budgeting, option pricing, valuation models and also in several other important fields in financial management. Here, financial management is viewed as a supportive and facilitative function, not only for top management but for all levels of management.
+
+---
+item: q6c-or
+qno: 6
+part: (c)
+alt: q6c
+marks: 2
+type: descriptive
+tags: fm.capbud
+oos: yes
+note: Out of syllabus (old scheme): risk adjustment in capital budgeting (risk analysis) is not in the current Paper 6A syllabus or the January 2027 Study Material; tagged with the nearest chapter, Investment Decisions.
+q: 14
+a: 16
+---
+#### Question
+Adjustment of risk is required in capital budgeting decision, give reasons for it.
+#### Answer
+Reasons for adjustment of Risk in Capital Budgeting decisions are as follows:
+
+1. There is an opportunity cost involved while investing in a project for the level of risk. Adjustment of risk is necessary to help make the decision as to whether the returns out of the project are proportionate with the risks borne and whether it is worth investing in the project over the other investment options available.
+
+2. Risk adjustment is required to know the real value of cash Inflows. Higher risk will lead to higher risk premium and also the expectation of higher return.

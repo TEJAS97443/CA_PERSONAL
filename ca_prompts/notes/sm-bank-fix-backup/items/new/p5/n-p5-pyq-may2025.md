@@ -1,0 +1,1115 @@
+<!-- PassBook ICAI bank: docs/ICAI_BANK.md. Text under Instructions, Case, Question, Options and Answer is ICAI's, verbatim. -->
+---
+doc: n-p5-pyq-may2025
+paper: p5
+kind: pyq
+attempt: may2025
+qfile: new/p5/pyq-may2025-a.pdf
+afile: new/p5/pyq-may2025-a.pdf
+paperfile: new/p5/pyq-may2025-q.pdf
+choice: q1; any 4 of q2-q6
+status: checked
+by: tx-04
+date: 2026-10-20
+q: 1, 9
+accept: 5, 1, 2, 3, 4, 6
+note: Transcribed from ICAI's Suggested Answers (qfile and afile), which reproduce every question with its marks before the answers; the question-paper scan (Part II only) is linked as paperfile and was not used for the text. Instructions: the Suggested Answers' Part headings (p.1, p.9) and the Part II choice rule printed on p.9. p.1 prints the paper's title "PAPER – 5 : AUDITING AND ETHICS" (the 5 that check.py accepts). ICAI prints each Part II question number once, as "Question N" before the reproduced question, and heads the answer "Answer" with no number; check.py expects the number on the answer side as well, so 1, 2, 3, 4 and 6 are accepted (5 is covered by the title's accept). Part I: ICAI prints (2 Marks) against each of the 15 MCQs and answers them only in the Answer Key table on p.8 (correct option, no workings), so the MCQ items carry the key and no Answer text. Q1(b) and Q2(a) each print two requirements without sub-part labels but with their own marks (1 Mark + 4 Marks; 3 Marks + 2 Marks) and ICAI's answer splits cleanly between them, so each requirement is an item, keyed q1b-1, q1b-2, q2a-1, q2a-2 (our numbering; ICAI's label is (b) / (a) for both). ICAI prints (4 Marks) for Q6(c) and (5 Marks) for its OR alternative; both kept as printed. ICAI's text kept as printed: "fully convertible. debentures" and "utllised" (Q2(c)); "regarding its. responsibilities" (Q5(b)); ICAI's answer to Q5(c) is headed "(b)" (the label is dropped, as every answer's label); Q2(a) asks for any three standards and ICAI's answer lists four; Q2(b) asks for five examples and ICAI's answer lists six.
+---
+#### Instructions
+**PART – I Multiple Choice Questions**
+
+**PART – II Descriptive Questions**
+
+Question No.1 is compulsory.
+
+Attempt any four questions from the remaining five questions.
+
+---
+case: c1
+qno: 1-3
+label: Integrated Case Scenario - I
+q: 1
+---
+#### Case
+M/s Rama & Associates, Chartered Accountants, have been appointed as the statutory auditors of a Government company H Ltd. by the Comptroller & Auditor General of India for F.Y. 2024-25. H Ltd. is engaged in the manufacturing of metro train coaches.
+
+CA Rama, the engagement partner, had to conduct audit of expenditure as well of receipts.
+
+During the course of the audit, CA Rama also found that the company has constructed its new stockyard for parking its metro coaches and maintenance of its metro coaches. However, the newly constructed stockyard was not being used by the company for the designated purpose and the company continued using the rented stockyard. CA Rama considered such expenditure as infructuous and avoidable expenditure.
+
+The engagement partner also discussed with his team regarding the areas to be covered while conducting the audit of receipts. The reporting responsibilities of the engagement team were also discussed by the engagement partner with his team.
+
+Based on the above facts, answer the following Q. Nos 1 to 3:
+
+---
+item: m1
+case: c1
+qno: 1
+marks: 2
+type: mcq
+key: C
+tags: aud.entities.govt
+difficulty: easy
+q: 1
+a: 8
+---
+#### Question
+______ is conducted to ensure that the various programmes, schemes, and projects where large financial expenditure have been incurred are run economically and are yielding results expected of them.
+#### Options
+(A) Propriety Audit
+(B) Audit against Rules and Orders
+(C) Performance Audit
+(D) Audit against Provision of funds
+
+---
+item: m2
+case: c1
+qno: 2
+marks: 2
+type: mcq
+key: B
+tags: aud.entities.govt
+difficulty: easy
+q: 2
+a: 8
+---
+#### Question
+While conducting an audit against provision of funds, the statutory auditors, M/s Rama & Associates must check
+#### Options
+(A) that each item of expenditure is covered by a sanction either general or special of a competent authority.
+(B) that the expenditure incurred has been on the purpose for which the grant and appropriation has been provided and the amount of such expenditure does not exceed the appropriation made.
+(C) that the expenditure conforms to the relevant provision of the constitution and of the laws and rules made thereunder.
+(D) that the expenditure is in accordance with the financial rules, regulations and orders issued by the competent authority.
+#### Approach
+Each option describes one of the kinds of expenditure audit (sanctions, provision of funds, regularity, rules and orders); match the definition to "provision of funds".
+
+---
+item: m3
+case: c1
+qno: 3
+marks: 2
+type: mcq
+key: A
+tags: aud.entities.govt
+difficulty: easy
+q: 2
+a: 8
+---
+#### Question
+Which type of the expenditure audit covers the scrutiny of the expenditure incurred on the construction of stockyard by the company which is considered as infructuous and avoidable by CA Rama?
+#### Options
+(A) Propriety Audit
+(B) Audit against provision of funds
+(C) Audit of sanctions
+(D) Performance Audit
+
+---
+case: c2
+qno: 4-8
+label: Integrated Case Scenario - II
+q: 2-3
+---
+#### Case
+M/s AB & Co., Chartered Accountants, have been appointed as the statutory auditors for Financial Year 2024-25 of PQ Ltd., which is a textile company. Mr. X, the engagement partner, assigned the task of auditing the various items of financial statements to the articled clerks. Mr. X explained to the articled clerks that financial statement purports to present something as a whole in addition to its component details. An income statement purports to present "the results of operations," whereas the balance sheet purports to present "financial position." He further clarified that the auditor's opinion is typically directed to these overall representations.
+
+However, before formulating and providing an opinion on the overall truthfulness of these statements, the auditor must first examine the truth of various specific assertions that make up each of these statements. By evaluating these individual assertions, the auditor can then form a judgment regarding the financial statement as a whole.
+
+To verify the assertions presented in the financial statements, the auditor must perform variety of procedures.
+
+Articled clerks looking after different areas seek your advice as regards their different concerns.
+
+Based on the above facts, answer the following Q. Nos 4 to 8:
+
+---
+item: m4
+case: c2
+qno: 4
+marks: 2
+type: mcq
+key: B
+tags: aud.evid.assertions, aud.items.current
+difficulty: medium
+q: 3
+a: 8
+---
+#### Question
+Mr. B, an Articled Clerk responsible for the audit procedures concerning inventory, found that the inventory amounting to ₹ 38 lakhs, after excluding ₹ 2 lakhs of inventory that was held by PQ Ltd. as a consignee, has been recognized in the Balance Sheet. Which of the following assertions related to inventory are applicable in this situation?
+
+(I) Occurrence
+
+(II) Completeness
+
+(III) Rights & Obligations
+
+(IV) Measurement
+#### Options
+(A) I & II above
+(B) II & III above
+(C) III & IV above
+(D) I & IV above
+#### Approach
+Ask what could go wrong with goods held as a consignee: are they the entity's own (rights), and is everything that should be recorded recorded (completeness)?
+
+---
+item: m5
+case: c2
+qno: 5
+marks: 2
+type: mcq
+key: D
+tags: aud.items.equity
+difficulty: medium
+q: 3-4
+a: 8
+---
+#### Question
+Mr. C, an Articled Clerk responsible for the audit procedures regarding the share capital, found that during the year under audit, PQ Ltd. had issued sweat equity shares amounting to ₹ 10 Lakhs. Which of the following statements regarding the issue of sweat equity shares are correct?
+
+(I) It can be issued to employees.
+
+(II) It can be issued to directors.
+
+(III) It can be issued at a discount.
+
+(IV) It should be of a class of shares already issued by PQ Ltd.
+#### Options
+(A) I & III above
+(B) I, II & III above
+(C) I, II & IV above
+(D) I, II, III & IV above
+#### Approach
+Recall the definition of sweat equity shares in the Companies Act, 2013 (to whom, at what price) and the condition in section 54 about the class of shares.
+
+---
+item: m6
+case: c2
+qno: 6
+marks: 2
+type: mcq
+key: B
+tags: aud.items.equity
+difficulty: medium
+q: 4
+a: 8
+---
+#### Question
+Mr. D, an Articled Clerk, was performing audit procedures related to Reserves and Surplus in PQ Ltd. tell him that which statement are correct in respect of Reserves and Surplus?
+
+(I) Reserves are the amounts appropriated out of profits for commitment.
+
+(II) Securities premium is a capital reserve.
+
+(III) A debit balance in the statement of profit and loss account shall be shown as a negative figure under the head 'surplus'.
+
+(IV) All reserves can be used to augment the working capital of the Company.
+#### Options
+(A) I & II above
+(B) II & III above
+(C) III & IV above
+(D) II & IV above
+
+---
+item: m7
+case: c2
+qno: 7
+marks: 2
+type: mcq
+key: D
+tags: aud.items.ppe
+difficulty: medium
+q: 4
+a: 8
+---
+#### Question
+Mr. E, an Articled Clerk, was not sure about which items should be considered as intangible assets in PQ Ltd. According to AS-26, which of the following items should not be recognized as intangible assets?
+
+(I) Internally generated Goodwill
+
+(II) Compact disk in the case of computer software
+
+(III) Copyrights
+
+(IV) Computer software for computer-controlled machine tools that cannot operate without that specific software, which is an integral part of the related hardware.
+#### Options
+(A) I & II above
+(B) II & III above
+(C) III & IV above
+(D) I & IV above
+#### Approach
+AS 26 never recognises internally generated goodwill, and software that is an integral part of the hardware it runs is treated with that hardware.
+
+---
+item: m8
+case: c2
+qno: 8
+marks: 2
+type: mcq
+key: C
+tags: aud.items.expenses, aud.items.ppe
+difficulty: easy
+q: 5
+a: 8
+---
+#### Question
+Mr. F, an Articled Clerk, wants to know that which of the below statement is incorrect while auditing Depreciation and Amortization expenses in PQ Ltd.?
+#### Options
+(A) Depreciation and amortization have been charged as per the useful life of PPE and intangible assets.
+(B) Depreciation on the revalued amount should be accounted from the revaluation reserve.
+(C) Depreciation should be charged on assets from the date of actual usage and not when they are ready to use.
+(D) Depreciation and amortization should be computed prospectively whenever there is any change in useful life of PPE and intangible assets.
+
+---
+case: c3
+qno: 9-12
+label: Integrated Case Scenario - III
+q: 5-6
+---
+#### Case
+M/s DG and Associates, Chartered Accountants, have been appointed as the statutory auditor of HT Private Limited for the financial year 2024-25. CA Mr. D, engagement partner, and a team comprising of three articled clerks has been assigned the task of conducting the audit of HT Private Limited for F.Y. 2024-25.
+
+In the initial stages of conducting an audit of HT Private Limited, CA Mr. D decided to evaluate internal control operating in the company. To gather information required for evaluation of internal control, CA Mr. D asked his team members to suggest a method which would help in gathering information so that internal control of the company can be evaluated.
+
+First team member of the team suggested that they should follow a method, in which a series of instructions and/or questions are required to be followed and/or answered by the audit team and the answers to these instructions are usually Yes, No or Not Applicable. These instructions are framed having regard to the desirable elements of control.
+
+The second team member of team suggested a method in which a complete and exhaustive description of the internal control system as found in operation is recorded by the auditor.
+
+The third team member of team suggested a method in which comprehensive series of questions concerning internal control were required to be answered which would provide information about internal control.
+
+Based on the above facts, answer the following Q. Nos 9 to 12:
+
+---
+item: m9
+case: c3
+qno: 9
+marks: 2
+type: mcq
+key: D
+tags: aud.risk.ic, aud.plan.program
+difficulty: easy
+q: 6
+a: 8
+---
+#### Question
+In initial stage of conducting audit of HT Private Limited, CA Mr. D decided to evaluate internal control of the company. Evaluation of internal control is very important part of
+#### Options
+(A) Audit Report
+(B) Audit Evidence
+(C) Audit Documentation
+(D) Audit Programme
+
+---
+item: m10
+case: c3
+qno: 10
+marks: 2
+type: mcq
+key: B
+tags: aud.risk.ic
+difficulty: easy
+q: 6
+a: 8
+---
+#### Question
+The method suggested by first team member according to which, a series of instructions and/or questions which a member of the auditing staff must follow and/or answer. When he completes instruction, he initials the space against the instruction. This method is called as
+#### Options
+(A) Flow Chart
+(B) Check List
+(C) Narrative Record
+(D) Questionnaire
+#### Approach
+Tell the four methods apart by who answers and how: instructions the audit staff tick off, a written description, a diagram, or questions sent to the client.
+
+---
+item: m11
+case: c3
+qno: 11
+marks: 2
+type: mcq
+key: A
+tags: aud.risk.ic
+difficulty: easy
+q: 6
+a: 8
+---
+#### Question
+The method suggested by second team member in which a complete and exhaustive description of internal control in operation is recorded. This method is known as
+#### Options
+(A) Narrative Record
+(B) Flow Chart
+(C) Questionnaire
+(D) Check List
+
+---
+item: m12
+case: c3
+qno: 12
+marks: 2
+type: mcq
+key: A
+tags: aud.risk.ic
+difficulty: easy
+q: 7
+a: 8
+---
+#### Question
+The third team member suggested a method in which comprehensive series of questions concerning internal control is used to collect information. These questions are usually issued to the client and the client is requested to fill it. This method of gathering information so that internal control can be evaluated is called as:
+#### Options
+(A) Internal Control Questionnaire
+(B) Flow Chart
+(C) Narrative Record
+(D) Check List
+
+---
+item: m13
+qno: 13
+marks: 2
+type: mcq
+key: B
+tags: aud.evid.sa500
+difficulty: easy
+q: 7
+a: 8
+---
+#### Question
+ABC Ltd. is undergoing an audit, and the auditors are evaluating the reliability of different types of audit evidence. External evidence is generally considered to be more reliable than internal evidence.
+
+The following is NOT an example of internal evidence:
+#### Options
+(A) Inspection report
+(B) Purchase invoice
+(C) Goods received note
+(D) Bank reconciliation statement
+#### Approach
+Internal evidence originates within the entity; look for the one document that comes from an outside party.
+
+---
+item: m14
+qno: 14
+marks: 2
+type: mcq
+key: C
+tags: aud.complete.sa580
+difficulty: easy
+q: 7
+a: 8
+---
+#### Question
+Which of the following statement is incorrect with regard to written representations?
+#### Options
+(A) Written representations are an important source of audit evidence.
+(B) Written representations are necessary information that the auditor requires in connection with the audit of the entity's financial statements.
+(C) Written representations not only provide necessary audit evidence, but also provide sufficient appropriate audit evidence on their own about any of matters with which they deal.
+(D) Written representations only provide necessary audit evidence but do not provide sufficient appropriate audit evidence on their own about any of matters with which they deal.
+#### Approach
+Two of the options contradict each other; recall what SA 580 says written representations cannot do on their own.
+
+---
+item: m15
+qno: 15
+marks: 2
+type: mcq
+key: C
+tags: aud.plan.sa300
+difficulty: easy
+q: 8
+a: 8
+---
+#### Question
+Which of the following statements is inappropriate?
+#### Options
+(A) Once the overall audit strategy is established, an audit plan can be developed to address the various matters identified in the overall audit strategy.
+(B) The establishment of an overall audit strategy as well as detailed audit plan are not necessarily discrete or sequential process.
+(C) Audit Strategy and Audit plan are not inter-related as changes in one may not result in consequential changes to the other.
+(D) The Audit plan is more detailed than the Audit Strategy that includes the nature, timing and extent of audit procedures to be performed by engagement team members.
+
+---
+case: c4
+qno: 1
+q: 9
+---
+#### Case
+M/s YZW & Co., Chartered Accountants, have been appointed as the statutory auditors of First Health Private Limited for the financial year 2024-25. CA Y is the engagement partner for this assignment. First Health Private Limited operates in the business of hospitals and pharmaceuticals, with 60 hospitals and 200 pharmacy stores across the country. The company has a turnover of ₹ 680 crores and PAT of ₹ 32 crores in the current year.
+
+While verifying the assertions about book debts, CA Y was informed about the availability of the client's ledger invoices, debit notes, and credit notes as audit evidence. CA Y accepts these documents as audit evidence, considering them to be "available."
+
+---
+item: q1a-i
+case: c4
+qno: 1
+part: (a)(i)
+marks: 3
+type: descriptive
+tags: aud.evid.sa500
+difficulty: medium
+q: 9
+a: 10
+---
+#### Question
+Is this decision correct, based on the meaning of the term "available"?
+#### Answer
+In the given situation, M/s YZW & Co., Chartered Accountants, have been appointed as statutory auditor of First Health Private Limited which operates in business of hospitals and pharmaceuticals, with 60 hospitals and 200 pharmacy stores across the country. CA. Y, the engagement partner for this assignment, was informed about the availability of the client’s ledger invoices, debit notes, credit notes as audit evidence. He accepted these documents as audit evidence, considering them to be “available”. For verifying assertions about book debts, the client’s ledger invoices, debit notes, credit notes, monthly accounts statement sent to the customers are all evidence: some of these are corroborative, other being complementary. In addition, balance confirmation procedure is often resorted to obtain greater satisfaction about the reliability of the assertion.
+
+The word “available”, does not mean that the evidence available with the client is the only available evidence. The auditor should know what normally should be available in the context of the transaction having regard to the circumstances and usage.
+
+In view of the above, it can be concluded that decision of CA. Y to consider clients’ ledger invoices, debit notes, credit notes as audit evidence, considering them to be available, is not correct.
+#### Approach
+"Available" evidence means what should normally exist for such a transaction, not only what the client happens to hand over; think of what else exists for book debts (customer statements, confirmations).
+
+---
+item: q1a-ii
+case: c4
+qno: 1
+part: (a)(ii)
+marks: 2
+type: descriptive
+tags: aud.evid.sa500
+difficulty: medium
+q: 9
+a: 10-11
+---
+#### Question
+Also, explain how an auditor should select the most appropriate evidence when testing the accuracy of any assertion to form an opinion.
+#### Answer
+Evidence is the very basis for formulation of opinion and an audit programme is designed to provide for that by prescribing procedures and techniques. What is best evidence for testing the accuracy of any assertion is a matter of expert knowledge and experience. Transactions are varied in nature and impact; procedures to be prescribed depend on prior knowledge of what evidence is reasonably available in respect of each transaction.
+
+In most of the assertions much of the evidence be drawn and each one should be considered and weighed to ascertain its weight to prove or disprove the assertion. In this process, an auditor would be in a position to identify the evidence that brings the highest satisfaction to him about the appropriateness or otherwise of the assertion.
+
+An auditor picks up evidence from a variety of fields and it is generally of the following broad types:
+
+(i) Documentary examination
+
+(ii) Physical examination
+
+(iii) Statements and explanation of management, officials and employees
+
+(iv) Statements and explanations of third parties
+
+(v) Arithmetical calculations by the auditor
+
+(vi) State of internal controls and internal checks
+
+(vii) Inter-relationship of the various accounting data
+
+(viii) Subsidiary and memorandum records
+
+(ix) Minutes
+
+(x) Subsequent action by the client and by others.
+
+---
+item: q1b-1
+qno: 1
+part: (b)
+marks: 1
+type: descriptive
+tags: aud.risk.it
+difficulty: easy
+note: ICAI prints Q1(b)'s two requirements without labels, each with its own marks; this is the first (1 Mark).
+q: 9
+a: 11
+---
+#### Question
+Mention the types of control in an automated environment.
+#### Answer
+**Types of Controls in an automated environment:** Controls in an automated environment can be categorised as under: -
+
+(i) General IT controls
+
+(ii) Application controls
+
+(iii) IT-dependent controls
+
+---
+item: q1b-2
+qno: 1
+part: (b)
+marks: 4
+type: descriptive
+tags: aud.risk.it
+difficulty: easy
+note: ICAI prints Q1(b)'s two requirements without labels, each with its own marks; this is the second (4 Marks).
+q: 9
+a: 12
+---
+#### Question
+Identify the type of control in the following table in Column B against Column A which contains areas where controls are to be implemented in an automated environment.
+
+| Column A | Column B |
+|---|:---:|
+| Access security | ? |
+| Sequence number checks | ? |
+| Data centre and network operations | ? |
+| Mandatory data fields | ? |
+#### Answer
+| Column A - Areas where Controls to be implemented | Column B - Type of Controls |
+|---|---|
+| Access security | General IT controls |
+| Sequence number checks | Application controls |
+| Data centre and network operations | General IT controls |
+| Mandatory data fields | Application controls |
+#### Approach
+General IT controls cover the IT environment as a whole (access, operations, change management); application controls sit inside a particular application's processing of transactions (input checks, sequence checks).
+
+---
+case: c5
+qno: 1
+q: 9-10
+---
+#### Case
+M/s BPA & Associates, Chartered Accountants, was appointed as the auditors of Nissan Ltd., a company with PAN-India presence, for the financial year 2023-24. The audit report was issued on August 20, 2024. Following the issuance of audit report, CA P instructed junior team member Mr. Y to assemble the final audit file and prepare the Completion Memorandum.
+
+---
+item: q1c-i
+case: c5
+qno: 1
+part: (c)(i)
+marks: 2
+type: descriptive
+tags: aud.doc.sa230
+difficulty: easy
+q: 10
+a: 12
+---
+#### Question
+Explain the meaning and significance of a Completion Memorandum.
+#### Answer
+**Meaning and Significance of Completion Memorandum:** The auditor may consider it helpful to prepare and retain as part of the audit documentation a summary (sometimes known as a completion memorandum) that describes-
+
+- the significant matters identified during the audit and
+- how they were addressed.
+
+Such a summary may facilitate effective and efficient review and inspection of the audit documentation, particularly for large and complex audits. Further, the preparation of such a summary may assist auditor’s consideration of the significant matters. It may also help the auditor to consider whether there is any individual relevant SA objective that the auditor cannot achieve that would prevent the auditor from achieving the overall objectives of the auditor.
+
+---
+item: q1c-ii
+case: c5
+qno: 1
+part: (c)(ii)
+marks: 2
+type: descriptive
+tags: aud.doc.sa230, aud.ethics.qc
+difficulty: easy
+q: 10
+a: 12
+---
+#### Question
+Team Member Y completed the assembly of the final audit file in March 2025 and handed it over to CA P. Was team member Y correct in his approach?
+#### Answer
+**Assembly of the Final Audit File:** As per SQC 1, “Quality Control for Firms that perform Audits and Review of Historical Financial Information, and other Assurance and related services”, the auditor shall assemble the audit documentation in an audit file and complete the administrative process of assembling the final audit file on a timely basis after the date of the auditor’s report. An appropriate time limit within which to complete the assembly of the final audit file is ordinarily not more than 60 days after the date of the auditor’s report.
+
+In the given case, the audit report was issued on August 20, 2024 and CA P instructed team member Mr. Y to assemble the final audit file and to prepare completion memorandum. However, Mr. Y completed the assembly of the final audit file in the month of March 2025, i.e. more than 60 days, is non-compliance of SQC 1. Thus, the approach of team member Y is not correct.
+#### Approach
+Recall the time limit for assembling the final audit file after the date of the auditor's report and count from August 20, 2024.
+
+---
+item: q2a-1
+qno: 2
+part: (a)
+marks: 3
+type: descriptive
+tags: aud.nature.assurance
+difficulty: easy
+note: ICAI prints Q2(a)'s two requirements without labels, each with its own marks; this is the first (3 Marks).
+q: 13
+a: 13
+---
+#### Question
+Mention any three standards issued under authority of ICAI Council which are collectively known as 'Engagement Standards'.
+#### Answer
+**Engagement and Quality control Standards:** The following Standards issued under authority of ICAI Council are collectively known as Engagement Standards:
+
+1. Standards on Auditing (SAs) which apply in audit of historical financial information.
+2. Standards on Review Engagements (SREs) which apply in review of historical financial information.
+3. Standards on Assurance Engagements (SAEs) which apply in assurance engagements other than audits and review of historical financial information.
+4. Standards on Related Services (SRSs) which apply in agreed upon procedures to information, compilation engagements and other related service engagements.
+
+---
+item: q2a-2
+qno: 2
+part: (a)
+marks: 2
+type: descriptive
+tags: aud.nature.assurance
+difficulty: easy
+note: ICAI prints Q2(a)'s two requirements without labels, each with its own marks; this is the second (2 Marks). "These standards" are the Engagement Standards of the first requirement (q2a-1).
+q: 13
+a: 14
+---
+#### Question
+Also mention the purpose of issue of these standards.
+#### Answer
+The purpose of issue of these standards is to establish high quality standards and guidance in the areas of financial statement audits and in other types of assurance services.
+
+---
+item: q2b
+qno: 2
+part: (b)
+marks: 5
+type: descriptive
+tags: aud.complete.sa570
+difficulty: easy
+q: 13
+a: 14
+---
+#### Question
+Give five examples of operating events or conditions that, individually or collectively, may cast significant doubt on the entity's ability to continue as a going concern.
+#### Answer
+As per SA 570, “Going Concern”, the following are examples of operating events or conditions that, individually or collectively, may cast significant doubt on the entity’s ability to continue as a going concern.
+
+- Management intentions to liquidate the entity or to cease operations.
+- Loss of key management without replacement.
+- Loss of a major market, key customer(s), franchise, license, or principal supplier(s).
+- Labour difficulties.
+- Shortages of important supplies.
+- Emergence of a highly successful competitor.
+#### Approach
+SA 570 groups its examples into financial, operating and other events; keep only the operating ones (management, markets, labour, supplies, competition).
+
+---
+item: q2c
+qno: 2
+part: (c)
+marks: 4
+type: descriptive
+tags: aud.report.caro
+difficulty: medium
+q: 13
+a: 14
+---
+#### Question
+TS Ltd. has raised funds by issuing fully convertible. debentures. These funds were raised for the expansion and diversification of the business. The company had clearly outlined in its board resolution that these funds will be used for business expansion and diversification purposes only.
+
+However, the company utllised these funds for repayment of long-term loans and advances rather than for the intended purpose of business growth and expansion.
+
+State the reporting responsibility of the auditor under paragraph 3, clause (x) of the Companies Auditor's Report Order, 2020 (CARO 2020).
+#### Answer
+**The auditor is required to report under Clause (x) of Paragraph 3 of CARO 2020 that:**
+
+(a) whether moneys raised by way of initial public offer or further public offer (including debt instruments) during the year were applied for the purposes for which those are raised, if not, the details together with delays or default and subsequent rectification, if any, as may be applicable, be reported.
+
+(b) whether the company has made any preferential allotment or private placement of shares or convertible debentures (fully, partially or optionally convertible) during the year and if so, whether the requirements of section 42 and section 62 of the Companies Act, 2013 have been complied with and the funds raised have been used for the purposes for which the funds were raised, if not, provide details in respect of amount involved and nature of noncompliance.
+
+---
+item: q3a
+qno: 3
+part: (a)
+marks: 5
+type: descriptive
+tags: aud.items.revenue
+difficulty: medium
+q: 14-15
+a: 15-16
+---
+#### Question
+LMN Ltd., a mid-sized manufacturing company, generates revenue primarily through the sale of consumer electronics in domestic and international market. The company reported sales of ₹ 2 crores in the Financial Year 2024-25. The company generates revenue through sale of standard electronics devices, customized product orders with specific delivery terms and extended warranties and after-sales services.
+
+The auditor has to verify that all sales are accurately measured as per applicable accounting standards and correctly journalized, summarized and posted in the financial statements,
+
+Explain the audit procedures to ensure the same.
+#### Answer
+**The auditor will apply the following audit procedures to verify that all sales are accurately measured as per applicable accounting standards and correctly journalised, summarised, and posted in the financial statements are:**
+
+- Trace a few transactions from inception to completion. (Examination in depth)
+- Eg: Take few sales transaction, and check from the receipt of sales order to the payment of receivable balance, every underlying document to ensure if it is properly recorded at every stage and measured accurately taking into consideration all the incentives, discounts, if any. The recognition shall be according to the revenue recognition policy of the entity.
+- If the client is engaged in export sales, then compliance with AS 11 shall be ensured.
+- Auditor must understand client’s operations and related GAAP issues e.g. point of sale revenue recognition vs. percentage of completion, wherever applicable.
+- Compare the rate of sales affected with related parties and review them for collectability, as well as whether they were properly authorised and the value of such transactions were reasonable and at arm’s length.
+#### Approach
+The assertion here is accuracy and measurement of sales: think of procedures that follow a sale from order to collection and those that test the recognition policy for each revenue stream (exports, related parties).
+
+---
+item: q3b
+qno: 3
+part: (b)
+marks: 5
+type: descriptive
+tags: aud.report.sa701
+difficulty: easy
+q: 15
+a: 16
+---
+#### Question
+SA 701 "Communicating Key Audit Matters in the Auditor's Report" deals with the auditor's responsibility to communicate key audit matters in the auditor's report.
+
+Explain the definition of Key Audit Matter and how an auditor will determine the Key Audit Matters?
+#### Answer
+**Definition of Key Audit Matter:** Key Audit Matters are those matters that, in the auditor’s professional judgement were of most significance in the audit of the financial statements of the current period. Key audit matters are selected from matters communicated with those charged with governance.
+
+**Determining Key Audit Matters:** The auditor shall determine, from the matters communicated with those charged with governance, those matters that required significant auditor attention in performing the audit. In making this determination, the auditor shall take into account the following:
+
+- Areas of higher assessed risk of material misstatement, or significant risks identified in accordance with SA 315.
+- Significant auditor judgments relating to areas in the financial statements that involved significant management judgment, including accounting estimates that have been identified as having high estimation uncertainty.
+- The effect on the audit of significant events or transactions that occurred during the period.
+
+---
+item: q3c
+qno: 3
+part: (c)
+marks: 4
+type: descriptive
+tags: aud.ethics.sa210
+difficulty: easy
+q: 15
+a: 16-17
+---
+#### Question
+Luck Ltd., a mid-sized manufacturing company, has approached CA S, a qualified Chartered Accountant, to conduct the audit for the financial year ended March 31, 2025. The company requests CA S to give acceptance for the audit so that audit can be commenced within time.
+
+With reference to SA 210, how the auditor will establish that whether the preconditions for an audit are present?
+#### Answer
+**In order to establish whether the preconditions for an audit are present, CA S shall:**
+
+(I) Determine whether the financial reporting framework is acceptable and
+
+(II) Obtain the agreement of management that it acknowledges and understands its responsibility:
+
+(i) For the preparation of the financial statements in accordance with the applicable financial reporting framework including where relevant their fair representation;
+
+(ii) For such internal control as management considers necessary to enable the preparation of financial statements that are free from material misstatement, whether due to fraud or error; and
+
+(iii) To provide the auditor with:
+
+- Access to all information of which management is aware that is relevant to the preparation of the financial statements such as records, documentation and other matters;
+- Additional information that the auditor may request from management for the purpose of the audit; and
+- Unrestricted access to persons within the entity from whom the auditor determines it necessary to obtain audit evidence.
+#### Approach
+SA 210's preconditions have two parts: an acceptable financial reporting framework, and management's agreement to its responsibilities (preparation, internal control, and giving the auditor access).
+
+---
+case: c6
+qno: 4
+q: 17
+---
+#### Case
+CA Pari is conducting the audit of Heavy Ltd., a company with large number of customers which are generally small retail shop owners. While verifying sundry debtors, CA Pari assesses the risk of material misstatement (ROMM) as low and internal control is operating effectively.
+
+With reference to SA 505 (External Confirmations):
+
+---
+item: q4a-i
+case: c6
+qno: 4
+part: (a)(i)
+marks: 1
+type: descriptive
+tags: aud.evid.sa505
+difficulty: easy
+q: 17
+a: 18
+---
+#### Question
+Which type of confirmation request is most likely to be used by CA Pari in this scenario?
+#### Answer
+CA Pari is most likely to use Negative Confirmation Request since she has assessed the risk of material misstatement as low and internal control is operating effectively.
+
+---
+item: q4a-ii
+case: c6
+qno: 4
+part: (a)(ii)
+marks: 4
+type: descriptive
+tags: aud.evid.sa505
+difficulty: easy
+q: 17
+a: 18
+---
+#### Question
+What are the conditions necessary for using such a confirmation request effectively?
+#### Answer
+The auditor shall not use negative confirmation requests as the sole substantive audit procedure to address an assessed risk of material misstatement at the assertion level unless all of the following are present:
+
+- The auditor has assessed the risk of material misstatement as low and has obtained sufficient appropriate audit evidence regarding the operating effectiveness of controls relevant to the assertion;
+- The population of items subject to negative confirmation procedures comprises a large number of small, homogeneous, account balances, transactions or conditions;
+- A very low exception rate is expected; and
+- The auditor is not aware of circumstances or conditions that would cause recipients of negative confirmation requests to disregard such requests.
+#### Approach
+Each fact of the scenario (low risk, effective controls, many small customers) matches one of SA 505's four conditions for negative confirmations; add the remaining ones.
+
+---
+item: q4b
+qno: 4
+part: (b)
+marks: 5
+type: descriptive
+tags: aud.ethics.qc
+difficulty: easy
+q: 17
+a: 18-19
+---
+#### Question
+M/S ABC & Co., Chartered Accountants, have been appointed as the statutory auditors of DEF Ltd., which is a listed company, for the Financial Year 2024-25. CA X, a seasoned Chartered Accountant with over 15 years of experience has been assigned as the engagement partner for this audit. CA X takes responsibility for maintaining overall quality on this audit engagement in accordance with SA 220.
+
+What do the actions of engagement partner and appropriate messages to the other members of the engagement team, in taking responsibility for the overall quality on audit engagement emphasize?
+#### Answer
+As per SA 220, “Quality Control for an audit of Financial Statements”, leadership responsibility of an engagement partner is to take responsibility for the overall quality on each audit engagement. The actions of the engagement partner CA X and appropriate messages to the other members of the engagement team, in taking responsibility for the overall quality on each audit engagement, emphasise on:
+
+(I) The importance to audit quality of:
+
+(i) Performing work that complies with professional standards and regulatory and legal requirements;
+
+(ii) Complying with the firm’s quality control policies and procedures as applicable;
+
+(iii) Issuing auditor’s reports that are appropriate in the circumstances; and
+
+(iv) The engagement team’s ability to raise concerns without fear of reprisals.
+
+(II) The fact that quality is essential in performing audit engagements.
+
+---
+item: q4c
+qno: 4
+part: (c)
+marks: 4
+type: descriptive
+tags: aud.items.current, aud.risk.testing
+difficulty: easy
+q: 18
+a: 19
+---
+#### Question
+While auditing the accounts of PQR Ltd., a member of the audit team wants to carry out test of controls for checking the effectiveness of internal control over sales as a part of debtor's audit procedure. State any four points that need to be considered in respect of trade receivables.
+#### Answer
+To carry out test of controls for checking the effectiveness of internal control over sales as a part of the debtors’ audit procedure, following points need to be considered in respect of trade receivables by audit team of PQR Ltd:
+
+- Only bona fide sales lead to trade receivables.
+- All such sales are made to approved customers.
+- All such sales are properly recorded in the books of accounts.
+- Once recorded, the debtors can be settled only by receipt of cash or on the authority of a responsible official.
+- Segregation of duties at every point in sales transaction. (accounting for debtors, collecting the payments, sending reminders etc.)
+- Debtors are collected on time.
+- In case debtors are not collected in time, sending reminders and taking legal actions if required.
+- Balances are regularly reviewed.
+- A proper system of follow up exists and if necessary, adequate provision for bad debt should be made by preparing adequate ageing schedule of the debtors.
+
+---
+item: q5a
+qno: 5
+part: (a)
+marks: 5
+type: descriptive
+tags: aud.report.branch
+difficulty: easy
+q: 19
+a: 20
+---
+#### Question
+As per SA 299 "Joint Audit of Financial Statements", joint audit basically implies pooling together the resources and expertise of more than one firm of auditors to render an expert job in a given time period which may be difficult to accomplish acting individually. Explain by stating any five advantages of joint audit.
+#### Answer
+**As per SA 299, “Joint Audit of Financial Statements”, the advantages of Joint Audit are:**
+
+(i) Sharing of expertise.
+
+(ii) Advantage of mutual consultation.
+
+(iii) Lower workload.
+
+(iv) Better quality of performance.
+
+(v) Improved service to the client.
+
+(vi) In respect of multi-national companies, the work can be spread using the expertise of the local firms which are in a better position to deal with detailed work and the local laws and regulations.
+
+(vii) Lower staff development costs.
+
+(viii) Lower costs to carry out the work.
+
+---
+item: q5b
+qno: 5
+part: (b)
+marks: 5
+type: descriptive
+tags: aud.complete.sa580
+difficulty: medium
+q: 19-20
+a: 21
+---
+#### Question
+The Management of Sun Shine Ltd. has provided the auditor with a written representation regarding its. responsibilities for the preparation of the financial statements. In addition to this, the auditor may request other written representations about the financial statements.
+
+Mention such other representations which may supplement but do not form part of the written representation relating to management's responsibilities regarding preparation of financial statements.
+#### Answer
+As per SA 580, “Written Representations”, in addition to the written representation about management’s responsibilities regarding preparation of financial statements, the auditor may consider it necessary to request other written representations about the financial statements.
+
+Other representations which may supplement, but do not form part of the written representation relating to management’s responsibilities regarding preparation of financial statements are the following:
+
+(i) Whether the selection and application of accounting policies are appropriate; and
+
+(ii) Whether matters such as the following, where relevant under the applicable financial reporting framework, have been recognized, measured, presented or disclosed in accordance with that framework:
+
+1. Plans or intentions that may affect the carrying value or classification of assets and liabilities;
+2. Liabilities, both actual and contingent;
+3. Title to, or control over, assets, the liens or encumbrances on assets, and assets pledged as collateral; and
+4. Aspects of laws, regulations and contractual agreements that may affect the financial statements, including non-compliance.
+#### Approach
+SA 580 names two such representations: on accounting policies, and on whether certain matters were recognised, measured, presented or disclosed properly; list the matters under the second.
+
+---
+item: q5c
+qno: 5
+part: (c)
+marks: 4
+type: descriptive
+tags: aud.bank.advances
+difficulty: easy
+q: 20
+a: 21-22
+---
+#### Question
+Compute the Drawing power for Cash Credit limit granted to S Ltd. by Trust Bank for the month of March 2025 from the following information:
+
+| Particulars | Amount in (₹) |
+|---|---:|
+| Value of stocks | 50,000 |
+| Value of debtors (including debtors of 5,000 for an invoice dated 17.11.2024) | 45,000 |
+| Value of creditors for goods | 15,000 |
+| Sanctioned limit | 45,000 |
+
+Margin on stock is 20% and on debtors is 50%.
+
+**Note:** Debtors older than 3 months are ineligible for calculation of D.P.
+#### Answer
+**Computation of Drawing power of S Ltd. for the month of March 2025:**
+
+| | |
+|---|---:|
+| Value of stocks | ₹ 50,000 |
+| Less: creditors for goods | ₹ 15,000 |
+| Value of Paid stocks | ₹ 35,000 |
+| Less: Margin @ 20% | ₹ 7,000 |
+| Drawing power (A) | **₹ 28,000** |
+| Value of debtors | ₹ 45,000 |
+| Less: debtors exceeding 90 days | ₹ 5,000 |
+| | ₹ 40,000 |
+| Less: Margin @ 50% | ₹ 20,000 |
+| Drawing Power (B) | **₹ 20,000** |
+| Drawing Power (A+B) | **₹ 48,000** |
+
+The sanctioned limit given in the question is ₹ 45000 whereas drawing power as per the above working is ₹ 48000. Accordingly, drawing power for Cash Credit Limit granted to S Ltd. by Trust Bank for the month of March 2025 would be restricted to sanctioned limit i.e., ₹ 45000.
+#### Approach
+Stock counts only to the extent it is paid for (less trade creditors); drop debtors older than three months; apply each margin; then compare the total with the sanctioned limit.
+
+---
+item: q6a
+qno: 6
+part: (a)
+marks: 5
+type: descriptive
+tags: aud.evid.sa501
+difficulty: easy
+q: 22
+a: 22-23
+---
+#### Question
+T Ltd. has appointed NFO & Co., Chartered Accountants, as statutory auditors. Since inventory is a material component of the financial statements, CA F plans to attend the physical inventory counting.
+
+Provide any five matters that CA F should consider when planning their attendance at the physical inventory counting.
+#### Answer
+**Matters that CA F should consider when planning attendance at physical inventory counting are:**
+
+(i) Nature of inventory.
+
+(ii) Stages of completion of work in progress.
+
+(iii) The risks of material misstatement related to inventory.
+
+(iv) The nature of the internal control related to inventory.
+
+(v) Whether adequate procedures are expected to be established and proper instructions issued for physical inventory counting.
+
+(vi) The timing of physical inventory counting.
+
+(vii) Whether the entity maintains a perpetual inventory system.
+
+(viii) The locations at which inventory is held, including the materiality of the inventory and the risks of material misstatement at different locations, in deciding at which locations attendance is appropriate
+
+(ix) Whether the assistance of an auditor’s expert is needed to obtain sufficient appropriate audit evidence.
+
+---
+item: q6b
+qno: 6
+part: (b)
+marks: 5
+type: descriptive
+tags: aud.entities.commercial
+difficulty: easy
+q: 22
+a: 23
+---
+#### Question
+M/S PQ & Co., Chartered Accountants have been appointed as statutory auditors of CBD Multiplex Cinema Ltd. The audit team started the audit and verified the ledger and other books of accounts for the F.Y. 2024-2025. However, one of the team members is of the view that the internal control mechanism of the company should also be verified.
+
+Can you guide the audit team about the areas that will be covered in verifying the internal control mechanism?
+#### Answer
+**Areas that will be covered in verifying the internal control mechanism of CBD Multiplex Cinema Ltd. are:**
+
+(i) that entrance to the cinema-hall during show is only through printed tickets;
+
+(ii) that they are serially numbered and bound into books;
+
+(iii) that the number of tickets issued for each show and class, are different though the numbers of the same class for the show on the same day, each week, run serially;
+
+(iv) that for advance booking a separate series of tickets is issued; and
+
+(v) that the inventory of tickets is kept in the custody of a responsible official.
+#### Approach
+A cinema's revenue control rests on its tickets: think of how tickets are printed, numbered, issued and kept.
+
+---
+item: q6c
+qno: 6
+part: (c)
+marks: 4
+type: descriptive
+tags: aud.plan.sa300
+difficulty: easy
+q: 22
+a: 23-24
+---
+#### Question
+The auditor shall take into consideration the reporting objectives of the engagement so as to plan timing of different audit procedures and also nature of communications while establishing audit strategy. Give any four instances of reporting objectives.
+#### Answer
+**The reporting objectives of the engagement to plan the timing of the different audit procedures and also the nature of the communications while establishing audit strategy are:**
+
+- The entity’s timetable for reporting.
+- Organisation of meetings to discuss nature, timing and extent of audit work with management.
+- Discussion with management regarding the expected type and timing of reports to be issued including the auditor’s report.
+- Discussion with management regarding the expected communications on the status of audit work throughout the engagement.
+- Expected nature and timing of communications among engagement team members, including the nature and timing of team meetings and timing of the review of work performed.
+
+---
+item: q6c-or
+alt: q6c
+qno: 6
+part: (c)
+marks: 5
+type: descriptive
+tags: aud.items.expenses
+difficulty: easy
+note: ICAI prints this as an OR alternative to Q6(c), with its own (5 Marks) against the (4 Marks) of the first (c).
+q: 22
+a: 24
+---
+#### Question
+As an auditor of Star Ltd., a company covered under Section 135 of the Companies Act, 2013, what matters should auditor verify to ensure that proper disclosures regarding Corporate Social Responsibility (CSR) activities is made in Additional Information to notes to account.
+
+Mention any four such matters.
+#### Answer
+**As an auditor of Star Ltd., a company covered under Section 135 of the Companies Act, 2013, the auditor should verify the following matters to ensure that proper disclosures regarding Corporate Social Responsibility (CSR) activities is made in “Additional Information” to notes to account are:**
+
+(i) amount required to be spent by the company during the year.
+
+(ii) amount of expenditure incurred.
+
+(iii) shortfall at the end of the year.
+
+(iv) total of previous years shortfall.
+
+(v) reason for shortfall.
+
+(vi) nature of CSR activities.
+
+(vii) details of related party transactions, e.g., contribution to a trust controlled by the company in relation to CSR expenditure as per relevant Accounting Standard.
+
+(viii) where a provision is made with respect to a liability incurred by entering into a contractual obligation, the movements in the provision during the year should be shown separately.

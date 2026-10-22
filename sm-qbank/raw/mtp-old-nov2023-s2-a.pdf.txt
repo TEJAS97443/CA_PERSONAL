@@ -1,0 +1,401 @@
+                                                             Test Series: October, 2023
+                                MOCK  TEST PAPER - 2
+                              INTERMEDIATE  GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND  STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                                      Answers
+                         PART I: MULTIPLE CHOICE QUESTIONS
+1.  (a) Cloud Computing
+2.  (b) Salami Technique
+3.  (d) The logic-based errors detected in the system are corrected.
+4.  (c) Technological
+5.  (c) Section 65
+6.  (c) Failure to identify future business needs.
+7.  (b) Testable Business Rules
+8.  (c) Both I & II
+9.  (a) Budget is normally not a constraint for such a model.
+10. (a) Internet Banking Channel Server
+                           PART II: DESCRIPTIVE QUESTIONS
+1.  (a) Audit Hooks: There are audit routines that flag suspicious transactions. For example, internal
+        auditors at Insurance Company determined that their policyholder system was vulnerable to fraud
+        every time a policyholder changed his or her name or address and then subsequ ently withdrew
+        funds from the policy. They devised a system of audit hooks to tag records with a name or address
+        change. The internal audit department will investigate these tagged records for detecting fraud.
+        When audit hooks are employed, auditors can be informed of questionable transactions as soon
+        as they occur. This approach of real-time notification displays a message on the auditor’s terminal.
+    (b) Some of the common sources of risk are as follows:
+        •   Commercial and Legal Relationships.
+        •   Economic Circumstances.
+        •   Human Behavior.
+        •   Natural Events.
+        •   Political Circumstances.
+        •   Technology and Technical Issues.
+        •   Management Activities and Controls.
+        •   Individual Activities.
+
+2.  (a) The advantages of flowcharts are as follows:
+        •  Quicker grasp of relationships: The relationship between various elements of the application
+           program/business process must be identified. Flowchart can help depict a lengthy procedure
+           more easily than by describing it by means of written notes.
+        •  Effective Analysis: The flowchart becomes a blueprint of a system that can be broken down
+           into detailed parts for study. Problems may be identified, and new approaches may be
+           suggested by flowcharts.
+        •  Communication: Flowcharts aid in communicating the facts of a business problem to those
+           whose skills are needed to arrive at the solution.
+        •  Documentation: Flowcharts serve as good documentation which aid greatly in future program
+           conversions. In the event of staff changes, they serve as training function by helping new
+           employees in understanding the existing programs.
+        •  Efficient coding: Flowcharts act as a guide during the system analysis and program
+           preparation phase. Instructions coded in a programming language may be checked against
+           the flowchart to ensure that no steps are omitted.
+        •  Program Debugging: Flowcharts serve as an important tool during program debugging. They
+           help in detecting, locating, and removing mistakes.
+        •  Efficient program maintenance: The maintenance of operating programs is facilitated by
+           flowcharts. The charts help the programmer to concentrate attention on that part of the
+           information flow which is to be modified.
+        •  Identifying Responsibilities: Specific business processes can be clearly identified to
+           functional departments thereby establishing responsibility of the process owner.
+        •  Establishing Controls: Business process conflicts and risks can be easily identified by
+           recommending suitable controls.
+    (b) Various Back-end applications of key module of Core Banking Systems (CBS) are as follows:
+        •  Back Office: The Back Office is the portion of a company made up of administration and
+           support personnel, who are not client-facing. Back-office functions include settlements,
+           clearances, record maintenance, regulatory compliance, accounting, and IT services. Back
+           Office professionals may also work in areas like monitoring employees' conversations and
+           making sure they are not trading forbidden securities in their own accounts.
+        •  Data Warehouse: Banking professionals use data warehouses to simplify and standardize the
+           way they gather data - and finally get to one clear version of the truth. Data warehouses take
+           care of the difficult data management - digesting large quantities of data and ensuring accuracy
+           and making it easier for professionals to analyze data.
+        •  Credit-Card System: Credit card system provides customer management, credit card
+           management, account management, customer information management and general ledger
+           functions; provides the online transaction authorization and service of the bank card in each
+           transaction channel of the issuing bank; support in the payment application; and at the same
+           time, the system has a flexible parameter system, complex organization support mechanism
+           and product factory based design concept to speed up product time to market.
+        •  Automated Teller Machines (ATM): An Automated Teller Machine (ATM) is an electronic
+           banking outlet that allows customers to complete basic transactions without the aid of a branch
+           representative or teller. Anyone with a credit card or debit card can access most ATMs. ATMs
+           are convenient, allowing consumers to perform quick, self-serve transactions from everyday
+           banking like deposits and withdrawals to more complex transactions like bill payments and
+           transfers.
+
+3.  (a) The key features of Controlling module of ERP are as follows:
+        •  Cost Element Accounting: This component provides overview of the costs and revenues that
+           occur in an organization. The cost elements are the basis for cost accounting and enable the
+           user the ability to display costs for each of the accounts that have been assigned to the cost
+           element. Examples of accounts that can be assigned are Cost Centres, Internal Orders, WBS
+           (Work Breakdown Structures).
+        •  Cost Centre Accounting: This provides information on the costs incurred by the business.
+           Cost Centres can be created for such functional areas as Marketing, Purchasing, Human
+           Resources, Finance, Facilities, Information Systems, Administrative Support, Legal,
+           Shipping/Receiving, or even Quality. Some of the benefits of Cost Centre Accounting are that
+           the managers can set budget / cost Centre targets; Planning; Availability of Cost allocation
+           methods; and Assessments / Distribution of costs to other cost objects.
+        •  Activity-Based-Accounting: This analyses cross-departmental business processes and
+           allows for a process-oriented and cross-functional view of the cost centres.
+        •  Internal Orders: Internal Orders provide a means of tracking costs of a specific job, service,
+           or task. These are used as a method to collect those costs and business transactions related
+           to the task. This level of monitoring can be very detailed but allows management the ability to
+           review Internal Order activity for better decision-making purposes.
+        •  Product Cost Controlling: This calculates the costs that occur during the manufacture of a
+           product or provision of a service and allows the management the ability to analyse their product
+           costs and to make decisions on the optimal price(s) to market their products.
+        •  Profitability Analysis: This allows the management to review information with respect to the
+           company’s profit or contribution margin by individual market segment.
+        •  Profit Centre Accounting: This evaluates the profit or loss of individual, independent areas
+           within an organization.
+    (b) Few activities that may help in mitigating the possible threats and risks to Blockchain are as follows:
+        •   As opposed to traditional manual techniques, computerized continuous monitoring techniques
+            shall be used to perform ongoing evaluations, considering the large volume of data processed
+            and the frequency at which these transactions are getting processed.
+        •   Suitable data analytics procedures shall be developed to identify and obtain relevant and
+            quality data from the blockchain so that it can then be processed into information that
+            subsequently can be used to support management’s business processes and reporting
+            objectives.
+        •   Communication methods shall be developed to ensure that operational changes and updates
+            relating to the use of blockchain are communicated to appropriate personnel so that internal
+            control related responsibilities are carried out in proper manner.
+        •   The unique aspects of blockchain such as consensus protocols, smart contracts, and private
+            keys, as well as factors relating to the ongoing health, governance, and overall reliability of
+            the blockchain in use; shall be assessed thoroughly.
+        •   Both internal and external auditors shall be engaged in discussions during the development
+            of or identification of a blockchain to make the management understand the typical auditability
+            issues associated with using blockchain. Subsequently, processes can be established to
+            mitigate against those issues so that the appropriate information and support for transactions
+            is available.
+
+4.  (a) Various risks and their corresponding controls related to Loan and Advances process of Core
+        Banking Systems are as follows:
+                    Risk                             Key Controls
+         Credit   Line   setup   is The credit committee checks that the Financial Ratios, the
+         unauthorized and not in line with Net-worth, the Risk factors and its corresponding
+         the bank’s policy.         mitigating factors, the Credit Line offered and the Credit
+                                    amount etc. is in line with Credit Risk Policy and that the
+                                    Client can be given the Credit Line.
+                                    Access rights to authorize the credit limit in Loan Booking
+                                    system/CBS should be restricted to authorized personnel.
+                                    Access rights to authorize the customer master in Loan
+                                    Booking system/CBS should be restricted to authorized
+         Masters  defined  for the
+                                    personnel.
+         customer are not in accordance
+                                    Segregation of Duties (SoD) exists in Loan Disbursement
+         with  the re- Disbursement
+                                    system. The system restricts the maker having checker
+         Certificate.
+                                    rights to approve the loan/facilities booked by self in loan
+                                    disbursal system.
+         Credit Line setup can  be  Loan disbursement system/CBS restricts booking of loans/
+         breached in Loan disbursement facilities if the limit assigned to the customer is breached
+         system/CBS.                in Loan disbursement system/CBS.
+         Lower   rate  of   interest/ Loan disbursement system/CBS restricts booking of loans/
+         Commission may be charged to facilities if the rate charged to the customer are not as per
+         customer.                  defined masters in systems.
+         Facilities/Loan’s granted may SoD exists in Loan Disbursement system. The system
+         be unauthorized/in- appropriate. restricts the maker having checker rights to approve the
+                                    loan/facilities booked by self in loan disbursal system.
+         Inaccurate interest / charge Interest on fund-based loans and charges for non-fund-
+         being calculated in the Loan based loans are automatically calculated in the Loan
+         disbursal system.          disbursal system as per the defined masters.
+    (b) The major activities that senior management must perform are – Planning, Organizing, Leading
+        and Controlling. The role of auditor at each activity is as following:
+           Planning: Auditors need to evaluate whether top management has formulated a high -quality
+            information system’s plan that is appropriate to the needs of an organization or not. A poor -
+            quality information system is ineffective and inefficient thereby leading to loss of its
+            competitive position within the marketplace.
+           Organizing: Auditors should be concerned about how well top management acquires and
+            manages staff resources.
+           Leading: Generally, the auditors examine variables that often indicate when motivation
+            problems exist or suggest poor leadership – for example, staff turnover statistics, frequent
+            failure of projects to meet their budget and absenteeism level to evaluate the leading function.
+            Auditors may use both formal and informal sources of evidence to evaluate how well top
+            managers communicate with their staff.
+           Controlling: Auditors should focus on subset of the control activities that should be performed
+            by top management – namely, those aimed at ensuring that the information systems function
+            accomplishes its objectives at a global level. Auditors must evaluate whether top
+            management’s choice to the means of control over the users of IS services is likely to be
+            effective or not.
+
+5.  (a) Virtualization: The core concept of Virtualization lies in Partitioning, which divides a single
+        physical server into multiple logical servers. Once the physical server is divided, each logical server
+        can run an operating system and applications independently. For example - Partitioning of a hard
+        drive is considered as virtualization because one drive is partitioned in a way to create two separate
+        hard drives. Devices, applications, and human users are able to interact with the virtual resource
+        as if it were a real single logical resource.
+        Application areas of Virtualization are as follows:
+        •   Server Consolidation: Virtual machines are used to consolidate many physical servers into
+            fewer servers, which in turn host virtual machines. Each physical server is reflected as a
+            virtual machine “guest” residing on a virtual machine host system. This is also known as
+            “Physical-to-Virtual” or ‘P2V’ transformation.
+        •   Disaster Recovery: Virtual machines can be used as “hot standby” environments for physical
+            production servers. This changes the classical “backup-and-restore” philosophy, by providing
+            backup images that can “boot” into live virtual machines, capable of taking over workload for
+            a production server experiencing an outage.
+        •   Testing and Training: Virtualization can give root access to a virtual machine thus providing
+            the tester with the environment where they can actually test the software on all possible
+            configurations on a single hardware system. If the virtual system crashes, it will not affect the
+            actual system, and within a few minutes, a new virtual environment will be created. This can
+            be very useful in kernel development and operating system courses.
+        •   Portable Applications: Portable applications are needed when running an application from
+            a removable drive, without installing it on the system’s main disk drive. Virtualization can be
+            used to encapsulate the application with a redirection layer that stores temporary files,
+            windows registry entries and other state information in the application’s installation directory
+            and not within the system’s permanent file system.
+        •   Portable Workspaces: A portable workspace is like an offline workspace that can be moved
+            across multiple computers without requiring repeated installation, customization, and data
+            setup. Recent technologies have used virtualization to create portable workspaces on devices
+            like iPods and USB memory sticks.
+    (b) Following are the criteria that the information should meet so that the report is useful for the
+        respective HoDs:
+           Relevant - MIS reports need to be specific to the business area they address. This is
+            important because a report that includes unnecessary information might be ignored.
+           Timely - Managers need to know what’s happening now or in the recent past to make
+            decisions about the future. Be careful not to include information that is old. An example of
+            timely information for your report might be customer phone calls and emails going back 12
+            months from the current date.
+           Accurate - It’s critical that numbers add up and that dates and times are correct. Managers
+            and others who rely on MIS reports can’t make sound decisions with information that is wrong.
+            Financial information is often required to be accurate to the dollar. In other cases, it may be
+            OK to round off numbers.
+           Structured - Information in an MIS report can be complicated. Making that information easy
+            to follow helps management understand what the report is saying. Try to break long passages
+            of information into more readable blocks or chunks and give these chunks meaningful
+            headings.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+         (1)     (2)     (3)    (4)    (5)
+         (c)     (b)     (d)    (b)    (d)
+    (B) (b)
+    (C) (d)
+    (D) (a)
+    (E) (d)
+    (F) (c)
+    (G) (a)
+2.  XYZ Ltd. is a sick company with accumulated losses that have eroded its net worth. The multi -product
+    company may analyse its various products to take decisions on the viability of each. The company may
+    consider a retrenchment strategy. Retrenchment becomes necessary for coping with hostile and
+    adverse situations in the environment and when any other strategy is likely to be suicidal.
+    Retrenchment strategy is adopted because of continuous losses and unviability and stability can be
+    ensured by reallocation of resources from unprofitable to profitable businesses.
+    Retrenchment strategy is followed when an organization substantially reduces the scope of its activity.
+    This is done through an attempt to find out the problem areas and diagnose the causes of the pr oblems.
+    Next, steps are taken to solve the problems. These steps result in different kinds of retrenchment
+    strategies as follows:
+    Turnaround strategy: If the organization chooses to transform itself into a leaner structure and focuses
+    on ways and means to reverse the process of decline, it adopts a turnaround strategy. It may try to
+    reduce costs, eliminate unprofitable outputs, generate revenue, improve coordination, better control,
+    and so on.
+    Divestment Strategy: Divestment strategy involves the sale or liquidation of a portion of business, or a
+    major division, profit centre or SBU. Divestment is usually a part of a rehabilitation or restructuring plan
+    and is adopted when a turnaround has been attempted but has proved to be unsuccessful.
+    Liquidation Strategy: In the retrenchment strategy, the most extreme and unattractive is liquidation
+    strategy. It involves closing down a firm and selling its assets. It is considered as the last resort because
+    it leads to serious consequences such as loss of employment for workers and other employees,
+    termination of opportunities where a firm could pursue any future activities, and the stigma of failure.
+    The management of multiproduct sick company manufacturing various items need to understand pros
+    and cons of each strategic option. The decision will depend upon the specific circumstances of each
+    product and the management goals of the company.
+3.  (a) The term ‘strategic management’ refers to the managerial process of developing a strategic vision,
+        setting objectives, crafting a strategy, implementing and evaluating the strategy, and initiating
+        corrective adjustments were deemed appropriate.
+        The presence of strategic management cannot counter all hindrances and always achieve success
+        as there are limitations attached to strategic management. These can be explained in the following
+        lines:
+
+           Environment is highly complex and turbulent. It is difficult to understand the complex
+            environment and exactly pinpoint how it will shape-up in future. The organisational estimate
+            about its future shape may awfully go wrong and jeopardise all strategic plans. The
+            environment affects as the organisationhas to deal with suppliers, customers, governments
+            and other external factors.
+           Strategic Management is a time-consuming process. Organisations spend a lot of time in
+            preparing, communicating the strategies that may impede daily operations and negatively
+            impact the routine business.
+           Strategic Management is a costly process. Strategic management adds a lot of expenses
+            to an organization. Expert strategic planners need to be engaged, efforts are made for
+            analysis of external and internal environments, devise strategies and properly implement.
+            These can be really costly for organisations with limited resources particularly when small
+            and medium organisation create strategies to compete.
+           Competition is unpredictable. In a competitive scenario, where all organisations are trying
+            to move strategically, it is difficult to clearly estimate the competitive responses to the
+            strategies.
+    (b) Implementation or execution is an operations-oriented, activity aimed at shaping the
+        performance of core business activities in a strategy-supportive manner. In most situations,
+        strategy-execution process includes the following principal aspects:
+           Developing budgets that steer ample resources into those activities that are critical to
+            strategic success.
+           Staffing the organization with the needed skills and expertise, consciously building and
+            strengthening strategy-supportive competencies and competitive capabilities and organizing
+            the work effort.
+           Ensuring that policies and operating procedures facilitate rather than impede effective
+            execution.
+           Using the best-known practices to perform core business activities and pushing for
+            continuous improvement.
+           Installing information and operating systems that enable company personnel to better
+            carry out their strategic roles day in and day out.
+           Motivating people to pursue the target objectives energetically.
+           Creating culture and climate conducive to successful strategy implementation and
+            execution.
+           Exerting the internal leadership needed to drive implementation forward and keep
+            improving strategy execution.
+4.  (a) A well-designed strategic-management system can fail if insufficient attention is given to the human
+        resource dimension. Human resource problems that arise when a business implements strategies
+        can usually be traced to one of three causes: (1) disruption of social and political structures, (2)
+        failure to match individuals’ aptitudes with implementation tasks, and (3) inadequate top
+        management support for implementation activities.
+        i.  Disruption of social and political structures: Strategy implementation poses a threat to
+            many managers and employees in an organization. New power and status relationships are
+
+            anticipated and realized. New formal and informal groups’ values, beliefs, and priorities may
+            be largely unknown. Managers and employees may become engaged in resistance behaviour
+            as their roles, prerogatives, and power in the firm change. Disruption of social and political
+            structures that accompany strategy execution must be anticipated and considered during
+            strategy formulation and managed during strategy implementation.
+        ii. Failure to match individuals’ aptitudes with implementation tasks: A concern in matching
+            managers with strategy is that jobs have specific and relatively static responsibilities, although
+            people are dynamic in their personal development. Commonly used methods that match
+            managers with strategies to be implemented include transferring managers, developing
+            leadership workshops, offering career development activities, promotions, job enlargement,
+            and job enrichment.
+            It is surprising that so often during strategy formulation; individual values , skills, and abilities
+            needed for successful strategy implementation are not considered. It is rare that a firm
+            selecting new strategies or significantly altering existing strategies possesses the right line
+            and staff personnel in tight positions for successful strategy implementation. The need to
+            match individual aptitudes with strategy-implementation tasks should be considered in
+            strategy choice.
+        iii. Inadequate top management support for implementation activities: Inadequate support
+            from strategists for implementation activities often undermines organizational success. Chief
+            executive officers, small business owners, and government agency heads must be personally
+            committed to strategy implementation and express this commitment in highly visible ways.
+            Strategists’ formal statements about the importance of strategic management must be
+            consistent with actual support and rewards given for activities completed and objectives
+            reached. Otherwise, stress created by inconsistency can cause uncertainty among manag ers
+            and employees at all levels.
+    (b) Woodworld is having a product portfolio that is evidently in the decline stage. The product is being
+        replaced with the latest designs with better quality of the product. Strategically, the company should
+        minimize their dependence on the existing products and identify other avenues for the survival and
+        growth. As a CEO of Woodworld Ltd., following can be the strategic options available with the CEO:
+        •   Invest in new product development and switchover to the latest designs. Woodworld Ltd. also
+            need time to invest in hiring interior designers.
+        •   They can acquire or takeover a competitor, provided they have or are able to generate enough
+            financial resources.
+        •   They may also consider unrelated growth and identify other areas for expansion. This will
+            enable Woodworld Ltd. to spread their risks.
+        •   In longer run, they should divest the existing products. However, they may continue with the
+            existing products in a limited manner for such time there is demand for the product.
+5.  (a) The competitive rivalry will be a significant force in case of company of Rajiv Arya as all the rivals
+        are similar in sizes and are manufacturing similar products. It is difficult for any single manufacturer
+        to dominate the market. Large number of patents will make it difficult for new entrants to break into
+        the market. Further, as there are a large number of small suppliers the power that suppliers can
+        exert will also be low.
+        There is no information relating to substitutes and bargaining power of customers in the information
+        given in scenario. However, a domestic vacuum cleaner will directly compete with other options
+
+        such as house maids. Availability of house maids at low cost can significantly disturb the sales of
+        products.
+        Further, as the products are similar customers can easily shift from one compa ny to another. This
+        will only enhance competitive rivalry.
+    (b) Strategic Control focuses on the dual questions of whether: (1) the strategy is being implemented
+        as planned; and (2) the results produced by the strategy are those intended.
+        There are four types of strategic control:
+           Premise control: A strategy is formed on the basis of certain assumptions or premises about
+            the environment. Premise control is a tool for systematic and continuous monitoring of the
+            environment to verify the validity and accuracy of the premises on which the strategy ha s
+            been built.
+           Strategic surveillance: Strategic surveillance is unfocussed. It involves general monitoring
+            of various sources of information to uncover unanticipated information having a bearing on
+            the organizational strategy.
+           Special alert control: At times, unexpected events may force organizations to reconsider
+            their strategy. Sudden changes in government, natural calamities, unexpected
+            merger/acquisition by competitors, industrial disasters and other such events may trigger an
+            immediate and intense review of strategy.
+           Implementation control: Managers implement strategy by converting major plans into
+            concrete, sequential actions that form incremental steps. Implementation control is directed
+            towards assessing the need for changes in the overall strategy in light of unfolding events
+            and results.
+6.  (a) Strong cultures promote good strategy execution when there’s fit and hurt execution when there’s
+        negligible fit. A culture grounded in values, practices, and behavioral norms that match what is
+        needed for good strategy execution helps energize people throughout the organization to do their
+        jobs in a strategy-supportive manner. A culture built around such business principles as listening
+        to customers, encouraging employees to take pride in their work, and g iving employees a high
+        degree of decision-making responsibility. This is very conducive to successful execution of a
+        strategy of delivering superior customer service.
+        A work environment where the culture matches the conditions for good strategy execution provides
+        a system of informal rules and peer pressure regarding how to conduct business internally and
+        how to go about doing one’s job.
+        A strong strategy-supportive culture makes employees feel genuinely better about their jobs and
+        work environment and the merits of what the company is trying to accomplish. Employees are
+        stimulated to take on the challenge of realizing the organizational vision, do their jobs competently
+        and with enthusiasm, and collaborate with others.
+(b)
+| Strategic planning | Operational planning |
+| --- | --- |
+| Strategic planning shapes the organisation and its resources. | Operational planning deals with current deployment of resources. |
+| Strategic planning assesses the impact of environmental variables. | Operational planning develops tactics rather than strategy. |
+| Strategic planning takes a holistic view of the organisation. | Operational planning projects current operations into the future. |
+| Strategic planning develops overall objectives and strategies. | Operational planning makes modifications to the business functions but not fundamental changes. |
+| Strategic planning is concerned with the long-term success of the organisation. | Operational planning is concerned with the short- term success of the organisation. |
+| Strategic planning is a senior management responsibility. | Operational planning is the responsibility of functional managers. |

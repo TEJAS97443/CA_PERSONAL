@@ -1,0 +1,95 @@
+
+===== render.py synth dm_hi (495s)
+[dm_hi] engine ready in 15s; 62 lines
+[dm_hi] 0 cached, 62 to voice
+  L062 r0 ok  rec=0.78 pre=0.88 159wpm 5.66s 
+  L011 r0 ok  rec=1.00 pre=1.00 163wpm 8.48s 
+  L006 r0 ok  rec=0.94 pre=0.94 181wpm 8.62s 
+  L001 r0 RETRY rec=0.61 pre=0.89 128wpm 7.98s recall 0.615
+  L041 r0 ok  rec=0.85 pre=1.00 160wpm 10.52s 
+  L061 r0 ok  rec=0.94 pre=1.00 154wpm 9.34s 
+  L030 r0 ok  rec=1.00 pre=1.00 166wpm 8.66s 
+  L056 r0 ok  rec=1.00 pre=1.00 143wpm 9.66s 
+  L025 r0 ok  rec=0.92 pre=1.00 156wpm 9.62s 
+  L040 r0 ok  rec=1.00 pre=1.00 132wpm 10.88s 
+  L020 r0 ok  rec=1.00 pre=1.00 158wpm 8.34s 
+  L038 r0 ok  rec=1.00 pre=1.00 160wpm 10.1s 
+  L048 r0 ok  rec=1.00 pre=1.00 151wpm 12.28s 
+  L053 r0 ok  rec=1.00 pre=1.00 146wpm 11.5s 
+  L002 r0 ok  rec=0.94 pre=0.94 169wpm 9.94s 
+  L050 r0 ok  rec=1.00 pre=0.93 154wpm 10.92s 
+  .. batch 16 in 76s; total 2.5 min audio in 1.9 min (1.37x)
+  L016 r0 ok  rec=1.00 pre=1.00 154wpm 10.94s 
+  L012 r0 ok  rec=0.94 pre=0.89 108wpm 12.2s 
+  L024 r0 ok  rec=1.00 pre=1.00 135wpm 11.08s 
+  L039 r0 ok  rec=0.93 pre=1.00 148wpm 9.34s 
+  L008 r0 ok  rec=1.00 pre=1.00 160wpm 11.24s 
+  L034 r0 ok  rec=1.00 pre=1.00 148wpm 10.94s 
+  L059 r0 ok  rec=0.94 pre=1.00 136wpm 12.84s 
+  L042 r0 ok  rec=0.94 pre=0.94 154wpm 10.54s 
+  L046 r0 ok  rec=0.94 pre=1.00 132wpm 14.06s 
+  L005 r0 ok  rec=0.94 pre=1.00 166wpm 11.2s 
+  L057 r0 ok  rec=1.00 pre=1.00 128wpm 11.28s 
+  L003 r0 ok  rec=0.91 pre=1.00 151wpm 12.7s 
+  L052 r0 ok  rec=1.00 pre=1.00 163wpm 11.78s 
+  L058 r0 ok  rec=1.00 pre=1.00 135wpm 11.54s 
+  L018 r0 ok  rec=1.00 pre=1.00 139wpm 12.06s 
+  L049 r0 ok  rec=1.00 pre=0.95 158wpm 12.12s 
+  .. batch 16 in 78s; total 5.6 min audio in 3.6 min (1.55x)
+  L026 r0 ok  rec=1.00 pre=1.00 148wpm 10.94s 
+  L021 r0 ok  rec=1.00 pre=1.00 144wpm 12.96s 
+  L054 r0 ok  rec=1.00 pre=1.00 145wpm 11.62s 
+  L037 r0 ok  rec=1.00 pre=1.00 164wpm 10.98s 
+  L043 r0 ok  rec=0.95 pre=0.95 160wpm 11.6s 
+  L027 r0 ok  rec=0.95 pre=0.95 151wpm 11.56s 
+  L019 r0 ok  rec=0.94 pre=0.94 147wpm 13.08s 
+  L031 r0 ok  rec=0.95 pre=0.95 123wpm 13.66s 
+  L047 r0 ok  rec=1.00 pre=1.00 164wpm 10.96s 
+  L060 r0 ok  rec=1.00 pre=1.00 137wpm 13.1s 
+  L009 r0 ok  rec=1.00 pre=1.00 161wpm 11.52s 
+  L015 r0 ok  rec=1.00 pre=1.00 124wpm 13.54s 
+  L023 r0 ok  rec=1.00 pre=1.00 178wpm 10.14s 
+  L036 r0 ok  rec=1.00 pre=1.00 136wpm 13.64s 
+  L045 r0 ok  rec=1.00 pre=1.00 129wpm 13.46s 
+  L022 r0 ok  rec=1.00 pre=1.00 136wpm 12.34s 
+  .. batch 16 in 79s; total 8.9 min audio in 5.4 min (1.63x)
+  L028 r0 ok  rec=0.95 pre=0.95 133wpm 13.04s 
+  L032 r0 ok  rec=1.00 pre=1.00 126wpm 11.44s 
+  L033 r0 ok  rec=0.95 pre=1.00 142wpm 13.5s 
+  L029 r0 ok  rec=1.00 pre=0.96 147wpm 13.06s 
+  L014 r0 ok  rec=1.00 pre=1.00 139wpm 11.68s 
+  L055 r0 ok  rec=1.00 pre=0.86 162wpm 11.88s 
+  L017 r0 ok  rec=1.00 pre=1.00 135wpm 11.56s 
+  L051 r0 ok  rec=1.00 pre=1.00 139wpm 12.1s 
+  L007 r0 ok  rec=1.00 pre=1.00 104wpm 14.46s 
+  L004 r0 ok  rec=0.96 pre=0.96 150wpm 11.98s 
+  L035 r0 ok  rec=1.00 pre=1.00 133wpm 13.52s 
+  L013 r0 ok  rec=0.83 pre=0.86 115wpm 14.56s 
+  L010 r0 ok  rec=1.00 pre=1.00 134wpm 13.88s 
+  L044 r0 ok  rec=1.00 pre=1.00 113wpm 16.44s 
+  .. batch 14 in 84s; total 11.9 min audio in 7.3 min (1.63x)
+  L001 r1 RETRY rec=0.61 pre=0.90 114wpm 8.94s recall 0.615
+  .. batch 1 in 18s; total 12.1 min audio in 7.7 min (1.58x)
+  L001 r2 RETRY rec=0.61 pre=0.90 128wpm 7.94s recall 0.615
+  .. batch 1 in 14s; total 12.2 min audio in 8.0 min (1.53x)
+[dm_hi] done. 1 lines kept below the bar: ['L001']
+
+===== render.py mix dm_hi (43s)
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 12.81,
+ "words": 1718,
+ "overall_wpm": 134,
+ "lines": 62,
+ "lines_below_bar": [
+  "L001"
+ ],
+ "mean_recall": 0.9679,
+ "min_recall": 0.615,
+ "mp3": "/Users/ztejas/ca_revision/out/P4-02 - Cost Sheet - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.4
+}
+
+===== render.py narrate dm_hi (1s)
+narrate job 20261021-150615-61f655

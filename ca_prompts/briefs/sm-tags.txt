@@ -1,0 +1,17 @@
+JOB=sm-tags
+You are finishing the Strategic Management part of PassBook's ICAI question bank (~/CA_PERSONAL/ca_passbook). Read ~/CA_PERSONAL/ca_prompts/reports/sm-bank-fix.md
+(the previous job), ~/CA_PERSONAL/ca_passbook/docs/ICAI_BANK.md §9-10 and tools/bank/smimport.py + tools/bank/sm_tags.json first.
+PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py sm-tags <step>; steps start, paragraphs, tags, syllabus, verify, report
+(register {"id":"sm-tags","kind":"bank","deps":[],"steps":["start","paragraphs","tags","syllabus","verify","report"]} in ~/CA_PERSONAL/ca_prompts/jobs.json).
+Lead decisions on the previous job's questions:
+1 paragraphs: YES - put the paragraph-joining method used on the drafts into smimport.py so the 19 old-scheme MTP files that show one
+  paragraph per PDF line read as ICAI's paragraphs; re-run the import; hand tags in sm_tags.json must survive; check.py clean after.
+2 tags: YES - a full pass: read every SM item whose tags came from the importer's keyword rules (about 262 MCQs plus any descriptive items
+  tagged by keyword) with its ICAI answer, and set the PassBook sm.* sub-topic tags by content (first = primary; content/syllabus/syllabus.txt).
+  Record every change in sm_tags.json so a re-import keeps it. Report counts per sub-topic before/after.
+3 syllabus: "worth of a business" (and any other topic sm-qbank flagged inconsistently): decide in/out of syllabus by the January 2027
+  Study Material (~/CA_PERSONAL/ca_sources/sm/p6b/txt/): in if the Study Material teaches it, out otherwise; apply it consistently to every item.
+4 part-level choices ("any two parts"): NOT needed now; leave such papers practice-only.
+verify: python3 -I tools/bank/check.py on every SM file; build.py --check green; node tests/run.js bank; open 3 items in the app.
+Never invent or paraphrase an ICAI question or answer; only extraction damage is repaired (§9.2).
+REPORT (final message; also ~/CA_PERSONAL/ca_prompts/reports/sm-tags.md).

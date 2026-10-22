@@ -1,0 +1,478 @@
+                                                               Test Series: March, 2018
+                                 MOCK  TEST PAPER
+                           INTERMEDIATE  (NEW): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND  STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                     ANSWERS
+1.  (i) Management Processes: Management processes measure, monitor and control activities related
+        to business procedures and systems. Examples of management processes include internal
+        communications, governance, strategic planning, budgeting, and infrastructure or capacity
+        management. Management processes do not provide value directly to the customers, however,
+        have a direct impact on the efficiency of the enterprise.
+    (ii) Role Based Access Control (RBAC) in ERP System: In computer systems security, role-based
+        access control is an approach to restricting system access to authorized users. It is used by most
+        enterprises and can implement mandatory access control or discretionary access control. RBAC is
+        sometimes referred to as Role-Based Security. Role-Based-Access-Control (RBAC) is a policy
+        neutral access control mechanism defined around roles and privileges. The components of RBAC
+        such as role-permissions, user-role and role-role relationships make it simple to perform user
+        assignments. RBAC can be used to facilitate administration of security in large organizations with
+        hundreds of users and thousands of permissions.
+        Roles for staff are defined in organization and access to the system can be given according to the
+        role assigned. For example - A junior accountant in accounting department is assigned a role of
+        recording basic accounting transactions, an executive in human resource department is assigned
+        a role of gathering data for salary calculations on monthly basis, etc.
+    (iii) Virtual Memory: Virtual Memory is an imaginary memory area supported by some operating
+        systems (for example, Windows) in conjunction with the hardware. If a computer lacks the Random -
+        Access Memory (RAM) needed to run a program or operation, Windows uses virtual memory to
+        compensate. Virtual memory combines computer’s RAM with temporary space on the hard disk.
+        When RAM runs low, virtual memory moves data from RAM to a space called a paging file. Moving
+        data to and from the paging file frees up RAM to complete its work. Thus, Virtual memory is an
+        allocation of hard disk space to help RAM.
+    (iv) Digital Library: A Digital Library is a special library with a focused collection of digital objects that
+        can include text, visual material, audio material, video material, stored as electronic media formats,
+        along with means for organizing, storing, and retrieving the files and media contained in the library
+        collection. Digital libraries can vary immensely in size and scope, and can be maintained by
+        individuals, organizations, or affiliated with established physical library buildings or institutions, or
+        with academic institutions. The digital content may be stored locally, or accessed remotely via
+        computer networks. An electronic library is a type of information retrieval system.
+    (v) Automated Teller Machines (ATM) Channel Server: This server contains the details of ATM
+        account holders. Soon after the facility of using the ATM is created by the Bank, the details of such
+        customers are loaded on to the ATM server. When the Central Database is busy with central end -
+        of- day activities or for any other reason, the file containing the account balance of the customer is
+        sent to the ATM switch. Such a file is called Positive Balance File (PBF). Till the central database
+        becomes accessible, the ATM transactions are passed and the balance available in the ATM
+        server. Once the central database server becomes accessible, all the transactions that took place
+        till such time as the central database became un-accessible would be updated in the central
+
+        database. This ensures not only continuity of ATM operations but also ensures that the Central
+        database is always up-to-date. The above process is applicable to stand alone ATMs at the Branch
+        level. As most of the ATMs are attached to the central network, the only control is through ATM
+        Switch.
+2.  (a) The required flowchart is given in Figure below.
+    (b) Network Access Control: An Internet connection exposes an organization to the harmful elements
+        of the outside world. The checklist for Network Access Controls that are required to be implemented
+        in the organization are as follows:
+           Policy on use of network services: An enterprise wide policy applicable to internet service
+            requirements aligned with the business need for using the Internet services is the first step.
+            Selection of appropriate services and approval to access them should be part of this policy.
+
+           Enforced path: Based on risk assessment, it is necessary to specify the exact path or route
+            connecting the networks; e.g., internet access by employees will be routed through a firewall and
+            proxy.
+           Segregation of networks: Based on the sensitive information handling function; say a VPN
+            connection between a branch office and the head-office, this network is to be isolated from the
+            internet usage service
+           Network connection and routing control: The traffic between networks should be restricted,
+            based on identification of source and authentication access policies implemented across the
+            enterprise networkfacility.
+           Security of network services: The techniques of authentication and authorization policy should be
+            implemented across the organization’s network.
+           Firewall: A Firewall is a system that enforces access control between two networks. To accomplish
+            this, all traffic between the external network and the organization’s Intranet must pass through
+            the firewall that will allow only authorized traffic between the organization and the outside to pass
+            through  it. The firewall must be immune to penetrate from both outside and inside the
+            organization. In addition to insulating the organization’s network from external networks, firewalls
+            can be used to insulate portions of the organization’s Intranet from internal access also.
+           Encryption: Encryption is the conversion of data into a secret code for storage in databases and
+            transmission over networks. The sender uses an encryption algorithm with a key to convert the
+            original message called the Clear text into Cipher text. This is decrypted at the receiving end. Two
+            general approaches are used for encryption viz. private key and public key encryption.
+           Call Back Devices: It is based on the principle that the key to network security is to keep the
+            intruder off the Intranet rather than imposing security measure after the criminal has connected to
+            the intranet. The call- back device requires the user to enter a password and then the system
+            breaks the connection. If the caller is authorized, the call back device dials the caller’s number to
+            establish a new connection. This limits access only from authorized terminals or telephone
+            numbers and prevents an intruder masquerading as a legitimate user. This also helps to avoid the
+            call forwarding and man-in-the middle attack
+3.  (a) Checklist to be followed by an IS Auditor for the audit of ERP Systems are as follows:
+           Does the system process according to GAAP (Generally Accepted Accounting Principles) and
+            GAAS (Generally Accepted Auditing Standards)?
+           Does it meet the needs for reporting, whether regulatory or organizational?
+           Were adequate user requirements developed through meaningful interaction?
+           Does the system protect confidentiality and integrity of information assets?
+           Does it have controls to process only authentic, valid, accurate transactions?
+           Are effective system operations and support functions provided?
+           Are all system resources protected from unauthorized access and use?
+           Are user privileges based on what is called ‘role-based access?’
+           Is there an ERP system administrator with clearly defined responsibilities?
+           Is the functionality acceptable? Are user requirements met? Are users happy?
+           Have workarounds or manual steps been required to meet business needs?
+
+           Are there adequate audit trails and monitoring of user activities?
+           Can the system provide management with suitable performance data?
+           Are users trained? Do they have complete and current documentation?
+           Is there a problem-escalation process?
+        Auditing aspects in case of any ERP system can be summarized as under:
+        (i) Auditing of Data
+            •   Physical Safety – Ensuring physical control over data.
+            •   Access Control – Ensuring access to the system is given on “need to know” (a junior
+                accountant need not view Profit & Loss Account of the business) and “need to do basis”
+                (HR executive need not record a Purchase Order).
+        (ii) Auditing of Processes
+            •   Functional Audit - This includes testing of different functions / features in the system and
+                testing of the overall process or part of process in the system and its comparison with actual
+                process. E.g. Purchase Process, Sales Process, Salary Calculation Process, Recruitment
+                Process, etc. Auditor may check this process in the system and compare it with actual
+                process. It is quite possible that all the aspect present in the actual process may not be
+                integrated in the ERP system. There may be some manual intervention.
+            •   Input Validations - This stands for checking of rules for input of data into the system. E.g. a
+                transaction of cash sales on sales counter must not be recorded in a date other than today
+                (not a future date or a back date), amount field must not be zero, stock item field shall not be
+                empty, etc. Input validations shall change according to each data input form.
+    (b) Core Banking Solution (CBS) refers to a common IT solution wherein a central shared database
+        supports the entire banking application. Business processes in all the branches of a bank update
+        a common database in a central server located at a Data Center, which gives a consolidated view
+        of the bank’s operations. Branches function as delivery channels providing services to its
+        customers. CBS is centralized Banking Application software that has several components which
+        have been designed to meet the demands of the banking industry. CBS is supported by advanced
+        technology infrastructure and has high standards of business functionality. These factors provide
+        banks with a competitive edge. Core Banking Solution brings significant benefits such as a
+        customer is a customer of the bank and not only of the branch. Further, the CBS is modular in
+        structure and is capable of being implemented in stages as per requirements of the bank. A CBS
+        software also enables integration of all third-party applications, including in-house banking
+        software, to facilitate simple and complex business processes. Some examples of CBS software
+        are given below. These are only illustrative and not exhaustive.
+        •   Finacle: Core banking software suite developed by Infosys that provides universal banking
+            functionality covering all modules for banks covering all banking services.
+        •   FinnOne: Web-based global banking product designed to support banks and financial solution
+            companies in dealing with assets, liabilities, core financial accounting and customer service.
+        •   Flexcube: Comprehensive, integrated, interoperable, and modular solution that enables banks to
+            manage evolving customer expectations.
+        •   BaNCS: A customer-centric business model which offers simplified operations comprising loans,
+            deposits, wealth management, digital channels and risk and compliance components.
+        •   bankMate: A full-scale Banking solution which is a scalable, integrated e-banking systems that
+
+            meets the deployment requirements in traditional and non-traditional banking environments. It
+            enables communication through any touch point to provide full access to provide complete range
+            of banking services with anytime, anywhere paradigm.
+            Further, there are many CBS software developed by vendors which are used by smaller and co-
+            operative banks. Some of the banks have also developed in-house CBS software. However, the trend
+            is for using high-end CBS developed by vendors depending on cost-benefit analysis and needs.
+4.  (a) Protecting operating system access is extremely crucial and can be achieved using following steps:
+           Automated terminal identification: This will help to ensure that a specified session could only be
+            initiated from a certain location or computer terminal.
+           Terminal log-in procedures: A log-in procedure is the first line of defense against unauthorized
+            access as it does not provide unnecessary help or information, which could be misused by an
+            intruder. When the user initiates the log-on process by entering user-id and password, the system
+            compares the ID and password to a database of valid users and accordingly authorizes the log-in.
+           Access Token: If the log on attempt is successful, the Operating System creates an access token
+            that contains key information about the user including user-id, password, user group and privileges
+            granted to the user. The information in the access token is used to approve all actions attempted
+            by the user during the session.
+           Access Control List: This list contains information that defines the access privileges for all valid
+            users of the resource. When a user attempts to access a resource, the system compasses his or
+            her user-id and privileges contained in the access token with those contained in the access control
+            list. If there is a match, the user is granted access.
+           Discretionary Access Control: The system administrator usually determines; who is granted
+            access to specific resources and maintains the access control list. However, in distributed systems,
+            resources may be controlled by the end-user. Resource owners in this setting may be granted
+            discretionary access control, which allows them to grant access privileges to other users. For
+            example, the controller who is owner of the general ledger grants read only privilege to the
+            budgeting department while accounts payable manager is granted both read and write permission
+            to the ledger.
+           User identification and authentication: The users must be identified and authenticated in a
+            foolproof manner. Depending on risk assessment, more stringent methods like Biometric
+            Authentication or Cryptographic means like Digital Certificates should be employed.
+           Password management system: An operating system could enforce selection of good
+            passwords. Internal storage of password should use one-way hashing algorithms and the
+            password file should not be accessible to users.
+           Use of system utilities: System utilities are the programs that help to manage critical functions
+            of the operating system e.g. addition or deletion of users. Obviously, this utility should not be
+            accessible to a general user. Use and access to these utilities should be strictly controlled and
+            logged.
+           Duress alarm to safeguard users: If users are forced to execute some instruction under threat, the
+            system should provide a means to alert the authorities.
+           Terminal time out: Log out the user if the terminal is inactive for a defined period. This will prevent
+            misuse in absence of the legitimate user.
+           Limitation of connection time: Define the available time slot. Do not allow any transaction beyond
+            this time. For example, no computer access after 8.00 p.m. and before 8.00 a.m. - or on a Saturday
+            or Sunday.
+
+    (b) Some of the application areas of Internet of Things (IoT) are as follows:
+        I.  All home appliances to be connected and that shall create a virtual home.
+               Home owners can keep track of all activities in house through their hand-held devices.
+               Home security CCTV is also monitored through hand held devices.
+        II. Office machines shall be connected through net.
+               Human resource managers shall be able to see how many people have had a cup of coffee
+                from vending machine and how many are present.
+               How many printouts are being generated through office printer?
+        III. Governments can keep track of resource utilizations / extra support needed.
+               Under SWACHH mission government can tag all dustbins with IOT sensors. They (dustbins)
+                generate a message once they are full. Being connected to wi-fi, they can intimate the
+                cleaning supervisor of Municipal Corporation so that BIN can be emptied.
+5.  (a) The case is based on Sections 12 &13 of the Prevention of Money Laundering Act (PMLA), 2002
+        read with Rule 3 & Rule 8 of the Prevention of Money Laundering Rule (PMLR), 2002.
+        (1) Every reporting entity shall maintain a record of all transactions, including information relating
+            to cash transactions which are integrally connected to each other and which have been
+            individually valued below rupees ten lakh or its equivalent in foreign currency where such
+            series of transactions have taken place within a month and the monthly aggregate e xceeds
+            an amount of ten lakh rupees or its equivalent in foreign currency.
+        The Principal Officer of a reporting entity shall furnish the information in respect of such
+        transactions every month to the Director (Authority appointed by the CG) by the 15th day of the
+        succeeding month.
+        As per the above stated provision aggregate cash transactions (Rs. 5 lakh + Rs. 2 lakh + Rs. 3
+        lakh = Rs. 10 lakh) made by the Jan Seva in the month of July 2012 was Rs. 10 Lakh and not in
+        excess to the limit prescribed. So there is no need to inform of the said transactions to the
+        authorised authority.
+    (b) Internal control, no matter how effective, can provide an entity with only reasonable assurance and
+        not absolute assurance about achieving the entity’s operational, financial reporting and compliance
+        objectives. Internal control systems are subject to certain inherent limitations, such as:
+        •   Management’s consideration that the cost of an internal control does not exceed the expected
+            benefits to be derived.
+        •   The fact that most internal controls do not tend to be directed at transactions of unusual
+            nature. The potential for human error, such as, due to carelessness, distraction, mistakes of
+            judgement and misunderstanding of instructions.
+        •   The possibility of circumvention of internal controls through collusion with employees or with
+            parties outside the entity.
+        •   The possibility that a person responsible for exercising an internal control could abuse that
+            responsibility, for example, a member of management overriding an internal control.
+        •   Manipulations by management with respect to transactions or estimates and judgements
+            required in the preparation of financial statements.
+6.  (a) Cloud computing model provides the facility to access shared resources and common infrastructure
+        offering services on demand over the network to perform operations that meet changing business
+        needs. Thus, we can say that Ms. Y is using the Cloud Computing model which allows her to use
+        many computing resources as a service through networks, typically the Internet.
+
+        Some of the key characteristics of Cloud Computing are as follows:
+           Elasticity and Scalability: Cloud computing gives us the ability to expand and reduce
+            resources according to the specific service requirement. For example, we may need many
+            server resources for the duration of a specific task. We can then release these server
+            resources after we complete our task.
+           Pay-per-Use: We pay for cloud services only when we use them, either for the short term (for
+            example, for CPU time) or for a longer duration (for example, for cloud-based storage or vault
+            services).
+           On-demand: Because we invoke cloud services only when we need them, they are not
+            permanent parts of the IT infrastructure. This is a significant advantage for cloud use as
+            opposed to internal IT services. With cloud services, there is no need to have dedicated
+            resources waiting to be used, as is the case with internal services.
+           Resiliency: The resiliency of a cloud service offering can completely isolate the failure of
+            server and storage resources from cloud users. Work is migrated to a different physical
+            resource in the cloud with or without user awareness and intervention.
+           Multi Tenancy: Public cloud service providers often can host the cloud services for multiple
+            users within the same infrastructure. Server and storage isolation may be physical or virtual
+            depending upon the specific user requirements.
+           Workload Movement: This characteristic is related to resiliency and cost considerations.
+            Here, cloud-computing providers can migrate workloads across servers both inside the data
+            center and across data centers (even in a different geographic area). This migration might be
+            necessitated by cost (less expensive to run a workload in a data centre in another country
+            based on time of day or power requirements) or efficiency considerations (for example,
+            network bandwidth). A third reason could be regulatory considerations for certain types of
+            workloads.
+    (b) A Voucher Number or a Document Number is a unique identity of any voucher/ document. A
+        voucher may be identified or searched using its unique voucher number. The peculiarities that must
+        be considered while allotting a voucher number to a voucher are as foll ows:
+           Voucher number must be unique.
+           Every voucher type shall have a separate numbering series
+           A voucher number may have prefix or suffix or both, e.g. ICPL/2034/17-18. In this case, “ICPL”
+            is the prefix, “17-18” is the suffix and “2034” is the actual number of the voucher.
+           All vouchers must be numbered serially, i.e. 1,2,3,4,5,6 and so on.
+           All vouchers are recorded in chronological order and hence voucher recorded earlier must
+            have an earlier number, i.e. if voucher number for a payment voucher having date as 15th
+            April 2017 is 112, voucher number for all the vouchers recorded after this date shall be more
+            than 112 only.
+
+                                                               Test Series: March, 2018
+                                   MOCK  TEST PAPER
+                            INTERMEDIATE COURSE:  GROUP  – II
+          PAPER  –7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (a) Competitive advantage is the position of a firm to maintain and sustain a favorable market position
+        when compared to the competitors. Competitive advantage is ability to offer buyers something
+        different and thereby providing more value for the money. It is the result of a successful strategy.
+        This position gets translated into higher market share, higher profits when compared to those that
+        are obtained by competitors operating in the same industry. Competitive advantage may also be
+        in the form of low cost relationship in the industry or being unique in the industry along dimensions
+        that are widely valued by the customers in particular and the society at large.
+    (b) A strategic vision delineates organisation’s aspirations for the business, providing a panoram ic
+        view of the position where the organisation is going. A strategic vision points an organization in a
+        particular direction, charts a strategic path for it to follow in preparing for the future, and moulds
+        organizational identity. A Strategic vision is a road map of a company’s future – providing specifics
+        about technology and customer focus, the geographic and product markets to be pursued, the
+        capabilities it plans to develop, and the kind of company that management is trying to create.
+    (c) In co-generic merger two or more merging organizations are associated in some way or the other
+        related to the production processes, business markets, or basic required technologies. Such
+        merger include the extension of the product line or acquiring components that are required in the
+        daily operations.
+2.  (a) Incorrect: In business, things happen that cannot be fully anticipated or planned for. When market
+        and competitive conditions take an unexpected turn or some aspect of a company's strategy hits a
+        stone wall, some kind of strategic reaction or adjustment is required.
+    (b) Correct: Economies of scale refer to the decline in the per-unit cost of production (or other activity)
+        as volume grows. A large firm that enjoys economies of scale can produce high volumes of goods
+        at successively lower costs. This tends to discourage new entrants.
+    (c) Correct: The human resource management helps the organization to effectively deal with the
+        external environmental challenges. The function has been accepted as a partner in the formulation
+        of organization’s strategies and in the implementation of such strategies through human resource
+        planning, employment, training, appraisal and rewarding of personnel.
+3.  (a) Azad plays role as an intrapreneur who operates within the boundaries of an organisation. He is
+        an employee of Always Fit, who is vested with authority of initiating creativity and innovation in the
+        company’s products, services and projects, redesigning the processes, workflows and systems.
+        Azad believes in change and do not fear failure. He discovers a new idea which can benefit the
+        whole organization by utilizing the surplus space in the stores. The job of Azad is extremely
+        challenging. He gets recognition and reward for the success achieved.
+    (b) Shreekant opt for turnaround strategy which is a highly-targeted effort to return Arena Ltd. to
+        profitability and increase positive cash flows to a sufficient level. Organizations those have faced
+        a significant crisis that has negatively affected operations require turnaround strategy. Once
+        turnaround is successful the organization may turn to focus on growth.
+
+        Conditions for turnaround strategies
+        When firms are losing their grips over market, profits due to several internal and external factors,
+        and if they have to survive under the competitive environment they have to identify danger signals
+        as early as possible and undertake rectification steps immediately. These conditions may be, inter
+        alia cash flow problems, lower profit margins, high employee turnover and decline in market share,
+        capacity underutilization, low morale of employees, recessionary conditions, mismanagement, raw
+        material supply problems and so on.
+        Action plan for turnaround strategy
+           Stage One – Assessment of current problems
+           Stage Two – Analyze the situation and develop a strategic plan
+           Stage Three – Implementing an emergency action plan
+           Stage Four – Restructuring the business
+           Stage Five – Returning to normal
+    (c) A tool to study the market positions of rival companies by grouping them into like positions is
+        strategic group mapping. Grouping competitors is useful when there are many competitors such
+        that it is not practical to examine each one in-depth. In the given scenario there are thirteen
+        competitors. A strategic group consists of those rival firms which have similar competitive
+        approaches and positions in the market.
+        The procedure for constructing a strategic group map and deciding which firms belong in which
+        strategic group is as follows:
+           Identify the competitive characteristics that differentiate firms in the industry typical variables
+            that are price/quality range (high, medium, low); geographic coverage (local, regional,
+            national, global); degree of vertical integration (none, partial, full); product -line breadth (wide,
+            narrow); use of distribution channels (one, some, all); and degree of service offered (no-frills,
+            limited, full).
+           Plot the firms on a two-variable map using pairs of these differentiating characteristics.
+           Assign firms that fall in about the same strategy space to the same strategic group .
+           Draw circles around each strategic group making the circles proportional to the size of the
+            group's respective share of total industry sales revenues.
+4.  (a) Importance of Strategic Management: Strategic Management is very important for the survival and
+        growth of business organizations in dynamic business environment. Other major benefits of
+        strategic management are as follows:
+           It helps organizations to be more proactive rather than reactive in dealing with its future. It
+            facilitates the organisations to work within vagaries of environment and remains adaptable
+            with the turbulence or uncertain future. Therefore, they are able to control their own destiny
+            in a better way.
+           It provides better guidance to entire organization on the crucial point – what it is trying to do.
+            Also provides framework for all major business decisions of an enterprise such a decision on
+            businesses, products, markets, organization structures, etc.
+           It facilitates to prepare the organization to face the future and act as pathfinder to various
+            business opportunities. Organizations are able to identify the available opportunities and
+            identify ways and means as how to reach them.
+           It serves as a corporate defence mechanism against mistakes and pitfalls. It helps
+            organizations to avoid costly mistakes in product market choices or in vestments.
+
+           Over a period of time, strategic management helps organizations to evolve certain core
+            competencies and competitive advantages that assist in the fight for survival and growth.
+    (b) Decision making is a managerial process of selecting the best course of action out of several
+        alternative courses for the purpose of accomplishment of the organizational goals. Decisions may
+        be operational i.e., which relate to general day-to-day operations. They may also be strategic in
+        nature. According to Jauch and Glueck “Strategic decisions encompass the definition of the
+        business, products to be handled, markets to be served, functions to be performed and major
+        policies needed for the organisation to execute these decisions to achieve the strategic objectives.”
+        The major dimensions of strategic decisions are as follows:
+           Strategic decisions require top-management involvement: Strategic decisions involve thinking
+            in totality of the organization. Hence, problems calling for strategic decisions require to be
+            considered by the top management.
+           Strategic decisions involve commitment of organisational resources: For example, Strategic
+            decisions to launch a new project by a firm requires allocation of huge fund s and assignment
+            of a large number of employees.
+           Strategic decisions necessitate consideration of factors in the firm’s external environment:
+            Strategic focus in organization involves orienting its internal environment to the changes of
+            external environment.
+           Strategic decisions are likely to have a significant impact on the long-term prosperity of the
+            firm: Generally, the results of strategic implementation are seen on a long-term basis and not
+            immediately.
+           Strategic decisions are future oriented: Strategic thinking involves predicting the future
+            environmental conditions and how to orient for the changed conditions.
+           Strategic decisions usually have major multifunctional or multi-business consequences: As
+            they involve organization in totality they affect different sections of the organization with
+            varying degree.
+5.  (a) It is true that evaluating the worth of a business is central to strategy implementation. There are
+        circumstances where it is important to evaluate the actual worth of the business. These
+        circumstances can be wide and varied. At a higher level they may include acquisition, merges or
+        diversification. They may also include other situations such as fixing of share price in an issue.
+        Acquisition, merger, retrenchment may require establishing the financial worth or cash value of a
+        business to successfully implement such strategies.
+        Various methods for determining a business’s worth can be grouped into three main approaches.
+        (i) Net worth or stockholders’ equity: Net worth is the total assets minus total outside liabilities
+            of an organisation.
+        (ii) Future benefits to owners through net profits: These benefits are considered to be much
+            greater than the amount of profits. A conservative rule of thumb is to establish a business’s
+            worth as five times the firm’s current annual profit. A five-year average profit level could also
+            be used.
+        (iii) Market-determined business worth: This, in turn, involves three methods. First, the firm’s
+            worth may be based on the selling price of a similar company. The second approach is called
+            the price-earnings ratio method whereby the market price of the firm’s equity shares is divided
+            by the annual earnings per share and multiplied by the firm’s average net income for the
+            preceding years. The third approach can be called the outstanding shares method whereby
+            one has to simply multiply the number of shares outstanding by the market price per share
+            and add a premium.
+
+    (b) Cost leadership emphasizes producing standardized products at a very low per -unit cost for
+        consumers who are price-sensitive. Differentiation is a strategy aimed at producing products and
+        services considered unique industry wide and directed at consumers who are relatively price -
+        insensitive.
+        A primary reason for pursuing forward, backward, and horizontal integration strategies is to gain
+        cost leadership benefits. But cost leadership generally must be pursued in conjunction with
+        differentiation. Different strategies offer different degrees of differentiation. A differentiation
+        strategy should be pursued only after a careful study of buyers’ needs and preferences to
+        determine the feasibility of incorporating one or more differentiating features into a unique product.
+        A successful differentiation strategy allows a firm to charge a higher price for its product and to
+        gain customer loyalty.
+6.  A strategy audit is an examination and evaluation of areas affected by the operation of a strategic
+    management process within an organization. The audit of management performance with regard to
+    external strategies helps an organization identify problem areas and correct the strategic approaches
+    that have not been effective so far. It is a process for taking an objective look at the existing strategies
+    of the organization. It involves assessing the direction of a business and comparing that to the course
+    required to succeed in a changing environment.”
+    Companies review their business plans and strategies on regular basis to identify weaknesses and
+    shortcomings to enable a successful development plan. The strategy audit secures that all necessary
+    information for the development of the company are included in the business plan and that the
+    management supports it.
+    Richard Rumelt’s Criteria for Strategy Audit
+    a.  Consistency: A strategy should not present inconsistent goals and policies which can lead to
+        organizational problems and conflicts. Three guidelines to identify are:
+           Strategies may be inconsistent if managerial problems tend to be issue-based rather than
+            people-based.
+           If success for one organizational department means, or is interpreted to mean, failure for
+            another department, then strategies may be inconsistent.
+           If policy problems and issues continue to be brought to the top for resolution, then strategies
+            may be inconsistent.
+    b.  Consonance: Consonance refers to the need for strategists to examine sets of trends, as well as
+        individual trends, in auditing strategies. A strategy must represent an adaptive response to the
+        external environment and to the critical changes occurring within it. One difficulty in matching a
+        firm’s key internal and external factors in the formulation of strategy is that most trends ar e the
+        result of interactions among other trends.
+    c.  Feasibility: A strategy must neither overtax available resources nor create unsolvable sub -
+        problems. The final broad test of strategy is its feasibility; that is, can the strategy be attempted
+        within the physical, human, and financial resources of the enterprise? In auditing a strategy, it is
+        important to examine whether an organization has demonstrated in the past that it possesses the
+        abilities, competencies, skills, and talents needed to carry out a given strategy.
+    d.  Advantage: A strategy must provide for the creation and/or maintenance of a competitive
+        advantage in a selected area of activity. Competitive advantages normally are the result of
+        superiority in one of three areas:
+        (1) resources, (2) skills, or (3) position.
+
+                                         or
+        The changes in the environmental forces often require businesses to make modifications in their
+        existing strategies and bring out new strategies. Strategic change is a complex process and it
+        involves a corporate strategy focused on new markets, products, services and new ways of doing
+        business.
+            To make the change lasting, Kurt Lewin proposed three phases of the change process for
+            moving the organization from the present to the future. These stages are unfreezing, changing
+            and refreezing.
+            (i) Unfreezing the situation: The process of unfreezing simply makes the individuals or
+                organizations aware of the necessity for change and prepares them for such a change.
+                Lewin proposes that the changes should not come as a surprise to the members of the
+                organization. Sudden and unannounced change would be socially destructive and
+                morale lowering. The management must pave the way for the change by first “unfreezing
+                the situation”, so that members would be willing and ready to accept the change.
+            (ii) Changing to New situation: Once the unfreezing process has been completed and the
+                members of the organization recognise the need for change and have been fully
+                prepared to accept such change, their behaviour patterns need to be redefined. H.C.
+                Kellman has proposed three methods for reassigning new patterns of behaviour. These
+                are compliance, identification and internalisation.
+            (iii) Refreezing: Refreezing occurs when the new behaviour becomes a normal way of life.
+                The new behaviour must replace the former behaviour completely for successful and
+                permanent change to take place. In order for the new behaviour to become permanent,
+                it must be continuously reinforced so that this new acquired behaviour does not diminish
+                or extinguish.

@@ -1,0 +1,136 @@
+# ICAI Board of Studies - Intermediate (New Scheme) Study Material - Paper 6A: Financial Management
+# Chapter 9: Management of Working Capital - Unit V: Management of Payables (Creditors)
+# Edition: July 2024, Reprint August 2025 (cover: "Relevant for May 2026 Examination"); ICAI lists this edition as applicable for January 2027
+# Source: https://resource.cdn.icai.org/87751bos280825-cp9u5.pdf  (local ../pdf/ch09-u5.pdf, sha256 6ec170cdd2a8029d)
+# Page markers "=== p.N [X.Y] ===": N = page number inside the PDF file above, X.Y = ICAI printed page number
+# Text: poppler pdftotext -layout (columns of tables kept), symbol-font bullets -> "-", Rupee-font backtick -> ₹, running heads/footers removed. Equations from MathType objects are not reliable as text: see formula_pages in toc.json and render the PDF page
+
+=== p.1 [9.98] ===
+                     UNIT - V
+         MANAGEMENT OF PAYABLES (CREDITORS)
+
+      23. INTRODUCTION
+There is an old age saying in business that if you can buy well then you can sell
+well. Management of your creditors and suppliers is just as important as the
+management of your debtors.
+Trade creditor is a spontaneous / short term source of finance in the sense that it
+arises from ordinary business transaction. But it is also important to look after your
+creditors - slow payment by you may create ill-feeling and your supplies could be
+disrupted and also create a bad image for your company.
+Creditors are a vital part of effective cash management and should be managed
+carefully to enhance the cash position.
+
+      24. COST AND BENEFITS OF TRADE CREDIT
+(a)     Cost of Availing Trade Credit
+        Normally it is considered that the trade credit does not carry any cost.
+        However, it carries the following costs:
+        (i)     Price: There is often a discount on the price that the firm undergoes
+                when it uses trade credit, since it can take advantage of the discount
+                only if it pays immediately. This discount can translate into a high
+                implicit cost.
+        (ii)    Loss of goodwill: If the credit is overstepped, suppliers may
+                discriminate against delinquent customers if supplies become short. As
+                with the effect of any loss of goodwill, it depends very much on the
+                relative market strengths of the parties involved.
+        (iii)   Cost of managing: Management of creditors involves administrative
+                and accounting costs that would otherwise be incurred.
+        (iv)    Conditions: Sometimes most of the suppliers insist that for availing the
+                credit facility the order should be of some minimum size or even on regular
+                basis.
+
+=== p.2 [9.99] ===
+(b)     Cost of Not Taking Trade Credit
+        On the other hand, the costs of not availing credit facilities are as under:
+        (i)     Impact of Inflation: If inflation persists then the borrowers are favored
+                over the lenders as they were better off to pay the fixed outstanding
+                amount later than sooner. Also, the subsequent transactions shall be at
+                higher prices.
+        (ii)    Interest: Trade credit is a type of interest free loan, therefore failure to
+                avail this facility has an interest cost. This cost is further increased if
+                interest rates are higher.
+        (iii) Inconvenience: Sometimes it may also cause inconvenience to the
+              supplier if the supplier is geared to the deferred payment.
+
+      25. COMPUTATION OF COST OF PAYABLES
+By using the trade credit judiciously, a firm can reduce the effect of growth or
+burden on investments in Working Capital.
+Now question arises how to calculate the cost of not taking the discount.
+The following equation can be used to calculate nominal cost, on an annual basis
+of not taking the discount:
+                                                d       365 days
+                                                      ×
+                                              100 − d       t
+
+However, the above formula does not take into account the compounding effect
+and therefore, the cost of credit shall be even higher. The cost of lost cash discount
+can be estimated by the formula:
+                                                         365
+                                                ( 100 ) t
+                                                          −1
+                                                 100 − d
+
+Where,
+        d=      Size of discount i.e. for 6% discount, d = 6
+        t = The reduction in the payment period in days, necessary to obtain the
+            early discount or Days Credit Outstanding – Discount Period.
+
+=== p.3 [9.100] ===
+ILLUSTRATION 17
+Suppose ABC Ltd. has been offered credit terms from its major supplier of 2/10, net
+45. Hence the company has the choice of paying ₹ 10 per ₹ 100 or to invest ₹ 98 for
+an additional 35 days and eventually pay the supplier ₹ 100 per ₹ 100. The decision
+as to whether the discount should be accepted depends on the opportunity cost of
+investing ₹ 98 for 35 days. ANALYSE what should the company do?
+SOLUTION
+If the company does not avail the cash discount and pays the amount after 45 days,
+the implied cost of interest per annum would be approximately:
+                                                    365
+                                          ( 100 ) 35
+                                                    − 1 = 23.5%
+                                           100 − 2
+
+Now let us assume that ABC Ltd. can invest the additional cash and can obtain an
+annual return of 25% and if the amount of invoice is ₹ 10,000. The alternatives are
+as follows:
+
+                                                                      Refuse     Accept
+                                                                    discount   discount
+                                                                          ₹          ₹
+   Payment to supplier                                                10,000      9,800
+   Return from investing ₹ 9,800 between day 10 and day 45:
+    35                                                                 (235)
+       × ₹ 9,800×25%
+   365
+   Net Cost                                                            9,765      9,800
+
+Advise: Thus, it is better for the company to refuse the discount, as return on cash
+retained is more than the saving on account of discount.
+ILLUSTRATION 18
+The Dolce Company purchases raw materials on terms of 2/10, net 30. A review of
+the company’s records by the owner, Mr. Gautam, revealed that payments are usually
+made 15 days after purchases are made. When asked why the firm did not take
+advantage of its discounts, the accountant, Mr. Rohit, replied that it cost only 2 per
+cent for these funds, whereas a bank loan would cost the company 12 per cent.
+
+=== p.4 [9.101] ===
+(a)     ANALYSE what mistake is Rohit making?
+(b)     If the firm could not borrow from the bank and was forced to resort to the use
+        of trade credit funds, what suggestion might be made to Rohit that would reduce
+        the annual interest cost? IDENTIFY.
+SOLUTION
+(a)     Rohit’s argument of comparing 2% discount with 12% bank loan rate is not
+        rational as 2% discount can be earned by making payment 5 days in advance
+        i.e. within 10 days rather 15 days as payments are made presently. Whereas
+        12% bank loan rate is for a year.
+        Assume that the purchase value is ₹100, the discount can be earned by
+        making payment within 10 days is ₹2, therefore, net payment would be ₹98
+        only. Annualized benefit
+             ₹ 2 365 days
+        =       ×         ×100 = 149%
+            ₹ 98 5 days
+
+        This means cost of not taking cash discount is 149%.
+(b)     If the bank loan facility could not be available, then in this case the company
+        should resort to utilise maximum credit period as possible.
+        Therefore, payment should be made in 30 days to reduce the interest cost.
+

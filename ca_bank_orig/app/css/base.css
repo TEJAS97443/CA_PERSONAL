@@ -1,0 +1,133 @@
+/* PassBook — design tokens, reset, typography. */
+/* the shell metrics are registered lengths, so a script reading getComputedStyle(root).getPropertyValue('--nav-h') gets pixels, not 'calc(…)' */
+@property --bar-h { syntax: '<length>'; inherits: true; initial-value: 68px; }
+@property --topbar { syntax: '<length>'; inherits: true; initial-value: 68px; }
+@property --nav-h { syntax: '<length>'; inherits: true; initial-value: 68px; }
+@property --tabbar { syntax: '<length>'; inherits: true; initial-value: 0px; }
+:root {
+  --font-ui: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-read: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* 2026-10-18 professional theme: neutral greys, one calm blue for links and selection, navy for the primary action and feature panels.
+     Every text pair is >= 4.5:1 (panel text >= 7:1) in both themes; the data series below are unchanged. */
+  --bg: #F6F7F9; --bg-2: #EEF0F3; --surface: #FFFFFF; --surface-2: #F7F8FA; --surface-3: #EEF0F4;
+  --ink: #0F172A; --ink-2: #334155; --muted: #4B5563; --faint: #5F6774;
+  --line: rgba(17, 24, 39, .10); --line-2: rgba(17, 24, 39, .16);
+  /* --accent = blue (links, active, selected, progress, focus); --pop = navy, the one primary action per screen */
+  --accent: #1D4FB8; --accent-2: #173F93; --accent-ink: #FFFFFF; --on-accent: #FFFFFF;
+  --accent-soft: rgba(29, 79, 184, .08); --accent-soft-2: rgba(29, 79, 184, .15);
+  --pop: #132B57; --pop-ink: #FFFFFF; --pop-soft: rgba(19, 43, 87, .08);
+  --ok: #047857; --ok-soft: rgba(4, 120, 87, .10);
+  --warn: #8A5300; --warn-soft: rgba(217, 141, 6, .13);
+  --bad: #B42318; --bad-soft: rgba(180, 35, 24, .09);
+  --info: #1D4FB8; --info-soft: rgba(29, 79, 184, .08);
+  --gold: #8A5300;
+  --edge-neutral: #D3D7DE; --edge-accent: #173F93; --edge-pop: #132B57;
+  /* feature panels (the Home hero's figure side, the progress and plan highlights): navy with white text, white cards inside */
+  --panel: #132B57; --panel-ink: #FFFFFF; --panel-muted: #B9C6E0; --panel-line: rgba(255, 255, 255, .22);
+
+  --shadow-1: 0 1px 2px rgba(16, 24, 40, .05);
+  --shadow-2: 0 4px 12px rgba(16, 24, 40, .08), 0 16px 32px -12px rgba(16, 24, 40, .16);
+  /* cards: a hairline ring and a 1 px shadow (no floating lift) */
+  --lift: 0 0 0 1px rgba(17, 24, 39, .08), 0 1px 2px rgba(16, 24, 40, .05);
+  /* the one card edge (P2-52): a hairline in both themes */
+  --card-edge: rgba(17, 24, 39, .08);
+  --ring: 0 0 0 3px var(--accent-soft-2);
+  --r-xs: 6px; --r-sm: 8px; --r: 10px; --r-lg: 12px; --r-xl: 14px;
+  --glow-1: transparent; --glow-2: transparent; --glow-3: transparent;
+  /* shell metrics (P2-55): --bar-h = the top bar's own height (58 px on phones); --topbar = the room the sticky bar takes at the top of the screen:
+     its height plus the top inset (a notch), and 0 where the bar scrolls away (short landscape screens). Views use --topbar (or its alias --nav-h,
+     audit contract §10.2) for every sticky top and scroll margin, so the inset and the non-sticky case are handled here once.
+     --tabbar = space taken by the phone bottom tab bar (0 above 700 px) */
+  --bar-h: 68px; --topbar: calc(var(--bar-h) + env(safe-area-inset-top, 0px)); --tabbar: 0px; --page-max: 1240px;
+  --nav-h: var(--topbar);
+  --heat0: rgba(17, 24, 39, .06); --heat1: rgba(29, 79, 184, .25); --heat2: rgba(29, 79, 184, .45); --heat3: rgba(29, 79, 184, .70); --heat4: rgba(29, 79, 184, 1);
+  /* data series (P2-06): never the CTA coral (--viz-d is a burnt orange); every pair >= ΔE2000 8 in both themes (tests/shell.test.js) */
+  --viz-a: #2450E0; --viz-b: #0E8F7E; --viz-c: #C27A00; --viz-d: #C2410C; --viz-e: #0284C7; --viz-f: #7046D8; --viz-g: #4D8C12; --viz-h: #C2368F;
+  /* side insets (P2-55): page content and bars keep clear of a landscape notch */
+  --pad-l: max(var(--sec-pad-x, 14px), env(safe-area-inset-left, 0px)); --pad-r: max(var(--sec-pad-x, 14px), env(safe-area-inset-right, 0px));
+  color-scheme: light;
+}
+[data-theme="dark"] {
+  --bg: #0D0F13; --bg-2: #111318; --surface: #161920; --surface-2: #1C2028; --surface-3: #242934;
+  --ink: #F1F3F7; --ink-2: #D3D7DF; --muted: #A1A7B3; --faint: #8B92A0;
+  --line: rgba(232, 234, 238, .09); --line-2: rgba(232, 234, 238, .16);
+  --accent: #8AAEFF; --accent-2: #A8C2FF; --accent-ink: #0D0F13; --on-accent: #0D0F13;
+  --accent-soft: rgba(138, 174, 255, .12); --accent-soft-2: rgba(138, 174, 255, .22);
+  --pop: #DCE6FA; --pop-ink: #0D1A33; --pop-soft: rgba(220, 230, 250, .10);
+  --ok: #3DD68C; --ok-soft: rgba(61, 214, 140, .12);
+  --warn: #F5B94A; --warn-soft: rgba(245, 185, 74, .12);
+  --bad: #F87171; --bad-soft: rgba(248, 113, 113, .13);
+  --info: #8AAEFF; --info-soft: rgba(138, 174, 255, .12);
+  --gold: #F5B94A;
+  --edge-neutral: #333946; --edge-accent: #A8C2FF; --edge-pop: #DCE6FA;
+  --panel: #1C2333; --panel-ink: #EEF1F7; --panel-muted: #A9B3C7; --panel-line: rgba(238, 241, 247, .16);
+  --shadow-1: none;
+  --shadow-2: 0 4px 12px rgba(0, 0, 0, .40), 0 20px 40px -16px rgba(0, 0, 0, .60);
+  --lift: none;
+  --card-edge: color-mix(in srgb, var(--ink) 7%, transparent);
+  --glow-1: transparent; --glow-2: transparent; --glow-3: transparent;
+  --heat0: rgba(232, 234, 238, .06); --heat1: rgba(138, 174, 255, .26); --heat2: rgba(138, 174, 255, .46); --heat3: rgba(138, 174, 255, .70); --heat4: rgba(138, 174, 255, 1);
+  --viz-a: #6B8CFF; --viz-b: #2DD4BF; --viz-c: #FFC24B; --viz-d: #F97316; --viz-e: #38BDF8; --viz-f: #A855F7; --viz-g: #A3E635; --viz-h: #F472B6;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+/* a focused or anchored element never lands under the sticky top bar or the phone tab bar (P2-55) */
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--nav-h) + 12px); scroll-padding-bottom: calc(var(--tabbar) + 12px); }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.55 var(--font-ui); font-feature-settings: "cv11", "ss01", "tnum" 0; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  min-height: 100vh;
+}
+h1, h2, h3, h4, h5 { margin: 0; line-height: 1.2; letter-spacing: -.015em; font-weight: 650; text-wrap: balance; }
+p { margin: 0 0 .8em; }
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+code, kbd, pre, samp { font-family: var(--font-mono); font-variant-ligatures: none; font-feature-settings: "calt" 0, "liga" 0; }
+img, svg { max-width: 100%; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 1.4em 0; }
+[hidden] { display: none !important; }
+::selection { background: var(--accent-soft-2); }
+:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; border-radius: var(--r-xs); }
+.num { font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); } .faint { color: var(--faint); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+svg.i { width: 1.15em; height: 1.15em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; vertical-align: -.17em; }
+svg.i.fill { fill: currentColor; stroke: none; }
+
+/* scrollbars */
+* { scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 10px; border: 2px solid transparent; background-clip: content-box; }
+::-webkit-scrollbar-thumb:hover { background: var(--faint); background-clip: content-box; border: 2px solid transparent; }
+
+/* the old ambient backdrop is retired (v3: no glow, no mesh); the element stays in the shell markup and paints nothing */
+.backdrop { display: none; }
+
+.kbd, kbd { font: 600 11px/1 var(--font-mono); padding: 4px 6px; border-radius: 6px; background: var(--surface-2); border: 1px solid var(--line-2); border-bottom-width: 2px; color: var(--muted); }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; } }
+/* print (P1-17): always the light tokens (a dark-theme print would be near-white ink on white paper) and none of the app's chrome */
+@media print {
+  :root, [data-theme="dark"] {
+    --bg: #FFFFFF; --bg-2: #F5F6F8; --surface: #FFFFFF; --surface-2: #F7F8FA; --surface-3: #EEF0F4;
+    --ink: #0F172A; --ink-2: #334155; --muted: #4B5563; --faint: #5F6774;
+    --line: rgba(17, 24, 39, .14); --line-2: rgba(17, 24, 39, .24);
+    --accent: #1D4FB8; --accent-2: #173F93; --accent-ink: #FFFFFF; --on-accent: #FFFFFF; --accent-soft: rgba(29, 79, 184, .08); --accent-soft-2: rgba(29, 79, 184, .15);
+    --pop: #132B57; --pop-ink: #FFFFFF; --pop-soft: rgba(19, 43, 87, .08);
+    --ok: #047857; --ok-soft: rgba(4, 120, 87, .10); --warn: #8A5300; --warn-soft: rgba(217, 141, 6, .13); --bad: #B42318; --bad-soft: rgba(180, 35, 24, .09);
+    --info: #1D4FB8; --info-soft: rgba(29, 79, 184, .08); --gold: #8A5300; --edge-neutral: #D3D7DE; --edge-accent: #173F93; --edge-pop: #132B57;
+    --panel: #132B57; --panel-ink: #FFFFFF; --panel-muted: #B9C6E0; --panel-line: rgba(255, 255, 255, .22);
+    --shadow-1: none; --shadow-2: none; --lift: none; --card-edge: rgba(17, 24, 39, .08);
+    --heat0: rgba(17, 24, 39, .06); --heat1: rgba(29, 79, 184, .25); --heat2: rgba(29, 79, 184, .45); --heat3: rgba(29, 79, 184, .70); --heat4: rgba(29, 79, 184, 1);
+    --viz-a: #2450E0; --viz-b: #0E8F7E; --viz-c: #C27A00; --viz-d: #C2410C; --viz-e: #0284C7; --viz-f: #7046D8; --viz-g: #4D8C12; --viz-h: #C2368F;
+    --tip-bg: #111827; --tip-ink: #F3F4F6; --tip-line: transparent;
+    color-scheme: light;
+  }
+  .topbar, .tabbar, .crumbs-row, .backdrop, .toasts, .me-menu, .me-scrim, .save-warn, .palette, .scrim, .ftip, .skip { display: none !important; }
+  body { background: #fff; color: var(--ink); }
+  html, html[data-theme="dark"] { background: #fff !important; }          /* index.html's inline first-paint colour never prints */
+}

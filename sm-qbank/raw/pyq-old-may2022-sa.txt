@@ -1,0 +1,701 @@
+          PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                           SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                         Question No. 1 is compulsory.
+                                   Answer any three questions from the rest.
+        Question 1
+        (a) Presently, the flow of information is at an unimaginable high speed for doing any business
+            and need of information is perceived at various levels of hierarchy. With these objectives
+            in focus, define:
+             (i)   Enterprise Information System
+             (ii) Categories of Business Processes                                        (1 + 2 Marks)
+        (b) What is an operating system? List any four activities performed by an operating system.
+                                                                                          (1 + 1 Marks)
+        Answer
+        (a) (i)    An Enterprise Information System (EIS) may be defined as any kind of information
+                   system which improves the functions of an enterprise business processes by
+                   integration.
+                                                      Or
+                   An Enterprise Information System (EIS) provides a technology platform that
+                   enables organizations to integrate and coordinate their business processes on a
+                   robust foundation.
+                                                      Or
+                   An Enterprise Information System (EIS) provides a single system that is central to
+                   the organization that ensures information can be shared across all functional levels
+                   and management hierarchies. It may be used to amalgamate existing applications.
+             (ii) Depending on the organization, industry, and nature of work; business processes are
+                  often broken up into different categories as below:
+                   •    Operational/Primary Processes: Operational or Primary Processes deal with
+                        the core business and value chain. These processes deliver value to the
+                        customer by helping to produce a product or service. Operational processes
+                        represent essential business activities that accomplish business objectives. For
+                        example - Order to Cash (O2C) and Purchase to Pay (P2P) cycles are
+                        associated with revenue generation.
+                   •    Supporting/Secondary Processes: Supporting Processes back core
+                        processes and functions within an organization. For example - Accounting,
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                        INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+                       workplace safety and Human Resource (HR) Management that includes
+                       activities like recruitment and staffing, training and development, career
+                       development etc.
+                  •    Management Processes: Management Processes measure, monitor and
+                       control the activities related to business procedures and systems. Examples of
+                       management processes include internal communications, governance, strategic
+                       planning, budgeting, and infrastructure or capacity management.
+        (b) An Operating System (OS) is defined as a set of computer programs that manages
+            computer hardware resources and acts as an interface with computer application
+            programs.
+                                                      Or
+             An Operating System (OS) is a vital component of the system software that makes the
+             hardware usable and manage them by creating an interface between the hardware and the
+             user.
+             The variety of activities that are executed by an Operating System are as follows:
+             •    Performing hardware functions
+             •    Provide User Interfaces
+             •    Support Hardware Independence
+             •    Memory Management
+             •    Task Management
+             •    Networking Capability
+             •    Logical Access Security
+             •    File management
+        Question 2
+        (a) The main business of banks is lending money to the customers. There are certain inherent
+            risks in lending, and they cannot take more than the calculated risks whenever they lend
+            money to their customers. List down the various risks involved and their associated
+            controls in Loans and Advances Process in the banking system.                 (6 Marks)
+        (b) The ERP system is like a human body where there are different units and each unit relates
+            to other units. All the units must work in harmony with other units to generate the desired
+            result. What are the important points for integration of modules with Financial and
+            Accounting System?                                                                (4 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            3
+
+
+        Answer
+        (a) Various risks and their associated controls in Loan and Advance process in a Banking
+            system are as follows:
+               Risks                               Key Controls
+               Credit     Line    setup       is   The credit committee checks that the financial
+               unauthorized and not in line with   ratios, the net-worth, the risk factors and its
+               the bank’s policy.                  corresponding mitigating factors, the credit line
+                                                   offered and the credit amount etc. are in line with
+                                                   Credit Risk Policy and that the client can be given
+                                                   the Credit Line.
+               Credit     Line    setup       is   Access rights to authorize the credit limit in Loan
+               unauthorized and not in line with   Booking system/Core Banking System should be
+               the bank’s policy.                  restricted to authorized personnel.
+               Masters defined for the             Access rights to authorize the customer master in
+               customer are not in accordance      Loan Booking system/Core Banking System (CBS)
+               with the re- Disbursement           should be restricted to authorized personnel.
+               Certificate.                        Segregation of Duties (SoD) exists in Loan
+                                                   Disbursement system. The system restricts the
+                                                   maker having checker rights to approve the
+                                                   loan/facilities booked by self in Loan Disbursal
+                                                   System.
+               Credit Line setup can be            Loan Disbursement System/CBS restricts booking
+               breached in Loan disbursement       of loans/ facilities if the limit assigned to the
+               system/CBS.                         customer is breached in Loan Disbursement
+                                                   System/CBS.
+               Lower rate        of interest/      Loan Disbursement System/CBS restricts booking
+               Commission may be charged to        of loans/ facilities if the rate charged to the
+               customer.                           customer are not as per defined masters in system.
+               Facilities/Loan’s granted may       Segregation of Duties (SoD) exists in Loan
+               be unauthorized/in- appropriate.    Disbursement system. The system restricts the
+                                                   maker having checker rights to approve the
+                                                   loan/facilities booked by self in loan disbursal
+                                                   system.
+               Inaccurate       interest/charge    Interest on fund-based loans and charges for non-
+               being calculated in the Loan        fund-based loans are automatically calculated in
+               disbursal system.                   the Loan disbursal system as per the defined
+                                                   masters.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                        INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+        (b) Following points are important for integration of Enterprise Resource Planning (ERP)
+            modules with Financial and Accounting System:
+             •    Master data across all the modules must be same and must be shared with other
+                  modules where-ever required.
+             •    Common transaction data must be shared with other modules where-ever required.
+             •    Separate voucher types to be used for each module for easy identification of
+                  department recording it.
+             •    Figures and transaction may flow across the department. For example - Closing stock
+                  value is taken to Trading Account as well as Balance Sheet and closing stock quantity
+                  is required by Purchase Department, Stores Department, Accounts Department, and
+                  Production Department, Similarly, salary figures are used by Human Resource
+                  Department and Accounts Department simultaneously. Hence, it is necessary to
+                  design the system accordingly.
+        Question 3
+        (a) For doing business, logical access controls play a critical role ensuring the access to
+            system, data and programs to safeguard against unauthorized access. Towards this,
+            explain 'Logical Access Control’ and ‘User Access Management Controls’ for Technical
+            Exposures’.                                                                (2 + 4 Marks)
+        (b) In Accounting language, voucher is an evidence for a transaction. How do you interpret
+            'voucher' when referred to a computer? Also explain any three types of vouchers pertaining
+            to accounting.                                                              (1 + 3 Marks)
+        Answer
+        (a) Logical Access Controls
+             •    These are the controls relating to logical access to information resources such as
+                  operating systems controls, application software boundary controls, networking
+                  controls, access to database objects, encryption controls etc.
+             •    Logical access controls are the system-based mechanisms used to designate who or
+                  what is to have access to a specific system resource and the type of transactions and
+                  functions that are permitted.
+             •    These controls are implemented to ensure that access to systems, data and programs
+                  is restricted to authorized users to safeguard information against unauthorized use,
+                  disclosure or modification, damage, or loss.
+             •    The key factors considered in designing logical access controls include confidentiality
+                  and privacy requirements, authorization, authentication, and incident handling,
+                  reporting and follow-up, virus prevention and detection, firewalls, centralized security
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            5
+
+
+                   administration, user training and tools for monitoring compliance, intrusion testing and
+                   reporting.
+             Controls for technical exposure related to User Access Management are as follows:
+             •     User Registration: Information about every user is documented. Some questions
+                   like why and who is the user granted the access; has the data owner approved the
+                   access, and has the user accepted the responsibility? etc. are answered. The de-
+                   registration process is also equally important.
+             •     Privilege management: Access privileges are to be aligned with job requirements
+                   and responsibilities are to be minimal w.r.t their job functions. For example, an
+                   operator at the order counter shall have direct access to order processing activity of
+                   the application system. Similarly, a business analyst could be granted the access to
+                   view the report but not modify which would be done by the developer.
+             •     User password management: Passwords are usually the default screening point for
+                   access to systems. Allocations, storage, revocation, and reissue of password are
+                   password management functions. Educating users is a critical component about
+                   passwords and making them responsible for their password.
+             •     Review of user access rights: A user’s need for accessing information changes with
+                   time and requires a periodic review of access rights to check anomalies in the user’s
+                   current job profile, and the privileges granted earlier.
+        (b) In computer language, the word Voucher is a place where transactions are recorded. It is
+            a data input form for inputting transaction data.
+             The vouchers pertaining to Accounting module are as follows:
+                 Voucher Type                                           Uses
+                 Contra            For recording of four types of transactions as under.
+                                   a. Cash deposit in bank.
+                                   b. Cash withdrawal from bank.
+                                   c. Cash transfer from one location to another.
+                                   d. Fund transfers from our one bank account to our own another
+                                        bank account.
+                 Payment           For recording of all types of payments. Whenever the money is
+                                   going out of business by any mode (cash/bank). E.g. Payment of
+                                   salary and rent.
+                 Receipt           For recording of all types of receipts. Whenever the money is being
+                                   received into business from outside by any mode (cash/bank). For
+                                   example - Interest received from bank.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                           INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+                   Journal           For recording of all non-cash/bank transactions. For example -
+                                     Depreciation, Provision, Write-off, Write-back, Discount
+                                     given/received, Purchase/Sale of fixed assets on credit, etc.
+                   Sales             For recording all types of trading sales by any mode
+                                     (cash/bank/credit).
+                   Purchase          For recording all types of trading purchase by any mode
+                                     (cash/bank/credit).
+                   Credit Note       For making changes/corrections in already recorded
+                                     sales/purchase transactions.
+                   Debit Note        For making changes/corrections in already recorded
+                                     sales/purchase transactions.
+                   Memorandum        For recording of transaction which will be in the system but will not
+                                     affect the trial balance. In other words, memorandum vouchers are
+                                     used to record suspense payments, receipt, sales, purchase etc.
+                                     conveyance expenses.
+        Question 4
+        (a) Enterprise Risk Management (ERM) framework consists of various interrelated
+            components that are derived from the way the management runs a business and are
+            integrated with the management process. Explain any six components of ERM framework.
+                                                                                                  (6 Marks)
+        (b) E-Commerce runs through network-connected systems which can have two types of
+            architecture, namely, two-tier and three-tier architecture. In this context, define three-tier
+            architecture and write its advantages.                                         (1 + 3 Marks)
+        Answer
+        (a) Enterprise Risk Management (ERM) framework consists of eight interrelated components
+            that are as follows:
+             (i)     Internal Environment: The internal environment encompasses the tone of an
+                     organization and sets the basis for how risk is viewed and addressed by an entity’s
+                     people, including risk management philosophy and risk appetite, integrity and ethical
+                     values, and the environment in which they operate. Management sets a philosophy
+                     regarding risk and establishes a risk appetite. The internal environment sets the
+                     foundation for how risk and control are viewed and addressed by an entity’s people.
+                     The core of any business is its people, their individual attributes including integrity,
+                     ethical values, and competence and the environment in which they operate. They are
+                     the engine that drives the entity and the foundation on which everything rests.
+             (ii) Objective Setting: Objectives should be set before management can identify events
+                  potentially affecting their achievement. ERM ensures that management has a process
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                             7
+
+
+                  in place to set objectives and that the chosen objectives support and align with the
+                  entity’s mission/vision and are consistent with the entity’s risk appetite.
+             (iii) Event Identification: Potential events that might have an impact on the entity should
+                   be identified. Event identification includes identifying factors – internal and external,
+                   that influence how potential events may affect strategy implementation and
+                   achievement of objectives. It includes distinguishing between potential events that
+                   represent risks, those representing opportunities and those that may be both.
+                   Opportunities are channeled back to management’s strategy or objective-setting
+                   processes. Management identifies inter-relationships between potential events and
+                   may categorize events to create and reinforce a common risk language across the
+                   entity and form a basis for considering events from a portfolio perspective.
+             (iv) Risk Assessment: Identified risks are analysed to form a basis for determining how
+                  they should be managed. Risks are assessed on both an inherent and a residual
+                  basis, and the assessment considers both risk likelihood and impact. A range of
+                  possible results may be associated with a potential event, and management needs to
+                  consider them together.
+             (v) Risk Response: Management selects an approach or set of actions to align assessed
+                 risks with the entity’s risk tolerance and risk appetite, in the context of the strategy
+                 and objectives. Personnel identify and evaluate possible responses to risks, including
+                 avoiding, accepting, reducing and sharing risk.
+             (vi) Control Activities: Policies and procedures are established and executed to help
+                  ensure that the risk responses that management selected are effectively carried out.
+             (vii) Information and Communication: Relevant information is identified, captured, and
+                   communicated in a form and time frame that enables people to carry out their
+                   responsibilities. Information is needed at all levels of an entity for identifying,
+                   assessing and responding to risk. Effective communication also should occur in a
+                   broader sense, flowing down, across and up the entity. Personnel need to receive
+                   clear communications regarding their role and responsibilities.
+             (viii) Monitoring: The entire ERM process should be monitored, and modifications made
+                    as necessary. In this way, the system can react dynamically, changing as conditions
+                    warrant. Monitoring is accomplished through ongoing management activities,
+                    separate evaluations of the ERM processes or a combination of both.
+        (b) Three - Tier architecture is a software design pattern and well-established software
+            architecture having three tiers - Presentation Tier, Application Tier, and Database Tier.
+            The Three-tier architecture is a client server architecture in which the functional process
+            logic; data access and computer data storage; and user interface are maintained as
+            independent modules on separate platforms - Application tier; Database tier; and
+            Presentation Tier respectively.
+             The advantages of Three-Tier Architecture are as follows:
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                         INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+             •     Clear separation of user-interface-control and data presentation from
+                   application-logic: Through this separation, more clients can have access to a wide
+                   variety of server applications. The two main advantages for client-applications are
+                   quicker development through the reuse of pre-built business-logic components and a
+                   shorter test phase.
+             •     Dynamic load balancing: If bottlenecks in terms of performance occur, the server
+                   process can be moved to other servers at runtime.
+             •     Change management: It is easy and faster to exchange a component on the server
+                   than to furnish numerous Personal Computers (PCs) with new program versions.
+        Question 5
+        (a) Banking is a backbone of a country's economy which keeps the wheels of economy
+            running. The changes in the banking scenario due to moving over to Core Banking System
+            (CBS) and IT-based operations have enabled banks to reach customers and facilitate
+            seamless transactions with lesser dependence on physical infrastructure. In this context,
+            write down the characteristics of Core Banking System.                         (6 Marks)
+        (b) Mobile Apps are commonly used by all for doing electronic transactions. A mobile website
+            works for all mobile devices and usually costs about same as creating a Mobile App. In
+            this context, explain any four modules in mobile websites.                     (4 Marks)
+                                                       OR
+             What are the applications of Internet of Things (IOT) in the area of
+             (i)   Smart City
+             (ii) Health Care
+        Answer
+        (a) The characteristics of Core Banking Systems (CBS) are as follows:
+             •     CBS is a centralized Banking Application software that has several components which
+                   have been designed to meet the demands of the banking industry.
+             •     CBS is supported by advanced technology infrastructure and has high standards of
+                   business functionality.
+             •     There is a common database in a central server located at a Data Center which gives
+                   a consolidated view of the bank’s operations.
+             •     Core Banking Solution brings significant benefits such as a customer is a customer
+                   of the bank and not only of the branch.
+             •     CBS is modular in structure and is capable of being implemented in stages as per
+                   requirements of the bank.
+             •     All branches of bank function as delivery channels providing services to its customers.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                           9
+
+
+             •     A CBS software also enables integration of all third-party applications including in-
+                   house banking software to facilitate simple and complex business processes.
+        (b) The modules that are included in the Mobile App/Mobile websites are as follows:
+             •     Mobile Store Front Module is an integral part of m-commerce apps, where all
+                   commodities and services are categorized and compiled in catalogues for customers
+                   to easily browse through the items on sale and get essential information about the
+                   products.
+             •     Mobile Ticketing Module is an m-commerce app component that is closely linked to
+                   promotional side of commercial business and enables vendors to attract customers
+                   by distributing vouchers, coupons, and tickets.
+             •     Mobile Advertising and Marketing Module empowers merchants to leverage m-
+                   commerce channels to manage its direct marketing campaigns, which are reported to
+                   be very effective especially when targeted at younger representatives of digital
+                   information consumers.
+             •     Mobile Customer Support and Information Module is a point of reference for
+                   information about a particular retailer, its offerings, and deals. The news about the
+                   company, current discounts, shop locations and other information is either pushed to
+                   users’ m-commerce apps or can be found in m-commerce app itself.
+             •     Mobile Banking is inextricably linked to selling process via m-commerce apps,
+                   because no purchase can be finalized without a payment. There are various options
+                   for executing mobile payments, among which are direct mobile billing, payments via
+                   SMS, credit card payments through a familiar mobile web interface, and payments at
+                   physical Point of Sale (POS) terminals with Near Field Communication (NFC)
+                   technology.
+                                                       OR
+
+             (i)   Smart City: Smart city is a big innovation and spans a wide variety of use cases,
+                   from water distribution and traffic management to waste management and
+                   environmental monitoring. For example, many times we wait for a red traffic light in a
+                   totally absurd way, because there is no car or any person around us. With Internet of
+                   Things (IoT), these traffic lights can be connected to a circuit of cameras distributed
+                   throughout the city that identifies the level of traffic and mass movement, thus
+                   avoiding those absurd waits in areas of limited movement.
+             (ii) Health Care: Internet of Things (IoT) has various applications in healthcare which
+                  are from remote monitoring equipment to advance and smart sensors to equipment
+                  integration. It has the potential to improve how physicians deliver care and keep
+                  patients safe and healthy.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                       INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+                           PAPER 7 - SECTION – B: STRATEGIC MANAGEMENT
+         Question paper comprises of 5 questions, Answer Question No. 6 which is compulsory and any 3
+                                        out of the remaining 4 questions.
+        Question 6
+        Paramount group of companies is having a strong foot print in the areas of Aviation,
+        Healthcare, Fast moving consumer goods, Home appliances and Electronic goods. Processes,
+        Technology and Marketing capabilities are different for each business. However, each
+        business operates among a group of rivals that produce competing products. In order to get
+        ahead of competition and to contribute for sustained competitive advantages, company
+        intends to improve customer services and in turn increase its market share. T o achieve this,
+        company is desirous to analyze its products, processes and service levels for each of its
+        segments.
+        Company is studying various trade publications, understanding the taste and preferences of
+        customers, meeting with suppliers and also using other relevant information available in public
+        domain for each of its business operations. After studying as above, company wants to
+        compare diverse range of practices and processes being followed by acknowledged leaders in
+        the industry, measures its own productivity and identify the gaps. Instead of following bricks-
+        and-mortar practices, company will be setting goals to be achieved for improvement in its
+        product, processes and services, based on best practices being followed by the companies on
+        a regular basis.
+        Identify the strategic tool to be used by Paramount group of companies. Also explain in brief
+        the common elements involved in using this tool.                           (1 + 4 = 5 Marks)
+        Answer
+        Paramount group of companies have used Benchmarking as a strategic tool. Benchmarking
+        is an approach of setting goals and measuring productivity of firms based on best industry
+        practices or against the products, services and practices of its competitors or other
+        acknowledged leaders in the industry. Thus, benchmarking is a process of continuous
+        improvement in search for competitive advantage. Firms can use benchmarking practices to
+        achieve improvements in diverse range of management functions like product development,
+        customer services, human resources management, etc.
+        Some of the common elements of benchmarking process are as under:
+        •    Identifying the need for benchmarking: This step will define the objectives of the
+             benchmarking exercise. It will also involve selecting the type of benchmarking.
+             Organizations identify realistic opportunities for improvements.
+        •    Clearly understanding existing decisions processes: The step will involve compiling
+             information and data on performance. This will include mapping processes.
+        •    Identify best processes: Within the selected framework best processes are identified.
+             These may be within the same organization or external to it.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 11
+
+
+        •    Comparison of own process and performance with that of others: Benchmarking
+             process also involves comparison of performance of the organization with performance of
+             other organization. Any deviation between the two is analysed to make further
+             improvements.
+        •    Prepare a report and implement the steps necessary to close the performance gap:
+             A report on benchmarking initiatives containing recommendations is prepared. Such a
+             report also contains the action plans for implementation.
+        •    Evaluation: Business organizations evaluate the results of the benchmarking process in
+             terms of improvements vis-à-vis objectives and other criteria set for the purpose. It also
+             periodically evaluates and reset the benchmarks in the light of changes in the conditions
+             that impact the performance.
+        Question 7
+        (a) Good Health is an Association of Persons (AOP), providing awareness to downtrodden
+            on immunization, vaccination, sanitation and other health and hygiene issues. It is a not-
+            for-profit organization, working in coordination with hospitals, medical support centers
+            and local administration.
+             You are asked to take over the organization and manage it in a better way. Identify
+             whether the concept of strategic management is relevant in this connection? And if so,
+             what basic activities you would perform in order to manage it efficiently?
+                                                                                     (1 + 4 = 5 Marks)
+        (b) "Is it imperative to segregate top level strategies into viable functional plans and
+            policies?" Do you agree with this statement? Support your answer with reason.
+                                                                                     (1 + 4 = 5 Marks)
+        Answer
+        (a) The concept of strategic management process is effectively being used by a number of
+            not-for-profit or charitable organizations. While ‘Good Health’ may have social and
+            charitable existence, still it has to generate resources and use them wisely to achieve
+            organisational objectives. Organisation needs to be managed strategically, irrespective
+            whether they have profit motive. The strategic management at ‘Good Health’ should
+            essentially cover:
+                 Analyzing and interpreting the strategic intent in terms of vision, mission and
+                  objectives.
+                 Generating required resources in terms of finance and manpower (volunteers, paid
+                  employees).
+                 Undertaking SWOT analysis from time to time.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                       INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+                 Setting goals in the area of downtrodden. It can be in terms of geographical
+                  coverage and number of downtrodden.
+                 Analyzing the desired future position with the past and present situation.
+        (b) Yes, it is imperative to segregate the top-level strategies into viable functional plans and
+            policies that are compatible with each other. Major strategies must be translated to lower
+            levels to give holistic strategic direction to an organisation. Functional strategies provide
+            details to business strategy & govern as to how key activities of the business will be
+            managed. The reasons why functional strategies are needed can be enumerated as
+            follows:
+                 Functional strategies lay down clearly what is to be done at the functional level.
+                  They provide a sense of direction to the functional staff.
+                 They are aimed at facilitating the implementation of corporate strategies and the
+                  business strategies formulation at the business level.
+                 They act as basis for controlling activities in the different functional areas of
+                  business.
+                 They help in bringing harmony and coordination as they are formulated to achieve
+                  major strategies.
+                 These strategies help the functional managers in handling similar situations
+                  occurring in different functional areas in a consistent manner.
+        Question 8
+        (a) XYZ Ltd. is an automobile company that offers diversified products for all customer
+            segments. Due to COVID-19, the changes took place in the economy forced the
+            company to change its strategy. Being the CEO of the company, what stages will you
+            follow for developing and executing the new strategy?                     (5 Marks)
+        (b) Due to reoccurrence of various variants of Corona virus, LMN Ltd. is facing unstable
+            environment and it has started unbundling and disintegrating its activities. It also started
+            relying on outside vendors for performing these activities. Identify the organisation
+            structure LMN Ltd. is shifting to. Under what circumstances this structure becomes
+            useful?                                                                  (1 + 4 = 5 Marks)
+        Answer
+        (a) Today, India has become the outsourcing hub for many of the global automobile
+            manufacturers. The auto industry comprises of four segments which are passenger
+            vehicles, commercial vehicles, three wheelers and two wheelers. XYZ Ltd. is an
+            automobile company that offers diversified products for all customer segments. The
+            company has already in existence, so it has its own vision, mission and a strategy to
+            execute for achieving its vision. While developing and executing the strategy, XYZ Ltd.
+            might have followed the five-stage managerial process as given below:
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 13
+
+
+             1.    Developing a strategic vision.
+             2.    Environmental and organisational analysis.
+             3.    Formulation of strategy.
+             4.    Implementing and executing the strategy.
+             5.    Strategic evaluation and control.
+             But due to COVID-19, the automobile industry has faced the lockdown situation.
+             Changes in the economy forced the XYZ Ltd. to change its existing strategy and prepare
+             the new strategy. The changes in the environmental forces due to COVID-19 requires
+             XYZ Ltd. to make modifications in their existing strategies and bring out new strategies.
+             For initiating strategic change, three steps can be followed by the CEO of the company
+             which are as under:
+             (i)   Recognize the need for change: This is the first step to diagnose facets of the
+                   corporate culture that are strategy supportive or not. This has already identified by
+                   the XYZ Ltd.
+             (ii) Create a shared vision to manage change: Objectives and vision of both
+                  individuals and organization should coincide. The CEO of XYZ Ltd. need to
+                  constantly and consistently communicate the vision not only to inform but also to
+                  overcome resistance.
+             (iii) Institutionalize the change: Creating and sustaining a different attitude towards
+                   change is essential to ensure that the XYZ Ltd. does not slip back into old ways of
+                   thinking or doing things. All these changes should be set up as a practice to be
+                   followed by the company and be able to transfer from one level to another as a well
+                   settled practice.
+        (b) LMN Ltd. is shifting into network structure. It is a newer and somewhat more radical
+            organisational design. The network structure could be termed a "non-structure" as it
+            virtually eliminates in-house business functions and outsource many of them. An
+            organization organized in this manner is often called a virtual organization because it is
+            composed of a series of project groups or collaborations linked by constantly changing
+            non-hierarchical, cobweb-like networks.
+             The network structure becomes most useful when the environment of a firm is unstable
+             and is expected to remain so. Under such conditions, there is usually a strong need for
+             innovation and quick response. Instead of having salaried employees, it may contract
+             with people for a specific project or length of time. Long-term contracts with suppliers and
+             distributors replace services that the company could provide for itself through vertical
+             integration. The network structure provides organization with increased flexibility and
+             adaptability to cope with rapid technological change and shifting pattern of international
+             trade and competition.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                       INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+        Question 9
+        (a) "Strategy formulation and strategy implementation are intertwined and linked with each
+            other." Elucidate this statement with suitable arguments.                    (5 Marks)
+        (b) There are four specific criteria of sustainable competitive advantage that firms can use to
+            determine those capabilities that are known as core competencies. Explain.        (5 Marks)
+        Answer
+        (a) The strategy formulation and strategy implementation are intertwined and linked with
+            each other. Two types of linkages exist between these two phases of strategic
+            management. The forward linkages deal with the impact of strategy formulation on
+            strategy implementation while the backward linkages are concerned with the impact in
+            the opposite direction.
+             Forward Linkages: The different elements in strategy formulation starting with objective
+             setting through environmental and organizational appraisal, strategic alternatives and
+             choice to the strategic plan determine the course that an organization adopts for itself.
+             With the formulation of new strategies, or reformulation of existing strategies, many
+             changes have to be affected within the organization. For instance, the organizational
+             structure has to undergo a change in the light of the requirements of the modified or new
+             strategy. The style of leadership has to be adapted to the needs of the modified or new
+             strategies. In this way, the formulation of strategies has forward linkages with their
+             implementation.
+             Backward Linkages: Just as implementation is determined by the formulation of
+             strategies, the formulation process is also affected by factors related with
+             implementation. While dealing with strategic choice, remember that past strategic actions
+             also determine the choice of strategy. Organizations tend to adopt those strategies which
+             can be implemented with the help of the present structure of resources combined with
+             some additional efforts. Such incremental changes, over a period of time, take the
+             organization from where it is to where it wishes to be.
+             lt is to be noted that while strategy formulation is primarily an entrepreneurial activity,
+             based on strategic decision-making, the implementation of strategy is mainly an
+             administrative task based on strategic as well as operational decision-making.
+        (b) Four specific criteria of sustainable competitive advantage that firms can use to
+            determine those capabilities that are core competencies. Capabilities that are valuable,
+            rare, costly to imitate, and non-substitutable are core competencies.
+             i.   Valuable: Valuable capabilities are the ones that allow the firm to exploit
+                  opportunities or avert the threats in its external environment. A firm created value
+                  for customers by effectively using capabilities to exploit opportunities. Finance
+                  companies build a valuable competence in financial services. In addition, to make
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 15
+
+
+                    such competencies as financial services highly successful require placing the right
+                    people in the right jobs. Human capital is important in creating value for customers.
+             ii.    Rare: Core competencies are very rare capabilities and very few of the competitors
+                    possess this. Capabilities possessed by many rivals are unlikely to be sources of
+                    competitive advantage for any one of them. Competitive advantage results only
+                    when firms develop and exploit valuable capabilities that differ from those shared
+                    with competitors.
+             iii.   Costly to imitate: Costly to imitate means such capabilities that competing firms
+                    are unable to develop easily.
+             iv.    Non-substitutable: Capabilities that do not have strategic equivalents are called
+                    non-substitutable capabilities. This final criterion for a capability to be a source of
+                    competitive advantage is that there must be no strategically equivalent valuable
+                    resources that are themselves either not rare or imitable.
+        Question 10
+        (a) ABC Steel Industries finds out that its products have reached at maturity stage and
+            already has overcapacity. Therefore, it concentrates on maintaining operational efficiency
+            of its plants. Identity the strategy implemented by ABC Steel Industries along with
+            reasons.                                                               (1 + 4 = 5 Marks)
+        (b) What do you understand by diversification? Distinguish between concentric and
+            conglomerate diversification.                                 (2 + 3 = 5 Marks)
+                                                         OR
+             "The bargaining power of suppliers determines an industry's attractiveness and
+             profitability." Discuss.
+        Answer
+        (a) ABC Steel Industries has opted to implement Stability strategy. Stability strategies are
+            intended to safeguard the existing interests and strengths of business. It involves
+            organisations to pursue established and tested objectives, continue on the chosen path,
+            maintain operational efficiency and so on. A stability strategy is pursued when a firm
+            continues to serve in the same or similar markets and deals in same products and
+            services. In stability strategy, few functional changes are made in the products or
+            markets, however, it is not a ‘do nothing’ strategy. This strategy is typical for mature
+            business organizations. Some small organizations also frequently use stability as a
+            strategic focus to maintain comfortable market or profit position.
+             Major reasons for Stability strategy are:
+                   A product has reached the maturity stage of the product life cycle.
+                   The staff feels comfortable with the status quo as it involves less changes and less
+                    risks.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                        INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+                  It is opted when the environment in which an organisation is operating is relatively
+                   stable.
+                  Where it is not advisable to expand as it may be perceived as threatening.
+                  After rapid expansion, a firm might want to stabilize and consolidate itself.
+        (b) Diversification is defined as entry into new products or product lines, new services or new
+            markets, involving substantially different skills, technology and knowledge. Diversification
+            endeavours can be related or unrelated to existing businesses of the firm.
+             Following are the differences between the concentric diversification and conglomerate
+             diversifications:
+                     Concentric Diversification                  Conglomerate Diversification
+               Meaning: It occurs when a firm adds        Meaning: It occurs when a firm diversifies
+               related products or markets.               into areas that are unrelated to its current
+                                                          line of business.
+               Linkage: The new business is linked Linkage: Here no such linkages exist; the
+               to the existing businesses through new business/product is disjointed from the
+               process, technology or marketing.          existing businesses/products.
+               Reasons for pursuing: The most Reasons for pursuing: The common
+               common reason for pursuing a reason for pursuing a conglomerate growth
+               concentric diversification is that strategy is that opportunities in a firm's
+               opportunities in a firm’s existing line of current line of business are limited or
+               business are available.                    opportunities outside are highly lucrative.
+
+                                                        or
+             Quite often, suppliers too, exercise considerable bargaining power over purchasing
+             companies. The more specialised the offering from the supplier, greater may be its clout.
+             Further, when the suppliers are limited in number, they may openly exhibit their
+             bargaining power. The bargaining power of suppliers determines the cost of raw
+             materials and other inputs of the industry, and therefore, an industry’s attractiveness and
+             profitability. Suppliers can influence the profitability of an industry in a number of ways.
+             Suppliers can command bargaining power over a firm when;
+             (i)   Their products are crucial to the buyer and substitutes are not available.
+             (ii) They can erect/ensure high switching costs.
+             (iii) They are more concentrated than their buyers. Less suppliers, more buyers.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

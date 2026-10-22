@@ -1,0 +1,16 @@
+{
+ "_comment": "The lesson sections (docs/CONTENT_GUIDE.md §1): the one list build.py (tools/buildlib/lessons.py), the lesson page (manifest.sections -> app/js/views/lesson.js) and the formula sheets (app/js/views/revise.js) read. `order` is every allowed ## section in its order; `required` must be present in every lesson; `oneOf` lists groups of which a lesson needs at least one (a warning otherwise: a numerical lesson has Formats and formulas, a theory lesson an Answer frame); `level` is the reading depth (1 Quick, 2 Exam, 3 Deep; unlisted = 2); `role` names the sections the app treats specially (facts = the formula-sheet facts, tricks = the exam-angle boxes). Changing a name here renames it for the build and the app at once; the lead owns this file.",
+ "order": ["In plain words", "How it works", "Formats and formulas", "Worked examples", "Under the hood", "Exam angle", "Answer frame",
+           "Common mistakes", "Practice", "Recap", "Flashcards"],
+ "required": ["In plain words", "How it works", "Worked examples", "Exam angle", "Common mistakes", "Practice", "Recap"],
+ "oneOf": [["Formats and formulas", "Answer frame"]],
+ "level": {"In plain words": 1, "Recap": 1, "Under the hood": 3},
+ "depths": [[1, "Quick", "Plain words and the recap: the short-notes view"],
+            [2, "Exam", "Everything you need for full marks"],
+            [3, "Deep", "The full lesson, including the finer points"]],
+ "role": {"facts": "Formats and formulas", "tricks": "Exam angle", "frame": "Answer frame", "examples": "Worked examples",
+          "practice": "Practice", "recap": "Recap", "intro": "In plain words", "deep": "Under the hood"},
+ "words": [900, 6000],
+ "quiz": [4, 6],
+ "cards": [8, 12]
+}

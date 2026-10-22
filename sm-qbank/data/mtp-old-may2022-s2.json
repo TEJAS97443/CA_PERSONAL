@@ -1,0 +1,539 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "May 2022",
+  "attempt_sort": "2022-05",
+  "series": "II",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/04/EIS-SM-Q-MTP-2-Inter-May22.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/04/EIS-SM-A-MTP-2-Inter-May22.pdf",
+  "local_file": "raw/mtp-old-may2022-s2-q.pdf",
+  "local_answers_file": "raw/mtp-old-may2022-s2-a.pdf",
+  "test_series": "April 2022",
+  "mock_test_paper_no": "II",
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series II for May 2022 (Test Series: April 2022, MOCK TEST PAPER-II). ICAI originals 70126bos56083-iner-p7q.pdf / 70191bos56147-inter-p7a.pdf (linked from https://www.icai.org/post/intermediate-mtp-may2022-sr2) now return 404; retrieved from the castudynotes.com mirror (https://castudynotes.com/2022/04/18/ca-inter-may-2022-mock-test-papers-mtps-series-ii-in-pdf-at-one-place/)."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-may2022-s2-q1",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Business Process Reengineering — dropped from the 2023 syllabus (old Paper 7B Ch 8.7)",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "In a recent board meeting, the Chairman of Inclusive Heal Pharma Ltd, (IHPL) a major\npharmaceutical company in India, proposed reassigning around 100 employees and lay off of\nanother 275. The chairman proposed to cut jobs throughout the country under a res tructure of the\npharmaceutical business. Some of the employees who will be taken off from pharmaceutical\nbusiness will be redeployed on a new project for entry into wellness segment that is increasingly\nbecoming lucrative. The company has been looking for growth opportunities for a couple of years.\nThe proposal came after failed takeover of another company Rosy Cheek Health Ltd. (RCHL), a\nprominent manufacturer of various nutritional supplements that include proteins, vitamins and\nminerals. IHPL tried hard to acquire RCHL and raised its bid three times and finally offered Rs\n450 crores in form of cash of Rs 250 crores and balance in shares. The offer was found to be\nunattractive by RCHL.\nIHPL wanted to expand and have a separate product line to include he alth and wellness products\nin its portfolio to create two distinct business groups. With the entry into new segment there will be\nneed to explain the business undertaken by IHPL in a new form as there will be difference with\nrespect to the customer needs and target markets. The Chairman said that the organisational\nchanges underpin pursuit for growth that remains top priority for the organisation.\nThe Chairman informed the board that the proposed new organisation will result in a reduction in\nmiddle management roles by around fifteen per cent and reduction in junior management roles by\nten per cent. It is proposed to redesign workflows and processes both within IHPL and its\ninteractions with suppliers, hospitals and other associate organisations. Improvements in\norganisational reporting structures and use of technology will make many middle level positions\nredundant and lead to reduction in the jobs. It will not only reduce the salary costs but bring overall\nefficiencies. New enlarged team can be created later at the time of launch of wellness products.\nBased on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:\n\nManagerial activity to redesign workflows and processes both within IHPL and its interactions with suppliers, hospitals and other associate organisations is:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategic Implementation"
+    },
+    {
+     "label": "b",
+     "text": "Growth and Improvement"
+    },
+    {
+     "label": "c",
+     "text": "Organisational Change"
+    },
+    {
+     "label": "d",
+     "text": "Reengineering"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "bpr",
+    "reengineering"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q2",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Business definition as an element of strategic intent → Ch 1",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nChanges in the business undertaken by the IHPL with respect to the customer needs, target markets shall directly amount to changes in:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Organisational vision"
+    },
+    {
+     "label": "b",
+     "text": "Business mission"
+    },
+    {
+     "label": "c",
+     "text": "Business definition"
+    },
+    {
+     "label": "d",
+     "text": "Organisational goals"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "business definition",
+    "strategic intent"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nA shift to wellness products is part of:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Growth"
+    },
+    {
+     "label": "b",
+     "text": "Forward integration"
+    },
+    {
+     "label": "c",
+     "text": "Backward integration"
+    },
+    {
+     "label": "d",
+     "text": "Horizontal diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q4",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Divisional organisation structure → Ch 5",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nDivision of organisation into two distinct segments for pharma products and wellness products is a form of:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Simple structure"
+    },
+    {
+     "label": "b",
+     "text": "Functional structure"
+    },
+    {
+     "label": "c",
+     "text": "Divisional structure"
+    },
+    {
+     "label": "d",
+     "text": "Matrix structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "organisation structure",
+    "divisional structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q5",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(A)5",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nBy not raising the bid and creating a structure to produce wellness product, IHPL is shifting from _________ strategy to _________ strategy.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Merger, Retrenchment"
+    },
+    {
+     "label": "b",
+     "text": "Diversification, Growth"
+    },
+    {
+     "label": "c",
+     "text": "Acquisition, Diversification"
+    },
+    {
+     "label": "d",
+     "text": "Acquisition, Intensification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q6",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Importance and benefits of strategic management → Ch 1",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "BBL Bank had strategically decided to setup a separate office in Mumbai back in 2016, specifically to invest in crypto currencies and in development of robust blockchain facilities. Which importance of strategic management did BBL Bank made use of?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Gives direction to the management of the company"
+    },
+    {
+     "label": "b",
+     "text": "Helps to be proactive instead of being reactive"
+    },
+    {
+     "label": "c",
+     "text": "Provides a framework for all major future decisions"
+    },
+    {
+     "label": "d",
+     "text": "Supports development of new SBUs like in this case separate office for Blockchain"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "importance"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q7",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic group mapping → Ch 3",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Dharam, an organic farming expert was consulting a group of farmers to build sustainable brand of their corn produce. He suggested to follow the strategy of the biggest player in this business. Which of the following can be used to identify such a player?",
+   "options": [
+    {
+     "label": "a",
+     "text": "BCG Matrix"
+    },
+    {
+     "label": "b",
+     "text": "ADL Matrix"
+    },
+    {
+     "label": "c",
+     "text": "Dominant Force Analysis of the Industry"
+    },
+    {
+     "label": "d",
+     "text": "Strategic Group Mapping"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic group mapping"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q8",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Premise control (type of strategic control) → Ch 5",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Anshul joined a telecom company after his MBA and started working as market research analyst. His job included analyzing industry factors like competitors, suppliers and substitutes. Which of the strategic controls is he working on?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategic Surveillance"
+    },
+    {
+     "label": "b",
+     "text": "Special Alert Control"
+    },
+    {
+     "label": "c",
+     "text": "Premise Control"
+    },
+    {
+     "label": "d",
+     "text": "Benchmarking"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic control",
+    "premise control"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q9",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / implementation issues → Ch 5",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "When there is impact of strategy implementation on strategy formulation it can be referred as?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Backward Linkages"
+    },
+    {
+     "label": "b",
+     "text": "Forward Linkages"
+    },
+    {
+     "label": "c",
+     "text": "Vertical Linkages"
+    },
+    {
+     "label": "d",
+     "text": "Horizontal Linkages"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q10",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — objectives and goals → Ch 1",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "The philosophical base of strategic management falls within the concept of-",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategic Intent"
+    },
+    {
+     "label": "b",
+     "text": "Portfolio Analysis"
+    },
+    {
+     "label": "c",
+     "text": "Globalisation"
+    },
+    {
+     "label": "d",
+     "text": "Vision Statement"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "objectives"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q11",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "A strategic business unit is a grouping of ________ businesses.",
+   "options": [
+    {
+     "label": "a",
+     "text": "unrelated"
+    },
+    {
+     "label": "b",
+     "text": "differentiated"
+    },
+    {
+     "label": "c",
+     "text": "related"
+    },
+    {
+     "label": "d",
+     "text": "None of these."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q12",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Turnaround strategy → Ch 4 (strategic exits)",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "X Pvt. Ltd. had recently ventured into the business of co-working spaces when the global pandemic\nstruck. This has resulted in the business line becoming unprofitable and unviable, and a failure of the\nexisting strategy. However, the other businesses of X Pvt. Ltd. are relatively less affected by the\npandemic as compared to the recent co-working spaces. Suggest a strategy for X Pvt. Ltd. with reasons\nto justify your answer.",
+   "options": null,
+   "answer": "It is advisable that divestment strategy should be adopted by X Pvt. Ltd.\nIn the given situation where the business of co-working spaces became unprofitable and unviable due\nto Global pandemic, the best option for the company is to divest the loss-making business.\nRetrenchment may be done either internally or externally. Turnaround strategy is adopted in case of\ninternal retrenchment where emphasis is laid on improving internal efficiency of the organization, while\ndivestment strategy is adopted when a business turns unprofitable and unviable due to some external\nfactors. In view of the above, the company should go for divestment strategy.\nFurther, divestment helps address issues like:\n1. Persistent cash flows from loss making segment could affect other profit-making segments, which\nis the case in the given scenario.\n2. Inability to cope from the losses, which again is uncertain due to pandemic.\n3. Better investment opportunity, which could be the case if X Pvt. Ltd. can invest the money it\ngenerates from divestment.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "turnaround"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q13",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — partly proactive, partly reactive → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"A business organization cannot always plan all their strategies in advance and often need to blend\nplanned strategies with reactive strategies.\" Do you agree with the statement? Give reasons.",
+   "options": null,
+   "answer": "Yes, a business organization cannot always plan all their strategies in advance and often need to\nblend planned strategies with reactive strategies.\nIn planned strategy, organisations will analyse possible environmental scenarios and create\nstrategic framework after proper planning and set procedures and work on these strategies in a\npre-determined manner. However, in reality no company can forecast both internal and external\nenvironment exactly. Everything cannot be planned in advance. It is not possible to anticipate\nmoves of rival firms, consumer behaviour, evolving technologies and so on.\nThere can be significant deviations between what was visualised and what actually happens. There\ncan be significant or major strategic changes when the environment demands. Reactive strategy\nis triggered by the changes in the environment and provides ways and means to cope with the\nnegative factors or take advantage of emerging opportunities.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "nature of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q14",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Product life cycle → Ch 2",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Write short note on \"Phases and significance of Product Life Cycle\".",
+   "options": null,
+   "answer": "Product Life Cycle (PLC) is a useful concept for guiding strategic choice. Essentially, PLC is S-\nshaped curve which exhibits the relationship of sales with respect of time for a product that passes\nthrough the four successive stages of introduction (slow sales growth), g rowth (rapid market\nacceptance) maturity (slowdown in growth rate) and decline (sharp downward drift). If businesses\nare substituted for product, the concept of PLC could work just as well.\n\nThe first stage of PLC is the introduction stage in which competition is almost negligible, prices\nare relatively high, and markets are limited. The growth in sales is at a lower rate because of lack\nof knowledge on the part of customers.\nThe second stage of PLC is growth stage. In the growth stage, the demand expands rapidly,\nprices fall, competition increases, and market expands. The customer has knowledge about the\nproduct and shows interest in purchasing it.\nThe third stage of PLC is maturity stage. In this stage, the competition gets tough, and market\ngets stabilised. Profit comes down because of stiff competition. At this stage organisations may\nwork for maintaining stability.\nThe fourth stage of PLC is declining stage in which the sales and profits fall down sharply due\nto some new product replaces the existing product. So, a combination of strategies can be\nimplemented to stay in the market either by diversification or retrenchment.\nFigure: Product Life Cycle\nSignificance of PLC\nThe main advantage of PLC is that it can be used to diagnose a portfolio of products (or businesses)\nin order to establish the stage at which each of them exists. Particular attention is to be paid on\nthe businesses that are in the declining stage. Depending on the diagnosis, appropriate strategic\nchoice can be made. For instance, expansion may be a feasible alternative for businesses in the\nintroductory and growth stages. Mature businesses may be used as sources of cash for investment\nin other businesses which need resources. A combination of strategies like selective harvesting,\nretrenchment, etc. may be adopted for declining businesses. In this way, a balanced portfolio of\nbusinesses may be built up by exercising a strategic choice based on the PLC concept.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "product life cycle"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q15",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Telecom industry is growing at a rapid speed in India. There is a cut throat competition among the\nservice providers in the industry. Identify the capabilities that will best serve as a source of\ncompetitive advantage for a firm over its rivals?",
+   "options": null,
+   "answer": "Core competencies are capabilities that serve as a source of competitive advantage for a firm over\nits rivals. Core competency as the collective learning in the organization, especially coordinating\ndiverse production skills and integrating multiple streams of technologies. An organization’s\ncombination of technological and managerial know-how, wisdom and experience are a complex\nset of capabilities and resources that can lead to a competitive advantage compared to a\ncompetitor.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q16",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Ramesh is owner of a popular brand of Breads. Yashpal, his son af ter completing Chartered\nAccountancy started assisting his father in running of business. The approaches followed by father\nand son in management were very different. While Ramesh preferred to use authority and having\na formal system of defining goals and motivation with explicit rewards and punishments, Yashpal\nbelieved in involving employees and generating enthusiasm to inspire people to deliver in the\norganization.\nDiscuss the difference in leadership style of father and son.",
+   "options": null,
+   "answer": "Ramesh is a follower of transactional leadership style that focuses on designing systems and\ncontrolling the organization’s activities. Such a leader believes in using authority of its office to\nexchange rewards, such as pay and status. They prefer a more formalized approach to motivation,\nsetting clear goals with explicit rewards or penalties for achievement or non-achievement.\nTransactional leaders try to build on the existing culture and enhance current practices. The style\nis better suited in persuading people to work efficiently and run operations smoothly.\nOn the other hand, Yashpal is follower of transformational leadership style. The style uses\ncharisma and enthusiasm to inspire people to exert them for the good of the organization.\nTransformational leaders offer excitement, vision, intellectual stimulation and personal satisfaction.\n\nThey inspire involvement in a mission, giving followers a ‘dream’ or ‘vision’ of a higher calling so\nas to elicit more dramatic changes in organizational performance. Such a leadership motivates\nfollowers to do more than originally affected to do by stretching their abilities and increasing their\nself-confidence, and also promote innovation throughout the organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic leadership"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q17",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Poor strategy implementation → Ch 5",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Sanya Private Limited is an automobile company. For the past few years, it has been observed\nthat the progress of the company has become stagnant. When scrutinized, it was found that the\nplanning department was performing fairly well but the plans could not be imp lemented due to\nimproper use of resources, undesirable tendencies of workers and non-conformance to norms and\nstandards. You are hired as a Strategic Manager. Suggest the elements of process of control to\novercome the problem.",
+   "options": null,
+   "answer": "Sanya Private Limited deteriorating performance due to poor implementation of plans that is\nimproper use of resources, undesirable tendencies of the workers, and non-conformance to norms\nand standards, all point towards weak controls in the organization. Implementation of plans cannot\nassure results unless strong and sufficient controls are put in place. The management of the\ncompany should focus diligently on developing controls especially in the identified problem areas.\nThe process of control has the following elements:\n(a) Objectives of the business system which could be operationalized into measurable and\ncontrollable standards.\n(b) A mechanism for monitoring and measuring the performance of the system.\n(c) A mechanism (i) for comparing the actual results with reference to the standards (ii) for\ndetecting deviations from standards and (iii) for learning new insights on standards\nthemselves.\n(d) A mechanism for feeding back corrective and adaptive information and instructions to the\nsystem, for effecting the desired changes to set right the system to keep it on course.\nAbove elements of control would ensure a proper check on improper use of resources, undesirable\ntendencies of the workers, and non-conformance to norms and standards and ensure a result\noriented implementation of plans.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q18",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing mix / expanded marketing mix — part of the dropped functional Marketing Strategy (old Ch 6.2)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Write a short note on Expanded Marketing Mix.",
+   "options": null,
+   "answer": "Expanded Marketing Mix:\nTypically, all organizations use a combination of 4 Ps in some form or the other that is product,\nprice, place, and promotion. However, the above elements of marketing mix are not exhaustive.\nThere are a few more elements that may form part of an organizational marketing mix strategy as\nfollows:\n1. People: all human actors who play a part in delivery of the market offering and thus influence\nthe buyer’s perception, namely the firm’s personnel and the customer.\n2. Physical evidence: the environment in which the market offering is delivered and where the\nfirm and customer interact.\n3. Process: the actual procedures, mechanisms and flow of activities by which the product/\nservice is delivered.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "marketing mix",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q19",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nCost Leadership and Differentiation Strategies.",
+   "options": null,
+   "answer": "Cost leadership emphasizes producing standardized products at a very low per-unit cost for\nconsumers who are price-sensitive. Differentiation is a strategy aimed at producing products and\nservices considered unique industry wide and directed at consumers who are relatively price\ninsensitive.\nA primary reason for pursuing forward, backward, and horizontal integration strateg ies is to gain\ncost leadership benefits. But cost leadership generally must be pursued in conjunction with\ndifferentiation. Different strategies offer different degrees of differentiation. A differentiation\nstrategy should be pursued only after a careful study of buyers’ needs and preferences to\ndetermine the feasibility of incorporating one or more differentiating features into a unique product.\nA successful differentiation strategy allows a firm to charge a higher price for its product and to\ngain customer loyalty.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s2-q20",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nVision & Mission",
+   "options": null,
+   "answer": "A Mission statement tells you the fundamental purpose of the organisation. It concentrates on the\npresent. It defines the customer and the critical processes. It informs you of the desired level of\nperformance. On the other hand, a vision statement outlines what the organisation wants to be. It\nconcentrates on the future. It is a source of inspiration. It provides clear decision-making criteria.\nA mission statement can resemble a vision statement in a few companies, but that can be a grave\nmistake. It can confuse people. Following are the major differences between vision and mission:\n1. The vision states the future direction while the mission states the ongoing activities of the\norganisation.\n2. The vision statement can galvanize the people to achieve defined objectives, even if they are\nstretch objectives, provided the vision is specific, measurable, achievable, relevant and time\nbound. A mission statement provides a path to realize the vision in line with its values. These\nstatements have a direct bearing on the bottom line and success of the organisation.\n3. A vision statement defines the purpose or broader goal for being in existence or in the\nbusiness and can remain the same for decades if crafted well while a mission statement is\nmore specific in terms of both the future state and the time frame. Mission describes what will\nbe achieved if the organisation is successful.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  }
+ ]
+}

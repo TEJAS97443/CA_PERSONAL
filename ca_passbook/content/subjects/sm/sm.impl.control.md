@@ -1,0 +1,386 @@
+---
+id: sm.impl.control
+title: Strategic control and performance measures
+minutes: 26
+needs: sm.impl.matrix
+tags: strategic control, process of control, operational control, management control, premise control, strategic surveillance, special alert control, implementation control, strategic performance measures, triple bottom line
+labs:
+summary: The process of control and its three types, Schendel and Hofer's two questions, the four strategic controls with implementation control's two forms, and strategic performance measures: types, importance and how to choose them.
+---
+
+## In plain words
+
+### The plan that assumed cheap diesel
+
+Tapri's Kulhad Express plan, 120 highway kiosks, rested on assumptions: diesel prices stable, highway traffic growing, no new food-licensing rules for highway stalls. Six months in, Ananya calls a review.
+
+> **Ananya:** Before we ask how many kiosks are open, are our assumptions still true?
+> **Dev:** Diesel is up, so truck traffic is down. My spreadsheet would like a word.
+> **Ritu:** And the kiosks that are open sell 40% less than plan. Per kiosk, please: which ones, and why?
+
+That review is **strategic control**. It asks two questions: **is the strategy being implemented as planned, and are the results the ones intended?** It works in four ways. **Premise control** keeps checking the assumptions the strategy was built on (diesel, traffic, rules). **Strategic surveillance** is general watching of newspapers, magazines and conferences for anything unexpected. **Special alert control** is the emergency review after a sudden shock: a cyclone, a competitor's surprise merger. **Implementation control** checks progress through the incremental steps (the 30th, 60th, 90th kiosk) and asks whether the whole strategy needs changing.
+
+Below strategic control sit the everyday controls: **management control** over whole departments and divisions, and **operational control** over individual tasks (stock levels, quality, budgets). To track all of it, the firm needs **strategic performance measures**: financial, customer, market, employee, innovation and environmental indicators that show whether the strategy is working.
+
+::: analogy The road trip
+Before leaving, you check that the ghat road is open and the monsoon is late: premise control. On the way, the radio is on in the background: surveillance. A landslide blocks the road and the family holds an emergency meeting at a dhaba: special alert. At each toll plaza you ask whether you are still on time: milestone reviews. Keeping the car in its lane is operational control, and the dashboard (fuel, speed, distance) is your set of performance measures.
+:::
+
+::: key
+Strategic control focuses on the dual questions of whether the strategy is being implemented as planned and whether the results produced are those intended. It watches the premises, the environment, sudden events and the steps of implementation, so the strategy can be adjusted in time.
+:::
+
+## How it works
+
+### Control and the process of control
+
+Controlling is often regarded as the core of the management process: a function intended to ensure the performance of planned activities and achieve the pre-determined goals and results. Control regulates and checks: it structures and conditions the behaviour of events and people, **places restraints and curbs on undesirable tendencies, makes people conform to certain norms and standards**, measures progress to keep the system on track, ensures that **what is planned is translated into results**, and keeps a watch on the **proper use of resources** and the safeguarding of assets (SM 5.56). The controlling function monitors activity, measures results against pre-established standards, analyses and corrects deviations, and maintains or adapts the system, so the organisation continuously learns from experience (SM 5.56).
+
+**The process of control has the following elements** (SM 5.56–5.57):
+
+::: diagram The four elements of the process of control
+{"type": "flow", "w": 400, "nodes": [{"id": "a", "kind": "process", "label": "(a) Measurable standards", "color": "a"}, {"id": "b", "kind": "process", "label": "(b) Monitor and measure", "color": "b"}, {"id": "c", "kind": "process", "label": "(c) Compare, detect, learn", "color": "c"}, {"id": "d", "kind": "process", "label": "(d) Feed back corrections", "color": "g"}], "edges": [["a", "b"], ["b", "c"], ["c", "d"], ["d", "b", "keeps it on course"]]}
+:::
+
+- **(a)** Objectives of the business system which could be operationalised into **measurable and controllable standards**.
+- **(b)** A mechanism for **monitoring and measuring** the performance of the system.
+- **(c)** A mechanism (i) for **comparing** the actual results with reference to the standards, (ii) for **detecting deviations** from standards and (iii) for **learning new insights** on standards themselves.
+- **(d)** A mechanism for **feeding back corrective and adaptive information** and instructions to the system, for effecting the desired changes to set right the system to keep it on course.
+
+### Three types of organisational control
+
+Primarily there are three types: **operational control, management control and strategic control** (SM 5.57).
+
+::: diagram The three types of organisational control
+{"type": "layers", "layers": [{"label": "Strategic control", "note": "is the strategy right, and working?"}, {"label": "Management control", "note": "a whole department, division or organisation"}, {"label": "Operational control", "note": "individual tasks or transactions"}]}
+:::
+
+**Operational control.** Its thrust is on **individual tasks or transactions**, as against total or more aggregative management functions: procuring specific items for inventory is operational control, in contrast to inventory management as a whole. A test: there should be a clear-cut and somewhat measurable relationship between inputs and outputs, predetermined or estimated with least uncertainty. Many control systems are operational and **mechanistic**: standards, plans and instructions are set, and processes are regulated within certain "tolerances", irrespective of the effects of external conditions. Examples: **stock control** (stocks between set limits), **production control** (manufacturing to set programmes), **quality control** (quality between agreed limits), **cost control** (expenditure as per standards), **budgetary control** (performance to budget) (SM 5.57).
+
+**Management control.** More **inclusive and more aggregative**, embracing the integrated activities of a complete department, division or even the entire organisation. Its basic purpose is the achievement of enterprise goals, short range and long range, in a most effective and efficient manner. ==Robert Anthony defines management control as "the process by which managers assure the resources are obtained and used effectively and efficiently in the accomplishment of the organisation's objectives"== (SM 5.57).
+
+::: compare
+| Point | Operational control | Management control |
+|---|---|---|
+| Thrust | Individual tasks or transactions | Integrated activities of a complete department, division or the entire organisation |
+| Example | Procuring specific items for inventory | Inventory management as a whole |
+| Nature | Mechanistic: standards, plans and instructions; processes regulated within tolerances | Achieving enterprise goals, short and long range, effectively and efficiently |
+:::
+
+### Strategic control
+
+::: definition Strategic control
+According to Schendel and Hofer, "Strategic control focuses on the dual questions of whether: (1) the strategy is being implemented as planned; and (2) the results produced by the strategy are those intended." (SM 5.58)
+:::
+
+There is often a **time gap** between formulation and implementation, during which internal and external changes may affect the strategy, so **warning systems** are needed to track it as it is implemented. Strategic control is the process of **evaluating strategy as it is formulated and implemented**; it is directed towards identifying problems and changes in premises, and making the necessary adjustments (SM 5.58). There are **four types** (SM 5.58–5.59):
+
+**1. Premise control.** A strategy is formed on certain **assumptions or premises** about the complex and turbulent environment, which may not remain valid. Premise control is ==a tool for systematic and continuous monitoring of the environment to verify the validity and accuracy of the premises on which the strategy has been built==. It monitors two types of factors: (i) **environmental factors**: economic (inflation, liquidity, interest rates), technology, social and legal-regulatory; (ii) **industry factors**: competitors, suppliers, substitutes. It is neither feasible nor desirable to control all premises in the same manner: managers select those likely to change and that would severely impact the organisation and its strategy.
+
+**2. Strategic surveillance.** Contrary to premise control, it is **unfocussed**: general monitoring of various sources of information to uncover **unanticipated information** having a bearing on the strategy, through **casual environmental browsing**: reading financial and other newspapers and business magazines, attending meetings, conferences and discussions. It may be a loose form of strategic control, but is capable of uncovering information relevant to the strategy.
+
+**3. Special alert control.** Unexpected events may force a reconsideration of strategy: **sudden changes in government, natural calamities, terrorist attacks, unexpected merger/acquisition by competitors, industrial disasters** may trigger an immediate and intense review. Organisations form **crisis management teams** to handle such situations.
+
+**4. Implementation control.** Managers implement strategy by converting major plans into concrete, sequential actions that form **incremental steps**. Implementation control assesses the need for changes in the overall strategy in the light of unfolding events and the results of those steps. It is **not a replacement for operational control**: unlike operational control, it continuously monitors the basic direction of the strategy. Its two basic forms:
+
+- **(i) Monitoring strategic thrusts**: helps managers determine whether the overall strategy is progressing as desired or needs readjustment.
+- **(ii) Milestone reviews**: all key activities necessary to implement the strategy are segregated in terms of **time, events or major resource allocation**; a review normally involves a **complete reassessment** of the strategy and assesses the need to continue or refocus the organisation's direction.
+
+::: diagram When each control works: formulation (Time 1 to 2), implementation (Time 2 to 3)
+{"type": "table", "head": ["Control", "Formulation", "Implementation"], "rows": [["Surveillance", "yes", "yes"], ["Premise", "yes", "yes"], ["Special alert", "", "if triggered"], ["Implementation", "", "yes"]], "rowLabels": true, "cells": {"0,1": "d", "0,2": "d", "1,1": "d", "1,2": "d", "2,2": "c", "3,2": "d"}}
+:::
+
+The table follows the figure by Pearce, Robinson and Mital in the Study Material (SM 5.59): surveillance and premise control run from the start of formulation (Time 1) to the end; special alert control (a dashed line in the figure) and implementation control run once implementation begins (Time 2). These four strategic controls **steer the organisation and its sub-systems to the right track** and help it negotiate the turbulent and complex environment (SM 5.60).
+
+| Strategic control | Focus | Typical trigger or tool |
+|---|---|---|
+| Premise control | Focused: the assumptions behind the strategy | Interest rates, inflation, regulation, competitors, suppliers, substitutes |
+| Strategic surveillance | Unfocussed: anything unanticipated | Newspapers, business magazines, conferences |
+| Special alert control | A sudden, unexpected event | Crisis management team; immediate, intense review |
+| Implementation control | The incremental steps of implementation | Monitoring strategic thrusts; milestone reviews |
+
+### Strategic performance measures
+
+A company's performance depends heavily on the execution of strategy. **Strategic performance measurement (SPM)** is a method that increases line executives' understanding of the organisation's strategic goals and offers a continuous system for tracking progress towards them using clear-cut performance measurements. **SPM helps to eliminate silos** by establishing a common language among all divisions, so they communicate openly and productively (SM 5.60).
+
+::: definition Strategic performance measures
+Strategic performance measures are key indicators that organizations use to track the effectiveness of their strategies and make informed decisions about resource allocation. The measures provide a snapshot of the organization's performance, enabling leaders to assess whether their strategies are aligned with their goals and objectives and to make necessary adjustments to improve their performance. (SM 5.60)
+:::
+
+**KPIs** (SM 5.60): key performance measures and indicators must be created, selected, combined into reports and acted upon so that implementation has tangible outcomes. First, there must be a **clear cause and effect relationship** between the indicators and strategic outcomes; second, KPIs must be **carefully chosen, because they will influence the behaviour of people** within the organisation. Managers should beware of **paralysis by over analysis**.
+
+**Managing the political aspects of implementing a strategy** (SM 5.60–5.61): planners face two sets of forces: the **rational** forces of openness, communication and self-analysis, and the **political** forces of preserving empires and fostering internal rivalry, which urge knowledge retention, selective communication and caution. When they conflict, the politically acceptable aspects may end up in the **explicit strategy**, while the sensitive elements form an unspoken plan containing the **implicit strategy**.
+
+**Types of strategic performance measures** (SM 5.61):
+
+| Type | Examples | Insight into |
+|---|---|---|
+| Financial | Revenue growth, ROI, profit margins | Financial performance and the ability to generate profit |
+| Customer satisfaction | Satisfaction, retention, loyalty | Ability to meet customer needs with high-quality products and services |
+| Market | Market share, customer acquisition, referrals | Competitiveness; ability to attract and retain customers |
+| Employee | Satisfaction, turnover rate, engagement | Ability to attract and retain talent and create a positive work environment |
+| Innovation | R&D spending, patent applications, new product launches | Ability to innovate and create new products and services |
+| Environmental | Energy consumption, waste reduction, carbon emissions | Impact on the environment; efforts to operate sustainably |
+
+**Towards more holistic measures** (SM 5.62): management thought has pushed strategic performance beyond financial metrics. The **Triple Bottom Line** framework emphasises **People and Planetary** concerns besides **profitability or Economic Prosperity**; the **Quadruple Bottom Line** adds a fourth P, a spiritual dimension named **Purpose**.
+
+::: diagram Beyond financial metrics
+{"type": "nest", "w": 400, "root": {"title": "Quadruple bottom line", "note": "adds Purpose", "mono": false, "color": "f", "lines": ["Purpose: a spiritual dimension"], "children": [{"title": "Triple bottom line", "mono": false, "color": "g", "lines": ["Profit (economic prosperity)", "People", "Planet"]}]}}
+:::
+
+**Why strategic performance measures are essential** (SM 5.62–5.63):
+
+1. **Goal alignment**: they help organisations align strategies with goals and objectives, ensuring they are on track to achieve the desired outcomes.
+2. **Resource allocation**: they give the information to make informed decisions about resource allocation, prioritising efforts and allocating resources to areas of greatest impact.
+3. **Continuous improvement**: they provide a framework to track progress and make adjustments to improve performance over time.
+4. **External accountability**: they help demonstrate accountability to stakeholders, including shareholders, customers and regulatory bodies, by giving a clear and transparent picture of performance.
+
+**Choosing the right strategic performance measures** (SM 5.63): measures should be aligned with goals and objectives and provide relevant, actionable information. Consider:
+
+1. **Relevance**: relevant to the goals and objectives, providing actionable and meaningful information, so that improvements and strategic decisions can follow.
+2. **Data availability**: based on data that is readily available and can be collected and analysed in a timely manner.
+3. **Data quality**: based on high-quality data that is accurate and reliable.
+4. **Data timeliness**: based on data that is current and up to date, so decisions can be made quickly.
+
+These factors give a framework to assess the success of strategies, identify areas for improvement and decide on resource allocation and adjustments. Effective strategic performance measures should be **relevant, meaningful, easy to understand, and regularly reviewed and updated** (SM 5.63).
+
+## Worked examples
+
+:::: example The samosa scale that nobody reads
+At Tapri's samosa factory in Dewas, the standard is a samosa of 80 g ± 3 g, fried in oil that is changed every 8 hours. A supervisor weighs 20 samosas every hour and writes the weights in a register, which is filed at the end of each week; nobody compares the weights with the standard. Last month an airline caterer rejected a whole consignment because the samosas weighed 88 to 92 g and were oily. The plant manager's reply: "We have controls. Look at the register." Meanwhile, Tapri's sales team reports that office canteens now want a 50 g mini-samosa, but the 80 g standard has not been looked at since 2019.
+
+Required:
+
+(i) Examine the factory's control system with reference to the elements of the process of control, and advise the plant manager.
+
+(ii) Is the hourly weight check an example of operational control or management control? Give reasons.
+
+::: answer Model answer
+**(i) The elements of the process of control, applied.** The controlling function involves monitoring the activity and measuring results against pre-established standards, analysing and correcting deviations as necessary, and maintaining or adapting the system. The process of control has four elements:
+
+1. **Objectives of the business system operationalised into measurable and controllable standards**: present. The 80 g ± 3 g weight and the 8-hour oil change are measurable, controllable standards.
+2. **A mechanism for monitoring and measuring the performance of the system**: present. Twenty samosas are weighed every hour and recorded.
+3. **A mechanism (i) for comparing the actual results with reference to the standards, (ii) for detecting deviations from standards and (iii) for learning new insights on standards themselves**: missing. Nobody compares the register with the standard, so the 88 to 92 g samosas were found by the customer, not by the factory; and the 80 g standard has not been reconsidered although canteens now want a 50 g samosa.
+4. **A mechanism for feeding back corrective and adaptive information and instructions to the system**, to set it right and keep it on course: missing. No instruction ever reaches the frying line.
+
+**Advice.** A register that is only filed is measurement without control. The plant manager should have each hourly reading compared with the standard on the shop floor, deviations flagged at once and corrective instructions fed back to the line (portion size, oil change), and should review the standards themselves, for example by setting a separate standard for a 50 g mini-samosa.
+
+**(ii) Operational control.** The thrust of operational control is on individual tasks or transactions, as against total or more aggregative management functions, and there is a clear-cut and somewhat measurable relationship between inputs and outputs. The weight check regulates one process within set tolerances (± 3 g): it is **quality control**, keeping product quality between agreed limits, which the Study Material gives as an example of operational control. Management control would instead embrace the integrated activities of a complete department, division or the entire organisation.
+:::
+::::
+
+:::: example Four kinds of watchfulness
+Identify, with reasons, the type of strategic control in each situation at Tapri:
+
+(a) Tapri's strategy for exporting premix to the Gulf assumes that the rupee-dirham exchange rate stays within a band and that the Gulf countries' food-import rules stay unchanged. Every quarter, a committee under Dev checks whether these assumptions still hold.
+
+(b) Ananya reads business newspapers daily, attends food-technology conferences and talks to suppliers at trade fairs. At one fair she hears, unexpectedly, that BrewBucks is testing a chai-latte concentrate.
+
+(c) A fire destroys the packaging line at Tapri's only premix plant, in Pithampur. Kesar sets up a crisis team that meets the same night to review how premix will be supplied to the whole country.
+
+(d) Tapri's expansion of the Dewas samosa factory is divided into three stages, each tied to a release of funds. Before the second release, the board completely reassesses whether the expansion strategy should continue or be refocused.
+
+::: answer Model answer
+**(a) Premise control.** A strategy is formed on certain assumptions or premises; premise control is a tool for systematic and continuous monitoring of the environment to verify the validity and accuracy of the premises on which the strategy has been built. The exchange rate (an economic factor) and the import rules (a legal-regulatory factor) are premises likely to change and to affect the strategy severely.
+
+**(b) Strategic surveillance.** Contrary to premise control, strategic surveillance is unfocussed: general monitoring of various sources of information, through casual environmental browsing such as reading newspapers and attending conferences, to uncover unanticipated information having a bearing on the strategy.
+
+**(c) Special alert control.** Unexpected events such as industrial disasters and natural calamities may trigger an immediate and intense review of strategy; organisations form crisis management teams to handle such situations.
+
+**(d) Implementation control, in the form of milestone reviews.** Implementation control assesses the need for changes in the overall strategy in the light of the results of incremental steps. In milestone reviews, key activities are segregated in terms of time, events or major resource allocation, and the review normally involves a complete reassessment of the strategy and of the need to continue or refocus.
+:::
+::::
+
+:::: example The dashboard nobody trusts
+Tapri Cold Chain Pvt Ltd, the Tapri subsidiary that runs its cold chain, has a new strategy: to earn half its revenue by carrying frozen foods for other companies, profitably, within three years. Every month its board receives a dashboard of 140 indicators, and its meetings end with long debates and few decisions. Among the indicators:
+
+- the headline KPI is kilometres driven per truck, which is up 20%; drivers, who earn a bonus on it, have started taking longer routes;
+- customer satisfaction comes from a survey done once a year, whose results arrive five months later;
+- temperature-breach reports are typed in by drivers from memory at the end of each week;
+- fuel used per tonne carried cannot be calculated, because the fuel-card company sends data only on request.
+
+Required:
+
+(i) Examine the dashboard with reference to the requirements for key performance indicators and the factors for choosing the right strategic performance measures.
+
+(ii) Suggest the types of strategic performance measures suited to the new strategy.
+
+::: answer Model answer
+**(i) Examination of the dashboard.** Key performance measures and indicators must be created, selected, combined into reports and acted upon so that strategy implementation can have tangible outcomes.
+
+1. **Cause and effect**: there needs to be a clear cause and effect relationship between the indicators and strategic outcomes. Kilometres driven have no such link with profitable revenue from outside customers.
+2. **Influence on behaviour**: KPIs need to be carefully chosen because they will influence the behaviour of people within the organisation. A bonus on kilometres has made drivers take longer routes.
+3. **Paralysis by over analysis**: 140 indicators debated every month with few decisions is exactly what managers should be aware of.
+
+The factors for choosing the right measures:
+
+| Factor | What it requires | The dashboard |
+|---|---|---|
+| Relevance | Relevant to the goals and objectives; actionable, meaningful information | Kilometres driven is not relevant to the strategy |
+| Data availability | Data readily available, collected and analysed in a timely manner | Fuel data available only on request |
+| Data quality | High-quality data that is accurate and reliable | Temperature breaches typed in from memory |
+| Data timeliness | Data that is current and up to date | Satisfaction results five months old |
+
+Effective strategic performance measures should be relevant, meaningful, easy to understand, and regularly reviewed and updated; Tapri Cold Chain should cut the dashboard to a few such measures linked to its strategy.
+
+**(ii) Types of measures suited to the strategy:**
+
+1. **Financial measures**: revenue growth from outside customers, return on investment, profit margins.
+2. **Customer satisfaction measures**: satisfaction, retention and loyalty of the outside customers.
+3. **Market measures**: market share, customer acquisition, customer referrals.
+4. **Employee measures**: satisfaction, turnover rate and engagement of drivers and depot staff.
+5. **Innovation measures**: spending on new refrigeration technology, new services launched.
+6. **Environmental measures**: energy consumption, waste reduction and carbon emissions of the fleet.
+:::
+::::
+
+## Under the hood
+
+### Budgetary control is operational, and operational control is not "strategic"
+
+The chapter's own MCQs key **budgetary control** as the tool a strategist would choose to implement operational control, and **operational control** as the one that is NOT a type of strategic control (SM 5.65–5.68). Budgetary, stock, production, quality and cost control are all operational.
+
+### Implementation control does not replace operational control
+
+Both deal with execution, but operational control regulates processes within tolerances, irrespective of external conditions, while implementation control continuously monitors the **basic direction** of the strategy and asks whether the whole strategy needs changing (SM 5.57, 5.59).
+
+### Premise control is selective
+
+"It is neither feasible nor desirable to control all types of premises in the same manner" (SM 5.58): the premises chosen are those likely to change and that would severely affect the organisation. A case where a firm tracks one critical assumption (an interest rate, a regulation) is still premise control.
+
+### Where the measures come from
+
+The measures connect back to [[sm.impl.matrix|the strategic management process]], where key performance measures are written into the strategic plan to measure the strategy's success after it is implemented (SM 5.3), and to [[sm.int.stakeholders|stakeholders]], to whom external accountability is owed.
+
+## Exam angle
+
+::: exam Where this lesson appeared, May 2024 to September 2026
+Of the 32 new-scheme ICAI documents searched, 23 ask about this lesson:
+
+- **The process of control, 5 marks**: September 2025 Q5(c) (a company whose expansion is missing projections, with improper use of resources and non-conformance to norms: "which function … what elements?"; ICAI's answer: strategic control, and the four elements).
+- **Types of strategic control**: MTP January 2026 Series II Q1(c) (5 marks: continuous monitoring with flexibility; all four types); RTP January 2025 Q15 (regularly reviewing business assumptions: premise control).
+- **Strategic control MCQs, 2 marks**: a competitor's unexpected merger and an intense review: **special alert** (May 2025 MCQ 15); owners who read business magazines and attend conclaves: **strategic surveillance** (MTP September 2024 Series I); **premise control** for re-evaluating economic assumptions (MTP September 2025 Series I), for staying on track while making proactive adjustments (MTP September 2026 Series I), for a firm that relied on outdated assumptions (RTP September 2025) and for a hospital chain's regular risk assessment (RTP May 2024); sudden regulation: **special alert** (MTP May 2026 Series I); regular evaluation of goals and performance: **implementation control, milestone reviews** (RTP September 2024 MCQ 6); a 15-year plan resting on one interest-rate assumption (September 2026 MCQ 14, answers not yet published); integrated activities of a complete department: **management control** (MTP May 2025 Series I; RTP September 2026 MCQ 6).
+- **Strategic performance measures, 5 marks**: why they are essential (MTP May 2024 Series I Q4(a); RTP September 2024 Q16; MTP May 2026 Series I Q4(b)); meaning and importance (January 2025 Q7(b), 1 + 4); types (September 2024 Q8(b); MTP May 2024 Series II Q4(a); MTP January 2025 Series I Q1(c) and MTP September 2025 Series II Q1(c), the same case); a case on goal alignment and accountability (RTP May 2025 Q15); choosing the right measures (January 2026 Q7(a); MTP September 2026 Series II Q3(a); MTP September 2024 Series I Q4(b) (OR)); SPM and silos (September 2026 Q8(b) (OR), answers not yet published).
+:::
+
+::: exam How the marks are earned
+ICAI's control answers name the function first ("strategic control"), give its purpose in the Study Material's words (curbs on undesirable tendencies, conformance to norms, proper use of resources, plans translated into results), then the four elements (a) to (d). SPM answers use one of three lists, and the question's verb picks it: "types" (six), "why essential" or "importance" (four), "factors to consider" (four).
+:::
+
+::: trick "Premise is focused, surveillance is not"
+Premise control watches **chosen assumptions**; strategic surveillance browses **everything**, unfocussed; special alert reacts to **one sudden event**; implementation control checks **the steps**. If the case says "assumption", it is premise control; "newspapers, magazines, conferences", surveillance; "sudden", "unexpected", "crisis team", special alert; "milestones", "stages", "complete reassessment", implementation control.
+:::
+
+## Answer frame
+
+### "Which function, and which elements?" (5 marks)
+
+1. "The company should perform the strategic control function of the strategic management process."
+2. Purpose of control in the Study Material's words, tied to the problems in the case.
+3. The four elements (a) to (d), each with one line applied to the facts.
+4. Closing: the elements ensure a check on improper use of resources, undesirable tendencies and non-conformance, and a result-oriented implementation.
+
+### "Explain the types of strategic control" (5 marks)
+
+Open with Schendel and Hofer's dual questions; then premise control (environmental and industry factors; selective), strategic surveillance (unfocussed, casual browsing), special alert control (sudden events, crisis teams) and implementation control (incremental steps; monitoring strategic thrusts and milestone reviews); close with "these four controls steer the organisation and its sub-systems to the right track".
+
+## Common mistakes
+
+::: mistake Hall of Shame: Bunty's "premise surveillance"
+Bunty reads that the CFO "monitors whether the interest-rate assumption remains valid" and writes "strategic surveillance, because he is monitoring". **Fix:** surveillance is unfocussed browsing for the unanticipated; checking a specific premise of the strategy is **premise control**.
+:::
+
+::: mistake Budgetary control as a type of strategic control
+**Fix:** stock, production, quality, cost and budgetary control are **operational** controls. The four strategic controls are premise, surveillance, special alert and implementation control.
+:::
+
+::: mistake The wrong SPM list
+Asked "why are strategic performance measures essential?", writing financial, customer, market, employee, innovation and environmental measures. **Fix:** that is the list of **types**. "Essential" or "importance" wants goal alignment, resource allocation, continuous improvement and external accountability; "factors" wants relevance, data availability, data quality and data timeliness.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. AushadhGhar Ltd's strategy is to become the leading online pharmacy in tier-2 towns. Every month its management reviews the share of orders coming from tier-2 towns and the repeat-order rate, to judge whether the overall strategy is progressing as desired or needs readjustment. There are no fixed stages or funding milestones. Which control is this?
+- [ ] Premise control
+- [ ] Implementation control: milestone reviews
+- [x] Implementation control: monitoring strategic thrusts
+- [ ] Management control
+> Monitoring strategic thrusts helps managers determine whether the overall strategy is progressing as desired or whether there is need for readjustments. Milestone reviews segregate key activities by time, events or major resource allocation and normally involve a complete reassessment of the strategy; premise control checks the assumptions behind the strategy.
+
+Q: Tapri's finance team keeps each café's monthly spending within its approved budget and reports variances. Kesar calls this "our strategic control". Is he right?
+- [ ] Yes: it is implementation control, because it checks implementation
+- [ ] Yes: it is premise control, because the budget rests on assumptions
+- [ ] No: it is strategic surveillance, because it monitors spending
+- [x] No: it is budgetary control, an example of operational control
+> Budgetary control (keeping performance to budget) is one of the Study Material's examples of operational control, with stock, production, quality and cost control. The four strategic controls are premise control, strategic surveillance, special alert control and implementation control.
+
+Q: Procuring specific items for inventory is an example of which control?
+- [x] Operational control
+- [ ] Management control
+- [ ] Strategic control
+- [ ] Premise control
+> Operational control's thrust is on individual tasks or transactions; inventory management as a whole would be management control.
+
+Q: Which of these are the two basic forms of implementation control? Select all that apply.
+- [x] Monitoring strategic thrusts
+- [ ] Monitoring environmental factors
+- [x] Milestone reviews
+- [ ] Crisis management teams
+> Environmental factors are watched by premise control; crisis management teams belong to special alert control.
+
+Q: Which of the following is a factor the Study Material lists for choosing the right strategic performance measures?
+- [ ] External accountability
+- [x] Data timeliness
+- [ ] Goal alignment
+- [ ] Market share
+> The factors are relevance, data availability, data quality and data timeliness. External accountability and goal alignment are reasons why the measures are important; market share is an example of a market measure.
+:::
+
+## Recap
+
+- The process of control has four elements: (a) objectives as measurable, controllable standards, (b) monitoring and measuring, (c) comparing, detecting deviations and learning new insights on standards, and (d) feeding back corrective and adaptive information.
+- There are three types of organisational control: operational (individual tasks, mechanistic: stock, production, quality, cost and budgetary control), management (a whole department, division or organisation, as Robert Anthony defines it) and strategic.
+- Strategic control (Schendel and Hofer): is the strategy implemented as planned, and are the results those intended?
+- Premise control: focused check of assumptions (environmental and industry factors), selectively. Strategic surveillance: unfocussed, casual browsing. Special alert: sudden events, crisis teams. Implementation control: incremental steps; monitoring strategic thrusts and milestone reviews.
+- SPM: tracks progress with clear-cut measures and eliminates silos through a common language. KPIs need cause and effect, careful choice; beware paralysis by over analysis.
+- Types: financial, customer satisfaction, market, employee, innovation, environmental. Triple bottom line: profit, people, planet; quadruple adds purpose.
+- Important for goal alignment, resource allocation, continuous improvement, external accountability. Choose by relevance, data availability, data quality, data timeliness. (Check the road before you leave, and again at every toll plaza.)
+
+## Flashcards
+
+Q:: The elements of the process of control?
+A:: (a) Objectives operationalised into measurable and controllable standards; (b) a mechanism for monitoring and measuring performance; (c) a mechanism for comparing results with standards, detecting deviations and learning new insights on standards; (d) a mechanism for feeding back corrective and adaptive information.
+
+Q:: Operational control versus management control?
+A:: Operational control focuses on individual tasks or transactions and is mechanistic (procuring specific items for inventory); management control is more inclusive and aggregative, covering a complete department, division or the whole organisation (inventory management as a whole).
+
+Q:: Robert Anthony's definition of management control?
+A:: The process by which managers assure the resources are obtained and used effectively and efficiently in the accomplishment of the organisation's objectives.
+
+Q:: Schendel and Hofer: strategic control focuses on which dual questions?
+A:: Whether (1) the strategy is being implemented as planned, and (2) the results produced by the strategy are those intended.
+
+Q:: The four types of strategic control?
+A:: Premise control, strategic surveillance, special alert control, implementation control.
+
+Q:: Premise control monitors which two types of factors?
+A:: Environmental factors (economic, technology, social, legal-regulatory) and industry factors (competitors, suppliers, substitutes).
+
+Q:: Strategic surveillance?
+A:: Unfocussed, general monitoring of various sources of information (newspapers, business magazines, meetings, conferences) to uncover unanticipated information bearing on the strategy.
+
+Q:: Special alert control: what triggers it?
+A:: Unexpected events such as sudden changes in government, natural calamities, terrorist attacks, unexpected mergers or acquisitions by competitors and industrial disasters; crisis management teams handle them.
+
+Q:: The two basic forms of implementation control?
+A:: Monitoring strategic thrusts; milestone reviews.
+
+Q:: Types of strategic performance measures?
+A:: Financial, customer satisfaction, market, employee, innovation and environmental measures.
+
+Q:: Why are strategic performance measures essential?
+A:: Goal alignment, resource allocation, continuous improvement, external accountability.
+
+Q:: Factors in choosing the right strategic performance measures?
+A:: Relevance, data availability, data quality, data timeliness.

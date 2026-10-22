@@ -1,0 +1,605 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "Nov 2020",
+  "attempt_sort": "2020-11",
+  "series": "I",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SMNew-Q-MTP-Inter-Nov-2020-@canotes_ipcc.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SMNew-A-MTP-Inter-Nov-2020-@canotes_ipcc.pdf",
+  "local_file": "raw/mtp-old-nov2020-s1-q.pdf",
+  "local_answers_file": "raw/mtp-old-nov2020-s1-a.pdf",
+  "test_series": "October 2020",
+  "mock_test_paper_no": null,
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP for the Nov 2020 attempt (Test Series: October 2020). ICAI originals removed; castudynotes.com mirror. Diagonal mirror watermark removed during extraction. Only one series was published for this attempt."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-nov2020-s1-q1",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(A)i",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "Aero Mind Bridge Technologies Ltd (AMBTL) is a software development company work as a\nsolution provider to airlines industry. The company was established more than a decade ago by\nMr. Pranshu Gupta having experience of working in United States of America (USA). His\nentrepreneurial desires brought him back to India to promote Aero Mind Bridge Technologies Ltd\n(AMBTL). The company started its operations with a meagre capital of ` 10 lakhs with limited\nworkforce. Currently, it enjoys a valuation of more than ` 50 crores. Almost everybody\nacknowledged the competency of AMBTL in developing customised software for the airlines\nindustry.\nThe high growth of the company was mainly on account of the heavy inflows of the funds in the\nairlines industry from various big business houses that have diversified into airlines industry.\nCurrently, these business houses were in the manufacturing of FMCG, textiles, packaging etc.\nand having good expertise and uniqueness in these industries.\nHowever, AMBTL saw stagnation in last three years. The order position was shrinking day by\nday. The margins were also reducing. Last year was particularly bad for the AMBTL and its\nannual sales reduced by 20 % for the first time since its inception.\nMost of the business houses that had entered in the airlines industry had less knowledge and\nexperience in the industry. However, their desire to diversify and seeing new opportunity in the\nairlines industry prompted them to invest heavily into the industry.\nHowever, things did not turn out to be as expected. The tough competition between several\nplayers, reduction in the fare by railways and high prices of aviation fuel created problems for the\nindustry. The sector was not able to generate reasonable profits thus resulting difficulty in\nmaintaining operations. They were in need for hard to come by capital. Lately, the airlines\nindustry is witnessing some consolidation with companies planning for mergers or even\ncontemplating closures.\nThe general global recession also resulted in the reduction of travel expenditure of corporates\nresulting in decrease in the order position of AMBTL.\nBased on the above Case Scenario, answer the Multiple Choice Questions which are as follows:\nMultiple Choice Questions (MCQs)\n\nIdentify the nature of diversification by the business houses entering into airlines industry.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Concentric diversification"
+    },
+    {
+     "label": "b",
+     "text": "Conglomerate diversification"
+    },
+    {
+     "label": "c",
+     "text": "Vertically integrated diversification"
+    },
+    {
+     "label": "d",
+     "text": "Horizontal integrated diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q2",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Core competence (resources and capabilities) → Ch 3",
+   "qno": "1(A)ii",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nThe big business houses were in the manufacturing of FMCG, textiles, packaging etc. and having good expertise and uniqueness in these industries. But they are not performing well in airlines industry because of",
+   "options": [
+    {
+     "label": "a",
+     "text": "Non availability of funds"
+    },
+    {
+     "label": "b",
+     "text": "Incompetent workforce"
+    },
+    {
+     "label": "c",
+     "text": "Rapid technological changes"
+    },
+    {
+     "label": "d",
+     "text": "Lacking core competence"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "core competence"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q3",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter’s five forces → Ch 2",
+   "qno": "1(A)iii",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nAccording to Michael Porter’s model, identify the competitive pressures faced by airlines industry as per the given scenario. 1. Competitive pressure among rival sellers 2. Competitive pressure from suppliers 3. Competitive pressure from substitute products 4. Competitive pressure from buyers 5. Competitive pressure from new entrants Select the correct combination in the above scenario:",
+   "options": [
+    {
+     "label": "a",
+     "text": "1, 2 & 3"
+    },
+    {
+     "label": "b",
+     "text": "1, 3 & 4"
+    },
+    {
+     "label": "c",
+     "text": "2, 3 & 5"
+    },
+    {
+     "label": "d",
+     "text": "1, 4 & 5"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "five forces"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q4",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG growth-share matrix → Ch 4",
+   "qno": "1(A)iv",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nAMBTL can be identified as a Star as per BCG’s Growth Matrix, basis the rapid growth it has shown to maintain market and fuel the growth potential. For last three years, AMBTL turn into, as per the BCG matrix, when its growth slows down?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Dog"
+    },
+    {
+     "label": "b",
+     "text": "Question Mark"
+    },
+    {
+     "label": "c",
+     "text": "Will remain a star"
+    },
+    {
+     "label": "d",
+     "text": "Cash Cow"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "bcg matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q5",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic change / change management → Ch 5",
+   "qno": "1(A)v",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nMr. Pranshu Gupta as a core strategist of AMBTL, authorised for bringing about strategic change in his company, how he will initiate “unfreezing of the situation”?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Promoting new ideas throughout the organization"
+    },
+    {
+     "label": "b",
+     "text": "Promoting compliance throughout the organization"
+    },
+    {
+     "label": "c",
+     "text": "Promoting change in process throughout the organization"
+    },
+    {
+     "label": "d",
+     "text": "None of the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic change"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q6",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — objectives and goals → Ch 1",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Members of Infinite Care, an NGO, have met and determined that they need to for mulate a philosophical basis for their activities. Thereby they have come up with a statement: - “Provide children till age 12, living in homeless or low-income situations, with the essential items they need to thrive – at home, at school and at play” Identify the area of strategic intent, which the members have stated?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Vision"
+    },
+    {
+     "label": "b",
+     "text": "Business Definition"
+    },
+    {
+     "label": "c",
+     "text": "Goal and Objective"
+    },
+    {
+     "label": "d",
+     "text": "Mission"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "objectives"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q7",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Sport Spirit (SS) is a medium sized sports retailer. It currently operates three shops in the city at centre locations. The management of Sport Spirit (SS) has a very careful recruitment policy; any applicant must have a ‘passion for sport’. Which one of the following functional strategies would best describe by SS?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Human Resource Strategy"
+    },
+    {
+     "label": "b",
+     "text": "Financial Strategy"
+    },
+    {
+     "label": "c",
+     "text": "Operation Strategy"
+    },
+    {
+     "label": "d",
+     "text": "Marketing Strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q8",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations → Ch 1",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Dee Limited is an international clothing retailer. The company is making the following decisions: i. Should another range of shops be established? ii. Should the company float more share capital? iii. How will the premises be fitted out for the new range of shops? Which of the above decisions will be taken by corporate level managers?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only (i)"
+    },
+    {
+     "label": "b",
+     "text": "Only (ii)"
+    },
+    {
+     "label": "c",
+     "text": "(i) & (ii)"
+    },
+    {
+     "label": "d",
+     "text": "(ii) & (iii)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q9",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic group mapping → Ch 3",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "‘Strategic group mapping’ helps in-",
+   "options": [
+    {
+     "label": "a",
+     "text": "Identifying the strongest rival companies"
+    },
+    {
+     "label": "b",
+     "text": "Identifying weakest rival companies"
+    },
+    {
+     "label": "c",
+     "text": "Identifying weakest and strongest rival companies"
+    },
+    {
+     "label": "d",
+     "text": "None of the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic group mapping"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q10",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels — Porter's low-cost/differentiation/focus are business-level strategies (the strategies themselves are Ch 3) → Ch 1",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Low cost, differentiation and focus are:",
+   "options": [
+    {
+     "label": "a",
+     "text": "SBU level strategies"
+    },
+    {
+     "label": "b",
+     "text": "Corporate level strategies"
+    },
+    {
+     "label": "c",
+     "text": "Business level strategies"
+    },
+    {
+     "label": "d",
+     "text": "Functional level strategies"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic levels",
+    "generic strategies"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q11",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management — dropped from the 2023 syllabus (old Ch 6.4.3-6.4.4)",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Supply chain refers to the linkages between:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Suppliers"
+    },
+    {
+     "label": "b",
+     "text": "Customers"
+    },
+    {
+     "label": "c",
+     "text": "Manufacturers"
+    },
+    {
+     "label": "d",
+     "text": "All the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q12",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(H)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "When two organisations combine to increase their strength and financial gains along with reducing competition is called-----------.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Hostile takeover"
+    },
+    {
+     "label": "b",
+     "text": "Liquidation"
+    },
+    {
+     "label": "c",
+     "text": "Merger"
+    },
+    {
+     "label": "d",
+     "text": "Acquisition"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q13",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic control types / operational vs management control → Ch 5",
+   "qno": "1(I)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Which of the following would be chosen by the core strategist to implement operational control?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Premise Control"
+    },
+    {
+     "label": "b",
+     "text": "Special Alert Control"
+    },
+    {
+     "label": "c",
+     "text": "Implementation Control"
+    },
+    {
+     "label": "d",
+     "text": "Budgetary Control"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic control"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q14",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Delta Co. is an organization specializing in Information Technology enabled Services (ITeS) and\nCommunications business. Last year, the organization had successfully integrated an Artificial\nIntelligence (AI) tool named ‘Zeus’ into the existing ERP system. The AI tool, using Deep Learning\ntechnique provided a digital leap transformation in various business processe s and operations. It has\nsignificantly diminished the role played by specialist managers of the middle management. This\ntechnological tool in addition to saving organizational costs by replacing many tasks of the middle\nmanagement has also served as a link between top and bottom levels in the organization and assists\nin quick decision making. The skewed middle level managers now perform cross-functional duties.\nWhich type of organizational structure is the company transitioning into?",
+   "options": null,
+   "answer": "The Delta company is transitioning into the hourglass organization structure because it has used\ntechnological tools to transform various business processes and operations and has significantly\ndiminished the role played by specialist managers of the middle management. The technological tool in\naddition to saving organizational costs by replacing many tasks of the middle management has also served\nas a link between top and bottom levels in the organization and assists in faster decision making. The\nskewed middle level managers now perform cross-functional duties. All these factors indicate towards\nhourglass organization structure.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q15",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Write short note on expansion through acquisitions and mergers.",
+   "options": null,
+   "answer": "Acquisitions and mergers are basically combination strategies. Some organizations prefer to\ngrow through mergers. Merger is considered to be a process when two or more companies come\ntogether to expand their business operations. In such a case the deal gets finalized on friendly\nterms and both the organizations share profits in the newly created entity. In a merger , two\norganizations combine to increase their strength and financial gains along with breaking the trade\nbarriers.\nWhen one organization takes over the other organization and controls all its business operations,\nit is known as acquisition. In this process of acquisition, one financially strong organization\noverpowers the weaker one. Acquisitions often happen during recession in economy or during\ndeclining profit margins. In this process, one that is financially stronger and bigger establishes it s\npower. The combined operations then run under the name of the powerful entity. A deal in case\n\nof an acquisition is often done in an unfriendly manner, it is more or less a forced association\nwhere the powerful organization either consumes the operation or a company in loss is forced to\nsell its entity.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q16",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Research & Development Strategy — dropped from the 2023 syllabus (old Ch 6.5)",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "How would you argue that Research and Development Personnel are important for effective\nstrategy implementation?",
+   "options": null,
+   "answer": "Research and Development (R&D) personnel can play an integral part in strategy\nimplementation. These individuals are generally be charged with developing new products and\nimproving old products in a way that will allow effective strategy implementation. R&D employees\nand managers perform tasks that include transferring complex technology, adjusting processes to\nlocal raw materials, adapting processes to local markets, and altering products to particular\ntastes and specifications.\nStrategies such as product development, market penetration, and concentric diversification\nrequire that new products be successfully developed and that old products be significantly\nimproved. But the level of management support for R&D is often constrained by resource\navailability.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "r&d",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q17",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Importance and benefits of strategic management → Ch 1",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What benefits accrue by following a strategic approach to managing?",
+   "options": null,
+   "answer": "The following are the benefits of strategic approach to managing:\n Strategic management helps organisations to be more proactive instead of reactive in shaping\nits future. Organisations are able to analyse and take actions instead of being mere spectators.\nThereby they are able to control their own destiny in a better manner. It helps them in working\nwithin vagaries of environment and shaping it, instead of getting carried away by its turbulence\nor uncertainties.\n Strategic management provides framework for all the major decisions of an enterprise such as\ndecisions on businesses, products, markets, manufacturing facilities, investments and\norganisational structure. It provides better guidance to entire organisation on the crucial point -\nwhat it is trying to do.\n Strategic management is concerned with ensuring a good future for the firm. It seeks to prepare\nthe corporation to face the future and act as pathfinder to various business opportunities.\nOrganisations are able to identify the available opportunities and identify ways and means as\nhow to reach them.\n Strategic management serves as a corporate defence mechanism against mistakes and pitfalls.\nIt helps organisations to avoid costly mistakes in product market choices or investments. Over a\nperiod of time strategic management helps organisation to evolve certain core competencies and\ncompetitive advantages that assist in its fight for survival and growth.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "importance"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q18",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Mission statement of a company focuses on the question: ‘who we are’ and ‘what we do’. Explain\nbriefly.",
+   "options": null,
+   "answer": "A company’s mission statement is typically focused on its present business scope — “who we are\nand what we do”; mission statements broadly describe an organizations present capability,\ncustomer focus activities and business makeup. An organisation’s mission states what customers\nit serves, what need it satisfies, and what type of product it offers. It is an expression of the\ngrowth ambition of the organisation. It helps organisation to set its own special identity, business\nemphasis and path for development. Mission amplifies what brings the organization to this\nbusiness or why it is there, what existence it seeks and what purpose it seeks to achieve as a\nbusiness organisation.\nIn other words, the mission serves as a justification for the firm's very presence and existence; it\nlegitimizes the firm's presence.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q19",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Business Process Reengineering — dropped from the 2023 syllabus (old Paper 7B Ch 8.7); no counterpart in current Paper 6B",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Identify three aspects of impact of IT Systems on Business Process Reengineering and list three\nareas where it provides business value.",
+   "options": null,
+   "answer": "Impact of IT Systems on Business Process Reengineering are identified as:\n Compression of time\n Overcoming restrictions of geography and/or distance\n Restructuring of relationships\nIT initiatives, thus, provide business values in three distinct areas:\n\n Efficiency – by way of increased productivity\n Effectiveness – by way of better management\n Innovation – by way of improved products and services",
+   "mcq_answer": null,
+   "topic_tags": [
+    "bpr",
+    "reengineering"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q20",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between Cost Leadership and Differentiation Strategies.",
+   "options": null,
+   "answer": "Cost leadership emphasizes producing standardized products at a very low per-unit cost for\nconsumers who are price-sensitive. Differentiation is a strategy aimed at producing products and\nservices considered unique industry wide and directed at consumers who are relatively price-\ninsensitive.\nA primary reason for pursuing forward, backward, and horizontal integration strategies is to gain\ncost leadership benefits. But cost leadership generally must be pursued in conjunction with\ndifferentiation. Different strategies offer different degrees of differentiation. A differentiation\nstrategy should be pursued only after a careful study of buyers’ needs and preferences to\ndetermine the feasibility of incorporating one or more differentiating features into a unique\nproduct. A successful differentiation strategy allows a firm to charge a higher price for its product\nand to gain customer loyalty.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q21",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Experience curve → Ch 2",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain the concept of Experience Curve and highlight its relevance in strategic management.",
+   "options": null,
+   "answer": "Experience curve is similar to learning curve which explains the efficiency gained by workers\nthrough repetitive productive work. Experience curve is based on the commonly observed\nphenomenon that unit costs decline as a firm accumulates experience in terms o f a cumulative\nvolume of production. It is represented diagrammatically as follows:\nThe implication is that larger firms in an industry would tend to have lower unit costs as\ncompared to those of smaller organizations, thereby gaining a competitive cost advantage.\nExperience curve results from a variety of factors such as learning effects, economies of scale,\nproduct redesign and technological improvements in production.\nThe concept of experience curve is relevant for a number of areas in strategic management. For\ninstance, experience curve is considered a barrier for new firms contemplating entry in an\nindustry. It is also used to build market share and discourage competition.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "experience curve"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2020-s1-q22",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation culture (soft) → Ch 5",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What is corporate culture? How is it both strength and weakness of an organisation?",
+   "options": null,
+   "answer": "Corporate culture distinguishes one organisation from another. It refers to a company’s values,\nbeliefs, business principles, traditions, and ways of operating and internal work environment.\nEvery corporation has a culture that exerts powerful influences on the behaviour of managers.\nCulture affects not only the way managers behave within an organization but also the decisions\nthey make about the organization’s relationships with its environment and its strategy.\nA culture grounded in values, practices, and behavioural norms that match what is needed for\ngood strategy execution helps energize people throughout the company to do their jobs in a\nstrategy-supportive manner, adding significantly to the power and effectiveness of strategy\nexecution\n\nCulture is both a strength and a weakness as follows:\nCulture as a strength: As a strength, culture can facilitate communication, decision-making &\ncontrol and create cooperation & commitment. An organization’s culture could be strong and\ncohesive when it conducts its business according to a clear and explicit set of principles and\nvalues, which the management devotes considerable time to communicating to employees and\nwhich values are shared widely across the organization.\nCulture as a weakness: As a weakness, culture may obstruct the smooth implementation of\nstrategy by creating resistance to change. An organization’s culture could be characterized as\nweak when many subcultures exist, few values and behavioral norms are shared and traditions\nare rare. In such organizations, employees do not have a sense of commitment and loyalty with\nthe organisation.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisational culture"
+   ]
+  }
+ ]
+}

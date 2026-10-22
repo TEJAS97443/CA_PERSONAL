@@ -1,0 +1,28 @@
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 13.15,
+ "words": 1680,
+ "overall_wpm": 128,
+ "lines": 63,
+ "lines_below_bar": [
+  "L001",
+  "L062"
+ ],
+ "mean_recall": 0.9606,
+ "min_recall": 0.538,
+ "mp3": "/Users/ztejas/CA_PERSONAL/ca_revision/out/P4-07 - Cost Accounting Systems - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.7,
+ "loudness_in": {
+  "input_i": "-25.62",
+  "input_tp": "-5.36",
+  "input_lra": "2.30",
+  "input_thresh": "-36.01",
+  "output_i": "-16.44",
+  "output_tp": "-1.50",
+  "output_lra": "2.20",
+  "output_thresh": "-26.84",
+  "normalization_type": "dynamic",
+  "target_offset": "0.44"
+ }
+}

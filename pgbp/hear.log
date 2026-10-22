@@ -1,0 +1,17 @@
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1366.56it/s]
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1194.79it/s]
+/Users/ztejas/edu2d/pgbp/voice_report.md: 269 cues, 7329 words, WER 1.8%, confirmed 1.2%, word times -> /Users/ztejas/edu2d/pgbp/cues.json
+   1. meera                        -> Mira, Mira's, Mirror, Mira,                  x40  both: 40
+   2. lakh                         -> 10,00,000, 4,00,000, 2,00,000, lack, lakhs,  x38  both: 21
+   3. anil                         -> Annel,, Annel                                x4  both: 2
+   4. payee cheque                 -> pay check,                                   x2  both: 2
+   5. depreciable                  -> depressable, depressible                     x2  both: 1
+   6. advance                      -> advanced                                     x1  both: 1
+   7. c                            -> AC                                           x1  both: 1
+   8. cheque                       -> -check                                       x1  both: 1
+   9. encashment                   -> in cashment                                  x1  both: 1
+  10. fifteenth                    -> 15th                                         x1  both: 1
+  11. forty one four               -> 414.                                         x1  both: 1
+  12. four lakh twenty thousand    -> 4,200,000                                    x1  both: 1
+  13. gst                          -> GSD                                          x1  both: 1
+  14. licences                     -> licenses,                                    x1  both: 1

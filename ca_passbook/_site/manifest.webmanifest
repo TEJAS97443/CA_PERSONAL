@@ -1,0 +1,35 @@
+{
+ "name": "PassBook — CA Inter Group II",
+ "short_name": "PassBook",
+ "description": "CA Intermediate Group II (Papers 4, 5 and 6): 181 lessons, 238 ICAI past papers, RTPs and MTPs (2018–2026), labs and flashcards. Works offline; your progress stays on this device.",
+ "lang": "en",
+ "dir": "ltr",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f6f7f9",
+ "theme_color": "#f6f7f9",
+ "categories": [
+  "education"
+ ],
+ "icons": [
+  {
+   "src": "app/img/icon-192.png?v=8f2f5768",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "app/img/icon-512.png?v=c4596c4b",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "app/img/icon-maskable-512.png?v=91799356",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}

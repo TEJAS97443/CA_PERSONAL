@@ -1,0 +1,735 @@
+            PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                               SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                               Question No. 1 is compulsory.
+                                        Answer any three questions from the rest.
+          Question 1
+          (a) GPL Bank wants to reduce IT related risks by implementing controls in the automated
+              environment. As an IT consultant, explain any three IT controls which may be implemented
+              for GPL Bank.                                                                   (3 Marks)
+          (b) A voucher is an important document for any accounting application. Please list any four
+              important points for voucher numbering while designing an accounting application.
+                                                                                                  (2 Marks)
+          Answer
+          (a)    The list of IT related controls which may be implemented for GPL Bank are as follows:
+                •     The system maintains a record of all log-ins and log-outs.
+                •     If the transaction is sought to be posted to a dormant (or inoperative) account, the
+                      processing is halted and can be proceeded only with a supervisory password.
+                •     The system checks whether the amount to be withdrawn is within the drawing power.
+                •     The system flashes a message if the balance in a lien account would fall below the
+                      lien amount after the processing of the transaction.
+                •     Access to the system is available only between stipulated hours and specified days
+                      only.
+                •     Individual users can access only specified directories and files. Users should be given
+                      access only on a ‘need-to-know basis’ based on their role in the bank. This is
+                      applicable for internal users of the bank and customers.
+                •     Exception situations such as limit excess, reactivating dormant accounts, etc. can be
+                      handled only with a valid supervisory level password.
+                •     A user timeout is prescribed which means that after a user logs-in and there is no
+                      activity for a pre-determined time, the user is automatically logged out of the system.
+                •     Once the end-of-the-day process is over, the ledgers cannot be opened without a
+                      supervisory level password.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+          2                        INTERMEDIATE EXAMINATION: NOVEMBER, 2023
+
+
+          (b) The important points related to voucher numbering while designing an accounting
+              application are as follows:
+                •     Voucher number must be unique.
+                •     Every voucher type shall have a separate numbering series.
+                •     A voucher number may have prefix or suffix or both, e.g. ICPL/2034/17 -18. In this
+                      case “ICPL” is the prefix, “17-18” is the suffix and “2034” is the actual number of the
+                      voucher.
+                •     All vouchers must be numbered serially i.e. 1,2,3,4,5,6 and so on.
+                •     All vouchers are recorded in chronological order and hence voucher recorded earlier
+                      must have an earlier number, i.e. if voucher number for a payment voucher having
+                      date as 15th April, 2017 is 112, voucher number for all the vouchers recorded after
+                      this date shall be more than 112 only.
+          Question 2
+          (a) You are appointed as an IS auditor of TVL Ltd. Explain any three audit tools which may be
+              used in IS audit to the management of TVL Ltd.                                  (6 Marks)
+          (b) Flowcharts are diagrammatic representation of business processes. Briefly explain any
+              four steps for creating a flowchart for business processes.                 (4 Marks)
+          Answer
+          (a) Many audit tools which may be used in IS Audit are described below:
+                (i)   Snapshots: Tracing a transaction in a computerized system can be performed with
+                      the help of snapshots or extended records. The snapshot software is built into the
+                      system at those points where material processing occurs which takes images of the
+                      flow of any transaction as it moves through the application. These images can be
+                      utilized to assess the authenticity, accuracy, and completeness of the process ing
+                      carried out on the transaction. The main areas to dwell upon while involving such a
+                      system are to locate the snapshot points based on materiality of transactions when
+                      the snapshot will be captured and the reporting system design and implementation to
+                      present data in a meaningful way.
+                (ii) Integrated Test Facility (ITF): The ITF technique involves the creation of a dummy
+                     entity in the application system files and the processing of audit test data against the
+                     entity as a means to verify processing authenticity, accuracy, and completeness. This
+                     test data would be included with the normal production data used as input to the
+                     application system. In such cases the auditor must decide what would be the method
+                     to be used to enter test data and the methodology for removal of the effects of the
+                     ITF transactions.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+                PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          3
+
+
+                (iii) System Control Audit Review File (SCARF): The SCARF technique involves
+                      embedding audit software modules within a host application system to provide
+                      continuous monitoring of the system’s transactions. The information collected is
+                      written onto a special audit file - the SCARF master files. Auditors then examine the
+                      information contained on this file to see if some aspect of the application system
+                      needs follow-up. In many ways, the SCARF technique is like the snapshot technique
+                      along with other data collection capabilities.
+                (iv) Continuous and Intermittent Simulation (CIS): This technique can be used to trap
+                     exceptions whenever the application system uses a Database Management System
+                     (DBMS). During application system processing, CIS executes in the following way:
+                      •     The DBMS reads and passes an application system transaction to CIS. CIS then
+                            determines whether it wants to examine the transaction further. If yes, the next
+                            steps are performed or otherwise it waits to receive further data from the
+                            database management system.
+                      •     CIS replicates or simulates the application system processing.
+                      •     Every update to the database that arises from processing the selected
+                            transaction will be checked by CIS to determine whether discrepancies exist
+                            between the results it produces and those the application system produces.
+                      •     Exceptions identified by CIS are written to an exception log file.
+                (v) Audit Hooks: These are audit routines that flag suspicious transactions. For
+                    example, internal auditors at Insurance Company determined that their policyholder
+                    system was vulnerable to fraud every time a policyholder changed his or her name or
+                    address and then subsequently withdrew funds from the policy. They devised a
+                    system of audit hooks to tag records with a name or address change. The internal
+                    audit department will investigate these tagged records for detecting fraud. When audit
+                    hooks are employed, auditors can be informed of questionable transactions as soon
+                    as they occur. This approach of real-time notification displays a message on the
+                    auditor’s terminal.
+          (b) Steps for creating a flowchart for business processes are as follows:
+                •     Identify the business process that is to be documented with a flowchart and establish
+                      the overall goal of the business process.
+                •     Based on inputs from the business process, owner obtains a complete understanding
+                      of the process flow.
+                •     Prepare an initial rough diagram and discuss with the business process owner to
+                      confirm your understanding of the processes.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+          4                        INTERMEDIATE EXAMINATION: NOVEMBER, 2023
+
+
+                •     Obtain additional information about the business process from the people involved in
+                      each step, such as end users, stakeholders, administrative assistants, and
+                      department heads. During this phase, it may be found that some employees do not
+                      follow certain processes, or some processes are redundant. This should be
+                      highlighted so that corrective steps can be taken by the management.
+                •     Identify the activities in each process step and who is responsible for each activity.
+                •     Identify the starting point of the process. The starting point of a business process
+                      should be what triggers the process to action. In other words, it is the input that the
+                      business seeks to convert into an output.
+                •     Separate different steps in the process. Identify each individual step in the process
+                      and how it is connected to the other steps. On the most general level, flowchart will
+                      have events or steps that require no action by the business, activities that are
+                      performed by the business in response to input, and decision gateways that splits in
+                      the process where the path of the process is decided by some qualifier. Between
+                      these objects, there are connectors, which can be either solid arrows (activity flow)
+                      or dashed (message/ information flow).
+                •     Business Process Modelling Notation (BPMN) is a flow-chart-based notation for
+                      defining business processes. In traditional BPMN, the steps are represented by
+                      different shapes depending on their function. For example, we would use steps such
+                      as “customer order” (an event), “process order” (an activity), “Check credit” (an
+                      action), “Credit?” (A decision gateway that leads to one of two other actions,
+                      depending on a “yes” or “no” determination), and so on.
+                •     Clarify who performs each step and what is performed in each step. To make the
+                      process as clear as possible, one should determine which part of the business
+                      completes each step. For example, different parts of the process may be completed
+                      by the accounting department, customer service, or order fulfilment. Alternately, for a
+                      small business, these steps may be completed by specific individuals. In BPMN, the
+                      associated person or department for each activity is either denoted by a designator
+                      next to the step or by a horizontal division or “lanes” in the flowchart that shows which
+                      part of the business performs each step, i.e. person or department.
+          Question 3
+          (a) Prior to ERP audit, an auditor has to consider all aspects of audit of an ERP system. As
+              the IS auditor of CRK Ltd., prepare a report on questions to be asked during the audit of
+              their ERP system.                                                              (6 Marks)
+          (b) You are designing data warehouse for DalMart, a retail company that sells wide range of
+              products. Explain any four benefits of a data warehouse.                      (4 Marks)
+
+
+
+
+@ The Institute of Chartered Accountants of India
+                PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            5
+
+
+          Answer
+          (a) Some of the questions that auditors should ask during an ERP audit are as follows:
+                •     Does the system process as per GAAP (Generally Accepted Accounting Principles)
+                      and GAAS (Generally Accepted Auditing Standards)?
+                •     Does it meet the needs for reporting, whether regulatory or organizational?
+                •     Were adequate user requirements developed through meaningful interaction?
+                •     Does the system protect confidentiality and integrity of information assets?
+                •     Does it have controls to process only authentic, valid, accurate transactions?
+                •     Are effective system operations and support functions provided?
+                •     Are all system resources protected from unauthorized access and use?
+                •     Are user privileges based on what is called “role-based access?”
+                •     Is there an ERP system administrator with clearly defined responsibilities?
+                •     Is the functionality acceptable? Are user requirements met? Are users happy?
+                •     Have workarounds or manual steps been required to meet business needs?
+                •     Are there adequate audit trails and monitoring of user activities?
+                •     Can the system provide management with suitable performance data?
+                •     Are users trained? Do they have complete and current documentation?
+                •     Is there a problem-escalation process?
+          (b) Various benefits of a Data Warehouse are as follows:
+                •     The process of developing a data warehouse forces an organization to better
+                      understand the data that it is currently collecting and, equally important, what data is
+                      not being collected.
+                •     A data warehouse provides a centralized view of all data being collected across the
+                      enterprise and provides a means for determining data that is inconsistent.
+                •     Once all data is identified as consistent, an organization can generate one version of
+                      the truth. This is important when the company wants to report consistent statistics
+                      about itself, such as revenue or number of employees.
+                •     By having a data warehouse, snapshots of data can be taken over time. This creates
+                      a historical record of data, which allows for an analysis of trends.
+                •     A data warehouse provides tools to combine data which can provide new information
+                      and analysis.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+          6                        INTERMEDIATE EXAMINATION: NOVEMBER, 2023
+
+
+          Question 4
+          (a) Enterprise Risk Management helps an organization to operate more effectively in
+              environment filled with risks. As a risk manager, justify the statement by explaining any six
+              benefits of ERM.                                                                   (6 Marks)
+          (b) Increase in Internet-based transactions has necessitated a need for framing suitable laws.
+              Explain any four objectives of IT Act, 2000.                                    (4 Marks)
+          Answer
+          (a) Several benefits of Enterprise Risk Management (ERM) are as follows:
+                •     Align risk appetite and strategy: Risk appetite is the degree of risk, on a broad-
+                      based level that an enterprise (any type of entity) is willing to accept in pursuit of its
+                      goals. Management considers the entity’s risk appetite first in evaluating strategic
+                      alternatives, then in setting objectives aligned with the selected strategy and in
+                      developing mechanisms to manage the related risks.
+                •     Link growth, risk, and return: Entities accept risk as part of value creation and
+                      preservation, and they expect return commensurate with the risk. ERM provides an
+                      enhanced ability to identify and assess risks and establish acceptable levels of risk
+                      relative to growth and return objectives.
+                •     Enhance risk response decisions: ERM provides the rigor to identify and select
+                      among alternative risk responses – risk avoidance, reduction, sharing and
+                      acceptance. ERM provides methodologies and techniques for making these
+                      decisions.
+                •     Minimize operational surprises and losses: Entities have enhanced capability to
+                      identify potential events, assess risk and establish responses, thereby reducing the
+                      occurrence of surprises and related costs or losses.
+                •     Identify and manage cross-enterprise risks: Every entity faces a myriad of risks
+                      affecting different parts of the enterprise. Management needs to not only manage
+                      individual risks, but also understand interrelated impacts.
+                •     Provide integrated responses to multiple risks: Business processes carry many
+                      inherent risks, and ERM enables integrated solutions for managing the risks.
+                •     Seize opportunities: Management considers potential events, rather than just risks,
+                      and by considering a full range of events, management gains an understanding of
+                      how certain events represent opportunities.
+                •     Rationalize capital: More robust information on an entity’s total risk allows
+                      management to effectively assess overall capital needs and improve capital
+                      allocation.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+                PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            7
+
+
+          (b) The objectives of Information Technology Act, 2000 can be summarized as follows:
+                •     To grant legal recognition for transactions carried out by means of elect ronic data
+                      interchange or electronic commerce in place of paper-based method of
+                      communication.
+                •     To give legal recognition to digital signature for authentication of any information or
+                      matter, which requires authentication under any law.
+                •     To facilitate electronic filing of documents with Government departments.
+                •     To facilitate electronic storage of data and its protection.
+                •     To provide legal sanction to transfer fund electronically to and between banks and
+                      financial institutions.
+                •     To provide legal recognition for keeping books of account in electronic format by
+                      bankers.
+                •     To amend the Indian Penal Code, Indian Evidence Act, 1972, Bankers Book Evidence
+                      Act, 1891 and RBI Act, 1934.
+                •     To provide legal infrastructure to promote e-commerce and secure information
+                      system.
+                •     To manage cyber-crimes at national and international levels by enforcing laws.
+                •     This Act governs all internet activities in India and is applicable to all online
+                      transactions in India, and provides for penalties, prosecution for non -compliances.
+          Question 5
+          (a) You are appointed as IS auditor by RIC Bank to audit their mortgage loan transactions.
+              RIC Bank has an in-house CBS System. As a pre-audit program, please prepare a report
+              to define Mortgage Loans and its types. Also explain the risks involved in mortgage process
+              which need to be taken care of during the audit.                                  (6 Marks)
+          (b) After demonetisation, the trend of digital payments has increased a lot in India. Briefly
+              explain Mobile Wallet and Mobile Banking.                                     (4 Marks)
+                                                            OR
+                Write short notes on:
+                (i)   Two-tier Client server architecture                                          (2 Marks)
+                (ii) Digital Library                                                               (2 Marks)
+          Answer
+          (a) A Mortgage Loan is a secured loan which is secured on the borrower’s property by
+              marking a lien on the property as collateral for the loan. If the borro wer stops paying, then
+              the lender has the first charge on the property. Mortgages are used by individuals and
+
+
+
+
+@ The Institute of Chartered Accountants of India
+          8                        INTERMEDIATE EXAMINATION: NOVEMBER, 2023
+
+
+                businesses to make large real estate purchases without paying the entire value of the
+                purchase up front. Over the period of many years, the borrowers repay the loan amount
+                along with interest until there is no outstanding.
+                Types of Mortgage Loan
+                •     Home Loan: This is a traditional mortgage where customer has an option of selecting
+                      fixed or variable rate of interest and is provided for the purchase of property.
+                •     Top Up Loan: Here the customer already has an existing loan and is applying for
+                      additional amount either for refurbishment or renovation of the house.
+                •     Loans for Under Construction Property: In case of under construction properties,
+                      the loan is disbursed in tranches / parts as per construction plan.
+                Various risks that are associated with Mortgage process are as follows:
+                •     Incorrect customer and loan details are captured which will affect the over- all
+                      downstream process.
+                •     Incorrect loan amount disbursed.
+                •     Interest amount is in- correctly calculated and charged.
+                •     Unauthorized changes made to loan master data or customer data.
+          (b) Mobile Wallet: A Mobile Wallet or e-wallet is a digital version of a physical or real-life
+              wallet, in which one can add money to purchase various goods and services (both online
+              and offline) and transfer money with this technology. A mobile wallet is a type of virtual
+              wallet service that can be used by downloading an app on smartphone and registering for
+              the service. It is the digital version of physical wallet with more functionality. User can keep
+              his/her money in an E-wallet and use it when needed. The digital or mobile wallet stores
+              bank account or debit/credit card information or bank account information in an en coded
+              format to allow secure payments. Mobile Wallets provide a convenient way for a user to
+              make-in-store payments and can be used that with merchants listed with the mobile wallet
+              service providers. This eliminates the need to use credit/debit cards or remember the CVV
+              or 4-digit pin. Mobile wallets are frequently used to make payments at physical
+              shops/stores, recharge phone, online purchases, transfer money, and receive offers, cash
+              backs, and rewards. For example - Paytm, Freecharge, State Bank Buddy, Mobikwik,
+              phonepe etc.
+                Mobile Banking: It is a service provided by a bank or other financial institution that allows
+                its customers to conduct different types of financial transactions remotely using a mobile
+                device such as a mobile phone or tablet. It uses software usually called an app, provided
+                by the banks or financial institution for the said purpose. Each Bank provides its own mobile
+                banking App for Android, Windows and iOS mobile platform(s) which needs to be
+                downloaded to utilize this facility. Mobile banking is usually available on a 24-hour basis.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+                PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                               9
+
+
+                                                           OR
+                (i)   Two-tier Client Server Architecture: In a Two-tier network, client (user) sends
+                      request to server and the server responds to the request by fetching the data from it.
+                      The Two-tier architecture is divided into two tiers- Presentation Tier and Database
+                      Tier.
+                      •     Presentation Tier (Client Application/Client Tier): This is the interface that
+                            allows user to interact with the e-commerce/m-commerce vendors. User can
+                            login to an e-commerce vendor through this tier. This application also connects
+                            to database tier and displays the various products/prices to customers.
+                      •     Database Tier (Data Tier): The product data/price data/customer data and
+                            other related data are kept here. User has no access to data/information at this
+                            level, but he/she can display all data/information stored here through application
+                            tier.
+                (ii) Digital Library: A Digital Library is a special library with a focused collection of digital
+                     objects that can include text, visual material, audio material, video material, stored as
+                     electronic media formats (as opposed to print, microform, or other media), along with
+                     means for organizing, storing, and retrieving the files and media contained in the
+                     library collection. Digital libraries can vary immensely in size and scope, and can be
+                     maintained by individuals, organizations, or affiliated with established physical library
+                     buildings or institutions, or with academic institutions. The digital content may be
+                     stored locally or accessed remotely via computer networks. An electronic library is a
+                     type of information retrieval system.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+          10                       INTERMEDIATE EXAMINATION: NOVEMBER, 2023
+
+
+                                PAPER 7 - SECTION – B: STRATEGIC MANAGEMENT
+            Question paper comprises of 5 questions, Answer Question No. 6 which is compulsory and
+                                    any 3 out of the remaining 4 questions.
+          Question 6
+          Swagatam was a chain of hotels. The business was good until the whole nation was impacted
+          by COVID-19 pandemic in early 2022.
+          The management soon understood that pandemic had seriously disrupted the hotel sector and
+          average revenue-per-available room fell by nearly 90% and they expected this decline to
+          continue due to travel bans and fear seen in the society.
+          Pandemic required 14-day compulsory quarantine for the affected individuals and hospitals
+          were short of rooms.
+          Management found a small opportunity as they had sufficient rooms, staff and could follow
+          required health and safety standards. They decided to do service transformation by letting
+          some of their units to hospitals to be transformed into covid-care units & rest of the units were
+          rented to individuals as a quarantine facility.
+          (a) Name the strategic level of management at which such decisions are made.            (1 Mark)
+          (b) The above scenario depicts one of the limitations of strategic management. Discuss
+              which limitation of strategic management is depicted here.               (2 Marks)
+          (c) Here the decision taken by the management was reactive. Discuss the benefit of
+              proactive approach over reactive approach.                          (2 Marks)
+          Answer
+          (i)   The strategic level of management at which decisions like transforming hotel units into
+                COVID-care units and quarantine facilities are made is at the "Corporate Level." This
+                level of management is responsible for making decisions that affect the overall direction
+                and scope of the entire organization.
+          (ii) The given scenario highlights a limitation of strategic management known as highly
+               complex and turbulent environment. Due to this, there exist environmental uncertainty
+               and unpredictability of the external factors that affect an organization. In this case, the
+               COVID-19 pandemic created a highly uncertain and unpredictable business
+               environment for Swagatam Hotels. The pandemic significantly impacted the hotel
+               sector, causing a rapid decline in revenue and necessitating a strategic shift to adapt to
+               the changing circumstances.
+          (iii) A proactive approach involves anticipating and addressing issues before they become
+                critical, while a reactive approach responds to problems after they have occurred. In the
+                scenario, the decision to transform hotel units into COVID-care units and quarantine
+                facilities was reactive, driven by the unexpected impact of the pandemic.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+                PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                       11
+
+
+                A proactive approach offers several benefits.
+                First, it allows for better risk management by identifying potential challenges in
+                advance, enabling organizations to develop contingency plans.
+                Second, proactive strategies often result in cost savings as preventive measures can
+                be more efficient than addressing crises retroactively.
+                Third, organizations can maintain a competitive edge by staying ahead of industry
+                trends and changes.
+                Overall, a proactive approach enhances organizational strength and responsiveness in
+                navigating uncertainties.
+          Question 7
+          (a) According to Michael Porter, what are the five competitive forces that exist within an
+              industry?                                                                    (5 Marks)
+          (b) "The approach to BPR begins with defining the scope and objectives of the re -
+              engineering project." With reference to this statement explain briefly the steps for
+              implementing BPR.                                                          (5 Marks)
+          Answer
+          (a) Michael Porter's Five Forces model is a widely utilized tool for systematically analyzing
+              the competitive forces within an industry. The model identifies five competitive forces that
+              shape the overall competitive landscape:
+                •     Threat of New Entrants: New entrants bring added capacity and product variety,
+                      intensifying competition and impacting prices. The size of new entrants magnifies
+                      their competitive influence, placing constraints on prices and affecting existing
+                      players' profitability.
+                •     Bargaining power of Buyers: The ability of buyers to form groups or cartels
+                      influences their bargaining power. This force, particularly in industrial products,
+                      impacts pricing and often leads to demands for better services, influencing costs
+                      and investments for producers.
+                •     Bargaining power of Suppliers: Suppliers with specialized offerings exert
+                      significant bargaining power, especially when limited in number. Supplier bargaining
+                      power determines raw material costs, affecting industry attractiveness and
+                      profitability.
+                •     Rivalry among Current Players: Existing players engage in competition,
+                      influencing strategic decisions across various levels. This rivalry is evident in
+                      pricing, advertising, cost pressures, and product strategies, impacting the overall
+                      competitive landscape.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+          12                       INTERMEDIATE EXAMINATION: NOVEMBER, 2023
+
+
+                •     Threats from Substitutes: Substitute products can alter an industry's competitive
+                      dynamics, offering price advantages or performance improvements. Substitutes limit
+                      prices and profits, and industries with substantial R&D investments are particularly
+                      susceptible to threats from substitute products.
+                These forces collectively determine industry attractiveness and profitability by influencing
+                factors such as costs and investments required for industry participation. The strength of
+                these forces varies across industries, ultimately shaping the potential for earning
+                attractive profits.
+          (b) BPR is an approach to unusual improvement in operating effectiveness through the
+              redesigning of critical business processes and supporting business systems. BPR is a
+              revolutionary redesigning of key business processes.
+                BPR involves the following steps:
+                (i)   Determining objectives: Objectives are the desired end results of the redesign
+                      process which the management and organization attempts to achieve. They will
+                      provide the required focus, direction, and motivation for the redesign process and
+                      help in building a comprehensive foundation for the reengineering process.
+                (ii) Identify customers and determine their needs: The designers have to
+                     understand customers – their profile, their steps in acquiring, using and disposing of
+                     a product. The purpose is to redesign the business process that clearly provides
+                     added value to the customer.
+                (iii) Study the existing process: The existing processes will provide an important base
+                      for the designers. The purpose is to gain an understanding of the ‘what’, and ‘why’
+                      of the targeted process. However, some companies go through the reengineering
+                      process with a clean perspective without laying emphasis on the past processes.
+                (iv) Formulate a redesign process plan: Formulation of redesign plan is the real crux
+                     of the reengineering efforts. Customer focused redesign concepts are identified and
+                     formulated. Alternative processes are considered, and the optimum is selected.
+                (v) Implement the redesign: It is easier to formulate new processes than to implement
+                    them. It is the joint responsibility of the designers and management to
+                    operationalise the new processes.
+          Question 8
+          (a) Disha is appointed as Human Resource Manager in a Telecom company. Currently, the
+              company is facing various HR challenges. Disha's role involves implementing effective
+              human resource management strategies to address HR challenges and ensure the
+              success of the company. Enumerate any five prominent areas where Disha can play a
+              strategic role.                                                            (5 Marks)
+          (b) Care Ltd. has decided to acquire Trust Ltd. Discuss the major dimensions of strategic
+              decisions.                                                                 (5 Marks)
+
+
+
+
+@ The Institute of Chartered Accountants of India
+                PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            13
+
+
+          Answer
+          (a) Disha, the Human Resource Manager in a Telecom company, plays a pivotal strategic
+              role in addressing HR challenges and fostering the company's success. Key areas where
+              Disha contributes strategically include:
+                1.    Providing purposeful direction: The human resource manager leads people and
+                      the organization towards the desired direction involving people. He can ensure
+                      harmony between organisational objectives and individual objectives.
+                2.    Creating a competitive advantage: In the present business environment,
+                      maintaining a competitive position or gains either by cost leadership or
+                      differentiation is an important objective of any business. Having a highly committed
+                      and competent workforce is very important for getting a competitively advantageous
+                      position.
+                3.    Facilitation of change: The human resource manager will be more concerned
+                      about furthering the organization not just maintaining it. He can devote more time to
+                      promote acceptance of change rather than maintaining the status quo.
+                4.    Managing workforce diversity: In a modern organization, management of a
+                      diverse workforce is a great challenge. Workforce diversity can be observed in
+                      terms of male and female, young and old, educated and uneducated, unskilled and
+                      professional employee and so on. Motivation, maintaining morale and commitment
+                      are some of the key tasks that a HR manager can perform.
+                5.    Empowerment of human resources: Empowerment means authorizing ever
+                      member of an organization to take up his/her own destiny realizing his/her full
+                      potential. Empowerment involves giving more power to those who, at present, have
+                      little control over what they do and little ability to influence the decisions being made
+                      around them.
+                6.    Building core competency: The human resource manager has an important role to
+                      play in developing the core competency of the firm. A core competence is a unique
+                      strength of an organization which may not be shared by others. Organization of
+                      business around core competence implies leveraging the limited resources of a firm.
+                7.    Development of works ethics and culture: As changing work ethics requires
+                      increasing emphasis on individuals, jobs will have to be redesigned to provide
+                      challenge. A vibrant work culture will have to be developed in the organizations to
+                      create an atmosphere of trust among people and to encourage creative ideas by the
+                      people.
+                In these strategic roles, Disha contributes to the organizational success by aligning
+                human resource practices with the overall objectives of the telecom company, ensuring
+                resilience and competitiveness in the industry.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+          14                       INTERMEDIATE EXAMINATION: NOVEMBER, 2023
+
+
+          (b) Strategic decisions, particularly exemplified by Care Ltd.'s decision to acquire Trust Ltd.,
+              possess distinctive dimensions that set them apart from routine operational decisions.
+              These dimensions underscore the gravity and complexity of strategic decision -making:
+                1.    Strategic decisions require top-management involvement. Strategic decisions
+                      involve thinking about the totality of the organizations and there is also a lot of risk
+                      involved in that.
+                2.    Strategic decisions involve the allocation/commitment of large amounts of
+                      company resources - financial, technical, human etc.
+                3.    Strategic decisions are likely to have a significant impact on the long-term
+                      prosperity of the firm.
+                4.    Strategic decisions are future oriented by predicting future environmental
+                      conditions and how to orient for the changed conditions.
+                5.    Strategic decisions usually have major multifunctional or multi-business
+                      consequences as they involve organizations in totality.
+                6.    Strategic decisions necessitate consideration of factors in the firm’s external
+                      environment.
+          Question 9
+          (a) Rohan works in the R & D department of an electronic appliances company and is given
+              complete autonomy to conduct experiments for business expansion. He accepted the
+              challenge and developed a new product for the customers. Identify and explain the role
+              of Rohan in the company.                                            (1 + 4 = 5 Marks)
+          (b) Which strategy is implemented by redefining the business, by enlarging its scope of
+              business and substantially increasing investment in the business? Explain the ma jor
+              reasons for adopting this strategy.                                (1 + 4 = 5 Marks)
+          Answer
+          (a) Rohan, in this case, is working within the R & D department of the electronic appliances
+              company, and he is given the autonomy to conduct experiments for business expansion.
+              This level of autonomy and the initiative to develop a new product showcase
+              intrapreneurial qualities. Intrapreneurs are individuals who take the initiative to innovate,
+              create, and develop new products, services, or processes within the confines of an
+              existing organization.
+                An intrapreneur is nothing but an entrepreneur who operates within the boundaries of an
+                organisation. He is an employee of a large organisation, who is vested with authority of
+                initiating creativity and innovation in the company’s products, services and projects,
+                redesigning the processes, workflows and systems.
+                The intrapreneurs believe in change and do not fear failure. They discover new ideas,
+                look for such opportunities that can benefit the whole organisation and take risks,
+
+
+
+
+@ The Institute of Chartered Accountants of India
+                PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                       15
+
+
+                promote innovation to improve the performance and profitability of the organisation. Th e
+                job of an intrapreneur is extremely challenging. They get recognition and reward for the
+                success achieved by them.
+                It has now become a trend that large corporations appoint intrapreneur within the
+                organisation, to bring operational excellence and gain competitive edge in the market.
+          (b) The strategy in question is the growth/expansion strategy.
+                The Growth/Expansion strategy involves redefining the business, expanding its scope,
+                and significantly increasing investments. This dynamic and vigorous approach is
+                synonymous with promise and success. It entails a substantial reformulation of goals,
+                major initiatives, and strategic moves, including investments, exploration into new
+                products, technologies, and markets, and innovative decision-making. While promising
+                growth, this strategy navigates the enterprise through relatively unknown and risky paths,
+                rich with potential but also pitfalls.
+                Major Reasons for Adopting Growth/Expansion Strategy:
+                •     It may become imperative when environment demands increase in pace of activity.
+                •     Strategists may feel more satisfied with the prospects of growth from expansion;
+                      chief executives may take pride in presiding over organizations perceived to be
+                      growth-oriented.
+                •     Expansion may lead to greater control over the market vis-a-vis competitors.
+                •     Advantages from the experience curve and scale of operations may accrue.
+                •     Expansion also includes intensifying, diversifying, acquiring and merging
+                      businesses.
+          Question 10
+          (a) Mr. LMN has established a successful venture in the textiles sector in Maharashtra. His
+              enterprise specializes in crafting unique and high-quality home furnishings, which have
+              garnered significant market presence. However, there was a sales dip in the previous
+              year. Seeking professional advice, Mr. LMN consulted a strategic management expert
+              who suggested his first course of action should be to grasp the dynamics of the
+              competitive landscape.
+                In order to comprehend the competitive landscape, what steps should Mr. LMN follow?
+                                                                                                (5 Marks)
+          (b) What do you understand by Strategic Alliance? Discuss its advantages.
+                                                                                        (1 + 4 = 5 Marks)
+
+
+
+
+@ The Institute of Chartered Accountants of India
+          16                       INTERMEDIATE EXAMINATION: NOVEMBER, 2023
+
+
+                                                         OR
+                CDE Holdings operates in various sectors, including manufacturing fitness equipment,
+                organic foods, eco-friendly products and children's educational tools. The organization is
+                currently in the process of recruiting Chief Executive Officer. In this scenario imagine
+                yourself as a HR consultant for CDE Holdings. ·
+                Identify the strategic level that encompasses this role within CDE Holdings.      (1 Mark)
+                Provide an overview of the key duties and responsibilities falling under the Chief
+                Executive Officer's scope.                                               (4 Marks)
+          Answer
+          (a) Understanding the competitive landscape is crucial for Mr. LMN to navigate the textile
+              sector in Maharashtra successfully. This involves identifying both direct and indirect
+              competitors while gaining insights into their vision, mission, core values, niche markets,
+              and strengths and weaknesses. Here are the structured steps Mr. LMN should follow to
+              comprehend the competitive landscape and bolster his strategic position:
+                (i)   Identify the competitor: The first step to understand the competitive landscape is
+                      to identify the competitors in the firm’s industry and have actual data about their
+                      respective market share.
+                (ii) Understand the competitors: Once the competitors have been identified, the
+                     strategist can use market research report, internet, newspapers, social media,
+                     industry reports, and various other sources to understand the products and services
+                     offered by them in different markets.
+                (iii) Determine the strengths of the competitors: What are the strengths of the
+                      competitors? What do they do well? Do they offer great products? Do they utilize
+                      marketing in a way that comparatively reaches out to more consumers? Why do
+                      customers give them their business?
+                (iv) Determine the weaknesses of the competitors: Weaknesses (and strengths) can
+                     be identified by going through consumer reports and reviews appearing in various
+                     media. After all, consumers are often willing to give their opinions, especially when
+                     the products or services are either great or very poor.
+                (v) Put all of the information together: At this stage, the strategist should put
+                    together all information about competitors and draw inference about what they are
+                    not offering and what the firm can do to fill in the gaps. The strategist can also know
+                    the areas which need to be strengthened by the firm.
+                By following these steps, Mr. LMN can gain a comprehensive understanding of the
+                competitive landscape, enabling him to make informed strategic decisions. This tailored
+                approach considers the specific dynamics of the textile sector in Maharashtra, ensuring
+                that the insights gained are directly applicable to his business context.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+                PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                      17
+
+
+          (b) A strategic alliance is a relationship between two or more businesses that enables
+              each to achieve certain strategic objectives which neither would be able to achieve on
+              its own. The strategic partners maintain their status as independent and separate
+              entities, share the benefits and control over the partnership, and continue to make
+              contributions to the alliance until it is terminated.
+                The advantages of strategic alliance can be broadly categorised as follows:
+                (a) Organizational: Strategic alliance helps to learn necessary skills and obtain certain
+                    capabilities from strategic partners. Strategic partners may also help to enhance
+                    productive capacity, provide a distribution system, or extend supply chain.
+                (b) Economic: There can be reduction in costs and risks by distributing them across
+                    the members of the alliance. Greater economies of scale can be obtained in an
+                    alliance, as production volume can increase, causing the cost per unit to decline.
+                    The partners can also take advantage of co-specialization, creating additional value.
+                (c) Strategic: Rivals can join together to cooperate instead of competing. Strategic
+                    alliances may also be useful to create a competitive advantage by the pooling of
+                    resources and skills. This may also help with future business opportunities and the
+                    development of new products and technologies. Strategic alliances may also be
+                    used to get access to new technologies or to pursue joint research and
+                    development.
+                (d) Political: Sometimes strategic alliances are formed with a local foreign business to
+                    gain entry into a foreign market either because of local prejudices or legal barriers
+                    to entry.
+                                                        Or
+                The Chief Executive Officer (CEO) position within CDE Holdings operates at the
+                Corporate Level. This executive level is key in leading the overall direction,
+                performance, and success of the entire organization. The CEO assumes a central role in
+                shaping the company's strategic vision, overseeing diverse business sectors, and
+                ensuring alignment with organizational goals.
+                Key Duties and Responsibilities of the CEO:
+                The CEO's role encompasses various strategic responsibilities at the Corporate Level,
+                involving:
+                1.    oversee the development of strategies for the whole organization;
+                2.    defining the mission and goals of the organization;
+                3.    determining what businesses, it should be in;
+
+
+
+
+@ The Institute of Chartered Accountants of India
+          18                       INTERMEDIATE EXAMINATION: NOVEMBER, 2023
+
+
+                4.    allocating resources among the different businesses;
+                5.    formulating, and implementing strategies that span individual businesses;
+                6.    providing leadership for the organization;
+                7.    ensuring that the corporate and business level strategies which company pursues
+                      are consistent with maximizing shareholders wealth; and
+                8.    managing the divestment and acquisition process.
+                Given the diverse nature of CDE Holdings, spanning manufacturing, organic foods, eco -
+                friendly products, and children's educational tools, the CEO's responsibilities are tailored
+                to navigate the unique challenges and opportunities presented by each sector. In
+                conclusion, the CEO at the Corporate Level plays a critical role in guiding CDE Holdings
+                strategically, ensuring cohesive leadership, and driving sustainable success across its
+                diverse business domains.
+
+
+
+
+@ The Institute of Chartered Accountants of India
+

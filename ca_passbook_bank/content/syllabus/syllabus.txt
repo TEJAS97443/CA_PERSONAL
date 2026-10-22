@@ -1,0 +1,251 @@
+# PassBook syllabus tree — ICAI CA Intermediate Group II (new scheme), January 2027 attempt.
+# The backbone of lessons, question tags, flashcards and every progress number.
+#
+# Source of truth for scope: ICAI's syllabus PDFs for the new scheme (resource.cdn.icai.org 92179/92180/92181/92182bos-aps5086-int-p4/p5/p6a/p6b.pdf),
+# transcribed in ~/CA_PERSONAL/ca-firm-notes/spec/syllabus-group2.md, plus the ICAI Study Material chapter structure (~/CA_PERSONAL/ca_sources/sm/*/toc.json)
+# and the applicability notice for January 2027 (~/CA_PERSONAL/ca_sources/APPLICABILITY.md).
+#
+# Grammar (parsed by tools/syllabus.py):
+#   @subject <id> | <name> | key=value ...      official: <verbatim ICAI syllabus objective>
+#   ## <topic id> | <name> | syl=<the syllabus words this chapter answers> | <status>
+#   - <subtopic id> | <name> | <tier> [| <status>]        (a subtopic is a lesson-sized unit and the finest question tag)
+# tier   : c = core (every student must be able to write it), s = standard, a = advanced (scoring depth)
+# status : in = named in the ICAI syllabus
+# Subjects are PAPERS: cma = Paper 4, aud = Paper 5, fm = Paper 6A, sm = Paper 6B.
+
+@subject cma | Cost and Management Accounting | area=Group II | paper=P4 | marks=100 | short=Costing | hue=262
+official: To understand the basic concepts and applications to establish the cost of products and services and apply it to determine prices; understand cost accounting statements; apply information for cost ascertainment, planning, control and decision making; apply costing methods to determine costs for different purposes; apply appropriate techniques to support short-term decisions.
+
+## cma.intro | Introduction to Cost and Management Accounting | syl=Objectives and scope; users; cost terms and concepts; cost behaviour; methods and techniques; digital costing | in
+- cma.intro.scope | Objectives, scope and users of cost and management accounting | c
+- cma.intro.install | Cost accounting department and installing a costing system | c
+- cma.intro.relations | Cost, financial and management accounting, and financial management | c
+- cma.intro.terms | Cost units, cost centres, cost objects and responsibility centres | c
+- cma.intro.classify | Elements and classification of cost | c
+- cma.intro.behaviour | Cost behaviour: fixed, variable, semi-variable and step costs | c
+- cma.intro.control | Cost control and cost reduction | c
+- cma.intro.methods | Methods and techniques of costing, and digital costing | c
+## cma.sheet | Cost Sheet | syl=Functional classification and ascertainment of cost; preparation of cost sheets for manufacturing and service sectors | in
+- cma.sheet.mfg | Cost sheet for a manufacturer | c
+- cma.sheet.quote | Estimated cost sheets, tenders and quotations | c
+- cma.sheet.service | Cost sheet for the service sector | c
+## cma.mat | Material Cost | syl=Procurement; valuation of receipts and issues; stock levels; EOQ; inventory control techniques; losses | in
+- cma.mat.procure | Procurement procedure, GeM, ERP and stock verification | c
+- cma.mat.receipts | Valuing material receipts | c
+- cma.mat.issues | Pricing material issues: FIFO, LIFO and average methods | c
+- cma.mat.levels | Stock levels: re-order, minimum, maximum, average and danger levels | c
+- cma.mat.eoq | Economic Order Quantity and quantity discounts | c
+- cma.mat.techniques | ABC, FSN, HML, VED, JIT and perpetual inventory | c
+- cma.mat.ratios | Inventory turnover ratios and stock discrepancies | c
+- cma.mat.losses | Waste, scrap, spoilage, defectives and obsolescence | c
+## cma.emp | Employee Cost and Direct Expenses | syl=Attendance and payroll; elements of wages; employee cost control; employee turnover; incentive schemes; direct expenses | in
+- cma.emp.payroll | Attendance, payroll and the elements of wages | c
+- cma.emp.idle | Idle time and overtime | c
+- cma.emp.turnover | Employee turnover: measurement, causes, effects and cost | c
+- cma.emp.incentives | Time rate, piece rate and the Halsey and Rowan premium plans | c
+- cma.emp.direct | Direct expenses | c
+## cma.oh | Overheads: Absorption Costing | syl=Functional and behavioural analysis; allocation and apportionment; primary and secondary distribution; absorption; administration, selling, distribution and R&D overheads | in
+- cma.oh.classify | Classifying overheads, allocation and apportionment | c
+- cma.oh.primary | Primary distribution of factory overheads | c
+- cma.oh.secondary | Secondary distribution: direct, step, repeated and simultaneous methods | c
+- cma.oh.absorb | Absorption rates and the machine hour rate | c
+- cma.oh.underover | Under- and over-absorption of overheads | c
+- cma.oh.ads | Administration, selling, distribution and R&D overheads | c
+## cma.abc | Activity Based Costing | syl=Concepts of Activity Based Costing | in
+- cma.abc.concept | Activities, cost pools, cost drivers and the cost hierarchy | c
+- cma.abc.compute | Product costs under ABC versus traditional absorption | c
+- cma.abc.abm | Activity based management and budgeting; benefits and limits | s
+## cma.sys | Cost Accounting Systems | syl=Integration of cost and financial data; non-integrated and integrated systems; reconciliation of profit | in
+- cma.sys.ledgers | Non-integrated and integrated accounting systems | c
+- cma.sys.recon | Reconciling cost and financial profit | c
+## cma.unit | Unit and Batch Costing | syl=Single output / unit costing; batch costing; optimum batch quantity | in
+- cma.unit.unit | Unit costing | c
+- cma.unit.batch | Batch costing and the economic batch quantity | c
+## cma.job | Job Costing | syl=Job cost cards; collecting direct costs; attributing overheads; application of job costing | in
+- cma.job.job | Job costing | c
+## cma.proc | Process and Operation Costing | syl=Process cost recording; process loss; abnormal gains and losses; equivalent units; inter-process profit; valuation of WIP | in
+- cma.proc.accounts | Process accounts, normal loss, abnormal loss and abnormal gain | c
+- cma.proc.eu | Equivalent units: FIFO and weighted average | c
+- cma.proc.interprocess | Inter-process profit and operation costing | s
+## cma.joint | Joint Products and By-Products | syl=Apportionment of joint costs; methods; treatment of by-products | in
+- cma.joint.apportion | Apportioning joint costs: physical units, sales value and net realisable value | c
+- cma.joint.further | Sell at split-off or process further | c
+- cma.joint.byprod | Treatment of by-products | c
+## cma.svc | Service Costing | syl=Costing of service sectors; determination of costs and prices of services | in
+- cma.svc.basics | Service costing and composite cost units | c
+- cma.svc.transport | Transport costing: passenger-km and tonne-km | c
+- cma.svc.others | Hotels, hospitals, power, IT and other services | c
+## cma.std | Standard Costing | syl=Setting standards; types of standards; performance measurement; material, labour, variable and fixed overhead variances and reconciliation | in
+- cma.std.setting | Standards, their types and standard costing | c
+- cma.std.material | Material variances | c
+- cma.std.labour | Labour variances, including idle time | c
+- cma.std.voh | Variable overhead variances | c
+- cma.std.foh | Fixed overhead variances | c
+- cma.std.recon | Reconciling budgeted and actual profit, and accounting for variances | c
+## cma.mc | Marginal Costing | syl=Contribution; break-even analysis; P/V ratio; margin of safety; CVP; marginal versus absorption costing; short-term decisions | in
+- cma.mc.basics | Marginal cost, contribution and the P/V ratio | c
+- cma.mc.bep | Break-even point, margin of safety and angle of incidence | c
+- cma.mc.charts | Break-even and profit-volume charts | c
+- cma.mc.absorb | Marginal versus absorption costing and profit reconciliation | c
+- cma.mc.keyfactor | Limiting factor and product mix | c
+- cma.mc.decisions | Make or buy, shut down and other short-term decisions | c
+- cma.mc.multiproduct | Multi-product break-even analysis | c
+## cma.bud | Budgets and Budgetary Control | syl=Budget, budget manual, budget process; functional budgets; flexible budget; cash budget; master budget; ZBB; performance budget; control ratios | in
+- cma.bud.basics | Budgets, budgetary control, the budget manual and key factor | c
+- cma.bud.functional | Functional budgets and the master budget | c
+- cma.bud.flexible | Flexible budgets | c
+- cma.bud.cash | Cash budget | c
+- cma.bud.zbb | Zero based budgeting and performance budgeting | c
+- cma.bud.ratios | Control ratios, budget variances, motivation, feedback and feed-forward | c
+
+@subject aud | Auditing and Ethics | area=Group II | paper=P5 | marks=100 | short=Audit | hue=200
+official: To understand the concepts in auditing and the generally accepted auditing procedures, techniques and skills, and acquire the ability to apply the same in audit and attestation engagements; understand and apply the concept of ethics while performing audit.
+
+## aud.nature | Nature, Objective and Scope of Audit | syl=Auditing concepts; need and objective of audit; scope; qualities of an auditor; inherent limitations; SA 200 | in
+- aud.nature.basics | What an audit is, why it is needed and its objective | c
+- aud.nature.sa200 | SA 200: overall objectives, reasonable assurance and professional judgement | c
+- aud.nature.limits | Inherent limitations of an audit | c
+- aud.nature.scope | Scope of audit, engagement types and qualities of an auditor | c
+- aud.nature.relations | Auditing and its relationship with other disciplines | s
+- aud.nature.assurance | Assurance engagements and the engagement and quality control standards | c
+## aud.plan | Audit Strategy, Audit Planning and Audit Programme | syl=SA 300; benefits of planning; preliminary engagement activities; overall audit strategy; audit plan; audit programme | in
+- aud.plan.sa300 | SA 300: planning, overall audit strategy and audit plan | c
+- aud.plan.program | The audit programme | c
+## aud.risk | Risk Assessment and Internal Control | syl=Audit risk; materiality (SA 320); risk assessment (SA 315); internal control; digital audit; SA 330 | in
+- aud.risk.model | Audit risk: inherent, control and detection risk | c
+- aud.risk.sa320 | SA 320: materiality and performance materiality | c
+- aud.risk.sa315 | SA 315: risk assessment procedures and understanding the entity | c
+- aud.risk.ic | Internal control: components, limitations and evaluation | c
+- aud.risk.testing | Testing internal control: walkthroughs, tests of controls and reporting | c
+- aud.risk.it | Internal control in an IT environment | c
+- aud.risk.digital | Digital audit and data analytics | c
+- aud.risk.sa330 | SA 330: the auditor's responses to assessed risks | c
+## aud.evid | Audit Evidence | syl=SA 500; assertions; SA 610; IFC; SA 530; SA 501; SA 505; SA 510; SA 550; SA 520; audit trail | in
+- aud.evid.sa500 | SA 500: sufficient appropriate audit evidence | c
+- aud.evid.assertions | Financial statement assertions and audit procedures | c
+- aud.evid.sa610 | SA 610: using the work of internal auditors | c
+- aud.evid.ifc | Internal financial controls and ICFR | c
+- aud.evid.sa530 | SA 530: audit sampling | c
+- aud.evid.sa501 | SA 501: inventory, litigation and segment information | c
+- aud.evid.sa505 | SA 505: external confirmations | c
+- aud.evid.sa510 | SA 510: opening balances in initial engagements | c
+- aud.evid.sa550 | SA 550: related parties | c
+- aud.evid.sa520 | SA 520: analytical procedures | c
+- aud.evid.trail | Audit trail | s
+## aud.items | Audit of Items of Financial Statements | syl=Audit of income, expenses, equity and liabilities, assets and contingent liabilities (illustrative) | in
+- aud.items.revenue | Audit of revenue and other income | c
+- aud.items.expenses | Audit of expenses | c
+- aud.items.equity | Audit of share capital, reserves and borrowings | c
+- aud.items.liabilities | Audit of trade payables, provisions and other liabilities | c
+- aud.items.ppe | Audit of property, plant, equipment and intangibles | c
+- aud.items.current | Audit of inventories, receivables, cash and loans and advances | c
+- aud.items.contingent | Audit of contingent liabilities | c
+## aud.doc | Audit Documentation | syl=SA 230; nature and purpose; form, content and extent; completion memorandum; ownership and custody | in
+- aud.doc.sa230 | SA 230: audit documentation | c
+## aud.complete | Completion and Review | syl=SA 560; SA 570; SA 450; SA 580; SA 260; SA 265 | in
+- aud.complete.sa560 | SA 560: subsequent events | c
+- aud.complete.sa570 | SA 570: going concern | c
+- aud.complete.sa450 | SA 450: evaluating misstatements | c
+- aud.complete.sa580 | SA 580: written representations | c
+- aud.complete.sa260 | SA 260 and SA 265: communicating with those charged with governance | c
+## aud.report | Audit Report | syl=SA 700; SA 701; SA 705; SA 706; SA 710; branch audit; joint audit; Companies Act 2013 reporting including CARO | in
+- aud.report.sa700 | SA 700: forming an opinion and the auditor's report | c
+- aud.report.sa701 | SA 701: key audit matters | c
+- aud.report.sa705 | SA 705: qualified, adverse and disclaimer of opinion | c
+- aud.report.sa706 | SA 706: emphasis of matter and other matter paragraphs | c
+- aud.report.sa710 | SA 710: comparative information | c
+- aud.report.companies | Company auditor's reporting under the Companies Act, 2013 | c
+- aud.report.caro | CARO 2020 | c
+- aud.report.branch | Branch audit and joint audit | c
+## aud.entities | Special Features of Audit of Different Types of Entities | syl=Government; local bodies; NPOs; trusts and societies; partnership firms; educational institutions; hotels; clubs; hospitals; LLPs; co-operative societies | in
+- aud.entities.govt | Government audit and the C&AG | c
+- aud.entities.local | Audit of local bodies | c
+- aud.entities.npo | Not-for-profit organisations, trusts and societies | c
+- aud.entities.institutions | Educational institutions, hotels, clubs and hospitals | c
+- aud.entities.firms | Sole traders, partnership firms, LLPs and co-operative societies | c
+- aud.entities.commercial | Cinemas and hire purchase and leasing companies | s
+## aud.bank | Audit of Banks | syl=Accounting system in banks; audit approach; revenue items; advances and NPAs | in
+- aud.bank.approach | Bank accounting system and audit approach | c
+- aud.bank.auditor | Appointment, powers and report of a bank's auditor | c
+- aud.bank.advances | Audit of advances, NPAs and drawing power | c
+- aud.bank.revenue | Audit of revenue items in banks | c
+## aud.ethics | Ethics and Terms of Audit Engagements | syl=Ethics; fundamental principles; independence; threats and safeguards; professional skepticism; SA 210; SQC 1; SA 220 | in
+- aud.ethics.principles | Professional ethics and the fundamental principles | c
+- aud.ethics.independence | Independence, threats and safeguards | c
+- aud.ethics.sa210 | SA 210: agreeing the terms of audit engagements | c
+- aud.ethics.qc | SQC 1 and SA 220: quality control | c
+
+@subject fm | Financial Management | area=Group II | paper=P6A | marks=50 | short=FM | hue=150
+official: To understand the various aspects of Financial Management and acquire the ability to apply such knowledge in decision-making; understand various finance functions like financing decision, investment decision, dividend decision; understand working capital management and its components.
+
+## fm.intro | Scope and Objectives of Financial Management | syl=Objective and scope; profit and wealth maximisation; value creation; role of financial manager and controller; environment; functions; financial distress and insolvency | in
+- fm.intro.objectives | Objectives: profit maximisation, wealth maximisation and value creation | c
+- fm.intro.role | The finance function, the financial manager and the controller | c
+- fm.intro.agency | Agency problem, financial environment, distress and insolvency | c
+## fm.ratio | Financial Analysis and Planning: Ratio Analysis | syl=Users; sources of data; calculation and interpretation of ratios; limitations | in
+- fm.ratio.liquidity | Liquidity and capital structure ratios | c
+- fm.ratio.activity | Activity (turnover) ratios | c
+- fm.ratio.profit | Profitability and market ratios, and the DuPont analysis | c
+- fm.ratio.prepare | Building financial statements from ratios; limitations of ratios | c
+## fm.sources | Types of Financing | syl=Long-term and short-term sources; contemporary sources; internal funds; international sources; lease, venture capital and other sources | in
+- fm.sources.long | Long-term sources: equity, preference, debt and retained earnings | c
+- fm.sources.other | Venture capital, lease financing, sale and lease back and other sources | c
+- fm.sources.short | Short-term sources of finance | c
+- fm.sources.modern | Contemporary and international sources of finance | c
+## fm.coc | Cost of Capital | syl=Significance; factors; cost of individual components; WACC; marginal cost of capital | in
+- fm.coc.debt | Cost of debt and of preference capital | c
+- fm.coc.equity | Cost of equity and of retained earnings | c
+- fm.coc.wacc | WACC and the marginal cost of capital | c
+## fm.cs | Financing Decisions: Capital Structure | syl=Significance and determinants; optimum capital structure; theories; EBIT-EPS analysis; over- and under-capitalisation | in
+- fm.cs.theories | Capital structure theories: NI, NOI, traditional and Modigliani-Miller | c
+- fm.cs.ebiteps | EBIT-EPS analysis, indifference point and financial break-even | c
+- fm.cs.planning | Capital structure planning, determinants and over- and under-capitalisation | c
+## fm.lev | Financing Decisions: Leverages | syl=Operating, financial and combined leverage; analysis of leverages | in
+- fm.lev.leverage | Operating, financial and combined leverage | c
+## fm.capbud | Investment Decisions | syl=Capital budgeting; payback; discounted payback; ARR; NPV; IRR; MIRR; profitability index; capital rationing; equivalent annual cost | in
+- fm.capbud.cashflows | Capital budgeting and estimating relevant cash flows | c
+- fm.capbud.payback | Payback, discounted payback and ARR | c
+- fm.capbud.npv | NPV, profitability index and equivalent annual cost | c
+- fm.capbud.irr | IRR, MIRR and the NPV-IRR conflict | c
+- fm.capbud.rationing | Capital rationing | c
+## fm.div | Dividend Decision | syl=Forms of dividend; determinants; traditional approach, Walter, Gordon, MM | in
+- fm.div.basics | Forms of dividend, buy-back and determinants of dividend policy | c
+- fm.div.models | Dividend theories: traditional, Walter, Gordon and Modigliani-Miller | c
+## fm.wc | Management of Working Capital | syl=Liquidity and profitability; financing; operating cycle; estimating requirement; receivables; factoring; payables; cash and treasury; banking norms | in
+- fm.wc.basics | Working capital, the operating cycle and financing policy | c
+- fm.wc.estimate | Estimating working capital requirement | c
+- fm.wc.receivables | Management of receivables, credit policy, factoring and forfaiting | c
+- fm.wc.cash | Treasury and cash management | c
+- fm.wc.inventory | Management of inventory | c
+- fm.wc.payables | Management of payables | c
+- fm.wc.banking | Financing of working capital and bank credit | c
+
+@subject sm | Strategic Management | area=Group II | paper=P6B | marks=50 | short=SM | hue=24
+official: To develop an understanding of strategic management concepts and techniques and acquire the ability to apply the same in business situations.
+
+## sm.intro | Introduction to Strategic Management | syl=Meaning and nature; importance and limitations; strategic intent; strategic levels | in
+- sm.intro.meaning | Meaning, nature, importance and limitations of strategic management | c
+- sm.intro.intent | Strategic intent: vision, mission, goals and values | c
+- sm.intro.levels | Strategic levels: network, corporate, business and functional | c
+## sm.ext | Strategic Analysis: External Environment | syl=PESTLE; defining the industry (value chain, PLC); Porter's five forces; customers and markets; competition | in
+- sm.ext.pestle | International and macro environment: PESTLE | c
+- sm.ext.industry | Defining the industry: value chain and product life cycle | c
+- sm.ext.porter | Porter's five forces | c
+- sm.ext.markets | Understanding customers, markets and competition | c
+## sm.int | Strategic Analysis: Internal Environment | syl=Stakeholders (Mendelow); strategic drivers; resources and capabilities; SWOT; Porter's generic strategies | in
+- sm.int.stakeholders | Key stakeholders and Mendelow's matrix | c
+- sm.int.drivers | Strategic drivers | c
+- sm.int.resources | Resources, capabilities and core competence | c
+- sm.int.swot | SWOT analysis: combining external and internal analysis | c
+- sm.int.generic | Porter's generic strategies | c
+## sm.choice | Strategic Choices | syl=Concentric, conglomerate, market and product development, innovation, integration, turnaround, divestment, liquidation; Ansoff, ADL, BCG, GE matrices | in
+- sm.choice.growth | Growth strategies: integration and diversification | c
+- sm.choice.retrench | Stability and retrenchment: turnaround, divestment and liquidation | c
+- sm.choice.ansoff | Ansoff's matrix and the ADL matrix | c
+- sm.choice.portfolio | BCG and GE matrices | c
+## sm.impl | Strategy Implementation and Evaluation | syl=Formulation versus implementation; digital transformation; structure and culture; strategic leadership; strategic control; performance measures | in
+- sm.impl.matrix | Formulation versus implementation: matrix, linkages and issues | c
+- sm.impl.digital | Strategic change and digital transformation | c
+- sm.impl.structure | Organisation structure and culture | c
+- sm.impl.leadership | Strategic leadership | c
+- sm.impl.control | Strategic control and performance measures | c

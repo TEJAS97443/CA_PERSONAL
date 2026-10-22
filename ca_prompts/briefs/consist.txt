@@ -1,0 +1,27 @@
+JOB=consist
+You are the CONSISTENCY pass of PassBook (~/CA_PERSONAL/ca_passbook), an offline study app for ICAI CA Intermediate Group II with 181 lessons written
+by ~50 agents. Every lesson is reviewed for facts; your job is the things no single reviewer could see: consistency ACROSS lessons.
+Read ~/CA_PERSONAL/ca_passbook/docs/CONTENT_GUIDE.md first (binding; §2a is the shared cast). Use the lock tool before editing any lesson:
+sh ~/CA_PERSONAL/ca_prompts/tools/lock.sh take <id> (exit 1 = held by another agent: come back later); drop it when done.
+PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py consist <step> ; steps: start, cast, figures, links, terms, ui, report
+(register {"id":"consist","kind":"qa","deps":[],"steps":["start","cast","figures","links","terms","ui","report"]} in ~/CA_PERSONAL/ca_prompts/jobs.json if unknown).
+
+1 cast: the guide's cast (Tapri Tea Co. Ltd listed since 2024, FY ends 31 March, Kesar Mehra MD, Ritu Sharma cost accountant, Dev Malhotra
+  CFO, Iyer & Associates with Ms Lakshmi Iyer, Bunty (Varun Khanna) article assistant, BrewBucks, Ananya Rao head of strategy). Grep all
+  lessons for each name and role; fix contradictions (e.g. Dev running a division, Bunty doing cost work for Tapri, Tapri unlisted).
+  Known clashes: Pinky's firm is "Mehra Masala Traders" in aud.nature.basics and aud.evid.sa510 but "Mehra Mithai & Sons" in
+  aud.ethics.sa210 (pick one per entity and make it consistent, or make them clearly different entities); "Tapri Express" means a
+  delivery app in one lesson and railway kiosks in the spot-strategy lab; "Kulhad Crafts Ltd" and "Tapri Cold Chain" carry different
+  figures in different FM lessons (fine if each example is self-contained and says so; fix only real contradictions, e.g. a lesson
+  that says "as we saw" and quotes different numbers); "TapriNow" app. Record a canonical entity list in docs/CAST.md.
+2 figures: Tapri's company-wide facts that recur (materiality ₹1.50 crore for 2025-26 used in Audit lessons; listing; number of cities;
+  FY) must not contradict across lessons. Where one lesson builds on another's numbers ("from the SA 320 lesson"), check they match.
+3 links: every [[id|label]] resolves (build already checks ids), and closely related lessons link each other both ways where useful
+  (e.g. each SA lesson links SA 700/705/706 where relevant; cost sheet <-> overheads <-> marginal costing; EOQ in cma.mat.eoq <->
+  fm.wc.inventory; cash budget cma.bud.cash <-> fm.wc.cash). Add missing labelled links in the right place (one sentence max).
+4 terms: the same ICAI term spelled/capitalised the same way across lessons (e.g. "P/V ratio", "Key Audit Matters" vs "key audit
+  matters" (follow the Study Material), "those charged with governance", "₹" formats with lakh/crore grouping).
+5 ui: build (.venv/bin/python build.py), then screenshot 6 lessons (2 Costing, 2 Audit, 1 FM, 1 SM) at 1440 and 390 px and the Learn
+  hub / paper pages (tools/shot.sh); report anything that looks broken (do not redesign).
+REPORT (final message; also ~/CA_PERSONAL/ca_prompts/reports/consist.md): every change made (lesson, what, why) and docs/CAST.md.
+Keep image viewing to ~25 images. Keep build.py --check green.

@@ -1,0 +1,82 @@
+# PassBook, Out Loud · P4-09 · Job Costing: हर order का अपना number
+
+## Introduction: batch से job तक
+
+नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+आज Paper four का chapter nine है, Job Costing, जिसे ICAI ने RTPs और MTPs समेत बीस documents में पूछा है, जिनमें पाँच exam papers हैं।
+पिछले chapter में batch costing को job costing से अलग किया था, और आज वो method है जिसमें हर customer order अपने आप में एक cost unit है।
+ICAI इस chapter में job cost sheet और price के छह-सात marks के numericals, और advantages और job बनाम process costing की theory पूछता है।
+Episode के आख़िर तक आप job costing की definition, job cost sheet का format, costs के तीन रास्ते, और control account की entries लिख पाएँगे।
+
+## What job costing is: definition, suitability और फ़र्क
+
+Tapri Kiosk Works, Indore की workshop, हर franchisee की अपनी drawing पर kiosks, café counters और tea carts बनाती है।
+केसर का कहना था कि kiosk तो kiosk है, पिछली बार जितना charge करो, पर airport वाली cart में दोगुना steel और तीन गुना welding लगी थी।
+इसलिए ऋतु ने हर order को अपना job number दिया, और हर material, हर labour hour और हर overhead उसी number पर दर्ज हुआ।
+Job costing की CIMA definition है the category of basic costing methods which is applicable where the work consists of separate contracts, jobs or batches।
+Definition आगे कहती है कि each of which is authorised by specific order or contract, और answer में ये पूरी definition quotation marks में लिखिए।
+यहाँ costs jobs, contracts, products या work orders के हिसाब से जमा होती हैं, हर job costing के लिए एक अलग entity है, और यही method batches पर भी लागू होता है।
+ICAI इसे principal method of costing मानता है, क्योंकि हर costing का basic object हर unit of production की cost निकालना, उसे control करना और profitability तय करना है।
+Process में हर job की अलग cost sheet बनती है, materials bill of material से और employee cost time cards से दर्ज होती है, और job पूरा होने पर overheads जुड़ते हैं।
+ये तब suitable है जब jobs customers की अपनी specifications पर बनें, कोई दो orders एक जैसे न हों, और work-in-progress हाथ के jobs के साथ बदलता रहे।
+ICAI की industries हैं printing, furniture, hardware, ship-building, heavy machinery, interior decoration और repairs, और describe वाले सवाल में ये list ज़रूर लिखिए।
+पाँच advantages ICAI के order में शुरू होते हैं हर job के material, labour और overhead की details से, जो control में काम आती हैं, और फिर हर job की profitability।
+बाकी तीन advantages हैं production planning में मदद, budgetary control और standard costing का इस्तेमाल, और spoilage और defectives की पहचान के साथ responsibility तय करना।
+चार disadvantages हैं: ये costly और laborious है, clerical काम ज़्यादा होने से error का chance बढ़ता है, inflation में suitable नहीं, और market बदले तो पुराने records meaningless हो जाते हैं।
+Job बनाम process costing का फ़र्क ICAI छह points में देता है, और पहला ये कि job specific orders से बनता है, जबकि process में production continuous flow है और product homogeneous।
+दूसरा, job की cost हर job के लिए निकलती है, जबकि process की cost time basis पर, यानी accounting period के लिए हर process पर, compile होती है।
+तीसरा, हर job अलग और independent है, जबकि process में products continuous flow में अपनी individual identity खो देते हैं।
+चौथा, हर job का एक number होता है और costs उसी पर जमा होती हैं, जबकि process की unit cost उस period का average cost है।
+पाँचवाँ, job की cost उसके पूरा होने पर जुड़ती है और process की period के आख़िर में, और छठा, jobs अलग होने से control में ज़्यादा managerial attention चाहिए।
+
+## Collecting costs on the job cost sheet: तीन दरवाज़े
+
+Job cost sheet के header में description, job number, quantity, delivery की date, और काम शुरू और ख़त्म होने की dates होती हैं।
+उसके नीचे date-wise material, labour और overhead के columns हैं, और summary में estimated और actual columns में direct material, direct wages और production overhead से production cost बनती है।
+फिर administration और selling and distribution overheads जुड़कर total cost, profit या loss जुड़कर selling price, और साथ में units produced और cost per unit लिखे जाते हैं।
+Materials के लिए हर job की अलग stores requisition बनती है, जिसका basis bill of material है, और priced requisitions material abstract से Work-in-Progress ledger के job cost sheets तक पहुँचती हैं।
+किसी job के लिए खास खरीदा गया material stores से होकर नहीं जाता, वो खरीदते ही सीधे उस job पर charge होता है।
+बचा हुआ material stores लौटे तो shop credit से job credit होता है, और दूसरे job पर जाए तो material transfer note से पहला job credit और दूसरा debit होता है।
+Direct labour job time cards पर jobs के against book होता है और labour abstract से job cards तक जाता है, जबकि idle time standing order numbers पर book होता है।
+Customer के कहने पर काम जल्दी करने के लिए दिया गया overtime premium सीधे उसी job पर charge होता है, जबकि general production programme वाला overtime department का overhead है।
+Overheads pre-determined rates पर machine hours, labour hours, या direct wages या direct materials के percentage से लगते हैं, और ICAI इसे essentially an arbitrary method कहता है।
+हर figure तीन में से किसी एक दरवाज़े से आए, requisition, time card या pre-determined rate, और बाकी हर cost, जैसे direct expenses, अपने document से job तक trace होनी चाहिए।
+Spoiled work वो production है जो पूरी तरह reject हो और rectify न हो सके, और defective work वो है जो additional cost पर rectify हो सकता है।
+Normal rate के defectives की rectification cost job पर charge होकर उसके output में फैलती है, और normal से ऊपर वाली rectification Costing Profit and Loss में जाती है।
+Bad workmanship वाले defects abnormal cost हैं और Costing Profit and Loss में write off होते हैं, अगर workman से penalty वसूल न हो।
+Inspection department ने खराब incoming material पास किया हो, तो वो defects उसी department पर charge होकर Costing Profit and Loss में जाते हैं।
+Price निकालते समय profit cost पर हो तो price है total cost into one plus margin, और selling price पर हो तो total cost divided by one minus margin।
+
+## Control accounts and the WIP check: entries और job cards का मिलान
+
+Job costing की तेरह entries non-integrated ledger का वही रास्ता हैं, और ICAI याद दिलाता है कि General Ledger Adjustment Account, Cost Ledger Control Account का ही दूसरा नाम है।
+Materials की खरीद Stores Ledger Control में debit होती है, और jobs पर लगे direct materials और direct wages Work-in-Process Control में debit होते हैं।
+Indirect materials, indirect wages और indirect expenses Factory Overhead Control में जाते हैं, और jobs पर charge हुआ overhead Work-in-Process Control में debit होता है।
+Completed jobs की total cost Cost of Sales में जाती है, और उसका balance Costing Profit and Loss Account में transfer होता है।
+Completed jobs की sales value पर Cost Ledger Control debit और Costing Profit and Loss credit होता है, और फिर Costing Profit and Loss की balance ही profit या loss है।
+October में Kiosk Works के एक job का कुछ material shop credit से stores लौटा, और दूसरे job का कुछ material transfer note से एक नए job पर गया।
+Shop credit job और Work-in-Process Control दोनों को घटाता है, पर दो jobs के बीच transfer सिर्फ़ job cards बदलता है, control account नहीं।
+Steel की देर से आई delivery के इंतज़ार में गए hours abnormal idle time थे, इसलिए उनकी wages किसी job पर नहीं, Costing Profit and Loss में गईं।
+आख़िर में Work-in-Process Control की closing balance खुले job cards के जोड़ के बराबर होनी चाहिए, और यही full-marks answer का check है।
+उसी महीने एक fixed-price job loss में गया, क्योंकि fixed price में estimate से ऊपर का हर hour और हर rupee सीधे profit से कटता है।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+Exam में job costing सबसे ज़्यादा छह-सात marks के job cost sheet और price वाले numerical में आता है, अक्सर पिछले साल के rates से नए job की quote के रूप में।
+एक हाल के paper में aircraft component का order पिछले साल के rates पर, दस प्रतिशत safety margin के साथ, quote करना था।
+Theory में तीन से पाँच marks के लिए advantages, job बनाम process costing, और CIMA definition के साथ job बनाम batch costing आए हैं।
+Spoiled और defective work की treatment भी तीन बार चार marks की theory में आई है, और advantages वाले सवाल का ICAI answer Study Material के पाँच points हूबहू था।
+पहली गलती shop credit या transfer note को भूलकर material को पहले job पर ही छोड़ देना है, जिससे cost दो बार charge हो जाती है।
+दूसरी गलती waiting time या idle time को job में जोड़ना है, जबकि normal idle time overhead rate में cover है और abnormal Costing Profit and Loss में जाता है।
+तीसरी गलती abnormal defect की cost customer के job पर डालना है, जबकि वो Costing Profit and Loss में जाती है।
+Same rate as last month का मतलब है पिछले महीने के abstract से बना percentage, जो सिर्फ़ इस महीने की labour पर लगता है।
+Full marks के लिए materials, labour और overheads के working notes, job-wise cost table, हर fixed price पर profit, control account का job cards से मिलान, और idle hours की treatment लिखिए।
+
+## Summary: साठ seconds की revision
+
+साठ seconds में chapter ये है: job costing में हर job एक अलग cost unit है, जो specific order या contract से authorise होता है।
+Materials requisition से, labour time card से, और overheads pre-determined rate से job number पर आते हैं, special material सीधे job पर, और returns shop credit से।
+Normal rectification job पर, abnormal Costing Profit and Loss में, customer के कहने पर दिया overtime premium job पर, और idle time standing orders पर जाता है।
+Job बनाम process के छह points, पाँच advantages, चार disadvantages, और तेरह entries याद रखिए, जिनके बाद WIP Control की balance खुले job cards के बराबर होती है।
+अगले episode में Tapri का premix एक process से दूसरे process में बहेगा, यानी Paper four का chapter ten, Process and Operation Costing।
+ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

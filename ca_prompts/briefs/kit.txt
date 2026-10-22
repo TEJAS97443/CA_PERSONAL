@@ -1,0 +1,38 @@
+JOB=kit
+You are improving the diagram kit of PassBook (~/CA_PERSONAL/ca_passbook), an offline study app for ICAI CA Intermediate Group II. Lessons describe
+pictures as JSON (`::: diagram` blocks) rendered by app/js/viz/diagram.js (pure functions; the same code runs in Node for lint/tests and in
+the browser; labs use it too) and markdown by app/js/core/md.js. ~20 agents are writing and reviewing lessons right now and preview them
+with this kit: every change must keep build.py --check, node tests/run.js and all existing diagrams working, and must improve phone
+rendering without breaking desktop.
+
+FIRST read docs/CONTENT_GUIDE.md §4 and §9, app/js/viz/diagram.js (flow, tree, seq, plot, table parts), docs/diagram-examples.json,
+tests/diagram.test.js, tools/lint_content.js, tools/preview_lesson.py, tools/shot.sh. Record a regression baseline: render every diagram in
+every lesson (content/subjects/*/*.md) and every lab's first/last frame specs if easy, to SVG with the current code (node script in
+$TMPDIR), and save hashes + the SVG width/height.
+
+PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py kit <step> ["note"]
+(add {"id":"kit","kind":"kit","deps":[],"steps":["start","flow-width","flow-edges","tree-notes","labels","lint-nesting","shot-open","regress","report"]}
+to ~/CA_PERSONAL/ca_prompts/jobs.json if the tool says the job is unknown.)
+
+PROBLEMS REPORTED BY ~15 WRITERS (fix in this order; each fix additive or clearly better, documented in docs/diagram-examples.json):
+1 flow-width: a flow's "w" does not really narrow it; process boxes draw much wider than their labels, decisions push the chain sideways,
+  so flows overflow a 390 px phone column and get the sideways-scroll hint. Make flows honour "w" (wrap long labels inside boxes, size boxes
+  to their text, lay branches out within w), and make the default width phone-safe (~420) when no "w" is given, without changing flows
+  that already fit. Three-line labels must fit inside their boxes (end nodes especially).
+2 flow-edges: yes/no edge labels overlap the connecting lines/arrowheads; several edges into one node (shared end node) draw overlapping
+  routes and labels; an edge that rejoins a node lower down is hidden with its label. Route them cleanly, labels offset from lines.
+  Optional per-edge colour if cheap (an edge spec ["a","b","yes",{"color":"g"}] or similar) - document it.
+3 tree-notes: a multi-line `note` under a tree node overlaps the box; four-leaf trees need sideways scrolling at 390 px: add an option to
+  stack/wrap leaves (e.g. "wrap": true or automatic when wider than the column) if feasible.
+4 labels: plot point labels: add an offset option ("dx","dy") or more positions; seq: long text on the first lane must not stick out of
+  its lane; graph: square nodes too small for labels (grow to fit); nest: long lines wrap.
+5 lint-nesting: tools/lint_content.js does not catch wrongly nested containers (a `::: cols` with a nested `:::` at the same colon count
+  renders as raw text): detect any container whose inner content contains a same-or-higher-colon opener/closer mismatch, and any
+  ":::"-lines left unrendered; report as ERROR with line numbers. Run it over all lessons and list offenders in your report (do not edit
+  lessons yourself; the lead will route fixes).
+6 shot-open: tools/shot.sh screenshots lessons with all answer folds closed, so writers cannot check tables inside answers at phone width:
+  add a URL flag (e.g. "open=1" in the extra-params argument) that opens every <details> fold before the screenshot.
+7 regress: re-render the baseline; for every diagram whose SVG changed, look at before/after PNGs of a sample (at least 25, including all
+  flows) at 390 px and 900 px, light and dark, and make sure each is equal or better. Whole test suite passes, all lessons lint.
+8 report (final message; also ~/CA_PERSONAL/ca_prompts/reports/kit.md): what changed, new options, before/after evidence, lint offenders.
+Do not edit lessons, labs or content files. Keep risky edits in a scratch copy until they pass.

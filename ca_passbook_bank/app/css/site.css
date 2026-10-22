@@ -1,0 +1,234 @@
+/* PassBook — design-system primitives (v3, Cobalt Pop; docs/FRONTEND_V3_SPEC.md). Owner: shell. Loaded after the base sheets and before the per-page sheets.
+   base.css keeps the colour tokens; this file adds layout / type / depth tokens and the shared page primitives. components.css has the small components.
+   Contents: tokens · subject colour helpers · type scale · sections + dividers · .btn-xl · links · .pill · .card-xl · grids · .reveal · backgrounds ·
+             tooltips · skeleton · misc utilities · focus ring. The page header, section heads, number strip, icon tiles and the hub cards are the page
+             primitives in components.css (P2-52: one primitives layer); this file's unused duplicates of them (.page-h, .sec-head / .sec-h, .stat-big,
+             .stat-grid, .icon-tile, .link-arrow, .grid-*, .vstack, .scroll-x, .tt-box, .bg-grid / .bg-dots, …) were deleted by WP14 (dead selectors).
+   v3 rules (user approved 2026-10-15): bold, colourful but uncluttered app; solid surfaces (no glass, glow, mesh or gradient text); cobalt primary for links,
+   selection, progress and focus; one coral (.pop) main CTA per screen; subject identity = icon + name, a hue only as a tiny dot or inside data visualisations. */
+
+/* ===================================================================== tokens */
+:root {
+  /* spacing (4-pt scale) */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 20px; --sp-6: 24px; --sp-7: 32px; --sp-8: 40px; --sp-9: 48px; --sp-10: 64px; --sp-11: 80px; --sp-12: 96px; --sp-13: 128px;
+
+  /* type scale (mockup: hero 48, page title 34, section 27, card title 19, lead 16) */
+  --fs-hero: clamp(34px, 1.9vw + 20px, 48px);
+  --fs-display: clamp(30px, 1.4vw + 19px, 42px);
+  --fs-h1: clamp(27px, .9vw + 19px, 34px);
+  --fs-h2: clamp(22px, .5vw + 18.5px, 27px);
+  --fs-h3: clamp(17px, .2vw + 15.5px, 19px);
+  --fs-lead: clamp(15px, .2vw + 14px, 16.5px);
+  --fs-eyebrow: 13.5px;
+  --tr-hero: -.045em; --tr-display: -.04em; --tr-h2: -.03em; --tr-h3: -.02em;
+
+  /* layout: content max 1240 px (spec §2); sections are 46-ish px apart like the mockup */
+  --sec-max: 1240px; --sec-pad-x: clamp(14px, 2.6vw, 32px); --sec-pad-y: clamp(18px, 1.8vw, 24px);
+  --r-2xl: 32px;
+
+  /* depth: one card shadow (--lift, light only); popovers get --shadow-pop */
+  --shadow-xs: 0 1px 1px rgba(14, 21, 48, .04);
+  --shadow-soft: 0 1px 2px rgba(14, 21, 48, .05);
+  --shadow-lift: var(--lift);
+  --shadow-pop: 0 18px 40px -16px rgba(14, 21, 48, .45);
+  --inset-hi: inset 0 0 0 0 transparent;
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 4.5px var(--accent);
+
+  /* motion: feedback only, <= 300 ms; the spring is for small pops (menus, indicators) */
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ease-std: cubic-bezier(.2, .8, .2, 1);
+  --spring: cubic-bezier(.34, 1.5, .6, 1);
+
+  /* legacy gradients (accent -> accent-2) render as one flat colour */
+  --accent-2: var(--accent);
+  /* --primary = the cobalt primary (v3). It used to mean near-black ink; old .btn-xl.primary markup now gets cobalt. */
+  --primary: var(--accent); --primary-ink: var(--accent-ink); --primary-hover: color-mix(in srgb, var(--accent) 88%, #000);
+
+  /* retired mesh tokens (old markup renders nothing) + tooltip */
+  --mesh-1: transparent; --mesh-2: transparent; --mesh-3: transparent; --mesh-4: transparent;
+  --tip-bg: #0E1530; --tip-ink: #F1F3F8; --tip-line: transparent;
+}
+[data-theme="dark"] {
+  --shadow-xs: 0 1px 1px rgba(0, 0, 0, .3);
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, .35);
+  --shadow-pop: 0 18px 44px -16px rgba(0, 0, 0, .75);
+  --accent-2: var(--accent);
+  --primary: var(--accent); --primary-ink: var(--accent-ink); --primary-hover: color-mix(in srgb, var(--accent) 85%, #FFF);
+  --tip-bg: #2A2D35; --tip-ink: #F1F3F8; --tip-line: rgba(241, 243, 248, .14);
+}
+
+/* ===================================================================== subject colour helpers
+   style="--h:<hue>" on any element gives it --subj (the hue: use it only for a tiny dot or a data series) and neutral --subj-ink / --subj-soft / --subj-line,
+   so old markup that tinted whole blocks by subject now renders calm (spec: no rainbow subject chrome). */
+[style*="--h"], .hue {
+  --subj: hsl(var(--h) 60% 52%); --subj-ink: var(--ink); --subj-soft: var(--accent-soft);
+  --subj-line: var(--line-2); --subj-glow: transparent;
+}
+[data-theme="dark"] [style*="--h"], [data-theme="dark"] .hue { --subj: hsl(var(--h) 70% 66%); }
+.subj-ink { color: var(--subj-ink, var(--ink)); }
+.subj-bg { background: var(--accent); color: var(--accent-ink); }
+.subj-dot { display: inline-block; width: 8px; height: 8px; border-radius: 3px; background: var(--subj, var(--accent)); flex: none; }
+.subj-bar { box-shadow: inset 3px 0 0 var(--accent); }
+
+/* ===================================================================== type scale */
+.h-hero, .display { margin: 0; font-size: var(--fs-hero); line-height: 1.02; letter-spacing: var(--tr-hero); font-weight: 700; text-wrap: balance; }
+.h-display { margin: 0; font-size: var(--fs-display); line-height: 1.05; letter-spacing: var(--tr-display); font-weight: 700; text-wrap: balance; }
+.h1 { margin: 0; font-size: var(--fs-h1); line-height: 1.05; letter-spacing: -.025em; font-weight: 700; text-wrap: balance; }
+.h2 { margin: 0; font-size: var(--fs-h2); line-height: 1.1; letter-spacing: var(--tr-h2); font-weight: 700; text-wrap: balance; }
+.h3 { margin: 0; font-size: var(--fs-h3); line-height: 1.25; letter-spacing: var(--tr-h3); font-weight: 750; }
+.lead { font-size: var(--fs-lead); line-height: 1.6; text-wrap: pretty; }
+:where(.lead) { color: var(--muted); }
+.lead.lg { font-size: clamp(16px, .35vw + 14.5px, 18px); }
+.eyebrow.dot { display: inline-flex; width: auto; height: auto; border-radius: 0; background: none; }   /* undoes the difficulty .dot from components.css */
+.eyebrow.pip, .eyebrow.dot { font-size: var(--fs-eyebrow); font-weight: 700; letter-spacing: -.005em; text-transform: none; color: var(--muted); }
+.eyebrow.pip::before, .eyebrow.dot::before { content: ""; width: 9px; height: 9px; border-radius: 3px; background: var(--accent); flex: none; }
+.eyebrow.subj { color: var(--muted); }
+.kicker { font-size: 13px; font-weight: 700; letter-spacing: -.005em; text-transform: none; color: var(--muted); }
+.measure { max-width: 64ch; }
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* ===================================================================== sections + dividers
+   <section class="sec"> centres content at 1240 px; consecutive sections sit ~46 px apart. Wrap in .band for a full-width background. */
+.sec { position: relative; width: 100%; max-width: calc(var(--sec-max) + 2 * var(--sec-pad-x)); margin-inline: auto; padding: var(--sec-pad-y) var(--sec-pad-x); }
+.sec.tight { --sec-pad-y: clamp(12px, 1.2vw, 16px); }
+.sec.roomy { --sec-pad-y: clamp(28px, 3vw, 44px); }
+.sec.narrow { --sec-max: 860px; }
+.sec.wide { --sec-max: 1360px; }
+.sec.ruled::before { content: ""; position: absolute; top: 0; left: var(--sec-pad-x); right: var(--sec-pad-x); height: 1px; background: var(--line); }
+/* the mockup's section heading row: <div class="sec-h"><div><h2/><p/></div><a class="link-arrow">…</a></div> */
+.sec-h { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 8px 16px; margin-bottom: 16px; }
+.sec-h > :first-child { flex: 1 1 360px; min-width: 0; }
+.sec-h h2 { margin: 0; font-size: var(--fs-h2); font-weight: 700; letter-spacing: var(--tr-h2); line-height: 1.1; }
+.sec-h p { margin: 5px 0 0; color: var(--muted); font-size: 14px; }
+.band { position: relative; width: 100%; }
+.band.alt { background: var(--surface-2); border-block: 1px solid var(--line); }
+[data-theme="dark"] .band.alt { background: color-mix(in srgb, var(--surface) 60%, var(--bg)); }
+.band.raised { background: var(--surface); border-block: 1px solid var(--line); }
+.rule { height: 1px; border: 0; margin: 0; background: var(--line); }
+.divider { display: flex; align-items: center; gap: 14px; font-size: 12.5px; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--faint); }
+.divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.divider.left::before { display: none; }
+
+/* ===================================================================== .btn-xl: the big flat button (same family as .btn.lg) */
+.btn-xl { --b: var(--surface); --on: var(--ink); --edge: var(--edge-neutral); --d: 0px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px; height: 48px; padding: 0 22px; border-radius: var(--r-sm); border: 1px solid var(--edge);
+  background: var(--b); color: var(--on); box-shadow: none; transform: none;
+  font: 600 16px/1 var(--font-ui); letter-spacing: 0; white-space: nowrap; text-decoration: none; cursor: pointer; user-select: none;
+  transition: background-color .15s, border-color .15s, color .15s; }
+.btn-xl:hover { background: color-mix(in srgb, var(--b) 92%, var(--on)); }
+.btn-xl:active { background: color-mix(in srgb, var(--b) 86%, var(--on)); }
+.btn-xl svg.i { font-size: 19px; transition: transform .2s var(--ease-out); }
+.btn-xl:hover svg.i:last-child:not(:first-child) { transform: translateX(2px); }
+.btn-xl.primary { --b: var(--accent); --on: var(--accent-ink); --edge: var(--edge-accent); }
+.btn-xl.pop { --b: var(--pop); --on: var(--pop-ink); --edge: var(--edge-pop); }
+.btn-xl.quiet { --b: transparent; --on: var(--ink-2); border-color: transparent; box-shadow: none; padding: 0 16px; }
+.btn-xl.quiet:hover { background: var(--surface-3); color: var(--ink); transform: none; box-shadow: none; }
+.btn-xl.md { --d: 4px; height: 44px; padding: 0 18px; font-size: 14.5px; border-radius: 14px; }
+.btn-xl[disabled], .btn-xl[aria-disabled="true"] { opacity: .45; pointer-events: none; }
+
+/* ===================================================================== links: bold ink text on a cobalt underline (mockup .link); inside running text they are plain cobalt links */
+.link { display: inline-flex; align-items: center; gap: 6px; color: var(--ink); font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--accent); padding-bottom: 1px; line-height: 1.25; }
+.link svg.i { font-size: 15px; transition: transform .2s var(--ease-out); }
+.link:hover svg.i { transform: translateX(3px); }
+.link:hover { color: var(--accent); text-decoration: none; }
+p .link, .lead .link, .card-h .sub .link, li .link { display: inline; color: var(--accent); font-weight: 650; border-bottom: 0; padding: 0; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent); }
+p .link:hover, .lead .link:hover, li .link:hover { text-decoration-color: currentColor; }
+
+/* ===================================================================== .pill: small rounded label / link / filter (same calm family as .chip) */
+.pill { display: inline-flex; align-items: center; gap: 7px; height: 30px; padding: 0 12px; border-radius: 10px; border: 1px solid var(--line-2); max-width: 100%;
+  background: var(--surface); color: var(--ink-2); font: 650 13px/1 var(--font-ui); white-space: nowrap; text-decoration: none;
+  transition: border-color .15s, color .15s, background-color .15s, transform .12s; }
+a.pill:hover, button.pill:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line-2)); color: var(--ink); }
+a.pill:active, button.pill:active { transform: scale(.97); }
+button.pill { cursor: pointer; }
+.pill > span { overflow: hidden; text-overflow: ellipsis; }
+.pill .dot { width: 6px; height: 6px; border-radius: 2px; background: var(--subj, var(--accent)); flex: none; }
+.pill .tag { height: 20px; display: inline-grid; place-items: center; padding: 0 7px; margin-left: -6px; border-radius: 6px; background: var(--accent); color: var(--accent-ink); font-size: 11px; font-weight: 750; letter-spacing: .01em; }
+.pill .sep { width: 1px; height: 12px; background: var(--line-2); }
+.pill svg.i { font-size: 14px; }
+.pill.accent { background: var(--accent-soft); color: var(--ink); border-color: transparent; }
+.pill.subj { background: var(--surface); color: var(--ink-2); border-color: var(--line-2); }
+.pill.solid, .pill.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.pill.sm { height: 24px; padding: 0 9px; font-size: 12px; gap: 5px; border-radius: var(--r-xs); }
+.pill.lg { height: 36px; padding: 0 15px; font-size: 14px; }
+.pills { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* ===================================================================== .card-xl: big content card (solid surface, radius 22, the one lift shadow; links lift on hover) */
+.card-xl { position: relative; isolation: isolate; overflow: hidden; display: flex; flex-direction: column; gap: 12px; min-width: 0;
+  padding: var(--card-pad); border-radius: var(--r-lg); border: 1px solid var(--card-edge); background: var(--surface); color: inherit; text-decoration: none; box-shadow: var(--lift);
+  transition: transform .25s var(--spring), border-color .15s, background-color .15s; }
+.card-xl.lined::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--accent); pointer-events: none; }
+a.card-xl:hover, button.card-xl:hover, .card-xl.hover:hover { box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 40%, transparent), var(--shadow-1); }
+a.card-xl:active, button.card-xl:active, .card-xl.hover:active { transform: translateY(1px) scale(.995); }
+button.card-xl { font: inherit; text-align: left; cursor: pointer; }
+.card-xl.flat { box-shadow: none; background: var(--surface-2); }
+.card-xl.glass { background: var(--surface); }
+.card-xl.tight { padding: var(--card-pad-tight); gap: 8px; border-radius: var(--r); }
+.card-xl h3 { margin: 0; font-size: var(--fs-h3); line-height: 1.25; letter-spacing: var(--tr-h3); font-weight: 750; }
+.card-xl p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.card-xl .foot { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 13px; color: var(--muted); }
+.card-xl .go { color: var(--faint); transition: transform .2s var(--ease-out), color .2s; }
+a.card-xl:hover .go { transform: translateX(3px); color: var(--accent); }
+
+/* ===================================================================== grids */
+.split { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: clamp(20px, 3vw, 48px); align-items: center; }
+@media (max-width: 960px) { .split { grid-template-columns: minmax(0, 1fr); } }
+.cluster { display: flex; flex-wrap: wrap; align-items: center; gap: var(--gap, 10px); }
+
+/* ===================================================================== .reveal: slide in once when scrolled into view (GA.reveal adds .in). Short (<= 300 ms), reduced-motion shows everything */
+.reveal-on .reveal { opacity: 0; transform: translateY(14px); transition: opacity .3s var(--ease-out), transform .3s var(--ease-out); transition-delay: calc(var(--i, 0) * 45ms); }
+.reveal-on .reveal.fade { transform: none; }
+.reveal-on .reveal.zoom { transform: scale(.97); }
+.reveal-on .reveal.left { transform: translateX(-14px); }
+.reveal-on .reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal-on .reveal { opacity: 1 !important; transform: none !important; transition: none !important; } }
+@media print { .reveal-on .reveal { opacity: 1 !important; transform: none !important; } }
+
+/* ===================================================================== backgrounds: .mesh is retired (old markup renders nothing) */
+.mesh { position: relative; isolation: isolate; }
+.mesh::before { content: none; }
+
+/* ===================================================================== tooltips
+   1. CSS: data-tip="text" (components.css) + data-tip-pos="top|right|left" for direction.
+   2. Floating (JS, works on SVG too): data-ftip="Title\nmore lines" on any element; GA.reveal draws .ftip next to the pointer / focused element. */
+[data-tip][data-tip-pos="top"]:hover::after, [data-tip][data-tip-pos="top"]:focus-visible::after { top: auto; bottom: calc(100% + 8px); }
+[data-tip][data-tip-pos="right"]:hover::after, [data-tip][data-tip-pos="right"]:focus-visible::after { top: 50%; left: calc(100% + 10px); transform: translateY(-50%); }
+[data-tip][data-tip-pos="left"]:hover::after, [data-tip][data-tip-pos="left"]:focus-visible::after { top: 50%; left: auto; right: calc(100% + 10px); transform: translateY(-50%); }
+[data-tip][data-tip-pos="end"]:hover::after, [data-tip][data-tip-pos="end"]:focus-visible::after { left: auto; right: 0; transform: none; }
+.tt { position: relative; display: inline-block; border-bottom: 1.5px dashed color-mix(in srgb, var(--accent) 55%, transparent); cursor: help; }
+.ftip { position: fixed; left: 0; top: 0; z-index: 400; max-width: min(300px, calc(100vw - 16px)); padding: 8px 12px; border-radius: var(--r-sm); pointer-events: none;
+  background: var(--tip-bg); color: var(--tip-ink); border: 1px solid var(--tip-line); box-shadow: var(--shadow-pop); font: 500 12.5px/1.45 var(--font-ui);
+  white-space: pre-line; opacity: 0; transform: translateY(3px); transition: opacity .12s, transform .12s; font-variant-numeric: tabular-nums; }
+.ftip.on { opacity: 1; transform: none; }
+.ftip b { display: block; font-weight: 750; font-size: 13px; margin-bottom: 1px; }
+.ftip .sub { color: color-mix(in srgb, var(--tip-ink) 70%, transparent); }
+
+/* ===================================================================== skeleton (loading placeholders) */
+.skel { display: block; border-radius: var(--r-xs); background: linear-gradient(90deg, var(--surface-3) 0%, var(--surface-2) 45%, var(--surface-3) 90%); background-size: 220% 100%; animation: sk 1.4s linear infinite; }
+.skel.line { height: 12px; }
+.skel.title { height: 30px; width: 56%; border-radius: 10px; }
+.skel.block { height: 180px; border-radius: var(--r-lg); }
+.skel.circle { border-radius: 50%; aspect-ratio: 1; }
+@media (prefers-reduced-motion: reduce) { .skel { animation: none; } }
+
+/* ===================================================================== small shared bits other views rely on */
+.dotl { display: inline-flex; align-items: center; gap: 7px; }          /* status as a small dot + plain text */
+.dotl::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dot, var(--faint)); flex: none; }
+.dotl.ok { --dot: var(--ok); } .dotl.warn { --dot: var(--warn); } .dotl.bad { --dot: var(--bad); } .dotl.accent { --dot: var(--accent); } .dotl.subj { --dot: var(--subj); }
+.un .sd { width: 8px; height: 8px; border-radius: 50%; align-self: center; }   /* subject markers as small dots, not colour bars (views.css) */
+.mrow .sd { width: 8px; height: 8px; border-radius: 50%; justify-self: center; }
+.due b, .due.has b { padding: 0; background: none; color: var(--muted); font-weight: 650; }
+.due.has b { color: var(--ink); }
+
+/* ===================================================================== misc utilities */
+.surface { background: var(--surface); border-radius: var(--r-lg); box-shadow: var(--lift); }
+[data-theme="dark"] .surface { border: 1px solid var(--card-edge); }
+.hairline { border: 1px solid var(--line); }
+.center { text-align: center; }
+.mono { font-family: var(--font-mono); font-variant-ligatures: none; }
+
+/* ===================================================================== focus ring for the primitives above (base.css sets the generic outline) */
+.btn-xl:focus-visible, .pill:focus-visible, .card-xl:focus-visible, .stats > a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.btn-xl:focus-visible { box-shadow: var(--focus-ring); border-radius: var(--r-sm); }
+.pill:focus-visible { border-radius: 10px; } .card-xl:focus-visible { border-radius: var(--r-lg); }
+.card-xl.tight:focus-visible { border-radius: var(--r); }

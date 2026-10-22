@@ -1,0 +1,397 @@
+---
+id: sm.int.drivers
+title: Strategic drivers
+minutes: 30
+needs: sm.int.stakeholders, sm.ext.markets
+tags: strategic drivers, industry and markets, strategic group mapping, customer and consumer, marketing strategies, synchro-marketing, demarketing, sales channel, product channel, service channel
+labs:
+summary: The four strategic drivers (industry and markets, customers, products/services, channels) that show how a business is performing and what sets it apart, with strategic group mapping and ICAI's list of marketing strategies.
+---
+
+## In plain words
+
+### "How are we doing?"
+
+The board asks Kesar how Tapri's cafés are performing.
+
+> **Kesar:** Fantastic. The queue reaches the parking lot.
+> **Ananya:** Whose parking lot, Kesar-ji? Ours, or BrewBucks' next door?
+> **Kesar:** Does it matter? A queue is a queue.
+> **Ananya:** It matters who is standing in it, what they are buying, and how the chai reached the counter.
+
+Before a company can choose where to go, it must know how it is performing now and what makes it different from its rivals. The Study Material calls the places to look the **strategic drivers**, and names four.
+
+**Industry and markets**: which industry Tapri belongs to, which market each product sells in, and where Tapri stands against rivals of every size. A **strategic group map** draws the rivals on one chart, so that the firms competing the same way sit together.
+
+**Customers**: who buys, what each type of buyer needs and spends, and the difference between the **customer** who pays and the **consumer** who uses (a parent buys the school stationery; the child uses it).
+
+**Products and services**: what Tapri sells, how each product is doing, and how it is branded, priced and marketed: what business are we in, and how do we win in each product?
+
+**Channels**: how the product reaches the buyer. The **sales channel** sells it, the **product channel** carries it, the **service channel** supports it.
+
+::: analogy The highway dhaba
+A dhaba on a national highway judging its own performance asks four questions. Which stretch of highway is it on, and which other dhabas there sell the same parathas at the same price (its strategic group)? Who stops: truck drivers, or families whose father pays while the children choose (customer and consumer)? What does it serve, and should the "Chinese corner" be dropped? How do travellers find it and get fed: the signboard five kilometres back, the parcel counter at the toll plaza, the puncture mechanic next door who keeps trucks parked long enough to order a second chai?
+:::
+
+::: key
+Strategic drivers assess current performance by asking what differentiates the organisation from its competitors. The four key drivers are **industry and markets, customers, products/services and channels**; some are interlinked (markets with products, channels with the key customers in each channel).
+:::
+
+## How it works
+
+### What the drivers are
+
+An important aspect of internal analysis is **assessing the current performance** of the business, and in doing so the strategic drivers consider ==what differentiates an organisation from its competitors==. This involves analysing the key markets in which the organisation operates, its key customers, the products and services it provides, the channels through which they are delivered, and its competitive advantage. Some components are interlinked, such as markets and products/services, and channels and the key customers in each channel. Performance can be judged in varied ways (profit driven, purpose driven or other metrics management chooses), but in general the key strategic drivers are (SM 3.8):
+
+::: diagram The four key strategic drivers
+{"type": "graph", "w": 420, "h": 250, "directed": false, "nodes": [{"id": "m", "label": "Industry and\nmarkets", "x": 105, "y": 70, "shape": "square", "r": 52, "fill": "a"}, {"id": "p", "label": "Products/\nservices", "x": 315, "y": 70, "shape": "square", "r": 52, "fill": "c"}, {"id": "c", "label": "Customers", "x": 105, "y": 190, "shape": "square", "r": 52, "fill": "g"}, {"id": "h", "label": "Channels", "x": 315, "y": 190, "shape": "square", "r": 52, "fill": "f"}], "edges": [{"from": "m", "to": "p", "label": "interlinked"}, {"from": "h", "to": "c", "label": "key customers\nin each channel"}], "caption": "The four drivers of SM 3.8. The two lines are the Study Material's examples of interlinked components."}
+:::
+
+### Driver 1: industry and markets
+
+It is very important for an organisation to understand its **relative position** in the industry and in the market in which it operates (SM 3.8).
+
+- **Industry**: similar companies grouped together, basically by the **primary product** a company makes or sells. Maruti, Mahindra, Tata Motors, TVS and Bajaj Auto form the automotive industry; Zara, H&M, Marks & Spencer, Pantaloons, Westside and Uniqlo the apparels industry (SM 3.8).
+- **Market**: the sum total of all the buyers and sellers in the area or region under consideration. The value, cost and price of items traded follow the forces of supply and demand. A market may be physical or virtual (e-commerce websites and applications), local or global (SM 3.9).
+- **Is the market the same for all businesses?** No. Each business has its own set of customers, and each product within a business has its own market: an FMCG company selling shampoos, dairy products, flours and washing powder builds a strategy for each product line's market (SM 3.9). Tapri's premix, cafés and samosas each have a market of their own.
+
+### Strategic group mapping
+
+Industry and market analysis identifies the organisation's position against competitors of equal size and value, bigger ones, or smaller and newer ones. The tool is **strategic group mapping** (SM 3.9).
+
+::: definition Strategic group
+A strategic group consists of those rival firms which have similar competitive approaches and positions in the market (SM 3.9).
+:::
+
+Firms in the same strategic group can resemble one another in several ways: comparable **product-line breadth**, the same **price/quality range**, the same **distribution channels**, essentially the same **product attributes** to appeal to similar buyers, identical **technological approaches**, or similar **services and technical assistance**. An industry has only one strategic group when all sellers pursue essentially identical strategies; at the other extreme there are as many strategic groups as competitors, when each rival pursues a distinctively different approach (SM 3.9).
+
+The procedure for constructing a strategic group map (SM 3.10):
+
+::: steps
+1. **Identify the competitive characteristics** that differentiate firms in the industry. Typical variables: price/quality range (high, medium, low); geographic coverage (local, regional, national, global); degree of vertical integration (none, partial, full); product-line breadth (wide, narrow); use of distribution channels (one, some, all); degree of service offered (no-frills, limited, full).
+2. **Plot the firms on a two-variable map** using pairs of these differentiating characteristics.
+3. **Assign firms** that fall in about the same strategy space to the same strategic group.
+4. **Draw circles around each strategic group**, making the circles proportional to the size of the group's respective share of total industry sales revenues.
+:::
+
+The Study Material's example plots five laptop makers on reputation against range of products: the map shows the competition on two factors in a single graphical representation (SM 3.10–3.11). The chapter's own MCQ adds that strategic group mapping helps in **identifying the weakest and strongest rival companies** (SM 3.37, answer 3.42).
+
+### Driver 2: customers
+
+Understanding the different types of customers to whom the products are sold is important, and it is **the first step in deciding the product/service**. Different customers may have different needs and require different sales models or distribution channels. The Study Material groups a headphones brand's buyers into high, medium and low value by what they are willing to spend (SM 3.11–3.12). Customers are often responsible for the profits, so it is important to collect and display data to show **customer trends and profitability**; issues can then be identified and target areas for growth pursued (SM 3.12).
+
+Tapri's TapriNow app users, grouped the same way:
+
+::: diagram TapriNow users by monthly spend
+{"type": "plot", "w": 420, "h": 260, "x": [0.4, 3.6], "y": [0, 70], "xticks": [[1, "high value"], [2, "medium value"], [3, "low value"]], "yticks": [0, 20, 40, 60], "ylabel": "users (thousands)", "legend": "none", "series": [{"label": "users", "bars": true, "values": true, "color": "e", "pts": [[1, 12], [2, 34], [3, 61]]}], "caption": "High value: ₹1,500 a month and above (average ₹2,000); medium: ₹500 to ₹1,500 (average ₹900); low: below ₹500 (average ₹250)."}
+:::
+
+The 12,000 high-value users are 11.2% of the 1,07,000 users but bring ₹2.40 crore of the ₹6.985 crore monthly revenue (34.4%); the 61,000 low-value users, 57.0% of users, bring ₹1.525 crore (21.8%). That is a "trend and profitability" display.
+
+::: definition Customer and consumer
+A **customer** is the one who buys a product or service; the **consumer** is the one who finally uses or consumes it. A customer can be a consumer and vice versa (SM 3.12).
+:::
+
+Parents buy stationery (customers) that their children use (consumers); parents buy diapers and will pay more for higher quality, while the babies care about comfort, and if the consumer is not satisfied it is difficult to retain the customer. From a **pricing** perspective the customer is of more importance; for **value creation and design/usability** the consumer must be kept at the centre of decision making (SM 3.12).
+
+### Driver 3: products and services
+
+Products and services are closely linked with the markets the organisation wants to serve. This driver identifies the key products and services and how they are performing, and answers the general question: ==what business are we in and what should be done to win over competition in each product/service we serve== (SM 3.13).
+
+- **Product** stands for the combination of "goods-and-services" that the company offers to the target market. Strategies are needed for managing existing products over time, adding new ones and dropping failed ones; decisions are also made on branding, packaging and features such as warranties (SM 3.13).
+- Products can be classified as **industrial or consumer**, **essentials or luxury**, **durables or perishables**. Some have consistent demand over long periods; others have short life spans (SM 3.13).
+- Products can be **differentiated** on size, shape, colour, packaging, brand names, after-sales service and so on. It does not matter whether the differentiation is real or imaginary; quite often it is psychological rather than physical. P&G's Head & Shoulders, Olay, Old Spice and Pantene are all made by the same company (SM 3.13).
+- **Brand names** formalise the differentiation, usually with legal protection; they let customers identify the product and the organisation behind it, and customers develop brand loyalty over time (SM 3.13).
+- For a **new product**, the entry pricing strategy must keep at least three objectives in mind: a customer-centric approach; sufficient returns through a reasonable margin over cost; increasing market share (SM 3.14).
+
+Products and services need heavy investment in reaching customers. The marketing strategies that have evolved to handle marketing strategically and fight the competition, in the Study Material's order (SM 3.14–3.16):
+
+| Strategy | What it is | Study Material example |
+|---|---|---|
+| **Social marketing** | Programmes seeking to increase the acceptability of a social idea, cause or practice among a target group, to bring in social change | Delhi's publicity campaign on prohibition of smoking |
+| **Augmented marketing** | Additional customer services and benefits besides the core and actual product, promising to elevate customer service to unprecedented levels | Movies on demand, online computer repair, secretarial services |
+| **Direct marketing** | Advertising media that interact directly with consumers, generally calling for a direct response | Catalogue selling, e-mail, telecomputing, TV shopping |
+| **Relationship marketing** | Creating, maintaining and enhancing strong, value-laden relationships with customers and other stakeholders | Airline lounges for frequent flyers |
+| **Services marketing** | Applying marketing concepts, tools and techniques to services (essentially intangible), which need different strategies because of characteristics such as inseparability and variability | |
+| **Person marketing** | Creating, maintaining or changing attitudes and behaviour towards a particular person | Politicians, sports stars, film stars |
+| **Organization marketing** | Creating, maintaining or changing attitudes and behaviour of target audiences towards an organisation; profit and non-profit | |
+| **Place marketing** | Creating, maintaining or changing attitudes and behaviour towards particular places | Business sites, tourism marketing |
+| **Enlightened marketing** | A philosophy that marketing should support the best long-run performance of the marketing system; five principles: customer-oriented, innovative, value, sense-of-mission and societal marketing | |
+| **Differential marketing** | Targeting several market segments with a separate offer for each | HUL: Lifebuoy, Lux, Rexona (popular); Dove, Pears (premium) |
+| **Synchro-marketing** | When demand is irregular (by season, part of the day or hour), causing idle or overworked capacity: altering the pattern of demand through flexible pricing, promotion and other incentives | Cheaper movie tickets on weekdays |
+| **Concentrated marketing** | Going after a large share of one or a few sub-markets; can take the form of niche marketing | |
+| **Demarketing** | Reducing demand temporarily or permanently when there is overfull demand: not destroying it, only reducing or shifting it | Overloaded buses at peak hours; crowded zoos on weekends |
+
+### Driver 4: channels
+
+**Channels** are the distribution system by which an organisation distributes its product or provides its service. Lakme sells through retail stores, intermediary stores and online platforms including its own website; Boat headphones only online through e-commerce platforms; Coca-Cola through retail shops in every district and town as well as quick-delivery apps. **The wider and stronger the channel, the better the position** to fight and win over competition, and robust channels keep new players away, acting as **barriers to entry** (SM 3.16). That is why bottled water and cold drinks reach a hill station or a desert; Coca-Cola, HUL, Patanjali, Asian Paints and Ola have built competitive advantage in channels (SM 3.17).
+
+There are typically three channels to consider (SM 3.16–3.17):
+
+| Channel | What it is | Study Material example | Tapri |
+|---|---|---|---|
+| **Sales channel** | The intermediaries involved in selling the product through each channel and ultimately to the end user. Key question: who needs to sell to whom for the product to reach the end user? | Fashion designers using agencies to sell to retail organisations | Distributors selling premix to kirana stores |
+| **Product channel** | The series of intermediaries who physically handle the product on its path from producer to end user | Australia Post delivering eBay purchases | The cold-chain fleet and third-party couriers |
+| **Service channel** | The entities that provide the services needed to support the product as it moves through the sales channel and after purchase; important for products complex to install or support | A Bosch dishwasher sold in a Bosch showroom, installed by a Bosch-contracted plumber | Technicians who install and service office chai machines |
+
+**Channel analysis** is important when the strategy is to **scale up and expand beyond current geographies and markets**: growing into newer markets means developing or leveraging channels to reach new customers. A healthcare brand reaching elderly customers needs offline agents, since most of them are not active on smartphones; a new drink brand needs every channel possible, from stores to social media campaigns. Channels, the partners in growth, play a crucial role in internal strategic alignment (SM 3.17).
+
+## Worked examples
+
+::::: example Nine chains, one chart
+Ananya wants one picture of who competes with whom in the Indian chai-and-coffee café industry, so that she can see which rivals compete the way Tapri does. She has collected each chain's price/quality range, geographic coverage and share of industry sales:
+
+| Chain | Price | Coverage | Share (%) |
+|---|---|---|---|
+| BrewBucks | High | Global | 18 |
+| Bean Royale | High | Global | 12 |
+| ChaiNation | Low | National | 15 |
+| Kadak Express | Low | National | 10 |
+| Tapri | Medium | National | 20 |
+| Brew Bazaar | Medium | Regional | 6 |
+| Kettle & Co | Medium | Regional | 4 |
+| Masala Mug | Low | Regional | 9 |
+| Cutting Corner | Low | Local | 6 |
+
+Required:
+
+(i) Recommend a suitable tool and outline the procedure for using it.
+
+(ii) Apply it to the data and state what the result shows about Tapri's position.
+
+:::: answer Model answer
+The tool to study the market positions of rival companies by grouping them into like positions is **strategic group mapping**. A strategic group consists of those rival firms which have similar competitive approaches and positions in the market. Grouping is useful here because there are nine competitors, too many to examine each in depth.
+
+**Procedure:**
+
+1. Identify the competitive characteristics that differentiate firms in the industry: typical variables are price/quality range (high, medium, low), geographic coverage (local, regional, national, global), degree of vertical integration, product-line breadth, use of distribution channels and degree of service offered. Ananya has chosen **price/quality range** and **geographic coverage**.
+2. Plot the firms on a two-variable map using these two characteristics.
+3. Assign firms that fall in about the same strategy space to the same strategic group.
+4. Draw circles around each strategic group, proportional to the group's share of total industry sales revenues.
+
+**Applied to the data:**
+
+| Strategic group | Firms | Share (%) |
+|---|---|---|
+| Global premium (high price, global) | BrewBucks, Bean Royale | 30 |
+| National value (low price, national) | ChaiNation, Kadak Express | 25 |
+| National mid-price (medium price, national) | Tapri | 20 |
+| Budget local and regional (low price, local or regional) | Masala Mug, Cutting Corner | 15 |
+| Regional mid-price (medium price, regional) | Brew Bazaar, Kettle & Co | 10 |
+| **Total** | | **100** |
+
+::: diagram Strategic group map of the café industry
+{"type": "plot", "w": 420, "h": 420, "x": [-0.3, 4.3], "y": [0.2, 4.8], "xlabel": "price/quality range", "ylabel": "geographic coverage", "legend": "none", "xticks": [[1, "low"], [2, "medium"], [3, "high"]], "yticks": [[1, "local"], [2, "regional"], [3, "national"], [4, "global"]], "regions": [{"pts": [[3.5, 4.0], [3.494, 4.078], [3.476, 4.155], [3.446, 4.227], [3.405, 4.294], [3.354, 4.354], [3.294, 4.405], [3.227, 4.446], [3.155, 4.476], [3.078, 4.494], [3.0, 4.5], [2.922, 4.494], [2.845, 4.476], [2.773, 4.446], [2.706, 4.405], [2.646, 4.354], [2.595, 4.294], [2.554, 4.227], [2.524, 4.155], [2.506, 4.078], [2.5, 4.0], [2.506, 3.922], [2.524, 3.845], [2.554, 3.773], [2.595, 3.706], [2.646, 3.646], [2.706, 3.595], [2.773, 3.554], [2.845, 3.524], [2.922, 3.506], [3.0, 3.5], [3.078, 3.506], [3.155, 3.524], [3.227, 3.554], [3.294, 3.595], [3.354, 3.646], [3.405, 3.706], [3.446, 3.773], [3.476, 3.845], [3.494, 3.922]], "color": "a", "label": "Premium 30%", "outline": true}, {"pts": [[1.456, 3.0], [1.451, 3.071], [1.434, 3.141], [1.407, 3.207], [1.369, 3.268], [1.323, 3.323], [1.268, 3.369], [1.207, 3.407], [1.141, 3.434], [1.071, 3.451], [1.0, 3.456], [0.929, 3.451], [0.859, 3.434], [0.793, 3.407], [0.732, 3.369], [0.677, 3.323], [0.631, 3.268], [0.593, 3.207], [0.566, 3.141], [0.549, 3.071], [0.544, 3.0], [0.549, 2.929], [0.566, 2.859], [0.593, 2.793], [0.631, 2.732], [0.677, 2.677], [0.732, 2.631], [0.793, 2.593], [0.859, 2.566], [0.929, 2.549], [1.0, 2.544], [1.071, 2.549], [1.141, 2.566], [1.207, 2.593], [1.268, 2.631], [1.323, 2.677], [1.369, 2.732], [1.407, 2.793], [1.434, 2.859], [1.451, 2.929]], "color": "c", "label": "Value 25%", "outline": true}, {"pts": [[2.408, 3.0], [2.403, 3.064], [2.388, 3.126], [2.364, 3.185], [2.33, 3.24], [2.289, 3.289], [2.24, 3.33], [2.185, 3.364], [2.126, 3.388], [2.064, 3.403], [2.0, 3.408], [1.936, 3.403], [1.874, 3.388], [1.815, 3.364], [1.76, 3.33], [1.711, 3.289], [1.67, 3.24], [1.636, 3.185], [1.612, 3.126], [1.597, 3.064], [1.592, 3.0], [1.597, 2.936], [1.612, 2.874], [1.636, 2.815], [1.67, 2.76], [1.711, 2.711], [1.76, 2.67], [1.815, 2.636], [1.874, 2.612], [1.936, 2.597], [2.0, 2.592], [2.064, 2.597], [2.126, 2.612], [2.185, 2.636], [2.24, 2.67], [2.289, 2.711], [2.33, 2.76], [2.364, 2.815], [2.388, 2.874], [2.403, 2.936]], "color": "g", "label": "Tapri 20%", "outline": true}, {"pts": [[2.289, 2.0], [2.285, 2.045], [2.275, 2.089], [2.257, 2.131], [2.234, 2.17], [2.204, 2.204], [2.17, 2.234], [2.131, 2.257], [2.089, 2.275], [2.045, 2.285], [2.0, 2.289], [1.955, 2.285], [1.911, 2.275], [1.869, 2.257], [1.83, 2.234], [1.796, 2.204], [1.766, 2.17], [1.743, 2.131], [1.725, 2.089], [1.715, 2.045], [1.711, 2.0], [1.715, 1.955], [1.725, 1.911], [1.743, 1.869], [1.766, 1.83], [1.796, 1.796], [1.83, 1.766], [1.869, 1.743], [1.911, 1.725], [1.955, 1.715], [2.0, 1.711], [2.045, 1.715], [2.089, 1.725], [2.131, 1.743], [2.17, 1.766], [2.204, 1.796], [2.234, 1.83], [2.257, 1.869], [2.275, 1.911], [2.285, 1.955]], "color": "e", "label": "Regional 10%", "outline": true}, {"pts": [[1.354, 1.5], [1.349, 1.555], [1.336, 1.609], [1.315, 1.661], [1.286, 1.708], [1.25, 1.75], [1.208, 1.786], [1.161, 1.815], [1.109, 1.836], [1.055, 1.849], [1.0, 1.854], [0.945, 1.849], [0.891, 1.836], [0.839, 1.815], [0.792, 1.786], [0.75, 1.75], [0.714, 1.708], [0.685, 1.661], [0.664, 1.609], [0.651, 1.555], [0.646, 1.5], [0.651, 1.445], [0.664, 1.391], [0.685, 1.339], [0.714, 1.292], [0.75, 1.25], [0.792, 1.214], [0.839, 1.185], [0.891, 1.164], [0.945, 1.151], [1.0, 1.146], [1.055, 1.151], [1.109, 1.164], [1.161, 1.185], [1.208, 1.214], [1.25, 1.25], [1.286, 1.292], [1.315, 1.339], [1.336, 1.391], [1.349, 1.445]], "color": "d", "label": "Budget 15%", "outline": true}], "caption": "Circle areas are drawn in proportion to each group's share of total industry sales revenue. Blue: global premium; amber: national value; green: Tapri; sky blue: regional mid-price; orange: budget local and regional."}
+:::
+
+The map shows that Tapri is alone in its strategy space: its direct rivals are the national value chains on one side and the global premium chains on the other, while the regional mid-price chains are the firms closest to moving into Tapri's space. Ananya can now study the strongest and weakest rivals group by group.
+::::
+:::::
+
+:::: example The masala-milk mix the children refused
+Tapri launched "Chhota Chai", a caffeine-free masala-milk mix for school children. Market research was done with parents: they liked the nutrition label and the price, and first-month sales were strong. The children found it too spicy, left their cups half full, and by the third month repeat orders had fallen by 60%. Kesar blames the distributors.
+
+Identify the strategic driver Tapri overlooked, and state the other strategic drivers an organisation should analyse before such a decision.
+
+::: answer Model answer
+**Driver overlooked: customers.** Understanding the different types of customers is the first step in deciding the product. The Study Material distinguishes the **customer**, who buys the product, from the **consumer**, who finally uses it. From a pricing perspective the customer matters more; for value creation and design/usability the consumer must be kept at the centre of decision making. Here the parents (customers) were researched and the children (consumers) were not. Because the consumers were not satisfied, Tapri could not retain the customers: repeat orders fell, although the price and the distribution were not at fault.
+
+**Other strategic drivers** to analyse before a strategic decision:
+
+1. **Industry and markets**: the organisation's relative position in its industry and in the market for each product, analysed through strategic group mapping.
+2. **Products/services**: what business the organisation is in, how each product is performing, and its branding, packaging, features, pricing and marketing.
+3. **Channels**: the sales, product and service channels through which the product reaches and is supported for the end user.
+:::
+::::
+
+::::: example Name the marketing strategy
+Identify the marketing strategy in each of Tapri's moves.
+
+(a) Tapri's premix sells three times as much in December and January as in May and June, when the factory runs at a third of its capacity. From April to June Tapri runs an "iced masala chai" recipe campaign and packs a free steel tumbler with every pack.
+
+(b) During the IPL final, TapriNow cannot deliver within its promised time, so it raises its delivery fee for that evening and stops advertising, to cut orders to what its riders can handle.
+
+(c) Every year Tapri invites its top 200 kirana retailers and their families to a "Tapri Parivaar" meet, shares its plans with them first and lets them vote on the next festival flavour.
+
+(d) Every premix pack carries a QR code for a free video call with a "chai sommelier" and a recipe library, and bulk buyers get free training for their staff in brewing.
+
+(e) Tapri sells three versions of its premix, "Tapri Junior" (milder, sold near schools), "Tapri Fit" (sugar-free, sold in gyms) and "Tapri Classic" (for households), each with its own pack, price and advertising.
+
+(f) A campaign "Kulhad lao, plastic hatao" urges people across the city to stop using plastic cups, whoever's tea they drink.
+
+:::: answer Model answer
+**(a) Synchro-marketing.** Demand is irregular by season, leaving capacity idle in summer and overworked in winter; the pattern of demand is altered through promotion and other incentives (the campaign and the free tumbler). Synchro-marketing does not need a price cut.
+
+**(b) Demarketing.** Demand is overfull for one evening; Tapri reduces it temporarily without trying to destroy it. It is not synchro-marketing: Tapri is not filling idle hours by evening out a recurring pattern, it is cutting an excess it cannot serve.
+
+**(c) Relationship marketing.** Creating, maintaining and enhancing strong, value-laden relationships with customers and **other stakeholders**: here the retailers through whom Tapri sells.
+
+**(d) Augmented marketing.** Additional customer services and benefits besides the core and actual product (the premix), elevating customer service.
+
+**(e) Differential marketing.** Several market segments targeted, with a separate offer designed for each.
+
+**(f) Social marketing.** A programme to increase the acceptability of a social practice among a target group to bring in social change; it promotes a practice, not Tapri's product.
+
+::: diagram Cue to strategy
+{"type": "table", "head": ["Cue in the case", "Strategy"], "rows": [["Seasonal or hourly peaks and idle capacity", "Synchro-marketing"], ["More demand than can be served", "Demarketing"], ["Bond with customers or other stakeholders", "Relationship marketing"], ["Services beyond the core product", "Augmented marketing"], ["A separate offer for each segment", "Differential marketing"], ["A social idea, cause or practice", "Social marketing"]]}
+:::
+::::
+:::::
+
+## Under the hood
+
+### Whose bubble is it?
+
+Step 4 of the procedure makes each circle proportional to the group's **share of total industry sales revenue**. The Study Material's laptop illustration explains its bubbles differently, saying a firm's reputation is shown "through the size of the bubble ... along with how high it is on the Y-axis" (SM 3.11). In an answer, follow the four steps; if you draw a map, say what the circle size shows. ICAI's suggested answers reproduce the four steps almost word for word, with the circle step unchanged (May 2024 Q8(b); January 2026 Q5(a)).
+
+### Customers here and in the external chapter
+
+The external-environment chapter treats customer analysis and customer behaviour, and repeats the customer-consumer distinction (SM 2.39–2.41; [[sm.ext.markets|customers, markets and competition]]). Here customers are a driver of the firm's own performance: which types it serves and how profitable each is.
+
+### Links to the rest of the paper
+
+Channels as barriers to entry meet the threat of new entrants in [[sm.ext.porter|Porter's five forces]]; product differentiation feeds the differentiation strategy in [[sm.int.generic|Porter's generic strategies]]; short-lived products meet the [[sm.ext.industry|product life cycle]].
+
+## Exam angle
+
+::: exam Where the drivers appeared, May 2024 to September 2026
+Of the 32 new-scheme ICAI documents searched (eight past papers, eight RTPs, sixteen MTPs), 19 ask about this lesson:
+
+- **"Write a short note on the key strategic drivers of an organization", 5 marks**: January 2025 Q8(b); RTP January 2026 Q12; RTP May 2026 Q12; RTP September 2025 Q12; RTP September 2026 Q12; MTP September 2025 Series I Q3(a); MTP May 2026 Series I Q3(a). Case versions: a timber trader whose customers switched to polyester furnishings, "identify and explain the strategic driver overlooked ... also, state other strategic drivers" (MTP September 2026 Series I Q1(b): customers); a startup revising its model to follow user behaviour and platforms (MTP January 2026 Series II Q1(b)).
+- **Channels, 5 marks**: "What are channels? Why is channel analysis important? Explain the different types of channels" (May 2024 Q8(a), 1 + 1 + 3; MTP January 2026 Series II Q3(b); RTP January 2025 Q12); May 2026 Q7(b); MTP September 2024 Series II Q2(b).
+- **Strategic group mapping, 5 marks**: "recommend a tool to analyse the competitive position of rival companies and outline the procedure" (May 2024 Q8(b), an OR choice; January 2026 Q5(a), a beverage company in a saturated market; the same task in MTP May 2024 Series I, MTP September 2024 Series II, MTP September 2025 Series II and MTP September 2026 Series II); smartphone makers on price and features (MTP May 2026 Series I Q1(a)); identify the tool from a two-wheeler grouping (RTP May 2026 Q11).
+- **MCQs, 1 or 2 marks**: the tool for identifying the strongest and weakest competitors, or the market positions of rivals (January 2025 MCQ 10; RTP January 2026 MCQ 5; RTP May 2025 MCQ 4; MTP September 2025 Series I (A)(i): strategic group mapping each time); enlightened marketing (January 2025 MCQ 13); augmented marketing (May 2025 MCQ 12; MTP September 2026 Series I); the product driver (January 2026 MCQ 13); a café overcrowded on weekends offering weekday discounts (January 2026 MCQ 16: synchro-marketing); frequent-flyer lounges (MTP January 2026 Series II: relationship marketing).
+:::
+
+::: exam The cue words
+Marketing-strategy MCQs are decided by one phrase in the case. "Irregular demand, idle capacity, off-peak discount": synchro. "Overfull demand, reduce or shift it": demarketing. "Additional services beyond the core product, unprecedented level": augmented. "Long-run performance of the marketing system, customer orientation, sense of mission": enlightened. "Several segments, a separate offer for each": differential. "One or a few sub-markets": concentrated.
+:::
+
+::: trick I-C-P-C: "I Count Profit Carefully"
+**I**ndustry and markets, **C**ustomers, **P**roducts/services, **C**hannels, the Study Material's order (SM 3.8). For channels: **S**ell, **P**hysically carry, **S**upport (sales, product, service). Condition: the mnemonic gives the order; the marks are for the explanation of each.
+:::
+
+## Answer frame
+
+### "Write a short note on the key strategic drivers" (5 marks)
+
+1. **Opening**: strategic drivers are essential elements that influence an organisation's ability to differentiate itself from its competitors; they assess the current performance of the business (key markets, key customers, products and services, channels and competitive advantage).
+2. **Industry and markets**: relative position; industries group companies by primary product; a market is all buyers and sellers in a region; analysed through strategic group mapping.
+3. **Customers**: types of customers and their needs; the first step in deciding the product; customer versus consumer.
+4. **Products/services**: what business are we in and how to win in each product; branding, packaging, features, pricing; marketing strategies.
+5. **Channels**: sales, product and service channels; wide and strong channels win and act as barriers to entry.
+6. **Closing line**: by aligning these drivers with its goals, a business achieves sustained growth and a competitive edge.
+
+### "What are channels? Why is channel analysis important? Explain the types" (1 + 1 + 3)
+
+| Part | Marks | Write |
+|---|---|---|
+| What are channels | 1 | The distribution system by which an organisation distributes its product or provides its service; wide, strong channels help win and act as barriers to entry |
+| Why channel analysis | 1 | Important when the strategy is to scale up and expand beyond current geographies and markets: new markets need new or leveraged channels to reach new customers |
+| The three types | 3 | Sales channel (who sells to whom; designers' agencies), product channel (who physically handles it; Australia Post), service channel (who supports it during and after the sale; the Bosch plumber) |
+
+### "Recommend a tool ... and outline the procedure" (5 marks)
+
+Name the tool (strategic group mapping) and define a strategic group; say why it suits the case (many rivals, need to group them); give the four steps in order, with the list of typical variables in step 1; close with what the map shows (relative positions, the strongest and weakest rivals, direct competitors).
+
+## Common mistakes
+
+::: mistake Hall of Shame: the weekend café that got "demarketing"
+Overcrowded weekends, empty weekdays, weekday discounts: Bunty ticks demarketing because "they want fewer people on weekends". **Fix:** irregular demand with idle and overworked capacity, evened out by pricing and incentives, is **synchro-marketing** (January 2026 MCQ 16). Demarketing reduces overfull demand.
+:::
+
+::: mistake Lounges are not "augmented"
+A frequent-flyer lounge strengthens a bond with select customers: **relationship marketing**. Augmented marketing adds services beyond the core product (online repair, on-site service, a better customer interface: May 2025 MCQ 12).
+:::
+
+::: mistake Industry and market used as synonyms
+**Fix:** an industry groups companies by their primary product; a market is the buyers and sellers in a region, and each product of a business has its own market.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. Tapri launches "Tapri Sugar-Free", a premix only for people with diabetes, sold through chemists. Rather than serving every kind of tea drinker, it puts its whole marketing budget behind winning a large share of this one sub-market. This is:
+- [ ] Differential marketing, because diabetics are a separate segment
+- [ ] Synchro-marketing
+- [x] Concentrated marketing
+- [ ] Augmented marketing
+> Going after a large share of one or a few sub-markets is concentrated marketing, which can take the form of niche marketing. Differential marketing targets several segments with a separate offer for each; here there is one segment.
+
+Q: In strategic group mapping, the circle drawn around each strategic group is proportional to:
+- [ ] The number of firms in the group
+- [x] The group's share of total industry sales revenues
+- [ ] The group's average profit margin
+- [ ] The age of the firms in the group
+> Step 4 of the Study Material's procedure.
+
+Q: Case scenario. TapriNow sells snacks made by partner cloud kitchens. Orders are taken and paid for in the TapriNow app; DashKart, a courier company, collects each order from the kitchen and carries it to the customer; TapriNow's call centre handles complaints and refunds. DashKart forms TapriNow's:
+- [x] Product channel
+- [ ] Sales channel
+- [ ] Service channel
+- [ ] Direct marketing channel
+> The product channel is the series of intermediaries who physically handle the product on its path to the end user. DashKart carries the snacks but does not sell them (the app does) or support the customer after the sale (the call centre is the service channel).
+
+Q: Which of the following are the key strategic drivers listed in the Study Material? Select all that apply.
+- [x] Industry and markets
+- [x] Customers
+- [x] Products/services
+- [x] Channels
+- [ ] Stakeholders' power
+> The four key drivers are industry and markets, customers, products/services and channels (SM 3.8). Power is a dimension of Mendelow's matrix.
+
+Q: In trials, every dog finished its bowl of a pet-food brand's new chicken biscuits, but pet owners stopped buying after one pack because of the price, ₹900 a kilogram. In the Study Material's terms, the brand satisfied the:
+- [ ] Customer but not the consumer
+- [ ] Market but not the industry
+- [x] Consumer but not the customer
+- [ ] Service channel but not the sales channel
+> The customer buys (the owner); the consumer finally uses or consumes (the dog). From a pricing perspective the customer matters more, and the price is what lost the owners.
+:::
+
+## Recap
+
+- Strategic drivers assess current performance: what differentiates the organisation from its competitors. Four: industry and markets, customers, products/services, channels (some interlinked).
+- Industry: companies grouped by primary product. Market: all buyers and sellers in a region; each product of a business has its own market.
+- Strategic group: rivals with similar competitive approaches and positions. Map: identify characteristics; plot two at a time; group firms in the same space; circles proportional to each group's share of industry sales.
+- Customers: types of customers are the first step in deciding the product; customer buys, consumer uses; pricing for the customer, design for the consumer.
+- Products: "what business are we in and how do we win in each product?"; differentiation may be real or psychological; new-product pricing: customer-centric, reasonable margin, market share.
+- Marketing strategies: social, augmented, direct, relationship, services, person, organisation, place, enlightened, differential, synchro, concentrated, demarketing.
+- Channels: sales (who sells), product (who carries), service (who supports); wide, strong channels win and block entrants; analyse them before expanding. (The dhaba's puncture mechanic is its service channel.)
+
+## Flashcards
+
+Q:: What do strategic drivers consider, per the Study Material?
+A:: In assessing current performance, what differentiates an organisation from its competitors: its key markets, key customers, products and services, channels and competitive advantage.
+
+Q:: The four key strategic drivers?
+A:: Industry and markets; customers; products/services; channels.
+
+Q:: Define a strategic group.
+A:: Rival firms which have similar competitive approaches and positions in the market.
+
+Q:: The four steps of constructing a strategic group map?
+A:: Identify the differentiating competitive characteristics; plot firms on a two-variable map; assign firms in about the same strategy space to the same group; draw circles proportional to each group's share of total industry sales revenues.
+
+Q:: Typical variables for a strategic group map?
+A:: Price/quality range; geographic coverage; degree of vertical integration; product-line breadth; use of distribution channels; degree of service offered.
+
+Q:: Customer versus consumer?
+A:: The customer buys the product or service; the consumer finally uses or consumes it. Pricing focuses on the customer; value creation and design/usability on the consumer.
+
+Q:: New-product pricing: the three objectives in the Study Material?
+A:: A customer-centric approach; sufficient returns through a reasonable margin over cost; increasing market share.
+
+Q:: Synchro-marketing?
+A:: Used when demand is irregular (by season, part of the day or hour), causing idle or overworked capacity: alters the pattern of demand through flexible pricing, promotion and other incentives.
+
+Q:: Demarketing?
+A:: Marketing strategies to reduce demand temporarily or permanently when demand is overfull, aiming to reduce or shift it, not destroy it.
+
+Q:: Augmented marketing?
+A:: Additional customer services and benefits a product offers besides the core and actual product, elevating customer service to unprecedented levels (online repair, movies on demand).
+
+Q:: Enlightened marketing: its five principles?
+A:: Customer-oriented marketing, innovative marketing, value marketing, sense-of-mission marketing and societal marketing.
+
+Q:: The three types of channels?
+A:: Sales channel (intermediaries who sell to the end user), product channel (intermediaries who physically handle the product), service channel (entities that support the product during and after the sale).

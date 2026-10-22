@@ -1,0 +1,526 @@
+{
+  "source": {
+    "type": "RTP",
+    "attempt": "Sep 2024",
+    "attempt_sort": "2024-09",
+    "series": null,
+    "scheme": "new",
+    "paper": "Paper 6B: Strategic Management",
+    "pdf_url": "https://resource.cdn.icai.org/81161bos65352-p6.pdf",
+    "local_file": "raw/rtp-sep2024-p6.pdf",
+    "retrieved": "2026-10-05",
+    "extract_ok": true,
+    "notes": "Chapters are ICAI's own printed headings 'Chapter 1-Introduction to Strategic Management' ... 'Chapter 5-Strategy Implementation and Evaluation' inside the 6B Strategic Management section. The case-scenario MCQ (Q1) and the standalone MCQs (Q2-Q6) sit outside any chapter heading and are bucketed as MCQ. For MCQs ICAI publishes only the option letter, so mcq_answer holds that letter and answer reproduces the text of that option verbatim. RTPs state no marks, so marks is null throughout.; Q14 ends with a stray '\".' in ICAI's paper; retained verbatim. The 4-column structure table in the answer to Q7 and the Mendelow's Matrix diagram in the answer to Q12 are rendered as markdown pipe tables. In the Q12 diagram ICAI's PDF clips two quadrant captions ('Consult in their areas of' and an illegible fragment rendered as 'b hi d'); only the legible text is reproduced and nothing has been supplied to fill the gaps."
+  },
+  "questions": [
+    {
+      "id": "rtp-sep2024-q1i",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(i)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "Once upon a time in the land of sun, sand, and vibrant cultures, there existed a company named \"MuseoGoa\" - a company that managed museums in the beautiful state of Goa. MuseoGoa had a vision to celebrate the rich history and culture of Goa, but their journey was not without its fair share of challenges. MuseoGoa had chosen a picturesque location in a quaint village to build their first museum. However, this initial enthusiasm was met with an uproar from the local communities. The villagers were concerned about the impact on their way of life and traditions. They worried that the influx of tourists might disrupt their peaceful existence. To address this challenge, MuseoGoa applied Mendelow's matrix, identifying the local communities as key stakeholders. They decided to engage in open dialogues, understanding and respecting the villagers' concerns. MuseoGoa initiated community-building activities, such as involving locals in museum operations, supporting local artisans, and organizing cultural events that showcased the village's heritage. Slowly but steadily, the company transformed from being perceived as a threat to a valued partner within the community. While MuseoGoa had successfully resolved their initial issues with the local community, they faced another challenge. Their location, although idyllic, was a bit off the beaten path. Tourists typically preferred the bustling beaches closer to the city, and this posed a real challenge. MuseoGoa decided to employ a pricing strategy. They priced their tickets affordably, significantly cheaper than the city's attractions. This strategy attracted budget-conscious tourists who were looking for unique experiences in Goa without burning a hole in their pockets. As word spread about the cultural gem tucked away in the village, visitors started flocking in, drawn not just by the museum's charm but also the economical ticket prices. In the age of social media, MuseoGoa knew that word-of-mouth was no longer limited to whispers. They tapped into the power of social media to promote their unique museum experience. MuseoGoa ran interactive campaigns, encouraging visitors to share their experiences on various platforms. One particular Instagram post featuring a vibrant Goan mural in the museum went viral. This was the turning point. The picture-perfect aesthetics of the museum attracted influencers, bloggers, and travel enthusiasts, making MuseoGoa a social media sensation. Visitors came pouring in, not just from India but from across the globe, eager to capture their own moments at the \"Instagrammable Museum of Goa.\" With success came ambition. MuseoGoa decided to expand its footprint beyond Goa. To guide this expansion, they conducted a strategy audit and trend analysis. They identified emerging cultural and tourism trends and found potential markets in Pune and Trivandrum. In Pune, MuseoGoa curated a special exhibition that celebrated the fusion of Goan and Maharashtrian cultures. They strategically partnered with local influencers and travel agencies to market the new experience. The expansion into Pune was met with resounding success. For Trivandrum, MuseoGoa recognized the importance of local traditions and the distinct flavor of Kerala. They tailored their offerings to harmonize with the regional culture. MuseoGoa became the gateway for tourists to explore Kerala's rich heritage, with the museum acting as a bridge between Goa and Kerala's cultural tapestry. MuseoGoa's journey from initial uproar to expansion was a testament to their commitment to community building, strategic pricing, social media savvy, and a keen eye for trends. The company continued to flourish, celebrating the diverse cultural tapestry of India and making history come alive in every location they touched.\nBased on the above Case Scenario, answer the Multiple Choice Questions.\nWhich strategic management concept did MuseoGoa use to address the initial concerns of the local community?",
+      "options": [
+        {
+          "label": "a",
+          "text": "SWOT analysis"
+        },
+        {
+          "label": "b",
+          "text": "Mendelow's matrix"
+        },
+        {
+          "label": "c",
+          "text": "Cost leadership strategy"
+        },
+        {
+          "label": "d",
+          "text": "Porter's Five Forces model"
+        }
+      ],
+      "answer": "(b) Mendelow's matrix",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "mendelow matrix"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q1ii",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(ii)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nMuseoGoa's idyllic location in a quaint village posed a challenge as tourists preferred beaches closer to the city. To attract visitors, MuseoGoa priced their tickets affordably, cheaper than city attractions, drawing budget-conscious tourists looking for unique experiences. What business strategy did MuseoGoa employ to attract more tourists?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Cost leadership strategy"
+        },
+        {
+          "label": "b",
+          "text": "Differentiation strategy"
+        },
+        {
+          "label": "c",
+          "text": "Focus strategy"
+        },
+        {
+          "label": "d",
+          "text": "Diversification strategy"
+        }
+      ],
+      "answer": "(a) Cost leadership strategy",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "cost leadership",
+        "strategic leadership"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q1iii",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(iii)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nHow did MuseoGoa approach its expansion into new markets such as Pune and Trivandrum?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Outsourcing strategy"
+        },
+        {
+          "label": "b",
+          "text": "Franchising strategy"
+        },
+        {
+          "label": "c",
+          "text": "Product diversification strategy"
+        },
+        {
+          "label": "d",
+          "text": "Market development strategy"
+        }
+      ],
+      "answer": "(d) Market development strategy",
+      "mcq_answer": "d",
+      "topic_tags": [
+        "expansion strategy"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q1iv",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(iv)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nWhich element of the 7S McKinsey model is demonstrated by MuseoGoa's strategic use of social media and pricing strategies to attract visitors?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Style"
+        },
+        {
+          "label": "b",
+          "text": "Strategy"
+        },
+        {
+          "label": "c",
+          "text": "Shared Values"
+        },
+        {
+          "label": "d",
+          "text": "Skills"
+        }
+      ],
+      "answer": "(b) Strategy",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "mckinsey 7s"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q1v",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(v)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nWhat played a crucial role in MuseoGoa's success in Pune and Trivandrum?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Strategic partnerships"
+        },
+        {
+          "label": "b",
+          "text": "Aggressive advertising"
+        },
+        {
+          "label": "c",
+          "text": "Product differentiation"
+        },
+        {
+          "label": "d",
+          "text": "Vertical integration"
+        }
+      ],
+      "answer": "(a) Strategic partnerships",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q2",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "2",
+      "kind": "mcq",
+      "marks": null,
+      "question": "Jaago Lights, a successful brand from Jalandhar, aimed to enter the Middle East market by teaming up with major industry players. They needed to reorganize internal operations and refine product designs, facing pressure to expand quickly and turbulence in existing operations. What is the primary limitation of strategic management highlighted in the business case?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Lack of senior management support"
+        },
+        {
+          "label": "b",
+          "text": "Time-consuming and complex nature"
+        },
+        {
+          "label": "c",
+          "text": "Inability to adapt to market changes"
+        },
+        {
+          "label": "d",
+          "text": "Excessive focus on short-term goals"
+        }
+      ],
+      "answer": "(b) Time-consuming and complex nature",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "limitations of strategic management"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q3",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "3",
+      "kind": "mcq",
+      "marks": null,
+      "question": "A traditional desi ghee company modernized its production and introduced pro-biotic desi ghee, facing initial market doubts. Aggressive marketing campaigns highlighted its benefits, gaining acceptance. During which stage of the product life cycle did the desi ghee company face doubts but gained acceptance through aggressive marketing campaigns?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Introduction stage"
+        },
+        {
+          "label": "b",
+          "text": "Growth stage"
+        },
+        {
+          "label": "c",
+          "text": "Maturity stage"
+        },
+        {
+          "label": "d",
+          "text": "Decline stage"
+        }
+      ],
+      "answer": "(a) Introduction stage",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "product life cycle"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q4",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "4",
+      "kind": "mcq",
+      "marks": null,
+      "question": "A small tech company focused on enhancing their main product, which became crucial across various industries due to its increased power and adaptability. Their early partnerships and smart decisions facilitated rapid growth, leading to a $5 billion valuation in just five years. According to C.K. Prahalad and Gary Hamel, which area represents the tech company’s core competency?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Customer Value"
+        },
+        {
+          "label": "b",
+          "text": "Competitor Differentiation"
+        },
+        {
+          "label": "c",
+          "text": "Product Differentiation"
+        },
+        {
+          "label": "d",
+          "text": "Application to Other Markets"
+        }
+      ],
+      "answer": "(d) Application to Other Markets",
+      "mcq_answer": "d",
+      "topic_tags": [
+        "core competence",
+        "focus strategy"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q5",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "5",
+      "kind": "mcq",
+      "marks": null,
+      "question": "A women’s clothing brand recognized new opportunities and researched emerging trends and consumer preferences. They introduced a new clothing line, received positive feedback from initial trials, and grew through strategic partnerships and targeted advertising. What strategic choice best describes this approach?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Product Development"
+        },
+        {
+          "label": "b",
+          "text": "Market Development"
+        },
+        {
+          "label": "c",
+          "text": "Market Penetration"
+        },
+        {
+          "label": "d",
+          "text": "Diversification"
+        }
+      ],
+      "answer": "(a) Product Development",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q6",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "6",
+      "kind": "mcq",
+      "marks": null,
+      "question": "For over a hundred years, the KDH business has thrived by leveraging strategic control as a cornerstone of its strategic approach. Regular evaluations of goals and performance ensured they stayed responsive to shifting market trends and evolving customer needs. Which type of strategic control is highlighted here?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Premise Control"
+        },
+        {
+          "label": "b",
+          "text": "Special Alert Control"
+        },
+        {
+          "label": "c",
+          "text": "Implementation Control - Milestone Reviews"
+        },
+        {
+          "label": "d",
+          "text": "Implementation Control - Monitoring Strategic Thrusts"
+        }
+      ],
+      "answer": "(c) Implementation Control - Milestone Reviews",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "strategic control"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q7",
+      "chapter": 1,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "7",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Tech Innovators Inc., a rapidly expanding technology company, aims to lead in artificial intelligence (AI) and machine learning (ML). With recent growth, the company is evaluating which organizational structure will best support its vision for innovation and leadership in AI technologies. They are considering three options: the Functional and Divisional Relationship for specialization, the Horizontal Relationship for flat, collaborative management, and the Matrix Relationship for cross-functional teams. Which of these relationships—Functional and Divisional, Horizontal, or Matrix—will most effectively achieve Tech Innovators Inc.’s strategic goals, and why?",
+      "options": null,
+      "answer": "The Matrix Relationship is the most effective structure for Tech Innovators Inc. to achieve its vision of leadership in AI technologies. This structure promotes cross-functional collaboration, essential for managing complex AI projects and fostering innovation. By integrating expertise from various departments into temporary, task-based teams, the Matrix Relationship supports dynamic project management and aligns well with the company’s strategic goals for advancing AI technologies. Despite its complexity, this approach provides the flexibility and collaboration necessary for a leading-edge AI and ML focus.\n| Relationship | Benefits | Drawbacks | Suitability for AI Leadership |\n| --- | --- | --- | --- |\n| Functional and Divisional | Specialization, clear management of functions and products. | Potential for departmental isolation, limited collaboration. | Less effective for cross-functional AI projects. |\n| Horizontal | Open communication, encourages innovation and fast idea sharing. | Hard to scale, unclear roles and responsibilities. | Suitable for startups, less for large AI initiatives. |\n| Matrix | Facilitates cross-functional collaboration, flexible resource management for complex projects. | Complex reporting structures, potential conflicts. | Ideal for managing diverse, innovative AI projects. |",
+      "mcq_answer": null,
+      "topic_tags": [
+        "vision",
+        "focus strategy",
+        "organisation structure",
+        "strategic leadership"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q8",
+      "chapter": 1,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "8",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Strategic management helps an organization to work through changes in the environment to gain competitive advantage. In light of statement discuss its benefits.",
+      "options": null,
+      "answer": "Strategic management involves developing the company’s vision, environmental scanning, strategy formulation, implementation, evaluation and control. It emphasizes the monitoring and evaluation of external opportunities and threats in the light of a company’s strengths and weaknesses and designing strategies for survival and growth. It helps in the creation of a competitive advantage to outperform the competitors and also guides the company successfully through all changes in the environment.\nThe major benefits of strategic management are:\n♦ Strategic management gives directions to the company to move ahead. It defines the goals and mission.\n♦ It helps organisations to be proactive instead of reactive in shaping their future.\n♦ It provides frameworks for all major decisions of an enterprise such as decisions on businesses, products, markets, manufacturing facilities, investments and organisational structure. It provides better guidance to the entire organisation on the crucial point - what it is trying to do.\n♦ It helps organisations to identify the available opportunities and identify ways and means to achieve them.\n♦ It serves as a corporate defence mechanism against mistakes and pitfalls.\n♦ It helps to enhance the longevity of the business.\n♦ It helps the organisation to develop certain core competencies and competitive advantages that would facilitate survival and growth.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "vision",
+        "mission",
+        "core competence",
+        "competitive advantage"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q9",
+      "chapter": 2,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "9",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "A company has recently launched a new product in the market. Initially, it faced slow sales growth, limited markets, and high prices. However, over time, the demand for the product expanded rapidly, prices fell, and competition increased. Identify the stages of the product life cycle (PLC) that the company went through.",
+      "options": null,
+      "answer": "The company went through the following stages of the product life cycle (PLC): Introduction stage: Initially, the company faced slow sales growth, limited markets, and high prices, which are characteristic of the introduction stage. During this stage, competition is almost negligible, and customers have limited knowledge about the product. Growth stage: Over time, the demand for the product expanded rapidly, prices fell, and competition increased. These are typical features of the growth stage in the PLC. In this stage, the product gains market acceptance, and customers become more aware of the product's benefits and show interest in purchasing it.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "product life cycle"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q10",
+      "chapter": 2,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "10",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Rajiv Arya owns an electrical appliance company specializing in the manufacture of domestic vacuum cleaners. The market is competitive, with four other manufacturers offering similar products and achieving comparable sales volumes. Additionally, these rival firms hold several patents related to the vacuum cleaner technology. The supplier base for raw materials is extensive, with multiple suppliers available. Identify and explain the significant forces from Porter’s Five Forces framework that are relevant to Rajiv Arya’s company.",
+      "options": null,
+      "answer": "The competitive rivalry will be a significant force in case of company of Rajiv Arya as all the rivals are similar in sizes and are manufacturing similar products. It is difficult for any single manufacturer to dominate the market. Large number of patents will make it difficult for new entrants to break into the market. Further, as there are a large number of small suppliers the power that suppliers can exert will also be low. There is no information relating to substitutes and bargaining power of customers in the information given in scenario. However, a domestic vacuum cleaner will directly compete with other options such as house maids. Availability of house maids at low cost can significantly disturb the sales of products. Further, as the products are similar customers can easily shift from one company to another. This will only enhance competitive rivalry.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "porter five forces",
+        "porter"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q11",
+      "chapter": 3,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "11",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Inspite of high commodity inflation, shortage of components and the threat of third wave of COVID-19 pandemic in India, manufacturers of packaged goods, home appliances and consumer electronics are expecting the business to grow by 12 to 25 percent in the coming months. After one-and-a-half years of disruption, manufacturers are now confident about managing their inventories better, keeping their supply channels well-stocked and preparing themselves to minimalize the impact of any COVID related restrictions even as they gear up for the festive season, which usually accounts for 25 to 35 percent of their yearly sales. The home appliances sector could be an example. After a dismal April- June quarter in the year 2021, producers of air conditioners, refrigerators and washing machines are expecting their business to grow by 15-20 percent in the months to come. All the companies operating in the sector have geared up to grab the opportunities available in the market. A leading company in the home appliances domain, XXP India, is planning to launch various innovative product designs and offer loyalty programmes to lure consumers. With reference to Michael Porter’s generic strategies, identify which strategy XXP India has planner for? Explain how this strategy will be advantageous to the company to remain profitable?",
+      "options": null,
+      "answer": "According to Michael Porter, strategies allow organizations to gain competitive advantage from three different bases: cost leadership, differentiation, and focus. Porter called these base generic strategies. XXP India Ltd. has planned for Differentiation Strategy. The company is planning to launch various innovative product designs and offer loyalty programmes to lure customers. Differentiation strategy should be pursued only after a careful study of buyers’ needs and preferences to determine the feasibility of incorporating one or more differentiating features into a unique product that features the desired attributes. A successful differentiation strategy allows a firm to charge a higher price for its product and to gain customer loyalty, because consumers may become strongly attached to the differentiated features. Advantages of Differentiation Strategy A differentiation strategy may help an organisation to remain profitable even with rivalry, new entrants, suppliers’ power, substitute products, and buyers’ power.\n1. Rivalry - Brand loyalty acts as a safeguard against competitors. It means that customers will be less sensitive to price increases, as long as the firm can satisfy the needs of its customers.\n2. Buyers – They do not negotiate for price as they get special features, and they have fewer options in the market.\n3. Suppliers – Because differentiators charge a premium price, they can afford to absorb higher costs of supplies as the customers are willing to pay extra too.\n4. Entrants – Innovative features are an expensive offer. So, new entrants generally avoid these features because it is tough for them to provide the same product with special features at a comparable price.\n5. Substitutes – Substitute products can’t replace differentiated products which have high brand value and enjoy customer loyalty.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "porter",
+        "cost leadership",
+        "differentiation",
+        "focus strategy"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q12",
+      "chapter": 3,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "12",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "How can Mendelow's Matrix be used to analyze and manage the stakeholders effectively?",
+      "options": null,
+      "answer": "Mendelow's Matrix can be used effectively to analyze and manage stakeholders through a grid-based approach by the following steps:\n1. Identify Stakeholders: Begin by identifying all relevant stakeholders for your project or organization. This includes individuals, groups, or organizations that may be impacted by or have an impact on your activities.\n2. Assess Power and Interest: For each stakeholder, assess their power to influence your project or organization and their level of interest in its success. Power can be assessed based on factors such as authority, resources, and expertise, while interest can be gauged by their level of involvement, expectations, and potential benefits or risks.\n3. Plot Stakeholders on the Grid: Create a grid with Power on one axis and Interest on the other. Plot each stakeholder on the grid based on your assessment. Stakeholders with high power and high interest are placed in the \"Key Players\" quadrant, those with high power but low interest are in the \"Keep Satisfied\" quadrant, those with low power but high interest are in the \"Keep Informed\" quadrant, and those with low power and low interest are in the \"Low Priority\" quadrant.\n| Power / Influence | Interest in the Organisation: Low | Interest in the Organisation: High |\n| --- | --- | --- |\n| High | **KEEP SATISFIED** — Consult often; Increase their interest | **KEY PLAYER** — Manage Closely; Involve in decision making; Engage regularly and build strong relationship |\n| Low | **LOW PRIORITY** — Monitor only, no engagement; General occasional communication | **KEEP INFORMED** — Utilise the high interest by engaging in decisions; Consult in their areas of |\n4. Develop Strategies for each Quadrant: Based on the placement of stakeholders in the grid, develop specific strategies for managing each quadrant:\n• Key Players: Fully engage with these stakeholders, seek their input, and keep them informed. They are crucial for the success of your project, so their needs and expectations should be a top priority.\n• Keep Satisfied: These stakeholders have significant power but may not be as interested in your project. Keep them satisfied by providing regular updates and addressing any concerns they may have to prevent them from becoming detractors.\n• Keep Informed: While these stakeholders may not have much power, they are highly interested in your project. Keep them informed to ensure they remain supportive and to leverage their insights and feedback.\n• Low Priority: These stakeholders have low power and interest. Monitor them for any changes but allocate minimal resources to managing their expectations.\n5. Monitor and Adapt: Continuously monitor the power and interest of stakeholders and adjust your strategies accordingly. Stakeholders may move between quadrants based on changing circumstances, so it's important to remain flexible and responsive. By using Mendelow's Matrix as a grid-based tool, you can effectively analyze and manage stakeholders by tailoring your engagement strategies to their specific needs and expectations, ultimately increasing the likelihood of project success.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "mendelow matrix",
+        "stakeholders"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q13",
+      "chapter": 4,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "13",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Pizza Galleria was India's first pizza delivery chain enjoying monopoly for several years. However, after the entry of Modino and Uncle Jack it is struggling to compete. Both Modino and Uncle Jack have opened several eateries and priced the product aggressively. In the last four years the chain has suffered significant losses. The chain wishes to know whether they should go for a turnaround strategy. List out components of action plan for turnaround strategy.",
+      "options": null,
+      "answer": "Pizza Chain may choose to have turnaround strategy if there are:\n♦ Persistent negative cash flow from business.\n♦ Uncompetitive products or services.\n♦ Declining market share.\n♦ Deterioration in physical facilities.\n♦ Over-staffing, high turnover of employees, and low morale.\n♦ Mismanagement. For turnaround strategies to be successful, it is imperative to focus on the short and long-term financing needs as well as on strategic issues. The chain may attempt to leverage the potential Indian market by engaging a new logistics partner. It may bring innovation in food items, as well as quality and improvements in the overall dine-in and delivery experience. During the turnaround, the “product mix” may be changed, requiring the organization to do some repositioning.\nA workable action plan for turnaround would involve: Stage One – Assessment of current problems: The first step is to assess the current problems and get to the root causes and the extent of damage the problem has caused. Stage Two – Analyze the situation and develop a strategic plan: Before making any major changes; determine the chances of the business’s survival. Identify appropriate strategies and develop a preliminary action plan. Stage Three – Implementing an emergency action plan: If the organization is in a critical stage, an appropriate action plan must be developed to stop the bleeding and enable the organization to survive. A positive operating cash flow must be established as quickly as possible and enough funds to implement the turnaround strategies must be raised. Stage Four – Restructuring the business: The financial state of the organization’s core business is particularly important. If the core business is irreparably damaged, then the outlook for the entire organization may be bleak. Efforts to be made to position the organization for rapid improvement. Stage Five – Returning to normal: In the final stage of turnaround strategy process, the organization should begin to show signs of profitability, return on investments and enhancing economic value-added. Emphasis is placed on a number of strategic efforts such as carefully adding new products and improving customer service, creating alliances with other organizations, increasing the market share, etc.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "turnaround",
+        "focus strategy"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q14",
+      "chapter": 4,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "14",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Distinguish between Concentric Diversification and Conglomerate Diversification. \".",
+      "options": null,
+      "answer": "The following are the principal points of distinction between concentric diversification and conglomerate diversification:\n(i) Concentric diversification occurs when a firm adds related products or markets. On the other hand, conglomerate diversification occurs when a firm diversifies into areas that are unrelated to its current line of business.\n(ii) In concentric diversification, the new business is linked to the existing businesses through process, technology or marketing. In conglomerate diversification, no such linkages exist; the new business/product is disjointed from the existing businesses/ products.\n(iii) The most common reasons for pursuing concentric diversification are that opportunities in a firm’s existing line of business are available. However, common reasons for pursuing a conglomerate growth strategy are that opportunities in a firm's current line of business are limited or opportunities outside are highly lucrative.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "diversification"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q15",
+      "chapter": 5,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "15",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "A Mumbai-based conglomerate, PQR Ltd., has announced a major restructuring of its business operations. The company has decided to split its business into four separate units: Manufacturing, Retail, Services, and Technology. Each unit will operate as a separate business, with delegated responsibility for day-to-day operations and strategy to the respective unit managers. Identify the organization structure that PQR Ltd. has planned to implement. Discuss any four attributes and the benefits the firm may derive by using this organization structure.",
+      "options": null,
+      "answer": "PQR Ltd. has planned to implement the Strategic Business Unit (SBU) structure. Very large organisations, particularly those running into several products, or operating at distant geographical locations that are extremely diverse in terms of environmental factors, can be better managed by creating strategic business units. SBU structure becomes imperative in an organisation with increase in number, size and diversity. The attributes of an SBU and the benefits a firm may derive by using the SBU Structure are as follows:\n♦ A scientific method of grouping the businesses of a multi – business corporation which helps the firm in strategic planning.\n♦ An improvement over the territorial grouping of businesses and strategic planning based on territorial units.\n♦ Strategic planning for SBU is distinct from rest of businesses. Products/ businesses within an SBU receive same strategic planning treatment and priorities.\n♦ Each SBU will have its own distinct set of competitors and its own distinct strategy.\n♦ The CEO of SBU will be responsible for strategic planning for SBU and its profit performance.\n♦ Products/businesses that are related from the standpoint of function are assembled together as a distinct SBU.\n♦ Unrelated products/ businesses in any group are separated into separate SBUs.\n♦ Grouping the businesses on SBU lines helps in strategic planning by removing the vagueness and confusion.\n♦ Each SBU is a separate business and will be distinct from one another on the basis of mission, objectives etc.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "mission",
+        "objectives",
+        "sbu structure",
+        "strategic planning"
+      ]
+    },
+    {
+      "id": "rtp-sep2024-q16",
+      "chapter": 5,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "16",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Why Strategic Performance Measures are essential for organizations?",
+      "options": null,
+      "answer": "Strategic performance measures are essential for organizations for several reasons:\n♦ Goal Alignment: Strategic performance measures help organizations align their strategies with their goals and objectives, ensuring that they are on track to achieve their desired outcomes.\n♦ Resource Allocation: Strategic performance measures provide organizations with the information they need to make informed decisions about resource allocation, enabling them to prioritize their efforts and allocate resources to the areas that will have the greatest impact on their performance.\n♦ Continuous Improvement: Strategic performance measures provide organizations with a framework for continuous improvement, enabling them to track their progress and make adjustments to improve their performance over time.\n♦ External Accountability: Strategic performance measures help organizations demonstrate accountability to stakeholders, including shareholders, customers, and regulatory bodies, by providing a clear and transparent picture of their performance.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "objectives",
+        "strategic performance measures",
+        "stakeholders"
+      ]
+    }
+  ]
+}

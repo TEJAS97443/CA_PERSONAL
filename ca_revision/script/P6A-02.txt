@@ -1,0 +1,97 @@
+# P6A-02 · fm-ratio-analysis · Ratio Analysis: हर figure की एक जोड़ी
+
+## Introduction: bank का एक page और देव के ratios
+
+<|emotion:enthusiasm|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+पिछले episode में हमने देखा कि finance का goal shareholders' wealth है, और आज Paper six A का chapter two है, Financial Analysis and Planning, Ratio Analysis।
+<|emotion:amusement|>Narmada Bank ने cold-chain fleet के term loan से पहले लिखा please give us your ratios, और केसर बोले कि लिख दो सब adjust हो जाएगा।
+देव ने कहा कि bank इस sentence को zero पर discount करता है, और ICAI ने ये chapter पैंसठ documents में पूछा है, जिनमें सत्रह exam papers हैं।
+<|emotion:determination|>Episode के आख़िर तक आप हर group के ratios के formulas, ratios से balance sheet बनाने का तरीका, और आठ limitations ICAI के order में बोल पाएँगे।
+
+## Liquidity, capital structure and coverage ratios: bank के तीन सवाल
+
+<|emotion:contemplation|>ICAI के words में a financial ratio is a mathematical expression of the relationship between two accounting figures, और ratio इसलिए चाहिए कि अकेला figure कम बताता है।
+Bank तीन बातें पूछता है, इस साल का due पैसा चुकेगा या नहीं, पैसा owners का है या lenders का, और profits interest को कितनी बार cover करते हैं।
+<|prosody:speed_slow|>Current ratio है current assets by current liabilities, जिसका norm two to one है, और quick ratio है quick assets by current liabilities, जिसका norm one to one है।
+Quick assets का मतलब है current assets minus inventories minus prepaid expenses, क्योंकि stock पहले बिकना है, और prepaid expense से कोई supplier payment नहीं लेता।
+
+Cash ratio है cash and bank balances plus marketable securities, by current liabilities, और net working capital है current assets minus current liabilities।
+Basic defense interval है quick assets by daily operating expenses, यानी बिना revenue के firm कितने दिन चल सकती है, और daily expenses से depreciation जैसे non-cash items घटते हैं।
+<|emotion:determination|>बहुत कम और बहुत ज़्यादा liquidity दोनों खराब हैं, इसलिए ऊँचे current ratio की तारीफ़ से पहले turnover ratios भी देखिए।
+
+Debt-equity ratio है total outside liabilities by shareholders' equity, या सिर्फ़ long-term debt by shareholders' equity, और ये financial leverage का indicator है, तो answer में लिखिए कि कौन सा debt लिया।
+Shareholders' equity है equity share capital plus reserves and surplus, और equity ratio और debt ratio इसी equity को और total debt को net assets से divide करते हैं।
+Capital gearing में ऊपर preference share capital, debentures और other borrowed funds आते हैं, और नीचे equity share capital plus reserves minus losses, यानी fixed charge वाला capital ऊपर।
+Proprietary ratio है proprietary fund by total assets, जहाँ proprietary fund में equity, preference capital और reserves आते हैं, और fictitious assets total assets से बाहर रहते हैं।
+
+<|emotion:contemplation|>Interest coverage है EBIT by interest, profit after tax by interest नहीं, क्योंकि interest tax से पहले चुकाया जाता है और tax-deductible है।
+Debt service coverage ratio है earnings available for debt service by interest plus instalments, जहाँ earnings में profit after tax, non-cash expenses और interest जुड़ते हैं, और norm दो है।
+Fixed charges coverage है EBIT plus depreciation, by interest plus repayment of loan, और preference dividend coverage है profit after tax by preference dividend, दोनों का norm एक से ऊपर।
+
+## Activity ratios: godown कितनी बार खाली होता है
+
+<|emotion:amusement|>Liquidity के बाद सवाल है कि assets कितना काम करते हैं, और Diwali से पहले केसर देव को छत तक भरा premix godown किसी museum की तरह दिखा रहे थे।
+हिसाब निकला कि godown साल में दस बार खाली होकर भरा, यानी inventory turnover दस, तो हर packet छत्तीस दिन रुका, और देव बोले stock that sits is cash that sleeps।
+Activity ratio साल की sales या cost of goods sold को total assets, fixed assets, capital employed, current assets या working capital से divide करता है, और जवाब times में आता है।
+
+<|prosody:speed_slow|>Inventory turnover है cost of goods sold by average inventory, जहाँ average inventory है opening stock plus closing stock, by two।
+Raw material turnover है raw material consumed by average raw material stock, और receivables turnover है credit sales by average receivables।
+Average collection period है तीन सौ साठ दिन by receivables turnover, या average receivables by average daily credit sales।
+Payables turnover है net credit purchases by average payables, और average payment period है तीन सौ साठ दिन by payables turnover।
+<|emotion:determination|>Purchases न दिए हों तो पहले cost of goods sold plus closing stock minus opening stock से purchases निकालिए, और balance चाहिए तो annual flow into days by तीन सौ साठ लगाइए।
+
+## Profitability and market ratios: margin, return और share
+
+<|emotion:amusement|>Efficiency के बाद profit की बारी है, और केसर खुश थे कि BrewBucks India और Tapri की café company दोनों equity पर साढ़े बारह प्रतिशत कमाती हैं।
+देव बोले कि same answer का मतलब same sums नहीं होता, क्योंकि borrowed money हर महीने bill भेजता है।
+Gross profit ratio है gross profit by sales, net profit ratio है profit after tax by sales, और operating profit ratio है EBIT by sales, तीनों percentage में।
+Operating ratio है cost of goods sold plus operating expenses, by sales, और operating ratio और operating profit ratio का जोड़ सौ प्रतिशत होता है।
+Return on investment है return by investment, जिसे margin into turnover भी लिखते हैं, यानी return by sales into sales by investment।
+
+<|emotion:contemplation|>Return on assets है profit after tax by average total assets, या interest जोड़कर, और return on total assets में EBIT into one minus t लेते हैं, t यानी tax rate।
+Return on capital employed pre-tax में EBIT by capital employed है, post-tax में EBIT into one minus t, by capital employed, और ये borrowing rate से ऊपर होना चाहिए।
+Capital employed है total assets minus current liabilities, यानी fixed assets plus working capital, जिसमें goodwill और patents जैसे intangibles आते हैं, पर fictitious assets नहीं।
+Return on equity है profit after tax minus preference dividend, by equity shareholders' funds, यानी preference dividend पहले घटता है।
+<|prosody:speed_slow|>DuPont model में return on equity है net profit margin into asset turnover into equity multiplier, जहाँ equity multiplier है assets by shareholders' equity।
+<|emotion:determination|>Margin और turnover business की skill हैं, पर equity multiplier debt से बढ़ता है, इसलिए वो दिखाता है कि return on equity का कितना हिस्सा debt से आया।
+
+Earnings per share है equity earnings by number of equity shares, dividend per share है equity dividend by number of equity shares, और dividend pay-out ratio है DPS by EPS।
+Price-earnings ratio है market price per share by EPS, earnings yield है EPS by market price, और dividend yield है DPS by market price, percentage में।
+Market value to book value है share price by book value per share, और Q ratio है company की market value by उसके assets की replacement cost।
+
+## Building statements from ratios and limitations: ratios से balance sheet तक
+
+अब तक statements से ratios निकले, पर ICAI का सबसे पसंदीदा सवाल इसका उल्टा है, यानी ratios से statements दोबारा बनाना।
+<|emotion:contemplation|>Board meeting से पहले केसर ने Kshipra Spice Mills के accounts के इकलौते printout पर masala chai गिरा दी, और बचा सिर्फ़ ratios और एक rupee figure वाला page।
+<|emotion:pride|>देव ने कहा कि ratios rupees निकाले हुए accounts ही हैं, और हर ratio एक equation है, इसलिए दोनों statements वापस बन सकते हैं।
+Anchors यानी rupee figures अलग कीजिए और हर ratio का basis नोट कीजिए, sales या cost of goods sold, closing या average, तीन सौ साठ या तीन सौ पैंसठ दिन।
+फिर anchor से शुरू करके हर ratio से एक नया figure निकालिए, और जहाँ दो ratios एक ही दो unknowns को जोड़ें, वहाँ दोनों equations साथ solve कीजिए।
+Working capital दिया हो तो उसे current ratio minus one से divide करने पर current liabilities मिलती हैं, और inventory दी हो तो उसे current ratio minus quick ratio से।
+कोई chain न बने तो let sales be x मानकर हर item x में लिखिए और total assets equals total liabilities से x निकालिए, और balancing figure आख़िर में, label के साथ।
+
+ICAI ratio analysis के छह uses देता है, liquidity position, long-term solvency, operating efficiency, overall profitability, inter-firm comparison, और budgeting।
+<|emotion:determination|>आठ limitations ICAI के order में हैं, पहले पाँच diversified product lines, inflation, seasonal factors, window dressing, और differences in accounting policies and accounting period।
+बाकी तीन हैं no standard set of ratios, difficulty to generalise कि कोई ratio अच्छा है या बुरा, और ये कि ratios inter-related हैं, जिन्हें DISWANDI से याद रखिए।
+ICAI की closing line लिखिए, financial ratios provide clues but not conclusions, और ये सिर्फ़ experts के हाथ में tools हैं।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>ये chapter ज़्यादातर Question one में पाँच marks के numerical के रूप में आता है, जहाँ ratios और एक-दो rupee figures से balance sheet या missing figures निकालने होते हैं।
+MCQs में current और quick ratio से inventory, DuPont से return on equity, और P by E ratio से market price पूछे गए हैं।
+Theory में transactions का current ratio पर असर पूछा गया, और ratio एक से ऊपर हो तो current assets और liabilities की बराबर बढ़ोतरी उसे घटाती है, और बराबर कमी बढ़ाती है।
+Capital gearing का एक सवाल दो documents में दोहराया गया है, जिसमें debentures, preference shares और term loan ऊपर जाते हैं, और equity plus reserves नीचे।
+
+<|emotion:contemplation|>आम गलतियाँ हैं quick assets से prepaid expenses न घटाना, interest coverage में profit after tax लेना, DSCR में instalments भूलना, और preference capital को equity में गिनना।
+Stock turnover में cost की जगह sales लेना, debtors turnover में total sales लेना, और creditors turnover में purchases की जगह cost of goods sold लेना भी marks काटता है।
+Paper कहता है कि working notes should form part of the answer, इसलिए हर ratio का formula, figures, result times, percentage या days में, और norm से तुलना की एक line लिखिए।
+Limitations वाले case में limitation का नाम, case का fact और analyst को क्या करना चाहिए, ये तीनों लिखिए।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: current ratio two to one, quick ratio one to one, और quick assets में inventories और prepaid expenses दोनों घटते हैं।
+Debt-equity financial leverage दिखाता है, capital gearing में preference भी ऊपर जाता है, interest coverage EBIT by interest है, और DSCR में interest plus instalments नीचे।
+Turnover sales या cost of goods sold by asset है, days हैं तीन सौ साठ by turnover, और return on equity preference dividend घटाकर equity funds पर निकलता है।
+DuPont में margin, turnover और equity multiplier हैं, statements ratio by ratio बनते हैं, balancing figure आख़िर में, और ratios clues देते हैं, conclusions नहीं।
+
+अगले episode में देव Dewas की samosa factory के लिए पंद्रह साल का पैसा ढूँढेंगे, यानी Paper six A का chapter three, Types of Financing।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

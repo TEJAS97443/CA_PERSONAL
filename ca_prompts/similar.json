@@ -1,0 +1,353 @@
+[
+ {
+  "lesson": "sm.choice.ansoff",
+  "kind": "quiz",
+  "title": "In the ADL matrix, which competitive position is \"comparativ",
+  "containment": 0.23,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-may2026-s2-a.txt",
+  "offset": 3150
+ },
+ {
+  "lesson": "sm.choice.ansoff",
+  "kind": "quiz",
+  "title": ": Ansoff's matrix: what is it for?",
+  "containment": 0.24,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-jan2026-s2-a.txt",
+  "offset": 3150
+ },
+ {
+  "lesson": "sm.choice.ansoff",
+  "kind": "quiz",
+  "title": ": Market penetration?",
+  "containment": 0.63,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/04-strategic-choices.txt",
+  "offset": 4050
+ },
+ {
+  "lesson": "sm.choice.ansoff",
+  "kind": "quiz",
+  "title": ": ADL matrix: definition?",
+  "containment": 0.2,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-may2026-s2-a.txt",
+  "offset": 3000
+ },
+ {
+  "lesson": "sm.choice.ansoff",
+  "kind": "quiz",
+  "title": ": ADL: what is a \"favourable\" position?",
+  "containment": 0.44,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-may2026-s2-a.txt",
+  "offset": 3150
+ },
+ {
+  "lesson": "sm.choice.growth",
+  "kind": "quiz",
+  "title": ": Growth/Expansion strategy: ICAI's definition?",
+  "containment": 0.3,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-sep2024-s2-q.txt",
+  "offset": 2550
+ },
+ {
+  "lesson": "sm.choice.growth",
+  "kind": "quiz",
+  "title": ": Strategic alliance: definition?",
+  "containment": 0.26,
+  "shared_numbers": 0,
+  "source": "new/p6/rtp-jan2025-qa.txt",
+  "offset": 9150
+ },
+ {
+  "lesson": "sm.choice.retrench",
+  "kind": "quiz",
+  "title": ": Why do start-ups rarely aim for stability?",
+  "containment": 0.31,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-sep2024-a.txt",
+  "offset": 6300
+ },
+ {
+  "lesson": "sm.choice.retrench",
+  "kind": "quiz",
+  "title": ": Turnaround strategy: what is it?",
+  "containment": 0.21,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/04-strategic-choices.txt",
+  "offset": 2850
+ },
+ {
+  "lesson": "sm.choice.retrench",
+  "kind": "quiz",
+  "title": ": The six danger signals that a turnaround is needed?",
+  "containment": 0.24,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/04-strategic-choices.txt",
+  "offset": 2700
+ },
+ {
+  "lesson": "sm.choice.retrench",
+  "kind": "quiz",
+  "title": ": Divestment strategy: definition?",
+  "containment": 0.36,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-sep2025-a.txt",
+  "offset": 3900
+ },
+ {
+  "lesson": "sm.ext.markets",
+  "kind": "quiz",
+  "title": ": Define competitive landscape.",
+  "containment": 0.29,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-sep2024-s1-a.txt",
+  "offset": 2700
+ },
+ {
+  "lesson": "sm.ext.markets",
+  "kind": "quiz",
+  "title": ": Define key success factors (KSFs).",
+  "containment": 0.44,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-jan2025-s2-a.txt",
+  "offset": 2400
+ },
+ {
+  "lesson": "sm.ext.markets",
+  "kind": "quiz",
+  "title": ": Which three questions help identify an industry's KSFs?",
+  "containment": 0.26,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-may2025-a-6b.txt",
+  "offset": 2100
+ },
+ {
+  "lesson": "sm.ext.porter",
+  "kind": "quiz",
+  "title": ": Under what six conditions does rivalry tend to be cut-thro",
+  "containment": 0.26,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-jan2025-a.txt",
+  "offset": 6300
+ },
+ {
+  "lesson": "sm.impl.control",
+  "kind": "quiz",
+  "title": ": The elements of the process of control?",
+  "containment": 0.33,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 2250
+ },
+ {
+  "lesson": "sm.impl.control",
+  "kind": "quiz",
+  "title": ": Schendel and Hofer: strategic control focuses on which dua",
+  "containment": 0.59,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 3450
+ },
+ {
+  "lesson": "sm.impl.control",
+  "kind": "quiz",
+  "title": ": The two basic forms of implementation control?",
+  "containment": 0.33,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 3750
+ },
+ {
+  "lesson": "sm.impl.digital",
+  "kind": "quiz",
+  "title": "Which of the following is NOT one of the four elements of ch",
+  "containment": 0.22,
+  "shared_numbers": 0,
+  "source": "new/p6/rtp-may2026-qa.txt",
+  "offset": 7800
+ },
+ {
+  "lesson": "sm.impl.digital",
+  "kind": "quiz",
+  "title": ": Kurt Lewin's three phases of change, in order?",
+  "containment": 0.27,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-sep2024-a.txt",
+  "offset": 1350
+ },
+ {
+  "lesson": "sm.impl.digital",
+  "kind": "quiz",
+  "title": ": Lewin: why must change not come as a surprise?",
+  "containment": 0.35,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 3150
+ },
+ {
+  "lesson": "sm.impl.digital",
+  "kind": "quiz",
+  "title": ": When does refreezing occur?",
+  "containment": 0.27,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 3300
+ },
+ {
+  "lesson": "sm.impl.digital",
+  "kind": "quiz",
+  "title": ": The four elements of change management in the digital tran",
+  "containment": 0.25,
+  "shared_numbers": 0,
+  "source": "new/p6/rtp-may2026-qa.txt",
+  "offset": 7800
+ },
+ {
+  "lesson": "sm.impl.leadership",
+  "kind": "quiz",
+  "title": "Which responsibility of a strategic leader does the Study Ma",
+  "containment": 0.22,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 1650
+ },
+ {
+  "lesson": "sm.impl.leadership",
+  "kind": "quiz",
+  "title": ": The five leadership roles in pushing for good strategy exe",
+  "containment": 0.24,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 1500
+ },
+ {
+  "lesson": "sm.impl.leadership",
+  "kind": "quiz",
+  "title": ": The responsibilities of a strategic leader?",
+  "containment": 0.26,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 1650
+ },
+ {
+  "lesson": "sm.impl.leadership",
+  "kind": "quiz",
+  "title": ": Transformational leadership: when may it be appropriate?",
+  "containment": 0.47,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 2850
+ },
+ {
+  "lesson": "sm.impl.leadership",
+  "kind": "quiz",
+  "title": ": Transactional leadership: when may it be appropriate?",
+  "containment": 0.29,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/05-strategy-implementation-and-evaluation.txt",
+  "offset": 2850
+ },
+ {
+  "lesson": "sm.impl.leadership",
+  "kind": "quiz",
+  "title": ": Strategic leadership entails which four abilities?",
+  "containment": 0.52,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-may2025-a-6b.txt",
+  "offset": 2400
+ },
+ {
+  "lesson": "sm.impl.matrix",
+  "kind": "quiz",
+  "title": "Which of the following is a characteristic of operational pl",
+  "containment": 0.3,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-sep2025-s1-a.txt",
+  "offset": 3900
+ },
+ {
+  "lesson": "sm.impl.matrix",
+  "kind": "quiz",
+  "title": ": Formulation versus implementation: which is entrepreneuria",
+  "containment": 0.33,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-sep2025-a.txt",
+  "offset": 5700
+ },
+ {
+  "lesson": "sm.impl.matrix",
+  "kind": "quiz",
+  "title": ": Strategic planning versus operational planning: who is res",
+  "containment": 0.5,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-sep2025-s1-a.txt",
+  "offset": 3900
+ },
+ {
+  "lesson": "sm.impl.structure",
+  "kind": "quiz",
+  "title": ": What is corporate culture?",
+  "containment": 0.69,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-sep2026-s1-a.txt",
+  "offset": 4350
+ },
+ {
+  "lesson": "sm.int.resources",
+  "kind": "quiz",
+  "title": ": Core competence: what does \"application to other markets\" ",
+  "containment": 0.21,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-jan2025-s1-a.txt",
+  "offset": 3900
+ },
+ {
+  "lesson": "sm.int.resources",
+  "kind": "quiz",
+  "title": ": Appropriability?",
+  "containment": 0.55,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-may2025-a-6b.txt",
+  "offset": 1350
+ },
+ {
+  "lesson": "sm.int.swot",
+  "kind": "quiz",
+  "title": ": SWOT analysis: its primary objective?",
+  "containment": 0.25,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-sep2025-a.txt",
+  "offset": 4650
+ },
+ {
+  "lesson": "sm.int.swot",
+  "kind": "quiz",
+  "title": ": Define a weakness (SWOT).",
+  "containment": 0.58,
+  "shared_numbers": 0,
+  "source": "new/p6/mtp-may2026-s2-a.txt",
+  "offset": 2850
+ },
+ {
+  "lesson": "sm.int.swot",
+  "kind": "quiz",
+  "title": ": Define an opportunity (SWOT).",
+  "containment": 0.55,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/03-strategic-analysis-internal-environment.txt",
+  "offset": 2400
+ },
+ {
+  "lesson": "sm.int.swot",
+  "kind": "quiz",
+  "title": ": Define a threat (SWOT).",
+  "containment": 0.55,
+  "shared_numbers": 0,
+  "source": "sm-tyk/p6b/txt/03-strategic-analysis-internal-environment.txt",
+  "offset": 2400
+ }
+]

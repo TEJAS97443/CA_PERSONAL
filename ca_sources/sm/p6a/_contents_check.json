@@ -1,0 +1,1841 @@
+{
+ "contents": {
+  "1": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "1.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "1.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "1.2"
+   },
+   {
+    "num": "2",
+    "title": "Meaning of Financial Management",
+    "printed": "1.3"
+   },
+   {
+    "num": "2.1",
+    "title": "Procurement of Funds",
+    "printed": "1.4"
+   },
+   {
+    "num": "2.2",
+    "title": "Effective Utilisation of Funds",
+    "printed": "1.7"
+   },
+   {
+    "num": "3",
+    "title": "Evolution of Financial Management",
+    "printed": "1.7"
+   },
+   {
+    "num": "4",
+    "title": "Finance Functions/ Finance Decision",
+    "printed": "1.8"
+   },
+   {
+    "num": "5",
+    "title": "Importance of Financial Management",
+    "printed": "1.10"
+   },
+   {
+    "num": "6",
+    "title": "Scope of Financial Management",
+    "printed": "1.11"
+   },
+   {
+    "num": "7",
+    "title": "Objectives of Financial Management",
+    "printed": "1.12"
+   },
+   {
+    "num": "7.1",
+    "title": "Profit Maximisation",
+    "printed": "1.13"
+   },
+   {
+    "num": "7.2",
+    "title": "Wealth Maximisation/ Value creation",
+    "printed": "1.14"
+   },
+   {
+    "num": "8",
+    "title": "Conflicts in Profit versus Value Maximization Principle",
+    "printed": "1.16"
+   },
+   {
+    "num": "9",
+    "title": "Role of Finance Executive",
+    "printed": "1.18"
+   },
+   {
+    "num": "9.1",
+    "title": "Role of Finance Executive in today’s World vis-a-vis in the past",
+    "printed": "1.20"
+   },
+   {
+    "num": "10",
+    "title": "Financial Distress and Insolvency",
+    "printed": "1.21"
+   },
+   {
+    "num": "11",
+    "title": "Relationship of Financial Management with Related Disciplines",
+    "printed": "1.21"
+   },
+   {
+    "num": "11.1",
+    "title": "Financial Management and Accounting",
+    "printed": "1.21"
+   },
+   {
+    "num": "11.2",
+    "title": "Financial Management and Other Related Disciplines",
+    "printed": "1.23"
+   },
+   {
+    "num": "12",
+    "title": "Agency Problem and Agency Cost",
+    "printed": "1.24"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "1.25"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "1.26"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "1.26"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "1.28"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "1.29"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "1.29"
+   }
+  ],
+  "2": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "2.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "2.2"
+   },
+   {
+    "num": "1",
+    "title": "Financial Needs and Sources of Finance of a Business",
+    "printed": "2.2"
+   },
+   {
+    "num": "2",
+    "title": "Classification of Financial Sources",
+    "printed": "2.3"
+   },
+   {
+    "num": "2.1",
+    "title": "Sources of Finance based on Basic Sources",
+    "printed": "2.4"
+   },
+   {
+    "num": "2.2",
+    "title": "Sources of Finance based on Maturity of Payment",
+    "printed": "2.4"
+   },
+   {
+    "num": "2.3",
+    "title": "Sources of Finance based on Ownership and Control",
+    "printed": "2.5"
+   },
+   {
+    "num": "3",
+    "title": "Long-term Sources of Finance",
+    "printed": "2.5"
+   },
+   {
+    "num": "3.1",
+    "title": "Owners Capital or Equity Capital",
+    "printed": "2.5"
+   },
+   {
+    "num": "3.2",
+    "title": "Preference Share Capital",
+    "printed": "2.7"
+   },
+   {
+    "num": "3.3",
+    "title": "Retained Earnings",
+    "printed": "2.10"
+   },
+   {
+    "num": "3.4",
+    "title": "Debentures",
+    "printed": "2.10"
+   },
+   {
+    "num": "3.5",
+    "title": "Bond",
+    "printed": "2.13"
+   },
+   {
+    "num": "3.6",
+    "title": "Loans from Financial Institutions",
+    "printed": "2.16"
+   },
+   {
+    "num": "3.7",
+    "title": "Loans from Commercial Banks",
+    "printed": "2.17"
+   },
+   {
+    "num": "4",
+    "title": "Venture Capital Financing",
+    "printed": "2.18"
+   },
+   {
+    "num": "4.1",
+    "title": "Meaning of Venture Capital Financing",
+    "printed": "2.18"
+   },
+   {
+    "num": "4.2",
+    "title": "Characteristics of Venture Capital Financing",
+    "printed": "2.18"
+   },
+   {
+    "num": "4.3",
+    "title": "Methods of Venture Capital Financing",
+    "printed": "2.19"
+   },
+   {
+    "num": "5",
+    "title": "Debt Securitisation",
+    "printed": "2.19"
+   },
+   {
+    "num": "6",
+    "title": "Lease Financing",
+    "printed": "2.20"
+   },
+   {
+    "num": "6.1",
+    "title": "Types of Lease Contracts",
+    "printed": "2.21"
+   },
+   {
+    "num": "6.2",
+    "title": "Other Types of Leases",
+    "printed": "2.23"
+   },
+   {
+    "num": "7",
+    "title": "Short-term Sources of Finance",
+    "printed": "2.24"
+   },
+   {
+    "num": "8",
+    "title": "Other Sources of Financing",
+    "printed": "2.32"
+   },
+   {
+    "num": "9",
+    "title": "International Financing",
+    "printed": "2.35"
+   },
+   {
+    "num": "10",
+    "title": "Contemporary Sources of Funding",
+    "printed": "2.41"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "2.42"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "2.43"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "2.43"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "2.46"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "2.46"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "2.46"
+   }
+  ],
+  "3": [
+   {
+    "num": null,
+    "title": "ANALYSIS",
+    "printed": "3.1"
+   },
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "3.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "3.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "3.2"
+   },
+   {
+    "num": "2",
+    "title": "Ratio and Ratio Analysis",
+    "printed": "3.3"
+   },
+   {
+    "num": "2.1",
+    "title": "Definition of Ratio",
+    "printed": "3.3"
+   },
+   {
+    "num": "2.2",
+    "title": "Ratio Analysis",
+    "printed": "3.3"
+   },
+   {
+    "num": "2.3",
+    "title": "Sources of Financial Data for Analysis",
+    "printed": "3.4"
+   },
+   {
+    "num": "3",
+    "title": "Types of Ratios",
+    "printed": "3.4"
+   },
+   {
+    "num": "3.1",
+    "title": "Liquidity Ratios",
+    "printed": "3.5"
+   },
+   {
+    "num": "3.2",
+    "title": "Long-term Solvency Ratios/ Leverage Ratios",
+    "printed": "3.8"
+   },
+   {
+    "num": "3.2.1",
+    "title": "Capital Structure Ratios",
+    "printed": "3.9"
+   },
+   {
+    "num": "3.2.2",
+    "title": "Coverage Ratios",
+    "printed": "3.11"
+   },
+   {
+    "num": "3.3",
+    "title": "Activity Ratios/ Efficiency Ratios/ Performance Ratios/ Turnover Ratios",
+    "printed": "3.13"
+   },
+   {
+    "num": "3.4",
+    "title": "Profitability Ratios",
+    "printed": "3.18"
+   },
+   {
+    "num": "3.4.1",
+    "title": "Profitability Ratios based on Sales",
+    "printed": "3.20"
+   },
+   {
+    "num": "3.4.2",
+    "title": "Profitability Ratios related to Overall Return on Assets/ Investments",
+    "printed": "3.22"
+   },
+   {
+    "num": "3.4.3",
+    "title": "Profitability Ratios Required for Analysis from Owner’s Point of View",
+    "printed": "3.27"
+   },
+   {
+    "num": "3.4.4",
+    "title": "Profitability Ratios related to market/valuation/Investors 3.28 4. Users and Objective of Financial Analysis: A Bird's Eye View",
+    "printed": "3.30"
+   },
+   {
+    "num": "5",
+    "title": "Application of Ratio Analysis in Financial Decision Making",
+    "printed": "3.33"
+   },
+   {
+    "num": "5.1",
+    "title": "Financial Ratios for Evaluating Performance",
+    "printed": "3.34"
+   },
+   {
+    "num": "6",
+    "title": "Limitations of Financial Ratios",
+    "printed": "3.36"
+   },
+   {
+    "num": "7",
+    "title": "Financial Analysis",
+    "printed": "3.37"
+   },
+   {
+    "num": "8",
+    "title": "Summary of Ratios",
+    "printed": "3.38"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "3.60"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "3.62"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "3.62"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "3.66"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "3.66"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "3.72"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "3.75"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "3.76"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "3.76"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "3.97"
+   }
+  ],
+  "4": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "4.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "4.1"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "4.2"
+   },
+   {
+    "num": "2",
+    "title": "Meaning of Cost of Capital",
+    "printed": "4.2"
+   },
+   {
+    "num": "3",
+    "title": "Significance of Cost of Capital",
+    "printed": "4.2"
+   },
+   {
+    "num": "4",
+    "title": "Determination of Cost of Capital",
+    "printed": "4.3"
+   },
+   {
+    "num": "5",
+    "title": "Cost of Long-Term Debt (KD)",
+    "printed": "4.4"
+   },
+   {
+    "num": "5.1",
+    "title": "Features of Debentures or Bonds",
+    "printed": "4.5"
+   },
+   {
+    "num": "5.2",
+    "title": "Cost of Irredeemable Debentures",
+    "printed": "4.6"
+   },
+   {
+    "num": "5.3",
+    "title": "Cost of Redeemable Debentures (using approximation method) .. 4.8 5.3.1 Cost of Debt using Present value method [Yield to maturity (YTM) approach]",
+    "printed": "4.10"
+   },
+   {
+    "num": "5.3.2",
+    "title": "Amortisation of Bond",
+    "printed": "4.13"
+   },
+   {
+    "num": "5.4",
+    "title": "Cost of Convertible Debentures",
+    "printed": "4.14"
+   },
+   {
+    "num": "6",
+    "title": "Cost of Preference Share Capital (KP)",
+    "printed": "4.16"
+   },
+   {
+    "num": "6.1",
+    "title": "Cost of Irredeemable Preference Shares",
+    "printed": "4.16"
+   },
+   {
+    "num": "6.2",
+    "title": "Cost of Redeemable Preference Shares",
+    "printed": "4.18"
+   },
+   {
+    "num": "7",
+    "title": "Cost of Equity Share Capital (Ke)",
+    "printed": "4.19"
+   },
+   {
+    "num": "7.1",
+    "title": "Dividend Price Approach",
+    "printed": "4.20"
+   },
+   {
+    "num": "7.2",
+    "title": "Earnings Price Approach",
+    "printed": "4.20"
+   },
+   {
+    "num": "7.3",
+    "title": "Growth Approach or Gordon’s Model",
+    "printed": "4.21"
+   },
+   {
+    "num": "7.4",
+    "title": "Realized Yield Approach",
+    "printed": "4.24"
+   },
+   {
+    "num": "7.5",
+    "title": "Capital Asset Pricing Model (CAPM) Approach",
+    "printed": "4.25"
+   },
+   {
+    "num": "8",
+    "title": "Cost of Retained Earnings(Kr)",
+    "printed": "4.28"
+   },
+   {
+    "num": "9",
+    "title": "Weighted Average Cost of Capital (WACC)",
+    "printed": "4.31"
+   },
+   {
+    "num": "9.1",
+    "title": "Choice of Weights",
+    "printed": "4.33"
+   },
+   {
+    "num": "10",
+    "title": "Marginal Cost of Capital",
+    "printed": "4.38"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "4.42"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "4.43"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "4.43"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "4.45"
+   },
+   {
+    "num": null,
+    "title": "Practical Questions",
+    "printed": "4.45"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "4.49"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "4.51"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "4.51"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "4.52"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "4.60"
+   }
+  ],
+  "5": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "5.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "5.2"
+   },
+   {
+    "num": "1",
+    "title": "Meaning of Capital Structure",
+    "printed": "5.2"
+   },
+   {
+    "num": "2",
+    "title": "Capital Structure Theories",
+    "printed": "5.5"
+   },
+   {
+    "num": "2.1",
+    "title": "Net Income (NI) Approach",
+    "printed": "5.6"
+   },
+   {
+    "num": "2.2",
+    "title": "Traditional Approach",
+    "printed": "5.8"
+   },
+   {
+    "num": "2.3",
+    "title": "Net Operating Income (NOI) Approach",
+    "printed": "5.11"
+   },
+   {
+    "num": "2.4",
+    "title": "Modigliani-Miller (MM) Approach",
+    "printed": "5.15"
+   },
+   {
+    "num": "2.5",
+    "title": "The Trade-off Theory",
+    "printed": "5.27"
+   },
+   {
+    "num": "2.6",
+    "title": "Pecking Order Theory",
+    "printed": "5.29"
+   },
+   {
+    "num": "3",
+    "title": "Factors Determining Capital Structure",
+    "printed": "5.30"
+   },
+   {
+    "num": "3.1",
+    "title": "Choice of source of funds",
+    "printed": "5.30"
+   },
+   {
+    "num": "3.2",
+    "title": "Factors affecting capital structure",
+    "printed": "5.30"
+   },
+   {
+    "num": "4",
+    "title": "Optimal Capital Structure",
+    "printed": "5.32"
+   },
+   {
+    "num": "5",
+    "title": "EBIT-EPS-MPS Analysis",
+    "printed": "5.33"
+   },
+   {
+    "num": "5.1",
+    "title": "Relationship between EBIT-EPS-MPS",
+    "printed": "5.33"
+   },
+   {
+    "num": "5.2",
+    "title": "Financial Break-Even Point (BEP) and Indifference Point Analysis",
+    "printed": "5.36"
+   },
+   {
+    "num": "6",
+    "title": "Over-Capitalisation and Under-Capitalisation",
+    "printed": "5.45"
+   },
+   {
+    "num": "6.1",
+    "title": "Over-Capitalisation",
+    "printed": "5.45"
+   },
+   {
+    "num": "6.2",
+    "title": "Under-Capitalisation",
+    "printed": "5.46"
+   },
+   {
+    "num": "6.3",
+    "title": "Over-Capitalisation vis-à-vis Under-Capitalisation",
+    "printed": "5.47"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "5.47"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "5.48"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "5.48"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "5.51"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "5.52"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "5.57"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "5.59"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "5.59"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "5.59"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "5.75"
+   }
+  ],
+  "6": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "6.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "6.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "6.2"
+   },
+   {
+    "num": "2",
+    "title": "Meaning and Types of Leverages",
+    "printed": "6.3"
+   },
+   {
+    "num": "2.1",
+    "title": "Meaning of Leverage",
+    "printed": "6.3"
+   },
+   {
+    "num": "2.2",
+    "title": "Types of Leverage",
+    "printed": "6.3"
+   },
+   {
+    "num": "2.3",
+    "title": "Chart showing Degree of Operating Leverage, Financial Leverage and Combined Leverage",
+    "printed": "6.4"
+   },
+   {
+    "num": "3",
+    "title": "Operating Leverage",
+    "printed": "6.5"
+   },
+   {
+    "num": "3.1",
+    "title": "Degree of Operating Leverage (DOL)",
+    "printed": "6.5"
+   },
+   {
+    "num": "3.2",
+    "title": "Break-Even Analysis and Operating Leverage",
+    "printed": "6.6"
+   },
+   {
+    "num": "3.3",
+    "title": "Margin of Safety (MOS) and Operating Leverage (OL)",
+    "printed": "6.8"
+   },
+   {
+    "num": "4",
+    "title": "Financial Leverage",
+    "printed": "6.14"
+   },
+   {
+    "num": "4.1",
+    "title": "Degree of Financial Leverage (DFL)",
+    "printed": "6.14"
+   },
+   {
+    "num": "4.2",
+    "title": "Financial Leverage as ‘Trading on Equity’",
+    "printed": "6.17"
+   },
+   {
+    "num": "4.3",
+    "title": "Financial Leverage as a ‘Double edged Sword’",
+    "printed": "6.18"
+   },
+   {
+    "num": "5",
+    "title": "Combined Leverage",
+    "printed": "6.19"
+   },
+   {
+    "num": "5.1",
+    "title": "Degree of Combined Leverage (DCL)",
+    "printed": "6.20"
+   },
+   {
+    "num": "5.2",
+    "title": "Analysis of Combined Leverage",
+    "printed": "6.20"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "6.27"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "6.27"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "6.27"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "6.31"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "6.32"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "6.38"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "6.40"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Theoretical Questions",
+    "printed": "6.40"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Practical Problems",
+    "printed": "6.40"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "6.54"
+   }
+  ],
+  "7": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "7.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "7.2"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "7.2"
+   },
+   {
+    "num": "2",
+    "title": "Purpose of Capital Budgeting",
+    "printed": "7.3"
+   },
+   {
+    "num": "3",
+    "title": "Capital Budgeting Process",
+    "printed": "7.4"
+   },
+   {
+    "num": "4",
+    "title": "Types of Capital Investment Decisions",
+    "printed": "7.5"
+   },
+   {
+    "num": "4.1",
+    "title": "On the basis of firm’s existence",
+    "printed": "7.5"
+   },
+   {
+    "num": "4.2",
+    "title": "On the basis of situations",
+    "printed": "7.6"
+   },
+   {
+    "num": "4.3",
+    "title": "Steps of Capital Budgeting Procedure",
+    "printed": "7.7"
+   },
+   {
+    "num": "5",
+    "title": "Estimation of Project Cash Flows",
+    "printed": "7.7"
+   },
+   {
+    "num": "6",
+    "title": "Basic Principles for Measuring Project Cash Flows",
+    "printed": "7.12"
+   },
+   {
+    "num": "6.1",
+    "title": "Block of Assets and Depreciation",
+    "printed": "7.12"
+   },
+   {
+    "num": "6.2",
+    "title": "Exclusion of Financing Costs Principle",
+    "printed": "7.14"
+   },
+   {
+    "num": "6.3",
+    "title": "Post-tax Principle",
+    "printed": "7.16"
+   },
+   {
+    "num": "7",
+    "title": "Capital Budgeting Techniques",
+    "printed": "7.17"
+   },
+   {
+    "num": "8",
+    "title": "Traditional or Non-Discounting Techniques",
+    "printed": "7.18"
+   },
+   {
+    "num": "8.1",
+    "title": "Payback Period",
+    "printed": "7.18"
+   },
+   {
+    "num": "8.1.1",
+    "title": "Payback Reciprocal",
+    "printed": "7.21"
+   },
+   {
+    "num": "8.2",
+    "title": "Accounting (Book) Rate of Return (ARR) or Average Rate of Return (ARR)",
+    "printed": "7.22"
+   },
+   {
+    "num": "9",
+    "title": "Discounting Techniques",
+    "printed": "7.26"
+   },
+   {
+    "num": "9.1",
+    "title": "Net Present Value Technique (NPV)",
+    "printed": "7.27"
+   },
+   {
+    "num": "9.2",
+    "title": "Profitability Index/ Desirability Factor/Present Value Index Method (PI)",
+    "printed": "7.31"
+   },
+   {
+    "num": "9.3",
+    "title": "Internal Rate of Return Method (IRR)",
+    "printed": "7.32"
+   },
+   {
+    "num": "9.3.1",
+    "title": "Acceptance Rule",
+    "printed": "7.37"
+   },
+   {
+    "num": "9.3.2",
+    "title": "Internal Rate of Return (IRR) and Mutually Exclusive Projects",
+    "printed": "7.38"
+   },
+   {
+    "num": "9.3.3",
+    "title": "The Reinvestment Assumption",
+    "printed": "7.40"
+   },
+   {
+    "num": "9.3.4",
+    "title": "Multiple Internal Rate of Return",
+    "printed": "7.41"
+   },
+   {
+    "num": "9.4",
+    "title": "Discounted Payback Period Method",
+    "printed": "7.42"
+   },
+   {
+    "num": "9.5",
+    "title": "Modified Internal Rate of Return (MIRR)",
+    "printed": "7.43"
+   },
+   {
+    "num": "9.6",
+    "title": "Comparison of Net Present Value and Internal Rate of Return Methods",
+    "printed": "7.45"
+   },
+   {
+    "num": "9.7",
+    "title": "Different conclusion in the following scenarios",
+    "printed": "7.45"
+   },
+   {
+    "num": "10",
+    "title": "Summary of Decision Criteria of Capital Budgeting Techniques",
+    "printed": "7.52"
+   },
+   {
+    "num": "11",
+    "title": "Special Cases of Capital Budgeting",
+    "printed": "7.53"
+   },
+   {
+    "num": "11.1",
+    "title": "Capital Budgeting under Capital Rationing",
+    "printed": "7.53"
+   },
+   {
+    "num": "11.2",
+    "title": "Projects with unequal lives",
+    "printed": "7.54"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "7.69"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "7.70"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "7.70"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "7.74"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "7.74"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "7.83"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "7.86"
+   },
+   {
+    "num": null,
+    "title": "Answers to Theoretical Questions",
+    "printed": "7.86"
+   },
+   {
+    "num": null,
+    "title": "Answers to Practical Problems",
+    "printed": "7.86"
+   },
+   {
+    "num": null,
+    "title": "Answers to Case Scenarios",
+    "printed": "7.103"
+   }
+  ],
+  "8": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "8.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "8.1"
+   },
+   {
+    "num": "1",
+    "title": "Introduction",
+    "printed": "8.2"
+   },
+   {
+    "num": "2",
+    "title": "Meaning of Dividend",
+    "printed": "8.3"
+   },
+   {
+    "num": "3",
+    "title": "Forms of dividend",
+    "printed": "8.3"
+   },
+   {
+    "num": "4",
+    "title": "Significance of Dividend Policy",
+    "printed": "8.6"
+   },
+   {
+    "num": "5",
+    "title": "Relationship between Retained Earnings and Growth",
+    "printed": "8.8"
+   },
+   {
+    "num": "6",
+    "title": "Determinants of Dividend Decisions",
+    "printed": "8.9"
+   },
+   {
+    "num": "7",
+    "title": "Practical Considerations in Dividend Policy",
+    "printed": "8.10"
+   },
+   {
+    "num": "8",
+    "title": "Theories of Dividend",
+    "printed": "8.14"
+   },
+   {
+    "num": "8.1",
+    "title": "Dividend’s Irrelevance Theory",
+    "printed": "8.14"
+   },
+   {
+    "num": "8.2",
+    "title": "Dividend’s Relevance Theory",
+    "printed": "8.21"
+   },
+   {
+    "num": "9",
+    "title": "Stock Splits",
+    "printed": "8.33"
+   },
+   {
+    "num": "9.1",
+    "title": "Meaning of Stock Split",
+    "printed": "8.33"
+   },
+   {
+    "num": "9.2",
+    "title": "Advantages of Stock Splits",
+    "printed": "8.33"
+   },
+   {
+    "num": "9.3",
+    "title": "Limitations of Stock Splits",
+    "printed": "8.33"
+   },
+   {
+    "num": "10",
+    "title": "Share Buyback",
+    "printed": "8.33"
+   },
+   {
+    "num": "10.1",
+    "title": "Meaning of Share Buyback",
+    "printed": "8.33"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "8.39"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "8.40"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "8.40"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "8.42"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "8.42"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "8.45"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "8.47"
+   },
+   {
+    "num": null,
+    "title": "Answers to Theoretical Questions",
+    "printed": "8.47"
+   },
+   {
+    "num": null,
+    "title": "Answers to Practical Problems",
+    "printed": "8.48"
+   },
+   {
+    "num": null,
+    "title": "Answers to Case Scenarios",
+    "printed": "8.54"
+   }
+  ],
+  "9": [
+   {
+    "num": null,
+    "title": "Learning Outcomes",
+    "printed": "9.1"
+   },
+   {
+    "num": null,
+    "title": "Chapter Overview",
+    "printed": "9.2"
+   },
+   {
+    "num": null,
+    "title": "UNIT I : INTRODUCTION TO WORKING CAPITAL MANAGEMENT",
+    "printed": "9.3"
+   },
+   {
+    "num": "1",
+    "title": "Meaning and Concept of Working Capital",
+    "printed": "9.3"
+   },
+   {
+    "num": "2",
+    "title": "Significance of Working Capital",
+    "printed": "9.6"
+   },
+   {
+    "num": "2.1",
+    "title": "Importance of Adequate Working Capital",
+    "printed": "9.6"
+   },
+   {
+    "num": "2.2",
+    "title": "Optimum Working Capital",
+    "printed": "9.7"
+   },
+   {
+    "num": "3",
+    "title": "Determinants of Working Capital",
+    "printed": "9.8"
+   },
+   {
+    "num": "4",
+    "title": "Management of Working Capital",
+    "printed": "9.10"
+   },
+   {
+    "num": "4.1",
+    "title": "Liquidity and Profitability",
+    "printed": "9.11"
+   },
+   {
+    "num": "4.2",
+    "title": "Investment and Financing",
+    "printed": "9.12"
+   },
+   {
+    "num": "4.3",
+    "title": "Approaches of working capital investment",
+    "printed": "9.13"
+   },
+   {
+    "num": "4.4",
+    "title": "Current Assets to Fixed Assets Ratio",
+    "printed": "9.15"
+   },
+   {
+    "num": "5",
+    "title": "Estimating Working Capital Needs",
+    "printed": "9.16"
+   },
+   {
+    "num": "6",
+    "title": "Operating or Working Capital Cycle",
+    "printed": "9.17"
+   },
+   {
+    "num": "6.1",
+    "title": "Working Capital Based on Operating Cycle",
+    "printed": "9.20"
+   },
+   {
+    "num": "6.2",
+    "title": "Estimation of amount of Different Components of Current Assets and Current Liabilities",
+    "printed": "9.22"
+   },
+   {
+    "num": "6.3",
+    "title": "Working Capital Requirement Estimation based on Cash Cost",
+    "printed": "9.28"
+   },
+   {
+    "num": "6.4",
+    "title": "Effect of Double Shift Working on Working Capital Requirements",
+    "printed": "9.31"
+   },
+   {
+    "num": null,
+    "title": "UNIT II : TREASURY AND CASH MANAGEMENT",
+    "printed": "9.37"
+   },
+   {
+    "num": "7",
+    "title": "Treasury Management: Meaning",
+    "printed": "9.37"
+   },
+   {
+    "num": "8",
+    "title": "Functions of Treasury Department",
+    "printed": "9.38"
+   },
+   {
+    "num": "9",
+    "title": "Management of Cash",
+    "printed": "9.39"
+   },
+   {
+    "num": "9.1",
+    "title": "The Need for Cash",
+    "printed": "9.39"
+   },
+   {
+    "num": "9.2",
+    "title": "Cash Planning",
+    "printed": "9.40"
+   },
+   {
+    "num": "9.3",
+    "title": "Cash Budget",
+    "printed": "9.40"
+   },
+   {
+    "num": "10",
+    "title": "Methods of Cash Flow Budgeting",
+    "printed": "9.41"
+   },
+   {
+    "num": "10.1",
+    "title": "Cash budget for short period",
+    "printed": "9.42"
+   },
+   {
+    "num": "10.2",
+    "title": "Cash Budget for long period",
+    "printed": "9.50"
+   },
+   {
+    "num": "10.3",
+    "title": "Managing Cash Collection and Disbursements",
+    "printed": "9.53"
+   },
+   {
+    "num": "10.4",
+    "title": "Accelerating Cash Collections",
+    "printed": "9.53"
+   },
+   {
+    "num": "10.5",
+    "title": "Controlling Payments",
+    "printed": "9.55"
+   },
+   {
+    "num": "10.6",
+    "title": "Determining the Optimum Cash Balance",
+    "printed": "9.59"
+   },
+   {
+    "num": "11",
+    "title": "Cash Management Models",
+    "printed": "9.59"
+   },
+   {
+    "num": "11.1",
+    "title": "William J. Baumol’s Economic Order Quantity Model, (1952)",
+    "printed": "9.59"
+   },
+   {
+    "num": "11.2",
+    "title": "Miller-Orr Cash Management Model (1966)",
+    "printed": "9.61"
+   },
+   {
+    "num": "12",
+    "title": "Recent Developments in Cash Management",
+    "printed": "9.62"
+   },
+   {
+    "num": "12.1",
+    "title": "Electronic Fund Transfer",
+    "printed": "9.63"
+   },
+   {
+    "num": "12.2",
+    "title": "Zero Balance Account",
+    "printed": "9.63"
+   },
+   {
+    "num": "12.3",
+    "title": "Money Market Operations",
+    "printed": "9.63"
+   },
+   {
+    "num": "12.4",
+    "title": "Petty Cash Imprest System",
+    "printed": "9.64"
+   },
+   {
+    "num": "12.5",
+    "title": "Management of Temporary Cash Surplus",
+    "printed": "9.64"
+   },
+   {
+    "num": "12.6",
+    "title": "Electronic Cash Management System",
+    "printed": "9.64"
+   },
+   {
+    "num": "12.7",
+    "title": "Virtual Banking",
+    "printed": "9.65"
+   },
+   {
+    "num": "13",
+    "title": "Management of Marketable Securities",
+    "printed": "9.67"
+   },
+   {
+    "num": null,
+    "title": "UNIT III : MANAGEMENT OF INVENTORY",
+    "printed": "9.69"
+   },
+   {
+    "num": "14",
+    "title": "Inventory Management",
+    "printed": "9.69"
+   },
+   {
+    "num": null,
+    "title": "UNIT IV : MANAGEMENT OF RECEIVABLES",
+    "printed": "9.70"
+   },
+   {
+    "num": "15",
+    "title": "Meaning and Objective",
+    "printed": "9.70"
+   },
+   {
+    "num": "16",
+    "title": "Aspects of Management of Debtors",
+    "printed": "9.70"
+   },
+   {
+    "num": "17",
+    "title": "Factors Determining Credit Policy",
+    "printed": "9.71"
+   },
+   {
+    "num": "18",
+    "title": "Factors under the Control of the Finance Manager",
+    "printed": "9.72"
+   },
+   {
+    "num": "19",
+    "title": "Approaches to Evaluation of Credit Policies",
+    "printed": "9.73"
+   },
+   {
+    "num": "20",
+    "title": "Financing Receivables",
+    "printed": "9.82"
+   },
+   {
+    "num": "20.1",
+    "title": "Pledging and Factoring",
+    "printed": "9.82"
+   },
+   {
+    "num": "20.2",
+    "title": "Forfaiting",
+    "printed": "9.86"
+   },
+   {
+    "num": "21",
+    "title": "Innovations in Receivable Management",
+    "printed": "9.89"
+   },
+   {
+    "num": "22",
+    "title": "Monitoring of Receivables",
+    "printed": "9.94"
+   },
+   {
+    "num": null,
+    "title": "UNIT V : MANAGEMENT OF PAYABLES (CREDITORS)",
+    "printed": "9.98"
+   },
+   {
+    "num": "23",
+    "title": "Introduction",
+    "printed": "9.98"
+   },
+   {
+    "num": "24",
+    "title": "Cost and Benefits of Trade Credit",
+    "printed": "9.98"
+   },
+   {
+    "num": "25",
+    "title": "Computation of Cost of Payables",
+    "printed": "9.99"
+   },
+   {
+    "num": null,
+    "title": "UNIT VI : FINANCING OF WORKING CAPITAL",
+    "printed": "9.102"
+   },
+   {
+    "num": "26",
+    "title": "Introduction",
+    "printed": "9.102"
+   },
+   {
+    "num": "27",
+    "title": "Sources of Finance",
+    "printed": "9.103"
+   },
+   {
+    "num": "27.1",
+    "title": "Spontaneous Sources of Finance",
+    "printed": "9.103"
+   },
+   {
+    "num": "27.2",
+    "title": "Inter-corporate Loans and Deposits",
+    "printed": "9.104"
+   },
+   {
+    "num": "27.3",
+    "title": "Commercial Papers",
+    "printed": "9.104"
+   },
+   {
+    "num": "27.4",
+    "title": "Funds Generated from Operations",
+    "printed": "9.105"
+   },
+   {
+    "num": "27.5",
+    "title": "Public Deposits",
+    "printed": "9.105"
+   },
+   {
+    "num": "27.6",
+    "title": "Bills Discounting",
+    "printed": "9.105"
+   },
+   {
+    "num": "27.7",
+    "title": "Bill Rediscounting Scheme",
+    "printed": "9.105"
+   },
+   {
+    "num": "27.8",
+    "title": "Factoring",
+    "printed": "9.105"
+   },
+   {
+    "num": "28",
+    "title": "Working Capital Finance from Banks",
+    "printed": "9.106"
+   },
+   {
+    "num": "28.1",
+    "title": "Instructions on Working Capital Finance by Banks",
+    "printed": "9.106"
+   },
+   {
+    "num": "29",
+    "title": "Forms of Bank Credit",
+    "printed": "9.107"
+   },
+   {
+    "num": null,
+    "title": "Summary",
+    "printed": "9.108"
+   },
+   {
+    "num": null,
+    "title": "Test Your Knowledge",
+    "printed": "9.110"
+   },
+   {
+    "num": null,
+    "title": "Multiple Choice Questions (MCQs)",
+    "printed": "9.110"
+   },
+   {
+    "num": null,
+    "title": "Theoretical Questions",
+    "printed": "9.115"
+   },
+   {
+    "num": null,
+    "title": "Practical Problems",
+    "printed": "9.116"
+   },
+   {
+    "num": null,
+    "title": "Case Scenarios",
+    "printed": "9.126"
+   },
+   {
+    "num": null,
+    "title": "Answers to the MCQs",
+    "printed": "9.128"
+   },
+   {
+    "num": null,
+    "title": "Answers to Theoretical Questions",
+    "printed": "9.128"
+   },
+   {
+    "num": null,
+    "title": "Answers to Practical Problems",
+    "printed": "9.129"
+   },
+   {
+    "num": null,
+    "title": "Answers to the Case Scenarios",
+    "printed": "9.154"
+   }
+  ]
+ },
+ "report": [
+  {
+   "ch": 1,
+   "title": "Scope and Objectives of Financial Management",
+   "contents_numbered": 19,
+   "detected_numbered": 19,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 2,
+   "title": "Types of Financing",
+   "contents_numbered": 25,
+   "detected_numbered": 25,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 3,
+   "title": "Financial Analysis and Planning - Ratio Analysis",
+   "contents_numbered": 21,
+   "detected_numbered": 22,
+   "missing_in_detected": [],
+   "not_in_contents": [
+    {
+     "h": "4. USERS AND OBJECTIVE OF FINANCIAL ANALYSIS - A BIRD'S EYE VIEW",
+     "page": 30
+    }
+   ]
+  },
+  {
+   "ch": 4,
+   "title": "Cost of Capital",
+   "contents_numbered": 23,
+   "detected_numbered": 24,
+   "missing_in_detected": [],
+   "not_in_contents": [
+    {
+     "h": "5.3.1 Cost of Debt using Present value method [Yield to maturity (YTM) approach]",
+     "page": 11
+    }
+   ]
+  },
+  {
+   "ch": 5,
+   "title": "Financing Decisions - Capital Structure",
+   "contents_numbered": 19,
+   "detected_numbered": 19,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 6,
+   "title": "Financing Decisions - Leverages",
+   "contents_numbered": 16,
+   "detected_numbered": 16,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 7,
+   "title": "Investment Decisions",
+   "contents_numbered": 33,
+   "detected_numbered": 33,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 8,
+   "title": "Dividend Decision",
+   "contents_numbered": 16,
+   "detected_numbered": 16,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  },
+  {
+   "ch": 9,
+   "title": "Management of Working Capital",
+   "contents_numbered": 68,
+   "detected_numbered": 68,
+   "missing_in_detected": [],
+   "not_in_contents": []
+  }
+ ]
+}

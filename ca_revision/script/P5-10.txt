@@ -1,0 +1,94 @@
+# P5-10 · audit-of-banks · Audit of Banks: किराया देखिए, मकान नहीं
+
+## Introduction: Narmada Bank की Indore Main Branch
+
+<|emotion:enthusiasm|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+आज Paper five का chapter ten है, Audit of Banks, जिसे ICAI ने बासठ documents में पूछा है, सोलह exam papers समेत, और उनसठ documents में advances और NPAs आते हैं।
+पिछले episode के आख़िर में बताया था कि Iyer and Associates Narmada Bank of India की Indore Main Branch के branch auditors बनेंगे, वही nationalised bank जहाँ Tapri का current account है।
+<|emotion:determination|>Episode के आख़िर तक आप NPA की definition, provisioning के rates, drawing power, NPA पर income reversal और operating expenses का audit approach ICAI के शब्दों में लिख पाएँगे।
+
+## Audit approach and the bank's auditor: system पर भरोसा, evidence के साथ
+
+<|emotion:amusement|>बंटी को लगता है कि bank audit सबसे आसान audit है, क्योंकि system खुद NPA list, provisions और interest print कर देता है, और उसे बस tick करना है।
+लक्ष्मी पूछती हैं कि system में RBI के rules हैं, ये किसने check किया, और फिर अपना rule दोहराती हैं, evidence first, ticks later।
+Study Material का fix साफ़ है कि auditor satisfied हो कि latest RBI norms उस system में built-in हैं जो classification, provisions और income recognition का data बनाता है।
+वो system-generated information को बिना evidence के सही न माने, professional skepticism रखे, जहाँ ज़रूरी हो manual checks करे, और उनके results document करे।
+
+Audit plan चार bases पर बनता है: nature and level of operations, adverse features, previous reports में compliance का level, और internal controls की कमी या breach से audit risks।
+<|emotion:contemplation|>Engagement team में contracted experts भी गिने जाते हैं, और planning stage पर team branch financial statements की susceptibility to material misstatement discuss करती है।
+Advances पर adverse comments के लिए auditor सात reports पढ़ता है, जिनमें RBI की latest inspection report, concurrent audit reports और manager की charge-handing-over report भी हैं।
+
+Banking Regulation Act की section thirty, sub-section one के तहत bank का auditor a person duly qualified to be an auditor of companies होना चाहिए।
+Banking company में auditor को AGM में shareholders appoint करते हैं, nationalised bank में Board, और दोनों में RBI की prior approval चाहिए, जबकि Regional Rural Bank में Central Government की।
+Nationalised bank का auditor Central Government को true and fair view, transactions का bank की powers में होना, branch returns की adequacy, और कोई दूसरा ज़रूरी matter report करता है।
+<|emotion:determination|>CARO twenty twenty banking company पर लागू नहीं होता, statutory central auditors LFAR latest by thirtieth June देते हैं, और fraud जैसी कोई बात Chairman के साथ RBI को report होती है।
+
+## NPAs, classification and provisioning: record of recovery
+
+<|emotion:amusement|>केसर को भरोसा है कि उनके cousin रोहित की Mehra Kulhad Works का loan safe है, क्योंकि bank के पास उसकी पूरी भट्टी security में है।
+लक्ष्मी का जवाब इस chapter की नींव है कि bank ये नहीं पूछता कि वो क्या बेच सकता है, वो पूछता है कि borrower ने असल में कितना pay किया।
+<|prosody:speed_slow|>ICAI के words में an asset becomes an NPA when it ceases to generate income for the bank, यानी वो bank के लिए कमाना बंद कर दे।
+Term loan में interest या instalment, और bills purchased and discounted में bill, नब्बे दिन से ज़्यादा overdue रहे तो advance NPA है।
+Cash credit या overdraft में test ये है कि account out of order है या नहीं, और overdue का मतलब है bank की तय due date पर pay न होना।
+
+Account तीन हालात में out of order है, पहला जब outstanding balance remains continuously in excess of the sanctioned limit or drawing power।
+दूसरा, जब balance limit से कम हो पर balance sheet date तक लगातार नब्बे दिन कोई credit न आए, और तीसरा, जब credits उसी period के interest debited को cover न करें।
+<|emotion:determination|>Classification as NPA should be based on the record of recovery, यानी security या borrower की net worth से फ़र्क नहीं पड़ता, और classification borrower-wise होता है, facility-wise नहीं।
+इसलिए किसी borrower की एक facility NPA हुई, तो उसकी सारी facilities NPA हैं, चाहे भट्टी कितनी भी बड़ी हो।
+
+Sub-standard वो asset है जो बारह महीने या उससे कम समय से NPA हो, और उस पर पंद्रह प्रतिशत provision है।
+Sub-standard में बारह महीने रहने के बाद asset doubtful बनता है, D one एक साल तक, D two एक से तीन साल, और D three तीन साल से ज़्यादा।
+Doubtful में secured portion पर D one के लिए पच्चीस, D two के लिए चालीस और D three के लिए सौ प्रतिशत provision है, और unsecured portion पर हमेशा सौ प्रतिशत।
+<|emotion:contemplation|>Loss asset वो है जिसका loss bank, auditors या RBI inspection ने identify कर लिया पर पूरा write off नहीं हुआ, और उस पर सौ प्रतिशत provision है।
+Security गिर जाए तो stages छोड़िए, और realisable value bank की assessed या पिछले RBI inspection में accepted value के पचास प्रतिशत से कम हो, तो asset सीधे doubtful है।
+अगर realisable value outstanding के दस प्रतिशत से कम हो, तो security ignore करके asset सीधे loss है।
+
+## Special rules, drawing power and evidence: limit के अंदर, statement के साथ
+
+Classification के बाद ICAI special situations पर MCQs बनाता है: Central Government guaranteed advance, guarantee invoke या repudiate न हुई हो तो, standard है, पर income recognition के लिए NPA।
+State Government guaranteed advance नब्बे दिन से ज़्यादा overdue हो, तो provisioning और income recognition, दोनों के लिए NPA है।
+Consortium advance में classification हर member bank के अपने record of recovery पर होता है, और remittance पाने वाला bank दूसरों का हिस्सा न दे तो account उनकी books में NPA है।
+Crop loan short duration crops में दो crop seasons और long duration में एक crop season overdue रहने पर NPA है, और crop season State Level Bankers' Committee तय करती है।
+Term deposits, NSCs, KVP और life policies के against advances में adequate margin हो तो उन्हें NPA मानना ज़रूरी नहीं।
+
+<|emotion:contemplation|>Drawing power वो limit है जिस तक borrower sanctioned working capital limit से निकाल सकता है, और ये primary security minus margin से निकलती है।
+<|prosody:speed_slow|>Drawing power बराबर है paid-for stocks minus margin plus eligible debtors minus margin, यानी unpaid stocks और ineligible debtors margin से पहले घटते हैं।
+Stock statement तीन महीने से पुराना न हो, drawings DP और sanctioned limit दोनों के अंदर रहें, और computed DP limit से ऊपर हो तो भी drawing limit तक ही है।
+Auditor stock statements को borrower के audited accounts से मिलाता है, और पाँच करोड़ रुपये से ज़्यादा funded exposure पर bank stock audit करवाता है।
+Large advance वो है जिसका year-end balance दस करोड़ रुपये या branch के aggregate advances के दस प्रतिशत, whichever is less, से ज़्यादा हो, और ऐसे सारे advances examine होते हैं।
+Evidence के सात points में auditor देखता है कि advances balance sheet date पर outstanding हैं, bank को due हैं, documents से supported हैं, और कोई unrecorded advance नहीं है।
+<|emotion:determination|>बाकी तीन points हैं valuation और recoverability, accounting policies और regulatory requirements के हिसाब से disclosure, और RBI norms के हिसाब से appropriate provisions।
+
+## Revenue items: charge करना और कमाना अलग है
+
+Advances से सीधा जुड़ा सवाल income का है, क्योंकि March के आख़िर में CBS का interest batch हर loan account को, अच्छा हो या बुरा, interest debit कर देता है।
+लक्ष्मी की line है, charging it and earning it are two different things, और ICAI का rule है कि NPA पर income तभी बनती है जब वो actually realised हो।
+<|emotion:contemplation|>Advance साल के close पर NPA बने, तो पिछले periods में credit हुआ सारा unrealised interest reversed or provided for होता है, Government guaranteed accounts में भी।
+आगे का interest memorandum account में रहता है, जो gross advances में नहीं गिना जाता, और partial recovery किसी fresh credit facility से आई हो तो वो income नहीं है।
+<|emotion:determination|>Bills purchased का unexpired discount Other Liabilities में जाता है, और bills for collection पर commission तभी due है जब bill collect हो जाए।
+
+Interest expense में auditor quarter-end deposits से weighted average interest rate निकालकर उसे actual average rate और पिछले सालों के rate से compare करता है।
+<|emotion:determination|>Operating expenses के approach में पहले authorisation समेत internal control का study, फिर major items के divergent trends, और फिर substantive analytical procedures आते हैं।
+इसका example है हर item का total operating expenses से ratio पिछले सालों से compare करना, और आख़िर में auditor supporting documents से vouching और calculations check करता है।
+Provisions and contingencies में auditor RBI circulars की compliance देखता है, sample पर classification check करता है, और loans का break-up general ledger से मिलाता है।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>ये chapter लगभग पूरा advances पर टिका है, जहाँ out of order, drawing power और provisioning के चार से पाँच marks के cases आते हैं, और special rules MCQs में।
+ICAI ने operating expenses का audit approach तीन documents में दोहराया है, और drawing power के points, consortium advances, और sub-standard और D one के provisioning cases दो-दो बार।
+Drawing power cash credit जैसी working capital facility से जुड़ी है, और तीन computations में ICAI का twist ये है कि computed DP sanctioned limit से ज़्यादा निकलती है।
+
+<|emotion:contemplation|>एक आम गलती fully secured loan को NPA न मानना है, और दूसरी, doubtful का rate पूरे outstanding पर लगाना, जबकि वो सिर्फ़ secured portion पर लगता है।
+Erosion के case में पहले outstanding के दस प्रतिशत वाला test लगाइए, क्योंकि वो लगे तो asset सीधे loss है, चाहे पचास प्रतिशत वाला test भी लागू हो।
+Case answer में पहले norm ICAI के शब्दों में, फिर dates और security के facts, फिर NPA कब बना, उसकी age, और secured और unsecured portion लिखिए।
+Conclusion में classification, ज़रूरी provision, short या excess, और profit पर effect लिखिए, और bank के sections और RBI circulars Study Material और January twenty twenty-seven के Statutory Update से मिला लीजिए।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: system के RBI parameters पहले check होते हैं, और nationalised bank का auditor Board appoint करता है, RBI की approval से।
+<|emotion:contemplation|>NPA वो asset है जो income देना बंद कर दे, term loan में नब्बे दिन से ज़्यादा overdue, cash credit में out of order, और classification record of recovery पर होता है।
+Provisions पंद्रह, पच्चीस, चालीस, सौ और सौ हैं, doubtful में rate secured portion पर और unsecured पर सौ, और security outstanding के दस प्रतिशत से कम हो तो सीधे loss।
+Drawing power paid-for stocks और eligible debtors से margin घटाकर निकलती है, NPA का unrealised interest reverse होता है, और operating expenses पर control, trend और analytical procedures लगते हैं।
+
+अगले episode में Iyer and Associates अपने ही आचरण और engagement letter को देखेंगे, यानी Paper five का chapter eleven, Ethics and Terms of Audit Engagements।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

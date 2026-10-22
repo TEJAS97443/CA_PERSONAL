@@ -1,0 +1,1713 @@
+{
+ "extra_files": [
+  {
+   "name": "00-initial-pages",
+   "title": "Initial Pages",
+   "pdf": "pdf/ip.pdf",
+   "txt": "txt/00-initial-pages.txt"
+  }
+ ],
+ "docs": {
+  "00-initial-pages": {
+   "pages": [
+    1,
+    12
+   ],
+   "low_text_pages": []
+  },
+  "01-introduction-to-strategic-management": {
+   "pages": [
+    1,
+    42
+   ],
+   "printed": [
+    "1.1",
+    "1.42"
+   ],
+   "labels": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.9",
+    "1.10",
+    "1.11",
+    "1.12",
+    "1.13",
+    "1.14",
+    "1.15",
+    "1.16",
+    "1.17",
+    "1.18",
+    "1.19",
+    "1.20",
+    "1.21",
+    "1.22",
+    "1.23",
+    "1.24",
+    "1.25",
+    "1.26",
+    "1.27",
+    "1.28",
+    "1.29",
+    "1.30",
+    "1.31",
+    "1.32",
+    "1.33",
+    "1.34",
+    "1.35",
+    "1.36",
+    "1.37",
+    "1.38",
+    "1.39",
+    "1.40",
+    "1.41",
+    "1.42"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "1.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "1.2"
+    },
+    {
+     "h": "1.1 INTRODUCTION",
+     "num": "1.1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "1.2"
+    },
+    {
+     "h": "1.2 MEANING AND NATURE OF STRATEGIC MANAGEMENT",
+     "num": "1.2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "1.3"
+    },
+    {
+     "h": "1.3 CONCEPT OF STRATEGY",
+     "num": "1.3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 4,
+     "level": 1,
+     "printed": "1.4"
+    },
+    {
+     "h": "1.4 STRATEGIC MANAGEMENT - IMPORTANCE AND LIMITATIONS",
+     "num": "1.4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 7,
+     "level": 1,
+     "printed": "1.7"
+    },
+    {
+     "h": "1.4.1 Importance of Strategic Management",
+     "num": "1.4.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 8,
+     "level": 2,
+     "printed": "1.8"
+    },
+    {
+     "h": "1.4.2 Limitations of Strategic Management",
+     "num": "1.4.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 11,
+     "level": 2,
+     "printed": "1.11"
+    },
+    {
+     "h": "1.5 STRATEGIC INTENT (VISION, MISSION, GOALS, OBJECTIVES AND VALUES)",
+     "num": "1.5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 13,
+     "level": 1,
+     "printed": "1.13"
+    },
+    {
+     "h": "1.5.1 Vision",
+     "num": "1.5.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 15,
+     "level": 2,
+     "printed": "1.15"
+    },
+    {
+     "h": "1.5.2 Mission",
+     "num": "1.5.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 16,
+     "level": 2,
+     "printed": "1.16"
+    },
+    {
+     "h": "1.5.3 Goals and Objectives",
+     "num": "1.5.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 19,
+     "level": 2,
+     "printed": "1.19"
+    },
+    {
+     "h": "1.5.4 VALUES",
+     "num": "1.5.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 22,
+     "level": 2,
+     "printed": "1.22"
+    },
+    {
+     "h": "1.6 STRATEGIC LEVELS IN ORGANISATIONS",
+     "num": "1.6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 23,
+     "level": 1,
+     "printed": "1.23"
+    },
+    {
+     "h": "1.6.1 Network of relationship between the three levels",
+     "num": "1.6.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 27,
+     "level": 2,
+     "printed": "1.27"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 28,
+     "level": 1,
+     "printed": "1.28"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 28,
+     "level": 1,
+     "printed": "1.28"
+    },
+    {
+     "h": "Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 28,
+     "level": 1,
+     "printed": "1.28"
+    },
+    {
+     "h": "ANSWERS/SOLUTIONS",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 34,
+     "level": 1,
+     "printed": "1.34"
+    },
+    {
+     "h": "Answers to Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 34,
+     "level": 1,
+     "printed": "1.34"
+    },
+    {
+     "h": "Answers to Scenario Based Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 34,
+     "level": 1,
+     "printed": "1.34"
+    }
+   ],
+   "formula_pages": [],
+   "low_text_pages": [],
+   "running_heads": [
+    "INTRODUCTION TO STRATEGIC MANAGEMENT",
+    "STRATEGIC MANAGEMENT"
+   ],
+   "label_conflicts": []
+  },
+  "02-strategic-analysis-external-environment": {
+   "pages": [
+    1,
+    60
+   ],
+   "printed": [
+    "2.1",
+    "2.60"
+   ],
+   "labels": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9",
+    "2.10",
+    "2.11",
+    "2.12",
+    "2.13",
+    "2.14",
+    "2.15",
+    "2.16",
+    "2.17",
+    "2.18",
+    "2.19",
+    "2.20",
+    "2.21",
+    "2.22",
+    "2.23",
+    "2.24",
+    "2.25",
+    "2.26",
+    "2.27",
+    "2.28",
+    "2.29",
+    "2.30",
+    "2.31",
+    "2.32",
+    "2.33",
+    "2.34",
+    "2.35",
+    "2.36",
+    "2.37",
+    "2.38",
+    "2.39",
+    "2.40",
+    "2.41",
+    "2.42",
+    "2.43",
+    "2.44",
+    "2.45",
+    "2.46",
+    "2.47",
+    "2.48",
+    "2.49",
+    "2.50",
+    "2.51",
+    "2.52",
+    "2.53",
+    "2.54",
+    "2.55",
+    "2.56",
+    "2.57",
+    "2.58",
+    "2.59",
+    "2.60"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "2.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "2.2"
+    },
+    {
+     "h": "2.1 INTRODUCTION",
+     "num": "2.1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "2.2"
+    },
+    {
+     "h": "2.2 STRA GIC ANALYSIS",
+     "num": "2.2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "2.3"
+    },
+    {
+     "h": "2.2.1 Issues to consider for Strategic Analysis",
+     "num": "2.2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "2.5"
+    },
+    {
+     "h": "2.3 STRATEGY AND BUSINESS ENVIRONMENT",
+     "num": "2.3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 8,
+     "level": 1,
+     "printed": "2.8"
+    },
+    {
+     "h": "2.3.1 Micro and Macro Environment",
+     "num": "2.3.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 10,
+     "level": 2,
+     "printed": "2.10"
+    },
+    {
+     "h": "2.3.2 Elements of Macro Environment",
+     "num": "2.3.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 11,
+     "level": 2,
+     "printed": "2.11"
+    },
+    {
+     "h": "2.3.3 PESTLE– A tool to Analyse Macro Environment",
+     "num": "2.3.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 15,
+     "level": 2,
+     "printed": "2.15"
+    },
+    {
+     "h": "2.3.4 Internationalization of Business",
+     "num": "2.3.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 18,
+     "level": 2,
+     "printed": "2.18"
+    },
+    {
+     "h": "2.3.5 International Environment",
+     "num": "2.3.5",
+     "size": 14.0,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "2.20"
+    },
+    {
+     "h": "2.4 UNDERSTANDING PRODUCT AND INDUSTRY",
+     "num": "2.4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 21,
+     "level": 1,
+     "printed": "2.21"
+    },
+    {
+     "h": "2.4.1 Product Life Cycle",
+     "num": "2.4.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 22,
+     "level": 2,
+     "printed": "2.22"
+    },
+    {
+     "h": "2.4.2 Value Chain Analysis",
+     "num": "2.4.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 23,
+     "level": 2,
+     "printed": "2.23"
+    },
+    {
+     "h": "2.5 INDUSTRY ENVIRONMENT ANALYSIS",
+     "num": "2.5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 26,
+     "level": 1,
+     "printed": "2.26"
+    },
+    {
+     "h": "2.5.1 Porter’s Five Forces Model",
+     "num": "2.5.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 26,
+     "level": 2,
+     "printed": "2.26"
+    },
+    {
+     "h": "2.5.2 Attractiveness of Industry",
+     "num": "2.5.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 33,
+     "level": 2,
+     "printed": "2.33"
+    },
+    {
+     "h": "2.5.3 Experience Curve",
+     "num": "2.5.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 35,
+     "level": 2,
+     "printed": "2.35"
+    },
+    {
+     "h": "2.5.4 Value Creation",
+     "num": "2.5.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 36,
+     "level": 2,
+     "printed": "2.36"
+    },
+    {
+     "h": "2.6 MARKET AND CUSTOMER",
+     "num": "2.6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 38,
+     "level": 1,
+     "printed": "2.38"
+    },
+    {
+     "h": "2.6.1 Customer",
+     "num": "2.6.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 39,
+     "level": 2,
+     "printed": "2.39"
+    },
+    {
+     "h": "2.6.2 Customer Analysis",
+     "num": "2.6.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 39,
+     "level": 2,
+     "printed": "2.39"
+    },
+    {
+     "h": "2.6.3 Customer Behaviour",
+     "num": "2.6.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 40,
+     "level": 2,
+     "printed": "2.40"
+    },
+    {
+     "h": "2.7 COMPETITIVE STRATEGY",
+     "num": "2.7",
+     "size": 16.0,
+     "numbered": true,
+     "page": 42,
+     "level": 1,
+     "printed": "2.42"
+    },
+    {
+     "h": "2.7.1 COMPETITIVE LANDSCAPE",
+     "num": "2.7.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 42,
+     "level": 2,
+     "printed": "2.42"
+    },
+    {
+     "h": "2.7.2 Key factors for competitive success",
+     "num": "2.7.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 44,
+     "level": 2,
+     "printed": "2.44"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 46,
+     "level": 1,
+     "printed": "2.46"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 46,
+     "level": 1,
+     "printed": "2.46"
+    },
+    {
+     "h": "Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 46,
+     "level": 1,
+     "printed": "2.46"
+    },
+    {
+     "h": "ANSWERS/SOLUTION",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 50,
+     "level": 1,
+     "printed": "2.50"
+    },
+    {
+     "h": "Answers to Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 50,
+     "level": 1,
+     "printed": "2.50"
+    },
+    {
+     "h": "Answers to Scenario Based Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 51,
+     "level": 1,
+     "printed": "2.51"
+    },
+    {
+     "h": "Answers to Descriptive Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 57,
+     "level": 1,
+     "printed": "2.57"
+    }
+   ],
+   "formula_pages": [],
+   "low_text_pages": [
+    60
+   ],
+   "running_heads": [
+    "STRATEGIC ANALYSIS: EXTERNAL ENVIRONMENT",
+    "STRATEGIC MANAGEMENT"
+   ],
+   "label_conflicts": []
+  },
+  "03-strategic-analysis-internal-environment": {
+   "pages": [
+    1,
+    52
+   ],
+   "printed": [
+    "3.1",
+    "3.52"
+   ],
+   "labels": [
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "3.8",
+    "3.9",
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14",
+    "3.15",
+    "3.16",
+    "3.17",
+    "3.18",
+    "3.19",
+    "3.20",
+    "3.21",
+    "3.22",
+    "3.23",
+    "3.24",
+    "3.25",
+    "3.26",
+    "3.27",
+    "3.28",
+    "3.29",
+    "3.30",
+    "3.31",
+    "3.32",
+    "3.33",
+    "3.34",
+    "3.35",
+    "3.36",
+    "3.37",
+    "3.38",
+    "3.39",
+    "3.40",
+    "3.41",
+    "3.42",
+    "3.43",
+    "3.44",
+    "3.45",
+    "3.46",
+    "3.47",
+    "3.48",
+    "3.49",
+    "3.50",
+    "3.51",
+    "3.52"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "3.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "3.2"
+    },
+    {
+     "h": "3.1 INTRODUCTION",
+     "num": "3.1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "3.2"
+    },
+    {
+     "h": "3.2 UNDERSTANDING KEY STAKEHOLDERS",
+     "num": "3.2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "3.3"
+    },
+    {
+     "h": "3.2.1 Mendelow’s Matrix",
+     "num": "3.2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "3.5"
+    },
+    {
+     "h": "3.3 STRATEGIC DRIVERS",
+     "num": "3.3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 8,
+     "level": 1,
+     "printed": "3.8"
+    },
+    {
+     "h": "3.3.1 Industry and Markets",
+     "num": "3.3.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 8,
+     "level": 2,
+     "printed": "3.8"
+    },
+    {
+     "h": "3.3.1.1 Analysing Industry and Markets",
+     "num": "3.3.1.1",
+     "size": 12.0,
+     "numbered": true,
+     "page": 9,
+     "level": 3,
+     "printed": "3.9"
+    },
+    {
+     "h": "3.3.2 Customers",
+     "num": "3.3.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 11,
+     "level": 2,
+     "printed": "3.11"
+    },
+    {
+     "h": "3.3.3 Product/Services",
+     "num": "3.3.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 13,
+     "level": 2,
+     "printed": "3.13"
+    },
+    {
+     "h": "3.3.4 Channels",
+     "num": "3.3.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 16,
+     "level": 2,
+     "printed": "3.16"
+    },
+    {
+     "h": "3.4 ROLE OF RESOURCES AND CAPABILITIES: BUILDING CORE COMPETENCY",
+     "num": "3.4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 18,
+     "level": 1,
+     "printed": "3.18"
+    },
+    {
+     "h": "3.4.1 Criteria for building a Core Competencies (CC)?",
+     "num": "3.4.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "3.20"
+    },
+    {
+     "h": "3.5 COMBINING EXTERNAL AND INTERNAL ANALYSIS (SWOT ANALYSIS)",
+     "num": "3.5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 22,
+     "level": 1,
+     "printed": "3.22"
+    },
+    {
+     "h": "3.6 COMPETITIVE ADVANTAGE: USING MICHAEL PORTER’S GENERIC STRATEGIES",
+     "num": "3.6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 24,
+     "level": 1,
+     "printed": "3.24"
+    },
+    {
+     "h": "3.6.1 Sustainability of Competitive Advantage",
+     "num": "3.6.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 24,
+     "level": 2,
+     "printed": "3.24"
+    },
+    {
+     "h": "3.6.2 Michael Porter’s Generic Strategies",
+     "num": "3.6.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 25,
+     "level": 2,
+     "printed": "3.25"
+    },
+    {
+     "h": "3.6.2.1 Cost Leadership Strategy",
+     "num": "3.6.2.1",
+     "size": 12.0,
+     "numbered": true,
+     "page": 26,
+     "level": 3,
+     "printed": "3.26"
+    },
+    {
+     "h": "3.6.2.2 Differentiation Strategy",
+     "num": "3.6.2.2",
+     "size": 12.0,
+     "numbered": true,
+     "page": 29,
+     "level": 3,
+     "printed": "3.29"
+    },
+    {
+     "h": "3.6.2.3 Focus Strategies",
+     "num": "3.6.2.3",
+     "size": 12.0,
+     "numbered": true,
+     "page": 32,
+     "level": 3,
+     "printed": "3.32"
+    },
+    {
+     "h": "3.6.2.4 Best-Cost Provider Strategy",
+     "num": "3.6.2.4",
+     "size": 12.0,
+     "numbered": true,
+     "page": 34,
+     "level": 3,
+     "printed": "3.34"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 35,
+     "level": 1,
+     "printed": "3.35"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 36,
+     "level": 1,
+     "printed": "3.36"
+    },
+    {
+     "h": "Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 36,
+     "level": 1,
+     "printed": "3.36"
+    },
+    {
+     "h": "ANSWERS/SOLUTION",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 42,
+     "level": 1,
+     "printed": "3.42"
+    },
+    {
+     "h": "Answers to Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 42,
+     "level": 1,
+     "printed": "3.42"
+    },
+    {
+     "h": "Answers to Scenario Based Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 42,
+     "level": 1,
+     "printed": "3.42"
+    },
+    {
+     "h": "Answers to Descriptive Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 51,
+     "level": 1,
+     "printed": "3.51"
+    }
+   ],
+   "formula_pages": [],
+   "low_text_pages": [],
+   "running_heads": [
+    "STRATEGIC ANALYSIS: INTERNAL ENVIRONMENT",
+    "STRATEGIC MANAGEMENT"
+   ],
+   "label_conflicts": []
+  },
+  "04-strategic-choices": {
+   "pages": [
+    1,
+    50
+   ],
+   "printed": [
+    "4.1",
+    "4.50"
+   ],
+   "labels": [
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "4.7",
+    "4.8",
+    "4.9",
+    "4.10",
+    "4.11",
+    "4.12",
+    "4.13",
+    "4.14",
+    "4.15",
+    "4.16",
+    "4.17",
+    "4.18",
+    "4.19",
+    "4.20",
+    "4.21",
+    "4.22",
+    "4.23",
+    "4.24",
+    "4.25",
+    "4.26",
+    "4.27",
+    "4.28",
+    "4.29",
+    "4.30",
+    "4.31",
+    "4.32",
+    "4.33",
+    "4.34",
+    "4.35",
+    "4.36",
+    "4.37",
+    "4.38",
+    "4.39",
+    "4.40",
+    "4.41",
+    "4.42",
+    "4.43",
+    "4.44",
+    "4.45",
+    "4.46",
+    "4.47",
+    "4.48",
+    "4.49",
+    "4.50"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "4.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "4.2"
+    },
+    {
+     "h": "4.1 INTRODUCTION",
+     "num": "4.1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "4.2"
+    },
+    {
+     "h": "4.2 STRATEGIC CHOICES",
+     "num": "4.2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "4.3"
+    },
+    {
+     "h": "4.2.1. Stability Strategy",
+     "num": "4.2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 5,
+     "level": 2,
+     "printed": "4.5"
+    },
+    {
+     "h": "4.2.1.1. Characteristics of Stability Strategy",
+     "num": "4.2.1.1",
+     "size": 12.0,
+     "numbered": true,
+     "page": 6,
+     "level": 3,
+     "printed": "4.6"
+    },
+    {
+     "h": "4.2.1.2 Major Reasons for Stability Strategy",
+     "num": "4.2.1.2",
+     "size": 12.0,
+     "numbered": true,
+     "page": 6,
+     "level": 3,
+     "printed": "4.6"
+    },
+    {
+     "h": "4.2.2. Growth/Expansion Strategy",
+     "num": "4.2.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 7,
+     "level": 2,
+     "printed": "4.7"
+    },
+    {
+     "h": "4.2.2.1 Characteristics of Growth/Expansion Strategy",
+     "num": "4.2.2.1",
+     "size": 12.0,
+     "numbered": true,
+     "page": 7,
+     "level": 3,
+     "printed": "4.7"
+    },
+    {
+     "h": "4.2.2.2 Major Reasons for Growth/Expansion Strategy",
+     "num": "4.2.2.2",
+     "size": 12.0,
+     "numbered": true,
+     "page": 8,
+     "level": 3,
+     "printed": "4.8"
+    },
+    {
+     "h": "4.2.2.3 Types of Growth/ Expansion Strategy",
+     "num": "4.2.2.3",
+     "size": 12.0,
+     "numbered": true,
+     "page": 8,
+     "level": 3,
+     "printed": "4.8"
+    },
+    {
+     "h": "4.3 STRATEGIC EXITS",
+     "num": "4.3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 18,
+     "level": 1,
+     "printed": "4.18"
+    },
+    {
+     "h": "4.4 STRATEGIC OPTIONS",
+     "num": "4.4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 23,
+     "level": 1,
+     "printed": "4.23"
+    },
+    {
+     "h": "4.4.1 Ansoff’s Product Market Growth Matrix",
+     "num": "4.4.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 23,
+     "level": 2,
+     "printed": "4.23"
+    },
+    {
+     "h": "4.4.2 ADL Matrix",
+     "num": "4.4.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 25,
+     "level": 2,
+     "printed": "4.25"
+    },
+    {
+     "h": "4.4.3 Boston Consulting Group (BCG) Growth-Share Matrix",
+     "num": "4.4.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 27,
+     "level": 2,
+     "printed": "4.27"
+    },
+    {
+     "h": "4.4.3.1 BCG Matrix: Post Identification Strategies",
+     "num": "4.4.3.1",
+     "size": 12.0,
+     "numbered": true,
+     "page": 29,
+     "level": 3,
+     "printed": "4.29"
+    },
+    {
+     "h": "4.4.4 General Electric Matrix [“Stop-Light” Strategy Model]",
+     "num": "4.4.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 30,
+     "level": 2,
+     "printed": "4.30"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 32,
+     "level": 1,
+     "printed": "4.32"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 33,
+     "level": 1,
+     "printed": "4.33"
+    },
+    {
+     "h": "Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 33,
+     "level": 1,
+     "printed": "4.33"
+    },
+    {
+     "h": "ANSWERS/SOLUTION",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 38,
+     "level": 1,
+     "printed": "4.38"
+    },
+    {
+     "h": "Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 38,
+     "level": 1,
+     "printed": "4.38"
+    },
+    {
+     "h": "Answers to Scenario Based Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 38,
+     "level": 1,
+     "printed": "4.38"
+    },
+    {
+     "h": "Answers to Descriptive Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 45,
+     "level": 1,
+     "printed": "4.45"
+    }
+   ],
+   "formula_pages": [],
+   "low_text_pages": [
+    50
+   ],
+   "running_heads": [
+    "STRATEGIC CHOICE",
+    "STRATEGIC CHOICES",
+    "STRATEGIC MANAGEMENT"
+   ],
+   "label_conflicts": []
+  },
+  "05-strategy-implementation-and-evaluation": {
+   "pages": [
+    1,
+    93
+   ],
+   "printed": [
+    "5.1",
+    "5.93"
+   ],
+   "labels": [
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.9",
+    "5.10",
+    "5.11",
+    "5.12",
+    "5.13",
+    "5.14",
+    "5.15",
+    "5.16",
+    "5.17",
+    "5.18",
+    "5.19",
+    "5.20",
+    "5.21",
+    "5.22",
+    "5.23",
+    "5.24",
+    "5.25",
+    "5.26",
+    "5.27",
+    "5.28",
+    "5.29",
+    "5.30",
+    "5.31",
+    "5.32",
+    "5.33",
+    "5.34",
+    "5.35",
+    "5.36",
+    "5.37",
+    "5.38",
+    "5.39",
+    "5.40",
+    "5.41",
+    "5.42",
+    "5.43",
+    "5.44",
+    "5.45",
+    "5.46",
+    "5.47",
+    "5.48",
+    "5.49",
+    "5.50",
+    "5.51",
+    "5.52",
+    "5.53",
+    "5.54",
+    "5.55",
+    "5.56",
+    "5.57",
+    "5.58",
+    "5.59",
+    "5.60",
+    "5.61",
+    "5.62",
+    "5.63",
+    "5.64",
+    "5.65",
+    "5.66",
+    "5.67",
+    "5.68",
+    "5.69",
+    "5.70",
+    "5.71",
+    "5.72",
+    "5.73",
+    "5.74",
+    "5.75",
+    "5.76",
+    "5.77",
+    "5.78",
+    "5.79",
+    "5.80",
+    "5.81",
+    "5.82",
+    "5.83",
+    "5.84",
+    "5.85",
+    "5.86",
+    "5.87",
+    "5.88",
+    "5.89",
+    "5.90",
+    "5.91",
+    "5.92",
+    "5.93"
+   ],
+   "headings": [
+    {
+     "h": "LEARNING OUTCOMES",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 1,
+     "level": 1,
+     "printed": "5.1"
+    },
+    {
+     "h": "CHAPTER OVERVIEW",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 2,
+     "level": 1,
+     "printed": "5.2"
+    },
+    {
+     "h": "5.1 INTRODUCTION",
+     "num": "5.1",
+     "size": 16.0,
+     "numbered": true,
+     "page": 2,
+     "level": 1,
+     "printed": "5.2"
+    },
+    {
+     "h": "5.2 STRATEGIC MANAGEMENT PROCESS",
+     "num": "5.2",
+     "size": 16.0,
+     "numbered": true,
+     "page": 3,
+     "level": 1,
+     "printed": "5.3"
+    },
+    {
+     "h": "5.2.1 Stages in Strategic Management",
+     "num": "5.2.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 4,
+     "level": 2,
+     "printed": "5.4"
+    },
+    {
+     "h": "5.2.2 Strategy Formulation",
+     "num": "5.2.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 9,
+     "level": 2,
+     "printed": "5.9"
+    },
+    {
+     "h": "5.2.3 Strategy Implementation",
+     "num": "5.2.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 12,
+     "level": 2,
+     "printed": "5.12"
+    },
+    {
+     "h": "5.2.4 Difference between Strategy Formulation and Implementation",
+     "num": "5.2.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 15,
+     "level": 2,
+     "printed": "5.15"
+    },
+    {
+     "h": "5.2.5 Linkages and Issues in Strategy Implementation",
+     "num": "5.2.5",
+     "size": 14.0,
+     "numbered": true,
+     "page": 17,
+     "level": 2,
+     "printed": "5.17"
+    },
+    {
+     "h": "5.3 STRATEGIC CHANGE THROUGH DIGITAL TRANSFORMATION",
+     "num": "5.3",
+     "size": 16.0,
+     "numbered": true,
+     "page": 20,
+     "level": 1,
+     "printed": "5.20"
+    },
+    {
+     "h": "5.3.1 Strategic Change",
+     "num": "5.3.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 20,
+     "level": 2,
+     "printed": "5.20"
+    },
+    {
+     "h": "5.3.2 How does digital transformation work?",
+     "num": "5.3.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 23,
+     "level": 2,
+     "printed": "5.23"
+    },
+    {
+     "h": "5.3.3 Change Management Strategies for Digital Transformation",
+     "num": "5.3.3",
+     "size": 14.0,
+     "numbered": true,
+     "page": 24,
+     "level": 2,
+     "printed": "5.24"
+    },
+    {
+     "h": "5.3.4 How to manage change during digital transformation?",
+     "num": "5.3.4",
+     "size": 14.0,
+     "numbered": true,
+     "page": 26,
+     "level": 2,
+     "printed": "5.26"
+    },
+    {
+     "h": "5.4 ORGRANISATIONAL FRAMEWORK",
+     "num": "5.4",
+     "size": 16.0,
+     "numbered": true,
+     "page": 27,
+     "level": 1,
+     "printed": "5.27"
+    },
+    {
+     "h": "5.4.1 Organization Structure",
+     "num": "5.4.1",
+     "size": 14.0,
+     "numbered": true,
+     "page": 29,
+     "level": 2,
+     "printed": "5.29"
+    },
+    {
+     "h": "5.4.2 Organization Culture",
+     "num": "5.4.2",
+     "size": 14.0,
+     "numbered": true,
+     "page": 47,
+     "level": 2,
+     "printed": "5.47"
+    },
+    {
+     "h": "5.5 STRATEGIC LEADERSHIP",
+     "num": "5.5",
+     "size": 16.0,
+     "numbered": true,
+     "page": 51,
+     "level": 1,
+     "printed": "5.51"
+    },
+    {
+     "h": "5.6 STRATEGIC CONTROL",
+     "num": "5.6",
+     "size": 16.0,
+     "numbered": true,
+     "page": 56,
+     "level": 1,
+     "printed": "5.56"
+    },
+    {
+     "h": "5.7 STRATEGIC PERFORMANCE MEASURES",
+     "num": "5.7",
+     "size": 16.0,
+     "numbered": true,
+     "page": 60,
+     "level": 1,
+     "printed": "5.60"
+    },
+    {
+     "h": "SUMMARY",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 64,
+     "level": 1,
+     "printed": "5.64"
+    },
+    {
+     "h": "TEST YOUR KNOWLEDGE",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 65,
+     "level": 1,
+     "printed": "5.65"
+    },
+    {
+     "h": "Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 65,
+     "level": 1,
+     "printed": "5.65"
+    },
+    {
+     "h": "ANSWERS/SOLUTIONS",
+     "num": null,
+     "size": 16.0,
+     "numbered": false,
+     "page": 68,
+     "level": 1,
+     "printed": "5.68"
+    },
+    {
+     "h": "Multiple Choice Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 68,
+     "level": 1,
+     "printed": "5.68"
+    },
+    {
+     "h": "Answers to Scenario Based Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 68,
+     "level": 1,
+     "printed": "5.68"
+    },
+    {
+     "h": "Answers to Descriptive Questions",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 75,
+     "level": 1,
+     "printed": "5.75"
+    },
+    {
+     "h": "Case Scenario 1",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 81,
+     "level": 1,
+     "printed": "5.81"
+    },
+    {
+     "h": "Answers",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 83,
+     "level": 1,
+     "printed": "5.83"
+    },
+    {
+     "h": "Case Scenario 2",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 83,
+     "level": 1,
+     "printed": "5.83"
+    },
+    {
+     "h": "Answers",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 85,
+     "level": 1,
+     "printed": "5.85"
+    },
+    {
+     "h": "Case Scenario 3",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 85,
+     "level": 1,
+     "printed": "5.85"
+    },
+    {
+     "h": "Answers",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 88,
+     "level": 1,
+     "printed": "5.88"
+    },
+    {
+     "h": "Case Scenario 4",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 88,
+     "level": 1,
+     "printed": "5.88"
+    },
+    {
+     "h": "Answers",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 91,
+     "level": 1,
+     "printed": "5.91"
+    },
+    {
+     "h": "Case Scenario 5",
+     "num": null,
+     "size": 14.0,
+     "numbered": false,
+     "page": 91,
+     "level": 1,
+     "printed": "5.91"
+    }
+   ],
+   "formula_pages": [],
+   "low_text_pages": [],
+   "running_heads": [
+    "STRATEGIC MANAGEMENT",
+    "STRATEGY IMPLEMENTATION AND EVALUATION"
+   ],
+   "label_conflicts": []
+  }
+ }
+}

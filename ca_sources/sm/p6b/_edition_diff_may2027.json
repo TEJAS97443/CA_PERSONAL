@@ -1,0 +1,71 @@
+[
+ {
+  "file": "ch01.pdf",
+  "pages_jan2027_ed": 42,
+  "pages_may2027_ed": 48,
+  "word_similarity": 0.863,
+  "words_jan2027_ed": 11667,
+  "words_may2027_ed": 13369,
+  "words_inserted_in_new": 2571,
+  "words_deleted_from_old": 869,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch02.pdf",
+  "pages_jan2027_ed": 60,
+  "pages_may2027_ed": 66,
+  "word_similarity": 0.907,
+  "words_jan2027_ed": 16714,
+  "words_may2027_ed": 18637,
+  "words_inserted_in_new": 2610,
+  "words_deleted_from_old": 687,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch03.pdf",
+  "pages_jan2027_ed": 52,
+  "pages_may2027_ed": 56,
+  "word_similarity": 0.954,
+  "words_jan2027_ed": 14641,
+  "words_may2027_ed": 15698,
+  "words_inserted_in_new": 1220,
+  "words_deleted_from_old": 163,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch04.pdf",
+  "pages_jan2027_ed": 50,
+  "pages_may2027_ed": 56,
+  "word_similarity": 0.907,
+  "words_jan2027_ed": 12936,
+  "words_may2027_ed": 14890,
+  "words_inserted_in_new": 2264,
+  "words_deleted_from_old": 310,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch05.pdf",
+  "pages_jan2027_ed": 93,
+  "pages_may2027_ed": 105,
+  "word_similarity": 0.937,
+  "words_jan2027_ed": 25896,
+  "words_may2027_ed": 28480,
+  "words_inserted_in_new": 2995,
+  "words_deleted_from_old": 411,
+  "headings_only_in_jan2027_ed": [
+   "5.4 ORGRANISATIONAL FRAMEWORK"
+  ],
+  "headings_only_in_may2027_ed": [
+   "5.4 ORGANISATIONAL FRAMEWORK"
+  ],
+  "term_counts_[jan27ed,may27ed]": {}
+ }
+]

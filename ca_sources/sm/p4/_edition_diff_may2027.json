@@ -1,0 +1,212 @@
+[
+ {
+  "file": "ch01.pdf",
+  "pages_jan2027_ed": 46,
+  "pages_may2027_ed": 46,
+  "word_similarity": 1.0,
+  "words_jan2027_ed": 10918,
+  "words_may2027_ed": 10918,
+  "words_inserted_in_new": 0,
+  "words_deleted_from_old": 0,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {
+   "ERP": [
+    3,
+    3
+   ]
+  }
+ },
+ {
+  "file": "ch02.pdf",
+  "pages_jan2027_ed": 100,
+  "pages_may2027_ed": 106,
+  "word_similarity": 0.965,
+  "words_jan2027_ed": 23985,
+  "words_may2027_ed": 25313,
+  "words_inserted_in_new": 1529,
+  "words_deleted_from_old": 201,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {
+   "GeM": [
+    3,
+    3
+   ]
+  }
+ },
+ {
+  "file": "ch03.pdf",
+  "pages_jan2027_ed": 68,
+  "pages_may2027_ed": 74,
+  "word_similarity": 0.961,
+  "words_jan2027_ed": 15678,
+  "words_may2027_ed": 16774,
+  "words_inserted_in_new": 1185,
+  "words_deleted_from_old": 89,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch04.pdf",
+  "pages_jan2027_ed": 102,
+  "pages_may2027_ed": 106,
+  "word_similarity": 0.947,
+  "words_jan2027_ed": 22971,
+  "words_may2027_ed": 23965,
+  "words_inserted_in_new": 1752,
+  "words_deleted_from_old": 758,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch05.pdf",
+  "pages_jan2027_ed": 62,
+  "pages_may2027_ed": 72,
+  "word_similarity": 0.816,
+  "words_jan2027_ed": 12267,
+  "words_may2027_ed": 15715,
+  "words_inserted_in_new": 4294,
+  "words_deleted_from_old": 846,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch06.pdf",
+  "pages_jan2027_ed": 38,
+  "pages_may2027_ed": 40,
+  "word_similarity": 0.923,
+  "words_jan2027_ed": 6883,
+  "words_may2027_ed": 7376,
+  "words_inserted_in_new": 793,
+  "words_deleted_from_old": 300,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch07.pdf",
+  "pages_jan2027_ed": 61,
+  "pages_may2027_ed": 61,
+  "word_similarity": 0.998,
+  "words_jan2027_ed": 11094,
+  "words_may2027_ed": 11094,
+  "words_inserted_in_new": 27,
+  "words_deleted_from_old": 27,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch08.pdf",
+  "pages_jan2027_ed": 30,
+  "pages_may2027_ed": 36,
+  "word_similarity": 0.857,
+  "words_jan2027_ed": 7143,
+  "words_may2027_ed": 8263,
+  "words_inserted_in_new": 1660,
+  "words_deleted_from_old": 540,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch09.pdf",
+  "pages_jan2027_ed": 24,
+  "pages_may2027_ed": 24,
+  "word_similarity": 0.954,
+  "words_jan2027_ed": 4610,
+  "words_may2027_ed": 4955,
+  "words_inserted_in_new": 392,
+  "words_deleted_from_old": 47,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch10.pdf",
+  "pages_jan2027_ed": 50,
+  "pages_may2027_ed": 56,
+  "word_similarity": 0.937,
+  "words_jan2027_ed": 10880,
+  "words_may2027_ed": 11911,
+  "words_inserted_in_new": 1236,
+  "words_deleted_from_old": 205,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch11.pdf",
+  "pages_jan2027_ed": 40,
+  "pages_may2027_ed": 44,
+  "word_similarity": 0.912,
+  "words_jan2027_ed": 9755,
+  "words_may2027_ed": 11070,
+  "words_inserted_in_new": 1578,
+  "words_deleted_from_old": 263,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch12.pdf",
+  "pages_jan2027_ed": 74,
+  "pages_may2027_ed": 76,
+  "word_similarity": 0.941,
+  "words_jan2027_ed": 16039,
+  "words_may2027_ed": 16657,
+  "words_inserted_in_new": 1269,
+  "words_deleted_from_old": 651,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch13.pdf",
+  "pages_jan2027_ed": 88,
+  "pages_may2027_ed": 96,
+  "word_similarity": 0.935,
+  "words_jan2027_ed": 17698,
+  "words_may2027_ed": 18942,
+  "words_inserted_in_new": 1820,
+  "words_deleted_from_old": 576,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch14.pdf",
+  "pages_jan2027_ed": 80,
+  "pages_may2027_ed": 86,
+  "word_similarity": 0.952,
+  "words_jan2027_ed": 17917,
+  "words_may2027_ed": 19279,
+  "words_inserted_in_new": 1576,
+  "words_deleted_from_old": 214,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {}
+ },
+ {
+  "file": "ch15.pdf",
+  "pages_jan2027_ed": 98,
+  "pages_may2027_ed": 106,
+  "word_similarity": 0.912,
+  "words_jan2027_ed": 23507,
+  "words_may2027_ed": 25219,
+  "words_inserted_in_new": 2999,
+  "words_deleted_from_old": 1287,
+  "headings_only_in_jan2027_ed": [],
+  "headings_only_in_may2027_ed": [],
+  "term_counts_[jan27ed,may27ed]": {
+   "ERP": [
+    1,
+    1
+   ]
+  }
+ }
+]

@@ -1,0 +1,1272 @@
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                             SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                                     QUESTIONS
+
+        Chapter 1: Automated Business Processes
+        1.     A travel agency ABC wishes to implement an automated Grievance Management System
+               at its workplace to manage and handle the problems with an aim of solving them .
+               Determine the major benefits that will be drawn out of automating this Grievance related
+               business process.
+        2.     Describe the term “Internal Control System”? State its limitations as well.
+        3.     A bicycle shop in Delhi provides hired bicycles for day(s) at different rates as shown in table:
+                    Season                      Charges per day
+                    Spring (March - May)              ₹ 8.00
+                    Summer (June - August)            ₹ 9.50
+                    Autumn (Sept - Nov.)              ₹ 5.00
+                    Winter (Dec. - Feb.)              ₹ 6.00
+               To attract his customers, the proprietor also gives a discount on the number of days a
+               bicycle is hired for. If the hire period is more than 10 days, a reduction of 15% is made.
+               For every bicycle hired, a deposit of ₹ 20 must be paid.
+               Develop a flowchart to print out the details for each customer such as name of customer,
+               number of days a bicycle is hired for, hire-charges and total charges including the
+               deposit. It is also assumed that there are 25 customers and complete details for each
+               customer such as name of customer, season and number of days the bicycle is required
+               for is inputted through console.
+        Chapter 2: Financial and Accounting Systems
+        4.     Explain the concept of “Customer Relationship Management (CRM)” and identify its key
+               benefits also.
+        5.     Being an IT consultant to a Government agency PQR, identify the most common open
+               international standard, that should be used by the agency for their standardized digital
+               business reporting. Support the recommendation by preparing a list of its important
+               features also.
+        Chapter 3: Information Systems and Its Components
+        6.     Physical security mechanisms in an organization provides protection to people, data,
+               equipment, systems, facilities and company assets. Determine some major ways of
+               protecting the organization’s computer installation in the event of any explosion or fire.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                            77
+
+
+        7.   (a) As an Information Systems (IS) Auditor, you need to keep yourself up-to-date with
+                 the latest Audit tools, techniques and methodology to meet the demands of the job.
+                 Discuss about various Audit Tools that you should be aware about.
+             (b) Discuss the advantages of continuous Audit Techniques.
+        Chapter 4: E- Commerce, M-Commerce and Emerging Technologies
+        8.   A customer X intends to place an order for an electric cooker on an online portal
+             ABC.com. With the help of the diagram, determine the general workflow of the E-
+             Commerce transaction that will take place.
+        9.   Describe any six commercial laws each in brief, that are applicable to any e-commerce or
+             m-commerce transactions.
+        Chapter – 5: Core Banking Systems
+        10. (a) In Core Banking Systems, discuss the possible risks and their controls around the
+                CASA (Current and Savings Account) process.
+             (b) Define Money Laundering.
+
+                                       SUGGESTED ANSWERS/HINTS
+
+        1.   The major benefits that will be drawn out of automating the Grievance related business
+             process and implementing the Grievance Management System are as follows:
+                 Quality and Consistency: Ensures that every action is performed identically -
+                  resulting in high quality, reliable results and stakeholders will consistently
+                  experience the same level of service.
+                 Time Saving: Automation reduces the number of tasks employees would otherwise
+                  need to do manually. It frees up time to work on items that add genuine value to the
+                  business, allowing innovation and increasing employees’ levels of motivation.
+                 Visibility: Automated processes are controlled and consistently operate accurately
+                  within the defined timeline. It gives visibility of the process status to the
+                  organization.
+                 Improved Operational Efficiency: Automation reduces the time it takes to achieve
+                  a task, the effort required to undertake it and the cost of completing it successfull y.
+                  Automation not only ensures systems run smoothly and efficiently, but that errors
+                  are eliminated and that best practices are constantly leveraged.
+                 Governance and Reliability: The consistency of automated processes means
+                  stakeholders can rely on business processes to operate and offer reliable processes
+                  to customers, maintaining a competitive advantage.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        78                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                 Reduced Turnaround Times: Eliminate unnecessary tasks and realign process
+                  steps to optimize the flow of information throughout production, service, billin g and
+                  collection. This adjustment of processes distills operational performance and
+                  reduces the turnaround times for both staff and external customers.
+                 Reduced Costs: Manual tasks, given that they are performed one-at-a-time and at
+                  a slower rate than an automated task, will cost more. Automation allows us to
+                  accomplish more by utilizing fewer resources.
+        2.   Internal Control System: Internal Control System means all the policies and procedures
+             adopted by the management of an entity to assist in achieving management’s objective of
+             ensuring, as far as practicable, the orderly and efficient conduct of its business, including
+             adherence to management policies, the safeguarding of assets, the prevention and detection
+             of fraud and error, the accuracy and completeness of the accounting records, and the timely
+             preparation of reliable financial information. An Internal Control System:
+                 facilitates the effectiveness and efficiency of operations.
+                 helps ensure the reliability of internal and external financial reporting.
+                 assists compliance with applicable laws and regulations.
+                 helps safeguarding the assets of the entity.
+             Limitations of Internal Control System are as follows:
+                 The fact that most internal controls do not tend to be directed at transactions of
+                  unusual nature. The potential for human error, such as, due to carelessness,
+                  distraction, mistakes of judgement and misunderstanding of instructions.
+                 The possibility of circumvention of internal controls through collusion with
+                  employees or with parties outside the entity.
+                 The possibility that a person responsible for exercising an internal control could
+                  abuse that responsibility, for example, a member of management overriding an
+                  internal control.
+                 Manipulations by management with respect to transactions or estimates and
+                  judgements required in the preparation of financial statements.
+        3.   Let us define the variables first:
+             NAME: Name of the customer                       SEAS: Season in which bicycle is hired
+             DAYS: Number of days a bicycle is hired for RATE: Hire charges of bicycle per day
+             N: Number of customers                           NRT: Net Rate
+             HCHG: Hire Charges                               TCHG: Total Charges
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                                             79
+
+
+             The required flowchart is shown below:
+
+                                 Start
+
+
+                     Clear all working locations
+
+                A
+                      Read NAME, SEAS, DAYS
+
+
+
+                              N= N + 1
+
+
+                                                   Yes
+                         SEAS = SPRING                       Rate = 8.00
+
+                                    No
+                                                     Yes
+                        SEAS = SUMMER                            RATE = 9.50
+
+                                    No
+                                                    Yes
+                        SEAS = AUTUMN                         RATE = 5.00
+
+                                    No
+                                                   Yes
+                         SEAS = WINTER                       RATE = 6.00
+
+                                    No                                         Yes
+                                                           DAYS > 10                 NRT = RATE - RATE * 0.15
+                     Print Invalid SEAS
+                                                            No
+
+                                                           NRT =RATE
+                                B
+
+                                                     HCHG = DAYS * NRT
+                                                                                        Print NAME, DAYS,
+                                                                                        HCHG, TCHG
+                                                    TCHG = HCHG + 20.00
+                                                                                                            B
+
+                                                                                             N ≥ 25                 A
+                                                                                                                    N
+
+                                                                                                        Y                o
+
+                                                                                                                e
+                                                                                              Stop
+                                                                                                                s
+
+
+
+
+© The Institute of Chartered Accountants of India
+        80                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+        4.   Customer Relationship Management (CRM): CRM is a system which aims at improving
+             the relationship with existing customers, finding new prospective customers, and winning
+             back former customers. This system can be brought into effect with software whic h helps
+             in collecting, organizing, and managing the customer information. CRM manages the
+             enterprise’s relationship with its customers. This includes determining who the high-value
+             customers are and documenting what interactions the customers have had with the
+             enterprise.
+             Key benefits of a CRM module are as under:
+                 Improved customer relations: One of the prime benefits of using a CRM is
+                  obtaining better customer satisfaction. By using this strategy, all dealings involving
+                  servicing, marketing, and selling out products to the customers can be carried out in
+                  an organized and systematic way. Better services can be provided to customers
+                  through improved understanding of their issues and this in turn helps in increasing
+                  customer loyalty and decreasing customer agitation. In this way, continuous
+                  feedback from the customers regarding the products and services can be received.
+                  It is also possible that the customers may recommend the product to their
+                  acquaintances, when efficient and satisfactory services are provided.
+                 Increase customer revenues: By using a CRM strategy for any business, the
+                  revenue of the company can be increased. Using the data collected, marketing
+                  campaigns can be popularized in a more effective way. With the help of CRM
+                  software, it can be ensured that the product promotions reach a different and brand
+                  new set of customers, and not the ones who had already purchased the product,
+                  and thus effectively increase the customer revenue.
+                 Maximize up-selling and cross-selling: A CRM system allows up-selling which is
+                  the practice of giving customers premium products that fall in the same category of
+                  their purchase. The strategy also facilitates cross selling which is the practice of
+                  offering complementary products to customers, based on their previous purchase s.
+                  This is done by interacting with the customers and getting an idea about their wants,
+                  needs, and patterns of purchase. The details thus obtained will be stored in a
+                  central database, which is accessible to all company executives. So, when an
+                  opportunity is spotted, the executives can promote their products to the customers,
+                  thus maximizing up-selling and cross selling.
+                 Better internal communication: Following a CRM strategy helps in building up
+                  better communication within the company. The sharing of customer data between
+                  different departments will enable them to work as a team. This is better than
+                  functioning as an isolated entity, as it will help in increasing the company’s
+                  profitability and enabling better service to customers.
+                 Optimize marketing: CRM enables to understand the customer needs and
+                  behaviour in a better way, thereby allowing any enterprise to identify the correct
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             81
+
+
+                  time to market its product to the customers. CRM will also give an idea about the
+                  most profitable customer groups, and by using this information, similar prospective
+                  groups, at the right time will be targeted. In this way, marketing resources can be
+                  optimized efficiently and time is not wasted on less profitable customer groups.
+        5.   eXtensible Business Reporting Language (XBRL) is an open international standard for
+             digital business reporting that provides a language in which reporting terms can be
+             authoritatively defined. Those terms can be used to uniquely represent the contents of
+             financial statements or other kinds of compliance, performance and business reports.
+             XBRL lets reporting information move between organizations rapidly, accurately and
+             digitally. XBRL is a standard-based way to communicate and exchange business
+             information between business systems. These communications are defined by metadata
+             set out in taxonomies, which capture the definition of individual reporting concepts as
+             well as the relationships between concepts and other semantic meaning. Information
+             being communicated or exchanged is provided within an XBRL instance.
+             Important features of XBRL are as follows:
+                 Clear Definitions: XBRL allows the creation of reusable, authoritative definitions,
+                  called taxonomies, that capture the meaning contained in all the reporting terms
+                  used in a business report, as well as the relationships between all the terms.
+                 Testable Business Rules: XBRL allows the creation of business rules that constrain
+                  what can be reported. Business rules can be logical or mathematical, or both and
+                  can be used, for example, these business rules can be used to stop poor quality
+                  information being sent to a regulator or third party, by being run by the preparer
+                  while the report is in draft; stop poor quality information being accepted by a regulator
+                  or third party, by being run at the point that the information is being received.
+                 Multi-lingual Support: XBRL allows concept definitions to be prepared in as many
+                  languages as necessary. Translations of definitions can also be added by third
+                  parties. This means that it’s possible to display a range of reports in a different
+                  language to the one that they were prepared in, without any additional work. The
+                  XBRL community makes extensive use of this capability as it can automatically
+                  open up reports to different communities.
+                 Strong Software Support: XBRL is supported by a very wide range of software
+                  from vendors large and small, allowing a very wide range of stakeholders to work
+                  with the standard.
+        6.   Fire Damage is one of the major threat to the physical security of a computer installation.
+             Some of the major ways of protecting the installation against fire damage are as follows:
+                 Both automatic and manual fire alarms may be placed at strategic locations and a
+                  control panel may be installed to clearly indicate this.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        82                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                 Besides the control panel, master switches may be installed for power and
+                  automatic fire suppression system. Different fire suppression techniques like Dry -
+                  pipe sprinkling systems, water based systems, halon etc., depending upon the
+                  situation may be used.
+                 Manual fire extinguishers can be placed at strategic locations.
+                 Fireproof Walls; Floors and Ceilings surrounding the Computer Room and Fire
+                  Resistant Office Materials such as wastebaskets, curtains, desks, and cabinets
+                  should be used.
+                 Fire exits should be clearly marked. When a fire alarm is activated, a signa l may be
+                  sent automatically to permanently manned station.
+                 All staff members should know how to use the system. The procedures to be
+                  followed during an emergency should be properly documented are Fire Alarms,
+                  Extinguishers, Sprinklers, Instructions / Fire Brigade Nos., Smoke detectors, and
+                  Carbon dioxide based fire extinguishers.
+                 Less wood and plastic should be in computer rooms.
+                 Use a gas based fire suppression system.
+                 To reduce the risk of firing, the location of the computer room should be
+                  strategically planned and should not be in the basement or ground floor of a multi -
+                  storey building.
+                 Regular Inspection by Fire Department should be conducted.
+                 Fire suppression systems should be supplemented and not replaced by smoke
+                  detectors.
+                 Documented and Tested Emergency Evacuation Plans: Relocation plans should
+                  emphasize human safety, but should not leave information processing facilities
+                  physically unsecured. Procedures should exist for a controlled shutdown of the
+                  computer in an emergency. In all circumstances saving human life should be given
+                  paramount importance.
+                 Smoke Detectors: Smoke detectors are positioned at places above and below the
+                  ceiling tiles. Upon activation, these detectors should produce an audible alarm and
+                  must be linked to a monitored station (for example, a fire station).
+                 Wiring Placed in Electrical Panels and Conduit: Electrical fires are always a risk.
+                  To reduce the risk of such a fire occurring and spreading, wiring should be placed in
+                  the fire-resistant panels and conduit. This conduit generally lies under the fire-
+                  resistant raised floor in the computer room.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           83
+
+
+        7.   (a) As an Information Systems (IS) Auditor, various Audit Tools that can be used to
+                 perform IS Auditing are as follows:
+                  (i)   Snapshots: Tracing a transaction is a computerized system can be performed
+                        with the help of snapshots or extended records. The snapshot software is built
+                        into the system at those points where material processing occurs which takes
+                        images of the flow of any transaction as it moves through the application. These
+                        images can be utilized to assess the authenticity, accuracy, and completeness
+                        of the processing carried out on the transaction. The main areas to dwell upon
+                        while involving such a system are to locate the snapshot points based on
+                        materiality of transactions when the snapshot will be captured and the
+                        reporting system design and implementation to present data in a meaningful
+                        way.
+                  (ii) Integrated Test Facility (ITF): The ITF technique involves the creation of a
+                       dummy entity in the application system files and the processing of audit test data
+                       against the entity as a means of verifying processing authenticity, accuracy,
+                       and completeness. This test data would be included with the normal production
+                       data used as input to the application system. In such cases, the auditor must
+                       decide what would be the method to be used to enter test data and the
+                       methodology for removal of the effects of the ITF transactions.
+                  (iii) System Control Audit Review File (SCARF): The SCARF technique involves
+                        embedding audit software modules within a host application system to provide
+                        continuous monitoring of the system’s transactions. The information collected
+                        is written onto a special audit file- the SCARF master files. Auditors then
+                        examine the information contained on this file to see if some aspect of the
+                        application system needs follow-up. In many ways, the SCARF technique is
+                        like the snapshot technique along with other data collection capabilities.
+                  (iv) Continuous and Intermittent Simulation (CIS): This is a variation of the
+                       SCARF continuous audit technique. This technique can be used to trap
+                       exceptions whenever the application system uses a database management
+                       system. The advantage of CIS is that it does not require modifications to the
+                       application system and yet provides an online auditing capability.
+                  (v) Audit Hooks: There are audit routines that flag suspicious transactions. For
+                      example, internal auditors at Insurance Company determined that their
+                      policyholder system was vulnerable to fraud every time a policyholder changed
+                      his or her name or address and then subsequently withdrew funds from the
+                      policy. They devised a system of audit hooks to tag records with a name or
+                      address change. The internal audit department will investigate these tagged
+                      records for detecting fraud. When audit hooks are employed, auditors can be
+                      informed of questionable transactions as soon as they occur. This approach of
+                      real-time notification displays a message on the auditor’s terminal.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        84                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+             (b) Some of the advantages of continuous audit techniques are as under:
+                       Timely, Comprehensive and Detailed Auditing – Evidence would be
+                        available more timely and in a comprehensive manner. The entire processing
+                        can be evaluated and analyzed rather than examining the inputs and the
+                        outputs only.
+                       Surprise test capability – As evidences are collected from the system itself
+                        by using continuous audit techniques, auditors can gather evidence without the
+                        systems staff and application system users being aware that evidence is being
+                        collected at that particular moment. This brings in the surprise test advantages.
+                       Information to system staff on meeting of objectives – Continuous audit
+                        techniques provides information to systems staff regarding the test vehicle to
+                        be used in evaluating whether an application system meets the objectives of
+                        asset safeguarding, data integrity, effectiveness, and efficiency.
+                       Training for new users – Using the Integrated Test Facilities (ITF)s, new
+                        users can submit data to the application system, and obtain feedback on any
+                        mistakes they make via the system’s error reports.
+        8.   The work flow Diagram for any E-Commerce transaction is as follows:
+
+                                                               Pays                         Shipping is
+                                   Submits                                Order sent to
+                                                             through                        scheduled
+                                    Online                                Warehouse
+                                                            Credit Card                     and sent to
+                                    Order                                 for Shipping       Customer
+                                                            Transaction
+
+
+                 Customer
+
+
+                                             Submit order
+                                              via phone
+
+
+
+
+             Description of E-Commerce Work Flow Diagram is as follows:
+             Step 1 - Customers Login: Few e-commerce merchants may allow same transactions to
+             be done through phone, but the basic information flow is e-mode.
+             Step 2 - Product / Service: Customer selects products / services from available options.
+             Step 3 - Customer Places: Order is placed for selected product / service by customer.
+             This step leads to next important activity ‘Payment Gateway’.
+             Step 4 - Payment Gateway: Customer selects the payment method. In case payment
+             methods is other than Cash on Delivery (COD), the merchant gets the update from
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           85
+
+
+             payment gateway about payment realization from customer. In case of COD, e-
+             commerce vendor may do an additional check to validate customer.
+             Step 5 - Dispatch and Shipping Process: This process may be executed at two
+             different ends. First if product / service inventory is managed by e-commerce vendor,
+             then dispatch shall be initiated at merchant warehouse. Second, many e-commerce
+             merchants allow third party vendors to sale through merchant websites .
+             Step 6 - Delivery Tracking: Another key element denoting success of e-commerce
+             business is timely delivery. Merchants keep a track of this. All merchants have provided
+             their delivery staff with hand held devices, where the product / service delivery to
+             customers are immediately updated.
+             Step 7 - COD Tracking: In case products are sold on COD payment mode, merchants
+             need to have additional check on matching delivery with payments.
+        9.   All e-commerce transactions are commercial business transactions. All these
+             transactions are covered under multiple laws, including commercial laws. Following
+             commercial laws are applicable to e-commerce and m-commerce transactions.
+                 Income Tax Act, 1961: Income Tax Act, has detailed provisions regarding taxation
+                  of income in India. In respect of e-commerce / m-commerce transactions, the issue
+                  of deciding place of origin transaction for tax purpose is critical.
+                 Companies Act, 2013: Companies Act, 2013, regulates the corporate sector. The
+                  law defines all regulatory aspects for companies in India. Most of the merchants in
+                  e-commerce/m-commerce business are companies, both private and public.
+                 Foreign Trade (Development and Regulation) Act, 1992: An Act to provide for
+                  the development and regulation of foreign trade by facilitating imports into,
+                  augmenting exports from, India and for matters connected therewith or incidental
+                  thereto. Amazon has recently allowed Indian citizens to purchase from its global
+                  stores. All these shall be regulated through above law.
+                 The Factories Act, 1948: Act to regulate working conditions of workers. The act
+                  extends to place of storage as well as transportation. Most of the merchants in e -
+                  commerce / m-commerce business need to comply with provisions of the act.
+                 The Custom Act, 1962: The act that defines import / export of goods / services
+                  from India and provides for levy of appropriate customs duty. India being a signatory
+                  to General Agreement on Trade and Tariff (GATT) under World Trade Organization,
+                  cannot levy any custom duty that GATT non-compliant.
+                 The Goods and Services Tax Act, 2017 (GST): This Act requires each applicable
+                  business, including e-commerce/ m-commerce, to upload each sales and purchase
+                  invoice on one central IT infrastructure, mandating reconciliations of transactions
+                  between business, triggering of tax credits on payments of GST, facilitating filling of
+                  e-returns, etc.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        86                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                 Indian Contract Act,1872: The act defines constituents of a valid contract. In case
+                  of e-commerce / m-commerce business it becomes important to define these
+                  constituents.
+                 The Competition Act, 2002: Law to regulate practices that may have adverse
+                  effect on competition in India. Competition Commission have been vigilant to ensure
+                  that e-commerce / m-commerce merchants do not engage in predatory practices.
+                 Foreign Exchange Management Act (FEMA 1999): The law to regulate foreign
+                  direct investments, flow of foreign exchange in India. The law has important
+                  implications for e-commerce / m-commerce business. Foreign investment in
+                  Business to Customer (B2C) e-commerce activities has been opened in a calibrated
+                  manner and an entity is permitted to undertake retail trading through e -commerce
+                  under certain circumstances.
+                 Consumer Protection Act, 1986: The law to protect consumer rights has been
+                  source of most of litigations for transaction done through e-commerce and m-
+                  commerce.
+        10. (a) In Core Banking Systems (CBS), the possible risks and their controls around the
+                CASA (Current and Savings Account) Process are as follows:
+                                 Risks                                     Controls
+                  Credit Line setup is unauthorized        The credit committee checks that the
+                  and not in line with the banks policy.   Financial Ratios, the Net-worth, the Risk
+                                                           factors and its corresponding mitigating
+                                                           factors, the Credit Line offered and the
+                                                           Credit amount etc. is in line with Credit
+                                                           Risk Policy and that the Client can be
+                                                           given the Credit Line.
+                  Credit Line setup in CBS is              Access rights to authorize the credit limit
+                  unauthorized and not in line with        in case of account setup system should
+                  the banks policy.                        be restricted to authorized personnel.
+                  Customer Master defined in CBS is Access rights to authorize the customer
+                  not in accordance with the Pre- master in CBS should be restricted to
+                  Disbursement Certificate.         authorized personnel.
+                  Inaccurate interest / charge being       Interest on fund based facilities are
+                  calculated in CBS.                       automatically calculated in the CBS as per
+                                                           the defined rules.
+                  Unauthorized personnel approving         Segregation of Duties to be maintained
+                  the CASA’s transaction in CBS.           between the initiator and authorizer of the
+                                                           transaction for processing transaction in
+                                                           CBS.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           87
+
+
+                  Inaccurate    accounting       entries   Accounting entries are generated by CBS
+                  generated in CBS.                        basis the facilities requested by the
+                                                           customer and basis defined configurations
+                                                           for those facilities in CBS.
+             (b) Money Laundering: Money Laundering is the process by which the proceeds of the
+                 crime and the true ownership of those proceeds are concealed or made opaque so
+                 that the proceeds appear to come from a legitimate source. The objective in money
+                 laundering is to conceal the existence, illegal source, or illegal application of income
+                 to make it appear legitimate. Money laundering is commonly used by criminals to
+                 make ‘dirty’ money appear ‘clean’ or the profits of criminal activities are made to
+                 appear legitimate. Money Laundering involves three stages namely – Placement,
+                 Layering and Integration.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        88                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                                  SECTION – B: STRATEGIC MANAGEMENT
+        Brief answers
+        1.   Briefly answer the following questions:
+             (a) Define strategic management.
+             (b) What is an opportunity?
+             (c) How a company can deal with strategic uncertainty?
+             (d) Explain the meaning of the Combination strategies.
+             (e) Explain Best-cost provider strategy.
+             (f)   Define logistics strategy.
+             (g) Explain the concept of Network structure.
+             (h) Define Refreezing in Kurt Lewin’s change process
+        Statement type of question (Correct / Incorrect)
+        2.   State with reasons which of the following statements are correct/incorrect:
+             (a) Strategic management involves huge cost.
+             (b) Key success factors determine competitive success.
+             (c) Information gathering and deep analysis can eliminate uncertainty.
+             (d) Turnaround should succeed liquidation strategy.
+             (e) Substitutes can also exert significant competitive pressures.
+             (f)   Publicity is personal form of promotion.
+             (g) Network Structures eliminate many in-house functions.
+             (h) Strategic surveillance is highly focussed and organised control activity.
+        Short notes
+        3.   Write short notes on the following:
+             (a) Strategy is partly proactive and partly reactive
+             (b) Advantages of Cost leadership strategy
+             (c) Production system
+             (d) Implementation control
+        Differences between the two concepts
+        4.   Distinguish between the following:
+             (a) Inbound logistics and outbound logistics
+             (b) Transformational and transactional leadership
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                            89
+
+
+             (c) Mergers and acquisitions
+             (d) Vision and Mission
+        Descriptive answers
+        Chapter 1-Introduction to Strategic Management
+        5.   Health Wellnow is a Delhi based charitable organisation promoting healthy lifestyle
+             amongst the office-goers. It organises programmes to encourage and guide office-goers
+             on matters related to stress relief, yoga, exercises, healthy diet, weight management, work-
+             life balance and so on. Many business organisations and resident welfare associations take
+             services of Health Wellnow. Its daily yoga sessions are very popular in some of the big
+             companies located in Delhi, Noida and Gurgaon. The Health Wellnow has no commercial
+             interest and does not charge any fees for its services. However, the organisation is able to
+             get good charities and has sufficient funds to meet its routine expenses.
+             Do you think the concepts of strategic management are relevant for Health Welln ow?
+             Discuss.
+        6.   The presence of strategic management cannot counter all hindrances and always achieve
+             success for an organisation. What are the limitations attached to strategic management?
+        Chapter 2-Dynamics of Competitive Strategy
+        7.   Suresh Singhania is the owner of an agri-based private company in Sangrur, Punjab. His
+             unit is producing puree, ketchups and sauces. While its products have significant market
+             share in the northern part of country, the sales are on decline in last couple of years. He
+             seeks help of a management expert who advises him to first understand the competitive
+             landscape.
+             Explain the steps to be followed by Suresh Singhania to understand competitive landscape.
+        8.   Explain the concept of experience curve and highlight its relevance in strategic
+             management.
+        Chapter 3-Strategic Management Process
+        9.   Rohit Seth in an informal discussion with his friend shared that he has to move very
+             cautiously in his organisation as the decisions taken by him have organisation wide impact
+             and involve large commitments of resources. He also said that his decisions decide the
+             future of his organisation.
+             Where will you place Rohit Seth in organisational hierarchy? What are the dimensions of
+             the decisions being taken by him?
+        10. Define strategic intent. Briefly explain the elements of strategic intent.
+        Chapter 4-Corporate Level Strategies
+        11. Swift Insurance is a company engaged in the business of providing medical insurance
+            maintaining a market share of 25 to 30 per cent in last five years. Recently, the company
+            decided to enter into the business of auto insurance by having foreign collaboration. Identify
+            the strategy being followed by the Swift Insurance with its advantages.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        90                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+        12. Strategic alliances are formed if they provide an advantage to all the parties in the alliance.
+            Do you agree? Explain in brief the advantages of a strategic alliance.
+        Chapter 5-Business Level Strategies
+        13. Airlines industry in India is highly competitive with several players. Businesses face severe
+            competition and aggressively market themselves with each other. Luxury Jet is a private
+            Delhi based company with a fleet size of 9 small aircrafts with seating capacity ranging
+            between 6 seats to 9 seats. There aircrafts are chartered by big business houses and high
+            net worth individuals for their personalised use. With customised tourism packages their
+            aircrafts are also often hired by foreigners. Identify and explain the Michael Porter’s
+            Generic Strategy followed by Luxury Jet.
+        14. What are the common barriers that are faced by new entrants when an existing firm earns
+            higher profits?
+        Chapter 6-Functional Level Strategies
+        15. Ronit Roy has started a new business of manufacturing washing powder. Make a plan for
+            him to promote his product.
+        16. State the factors of human resource that have influence on employee’s competence.
+        Chapter 7-Organisation and Strategic Leadership
+        17. Suresh Sinha has been recently appointed as the head of a strategic business unit of a
+            large multiproduct company. Advise Mr Sinha about the leadership role to be played by
+            him in execution of strategy.
+        18. Define Entrepreneur. What are the characteristics of an entrepreneur?
+        Chapter 8-Strategy Implementation and Control
+        19. Kewal Kapadia is the Managing Director of KK industries located in Kanpur. In a review
+            meeting with the head of finance, Kuldeep Khaitan he said that in the first five years of last
+            decade the company grew between 8-10 percent every year, then the growth rate started
+            falling and in previous year the company managed 1 per cent. Kuldeep replied that the
+            company is facing twin issues, one the strategy is not being implemented as planned; and
+            two the results produced by the strategy are not in conformity with the intended goals.
+            There is mismatch between strategy formulation and implementation. Kewal disagreed and
+            stated that he takes personal care in implementing all strategic plans.
+             You have been hired as a strategy consultant by the KK Industries. Advise way forward for
+             the company to identify problem areas and correct the strategic approaches that have not
+             been effective.
+        20. What is Benchmarking? Explain briefly the elements involved in Benchmarking process.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                              91
+
+
+                                       SUGGESTED ANSWERS / HINTS
+
+        1    (a) The term ‘strategic management’ refers to the managerial process of developing a
+                 strategic vision, setting objectives, crafting a strategy, implementing and evaluating
+                 the strategy, and initiating corrective adjustments where deemed appropriate.
+             (b) An opportunity is a favourable condition in the organization's environment which
+                 enables it to consolidate and strengthen its position. An example of opportunity is
+                 growing demand for the products or services that are offered by company.
+             (c) Strategic uncertainty denotes the uncertainty that has crucial implications for the
+                 organisation. An approach to deal with strategic uncertainty is by grouping them into
+                 logical clusters or themes. It is then useful to assess the importance of each cluster
+                 in order to set priorities with respect to Information gathering and analysis.
+             (d) Combination Strategies refer to a mix of different strategies like stability; expansion,
+                 diversification or retrenchment to suit particular situations that an enterprise is facing.
+                 For instance, a strategy of diversification/acquisition may call for retrenc hment in
+                 some obsolete product lines.
+             (e) Best-cost provider strategy involves providing customers more value for the money
+                 by emphasizing low cost and better quality difference. It can be done:
+                   (a) through offering products at lower price than what is being offered by rivals for
+                       products with comparable quality and features or
+                   (b) charging similar price as by the rivals for products with much higher quality and
+                       better features.
+             (f)   Logistics is a process that integrates the flow of supplies into, through and out of an
+                   organization to achieve a level of service that facilitate movement and availability of
+                   materials in a proper manner. When a company creates a logistics strategy, it is
+                   defining the service levels at which its logistics is smooth and is cost effective.
+             (g) Network structure is a newer and somewhat more radical organizational design. The
+                 network structure could be termed as ‘non-structure’ as it virtually eliminates in-house
+                 business functions and outsource many of them. A corporation organized in this manner
+                 is a virtual organization because it is composed of a series of project groups or
+                 collaborations linked by constantly changing non-hierarchical, cobweb-like networks.
+             (h) Kurt Lewin proposed three phases of the change process – Unfreezing, changing and
+                 then refreezing. Refreezing occurs when the new behaviour becomes a normal way
+                 of life. The new behaviour must replace the former behaviour completely for
+                 successful and permanent change to take place. It may be achieved through
+                 continuous reinforcement.
+        2    (a) Correct: Strategic management is a costly process. Strategic management adds a lot
+                 of expenses to an organization. Expert strategic planners need to be engaged . Efforts
+                 are made for analysis of external and internal environments, devise strategies and
+                 properly implement them. These can be really costly for organisations with limited
+
+
+
+
+© The Institute of Chartered Accountants of India
+        92                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                   resources particularly when small and medium organisation create strategies to
+                   compete.
+             (b) Correct: The purpose of identifying Key Success Factors is to make judgments about
+                 things that are more important to competitive success and the things that are less
+                 important. To compile a list of every factor that matters even a little bit defeats the
+                 purpose of concentrating management attention on the factors truly critical to long-
+                 term competitive success.
+             (c) Incorrect: Strategic uncertainty is often represented by a future trend or event that
+                 has inherent unpredictability. Information gathering and additional analysis is not able
+                 to eliminate uncertainty.
+             (d) Incorrect: A retrenchment strategy considered the most extreme and unattractive is
+                 liquidation strategy, which involves closing down a firm and selling its assets. It is
+                 considered as the last resort because it leads to serious consequences such as loss
+                 of employment for workers and other employees, termination of opportunities where
+                 a firm could pursue any future activities, and the stigma of failure. In an ideal scenario,
+                 turnaround should be attempted first and should precede option of liquidatio n.
+             (e) Correct: According to porter’s five forces model, a final force that can influence
+                 industry profitability is the availability of substitutes for an industry’s product. To
+                 predict profit pressure from this source, firms must search for products that perform
+                 the same, or nearly the same, function as their existing products.
+             (f)   Incorrect: Publicity is a non-personal form of promotion similar to advertising.
+                   However, no payments are made to the media as in case of advertising. Organizations
+                   skilfully seek to promote themselves and their products without payment. Publicity is
+                   communication of a product, brand or business by placing information about it in the
+                   media without paying for the time or media space directly.
+             (g) Correct: The network structure can be termed a “non-structure” by its virtual
+                 elimination of in-house business functions. Many activities are outsourced. A
+                 corporation organized in this manner is often called a virtual organization because it
+                 is composed of a series of project groups or collaborations linked by constantly
+                 changing non-hierarchical, cobweb-like networks.
+             (h) Incorrect: The strategic surveillance is unfocussed. It involves general monitoring of
+                 various sources of information to uncover unanticipated information having a bear ing
+                 on the organizational strategy. It involves casual environmental browsing. Reading
+                 financial and other newspapers, business magazines, attending meetings,
+                 conferences, discussions and so on. Strategic surveillance, a loose form of strategic
+                 control, is capable of uncovering information relevant to strategy.
+        3    (a) It is true that strategies are partly proactive and partly reactive. In proactive strategy,
+                 organizations will analyze possible environmental scenarios and create strategic
+                 framework after proper planning and set procedures and work on these strategies in
+                 a predetermined manner. However, in reality no company can forecast both internal
+                 and external environment exactly. Everything cannot be planned in advance. It is not
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             93
+
+
+                  possible to anticipate moves of rival firms, consumer behaviour, evolving technologies
+                  and so on.
+                  There can be significant deviations between what was visualized and what actually
+                  happens. Strategies need to be attuned or modified in the light of possible
+                  environmental changes. There can be significant or major strategic changes when the
+                  environment demands. Reactive strategy is triggered by the changes in the
+                  environment and provides ways and means to cope with the negative factors or take
+                  advantage of emerging opportunities.
+             (b) A cost leadership strategy may help to remain profitable in the presence of rivalry,
+                 new entrants, suppliers' power, substitute products, and buyers' power.
+                  (i)   Rivalry – Competitors are likely to avoid a price war, since the low cost firm will
+                        continue to earn profits after competitors compete away their profits.
+                  (ii) Buyers – Powerful buyers/customers would not be able to exploit the cost leader
+                       firm and will continue to buy its product.
+                  (iii) Suppliers – Cost leaders are able to absorb greater price increases before it
+                        must raise price to customers.
+                  (iv) Entrants – Low cost leaders create barriers to market entry through its
+                       continuous focus on efficiency and reducing costs.
+                  (v) Substitutes – Low cost leaders are more likely to lower costs to induce
+                      customers to stay with their product, invest to develop substitutes, purchase
+                      patents.
+             (c) Production System is concerned with the capacity, location, layout, product or service
+                 design, work systems, degree of automation, extent of vertical integration, and such
+                 factors. Strategies related to production system are significant as they deal with vital
+                 issues affecting the capability of the organisation to achieve its objectives.
+                  Strategy implementation would have to take into account the production system
+                  factors as they involve decisions which are long-term in nature and influence not only
+                  the operations capability of an organisation but also its ability to implement strategies
+                  and achieve objectives.
+             (d) Managers implement strategy by converting major plans into concrete, sequential
+                 actions that form incremental steps. Implementation control is directed towards
+                 assessing the need for changes in the overall strategy in light of unfolding events and
+                 results associated with incremental steps and actions.
+                  Strategic implementation control is not a replacement to operational control. Strategic
+                  implementation control, unlike operational controls continuously monitors the basic
+                  direction of the strategy. The two basic forms of implementation control are:
+                  (i)    Monitoring strategic thrusts: Monitoring strategic thrusts help managers to
+                         determine whether the overall strategy is progressing as desired or whether
+                         there is need for readjustments.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        94                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                  (ii)   Milestone reviews. All key activities necessary to implement strategy are
+                         segregated in terms of time, events or major resource allocation. It normally
+                         involves a complete reassessment of the strategy. It also assesses the need
+                         to continue or refocus the direction of an organization.
+        4    (a) Inbound logistics are the activities concerned with receiving, storing and distributing
+                 the inputs to the product/service. It includes all activities such as materials handling,
+                 stock control, transport, etc.
+                  Outbound logistics relate to collection, storage and distribution of the product to
+                  customers. It includes all activities such as storage/warehousing of finished goods,
+                  order processing, scheduling deliveries, operation of delivery vehicles, etc.
+             (b) Transformational leadership style use charisma and enthusiasm to inspire people to
+                 exert them for the good of the organization. Transformational leadership style may be
+                 appropriate in turbulent environments, in industries at the very start or end of their
+                 life-cycles, in poorly performing organizations when there is a need to inspire a
+                 company to embrace major changes. Transformational leaders offer excitement,
+                 vision, intellectual stimulation and personal satisfaction. Such a leadership motivates
+                 followers to do more than originally affected to do by stretching their abilities and
+                 increasing their self-confidence, and also promote innovation throughout the
+                 organization.
+                  On the other hand, transactional leadership style focus more on designing systems
+                  and controlling the organization’s activities and are more likely to be associated with
+                  improving the current situation. Transactional leaders try to build on the existing
+                  culture and enhance current practices. Transactional leadership style uses the
+                  authority of its office to exchange rewards, such as pay and status. They prefer a
+                  more formalized approach to motivation, setting clear goals with explicit rewards or
+                  penalties for achievement or non-achievement. Transactional leadership style is more
+                  suitable in settled environment, in growing or mature industries, and in organizations
+                  that are performing well.
+             (c) Merger and acquisition in simple words are defined as a process of combining two or
+                 more organizations together.
+                  Some organizations prefer to grow through mergers. Merger is considered to be a
+                  process when two or more companies come together to expand their business
+                  operations. In such a case the deal gets finalized on friendly terms and both the
+                  organizations share profits in the newly created entity. In a merger two organizations
+                  combine to increase their strength and financial gains along with breaking the trade
+                  barriers.
+                  When one organization takes over the other organization and controls all its business
+                  operations, it is known as acquisitions. In this process of acquisition, one financially
+                  strong organization overpowers the weaker one. Acquisitions often happen during
+                  recession in economy or during declining profit margins. In this process, one that is
+                  financially stronger and bigger establishes it power. The combined operations then
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                            95
+
+
+                   run under the name of the powerful entity. A deal in case of an acquisition is often
+                   done in an unfriendly manner, it is more or less a forced association.
+             (d) The vision describes a future identity while the Mission serves as an on-going and
+                 time-independent guide.
+                   The vision statement can galvanize the people to achieve defined objectives, even if
+                   they are stretch objectives, provided the vision is specific, measurable, achievable,
+                   and relevant and time bound. A mission statement provides a path to realize the vision
+                   in line with its values. These statements have a direct bearing on the bottom line and
+                   success of the organization.
+                   A mission statement defines the purpose or broader goal for being in existence or in
+                   the business and can remain the same for decades if crafted well while a vision
+                   statement is more specific in terms of both the future state and the time frame. Vision
+                   describes what will be achieved if the organization is successful.
+        5.   The concepts of strategic management are relevant for Health Wellnow.
+             Organizations can be classified as commercial and non-commercial on the basis of the
+             interest they have. Health Wellnow falls in the category of a non-commercial organisation.
+             While non-commercial organisations may have objectives that are different from the
+             commercial organisations, they need to employ the strategic management tools to
+             efficiently use their resources, generate sufficient surpluses to meet daily expenses and
+             achieve their objectives. In fact, many non-profit and governmental organizations
+             outperform private firms and corporations on innovativeness, motivation, productivity, and
+             human relations.
+             The strategic management in Health Wellnow needs to cover aspects such as:
+             (i)   Generate sufficient funds for meeting its objectives.
+             (ii) Efficiently reach office-goers and help them to have health in life.
+             (iii) Promote itself to cover more offices, resident welfare associations.
+             (iv) Have a deep collaboration with health experts, including dieticians, psychologist,
+                  fitness trainers, yoga experts.
+        6.   The presence of strategic management cannot counter all hindrances and always achieve
+             success as there are limitations attached to strategic management. These can be explained
+             in the following lines:
+                  Environment is highly complex and turbulent. It is difficult to understand the complex
+                   environment and exactly pinpoint how it will shape-up in future. The organisational
+                   estimate about its future shape may awfully go wrong and jeopardise all strategic
+                   plans. The environment affects as the organisation has to deal with suppliers,
+                   customers, governments and other external factors.
+                  Strategic Management is a time-consuming process. Organisations spend a lot of time
+                   in preparing, communicating the strategies that may impede daily operations and
+                   negatively impact the routine business.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        96                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+                  Strategic Management is a costly process. Strategic management adds a lot of
+                   expenses to an organization. Expert strategic planners need to be engaged, efforts
+                   are made for analysis of external and internal environments devise strategies and
+                   properly implement. These can be really costly for organisations with limited
+                   resources particularly when small and medium organisation create strategies to
+                   compete.
+                  In a competitive scenario, where all organisations are trying to move strategically, it
+                   is difficult to clearly estimate the competitive responses to the strategies.
+        7.   Steps to understand the competitive landscape
+             (i)   Identify the competitor: The first step to understand the competitive landscape is to
+                   identify the competitors in the firm’s industry and have actual data about their
+                   respective market share.
+             (ii) Understand the competitors: Once the competitors have been identified, the
+                  strategist can use market research report, internet, newspapers, social media,
+                  industry reports, and various other sources to understand the products and services
+                  offered by them in different markets.
+             (iii) Determine the strengths of the competitors: What are the strength of the
+                   competitors? What do they do well? Do they offer great products? Do they utilize
+                   marketing in a way that comparatively reaches out to more consumers. Why do
+                   customers give them their business?
+             (iv) Determine the weaknesses of the competitors: Weaknesses (and strengths) can
+                  be identified by going through consumer reports and reviews appearing in various
+                  media. After all, consumers are often willing to give their opinions, especially when
+                  the products or services are either great or very poor.
+             (v) Put all of the information together: At this stage, the strategist should put together
+                 all information about competitors and draw inference about what they are not offering
+                 and what the firm can do to fill in the gaps. The strategist can also know the areas
+                 which need to be strengthen by the firm.
+        8.   Experience curve is similar to learning curve which explains the efficiency gained by
+             workers through repetitive productive work. Experience curve is based on the commonly
+             observed phenomenon that unit costs decline as a firm accumulates experience in terms
+             of a cumulative volume of production. The implication is that larger firms in an industry
+             would tend to have lower unit costs as compared to those of smaller organizatio ns, thereby
+             gaining a competitive cost advantage. Experience curve results from a variety of factors
+             such as learning effects, economies of scale, product redesign and technological
+             improvements in production.
+             The concept of experience curve is relevant for a number of areas in strategic management.
+             For instance, experience curve is considered a barrier for new firms contemplating entry in
+             an industry. It is also used to build market share and discourage competition.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             97
+
+
+        9.   As the decisions taken by Rohit Seth have organisation wide impact, involves large
+             commitments and have implication on the future, he is at the top level in organisational
+             hierarchy. These characteristics also indicate that he is taking strategic decisions in the
+             organisation. The major dimensions of strategic decisions are as follows:
+                 Strategic decisions require top-management involvement: Strategic decisions
+                  involve thinking in totality of the organization. Hence, problems calling for strategic
+                  decisions require to be considered by the top management.
+                 Strategic decisions involve commitment of organisational resources: For
+                  example, Strategic decisions to launch a new project by a firm requires allocation of
+                  huge funds and assignment of a large number of employees.
+                 Strategic decisions necessitate consideration of factors in the firm’s external
+                  environment: Strategic focus in organization involves orienting its internal
+                  environment to the changes of external environment.
+                 Strategic decisions are likely to have a significant impact on the long-term
+                  prosperity of the firm: Generally, the results of strategic implementation are seen
+                  on a long-term basis and not immediately.
+                 Strategic decisions are future oriented: Strategic thinking involves predicting the
+                  future environmental conditions and how to orient for the changed conditions.
+                 Strategic decisions usually have major multifunctional or multi-business
+                  consequences: As they involve organization in totality they affect different sections
+                  of the organization with varying degree.
+        10. Strategic Management is defined as a dynamic process of formulation, implementation,
+            evaluation, and control of strategies to realise the organization’s strategic intent. Strategic
+            intent refers to purposes for what organization strives for. Top management must d efine
+            “what they want to do” and “why they want to do”. “Why they want to do” represents
+            strategic intent of the firm. Clarity in strategic intent is extremely important for the future
+            success and growth of the enterprise, irrespective of its nature and size.
+             Strategic intent can be understood as the philosophical base of strategic management. It
+             implies the purposes, which an organization endeavours to achieve. It is a statement that
+             provides a perspective of the means, which will lead the organization, reach its vision in
+             the long run. Strategic intent gives an idea of what the organization desires to attain in
+             future.
+             Strategic intent provides the framework within which the firm would adopt a predetermined
+             direction and would operate to achieve strategic objectives. Strategic intent could be in the
+             form of vision and mission statements for the organisation at the corporate level. It could
+             be expressed as the business definition and business model at the business level of the
+             organisation.
+             Strategic intent is generally stated in broad terms but when stated in precise terms it is an
+             expression of aims to be achieved operationally i.e., goals and objectives.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        98                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+             Elements of Strategic Intent
+             (i)   Vision: Vision implies the blueprint of the company’s future position. It describes
+                   where the organisation wants to land. It depicts the organisation’s aspirations and
+                   provides a glimpse of what the organization would like to become in future. Every sub
+                   system of the organization is required to follow its vision.
+             (ii) Mission: Mission delineates the firm’s business, its goals and ways to reach the goals.
+                  It explains the reason for the existence of the firm in the society. It is designed to help
+                  potential shareholders and investors understand the purpose of the company. A
+                  mission statement helps to identify, ‘what business the company undertakes.’ It
+                  defines the present capabilities, activities, customer focus and business makeup.
+             (iii) Business definition: It seeks to explain the business undertaken by the firm, with
+                   respect to the customer needs, target markets, and alternative technologies. With the
+                   help of business definition, one can ascertain the strategic business choices.
+                   Organisational restructuring also depends upon the business definition.
+             (iv) Business model: Business model, as the name implies is a strategy for the effective
+                  operation of the business, ascertaining sources of income, desired customer base,
+                  and financial details. Rival firms, operating in the same industry rely on the different
+                  business model due to their strategic choice.
+             (v) Goals and objectives: These are the base of measurement. Goals are the end
+                 results, that the organization attempts to achieve. On the other hand, objectives are
+                 time-based measurable targets, which help in the accomplishment of goals. These
+                 are the end results which are to be attained with the help of an overall plan, over the
+                 particular period. However, in practice no distinction is made between goals and
+                 objectives and both terms are used interchangeably.
+             The vision, mission, business definition, and business model explain the philosophy of the
+             organisation but the goals and objectives represent the results to be achieved in multiple
+             areas of business.
+        11. Overall Swift Insurance is following growth or expansion strategy as it is redefining the
+            business and enlarging its scope. The step will also substantially increase investment in
+            the business.
+             The new business is related and at the same time caters to a different segment and
+             accordingly can be termed as related diversification. The new business falls within the
+             scope of general insurance and horizontally related to the existing business.
+             In the process of expansion, the company will be able to exploit:
+                  Its brand name.
+                  The marketing skills available.
+                  The existing sales and distribution infrastructure.
+                  Research and development.
+                  Economies of scale
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             99
+
+
+        12. Strategic alliances are formed if they provide an advantage to all the parties in the alliance.
+            These advantages can be broadly categorised as follows:
+             (i)   Organizational: Strategic alliances may be formed to learn necessary skills and
+                   obtain certain capabilities from the strategic partner. Strategic partners may also help
+                   to enhance productive capacity, provide a distribution system, or extend supply chain.
+                   A strategic partner may provide a good or service that complements each other,
+                   thereby creating a synergy. If one partner is relatively new or untried in a certain
+                   industry, having a strategic partner who is well-known and respected will help add
+                   legitimacy and creditability to the venture.
+             (ii) Economic: Alliances can reduce costs and risks by distributing them across the
+                  members of the alliance. Partners can obtain greater economies of scale in an
+                  alliance, as production volume increase, causing the cost per unit to decline. Finally,
+                  partners can take advantage of co-specialization, where specializations are bundled
+                  together, creating additional value.
+             (iii) Strategic: Organizations may join to cooperate instead of compete. Alliances may
+                   also create vertical integration where partners are part of supply chain. Strategic
+                   alliances may also be useful to create a competitive advantage by the pooling of
+                   resources and skills. This may also help with future business opportunities and the
+                   development of new products and technologies. Strategic alliances may also be used
+                   to get access to new technologies or to pursue joint research and development.
+             (iv) Political: Sometimes there is need to form a strategic alliance with a local foreign
+                  business to gain entry into a foreign market either because of local prejudices or legal
+                  barriers to entry. Forming strategic alliances with politically-influential partners may
+                  also help improve overall influence and position.
+        13. The Airlines industry faces stiff competition. However, Luxury Jet has attempted to create
+            a niche market by adopting focused differentiation strategy. A focused differentiation
+            strategy requires offering unique features that fulfil the demands of a narrow market.
+             Luxury Jet compete in the market based on uniqueness and target a narrow market which
+             provides business houses, high net worth individuals to maintain strict schedules. The
+             option of charter flights provided several advantages including, flexibility, privacy, luxury
+             and many a times cost saving. Apart from conveniences, the facility will provide time
+             flexibility. Travelling by private jet is the most comfortable, safe and secure way of flying
+             your company’s senior business personnel.
+             Chartered services in airlines can have both business and private use. Personalized
+             tourism packages can be provided to those who can afford it.
+        14. A firm’s profitability tends to be higher when other firms are blocked from entering the
+            industry. New entrants can reduce industry profitability because they add n ew production
+            capacity leading to increase supply of the product even at a lower price and can
+            substantially erode existing firm’s market share. Barriers to entry represent economic
+            forces (or ‘hurdles’) that slow down or impede entry by other firms. Commo n barriers to
+            entry include:
+
+
+
+
+© The Institute of Chartered Accountants of India
+        100                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+              (i)   Capital requirements: When a large amount of capital is required to enter an
+                    industry, firms lacking funds are effectively barred from the industry, thus enhancing
+                    the profitability of existing firms in the industry.
+              (ii) Economies of scale: Many industries are characterized by economic activities driven
+                   by economies of scale. Economies of scale refer to the decline in the per -unit cost of
+                   production (or other activity) as volume grows. A large firm that enjoys economies of
+                   scale can produce high volumes of goods at successively lower costs. This tends to
+                   discourage new entrants.
+              (iii) Product differentiation: Production differentiation refers to the physical or
+                    perceptual differences, or enhancements, that make a product special or unique in
+                    the eyes of customers. Firms in the personal care products and cosmetics industries
+                    actively engage in product differentiation to enhance their products’ features.
+                    Differentiation works to reinforce entry barriers because the cost of c reating genuine
+                    product differences may be too high for the new entrants.
+              (iv) Switching costs: To succeed in an industry, new entrant must be able to persuade
+                   existing customers of other companies to switch to its products. To make a switch,
+                   buyers may need to test a new firm’s product, negotiate new purchase contracts, and
+                   train personnel to use the equipment, or modify facilities for product use. Buyers often
+                   incur substantial financial (and psychological) costs in switching between firms. When
+                   such switching costs are high, buyers are often reluctant to change.
+              (v) Brand identity: The brand identity of products or services offered by existing firms
+                  can serve as another entry barrier. Brand identity is particularly important for
+                  infrequently purchased products that carry a high unit cost to the buyer. New entrants
+                  often encounter significant difficulties in building up the brand identity, because to do
+                  so they must commit substantial resources over a long period.
+              (vi) Access to distribution channels: The unavailability of distribution channels for new
+                   entrants poses another significant entry barrier. Despite the growing power of the
+                   internet, many firms may continue to rely on their control of physical distribution
+                   channels to sustain a barrier to entry to rivals. Often, existing firms have significant
+                   influence over the distribution channels and can retard or impede their use by new firms.
+              (vii) Possibility of aggressive retaliation: Sometimes the mere threat of aggressive
+                    retaliation by incumbents can deter entry by other firms into an existing industry. For
+                    example, introduction of products by a new firm may lead existing firms to reduce their
+                    product prices and increase their advertising budgets.
+        15. Promotion stands for activities that communicate the merits of the product and persuade
+            target consumers to buy it. Strategies are needed to combine individual methods such as
+            advertising, personal selling, and sales promotion into a coordinated campaign. Modern
+            marketing is highly promotional oriented.
+              Ronit needs to cover four major direct promotional methods or tools – personal selling,
+              advertising, publicity and sales promotion. They are briefly explained as follows:
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT 101
+
+
+             (i)    Personal selling: Personal Selling involves face-to-face interaction of sales force
+                    with the prospective customers and provides a high degree of personal attention to
+                    them. In personal selling, oral communication is made with potential buyers of a
+                    product with the intention of making a sale.
+                    Ronit may engage a sales team to reach potential customers, explain the benefits of
+                    the product and make a sale.
+                    While personal selling is highly effective it suffers from very high costs as sales
+                    personnel are expensive. Considering the product is a new launch in a competitive
+                    environment having a sales team would be essential.
+             (ii) Advertising: Advertising is a non-personal, highly flexible and dynamic promotional
+                  method.
+                    Ronit needs to advertise washing powder through hoardings, display boards
+                    particularly near the point of sale. He may also consider having advertisements
+                    through handouts, newspapers, magazines and internet. Television and radio are
+                    costly alternatives that may be considered according to his budget.
+             (iii) Publicity: Publicity is also a non-personal form of promotion similar to advertising.
+                   He may organize a launch party where journalists are invited. It is way of reaching
+                   customers with negligible cost. Basic tools for publicity are press releases, pres s
+                   conferences, reports, stories, and internet releases. These releases must be of
+                   interest to the public.
+             (iv) Sales promotion: Sales promotion is an omnibus term that includes all activities that
+                  are undertaken to promote the business but are not specifically included under
+                  personal selling, advertising or publicity. Ronit may offer free trial packs to generate
+                  interest in the product. Activities like discounts, contests, money refunds, instalments,
+                  kiosks, exhibitions and fairs constitute sales promotion. All these are meant to give a
+                  boost to the sales. Sales promotion done periodically may help in getting a larger
+                  market share.
+        16. Human resource management has been accepted as a strategic partner in the formulation
+            of organization’s strategies and in the implementation of such strategies through human
+            resource planning, employment, training, appraisal and reward systems. The following
+            points should be kept in mind as they can have a strong influence on employee
+            competence:
+             i.     Recruitment and selection: The workforce will be more competent if a firm can
+                    successfully identify, attract, and select highly competent applicants.
+             ii.    Training: The workforce will be more competent if employees are well trained to
+                    perform their jobs properly.
+             iii.   Appraisal of performance: The performance appraisal is to identify any performance
+                    deficiencies experienced by employees due to lack of competence. Such deficiencies,
+                    once identified, can often be solved through counselling, coaching or training.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        102                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2018
+
+
+              iv.   Compensation: A firm can usually increase the competency of its workforce by
+                    offering pay, benefits and rewards that are not only attractive than those of their
+                    competitors but also recognizes merit.
+        17. Leading change has to start with diagnosing the situation and then deciding which of
+            several ways to handle it. Managers have five leadership roles to play in pushing for good
+            strategy execution:
+              (i)   Staying on top of what is happening, closely monitoring progress, solving out issues,
+                    and learning what obstacles lie in the path of good execution.
+              (ii) Promoting a culture of esprit de corps that mobilizes and energizes organizational
+                   members to execute strategy in a competent fashion and perform at a high level.
+              (iii) Keeping the organization responsive to changing conditions, alert for new
+                    opportunities, bubbling with innovative ideas, and ahead of rivals in developing
+                    competitively valuable competencies and capabilities.
+              (iv) Exercising ethical leadership and insisting that the company conduct its affairs like a
+                   model corporate citizen.
+              (v) Pushing corrective actions to improve strategy execution and overall strategic
+                  performance.
+        18. An entrepreneur is an individual who conceives the idea of starting a new venture, takes
+            all types of risks, not only to put the product or service into reality but also to make it an
+            extremely demanding one. An entrepreneur is one who:
+                   Initiates and innovates a new concept.
+                   Recognises and utilises opportunity.
+                   Arranges and coordinates resources such as man, material, machine and capital.
+                   Faces risks and uncertainties.
+                   Establishes a startup company.
+                   Adds value to the product or service.
+                   Takes decisions to make the product or service a profitable one.
+                   Is responsible for the profits or losses of the company.
+        19. The company needs to conduct strategy audit.
+              A strategy audit is needed under the following conditions:
+                   When the performance indicators reflect that a strategy is not working properly or is
+                    not producing desired outcomes.
+                   When the goals and objectives of the strategy are not being accomplished.
+                   When a major change takes place in the external environment of the organization.
+                   When the top management plans:
+                    -    to fine-tune the existing strategies and introduce new strategies and
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT 103
+
+
+                   -    to ensure that a strategy that has worked in the past continues to be in-tune with
+                        subtle internal and external changes that may have occurred since the
+                        formulation of strategies.
+             Adequate and timely feedback is the cornerstone of effective strategy audit. Strategy audit
+             can be no better than the information on which it is based.
+             Strategy Audit includes three basic activities:
+             (i)   Examining the underlying bases of a firm’s strategy,
+             (ii) Comparing expected results with actual results, and
+             (iii) Taking corrective actions to ensure that performance conforms to plans.
+        20. Benchmarking is an approach of setting goals and measuring productivity of firms based
+            on best industry practices or against the products, services and practices of its competitors
+            or other acknowledged leaders in the industry. It developed out of need to have information
+            against which performance can be measured. Benchmarking helps businesses in
+            improving performance by learning from the best practices and the processes by which
+            they are achieved. Thus, benchmarking is a process of continuous improvement in search
+            for competitive advantage. Firms can use benchmarking practices to achieve
+            improvements in diverse range of managerial functions like product development, customer
+            services, human resources management, etc.
+             The various steps in Benchmarking Process are as under:
+             (i)   Identifying the need for benchmarking: This step will define the objectives of the
+                   benchmarking exercise. It will also involve selecting the type of benchmarking.
+                   Organizations identify realistic opportunities for improvements.
+             (ii) Clearly understanding existing decisions processes: The step will involve
+                  compiling information and data on performance.
+             (iii) Identify best processes: Within the selected framework best processes are
+                   identified. These may be within the same organization or external to them.
+             (iv) Comparison of own process and performance with that of others: Benchmarking
+                  process also involves comparison of performance of the organization with
+                  performance of other organization. Any deviation between the two is analysed to make
+                  further improvements.
+             (v) Prepare a report and implement the steps necessary to close the performance
+                 gap: A report on benchmarking initiatives containing recommendations is prepared.
+                 Such a report also contains the action plans for implementation.
+             (vi) Evaluation: Business organizations evaluate the results of the benchmarking process
+                  in terms of improvements vis-à-vis objectives and other criteria set for the purpose. It
+                  also periodically evaluates and reset the benchmarks in the light of changes in the
+                  conditions that impact the performance.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

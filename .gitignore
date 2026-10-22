@@ -1,0 +1,26 @@
+node_modules/
+.next/
+.venv/
+venv/
+.mos/
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+pipcache/
+chunks/
+chunks_en/
+.DS_Store
+# media: kept out of the repo for now (added separately later)
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.mov
+*.webm
+*.flac
+*.aac
+*.ogg
+# the two large zips are stored split into 95 MB .part-* files (see restore_zips.sh)
+/ca_passbook 2.zip
+/ca_passbook.zip

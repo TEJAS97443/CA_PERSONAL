@@ -1,0 +1,468 @@
+{
+  "source": {
+    "type": "MTP",
+    "attempt": "September 2026",
+    "attempt_sort": "2026-09",
+    "series": "II",
+    "scheme": "new",
+    "paper": "Paper 6B: Strategic Management",
+    "pdf_url": "https://boslive.icai.org/mock_test_paper/MTP_67_53_QUESTIONS_1787054855.pdf",
+    "answers_url": "https://boslive.icai.org/mock_test_paper/MTP_67_53_ANSWERS_1787832119.pdf",
+    "local_file": "raw/mtp-sep2026-s2-q.pdf",
+    "retrieved": "2026-10-05",
+    "extract_ok": true,
+    "notes": "Mock Test Paper - Series II: August 2026, Date of Paper: 19th August 2026. Official ICAI BoS Knowledge Portal files. Question paper: https://boslive.icai.org/mock_test_paper/MTP_67_53_QUESTIONS_1787054855.pdf (raw/mtp-sep2026-s2-q.pdf). Suggested Answers/Hints: https://boslive.icai.org/mock_test_paper/MTP_67_53_ANSWERS_1787832119.pdf (raw/mtp-sep2026-s2-a.pdf). The MTP prints no 'Chapter N' headings, so chapters are mapped per SPEC section 4."
+  },
+  "questions": [
+    {
+      "id": "mtp-sep2026-s2-q1A-i",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; ICAI prints no chapter heading in the MTP.",
+      "qno": "1(A)(i)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "EcoNurture Foods, founded in 2008 in India, specializes in producing plant-based, sustainable snacks and beverages. With a mission statement focused on \"nourishing people and the planet through sustainable innovation,\" the company aims to lead the market in environmentally friendly food alternatives. However, following a decade of double-digit growth, EcoNurture faced stagnation due to increased competition, operational inefficiencies, and changing consumer trends.\n\nTo regain its competitive edge, EcoNurture has initiated a turnaround strategy. The first step involved a complete overhaul of its outbound logistics, a key activity in its value chain. By investing in renewable-energy-powered delivery vehicles and partnering with a global logistics provider, the company reduced shipping costs by 20% and cut carbon emissions by 35%. This not only enhanced operational efficiency but also reinforced the brand’s commitment to sustainability; a core value that resonates with its target market.\n\nSimultaneously, EcoNurture addressed the barriers to new entry in the plant-based food industry. While small competitors have entered the market with niche products, the company’s established brand reputation, economies of scale, and extensive distribution network continue to deter potential entrants. By leveraging these barriers, EcoNurture protects its market share in key regions of western ghats & southern states of India.\n\nIn pursuit of growth, EcoNurture has adopted a diversification strategy. In 2024, the company launched a new line of functional beverages infused with probiotics and vitamins, targeting the growing health-conscious consumer base. This diversification has contributed to a 15% increase in revenue in its first year, with projected sales of INR150 Crores in 2025.\n\nTo further expand its market reach, EcoNurture formed a strategic alliance with Homely Basket, a premium organic retail chain in Asia. This partnership allows EcoNurture to enter high-growth Asian markets while Homely Basket benefits from exclusive rights to distribute EcoNurture’s products. The alliance is expected to generate an additional INR 50 Crores in annual revenue for both companies.\n\nDespite these initiatives, challenges remain. Consumer demand for innovation is relentless, and competition from both established players and startups continues to intensify. To stay ahead, EcoNurture’s leadership must ensure alignment with its mission statement while balancing profitability and sustainability. With strong execution of its turnaround strategy and continued focus on partnerships and diversification, EcoNurture is poised to reclaim its position as a leader in sustainable nutrition.\n\nBased on the above Case Scenario, answer the Multiple-Choice Questions.\n\n(i) EcoNurture Foods’ mission statement is well developed but the company still had to go through a turnaround strategy. What does this say about Strategic Management?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Strategic Management is a futile exercise"
+        },
+        {
+          "label": "b",
+          "text": "Proactive approach matters, but macro trends are more important"
+        },
+        {
+          "label": "c",
+          "text": "It is time consuming but helps by developing defense mechanisms as well"
+        },
+        {
+          "label": "d",
+          "text": "Mission statement should change with strategy"
+        }
+      ],
+      "answer": "(c) It is time consuming but helps by developing defense mechanisms as well",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "strategic management",
+        "turnaround",
+        "mission statement"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1A-ii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared EcoNurture Foods scenario given in 1(A)(i).",
+      "qno": "1(A)(ii)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared EcoNurture Foods case scenario set out in 1(A)(i).)\n\n(ii) A 15% increase in revenue in its first year, with projected sales of INR150 Crores in 2025 with the launch of probiotics and vitamins. Based on this statement, study the case carefully and mark the option which you feel resonates best.",
+      "options": [
+        {
+          "label": "a",
+          "text": "A company which did a turnaround should not be diversified"
+        },
+        {
+          "label": "b",
+          "text": "Target customer needs if studied with passion lead to a successful diversification"
+        },
+        {
+          "label": "c",
+          "text": "Diversification is suitable only for Startups"
+        },
+        {
+          "label": "d",
+          "text": "Investments made early in a good leader could save money spent on diversification"
+        }
+      ],
+      "answer": "(b) Target customer needs if studied with passion lead to a successful diversification",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "diversification",
+        "customer needs"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1A-iii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared EcoNurture Foods scenario given in 1(A)(i).",
+      "qno": "1(A)(iii)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared EcoNurture Foods case scenario set out in 1(A)(i).)\n\n(iii) Homely Basket deal is an important milestone in EcoNurture’s strategic outlay. A well-planned move to join hands together to achieve important strategic benefits. Identify the benefits from the scenario it brought to EcoNurture.",
+      "options": [
+        {
+          "label": "a",
+          "text": "It helped diversify their existing portfolio & kept the niche local players away"
+        },
+        {
+          "label": "b",
+          "text": "It helped achieve a better brand name & economies of scale"
+        },
+        {
+          "label": "c",
+          "text": "It helped to go global & surpass the niche local players which were flooding Indian market"
+        },
+        {
+          "label": "d",
+          "text": "It helped to increase prices with premiumization & gain customer confidence"
+        }
+      ],
+      "answer": "(c) It helped to go global & surpass the niche local players which were flooding Indian market",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "strategic alliance",
+        "globalisation"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1A-iv",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared EcoNurture Foods scenario given in 1(A)(i).",
+      "qno": "1(A)(iv)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared EcoNurture Foods case scenario set out in 1(A)(i).)\n\n(iv) Every strategic management decision has an inherent importance and so is the case with EcoNurture, as it took a good number of decisions for elongating its growth phase. Two long-term strategic themes do come out clearly from the business case. Identify and mark those from your reading of the scenario.",
+      "options": [
+        {
+          "label": "a",
+          "text": "Profitability & Sustainability"
+        },
+        {
+          "label": "b",
+          "text": "Customer Obsession & Organisational Restructuring"
+        },
+        {
+          "label": "c",
+          "text": "Globalisation & Product Diversification"
+        },
+        {
+          "label": "d",
+          "text": "Niche Products & Competitive Pressures"
+        }
+      ],
+      "answer": "(a) Profitability & Sustainability",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "strategic themes",
+        "sustainability",
+        "profitability"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1A-v",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared EcoNurture Foods scenario given in 1(A)(i).",
+      "qno": "1(A)(v)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared EcoNurture Foods case scenario set out in 1(A)(i).)\n\n(v) Investing in renewable-energy-powered delivery vehicles and partnering with a global logistics provider, the company reduced shipping costs and cut carbon emissions. It supported their core value that also resonates with its target market. What did they actually gain from this transition?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Meeting consumer demand for innovation and beating competition from established players"
+        },
+        {
+          "label": "b",
+          "text": "Creating barriers to new entry in the plant-based food industry"
+        },
+        {
+          "label": "c",
+          "text": "Focus on delivering mission statement in the long-term"
+        },
+        {
+          "label": "d",
+          "text": "Enhanced operational efficiency and brand’s long-term commitment to sustainability"
+        }
+      ],
+      "answer": "(d) Enhanced operational efficiency and brand’s long-term commitment to sustainability",
+      "mcq_answer": "d",
+      "topic_tags": [
+        "value chain",
+        "outbound logistics",
+        "operational efficiency"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1B-i",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Compulsory application based independent MCQ; ICAI prints no chapter heading.",
+      "qno": "1(B)(i)",
+      "kind": "mcq",
+      "marks": 2,
+      "question": "ABC is a marketing consultancy business. ABC’s most recent corporate analysis has identified that three new businesses have recently entered its market and started aggressively targeting ABC’s key client. As part of ABC’s corporate analysis, these three new businesses would be a –",
+      "options": [
+        {
+          "label": "a",
+          "text": "Strength"
+        },
+        {
+          "label": "b",
+          "text": "Opportunity"
+        },
+        {
+          "label": "c",
+          "text": "Weakness"
+        },
+        {
+          "label": "d",
+          "text": "Threat"
+        }
+      ],
+      "answer": "(d) Threat",
+      "mcq_answer": "d",
+      "topic_tags": [
+        "swot analysis",
+        "threat"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1B-ii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Compulsory application based independent MCQ; ICAI prints no chapter heading.",
+      "qno": "1(B)(ii)",
+      "kind": "mcq",
+      "marks": 2,
+      "question": "The Specialist Clothing Company (SCC) is a manufacturer of a wide range of clothing. Fashion is one of the five divisions of SCC. Fashion is operating in a market with high growth and is the market leader. By the next year, it is predicted to have 10% of the market share in a growing market. Fashion should be classified as which of the following according to the BCG matrix.",
+      "options": [
+        {
+          "label": "a",
+          "text": "Star"
+        },
+        {
+          "label": "b",
+          "text": "Dog"
+        },
+        {
+          "label": "c",
+          "text": "Cash cow"
+        },
+        {
+          "label": "d",
+          "text": "Question mark"
+        }
+      ],
+      "answer": "(a) Star",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "bcg matrix",
+        "star"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1B-iii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Compulsory application based independent MCQ; ICAI prints no chapter heading.",
+      "qno": "1(B)(iii)",
+      "kind": "mcq",
+      "marks": 1,
+      "question": "Urbankey has a unique capability in rapid prototyping, allowing them to bring new products to market faster than the competitors. Such an advantage can be termed as?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Market Expansion Strategy"
+        },
+        {
+          "label": "b",
+          "text": "Core Competency"
+        },
+        {
+          "label": "c",
+          "text": "Cost Leadership Strategy"
+        },
+        {
+          "label": "d",
+          "text": "Appropriate SWOT Analysis"
+        }
+      ],
+      "answer": "(b) Core Competency",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "core competency",
+        "capabilities"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1a",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Proactive and reactive strategic approaches -> Ch 1 (concept and nature of strategy).",
+      "qno": "1(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Ecro Ltd. is an e-commerce company that specializes in selling eco-friendly products. Although the company has been doing well, it still continues actively to strengthen its brand identity, launch creative and impactful marketing campaigns and introduce new and innovative eco-friendly products.\n\nHowever, the company has started facing increasing competition from large retailers who are entering the eco-friendly space. To face competition the company quickly started to adapt to the changing market conditions, analyse the competitors' strategies, adopt different styles of marketing in response to competitors’ action and counteract competitors' pricing strategies.\n\nDiscuss the strategic approaches taken by Ecro Ltd. in the two different situations to stay competitive. Explain the strategy that Ecro Ltd. should adopt in future to remain competitive and gain competitive advantage.",
+      "options": null,
+      "answer": "Ecro Ltd. employs both proactive and reactive strategic approaches to stay competitive in a dynamic market.\n\nInitially, the company was proactive in its approach by adopting the features of proactive strategies:\n\n- **Strengthening Brand Identity:** Proactively building a strong eco-friendly image to appeal to environmentally conscious consumers.\n- **Innovative Marketing Campaigns:** Crafting impactful and creative campaigns to enhance market visibility and differentiate its products.\n- **Product Innovation:** Consistently introducing new and innovative eco-friendly products to meet evolving customer demands and maintain a competitive edge.\n\nThese proactive strategies are deliberate, reflecting planned actions to improve market position and financial performance.\n\nHowever, when the company started facing competition from large retailers, it forced the company to quickly adapt to the changing market conditions by following the features of reactive strategies:\n\n- **Adapting to Market Changes:** Responding to the entry of large retailers in the eco-friendly segment by quickly adjusting strategies.\n- **Competitor Analysis:** Studying competitors’ strategies to counteract their actions effectively.\n- **Dynamic Marketing:** Implementing varied marketing techniques to respond to competitors’ campaigns.\n- **Pricing Adjustments:** Adopting counter-pricing strategies to remain competitive without compromising profitability.\n\nThese reactive strategies demonstrate Ecro Ltd.'s ability to adapt to unforeseen developments and changing market conditions.\n\nFuture Strategy for Competitive Advantage\n\nTo remain competitive and gain a sustainable edge, Ecro Ltd. should adopt a blended approach of proactive and reactive strategies:\n\n1. **Sustainable Differentiation:** Focus on continuous innovation and exclusive eco-friendly product lines to strengthen its unique position.\n2. **Customer-Centric Approach:** Use data analytics to understand consumer preferences and tailor offerings.\n3. **Operational Efficiency:** Optimize supply chain and reduce costs to balance affordability and quality.\n4. **Strategic Alliances:** Partner with eco-certification organizations to build credibility and trust.\n\nBy crafting a strategy that integrates planned proactive initiatives with adaptive responses, Ecro Ltd. can navigate uncertainty, tackle competition, and ensure long-term success.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "proactive strategy",
+        "reactive strategy",
+        "competitive advantage"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1b",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Change management strategy and best practices for digital transformation in small and medium-sized businesses -> Ch 5 (strategic change / digital transformation).",
+      "qno": "1(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "In addition to new market opportunities and change in customer preferences, as a known fact, technology is also changing very fast. In view of the same, 'Twaran', having a small and mid-sized business, wants to use latest digital technologies for improved procedures and products. The primary aim of the firm is to have a competitive edge in the evolving business landscape through digital transformation. The entity would like to deal with regular changes firmly, along with transforming its management techniques. Identify the strategy required for digital transformation. Also state the most preferred practices to be followed by the entity.",
+      "options": null,
+      "answer": "To enable successful digital transformation, the appropriate strategy for 'Twaran' is a Change Management Strategy. It is essential to effectively manage the organizational, procedural and cultural changes brought about by the adoption of new digital technologies.\n\nFollowing are the five best practices for managing change in small and medium-sized businesses:\n\n1. **Begin at the top:** Change should be initiated and driven by unified, focused leadership. A committed top management can create and promote a culture that inspires the organization to embrace change.\n2. **Ensure that the change is both necessary and desired:** Before initiating digital transformation, decision-makers must understand its necessity and long-term impact. Without a proper strategy, introducing too much change too quickly can be counterproductive.\n3. **Reduce disruption:** It is essential to minimize employee disruption during transformation. This can be done by:\n   - Communicating changes early.\n   - Equipping employees with tools and training.\n   - Empowering change agents like project managers.\n   - Involving IT teams proactively.\n   - Creating an environment conducive to change.\n4. **Encourage communication:** Promote open and continuous two-way communication. This ensures that employees feel heard and involved and that concerns are addressed timely. Effective communication also promotes innovation and collaboration across departments.\n5. **Recognize that change is the norm, not the exception:** Businesses must treat change as a continuous process, not a one-time project. Being change ready helps the organization to adapt, sustain performance and stay aligned with evolving customer expectations.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "digital transformation",
+        "change management"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q1c",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Best-cost provider strategy -> Ch 3 of the ICAI SM study material (competitive advantage / competitive strategies).",
+      "qno": "1(c)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "ARP Motors, an automobile company, was struggling in the competitive SUV market in India. As a business strategist, you recommended that ARP launch a compact SUV that balances affordability with premium features. In response, ARP developed and introduced FLEXON, strategically pricing it and incorporating high-end features such as a 5-star Global NCAP safety rating, a modern design and advanced technology. Furthermore, the company expanded into the electric vehicle segment with FLEXON EV, positioning it as one of the most affordable yet feature-rich electric SUVs in India. Which strategy did you recommend to ARP Motors to achieve a competitive advantage? Explain the strategy briefly and enumerate the keyways ARP Motors implemented it.",
+      "options": null,
+      "answer": "The strategy recommended to ARP Motors is the Best-Cost Provider Strategy.\n\nBest-cost provider strategy is directed towards giving customers more value for their money by emphasizing both low cost and premium features. The objective is to keep costs and prices lower than those of other sellers of comparable products while offering better quality and superior features.\n\nApplication in ARP Motors Case:\n\n- **Launch of FLEXON (Compact SUV):** ARP priced FLEXON strategically at an affordable level, while at the same time incorporating premium features such as a 5-star Global NCAP safety rating, advanced technology and a modern design. This reflects the approach of offering better quality at lower or comparable prices.\n- **Introduction of FLEXON EV:** By entering the electric vehicle market, ARP positioned FLEXON EV as one of the most affordable yet feature-rich electric SUVs in India. This aligns with the principle of charging lower prices for comparable products or offering higher quality for similar prices thereby giving customers more value for money.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "best-cost provider strategy",
+        "competitive advantage"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q2a",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Significance of vision and mission statements -> Ch 1 (strategic intent: vision, mission, goals).",
+      "qno": "2(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "“A well-defined vision and mission statement provide direction and purpose to an organization.\" Explain the significance of vision and mission statements in strategic planning.",
+      "options": null,
+      "answer": "Strategic Management is a dynamic process of formulation, implementation, evaluation and control of strategies to realise the organisation’s strategic intent. Strategic intent clarifies what the organisation wants to do and why it wants to do it, which forms the basis of vision and mission statements.\n\nA vision statement describes the organisation’s future aspirations and desired position while a mission statement explains its present business scope, purpose, goals and the means to achieve them. Together, they provide direction and purpose in strategic planning.\n\nSignificance of Vision in Strategic Planning:\n\n- Provides a blueprint of where the organisation wants to be.\n- Aligns organisational efforts on a chosen path.\n- Creates enthusiasm and mould’s identity.\n- Clarifies aspirations in products, markets, customers and technology.\n\nSignificance of Mission in Strategic Planning:\n\n- Explains the reason for the firm’s existence.\n- Ensures unanimity of purpose and efficient resource use.\n- Standard for allocation and goal translation.\n- Gives distinct identity and direction.\n- Reflects present activities and ensures legitimacy.\n\nThus, a well-defined vision and mission provide clarity of purpose, direction for growth and a framework for decision-making. Vision answers, “where we want to go,” and mission answers “what business we are in and why we exist.” Together, they form the philosophical base of strategy and guide the organisation toward long-term success.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "vision statement",
+        "mission statement",
+        "strategic intent"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q2b",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic group mapping of rival companies -> Ch 3, where the ICAI SM study material sets out the procedure for constructing a strategic group map.",
+      "qno": "2(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Recommend a tool to analyze the competitive position of various rival companies in the market and outline the step-by-step procedure for using the identified tool.",
+      "options": null,
+      "answer": "A tool to identify the market positions of rival companies by grouping them into like positions is Strategic Group Mapping. A strategic group consists of those rival firms which have similar competitive approaches and positions in the market.\n\nThe procedure for constructing a strategic group map and deciding which firms belong in which strategic group are as follows:\n\n1. Identify the competitive characteristics that differentiate firms in the industry typical variables that are price/quality range (high, medium, low); geographic coverage (local, regional, national, global); degree of vertical integration (none, partial, full); product-line breadth (wide, narrow); use of distribution channels (one, some, all); and degree of service offered (no-frills, limited, full).\n2. Plot the firms on a two-variable map using pairs of these differentiating characteristics.\n3. Assign firms that fall into about the same strategy space to the same strategic group.\n4. Draw circles around each strategic group making the circles proportional to the size of the group's respective share of total industry sales revenues.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic group mapping",
+        "competitor analysis"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q3a",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Factors in selecting the right strategic performance measures -> Ch 5 (strategic control and strategy evaluation).",
+      "qno": "3(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "An organization should select the right strategic performance measures that are aligned with its goals and objectives and provide relevant and actionable information. Explain all the factors and importance of these factors that need to be considered.",
+      "options": null,
+      "answer": "Strategic performance measures should be carefully selected so that they are aligned with organisational goals and provide relevant, reliable and actionable information. In selecting the right measures, organizations should consider the following factors:\n\n- **Relevance:** The measure should be relevant to the organization's goals and objectives and provide information that is actionable and meaningful.\n- **Data Availability:** The measure should be based on data that is readily available and can be collected and analyzed in a timely manner.\n- **Data Quality:** The measure should be based on high-quality data that is accurate and reliable.\n- **Data Timeliness:** The measure should be based on data that is current and up to date, enabling organizations to make informed decisions in a timely manner.\n\nThese factors are important because they provide a way for organizations to assess the success of their strategies, identify areas for improvement, and make informed decisions about how to allocate resources and adjust their strategies to achieve their desired outcomes. Effective strategic performance measures should be relevant, meaningful, and easy to understand and should be regularly reviewed and updated to ensure their continued alignment with the organization's goals and objectives.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic performance measures",
+        "strategic control"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q3b",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Innovation as a growth option, what it offers and the risks involved -> Ch 4 (expansion through innovation).",
+      "qno": "3(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Innovation is widely regarded as a catalyst for business growth, enabling firms to upgrade existing products and processes, enhance customer satisfaction, and improve profitability. In light of this statement, explain what an innovation offers to the organisation and any risk involved in doing so.",
+      "options": null,
+      "answer": "Innovation refers to the creation and implementation of new or significantly improved products, services, processes or business models. Innovation acts as a key driver of growth, competitiveness and long-term sustainability.\n\nInnovation refers to the upgradation of existing products, services or processes, which leads to higher market share, revenues, profitability and customer satisfaction. For long-term business growth, innovation plays a crucial strategic role.\n\nWhat Innovation Offers to an Organisation\n\n1. **Helps Solve Complex Problems:** Innovation enables businesses to identify opportunities in societal and business problems and develop customer-centric and sustainable solutions. Though initial costs may be high, innovation ensures long-term economic and environmental sustainability.\n2. **Increases Productivity:** Innovation simplifies and automates tasks, reduces manual effort and improves efficiency. Automation and digital tools enhance productivity at both process and organisational levels, creating a ripple effect across industries.\n3. **Gives Competitive Advantage:** Faster innovation helps firms move ahead of competitors. Innovative products offer greater customer satisfaction, require less marketing effort, help retain existing customers and attract new ones.\n\nRisks Involved in Innovation\n\n1. **High Cost and Financial Risk:** Innovation involves significant investment and returns may not be immediate or assured.\n2. **Uncertain Returns:** Some innovations may not deliver expected benefits, making them appear as unnecessary expenses in the short run.\n3. **Technological Uncertainty:** Rapid technological changes may make existing innovations obsolete.\n4. **Implementation Risk:** Poor execution or lack of organisational capability can lead to failure of innovative initiatives.\n\nThus, while innovation is a powerful driver of growth, productivity and competitive advantage, it also involves risks that must be carefully managed to achieve long-term sustainability and success.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "innovation",
+        "expansion",
+        "growth"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q4a",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Ansoff's Product Market Growth Matrix -> Ch 4 (strategic choices: expansion and diversification).",
+      "qno": "4(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Explain the 'product market growth matrix' as propagated by Igor Ansoff as a device for identifying growth opportunities for the future.",
+      "options": null,
+      "answer": "Ansoff’s Product Market Growth Matrix, developed by Igor Ansoff, is a strategic tool that helps businesses identify growth opportunities by analyzing the interplay between products and markets.\n\nIt offers four distinct strategies based on whether the products and markets exist or are new. These strategies are:\n\n1. **Market Penetration:** Focuses on selling existing products in existing markets. This involves increasing market share by enhancing sales through advertising, promotions, competitive pricing, or encouraging higher usage among current customers.\n2. **Market Development:** Entails selling existing products in new markets. This could involve exploring new geographical regions, utilizing alternative distribution channels, or creating new market segments.\n3. **Product Development:** Involves introducing new or modified products into existing markets. This strategy often requires innovation and developing products that meet current market needs.\n4. **Diversification:** Refers to marketing new products in new markets. It is a high-risk strategy as the business ventures into unfamiliar products and markets.\n\nAs market dynamics evolve, companies may transition between these strategies to adapt and sustain growth. The matrix provides a structured framework for businesses to align their growth strategies with their capabilities and market conditions.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "ansoff matrix",
+        "product market growth matrix"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q4b",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Experience curve -> Ch 2 of the ICAI SM study material (section 2.5.3, external environment analysis).",
+      "qno": "4(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Which concept explains the efficiency increase gained by workers through repetitive production work, leading to cost reduction and competitive advantage? List down its relevance features in strategic management.",
+      "options": null,
+      "answer": "The concept is Experience Curve. The experience curve, akin to a learning curve, explains the efficiency increase gained by workers through repetitive productive work. It is based on the phenomenon that unit costs decline as a firm accumulates experience in terms of a cumulative volume of production – the idea being, “we learn as we grow.”\n\nRelevant Features of Experience Curve in Strategic Management\n\n- As business organisations grow, they gain experience which enables cost efficiencies.\n- Experience may provide an advantage over competition as lower costs create a barrier for new entrants.\n- Experience is considered a key barrier to entry for new firms contemplating industry entry.\n- Large and successful organisations possess stronger experience effect, helping in leadership and cost advantage.\n\nThus, the experience curve is a critical concept in strategic management as it links growth with learning, cost reduction and competitive advantage, making it a strong determinant of industry positioning and entry barriers.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "experience curve",
+        "cost advantage",
+        "barriers to entry"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s2-q4b-or",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Porter's five forces - common barriers to entry for new entrants -> Ch 2 (industry and competitive analysis).",
+      "qno": "4(b) (OR)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "In light of the five forces as propagated by Michael Porter, explain the common barriers which may cause restraint for the keenness of new entrepreneurs.",
+      "options": null,
+      "answer": "In light of Michael Porter's Five Forces, new entrepreneurs often face significant barriers that restrain their keenness to enter an industry. These barriers increase the competitiveness of existing firms and discourage new entrants, impacting industry profitability.\n\nCommon barriers that may restrain new entrepreneurs include:\n\n(i) **Capital Requirements:** When a large amount of capital is required to enter an industry, firms lacking funds are effectively barred from the industry, thus enhancing the profitability of existing firms in the industry.\n\n(ii) **Economies of Scale:** Many industries are characterized by economic activities driven by economies of scale. Economies of scale refer to the decline in the per-unit cost of production (or other activity) as volume grows.\n\n(iii) **Product Differentiation:** Product differentiation refers to the physical or perceptual differences, or enhancements, that make a product special or unique in the eyes of customers.\n\n(iv) **Switching Costs:** To succeed in an industry, new entrant must be able to persuade existing customers of other companies to switch to its products. When such switching costs are high, buyers are often reluctant to change.\n\n(v) **Brand Identity:** The brand identity of products or services offered by existing firms can serve as another entry barrier. Brand identity is particularly important for infrequently purchased products that carry a high unit cost to the buyer.\n\n(vi) **Access to Distribution Channels:** The unavailability of distribution channels for new entrants poses another significant entry barrier. Despite the growing power of the internet, many firms may continue to rely on their control of physical distribution channels to sustain a barrier to entry to rivals.\n\n(vii) **Possibility of Aggressive Retaliation:** Sometimes the mere threat of aggressive retaliation by incumbents can deter entry by other firms into an existing industry.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "five forces",
+        "barriers to entry",
+        "new entrants"
+      ]
+    }
+  ]
+}

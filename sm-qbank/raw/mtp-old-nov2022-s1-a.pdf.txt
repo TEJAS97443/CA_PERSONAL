@@ -1,0 +1,396 @@
+                                                           Test Series: September, 2022
+                                 MOCK  TEST PAPER-I
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                                      Answers
+                         PART I: MULTIPLE CHOICE QUESTIONS
+1.  (b) Rounding down
+2.  (a) Receipt
+3.  (d) Operational Data
+4.  (a) Business – to – Consumer (B2C)
+5.  (b) (i) – (II), (ii) – (I), (iii) – (IV) (iv) – (III)
+6.  (a) Eliminate the risk
+7.  (c) The data used in the process can either be derived from internal systems or external data
+        sources and cannot be the blend of two.
+8.  (b) (i) – IV, (ii) – V, (iii) – III, (iv) – I, (v) – II
+9.  (b) A user can add money in the mobile wallet by using his Debit/Credit Card and e ntering the CVV
+        or 4-digit pin.
+10. (a) (i) – (I), (ii) – (II), (iii) – (II), (iv) – (I)
+                           PART II: DESCRIPTIVE QUESTIONS
+1.  (a) The back-end applications involved in key module of Core Banking System (CBS) are as follows:
+        •   Back Office: The Back Office is the portion of a company made up of administration and
+            support personnel, who are not client-facing. Back-office functions include settlements,
+            clearances, record maintenance, regulatory compliance, accounting and IT services. Back
+            Office professionals may also work in areas like monitoring employees' conversations and
+            making sure they are not trading forbidden securities on their own accounts.
+        •   Data Warehouse: Banking professionals use data warehouses to simplify and standardize
+            the way they gather data - and finally get to one clear version of the truth. Data warehouses
+            take care of the difficult data management - digesting large quantities of data and ensuring
+            accuracy - and make it easier for professionals to analyze data.
+        •   Credit-Card System: Credit card system provides customer management, credit card
+            management, account management, customer information management and general ledger
+            functions; provides the online transaction authorization and service of the bank card in each
+            transaction channel of the issuing bank; support in the payment application; and at the
+            same time, the system has a flexible parameter system, complex organization support
+            mechanism and product factory based design concept to speed up product time to market.
+        •   Automated Teller Machines (ATM): An Automated Teller Machine (ATM) is an electronic
+            banking outlet that allows customers to complete basic transactions without the aid of a
+
+            branch representative or teller. Anyone with a credit card or debit card can access most
+            ATMs. ATMs are convenient, allowing consumers to perform quick, self-serve transactions
+            from everyday banking like deposits and withdrawals to more complex transactions like bill
+            payments and transfers.
+    (b) The System Control Audit Review File (SCARF) technique involves embedding audit software
+        modules within a host application system to provide continuous monitoring of the system’s
+        transactions. The information collected is written onto a special audit file - the SCARF master
+        files. Auditors then examine the information contained on this file to see if some aspect of the
+        application system needs follow-up. In many ways, the SCARF technique is like the snapshot
+        technique along with other data collection capabilities.
+2.  (a) The risks and their corresponding controls that management of ABC Ltd. has to take care to
+        avoid the risks related to people are as follows:
+| Aspect Risk Associated | Control Required |
+| --- | --- |
+| Change Management Change will occur in the employee’s job profile in terms of some jobs becoming irrelevant and some new jobs created. | Proper training of the users with well documented manuals. Practical hands-on training of the ERP System should be provided so that the transition from old system to ERP system is smooth and hassle free. |
+| The way in which organization functions will change, the planning, forecasting and decision-making capabilities will improve, information integration happening etc. | It requires ensuring that a project charter or mission statement exists. The project requirements are to be properly documented and signed by the users and senior management. |
+| Changing the scope of the project is another problem. | This requires clear defining of change control procedures and holds everyone to them. |
+| Training Since the greater part of the training takes place towards the end of the ERP implementation cycle, management may curtail the training due to increase in the overall cost budget. | Training is a project-managed activity and shall be imparted to the users in an organization by the skilled consultants and representatives of the hardware and package vendors. |
+| Staff Turnover As the overall system is integrated and connected with each other department, it becomes complicated and difficult to understand. Employee turnover – qualified and skilled personnel leaving the company - during the implementation and transition phases can affect the schedules and result in delayed implementation and cost overrun. | This can be controlled and minimized by allocation of employees to tasks matching their skill-set; fixing of compensation package and other benefits accordingly- thus keeping the employees happy, contented and minimizing the staff turnover. |
+| Top Management ERP implementation will fail if | The ERP implementation shall be |
+| Support the top management does not provide the support and grant permission for the availability of the huge resources that are required during the transition. | started only after the top management is fully convinced and assure of providing the full support. |
+| Consultants These are experts in the implementation of the ERP | The consultants should be assigned a liaison officer - a senior |
+                           package  and might  not be manager – who  can familiarize
+                           familiar with  the  internal them with the company and its
+                           workings  and  organizational working.
+                           culture.
+    (b) The service model of Cloud Computing that has been implemented when Mr. Amit shared the
+        Google document is Software as a Service (SaaS). The Instances of SaaS are as follows:
+        Instance         Description
+| Testing as a | It provides users with software testing capabilities such as generation |
+| --- | --- |
+| Service (TaaS) | of test data, generation of test cases, execution of test cases and test result evaluation on a pay-per-use basis. |
+| API as a Service (APIaaS) | It allows users to explore functionality of Web services such as Google Maps, Payroll processing, and credit card processing services etc. |
+| Email as a | It provides users with an integrated system of emailing, office |
+| Service (EaaS) | automation, records management, migration, and integration services with archiving, spam blocking, malware protection, and compliance features. |
+3.  (a) The Database controls that may have been implemented under the Application Control
+        framework of information system are as follows:
+        •   Access Controls: These controls in database subsystem seek to prevent unauthorized
+            access to and use of the data. A security policy has to be specified followed by choosing an
+            access control mechanism that will enforce the policy chosen. If database is replicated, the
+            same access control rules must be enforced by access control mechanism at each site.
+        •   Integrity Controls: These are required to ensure that the accuracy, completeness, and
+            uniqueness of instances used within the data or conceptual modeling are maintained.
+            Integrity Constraints are established to specify the type of relationship and consistency
+            among rows (tuple) in relationship.
+        •   Application Software Controls: When application software acts as an interface to interact
+            between the user and the database, the DBMS depends on application software to pass
+            across a correct sequence of commands and update parameters so that appropriate actions
+            can be taken when certain types of exception condition arise. This is achieved through
+            Update Controls that ensure that changes to the database reflect changes to the real-world
+            entities and associations between entities that data in the database is supposed to
+            represent and Report Controls that identify errors or irregularities that may have occurred
+            when the database has been updated.
+        •   Concurrency Controls: These are required to address the situation that arises either due
+            to simultaneous access to the same database or due to deadlock.
+        •   Cryptographic Controls: These controls can be well used for protecting the integrity of
+            data stored in the database using block encryption.
+
+        •   File Handling Controls: These controls are used to prevent accidental destruction of data
+            contained on a storage medium. These are exercised by hardware, software, and the
+            operators or users who load/unload storage media.
+        •   Audit Trail Controls: The audit trail maintains the chronology of events that occur either to
+            the database definition or the database itself.
+            o   Accounting Audit Trail: This includes the data items to confirm whether an
+                application properly accepts, processes, and stores information, to attach a unique
+                time stamp to all transactions, to attach before-images and after-images of the data
+                item on which a transaction is applied to the audit trail, any modifications or corrections
+                to audit trail transactions accommodating the changes that occur within an application
+                system, and to not only test the stated input, calculation, and output rules for data
+                integrity; but also should assess the efficacy of the rules themselves.
+            o   Operations Audit Trail: This maintains a chronology of resource consumption events
+                that affects the database definition or the database.
+    (b) Various stakeholders of eXtensible Business Reporting Language (XBRL) are as follows:
+        (i) Regulators
+            •   Financial regulators that need significant amounts of complex performance and risk
+                information about the institutions that they regulate.
+            •   Securities regulators and stock exchanges that need to analyse the performance and
+                compliance of listed companies and securities and need to ensure that this information
+                is available to markets to consume and analyse.
+            •   Business registrars that need to receive and make available publicly a range of
+                corporate data about private and public companies, including annual financial
+                statements.
+            •   Tax authorities that need financial statements and other compliance information from
+                companies to process and review their corporate tax affairs.
+            •   Statistical and monetary policy authorities that need financial performance information
+                from many different organizations.
+        (ii) Companies
+| • | Companies that need to provide information to one or more of the regulators mentioned above. |
+| --- | --- |
+| • | Enterprises that need to accurately move information around within a complex group. |
+| • | Supply chains that need to exchange information to help manage risk and measure activity. |
+        (iii) Government
+            •   Government agencies that are simplifying the process of businesses reporting to
+                government and reducing red tape, by either harmonizing data definitions or
+                consolidating reporting obligations (or both).
+            •   Government agencies that are improving government reporting by standardizing the
+                way  that consolidated or transactional reports are prepared and used within
+                government agencies and/or published into the public domain.
+
+        (iv) Data Providers
+            •   Specialist data providers that use performance and risk information published into the
+                marketplace and create comparisons, ratings and other value-added information
+                products for other market participants.
+        (v) Analysts and Investors
+            •   Analysts that need to understand relative risk and performance.
+            •   Investors that need to compare potential investments and understand the underlying
+                performance of existing investments.
+        (vi) Accountants
+            •   Accountants use XBRL in support of clients reporting requirements and are often
+                involved in the preparation of XBRL reports.
+4.  (a) The constraints that should be considered to develop the security architecture of Grid Computing
+        are as follows:
+        •   Secured Single Sign-on: Most of the distributed computing systems use identity-based
+            username and password, authentication, and authorization control for accessing a
+            computing system. To access resources from different administrative domains having
+            different security mechanisms, the user needs to authenticate him/her to different domains.
+            This is a very irritating and time-consuming process. To resolve this issue, a mechanism
+            should be established in which a user authenticates once only (e.g., at the point of starting a
+            computation) and then are able to acquire resources, use them, and release them and to
+            communicate internally without any further authentication.
+        •   Resource Management: Grid resources are from different administrative domains that have
+            their own local resource managers, and a grid does not have full control of these resources.
+            Allocation of resources to co-users, prioritizing local jobs over system jobs, and managing
+            these resources without ownership is a big issue.
+        •   Data Management: The users’ data-intensive, high-performance computing applications in
+            grid computing require the efficient management and transfer of huge data. Providing
+            secure, efficient, and transparent access to distributed and heterogeneous pool of data is a
+            big issue in grid computing.
+        •   Management and Protection of Credentials: The different multiple systems involved in
+            grid computing require different credentials to access them. The credential management
+            and protection of users’ credentials such as passwords are big issues involved in grid
+            computing.
+        •   Interoperability with local security solutions: The grid security mechanism may provide
+            access to different domains with a single sign-on, the access to a local resource will
+            typically be determined by a local security policy at a local level. It is very difficult to modify
+            every local resource to accommodate inter-domain accesses. Hence, despite of modifying
+            every local resource there is an inter-domain security server for providing security to local
+            resource.
+        •   Standardization: Grid computing as a highly integrated system involves multi-purpose
+            protocols and interfaces to resolve the issues explained above. Standardizing these
+            protocols and interfaces is a big issue in grid computing.
+
+        •   Exportability: The code should be exportable i.e. they cannot use a large amount of
+            encryption at a time. There should be a minimum communication at a time.
+        •   Support for secure group communication: In a communication, there are number of
+            processes which coordinate their activities. This coordination must be secure and for this
+            there is no such security policy.
+        •   Support for multiple implementations: There should be a security policy which should
+            provide security to multiple sources based on public and private key cryptography.
+    (b) The steps involved in implementing Business Process Automation (BPA) are as follows:
+        Step 1: Define why we plan to go for a BPA.
+        Step 2: Understand the rules/regulation under which needs to comply with .
+        Step 3: Document the process, we wish to automate.
+        Step 4: Define the objectives/goals to be achieved implementing BPA.
+        Step 5: Engage the business process consultant.
+        Step 6: Calculate the RoI for project.
+        Step 7: Developing the BPA.
+        Step 8: Testing the BPA.
+5.  (a) The implementation of the controls that are required to be examined in computer system at
+        following various levels are as follows:
+        1.  Configuration: It refers to the way a software system is set up. Configuration is the
+            methodical process of defining options that are provided. When any software is installed,
+            values for various parameters should be set up (configured) as per policies and business
+            process workflow and business process rules of the enterprise. Configuration will define
+            how software will function and what menu options are displayed. The various modules of the
+            enterprise such as purchase, sales, inventory, finance, user access etc. must be configured.
+            Some examples of configuration are Mapping of accounts to front end transactions li ke
+            purchase and sales, control on parameters; creation of customer type, vendor type, year-
+            end process, user activation and deactivation, user access & privileges - configuration & its
+            management and password management.
+        2.  Masters: It refers to the way various parameters are set up for all modules of software, like
+            Purchase, Sales, Inventory, and Finance etc. These drives how the software will process
+            relevant transactions. The masters are set up first time during installation and th ese are
+            changed whenever the business process rules or parameters are changed. Examples are
+            vendor master, customer master, material master, accounts master, employee master etc.
+            Any changes to these data have to be authorized by appropriate personnel and these are
+            logged and captured in exception reports. The way masters are set up will drive the way
+            software will process transactions of that type. For example - the customer master will have
+            the credit limit of the customer. When an invoice is raised, the system will check against the
+            approved credit limit and if the amount invoiced is within the credit limit, the invoice will be
+            created if not the invoice will be put on “credit hold” till proper approvals are obtained.
+        3.  Transactions: It refers to the actual transactions entered through menus and functions in
+            the application software, through which all transactions for specific modules are initiated,
+            authorized or approved. For example: sales transactions, purchase transactions, stock
+            transfer transactions, journal entries and payment transactions.
+
+    (b) The various risk and their relevant controls involved in Credit Card processing of bank are as
+        follows:
+| S. Risks | Key Controls |
+| --- | --- |
+| No. |  |
+| 1. Credit Line setup is unauthorized and not in line with the bank’s policy. | The credit committee checks that the Financial Ratios, the Net-worth, the Risk factors and its corresponding mitigating factors, the Credit Line offered and the |
+|  | Credit amount etc. is in line with Credit Risk Policy and that the Client can be given the Credit Line. |
+| 2. Credit Line setup is unauthorized and not in line with the bank’s policy. | Access rights to authorize the credit limit in the credit card system should be restricted to authorized personnel. |
+| 3. Masters defined for the customer are not in accordance with the Pre- | Access rights to authorize the customer master in credit card system should be restricted to authorized personnel, SoD exist in credit card system such that |
+| Disbursement Certificate. | the system restricts the maker having checker rights to approve the facilities booked by self in the credit card system. |
+| 4. Credit Line setup can be breached. | Transaction cannot be made if the aggregate limit of out- standing amount exceeds the credit limit assigned to customer. |
+| 5. Inaccurate interest / charge being calculated in the Credit Card system. | Interest on fund-based credit cards and charges are automatically calculated in the credit card system as per the defined masters. |
+| 6. Inaccurate reconciliations performed. | Daily reconciliation for the balances received from credit card network with the transactions updated in the credit card system on card network level. |
+|  | OR |
+        (i) Cyber Crime also known as computer crime is a crime that involves use of a computer and a
+            network. Cybercrimes are defined as: ‘Offences that are committed against individuals or
+            groups of individuals with a criminal motive to intentionally harm the reputation of the victim
+            or cause physical or mental harm, or loss, to the victim directly or indirectly, using modern
+            telecommunication networks such as Internet (Chat rooms, emails, notice boards and
+            groups) and mobile phones.’
+        (ii) The Reserve Bank of India (RBI) was established on 1st April 1935 in accordance with the
+            provisions of the Reserve Bank of India Act, 1934. The basic functions of the Reserve Bank
+            are to regulate the issue of bank notes and keeping of reserves with a view to securing
+            monetary stability in India and generally to operate the currency and credit system of the
+            country to its advantage.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+         (1)     (2)    (3)     (4)    (5)
+         (b)     (c)    (d)     (d)    (a)
+    (B) (c)
+    (C) (a)
+    (D) (b)
+    (E) (d)
+    (F) (b)
+    (G) (b)
+2.  Currently Jynklo Ltd. is performing in the children gaming industry. But now its management has decided
+    to expand their business by starting a premium sports drink named JynX for athletes. As there are no
+    linkages in both products with respect to customer groups, customer functions, or the technologies being
+    used, so Jynklo Ltd. have opted Conglomerate diversification.
+    Jynklo Ltd. diversify in a business that is not related to their existing line of product and can be termed
+    as conglomerate diversification. In conglomerate diversification, the new businesses/ products are
+    disjointed from the existing businesses/products in every way; it is a unrelated diversification. In process/
+    technology/ function, there is no connection between the new products and the existing ones.
+    Conglomerate diversification has no common thread at all with the firm's present position.
+3.  (a) Competitive landscape is a business analysis which identifies competitors, either direct or indirect.
+        Competitive landscape is about identifying and understanding the competitors and at the same
+        time, it permits the comprehension of their vision, mission, core values, ni che market, strengths
+        and weaknesses.
+        Steps to understand the competitive landscape are:
+        (i) Identify the competitor: The first step to understand the competitive landscape is to identify
+            the competitors in the firm’s industry and have actual data about t heir respective market
+            share.
+        (ii) Understand the competitors: Once the competitors have been identified, the strategist can
+            use market research report, internet, newspapers, social media, industry reports, and various
+            other sources to understand the products and services offered by them in different markets.
+        (iii) Determine the strengths of the competitors: What are the strength of the competitors?
+            What do they do well? Do they offer great products? Do they utilize marketing in a way that
+            comparatively reaches out to more consumers? Why do customers give them their business?
+        (iv) Determine the weaknesses of the competitors: Weaknesses (and strengths) can be
+            identified by going through consumer reports and reviews appearing in various media. After
+            all, consumers are often willing to give their opinions, especially when the products or services
+            are either great or very poor.
+        (v) Put all of the information together: At this stage, the strategist should put together all
+            information about competitors and draw inference about what they are not offering and what
+
+            the firm can do to fill in the gaps. The strategist can also know the areas which need to be
+            strengthen by the firm.
+    (b) The strategy formulation and strategy implementation are intertwined and linked with each other.
+        Two types of linkages exist between these two phases of strategic management. The forward
+        linkages deal with the impact of strategy formulation on strategy implementation while the
+        backward linkages are concerned with the impact in the opposite direction.
+        In the given situation Ms. Suman has to follow Backward Linkages as she had to change her
+        strategy basis the actual resources she had. While dealing with strategic choice, remember that
+        past strategic actions also determine the choice of strategy. Organizations tend to adopt those
+        strategies which can be implemented with the help of the present structure of resources combined
+        with some additional efforts. Such incremental changes, over a period of time, take the organization
+        from where it is to where it wishes to be.
+4.  (a) Implementation or execution is an operations-oriented, activity aimed at shaping the
+        performance of core business activities in a strategy-supportive manner. In most situations,
+        strategy-execution process includes the following principal aspects:
+           Developing budgets that steer ample resources into those activities that are critical to
+            strategic success.
+           Staffing the organization with the needed skills and expertise, consciously building and
+            strengthening strategy-supportive competencies and competitive capabilities and organizing
+            the work effort.
+           Ensuring that policies and operating procedures facilitate rather than impede effective
+            execution.
+           Using the best-known practices to perform core business activities and pushing for
+            continuous improvement.
+           Installing information and operating systems that enable company personnel to better
+            carry out their strategic roles day in and day out.
+           Motivating people to pursue the target objectives energetically.
+           Creating culture and climate conducive to successful strategy implementation and
+            execution.
+           Exerting the internal leadership needed to drive implementation forward and keep
+            improving strategy execution.
+    (b) Differentiation strategy is aimed at broad mass market and involves the creation of a product or
+        service that is perceived by the customers as unique. The uniqueness can be associated with
+        product design, brand image, features, technology, dealer network or customer service. Because
+        of differentiation, the business can charge a premium for its product.
+        Differentiation strategy should be pursued only after a careful study of buyers’ needs and
+        preferences to determine the feasibility of incorporating one or more differentiating features into a
+        unique product that features the desired attributes.
+        To achieve differentiation, following measures can be adopted by an organization:
+        1.  Offer utility for the customers and match the products with their tastes and preferences.
+        2.  Elevate the performance of the product.
+        3.  Offer the promise of high quality product/service for buyer satisfaction.
+        4.  Rapid product innovation.
+        5.  Taking steps for enhancing image and its brand value.
+
+        6.  Fixing product prices based on the unique features of the product and buying capacity of the
+            customer.
+5.  (a) The term ‘strategic management’ refers to the managerial process of developing a strategic
+        vision, setting objectives, crafting a strategy, implementing and evaluating the strategy, and
+        initiating corrective adjustments where deemed appropriate.
+        The presence of strategic management cannot counter all hindrances and always achieve success
+        as there are limitations attached to strategic management. These can be explained in the following
+        lines:
+           Environment is highly complex and turbulent. It is difficult to understand the complex
+            environment and exactly pinpoint how it will shape-up in future. The organisational estimate
+            about its future shape may awfully go wrong and jeopardise all strategic plans. The
+            environment affects as the organisationhas to deal with suppliers, customers, governments
+            and other external factors.
+           Strategic Management is a time-consuming process. Organisations spend a lot of time in
+            preparing, communicating the strategies that may impede daily operations and negatively
+            impact the routine business.
+           Strategic Management is a costly process. Strategic management adds a lot of expenses
+            to an organization. Expert strategic planners need to be engaged, efforts are made for
+            analysis of external and internal environments devise strategies and properly implement.
+            These can be really costly for organisations with limited resources particularly when small
+            and medium organisation create strategies to compete.
+           Competition is unpredictable. In a competitive scenario, where all organisations are trying
+            to move strategically, it is difficult to clearly estimate the competitive responses to the
+            strategies.
+    (b) In general, marketing is an activity performed by business organizations. In the present day for
+        business, it is considered to be the activities related to identifying the needs of customers and
+        taking such actions to satisfy them in return of some consideration. The term marketing constitutes
+        different processes, functions, exchanges and activities that create perceived value by satisfying
+        needs of individuals.
+        Social marketing and service marketing are marketing strategies primarily with different
+        orientations. Social Marketing refers to the design, implementation, and control of programs
+        seeking to increase the acceptability of a social ideas, cause, or practice among a target group.
+        For instance, the publicity campaign for prohibition of smoking or encouraging girl child, etc.
+6.  (a) Difference between transformational and transactional leadership
+        1.  Transformational leadership style uses charisma and enthusiasm to inspire people to exert
+            them for the good of organization. Transactional leadership style uses the authority of its
+            offices to exchange rewards such as pay, status, etc.
+        2.  Transformational leadership style may be appropriate in turbulent environment, in industries
+            at the very start or end of their cycles, poorly performing organisations, when there is a need
+            to inspire a company to embrace major changes. Transactional leadership style can be
+            appropriate in settled environment, in growing or mature industries and in organisations that
+            are performing well.
+        3.  Transformational leaders inspire employees by offering the excitement, vision, intellectual
+            stimulation and personal satisfaction. Transactional leaders prefer a more formalized
+            approach to motivation, setting clear goals with explicit rewards or penalties for achievement
+            and non-achievement. Transactional leaders focus mainly to build on existing culture and
+            enhance current practices.
+
+    (b) Strategic evaluation involves measuring and evaluating performance. The goals achieved are
+        compared with the desired goals to identify deviations and make necessary adjustments in
+        strategies or in the efforts being put to achieve those strategies.
+        Reasons why strategy evaluation is more difficult today include the following trends:
+           A dramatic increase in the environment’s complexity.
+           The increasing difficulty of predicting the future with accuracy.
+           The increasing number of variables in the environment.
+           The rapid rate of obsolescence of even the best plans.
+           The increase in the number of both domestic and world events affecting organizations.
+           The decreasing time span for which planning can be done with any degree of certainty.

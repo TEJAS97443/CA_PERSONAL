@@ -1,0 +1,344 @@
+                                                         Test Series: November, 2021
+                                MOCK  TEST PAPER-II
+                          INTERMEDIATE  (NEW): GROUP   – II
+    PAPER – 7: ENTERPRISE  INFORMATION   SYSTEMS  AND  STRATEGIC  MANAGEMENT
+                     SECTION  – A: Enterprise Information Systems
+                                      Answers
+                           Part I: Multiple Choice Questions
+1.  (d) Operational risk
+2.  (b) Salami Technique
+3.  (c) Section 66
+4.  (b) Role-based access controls
+5.  (b) Foreign Trade (Development and Regulation) Act, 1992
+6.  (b) Infrastructure as a Service (IaaS)
+7.  (a) Vulnerability
+8.  (c) Salary of inspection manager
+9.  (a) Spoofing
+10. (b) Database Server
+                              Part II: Descriptive Questions
+1.  (a) The three layers of an Application Software are as follows:
+        •   The Application Layer: It receives the inputs from the users and performs certain
+            validations like, if the user is authorized to request the transaction.
+        •   The Operating System Layer: This layer carries these instructions and processes them
+            using the data stored in the database and returns the results to the application layer.
+        •   The Database Layer: It stores the data in a certain form. For a transaction to be completed,
+            all the three layers need to be invoked. Most application software is built on this model
+            these days.
+    (b) Automated Teller Machines (ATM) Channel Server: This server contains the details of ATM
+        account holders. Soon after the facility of using the ATM is created by the Bank, the details of
+        such customers are loaded on to the ATM server. When the Central Database is busy with
+        central end-of- day activities or for any other reason, the file containing the account balance of
+        the customer is sent to the ATM switch. Such a file is called Positive Balance File (PBF). This
+        ensures not only continuity of ATM operations but also ensures that the Central database is
+        always up-to-date. The above process is applicable to stand alone ATMs at the Branch level. As
+        most of the ATMs are attached to the central network, the only control is through ATM Switch.
+2.  (a) The various technological risks and controls while implementing ERP are as follows:
+| Aspect Risk Associated | Control Required |
+| --- | --- |
+| Software ERP systems offer a myriad of | Care should be taken to incorporate the |
+| Functionality features and functions, however, not all organizations require those many features. Implementing all the functionality and features just for the sake of it can be disastrous for an organization. | features that are required by the organization and supporting additional features and functionality that might be required at a future date. |
+| Technological With the advent of more efficient | This requires critical choice of technology, |
+| Obsolescence technologies every day, the ERP system also becomes obsolete as time goes on. | architecture of the product, ease of enhancements, ease of upgrading, quality of vendor support. |
+| Enhancement ERP Systems are not upgraded and Upgrades and kept up-to-date. Patches and upgrades are not installed and the tools are underutilised. | Care must be taken while selecting the vendor and upgrade/support contracts should be signed to minimize the risks. |
+| Application These processes focus on the | By bringing to the light the sheer number of |
+| Portfolio selection of new business | applications in the current portfolio, IT |
+| Management applications and the projects required in delivering them. | organizations can begin to reduce duplication and complexity. |
+    (b) The other service models apart from IaaS, SaaS and PaaS of Cloud Computing are as follows:
+        •   Communication as a Service (CaaS): It is an outsourced enterprise communication
+            solution that can be leased from a single vender. The CaaS vendor is responsible for all
+            hardware and software management and offers guaranteed Quality of Service (QoS). It
+            allows businesses to selectively deploy communication devices and modes on a pay-as-
+            you-go, as-needed basis. This approach eliminates the large capital investments. Examples
+            are: Voice over IP (VolP), Instant Messaging (IM), Collaboration and Videoconferencing
+            application using fixed and mobile devices.
+        •   Data as a Service (DaaS): It provides data on demand to a diverse set of users, systems or
+            application. The data may include text, images, sounds, and videos. Data encryption and
+            operating system authentication are commonly provided for security. DaaS users have
+            access to high-quality data in a centralized place and pay by volume or data type, as
+            needed. However, as the data is owned by the providers, users can only perform read
+            operations on the data. DaaS is highly used in geography data services and financial data
+            services.
+        •   Security as a Service (SECaaS): It is an ability given to the end user to access the security
+            service provided by the service provider on a pay-per-use basis. It is a new approach to
+            security in which cloud security is moved into the cloud itself whereby cloud service users
+            will be protected from within the cloud using a unified approach to threats.
+        •   Identity as a Service (IDaaS): It is an ability given to the end users; typically, an
+            organization or enterprise; to access the authentication infrastructure that is built, hosted,
+            managed, and provided by the third-party service provider. Generally, IDaaS includes
+            directory services, authentication services, risk and event monitoring, single sign-on
+            services, and identity and profile management.
+3.  (a) The detailed concern that auditors should address on various activities involved in Programming
+        Management Control are as follows:
+        •   Planning: Auditors should evaluate whether nature of and extent of planning are
+            appropriate to different types of software that are developed or acquired. They must
+            evaluate how well the planning work is being undertaken.
+        •   Control: They must evaluate whether the nature of an extent of control activities undertaken
+            are appropriate for the different types of software that are developed or acquired. They must
+            gather evidence on whether the control procedures are operating reliably. For example -
+
+            they might first choose a sample if past and current software development and acquisition
+            projects carried out at different locations in the organization they are auditing.
+        •   Design: Auditors should find out whether programmers use some type of systematic
+            approach to design. Auditors can obtain evidence of the design practices used by
+            undertaking interviews, observations, and reviews of documentation.
+        •   Coding: Auditors should seek evidence –
+               On the level of care exercised by programming management in choosing a module
+                implementation and integration strategy.
+               To determine whether programming management ensures that programmers follow
+                structured programming conventions.
+               To check whether programmers employ automated facilities to assist them with their
+                coding work.
+        •   Testing: Auditors can use interviews, observations, and examination of documentation to
+            evaluate how well unit testing is conducted. Auditors are most likely concerned primarily
+            with the quality of integration testing work carried out by information systems professionals
+            rather than end users. Auditors primary concern is to see that whole-of-program tests have
+            been undertaken for all material programs and that these tests have been well-designed
+            and executed.
+        •   Operation and Maintenance: Auditors need to ensure effectively and timely reporting of
+            maintenance needs that occur so that maintenance is carried out in a well-controlled
+            manner. Auditors should ensure that management has implemented a review system and
+            assigned responsibility for monitoring the status of operational programs.
+    (b) Information Security is comprised of the following sub-processes:
+        •   Information Security Policies, Procedures and practices: This refers to the processes
+            relating to approval and implementation of information security. The security policy is basis
+            on which detailed procedures and practices are developed and implemented at various
+            units/department and layers of technology, as relevant. These cover all key areas of
+            securing information at various layers of information processing and ensure that information
+            is made available safely and securely. For example – Non-disclosure agreement with
+            employees, vendors etc., KYC procedures for security.
+        •   User Security Administration: This refers to security for various users of information systems.
+            The security administration policy documents define how users are created and granted access
+            as per organization structure and access matrix. It also covers the complete administration of
+            users right from creation to disabling of users is defined as part of security policy.
+        •   Application Security: This refers to how security is implemented at various aspects of
+            application right from configuration, setting of parameters and security for transactions through
+            various application controls. For example – Event Logging.
+        •   Database Security: This refers to various aspects of implementing security for the database
+            software. For example - Role based access privileges given to employees.
+        •   Operating System Security: This refers to security for operating system software which is
+            installed in the servers and systems which are connected to the servers.
+
+        •   Network Security: This refers to how security is provided at various layers of network and
+            connectivity to the servers. For example - Use of virtual private networks for employees,
+            implementation of firewalls etc.
+        •   Physical Security: This refers to security implemented through physical access controls. For
+            example - Disabling the USB ports.
+4.  (a) Risk is any event that may result in a significant deviation from a planned objective resulting in an
+        unwanted negative consequence. In other words, Risk can be defined as the potential harm
+        caused if a threat exploits a particular vulnerability to cause damage to an asset.
+        The Risk Management Strategies are as follows:
+        ♦   Tolerate/Accept the risk. One of the primary functions of management is managing risk.
+            Some risks may be considered minor because their impact and probability of occurrence is
+            low. In this case, consciously accepting the risk as a cost of doing business is appropriate.
+            The risks should be reviewed periodically to ensure that their impact remains low.
+        ♦   Terminate/Eliminate the risk. It is possible for a risk to be associated with the use of a
+            technology, supplier, or vendor. The risk can be eliminated by replacing the technology with
+            more robust products and by seeking more capable suppliers and vendors.
+        ♦   Transfer/Share the risk. Risk mitigation approaches can be shared with trading partners
+            and suppliers. A good example is outsourcing infrastructure management. In such a case,
+            the supplier mitigates the risks associated with managing the IT infrastructure by being
+            more capable and having access to more highly skilled staff than the primary organization.
+            Risk also may be mitigated by transferring the cost of realized risk to an insurance provider.
+        ♦   Treat/mitigate the risk. Where other options have been eliminated, suitable controls must
+            be devised and implemented to prevent the risk from manifesting itself or to minimize its
+            effects.
+        ♦   Turn back. Where the probability or impact of the risk is very low, then management may
+            decide to ignore the risk.
+    (b) Few examples of the controls of Segregation of Duties (SoD) are as follows:
+        ♦   Transaction Authorization: Information systems can be programmed or configured to
+            require two (or more) persons to approve certain transactions. This can be seen in retail
+            establishments where a manager is required to approve a large transaction or a refund. In
+            IT applications, transactions meeting certain criteria (for example, exceeding normally
+            accepted limits or conditions) may require a manager’s approval to be able to proceed.
+        ♦   Split custody of high-value assets: Assets of high importance or value can be protected
+            using various means of split custody. For example, a password to an encryption key that
+            protects a highly-valued asset or sensitive data can be split in two halves, one half assigned
+            to two persons, and the other half assigned to two persons, so that no single individual
+            knows the entire password. Banks do this for central vaults, where a vault combination is
+            split into two or more pieces so that two or more are required to open it.
+        ♦   Workflow: Applications that are workflow-enabled can use a second (or third) level of
+            approval before certain high-value or high-sensitivity activities can take place. For example,
+            a workflow application that is used to provision user accounts can include extra
+            management approval steps in requests for administrative privileges.
+        ♦   Periodic reviews: IT or internal audit personnel can periodically review user access rights
+            to identify whether any segregation of duties issues exist. Care should also be taken to
+
+            ensure that the access privileges are reviewed and updated with the changing job roles. The
+            access privileges for each worker can be compared against a segregation of duties control
+            matrix.
+5.  (a) The different steps involved in any e-commerce transaction are as follows:
+       i.   Customers’ login: Few e-commerce merchants may allow same transactions to be done
+            through phone, but the basic information flow is e-mode.
+       ii.  Product / Service Selection: Customer selects products / services from available options.
+       iii. Customer Places Order: Order is placed for selected product / service by customer. This step
+            leads to next important activity Payment Gateway.
+      iv.   Payment Gateway: The customer selects the payment method. In case payment method is
+            other than Cash on Delivery (COD), the merchant gets the update from payment gateway about
+            payment realisation from customer. In case of COD, e-commerce vendor may do an additional
+            check to validate customer.
+       v.   Dispatch and Shipping Process: This process may be executed at two different ends. First if
+            product/service inventory is managed by e-commerce vendor, then dispatch shall be initiated at
+            merchant warehouse. Second, many e-commerce merchants allow third party vendors to sale
+            through merchant websites.
+      vi.   Delivery Tracking: Another key element denoting success of e-commerce business is timely
+            delivery. Merchants keep a track of this. All merchants have provided their delivery staff with
+            hand-held devices, where the product / service delivery to customers is immediately updated.
+      vii.  COD  tracking: In case products are sold on COD payment mode, merchants need to have
+            additional check on matching delivery with payments.
+    (b) The different categories of various Business Processes depending on type of industry and nature
+        of work are as follows:
+        I.  Operational Processes (or Primary Processes) deal with the core business and value
+            chain. These processes deliver value to the customer by helping to produce a product or
+            service. Operational processes represent essential business activities that accomplish
+            business objectives e.g. purchasing, manufacturing, and sales. Also, Order to Cash cycle
+            (O2C) and Purchase to Pay (P2P) cycles are associated with revenue generation.
+        II. Supporting Processes (or Secondary Processes) back core processes and functions
+            within an organization. Examples of supporting or management processes include
+            Accounting, Human Resource (HR) Management and  workplace safety. One key
+            differentiator between operational and support processes is that support processes do not
+            provide value to customers directly. However, it should be noted that hiring the right people
+            for the right job has a direct impact on the efficiency of the enterprise.
+        III. Management Processes measure, monitor and control activities related to business
+            procedures and systems. Examples of management  processes include internal
+            communications, governance, strategic planning, budgeting, and infrastructure or capacity
+            management. Like supporting processes, management processes do not provide value
+            directly to the customers. However, it has a direct impact on the efficiency of the enterprise.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+        (1)     (2)    (3)     (4)    (5)
+        (c)     (c)    (d)     (b)    (a)
+    (B) (c)
+    (C) (c)
+    (D) (a)
+    (E) (a)
+    (F) (b)
+    (G) (b)
+    (H) (c)
+2.   According to Porter, the three different business strategies are: cost leadership, differentiation, and
+     focus. Porter called these base generic strategies.
+     The information about competitor activities indicates that the market is uninterested in low-cost
+     items, so a cost leadership approach is unlikely to be successful for BHAVNAV. It is suggested to
+     adopt a differentiation strategy and find some way of enabling its laptops to stand out from its rivals.
+     Differentiation strategy is aimed at broad mass market and involves the creation of a product or
+     service that is perceived by the customers as unique. The uniqueness can be associated with
+     product design, brand image, features, technology, dealer network or customer service.
+3.  (a) Decision making is a managerial process of selecting the best course of action out of several
+        alternative courses for the purpose of accomplishment of the organizational goals. Decisions may
+        be operational, i.e., which relate to general day-to-day operations. They may also be strategic in
+        nature.
+        As owner manager at the top level in the company, Shri Alok Kumar should concentrate on
+        strategic decisions. These are higher level decisions having organisation wide implications. The
+        major dimensions of strategic decisions are as follows:
+        ♦   Strategic decisions require top-management involvement as they involve thinking in totality
+            of the organization.
+        ♦   Strategic decisions involve significant commitment of organisational resources.
+        ♦   Strategic decisions necessitate consideration of factors in the firm’s external environment.
+        ♦   Strategic decisions are likely to have a significant impact on the long-term prosperity of the
+            firm.
+        ♦   Strategic decisions are future oriented.
+        ♦   Strategic decisions usually have major multifunctional or multi-business consequences.
+    (b) A strategic alliance is a relationship between two or more businesses that enables each to
+        achieve certain strategic objectives which neither would be able to achieve on its own. The
+        strategic partners maintain their status as independent and separate entities, share the benefits
+        and control over the partnership, and continue to make contributions to the alliance until it is
+
+        terminated. The advantages of strategic alliance can be broadly categorised as follows:
+        (a) Organizational: Strategic alliance helps to learn necessary skills and obtain certain
+            capabilities from strategic partners. Strategic partners may also help to enhance productive
+            capacity, provide a distribution system, or extend supply chain.
+        (b) Economic: There can be reduction in costs and risks by distributing them across the
+            members of the alliance. Greater economies of scale can be obtained in an alliance, as
+            production volume can increase, causing the cost per unit to decline.
+        (c) Strategic: Rivals can join together to cooperate instead of compete. Strategic alliances may
+            also be useful to create a competitive advantage by the pooling of resources and skills. This
+            may also help with future business opportunities and the development of new products and
+            technologies. Strategic alliances may also be used to get access to new technologies or to
+            pursue joint research and development.
+        (d) Political: Sometimes strategic alliances are formed with a local foreign business to gain
+            entry into a foreign market either because of local prejudices or legal barriers to entry.
+4.  (a) Multi divisional structure is composed of operating divisions where each division represents a
+        separate business to which the top corporate officer delegates responsibility for day-to-day
+        operations and business unit strategy to division managers. Multi divisional structure was
+        developed in the 1920, in response to coordination and control related problems in large firms
+        where functional departments often had difficulty dealing with distinct product lines and Markets.
+    (b) Human resource management has been accepted as a strategic partner in the formulation of
+        organization’s strategies and in the implementation of such strategies through human resource
+        planning, employment, training, appraisal and reward systems. The following points should be
+        kept in mind as they can have a strong influence on employee competence:
+        i.  Recruitment and selection: The workforce will be more competent if a firm can
+            successfully identify, attract, and select highly competent applicants.
+        ii. Training: The workforce will be more competent if employees are well trained to perform
+            their jobs properly.
+        iii. Appraisal of performance: The performance appraisal is to identify any performance
+            deficiencies experienced by employees due to lack of competence. Such deficiencies, once
+            identified, can often be solved through counselling, coaching or training.
+        iv. Compensation: A firm can usually increase the competency of its workforce by offering
+            pay, benefits and rewards that are not only attractive than those of their competitors but
+            also recognizes merit.
+5.  (a) Mr. Dutta should adopt business process reengineering (BPR). It is an approach to unusual
+        improvement in operating effectiveness through the redesigning of critical business processes
+        and supporting business systems. It is revolutionary redesign of key business processes that
+        involves examination of the basic process itself. BPR refers to the analysis and redesign of
+        workflows and processes both within the organization and between the organization and the
+        external entities like suppliers, distributors, and service providers.
+        The orientation of redesigning efforts involves total deconstruction and rethinking of business
+        process BPR involves the following steps:
+        i.  Determining objectives: Objectives are the desired end results of the redesign process.
+            They will provide the required focus, direction, and motivation for the redesign process and
+            help in building a comprehensive foundation for the reengineering process.
+        ii. Identify customers and determine their needs: The process designers have to
+            understand customers. The purpose is to redesign business process that clearly provides
+            value addition to the customer.
+
+        iii. Study the existing processes: The study of existing processes will provide an important
+            base for the process designers. The purpose is to gain an understanding of the ‘what’, and
+            ‘why’ of the targeted process.
+        iv. Formulate a redesign process plan: Formulation of redesign plan is the real crux of the
+            reengineering efforts. Customer focussed redesign concepts are identified and formulated.
+            In this step alternative processes are considered, and the best is selected.
+        v.  Implement the redesigned process: It is easier to formulate new process than to
+            implement them. Implementation of the redesigned process and application of other
+            knowledge gained from the previous steps is key to achieve dramatic improvements.
+    (b) Strategic management involves developing the company’s vision, environmental scanning,
+        strategy formulation, implementation, evaluation and control. It emphasises the monitoring and
+        evaluation of external opportunities and threats in the light of a company’s strengths and
+        weaknesses and designing strategies for the survival and growth. It helps in creation of
+        competitive advantage to outperform the competitors and also guide the company successfully
+        through all changes in the environment.
+        The major benefits of strategic management are:
+        ♦   Strategic management gives a direction to the company to move ahead. It defines the goals
+            and mission.
+        ♦   It helps organisations to be proactive instead of reactive in shaping its future.
+        ♦   It provides frameworks for all major decisions of an enterprise such as decisions on
+            businesses, products, markets, manufacturing facilities, investments and organisational
+            structure. It provides better guidance to entire organisation on the crucial point - what it is
+            trying to do.
+        ♦   It helps organisations to identify the available opportunities and identify ways and means to
+            achieve them.
+        ♦   It serves as a corporate defence mechanism against mistakes and pitfalls.
+        ♦   It helps to enhance the longevity of the business.
+        ♦   It helps the organisation to develop certain core competencies and competitive advantages
+            that would facilitate survival and growth.
+6.  (a)
+| Divestment Strategy | Liquidation Strategy |
+| --- | --- |
+| Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit center or SBU. | It involves closing down a firm and selling its assets. |
+| Divestment is usually a part of rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful. Option of a turnaround may even be ignored if it is obvious that divestment is the only answer. | Liquidation becomes only option in case of severe and critical conditions where either turnaround and divestment are not seen as solution or have been attempted but failed. |
+| Efforts are made for the survival of organization. | Liquidation as a form of retrenchment strategy is considered as the most extreme and unattractive. |
+| Survival of organization helps in retaining personnel, at least to some extent. | There is loss of employment with stigma of failure. |
+    (b) Supply chain management is an extension of logistic management. However, there are
+        differences between the two. Logistical activities typically include management of inbound and
+        outbound goods, transportation, warehousing, handling of material, fulfillment of orders, inventory
+        management and supply/demand planning. Although these activities also form part of supply
+        chain management, the latter is much broader. Logistic management can be termed as one of its
+        parts that is related to planning, implementing, and controlling the movement and storage of
+        goods, services and related information between the point of origin and the point of consumption.
+        Supply chain management is an integrating function of all the major business activities and
+        business processes within and across organisations. Supply Chain Management is a systems
+        view of the linkages in the chain consisting of different channel partners – suppliers,
+        intermediaries, third-party service providers and customers. Different elements in the chain work
+        together in a collaborative and coordinated manner. Often it is used as a tool of business
+        transformation and involves delivering the right product at the right time to the right place and at
+        the right price.

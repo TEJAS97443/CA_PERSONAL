@@ -1,0 +1,369 @@
+---
+id: sm.impl.digital
+title: Strategic change and digital transformation
+minutes: 24
+needs: sm.impl.matrix
+tags: strategic change, Kurt Lewin, unfreezing, refreezing, Kellman, digital transformation, change management, change readiness
+labs:
+summary: Why strategy needs change, the three steps to initiate it, Lewin's unfreeze-change-refreeze with Kellman's three methods, and how change management carries a digital transformation: four elements, five best practices, five pointers.
+---
+
+## In plain words
+
+### Tapri OS meets the paper register
+
+Tapri's 300 kulhad cafés have always run on a paper register: stock in, stock out, a pencil behind the manager's ear. This year Tapri builds **Tapri OS**, one app for ordering, stock, staff rosters and the delivery partners.
+
+> **Kesar:** Monday ko saare cafés live. Simple.
+> **Ananya:** On Monday you will have 300 managers who are scared, a helpline that melts, and registers hidden in every drawer.
+> **Dev:** And an app that cost ₹6 crore, used as a very expensive calculator.
+
+Ananya is talking about **strategic change**: when the environment shifts, a firm must change its strategy and its ways of doing business, and people do not change because a memo says so. Change has to be managed.
+
+The classic model comes from **Kurt Lewin**, in three phases. First **unfreeze**: make people see why the old way must go, so the change is not a surprise. Then **change**: build the new behaviour, through rewards and penalties, role models, or people genuinely adopting the new way. Then **refreeze**: make the new behaviour the normal way of life, so nobody slides back to the register.
+
+Using digital technology to create new or improved procedures, products or services is **digital transformation**, and the discipline that plans, prepares for and carries out such changes is **change management**. Without it, digital transformation efforts are more likely to fail.
+
+::: analogy The kulfi mould
+To change the shape of a kulfi you melt it (unfreeze), pour it into the new mould (change) and put it back in the freezer (refreeze). Pour without melting and nothing changes shape. Skip the freezer and it slides back into a puddle. And next summer, when you want a new shape again, the cycle starts over.
+:::
+
+::: key
+Strategy changes only when behaviour changes. Lewin's unfreezing, changing and refreezing is a continuous cycle, not a one-time event, and a digital transformation succeeds only when change management carries it at every level of the organisation.
+:::
+
+## How it works
+
+### Strategic change
+
+::: definition Strategic change
+The changes in the environmental forces often require businesses to make modifications in their existing strategies and bring out new strategies. Strategic change is a complex process that involves a corporate strategy focused on new markets, products, services and new ways of doing business. (SM 5.20)
+:::
+
+**Steps to initiate strategic change** (SM 5.20–5.21):
+
+::: steps
+1. **Recognise the need for change.** Diagnose which facets of the present corporate culture are strategy supportive and which are not: environmental scanning, appraising both internal and external capabilities (perhaps through SWOT analysis), then determining where the lacuna lies and the scope for change.
+2. **Create a shared vision to manage change.** The objectives of individuals and the organisation should coincide, with no conflict between them; this is possible only if management and members follow a shared vision. Senior managers must constantly and consistently communicate the vision to all members and convince them that the change in business culture is not superficial or cosmetic. Actions must be credible, highly visible and unmistakably indicative of management's seriousness.
+3. **Institutionalise the change.** The action stage: implementing the changed strategy. Creating and sustaining a different attitude towards change ensures that the firm does not slip back into old ways of thinking or doing things. **Capacity for self-renewal** should be a fundamental anchor of the new culture. The change must be regularly monitored and reviewed, deviations brought to the notice of the persons concerned for corrective action. It takes time for the changed culture to prevail.
+:::
+
+### Kurt Lewin's model of change
+
+To make the change lasting, Kurt Lewin proposed three phases for moving the organisation from the present to the future: **unfreezing, changing and refreezing** (SM 5.21).
+
+::: diagram Lewin's three phases, a continuous cycle
+{"type": "flow", "w": 420, "nodes": [{"id": "u", "kind": "process", "label": "Unfreezing", "color": "e"}, {"id": "c", "kind": "process", "label": "Changing", "color": "c"}, {"id": "r", "kind": "process", "label": "Refreezing", "color": "a"}], "edges": [["u", "c"], ["c", "r"], ["r", "u", "cycle repeats"]], "caption": "The process of unfreezing, changing and refreezing is a cyclical one and remains continuously in action, because the environment keeps changing (SM 5.22)."}
+:::
+
+**(a) Unfreezing the situation.** Unfreezing makes individuals aware of the necessity for change and prepares them for it. Changes should not come as a surprise: sudden and unannounced change would be **socially destructive and morale lowering**. Management must pave the way by "unfreezing the situation", so that members are willing and ready to accept the change. Unfreezing is the process of **breaking down the old attitudes and behaviours, customs and traditions** so that people start with a clean slate, achieved by making announcements, holding meetings and promoting the new ideas throughout the organisation (SM 5.21–5.22).
+
+**(b) Changing to the new situation.** Once members recognise the need for change and are fully prepared to accept it, their behaviour patterns need to be redefined. **H.C. Kellman** proposed three methods for reassigning new patterns of behaviour (SM 5.22):
+
+::: diagram Kellman's three methods in the changing phase
+{"type": "tree", "gapX": 20, "root": {"label": "New behaviour\npatterns", "color": "c", "children": [{"label": "Compliance", "note": "reward, punishment"}, {"label": "Identification", "note": "role models"}, {"label": "Internalisation", "note": "own thinking"}]}}
+:::
+
+- **Compliance**: achieved by strictly enforcing the reward and punishment strategy for good or bad behaviour. Fear of punishment, actual punishment or actual reward seems to change behaviour for the better.
+- **Identification**: members are psychologically impressed upon to identify themselves with given role models whose behaviour they would like to adopt, and try to become like them.
+- **Internalisation**: some internal changing of the individual's thought processes to adjust to the changes introduced; they are given freedom to learn and adopt new behaviour to succeed in the new circumstances.
+
+**(c) Refreezing.** Refreezing occurs when ==the new behaviour becomes a normal way of life==. The new behaviour must replace the former behaviour completely for successful and permanent change, and must be **continuously reinforced** so that it does not diminish or extinguish. Change is not a one-time application but a continuous process, because of dynamism and the ever-changing environment (SM 5.22).
+
+### Digital transformation and change management
+
+::: definition Digital transformation
+The use of digital technologies to develop fresh, improved, or entirely new company procedures, goods, or services is known as "digital transformation". It is a fundamental adjustment that can be challenging to identify and even more challenging to implement. (SM 5.23)
+:::
+
+Change management is the discipline with whose aid organisations plan, prepare for and carry out changes to their operations, including digital transformations. **Change management in the digital transition consists of four essential elements** (SM 5.23):
+
+::: diagram The four elements, in order
+{"type": "layers", "layerH": 40, "layers": [{"label": "1. Define goals and objectives", "note": "of the transformation"}, {"label": "2. Assess the current state", "note": "and identify the gaps"}, {"label": "3. Create a roadmap for change", "note": "steps to reach the desired state"}, {"label": "4. Implement and manage the change", "note": "at every level of the organisation"}], "caption": "Each element is necessary; what matters most is how they work together (SM 5.23)."}
+:::
+
+**How change management works** (SM 5.23–5.24). Change management is a process or set of tools and best practices used to manage changes in an organisation, making them in a **safe and regulated manner** and reducing the possibility of detrimental effects. Any organisation can use it: enterprises, governmental bodies, even families. Its many models share four things: a clear vision for the change, involving stakeholders, a plan for putting the change into action, and keeping an eye on the results.
+
+**Its role in digital transformation** (SM 5.24). Digital transformation is a process of organisational change that enables an organisation to use technology to **create new value for customers, employees and other stakeholders**. Change management is the process of **planning, implementing and monitoring** changes in an organisation, helping it achieve its objectives while reducing risks and disruptions. A properly implemented change management strategy can help an organisation to:
+
+1. Specify the parameters and goals of the digital transformation.
+2. Determine which procedures and tools need to be modified.
+3. Make a plan for implementing the improvements.
+4. Involve staff members and parties involved in the transformation process.
+5. Track progress and make required course corrections.
+
+It gains more importance in current times because organisations can improve their chances of success by approaching change in a **proactive and organised manner**.
+
+### Change management strategies: five best practices
+
+Modern businesses manage more than staff, clients and products: new technology, the unexpected emergence of new market opportunities and changing customer preferences about brands. They must modify their management techniques. **The five best practices for managing change in small and medium-sized businesses** (SM 5.24–5.26):
+
+1. **Begin at the top.** Change that begins at the top reflects a focused, invested, united leadership on the same page about the company's future; only in this way can the culture that motivates the rest of the organisation to accept change be generated and promoted.
+2. **Ensure that the change is both necessary and desired.** Decision-makers are often unaware of how to handle a digital transformation and its effects on the firm; without a sound strategy, introducing too much too fast can become a major issue down the road.
+3. **Reduce disruption.** Perceptions of what change is required or desirable differ by department, rank or performance history, and new tactics or technologies cause concern. Disruption is reduced by:
+   - (a) getting the word out early and preparing for some interruption;
+   - (b) giving staff the knowledge and tools they need to adjust;
+   - (c) creating an environment that encourages transformation or change;
+   - (d) empowering change agents, such as project managers or team leaders, to provide context and clarity;
+   - (e) ensuring that the IT department is informed of changes in technology or infrastructure and is prepared to support them.
+4. **Encourage communication.** Create channels for queries and complaints; encourage departmental collaboration to propagate ideas as new procedures take root. Communication promotes efficiency, can influence culture, and reassures those most affected that they are not in danger.
+5. **Recognise that change is the norm, not the exception.** Prepare for change in advance and expect it; change is not a project but an ongoing process.
+
+::: definition Change readiness
+The ability to continuously initiate and respond to change in ways that create advantage, minimise risk, and sustain performance. (SM 5.26)
+:::
+
+### Managing change during digital transformation: five pointers
+
+Pointers for navigating change during a digital transformation (SM 5.26–5.27):
+
+1. **Specify the digital transformation's aims and objectives**: the intended outcome and the precise objectives, so that everyone is on the same page.
+2. **Always, always, always communicate**: routinely and honestly discuss the objectives and how they will affect stakeholders, including employees, clients and other parties.
+3. **Be ready for resistance**: even a change for the better can be hard to embrace; have a strategy for dealing with resistance.
+4. **Implement changes gradually**, rather than all at once, so that people are not overwhelmed and have time to get used to the new way.
+5. **Offer assistance and training**: workers need guidance in the new procedures and software applications.
+
+Effective completion of the massive project of digital transformation depends on meticulous planning and change management; **digital transformation efforts are more likely to fail without change management** (SM 5.27).
+
+## Worked examples
+
+:::: example Tapri OS, take one (and why it melted)
+In March 2026 Tapri Tea Co. Ltd switched all 300 cafés from paper registers to Tapri OS, its app for stock, ordering and rosters, overnight. Café managers learnt of it from an email on the Sunday night before; the only training was a two-page PDF. For the first month the app was used, because head office telephoned every café that had not logged its stock by noon. In May the calls stopped, nobody looked at the app data, and the internal auditors went back to checking the paper registers that most managers had quietly kept. By July most cafés were running on paper again.
+
+Tapri will relaunch Tapri OS in 2027.
+
+Required:
+
+(i) Using Kurt Lewin's model of change, explain why the change did not last.
+
+(ii) Advise how the relaunch should be designed, phase by phase, including the methods H.C. Kellman proposed for the changing phase.
+
+(iii) Once the relaunch succeeds, is the work of change over?
+
+::: answer Model answer
+**(i) Why the change did not last.** To make change lasting, Kurt Lewin proposed three phases for moving the organisation from the present to the future: unfreezing, changing and refreezing. Tapri's launch failed in each of them.
+
+1. **Unfreezing was skipped.** Changes should not come as a surprise to the members of the organisation; sudden and unannounced change would be socially destructive and morale lowering. A Sunday-night email gave managers no reason for the change and no time to prepare, so the old attitudes and behaviours (and the registers) were never broken down.
+2. **Changing was incomplete.** Behaviour patterns were redefined only while head office kept up its telephone calls. Managers were given no role models to follow and no real freedom to learn the app (a two-page PDF).
+3. **Refreezing never happened.** Refreezing occurs when the new behaviour becomes a normal way of life; it must replace the former behaviour completely and be continuously reinforced so that it does not diminish or extinguish. The registers were never withdrawn, the auditors went back to them and the app data was ignored, so the new behaviour faded.
+
+**(ii) Design of the relaunch.**
+
+1. **Unfreezing the situation**: make managers aware of the necessity for change and prepare them for it, by making announcements, holding meetings and promoting the new ideas throughout the organisation, for example by showing how the registers caused stock-outs and late orders.
+2. **Changing to the new situation**: once managers recognise the need, redefine their behaviour using Kellman's three methods:
+   - **Compliance**: strictly enforce a reward and punishment strategy, for example a monthly bonus for cafés whose app stock matches the physical count, and action against cafés that keep paper records;
+   - **Identification**: make managers of successful pilot cafés role models whom others would like to become like;
+   - **Internalisation**: give managers the freedom to learn and adopt the new behaviour (practice sessions, a helpline), so that their own thinking changes.
+3. **Refreezing**: withdraw the paper registers so that the new behaviour replaces the old completely, make audits and reviews use only app data, and keep reinforcing the new behaviour so that it does not diminish or extinguish.
+
+**(iii) Not a one-time process.** Change process is not a one-time application but a continuous process due to dynamism and the ever-changing environment. The process of unfreezing, changing and refreezing is cyclical and remains continuously in action: the next change at Tapri will start the cycle again.
+:::
+::::
+
+:::: example Mehra Packaging Works goes digital
+Mehra Packaging Works, a small firm in Pithampur owned by Kesar's cousin Rajiv Mehra, makes kulhad cartons for Tapri and other customers. To keep Tapri's business, it must take orders through Tapri's supplier portal, and it plans an ERP for inventory, invoicing and dispatch. Rajiv wants everything switched on in Diwali week. His two partners still disagree about whether the ERP is needed at all, the staff fear losing their jobs and have nobody to ask, and the IT vendor has not been told about the server change.
+
+Required: Identify the strategy the firm needs for this digital transformation, and advise it, practice by practice, on what it should do differently.
+
+::: answer Model answer
+**Strategy.** Mehra Packaging Works requires a **change management strategy**. For any organisation undergoing a digital transition, change management is crucial: a properly implemented change management strategy helps it specify the goals of the transformation, determine which procedures and tools need to be modified, plan the improvements, involve staff and track progress.
+
+**The five best practices for managing change in small and medium-sized businesses, applied:**
+
+1. **Begin at the top**: change that begins at the top reflects a focused, invested, united leadership on the same page about the company's future; only in this way can a culture that motivates the rest of the organisation to accept change be generated. The partners must settle their disagreement before anything is switched on.
+2. **Ensure that the change is both necessary and desired**: decision-makers should understand how the transformation will affect the firm; without a sound strategy, introducing too much too fast (everything in Diwali week) can become a major issue down the road.
+3. **Reduce disruption**: get the word out early and prepare for some interruption; give staff the knowledge and tools they need to adjust; create an environment that encourages change; empower change agents such as team leaders; and ensure that the IT department, here the IT vendor, is informed of the changes in technology and infrastructure and is prepared to support them.
+4. **Encourage communication**: create channels through which staff can raise queries and complaints, so that those most affected are reassured that they are not in danger.
+5. **Recognise that change is the norm, not the exception**: the portal and the ERP are not a one-time project but part of an ongoing process of change.
+:::
+::::
+
+:::: example The plan with three sections
+Malwa Municipal Corporation is moving property-tax payments, building permits and water bills from its counters to an online portal. The commissioner's plan has three sections: what the portal must achieve by March 2027; a three-phase roadmap of the steps to get there; and how each department will run the change. Nobody has reviewed today's counters, files and staff skills. Her deputy says: "Change management is complete. We go live in all 85 wards on 1 January, the staff will learn on the job, and there is no need to discuss it with the staff unions."
+
+Required:
+
+(i) Examine the commissioner's plan using the four essential elements of change management in the digital transition.
+
+(ii) Do you agree with the deputy? Advise, using the pointers for navigating change during digital transformation.
+
+::: answer Model answer
+**(i) The four elements.** Change management in the digital transition consists of four essential elements:
+
+| Element | In the plan? |
+|---|---|
+| 1. Defining the goals and objectives of the transformation | Yes: what the portal must achieve by March 2027 |
+| 2. Assessing the current state of the organisation and identifying gaps | **No**: counters, files and staff skills not reviewed |
+| 3. Creating a roadmap for change that outlines the steps needed to reach the desired state | Yes: the three-phase roadmap |
+| 4. Implementing and managing the change at every level of the organisation | Yes: department-wise |
+
+Each element is necessary to navigate a digital transformation successfully, and what matters most is how they work together. Without an assessment of the current state and its gaps, the roadmap cannot show how to get from where the corporation is to where it wants to be.
+
+**(ii) The deputy's view.** It cannot be agreed with. Digital transformation efforts are more likely to fail without change management, and the deputy ignores the pointers for navigating change:
+
+1. **Specify the digital transformation's aims and objectives**: the plan has them; everyone, including staff, must have a clear grasp of them so that all are on the same page.
+2. **Always, always, always communicate**: routinely and honestly discuss the objectives and how they will affect stakeholders, including employees, clients and other parties; refusing to discuss the change with the unions does the opposite.
+3. **Be ready for resistance**: even a change for the better can be hard to embrace; the corporation needs a strategy for dealing with resistance from counter staff.
+4. **Implement changes gradually**: not in all 85 wards on one day, which would overwhelm people and contradicts the plan's own three-phase roadmap.
+5. **Offer assistance and training**: staff need guidance in the new procedures and software; "learn on the job" is not enough.
+
+The corporation should complete the assessment of its current state and add these pointers before going live.
+:::
+::::
+
+## Under the hood
+
+### Two "three-step" lists that are not the same
+
+The steps to **initiate** strategic change (recognise the need, create a shared vision, institutionalise) and Lewin's phases (unfreezing, changing, refreezing) are different lists from the same section. "Institutionalise the change" belongs to the first; "refreezing" to the second. ICAI's MCQs mix the words: one keyed answer describes refreezing as "stabilizing the change by institutionalizing new norms" (MTP May 2026 Series I, MCQ 1(B)(iii)). Name the list the question asks for.
+
+### Where else these ideas appear
+
+"Diagnose which facets of the present culture are strategy supportive and which are not" is also the first step in changing a problem culture ([[sm.impl.structure|organisation structure and culture]]). The strategic leader as a change agent, top-down and vision-driven, is in [[sm.impl.leadership|strategic leadership]]. And "begin at the top" echoes what the culture lesson says a culture change depends on: a sincere, sustained commitment by the chief executive (SM 5.50).
+
+### Kellman's methods: tell them apart by the mechanism
+
+Kellman's three methods all sit inside Lewin's **changing** phase, and the Study Material does not rank them. A case gives you the mechanism, not the name: a reward or a punishment (or the fear of one) is **compliance**; a role model whose behaviour people would like to adopt is **identification**; freedom to learn and adopt the new behaviour, so that the individual's own thinking changes, is **internalisation**. Whatever method changed the behaviour, refreezing still has to follow: the new behaviour must replace the old completely and be continuously reinforced.
+
+## Exam angle
+
+::: exam Where this lesson appeared, May 2024 to September 2026
+Of the 32 new-scheme ICAI documents searched, 18 ask about this lesson:
+
+- **Lewin's model, 1 + 3 + 1 marks**: May 2026 Q5(a) (Eagle Manufacturing: identify the model, explain the phases, is it a one-time process?). MCQs: September 2024 MCQ 16 (sequence: unfreezing, changing, refreezing); MTP May 2026 Series I MCQ 1(B)(iii) (the final step: refreeze).
+- **Steps to initiate strategic change, 5 marks**: MTP January 2025 Series I Q2(a) and MTP January 2026 Series I Q2(a) (a handset maker that did not adapt); MTP September 2025 Series II Q2(b).
+- **Change management strategy and the five best practices (SMEs)**: May 2025 Q5(b) (the Twaran case, 5 marks), repeated word for word as MTP September 2026 Series II Q1(b), and with a renewable-energy firm in RTP January 2026 Q15; MTP May 2024 Series I Q1(c); MTP May 2025 Series II Q1(c) (a firm whose staff resist a cloud system: "key change management strategies").
+- **Pointers for navigating change during digital transformation, 5 marks**: September 2024 Q8(b) (OR); MTP May 2025 Series I Q3(a); MTP September 2025 Series I Q4(b); MTP January 2026 Series II Q3(a); MTP September 2026 Series I Q3(b); also RTP May 2024 Q16 and MTP May 2026 Series I Q4(b) (OR) ("Why is change management crucial…, and what are some key strategies for navigating change?"), both answered with the five pointers.
+- **The four elements**: RTP May 2026 Q15 (a firm defines objectives, assesses gaps, prepares a phased roadmap and implements: "which concept?").
+- **Definitions and the five ways change management helps**: September 2026 Q8(b) (1 + 3 + 1; answers not yet published).
+:::
+
+::: exam How the marks are earned
+Case answers name the concept in the first line ("Kurt Lewin's Three Phase Model of Change"; "a Change Management Strategy"), then list the phases or practices by their Study Material names, each tied to the facts. In the Lewin case, the "one-time process?" mark goes to: no, it is cyclical and remains continuously in action.
+:::
+
+::: trick Which list does the question want?
+"Best practices", "change management strategies", "small and medium-sized business": the **five best practices** (Begin, Ensure, Reduce, Encourage, Recognise). "Pointers", "navigating", "how to manage change during": the **five pointers** (Specify, Communicate, Resistance, Gradually, Training). "Elements of change management in the digital transition": the **four elements** (Define, Assess, Roadmap, Implement). "How a change management strategy can help": the **five ways** (parameters and goals, procedures and tools, plan, involve, track). When "navigating" appears next to "strategies" (RTP May 2024 Q16), ICAI's answer gives the pointers; "change management strategies" to "minimise disruption" in a firm whose staff resist (MTP May 2025 Series II Q1(c)) gets the best practices.
+:::
+
+## Answer frame
+
+### Lewin case (1 + 3 + 1 = 5 marks)
+
+1. **Identify** (1 mark): "The model being applied is Kurt Lewin's three-phase model of change: unfreezing, changing and refreezing."
+2. **Explain** (3 marks): each phase in the Study Material's words, followed by "In the given case, …".
+3. **One-time?** (1 mark): "No. Change is a continuous process due to the ever-changing environment; the cycle of unfreezing, changing and refreezing remains continuously in action."
+
+### Five lists that look alike
+
+::: compare
+| List | How many | Items in order |
+|---|---|---|
+| Steps to initiate strategic change | 3 | Recognise the need; create a shared vision; institutionalise the change |
+| Lewin's phases | 3 | Unfreezing; changing (compliance, identification, internalisation); refreezing |
+| Elements of change management in the digital transition | 4 | Define goals; assess current state and gaps; roadmap; implement and manage at every level |
+| Best practices for SMEs | 5 | Begin at the top; necessary and desired; reduce disruption; encourage communication; change is the norm |
+| Pointers during digital transformation | 5 | Aims and objectives; always communicate; ready for resistance; gradually; assistance and training |
+:::
+
+## Common mistakes
+
+::: mistake Hall of Shame: Kesar's Monday launch
+"All 300 cafés live on Monday" breaks two rules at once: unfreezing (change must not come as a surprise) and the pointer "implement changes gradually". **Fix:** in any digital-transformation case with a big-bang launch, say so: sudden and unannounced change is socially destructive and morale lowering.
+:::
+
+::: mistake Writing the pointers when the question wants the best practices
+A case about a small or medium-sized firm asking for "practices" or "change management strategies" answered with "specify aims, communicate, be ready for resistance…". **Fix:** ICAI's answers to those questions give the five best practices (begin at the top … change is the norm). The pointers answer "how to manage" or "navigate" change during digital transformation.
+:::
+
+::: mistake Compliance, identification and internalisation as Lewin's phases
+**Fix:** they are H.C. Kellman's three methods inside Lewin's **changing** phase. The phases are unfreezing, changing and refreezing.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. While moving its 40 branches to an online loan system, Sahyadri Co-operative Bank announces a bonus for branches that clear 95% of applications online and a written warning for branches that keep paper files. Which of Kellman's methods is the bank using?
+- [x] Compliance
+- [ ] Identification
+- [ ] Internalisation
+- [ ] Unfreezing
+> Strictly enforcing a reward and punishment strategy is compliance. Identification uses role models; internalisation changes the individual's own thinking. Unfreezing is a Lewin phase, not a Kellman method.
+
+Q: Which of the following correctly places the item in its list?
+- [ ] "Institutionalise the change" is the last of Lewin's three phases
+- [ ] "Internalisation" is the second of Lewin's three phases
+- [x] "Create a shared vision to manage change" is the second of the three steps to initiate strategic change
+- [ ] "Refreezing" is the last of the three steps to initiate strategic change
+> The steps to initiate strategic change are: recognise the need, create a shared vision, institutionalise the change. Lewin's phases are unfreezing, changing and refreezing; internalisation is one of Kellman's methods inside the changing phase.
+
+Q: Which of the following is NOT one of the four elements of change management in the digital transition?
+- [ ] Assessing the current state of the organisation and identifying gaps
+- [ ] Creating a roadmap for change
+- [x] Offering assistance and training
+- [ ] Implementing and managing the change at every level
+> The four elements are defining goals, assessing the current state and gaps, a roadmap, and implementing at every level. Assistance and training is one of the five pointers.
+
+Q: Which of these are among the five best practices for managing change in small and medium-sized businesses? Select all that apply.
+- [x] Begin at the top
+- [x] Reduce disruption
+- [ ] Implement changes all at once to avoid prolonged uncertainty
+- [x] Recognise that change is the norm, not the exception
+> The other two are "ensure the change is necessary and desired" and "encourage communication". Introducing too much too fast is the danger the second practice warns against.
+
+Q: Case scenario. Six months before any new software is chosen, the HR head of Narmada Agro Mills holds meetings on every shift to show how the paper attendance system keeps getting wages wrong, and puts the idea of a digital system on every notice board. In Kurt Lewin's model, this is:
+- [ ] Refreezing, because it makes the new behaviour permanent
+- [ ] Compliance, because the workers are being told what to do
+- [ ] Changing to the new situation, because a new system is coming
+- [x] Unfreezing the situation, because it prepares people for the change before it happens
+> Unfreezing makes individuals aware of the necessity for change and prepares them for it, so that it does not come as a surprise; it is achieved by making announcements, holding meetings and promoting the new ideas. Nothing has changed yet, so it is not changing or refreezing, and no reward or punishment is involved.
+:::
+
+## Recap
+
+- Strategic change: modifying existing strategies or bringing out new ones as the environment changes; a corporate strategy focused on new markets, products, services and new ways of doing business.
+- Strategic change is initiated in three steps: recognise the need for change, create a shared vision to manage change, and institutionalise the change.
+- Lewin's three phases are unfreezing (no surprise: announcements, meetings, new ideas), changing (Kellman: compliance, identification, internalisation) and refreezing (new behaviour the normal way of life, continuously reinforced), in a continuous cycle.
+- Digital transformation: digital technologies to develop fresh, improved or entirely new procedures, goods or services.
+- Four elements: define goals; assess current state and gaps; roadmap; implement and manage at every level.
+- Five best practices (SMEs): begin at the top; necessary and desired; reduce disruption; encourage communication; change is the norm.
+- Five pointers: aims and objectives; always communicate; ready for resistance; gradually; assistance and training.
+- Digital transformation efforts are more likely to fail without change management. (Melt, mould, freeze, and do not forget the freezer.)
+
+## Flashcards
+
+Q:: What is strategic change?
+A:: A complex process that involves a corporate strategy focused on new markets, products, services and new ways of doing business, required when changes in environmental forces call for modified or new strategies.
+
+Q:: The three steps to initiate strategic change?
+A:: Recognise the need for change; create a shared vision to manage change; institutionalise the change.
+
+Q:: Kurt Lewin's three phases of change, in order?
+A:: Unfreezing the situation, changing to the new situation, refreezing.
+
+Q:: Lewin: why must change not come as a surprise?
+A:: Sudden and unannounced change would be socially destructive and morale lowering; unfreezing prepares members to accept it.
+
+Q:: H.C. Kellman's three methods for reassigning new patterns of behaviour?
+A:: Compliance (reward and punishment), identification (role models), internalisation (internal change of the individual's thought processes).
+
+Q:: When does refreezing occur?
+A:: When the new behaviour becomes a normal way of life, replacing the former behaviour completely, continuously reinforced so that it does not diminish or extinguish.
+
+Q:: Is Lewin's change process a one-time application?
+A:: No. It is continuous due to dynamism and the ever-changing environment; unfreezing, changing and refreezing is cyclical and remains continuously in action.
+
+Q:: Define digital transformation.
+A:: The use of digital technologies to develop fresh, improved or entirely new company procedures, goods or services.
+
+Q:: The four elements of change management in the digital transition?
+A:: Defining the goals and objectives; assessing the current state and identifying gaps; creating a roadmap for change; implementing and managing the change at every level.
+
+Q:: The five best practices for managing change in small and medium-sized businesses?
+A:: Begin at the top; ensure the change is both necessary and desired; reduce disruption; encourage communication; recognise that change is the norm, not the exception.
+
+Q:: The five pointers for navigating change during digital transformation?
+A:: Specify the aims and objectives; always communicate; be ready for resistance; implement changes gradually; offer assistance and training.
+
+Q:: Change readiness (definition)?
+A:: The ability to continuously initiate and respond to change in ways that create advantage, minimise risk and sustain performance.

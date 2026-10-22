@@ -1,0 +1,7 @@
+{"t": 1792493365.487233, "step": "start", "note": ""}
+{"t": 1792494152.691518, "step": "design", "note": "part-choice clause 'q1: any 7 of (a)-(h)' after the questions' rule; ICAI_BANK.md choice row + \u00a79.1 + \u00a74/\u00a77/\u00a712"}
+{"t": 1792494241.8131578, "step": "build", "note": "parse_choice part clauses, part validation, choice_max + printed-maximum warning, paper row ids; 4 new unit tests"}
+{"t": 1792494485.627358, "step": "app", "note": "applyChoice part choices (first n parts, excess, OR inside a part, maximum), choiceWords in testgen, excess wording; 3 JS tests"}
+{"t": 1792494946.716831, "step": "files", "note": "37 checked files: old P3 x14 q6: any 4 of (a)-(e); old P6 MTP x15 q1: any 7 of (i)-(viii); old P6 PYQ x8 q1: any 7 of (a)-(h); check.py 0 errors all"}
+{"t": 1792497825.09525, "step": "verify", "note": "build+check 0, node 1594, py 85, smoke 342/342; sat o-p6-pyq-nov2023 (69/70) and o-p3-pyq-dec2021 (100/100) in headless Chrome"}
+{"t": 1792497825.260845, "step": "report", "note": "reports/choice-ext.md"}

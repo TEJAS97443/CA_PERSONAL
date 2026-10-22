@@ -1,0 +1,273 @@
+                                                           Test Series: November, 2021
+                                 MOCK TEST PAPER-II
+                           INTERMEDIATE  (NEW): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                            Part I: Multiple Choice Questions
+                                                                 Total Marks: 15 Marks
+Question Nos. 1 to 5 carries 2 marks each.
+GK Sports Ltd. is one of the largest manufacturers of various sports equipment with its head office at Delhi.
+The company sells its products in both offline as well as online mode through its website. Analyzing the
+good response of customers in India, the company decides to sell its products across the countries-
+Australia, New Zealand, Canada, US and Germany through online mode. The company offers various
+payment modes to its customers for their ease like credit card, debit card and UPI. During expansion Mr.
+Ajay has been recruited as an internal auditor to review the business process. The company uses proper
+automation for its various business processes and also practicing the regular auditing. During assessment,
+he observes that there exits technical difficulties in integrating the sales amounts received through various
+payment gateways available on its website across the countries. In order to scrutinize the potential fraud
+involved, the management of company hires ABC Ltd. to identify the gaps in various payment gateways.
+ABC Ltd. prepares an inspection summary report mentioning the name of two personnel of the company
+who used to slice a small amount of money from every computerized transaction made through the portal.
+The management decides to book the fraudsters for dishonesty and fraud under the provisions of
+Information Technology Act, 2000. Learning lesson from the untoward event, the management also finds it
+necessary to adopt stringent security measures in its working environment.
+Based on the case scenario, answer the Question No.(s) 1 to 5.
+1.  Which kind of business risk does the management of GK sports Ltd. experiences when two of its
+    employees were found involved in fraud of online transactions?
+    (a) Strategic risk
+    (b) Financial risk
+    (c) Regulatory risk
+    (d) Operational risk
+2.  In purview of above case scenario, identify the technique used by the fraudster employees.
+    (a) Data Diddling
+    (b) Salami Technique
+    (c) Christmas Cards
+    (d) Trap Doors
+3.  Identify the section of Information Technology Act, 2000 under which the fraudsters can be booked.
+    (a) Section 66D
+    (b) Section 43
+
+    (c) Section 66
+    (d) Section 65
+4.  The management of GK Sports Ltd. wishes to implement some type of access control approach to
+    restrict system access to authorized users, wherein employees having access rights can only access
+    the information they need to do their jobs and prevent them from accessing information which doesn’t
+    pertain to them. What type of security measure is being adopted by GK Sports Ltd. in its information
+    System?
+    (a) General Controls
+    (b) Role-based Access Controls
+    (c) Security Management Controls
+    (d) Application Controls
+5.  GK Sports Ltd. decides to sell its products across some countries through online mode. Which of the
+    following commercial law governing e-commerce would it need to follow as a regulation for
+    augmenting exports from India?
+    (a) Companies Act, 2013
+    (b) Foreign Trade (Development and Regulation) Act, 1992
+    (c) Foreign Trade (Development and Regulation) Act, 1994
+    (d) The Competition Act, 2002
+Question Nos. 6 to 10 carries 1 mark each.
+6.  A renowned financial consultant XYZ Ltd. has adopted the Cloud Computing technology to obtain the
+    resources in terms of memory and database storage. Which service model of Cloud Computing is
+    applicable in this case?
+    (a) Software as a Service (SaaS)
+    (b) Infrastructure as a Service (IaaS)
+    (c) Platform as a Service (PaaS)
+    (d) Communication as a Service (CaaS)
+7.  During the review process, Mr. X an auditor of ABC Ltd. observed that company has not followed
+    proper password policy. Hence, users are allowed to keep short length passwords and also not prompt
+    the user to change the password at least twice a year. In relation to risk management, this refers
+    to_______.
+    (a) Vulnerability
+    (b) Threat
+    (c) Exposure
+    (d) Attack
+8.  Mr. Akash joined as an Inventory manager in M/s. PP Electronics Ltd. which is a leading manufacturer
+    of electronic goods. His job profile includes maintaining the inventory of all electronic items
+    manufactured by the company. While making entry in inventory master data, he tried adding one of the
+    following items in it to which an error got generated in the system. Identify that item.
+    (a) Stock item
+    (b) Purchase detail
+
+    (c) Salary of inspection manager
+    (d) Payment made against TDS
+9.  Logical Access Controls are used to mitigate the effect of asynchronous attacks that make use of
+    timing difference between the time when data is inputted to the system and the time when it gets
+    processed by the system. Which of the following does not fall under the category of asynchronous
+    attacks?
+    (a) Spoofing
+    (b) Piggybacking
+    (c) Wire-tapping
+    (d) Data Leakage
+10. Which of the following server in a Core Banking System (CBS) environment stores the entire data of
+    bank that may include employee data, Fixed Deposit (FD) rates and penalty to be levied under
+    different circumstances etc.?
+    (a) Internet Banking Channel Server
+    (b) Database Server
+    (c) Internet Banking Application Server
+    (d) Application Server
+                              Part II: Descriptive Questions
+1.  (a)   An Application Software comprises of three layers to perform various functions such as
+          receiving inputs from the user, performing arithmetic and logical functions etc. Explain these
+          layers.                                                          (3 Marks)
+    (b)   Write a short note on Automated Teller Machines (ATM) Channel Server of Core Banking
+          System.                                                          (2 Marks)
+2.  (a)   Enterprise Resource Planning (ERP) implementation is a herculean task which requires a lot of
+          money, time and resources in terms of machine and human beings. Describe the various
+          technological risks and controls while implementing ERP.         (6 Marks)
+    (b)   Cloud Computing service model is used to provide services in terms of hardware (IaaS),
+          software (SaaS) and prebuilt computing platform to deploy and develop applications (PaaS).
+          Explain the service models of cloud computing other than mentioned above that can be used
+          for further services.                                            (4 Marks)
+3.  (a)   Mr. X is appointed as an auditor of a software development and service provider company.
+          Explain the various concerns that auditor should address under different activities of
+          Programming Management Controls.                                 (6 Marks)
+    (b)   ABC Bank established in 2015 is in the process to obtain ISO 27001:2013 certification to
+          mitigate the risk of Information Technology as per guided by RBI. Explain the various sub
+          processes included in Information Security.                      (4 Marks)
+4   (a) Automation in a business organization enhances the customer satisfaction in the services and
+        products provided by the organization. However, it is vulnerable to many risks that may cause
+        deviation from a planned objective resulting in unwanted negative consequences. Define Risk
+        and briefly explain various Risk Management Strategies.            (6 Marks)
+
+    (b) Segregation of Duties (SoD) in an organization allows the individuals to access authorized
+        activities controlled through various controls. Identify few examples of the controls of Segregation
+        of Duties (SoD).                                                   (4 Marks)
+5.  (a) Ms. Neha is the owner of a consultant company named JKL Ltd. On Diwali, she decided to offer
+        Brass bottle as Diwali gift to each staff member. She placed an order of 20 bottles from online
+        portal. Explain the different steps involved in this e-commerce transaction in buying the bottles
+        online.                                                            (6 Marks)
+    (b) Business processes can be categorized in various types depending on type of industry and
+        nature of work. Briefly discuss various categories of Business Processes. (4 Marks)
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                            Question 1 and 2 are compulsory.
+                  Attempt any three questions out of remaining four questions.
+1.  (A) Aloe Veda, a women run health company has been making innovative products based on Aloe
+        Vera. Their portfolio includes creams, edibles, juices, face masks, and now even hand sanitizers.
+        They have had a simple focus; luring women customers of all ages who care about their personal
+        health and hygiene at prices that the common consumer can afford. The market is growing over
+        the years and even men have shown interest in their products.
+        However, running the company has not been easy, for big FMCG brands are readily offering
+        similar products with better reach. Mr. Mukesh Bakshi was onboarded to help the company scale
+        up its customer reach and he implemented old school distribution tactics. The distributors were
+        offered better margins, foreign trips and gifts and even profit sharing in some cases. This helped
+        the company shelf Aloe Veda products at most of the retailers. Online business was also ramped
+        up diligently.
+        Mukesh has been instrumental in achieving targets, but the core team has been a group of
+        close-knit partners who have built the company on trust. And as the business grew, the partners
+        took up individual responsibilities in an autonomous fashion, where each one of them was
+        responsible for their own segment’s operations and process improvement, and collectively driven
+        by positive and margins. The policy of “trust all, ask no questions” could be seen at the
+        leadership level.
+        The company has been aware of its industry and the players therein, with different set of
+        strengths and economic backgrounds, but it wanted to deep dive into some more metrics to get a
+        holistic view of the competition. For that, they reached out to KMGP LLP to project a strategic
+        group mapping for them, based on which they could plan ahead. KMGP LLP prepared the below
+        chart;
+        Business segment of Ale Veda has been booming industry wide, all they need to focus is on
+        maintaining their values and scaling before it’s too late. And of course, keeping an eye on the
+        external business environment shall be crucial too.
+
+        Based on the above Case Scenario, answer the Multiple-Choice Questions which are as
+        follows:
+        1.  Mukesh Bakshi, has been leading Aloe Veda from the front with a spear headed strategy on
+            innovating which of the following?
+            (a) Product
+            (b) Price
+            (c) Place
+            (d) Promotion                                                   (1 Mark)
+        2.  Aloe Veda has been taking up competition with big FMCG brands in which of the following
+            segments?
+            (a) Cost Leadership of Supply Chain
+            (b) Differentiation of Product
+            (c) Focused Cost Leadership of Product
+            (d) Focused Differentiation of Product                          (1 Mark)
+        3.  Which important aspect of organisational structure configuration is missing in Aloe Veda?
+            (a) Configuration of Intended Roles
+            (b) Configuration of Processes
+            (c) Configuration of Decision Making
+            (d) Configuration of Governance Mechanism                       (1 Mark)
+        4.  As per strategic group mapping done by the marketing team, which of the following is the
+            biggest threat for Aloe Veda for its niche market?
+            (a) Ele
+            (b) IndCos
+            (c) Strategic group mapping does not tell that clearly
+            (d) There are no threats to their niche market                  (1 Mark)
+        5.  Suppose Aloe Veda asks its customers to plant Aloe Vera plant in their houses to get
+            additional discounts. From Aloe Veda’s strategic intent of being environmentally inclined
+            while retaining its customers, much before rivals try to poach them, can be termed as?
+            (a) Planned Strategy
+            (b) Reactive Strategy
+            (c) Adaptive Strategy
+            (d) This is not a strategy, it is a marketing gimmick          (2 Marks)
+    (B) During which stage of the Product Life Cycle will marketing strategies need to concentrate on
+        differentiating a product from competing products, building brand loyalty and offering incentives
+        to attract competitor’s customers to switch?
+        (a) Decline
+        (b) Growth
+
+        (c) Maturity
+        (d) Introduction                                                 (2 Marks)
+    (C) Meba Ltd. had a huge capacity of 40,000 Kilo Litres production of Kerosene Oil, and they were
+        able to achieve 90% of it almost always, while the teams were also aware that they can achieve
+        100% capacity with very less efforts, but always kept margins. Further, the business team was
+        planning to setup two more plants of 20,000 Kilo Litre capacity each in the next five years. This
+        was a welcomed move from state governments as well. From the above, which of the following
+        aspects of objectives is missing by production team?
+        (a) They should be clear and quantifiable.
+        (b) They should be concise.
+        (c) They should be challenging.
+        (d) They should provide standard for comparative appraisal.      (2 Marks)
+    (D) In context to BCG matrix, which of the following statements is not correct?
+        (a) The BCG assumes that all products will grow and mature.
+        (b) The BCG can be used to examine a company’s current product portfolio.
+        (c) A company with only cash cows and dogs has limited long-term prospects.
+        (d) All of the above                                             (1 Mark)
+    (E) When there is impact of strategy implementation on strategy formulation it can be referred as?
+        (a) Backward Linkages
+        (b) Forward Linkages
+        (c) Vertical Linkages
+        (d) Horizontal Linkages                                          (1 Mark)
+    (F) A rubber manufacturer starts making shoe soles and gum can be termed as?
+        (a) Conglomerate Diversification
+        (b) Concentric Diversification
+        (c) Horizontal Integration
+        (d) Vertical Integration                                         (1 Mark)
+    (G) Marketing and Sales of Hindustan Unilever Limited and lowering of operating cost by Walmart
+        are examples of what?
+        (a) Competitive Advantage
+        (b) Core Competency
+        (c) Strategic Planning
+        (d) Key Performance Indicators (KPIs)                            (1 Mark)
+
+    (H) The strategic landscape of healthcare sector around the world is changing rapidly because of-
+        (a) Doctors Educational Interests
+        (b) Indian Nurses going to abroad
+        (c) Internet and Technological advancement
+        (d) Patients being more aware                                       (1 Mark)
+2.  BHAVNAV  is a business which makes and sells laptop computers in France. In recent years it has
+    been struggling to compete with its rivals and has seen a significant fall in its market share.
+    BHAVNAV’s managers identify that majority of its products launched by BHAVNAV’s rivals were high
+    specification, with good quality materials and many innovative design features. Products with inferior
+    quality, such as those sold by BHAVNAV have not sold well in France. This information led
+    BHAVNAV’s management team to decide to select a new business strategy based on Porter’s Generic
+    Strategic Model. Identify and suggest the best business strategy BHAVNAV’s management has to opt
+    for?                                                                   (5 Marks)
+3.  (a) Shri Alok Kumar is having his own medium size factory in Aligarh manufacturing hardware
+        consisting handles, hinges, tower bolts and so on. He has a staff of more than 220 in his
+        organisation. One of the leading brand of Hardware seller in India is rebranding and selling the
+        material from his factory. Shri Alok Kumar, believes in close supervision and takes all major and
+        minor decisions in the organisation.
+        Do you think Shri Alok should take all decisions himself? What should be nature of decisions that
+        should be taken by him.                                            (5 Marks)
+    (b) What are the advantages of a strategic alliance?                   (5 Marks)
+4.  (a) ABC Pvt Ltd is dealing in multiproduct like electronics and FMCG and are having outlets in
+        different cities and markets across India. Due to scale of operation, it is having technical difficulty
+        in dealing with distinct product line and Markets especially in coordination and control related
+        problems. Which of following technique which was introduced in 1920 can be used to resolve the
+        problem?                                                           (5 Marks)
+    (b)  State the factors of human resource that have influence on employee’s competence. (5 Marks)
+5.  (a) India's luxurious domestic airline Indijet in an attempt to retain its leadership in aviation sector
+        has hired J S Dutta as its Chief Executive. Mr Dutta wishes to reorient company to make it a
+        domestic discount carrier. He desires to introduce no frills business model by offering extremely
+        low fares and improve margins by cutting down traditional amenities such as reclining seats and
+        complimentary meals. At the same time setting the stage for a new air revolution, he wishes to
+        brand itself as on-time airlines having proper systems in place and removing additional and
+        wasteful activities and processes. What steps will you advise to Mr Dutta? (5 Marks)
+    (b) Strategic management helps an organization to work through changes in environment to gain
+        competitive advantage. In light of statement discuss its benefits. (5 Marks)
+6.  Distinguish between the following:
+    (a) Divestment and liquidation strategy.                               (5 Marks)
+    (b) Logistic management and Supply chain management.                   (5 Marks)

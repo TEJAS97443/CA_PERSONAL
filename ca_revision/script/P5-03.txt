@@ -1,0 +1,106 @@
+# P5-03 · risk-assessment-internal-control · Risk Assessment and Internal Control: गलती कहाँ छिप सकती है
+
+## Introduction: plan से risk तक
+
+<|emotion:enthusiasm|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+पिछले episode में Tapri के audit की strategy और plan बने, और अब सवाल है कि Tapri के accounts में गलती कहाँ हो सकती है।
+आज Paper five का chapter three है, Risk Assessment and Internal Control, जिसे ICAI ने पैंसठ documents में पूछा है, जिनमें सत्रह exam papers हैं।
+<|emotion:determination|>Episode के आख़िर तक आप audit risk, materiality, SA three fifteen, internal control, IT controls और SA three thirty के rules ICAI के शब्दों में लिख पाएँगे।
+
+## Audit risk and materiality: risk का गणित और गलती का size
+
+<|emotion:contemplation|>बंटी ने पढ़ा कि एक listed snack company के auditor ने fake sales वाले accounts पर clean report दी, और लक्ष्मी के हिसाब से वहाँ तीन चीज़ें fail हुईं।
+<|prosody:speed_slow|>Audit risk means the risk that the auditor gives an inappropriate audit opinion when the financial statements are materially misstated, और ये risk of material misstatement और detection risk का function है।
+Risk of material misstatement का मतलब है कि statements audit से पहले ही materially misstated हों, और इसके components, inherent risk और control risk, entity के risks हैं।
+
+Inherent risk है susceptibility of an assertion about a class of transaction, account balance or disclosure to a misstatement that could be material, before consideration of any related controls।
+Complex calculations और failing industry में inherent risk ज़्यादा होता है।
+Control risk वो risk है कि misstatement will not be prevented, or detected and corrected, on a timely basis by the entity's internal control।
+Detection risk वो risk है कि auditor के procedures misstatement को detect नहीं करेंगे, इसमें sampling और non-sampling risk आते हैं, और auditor सिर्फ़ इसी को influence कर सकता है।
+<|emotion:determination|>इसलिए risk of material misstatement high हो तो detection risk low रखना पड़ता है, यानी wider checking, बड़े samples और competent and experienced staff।
+
+SA three twenty के हिसाब से misstatements, including omissions, तब material हैं जब they, individually or in the aggregate, could reasonably be expected to influence users' economic decisions।
+केसर को Pune café का पैंतालीस हज़ार रुपये का shortage मामूली लगा, पर चोरी हो तो ये मामूली नहीं, क्योंकि छोटा fraud nature से material है।
+Materiality benchmark पर percentage लगाकर बनती है, और profit-oriented manufacturer के लिए ICAI का example profit before tax from continuing operations का पाँच प्रतिशत है।
+Tapri का इस साल का profit एक one-off fire loss से गिरा, इसलिए लक्ष्मी ने normalised profit before tax लिया, और materiality डेढ़ करोड़ रुपये बनी।
+Benchmark के चार factors हैं elements of the financial statements, users का focus, तीसरा entity की nature, life cycle, industry, ownership और financing, और चौथा benchmark की relative volatility।
+
+<|emotion:contemplation|>Performance materiality की definition है, the amount or amounts set by the auditor at less than materiality for the financial statements as a whole।
+इसका purpose है to reduce to an appropriately low level the probability that the aggregate of uncorrected and undetected misstatements exceeds materiality।
+Materiality planning, performing और evaluating तीनों में लगती है, हालात बदलें तो revise होती है, और factors के साथ document होती है।
+
+## SA 315 and internal control: entity को समझना और उसके controls
+
+<|emotion:contemplation|>गलती कहाँ होगी, ये जानने के लिए SA three fifteen, Identifying and Assessing the Risks of Material Misstatement through Understanding the Entity and its Environment, पहले entity को समझने को कहता है।
+इसका objective है to identify and assess the risks of material misstatement, whether due to fraud or error, at the financial statement and assertion levels।
+इसके चार steps हैं risks identify करना, assess करना कि वो pervasive हैं या नहीं, उन्हें assertion level पर what can go wrong से जोड़ना, और likelihood और magnitude पर विचार करना।
+Risk assessment procedures तीन हैं, inquiries of management and others, जैसे internal audit, legal counsel और information systems personnel, फिर analytical procedures, और observation and inspection।
+
+<|emotion:determination|>ये procedures by themselves sufficient appropriate audit evidence नहीं देतीं, इसलिए सिर्फ़ ratios पर opinion नहीं बनता, ये आगे के procedures का basis हैं।
+Significant risk के छह factors हैं fraud, recent developments, complexity of transactions, related parties, subjectivity in measurement, और normal course के बाहर के unusual transactions।
+Fraud risks और normal course के बाहर के significant related party transactions हमेशा significant हैं, और non-routine transactions में ज़्यादा management और manual intervention से risk बढ़ता है।
+
+<|emotion:contemplation|>Bhopal café में राजू ही orders, cash, sales book और bank deposit संभालते हैं, और जिसे कोई check न करे, उसका छुआ हर काम auditor को check करना पड़ता है।
+<|prosody:speed_slow|>Definition है, internal control is the process designed, implemented and maintained by those charged with governance, management and other personnel to provide reasonable assurance about the achievement of an entity's objectives।
+ये objectives हैं reliability of financial reporting, effectiveness and efficiency of operations, safeguarding of assets, और compliance with applicable laws and regulations।
+Internal control management maintain करता है, auditor नहीं, और auditor उसे समझकर evaluate करता है ताकि further audit procedures design हो सकें।
+
+<|emotion:determination|>इसके पाँच components ICAI के order में हैं, control environment, entity's risk assessment process, information system and communication, control activities, और monitoring of controls।
+Control environment में culture of honesty and ethical behaviour आता है, और यही बाकी components की नींव है, पर ये not an absolute deterrent to fraud है।
+छह limitations हैं सिर्फ़ reasonable assurance, human judgment की गलती, control का purpose न समझना, collusion या management override, management के judgments, और छोटी entities में कम segregation।
+Evaluation के चार methods हैं narrative record, check list, internal control questionnaire, जो most widely used है, और flow chart, जो सबसे concise record है।
+
+## Testing controls and SA 330: control चला या नहीं, और जवाब क्या हो
+
+<|emotion:amusement|>बंटी ने Tapri के bank reconciliation control को effective लिख दिया, क्योंकि finance manual में लिखा था कि हर महीने reconciliation बनता है और review होता है।
+लक्ष्मी ने कहा कि manual एक promise है, बारह reconciliations और उनके signatures दिखाओ, और एक खुद redo करो।
+Understanding of design and implementation operating effectiveness का test नहीं है, क्योंकि tests of controls ये evidence देते हैं कि control पूरे period में चला।
+चार tests हैं inquiry, observation, inspection और reperformance, और inquiry सबसे efficient होकर भी सबसे कम evidence देती है, इसलिए अकेले कभी sufficient नहीं।
+Reperformance best evidence देता है, inquiry combined with inspection generally सबसे effective and efficient है, और walkthrough एक transaction को शुरू से अंत तक trace करता है।
+Deficiencies internal controls memo या management letter में management को जाती हैं, और significant deficiencies in writing those charged with governance को जाती हैं।
+
+<|emotion:contemplation|>SA three thirty, The Auditor's Responses to Assessed Risks, कहता है कि financial statement level के risks पर overall responses, और assertion level पर further audit procedures हों।
+Tests of controls दो cases में ज़रूरी हैं, जब auditor intends to rely on their operating effectiveness, या जब substantive procedures alone cannot provide sufficient appropriate audit evidence।
+Reliance जितनी ज़्यादा, evidence उतना more persuasive चाहिए, और assessed risk जितना ऊँचा, evidence भी उतना ही more persuasive।
+<|emotion:determination|>Irrespective of the assessed risks, हर material class of transactions, account balance और disclosure पर substantive procedures ज़रूरी हैं, यानी tests of details या substantive analytical procedures।
+
+## Internal control in an IT environment and digital audit: जब books ERP में हों
+
+<|emotion:amusement|>Tapri ने accounts, inventory, billing और payroll एक integrated ERP पर डाले, तो केसर ने पूछा कि अब computer सब करता है, audit दो दिन में ख़त्म?
+लक्ष्मी का जवाब था कि computer एक गलती को perfectly दोहराता है, और ICAI के अनुसार जितना ज़्यादा automation, environment उतना ज़्यादा complex।
+पहले चार IT risks हैं inaccurate processing, unauthorised access to data, direct data changes, और excessive या privileged access, जैसे super users।
+बाकी चार हैं segregation of duties की कमी, unauthorised program changes, ज़रूरी program changes न होना, और loss of data।
+
+<|emotion:determination|>ये risks mitigate न हों तो तीन impacts हैं, substantive checking बढ़ती है, automated controls पर reliance नहीं रहती, और internal financial controls की वजह से report modify हो सकती है।
+Controls तीन तरह के हैं, और general IT controls are policies and procedures that relate to many applications and support the effective functioning of application controls।
+इन pervasive or indirect controls के चार areas हैं data centre and network operations, program change, access security, और application system acquisition, development and maintenance।
+Application controls business process level पर automated या manual होते हैं, जैसे edit checks and validation of input data, sequence number checks, reasonableness checks और mandatory data fields।
+IT-dependent controls वो manual controls हैं जो system reports पर चलते हैं, और automated और IT-dependent दोनों तभी reliable हैं जब general IT controls effective हों।
+Manual elements वहाँ बेहतर हैं where judgment and discretion are required, जैसे large, unusual या non-recurring transactions, ऐसी errors जिन्हें predict करना मुश्किल हो, changing circumstances, और automated controls की monitoring।
+
+<|emotion:enthusiasm|>TapriNow के लाखों sales invoices के लिए लक्ष्मी पूरी file software में load करवाती हैं, और बंटी सिर्फ़ exceptions पढ़ते हैं।
+Data analytics की definition है, the combination of processes, tools and techniques that are used to tap vast amounts of electronic data to obtain meaningful information।
+इसके tools CAATs हैं, यानी Computer Assisted Auditing Techniques, जिनमें spreadsheets और IDEA and ACL जैसे specialised audit tools आते हैं।
+सात uses में पहले चार हैं completeness of data and population, sample selection, re-computation of balances, और reperformance of calculations।
+बाकी तीन हैं journal entry analysis, fraud investigation, और control deficiencies का impact, और digital audit में AI और data analytics planning से final opinion तक चलते हैं।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>इस chapter में चार या पाँच marks के cases और दो marks के MCQs आते हैं, जो अक्सर पूछते हैं कि facts में कौन सा risk, component या control है।
+ICAI ने तीन-तीन बार internal control के components, significant risks, materiality कहाँ apply होती है, और risk of material misstatement की definition पूछी है।
+IT में दो बार unmitigated IT risks का audit पर असर पूछा गया है, और classification वाले सवाल में हर control के सामने उसका type लिखिए।
+
+<|emotion:contemplation|>पहली गलती inherent और control risk की definitions उलटना है, और दूसरी ये लिखना कि risk high है तो detection risk भी high, जबकि दोनों उलटी दिशा में चलते हैं।
+तीसरी गलती materiality से नीचे के misstatements को अलग-अलग ignore करना है, जबकि test individually or in the aggregate है, और performance materiality हमेशा materiality से कम होती है।
+IT में input validation को general IT control लिखना ICAI का अपना trap है, और strong controls के बाद भी substantive procedures ज़रूरी रहते हैं।
+Answer provision, facts, analysis और conclusion में लिखिए, और risk वाले case का अंत detection risk को low रखने के तरीकों से कीजिए।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: audit risk, risk of material misstatement और detection risk का function है, और auditor सिर्फ़ detection risk बदल सकता है।
+Materiality benchmark पर percentage है, nature से भी तय होती है, और performance materiality उससे कम रखी जाती है।
+SA three fifteen entity को समझकर दो levels पर risks assess करता है, internal control के पाँच components हैं, और उसे management maintain करता है।
+Tests of controls पूरे period का evidence देते हैं, general IT controls बाकी IT controls को support करते हैं, और substantive procedures हर material item पर हमेशा होते हैं।
+
+अगले episode में लक्ष्मी की team Tapri के हर assertion के लिए सबूत जुटाएगी, यानी Paper five का chapter four, Audit Evidence।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

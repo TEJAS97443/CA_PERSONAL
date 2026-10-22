@@ -1,0 +1,287 @@
+                                                             Test Series: October, 2020
+                                 MOCK  TEST PAPER
+                            INTERMEDIATE (IPC): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                            Part I: Multiple Choice Questions
+                                                                 Total Marks: 15 Marks
+Question Nos. 1 to 5 belong to the case scenario and carries 2 marks each.
+Fit&Fine is one of the renowned gymnasium in South Delhi established in 2016. The gym is very famous for
+its health services, latest equipment, cordial environment, and experts. The Fit&Fine gym management has
+excellent arrangement for its customers as well as employees. A Dietician and a physician are also associated
+with gym during the gym timings of 5:00 am to 10:00 pm all days.
+On the occasion of Diwali in 2019, the gym also launched an online Fit&Fine Gym Aggregator service
+application to reach out and get connected to more customers through various gyms located in West and
+North Delhi. For its new e-business as online gym aggregator, Fit&Fine entered into various electronic
+agreements with many other gyms in West Delhi and North Delhi prescribing the specific terms and conditions
+of the agreement. All these gyms associated with Fit&Fine are required to provide fitness related best services
+to its customers.
+The services of various associated gyms can be availed by the customers either through the Gym Aggregator
+service application or through physical visit at the registered gyms in the app by paying onetime membership
+fees of ` 3000 and gets unique membership id and PIN number to avail the facilities. A member can either
+book for his/her physical visit or online session with any of these registered gyms associated with Fit&Fine
+using the membership id.
+1.  Though Fit&Fine gym and other registered gyms have excellent arrangements for health and safety of
+    its employees; yet the management of the gym remains concerned about any negligence that may occur
+    and the risks that can expose it to various fines and penalties posed by any regulatory agency. Which
+    type of business risk is the management here referring to?
+    (a) Strategic Risk
+    (b) Regulatory Risk
+    (c) Hazard Risk
+    (d) Operational Risk
+2.  The IT team managing the Fit&Fine Gym Aggregator application manages the MIS Report on various
+    parameters like – number of bookings for online sessions/physical meetings done each day, joining of
+    new members per month etc. The information so extracted through these MIS reports have following
+    criterions except one. Identify it.
+    (a) Relevant
+    (b) Accurate
+    (c) Timely
+    (d) Confidential
+
+3.  Fit&Fine gym provides Unique Id and PIN number as an access control mechanism to its customers to
+    avail the facilities provide through Gym aggregator service app. From the following controls, identify the
+    Application control under which this specific access control mechanism falls.
+    (a) Physical Control
+    (b) Boundary Control
+    (c) Communication Control
+    (d) Management Control
+4.  In purview of above case scenario, there can be a possibility that any registered gym with Fit&Fine Gym
+    aggregator online service may violate the terms and conditions of the agreement done between the two.
+    Which type of risk is associated with this e-Commerce transaction?
+    (a) Lack of authenticity of transaction
+    (b) Problem of anonymity
+    (c) Repudiation of contract
+    (d) Privacy and security
+5.  In purview of above case scenario, customer can pay its membership fees through credit card to
+    Fit&Fine. Which risk is taken care in case the banking system key control is established that transaction
+    cannot be made if the aggregate limit of out- standing amount exceeds the credit limit assigned to
+    customer?
+    (a) Credit Line setup is unauthorized and not in line with the bank’s policy.
+    (b) Credit Line setup can be breached.
+    (c) Masters defined for the customer are not in accordance with the Pre-Disbursement Certificate.
+    (d) Inaccurate reconciliations performed.                       (2 x 5 = 10 Marks)
+Question Nos. 6 to 10 carries 1 mark each.
+6.  Identify from the following controls of Information System that deals with organization’s policies,
+    procedure and planning.
+    (a) Management Controls
+    (b) Environmental Controls
+    (c) Access Controls
+    (d) Physical Controls
+7.  Mr. Neeraj is working on a project on healthcare system where he has to perform data mining on the
+    database of patients of last five years in ABC Hospital. The hospital provided him inconsistent data with
+    lots of errors and missing values. He has to apply various techniques to get rid of these anomalies.
+    Identify from the following process which he can use to get rid of these anomalies.
+    (a) Data Cleaning
+    (b) Data Selection
+    (c) Data Integration
+    (d) Data Transformation
+
+8.  Mr. X and Mr. Y are employees of XYZ Ltd. In the office during lunch time when Mr. Y was not on his
+    seat, Mr. X stole the pen drive of Mr. Y containing some confidential information from his system. Under
+    which of the following section of Information Technology Act, 2000, is Mr. X punishable?
+    (a) Section 66B
+    (b) Section 66C
+    (c) Section 66D
+    (d) Section 43
+9.  Which of the following is not true about cloud computing?
+    (a) Data and information can be accessed with minimal upfront spending in a pay-as-you-go approach.
+    (b) Getting more work done in less time with less resources are possible.
+    (c) Customers may have to face restrictions on the availability of applications, operating systems and
+        infrastructure options.
+    (d) It is feasible to confine within budgetary allocations and can be ahead of completion cycle times.
+10. The risk management strategy that is followed by an organization in case the impact and probability of
+    risk is very low. Which type of the risk management strategy would be followed in this case?
+    (a) Tolerate the risk.
+    (b) Terminate the risk.
+    (c) Share the risk.
+    (d) Treat the risk.                                              (1 x 5 = 5 Marks)
+                              Part II: Descriptive Questions
+                                                                 Total Marks: 35 Marks
+                             Question No. 1 is compulsory.
+                Attempt any three questions out of remaining four questions.
+1.  (a) Identify the controls that are designed to detect errors, omissions or malicious acts that occur and
+        report the occurrence and explain them.                            (3 Marks)
+    (b) Define the Process of Money Laundering.                            (2 Marks)
+2.  (a) Mr. X is the chief manager of ABC Ltd. - a shoe manufacturing company in New Delhi. He has put
+        a proposal to top management to implement ERP system to enhance the quality in production
+        across processes in company. The management asked him to prepare a report on how the quality
+        management module of ERP would help the company to accelerate its business processes.
+        Describe all the points that Mr. X may write in his report regarding quality Management Module of
+        ERP.                                                               (6 Marks)
+    (b) Mr. G has started his new business of homemade biscuits and cookies through online mode. He
+        has a website having detail of all its products and payment gateway. Identify different ways that
+        should be followed by him to protect his e-business from intrusion? (4 Marks)
+3.  (a) DEF Ltd., a wealth Management Company has its head office in Bengaluru and wants to set up a
+        new office at Mumbai. For the new setup, the DEF Ltd.’s managerial controls are required to be
+        enforced to ensure that the development, implementation, operation and maintenan ce of
+        information systems at Mumbai office is in planned and controlled manner. Determine all the
+        activities that deal with the Systems Development Management Controls that are responsible for
+
+        the functions concerned with analyzing, designing, building, implementing and maintaining
+        information systems.                                               (6 Marks)
+    (b) The organizations implementing ERP systems should keep abreast of the latest technological
+        developments and implementation which is required to survive and thrive. Enlist all the risks
+        associated with technological aspect of an ERP system.             (4 Marks)
+4.  (a) Mr. Amar runs a grocery shopping centre and uses only cash mode for the payments from his
+        customers. However, on regular demand of his customers, he wants to use digital mode of payment
+        also. As a novice, he worries about the security and hassles involved in digital mode of payment
+        as well. Enlist advantages and disadvantages of digital mode of payment for him to make him better
+        understand it.                                                     (6 Marks)
+    (b) ABC Company is having Internal Control System that provides it reasonable assurance about the
+        achievement of ABC’s objectives regarding reliability of financial reporting, effectiveness and
+        efficiency of operations. However, the company is not able to achieve its objectives. Write the
+        limitations of Internal Control System that hinder the success of ABC Company. (4 Marks)
+5.  (a) J&J Pvt. Ltd. wants to start its e-business in India. Enlist the positive impacts of IT Act, 2000 in
+        perspective of e-commerce in India that would help J&J Pvt. Ltd. to promote their business.
+                                                                           (6 Marks)
+    (b) ABC  is a newly established financial company that wants to obtain ISO 27001 certificate for
+        information security to mitigate the risks of information technology. Write all the sub -processes
+        included in implementation of Information Security.                (4 Marks)
+
+                           INTERMEDIATE  (NEW): GROUP – II
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                            Question 1 and 2 are compulsory.
+                Attempt any three questions out of remaining four questions.
+1.  (A) Aero Mind Bridge Technologies Ltd (AMBTL) is a software development company work as a
+        solution provider to airlines industry. The company was established more than a decade ago by
+        Mr. Pranshu Gupta having experience of working in United States of America (USA). His
+        entrepreneurial desires brought him back to India to promote Aero Mind Bridge Technologies Ltd
+        (AMBTL). The company started its operations with a meagre capital of ` 10 lakhs with limited
+        workforce. Currently, it enjoys a valuation of more than ` 50 crores. Almost everybody
+        acknowledged the competency of AMBTL in developing customised software for the airlines
+        industry.
+        The high growth of the company was mainly on account of the heavy inflows of the funds in the
+        airlines industry from various big business houses that have diversified into airlines industry.
+        Currently, these business houses were in the manufacturing of FMCG, textiles, packaging etc.
+        and having good expertise and uniqueness in these industries.
+        However, AMBTL saw stagnation in last three years. The order position was shrinking day by
+        day. The margins were also reducing. Last year was particularly bad for the AMBTL and its
+        annual sales reduced by 20 % for the first time since its inception.
+        Most of the business houses that had entered in the airlines industry had less knowledge and
+        experience in the industry. However, their desire to diversify and seeing new opportunity in the
+        airlines industry prompted them to invest heavily into the industry.
+        However, things did not turn out to be as expected. The tough competition between several
+        players, reduction in the fare by railways and high prices of aviation fuel created problems for the
+        industry. The sector was not able to generate reasonable profits thus resulting difficulty in
+        maintaining operations. They were in need for hard to come by capital. Lately, the airlines
+        industry is witnessing some consolidation with companies planning for mergers or even
+        contemplating closures.
+        The general global recession also resulted in the reduction of travel expenditure of corporates
+        resulting in decrease in the order position of AMBTL.
+        Based on the above Case Scenario, answer the Multiple Choice Questions which are as follows:
+        Multiple Choice Questions (MCQs)
+        (i) Identify the nature of diversification by the business houses entering into airlines industry.
+            (a) Concentric diversification
+            (b) Conglomerate diversification
+            (c) Vertically integrated diversification
+            (d) Horizontal integrated diversification                       (1 Mark)
+        (ii) The big business houses were in the manufacturing of FMCG, textiles, packaging etc. and
+            having good expertise and uniqueness in these industries. But they are not performing well
+            in airlines industry because of
+
+            (a) Non availability of funds
+            (b) Incompetent workforce
+            (c) Rapid technological changes
+            (d) Lacking core competence                                     (1 Mark)
+        (iii) According to Michael Porter’s model, identify the competitive pressures faced by airlines
+            industry as per the given scenario.
+            1.  Competitive pressure among rival sellers
+            2.  Competitive pressure from suppliers
+            3.  Competitive pressure from substitute products
+            4.  Competitive pressure from buyers
+            5.  Competitive pressure from new entrants
+            Select the correct combination in the above scenario:
+            (a) 1, 2 & 3
+            (b) 1, 3 & 4
+            (c) 2, 3 & 5
+            (d) 1, 4 & 5                                                    (1 Mark)
+        (iv) AMBTL can be identified as a Star as per BCG’s Growth Matrix, basis the rapid growth it
+            has shown to maintain market and fuel the growth potential. For last three years, AMBTL
+            turn into, as per the BCG matrix, when its growth slows down?
+            (a) Dog
+            (b) Question Mark
+            (c) Will remain a star
+            (d) Cash Cow                                                   (2 Marks)
+        (v) Mr. Pranshu Gupta as a core strategist of AMBTL, authorised for bringing about strategic
+            change in his company, how he will initiate “unfreezing of the situation”?
+            (a) Promoting new ideas throughout the organization
+            (b) Promoting compliance throughout the organization
+            (c) Promoting change in process throughout the organization
+            (d) None of the above                                           (1 Mark)
+    (B) Members of Infinite Care, an NGO, have met and determined that they need to for mulate a
+        philosophical basis for their activities. Thereby they have come up with a statement: -
+        “Provide children till age 12, living in homeless or low-income situations, with the essential items
+        they need to thrive – at home, at school and at play”
+        Identify the area of strategic intent, which the members have stated?
+        (a) Vision
+        (b) Business Definition
+        (c) Goal and Objective
+
+        (d) Mission                                                        (2 Marks)
+    (C) Sport Spirit (SS) is a medium sized sports retailer. It currently operates three shops in the city at
+        centre locations. The management of Sport Spirit (SS) has a very careful recruitment policy; any
+        applicant must have a ‘passion for sport’. Which one of the following functional strategies would
+        best describe by SS?
+        (a) Human Resource Strategy
+        (b) Financial Strategy
+        (c) Operation Strategy
+        (d) Marketing Strategy                                              (1 Mark)
+    (D) Dee Limited is an international clothing retailer. The company is making the following decisions:
+        i.  Should another range of shops be established?
+        ii. Should the company float more share capital?
+        iii. How will the premises be fitted out for the new range of shops?
+        Which of the above decisions will be taken by corporate level managers?
+        (a) Only (i)
+        (b) Only (ii)
+        (c) (i) & (ii)
+        (d) (ii) & (iii)                                                    (1 Mark)
+    (E) ‘Strategic group mapping’ helps in-
+        (a) Identifying the strongest rival companies
+        (b) Identifying weakest rival companies
+        (c) Identifying weakest and strongest rival companies
+        (d) None of the above                                               (1 Mark)
+    (F) Low cost, differentiation and focus are:
+        (a) SBU level strategies
+        (b) Corporate level strategies
+        (c) Business level strategies
+        (d) Functional level strategies                                     (1 Mark)
+    (G) Supply chain refers to the linkages between:
+        (a) Suppliers
+        (b) Customers
+        (c) Manufacturers
+        (d) All the above                                                   (1 Mark)
+
+    (H) When  two organisations combine to increase their strength and financial gains along with
+        reducing competition is called-----------.
+        (a) Hostile takeover
+        (b) Liquidation
+        (c) Merger
+        (d) Acquisition                                                     (1 Mark)
+    (I) Which of the following would be chosen by the core strategist to implement operational control?
+        (a) Premise Control
+        (b) Special Alert Control
+        (c) Implementation Control
+        (d) Budgetary Control                                               (1 Mark)
+2.  Delta Co. is an organization specializing in Information Technology enabled Services (ITeS) and
+    Communications business. Last year, the organization had successfully integrated an Artificial
+    Intelligence (AI) tool named ‘Zeus’ into the existing ERP system. The AI tool, using Deep Learning
+    technique provided a digital leap transformation in various business processe s and operations. It has
+    significantly diminished the role played by specialist managers of the middle management. This
+    technological tool in addition to saving organizational costs by replacing many tasks of the middle
+    management has also served as a link between top and bottom levels in the organization and assists
+    in quick decision making. The skewed middle level managers now perform cross-functional duties.
+    Which type of organizational structure is the company transitioning into? (5 Marks)
+3.  (a) Write short note on expansion through acquisitions and mergers.    (5 Marks)
+    (b) How would you argue that Research and Development Personnel are important for effective
+        strategy implementation?                                           (5 Marks)
+4.  (a) What benefits accrue by following a strategic approach to managing? (5 Marks)
+    (b) Mission statement of a company focuses on the question: ‘who we are’ and ‘what we do’. Explain
+        briefly.                                                           (5 Marks)
+5.  (a) Identify three aspects of impact of IT Systems on Business Process Reengineering and list three
+        areas where it provides business value.                            (5 Marks)
+    (b) Distinguish between Cost Leadership and Differentiation Strategies. (5 Marks)
+6.  (a) Explain the concept of Experience Curve and highlight its relevance in strategic management.
+                                                                            (5 Marks)
+    (b) What is corporate culture? How is it both strength and weakness of an organisation? (5 Marks)

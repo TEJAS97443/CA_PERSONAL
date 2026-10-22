@@ -1,0 +1,107 @@
+# P5-04 · audit-evidence · Audit Evidence: कितना, कैसा और कहाँ से
+
+## Introduction: risks से evidence तक
+
+<|emotion:enthusiasm|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+आज Paper five का chapter four है, Audit Evidence, जिसे ICAI ने पैंसठ documents में पूछा है, जिनमें सत्रह exam papers हैं।
+पिछले episode में Iyer and Associates ने Tapri के risks assess करके SA three thirty के further audit procedures design किए।
+अब लक्ष्मी की team उन procedures से evidence इकट्ठा करती है, और सवाल है कि कितना चाहिए, कैसा हो और कहाँ से आए।
+<|emotion:determination|>Episode के आख़िर तक आप ग्यारह sub-topics के points ICAI के शब्दों और order में लिख पाएँगे।
+
+## SA 500 and assertions: evidence कितना और कैसा
+
+<|emotion:contemplation|>SA five hundred, Audit Evidence, के मुताबिक़ audit evidence है the information used by the auditor in arriving at the conclusions on which the auditor's opinion is based.
+इसमें accounting records और other information दोनों आते हैं, ये cumulative होता है, और contradicting information और कभी-कभी absence of information भी evidence है।
+<|prosody:speed_slow|>ICAI के words में sufficiency is the measure of the quantity of audit evidence, और appropriateness is the measure of the quality, that is, its relevance and its reliability.
+Sufficiency के तीन factors हैं materiality, risk of material misstatement, और size and characteristics of the population, और हर एक बढ़े तो ज़्यादा evidence चाहिए।
+
+<|emotion:determination|>Quality ऊँची हो तो कम evidence चल सकता है, पर more audit evidence may not compensate for its poor quality.
+Reliability के पाँच generalisations में independent outside source, effective controls, auditor का direct evidence, documentary form और original documents ज़्यादा reliable हैं।
+<|emotion:amusement|>बंटी Chai Junction की एक बड़ी sale पर चार सौ pages की box file लाया, पर हर challan Tapri का अपना था, यानी एक ही आवाज़ की चार सौ copies।
+Internal या external का test origin है, इसलिए supplier का purchase invoice Tapri के system में scan होकर भी external रहता है।
+
+<|emotion:contemplation|>Evidence की relevance, where appropriate, assertion से जुड़ी होती है, और assertions are representations by management, explicit or otherwise, that are embodied in the financial statements.
+Transactions के पाँच assertions हैं occurrence, completeness, accuracy, cut-off और classification, और account balances के चार हैं existence, rights and obligations, completeness, और valuation and allocation।
+Disclosure के चार assertions हैं occurrence and rights and obligations, completeness, classification and understandability, और accuracy and valuation।
+Procedures सात हैं, inspection, observation, external confirmation, recalculation, reperformance, analytical procedures और inquiry, और inquiry alone ordinarily misstatement की absence या controls की effectiveness का sufficient evidence नहीं देती।
+Dewas warehouse में cartons गिनने से existence साबित होती है, ownership या valuation नहीं, और reperformance सिर्फ़ arithmetic नहीं, entity का procedure या control खुद दोबारा करना है।
+
+## SA 530 and SA 520: sampling और analytical procedures
+
+<|emotion:contemplation|>अब सवाल है कि Tapri के चार लाख अस्सी हज़ार café invoices में से कौन से test हों, और यहाँ audit sampling वाला SA five thirty लगता है।
+Audit sampling है the application of audit procedures to less than one hundred percent of items within a population of audit relevance such that all sampling units have a chance of selection.
+मक़सद है पूरी population पर conclusions के लिए a reasonable basis, और इसके लिए sample representative होना चाहिए।
+Sampling risk है sample का conclusion पूरी population के conclusion से अलग निकलना, और non-sampling risk किसी दूसरे कारण से गलत conclusion।
+Statistical sampling में random selection और probability theory से evaluation दोनों होते हैं, और sample size इसे non-statistical से अलग करने का valid criterion नहीं है।
+
+<|emotion:determination|>Controls पर ज़्यादा reliance, ज़्यादा expected errors, ऊँचा risk और ज़्यादा desired assurance, ये sample size बढ़ाते हैं।
+ऊँचा tolerable rate या tolerable misstatement, उसी assertion पर दूसरे substantive procedures, और stratification sample घटाते हैं, और बड़ी population का असर negligible है।
+Selection के पाँच methods हैं random, systematic, monetary unit, haphazard और block, और block से पूरी population पर inference rarely appropriate होता है।
+Systematic में interval है population के units divided by sample size, और pattern से बचने के लिए एक से ज़्यादा random starts लीजिए।
+Tests of details में misstatements project करना ज़रूरी है, tests of controls में sample deviation rate ही projected rate है, और anomaly के लिए high degree of certainty चाहिए।
+
+<|emotion:contemplation|>SA five twenty, Analytical Procedures, में analytical procedures means evaluations of financial information through analysis of plausible relationships among both financial and non-financial data.
+इसमें उन fluctuations की investigation भी आती है जो other relevant information से inconsistent हों या expected values से बहुत अलग हों।
+ये planning और completion पर required हैं, और substantive analytical procedures large volumes of transactions that tend to be predictable over time पर ज़्यादा applicable हैं।
+Trend analysis prior periods से, ratio analysis एक account को दूसरे से, reasonableness test उसी period के non-financial data से, और structural modelling statistical model से compare करता है।
+
+Analytical procedure में gross profit ratio पिछले साल से गिरे, तो कारण pilferage of inventories, sale proceeds का misappropriation, या selling price बढ़ाए बिना cost of sales बढ़ना हो सकता है।
+<|emotion:amusement|>Tapri के चालीस flagship cafés का दूध आठ करोड़ दस लाख रुपये का था, जबकि बिके cups और recipe से expectation लगभग सात करोड़ थी, और केसर बोले, सब adjust हो जाएगा।
+ऐसे फ़र्क की investigation दो limbs में होती है, inquiring of management and obtaining appropriate audit evidence relevant to management's responses, और performing other audit procedures as necessary।
+
+## SA 501, 505, 510 and 550: खास items, बाहर की आवाज़ और रिश्ते
+
+<|emotion:determination|>कुछ items के लिए SA five oh one, Audit Evidence: Specific Considerations for Selected Items, inventory की existence and condition, litigation की completeness, और segments की presentation and disclosure देखता है।
+Inventory material हो तो auditor count में attend करता है, unless impracticable, यानी instructions evaluate करना, count observe करना, inventory inspect करना और test counts करना।
+Unforeseen कारण से न पहुँच पाए तो alternative date पर counts और intervening transactions, impracticable हो तो alternative procedures, वरना SA seven oh five के तहत modified opinion।
+General inconvenience to the auditor is not sufficient, और BrewBucks के मुकदमे जैसे litigation पर risk हो तो external legal counsel को letter of inquiry जाता है।
+Management lawyers तक access न दे और alternatives fail हों तो opinion modify होती है, और segments पर responsibility financial statements taken as a whole के relation में है।
+
+<|emotion:contemplation|>SA five oh five, External Confirmations, में external confirmation है audit evidence obtained as a direct written response to the auditor from a third party.
+The auditor shall maintain control over external confirmation requests, यानी information तय करना, confirming party चुनना, request design करना, और भेजना और follow-up करना।
+Negative request significantly less persuasive evidence देता है, इसलिए वो sole substantive procedure तभी बनता है जब risk low हो और controls tested हों।
+साथ ही बहुत सारे छोटे homogeneous items, बहुत कम expected exceptions, और recipients के ignore करने का कोई कारण न होना भी ज़रूरी है।
+Management refuse करे तो auditor reasons जाँचता है, fraud risk समेत implications देखता है और alternative procedures करता है, वरना SA two sixty और SA seven oh five।
+
+<|emotion:contemplation|>SA five ten, Initial Audit Engagements, Opening Balances, में initial audit engagement वो है जहाँ prior period audited न हो, या predecessor auditor ने audit किया हो।
+Tapri Cold Chain का पिछला auditor दूसरी firm थी, तो brought forward balances और policies जाँचकर predecessor के statements, इस साल के procedures या specific procedures से evidence लिया जाता है।
+Evidence न मिले तो qualified या disclaimer, और misstatement या inconsistent policies ठीक से dealt न हों तो qualified या adverse opinion बनती है।
+
+SA five fifty, Related Parties, में answer इससे शुरू होता है कि many related party transactions are in the normal course of business, और उनमें higher risk ज़रूरी नहीं।
+Risk तब बढ़ सकता है जब structures complex हों, information systems उन्हें न पकड़ें, या deal normal market terms पर न हो, जैसे Mehra Masala Traders का महँगा masala।
+Auditor related parties की identity, relationships की nature और transactions का type and purpose पूछता है, और tax returns, shareholder registers जैसे records पर alert रहता है।
+
+## SA 610, IFC and audit trail: दूसरों का काम और controls
+
+<|emotion:determination|>Evidence internal auditors से भी आ सकता है, पर SA six ten, Using the Work of Internal Auditors, कहता है कि the external auditor has sole responsibility for the audit opinion expressed।
+Work तभी use होता है जब objectivity, competence, और systematic and disciplined approach, including quality control, तीनों मौजूद हों।
+Direct assistance में significant judgments नहीं सौंपे जाते, जैसे Dewas का impairment estimate, और पहले entity और internal auditors से written agreements लिए जाते हैं।
+
+IFC है reliable financial reporting, effective and efficient operations, compliance with laws, safeguarding of assets, और frauds की prevention and detection के लिए policies and procedures।
+Section one thirty-four में listed company के directors, one seventy-seven में audit committee, one forty-nine में independent directors, और one forty-three, sub-section three, clause i में auditor की ज़िम्मेदारी है।
+ये reporting उन private companies पर नहीं लगती जो One Person Company या small company हों, या जिनका turnover पचास करोड़ से कम और borrowings साल भर पच्चीस करोड़ से कम रहें।
+<|emotion:contemplation|>IFC wider term है और ICFR narrower, और ICFR पर opinion in addition to and distinct from the opinion on the financial statements होती है।
+
+Audit trail is a documented flow of a transaction, और इससे auditor देखता है कि controls चले या नहीं और entry authorised person ने की या नहीं।
+Rule eleven में auditor बताता है कि software में audit trail, यानी edit log, है, operated throughout the year for all transactions, tamper नहीं हुआ, और preserved है।
+IFC की limits और Rule eleven की reporting Study Material और January twenty twenty-seven के Statutory Update से एक बार ज़रूर मिला लीजिए।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>इस chapter में ज़्यादातर दो marks के case MCQs और चार या पाँच marks के descriptive सवाल आते हैं, सबसे ज़्यादा sampling, SA five hundred और analytical procedures पर।
+दोहराए गए सवालों में gross profit ratio का गिरना, evidence का cumulative nature, SA five twenty की definition, opening balances के procedures और misstatements का projection हैं।
+<|emotion:contemplation|>एक आम गलती sufficiency के factors में nature of evidence जोड़ना है, और दूसरी stratification को homogeneous population का tool बताना, जबकि वो heterogeneous population बाँटता है।
+
+बाकी traps हैं predecessor के audit को छूट मानना, related party transactions को हमेशा high risk कहना, और negative request पर चुप्पी को agreement गिनना।
+Case answer चार हिस्सों में लिखिए: ICAI के शब्दों में relevant provision, facts, हर fact का analysis, और आगे के procedures के साथ साफ़ conclusion।
+Assertion वाले सवाल में नाम, ICAI का meaning और facts से एक line लिखिए, क्योंकि one-word answers ज़्यादातर marks खो देते हैं।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: evidence sufficient हो, यानी quantity, और appropriate हो, यानी relevance और reliability वाली quality।
+Assertions तीन groups में हैं, procedures सात हैं, sample representative हो, और analytical procedures में हर बड़ा फ़र्क evidence के साथ investigate होता है।
+SA five oh one count, lawyers और segments देखता है, SA five oh five में control auditor का है, और SA five ten में predecessor का audit छूट नहीं है।
+Related parties में normal course पहले लिखिए, internal audit से sole responsibility नहीं बँटती, और IFC wider है जबकि ICFR narrower।
+
+अगले episode में यही evidence Tapri के हर item पर लगेगा, यानी Paper five का chapter five, Audit of Items of Financial Statements।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

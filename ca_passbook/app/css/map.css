@@ -1,0 +1,498 @@
+/* PassBook — content map (/map) and the GA.mapviz components (mini constellation / treemap on the subject page and anywhere else).
+   v3 (docs/FRONTEND_V3_SPEC.md section 6): page header + sliding lens switcher, the lens body and its side panel as solid cards (hubs.css
+   .hb-* language), calm segmented pills and 44-px inputs. Colour that encodes data uses the --viz-* tokens through --sc (one per subject
+   family, set by GA.mapviz.seriesOf); everything else is neutral or primary; the exam matrix is one sequential primary ramp.
+   No raw colours, light + dark parity, prefers-reduced-motion switches every animation off. */
+
+.mv { --xm-lo: var(--surface-2); --xm-hi: var(--accent); --mv-node: color-mix(in srgb, var(--ink) 42%, transparent); --mv-edge: color-mix(in srgb, var(--ink) 16%, transparent);
+  --mv-card: var(--surface); --mv-r: var(--r-lg, 22px); --tip-bg: var(--ink); --tip-ink: var(--surface); --tip-line: transparent; }
+[data-theme="dark"] .mv { --mv-node: color-mix(in srgb, var(--ink) 46%, transparent); --mv-edge: color-mix(in srgb, var(--ink) 17%, transparent); }
+
+/* ===================================================================== page header + lens switcher (sliding primary marker) */
+.mapv { display: grid; grid-template-columns: minmax(0, 1fr); }
+.mapv-head { align-items: flex-end; }
+.mapv-tabs { position: relative; flex: none; isolation: isolate; }
+.mapv .mapv-tabs button { position: relative; z-index: 1; height: 40px; padding: 0 14px 0 12px; font-size: 14px; gap: 8px; }
+.mapv-tabs button svg.i { width: 17px; height: 17px; }
+.mapv-tabs button kbd { padding: 2px 5px; font-size: 10.5px; border-radius: 5px; border-bottom-width: 1px; color: var(--muted); }
+.mapv .mapv-tabs button.on, .mapv .mapv-tabs button[aria-selected="true"] { background: transparent; color: var(--accent-ink); }
+.mapv-tabs button.on kbd { background: color-mix(in srgb, var(--accent-ink) 16%, transparent); border-color: transparent; color: inherit; }
+.mapv .mapv-tabs button:not(.on):hover { background: var(--surface-2); color: var(--ink); }
+.mapv-ind { position: absolute; z-index: 0; left: 0; top: 4px; height: 40px; width: 0; border-radius: var(--r-xs); background: var(--accent); box-shadow: none;
+  transition: transform .35s var(--hb-spring, cubic-bezier(.34, 1.5, .6, 1)), width .35s var(--hb-spring, cubic-bezier(.34, 1.5, .6, 1)); pointer-events: none; }
+.mapv-tabs.hb-seg { overflow: visible; }
+.mapv-copy { margin: 0 0 16px; max-width: 86ch; color: var(--muted); font-size: 14px; line-height: 1.55; text-wrap: pretty; }
+.mapv-copy b { color: var(--ink-2); font-weight: 700; }
+@media (max-width: 700px) {
+  .mapv-tabs { width: 100%; } .mapv .mapv-tabs button { flex: 1 1 0; justify-content: center; padding: 0 8px; } .mapv-tabs button kbd { display: none; }
+}
+@media (max-width: 420px) { .mapv-tabs button svg.i { display: none; } .mapv .mapv-tabs button { font-size: 13.5px; } }
+
+/* ===================================================================== shared lens chrome: toolbar of pills and inputs */
+.mv-full { container: mv / inline-size; }
+.mv-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-bottom: 12px; }
+.mv-ctl { display: inline-flex; align-items: center; gap: 9px; min-width: 0; }
+.mv-lbl { font-size: 13px; font-weight: 650; color: var(--muted); white-space: nowrap; }
+/* the lens toolbars' 'Size by' and preset switches are the shared segmented control (components.css .seg: tint selected) */
+.mv .seg.mv-seg button, .mv .seg.xm-pre button { padding: 0 12px; }
+.mv-sel select.input { height: 44px; width: auto; max-width: 240px; padding: 0 34px 0 14px; border-radius: 13px; border: 1.5px solid var(--line-2); background-color: var(--surface); font-size: 14px; font-weight: 600; }
+.mv-sel select.input:hover { border-color: var(--accent); }
+.mv-vt { margin-left: auto; }
+.mv-findw { position: relative; flex: 1 1 220px; max-width: 360px; }
+.mv-find { display: flex; align-items: center; gap: 10px; height: 44px; padding: 0 14px; border: 1.5px solid var(--line-2); border-radius: 13px; background: var(--surface); color: var(--muted); transition: border-color .15s, box-shadow .15s; }
+.mv-find:hover { border-color: var(--accent); }
+.mv-find:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft-2); }
+.mv-find input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: transparent; color: var(--ink); font-size: 14px; font-weight: 550; }
+.mv-find input::placeholder { color: var(--muted); font-weight: 500; }
+.mv-find input::-webkit-search-cancel-button { display: none; }
+.mv-opts { position: absolute; left: 0; right: 0; top: calc(100% + 8px); z-index: 60; margin: 0; padding: 8px; list-style: none; max-height: 340px; overflow: auto;
+  background: var(--surface); border: 1.5px solid var(--line-2); border-radius: var(--r); box-shadow: var(--shadow-2); }
+.mv-opts li { display: grid; grid-template-columns: 9px minmax(0, 1fr); align-items: center; column-gap: 11px; padding: 9px 10px; border-radius: 11px; cursor: pointer; font-size: 13.5px; font-weight: 600; }
+.mv-opts li small { grid-column: 2; color: var(--muted); font-size: 12px; font-weight: 500; }
+.mv-opts li.on, .mv-opts li:hover { background: var(--accent-soft); }
+.mv-dot { display: inline-block; width: 9px; height: 9px; border-radius: 3px; flex: none; background: var(--sc, var(--accent)); }
+
+/* the lens body is a solid card, its side panel another */
+.mv-grid { display: grid; grid-template-columns: minmax(0, 1fr) 332px; gap: 12px; align-items: start; }
+.mv-main { min-width: 0; padding: 16px 16px 14px; border-radius: var(--mv-r); background: var(--mv-card); box-shadow: var(--lift); }
+.mv-head { display: grid; gap: 4px; margin: 0 2px 12px; }
+.mv-note { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+.mv-keys { margin: 10px 2px 0; font-size: 12px; color: var(--muted); }
+@media (pointer: coarse) { .mv-keys { display: none; } }
+.mv-crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 2px; font-size: 14px; min-height: 34px; }
+.mv-crumbs svg.i { color: var(--faint); font-size: 13px; }
+.mv-crumbs button { border: 0; background: none; color: var(--ink-2); font-weight: 650; padding: 5px 8px; border-radius: 9px; border-bottom: 0; }
+.mv-crumbs button:hover { background: var(--surface-2); color: var(--ink); }
+.mv-crumbs b { display: inline-flex; align-items: center; gap: 8px; padding: 5px 8px; font-weight: 700; font-size: 15px; letter-spacing: -.01em; color: var(--ink); }
+.mv-crumbs b[style*="--sc"]::before { content: ""; width: 9px; height: 9px; border-radius: 3px; background: var(--sc); }
+.mv-crumbs .mv-upb { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; height: 34px; padding: 0 12px; color: var(--ink); border-radius: 11px; background: var(--surface); box-shadow: inset 0 0 0 1.5px var(--line-2); font-size: 13px; font-weight: 650; }
+.mv-crumbs .mv-upb:hover { background: var(--surface-2); }
+/* series legend under the full syllabus treemap */
+.mv-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 12px 2px 0; padding: 0; list-style: none; font-size: 12.5px; font-weight: 600; color: var(--ink-2); }
+.mv-legend li { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+.mv-legend small { font-weight: 500; color: var(--muted); }
+
+/* tooltip (one per mount, follows the pointer or the focused mark): inverted surface, like the toast */
+.mv-tip { position: fixed; left: 0; top: 0; z-index: 400; max-width: min(290px, calc(100vw - 16px)); padding: 10px 13px; border-radius: 13px; pointer-events: none;
+  background: var(--tip-bg, var(--ink)); color: var(--tip-ink, var(--surface)); box-shadow: var(--shadow-2);
+  font: 550 12.5px/1.45 var(--font-ui); opacity: 0; transition: opacity .12s; font-variant-numeric: tabular-nums; }
+.mv-tip.on { opacity: 1; }
+.mv-tip { --tip-bg: var(--ink); --tip-ink: var(--surface); }
+.mv-tv b { font-size: 18px; font-weight: 700; letter-spacing: -.03em; }
+.mv-tv span { color: color-mix(in srgb, var(--tip-ink) 72%, transparent); font-weight: 600; }
+.mv-tt { font-weight: 700; margin: 2px 0 3px; }
+.mv-ts { color: color-mix(in srgb, var(--tip-ink) 74%, transparent); font-size: 12px; }
+
+/* ===================================================================== side panel: a card with soft rows */
+.mv-panel { position: sticky; top: calc(var(--topbar, 64px) + 14px); max-height: calc(100vh - var(--topbar, 64px) - 28px); overflow: auto; overscroll-behavior: contain;
+  padding: 20px 20px 18px; border-radius: var(--mv-r); background: var(--mv-card); box-shadow: var(--lift); scrollbar-width: thin; }
+.mv-pk { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 13px; font-weight: 700; line-height: 1.4; color: var(--muted); }
+.mv-ph { font-size: 21px; line-height: 1.2; letter-spacing: -.025em; font-weight: 700; margin: 6px 0 12px; text-wrap: balance; }
+.mv-pp { margin: 0 0 14px; font-size: 13.5px; line-height: 1.55; color: var(--ink-2); text-wrap: pretty; }
+.mv-pp b { color: var(--ink); }
+.mv-pm { margin: 8px 0 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+.mv-pm .dotl, .mv-pk .dotl { font-weight: 600; }
+.mv-you { margin: -4px 0 12px; } .mv-you b { color: var(--ink); font-weight: 750; }
+.mv-ps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin: 0 0 14px; padding: 0; border: 0; }
+.mv-ps > div { min-width: 0; padding: 9px 7px 8px; border-radius: var(--r-sm); background: var(--surface-2); }
+.mv-ps dd { margin: 0; font-size: 16.5px; font-weight: 700; letter-spacing: -.03em; line-height: 1.15; font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mv-ps dd small { font-size: 11.5px; font-weight: 650; color: var(--muted); letter-spacing: 0; }
+.mv-ps dt { margin-top: 2px; font-size: 11.5px; font-weight: 600; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mv-yrs { margin: 0 0 16px; padding: 11px 12px 9px; border-radius: 14px; background: var(--surface-2); }
+.mv-yh { display: flex; justify-content: space-between; gap: 8px; margin-bottom: 7px; font-size: 12px; font-weight: 700; color: var(--ink-2); }
+.mv-yh span:last-child { font-weight: 550; color: var(--muted); }
+.mv-yrs svg { display: block; width: 100%; height: 46px; }
+.mv-yb { fill: var(--accent); }
+.mv-yb.z, .mv-yb-na { fill: var(--line-2); }
+.mv-yb-hit { fill: transparent; }
+.mv-yrs g:hover .mv-yb { fill: var(--ink); }
+.mv-yrs figcaption { display: flex; justify-content: space-between; gap: 8px; margin-top: 4px; font: 600 10.5px var(--font-mono); color: var(--muted); }
+/* the panel's one main action (a sub-topic's lesson): the screen's .pop CTA */
+.mv-panel .btn.mv-go { width: 100%; justify-content: flex-start; margin: 0 0 8px; }
+.mv-panel .btn.mv-go small { margin-left: auto; font-size: 12.5px; font-weight: 650; }
+.mv-panel .btn.mv-go > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mv-panel .btn.mv-go.two { max-width: none; } .mv-panel .btn.mv-go.two small { margin: 0 0 2px; font-size: 12px; } .mv-panel .mv-tops + .btn.mv-go { margin-top: 16px; }
+/* the overview's 'Zoom into <subject>': a plain button under the coral (P0-08) */
+.mv-panel .btn.mv-zoom { width: 100%; justify-content: flex-start; margin: 0 0 8px; }
+.mv-panel .btn.mv-zoom > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; text-align: left; }
+.mv-panel .btn.mv-zoom > svg.i { flex: none; }
+/* the exam lens's coral sits after its notes (D18: one per screen) */
+.xm-go { display: flex; align-items: center; }
+.xm-go .btn.mv-go { width: 100%; max-width: none; justify-content: flex-start; gap: 12px; }
+.mv-start { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: 10px; margin: 0 0 6px; padding: 12px 13px; border-radius: 14px; background: var(--surface-2);
+  color: var(--ink); text-decoration: none; transition: background-color .15s; }
+.mv-start:hover { background: var(--surface-3); }
+.mv-start em { display: block; font-style: normal; font-size: 12px; font-weight: 700; color: var(--accent); }
+.mv-start b { display: block; font-size: 14px; font-weight: 700; line-height: 1.35; }
+.mv-start small { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.mv-start svg.i { color: var(--muted); }
+.mv-sec { margin-top: 16px; }
+.mv-sec h3 { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin: 0 0 6px; font-size: 13.5px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); }
+.mv-sec h3 small { font-weight: 550; font-size: 12px; color: var(--muted); text-align: right; white-space: nowrap; }
+.mv-sec .link, .mv-panel > .link { display: inline-flex; align-items: center; gap: 6px; margin: 6px 0 0 2px; padding-bottom: 1px; border-bottom: 2px solid var(--accent); font-size: 13px; font-weight: 700; color: var(--ink); }
+.mv-panel .btns { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
+.mv-ls { list-style: none; margin: 0 -8px 4px; padding: 0; display: grid; gap: 1px; }
+.mv-ls a, .mv-ls button { display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; align-items: center; gap: 9px; width: 100%; padding: 8px; border: 0; border-radius: 11px;
+  background: none; text-align: left; font-size: 13px; font-weight: 600; line-height: 1.35; color: var(--ink-2); text-decoration: none; cursor: pointer; transition: background-color .15s; }
+.mv-ls a:hover, .mv-ls button:hover { color: var(--ink); background: var(--surface-2); }
+.mv-ls a:focus-visible, .mv-ls button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.mv-ls small { color: var(--muted); font-size: 12px; font-weight: 550; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.mv-ls svg.i { color: var(--accent); font-size: 14px; }
+.mv-ls em { font-style: normal; font-size: 11.5px; font-weight: 750; color: var(--accent); white-space: nowrap; margin-left: 4px; }
+.mv-ls a.done > span { color: var(--muted); }
+.mv-ls .mv-dot { justify-self: center; }
+.mv-qs a { grid-template-columns: minmax(0, 1fr) auto; }
+/* lab rows: the description is visible text under the name (P1-55) */
+.mv-labs a { grid-template-columns: 14px minmax(0, 1fr); align-items: start; }
+.mv-labs a > svg.i { margin-top: 2px; }
+.mv-lab-t { display: block; color: var(--ink); }
+.mv-ls small.mv-lab-d { display: block; margin-top: 2px; font-size: 12px; font-weight: 500; line-height: 1.45; white-space: normal; color: var(--muted); }
+.mv-sj.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 4px; }
+.mv-st { justify-self: center; width: 9px; height: 9px; border-radius: 50%; box-shadow: inset 0 0 0 1.6px color-mix(in srgb, var(--ink) 32%, transparent); flex: none; }
+.mv-st.on { background: var(--ok); box-shadow: none; }
+.mv-tops { list-style: none; margin: 0 -8px; padding: 0; display: grid; gap: 1px; }
+.mv-top { display: grid; grid-template-columns: 9px minmax(0, 1fr) auto; grid-template-rows: auto auto; align-items: center; column-gap: 10px; row-gap: 6px; width: 100%; padding: 9px 8px;
+  border: 0; border-radius: 11px; background: none; text-align: left; font-size: 13px; font-weight: 600; line-height: 1.3; color: var(--ink-2); cursor: pointer; transition: background-color .15s; }
+.mv-top:hover { color: var(--ink); background: var(--surface-2); }
+.mv-top:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.mv-top b { font-size: 12.5px; font-variant-numeric: tabular-nums; font-weight: 750; color: var(--ink); white-space: nowrap; }
+.mv-tb { grid-column: 2 / -1; height: 5px; border-radius: 99px; background: var(--surface-3); overflow: hidden; }
+.mv-tb i { display: block; height: 100%; border-radius: 99px; background: var(--accent); }
+
+/* ===================================================================== treemap (full + mini): the series colour (--sc, a --viz-* token) is data;
+   cells are tints of it on the card surface (pastel in light, muted in dark), labels in --ink / --ink-2 (AA on every tint) */
+.tm { position: relative; overflow: hidden; border-radius: 14px; background: var(--mv-card, var(--surface)); isolation: isolate; contain: layout paint; --tmA: 20%; --tmB: 25%; --tmC: 30%; --tmG: 7%; --tmBase: var(--mv-card, var(--surface)); }
+/* P2-06: tint strength per series, so the rendered fills of any two series differ by ΔE2000 >= 8 at every pair of tint steps (A, B = 1.25 A,
+   C = 1.5 A; neighbours can sit on different steps), with --ink labels >= 7:1 and --ink-2 values >= 4.5:1 on every fill (tests/mapviz.test.js
+   computes all of it from this file and base.css). Light: cobalt 28%, teal 23% and purple 26% (teal / sky was 7.7 at 20%, cobalt / purple 8.0).
+   Dark: the cool and pink series 20/25/30% over a lifted base, purple 24%; amber and lime stay low (they turn olive when darkened, RESEARCH
+   section 7) and carry their hue on stronger rings, amber at 6% and lime at 10.5% so their fills also read apart (6.5 at 7% each) */
+.tm-n[style*="viz-a"] { --tmA: 28%; --tmB: 35%; --tmC: 42%; }
+.tm-n[style*="viz-b"] { --tmA: 23%; --tmB: 28.75%; --tmC: 34.5%; }
+.tm-n[style*="viz-f"] { --tmA: 26%; --tmB: 32.5%; --tmC: 39%; }
+[data-theme="dark"] .tm { --tmA: 20%; --tmB: 25%; --tmC: 30%; --tmG: 0%; --tmBase: var(--surface-2); }
+[data-theme="dark"] .tm-n:is([style*="viz-a"], [style*="viz-b"]) { --tmA: 20%; --tmB: 25%; --tmC: 30%; }
+[data-theme="dark"] .tm-n[style*="viz-f"] { --tmA: 24%; --tmB: 30%; --tmC: 36%; }
+[data-theme="dark"] .tm-n[style*="viz-c"] { --tmA: 6%; --tmB: 7.5%; --tmC: 9%; }
+[data-theme="dark"] .tm-n[style*="viz-g"] { --tmA: 10.5%; --tmB: 13.125%; --tmC: 15.75%; }
+[data-theme="dark"] .tm-group:is([style*="viz-c"], [style*="viz-g"]) { box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--c) 72%, transparent); }
+[data-theme="dark"] .tm-leaf:is([style*="viz-c"], [style*="viz-g"]) { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--c) 42%, transparent); }
+.mv-full .tm-host { width: 100%; aspect-ratio: 16 / 11; min-height: 380px; max-height: 640px; }
+.mv-mini .tm-host { width: 100%; aspect-ratio: 16 / 10; }
+.tm-n { --c: var(--sc, var(--accent)); position: absolute; display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; margin: 0; padding: 0; border: 0; border-radius: var(--r-xs); overflow: hidden; text-align: left; cursor: pointer;
+  color: var(--ink); background: color-mix(in srgb, var(--c) var(--tmA), var(--tmBase)); text-decoration: none; font: inherit; -webkit-tap-highlight-color: transparent; transition: background-color .15s, box-shadow .15s; }
+.tm-n.j1 { background: color-mix(in srgb, var(--c) var(--tmB), var(--tmBase)); }
+.tm-n.j2 { background: color-mix(in srgb, var(--c) var(--tmC), var(--tmBase)); }
+/* hover always deepens the cell, also on the stronger series steps (cobalt C is 42%) */
+.tm-n:hover { background: color-mix(in srgb, var(--c) max(40%, calc(var(--tmC) + 8%)), var(--tmBase)); }
+[data-theme="dark"] .tm-n:hover { background: color-mix(in srgb, var(--c) max(30%, calc(var(--tmC) + 6%)), var(--tmBase)); }
+.tm-group { border-radius: 11px; background: color-mix(in srgb, var(--c) var(--tmG), var(--mv-card, var(--surface))) !important; box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--c) 26%, transparent); }
+.tm-group:hover { box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--c) 55%, transparent); }
+.tm-group::before { content: ""; position: absolute; left: 7px; right: 7px; top: 0; height: 3px; border-radius: 0 0 3px 3px; background: var(--c); pointer-events: none; }
+[data-theme="dark"] .tm-group { box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--c) 40%, transparent); }
+.tm-one .tm-group::before, .tm-mini .tm-group::before { display: none; }
+.tm-n.sel, .tm-group.sel { box-shadow: inset 0 0 0 2.5px var(--ink) !important; }
+.tm-leaf.sel, .tm-solo.sel { z-index: 3 !important; }
+.tm-n.rest { background: repeating-linear-gradient(135deg, color-mix(in srgb, var(--c) 12%, var(--mv-card, var(--surface))) 0 5px, color-mix(in srgb, var(--c) 20%, var(--mv-card, var(--surface))) 5px 10px); }
+.tm-n:focus-visible { outline: 2.5px solid var(--accent); outline-offset: -2.5px; z-index: 6 !important; }
+.tm-hd { position: absolute; left: 0; right: 0; top: 0; height: 24px; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 0 8px;
+  font: 650 12px/1 var(--font-ui); letter-spacing: -.005em; color: var(--ink); white-space: nowrap; }
+.tm-hn { font-weight: 750; }
+.tm-hv { font-weight: 550; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.tm-l { display: block; padding: 6px 8px 0; font: 600 12px/15px var(--font-ui); letter-spacing: -.005em; white-space: nowrap; }
+.tm-v { display: block; padding: 1px 8px 0; font: 500 11px/14px var(--font-ui); color: var(--ink-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.tm.zoom .tm-l { padding: 8px 10px 0; font-size: 13.5px; line-height: 17px; font-weight: 620; }
+.tm.zoom .tm-v { padding: 2px 10px 0; font-size: 12px; line-height: 16px; }
+.tm-strip { display: block; width: calc(100% - 20px); max-width: 200px; height: 16px; margin: 8px 10px 0; }
+.tm-strip rect { fill: color-mix(in srgb, var(--ink) 55%, transparent); }
+.tm-strip rect.z { fill: color-mix(in srgb, var(--ink) 16%, transparent); }
+.tm-ck { position: absolute; right: 6px; top: 6px; width: 8px; height: 8px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 2px var(--mv-card, var(--surface)); }
+.tm-mini .tm-hd { height: 20px; font-size: 11px; padding: 0 6px; }
+.tm-mini .tm-l { padding: 5px 6px 0; font-size: 11px; line-height: 13.5px; }
+.tm-mini .tm-v { padding: 0 6px; font-size: 10.5px; }
+.tm.anim .tm-n { transition: left .5s var(--ease-std, cubic-bezier(.2, .8, .2, 1)), top .5s var(--ease-std, cubic-bezier(.2, .8, .2, 1)), width .5s var(--ease-std, cubic-bezier(.2, .8, .2, 1)),
+  height .5s var(--ease-std, cubic-bezier(.2, .8, .2, 1)), opacity .4s ease, background-color .15s; }
+.tm-n.out { pointer-events: none; }
+.tm-n.ping::after { content: ""; position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 0 0 3px var(--ink); animation: tm-ping 1.4s ease-out 2; pointer-events: none; }
+@keyframes tm-ping { 0% { opacity: 1; } 100% { opacity: 0; } }
+
+/* a treemap scoped to one subject (subject page): every cell has the same series, so colour carries no data: neutral cells, primary on hover */
+.tm-one .tm-n { --c: var(--ink); color: var(--ink); background: color-mix(in srgb, var(--ink) 5%, var(--mv-card, var(--surface))); }
+.tm-one .tm-n.j1 { background: color-mix(in srgb, var(--ink) 6.5%, var(--mv-card, var(--surface))); }
+.tm-one .tm-n.j2 { background: color-mix(in srgb, var(--ink) 8%, var(--mv-card, var(--surface))); }
+[data-theme="dark"] .tm-one .tm-n { background: color-mix(in srgb, var(--ink) 7%, var(--mv-card, var(--surface))); }
+[data-theme="dark"] .tm-one .tm-n.j1 { background: color-mix(in srgb, var(--ink) 9%, var(--mv-card, var(--surface))); }
+[data-theme="dark"] .tm-one .tm-n.j2 { background: color-mix(in srgb, var(--ink) 11%, var(--mv-card, var(--surface))); }
+.tm-one .tm-n:hover, [data-theme="dark"] .tm-one .tm-n:hover { background: var(--accent-soft-2); }
+.tm-one .tm-group { background: var(--mv-card, var(--surface)) !important; box-shadow: inset 0 0 0 1.5px var(--line); }
+.tm-one .tm-group:hover { box-shadow: inset 0 0 0 1.5px var(--accent); }
+.tm-one .tm-hd { color: var(--ink); }
+.tm-one .tm-hv, .tm-one .tm-v { color: var(--muted); }
+.tm-one .tm-n.rest { background: repeating-linear-gradient(135deg, color-mix(in srgb, var(--ink) 4%, var(--mv-card, var(--surface))) 0 5px, color-mix(in srgb, var(--ink) 8%, var(--mv-card, var(--surface))) 5px 10px); }
+
+/* list view (also the phone layout and the screen-reader friendly twin of the treemap): soft rows */
+.mv-stack { display: flex; gap: 2px; height: 12px; margin: 2px 0 12px; border-radius: 6px; overflow: hidden; }
+.mv-stack i { display: block; min-width: 2px; flex-basis: 0; background: color-mix(in srgb, var(--sc, var(--accent)) 70%, var(--mv-card, var(--surface))); }
+.mv-stack i.j1 { background: color-mix(in srgb, var(--sc, var(--accent)) 52%, var(--mv-card, var(--surface))); }
+.mv-stack i.j2 { background: color-mix(in srgb, var(--sc, var(--accent)) 36%, var(--mv-card, var(--surface))); }
+.mv-rows { list-style: none; margin: 0 -6px; padding: 0; display: grid; gap: 1px; }
+.mv-row { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(60px, 1fr) 92px 40px 16px; align-items: center; gap: 12px; width: 100%; padding: 11px 10px; border: 0; border-radius: var(--r-sm);
+  background: none; text-align: left; color: var(--ink); cursor: pointer; transition: background-color .15s; }
+.mv-row:hover { background: var(--surface-2); }
+.mv-row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.mv-row.sel { background: var(--accent-soft); box-shadow: inset 0 0 0 1.5px var(--accent); }
+.mv-row.ping { animation: row-ping 1.4s ease-out 2; }
+@keyframes row-ping { 0% { background: var(--accent-soft-2); } 100% { background: transparent; } }
+.mv-row svg.i { color: var(--muted); }
+.mv-rn { display: flex; align-items: center; gap: 10px; min-width: 0; font-weight: 700; font-size: 14px; line-height: 1.3; }
+.mv-rn > span:not(.dotl) { min-width: 0; }
+.mv-rd { font-size: 12px; font-weight: 600; color: var(--muted); }
+.mv-rb { height: 6px; border-radius: 99px; background: var(--surface-3); overflow: hidden; }
+.mv-rb i { display: block; height: 100%; border-radius: 99px; background: var(--accent); }
+.mv-rv { font-size: 13.5px; font-weight: 750; font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right; }
+.mv-rs { font-size: 12px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.narrow .mv-row { grid-template-columns: minmax(0, 1fr) auto 14px; row-gap: 8px; padding: 11px 8px; }
+.narrow .mv-rb { grid-column: 1 / -1; grid-row: 2; }
+.narrow .mv-rs { display: none; }
+.narrow .mv-vt { display: none; }
+.narrow .mv-findw { max-width: none; flex-basis: 100%; }
+
+/* ===================================================================== mini constellation (calm: neutral discs, one small subject dot each,
+   hairline grey links; the accent only marks the hovered / focused subject and its links) */
+.mv-mini { position: relative; }
+.mc { display: block; width: 100%; height: auto; overflow: visible; }
+.mc-l { fill: none; stroke: var(--line-2); stroke-linecap: round; transition: stroke .2s, opacity .2s; }
+.mc.hl .mc-l { opacity: .35; }
+.mc.hl .mc-l.on { opacity: 1; stroke: var(--accent); }
+.mc-s { cursor: pointer; outline: none; transition: opacity .2s; animation: mc-in .45s ease-out both; animation-delay: calc(var(--i) * 25ms); }
+@keyframes mc-in { from { opacity: 0; } }
+/* focus + context: only the marks fade; the names of the faded subjects turn --muted (P2-29: no opacity on text) */
+.mc.hl .mc-s:not(.on):not(.near) :is(.mc-c, .mc-d) { opacity: .4; }
+.mc.hl .mc-s:not(.on):not(.near) :is(.mc-n, .mc-k) { fill: var(--muted); }
+.mc-c { fill: var(--surface); stroke: color-mix(in srgb, var(--ink) 22%, transparent); stroke-width: 1; transition: stroke .15s, stroke-width .15s; }
+.mc-s.on .mc-c { stroke: var(--accent); stroke-width: 1.6; }
+.mc-fr { fill: none; stroke: transparent; stroke-width: 2.5; }
+.mc-s:focus-visible .mc-fr { stroke: var(--accent); }
+.mc-s:focus-visible .mc-c { stroke: var(--accent); stroke-width: 1.6; }
+.mc-s:focus-visible .mc-n { fill: var(--ink); }
+.mc-d { fill: var(--sc, var(--accent)); }
+.mc-d.edge { stroke: var(--surface); stroke-width: 1.5; }
+.mc-k { fill: var(--ink-2); font-family: var(--font-ui); font-weight: 650; text-anchor: middle; letter-spacing: .01em; pointer-events: none; }
+.mc-n { fill: var(--ink-2); font: 600 11px var(--font-ui); letter-spacing: -.005em; text-anchor: middle; pointer-events: none;
+  paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; stroke-opacity: .9; }
+.mc-s.on .mc-n { fill: var(--ink); }
+.mc-hit { fill: transparent; }
+
+/* ===================================================================== prerequisite metro map: neutral stations and links,
+   the accent draws the path to the picked lesson, done = a small green fill */
+.pm-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; margin-top: 4px; font-size: 12.5px; font-weight: 550; color: var(--muted); }
+.pm-legend > span { display: inline-flex; align-items: center; gap: 6px; }
+.pm-lg { display: inline-block; width: 9px; height: 9px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px var(--mv-node); }
+.pm-lg.big { width: 11px; height: 11px; }
+.pm-lg.sm { width: 8px; height: 8px; }
+.pm-lg.done { background: var(--ok); box-shadow: none; }
+.pm-lg.ln { width: 18px; height: 1.5px; border-radius: 1px; box-shadow: none; background: var(--mv-edge); }
+.pm-lg.ln.path { height: 2px; background: var(--accent); }
+.pm-scroll { overflow: auto; max-height: min(74vh, 760px); border-radius: 14px; background: var(--mv-card, var(--surface)); box-shadow: inset 0 0 0 1px var(--line); overscroll-behavior: contain; outline: none; }
+.pm-scroll.pt { cursor: pointer; }
+.pm-scroll.grab { cursor: grabbing; user-select: none; }
+.pm { display: block; max-width: none; }
+.pm-band { fill: transparent; }
+.pm-band.alt { fill: var(--surface-2); }
+.pm-band.ext { fill: var(--surface-3); }
+.pm-in { position: relative; }
+.pm-in > svg { position: absolute; left: 0; top: 0; }
+.pm-lanecol { position: sticky; left: 0; z-index: 2; }
+.pm-lab { position: absolute; left: 0; right: 0; display: grid; align-content: start; gap: 3px; padding: 15px 10px 0 14px; background: var(--mv-card, var(--surface)); border-right: 1px solid var(--line);
+  font: 700 12.5px/1.3 var(--font-ui); color: var(--ink); }
+.pm-lab.alt { background: var(--surface-2); }
+.pm-lab.ext { background: var(--surface-3); }
+.pm-lab small { font-weight: 500; font-size: 11.5px; color: var(--muted); }
+.pm-step { font: 600 11px var(--font-ui); fill: var(--muted); }
+.pm-step.c { text-anchor: middle; }
+.pm-e { fill: none; stroke: var(--mv-edge); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: opacity .2s; }
+.pm-dots .pm-e { stroke-width: 1; }
+.has-sel .pm-e { opacity: .45; }
+.has-sel .pm-e.next { opacity: 1; stroke: color-mix(in srgb, var(--accent) 55%, transparent); stroke-dasharray: 4 3; }
+.has-sel .pm-e.on { opacity: 1; stroke: var(--accent); stroke-width: 2.2; }
+.pm-dots.has-sel .pm-e.on { stroke-width: 1.6; }
+.pm-s { cursor: pointer; outline: none; transition: opacity .2s; }
+.pm-c { fill: var(--surface); stroke: var(--mv-node); stroke-width: 1.6; }
+.pm-dots .pm-c { stroke-width: 1.4; }
+.pm-s.done .pm-c { fill: var(--ok); stroke: var(--ok); }
+.pm-s.ext .pm-c { stroke-dasharray: 2 2; }
+.pm-t { font: 560 11.5px var(--font-ui); fill: var(--ink-2); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; }
+.pm-s.ext .pm-t { fill: var(--muted); }
+.pm-hit { fill: transparent; }
+.pm-s:hover .pm-hit, .pm-s.hot .pm-hit { fill: var(--surface-3); }
+.pm-s:focus-visible .pm-hit { stroke: var(--accent); stroke-width: 2; }
+.pm-s:hover .pm-c, .pm-s.hot .pm-c { stroke: var(--ink); }
+.pm-dots .pm-s:focus-visible .pm-c, .pm-dots .pm-s.hot .pm-c { stroke: var(--ink); stroke-width: 2.4; }
+.has-sel .pm-s:not(.on):not(.sel):not(.next) .pm-c { opacity: .35; }
+.has-sel .pm-s:not(.on):not(.sel):not(.next) .pm-t { fill: var(--muted); }
+.pm-s.on .pm-c { stroke: var(--accent); stroke-width: 2; }
+.pm-s.next .pm-c { stroke: color-mix(in srgb, var(--accent) 60%, transparent); }
+.pm-s.sel .pm-c { fill: var(--accent); stroke: var(--accent); stroke-width: 2; }
+.pm-s.sel .pm-t { font-weight: 700; fill: var(--ink); }
+.pm-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 18px; }
+.pm-step-l h3 { margin: 0 0 6px; font-size: 13.5px; font-weight: 700; color: var(--ink); }
+.pm-step-l h3 small { font-weight: 500; font-size: 12px; color: var(--muted); margin-left: 6px; }
+.pm-step-l ul { list-style: none; margin: 0 -6px; padding: 0; display: grid; gap: 1px; }
+.pm-li { display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; align-items: center; gap: 10px; width: 100%; padding: 10px 8px; border: 0; border-radius: 11px;
+  background: none; text-align: left; font-size: 13.5px; font-weight: 600; color: var(--ink); cursor: pointer; transition: opacity .15s, background-color .15s; }
+.pm-li:hover { background: var(--surface-2); }
+.pm-li:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.pm-li small { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.has-sel .pm-li:not(.on):not(.sel):not(.next) { color: var(--muted); }
+.has-sel .pm-li:not(.on):not(.sel):not(.next) .mv-st { opacity: .5; }
+.pm-li.on { background: var(--accent-soft); }
+.pm-li.sel { background: var(--accent-soft-2); box-shadow: inset 0 0 0 1.5px var(--accent); font-weight: 750; }
+.narrow .pm-li { grid-template-columns: 14px minmax(0, 1fr); row-gap: 2px; }
+.narrow .pm-li small { grid-column: 2; }
+/* P2-11: lessons outside the 2027 text are marked in words; phones get the summary and the subject picker first and the levels folded after 3 */
+.pm-out { margin-left: 6px; font-size: 12px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+.pm-lg-out { display: inline-flex; align-items: center; gap: 6px; margin-right: 6px; font-weight: 650; color: var(--ink-2); }
+.pm-lg-out::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--warn); }
+.pm-s.out .pm-c { stroke-dasharray: 3 2; }
+/* the phones' 'Show levels 4–N · M more lessons and K from other subjects' (only drawn below 640 px): a full-width 44 px button whose label
+   wraps; as a one-line .btn it ran 30–112 px past 360–430 px screens */
+.btn.pm-more { display: flex; width: 100%; height: auto; min-height: 44px; margin: 14px 0 2px; padding: 9px 14px; justify-content: flex-start; gap: 9px;
+  white-space: normal; text-align: left; font-size: 13.5px; line-height: 1.35; }
+.btn.pm-more > span { min-width: 0; }
+.btn.pm-more > svg.i { flex: none; font-size: 16px; }
+.mv-prereq.narrow .mv-panel { order: -1; }
+.mv-all { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 8px 0 4px; padding: 11px 12px; border-radius: var(--r-sm); background: var(--accent-soft); color: var(--ink); font-size: 13px; font-weight: 600; line-height: 1.4; text-decoration: none; transition: background-color .15s; }
+.mv-all:hover { background: var(--accent-soft-2); }
+.mv-all:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mv-all b { font-weight: 700; }
+.mv-all svg.i { flex: none; color: var(--accent); }
+.mv-sh { margin-top: 10px; }
+
+/* ===================================================================== exam matrix (one sequential primary ramp: --xm-lo -> --xm-hi) */
+.xm-notes { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
+.xm-notes:empty { display: none; }
+.xm-note { display: grid; align-content: start; gap: 3px; width: 100%; height: 100%; padding: 13px 15px 12px; border: 0; border-radius: var(--r); background: var(--mv-card, var(--surface)); box-shadow: var(--lift);
+  text-align: left; color: var(--ink); cursor: pointer; transition: transform .25s var(--hb-spring, ease), background-color .15s; }
+.xm-note:hover { box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 40%, transparent), var(--shadow-1); }
+.xm-note:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.xm-nk { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 750; color: var(--muted); white-space: nowrap; }
+.xm-nk svg.i { font-size: 13px; stroke-width: 2.4; align-self: center; color: var(--accent); }
+.xm-note.down .xm-nk svg.i { color: var(--muted); }
+.xm-note b { font-size: 14.5px; font-weight: 700; letter-spacing: -.015em; line-height: 1.3; }
+.xm-nd { font-size: 13px; line-height: 1.45; color: var(--ink-2); }
+.xm-nd small { display: block; font-size: 12px; color: var(--muted); }
+.xm-vals { cursor: pointer; }
+/* positioned, so the trend cells' visually hidden words (.sr, position:absolute) belong to this scroller: unpositioned, they escaped it and
+   widened the page by 18–76 px at 680–740 px */
+.xm-wrap { position: relative; overflow: auto; max-height: 78vh; padding: 6px 6px 2px; border-radius: var(--mv-r, var(--r-lg)); background: var(--mv-card, var(--surface)); box-shadow: var(--lift); overscroll-behavior: contain; outline: none; }
+table.xm { width: 100%; min-width: calc(250px + var(--n) * 30px + 170px); border-collapse: separate; border-spacing: 0; font-size: 12.5px; }
+.xm:where(table) th, .xm:where(table) td { padding: 0; font-weight: inherit; }
+.xm:where(table) thead th, .xm:where(table) thead td { position: sticky; z-index: 3; background: var(--mv-card, var(--surface)); }
+.xm-br > * { top: 0; }
+.xm-yr th { top: 34px; height: 24px; text-align: center; font: 650 10.5px var(--font-ui); color: var(--ink-2); border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.xm-yr a { display: block; padding: 4px 0; border-radius: 6px; }
+.xm-yr a:hover { color: var(--accent); background: var(--accent-soft); }
+.xm-y4 { display: none; }
+.xm-corner, .xm:where(table) tbody th, .xm:where(table) tfoot th { position: sticky; left: 0; z-index: 2; background: var(--mv-card, var(--surface)); text-align: left; }
+.xm-corner { z-index: 5 !important; vertical-align: bottom; padding: 0 0 7px 14px !important; font: 600 12px var(--font-ui); color: var(--muted); border-bottom: 1px solid var(--line); }
+.xm-corner small, .xm-ah small, .xm-th small { display: block; margin-top: 2px; font-weight: 500; font-size: 11px; color: var(--muted); }
+.xm-ah, .xm-th { vertical-align: bottom; text-align: right; padding: 0 12px 7px !important; font: 600 12px var(--font-ui); color: var(--muted); white-space: nowrap; border-bottom: 1px solid var(--line); }
+.xm-brush { height: 34px; padding: 8px 1px 4px !important; }
+.xm-track { position: relative; height: 22px; border-radius: var(--r-xs); background: var(--surface-3); cursor: crosshair; touch-action: none; }
+.xm-band { position: absolute; top: 0; bottom: 0; border-radius: var(--r-xs); background: var(--accent-soft-2); box-shadow: inset 0 0 0 1.5px var(--accent); cursor: grab; }
+.xm-h { position: absolute; top: 3px; bottom: 3px; width: 8px; border-radius: 4px; background: var(--accent); cursor: ew-resize; }
+.xm-h[data-h="0"] { left: -3px; } .xm-h[data-h="1"] { right: -3px; }
+.xm-h::before { content: ""; position: absolute; inset: -8px -10px; }
+.xm-h:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.xm:where(table) tbody th { min-width: 200px; max-width: 280px; border-right: 1px solid var(--line); }
+.xm-rh { display: grid; grid-template-columns: 9px minmax(0, 1fr) auto; align-items: center; gap: 9px; width: 100%; min-height: 32px; padding: 3px 10px 3px 12px; border: 0; border-radius: 9px; background: none; text-align: left;
+  font-weight: 650; font-size: 12.5px; line-height: 1.25; color: var(--ink); cursor: pointer; }
+.xm-rh:hover { color: var(--ink); background: var(--surface-2); }
+.xm-rh small { color: var(--muted); font-weight: 500; font-size: 11px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.xm-rh:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.xm-ns { display: none; }
+.xm:where(table) tbody td { padding: 1px; }
+.xm-c { display: block; width: 100%; min-width: 26px; height: 30px; border: 0; border-radius: 4px; padding: 0; cursor: pointer;
+  background: color-mix(in oklab, var(--xm-hi) var(--p), var(--xm-lo)); font: 600 10.5px var(--font-ui); color: var(--ink-2); font-variant-numeric: tabular-nums; transition: box-shadow .12s; }
+.xm-c.hi { color: var(--accent-ink); }
+.xm-c.z { background: var(--xm-lo); cursor: default; }
+.xm-c.z::after { content: ""; display: block; width: 3px; height: 3px; margin: auto; border-radius: 50%; background: color-mix(in srgb, var(--faint) 55%, transparent); }
+.xm-c.na { background: repeating-linear-gradient(135deg, var(--xm-lo) 0 4px, transparent 4px 7px); cursor: default; }
+/* a binned cell only some of whose years had the row's section (GA 2007–10 on a phone): those years hatched, the rest filled with the value (P0-11) */
+.xm-c.part { background: linear-gradient(90deg, transparent var(--na), color-mix(in oklab, var(--xm-hi) var(--p), var(--xm-lo)) var(--na)), repeating-linear-gradient(135deg, var(--xm-lo) 0 4px, transparent 4px 7px); }
+.xm-c:not(.z):not(.na):hover, .xm-c:focus-visible { position: relative; z-index: 1; outline: none; box-shadow: 0 0 0 2px var(--mv-card, var(--surface)), 0 0 0 4px var(--ink); }
+.xm-c.z:focus-visible, .xm-c.na:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+/* years outside the brushed range: the cells fade to a third of their tint, their text turns --muted (P2-29: never opacity on text) */
+.xm:where(table) th.out { color: var(--muted); font-weight: 500; }
+.xm:where(table) td.out .xm-c:not(.part):not(.na):not(.z) { background: color-mix(in oklab, var(--xm-hi) calc(var(--p) * .3), var(--xm-lo)); color: var(--muted); }
+/* a part cell carries a value when Values is on (GA 2009–12 '15'): its fill fades like the others and its text turns --muted; the hatching of the
+   n/a and the not-asked cells fades by colour too, so no out-of-range cell uses opacity */
+.xm:where(table) td.out .xm-c.part { color: var(--muted); background: linear-gradient(90deg, transparent var(--na), color-mix(in oklab, var(--xm-hi) calc(var(--p) * .3), var(--xm-lo)) var(--na)),
+  repeating-linear-gradient(135deg, color-mix(in srgb, var(--xm-lo) 45%, transparent) 0 4px, transparent 4px 7px); }
+.xm:where(table) td.out .xm-c.na { background: repeating-linear-gradient(135deg, color-mix(in srgb, var(--xm-lo) 45%, transparent) 0 4px, transparent 4px 7px); }
+.xm:where(table) td.out .xm-c.z { background: color-mix(in srgb, var(--xm-lo) 45%, transparent); }
+.xm:where(table) td.out .xm-c.z::after { background: color-mix(in srgb, var(--faint) 30%, transparent); }
+.xm:where(table) tfoot td:not(.out) { color: var(--ink-2); font-weight: 650; }
+.xm:where(table) td.out .xm-c { cursor: pointer; }
+.xm-avg { text-align: right; padding: 0 12px !important; font-weight: 680; font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--ink); border-left: 1px solid var(--line); }
+.xm-tr { padding: 0 12px 0 6px !important; white-space: nowrap; }
+.xm-sp { vertical-align: middle; }
+.xm-sp polyline { fill: none; stroke: var(--muted); stroke-width: 1.3; stroke-linejoin: round; stroke-linecap: round; }
+.xm-sp circle { fill: var(--accent); }
+.xm-d { display: inline-block; min-width: 44px; text-align: right; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.xm:where(table) tfoot td, .xm:where(table) tfoot th { padding: 6px 0 8px !important; font-size: 10.5px; color: var(--muted); text-align: center; border-top: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.xm:where(table) tfoot th { text-align: left; padding-left: 14px !important; font-weight: 600; }
+.xm:where(table) tbody tr.flash td { animation: xm-flash 1.8s ease-out; }
+.xm:where(table) tbody tr.flash th { animation: xm-flash-th 1.8s ease-out; }
+@keyframes xm-flash { 0%, 35% { background: var(--accent-soft-2); } 100% { background: transparent; } }
+@keyframes xm-flash-th { 0%, 35% { background: color-mix(in srgb, var(--accent) 18%, var(--surface)); } 100% { background: var(--mv-card, var(--surface)); } }
+.xm-foot { display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; margin: 12px 2px 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+.xm-foot p { margin: 0; max-width: 900px; text-wrap: pretty; }
+.xm-scale { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.xm-scale i { width: 120px; height: 10px; border-radius: 99px; background: linear-gradient(90deg, var(--xm-lo), color-mix(in oklab, var(--xm-hi) 50%, var(--xm-lo)), var(--xm-hi)); }
+.xm-scale em { font-style: normal; }
+/* a key's words wrap beside its mark on narrow screens ('share of the paper’s marks' ran 12–52 px past 320–360 px as one line) */
+.xm-k { display: inline-flex; align-items: center; gap: 7px; max-width: 100%; margin-right: 12px; }
+.xm-k > span, .xm-k > i { flex: none; white-space: nowrap; }
+.xm-k em { min-width: 0; }
+.xm-sw { display: inline-block; width: 12px; height: 8px; border-radius: 2px; background: var(--xm-lo); box-shadow: inset 0 0 0 1px var(--line); }
+.xm-sw.na { background: repeating-linear-gradient(135deg, var(--line-2) 0 3px, transparent 3px 6px); }
+.xm-sw.part { background: linear-gradient(90deg, transparent 50%, color-mix(in oklab, var(--xm-hi) 60%, var(--xm-lo)) 50%), repeating-linear-gradient(135deg, var(--line-2) 0 3px, transparent 3px 6px); }
+.binned .xm-yr th { font-size: 10px; }
+.binned .xm:where(table) tbody th { min-width: 170px; max-width: 220px; }
+.narrow .xm-tr, .narrow .xm-th { display: none; }
+.narrow table.xm { min-width: 0; }
+.narrow .xm:where(table) tbody th { min-width: 128px; max-width: 136px; width: 132px; }
+.narrow .xm-rh { padding: 3px 6px 3px 10px; gap: 7px; font-size: 12px; }
+.narrow .xm-nf { display: none; }
+.narrow .xm-ns { display: inline; }
+.narrow .xm-avg { padding: 0 8px !important; }
+.narrow .xm-ah { padding: 0 8px 7px !important; }
+.narrow .xm-corner { padding-left: 10px !important; }
+.narrow .xm-rh small { display: none; }
+.narrow .mv-bar { gap: 8px 10px; }
+
+/* ===================================================================== layout breakpoints (container = the map's own width) */
+@container mv (max-width: 980px) {
+  .mv-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .mv-panel { position: static; max-height: none; overflow: visible; }
+}
+@container mv (max-width: 900px) { .mv-vt .mv-seg button svg.i { display: none; } }
+@container mv (max-width: 640px) {
+  .mv-bar { gap: 10px; }
+  .mv-bar .mv-ctl { flex-wrap: wrap; }
+  .mv-sel select.input { max-width: 100%; }
+  .mv-main { padding: 12px 10px 10px; border-radius: var(--r-lg); }
+  .mv-panel { padding: 18px 16px 16px; border-radius: var(--r-lg); }
+  .xm-notes { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .xm-wrap { border-radius: var(--r); padding: 4px 2px 0; }
+}
+/* touch: the map's search field and selects at 16 px, so iPhone Safari does not zoom the page on focus (P1-50) */
+@media (pointer: coarse) {
+  .mv-find input, .mv-sel select.input { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mc-s, .tm-n.ping::after, .mv-row.ping, .xm:where(table) tbody tr.flash td, .xm:where(table) tbody tr.flash th { animation: none !important; }
+  .tm.anim .tm-n, .mc-c, .mc-s, .mc-l, .xm-note, .mapv-tabs button, .mapv-ind, .mv-row, .mv-top, .tm-n { transition: none !important; }
+}
+@media print { .mv-tip, .mv-bar, .mv-keys { display: none !important; } .pm-scroll, .xm-wrap { max-height: none; overflow: visible; } .mv-panel { position: static; max-height: none; } }

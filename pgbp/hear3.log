@@ -1,0 +1,10 @@
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 910.57it/s]
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1546.29it/s]
+/Users/ztejas/edu2d/pgbp/voice_report.md: 41 cues, 945 words, WER 5.5%, confirmed 4.2%, word times -> /Users/ztejas/edu2d/pgbp/cues.json
+   1. meera                        -> Mira, Mira's                                 x32  both: 32
+   2. lakh                         -> -lock, lok, -lock,                           x13  both: 4
+   3. gst                          -> GSD                                          x1  both: 1
+   4. meera leases                 -> Mira Lees is                                 x1  both: 1
+   5. fifteen                      -> 50                                           x1  both: 0
+   6. pune                         -> Puna.                                        x1  both: 0
+   7. a                            -> (skipped)                                    x1  both: 1

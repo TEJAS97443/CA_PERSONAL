@@ -1,0 +1,532 @@
+                                                              Test Series: August, 2018
+                                MOCK  TEST PAPER - 1
+                            INTERMEDIATE (IPC): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND  STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                     ANSWERS
+1.  (i) Operational Processes: Operational or Primary processes deal with the core business and value
+        chain. These processes deliver value to the customer by helping to produce a product or service.
+        Operational processes represent essential business activities that accomplish business objectives,
+        example - Generating revenue – Order to Cash Cycle; Procurement – Purchase to Pay cycle.
+    (ii) Functional Audit: This includes testing of different functions / features in the system and testing
+        of the overall process or part of process in the system and its comparison with the actual process.
+        Example - Purchase Process, Sales Process, Salary Calculation Process, Recruitment Process
+        etc. Auditor may check this process in the system and compare it with actual process. It is quite
+        possible that all the aspect present in the actual process may not be integrated in the ERP system.
+        There may be some manual intervention.
+    (iii) Inventory/Stores Management: The inventory management system is designed with a view to
+        keeping the track of materials in the stores. The system is used to regulate the maximum and
+        minimum level of stocks, raise alarm at danger level stock of any material, give timely alert for re -
+        ordering of materials with optimal re-order quantity and facilitate various queries about inventory
+        like total inventory value at any time, identification of important items in terms of stock value (ABC
+        Analysis), identification most frequently moving objects (XYZ Analysis) etc. Similarly, well designed
+        inventory management system for finished goods and semi-finished goods provides important
+        information for production schedule and marketing/sales strategy.
+    (iv) Payment Gateway: It defines the payment mode through which customers shall make payments.
+        Payment gateway represents the way e-commerce / m-commerce vendors collects their payments.
+        The payment gateway is another critical component of e-commerce set up. These are the last and
+        most critical part of e-commerce transactions. These assures seller of receipt of payment from
+        buyer of goods / services from e-commerce vendors. Presently numerous methods of payments by
+        buyers to sellers are being used including Credit / Debit Card Payments, Online bank payments,
+        Vendors own payment wallet, Third Party Payment wallets, like SBI BUDDY or PAYTM, Cash on
+        Delivery (COD) and Unified Payments Interface (UPI).
+    (v) Proxy Server: A Proxy Server is a computer that offers a computer network service to allow clients
+        to make indirect network connections to other network services. A client connects to the proxy
+        server, and then requests a connection, file, or other resource available on a different server. The
+        proxy provides the resource either by connecting to the specified server or by serving it from a
+        cache. In some cases, the proxy may alter the client’s request or the server’s response for various
+        purposes.
+2.  (a) Let us define the variables first:
+             itm_tp = Item Type;    Part Cost = prt_cst;
+             itm_cst = Item Cost;   N = counter
+
+        The required flowchart is as below:
+                         Start
+                       Set N = 0
+                       Read itm_tp, prt_cst
+                      N = N + 1
+                       If itm_tp = 1?                   itm_cst = prt_cst * 2.5
+                                             Yes
+                           No
+                      If itm_tp = 2?                     itm_cst = prt_cst * 3.5
+                                               Yes
+                            No
+                     itm_cst = prt_cst * 5.0
+                  Print itm_tp, itm_cst
+                       If N < 1000?                    Stop
+                                             No
+          Yes
+    (b) User Access Management: This is an important factor that involves the following:
+        •   User Registration: Information about every user is documented. Some questions like why
+            and who is the user granted the access; has the data owner approved the access, and has
+            the user accepted the responsibility? etc. are answered. The de-registration process is also
+            equally important.
+        •   Privilege management: Access privileges are to be aligned with job requirements and
+            responsibilities and are to be minimal w.r.t their job functions. For example, an operator at the
+            order counter shall have direct access to order processing activity of the application system.
+        •   User password management: Passwords are usually the default screening point for access
+            to systems. Allocations, storage, revocation, and reissue of password are password
+            management functions. Educating users is a critical component about passwords, and making
+            them responsible for their password.
+        •   Review of user access rights: A user’s need for accessing information changes with time
+            and requires a periodic review of access rights to check anomalies in the user’s current job
+            profile and the privileges granted earlier.
+
+3.  (a) Quality Management Module helps in management of quality in productions cross processes in an
+        organization. This quality management module helps an organization to accelerate their business
+        by adopting a structured and functional way of managing quality in different processes. Quality
+        Management module collaborates in procurement and sales, production, planning, inspection,
+        notification, control, audit management and so on.
+        Fig. below shows Process in Quality Management Module.
+        Quality Management Process includes the following:
+        •   Master data and standards are set for quality management;
+        •   Set Quality Targets to be met;
+        •   Quality management plan is prepared;
+        •   Define how those quality targets will be measured;
+        •   Take the actions needed to measure quality;
+        •   Identify quality issues and improvements and changes to be made;
+        •   In case of any change is needed in the product, change requests are sent;
+        •   Report on the overall level of quality achieved; and
+        •   Quality is checked at multiple points, e.g. inwards of goods at warehouse, manufacturing,
+            procurement, returns.
+    (b) The deployment and implementation of Core Banking Systems (CBS) should be controlled at
+        various stages to ensure that banks automation objectives are achieved. This can be achieved
+        through the following:
+        •   Planning: Planning for implementing the CBS should be done as per strategic and business
+            objectives of bank.
+        •   Approval: The decision to implement CBS requires high investment and recurring costs and
+            will impact how banking services are provided by the bank. Hence, the decision must be
+            approved by the board of directors.
+        •   Selection: Although there are multiple vendors of CBS, each solution has key differentiators.
+            Hence, bank should select the right solution considering various parameters as defined by
+            the bank to meet their specific requirements and business objectives.
+
+        •   Design and develop or procured: CBS solutions used to be earlier developed in-house by
+            the bank. Currently, most of the CBS deployment are procured. There should be appropriate
+            controls covering the design or development or procurement of CBS for the bank.
+        •   Testing: Extensive testing must be done before the CBS is live. The testing is to be done at
+            different phases at procurement stage to test suitability to data migration to ensure all existing
+            data is correctly migrated and testing to confirm processing of various types of transactions
+            of all modules produces the correct results.
+        •   Implementation: CBS must be implemented as per pre-defined and agreed plan with specific
+            project milestones to ensure successful implementation.
+        •   Maintenance: CBS must be maintained as required. E.g. program bugs fixed, version
+            changes implemented, etc.
+        •   Support: CBS must be supported to ensure that it is working effectively.
+        •   Updation: CBS modules must be updated based on requirements of business processes,
+            technology updates and regulatory requirements.;
+        •   Audit: Audit of CBS must be done internally and externally as required to ensure that contro ls
+            are working as envisaged.
+4.  (a) The controls that are related to the physical security of the tangible Information Systems Resources
+        stored on tangible media.
+        i.  Locks on Doors: These are as below:
+            o   Cipher locks (Combination Door Locks) - Cipher locks are used in low security
+                situations or when many entrances and exits must be usable all the time. To enter, a
+                person presses a four-digit number, and the door will unlock for a predetermined period,
+                usually ten to thirty seconds.
+            o   Bolting Door Locks – A special metal key is used to gain entry when the lock is a bolting
+                door lock. To avoid illegal entry, the keys should not be duplicated.
+            o   Electronic Door Locks – A magnetic or embedded chip-based plastics card key or
+                token may be entered a reader to gain access in these systems.
+        ii. Physical Identification Medium: These are discussed below:
+            o   Personal Identification Numbers (PIN): A secret number will be assigned to the
+                individual, in conjunction with some means of identifying the individual, serves to verify
+                the authenticity of the individual. The visitor will be asked to log on by inserting a card in
+                some device and then enter their PIN via a PIN keypad for authentication. His/her entry
+                will be matched with the PIN number available in the security database.
+            o   Plastic Cards: These cards are used for identification purposes. Customers should
+                safeguard their card so that it does not fall into unauthorized hands.
+            o   Identification Badges: Special identification badges can be issued to personnel as well
+                as visitors. For easy identification purposes, their color of the badge can be changed.
+                Sophisticated photo IDs can also be utilized as electronic card keys.
+        iii. Logging on Facilities: These are given as under:
+            o   Manual Logging: All visitors should be prompted to sign a visitor’s log indicating their
+                name, company represented, their purpose of visit, and person to see. Logging may
+                happen at both fronts - reception and entrance to the computer room. A valid and
+                acceptable identification such as a driver’s license, business card or vendor identification
+                tag may also be asked for before allowing entry inside the company.
+
+            o   Electronic Logging: This feature is a combination of electronic and biometric security
+                systems. The users logging can be monitored and the unsuccessful attempts being
+                highlighted.
+        iv. Other means of Controlling Physical Access: Other important means of controlling
+            physical access are given as follows:
+            o   Video Cameras: Cameras should be placed at specific locations and monitored by
+                security guards. Refined video cameras can be activated by motion. The video
+                supervision recording must be retained for possible future play back.
+            o   Security Guards: Extra security can be provided by appointing guards aided with CCTV
+                feeds. Guards supplied by an external agency should be made to sign a bond to protect
+                the organization from loss.
+            o   Controlled Visitor Access: A responsible employee should escort all visitors. Visitors may
+                be friends, maintenance personnel, computer vendors, consultants and external auditors.
+            o   Bonded Personnel: All service contract personnel, such as cleaning people and off-site
+                storage services, should be asked to sign a bond. This may not be a measure to improve
+                physical security but to a certain extent can limit the financial exposure of the
+                organization.
+            o   Dead Man Doors: These systems encompass a pair of doors that are typically found in
+                entries to facilities such as computer rooms and document stations. The first entry door
+                must close and lock, for the second door to operate, with the only one person permitted
+                in the holding area.
+            o   Non–exposure of Sensitive Facilities: There should be no explicit indication such as
+                presence of windows of directional signs hinting the presence of facilities such as
+                computer rooms. Only the general location of the information processing facility should
+                be identifiable.
+            o   Computer Terminal Locks: These locks ensure that the device to the desk is not turned
+                on or disengaged by unauthorized persons.
+            o   Controlled Single Entry Point: All incoming personnel can use controlled Single Entry
+                Point. A controlled entry point is monitored by a receptionist. Multiple entry points
+                increase the chances of unauthorized entry. Unnecessary or unused entry points should
+                be eliminated or deadlocked.
+            o   Alarm System: Illegal entry can be avoided by linking alarm system to inactive entry
+                point and the reverse flows of enter or exit only doors, to avoid illegal entry. Security
+                personnel should be able to hear the alarm when activated.
+            o   Perimeter Fencing: Fencing at boundary of the facility may also enhance the security
+                mechanism.
+            o   Control of out of hours of employee-employees: Employees who are out of office for
+                a longer duration during the office hours should be monitored carefully. Their movements
+                must be noted and reported to the concerned officials frequently.
+            o   Secured Report/Document Distribution Cart: Secured carts, such as mail carts, must
+                be covered and locked and should always be attended.
+    (b) The risks associated with Bring Your Own Device (BYOD) can be classified into four areas as below:
+        •   Network Risks: It is normally exemplified and hidden in 'Lack of Device Visibility’. When
+            company-owned devices are used by all employees within an organization, the organization’s
+            IT practice has complete visibility of the devices connected to the network. This helps to
+            analyze traffic and data exchanged over the Internet. As BYOD permits employees to carry
+
+            their own devices (smart phones, laptops for business use), the IT practice team is unaware
+            about the number of devices being connected to the network. As network visibility is of high
+            importance, this lack of visibility can be hazardous. For example, if a virus hits the network
+            and all the devices connected to the network need be scanned, it is probable that s ome of the
+            devices would miss out on this routine scan operation.
+        •   Device Risks: It is normally exemplified and hidden in ‘Loss of Devices’. A lost or stolen
+            device can result in an enormous financial and reputational embarrassment to an organization
+            as the device may hold sensitive corporate information. Data lost from stolen or lost devices
+            ranks as the top security threats as per the rankings released by Cloud Security Alliance. With
+            easy access to company emails as well as corporate intranet, company trade secrets can be
+            easily retrieved from a misplaced device.
+        •   Application Risks: It is normally exemplified and hidden in 'Application Viruses and Malware’.
+            A related report revealed that a majority of employees’ phones and smart devices that were
+            connected to the corporate network weren’t protected by security software. With an increase
+            in mobile usage, mobile vulnerabilities have increased concurrently. Organizations are not
+            clear in deciding that ‘who is responsible for device security – the organization or the user’.
+        •   Implementation Risks: It is normally exemplified and hidden in 'Weak BYOD Policy’. The
+            effective implementation of the BYOD program should not only cover the technical issues
+            mentioned above but also mandate the development of a robust implementation policy.
+            Because corporate knowledge and data are key assets of an organization, the absence of a
+            strong BYOD policy would fail to communicate employee expectations, thereby increasing the
+            chances of device misuse. In addition to this, a weak policy fails to educate the user, thereby
+            increasing vulnerability to the above-mentioned threats.
+5.  (a) Information security is critical to mitigate the risks of Information technology. Security refers to
+        ensure Confidentiality, Integrity and Availability of information. Information security is comprised of
+        the following sub-processes:
+        •   Information Security Policies, Procedures, and practices: Refers to the processes relating
+            to approval and implementation of information security. The security policy is basis on which
+            detailed procedures and practices are developed and implemented at various
+            units/department and layers of technology, as relevant. These cover all key areas of securing
+            information at various layers of information processing and ensure that information is made
+            available safely and securely.
+        •   User Security Administration: Refers to security for various users of information systems. The
+            security administration policy documents define how users are created and granted access as
+            per organization structure and access matrix. It also covers the complete administration of users
+            right from creation to disabling of users is defined as part of security policy.
+        •   Application Security: Refers to how security is implemented at various aspects of
+            application right from configuration, setting of parameters and security for transactions
+            through various application controls.
+        •   Database Security: Refers to various aspects of implementing security for the database
+            software.
+        •   Operating System Security: Refers to security for operating system software which is
+            installed in the servers and systems which are connected to the servers.
+        •   Network Security: Refers to how security is provided at various layers of network and
+            connectivity to the servers.
+        •   Physical Security: Refers to security implemented through physical access controls.
+
+    (b) Inventory Cycle: The Inventory Cycle is a process of accurately tracking the on-hand inventory
+        levels for an enterprise. An inventory system should maintain accurate record of all stock
+        movements to calculate the correct balance of inventory. The term ‘Inventory Cycle’ means
+        different things to companies in different verticals. For those who source, assemble and create
+        inventory, it refers to a time-based process which is basic to understanding how to maximize
+        resources and cash flow. To businesses that buy, store and sell inventory; it focuses on the process
+        of understanding, planning and managing inventory levels, from purchasing through more-efficient
+        auditing. The typical phases of the Inventory Cycle for Manufacturers are as follows:
+        i.  The ordering phase: The amount of time it takes to order and receive raw materials.
+        ii. The production phase: The work in progress phase relates to time it takes to convert the
+            raw material to finished goods ready for use by customer.
+        iii. The finished goods and delivery phase: The finished goods that remain in stock and the
+            delivery time to the customer. The inventory cycle is measured in number of days.
+                                          Or
+        Human  Resources Cycle: The Human Resources life cycle refers to human resources
+        management and covers all the stages of an employee’s time within a specific enterprise and the
+        role the human resources department plays at each stage. Typical stage of HR cycle includes the
+        following:
+        i.  Recruiting and On boarding: Recruiting is the process of hiring a new employee. The role
+            of the human resources department in this stage is to assist in hiring. This might include
+            placing the job ads, selecting candidates whose resumes look promising, conducting
+            employment interviews and administering assessments such as personality profiles to choose
+            the best applicant for the position. In a small business where the owner performs these duties
+            personally, the HR person would assist in a support role. In some organizations, the recruiting
+            stage is referred to as ‘hiring support.’ On boarding is the process of getting the successful
+            applicant set up in the system as a new employee.
+        ii. Orientation and Career Planning: Orientation is the process by which the employee
+            becomes a member of the company’s work force through learning her new job duties,
+            establishing relationships with co-workers and supervisors and developing a niche. Career
+            planning is the stage at which the employee and her supervisors work out her long-term career
+            goals with the company. The HR department may make additional use of personality profile
+            testing at this stage to help the employee determine her best career options with the company.
+        iii. Career Development: Career development opportunities are essential to keep an employee
+            engaged with the company over time. After an employee, has established himself at the
+            company and determined his long-term career objectives, the human resources department
+            should try to help him meet his goals, if they are realistic. This can include professional growth
+            and training to prepare the employee for more responsible positions with the company. The
+            company also assesses the employee’s work history and performance at this stage to
+            determine whether he has been a successful hire.
+        iv. Termination or Transition: Some employees will leave a company through retirement after
+            a long and successful career. Others will choose to move on to other opportunities or be laid
+            off. Whatever the reason, all employees will eventually leave the company. The role of HR in
+            this process is to manage the transition by ensuring that all policies and procedures are
+            followed, carrying out an exit interview if that is company policy and removing the employee
+            from the system. These stages can be handled internally or with the help of en terprises that
+            provide services to manage the employee life cycle.
+
+6.  (a) To develop security architecture, following constraints are taken from the characteristics of grid
+        environment and application.
+        •   Single Sign-on: A user should authenticate once and they should be able to acquire
+            resources, use them, and release them and to communicate internally without any further
+            authentication.
+        •   Protection of Credentials: User passwords, private keys, etc. should be protected.
+        •   Interoperability with local security solutions: Access to local resources should have local
+            security policy at a local level. Despite of modifying every local resource there is an inter-
+            domain security server for providing security to local resource.
+        •   Exportability: The code should be exportable i.e. they cannot use a large amount of
+            encryption at a time. There should be a minimum communication at a time.
+        •   Support for secure group communication: In a communication, there are number of
+            processes which coordinate their activities. This coordination must be secure and for this
+            there is no such security policy.
+        •   Support for multiple implementations: There should be a security policy which should
+            provide security to multiple sources based on public and private key cryptography.
+    (b) MIS Report: Business managers at all levels of an organization, from assistant managers to
+        executives, rely on reports generated from these systems to help them evaluate their business’
+        daily activities or problems that arise, make decisions, and track progress. M IS system reporting
+        is used by businesses of all sizes and in every industry.
+        MIS systems automatically collect data from various areas within a business. These systems can
+        produce daily reports that can be sent to key members throughout the organization. Most MIS
+        systems can also generate on-demand reports that allow managers and other users of the system
+        to generate an MIS report whenever they need it. Many large businesses have specialized MIS
+        departments, whose only job is to gather business information and create MIS reports. Some of
+        these businesses use sophisticated computing technology and software to gather information.
+        Smaller businesses often use simple software programs and spreadsheets for their MIS reporting
+        needs. There can be as many types of MIS reports as there are divisions within a business. For
+        example, information about sales revenue and business expenses would be useful in MIS reports
+        for finance and accounting managers. Warehouse managers would benefit from MIS reports about
+        product inventory and shipping information. Total sales from the past year could go into an MIS
+        report for marketing and sales managers.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (a) Atrix is having a product portfolio that is evidently in the decline stage. The product is being
+        replaced with the technologically superior product. Strategically the company should minimize their
+        dependence on the existing products and identify other avenues for the survival and growth. As a
+        CEO of Atrix Ltd., following can be the strategic options available with the CEO:
+        •   Invest in new product development and switchover to the new technology. Atrix Ltd. also need
+            time to invest in emerging new technology.
+        •   They can acquire or takeover a competitor, provided they have or are able to generate enough
+            financial resources.
+        •   They may also consider unrelated growth and identify other areas for expansion. This will
+            enable Atrix Ltd. to spread their risks.
+        •   In longer run, they should divest the existing products. However, they may continue with the
+            existing products in a limited manner for such time there is demand for the product.
+    (b) Marshal, to be an effective strategic leader of Mathew & Sons Ltd. must be able to deal with the
+        diverse and cognitively complex competitive situations that are characteristic of today’s competitive
+        landscape. He has several responsibilities, including the following:
+           Making strategic decisions.
+           Formulating policies and action plans to implement strategic decision.
+           Ensuring effective communication in the organisation.
+           Managing human capital (perhaps the most critical of the strategic leader’s skills).
+           Managing change in the organisation.
+           Creating and sustaining strong corporate culture.
+           Sustaining high performance over time.
+2.  (a) (i) Incorrect: The acronym BCG stands for Boston Consulting Group, an organization that
+            developed a matrix to portray an organizational corporate portfolio of investment. This matrix
+            depicts growth of business and the business share enjoyed by an organization. The matri x is
+            also known for its cow and dog metaphors and is popularly used for resource allocation in a
+            diversified company.
+        (ii) Correct: A core competence is a unique strength of an organization which may not be shared
+            by others. If business is organized on the basis of core competence, it is likely to generate
+            competitive advantage. A core competence provides potential access to a wide variety of
+            markets. Core competencies should be such that it is difficult for competitors to imitate them.
+    (b) The prominent areas where the human resource manager can play strategic role are as follows:
+        1.  Providing purposeful direction: The human resource manager must be able to lead people
+            and the organization towards the desired direction involving people right from the beg inning.
+            The most important task of a HR manager is to ensure that the objectives of an organization
+            are internalized by each individual working in the organization. Objectives of an organization
+            state the very purpose and justification of its existence.
+        2.  Building core competency: The human resource manager has a great role to play in
+            developing core competency by the firm. A core competence is a unique strength of an
+            organization which may not be shared by others. This may be in the form of human resourc es,
+            marketing capability, or technological capability. If the business is organized on the basis of
+            core competency, it is likely to generate competitive advantage. Because of this reason, many
+
+            organizations have restructured their businesses by divesting those businesses which do not
+            match core competence. Organization of business around core competence implies
+            leveraging the limited resources of a firm. It needs creative, courageous and dynamic
+            leadership having faith in organization’s human resources.
+        3.  Creating competitive advantage: Creating and maintaining a competitive advantage in the
+            globalized market is the object of any organization. There are two important ways a business
+            can achieve a competitive advantage over the others. The first is cost leadership which means
+            the firm aims to become a low cost leader in the industry. The second competitive strategy is
+            differentiation under which the firm seeks to be unique in the industry in terms of dimensions
+            that are highly valued by the customers. Putting these strategies into effect carries a heavy
+            premium on having a highly committed and competent workforce.
+        4.  Facilitation of change: The human resource manager will be more concerned with
+            substance rather than form, accomplishments rather than activities, and practice rather than
+            theory. The HR function will be responsible for furthering the organization not just maintaining
+            it. Human resource manager will have to devote more time to promote changes than to
+            maintain the status quo.
+        5.  Managing workforce diversity: In modern organizations, management of diverse workforce
+            is a great challenge. Workforce diversity can be observed in terms of male and female
+            workers, young and old workers, educated and uneducated workers, unskilled and
+            professional employee, etc. Moreover, many organizations also have people of different
+            castes, religious and nationalities. The workforce in future will comprise more of educated
+            and self conscious workers. They will ask for higher degree of participation and avenues for
+            fulfilment. Money will no longer be the sole motivating force for majority of the workers. Non -
+            financial incentives will also play an important role in motivating the workforce.
+        6.  Empowerment of human resources: Empowerment means authorizing every member of an
+            organization to take up his/her own destiny realizing his/her full potential. It involves giving
+            more power to those who, at present, have little control what they do and little ability to
+            influence the decisions being made around them.
+        7.  Development of works ethic and culture: Greater efforts will be needed to achieve
+            cohesiveness because employees will have transient commitment to groups. As changing
+            work ethic requires increasing emphasis on individuals, jobs will have to be redesigned to
+            provide challenge. Flexible starting and quitting times for employees may be necessary.
+            Focus will shift from extrinsic to intrinsic motivation. A vibrant work culture will have to be
+            developed in the organizations to create an atmosphere of trust among the employees and to
+            encourage creative ideas by them.
+3.  (a) An important component of strategic thinking requires the generation of a series of strategic
+        alternatives, or choices of future strategies to pursue, given the company's internal strengths and
+        weaknesses and its external opportunities and threats. The comparison of strengths, weaknesses,
+        opportunities, and threats is normally referred to as SWOT analysis.
+        •   Strength: Strength is an inherent capability of the organization which it can use to gain
+            strategic advantage over its competitors.
+        •   Weakness: A weakness is an inherent limitation or constraint of the organization which
+            creates strategic disadvantage to it.
+        •   Opportunity: An opportunity is a favourable condition in the organisation’s environment
+            which enables it to strengthen its position.
+        •   Threat: A threat is an unfavourable condition in the organisation’s environment which causes
+            a risk for, or damage to, the organisation’s position.
+
+        SWOT  analysis helps managers to craft a business model (or models) that will allow a company to
+        gain a competitive advantage in its industry (or industries). Competitive advantage leads to
+        increased profitability, and this maximizes a company's chances of surviving in the fast -changing,
+        competitive environment. Key reasons for SWOT analyses are:
+        •   It provides a logical framework.
+        •   It presents a comparative account.
+        •   It guides the strategist in strategy identification.
+    (b) Organizations can be classified as commercial and non-commercial on the basis of the interest
+        they have. Typically, a government or medical organization may function without any commercial
+        objectives. A commercial organization has profit as its main aim. We can find many organizations
+        around us, which do not have any commercial objective of making profits. Their genesis may be
+        for social, charitable, or educational purposes.
+        The strategic-management process is being used effectively by countless non-profit governmental
+        organizations. Many non-profit and governmental organizations outperform private firms and
+        corporations on innovativeness, motivation, productivity, and human resource.
+        Compared to for-profit firms, non-profit and governmental organizations often function as a
+        monopoly, produce a product or service that offers little or no measurability of performance, and
+        are totally dependent on outside financing. Especially for these organizations, strategic
+        management provides an excellent vehicle for developing and justifying requests for needed
+        financial support.
+4.  (a) A Mission statement tells you the fundamental purpose of the organization. It concentrates on the
+        present. It defines the customer and the critical processes. It informs you of the desi red level of
+        performance. On the other hand, a vision statement outlines what the organization wants to be. It
+        concentrates on the future. It is a source of inspiration. It provides clear decision -making criteria.
+        A mission statement can resemble a vision statement in a few companies, but that can be a grave
+        mistake. It can confuse people. Following are the major differences between vision and mission:
+        1.  The vision states the future direction while the mission states the ongoing activities of the
+            organisation.
+        2.  The vision statement can galvanize the people to achieve defined objectives, even if they are
+            stretch objectives, provided the vision is specific, measurable, achievable, relevant and time
+            bound. A mission statement provides a path to realize the vision in line with its values. These
+            statements have a direct bearing on the bottom line and success of the organization.
+        3.  A vision statement defines the purpose or broader goal for being in existence or in the
+            business and can remain the same for decades if crafted well while a mission statement is
+            more specific in terms of both the future state and the time frame. Mission describes what will
+            be achieved if the organization is successful.
+    (b) A typical large organization is a multidivisional organisation that competes in several different
+        businesses. It has separate self-contained divisions to manage each of these. There are three
+        levels of strategy in management of business - corporate, business, and functional.
+        The corporate level of management consists of the chief executive officer and other top level
+        executives. These individuals occupy the apex of decision making within the organization. The role
+        of corporate-level managers is to oversee the development of strategies for the whole organization .
+        This role includes defining the mission and goals of the organization, determining what businesses
+        it should be in, allocating resources among the different businesses and so on rests at the
+        Corporate Level.
+        The development of strategies for individual business areas is the responsibility of the general
+        managers in these different businesses or business level managers. A business unit is a self -
+
+        contained division with its own functions - for example, finance, production, and marketing. The
+        strategic role of business-level manager, head of the division, is to translate the general statements
+        of direction and intent that come from the corporate level into concrete strategies for individual
+        businesses.
+        Functional-level managers are responsible for the specific business functions or operations such
+        as human resources, purchasing, product development, customer service, and so on. Thus, a
+        functional manager’s sphere of responsibility is generally confined to one organizational activity,
+        whereas general managers oversee the operation of a whole company or division.
+5.  (a) An entrepreneur is an individual who conceives the idea of starting a new venture, takes all types
+        of risks, not only to put the product or service into reality but also to make it an extremely
+        demanding one. An entrepreneur is one who:
+        ➢   Initiates and innovates a new concept.
+        ➢   Recognises and utilises opportunity.
+        ➢   Arranges and coordinates resources such as man, material, machine and capital.
+        ➢   Faces risks and uncertainties.
+        ➢   Establishes a startup company.
+        ➢   Adds value to the product or service.
+        ➢   Takes decisions to make the product or service a profitable one.
+        ➢   Is responsible for the profits or losses of the company.
+    (b) Advantages of Cost leadership strategy
+        Earlier we have discussed Porter’s Five Forces Model in detail. A cost leadership strategy may
+        help to remain profitable even with: rivalry, new entrants, suppliers’ power, substitute products, and
+        buyers’ power.
+        1.  Rivalry – Competitors are likely to avoid a price war, since the low cost firm will continue to
+            earn profits after competitors compete away their profits.
+        2.  Buyers – Powerful buyers/customers would not be able to exploit the cost leader firm and will
+            continue to buy its product.
+        3.  Suppliers – Cost leaders are able to absorb greater price increases before it must raise price
+            to customers.
+        4.  Entrants – Low cost leaders create barriers to market entry through its continuous focus on
+            efficiency and reducing costs.
+        5.  Substitutes – Low cost leaders are more likely to lower costs to induce customers to stay with
+            their product, invest to develop substitutes, purchase patents.
+6.  (a) Business Process Reengineering (BPR) is an approach to unusual improvement in operating
+        effectiveness through the redesigning of critical business processes and supporting business
+        systems. It is revolutionary redesign of key business processes that involves examination of the
+        basic process itself. It looks at the minute details of the process, such as why the work is done,
+        who does it, where is it done and when it is done. BPR refers to the analysis and redesign of
+        workflows and processes both within the organization and between the organization and the
+        external entities like suppliers, distributors, and service providers.
+        The orientation of redesigning efforts is basically radical. In other words, it is a total deconstruction
+        and rethinking of business process in its entirety, unconstrained by its existing structure and
+        pattern. Its objective is to obtain quantum jump in process performance in terms of t ime, cost,
+        output, quality, and responsiveness to customers. BPR is a revolutionary redesigning of key
+        business processes. BPR involves the following steps:
+
+        1.  Determining objectives and framework: Objectives are the desired end results of the
+            redesign process which the management and organization attempts to achieve. This will
+            provide the required focus, direction, and motivation for the redesign process. It helps in
+            building a comprehensive foundation for the reengineering process.
+        2.  Identify customers and determine their needs: The designers have to understand
+            customers – their profile, their steps in acquiring, using and disposing a product. The purpose
+            is to redesign business process that clearly provides added value to the customer.
+        3.  Study the existing process: The existing processes will provide an important base for the
+            redesigners. The purpose is to gain an understanding of the ‘what’, and ‘why’ of the targeted
+            process. However, some companies go through the reengineering process with clean
+            perspective without laying emphasis on the past processes.
+        4.  Formulate a redesign process plan: The information gained through the earlier steps is
+            translated into an ideal redesign process. Formulation of redesign plan is the real crux of the
+            reengineering efforts. Customer focused redesign concepts are identified and formulated. In
+            this step alternative processes are considered and the best is selected.
+        5.  Implement the redesign: It is easier to formulate new process than to implement them.
+            Implementation of the redesigned process and application of other knowledge gained from
+            the previous steps is key to achieve dramatic improvements. It is the joint responsibility of the
+            designers and management to operationalise the new process.
+    (b) Strategic uncertainty denotes the uncertainty that has crucial implications for the organisation. A
+        typical external analysis will emerge with dozens of strategic uncertainties. To be manageable,
+        they need to be grouped into logical clusters or themes. It is then useful to assess the importance
+        of each cluster in order to set priorities with respect to Information gathering and analysis.

@@ -1,0 +1,5 @@
+{"t": 1792468743.208471, "step": "start", "note": ""}
+{"t": 1792475385.012442, "step": "drafts", "note": "6 of 7 finished (imported, by sm-bank-fix); n-p6-pyq-may2025 left draft: MCQs only in 6A file"}
+{"t": 1792475385.2697039, "step": "tags", "note": "176 chapter-only items given sub-topics; spot check 40 (12 wrong) + 49 more fixes; tools/bank/sm_tags.json"}
+{"t": 1792484900.860188, "step": "verify", "note": "check.py 76 SM files 0 errors; build --check green; bank tests 9/9, py 19 OK; full-suite failures pre-existing (same with my changes reverted); 3 items viewed"}
+{"t": 1792484963.278511, "step": "report", "note": "reports/sm-bank-fix.md written"}

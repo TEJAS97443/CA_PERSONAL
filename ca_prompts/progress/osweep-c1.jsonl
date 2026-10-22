@@ -1,0 +1,21 @@
+{"t": 1792463835.097075, "step": "start", "note": "begun"}
+{"t": 1792464393.274852, "step": "cma.abc.abm", "note": "4 rewritten (ABB example, 3 quiz)"}
+{"t": 1792464678.944153, "step": "cma.abc.compute", "note": "4 rewritten (3 examples, 1 quiz)"}
+{"t": 1792464782.921205, "step": "cma.abc.concept", "note": "2 rewritten (hierarchy, adopt-ABC examples)"}
+{"t": 1792464920.607405, "step": "cma.bud.basics", "note": "1 rewritten (budget manual example)"}
+{"t": 1792465015.85137, "step": "cma.bud.cash", "note": "0 rewritten (all FINE)"}
+{"t": 1792465310.5512, "step": "cma.bud.flexible", "note": "4 rewritten (3 examples, 1 quiz)"}
+{"t": 1792465808.6423502, "step": "cma.bud.functional", "note": "4 rewritten (all 4 examples)"}
+{"t": 1792465990.109847, "step": "cma.bud.ratios", "note": "2 rewritten (working-backwards example, 1 quiz)"}
+{"t": 1792466040.0198379, "step": "cma.bud.zbb", "note": "0 rewritten (all FINE)"}
+{"t": 1792466191.732426, "step": "cma.emp.direct", "note": "1 rewritten (three-jobs classification example)"}
+{"t": 1792466429.666631, "step": "cma.emp.idle", "note": "2 rewritten (idle-time and overtime examples)"}
+{"t": 1792466765.325242, "step": "cma.emp.incentives", "note": "5 rewritten (3 examples, 2 quiz)"}
+{"t": 1792467015.980447, "step": "cma.emp.payroll", "note": "2 rewritten (job allocation, attendance case)"}
+{"t": 1792467319.2746801, "step": "cma.emp.turnover", "note": "2 rewritten (both examples)"}
+{"t": 1792467682.894898, "step": "cma.job.job", "note": "2 rewritten (both examples)"}
+{"t": 1792467824.121152, "step": "cma.joint.apportion", "note": "1 rewritten (contribution margin example)"}
+{"t": 1792468008.250238, "step": "cma.joint.byprod", "note": "2 rewritten (reverse-cost and treatment examples)"}
+{"t": 1792468196.8041081, "step": "cma.joint.further", "note": "3 rewritten (both examples, 1 quiz)"}
+{"t": 1792468497.656594, "step": "cma.mat.eoq", "note": "3 rewritten (2 examples, 1 quiz)"}
+{"t": 1792468620.072923, "step": "report", "note": "44 of 145 items rewritten (34 examples, 10 quiz); lint and build clean"}

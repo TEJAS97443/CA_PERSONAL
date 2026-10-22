@@ -1,0 +1,71 @@
+/* PassBook PDFs: the ICAI Question Bank (tools/pdf/qbank_html.js), on top of print.css. Body class kind-qbank. */
+
+/* front matter */
+.qb-front { break-after: page; }
+.qb-fh { margin: 26px 0 10px; padding: 0 0 6px; border-bottom: 2px solid var(--line-2); font: 800 20px/1.25 var(--font-ui); letter-spacing: -.02em; color: var(--ink); break-after: avoid; }
+.qb-fh:first-child { margin-top: 0; }
+.qb-how { margin: 0; padding: 0 0 0 1.1em; font: 400 15px/1.55 var(--font-read); color: var(--ink-2); }
+.qb-how li { margin: 0 0 .5em; }
+.qb-how b { color: var(--ink); font-family: var(--font-ui); font-weight: 700; }
+.qb-fp { margin: 0 0 8px; font: 400 14px/1.5 var(--font-read); color: var(--ink-2); }
+.qb-tt { font-size: 14px; }
+.qb-tt td:nth-child(n+3), .qb-cov td:nth-child(n+2) { text-align: right; font-variant-numeric: tabular-nums; }
+.qb-cov td:nth-child(n+2), .qb-cov th:nth-child(n+2) { text-align: center !important; }
+.qb-tc { display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 6px; background: var(--line); color: var(--muted); font: 650 11px/1.6 var(--font-ui); vertical-align: .1em; }
+.qb-intro { margin: -8px 0 16px; font: 400 15px/1.5 var(--font-read); color: var(--ink-2); }
+
+/* sub-topics: one heading each, no page break (chapters break) */
+.qb-sub { margin: 0 0 18px; }
+.qb-sh { margin: 22px 0 4px; padding: 0 0 6px; border-bottom: 2px solid var(--accent-soft-2); font: 800 21px/1.25 var(--font-ui); letter-spacing: -.02em; color: var(--ink); break-after: avoid; }
+.ch-h + .qb-sub .qb-sh, .qb-intro + .qb-sub .qb-sh { margin-top: 0; }
+.qb-sl { margin: 0 0 12px; font: 600 12.5px/1.4 var(--font-ui); color: var(--muted); break-after: avoid; }
+
+/* one question card */
+.qb-u { margin: 0 0 16px; padding: 10px 12px 8px; border: 1px solid var(--line-2); border-radius: 12px; break-inside: auto; }
+.qb-h { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px; align-items: start; margin: 0 0 6px; break-after: avoid; }
+.qb-n { display: inline-grid; place-items: center; min-width: 30px; height: 22px; padding: 0 5px; border-radius: 7px; background: var(--ink); color: #fff; font: 800 11.5px/1 var(--font-ui); font-variant-numeric: tabular-nums; }
+.qb-hp { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; font: 650 12.5px/1.5 var(--font-ui); color: var(--ink-2); }
+.qb-kind { display: inline-block; padding: 0 7px; border-radius: 6px; color: #fff; font: 800 11px/1.75 var(--font-ui); letter-spacing: .04em; text-transform: uppercase; }
+.k-pyq { background: #d9480f; } .k-rtp { background: #1c7ed6; } .k-mtp { background: #7048e8; }
+.qb-doc { font-weight: 750; color: var(--ink); }
+.qb-lbl { color: var(--ink-2); }
+.qb-mk, .qb-ty, .qb-old, .qb-oosp { display: inline-block; padding: 0 6px; border-radius: 6px; font: 700 11px/1.7 var(--font-ui); }
+.qb-mk { background: var(--accent-soft-2); color: var(--accent-2); }
+.qb-ty { background: var(--line); color: var(--ink-2); }
+.qb-old { background: #fff3bf; color: #8a6100; }
+.qb-oosp { background: #ffe3e3; color: #b02a2a; }
+.qb-also { margin: 0 0 8px; padding: 4px 8px; border-radius: 8px; background: #fff9db; font: 500 12px/1.45 var(--font-ui); color: var(--ink-2); }
+.qb-also b { color: #8a6100; font-weight: 750; margin-right: 2px; }
+
+.qb-case { margin: 4px 0 8px; padding: 8px 10px; border-radius: 10px; background: var(--accent-soft); }
+.qb-cl { font: 800 11.5px/1.4 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--accent-2); margin: 0 0 4px; break-after: avoid; }
+.qb-q { margin: 0 0 6px; }
+.qb-q-in { padding: 6px 0 0; border-top: 1px dashed var(--line-2); }
+.qb-case + .qb-q-in { border-top: 0; padding-top: 0; }
+.qb-ih { display: flex; gap: 6px; align-items: center; margin: 0 0 2px; break-after: avoid; }
+.qb-il { font: 800 12.5px/1.5 var(--font-ui); color: var(--ink); }
+.qb-o { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; }
+.qb-o li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 8px; align-items: start; margin: 0; padding: 3px 8px 3px 5px; border: 1px solid var(--line-2); border-radius: 8px; break-inside: avoid; font: 15px/1.5 var(--font-read); }
+.qb-o li > div > :last-child { margin-bottom: 0; }
+.qb-ok { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 6px; border: 1.5px solid var(--line-2); font: 750 11.5px/1 var(--font-ui); color: var(--muted); margin-top: 2px; }
+
+.qb-a { margin: 10px 0 4px; padding: 6px 10px 4px; border-radius: 10px; border: 1px solid var(--line-2); border-left: 4px solid var(--ok); background: #fbfefc; }
+.qb-at { font: 800 11.5px/1.5 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--ok); margin: 0 0 4px; break-after: avoid; }
+.qb-ai + .qb-ai { margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--line-2); }
+.qb-al { font: 800 12.5px/1.5 var(--font-ui); color: var(--ink); margin: 0 0 2px; break-after: avoid; }
+.qb-key { margin: 0 0 4px; font: 600 14.5px/1.5 var(--font-ui); color: var(--ink-2); } .qb-key b { color: var(--ok); }
+.qb-none { margin: 0 0 4px; font: italic 500 14px/1.5 var(--font-read); color: var(--muted); }
+.qb-note { margin: 6px 0 2px; font: 500 12.5px/1.45 var(--font-ui); color: var(--muted); } .qb-note b { color: var(--ink-2); }
+.qb-src { margin: 6px 0 0; font: 500 11px/1.4 var(--font-ui); color: var(--muted); }
+.qb-fig { margin: 8px 0; break-inside: avoid; } .qb-fig img { max-width: 100%; height: auto; }
+
+.kind-qbank .md { font-size: 15.5px; line-height: 1.55; }
+.pdf-a4.kind-qbank .md { font-size: 16.5px; line-height: 1.58; }
+.kind-qbank .md p { margin: 0 0 .55em; }
+.kind-qbank .md > :last-child { margin-bottom: 0; }
+.kind-qbank .md .tw { margin: .5em 0 .7em; }
+.kind-qbank .md table { font-size: .92em; }
+.pdf .qb-u, .pdf .qb-a, .pdf .qb-case { box-shadow: none !important; }
+/* a card or answer box that runs over a page break is drawn closed on both pages */
+.qb-u, .qb-a, .qb-case { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.qb-sh { break-inside: avoid; }

@@ -1,0 +1,90 @@
+# P4-12 · service-costing · Service Costing: जहाँ गिनने को कोई packet नहीं
+
+## Introduction: factory से services तक
+
+<|emotion:enthusiasm|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+पिछले episode में tea factory का साझा bill उसके grades में बाँटा गया था, पर अब ऋतु को ऐसी चीज़ों की cost निकालनी है जिन्हें godown में रखकर गिना नहीं जा सकता।
+Tapri के refrigerated trucks, Ujjain जाने वाली chai bus, Pachmarhi का inn और Indore के पास का toll road, ये सब services हैं, जिनकी cost किसी physical unit पर नहीं बैठती।
+आज Paper four का chapter twelve है, Service Costing, जिसे ICAI ने चौंसठ documents में पूछा है, जिनमें सत्रह exam papers हैं।
+<|emotion:determination|>Episode के आख़िर तक आप composite cost unit, absolute और commercial tonne-km, bus का fare, hotel का room rent और toll road के costs ICAI के तरीके से लिख पाएँगे।
+
+## Service costing and composite cost units: एक service, दो measures
+
+<|emotion:contemplation|>ICAI के words में service costing is the application of cost concepts in the ascertainment of the cost of providing services, और इसे operating costing भी कहते हैं।
+इसका specific issue ICAI ये बताता है, the difficulty in defining a realistic cost unit that represents a suitable measure of the service provided।
+<|emotion:amusement|>केसर के लिए एक trip की cost ही जवाब थी, पर ऋतु ने समझाया कि कम दूरी का भारी load और लंबी दूरी का हल्का load, दोनों एक ही trip कहलाते हैं।
+इसलिए दो measures जोड़े जाते हैं, और ICAI के words में ऐसे units composite cost units कहलाते हैं, जैसे tonne-km, quintal-km, passenger-km और patient-day।
+
+<|prosody:speed_slow|>Absolute tonne-km है हर leg का weight carried into उस leg की distance, सारे legs का जोड़, और commercial tonne-km है total distance into legs के loads का simple average।
+Absolute को weighted average basis और commercial को simple average basis कहते हैं, और दोनों में distance quantitative factor है, जबकि weight carried qualitative factor।
+<|emotion:enthusiasm|>Indore से निकला truck Dewas पर ज़्यादातर load उतारकर बाकी Ujjain ले गया और kulhads लेकर लौटा, इसलिए हर leg का load अलग था और दोनों basis अलग आए।
+Cost per tonne-km है उसी period की total cost by total tonne-km, और यही तरीका passenger-km, patient-days और room-days पर भी लगता है।
+
+<|emotion:determination|>Equivalent service unit तब लगता है जब किसी service के अलग grades common resources use करें, और each grade of service is assigned a weight and converted into equivalent units।
+ICAI के hotel example में Deluxe suite का weight Standard का ढाई गुना और Luxurious का Deluxe का दोगुना है, और base rate into weight बाकी rates देता है।
+Cost unit पूछे जाएँ तो electricity का kWh, hotel का guest days या room days, और hospital का patient per day, room per day or per bed, per operation लिखिए।
+Canteen का unit per meal, bank का per transaction या application, education का per student या per course, IT का per project या module, और insurance का per policy या claim है।
+Service की performance KPIs से मापी जाती है, जैसे hotel के लिए CPOR, occupancy rate और RevPAR, transport के लिए OTIF और truck turnaround, और telecom के लिए ARPU।
+
+## Transport costing: passenger-km से fare तक
+
+<|emotion:enthusiasm|>Indore से Ujjain के Mahakal मंदिर जाने वाले यात्रियों के लिए केसर ने हर seat पर chai वाली Chai Yatra bus चलाई, और पूछा कि ticket कितने का हो।
+ICAI के words में passenger-kilometre is the cost of carrying one passenger over a distance of one kilometre, और goods के लिए tonne-kilometre एक tonne पर ठीक यही है।
+Kilometres run हैं vehicles into route km into two into round trips a day into days, क्योंकि एक round trip route को दो बार cover करता है।
+Passenger-km हैं kilometres run into seats into occupancy, यानी सिर्फ़ असली passengers, और cost per passenger-km उसी period की operating cost by passenger-km है।
+<|emotion:amusement|>केसर ने पूछा कि per seat क्यों नहीं, तो ऋतु का जवाब था कि खाली seat कुछ नहीं कमाती, पर diesel फिर भी जलाती है।
+
+<|emotion:determination|>Operating cost statement में ICAI तीन heads देता है, standing charges, running charges और maintenance charges, और हर head का total और per unit figure अलग दिखता है।
+Standing charges distance से constant रहते हैं, जैसे insurance, licence fees, monthly salaries, garage rent, time-based depreciation, taxes और administration expenses।
+Running charges distance के साथ चलते हैं, जैसे petrol, diesel, lubricant oils, operations से जुड़े wages और activity-based depreciation, जबकि maintenance में repairs, tyres और spares आते हैं।
+ICAI के हिसाब से the heads for a cost may change, जैसे driver की salary standing या running हो सकती है, और interest अलग item है, जो unless otherwise given fixed है।
+
+<|prosody:speed_slow|>Commission, passenger tax और profit takings के percentage में हों, तो takings है cost divided by one minus c minus p, जहाँ c और p takings के fractions हैं।
+Rate per passenger-km है takings by passenger-km, fare है rate into journey के kilometres, और rounding उतनी ही कीजिए जितनी question कहे।
+Goods truck में tonne-km के लिए actual load carried लिया जाता है, overloading का fine लगे तब भी, पर वो penalty abnormal है और Costing Profit and Loss Account में जाती है।
+<|emotion:contemplation|>Tapri Cold Chain के खाली लौटते truck को वापसी का load मिले, तो full cost per tonne-km नहीं, सिर्फ़ उसकी extra cost देखिए, जो यहाँ refrigeration fuel है।
+
+## Hotels, hospitals, toll roads and other services: हर service की अपनी unit
+
+<|emotion:contemplation|>एक ही हफ़्ते में केसर ने Pachmarhi का inn, Jabalpur का dialysis centre, samosa factory का power plant, toll road, एक app और riders का insurance plan price करने को कहा।
+ऋतु का तरीका हर जगह एक है, units actually delivered गिनिए, cost को fixed और variable में बाँटिए, divide कीजिए, और फिर profit और takings पर लगने वाले charges जोड़िए।
+Hotel की cost unit guest-day या room-day है, और room-days occupied हैं rooms into occupancy into days, capacity नहीं।
+फिर हर room type और season को weight मिलता है, जैसे दोगुने rent वाले suite को दो, और off-season की half rent को आधा, और इनसे equivalent room-days बनते हैं।
+<|prosody:speed_slow|>Base room-day का rent निकालने के लिए cost को पहले equivalent room-days से divide कीजिए, और फिर one minus c minus p से भी divide कीजिए।
+हर दूसरे room का rent इसी base rate into उसके weight से निकलता है।
+
+<|emotion:contemplation|>Hospital में out-patient की unit per out-patient, in-patient की per room-day, scanning की per case, और laundry की per hundred items laundered है।
+Hospital की cost fixed और variable में बँटती है, per patient fee पाने वाले doctors variable cost हैं, और break-even point है fixed cost by contribution per patient-day।
+Power house की unit kilowatt-hour है, और heads वही तीन हैं, standing में rent और depreciation, running में fuel और water, और maintenance में meters, furnaces और tools।
+IT में हर job एक project है, जिसे activities में तोड़कर effort estimation होता है, और effort cost salary plus part of common overhead है।
+Hardware, travel या training project से identifiable हों तो direct हैं, वरना service overhead, और support manpower भी direct तभी है जब उसका time project से identify हो।
+
+<|emotion:determination|>Toll road के लिए ICAI की definition है, BOT is an option for the Government to outsource public projects to the private sector।
+ICAI आगे जोड़ता है कि the private sector designs, finances, constructs and operates the facility, और specified concession period के बाद ownership Government को transfer होती है।
+ICAI का आख़िरी वाक्य भी लिखिए, BOT can be seen as a developing technique for infrastructure projects by making them amenable to private sector participation।
+Capital costs में preliminary expenses, land acquisition, materials, labour, construction overheads, contingency allowance और interest during construction period आते हैं।
+Toll collection, day-to-day administration, routine और periodic maintenance, और interest for servicing term loans operating and maintenance costs हैं, इसलिए interest दोनों तरफ़ दिखता है।
+Base toll है total cost plus profit divided by equivalent vehicles, और user fee है total distance into toll rate per km।
+Bank में cost per application है direct professional labour plus department के overheads का applicable share, divided by applications processed, और insurer cost per policy निकालता है।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>इस chapter में transport costing सैंतीस documents में आई है, और hotels, toll roads, banks जैसी services बत्तीस में, जिनमें ग्यारह exam papers हैं।
+Bus fare on takings छह से आठ marks का numerical है, toll road दस marks तक जाता है, और cost units या BOT की theory चार या पाँच marks की।
+ICAI ने एक hotel का सवाल दोहराया है, जिसमें Deluxe और Premium rooms, summer और winter की अलग occupancy, और Premium का rent Deluxe का दोगुना है।
+
+<|emotion:contemplation|>पहली गलती round trip को एक trip गिनना है, इसलिए working note में साफ़ लिखिए कि दो round trips यानी चार single trips।
+दूसरी गलती seats को passengers मान लेना है, और तीसरी, commercial basis में loads के simple average की जगह distance से weighted average ले लेना।
+Hotel में पहले occupied room-days, फिर weights, और off-season की half rent आधा weight है, आधी occupancy नहीं।
+Takings पर बीस प्रतिशत profit का मतलब cost को अस्सी प्रतिशत से divide करना है, और driver और conductor में बँटा दस प्रतिशत commission कुल दस प्रतिशत ही है।
+Full-marks answer में kilometres run और passenger-km के working notes, फिर standing, running और maintenance वाला statement, और आख़िर में takings और question के शब्दों में fare।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: service costing ही operating costing है, और उसकी मुश्किल realistic cost unit चुनना है, अक्सर tonne-km या patient-day जैसा composite unit।
+Absolute basis हर leg का load into distance जोड़ता है, commercial basis total distance into average load लेता है, और अलग grades weights से equivalent units बनते हैं।
+Bus में passenger-km kilometres run into passengers से बनते हैं, cost तीन heads में बँटती है, और takings होती है cost divided by one minus c minus p।
+Hotel में occupied room-days पर weights, hospital में patient-days में break-even, और toll road में capital costs और operating and maintenance costs अलग रहते हैं।
+
+अगले episode में ऋतु हर cost का पहले से एक standard तय करेंगी और actual को उससे नापेंगी, यानी Paper four का chapter thirteen, Standard Costing।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

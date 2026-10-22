@@ -1,0 +1,991 @@
+                            PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC
+                                                   MANAGEMENT
+                           SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                                     QUESTIONS
+
+        Multiple Choice Questions
+        1.   Under Asynchronous attacks in a telecommunication network system, _______involves
+             spying on information being transmitted over communication network.
+             (a) Wire-tapping
+             (b) Data Leakage
+             (c) Subversive Attacks
+             (d) Piggybacking
+        2.   A Bank ABC gave an undertaking to the third party, supplier of goods/ services to pay
+             amount of ` 2 crore to him on behalf of a businessman Mr. X; provided the terms and
+             conditions of the undertaking are complied with. This service of banks is known as –
+             (a) Issuing letter of Guarantee
+             (b) Issuing letter of Comfort
+             (c) Issuing letter of Credit
+             (d) Issuing letter of Understanding
+        3.   An aspiring CA in his interview was asked to provide correct sequence of the following
+             sub-processes that represent Accounting Process Flow. The sub processes are - (1)
+             Source Document, (2) Financial Statement, (3) Adjustments (4) Ledger, (5) Adjusted Trial
+             Balance, (6) Closing Entries, (7) Journal and (8) Trial Balance. What should be the
+             answer?
+             (a) (1)-(2)-(3)-(4)-(5)-(6)-(7)-(8)
+             (b) (4)-(3)-(7)-(6)-(1)-(2)-(8)-(5)
+             (c)   (1)-(7)-(4)-(8)-(3)-(5)-(6)-(2)
+             (d)   (8)-(5)-(3)-(1)-(2)-(4)-(6)-(7)
+        Chapter 1: Automated Business Processes
+        4.   T he GST of 50 items is to be calculated as per the following details. With Code No. and
+             Value of Supply as input, draw a flowchart to calculate the Tax and print the Tax, Code
+             No. of the Item and the Type of Item. (Note: The rates have been taken hypothetically)
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+             Code No.(C_No)            Types of Items         Tax Rate
+             001                       Perishable                 15%
+             002                       Textiles                   10%
+             003                       Luxury Items               20%
+             004                       Machinery                  12%
+        Chapter 2: Financial and Accounting Systems
+        5.   You have been appointed as an Information Systems (IS) Auditor in a company JKL Ltd.
+             and asked to perform an ERP audit. Prepare a checklist of the common concerns that
+             should be asked during development and implementation of the system as well as ERP
+             Audit.
+        6.   Define Business Reporting. Determine the factors that makes Business Reporting
+             significant.
+        Chapter 3: Information Systems and Its Components
+        7.   In Information Systems, identify the type of Managerial controls that are responsible for
+             the daily running of software and hardware facilities. Prepare a detailed note on these
+             controls.
+        Chapter 4: E- Commerce, M-Commerce and Emerging Technologies
+        8.   Discuss the concept of “Virtualization” and its application areas.
+        9.   Though Mobile computing is a versatile and strategic technology that increases
+             information quality and accessibility, however, it has its own limitations. Analyse them.
+        Chapter – 5: Core Banking Systems
+        10. Discuss the risks and their corresponding controls associated with the Treasury Process
+            in Core Banking Systems (CBS).
+
+
+                                        SUGGESTED ANSWERS/HINTS
+
+        1.   (a) Wire-tapping
+        2.   (c) Issuing letter of Credit
+        3.   (c) (1)-(7)-(4)-(8)-(3)-(5)-(6)-(2)
+        4.   T he variables are defined as follows:
+             C = Code No;                          Val_Spl = Value of Supply;
+             T_It = Types of Item                  N = Counter;
+             Cal_Tax = Calculated Tax after GST
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             3
+
+
+             The required flowchart is as below:
+
+                                       Start
+
+                                    Set N = 0
+
+                                   Read C_No,Val_Spl
+
+
+                                                                         Cal_Tax = Val_Spl*0.15
+                                  If C_No = 001?
+                                                                Yes        T_It = “Perishable”
+                                               No
+
+                                  If C_No = 002?                         Cal_Tax = Val_Spl*0.10
+                                                                 Yes        T_It = “Textiles”
+                                       No
+
+                                  If C_No = 003?                         Cal_Tax = Val_Spl*0.20
+                                                                Yes       T_It = “Luxury Items”
+                                     No
+                                  Cal_Tax = Val_Spl*0.12
+                                    T_It = “Machinery”
+
+
+
+                                Print C_No, Cal_Tax, T_It
+
+                                                                                    No
+                                    N=N+ 1                     If N < 50?                        Stop
+                                                                       Yes
+        5.   Some of the questions auditors should ask during an ERP audit are pretty much the
+             same as those that should be asked during development and implementation of the
+             system:
+             •    Does the system process according to GAAP (Generally Accepted Accounting
+                  Principles) and GAAS (Generally Accepted Auditing Standards)?
+             •    Does it meet the needs for reporting, whether regulatory or organizational?
+             •    Were adequate user requirements developed through meaningful interaction?
+             •    Does the system protect confidentiality and integrity of information assets?
+             •    Does it have controls to process only authentic, valid, accurate transactions?
+             •    Are effective system operations and support functions provided?
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+             •    Are all system resources protected from unauthorized access and use?
+             •    Are user privileges based on what is called “role-based access?”
+             •    Is there an ERP system administrator with clearly defined responsibilities?
+             •    Is the functionality acceptable? Are user requirements met? Are users happy?
+             •    Have workarounds or manual steps been required to meet business needs?
+             •    Are there adequate audit trails and monitoring of user activities?
+             •    Can the system provide management with suitable performance data?
+             •    Are users trained? Do they have complete and current documentation?
+             •    Is there a problem-escalation process?
+        6.   Business Reporting is the public reporting of operating and financial data by a business
+             enterprise, or the regular provision of information to decision-makers within an
+             organization to support them in their work.
+             Reporting is a fundamental part of the larger movement towards improved business
+             intelligence and knowledge management. Often implementation involves Extract,
+             Transform, and Load (ETL) procedures in coordination with a data warehouse and then
+             using one or more reporting tools. While reports can be distributed in print form or via
+             email, they are typically accessed via a corporate intranet.
+             Significance of Business Reporting is as follows:
+             •    Effective and transparent business reporting allows organizations to present a cohesive
+                  explanation of their business and helps them engage with internal and external
+                  stakeholders, including customers, employees, shareholders, creditors, and regulators.
+             •    High-quality business reporting is at the heart of strong and sustainable organizations,
+                  financial markets, and economies, as this information is crucial for stakeholders to
+                  assess organizational performance and make informed decisions with respect to an
+                  organization’s capacity to create and preserve value.
+             •    As organizations fully depend on their stakeholders for sustainable success, it is in
+                  their interest to provide them with high-quality reports. For example, effective high-
+                  quality reporting reduces the risk for lenders and may lower the cost of capital.
+             •    Many organizations are increasingly complex, and have larger economic,
+                  environmental, and social footprints. As a result, various stakeholder groups are
+                  demanding increased Environmental, Social and Governance (ESG) information, as
+                  well as greater insight into how these factors affect financial performance and
+                  valuations.
+             •    High-quality reports also promote better internal decision-making. High-quality
+                  information is integral to the successful management of the business, and is one of the
+                  major drivers of sustainable organizational success.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             5
+
+
+        7.   Under the Managerial Controls, Operations Management Controls are responsible for
+             the daily running of hardware and software facilities. Operations management typically
+             performs controls over the functions as below:
+             (a) Computer Operations: The controls over computer operations govern the activities
+                 that directly support the day-to-day execution of either test or production systems
+                 on the hardware/software platform available. Three types of controls fall under this
+                 category:
+                   •   Operation Controls: These controls prescribe the functions that either human
+                       operators or automated operations facilities must perform.
+                   •   Scheduling Controls: These controls prescribe how jobs are to be scheduled on
+                       a hardware/software platform.
+                   •   Maintenance Controls: These controls prescribe how hardware is to be
+                       maintained in good operating order.
+             (b) Network Operations: This includes the proper functioning of network operations
+                 and monitoring the performance of network communication channels, network
+                 devices, and network programs and files. Data may be lost or corrupted through
+                 component failure. The primary components in the communication sub-systems are
+                 given as follows:
+                   •   Communication lines viz. twisted pair, coaxial cables, fibre optics, microwave and
+                       satellite etc.
+                   •   Hardware – ports, modems, multiplexers, switches and concentrators etc.
+                   •   Software – Packet switching software, polling software, data compression
+                       software etc.
+                   •   Due to component failure, transmission between sender and receiver may be
+                       disrupted, destroyed or corrupted in the communication system.
+             (c) Data Preparation and Entry: Irrespective of whether the data is obtained indirectly
+                 from source documents or directly; keyboard environments and facilities should be
+                 designed to promote speed and accuracy and to maintain the wellbeing of keyboard
+                 operators.
+             (d) Production Control: This includes the major functions like - receipt and dispatch of
+                 input and output; job scheduling; management of service-level agreements with
+                 users; transfer pricing/charge-out control; and acquisition of computer consumables.
+             (e) File Library: This includes the management of an organization’s machine-readable
+                 storage media like magnetic tapes, cartridges, and optical disks.
+             (f)   Documentation and Program Library: This involves that documentation librarians
+                   ensure that documentation is stored securely; that only authorized personnel gain
+                   access to documentation; that documentation is kept up-to-date and that adequate
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+                   backup exists for documentation. The documentation may include reporting of
+                   responsibility and authority of each function; Definition of responsibilities and
+                   objectives of each functions; Reporting responsibility and authority of each function;
+                   Policies and procedures; Job descriptions and Segregation of Duties.
+             (g) Help Desk/Technical support: This assists end-users to employ end-user hardware
+                 and software such as micro-computers, spreadsheet packages, database
+                 management packages etc. and provided the technical support for production
+                 systems by assisting with problem resolution.
+             (h) Capacity Planning and Performance Monitoring: Regular performance
+                 monitoring facilitates the capacity planning wherein the resource deficiencies must
+                 be identified well in time so that they can be made available when they are needed .
+             (i)   Management of Outsourced Operations: This has the responsibility for carrying
+                   out day-to-day monitoring of the outsourcing contract.
+        8.   In computing, Virtualization means to create a virtual version of a device or resource,
+             such as a server, storage device, network or even an operating system where the
+             framework divides the resource into one or more execution environments. Virtualization
+             refers to technologies designed to provide a layer of abstraction between computer
+             hardware systems and the software running on them. By providing a logical view of
+             computing resources, rather than a physical view; virtualization allows its’ users to
+             manipulate their systems’ operating systems into thinking that a group of servers is a
+             single pool of computing resources and conversely, allows its users to run multiple
+             operating systems simultaneously on a single machine. Thus, the core concept of
+             Virtualization lies in Partitioning, which divides a single physical server into multiple
+             logical servers. For example - Partitioning of a hard drive is considered virtualization
+             because one drive is partitioned in a way to create two separate hard drives. Devices,
+             applications and human users can interact with the virtual resource as if it were a real
+             single logical resource.
+             Application Areas of Virtualization are as follows:
+                  Server Consolidation: Virtual machines are used to consolidate many physical
+                   servers into fewer servers, which in turn host virtual machines. Each physical server
+                   is reflected as a virtual machine “guest” residing on a virtual machine host system.
+                   This is also known as “Physical-to-Virtual” or ‘P2V’ transformation.
+                  Disaster Recovery: Virtual machines can be used as “hot standby” environments
+                   for physical production servers. This changes the classical “backup-and-restore”
+                   philosophy, by providing backup images that can “boot” into live virtual machines,
+                   capable of taking over workload for a production server experiencing an outage.
+                  Testing and Training: Virtualization can give root access to a virtual machine. This
+                   can be very useful such as in kernel development and operating system courses.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                        7
+
+
+                 Portable Applications: Portable applications are needed when running an
+                  application from a removable drive, without installing it on the system’s main disk
+                  drive. Virtualization can be used to encapsulate the application with a redirection
+                  layer that stores temporary files, windows registry entries and other state
+                  information in the application’s installation directory and not within the system’s
+                  permanent file system.
+                 Portable Workspaces: Recent technologies have used virtualization to create
+                  portable workspaces on devices like iPods and USB memory sticks.
+        9.   Limitations of Mobile Computing are as follows:
+                 Insufficient Bandwidth: Mobile Internet access is generally slower than direct
+                  cable connections using technologies such as General Packet Radio Service
+                  (GPRS) and Enhanced Data for GSM (Global System for Mobile Communication),
+                  3G and more recently 4G networks. These networks are usually available within
+                  range of commercial cell phone towers. Higher speed wireless LANs are
+                  inexpensive but have very limited range.
+                 Security Standards: When working mobile, one is dependent on public networks,
+                  requiring careful use of Virtual Private Network (VPN). Security is a major concern
+                  while concerning the mobile computing standards on the fleet. One can easily attack
+                  the VPN through a huge number of networks interconnected through the line.
+                 Power consumption: When a power outlet or portable generator is not available,
+                  mobile computers must rely entirely on battery power. Combined with the compact
+                  size of many mobile devices, this often means unusually expensive batteries must
+                  be used to obtain the necessary battery life. Mobile computing should also consider
+                  Greener IT in such a way that it saves the power or increases the battery life.
+                 Transmission interferences: Weather, terrain, and the range from the nearest
+                  signal point can all interfere with signal reception. Reception in tunnels, some
+                  buildings, and rural areas is often poor.
+                 Potential health hazards: People who use mobile devices while driving are often
+                  distracted from driving are thus assumed more likely to be involved in traffic
+                  accidents. Cell phones may interfere with sensitive medical devices. There are
+                  allegations that cell phone signals may cause health problems.
+                 Human interface with device: Screens and keyboards tend to be small, which may
+                  make them hard to use. Alternate input methods such as speech or handwriting
+                  recognition require training.
+        10. The Risks and their corresponding Controls associated with the Treasury Process in
+            Core Banking Systems are as follows:
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                   INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+              S. No.   Risk                                    Key Controls
+              1.       Unauthorized securities setup in        Appropriate Segregation of duties and
+                       systems such as Front office/Back       review controls around securities master
+                       office.                                 setup/amendments.
+              2.       Inaccurate trade is processed.          Appropriate Segregation of duties and
+                                                               review controls to ensure the accuracy
+                                                               and authorization of trades.
+              3.       Unauthorized confirmations are          Complete and accurate confirmations to
+                       processed.                              be obtained from counter-party.
+              4.       Insufficient Securities available for   Effective controls on securities and
+                       Settlement                              margins.
+              5.       Incomplete and inaccurate data          Inter-system reconciliations, Interfaces
+                       flow between systems.                   and batch processing controls.
+              6.       Insufficient funds are available for    Controls at Clearing Corporation of India
+                       settlements.                            Limited (CCIL)/ National Electronic Funds
+                                                               Transfer (NEFT)/ Real Time Gross
+                                                               Settlement (RTGS) to ensure the margin
+                                                               funds availability and the timely funds
+                                                               settlements.
+              7.       Incorrect  Nostro         payments      Controls at Nostro reconciliation and
+                       processed.                              payments.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                              9
+
+
+                                   SECTION – B: STRATEGIC MANAGEMENT
+
+        Multiple Choice Questions
+        1.   In the questions given below select the best answer out of options (a), (b), (c), or (d):
+             (i)   Which of the following statement is not true with regards to strategy?
+                   (a) Strategy reduces uncertainty.
+                   (b) Strategy is long range blueprint of desired position.
+                   (c) Strategy relates organisations to the external environment.
+                   (d) Strategy is perfect and flawless.
+             (ii) The strategic management process is:
+                   (a) a solution that guarantees prevention of organizational failure.
+                   (b) concerned with a resources, capabilities, and competencies, but not the
+                       conditions in its external environment.
+                   (c) not to be used in the not-for-profit organisations.
+                   (d) full set of commitments, decisions, and actions related to the firm.
+             (iii) Mission:
+                   (a) is an internally-focused definition of the organization's societal goals.
+                   (b) is a statement of a firms unique purpose and scope of operations.
+                   (c) does not relate to the industry in which the firm intends to compete.
+                   (d) is developed by a firm before the firm develops its strategic intent.
+             (iv) A __________ consists of those rival firms which have similar competitive
+                  approaches and positions in the market.
+                   (a) BCG Matrix.
+                   (b) Strategic group.
+                   (c) Strategy Map.
+                   (d) Industry.
+             (v)   According to C.K. Prahalad and Gary Hamel, major core competencies are identified
+                   in three areas - ________, ____________, and application to other markets.
+                   (a) Competitor differentiation, customer value.
+                   (b) Competitor differentiation, focus.
+                   (c) Cost leadership, differentiation.
+                   (d) Profits, growth.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                      INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+             (vi) Which of the following statement is not true about strategic decisions?
+                  (a) They need top-management involvement.
+                  (b) Involve commitment of organisational resources.
+                  (c) They are based on external environment
+                  (d) They have insignificant impact on the long-term prosperity
+             (vii) Strategic decision making can take place at three common levels of an organisation
+                   as follows:
+                  (a) Divisional, group and individual.
+                  (b) Executive, leader and manager.
+                  (c) Corporate, business and functional.
+                  (d) Strategic, tactical and operational.
+             (viii) Which of the following is not a type of diversification strategy?
+                  (a) Vertical diversification.
+                  (b) Concentric diversification.
+                  (c) Conglomerate diversification.
+                  (d) Co-generic diversification.
+             (ix) A thing that a firm does especially well in comparison to the rival firms is:
+                  (a) Opportunity availed.
+                  (b) Successful leadership.
+                  (c) Competitive advantage.
+                  (d) Comparative advantage.
+             (x) Stability strategy is a ____________ strategy.
+                  (a) Functional level.
+                  (b) Business level.
+                  (c) Corporate level.
+                  (d) implementation.
+             (xi) Under BCG an SBU with products having little market share but in an attractive
+                  industry is referred to as:
+                  (a) Cash cow.
+                  (b) Star.
+                  (c) Dog.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                               11
+
+
+                  (d) Question mark.
+             (xii) Which of the following does not form part of Richard Rumelt’s criteria for strategy audit?
+                  (a) Adaptation.
+                  (b) Consistency.
+                  (c) Consonance.
+                  (d) Feasibility.
+             (xiii) According to Porter, which of the following is important to achieve competitive
+                    advantage?
+                  (a) Differentiation and cost advantage.
+                  (b) Outsourcing activities.
+                  (c) Having strong relationship with buyer and sellers.
+                  (d) Focus on most competitive businesses.
+             (xiv) What will happen in case many new businesses enter a market?
+                  (a) Barriers to entry will rise.
+                  (b) Competitive rivalry will intensify.
+                  (c) Capacity of industry will fall.
+                  (d) Industry will become more lucrative.
+             (xv) Marketing Strategy is the following type of strategy:
+                  (a) Business Strategy.
+                  (b) Functional Strategy.
+                  (c) Growth Strategy.
+                  (d) Product Strategy.
+             (xvi) Which of the following situation will most likely suit a transformational leader?
+                  (a) An organization that is in trouble.
+                  (b) A growing organization.
+                  (c) An organization in a stable environment.
+                  (d) An organization at maturity stage of product life cycle.
+             (xvii) Which of the following is not a phase in Kurt Lewin’s Model of Change?
+                  (a) Changing.
+                  (b) Deep freezing.
+                  (c) Refreezing.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+                  (d) Unfreezing.
+             (xviii) An organization acquires its supplier is an example of:
+                  (a) Horizontal integrated diversification.
+                  (b) Forward integrated diversification.
+                  (c) Backward integrated diversification.
+                  (d) Conglomerate diversification.
+        Descriptive answers
+        Chapter 1-Introduction to Strategic Management
+        2.   `Do Good Group’ is a not-for-profit organization based in northern India working towards
+             childcare. The group educates people towards immunization, sanitation and works in
+             coordination with local hospitals or medical centers. Recently, a new team has taken over
+             the management of its activities. Explain whether tools of strategic Management are
+             relevant for the group.
+        3.   Are there any limitations attached to strategic management in organizations? Discuss.
+        Chapter 2-Dynamics of Competitive Strategy
+        4.   Rohit Patel is having a small chemist shop in the central part of Ahmedabad. What kind of
+             competencies Rohit can build to gain competitive advantage over online medic ine sellers?
+        5.   What is a Strategic Group? Discuss the procedure for constructing a strategic group map.
+        Chapter 3-Strategic Management Process
+        6.   Shri Alok Kumar is having his own medium size factory in Aligarh manufacturing hardware
+             consisting handles, hinges, tower bolts and so on. He has a staff of more than 220 in his
+             organisation. One of the leading brand of Hardware seller in India is rebranding and selling
+             the material from his factory. Shri Alok Kumar, believes in close supervision and takes all
+             major and minor decisions in the organisation.
+             Do you think Shri Alok should take all decisions himself? What should be nature of
+             decisions that should be taken by him.
+        7.   What are the elements in strategic intent of organisation?
+        Chapter 4-Corporate Level Strategies
+        8.   With the global economic recession Soft Cloth Ltd. incurred significant losses in all its
+             previous five financial years. Currently, they are into manufacturing of cloth made of cotton,
+             silk, polyster, rayon, lycra and blends. Competition is also intense on account of cheap
+             imports. The company is facing cash crunch and has not been able to pay the salaries to
+             its employees in the current month.
+             Suggest a grand strategy that can be opted by Soft Cloth Ltd.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                               13
+
+
+        9.   What are the advantages of a strategic alliance?
+        Chapter 5-Business Level Strategies
+        10. Rahul Sharma is Managing Director of a company which is manufacturing trucks. He is worried
+            about the entry of new businesses. What kind of barriers will help Rahul against such a threat?
+        11. What do you understand by cost leadership? How is it achieved?
+        Chapter 6-Functional Level Strategies
+        12. ABC Ltd is a company that has grown eleven times its size in last five years. With the increase
+            in size the company is facing difficulty in managing things. Many a times functional level is not
+            in sync with the corporate level. What will you like to advise to the company and why?
+        13. Explain the prominent areas where human resource manager can play a strategic role.
+        Chapter 7-Organisation and Strategic Leadership
+        14. Ramesh, is owner of a popular brand of Breads. Yashpal, his son after completing
+            Chartered Accountancy started assisting his father in running of business. The approaches
+            followed by father and son in management were very different. While Ramesh preferred to
+            use authority and having a formal system of defining goals and motivation with explicit
+            rewards and punishments, Yashpal believed in involving employees and generating
+            enthusiasm to inspire people to deliver in the organization.
+             Discuss the difference in leadership style of father and son.
+        15. Discuss the concept of Multi Divisional Structure.
+        Chapter 8-Strategy Implementation and Control
+        16   HQ is a service company? Two years back the company hired a reputed management
+             consultant to formulate its strategy. The consultant recommended an aggressive
+             expansion plan. Now in an internal review meeting the company finds that many of the
+             suggestions are not even fully considered.
+             Which part of strategic management process is missing in HQ?
+        17. What is Benchmarking? Explain briefly the elements involved in Benchmarking process.
+        Differences between the two concepts
+        18. Distinguish between the following:
+             (a) Mergers and acquisitions.
+             (b) Vision and mission.
+             (c) Logistic management and supply chain management.
+             (d) Corporate and business level.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                             INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+                                              SUGGESTED ANSWERS / HINTS
+
+        Multiple Choice Questions
+        Answer 1
+
+         (i)         (d)      (ii)      (d)    (iii)   (b)   (iv)   (b)     (v)    (a)      (vi)    (d)
+         (vii)       (c)      (viii)    (d)    (ix)    (c)   (x)    (c)     (xi)   (d)      (xii)   (a)
+         (xiii) (a)           (xiv) (b)        (xv)    (b)   (xvi) (a)      (xvii) (b)      (xviii) (c)
+        Descriptive answers
+        2.       The tools of strategic management process are effectively being used by a number of not-
+                 for-profit or charitable organizations. While ‘Do Good Group’ may have social and
+                 charitable existence, still it has to generate resources and use them wisely to achieve
+                 organisational objectives. Organisation needs to be managed strategically, irrespective
+                 whether they have profit motive. The strategic Management at ‘Do Good Group’ should
+                 essentially cover:
+                      Analyzing and interpreting the strategic intent in terms of vision, mission and
+                       objectives.
+                      Generating required resources in terms of finance and manpower (volunteers, paid
+                       employees).
+                      Undertaking SWOT analysis from time to time.
+                      Setting goals in the area of childcare. It can be in terms of geographical coverage and
+                       number of children.
+                      Analyzing the desired future position with the past and present situation.
+        3.       The presence of strategic management cannot counter all hindrances and always achieve
+                 success. There are limitations attached to strategic management. These can be explained
+                 in the following lines:
+                      Environment is highly complex and turbulent. It is difficult to understand the c omplex
+                       environment and exactly pinpoint how it will shape-up in future. The organisational
+                       estimate about its future shape may awfully go wrong and jeopardise all strategic
+                       plans.
+                      Strategic management is a time-consuming process. Organisations spend a lot of
+                       time in preparing, communicating the strategies that may impede daily operations and
+                       negatively impact the routine business.
+                      Strategic management is a costly process. Strategic management adds a lot of
+                       expenses to an organization. Expert strategic planners need to be engaged, efforts
+                       are made for analysis of external and internal environments devise strategies and
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                                15
+
+
+                   properly implement. These can be really costly for organisations with limited
+                   resources.
+                  In a competitive scenario, where all organisations are trying to move strategically, it
+                   is difficult to clearly estimate the competitive responses to a firm’s strategies.
+        4.   Capabilities that are valuable, rare, costly to imitate, and non-substitutable are core
+             competencies. A small chemist shop has a local presence and functions within a limited
+             geographical area. Still it can build its own competencies to gain competitive advantage.
+             Rohit Patel can build competencies in the areas of:
+             (i)   Developing personal and cordial relations with the customers.
+             (ii) Providing home delivery with no additional cost.
+             (iii) Developing a system of speedy delivery that can be difficult to match by online sellers.
+                   Being in central part of city, he can create a network to supply at wider locations in
+                   the city.
+             (iv) Having extended working hours for convenience of buyers.
+             (v) Providing easy credit or a system of monthly payments to the patients consuming
+                 regular medicines.
+        5.   A strategic group consists of those rival firms which have similar competitive approaches
+             and positions in the market. Companies in the same strategic group can resemble one
+             another in any of the several ways – have comparable product-line breadth, same
+             price/quality range, same distribution channels, same product attributes, identical
+             technological approaches, offer similar services and technical assistance and so on.
+             The procedure for constructing a strategic group map and deciding which firms belong in
+             which strategic group is as follows:
+                  Identify the competitive characteristics that differentiate firms in the industry typical
+                   variables are price/quality range (high, medium, low); geographic coverage (local,
+                   regional, national, global); degree of vertical integration (none, partial, full); product-
+                   line breadth (wide, narrow); use of distribution channels (one, some, all); and degree
+                   of service offered (no-frills, limited, full).
+                  Plot the firms on a two-variable map using pairs of these differentiating
+                   characteristics.
+                  Assign firms that fall in about the same strategy space to the same strategic group.
+                  Draw circles around each strategic group making the circles proportional to the size
+                   of the group’s respective share of total industry sales revenues.
+        6.   Decision making is a managerial process of selecting the best course of action out of
+             several alternative courses for the purpose of accomplishment of the organizational goals.
+             Decisions may be operational, i.e., which relate to general day-to-day operations. They
+             may also be strategic in nature.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+             As owner manager at the top level in the company, Shri Alok Kumar should concentrate
+             on strategic decisions. These are higher level decisions having organisation wide
+             implications. The major dimensions of strategic decisions are as follows:
+                  Strategic decisions require top-management involvement as they involve thinking in
+                   totality of the organization.
+                  Strategic decisions involve significant commitment of organisational resources.
+                  Strategic decisions necessitate consideration of factors in the firm’s external
+                   environment.
+                  Strategic decisions are likely to have a significant impact on the long-term prosperity
+                   of the firm.
+                  Strategic decisions are future oriented.
+                  Strategic decisions usually have           major multifunctional or multi-business
+                   consequences.
+        7.   Strategic intent can be understood as the philosophical base of strategic management. It
+             implies the purposes, which an organization endeavours to achieve. It is a statement that
+             provides a perspective. Strategic intent gives an idea of what the organization desires to
+             attain in future. Strategic intent provides the framework within which the firm would adopt
+             a predetermined direction and would operate to achieve strategic objectives. Elements of
+             strategic management are as follows:
+             (i)   Vision: Vision implies the blueprint of the company’s future position. It describes
+                   where the organisation wants to land. It depicts the organisation’s aspirations and
+                   provides a glimps of what the organization would like to become in future. Every sub
+                   system of the organization is required to follow its vision.
+             (ii) Mission: Mission delineates the firm’s business, its goals and ways to reach the
+                  goals. It explains the reason for the existence of the firm in the society. A mission
+                  statement helps to identify, ‘what business the company undertakes.’ It defines the
+                  present capabilities, activities, customer focus and role in society.
+             (iii) Business Definition: It seeks to explain the business undertaken by the firm, with
+                   respect to the customer needs, target markets, and alternative technologies. With the
+                   help of business definition, one can ascertain the strategic business choices.
+             (iv) Business Model: Business model, as the name implies is a strategy for the effective
+                  operation of the business, ascertaining sources of income, desired customer base,
+                  and financial details. Rival firms, operating in the same industry rely on the different
+                  business model due to their strategic choice.
+             (v) Goals and Objectives: These are the base of measurement. Goals are the end
+                 results, that the organization attempts to achieve. On the other hand, objectives are
+                 time-based measurable targets, which help in the accomplishment of goals. These
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                                17
+
+
+                  are the end results which are to be attained with the help of an overall plan. However,
+                  in practice, no distinction is made between goals and objectives and both the terms
+                  are used interchangeably.
+        8.   Soft Cloth Ltd. is facing internal as well as external challenges. The external environment
+             is in economic recession and the organization is facing cash crunch. The company needs
+             to work on retrenchment / turnaround strategy. The strategy is suitable in case of issues
+             such as:
+                 Persistent negative cash flow.
+                 Uncompetitive products or services
+                 Declining market share
+                 Deterioration in physical facilities
+                 Overstaffing, high turnover of employees, and low morale
+                 Mismanagement
+             The company may consider to substantially reduce the scope of its activity. This is done
+             through an attempt to find out the problem areas and diagnose the causes of the problems.
+             Next, steps are taken to solve the problems.
+             These steps result in different kinds of retrenchment strategies. If the organization chooses
+             to focus on ways and means to reverse the process of decline, it adopts at turnaround
+             strategy. If it cuts off the loss-making units, divisions, or SBUs, curtails its product line, or
+             reduces the functions performed, it adopts a divestment strategy. If none of these actions
+             work, then it may choose to abandon the activities totally, resulting in a liquidation strategy.
+        9.   A strategic alliance is a relationship between two or more businesses that enables each to
+             achieve certain strategic objectives which neither would be able to achieve on its own. The
+             strategic partners maintain their status as independent and separate entities, share the
+             benefits and control over the partnership, and continue to make contributions to the
+             alliance until it is terminated. The advantages of strategic alliance can be broadly
+             categorised as follows:
+             (a) Organizational: Strategic alliance helps to learn necessary skills and obtain certain
+                 capabilities from strategic partners. Strategic partners may also help to enhance
+                 productive capacity, provide a distribution system, or extend supply chain.
+             (b) Economic: There can be reduction in costs and risks by distributing them across the
+                 members of the alliance. Greater economies of scale can be obtained in an alliance,
+                 as production volume can increase, causing the cost per unit to decline.
+             (c) Strategic: Rivals can join together to cooperate instead of compete. Strategic
+                 alliances may also be useful to create a competitive advantage by the pooling of
+                 resources and skills. This may also help with future business opportunities and the
+
+
+
+
+© The Institute of Chartered Accountants of India
+        18                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+                   development of new products and technologies. Strategic alliances may also be used
+                   to get access to new technologies or to pursue joint research and development.
+             (d) Political: Sometimes strategic alliances are formed with a local foreign business to
+                 gain entry into a foreign market either because of local prejudices or legal barriers to
+                 entry.
+        10. A firm’s profitability tends to be higher when other firms are blocked from entering the
+            industry. New entrants can reduce industry profitability because they add new production
+            capacity leading to increase supply of the product even at a lower price and c an
+            substantially erode existing firm’s market share position. Barriers to entry represent
+            economic forces that slow down or impede entry by other firms. Common barriers to entry
+            include:
+             (i)   Capital Requirements: When a large amount of capital is required to enter an
+                   industry, firms lacking funds are effectively barred from the industry, thus enhancing
+                   the profitability of existing firms in the industry.
+             (ii) Economies of Scale: Many industries are characterized by economic activities
+                  driven by economies of scale. Economies of scale refer to the decline in the per-unit
+                  cost of production (or other activity) as volume grows.
+             (iii) Product Differentiation: Product differentiation refers to the physical or perceptual
+                   differences, or enhancements, that make a product special or unique in the eyes of
+                   customers.
+             (iv) Switching Costs: To succeed in an industry, new entrant must be able to persuade
+                  existing customers of other companies to switch to its products. When such switching
+                  costs are high, buyers are often reluctant to change.
+             (v) Brand Identity: The brand identity of products or services offered by existing firms
+                 can serve as another entry barrier. Brand identity is particularly important for
+                 infrequently purchased products that carry a high unit cost to the buyer.
+             (vi) Access to Distribution Channels: The unavailability of distribution channels for new
+                  entrants poses another significant entry barrier. Despite the growing power of the
+                  internet, many firms may continue to rely on their control of physical distribution
+                  channels to sustain a barrier to entry to rivals.
+             (vii) Possibility of Aggressive Retaliation: Sometimes the mere threat of aggressive
+                   retaliation by incumbents can deter entry by other firms into an existing industry.
+        11. Cost leadership is a low cost competitive strategy that aims at broad mass market. It
+            requires vigorous pursuit of cost reduction in the areas of procurement, production, storage
+            and distribution of product or service and also economies in overhead costs. Because of
+            its lower costs, the cost leader is able to charge a lower price for its products than its
+            competitors and still make satisfactory profits. A primary reason for pursuing forward,
+            backward, and horizontal integration strategies is to gain cost leadership benefits.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                                19
+
+
+             A successful cost leadership strategy usually permeates the entire firm, as evidenced by
+             high efficiency, low overhead, limited perks, intolerance of waste, intensive screening of
+             budget requests, wide spans of control, rewards linked to cost containment, and broad
+             employee participation in cost control efforts. Some risks of pursuing cost leadership are
+             that competitors may imitate the strategy.
+             To achieve cost leadership, following are the actions that could be taken:
+             (a) Forecast the demand of a product or service promptly.
+             (b) Optimum utilization of the resources to get cost advantages.
+             (c) Achieving economies of scale leads to lower per unit cost of product/service.
+             (d) Standardisation of products for mass production to yield lower cost per unit.
+             (e) Invest in cost saving technologies and try using advance technology for smart
+                 working.
+             (f)   Resistance to differentiation till it becomes essential.
+        12. The higher-level corporate strategies need to be segregated into viable plans and policies
+            that are compatible with each other and communicated down the line. The higher-level
+            strategies need to be broken into functional strategies for implementation. These functional
+            strategies, in form of marketing, finance, human resource, production, research and
+            development help in achieving the organisational objective. The reasons why functional
+            strategies are needed can be enumerated as follows:
+                  Functional strategies lay down clearly what is to be done at the functional level. They
+                   provide a sense of direction to the functional staff.
+                  They are aimed at facilitating the implementation of corporate strategies and the
+                   business strategies formulation at the business level.
+                  They act as basis for controlling activities in the different functional areas of business.
+                  They help in bringing harmony and coordination as they are formulated to achieve
+                   major strategies.
+                  Similar situations occurring in different functional areas are handled in a consistent
+                   manner by the functional managers.
+        13. The prominent areas where the human resource manager c an play strategic role are as
+            follows:
+             (a) Providing purposeful direction: The human resource manager must be able to
+                 lead people and the organization towards the desired direction involving people right
+                 from the beginning. The most important task of a HR manager is to ensure that the
+                 objectives of an organization are internalized by everyone.
+             (b) Building core competency: The human resource manager has a great role to play
+                 in developing core competency by the firm. A core competence is a unique strength
+
+
+
+
+© The Institute of Chartered Accountants of India
+        20                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+                   of an organization which may not be shared by others. This may be in the form of
+                   human resources, marketing capability, or technological capability.
+             (c) Creating competitive advantage: Creating and maintaining a competitive
+                 advantage in the globalized market is the object of any organization. There are two
+                 important ways a business can achieve a competitive advantage over the others. The
+                 first is cost leadership and second is differentiation.
+             (d) Facilitation of change: The human resource manager will be more concerned with
+                 substance rather than form, accomplishments rather than activities, and practice
+                 rather than theory. The HR function will be responsible for furthering the organization
+                 and devote more time to promote changes than to maintain the status quo.
+             (e) Managing workforce diversity: In modern organizations, management of diverse
+                 workforce is a great challenge. Workforce diversity can be observed in terms of male
+                 and female workers, young and old workers, educated and uneducated workers,
+                 unskilled and professional employee, etc.
+             (f)   Empowerment of human resources: Empowerment means authorizing every
+                   member of an organization to take up his/her own destiny realizing his/her full
+                   potential. It involves giving more power to those who, at present, have little control
+                   what they do and little ability to influence the decisions being made around them.
+             (g) Development of works ethic and culture: Greater efforts will be needed to achieve
+                 cohesiveness because employees will have transient commitment to groups. As
+                 changing work ethic requires increasing emphasis on individuals, jobs will have to be
+                 redesigned to provide challenge. A vibrant work culture will have to be developed in
+                 the organizations to create an atmosphere of trust and encourage creative ideas.
+        14. Ramesh is a follower of transactional leadership style that focuses on designing system s
+            and controlling the organization’s activities. Such a leader believes in using authority of its
+            office to exchange rewards, such as pay and status. They prefer a more formalized
+            approach to motivation, setting clear goals with explicit rewards or penalties for
+            achievement or non-achievement. Transactional leaders try to build on the existing culture
+            and enhance current practices. The style is better suited in persuading people to work
+            efficiently and run operations smoothly.
+             On the other hand, Yashpal is follower of transformational leadership style. The style uses
+             charisma and enthusiasm to inspire people to exert them for the good of the organization.
+             Transformational leaders offer excitement, vision, intellectual stimulation and personal
+             satisfaction. They inspire involvement in a mission, giving followers a ‘dream’ or ‘vision’ of
+             a higher calling so as to elicit more dramatic changes in organizational performance. Such
+             a leadership motivates followers to do more than originally affected to do by stretching
+             their abilities and increasing their self-confidence, and also promote innovation throughout
+             the organization.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                              21
+
+
+        15. Multidivisional (M-form) structure is composed of operating divisions where each division
+            represents a separate business to which the top corporate officer delegates responsibility
+            for day-to-day operations and business unit strategy to division managers. By such
+            delegation, the corporate office is responsible for formulating and implementing overall
+            corporate strategy and manages divisions through strategic and financial controls.
+             Multidivisional or M-form structure was developed in the 1920s, in response to
+             coordination- and control-related problems in large firms. Functional departments often
+             had difficulty dealing with distinct product lines and markets, especially in coordinating
+             conflicting priorities among the products.
+             Costs were not allocated to individual products, so it was not possible to assess an
+             individual product’s profit contribution. Loss of control meant that optimal allocation of firm
+             resources between products was difficult (if not impossible). Top managers became over -
+             involved in solving short-run problems (such as coordination, communications, conflict
+             resolution) and neglected long-term strategic issues. Multidivisional structure calls for:
+                 Creating separate divisions, each representing a distinct business.
+                 Each division would house its functional hierarchy.
+                 Division managers would be given responsibility for managing day-to-day operations.
+                 A small corporate office that would determine the long-term strategic direction of the
+                  firm and exercise overall financial control over the semi-autonomous divisions.
+        16. Strategy implementation is missing in HQ. Implementation is the managerial exercise of
+            putting a chosen strategy into action. It deals with the managerial exercise of supervising
+            the ongoing pursuit of strategy, making it work, improving the competence with which it is
+            executed and showing measurable progress in ac hieving the targeted results.
+             Strategic implementation is concerned with translating a strategic decision into action,
+             which presupposes that the decision itself (i.e., the strategic choice) was made with some
+             thought being given to feasibility and acceptability. The allocation of resources to new
+             courses of action will need to be undertaken, and there may be a need for adapting the
+             organization’s structure to handle new activities as well as training personnel and devising
+             appropriate systems.
+             It is crucial to realize the difference between the formulation and implementation because
+             they both require very different skills. Also, a company will be successful only when the
+             strategy formulation is sound and implementation is excellent.
+        17. Benchmarking is an approach of setting goals and measuring productivity of firms based
+            on best industry practices or against the products, services and practices of its competitors
+            or other acknowledged leaders in the industry. It developed out of need to have information
+            against which performance can be measured. Benchmarking helps businesses in
+            improving performance by learning from the best practices and the processes by which
+            they are achieved. Thus, benchmarking is a process of continuous improvement in search
+            for competitive advantage. Firms can use benchmarking practices to achieve
+
+
+
+
+© The Institute of Chartered Accountants of India
+        22                     INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+             improvements in diverse range of managerial functions like product development,
+             customer services, human resources management, etc.
+             The various steps in Benchmarking Process are as under:
+             (i)   Identifying the need for benchmarking: This step will define the objectives of the
+                   benchmarking exercise. It will also involve selecting the type of benchmarking.
+                   Organizations identify realistic opportunities for improvements.
+             (ii) Clearly understanding existing decisions processes: The step will involve
+                  compiling information and data on performance.
+             (iii) Identify best processes: Within the selected framework best processes are
+                   identified. These may be within the same organization or external to them.
+             (iv) Comparison of own process and performance with that of others: Benchmarking
+                  process also involves comparison of performance of the organization with
+                  performance of other organization. Any deviation between the two is analysed to
+                  make further improvements.
+             (v)   Prepare a report and implement the steps necessary to close the performance
+                   gap: A report on benchmarking initiatives containing recommendations is prepared.
+                   Such a report also contains the action plans for implementation.
+             (vi) Evaluation: Business organizations evaluate the results of the benchmarking
+                  process in terms of improvements vis-à-vis objectives and other criteria set for the
+                  purpose. It also periodically evaluates and reset the benchmarks in the light of
+                  changes in the conditions that impact the performance.
+        Differences between the two concepts
+        18. (a) Merger and acquisition in simple words are defined as a process of combining two or
+                more organizations together.
+                   Some organizations prefer to grow through mergers. Merger is considered to be a
+                   process when two or more companies come together to expand their business
+                   operations. In such a case the deal gets finalized on friendly terms and both the
+                   organizations share profits in the newly created entity. In a merger two organizations
+                   combine to increase their strength and financial gains along with breaking the trade
+                   barriers.
+                   When one organization takes over the other organization and controls all its business
+                   operations, it is known as acquisitions. In this process of acquisition, one financially
+                   strong organization overpowers the weaker one. Acquisitions often happen during
+                   recession in economy or during declining profit margins. In this process, one that is
+                   financially stronger and bigger establishes it power. The combined operations then
+                   run under the name of the powerful entity. A deal in case of an acquisition is often
+                   done in an unfriendly manner, it is more or less a forced association.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                             23
+
+
+             (b) The vision describes a future identity while the Mission serves as an on-going and
+                 time-independent guide.
+                 The vision statement can galvanize the people to achieve defined objectives, even if
+                 they are stretch objectives, provided the vision is specific, measurable, achievable,
+                 and relevant and time bound. A mission statement provides a path to realize the vision
+                 in line with its values. These statements have a direct bearing on the bottom line and
+                 success of the organization.
+                 A mission statement defines the purpose or broader goal for being in existence or in
+                 the business and can remain the same for decades if crafted well while a vision
+                 statement is more specific in terms of both the future state and the time frame. Vision
+                 describes what will be achieved if the organization is successful.
+             (c) Supply chain management is an extension of logistic management. However, there
+                 are differences between the two. Logistical activities typically include management of
+                 inbound and outbound goods, transportation, warehousing, handling of material,
+                 fulfillment of orders, inventory management and supply/demand planning. Although
+                 these activities also form part of supply chain management, the latter is much
+                 broader. Logistic management can be termed as one of its part that is related to
+                 planning, implementing, and controlling the movement and storage of goods, services
+                 and related information between the point of origin and the point of consumption.
+                  Supply chain management is an integrating function of all the major business
+                  activities and business processes within and across organisations. Supply Chain
+                  Management is a systems view of the linkages in the chain consisting of different
+                  channel partners – suppliers, intermediaries, third-party service providers and
+                  customers. Different elements in the chain work together in a collaborative and
+                  coordinated manner. Often it is used as a tool of business transformation and involves
+                  delivering the right product at the right time to the right place and at the right price.
+             (d) A typical large organization is a multi-divisional organisation that competes in several
+                 different businesses. There are three main levels of management: corporate,
+                 business, and functional. Corporate level occupies the highest level of strategic
+                 decision making and cover actions dealing with the objective of the firm, acquisition
+                 and allocation of resources and coordination of strategies of various businesses for
+                 optimal performance. The corporate level of management consists of the Chief
+                 Executive Officer (CEO), other senior executives. The role of corporate level
+                 managers is to oversee the development of strategies for the whole organization. This
+                 role includes defining the mission and goals of the organization, determining what
+                 businesses it should be in, allocating resources and so on.
+                  Business level comes below corporate level. Business level strategies are the
+                  courses of action adopted by an organisation for each of its businesses separately,
+                  to serve identified customer groups and provide value to the customers by satisfaction
+                  of their needs.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

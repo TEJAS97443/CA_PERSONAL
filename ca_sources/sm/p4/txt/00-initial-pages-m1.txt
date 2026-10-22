@@ -1,0 +1,857 @@
+# ICAI Board of Studies - Intermediate (New Scheme) Study Material - Paper 4: Cost and Management Accounting
+# Module 1 Initial Pages
+# Edition: July 2024, Reprint August 2025 (cover: "Relevant for May 2026 Examination"); ICAI lists this edition as applicable for January 2027
+# Source: https://resource.cdn.icai.org/87788bos-aps2161-ip-m1.pdf  (local ../pdf/m1-ip.pdf, sha256 245990fc818595a3)
+# Page markers "=== p.N [X.Y] ===": N = page number inside the PDF file above, X.Y = ICAI printed page number
+# Text: poppler pdftotext -layout (columns of tables kept), symbol-font bullets -> "-", Rupee-font backtick -> ₹, running heads/footers removed. Equations from MathType objects are not reliable as text: see formula_pages in toc.json and render the PDF page
+
+=== p.1 ===
+                          Intermediate Course
+                                                Study Material
+                                                (Modules 1 to 2)
+
+                                                      Paper : 4
+             Cost and Management
+                       Accounting
+                    (Relevant for May, 2026 Examinations)
+
+                                                      Module – 1
+
+                                   BOARD OF STUDIES
+THE INSTITUTE OF CHARTERED ACCOUNTANTS OF INDIA
+
+=== p.2 ===
+This Study Material has been prepared by the faculty of the Board of Studies. The
+objective of the Study Material is to provide teaching material to the students to
+enable them to obtain knowledge in the subject. In case students need any
+clarification or have any suggestion for further improvement of the material
+contained herein, they may write to the Joint Director, Board of Studies.
+All care has been taken to provide interpretations and discussions in a manner
+useful for the students. However, the Study Material has not been specifically
+discussed by the Council of the Institute or any of its committees and the views
+expressed herein may not be taken to necessarily represent the views of the Council
+or any of its Committees.
+Permission of the Institute is essential for reproduction of any portion of this
+material.
+
+All rights reserved. No part of this book may be reproduced, stored in a retrieval
+system, or transmitted, in any form, or by any means, electronic, mechanical,
+photocopying, recording, or otherwise, without prior permission, in writing, from the
+publisher.
+
+Basic draft of this publication was prepared by CA. (Dr.) Rashmi Goel
+
+Edition                                 :       July, 2024
+
+Reprint                                 :       August, 2025
+
+Committee/Department                    :       Board of Studies
+
+E-mail                                  :       bosnoida@icai.in
+
+Website                                 :       www.icai.org
+
+Price                                   :       ₹   /-   (For All Modules)
+
+ISBN No.                                :       978-81-19472-65-9
+
+Published by                            :       The Publication & CDS Directorate on behalf of
+                                                The Institute of Chartered Accountants of India,
+                                                ICAI     Bhawan,    Post     Box   No.    7100,
+                                                Indraprastha Marg, New Delhi 110 002 (India)
+Printed by                              :
+
+=== p.3 ===
+                             BEFORE WE BEGIN….
+
+In contemporary business environment, existence of an entity depends on the
+way it faces the challenges posed by the competitive market conditions and deals
+with the same. Cost leadership being one of the competitive strategies, gives an
+added advantage to the entity. Cost being an important aspect for survival and
+growth in business, requires a mandatory awareness about the cost control and
+cost reduction methods. Fourth industrial revolution, also known as Industry 4.0,
+lays more emphasis on the digitization of information for effective decision-
+making, which enables an entity in keeping ahead in competition. Cost and
+Management accounting, a discipline of accounting, enables an entity in taking
+timely decisions by provisions of cost, profitability and other relevant information.
+Chartered Accountants, as a global business solution provider, play an important
+role in business, have an onus by helping an entity to achieve its long-term
+objectives. In this direction, Cost and Management Accounting helps Chartered
+Accountants in taking timely and informed business decisions. In view of nobility
+of the objective to provide quality academic inputs to the students of CA course,
+the Board of Studies (BoS) of ICAI has decided to bring forth Study Material of
+Cost and Management Accounting. This Study Material contains all relevant and
+contemporary topics like Digital Costing, Government e-Marketplace (GeM)
+Process of tender and quotation, Direct Expenses, Various Short-term decisions,
+Budgets and motivation, Feedback and Feedforward controlling in budgeting as
+detailed out in the syllabus.
+Under the Revised Scheme of Education and Training, at the Intermediate Level,
+students are expected not only to acquire professional knowledge but also to
+develop the ability to apply the knowledge in real life business situations. The
+process of learning should also help the students in imbibing professional sk ills,
+i.e., the intellectual skills and communication skills, necessary for achieving the
+desired professional competence.
+The entire syllabus has been divided into fifteen chapters. The chapters have been
+grouped into two modules:
+Module-1 Consisting of seven chapters namely:
+Chapter-1: Introduction to Cost and Management Accounting
+
+Chapter-2: Material Cost
+
+=== p.4 ===
+Chapter-3: Employee Cost and Direct Expenses
+Chapter-4: Overheads-Absorption Costing Method
+                                           4.
+Chapter-5: Activity Based Costing
+                              iv
+Chapter-6: Cost Sheet
+Chapter-7: Cost Accounting Systems
+Module-2 Consisting of eight chapters namely:
+
+Chapter-8: Unit & Batch Costing
+Chapter-9: Job Costing
+Chapter-10: Process & Operation Costing
+Chapter-11: Joint Products & By Products
+Chapter-12: Service Costing
+Chapter-13: Standard Costing
+Chapter-14: Marginal Costing
+Chapter-15: Budget and Budgetary Control
+The content for each chapter at the Intermediate level has been structured in the
+following manner –
+1. Comprehensive Learning Outcomes: Learning outcomes which you need to
+demonstrate after learning each topic have been detailed in the first page of each
+chapter. Demonstration of these learning outcomes would help you to achieve
+the desired level of technical competence.
+2. Chapter Overview: As the name suggests, this chart/table would give a
+broad framework of the contents covered in the chapter.
+3. Introduction: A brief introduction is given at the beginning of each chapter,
+which would help you get a feel of the topic.
+4. Content: In each chapter, the topics have been covered following ‘step by
+step’ approach. The concepts are explained in student-friendly manner with the
+aid of Examples/illustrations/diagrams/flow charts/Pictorials as per requirement.
+These value additions would help you develop conceptual clarity and to get a
+good and quick grasp of the topic. Diagrams, Pictorials and Flow charts would
+help you understand the concepts in a better manner. Illustrations would help
+you understand the application of concepts/ provisions. More illustrations/
+
+=== p.5 ===
+Practical questions in Test Your Knowledge section have been added to enable a
+thorough practice of variety of questions. The flow of content in chapter have
+been reviewed and changed to make it more student friendly.
+5. Illustration with Answers: Illustrations and examples has been included in
+the Study Material systematically, after discussion on each topic, so that
+application of the concept can be understood very clearly. This would also enable
+you to learn and sharpen your application skills and test your understanding.
+6. Multiple Choice Questions (MCQ): In the New Scheme of education and
+training, assessment for 30 marks in each paper at the intermediate and final level
+would be by way of case scenario based MCQs. Questions in this segment would
+comprise of a case scenario followed by a few MCQs based on the case scenario.
+All case scenario based MCQs would be application oriented. There would be 4
+options in each MCQ, out of which the student has to choose the correct
+option. In the subject of Cost and Management Accounting, a student has to
+apply the Cost and Management Accounting concepts learnt in solving the MCQs
+based on the case scenario. In order to hone the application and analytical skills
+of students, independent MCQs have been included in every chapter of this Study
+Material. Solving these MCQs will enhance your conceptual clarity and sharpen
+your analytical skills.
+7. Summary: A summary of the chapter is given at the end to help you revise
+what you have learnt. It would especially help you to revise the chapter(s) quickly
+the day before the examination.
+8. Test Your Knowledge: This comprises of Multiple-Choice Questions (MCQs),
+Theoretical Questions and Practical Problems with solutions which test the
+breadth and depth of your understanding of the topic.
+9. Skill Specification Assessment: An indicative skill specification Assessment
+Grid has been incorporated in the study material for better understanding of the
+students. An effort has been made to arrange the questions/illustrations/exercise
+accordingly.
+In this Study Material, formats of Financial Statements (i.e. Balance Sheet, Income
+Statements etc) and financial terms used are for illustrative purpose only. For
+appropriate format and applicability of various Standards, students are advised to
+refer the study material of appropriate subject (s).
+
+=== p.6 ===
+Further the solutions/answers contained in the study material are based on
+certain assumptions and other logical alternative assumption/ approach/
+presentation may be possible. 4.
+                                           vi
+We have made every effort to make the Study Material student-friendly and to
+enable the students to have conceptual clarity on various topics of this subject.
+Every effort has been made to remove typing errors (if any)/ clerical errors (if
+any)/ missing content (if any)/ formatting errors (if any), or any other error, so as
+to make Study Material error free, however if inadvertently any error is present
+and found by readers, they may send it to us immediately, so that it can be
+rectified at our end.
+In case you need any further clarification/ guidance, you may send your queries
+through ICAI BoS App.
+
+                                 Happy Reading and Best Wishes!
+
+=== p.7 ===
+ SKILL SPECIFICATION ASSESSMENT GRID
+Skill Level                      Manner of Assessment Illustrative verbs used
+                                 of Skills            to construct learning
+                                                      outcomes
+
+Level-I:          Understanding             or         List – Preparing a list of
+                  grasping ability (Defining,
+Knowledge     and                                      State – Mentioning clearly
+                  stating,          enlisting,
+Comprehension                                          or fully the details of.
+                  identifying,            and
+                  explaining concepts /                Define – Explaining the
+                  provisions / theories /              exact meaning of.
+                  principles relating to the
+                                                       Describe – Giving detailed
+                  relevant subject area.)
+                                                       narration of something or
+                                                       key features.
+
+                                                       Distinguish – Mentioning
+                                                       or     highlighting  the
+                                                       difference between.
+
+                                                       Explain – Making             the
+                                                       meaning of.
+
+                                                       Identify –         Recognizing
+                                                       something.
+
+                                                       Illustrate  –   Explaining
+                                                       something with the help of
+                                                       an example.
+
+                                                       and similar verbs
+
+                                                       Combination of verbs:
+                                                       Comprehend and Explain;
+                                                       Identify and explain and
+                                                       similar verbs.
+
+=== p.8 ===
+Level-II:                      Applying and analyzing Application:
+                               the    concepts   learned
+Application                and      4.                    Apply – Putting theoretical
+                               during the grasping level.
+Analysis                            viii                  knowledge for practical
+                                (Application:   Applying purpose.
+                                 concepts / provisions /
+                                                            Calculate – Arriving at
+                                 theories / principles in   some value by following
+                                 problem solving in non-    numerical/     analytical
+                                 complex scenarios.)        procedures.
+
+                                                            Compute - Arriving at
+                                                            some value by following
+                                                            numerical/    analytical
+                                                            procedures.
+
+                                                            Determine- Ascertain or
+                                                            establish     exactly    by
+                                                            calculation or workings.
+
+                                                            Find/ Find out- Ascertain
+                                                            or establish exactly by
+                                                            calculation or workings.
+
+                                                            Demonstrate – Proving
+                                                            something with certainty
+                                                            using practical means.
+
+                                                            Prepare    –     Making
+                                                            something ready for any
+                                                            use.
+
+                                                            Reconcile – Making or
+                                                            proving        consistency/
+                                                            compatibility.
+
+                                                            Solve – Find an answer or
+                                                            solution to something
+
+                                                            Tabulate – Exhibiting the
+                                                            required information in a
+                                                            tabular form.
+
+=== p.9 ===
+                            Combination    of  verbs:
+                            Compare and contrast and
+                            similar verbs.
+
+(Analysis:      Applying,   Analysis:
+comparing and analysing
+                            Analyze    -    Examining
+concepts / provisions /
+                            something in detail.
+theories / principles in
+problem     solving    in   Categorize - Arranging
+moderately       complex    something in a predefined
+scenarios.)                 group or class or division.
+
+                            Compare - Examining the
+                            differences or similarities
+                            between.
+
+                            Construct -      Building or
+                            compiling.
+
+                            Discuss - Writing about or
+                            examining in detail.
+
+                            Interpret - Translating in
+                            intelligible or familiar or
+                            understandable terms.
+
+                            Combination of verbs:
+
+                            Analyse and       apply   and
+                            similar verbs.
+
+=== p.10 ===
+                                            SYLLABUS
+                                           4.
+                                           x
+
+        PAPER – 4: COST AND MANAGEMENT ACCOUNTING
+                              (One Paper- Three hours- 100 Marks)
+
+Objectives:
+(a)     To develop an understanding of the basic concepts and applications to
+        establish the cost associated with the production of products and provision
+        of services and apply the same to determine prices.
+(b)     To develop an understanding of cost accounting statements.
+(c)     To acquire the ability to apply information for cost ascertainment, planning,
+        control and decision making.
+(d)     To apply costing methods to determine the costs for different purposes.
+(e)     To apply appropriate techniques to support short term decisions.
+Contents:
+1.      Overview of Cost and Management Accounting
+        (i)     Introduction to Cost and Management Accounting
+                (a)     Objectives and Scope of Cost and Management Accounting,
+                (b)     The users of Cost and Management accounting information,
+                        Functions of management accounting.
+                (c)     Role of cost accounting department in an organisation and its
+                        relation with other departments.
+
+                (d)     Installation of Costing System
+                (e)     Relationship of Cost Accounting, Financial Accounting,
+                        Management Accounting and Financial Management.
+
+                (f)     Cost terms and Concepts
+                (g)     Cost Reduction and Cost Control
+
+=== p.11 ===
+                (h)     Elements of Costs
+                (i)     Cost behavior pattern, Separating the components of fixed,
+                        variable, semi-variable and step costs.
+                (j)     Methods of Costing, Techniques of Costing.
+                (k)     Digital Costing.
+        (ii)    Elements of Cost and Preparation of Cost Sheets
+                (a)     Functional classification and ascertainment of cost
+                (b)     Preparation of Cost Sheets for Manufacturing sector and for
+                        Service sector
+2.      Ascertainment of Cost and Cost Accounting System
+        (i)     Material Cost
+                (a)     Introduction to procurement procedures. Valuation of receipts,
+                        issue and closing stock of Material, Stock verification.
+                (b)     Material requirement analysis through digital costing including
+                        Government e-Marketplace (GeM). Introduction to Costing
+                        through Enterprise Resource Planning (ERP). Process of tender
+                        and quotation.
+                (c)     Inventory control-
+                        -     Techniques of fixing level of stocks- minimum, maximum,
+                              re-order point, safety stock, determination of optimum stock
+                              level,
+                        -     Determination of Optimum Order quantity- Economic Order
+                              Quantity (EOQ),
+                        -     Techniques of Inventory control- ABC Analysis, Fast, Slow
+                              moving and Non moving (FSN), High, Medium, Low (HML),
+                              Vital, Essential, Desirable (VED), Just-in-Time (JIT)- Stock
+                              taking and perpetual inventory system, use of inventory
+                              control ratios, Digital Inventory control
+                (d)     Treatment of Normal/Abnormal Losses w.r.t. waste, scrap,
+                        spoilage, defective, obsolescence.
+
+=== p.12 ===
+(ii)    Employee Cost
+        (a)     Introduction to Attendance and Payroll procedures
+                             4.
+        (b)     Elements of wages- Basic pay, Dearness Allowance, Overtime,
+                             xii
+                Bonus, Holiday and leave wages, Allowances and perquisites.
+        (c)     Employee Cost Control
+        (d)     Employee Turnover- Methods of calculating employee turnover,
+                causes of employee turnover, effects of employee turnover.
+        (e)     Remuneration systems and incentive schemes- Premium Bonus
+                Method (Halsey Plan and Rowan Plan)
+
+(iii) Direct Expenses
+       Identification of direct expenses with the main product or service and
+       its treatment.
+(iv) Overheads
+        (a)     Functional analysis- Factory, Administration, Selling, Distribution,
+                Research and Development.
+        (b)     Behavioral analysis- Fixed, Variable and Semi- Variable.
+        (c)     Allocation and Apportionment of overheads using Absorption
+                Costing Method.
+        (d)     Factory Overheads- Primary and secondary distribution,
+        (e)     Administration Overheads- Method of allocation to cost centres
+                or products,
+        (f)     Selling & Distribution Overheads- Analysis and absorption of the
+                expenses in products/ customers, impact of marketing
+                strategies, cost effectiveness of various methods of sales
+                promotion.
+        (g)     Treatment of Research and development cost in cost accounting.
+(v)     Concepts of Activity Based Costing (ABC)
+
+(vi) Integration of cost and financial data
+        (a)     Recording of financial data and its segregation.
+        (b)     Introduction to Non- integrated and Integrated Accounting
+                system.
+
+=== p.13 ===
+                (c)     Items included in cost accounts only but financial accounts and
+                        vice versa.
+                (d)     Reconciliation of profit as per Cost and Financial Accounts
+                        (under Non-Integrated Accounting System).
+3.      Methods of Costing
+        (i)     Single Output/ Unit Costing
+        (ii)    Job Costing: Job cost cards and databases, collecting direct costs of
+                each job, attributing overheads to jobs, Application of job costing.
+        (iii)   Batch Costing: Determination of optimum batch quantity,
+                Ascertainment of cost for a batch, Preparation of batch cost sheet,
+                Treatment of spoiled and defective work.
+        (iv) Process/ Operation Costing
+                (a)     Process cost recording, Process loss, Abnormal gains and losses,
+                        Equivalent units of production, Inter-process profit, Valuation of
+                        work in process.
+                (b)     Joint Products- Apportionment of joint costs, Methods of
+                        apportioning joint cost over joint products,
+                (c)     By-Products- Methods of apportioning joint costs over by-
+                        products, treatment of By-product cost.
+        (v)     Costing of Service Sectors
+                Determination of Costs and Prices of services.
+4.      Cost Control and Analysis
+        (i)     Standard Costing
+                (a)     Setting up of Standards, Types of Standards, Standard Costing as
+                        method of performance measurement.
+                (b)     Calculation and Reconciliation of Material Cost, Labour cost,
+                        Variable Overhead, Fixed Overhead
+         (ii) Marginal Costing
+                (a)     Basic concepts of marginal costing, Contribution margin, Break-
+                        even analysis, Break –even and profit volume charts,
+                        Contribution to sales ratio, Margin of Safety, Angle of Incidence,
+                        Cost-Volume-Profit Analysis (CVP),
+
+=== p.14 ===
+        (b)     Determination of Cost of a product/ service under marginal
+                costing method, determination of cost of finished goods, work-
+                in-progress, 4.
+                                   xiv
+        (c)     Comparison of Marginal costing with absorption costing
+                method- Reconciliation of profit under both the methods,
+        (d)     Short term decision making -
+                •     Make or buy decision
+                •     Discontinuation decision
+                •     Multiproduct break-even analysis
+                •     Limiting factor (key factor)
+(iii) Budget and Budgetary Control
+        (a)     Meaning of Budget, Essentials of Budget, Budget Manual,
+                Budget setting process, Preparation of Budget and monitoring
+                procedures.
+        (b)     The use of budget in planning and control
+        (c)     Flexible budget, Preparation of Functional budget for operating
+                and non- operating functions, Cash budget, Master budget,
+
+        (d)     Introduction to Principal/ Key budget factor, Zero Based
+                Budgeting (ZBB), Performance budget, Control ratios and Budget
+                variances.
+        (e)     Budgets and motivation
+        (f)     Feedback and Feedforward controlling in budgeting.
+
+=== p.15 ===
+                                           CONTENTS
+
+MODULE – 1
+Chapter-1:       Introduction to Cost and Management Accounting
+Chapter-2:       Material Cost
+Chapter-3:       Employee Cost and Direct Expenses
+Chapter-4:       Overheads-Absorption Costing Method
+Chapter-5:       Activity Based Costing
+Chapter-6:       Cost Sheet
+Chapter-7:       Cost Accounting Systems
+
+MODULE – 2
+Chapter-8:       Unit & Batch Costing
+Chapter-9:       Job Costing
+Chapter-10: Process & Operation Costing
+Chapter-11: Joint Products & By Products
+Chapter-12: Service Costing
+Chapter-13: Standard Costing
+Chapter-14: Marginal Costing
+Chapter-15: Budget and Budgetary Control
+
+=== p.16 ===
+                DETAILED CONTENTS: MODULE-1
+                                                        4.
+                                                        xvi
+
+CHAPTER-1 : INTRODUCTION TO COST AND MANAGEMENT
+           ACCOUNTING .............................................................................1.1-1.46
+
+Learning Outcomes .............................................................................................................................. 1.1
+Chapter Overview.................................................................................................................................. 1.2
+
+1.           Introduction ............................................................................................................................ 1.2
+             1.1          Meaning and Definition ........................................................................................ 1.2
+2.           Objectives of Cost Accounting ........................................................................................ 1.4
+
+             2.1          Difference between Cost Control and Cost Reduction ............................ .1.6
+             3.           Scope of Cost Accounting .................................................................................. 1.7
+4.           Relationship of Cost and Management Accounting with
+             other related disciplines ...................................................................................................... 1.8
+             4.1          Cost Accounting with Management Accounting ........................................ 1.8
+             4.2          Cost Accounting with Financial Accounting ................................................. 1.9
+             4.3          Cost and Management Accounting with Financial Management ......1.10
+5.           Role & Functions of Cost and Management Accounting ................................... 1.11
+6.           Users of Cost and Management Accounting ...........................................................1.12
+
+7.           Essentials of a Good Cost Accounting System..........................................................1.14
+8.           Installation of Costing System .......................................................................................1.15
+9.           Cost Accounting with the use of Information Technology (IT) .........................1.17
+
+             9.1          Digital Costing System ........................................................................................1.18
+10.          Cost Objects ..........................................................................................................................1.19
+             10.1         Cost Units .................................................................................................................1.20
+             10.2         Cost Driver ...............................................................................................................1.21
+11.          Responsibility Centres .......................................................................................................1.22
+
+=== p.17 ===
+12.          Limitations of Cost Accounting .....................................................................................1.23
+13.          Classification of Costs .......................................................................................................1.24
+             13.1          By Nature or Element ..........................................................................................1.24
+             13.2          By Functions ............................................................................................................1.26
+             13.3          By Variability or Behaviour ................................................................................1.27
+                           13.3.1 Methods of segregating Semi-variable Costs into Fixed
+                                  and Variable Costs .................................................................................1.29
+             13.4          By Controllability ...................................................................................................1.33
+             13.5          By Normality ...........................................................................................................1.33
+             13.6          By Costs used in Managerial Decision Making ..........................................1.34
+14.          Methods of Costing ...........................................................................................................1.36
+15.          Techniques of Costing ......................................................................................................1.38
+Summary ................................................................................................................................................1.40
+Test Your Knowledge .......................................................................................................................1.43
+Multiple Choice Questions (MCQs) .............................................................................................1.43
+
+Theoretical Questions ......................................................................................................................1.45
+Answers to the MCQs ........................................................................................................................1.46
+Answers to the Theoretical Questions .......................................................................................1.46
+
+CHAPTER-2 : MATERIAL COST .................................................................... 2.1-2.100
+
+Learning Outcomes .............................................................................................................................. 2.1
+Chapter Overview ................................................................................................................................ 2.2
+1.           Introduction ............................................................................................................................ 2.2
+
+2.           Material Control .................................................................................................................... 2.3
+             2.1           Objectives of System of Material Control ..................................................... 2.4
+             2.2           Requirements of Material Control ................................................................... 2.4
+             2.3           Elements of Material Control ............................................................................. 2.5
+
+=== p.18 ===
+3.        Materials Procurement Procedure .................................................................................. 2.6
+          3.1         Bill of Materials ....................................................................................................... 2.7
+                                                   4.
+          3.2         Material Requisition
+                                       xviiiNote ................................................................................... 2.7
+
+                      Difference between Bill of Materials and Material
+                      Requisition Note .................................................................................................... 2.8
+          3.3         Purchase Requisition ............................................................................................ 2.8
+          3.4         Inviting Quotation/Request for Proposal (RFP)/ Notification
+                      Inviting Tender (NIT) .............................................................................................. 2.9
+          3.5         Selection of Quotation / Proposal .................................................................2.11
+          3.6         Preparation and Execution of Purchase Orders .......................................2.11
+          3.7         Receipt and Inspection of Materials ..............................................................2.12
+                      3.7.1        Goods Received Note ........................................................................2.12
+                      3.7.2        Material Returned Note .................................................................... 2.12
+          3.8         Checking and Passing of Bills for Payment .............................................. 2.13
+4.        Valuation of Material Receipts .......................................................................................2.13
+
+5.        Material Storage & Records ..................................................................................... …. 2.18
+          5.1         Duties of Store Keeper ........................................................................................2.18
+          5.2         Store Records ........................................................................................................2.19
+          5.3         Difference between Bin Card & Stores Ledger .......................................2.21
+6.        Inventory Control ......................................................................................................... ……2.21
+          6.1         Inventory Control- By Setting Quantitative Levels ................................ 2.22
+          6.2         Inventory Stock-Out........................................................................................... 2.31
+          6.3         Just In Time (JIT) Inventory Management .................................................. 2.35
+          6.4         Inventory Control- On the basis of Relative Classification ....................2.35
+
+                      1.           ABC Analysis ...........................................................................................2.35
+                      2.           Fast Moving, Slow Moving and Non-
+                                   Moving (FSN) Inventory.......................................................................2.40
+
+                      3.           Vital, Essential and Desirable (VED).................................................2.41
+
+=== p.19 ===
+                      4.          High Cost, Medium Cost, Low Cost (HML) Inventory ...............2.42
+          6.5         Using Ratio Analysis ............................................................................................2.42
+          6.6         Physical Control .....................................................................................................2.45
+7.        Material Issue Procedure ...................................................................................................2.47
+8.        Valuation of Material Issues .............................................................................................2.49
+          8.1         Cost Price Methods .............................................................................................2.50
+                      1.          Specific Price Method ...........................................................................2.50
+                      2.          First-in First-out (FIFO) Method ........................................................2.50
+                      3.          Last-in First-out (LIFO) Method ........................................................2.52
+                      4.          Base Stock Method................................................................................2.59
+          8.2         Average Price Methods .....................................................................................2.59
+                      1.          Simple Average Price Method...........................................................2.59
+                      2.          Weighted Average Price Method.....................................................2.60
+          8.3         Market Price Methods .........................................................................................2.61
+                      1.          Replacement Price Method ................................................................2.61
+
+                      2.          Inflataed Price Method.........................................................................2.61
+          8.4         Notional Price Methods ......................................................................................2.62
+                      1.          Standard Price Method ........................................................................2.62
+                      2.          Inflated Price Method ...........................................................................2.62
+                      3.          Re-use Price Method ............................................................................2.62
+9.        Valuation of Returns & Shortages .................................................................................2.63
+          9.1         Valuation of Materials Returned to the Vendor ........................................2.63
+          9.2         Valuation of Materials Returned to Stores ..................................................2.63
+          9.3         Valuation of Shortages during Physical Verification................................2.63
+
+10.       Treatment of Normal and Abnormal Loss of Materials ........................................2.64
+          Difference between Waste and Scrap ..........................................................................2.66
+          Difference between Scrap and Defectives ..................................................................2.67
+
+=== p.20 ===
+11.          Consumption of Materials ................................................................................................2.70
+             11.1          Identification of Materials ..................................................................................2.70
+                                                         4.
+             11.2          Monitoring Consumption of Materials .........................................................2.71
+                                          xx
+
+             11.3          Basis for Consumption Entries in Financial Accounts ..............................2.72
+Summary ................................................................................................................................................2.73
+Test Your Knowledge .......................................................................................................................2.76
+Multiple Choice Questions (MCQs) .............................................................................................2.76
+Theoretical Questions ......................................................................................................................2.78
+Practical Problems .............................................................................................................................2.79
+Case Scenarios......................................................................................................................................2.83
+Answers to the MCQs ........................................................................................................................2.85
+Answers to the Theoretical Questions .......................................................................................2.85
+Answers to the Practical Problems ..............................................................................................2.85
+Answers to the Case Scenarios ......................................................................................................2.97
+
+CHAPTER-3 : EMPLOYEE COST AND DIRECT EXPENSES ..............................3.1-3.68
+
+Learning Outcomes .............................................................................................................................. 3.1
+Chapter Overview.................................................................................................................................. 3.2
+1.           Introduction ............................................................................................................................ 3.2
+2.           Employee (Labour Cost) ..................................................................................................... 3.3
+             Distinction between Direct and Indirect Employee Cost ........................................ 3.3
+3.           Employee (Labour) Cost Control .................................................................................... 3.4
+             3.1           Important Factors for the Control of Employee Cost .............................. 3.5
+
+             3.2           Collection of Employee Costs .......................................................................... 3.6
+4.           Attendance & Payroll Procedures.................................................................................... 3.6
+             4.1           Attendance Procedure / Time-keeping .......................................................... 3.6
+
+             4.2           Time-Booking ........................................................................................................... 3.9
+
+=== p.21 ===
+          4.3          Payroll Procedure ..................................................................................................3.11
+5.        Idle Time .................................................................................................................................3.13
+6.        Overtime ................................................................................................................................ 3.17
+7.        Labour Utilisation ................................................................................................................3.26
+          7.1          Identification of Utilisation of labours with Cost Centres .....................3.26
+          7.2          Identification of labour hours with work order or batches or
+                       capital job.................................................................................................................3.26
+8.        Systems of Wage Payment and Incentives ..............................................................3.27
+          8.1          Time Based (Time Rate System) .....................................................................3.27
+          8.2          Output Based (Piece Rate System) ................................................................3.28
+          8.3          Premium Bonus Method ....................................................................................3.28
+                       1.            Halsey Premium Plan ...........................................................................3.28
+                       2.            Rowan Premium Plan ..........................................................................3.29
+9.        Absorption of Wages ........................................................................................................3.38
+          9.1          Elements of Wages ...............................................................................................3.38
+
+          9.2          Component of Wages Cost or Wages for Costing Purposes ...............3.39
+          9.3          Holiday and Leave Wages..................................................................................3.41
+          9.4          Night Shift Allowance ..........................................................................................3.42
+          9.5          Absorption Rates of Employee Cost ..............................................................3.42
+10.       Efficiency Rating Procedures ..........................................................................................3.43
+          10.1         Need for Efficiency Rating .................................................................................3.43
+11.       Employee (Labour) Turnover ......................................................................................... 3.45
+          11.1         Employee (Labour) Turnover .......................................................................... 3.45
+          11.2         Causes of Employee (Labour) Turnover...................................................... 3.48
+
+          11.3         Effects of Employee (Labour) Turnover....................................................... 3.50
+12.       Direct Expenses .................................................................................................................. 3.52
+          12.1         Direct Expenses ................................................................................................... 3.52
+
+=== p.22 ===
+             12.2          Measurement of Direct Expenses ................................................................ 3.53
+             12.3          Treatment of Direct Expenses ....................................................................... 3.53
+                                                         4.
+Summary ................................................................................................................................................3.54
+                                                    xxii
+
+Test Your Knowledge .......................................................................................................................3.57
+Multiple Choice Questions (MCQs) .............................................................................................3.57
+Theoretical Questions ......................................................................................................................3.59
+Practical Problems ..............................................................................................................................3.60
+Case Scenarios......................................................................................................................................3.61
+Answers to the MCQs ........................................................................................................................3.63
+Answers to the Theoretical Questions ........................................................................................3.63
+Answers to the Practical Problems ...............................................................................................3.63
+Answers to the Case Scenarios ......................................................................................................3.68
+
+CHAPTER-4 : OVERHEADS-ABSORPTION COSTING METHOD ................. 4.1-4.101
+
+Learning Outcomes .............................................................................................................................. 4.1
+Chapter Overview ................................................................................................................................ 4.2
+1.           Introduction ............................................................................................................................ 4.2
+2.           Classification of Overheads ............................................................................................... 4.3
+             2.1           Advantages of Classification of Overheads into Fixed and Variable .. 4.6
+3.           Accounting and Control of Manufacturing Overheads ......................................... 4.7
+4.           Steps for the Distribution of Overheads ................................................................... 4.11
+             4.1           Estimation and Collection of Overheads ................................................... 4.11
+             4.2           Allocation of Overheads over Various Departments or
+
+                           Departmentalisation of Overheads ............................................................. 4.12
+             4.3           Apportioning Overhead Expenses Over Various Departments ........ 4.13
+                           Difference between Allocation and Apportionment ........................... 4.16
+
+             4.4           Re-apportionment of Service Department Overheads over
+
+=== p.23 ===
+                           Production Departments ................................................................................. 4.16
+             4.5           Absorbing Overheads over Cost Units, Products, etc. ......................... 4.27
+5.           Methods of Absorbing Overheads to various Products or Jobs ......................4.29
+             5.1           Percentage of Direct Material Cost ..............................................................4.30
+             5.2           Percentage of Prime Cost Method ................................................................4.30
+             5.3           Percentage of Direct Labour Cost .................................................................4.32
+             5.4           Labour Hour Rate Method ...............................................................................4.32
+             5.5           Machine Hour Rate Method ............................................................................4.33
+             5.6           Rate Per Unit of Output Method ...................................................................4.35
+6.           Types of Overhead Rates ................................................................................................ 4.36
+7.           Treatment of Under-Absorbed and Over-Absorbed Overheads in Cost
+             Accounting ............................................................................................................................4.41
+8.           Accounting and Control of Administrative Overheads .......................................4.46
+             8.1           Accounting of Administrative Overheads ...................................................4.47
+             8.2           Control of Administrative Overheads ...........................................................4.48
+
+9.           Accounting and Control of Selling and Distribution Overheads .......................4.53
+             9.1           Accounting of Selling and Distribution Overheads ................................4.53
+             9.2           Control of Selling and Distribution Overheads ........................................4.55
+10.          Concepts related to Capacity. .........................................................................................4.58
+11.          Treatment of Certain Items in Costing ......................................................................4.59
+Summary ................................................................................................................................................4.63
+Test Your Knowledge .......................................................................................................................4.64
+Multiple Choice Questions (MCQs) .............................................................................................4.64
+Theoretical Questions ......................................................................................................................4.66
+
+Practical Problems .............................................................................................................................4.67
+Case Scenarios......................................................................................................................................4.78
+Answers to the MCQs ........................................................................................................................4.80
+
+=== p.24 ===
+Answers to the Theoretical Questions .......................................................................................4.80
+Answers to the Practical Problems ...............................................................................................4.80
+                                                          4.
+Answers to the Case Scenarios xxiv
+                             ................................................................................................... 4.100
+
+CHAPTER-5 : ACTIVITY BASED COSTING ......................................................5.1-5.61
+
+Learning Outcomes .............................................................................................................................. 5.1
+Chapter Overview.................................................................................................................................. 5.1
+1.           Introduction.............................................................................................................................. 5.2
+
+             1.1          Factors prompting the development of ABC .............................................. 5.2
+             1.2          Usefulness/Suitability of ABC ............................................................................ 5.3
+2.           Meaning and Definition ..................................................................................................... 5.3
+3.           Meaning of terms used in ABC ......................................................................................... 5.4
+4.           Cost Allocation under ABC ................................................................................................. 5.5
+5.           Traditional Absorption Costing vs ABC ......................................................................... 5.6
+             Difference between Activity Based Costing and Traditional Absorption
+             Costing ....................................................................................................................................... 5.7
+6.           Level of Activities under ABC Methodology/ Cost Hierarchy................................ 5.8
+7.           Stages in Activity Based Costing (ABC) ......................................................................... 5.9
+8.           Advantages of Activity Based Costing ........................................................................5.17
+9.           Limitations of Activity Based Costing ......................................................................... 5.18
+10.          Requirements in ABC Implementation....................................................................... 5.18
+11.          Practical Applications of Activity Based Costing ....................................................5.19
+             11.1         As a Decision-Making Tool ..............................................................................5.19
+
+             11.2         As Activity Based Management ......................................................................5.19
+             11.3         Facilitate Activity Based Budgeting ...............................................................5.21
+Summary ...............................................................................................................................................5.30
+Test Your Knowledge .......................................................................................................................5.31
+Multiple Choice Questions (MCQs) .............................................................................................5.31
+
+=== p.25 ===
+Theoretical Questions ......................................................................................................................5.33
+Practical Problems .............................................................................................................................5.34
+Case Scenarios......................................................................................................................................5.41
+Answers to the MCQs ........................................................................................................................5.43
+Answers to the Theoretical Questions .......................................................................................5.43
+Answers to the Practical Problems ..............................................................................................5.44
+Answers to the Case Scenarios ......................................................................................................5.59
+
+CHAPTER-6 : COST SHEET ..............................................................................6.1-6.37
+
+Learning Outcomes .............................................................................................................................. 6.1
+Chapter Overview.................................................................................................................................. 6.1
+1.           Introduction ............................................................................................................................ 6.1
+2.           Functional Classification of Elements of Cost ............................................................ 6.2
+3.           Cost Heads in a Cost Sheet ................................................................................................ 6.2
+             3.1           Prime Cost.................................................................................................................. 6.3
+             3.2           Cost of Production.................................................................................................. 6.4
+             3.3           Cost of Goods Sold ............................................................................................... 6.6
+             3.4           Cost of Sales ............................................................................................................ 6.6
+4.           Cost Sheet/Statement ......................................................................................................... 6.8
+             4.1           Presentation of Cost Information .................................................................... 6.8
+             4.2           Treatment of various items of Cost in Cost Sheet/Statement .............. 6.9
+             4.3           Advantages of Cost Sheet or Cost Statements ........................................6.10
+Summary ................................................................................................................................................6.19
+Test Your Knowledge .........................................................................................................................6.20
+Multiple Choice Questions (MCQs) ..............................................................................................6.20
+Theoretical Questions........................................................................................................................6.22
+Practical Problems ..............................................................................................................................6.23
+Case Scenarios......................................................................................................................................6.27
+
+=== p.26 ===
+Answers to the MCQs ........................................................................................................................6.29
+Answers to the Theoretical Questions ........................................................................................6.29
+                                                         4.
+Answers to the Practical Problems
+                               xxvi..............................................................................................6.30
+Answers to the Case Scenarios ......................................................................................................6.36
+
+CHAPTER 7- COST ACCOUNTING SYSTEMS ..................................................7.1-7.61
+
+Learning Outcomes .............................................................................................................................. 7.1
+Chapter Overview.................................................................................................................................. 7.2
+1.           Introduction ............................................................................................................................ 7.2
+2.           Non-Integrated Accounting System .............................................................................. 7.2
+             2.1          Principal Accounts ................................................................................................. 7.3
+             2.2          Scheme of Accounting Entries .......................................................................... 7.5
+3.           Integrated (or Integral) Accounting System .............................................................7.19
+             3.1          Advantages .............................................................................................................7.20
+             3.2          Essential pre-requisites for Integrated Accounts .....................................7.20
+             3.3          Features of Integrated Accounting System ................................................7.21
+4.           Reconciliation of Cost and Financial Accounts .........................................................7.31
+             4.1          Causes of differences in Financial and Cost Accounts ...........................7.31
+             4.2          Procedure forReconciliation..............................................................................7.33
+Summary ...............................................................................................................................................7.43
+Test Your Knowledge .........................................................................................................................7.43
+Multiple Choice Questions (MCQs) ..............................................................................................7.43
+Theoretical Questions........................................................................................................................7.45
+Practical Problems ..............................................................................................................................7.46
+
+Answers to the MCQs ........................................................................................................................7.50
+Answers to the Theoretical Questions ........................................................................................7.50
+Answers to the Practical Problems ..............................................................................................7.51
+

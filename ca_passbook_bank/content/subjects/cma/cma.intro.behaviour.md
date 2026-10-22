@@ -1,0 +1,480 @@
+---
+id: cma.intro.behaviour
+title: "Cost behaviour: fixed, variable, semi-variable and step costs"
+minutes: 30
+needs: cma.intro.classify
+tags: cost behaviour, fixed cost, variable cost, semi-variable cost, step cost, high-low method, least squares method
+labs:
+summary: How each kind of cost moves when output moves, why fixed cost per unit falls, and ICAI's five methods of splitting a semi-variable cost into its fixed and variable parts.
+---
+
+## In plain words
+
+### Kesar doubles the cups, Ritu does not double the costs
+
+Tapri's Lucknow café sold 8,000 cups of chai in its first month. Kesar wants 16,000 next month and has already done the maths.
+
+> **Kesar:** Costs were ₹2,04,400 for 8,000 cups. So 16,000 cups will cost ₹4,08,800. Simple.
+> **Ritu:** Per unit, please. The rent will not double because you sell more chai.
+
+Ritu splits the café's costs by how they behave when the number of cups changes.
+
+- **Rent** of ₹90,000 a month stays the same at 8,000 cups or 16,000. A cost that does not move with output, within limits, is a **fixed cost**.
+- **Milk, tea and the kulhad** cost ₹9 a cup: twice the cups, twice the cost. That is a **variable cost**.
+- **Gas** has a cylinder rental of ₹6,000 a month whatever the sales, plus about 80 paise of gas a cup. Part fixed, part variable: a **semi-variable cost**.
+- **Baristas**: one barista can serve 4,000 cups a month and is paid ₹15,000. Two baristas cover 8,000 cups; the 8,001st cup needs a third. The cost is flat for a while, then jumps: a **step cost**.
+
+So at 16,000 cups the café's costs are ₹3,12,800, not ₹4,08,800: the rent and the gas cylinder are not doubled, and the baristas step up from two to four. The rent per cup, meanwhile, halves.
+
+::: analogy The wedding caterer
+A wedding caterer pays the same hall rent for 200 guests or 400 (fixed), one plate of food per guest (variable), a generator with a hiring charge plus diesel by the hour (semi-variable), and waiters in teams: one waiter for every 25 guests, so guest 226 brings a whole new waiter (step).
+:::
+
+::: key
+Behaviour describes **totals** against activity within a range: fixed totals stay put, variable totals move in proportion, semi-variable totals do both, step totals stay flat and then jump. **Per unit**, the picture flips: fixed cost per unit falls as output rises, variable cost per unit stays the same.
+:::
+
+## How it works
+
+Classification by **variability or behaviour** puts costs into three groups: fixed, variable and semi-variable (SM 1.27). The syllabus adds a fourth pattern, the step cost, which ICAI's problems use (below).
+
+### Three lines on one chart
+
+::: diagram The Lucknow café: how total cost moves with cups
+{"type": "plot", "h": 300, "x": [0, 16000], "y": [0, 150000], "legend": "outside",
+ "xlabel": "cups sold in a month", "ylabel": "amount (₹)",
+ "xticks": [[0, "0"], [4000, "4,000"], [8000, "8,000"], [12000, "12,000"], [16000, "16,000"]],
+ "yticks": [[0, "0"], [30000, "30,000"], [60000, "60,000"], [90000, "90,000"], [120000, "1,20,000"], [150000, "1,50,000"]],
+ "series": [
+  {"label": "rent (fixed)", "fn": "90000", "color": "a"},
+  {"label": "milk, tea, kulhad (variable)", "fn": "9*x", "color": "d"},
+  {"label": "gas (semi-variable)", "fn": "6000+0.8*x", "color": "b"}
+ ],
+ "caption": "Blue: rent, a flat line. Orange: milk, tea and kulhad at ₹9 a cup, a line from the origin. Teal: gas, ₹6,000 plus 80 paise a cup, a line that starts above zero and rises slowly."}
+:::
+
+- **Fixed costs** are the costs which are incurred for a period, and which, within certain output and turnover limits, tend to be unaffected by fluctuations in the levels of activity (output or turnover). They do not tend to increase or decrease with the changes in output: rent, insurance of factory building (SM 1.27).
+- **Variable costs** tend to vary with the volume of activity. Any increase in the activity results in an increase in the variable cost and vice-versa: direct material, direct labour (SM 1.28).
+- **Semi-variable costs** contain both fixed and variable components and are thus partly affected by fluctuations in the level of activity: telephone bills, gas and electricity (SM 1.28).
+
+Note the words "within certain output and turnover limits". Rent is fixed until the café needs a second floor; ICAI's problems write this as "fixed cost up to 80% capacity" plus an "additional fixed cost beyond 80% capacity" (May 2026 Q2(b)).
+
+### The staircase: step costs
+
+A **step cost** stays fixed over a band of activity and jumps to a new level when activity crosses into the next band. The Study Material does not define it in Chapter 1, but its problems use it: "one supervisor for every twenty direct workers" (SM 15.38) and a semi-variable overhead of "₹20,00,000 per annum up to 50% capacity and an extra amount of ₹4,00,000 for every 25% increase in capacity or part thereof" (SM 8.18).
+
+::: diagram Baristas: a step cost
+{"type": "plot", "h": 280, "x": [0, 16000], "y": [0, 75000], "legend": "outside",
+ "xlabel": "cups sold in a month", "ylabel": "amount (₹)",
+ "xticks": [[0, "0"], [4000, "4,000"], [8000, "8,000"], [12000, "12,000"], [16000, "16,000"]],
+ "yticks": [[0, "0"], [15000, "15,000"], [30000, "30,000"], [45000, "45,000"], [60000, "60,000"], [75000, "75,000"]],
+ "series": [
+  {"label": "baristas (step)", "pts": [[0, 15000], [4000, 15000], [4000, 30000], [8000, 30000], [8000, 45000], [12000, 45000], [12000, 60000], [16000, 60000]], "color": "f"},
+  {"label": "averaged as ₹3.75 a cup", "fn": "3.75*x", "color": "mute", "dash": true}
+ ],
+ "caption": "Violet: one barista at ₹15,000 for every 4,000 cups or part of it, flat within each band and then a jump. Grey dashed: the same cost wrongly averaged as a variable ₹3.75 a cup, too low just after every jump."}
+:::
+
+To cost a step, count the steps first, **rounding up**: 9,000 cups need 9,000 ÷ 4,000 = 2.25, so 3 baristas, ₹45,000. Buses for a college trip, supervisors per group of workers and block entrance fees by group size all work the same way ([[cma.bud.flexible|flexible budgets]] has ICAI's favourite, the bus problem).
+
+### Per unit, the picture flips
+
+::: diagram Cost per cup at the Lucknow café
+{"type": "plot", "h": 280, "x": [1500, 16000], "y": [0, 60], "clip": true, "legend": "outside",
+ "xlabel": "cups sold in a month", "ylabel": "cost per cup (₹)",
+ "xticks": [[2000, "2,000"], [4000, "4,000"], [8000, "8,000"], [12000, "12,000"], [16000, "16,000"]],
+ "yticks": [0, 10, 20, 30, 40, 50, 60],
+ "series": [
+  {"label": "rent per cup", "fn": "90000/x", "color": "a"},
+  {"label": "milk, tea, kulhad per cup", "fn": "9", "color": "d"}
+ ],
+ "points": [{"x": 8000, "y": 11.25, "label": "₹11.25", "pos": "above"}, {"x": 12000, "y": 7.5, "label": "₹7.50", "pos": "below"}],
+ "caption": "Blue: rent per cup falls as cups rise (₹11.25 at 8,000 cups, ₹7.50 at 12,000, ₹5.63 at 16,000). Orange: variable cost per cup stays at ₹9."}
+:::
+
+This is why the cost per unit falls as a factory fills up, and why it rises sharply when output drops: the fixed cost is shared by fewer units.
+
+### Splitting a semi-variable cost: ICAI's five methods
+
+A semi-variable cost must be split into its fixed and variable parts before it can be used for marginal costing, flexible budgets or decisions (SM 4.6–4.7; see [[cma.oh.classify|classifying overheads]]). ICAI gives five methods, in this order (SM 1.29):
+
+::: steps
+1. **Graphical method.** Plot a large number of observations of total cost (Y-axis) against output (X-axis); draw by judgement a line of "best fit" passing through all or most of the points. Where the line cuts the Y-axis is the total fixed cost; a line from there parallel to the X-axis shows the fixed cost, and the variable cost at any output is the total cost minus this fixed cost (SM 1.29–1.30).
+2. **High-low method.** Take the total cost at the highest and at the lowest volume. The difference in total cost divided by the difference in volume gives the variable cost rate. ICAI's illustration measures volume by sales value, so the rate is a percentage of sales: (₹72,000 − ₹60,000) ÷ (₹1,40,000 − ₹80,000) = 20% of sales, and fixed cost = ₹72,000 − 20% of ₹1,40,000 = ₹44,000 (SM 1.30).
+3. **Analytical method.** An experienced cost accountant judges empirically what proportion of each semi-variable expense is variable (the **degree of variability**), say 70%. The fixed part then stays constant and only the variable part moves with production. Easy to apply, though the degree of variability is hard to estimate (SM 1.30–1.31).
+4. **Comparison by period or level of activity.** Compare two levels of output with the expense at those levels; since the fixed element does not change, variable cost = change in the amount of expense ÷ change in the quantity of output (SM 1.31–1.32).
+5. **Least squares method.** "This is the best method" (SM 1.32): a statistical method that finds a line of best fit for a number of observations, using y = mx + c. ICAI's illustration solves the equation at two levels of activity to get m and c (SM 1.32).
+:::
+
+High-low and comparison by period use the same arithmetic on two observations; the difference is which two. High-low always takes the highest and lowest volumes; comparison takes any two periods or levels given.
+
+## Formats and formulas
+
+*Reproduce the high-low layout and these formulas from memory.*
+
+| High-low working | Activity | Total cost (₹) |
+|---|---:|---:|
+| At the highest volume | xxx | xxx |
+| At the lowest volume | xxx | xxx |
+| **Difference** | **xxx** | **xxx** |
+
+Variable cost rate = difference in cost ÷ difference in activity; fixed cost = total cost at either level − variable rate × that level's activity. Check that both levels give the same fixed cost.
+
+::: formula Total cost within the relevant range
+$$\text{Total cost} = \text{Fixed cost} + \text{Variable cost per unit} \times \text{Output}$$
+Valid only "within certain output and turnover limits"; add any step or additional fixed cost separately.
+:::
+
+::: formula High-low method
+$$\text{Variable cost rate} = \frac{\text{Cost at highest volume} - \text{Cost at lowest volume}}{\text{Highest volume} - \text{Lowest volume}}$$
+Volume may be units, hours or sales value; with sales value the rate is a percentage of sales (SM 1.30).
+:::
+
+::: formula Comparison by period or level of activity
+$$\text{Variable cost per unit} = \frac{\text{Change in the amount of expense}}{\text{Change in the quantity of output}}$$
+Fixed cost = expense at either level − variable cost per unit × output at that level (SM 1.31–1.32).
+:::
+
+::: formula Least squares method
+$$y = mx + c$$
+y = total cost, x = volume of output, m = variable element of cost per unit, c = total fixed cost (SM 1.32).
+:::
+
+::: formula Analytical method
+$$\text{Variable part} = \text{Degree of variability} \times \text{Semi-variable expense} \qquad \text{New total} = \text{Fixed part} + \text{Variable part} \times \frac{\text{New output}}{\text{Old output}}$$
+:::
+
+::: formula Step cost
+$$\text{Number of steps} = \frac{\text{Activity}}{\text{Activity covered by one step}}, \text{ rounded up} \qquad \text{Step cost} = \text{Number of steps} \times \text{Cost of one step}$$
+:::
+
+::: definition Fixed costs
+Costs which are incurred for a period, and which, within certain output and turnover limits, tend to be unaffected by fluctuations in the levels of activity (output or turnover). They do not tend to increase or decrease with the changes in output. (SM 1.27)
+:::
+
+::: definition Variable costs
+Costs which tend to vary with the volume of activity. Any increase in the activity results in an increase in the variable cost and vice-versa. (SM 1.28)
+:::
+
+::: definition Semi-variable costs
+Costs which contain both fixed and variable components and are thus partly affected by fluctuations in the level of activity. (SM 1.28)
+:::
+
+## Worked examples
+
+::::: example The Lucknow café's electricity bill
+After six months, the Lucknow café's electricity bills look like this:
+
+| Month | Cups sold | Electricity (₹) |
+|---|---:|---:|
+| April | 9,000 | 24,700 |
+| May | 12,000 | 26,200 |
+| June | 8,000 | 24,100 |
+| July | 10,000 | 25,100 |
+| August | 11,000 | 25,400 |
+| September | 14,000 | 27,100 |
+
+Ritu has plotted them in the chart below:
+
+::: diagram Electricity against cups, six months
+{"type": "plot", "h": 300, "x": [0, 16000], "y": [0, 30000], "legend": "none",
+ "xlabel": "cups sold in a month", "ylabel": "electricity (₹)",
+ "xticks": [[0, "0"], [4000, "4,000"], [8000, "8,000"], [12000, "12,000"], [16000, "16,000"]],
+ "yticks": [[0, "0"], [10000, "10,000"], [20000, "20,000"], [30000, "30,000"]],
+ "points": [{"x": 9000, "y": 24700, "label": "Apr", "pos": "above"}, {"x": 12000, "y": 26200, "label": "May", "pos": "above"}, {"x": 8000, "y": 24100, "label": "Jun", "pos": "below"}, {"x": 10000, "y": 25100, "label": "Jul", "pos": "below"}, {"x": 11000, "y": 25400, "label": "Aug", "pos": "below"}, {"x": 14000, "y": 27100, "label": "Sep", "pos": "above"}],
+ "caption": "One dot per month, labelled with the month."}
+:::
+
+**Required:**
+
+(i) Estimate the fixed element of the bill by the graphical method.
+
+(ii) Segregate the bill into fixed and variable elements by the high-low method.
+
+(iii) Segregate it by the comparison by period method, using July and August.
+
+(iv) Estimate October's bill at 15,000 cups using (ii) and (iii), and comment on which estimate is more reliable.
+
+:::: answer Show the working
+::: diagram The line of best fit
+{"type": "plot", "h": 300, "x": [0, 16000], "y": [0, 30000], "legend": "outside",
+ "xlabel": "cups sold in a month", "ylabel": "electricity (₹)",
+ "xticks": [[0, "0"], [4000, "4,000"], [8000, "8,000"], [12000, "12,000"], [16000, "16,000"]],
+ "yticks": [[0, "0"], [10000, "10,000"], [20000, "20,000"], [30000, "30,000"]],
+ "series": [
+  {"label": "line of best fit", "fn": "20145.71+0.4957*x", "color": "a"},
+  {"label": "fixed element", "fn": "20145.71", "color": "mute", "dash": true}
+ ],
+ "points": [{"x": 9000, "y": 24700}, {"x": 12000, "y": 26200}, {"x": 8000, "y": 24100}, {"x": 10000, "y": 25100}, {"x": 11000, "y": 25400}, {"x": 14000, "y": 27100}, {"x": 0, "y": 20145.71, "label": "about ₹20,000", "pos": "below"}],
+ "caption": "Blue: a line of best fit through the six dots; it cuts the Y-axis at about ₹20,000. Grey dashed: the fixed element, parallel to the X-axis. The gap between the two lines at any output is the variable cost."}
+:::
+
+**(i) Graphical method.** A line of best fit drawn through the six points cuts the Y-axis at about **₹20,000**: that is the fixed element. The variable element at any output is the total cost less ₹20,000; in September, ₹27,100 − ₹20,000 = ₹7,100 for 14,000 cups, about 50 paise a cup. (The line drawn here is the least squares line, ₹20,146 + ₹0.4957 a cup: see Under the hood.)
+
+**(ii) High-low method**
+
+| Particulars | Cups | Electricity (₹) |
+|---|---:|---:|
+| Highest volume (September) | 14,000 | 27,100 |
+| Lowest volume (June) | 8,000 | 24,100 |
+| **Difference** | **6,000** | **3,000** |
+
+Variable cost = ₹3,000 ÷ 6,000 cups = **₹0.50 a cup**. Fixed cost = ₹27,100 − (14,000 × ₹0.50) = **₹20,100**. Check: ₹24,100 − (8,000 × ₹0.50) = ₹20,100.
+
+**(iii) Comparison by period, July and August**
+
+Variable cost = (₹25,400 − ₹25,100) ÷ (11,000 − 10,000) = ₹300 ÷ 1,000 = **₹0.30 a cup**. Fixed cost = ₹25,100 − (10,000 × ₹0.30) = **₹22,100**.
+
+**(iv) October at 15,000 cups**
+
+| Method | Fixed + variable (₹) | Estimate (₹) |
+|---|---:|---:|
+| High-low | 20,100 + 7,500 | 27,600 |
+| July and August | 22,100 + 4,500 | 26,600 |
+
+**Comment.** The high-low estimate of **₹27,600** is more reliable. July and August are only 1,000 cups apart, so a ₹100 quirk in one month's bill moves the variable rate by 10 paise a cup; high-low spreads the comparison over the widest range, 6,000 cups. Both use only two observations, though; the line of best fit uses all six and gives ₹27,581 at 15,000 cups, almost the high-low figure. The extremes should still be checked for being normal months, since one unusual month at either end would distort high-low.
+::::
+:::::
+
+:::: example The premix plant's overhead budget, with a staircase in it
+Tapri's chai premix plant at Dewas has a capacity of 1,00,000 kg a month. Its overheads at two recent levels of activity were:
+
+| Overhead | 60% (₹) | 80% (₹) |
+|---|---:|---:|
+| Consumable stores | 1,80,000 | 2,40,000 |
+| Power | 2,10,000 | 2,60,000 |
+| Repairs and maintenance | 96,000 | 1,12,000 |
+| Supervision | 1,35,000 | 1,80,000 |
+| Depreciation and insurance | 1,50,000 | 1,50,000 |
+| Plant office salaries | 1,10,000 | 1,10,000 |
+
+Supervisors are paid ₹45,000 a month each, and one supervisor is needed for every 20,000 kg of monthly output or part of it.
+
+**Required:**
+
+(i) State the behaviour of each overhead, and segregate the semi-variable ones into fixed and variable elements.
+
+(ii) Prepare an estimate of overheads at 70% and 90% capacity.
+
+(iii) Calculate the overhead cost per kg at 60%, 70%, 80% and 90%, and comment.
+
+::: answer Show the working
+**(i) Behaviour** (comparison of the two levels: 60,000 kg and 80,000 kg, a difference of 20,000 kg)
+
+| Overhead | Behaviour | Fixed + variable |
+|---|---|---|
+| Consumable stores | Variable | ₹3.00 a kg |
+| Power | Semi-variable | ₹60,000 + ₹2.50 a kg |
+| Repairs | Semi-variable | ₹48,000 + ₹0.80 a kg |
+| Supervision | Step | ₹45,000 a 20,000 kg band |
+| Depreciation, insurance | Fixed | ₹1,50,000 |
+| Office salaries | Fixed | ₹1,10,000 |
+
+The changes between the two levels are ₹60,000, ₹50,000, ₹16,000, ₹45,000, nil and nil.
+
+Working notes:
+
+1. Consumable stores: ₹60,000 ÷ 20,000 kg = ₹3 a kg; ₹1,80,000 ÷ 60,000 kg is also ₹3, so there is no fixed element.
+2. Power: ₹50,000 ÷ 20,000 = ₹2.50 a kg; fixed = ₹2,10,000 − (60,000 × ₹2.50) = ₹60,000.
+3. Repairs: ₹16,000 ÷ 20,000 = ₹0.80 a kg; fixed = ₹96,000 − (60,000 × ₹0.80) = ₹48,000.
+4. Supervision: 60,000 kg needs 3 supervisors (₹1,35,000) and 80,000 kg needs 4 (₹1,80,000). It is a step cost, not a variable or semi-variable one: the number of supervisors is 60,000 ÷ 20,000 = 3 and 80,000 ÷ 20,000 = 4, rounded up for any part band.
+
+**(ii) and (iii) Overhead estimate**
+
+| Overhead (₹) | 70% | 90% |
+|---|---:|---:|
+| Consumable stores | 2,10,000 | 2,70,000 |
+| Power | 2,35,000 | 2,85,000 |
+| Repairs | 1,04,000 | 1,20,000 |
+| Supervision (WN 5) | 1,80,000 | 2,25,000 |
+| Depreciation and insurance | 1,50,000 | 1,50,000 |
+| Office salaries | 1,10,000 | 1,10,000 |
+| **Total** | **9,89,000** | **11,60,000** |
+
+70% = 70,000 kg and 90% = 90,000 kg; each variable or semi-variable line is fixed part + rate × kg from (i), e.g. power at 70% = ₹60,000 + 70,000 × ₹2.50.
+
+Working note 5: 70,000 ÷ 20,000 = 3.5, so 4 supervisors = ₹1,80,000; 90,000 ÷ 20,000 = 4.5, so 5 supervisors = ₹2,25,000.
+
+| Capacity (kg) | Overheads (₹) | Per kg (₹) |
+|---|---:|---:|
+| 60% (60,000) | 8,81,000 | 14.68 |
+| 70% (70,000) | 9,89,000 | 14.13 |
+| 80% (80,000) | 10,52,000 | 13.15 |
+| 90% (90,000) | 11,60,000 | 12.89 |
+
+**Comment.** Overhead cost per kg falls as capacity utilisation rises, because the fixed elements (₹3,68,000 a month, including the fixed parts of power and repairs) are spread over more kilograms. The fall is uneven: at 70% and at 90% a new supervisor is needed for a part-filled band, so those levels carry a full extra ₹45,000. Treating supervision as variable at ₹2.25 a kg (₹45,000 ÷ 20,000) would have understated both estimates by ₹22,500.
+:::
+::::
+
+## Under the hood
+
+### Least squares with more than two observations
+
+ICAI's least squares illustration has two observations, so solving y = mx + c at both levels gives the same answer as the comparison method (SM 1.32). With many observations, the line of best fit comes from the two **normal equations** of the statistical method of least squares (the regression of Foundation's statistics paper), here with x in thousands of cups:
+
+$$\Sigma y = nc + m\Sigma x \qquad \Sigma xy = c\Sigma x + m\Sigma x^2$$
+
+For the six months: n = 6, Σx = 64, Σy = 1,52,600, Σxy = 16,39,300, Σx² = 706. Solving, m = ₹495.71 per thousand cups (₹0.4957 a cup) and c = **₹20,146**: the line drawn in the worked example. Each observation pulls on the line, so one odd month matters far less than it does to high-low. In ICAI's papers, the two-level form is what has been examined.
+
+### Shapes that do not fit three boxes
+
+- **A variable cost with a floor.** "Direct labour ₹32 per unit (subject to a minimum of ₹84,000 p.m.)" (MTP May 2026 Series II Q5(a)) is fixed at ₹84,000 until output reaches 2,625 units a month and variable beyond. ICAI's own chapter MCQ calls a taxi fare of a minimum charge plus a rate per kilometre semi-variable (SM 1.44, answer (b)).
+- **A fixed cost with a step.** "Fixed cost up to 80% capacity" plus an "additional fixed cost beyond 80% capacity" (May 2026 Q2(b)) is a single step in fixed cost: check which side of 80% the plan falls before using the fixed cost.
+- **Semi-variable "in steps".** SM 8.18's ₹20,00,000 up to 50% capacity plus ₹4,00,000 "for every 25% increase in capacity or part thereof" is called semi-variable but costed as steps.
+
+### Why the split matters
+
+The primary objective of segregating semi-variable expenses into fixed and variable is to ascertain **marginal costs**; it also helps in controlling expenses, preparing flexible budgets and decision making (SM 4.6–4.7). Marginal costing, cost-volume-profit analysis and break-even analysis are all based on it: [[cma.mc.basics|marginal cost and contribution]], [[cma.mc.bep|break-even point]].
+
+## Exam angle
+
+::: exam Where cost behaviour appeared, May 2024 to September 2026 (and old-scheme papers)
+In the ICAI documents read for this lesson, cost behaviour and the split of semi-variable costs came up in 8 questions in 8 documents, almost always inside a bigger numerical.
+
+- **Classify by variability, 5 marks.** January 2026 Q6(a): five items by function and variability.
+- **Split from two periods.** MTP May 2025 Series II MCQs 6–7 (2 marks each): repairs of ₹1,40,000 for 18 trips per bus and ₹1,60,000 for 22 trips; the answer writes x + 18y = 1,40,000 and x + 22y = 1,60,000. Old scheme MTP November 2022 Series I Q2(b): a flexible budget at 75% and 100% capacity, each item to be split.
+- **A given variable component.** May 2026 Q2(b) (7 marks): a semi-variable cost of ₹8,20,000 with a variable component of ₹10 a unit, plus an additional fixed cost beyond 80% capacity.
+- **Steps.** May 2025 Q5(c) (7 marks): buses for a college trip and block entrance fees by group size. MTP May 2026 Series II Q5(a): a semi-variable overhead of ₹1,50,000 up to 60% capacity plus ₹60,000 for every 20% increase, and labour subject to a monthly minimum.
+- **Theory.** Old scheme MTP December 2021 Series II Q6(b) and RTP July 2021 Q13(c): "DISCUSS cost classification based on variability and controllability".
+:::
+
+::: exam The traps
+- A cost that changes between two levels is not automatically semi-variable. Test it: if the rate from the change also explains the total (₹1,80,000 ÷ 60,000 = ₹3, the same as the rate), it is purely variable.
+- Supervisors, buses and batches are hired whole: round **up**, then cost the steps.
+- "Fixed cost up to 80% capacity": use the higher fixed cost once the plan crosses 80%.
+- ICAI's high-low illustration uses **sales value**, not units: the variable cost comes out as a percentage of sales (SM 1.30).
+:::
+
+::: trick Fixed per unit is variable, variable per unit is fixed
+Fixed cost per unit changes with every change in output; variable cost per unit stays the same. Condition: within the relevant range, with no change in prices or rates.
+:::
+
+## Answer frame
+
+### "Discuss cost classification based on variability"
+
+1. Fixed costs: ICAI's definition ("incurred for a period ... within certain output and turnover limits ... unaffected by fluctuations in the levels of activity") and examples: rent, insurance of factory building.
+2. Variable costs: definition ("tend to vary with the volume of activity") and examples: direct material, direct labour.
+3. Semi-variable costs: definition ("contain both fixed and variable components") and examples: telephone bills, gas and electricity.
+4. A sketch of each, cost on the Y-axis and output on the X-axis.
+
+### "Explain the methods of segregating semi-variable costs"
+
+Name all five in ICAI's order (graphical, high-low, analytical, comparison by period or level of activity, least squares), then two or three lines on each with its formula, and close with ICAI's verdict that least squares is the best method (SM 1.29–1.32). A one-line numerical illustration for high-low earns the marks for "explain".
+
+### The numerical parts
+
+::: cols
+**Loses marks**
+
+"Power at 90% = ₹2,10,000 × 90 ÷ 60 = ₹3,15,000."
+
+Treats a semi-variable cost as variable: the fixed ₹60,000 has been multiplied too.
+---
+**Passes**
+
+"Variable rate ₹2.50 a kg, so power at 90% = ₹2,85,000."
+
+Right figure, but the rate and the fixed part appear from nowhere.
+---
+**Full marks**
+
+A working note for each item: change in cost ÷ change in output = rate; fixed = total − rate × output; check at the other level; then the estimate. Step costs shown as number of steps × cost per step, with the rounding stated.
+:::
+
+## Common mistakes
+
+::: mistake Hall of Shame: the rent that doubled with the chai
+Kesar's ₹4,08,800 for 16,000 cups: every cost scaled in proportion to output, ₹96,000 too high. **Fix:** split first. Only variable costs and the variable parts of semi-variable costs move with output; fixed costs stay, and step costs move only when a band is crossed.
+:::
+
+::: mistake The supervisor who became 2.25 rupees a kilogram
+Running the high-low arithmetic on a step cost and costing supervisors at ₹2.25 a kg understates every level that is not exactly on a step: ₹1,57,500 instead of ₹1,80,000 at 70%. **Fix:** when the question says "one for every ..." or "for every 20% increase", count the steps and round up.
+:::
+
+::: mistake High-low with the wrong two months
+Picking the months with the highest and lowest **cost** instead of the highest and lowest **activity**, or any two neighbouring months, and calling it high-low. **Fix:** high-low uses the highest and lowest volumes; comparison by period uses the two periods the question names.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: A Tapri kiosk's total cost was ₹6,40,000 when sales were ₹9,00,000 (its highest month) and ₹4,80,000 when sales were ₹5,00,000 (its lowest). Using the high-low method, what is the fixed cost in rupees?
+= 280000
+> Variable cost = (₹6,40,000 − ₹4,80,000) ÷ (₹9,00,000 − ₹5,00,000) = 40% of sales. Fixed cost = ₹6,40,000 − 40% × ₹9,00,000 = ₹2,80,000; check: ₹4,80,000 − ₹2,00,000 = ₹2,80,000.
+
+Q: Last month, Tapri's delivery cost was ₹4,80,000. Ritu judges that 40% of it is variable. If deliveries rise by 25% next month, what should the delivery cost be, in rupees?
+= 528000
+> Analytical method. Variable = 40% × ₹4,80,000 = ₹1,92,000; fixed = ₹2,88,000. Next month: ₹2,88,000 + ₹1,92,000 × 1.25 = ₹2,88,000 + ₹2,40,000 = ₹5,28,000.
+
+Q: Case scenario. Tapri's cold-chain division runs 23 trucks. Each truck burns diesel by the kilometre; the depot rent is a fixed sum each month; and one refrigeration technician, paid a monthly salary, is employed for every 10 trucks or part of 10. Dev wants to buy 4 more trucks. How should Ritu describe the technicians' cost?
+- [ ] Variable, because it rises with the number of trucks
+- [ ] Fixed, because each technician is paid a fixed salary
+- [x] A step cost: fixed for each band of 10 trucks, rising by one salary when a new band starts
+- [ ] Semi-variable, with a fixed part and a rate per kilometre
+> 23 trucks need 3 technicians (23 ÷ 10 = 2.3, rounded up); 27 trucks still need 3. The cost is flat within each band of 10 trucks and jumps at the 31st truck: a step cost. It is not variable (it does not rise with each truck) and has no rate per kilometre.
+
+Q: Within the relevant range, as output rises, what happens per unit?
+- [ ] Fixed cost per unit stays the same; variable cost per unit falls
+- [ ] Both fall
+- [ ] Fixed cost per unit rises; variable cost per unit stays the same
+- [x] Fixed cost per unit falls; variable cost per unit stays the same
+> The fixed total is shared by more units, so fixed cost per unit falls; the variable cost per unit is the same for every unit.
+
+Q: The premix plant's power is ₹2,10,000 at 60,000 kg, of which ₹60,000 is fixed. What is the power cost at 90,000 kg?
+- [ ] ₹3,15,000
+- [x] ₹2,85,000
+- [ ] ₹2,25,000
+- [ ] ₹2,70,000
+> Variable rate = (₹2,10,000 − ₹60,000) ÷ 60,000 = ₹2.50 a kg; at 90,000 kg: ₹60,000 + ₹2,25,000 = ₹2,85,000. ₹3,15,000 scales the whole cost, fixed part included; ₹2,25,000 forgets the fixed part.
+
+Q: Which method of segregating semi-variable costs does the Study Material call the best?
+- [ ] High-low method
+- [ ] Analytical method
+- [x] Least squares method
+- [ ] Graphical method
+> "This is the best method to segregate semi-variable costs into its fixed and variable components" (SM 1.32): a statistical line of best fit, y = mx + c.
+:::
+
+## Recap
+
+- Fixed: incurred for a period, unaffected by activity within limits (rent, insurance). Variable: varies with activity (direct material, direct labour). Semi-variable: both parts (telephone, gas, electricity) (SM 1.27–1.28).
+- Step cost: flat within a band of activity, jumps at the next band; count steps and round up.
+- Per unit: fixed cost per unit falls as output rises; variable cost per unit stays the same.
+- Five methods in ICAI's order: graphical, high-low, analytical, comparison by period or level of activity, least squares (the best).
+- High-low: variable rate = change in cost ÷ change in volume between the highest and lowest volumes; fixed = total − rate × volume; check at the other level.
+- Comparison by period: change in expense ÷ change in output for the two periods given.
+- Least squares: y = mx + c (m variable cost per unit, c total fixed cost).
+- Split before you flex: never scale a whole semi-variable cost in proportion to output. (The rent does not double with the chai.)
+
+## Flashcards
+
+Q:: ICAI's definition of fixed costs?
+A:: Costs which are incurred for a period, and which, within certain output and turnover limits, tend to be unaffected by fluctuations in the levels of activity (output or turnover); they do not tend to increase or decrease with changes in output.
+
+Q:: ICAI's definition of semi-variable costs, with examples?
+A:: Costs which contain both fixed and variable components and are thus partly affected by fluctuations in the level of activity; e.g. telephone bills, gas and electricity.
+
+Q:: The five methods of segregating semi-variable costs, in ICAI's order?
+A:: Graphical method; high-low method; analytical method; comparison by period or level of activity method; least squares method.
+
+Q:: High-low method: how is the variable cost found?
+A:: Difference between total cost at the highest and lowest volume ÷ difference between the highest and lowest volume (ICAI measures volume by sales value, so the rate is a percentage of sales).
+
+Q:: Graphical method: where is the fixed cost read?
+A:: Where the line of best fit through the plotted observations cuts the Y-axis (total cost); a line from there parallel to the X-axis shows the fixed cost.
+
+Q:: Analytical method?
+A:: An experienced cost accountant judges empirically the degree of variability of each semi-variable expense (e.g. 70% variable); the fixed part stays constant and the variable part changes with production.
+
+Q:: Comparison by period or level of activity: formula?
+A:: Variable cost per unit = change in the amount of expense ÷ change in the quantity of output; fixed = expense − variable cost at either level.
+
+Q:: Least squares method: the equation and its symbols?
+A:: y = mx + c: y total cost, x volume of output, m variable element of cost per unit, c total fixed cost. ICAI calls it the best method.
+
+Q:: What is a step cost, and how is it costed?
+A:: A cost fixed over a band of activity that jumps when activity crosses into the next band (e.g. one supervisor for every 20 workers); number of steps = activity ÷ band, rounded up, × cost per step.
+
+Q:: Primary objective of segregating semi-variable costs into fixed and variable?
+A:: To ascertain marginal costs; it also helps in controlling expenses, preparing flexible budgets and decision making.

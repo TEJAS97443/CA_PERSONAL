@@ -1,0 +1,96 @@
+
+===== render.py synth dm_hi (464s)
+[dm_hi] engine ready in 19s; 63 lines
+[dm_hi] 0 cached, 63 to voice
+  L063 r0 ok  rec=0.78 pre=0.88 128wpm 7.02s 
+  L041 r0 ok  rec=0.92 pre=0.92 140wpm 9.4s 
+  L027 r0 ok  rec=1.00 pre=1.00 176wpm 6.48s 
+  L042 r0 ok  rec=1.00 pre=1.00 144wpm 9.56s 
+  L014 r0 ok  rec=1.00 pre=1.00 158wpm 8.38s 
+  L001 r0 RETRY rec=0.61 pre=0.90 114wpm 8.96s recall 0.615
+  L036 r0 ok  rec=0.93 pre=0.94 159wpm 9.82s 
+  L061 r0 ok  rec=0.82 pre=0.88 146wpm 11.48s 
+  L062 r0 ok  rec=0.95 pre=0.95 131wpm 10.06s 
+  L003 r0 ok  rec=0.93 pre=0.87 170wpm 9.88s 
+  L037 r0 ok  rec=0.80 pre=0.80 142wpm 11.02s 
+  L039 r0 ok  rec=0.94 pre=0.94 152wpm 11.46s 
+  L043 r0 ok  rec=0.82 pre=0.93 161wpm 11.18s 
+  L045 r0 ok  rec=0.90 pre=0.94 149wpm 10.48s 
+  L022 r0 ok  rec=0.93 pre=0.93 127wpm 10.86s 
+  L052 r0 ok  rec=0.95 pre=1.00 148wpm 10.12s 
+  .. batch 16 in 66s; total 2.6 min audio in 1.6 min (1.61x)
+  L026 r0 ok  rec=1.00 pre=1.00 162wpm 10.36s 
+  L053 r0 ok  rec=1.00 pre=1.00 155wpm 8.92s 
+  L044 r0 ok  rec=1.00 pre=1.00 155wpm 9.28s 
+  L008 r0 ok  rec=0.90 pre=0.91 182wpm 10.22s 
+  L017 r0 ok  rec=1.00 pre=1.00 147wpm 11.02s 
+  L049 r0 ok  rec=1.00 pre=1.00 164wpm 10.6s 
+  L023 r0 ok  rec=0.90 pre=0.95 149wpm 10.9s 
+  L046 r0 ok  rec=0.76 pre=0.84 154wpm 10.54s 
+  L002 r0 ok  rec=0.89 pre=1.00 133wpm 12.62s 
+  L038 r0 ok  rec=0.80 pre=0.86 155wpm 9.28s 
+  L050 r0 ok  rec=0.88 pre=0.75 139wpm 11.68s 
+  L035 r0 ok  rec=0.94 pre=0.94 179wpm 10.06s 
+  L051 r0 ok  rec=1.00 pre=1.00 142wpm 12.66s 
+  L019 r0 ok  rec=1.00 pre=1.00 168wpm 10.36s 
+  L055 r0 ok  rec=0.86 pre=1.00 168wpm 11.08s 
+  L012 r0 ok  rec=1.00 pre=1.00 154wpm 10.9s 
+  .. batch 16 in 77s; total 5.4 min audio in 3.4 min (1.59x)
+  L060 r0 ok  rec=0.91 pre=0.95 145wpm 11.58s 
+  L030 r0 ok  rec=0.91 pre=0.95 169wpm 10.68s 
+  L032 r0 ok  rec=1.00 pre=1.00 178wpm 10.12s 
+  L010 r0 ok  rec=0.86 pre=0.90 154wpm 11.28s 
+  L020 r0 ok  rec=1.00 pre=1.00 148wpm 11.74s 
+  L025 r0 ok  rec=0.95 pre=0.90 136wpm 11.9s 
+  L013 r0 ok  rec=1.00 pre=1.00 141wpm 11.08s 
+  L031 r0 ok  rec=1.00 pre=1.00 145wpm 10.36s 
+  L040 r0 ok  rec=1.00 pre=1.00 160wpm 11.62s 
+  L048 r0 ok  rec=1.00 pre=1.00 161wpm 10.8s 
+  L056 r0 ok  rec=1.00 pre=1.00 159wpm 11.7s 
+  L007 r0 ok  rec=0.95 pre=0.95 135wpm 12.46s 
+  L057 r0 ok  rec=1.00 pre=1.00 143wpm 11.34s 
+  L005 r0 ok  rec=0.95 pre=0.84 145wpm 11.18s 
+  L033 r0 ok  rec=1.00 pre=1.00 149wpm 12.46s 
+  L009 r0 ok  rec=0.94 pre=0.94 130wpm 11.56s 
+  .. batch 16 in 67s; total 8.5 min audio in 5.0 min (1.69x)
+  L047 r0 ok  rec=1.00 pre=1.00 159wpm 10.96s 
+  L034 r0 ok  rec=0.93 pre=0.94 161wpm 10.8s 
+  L018 r0 ok  rec=1.00 pre=1.00 140wpm 12.04s 
+  L021 r0 ok  rec=1.00 pre=1.00 171wpm 11.2s 
+  L054 r0 ok  rec=0.95 pre=0.95 148wpm 12.2s 
+  L058 r0 ok  rec=0.88 pre=0.79 131wpm 12.34s 
+  L004 r0 ok  rec=1.00 pre=1.00 139wpm 11.26s 
+  L011 r0 ok  rec=1.00 pre=1.00 138wpm 11.7s 
+  L015 r0 ok  rec=1.00 pre=1.00 147wpm 13.08s 
+  L029 r0 ok  rec=0.81 pre=0.93 182wpm 10.22s 
+  L016 r0 ok  rec=1.00 pre=1.00 147wpm 11.42s 
+  L059 r0 ok  rec=1.00 pre=1.00 141wpm 13.64s 
+  L024 r0 ok  rec=1.00 pre=1.00 123wpm 15.14s 
+  L028 r0 ok  rec=0.91 pre=0.95 127wpm 13.18s 
+  L006 r0 ok  rec=1.00 pre=1.00 110wpm 15.26s 
+  .. batch 15 in 79s; total 11.5 min audio in 6.8 min (1.70x)
+  L001 r1 RETRY rec=0.61 pre=0.90 114wpm 8.94s recall 0.615
+  .. batch 1 in 16s; total 11.7 min audio in 7.1 min (1.64x)
+  L001 r2 RETRY rec=0.61 pre=0.90 128wpm 7.94s recall 0.615
+  .. batch 1 in 13s; total 11.8 min audio in 7.4 min (1.60x)
+[dm_hi] done. 1 lines kept below the bar: ['L001']
+
+===== render.py mix dm_hi (41s)
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 12.39,
+ "words": 1715,
+ "overall_wpm": 138,
+ "lines": 63,
+ "lines_below_bar": [
+  "L001"
+ ],
+ "mean_recall": 0.939,
+ "min_recall": 0.615,
+ "mp3": "/Users/ztejas/ca_revision/out/P4-08 - Unit and Batch Costing - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.0
+}
+
+===== render.py narrate dm_hi (1s)
+narrate job 20261021-182752-5d16f9

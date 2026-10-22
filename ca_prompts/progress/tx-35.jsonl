@@ -1,0 +1,6 @@
+{"t": 1792484734.401855, "step": "start", "note": ""}
+{"t": 1792486016.535779, "step": "b1", "note": "t-90 n-p4-rtp-sep2024 30 items"}
+{"t": 1792486046.545536, "step": "report", "note": "1 batch (t-90 n-p4-rtp-sep2024 30 items); queue empty"}
+{"t": 1792487407.3772101, "step": "b2", "note": "t-96 o-p3-pyq-nov2023 19 items"}
+{"t": 1792488382.556496, "step": "b3", "note": "t-112 o-p6-pyq-jul2021 29 items"}
+{"t": 1792488412.799089, "step": "report", "note": "3 batches: t-90 n-p4-rtp-sep2024 30, t-96 o-p3-pyq-nov2023 19, t-112 o-p6-pyq-jul2021 29"}

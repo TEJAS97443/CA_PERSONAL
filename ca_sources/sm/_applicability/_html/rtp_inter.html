@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/iconplugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>ICAI BoS</title>
+    <link rel="icon" type="image/png" href="assets/images/logo_icai.png">
+    <!--<script>document.addEventListener('contextmenu', event => event.preventDefault());</script>-->
+    <script>
+    document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+    function ctrlShiftKey(e, keyCode) {
+        return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+    }
+
+    document.onkeydown = (e) => {
+        // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+        if (
+            event.keyCode === 123 ||
+            ctrlShiftKey(e, 'I') ||
+            ctrlShiftKey(e, 'J') ||
+            ctrlShiftKey(e, 'C') ||
+            (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+        )
+            return false;
+    };
+    </script>
+
+</head>
+
+<body class="unslc" onselectstart="return false">
+    <!--<div id="preloader">
+         <div id="preloader-area">
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+            <div class="spinner"></div>
+         </div>
+         <div class="preloader-section preloader-left"></div>
+         <div class="preloader-section preloader-right"></div>
+      </div>-->
+
+
+    <header class="top-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="header-left">
+                        <ul>
+                            <li style="width:100%">
+                                <i class="ri-phone-fill"></i>
+                                <a href="tel:+91-99975 99975">ICAI Call Sahayata +91 - 99975 99975</a>
+                            </li>
+                            <!--<li style="width:30%">
+                       <a href="https://twitter.com/bosaicai">follow us on</a>
+                       <img src="images/icon_twitter_header.png" class="img-responsive" width="10%">
+                   </li>-->
+                        </ul>
+                        <!--<ul>
+					  <li>
+						 <i class="ri-phone-fill"></i>
+						 <a href="tel:0120-3876898">0120-3876898</a>
+					  </li>
+					  <li>
+						 <i class="ri-mail-fill"></i>
+						 <a href="mailto:bosmobileapp@icai.in">bosmobileapp@icai.in</a>
+					  </li>
+				   </ul>-->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <!--<marquee style="color:#fff;">
+               <img src="assets/images/new.gif" width="80px">
+                  <b>Success at CA. Exam BoS Schedule-Sessions starting from 18th March for CA. Final & Intermediate students appearing in May 2024 Examinations <a href="https://boslive.icai.org/schedule/Schedule_of_BoS_for_your_sucess.pdf" style="color:red;" target="_new">Click here.</a></b>
+               </marquee>-->
+                </div>
+
+                <!--<div class="col-lg-3 col-md-4">
+				<div class="header-right">
+				   <ul class="social-list">
+                  <li><a href="https://www.facebook.com/theicai" target="_new" class="social_icon"><i class="ri-facebook-fill"></i></a></li>
+                  <li><a href="https://twitter.com/theicai" target="_new" class="social_icon"><i class="ri-twitter-fill"></i></a></li>
+                  <li><a href="https://www.linkedin.com/school/theicai" target="_new" class="social_icon"><i class="ri-linkedin-fill"></i></a></li>
+                  <li><a href="https://www.youtube.com/user/icaiorgtube" target="_new" class="social_icon"><i class="ri-youtube-fill"></i></a></li>
+                  <li><a href="https://www.instagram.com/icaiorg/" target="_new" class="social_icon"><i class="ri-instagram-fill"></i></a></li>
+                  <li><a href="https://www.kooapp.com/profile/theicai" target="_new" class="social_icon"><i class="ri-qq-fill"></i></li>
+                  <li><a href="https://t.me/theicai" target="_new" class="social_icon"><i class="ri-telegram-fill"></i></a></li>
+				   </ul>
+				</div>
+			</div>-->
+            </div>
+        </div>
+    </header>
+
+
+    <!--<div class="navbar-area ledu-area">-->
+    <div class="ledu-area">
+        <div class="mobile-responsive-nav">
+            <div class="container">
+                <div class="mobile-responsive-menu">
+                    <div class="logo">
+                        <a href="index.php">
+                            <img src="assets/images/logo_icai_bos.png" class="logo-one" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desktop-nav nav-area">
+            <div class="col-md-12" style="width: 97%;margin: 0 auto;">
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    <a class="navbar-brand" href="index.php">
+                        <img src="assets/images/logo_icai_bos.png" class="logo-one" alt="Logo">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="home.php" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle ">About Us</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="about_icai.php" class="nav-link ">About ICAI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="about_bos.php" class="nav-link ">About BoS</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle ">Announcements</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="bos_announcement.php" class="nav-link ">BOS Announcement</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="examination_announcement.php" class="nav-link ">Examination
+                                            Announcement</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle ">LVC Schedule</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="schedule.php?course=foundation" class="nav-link ">Foundation (Jan 2027)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <!-- <a href="schedule.php?course=intermediate" class="nav-link ">Intermediate (May 2027)</a> -->
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="schedule.php?course=final" class="nav-link ">Final (May 2027)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="schedule_class2.php?course=intermediate" class="nav-link ">Intermediate (Sep 2026)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="schedule-lvc-class.php" class="nav-link ">Intermediate (May 2027)</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                 <a href="schedule_intermediate.php?course=intermediate" class="nav-link ">Intermediate May 2026 & September 2026</a>
+                              </li> -->
+
+                                    <!--<li class="nav-item">
+                                 <a href="schedule.php?course=intermediate&batch=batch-07" class="nav-link ">Intermediate (Batch 07 - Nov 2023)</a>
+                              </li>-->
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle ">LVRC Schedule</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="revisionary_schedule.php?course=foundation" class="nav-link ">Foundation Webinar (September 2026)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="revisionary_schedule.php?course=intermediate" class="nav-link ">Intermediate (January 2027)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="revisionary_schedule.php?course=final" class="nav-link ">Final (Nov 2026)</a>
+                                    </li>
+
+                                    <!--<li class="nav-item">
+                                 <a href="schedule.php?course=intermediate&batch=batch-07" class="nav-link ">Intermediate (Batch 07 - Nov 2023)</a>
+                              </li>-->
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="contact.php" class="nav-link">Contact Us</a>
+                            </li>
+                                                        <!-- <li class="nav-item">
+                           <a class="nav-link"><button class="openbtn" onclick="openNav()">Branch/Region Mock Test Login</button></a> 
+                        </li> -->
+                                                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalnew" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+		<h3>Disclaimer</h3>
+		<p>These suggested answers are provided for students' reference only. The
+			questions and answers are based on the relevant provisions applicable
+			at the time they were issued and have not been revised or updated to
+			reflect subsequent amendments in legislation or changes to the syllabus.
+			With the latest development these answers may have undergone a
+			complete change. In case of discrepancies between answers to the same
+			question in different BOS publications of the same subject, the solutions
+			provided in the most recent edition of BOS inputs will take precedence.</p>
+			<p>Accordingly, the students are advised to confine their academic queries
+			within the scope defined above.</p>
+			<p>Students should also note that when practicing these questions under
+			the New Scheme of Education and Training, they must consider the
+			current syllabus, exam pattern, subject weightage, and any amendments
+			within the syllabus, as outlined on the Institute’s official website.
+			Therefore, these suggested answers should be used with caution when
+			preparing for current examinations.</p>
+        <!-- <img src="images/bos_22102024.jpeg" class="img-responsive" width="100%"> -->
+        <!--<p class="text-center">Link for Registration: <a href="https://bosactivities.icai.org/" target="_new">Click Here</a></p>-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-simple" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+<div class="inner-banner inner-banner-bg">
+   <div class="container">
+      <div class="inner-title text-center">
+         <h3>Revision Test Papers</h3>
+      </div>
+   </div>
+</div>
+	<div class="featured-area pt-50 pb-100">
+         <div class="container">
+			 
+			
+			<div class="cart-wraps-area">
+				<div class="cart-wraps">
+					<div class="cart-table table-responsive">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th scope="col">Paper</th>
+									<th scope="col">Details</th>
+								</tr>
+							</thead>
+							<tbody id="myTable">
+															<tr>
+									<td>Group-wise Revision Test Papers (Group-I)</td>
+									<td><a href="https://resource.cdn.icai.org/79033bos63228-1.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Group-wise Revision Test Papers (Group-II)</td>
+									<td><a href="https://resource.cdn.icai.org/79034bos63228-2.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper 1 Advanced Accounting - September 2024</td>
+									<td><a href="https://resource.cdn.icai.org/81125bos65334-p1.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-1: Advanced Accounting - Note</td>
+									<td><a href="https://www.icai.org/post/bos-11022024" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-1: Advanced Accounting (Revised-11.2.2024) </td>
+									<td><a href="https://resource.cdn.icai.org/78913bos63148.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-2: Corporate and Other Laws</td>
+									<td><a href="https://resource.cdn.icai.org/78727bos63016-p2.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-2: Corporate and Other Laws - September 2024</td>
+									<td><a href="https://resource.cdn.icai.org/81126bos65334-p2.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-3: Taxation</td>
+									<td><a href="https://resource.cdn.icai.org/78728bos63016-p3.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-3: Taxation - Corrigendum</td>
+									<td><a href="https://resource.cdn.icai.org/79139bos63313.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-3: Taxation - September 2024</td>
+									<td><a href="https://resource.cdn.icai.org/81127bos65334-p3.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-4: Cost and Management Accounting</td>
+									<td><a href="https://resource.cdn.icai.org/78733bos63031-p4.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-4: Cost and Management Accounting - September 2024</td>
+									<td><a href="https://resource.cdn.icai.org/81159bos65352-p4.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-5: Auditing and Ethics</td>
+									<td><a href="https://resource.cdn.icai.org/78734bos63031-p5.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-5: Auditing and Ethics - September 2024</td>
+									<td><a href="https://resource.cdn.icai.org/81160bos65352-p5.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-6: Financial Management and Strategic Management</td>
+									<td><a href="https://resource.cdn.icai.org/78735bos63031-p6.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+															<tr>
+									<td>Paper-6: Financial Management and Strategic Management - September 2024</td>
+									<td><a href="https://resource.cdn.icai.org/81161bos65352-p6.pdf" target="_new" class="default-btn border-radius-50 p-0 download_btn">Click Here</a></td>
+								</tr>
+														</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+				</div>
+	</div>
+
+	
+
+
+<footer class="footer-area">
+         <div class="container">
+            <div class="row">
+               
+               <div class="col-lg-6 col-sm-6">
+                  <div class="footer-widget mt-30">
+                     <ul class="social-link">
+                        <li class="social-title">Follow Us:</li>
+                        <li><a href="https://www.facebook.com/theicai" target="_new" class="social_icon"><i class="ri-facebook-fill"></i></a></li>
+                        <li><a href="https://twitter.com/theicai" target="_new" class="social_icon"><i class="ri-twitter-fill"></i></a></li>
+                        <li><a href="https://www.linkedin.com/school/theicai" target="_new" class="social_icon"><i class="ri-linkedin-fill"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/icaiorgtube" target="_new" class="social_icon"><i class="ri-youtube-fill"></i></a></li>
+                        <li><a href="https://www.instagram.com/icaiorg/" target="_new" class="social_icon"><i class="ri-instagram-fill"></i></a></li>
+                        <li><a href="https://www.kooapp.com/profile/theicai" target="_new" class="social_icon"><i class="ri-qq-fill"></i></li>
+                        <li><a href="https://t.me/theicai" target="_new" class="social_icon"><i class="ri-telegram-fill"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-lg-6 col-sm-6">
+                  <div class="footer-widget mt-30">
+                     <p class="text-right">&copy;2026 All Rights reserved to the ICAI. |
+                     <a href="https://www.icai.org/post/16567" target="_new">Privacy Policy</a> | 
+                     <a href="https://www.icai.org/post/16566" target="_new">Terms and Conditions</a>
+                     </p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </footer>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/plugins.js"></script>
+      <script src="assets/js/custom.js"></script>
+	  
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+$("#search").keyup(function() {
+
+  // Retrieve the input field text and reset the count to zero
+  var search = $(this).val(),
+	count = 0;
+
+  // Loop through the comment list
+  $('#filter div').each(function() {
+
+
+	// If the list item does not contain the text phrase fade it out
+	if ($(this).text().search(new RegExp(search, "i")) < 0) {
+	  $(this).hide();  // MY CHANGE
+
+	  // Show the list item if the phrase matches and increase the count by 1
+	} else {
+	  $(this).show(); // MY CHANGE
+	  count++;
+	}
+
+  });
+
+});
+</script>
+
+
+   </body>
+</html>

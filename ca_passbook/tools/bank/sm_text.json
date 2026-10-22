@@ -1,0 +1,27 @@
+{
+ "_about": "Repairs of extraction damage in sm-qbank's text that the import cannot make itself (ours, docs/ICAI_BANK.md §9.2, §10): the text is ICAI's, copied from the rendered PDF page. Key: <doc id>:<item key>. tools/bank/smimport.py replaces the item's field from the 'from' text to its end with 'text', and warns when 'from' is no longer found.",
+ "o-p7-mtp-dec2021-s1:q6b": {
+  "field": "answer",
+  "from": "Strategy Formulation Strategy Implementation",
+  "text": "| Strategy Formulation | Strategy Implementation |\n|---|---|\n| • Strategy formulation focuses on effectiveness. | • Strategy implementation focuses on efficiency. |\n| • Strategy formulation is primarily an intellectual process. | • Strategy implementation is primarily an operational process. |\n| • Strategy formulation requires conceptual intuitive and analytical skills. | • Strategy implementation requires motivation and leadership skills. |\n| • Strategy formulation requires coordination among the executives at the top level. | • Strategy implementation requires coordination among the executives at the middle and lower levels. |",
+  "by": "sm-tags",
+  "why": "ICAI's two-column table rebuilt from the rendered page (sm-qbank's extraction had interleaved its columns line by line; the words are ICAI's, in ICAI's rows)",
+  "source": "sm-qbank/raw/mtp-old-dec2021-s1-a.pdf p.10"
+ },
+ "o-p7-mtp-jul2021-s1:q6b": {
+  "field": "answer",
+  "from": "Strategy Formulation Strategy Implementation",
+  "text": "| Strategy Formulation | Strategy Implementation |\n|---|---|\n| • Strategy formulation focuses on effectiveness. | • Strategy implementation focuses on efficiency. |\n| • Strategy formulation is primarily an intellectual process. | • Strategy implementation is primarily an operational process. |\n| • Strategy formulation requires conceptual intuitive and analytical skills. | • Strategy implementation requires motivation and leadership skills. |\n| • Strategy formulation requires coordination among the executives at the top level. | • Strategy implementation requires coordination among the executives at the middle and lower levels. |",
+  "by": "sm-tags",
+  "why": "ICAI's two-column table rebuilt from the rendered page (sm-qbank's extraction had interleaved its columns line by line; the words are ICAI's, in ICAI's rows)",
+  "source": "sm-qbank/raw/mtp-old-july2021-s1-a.pdf p.9"
+ },
+ "o-p7-mtp-may2023-s1:q5a": {
+  "field": "answer",
+  "from": "Strategy Formulation Strategy Implementation",
+  "text": "| Strategy Formulation | Strategy Implementation |\n|---|---|\n| • Strategy formulation focuses on effectiveness. | • Strategy implementation focuses on efficiency. |\n| • Strategy formulation is primarily an intellectual process. | • Strategy implementation is primarily an operational process. |\n| • Strategy formulation requires conceptual intuitive and analytical skills. | • Strategy implementation requires motivation and leadership skills. |\n| • Strategy formulation requires coordination among the executives at the top level. | • Strategy implementation requires coordination among the executives at the middle and lower levels. |",
+  "by": "sm-tags",
+  "why": "ICAI's two-column table rebuilt from the rendered page (sm-qbank's extraction had interleaved its columns line by line; the words are ICAI's, in ICAI's rows)",
+  "source": "sm-qbank/raw/mtp-old-may2023-s1-a.pdf p.9"
+ }
+}

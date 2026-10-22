@@ -1,0 +1,25 @@
+JOB=pdf
+You are building PHONE-FRIENDLY PDFs of PassBook's short notes (~/CA_PERSONAL/ca_passbook, an offline study app for ICAI CA Intermediate Group II).
+The student reads on a phone, where opening a local HTML app is awkward; an earlier project for the same student
+(~/CA_PERSONAL/ca-firm-notes, make-pdfs.js, pdf/) produced phone-size PDFs (110 x 196 mm, light theme, answers open) that they used. Do the same for
+PassBook, generated from the lessons so they stay in sync.
+PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py pdf <step>; steps start, tool, cma, aud, fm, sm, check, report
+(register {"id":"pdf","kind":"qa","deps":[],"steps":["start","tool","cma","aud","fm","sm","check","report"]} in ~/CA_PERSONAL/ca_prompts/jobs.json).
+
+WHAT: per paper (P4, P5, P6A, P6B) two PDFs:
+  (a) "<Paper> Short Notes" (phone, 110 x 196 mm): for every lesson in syllabus order: title, the "In plain words" key box, "Formats and
+      formulas", the "Answer frame", "Common mistakes" titles + fixes, and the "Recap"; diagrams rendered (SVG from the same diagram kit;
+      plots, tables, flows, trees); no labs (a one-line note "Interactive version: PassBook app, lesson <title>"); a contents page with
+      the chapters; page numbers.
+  (b) "<Paper> Full Lessons" (A4 and phone): the whole Exam view (all sections except Under the hood), worked examples with their answers
+      shown (opened), quiz with the answer key at the end of each lesson.
+  Plus "Revision cards" (phone): every flashcard by chapter, question then answer.
+HOW: reuse the engine's renderer (tools/render_lesson_html.js uses app/js/core/md.js + diagram.js; read tools/preview_lesson.py), build
+  one HTML per PDF with a print stylesheet (light theme, page breaks before lessons, avoid breaking inside tables/diagrams/answers,
+  KaTeX), print with headless Chrome (--print-to-pdf with the paper size via CSS @page) or Playwright from ~/nexora-automation/node_modules
+  if present. Put the tool in tools/pdf/ (make_pdfs.py or .js) and the output in ~/CA_PERSONAL/ca_passbook/pdf/. Fonts and KaTeX are vendored in
+  vendor/: no network.
+CHECK: open each PDF (render pages 1, a middle and the last to PNG with PyMuPDF: ~/DSA_PERSONAL/gate_cse/.venv/bin/python -I) and LOOK (~40 images
+  max): tables fit the phone page (shrink or wrap, never cut off), formulas render, diagrams are legible, no blank pages, contents correct.
+REPORT (final message; also ~/CA_PERSONAL/ca_prompts/reports/pdf.md): files, page counts, sizes, the command to regenerate, known limits.
+Do not edit lessons or app code (only tools/pdf/ and pdf/).

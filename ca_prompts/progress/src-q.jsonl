@@ -1,0 +1,11 @@
+{"t": 1792437835.0349429, "step": "start", "note": "reading sm-qbank README/manifests"}
+{"t": 1792438475.870673, "step": "p6-copy", "note": "56 P6 files copied from ~/sm-qbank/raw; all byte-identical to live ICAI/boslive URLs"}
+{"t": 1792439140.0913742, "step": "p4-pyq", "note": "P4 May24-Sep26: 8 QP scans (OCR) + 7 SA; Sep26 SA not published; May24 MCQs absent from QP+SA"}
+{"t": 1792439140.164428, "step": "p5-pyq", "note": "P5 May24-Sep26: 8 QP scans (OCR) + 7 SA; Sep26 SA not published"}
+{"t": 1792439140.2334259, "step": "p6-pyq", "note": "P6 8 QP (copied, OCR'd) + 7 SA (May25 split 6A/6B); Sep26 SA not published"}
+{"t": 1792439140.323246, "step": "rtp", "note": "24 RTPs P4/P5/P6 May24-Sep26 verified; Jan27 RTP not yet published (404)"}
+{"t": 1792439140.391527, "step": "mtp", "note": "96 MTP files (S1+S2, q+a) P4/P5/P6 May24-Sep26 via boslive; Jan27 MTPs scheduled 19 Nov-14 Dec 2026, not out"}
+{"t": 1792440108.580511, "step": "extract", "note": "166 new-scheme .txt: 142 from PDF text layer (rupee/PUA/CambriaMath/ligature repairs), 24 QP scans via Apple Vision OCR (Hindi halves skipped)"}
+{"t": 1792440397.126442, "step": "manifest", "note": "manifest.json 166 new-scheme entries + COVERAGE.md (gaps: Sep26 SA, May24 MCQs, Jan27 RTP/MTP not out)"}
+{"t": 1792443805.384106, "step": "old-scheme", "note": "169 old-scheme files (P3/P6/P8 Nov19-Nov23): 96 ICAI live/boslive, 3 Wayback, 73 mirror (cacult/castudynotes); 2 gaps"}
+{"t": 1792443945.807892, "step": "report", "note": "report saved ~/ca_prompts/reports/src-q.md; 335 files, manifest + COVERAGE.md"}

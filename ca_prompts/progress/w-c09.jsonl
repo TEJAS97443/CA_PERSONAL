@@ -1,0 +1,8 @@
+{"t": 1792447499.702233, "step": "start", "note": ""}
+{"t": 1792449060.639395, "step": "cma.abc.concept", "note": "3804 words, 3 diagrams"}
+{"t": 1792449762.6029398, "step": "cma.abc.compute", "note": "3220 words, 2 diagrams"}
+{"t": 1792450470.530045, "step": "cma.abc.abm", "note": "3640 words, 2 diagrams"}
+{"t": 1792451553.07137, "step": "cma.sys.ledgers", "note": "4377 words, 1 diagram + 6 two-sided accounts"}
+{"t": 1792453072.2963688, "step": "cma.sys.recon", "note": "3590 words, 1 diagram + 3 two-sided accounts"}
+{"t": 1792453156.124046, "step": "cma.sys.ledgers", "note": "4377 words, 1 diagram + 4 two-sided accounts"}
+{"t": 1792453296.2457979, "step": "report", "note": "5 lessons done; report at reports/w-c09.md"}

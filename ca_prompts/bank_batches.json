@@ -1,0 +1,3025 @@
+[
+ {
+  "id": "t-01",
+  "docs": [
+   "new/p4/pyq-sep2026-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-pyq-sep2026"
+  ],
+  "est_items": 32,
+  "est_minutes": 63,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-pyq-sep2026: 32 items (19 question numbers x 1.7)"
+ },
+ {
+  "id": "t-02",
+  "docs": [
+   "new/p5/pyq-sep2026-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-pyq-sep2026"
+  ],
+  "est_items": 26,
+  "est_minutes": 46,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-pyq-sep2026: 26 items (15 question numbers x 1.7)"
+ },
+ {
+  "id": "t-03",
+  "docs": [
+   "new/p6/pyq-sep2026-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-pyq-sep2026"
+  ],
+  "est_items": 18,
+  "est_minutes": 42,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-pyq-sep2026: 18 items (16 question numbers x 1.7 - 18 SM items imported; set to the 6B half's 18), 6A FM only"
+ },
+ {
+  "id": "t-04",
+  "docs": [
+   "new/p4/pyq-may2026-a.pdf",
+   "new/p4/pyq-may2026-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-pyq-may2026"
+  ],
+  "est_items": 30,
+  "est_minutes": 70,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-pyq-may2026: 30 items (30 marks lines)"
+ },
+ {
+  "id": "t-05",
+  "docs": [
+   "new/p5/pyq-may2026-a.pdf",
+   "new/p5/pyq-may2026-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-pyq-may2026"
+  ],
+  "est_items": 45,
+  "est_minutes": 73,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-pyq-may2026: 45 items (43 marks lines + 2 MCQs without marks)"
+ },
+ {
+  "id": "t-06",
+  "docs": [
+   "new/p6/pyq-may2026-a.pdf",
+   "new/p6/pyq-may2026-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-pyq-may2026"
+  ],
+  "est_items": 20,
+  "est_minutes": 63,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-pyq-may2026: 20 items (37 marks lines + 1 MCQs without marks - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-07",
+  "docs": [
+   "new/p4/pyq-jan2026-a.pdf",
+   "new/p4/pyq-jan2026-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-pyq-jan2026"
+  ],
+  "est_items": 31,
+  "est_minutes": 71,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-pyq-jan2026: 31 items (31 marks lines)"
+ },
+ {
+  "id": "t-08",
+  "docs": [
+   "new/p5/pyq-jan2026-a.pdf",
+   "new/p5/pyq-jan2026-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-pyq-jan2026"
+  ],
+  "est_items": 44,
+  "est_minutes": 62,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-pyq-jan2026: 44 items (44 marks lines)"
+ },
+ {
+  "id": "t-09",
+  "docs": [
+   "new/p6/pyq-jan2026-a.pdf",
+   "new/p6/pyq-jan2026-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-pyq-jan2026"
+  ],
+  "est_items": 18,
+  "est_minutes": 50,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-pyq-jan2026: 18 items (20 marks lines - 18 SM items imported; set to the 6B half's 18), 6A FM only"
+ },
+ {
+  "id": "t-10",
+  "docs": [
+   "new/p4/pyq-sep2025-a.pdf",
+   "new/p4/pyq-sep2025-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-pyq-sep2025"
+  ],
+  "est_items": 31,
+  "est_minutes": 70,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-pyq-sep2025: 31 items (31 marks lines)"
+ },
+ {
+  "id": "t-11",
+  "docs": [
+   "new/p5/pyq-sep2025-a.pdf",
+   "new/p5/pyq-sep2025-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-pyq-sep2025"
+  ],
+  "est_items": 39,
+  "est_minutes": 54,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-pyq-sep2025: 39 items (38 marks lines + 1 MCQs without marks)"
+ },
+ {
+  "id": "t-12",
+  "docs": [
+   "new/p6/pyq-sep2025-a.pdf",
+   "new/p6/pyq-sep2025-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-pyq-sep2025"
+  ],
+  "est_items": 20,
+  "est_minutes": 51,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-pyq-sep2025: 20 items (37 marks lines + 1 MCQs without marks - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-13",
+  "docs": [
+   "new/p4/pyq-may2025-a.pdf",
+   "new/p4/pyq-may2025-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-pyq-may2025"
+  ],
+  "est_items": 18,
+  "est_minutes": 52,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-pyq-may2025: 18 items (18 marks lines)"
+ },
+ {
+  "id": "t-14",
+  "docs": [
+   "new/p5/pyq-may2025-a.pdf",
+   "new/p5/pyq-may2025-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-pyq-may2025"
+  ],
+  "est_items": 39,
+  "est_minutes": 55,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-pyq-may2025: 39 items (39 marks lines)"
+ },
+ {
+  "id": "t-15",
+  "docs": [
+   "new/p6/pyq-may2025-a-6a.pdf",
+   "new/p6/pyq-may2025-a-6b.pdf",
+   "new/p6/pyq-may2025-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-pyq-may2025"
+  ],
+  "est_items": 11,
+  "est_minutes": 42,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-pyq-may2025: 11 items (29 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-16",
+  "docs": [
+   "new/p4/pyq-jan2025-a.pdf",
+   "new/p4/pyq-jan2025-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-pyq-jan2025"
+  ],
+  "est_items": 24,
+  "est_minutes": 57,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-pyq-jan2025: 24 items (24 marks lines)"
+ },
+ {
+  "id": "t-17",
+  "docs": [
+   "new/p5/pyq-jan2025-a.pdf",
+   "new/p5/pyq-jan2025-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-pyq-jan2025"
+  ],
+  "est_items": 43,
+  "est_minutes": 64,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-pyq-jan2025: 43 items (43 marks lines)"
+ },
+ {
+  "id": "t-18",
+  "docs": [
+   "new/p6/pyq-jan2025-a.pdf",
+   "new/p6/pyq-jan2025-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-pyq-jan2025"
+  ],
+  "est_items": 18,
+  "est_minutes": 52,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-pyq-jan2025: 18 items (21 marks lines - 18 SM items imported; set to the 6B half's 18), 6A FM only"
+ },
+ {
+  "id": "t-19",
+  "docs": [
+   "new/p4/pyq-sep2024-a.pdf",
+   "new/p4/pyq-sep2024-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-pyq-sep2024"
+  ],
+  "est_items": 15,
+  "est_minutes": 50,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-pyq-sep2024: 15 items (15 marks lines)"
+ },
+ {
+  "id": "t-20",
+  "docs": [
+   "new/p5/pyq-sep2024-a.pdf",
+   "new/p5/pyq-sep2024-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-pyq-sep2024"
+  ],
+  "est_items": 26,
+  "est_minutes": 45,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-pyq-sep2024: 26 items (25 marks lines + 1 MCQs without marks)"
+ },
+ {
+  "id": "t-21",
+  "docs": [
+   "new/p6/pyq-sep2024-a.pdf",
+   "new/p6/pyq-sep2024-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-pyq-sep2024"
+  ],
+  "est_items": 18,
+  "est_minutes": 50,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-pyq-sep2024: 18 items (21 marks lines + 2 MCQs without marks - 18 SM items imported; set to the 6B half's 18), 6A FM only"
+ },
+ {
+  "id": "t-22",
+  "docs": [
+   "new/p4/pyq-may2024-a.pdf",
+   "new/p4/pyq-may2024-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-pyq-may2024"
+  ],
+  "est_items": 8,
+  "est_minutes": 35,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-pyq-may2024: 8 items (5 question numbers x 1.7)"
+ },
+ {
+  "id": "t-23",
+  "docs": [
+   "new/p5/pyq-may2024-a.pdf",
+   "new/p5/pyq-may2024-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-pyq-may2024"
+  ],
+  "est_items": 25,
+  "est_minutes": 44,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-pyq-may2024: 25 items (25 marks lines)"
+ },
+ {
+  "id": "t-24",
+  "docs": [
+   "new/p6/pyq-may2024-a.pdf",
+   "new/p6/pyq-may2024-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-pyq-may2024"
+  ],
+  "est_items": 10,
+  "est_minutes": 38,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-pyq-may2024: 10 items (10 marks lines - 10 SM items imported; set to the 6B half's 10), 6A FM only"
+ },
+ {
+  "id": "t-25",
+  "docs": [
+   "new/p4/mtp-sep2026-s1-a.pdf",
+   "new/p4/mtp-sep2026-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-sep2026-s1"
+  ],
+  "est_items": 29,
+  "est_minutes": 63,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-sep2026-s1: 29 items (29 marks lines)"
+ },
+ {
+  "id": "t-26",
+  "docs": [
+   "new/p4/mtp-sep2026-s2-a.pdf",
+   "new/p4/mtp-sep2026-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-sep2026-s2"
+  ],
+  "est_items": 30,
+  "est_minutes": 65,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-sep2026-s2: 30 items (30 marks lines)"
+ },
+ {
+  "id": "t-27",
+  "docs": [
+   "new/p5/mtp-sep2026-s1-a.pdf",
+   "new/p5/mtp-sep2026-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-sep2026-s1"
+  ],
+  "est_items": 19,
+  "est_minutes": 36,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-sep2026-s1: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-28",
+  "docs": [
+   "new/p5/mtp-sep2026-s2-a.pdf",
+   "new/p5/mtp-sep2026-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-sep2026-s2"
+  ],
+  "est_items": 19,
+  "est_minutes": 35,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-sep2026-s2: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-29",
+  "docs": [
+   "new/p6/mtp-sep2026-s1-a.pdf",
+   "new/p6/mtp-sep2026-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-sep2026-s1"
+  ],
+  "est_items": 18,
+  "est_minutes": 46,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-sep2026-s1: 18 items (36 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-30",
+  "docs": [
+   "new/p6/mtp-sep2026-s2-a.pdf",
+   "new/p6/mtp-sep2026-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-sep2026-s2"
+  ],
+  "est_items": 23,
+  "est_minutes": 53,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-sep2026-s2: 23 items (41 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-31",
+  "docs": [
+   "new/p4/mtp-may2026-s1-a.pdf",
+   "new/p4/mtp-may2026-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-may2026-s1"
+  ],
+  "est_items": 30,
+  "est_minutes": 64,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-may2026-s1: 30 items (30 marks lines)"
+ },
+ {
+  "id": "t-32",
+  "docs": [
+   "new/p4/mtp-may2026-s2-a.pdf",
+   "new/p4/mtp-may2026-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-may2026-s2"
+  ],
+  "est_items": 30,
+  "est_minutes": 64,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-may2026-s2: 30 items (30 marks lines)"
+ },
+ {
+  "id": "t-33",
+  "docs": [
+   "new/p5/mtp-may2026-s1-a.pdf",
+   "new/p5/mtp-may2026-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-may2026-s1"
+  ],
+  "est_items": 19,
+  "est_minutes": 36,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-may2026-s1: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-34",
+  "docs": [
+   "new/p5/mtp-may2026-s2-a.pdf",
+   "new/p5/mtp-may2026-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-may2026-s2"
+  ],
+  "est_items": 19,
+  "est_minutes": 34,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-may2026-s2: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-35",
+  "docs": [
+   "new/p6/mtp-may2026-s1-a.pdf",
+   "new/p6/mtp-may2026-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-may2026-s1"
+  ],
+  "est_items": 17,
+  "est_minutes": 43,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-may2026-s1: 17 items (35 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-36",
+  "docs": [
+   "new/p6/mtp-may2026-s2-a.pdf",
+   "new/p6/mtp-may2026-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-may2026-s2"
+  ],
+  "est_items": 18,
+  "est_minutes": 45,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-may2026-s2: 18 items (36 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-37",
+  "docs": [
+   "new/p4/mtp-jan2026-s1-a.pdf",
+   "new/p4/mtp-jan2026-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-jan2026-s1"
+  ],
+  "est_items": 20,
+  "est_minutes": 49,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-jan2026-s1: 20 items (20 marks lines)"
+ },
+ {
+  "id": "t-38",
+  "docs": [
+   "new/p4/mtp-jan2026-s2-a.pdf",
+   "new/p4/mtp-jan2026-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-jan2026-s2"
+  ],
+  "est_items": 20,
+  "est_minutes": 50,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-jan2026-s2: 20 items (20 marks lines)"
+ },
+ {
+  "id": "t-39",
+  "docs": [
+   "new/p5/mtp-jan2026-s1-a.pdf",
+   "new/p5/mtp-jan2026-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-jan2026-s1"
+  ],
+  "est_items": 19,
+  "est_minutes": 33,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-jan2026-s1: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-40",
+  "docs": [
+   "new/p5/mtp-jan2026-s2-a.pdf",
+   "new/p5/mtp-jan2026-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-jan2026-s2"
+  ],
+  "est_items": 19,
+  "est_minutes": 33,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-jan2026-s2: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-41",
+  "docs": [
+   "new/p6/mtp-jan2026-s1-a.pdf",
+   "new/p6/mtp-jan2026-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-jan2026-s1"
+  ],
+  "est_items": 18,
+  "est_minutes": 46,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-jan2026-s1: 18 items (36 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-42",
+  "docs": [
+   "new/p6/mtp-jan2026-s2-a.pdf",
+   "new/p6/mtp-jan2026-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-jan2026-s2"
+  ],
+  "est_items": 17,
+  "est_minutes": 44,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-jan2026-s2: 17 items (35 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-43",
+  "docs": [
+   "new/p4/mtp-sep2025-s1-a.pdf",
+   "new/p4/mtp-sep2025-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-sep2025-s1"
+  ],
+  "est_items": 21,
+  "est_minutes": 50,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-sep2025-s1: 21 items (21 marks lines)"
+ },
+ {
+  "id": "t-44",
+  "docs": [
+   "new/p4/mtp-sep2025-s2-a.pdf",
+   "new/p4/mtp-sep2025-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-sep2025-s2"
+  ],
+  "est_items": 30,
+  "est_minutes": 66,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-sep2025-s2: 30 items (30 marks lines)"
+ },
+ {
+  "id": "t-45",
+  "docs": [
+   "new/p5/mtp-sep2025-s1-a.pdf",
+   "new/p5/mtp-sep2025-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-sep2025-s1"
+  ],
+  "est_items": 19,
+  "est_minutes": 32,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-sep2025-s1: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-46",
+  "docs": [
+   "new/p5/mtp-sep2025-s2-a.pdf",
+   "new/p5/mtp-sep2025-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-sep2025-s2"
+  ],
+  "est_items": 19,
+  "est_minutes": 32,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-sep2025-s2: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-47",
+  "docs": [
+   "new/p6/mtp-sep2025-s1-a.pdf",
+   "new/p6/mtp-sep2025-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-sep2025-s1"
+  ],
+  "est_items": 21,
+  "est_minutes": 51,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-sep2025-s1: 21 items (39 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-48",
+  "docs": [
+   "new/p6/mtp-sep2025-s2-a.pdf",
+   "new/p6/mtp-sep2025-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-sep2025-s2"
+  ],
+  "est_items": 13,
+  "est_minutes": 39,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-sep2025-s2: 13 items (31 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-49",
+  "docs": [
+   "new/p4/mtp-may2025-s1-a.pdf",
+   "new/p4/mtp-may2025-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-may2025-s1"
+  ],
+  "est_items": 31,
+  "est_minutes": 66,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-may2025-s1: 31 items (31 marks lines)"
+ },
+ {
+  "id": "t-50",
+  "docs": [
+   "new/p4/mtp-may2025-s2-a.pdf",
+   "new/p4/mtp-may2025-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-may2025-s2"
+  ],
+  "est_items": 31,
+  "est_minutes": 65,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-may2025-s2: 31 items (31 marks lines)"
+ },
+ {
+  "id": "t-51",
+  "docs": [
+   "new/p5/mtp-may2025-s1-a.pdf",
+   "new/p5/mtp-may2025-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-may2025-s1"
+  ],
+  "est_items": 19,
+  "est_minutes": 32,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-may2025-s1: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-52",
+  "docs": [
+   "new/p5/mtp-may2025-s2-a.pdf",
+   "new/p5/mtp-may2025-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-may2025-s2"
+  ],
+  "est_items": 19,
+  "est_minutes": 33,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-may2025-s2: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-53",
+  "docs": [
+   "new/p6/mtp-may2025-s1-a.pdf",
+   "new/p6/mtp-may2025-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-may2025-s1"
+  ],
+  "est_items": 18,
+  "est_minutes": 46,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-may2025-s1: 18 items (36 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-54",
+  "docs": [
+   "new/p6/mtp-may2025-s2-a.pdf",
+   "new/p6/mtp-may2025-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-may2025-s2"
+  ],
+  "est_items": 18,
+  "est_minutes": 46,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-may2025-s2: 18 items (36 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-55",
+  "docs": [
+   "new/p4/mtp-jan2025-s1-a.pdf",
+   "new/p4/mtp-jan2025-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-jan2025-s1"
+  ],
+  "est_items": 20,
+  "est_minutes": 50,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-jan2025-s1: 20 items (20 marks lines)"
+ },
+ {
+  "id": "t-56",
+  "docs": [
+   "new/p4/mtp-jan2025-s2-a.pdf",
+   "new/p4/mtp-jan2025-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-jan2025-s2"
+  ],
+  "est_items": 22,
+  "est_minutes": 51,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-jan2025-s2: 22 items (22 marks lines)"
+ },
+ {
+  "id": "t-57",
+  "docs": [
+   "new/p5/mtp-jan2025-s1-a.pdf",
+   "new/p5/mtp-jan2025-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-jan2025-s1"
+  ],
+  "est_items": 19,
+  "est_minutes": 31,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-jan2025-s1: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-58",
+  "docs": [
+   "new/p5/mtp-jan2025-s2-a.pdf",
+   "new/p5/mtp-jan2025-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-jan2025-s2"
+  ],
+  "est_items": 19,
+  "est_minutes": 31,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-jan2025-s2: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-59",
+  "docs": [
+   "new/p6/mtp-jan2025-s1-a.pdf",
+   "new/p6/mtp-jan2025-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-jan2025-s1"
+  ],
+  "est_items": 17,
+  "est_minutes": 42,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-jan2025-s1: 17 items (35 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-60",
+  "docs": [
+   "new/p6/mtp-jan2025-s2-a.pdf",
+   "new/p6/mtp-jan2025-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-jan2025-s2"
+  ],
+  "est_items": 17,
+  "est_minutes": 42,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-jan2025-s2: 17 items (35 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-61",
+  "docs": [
+   "new/p4/mtp-sep2024-s1-a.pdf",
+   "new/p4/mtp-sep2024-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-sep2024-s1"
+  ],
+  "est_items": 30,
+  "est_minutes": 62,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-sep2024-s1: 30 items (30 marks lines)"
+ },
+ {
+  "id": "t-62",
+  "docs": [
+   "new/p4/mtp-sep2024-s2-a.pdf",
+   "new/p4/mtp-sep2024-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-sep2024-s2"
+  ],
+  "est_items": 32,
+  "est_minutes": 66,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-sep2024-s2: 32 items (32 marks lines)"
+ },
+ {
+  "id": "t-63",
+  "docs": [
+   "new/p5/mtp-sep2024-s1-a.pdf",
+   "new/p5/mtp-sep2024-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-sep2024-s1"
+  ],
+  "est_items": 19,
+  "est_minutes": 31,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-sep2024-s1: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-64",
+  "docs": [
+   "new/p5/mtp-sep2024-s2-a.pdf",
+   "new/p5/mtp-sep2024-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-sep2024-s2"
+  ],
+  "est_items": 19,
+  "est_minutes": 32,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-sep2024-s2: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-65",
+  "docs": [
+   "new/p6/mtp-sep2024-s1-a.pdf",
+   "new/p6/mtp-sep2024-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-sep2024-s1"
+  ],
+  "est_items": 18,
+  "est_minutes": 43,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-sep2024-s1: 18 items (36 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-66",
+  "docs": [
+   "new/p6/mtp-sep2024-s2-a.pdf",
+   "new/p6/mtp-sep2024-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-sep2024-s2"
+  ],
+  "est_items": 18,
+  "est_minutes": 43,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-sep2024-s2: 18 items (36 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-67",
+  "docs": [
+   "new/p4/mtp-may2024-s1-a.pdf",
+   "new/p4/mtp-may2024-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-may2024-s1"
+  ],
+  "est_items": 31,
+  "est_minutes": 63,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-may2024-s1: 31 items (31 marks lines)"
+ },
+ {
+  "id": "t-68",
+  "docs": [
+   "new/p4/mtp-may2024-s2-a.pdf",
+   "new/p4/mtp-may2024-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-mtp-may2024-s2"
+  ],
+  "est_items": 31,
+  "est_minutes": 62,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-mtp-may2024-s2: 31 items (31 marks lines)"
+ },
+ {
+  "id": "t-69",
+  "docs": [
+   "new/p5/mtp-may2024-s1-a.pdf",
+   "new/p5/mtp-may2024-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-may2024-s1"
+  ],
+  "est_items": 25,
+  "est_minutes": 38,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-may2024-s1: 25 items (25 marks lines)"
+ },
+ {
+  "id": "t-70",
+  "docs": [
+   "new/p5/mtp-may2024-s2-a.pdf",
+   "new/p5/mtp-may2024-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-mtp-may2024-s2"
+  ],
+  "est_items": 24,
+  "est_minutes": 37,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-mtp-may2024-s2: 24 items (24 marks lines)"
+ },
+ {
+  "id": "t-71",
+  "docs": [
+   "new/p6/mtp-may2024-s1-a.pdf",
+   "new/p6/mtp-may2024-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-may2024-s1"
+  ],
+  "est_items": 18,
+  "est_minutes": 42,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-may2024-s1: 18 items (36 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-72",
+  "docs": [
+   "new/p6/mtp-may2024-s2-a.pdf",
+   "new/p6/mtp-may2024-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-mtp-may2024-s2"
+  ],
+  "est_items": 18,
+  "est_minutes": 44,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-mtp-may2024-s2: 18 items (36 marks lines - 18 SM items imported), 6A FM only"
+ },
+ {
+  "id": "t-73",
+  "docs": [
+   "new/p5/rtp-sep2026-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-rtp-sep2026"
+  ],
+  "est_items": 32,
+  "est_minutes": 44,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-rtp-sep2026: 32 items (19 question numbers x 1.7)"
+ },
+ {
+  "id": "t-74",
+  "docs": [
+   "new/p6/rtp-sep2026-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-rtp-sep2026"
+  ],
+  "est_items": 17,
+  "est_minutes": 42,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-rtp-sep2026: 17 items (10 question numbers x 1.7), 6A FM only"
+ },
+ {
+  "id": "t-75",
+  "docs": [
+   "new/p4/rtp-may2026-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-rtp-may2026"
+  ],
+  "est_items": 27,
+  "est_minutes": 64,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-rtp-may2026: 27 items (16 question numbers x 1.7)"
+ },
+ {
+  "id": "t-76",
+  "docs": [
+   "new/p5/rtp-may2026-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-rtp-may2026"
+  ],
+  "est_items": 32,
+  "est_minutes": 44,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-rtp-may2026: 32 items (19 question numbers x 1.7)"
+ },
+ {
+  "id": "t-77",
+  "docs": [
+   "new/p6/rtp-may2026-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-rtp-may2026"
+  ],
+  "est_items": 17,
+  "est_minutes": 42,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-rtp-may2026: 17 items (10 question numbers x 1.7), 6A FM only"
+ },
+ {
+  "id": "t-78",
+  "docs": [
+   "new/p4/rtp-jan2026-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-rtp-jan2026"
+  ],
+  "est_items": 32,
+  "est_minutes": 74,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-rtp-jan2026: 32 items (19 question numbers x 1.7)"
+ },
+ {
+  "id": "t-79",
+  "docs": [
+   "new/p5/rtp-jan2026-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-rtp-jan2026"
+  ],
+  "est_items": 32,
+  "est_minutes": 42,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-rtp-jan2026: 32 items (19 question numbers x 1.7)"
+ },
+ {
+  "id": "t-80",
+  "docs": [
+   "new/p6/rtp-jan2026-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-rtp-jan2026"
+  ],
+  "est_items": 19,
+  "est_minutes": 44,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-rtp-jan2026: 19 items (11 question numbers x 1.7), 6A FM only"
+ },
+ {
+  "id": "t-81",
+  "docs": [
+   "new/p4/rtp-sep2025-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-rtp-sep2025"
+  ],
+  "est_items": 31,
+  "est_minutes": 71,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-rtp-sep2025: 31 items (18 question numbers x 1.7)"
+ },
+ {
+  "id": "t-82",
+  "docs": [
+   "new/p5/rtp-sep2025-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-rtp-sep2025"
+  ],
+  "est_items": 34,
+  "est_minutes": 44,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-rtp-sep2025: 34 items (20 question numbers x 1.7)"
+ },
+ {
+  "id": "t-83",
+  "docs": [
+   "new/p6/rtp-sep2025-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-rtp-sep2025"
+  ],
+  "est_items": 17,
+  "est_minutes": 42,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-rtp-sep2025: 17 items (10 question numbers x 1.7), 6A FM only"
+ },
+ {
+  "id": "t-84",
+  "docs": [
+   "new/p4/rtp-may2025-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-rtp-may2025"
+  ],
+  "est_items": 32,
+  "est_minutes": 73,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-rtp-may2025: 32 items (19 question numbers x 1.7)"
+ },
+ {
+  "id": "t-85",
+  "docs": [
+   "new/p5/rtp-may2025-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-rtp-may2025"
+  ],
+  "est_items": 32,
+  "est_minutes": 42,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-rtp-may2025: 32 items (19 question numbers x 1.7)"
+ },
+ {
+  "id": "t-86",
+  "docs": [
+   "new/p6/rtp-may2025-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-rtp-may2025"
+  ],
+  "est_items": 15,
+  "est_minutes": 40,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-rtp-may2025: 15 items (9 question numbers x 1.7), 6A FM only"
+ },
+ {
+  "id": "t-87",
+  "docs": [
+   "new/p4/rtp-jan2025-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-rtp-jan2025"
+  ],
+  "est_items": 31,
+  "est_minutes": 69,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-rtp-jan2025: 31 items (18 question numbers x 1.7)"
+ },
+ {
+  "id": "t-88",
+  "docs": [
+   "new/p5/rtp-jan2025-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-rtp-jan2025"
+  ],
+  "est_items": 34,
+  "est_minutes": 45,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-rtp-jan2025: 34 items (20 question numbers x 1.7)"
+ },
+ {
+  "id": "t-89",
+  "docs": [
+   "new/p6/rtp-jan2025-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-rtp-jan2025"
+  ],
+  "est_items": 17,
+  "est_minutes": 42,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-rtp-jan2025: 17 items (10 question numbers x 1.7), 6A FM only"
+ },
+ {
+  "id": "t-90",
+  "docs": [
+   "new/p4/rtp-sep2024-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-rtp-sep2024"
+  ],
+  "est_items": 31,
+  "est_minutes": 66,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-rtp-sep2024: 31 items (18 question numbers x 1.7)"
+ },
+ {
+  "id": "t-91",
+  "docs": [
+   "new/p5/rtp-sep2024-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-rtp-sep2024"
+  ],
+  "est_items": 32,
+  "est_minutes": 41,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-rtp-sep2024: 32 items (19 question numbers x 1.7)"
+ },
+ {
+  "id": "t-92",
+  "docs": [
+   "new/p6/rtp-sep2024-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-rtp-sep2024"
+  ],
+  "est_items": 20,
+  "est_minutes": 47,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-rtp-sep2024: 20 items (12 question numbers x 1.7), 6A FM only"
+ },
+ {
+  "id": "t-93",
+  "docs": [
+   "new/p4/rtp-may2024-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p4-rtp-may2024"
+  ],
+  "est_items": 20,
+  "est_minutes": 51,
+  "papers": [
+   "P4 Cost and Management Accounting"
+  ],
+  "note": "n-p4-rtp-may2024: 20 items (12 question numbers x 1.7)"
+ },
+ {
+  "id": "t-94",
+  "docs": [
+   "new/p5/rtp-may2024-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p5-rtp-may2024"
+  ],
+  "est_items": 37,
+  "est_minutes": 51,
+  "papers": [
+   "P5 Auditing and Ethics"
+  ],
+  "note": "n-p5-rtp-may2024: 37 items (22 question numbers x 1.7)"
+ },
+ {
+  "id": "t-95",
+  "docs": [
+   "new/p6/rtp-may2024-qa.pdf"
+  ],
+  "bank_docs": [
+   "n-p6-rtp-may2024"
+  ],
+  "est_items": 14,
+  "est_minutes": 38,
+  "papers": [
+   "P6A Financial Management"
+  ],
+  "note": "n-p6-rtp-may2024: 14 items (8 question numbers x 1.7), 6A FM only"
+ },
+ {
+  "id": "t-96",
+  "docs": [
+   "old/p3/pyq-nov2023-a.pdf",
+   "old/p3/pyq-nov2023-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-pyq-nov2023"
+  ],
+  "est_items": 20,
+  "est_minutes": 57,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-pyq-nov2023: 20 items (19 marks lines + 1 MCQs without marks)"
+ },
+ {
+  "id": "t-97",
+  "docs": [
+   "old/p6/pyq-nov2023-a.pdf",
+   "old/p6/pyq-nov2023-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-pyq-nov2023"
+  ],
+  "est_items": 32,
+  "est_minutes": 46,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-pyq-nov2023: 32 items (27 marks lines + 5 MCQs without marks)"
+ },
+ {
+  "id": "t-98",
+  "docs": [
+   "old/p8/pyq-nov2023-a.pdf",
+   "old/p8/pyq-nov2023-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-pyq-nov2023"
+  ],
+  "est_items": 14,
+  "est_minutes": 45,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-pyq-nov2023: 14 items (14 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-99",
+  "docs": [
+   "old/p3/pyq-may2023-a.pdf",
+   "old/p3/pyq-may2023-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-pyq-may2023"
+  ],
+  "est_items": 19,
+  "est_minutes": 55,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-pyq-may2023: 19 items (18 marks lines + 1 MCQs without marks)"
+ },
+ {
+  "id": "t-100",
+  "docs": [
+   "old/p6/pyq-may2023-a.pdf",
+   "old/p6/pyq-may2023-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-pyq-may2023"
+  ],
+  "est_items": 34,
+  "est_minutes": 47,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-pyq-may2023: 34 items (27 marks lines + 7 MCQs without marks)"
+ },
+ {
+  "id": "t-101",
+  "docs": [
+   "old/p8/pyq-may2023-a.pdf",
+   "old/p8/pyq-may2023-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-pyq-may2023"
+  ],
+  "est_items": 12,
+  "est_minutes": 44,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-pyq-may2023: 12 items (12 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-102",
+  "docs": [
+   "old/p3/pyq-nov2022-a.pdf",
+   "old/p3/pyq-nov2022-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-pyq-nov2022"
+  ],
+  "est_items": 18,
+  "est_minutes": 48,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-pyq-nov2022: 18 items (18 marks lines)"
+ },
+ {
+  "id": "t-103",
+  "docs": [
+   "old/p6/pyq-nov2022-a.pdf",
+   "old/p6/pyq-nov2022-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-pyq-nov2022"
+  ],
+  "est_items": 35,
+  "est_minutes": 49,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-pyq-nov2022: 35 items (27 marks lines + 8 MCQs without marks)"
+ },
+ {
+  "id": "t-104",
+  "docs": [
+   "old/p8/pyq-nov2022-a.pdf",
+   "old/p8/pyq-nov2022-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-pyq-nov2022"
+  ],
+  "est_items": 13,
+  "est_minutes": 39,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-pyq-nov2022: 13 items (13 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-105",
+  "docs": [
+   "old/p3/pyq-may2022-a.pdf",
+   "old/p3/pyq-may2022-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-pyq-may2022"
+  ],
+  "est_items": 19,
+  "est_minutes": 55,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-pyq-may2022: 19 items (19 marks lines)"
+ },
+ {
+  "id": "t-106",
+  "docs": [
+   "old/p6/pyq-may2022-a.pdf",
+   "old/p6/pyq-may2022-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-pyq-may2022"
+  ],
+  "est_items": 29,
+  "est_minutes": 44,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-pyq-may2022: 29 items (22 marks lines + 7 MCQs without marks)"
+ },
+ {
+  "id": "t-107",
+  "docs": [
+   "old/p8/pyq-may2022-a.pdf",
+   "old/p8/pyq-may2022-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-pyq-may2022"
+  ],
+  "est_items": 12,
+  "est_minutes": 42,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-pyq-may2022: 12 items (12 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-108",
+  "docs": [
+   "old/p3/pyq-dec2021-a.pdf",
+   "old/p3/pyq-dec2021-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-pyq-dec2021"
+  ],
+  "est_items": 19,
+  "est_minutes": 54,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-pyq-dec2021: 19 items (17 marks lines + 2 MCQs without marks)"
+ },
+ {
+  "id": "t-109",
+  "docs": [
+   "old/p6/pyq-dec2021-a.pdf",
+   "old/p6/pyq-dec2021-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-pyq-dec2021"
+  ],
+  "est_items": 30,
+  "est_minutes": 43,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-pyq-dec2021: 30 items (21 marks lines + 9 MCQs without marks)"
+ },
+ {
+  "id": "t-110",
+  "docs": [
+   "old/p8/pyq-dec2021-a.pdf",
+   "old/p8/pyq-dec2021-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-pyq-dec2021"
+  ],
+  "est_items": 12,
+  "est_minutes": 37,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-pyq-dec2021: 12 items (12 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-111",
+  "docs": [
+   "old/p3/pyq-jul2021-a.pdf",
+   "old/p3/pyq-jul2021-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-pyq-jul2021"
+  ],
+  "est_items": 75,
+  "est_minutes": 162,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-pyq-jul2021: 75 items (67 marks lines + 8 MCQs without marks)"
+ },
+ {
+  "id": "t-112",
+  "docs": [
+   "old/p6/pyq-jul2021-a.pdf",
+   "old/p6/pyq-jul2021-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-pyq-jul2021"
+  ],
+  "est_items": 103,
+  "est_minutes": 136,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-pyq-jul2021: 103 items (82 marks lines + 21 MCQs without marks)"
+ },
+ {
+  "id": "t-113",
+  "docs": [
+   "old/p8/pyq-jul2021-a.pdf",
+   "old/p8/pyq-jul2021-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-pyq-jul2021"
+  ],
+  "est_items": 61,
+  "est_minutes": 138,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-pyq-jul2021: 61 items (50 marks lines + 11 MCQs without marks), Section A FM only"
+ },
+ {
+  "id": "t-114",
+  "docs": [
+   "old/p3/pyq-jan2021-a.pdf",
+   "old/p3/pyq-jan2021-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-pyq-jan2021"
+  ],
+  "est_items": 17,
+  "est_minutes": 51,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-pyq-jan2021: 17 items (16 marks lines + 1 MCQs without marks)"
+ },
+ {
+  "id": "t-115",
+  "docs": [
+   "old/p6/pyq-jan2021-a.pdf",
+   "old/p6/pyq-jan2021-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-pyq-jan2021"
+  ],
+  "est_items": 33,
+  "est_minutes": 43,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-pyq-jan2021: 33 items (27 marks lines + 6 MCQs without marks)"
+ },
+ {
+  "id": "t-116",
+  "docs": [
+   "old/p8/pyq-jan2021-a.pdf",
+   "old/p8/pyq-jan2021-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-pyq-jan2021"
+  ],
+  "est_items": 11,
+  "est_minutes": 38,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-pyq-jan2021: 11 items (11 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-117",
+  "docs": [
+   "old/p3/pyq-nov2020-a.pdf",
+   "old/p3/pyq-nov2020-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-pyq-nov2020"
+  ],
+  "est_items": 19,
+  "est_minutes": 51,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-pyq-nov2020: 19 items (18 marks lines + 1 MCQs without marks)"
+ },
+ {
+  "id": "t-118",
+  "docs": [
+   "old/p6/pyq-nov2020-a.pdf",
+   "old/p6/pyq-nov2020-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-pyq-nov2020"
+  ],
+  "est_items": 30,
+  "est_minutes": 43,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-pyq-nov2020: 30 items (22 marks lines + 8 MCQs without marks)"
+ },
+ {
+  "id": "t-119",
+  "docs": [
+   "old/p8/pyq-nov2020-a.pdf",
+   "old/p8/pyq-nov2020-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-pyq-nov2020"
+  ],
+  "est_items": 15,
+  "est_minutes": 47,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-pyq-nov2020: 15 items (12 marks lines + 3 MCQs without marks), Section A FM only"
+ },
+ {
+  "id": "t-120",
+  "docs": [
+   "old/p3/pyq-nov2019-a.pdf",
+   "old/p3/pyq-nov2019-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-pyq-nov2019"
+  ],
+  "est_items": 17,
+  "est_minutes": 49,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-pyq-nov2019: 17 items (16 marks lines + 1 MCQs without marks)"
+ },
+ {
+  "id": "t-121",
+  "docs": [
+   "old/p6/pyq-nov2019-a.pdf",
+   "old/p6/pyq-nov2019-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-pyq-nov2019"
+  ],
+  "est_items": 29,
+  "est_minutes": 42,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-pyq-nov2019: 29 items (23 marks lines + 6 MCQs without marks)"
+ },
+ {
+  "id": "t-122",
+  "docs": [
+   "old/p8/pyq-nov2019-a.pdf",
+   "old/p8/pyq-nov2019-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-pyq-nov2019"
+  ],
+  "est_items": 13,
+  "est_minutes": 42,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-pyq-nov2019: 13 items (12 marks lines + 1 MCQs without marks), Section A FM only"
+ },
+ {
+  "id": "t-123",
+  "docs": [
+   "old/p3/mtp-nov2023-s1-a.pdf",
+   "old/p3/mtp-nov2023-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-nov2023-s1"
+  ],
+  "est_items": 11,
+  "est_minutes": 30,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-nov2023-s1: 11 items (11 marks lines)"
+ },
+ {
+  "id": "t-124",
+  "docs": [
+   "old/p3/mtp-nov2023-s2-a.pdf",
+   "old/p3/mtp-nov2023-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-nov2023-s2"
+  ],
+  "est_items": 12,
+  "est_minutes": 32,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-nov2023-s2: 12 items (12 marks lines)"
+ },
+ {
+  "id": "t-125",
+  "docs": [
+   "old/p6/mtp-nov2023-s1-a.pdf",
+   "old/p6/mtp-nov2023-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-nov2023-s1"
+  ],
+  "est_items": 47,
+  "est_minutes": 56,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-nov2023-s1: 47 items (47 marks lines)"
+ },
+ {
+  "id": "t-126",
+  "docs": [
+   "old/p6/mtp-nov2023-s2-a.pdf",
+   "old/p6/mtp-nov2023-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-nov2023-s2"
+  ],
+  "est_items": 48,
+  "est_minutes": 57,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-nov2023-s2: 48 items (48 marks lines)"
+ },
+ {
+  "id": "t-127",
+  "docs": [
+   "old/p8/mtp-nov2023-s1-a.pdf",
+   "old/p8/mtp-nov2023-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-nov2023-s1"
+  ],
+  "est_items": 11,
+  "est_minutes": 30,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-nov2023-s1: 11 items (11 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-128",
+  "docs": [
+   "old/p8/mtp-nov2023-s2-a.pdf",
+   "old/p8/mtp-nov2023-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-nov2023-s2"
+  ],
+  "est_items": 10,
+  "est_minutes": 28,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-nov2023-s2: 10 items (6 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-129",
+  "docs": [
+   "old/p3/mtp-may2023-s1-a.pdf",
+   "old/p3/mtp-may2023-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-may2023-s1"
+  ],
+  "est_items": 12,
+  "est_minutes": 31,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-may2023-s1: 12 items (12 marks lines)"
+ },
+ {
+  "id": "t-130",
+  "docs": [
+   "old/p3/mtp-may2023-s2-a.pdf",
+   "old/p3/mtp-may2023-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-may2023-s2"
+  ],
+  "est_items": 10,
+  "est_minutes": 29,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-may2023-s2: 10 items (6 question numbers x 1.7)"
+ },
+ {
+  "id": "t-131",
+  "docs": [
+   "old/p6/mtp-may2023-s1-a.pdf",
+   "old/p6/mtp-may2023-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-may2023-s1"
+  ],
+  "est_items": 45,
+  "est_minutes": 53,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-may2023-s1: 45 items (45 marks lines)"
+ },
+ {
+  "id": "t-132",
+  "docs": [
+   "old/p6/mtp-may2023-s2-a.pdf",
+   "old/p6/mtp-may2023-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-may2023-s2"
+  ],
+  "est_items": 49,
+  "est_minutes": 58,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-may2023-s2: 49 items (49 marks lines)"
+ },
+ {
+  "id": "t-133",
+  "docs": [
+   "old/p8/mtp-may2023-s1-a.pdf",
+   "old/p8/mtp-may2023-s1-q.pdf",
+   "old/p8/mtp-may2023-s2-a.pdf",
+   "old/p8/mtp-may2023-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-may2023-s1",
+   "o-p8-mtp-may2023-s2"
+  ],
+  "est_items": 14,
+  "est_minutes": 50,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-may2023-s1: 5 items (5 marks lines), Section A FM only; o-p8-mtp-may2023-s2: 9 items (9 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-134",
+  "docs": [
+   "old/p3/mtp-nov2022-s1-a.pdf",
+   "old/p3/mtp-nov2022-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-nov2022-s1"
+  ],
+  "est_items": 12,
+  "est_minutes": 32,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-nov2022-s1: 12 items (12 marks lines)"
+ },
+ {
+  "id": "t-135",
+  "docs": [
+   "old/p3/mtp-nov2022-s2-a.pdf",
+   "old/p3/mtp-nov2022-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-nov2022-s2"
+  ],
+  "est_items": 16,
+  "est_minutes": 39,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-nov2022-s2: 16 items (16 marks lines)"
+ },
+ {
+  "id": "t-136",
+  "docs": [
+   "old/p6/mtp-nov2022-s1-a.pdf",
+   "old/p6/mtp-nov2022-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-nov2022-s1"
+  ],
+  "est_items": 47,
+  "est_minutes": 55,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-nov2022-s1: 47 items (47 marks lines)"
+ },
+ {
+  "id": "t-137",
+  "docs": [
+   "old/p6/mtp-nov2022-s2-a.pdf",
+   "old/p6/mtp-nov2022-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-nov2022-s2"
+  ],
+  "est_items": 47,
+  "est_minutes": 56,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-nov2022-s2: 47 items (47 marks lines)"
+ },
+ {
+  "id": "t-138",
+  "docs": [
+   "old/p8/mtp-nov2022-s1-a.pdf",
+   "old/p8/mtp-nov2022-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-nov2022-s1"
+  ],
+  "est_items": 10,
+  "est_minutes": 28,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-nov2022-s1: 10 items (6 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-139",
+  "docs": [
+   "old/p8/mtp-nov2022-s2-a.pdf",
+   "old/p8/mtp-nov2022-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-nov2022-s2"
+  ],
+  "est_items": 10,
+  "est_minutes": 29,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-nov2022-s2: 10 items (6 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-140",
+  "docs": [
+   "old/p3/mtp-may2022-s1-a.pdf",
+   "old/p3/mtp-may2022-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-may2022-s1"
+  ],
+  "est_items": 12,
+  "est_minutes": 31,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-may2022-s1: 12 items (12 marks lines)"
+ },
+ {
+  "id": "t-141",
+  "docs": [
+   "old/p3/mtp-may2022-s2-a.pdf",
+   "old/p3/mtp-may2022-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-may2022-s2"
+  ],
+  "est_items": 12,
+  "est_minutes": 32,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-may2022-s2: 12 items (12 marks lines)"
+ },
+ {
+  "id": "t-142",
+  "docs": [
+   "old/p6/mtp-may2022-s1-a.pdf",
+   "old/p6/mtp-may2022-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-may2022-s1"
+  ],
+  "est_items": 46,
+  "est_minutes": 55,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-may2022-s1: 46 items (46 marks lines)"
+ },
+ {
+  "id": "t-143",
+  "docs": [
+   "old/p6/mtp-may2022-s2-a.pdf",
+   "old/p6/mtp-may2022-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-may2022-s2"
+  ],
+  "est_items": 46,
+  "est_minutes": 55,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-may2022-s2: 46 items (46 marks lines)"
+ },
+ {
+  "id": "t-144",
+  "docs": [
+   "old/p8/mtp-may2022-s1-a.pdf",
+   "old/p8/mtp-may2022-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-may2022-s1"
+  ],
+  "est_items": 10,
+  "est_minutes": 29,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-may2022-s1: 10 items (6 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-145",
+  "docs": [
+   "old/p8/mtp-may2022-s2-a.pdf",
+   "old/p8/mtp-may2022-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-may2022-s2"
+  ],
+  "est_items": 10,
+  "est_minutes": 30,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-may2022-s2: 10 items (10 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-146",
+  "docs": [
+   "old/p3/mtp-dec2021-s1-a.pdf",
+   "old/p3/mtp-dec2021-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-dec2021-s1"
+  ],
+  "est_items": 12,
+  "est_minutes": 31,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-dec2021-s1: 12 items (12 marks lines)"
+ },
+ {
+  "id": "t-147",
+  "docs": [
+   "old/p3/mtp-dec2021-s2-a.pdf",
+   "old/p3/mtp-dec2021-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-dec2021-s2"
+  ],
+  "est_items": 12,
+  "est_minutes": 35,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-dec2021-s2: 12 items (12 marks lines)"
+ },
+ {
+  "id": "t-148",
+  "docs": [
+   "old/p6/mtp-dec2021-s1-a.pdf",
+   "old/p6/mtp-dec2021-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-dec2021-s1"
+  ],
+  "est_items": 42,
+  "est_minutes": 51,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-dec2021-s1: 42 items (42 marks lines)"
+ },
+ {
+  "id": "t-149",
+  "docs": [
+   "old/p6/mtp-dec2021-s2-a.pdf",
+   "old/p6/mtp-dec2021-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-dec2021-s2"
+  ],
+  "est_items": 43,
+  "est_minutes": 52,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-dec2021-s2: 43 items (43 marks lines)"
+ },
+ {
+  "id": "t-150",
+  "docs": [
+   "old/p8/mtp-dec2021-s1-a.pdf",
+   "old/p8/mtp-dec2021-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-dec2021-s1"
+  ],
+  "est_items": 10,
+  "est_minutes": 30,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-dec2021-s1: 10 items (6 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-151",
+  "docs": [
+   "old/p8/mtp-dec2021-s2-a.pdf",
+   "old/p8/mtp-dec2021-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-dec2021-s2"
+  ],
+  "est_items": 10,
+  "est_minutes": 30,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-dec2021-s2: 10 items (6 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-152",
+  "docs": [
+   "old/p3/mtp-jul2021-s1-a.pdf",
+   "old/p3/mtp-jul2021-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-jul2021-s1"
+  ],
+  "est_items": 13,
+  "est_minutes": 34,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-jul2021-s1: 13 items (13 marks lines)"
+ },
+ {
+  "id": "t-153",
+  "docs": [
+   "old/p3/mtp-jul2021-s2-a.pdf",
+   "old/p3/mtp-jul2021-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-jul2021-s2"
+  ],
+  "est_items": 12,
+  "est_minutes": 32,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-jul2021-s2: 12 items (12 marks lines)"
+ },
+ {
+  "id": "t-154",
+  "docs": [
+   "old/p6/mtp-jul2021-s1-a.pdf",
+   "old/p6/mtp-jul2021-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-jul2021-s1"
+  ],
+  "est_items": 48,
+  "est_minutes": 57,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-jul2021-s1: 48 items (48 marks lines)"
+ },
+ {
+  "id": "t-155",
+  "docs": [
+   "old/p6/mtp-jul2021-s2-a.pdf",
+   "old/p6/mtp-jul2021-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-jul2021-s2"
+  ],
+  "est_items": 43,
+  "est_minutes": 51,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-jul2021-s2: 43 items (43 marks lines)"
+ },
+ {
+  "id": "t-156",
+  "docs": [
+   "old/p8/mtp-jul2021-s1-a.pdf",
+   "old/p8/mtp-jul2021-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-jul2021-s1"
+  ],
+  "est_items": 8,
+  "est_minutes": 26,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-jul2021-s1: 8 items (8 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-157",
+  "docs": [
+   "old/p8/mtp-jul2021-s2-a.pdf",
+   "old/p8/mtp-jul2021-s2-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-jul2021-s2"
+  ],
+  "est_items": 10,
+  "est_minutes": 28,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-jul2021-s2: 10 items (10 marks lines), Section A FM only"
+ },
+ {
+  "id": "t-158",
+  "docs": [
+   "old/p3/mtp-nov2020-s1-a.pdf",
+   "old/p3/mtp-nov2020-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-nov2020-s1"
+  ],
+  "est_items": 10,
+  "est_minutes": 30,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-nov2020-s1: 10 items (6 question numbers x 1.7)"
+ },
+ {
+  "id": "t-159",
+  "docs": [
+   "old/p6/mtp-nov2020-s1-a.pdf",
+   "old/p6/mtp-nov2020-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-nov2020-s1"
+  ],
+  "est_items": 40,
+  "est_minutes": 48,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-nov2020-s1: 40 items (40 marks lines)"
+ },
+ {
+  "id": "t-160",
+  "docs": [
+   "old/p8/mtp-nov2020-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-nov2020-s1"
+  ],
+  "est_items": 8,
+  "est_minutes": 22,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-nov2020-s1: 8 items (5 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-161",
+  "docs": [
+   "old/p3/mtp-may2020-s1-a.pdf",
+   "old/p3/mtp-may2020-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-may2020-s1"
+  ],
+  "est_items": 13,
+  "est_minutes": 33,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-may2020-s1: 13 items (13 marks lines)"
+ },
+ {
+  "id": "t-162",
+  "docs": [
+   "old/p6/mtp-may2020-s1-a.pdf",
+   "old/p6/mtp-may2020-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-may2020-s1"
+  ],
+  "est_items": 43,
+  "est_minutes": 52,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-may2020-s1: 43 items (43 marks lines)"
+ },
+ {
+  "id": "t-163",
+  "docs": [
+   "old/p8/mtp-may2020-s1-a.pdf",
+   "old/p8/mtp-may2020-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-may2020-s1"
+  ],
+  "est_items": 8,
+  "est_minutes": 27,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-may2020-s1: 8 items (5 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-164",
+  "docs": [
+   "old/p3/mtp-nov2019-s1-a.pdf",
+   "old/p3/mtp-nov2019-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-mtp-nov2019-s1"
+  ],
+  "est_items": 10,
+  "est_minutes": 29,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-mtp-nov2019-s1: 10 items (6 question numbers x 1.7)"
+ },
+ {
+  "id": "t-165",
+  "docs": [
+   "old/p6/mtp-nov2019-s1-a.pdf",
+   "old/p6/mtp-nov2019-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-mtp-nov2019-s1"
+  ],
+  "est_items": 53,
+  "est_minutes": 61,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-mtp-nov2019-s1: 53 items (53 marks lines)"
+ },
+ {
+  "id": "t-166",
+  "docs": [
+   "old/p8/mtp-nov2019-s1-a.pdf",
+   "old/p8/mtp-nov2019-s1-q.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-mtp-nov2019-s1"
+  ],
+  "est_items": 8,
+  "est_minutes": 25,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-mtp-nov2019-s1: 8 items (5 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-167",
+  "docs": [
+   "old/p3/rtp-nov2023-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-rtp-nov2023"
+  ],
+  "est_items": 24,
+  "est_minutes": 52,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-rtp-nov2023: 24 items (14 question numbers x 1.7)"
+ },
+ {
+  "id": "t-168",
+  "docs": [
+   "old/p6/rtp-nov2023-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-rtp-nov2023"
+  ],
+  "est_items": 46,
+  "est_minutes": 59,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-rtp-nov2023: 46 items (27 question numbers x 1.7)"
+ },
+ {
+  "id": "t-169",
+  "docs": [
+   "old/p8/rtp-nov2023-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-rtp-nov2023"
+  ],
+  "est_items": 17,
+  "est_minutes": 40,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-rtp-nov2023: 17 items (10 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-170",
+  "docs": [
+   "old/p3/rtp-may2023-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-rtp-may2023"
+  ],
+  "est_items": 24,
+  "est_minutes": 52,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-rtp-may2023: 24 items (14 question numbers x 1.7)"
+ },
+ {
+  "id": "t-171",
+  "docs": [
+   "old/p6/rtp-may2023-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-rtp-may2023"
+  ],
+  "est_items": 37,
+  "est_minutes": 50,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-rtp-may2023: 37 items (22 question numbers x 1.7)"
+ },
+ {
+  "id": "t-172",
+  "docs": [
+   "old/p8/rtp-may2023-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-rtp-may2023"
+  ],
+  "est_items": 15,
+  "est_minutes": 39,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-rtp-may2023: 15 items (9 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-173",
+  "docs": [
+   "old/p3/rtp-nov2022-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-rtp-nov2022"
+  ],
+  "est_items": 24,
+  "est_minutes": 55,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-rtp-nov2022: 24 items (14 question numbers x 1.7)"
+ },
+ {
+  "id": "t-174",
+  "docs": [
+   "old/p6/rtp-nov2022-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-rtp-nov2022"
+  ],
+  "est_items": 46,
+  "est_minutes": 58,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-rtp-nov2022: 46 items (27 question numbers x 1.7)"
+ },
+ {
+  "id": "t-175",
+  "docs": [
+   "old/p8/rtp-nov2022-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-rtp-nov2022"
+  ],
+  "est_items": 15,
+  "est_minutes": 40,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-rtp-nov2022: 15 items (9 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-176",
+  "docs": [
+   "old/p3/rtp-may2022-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-rtp-may2022"
+  ],
+  "est_items": 24,
+  "est_minutes": 54,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-rtp-may2022: 24 items (14 question numbers x 1.7)"
+ },
+ {
+  "id": "t-177",
+  "docs": [
+   "old/p6/rtp-may2022-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-rtp-may2022"
+  ],
+  "est_items": 48,
+  "est_minutes": 61,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-rtp-may2022: 48 items (28 question numbers x 1.7)"
+ },
+ {
+  "id": "t-178",
+  "docs": [
+   "old/p8/rtp-may2022-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-rtp-may2022"
+  ],
+  "est_items": 15,
+  "est_minutes": 40,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-rtp-may2022: 15 items (9 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-179",
+  "docs": [
+   "old/p3/rtp-dec2021-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-rtp-dec2021"
+  ],
+  "est_items": 26,
+  "est_minutes": 57,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-rtp-dec2021: 26 items (15 question numbers x 1.7)"
+ },
+ {
+  "id": "t-180",
+  "docs": [
+   "old/p6/rtp-dec2021-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-rtp-dec2021"
+  ],
+  "est_items": 44,
+  "est_minutes": 91,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-rtp-dec2021: 44 items (26 question numbers x 1.7)"
+ },
+ {
+  "id": "t-181",
+  "docs": [
+   "old/p8/rtp-dec2021-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-rtp-dec2021"
+  ],
+  "est_items": 14,
+  "est_minutes": 37,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-rtp-dec2021: 14 items (8 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-182",
+  "docs": [
+   "old/p3/rtp-jul2021-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-rtp-jul2021"
+  ],
+  "est_items": 22,
+  "est_minutes": 51,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-rtp-jul2021: 22 items (13 question numbers x 1.7)"
+ },
+ {
+  "id": "t-183",
+  "docs": [
+   "old/p6/rtp-jul2021-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-rtp-jul2021"
+  ],
+  "est_items": 48,
+  "est_minutes": 94,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-rtp-jul2021: 48 items (28 question numbers x 1.7)"
+ },
+ {
+  "id": "t-184",
+  "docs": [
+   "old/p8/rtp-jul2021-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-rtp-jul2021"
+  ],
+  "est_items": 15,
+  "est_minutes": 39,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-rtp-jul2021: 15 items (9 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-185",
+  "docs": [
+   "old/p3/rtp-nov2020-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-rtp-nov2020"
+  ],
+  "est_items": 26,
+  "est_minutes": 56,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-rtp-nov2020: 26 items (15 question numbers x 1.7)"
+ },
+ {
+  "id": "t-186",
+  "docs": [
+   "old/p6/rtp-nov2020-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-rtp-nov2020"
+  ],
+  "est_items": 39,
+  "est_minutes": 53,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-rtp-nov2020: 39 items (23 question numbers x 1.7)"
+ },
+ {
+  "id": "t-187",
+  "docs": [
+   "old/p8/rtp-nov2020-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-rtp-nov2020"
+  ],
+  "est_items": 17,
+  "est_minutes": 42,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-rtp-nov2020: 17 items (10 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-188",
+  "docs": [
+   "old/p3/rtp-may2020-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p3-rtp-may2020"
+  ],
+  "est_items": 22,
+  "est_minutes": 50,
+  "papers": [
+   "old P3 Cost and Management Accounting"
+  ],
+  "note": "o-p3-rtp-may2020: 22 items (13 question numbers x 1.7)"
+ },
+ {
+  "id": "t-189",
+  "docs": [
+   "old/p6/rtp-may2020-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-rtp-may2020"
+  ],
+  "est_items": 39,
+  "est_minutes": 52,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-rtp-may2020: 39 items (23 question numbers x 1.7)"
+ },
+ {
+  "id": "t-190",
+  "docs": [
+   "old/p8/rtp-may2020-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-rtp-may2020"
+  ],
+  "est_items": 17,
+  "est_minutes": 41,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-rtp-may2020: 17 items (10 question numbers x 1.7), Section A FM only"
+ },
+ {
+  "id": "t-191",
+  "docs": [
+   "old/p6/rtp-nov2019-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p6-rtp-nov2019"
+  ],
+  "est_items": 48,
+  "est_minutes": 60,
+  "papers": [
+   "old P6 Auditing and Assurance"
+  ],
+  "note": "o-p6-rtp-nov2019: 48 items (28 question numbers x 1.7)"
+ },
+ {
+  "id": "t-192",
+  "docs": [
+   "old/p8/rtp-nov2019-qa.pdf"
+  ],
+  "bank_docs": [
+   "o-p8-rtp-nov2019"
+  ],
+  "est_items": 17,
+  "est_minutes": 41,
+  "papers": [
+   "old P8A Financial Management"
+  ],
+  "note": "o-p8-rtp-nov2019: 17 items (10 question numbers x 1.7), Section A FM only"
+ }
+]

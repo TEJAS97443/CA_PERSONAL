@@ -1,0 +1,403 @@
+                                                                Test Series: April, 2021
+                                MOCK  TEST PAPER - II
+                           INTERMEDIATE  (NEW): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC  MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                     ANSWERS
+                            MULTIPLE  CHOICE QUESTIONS
+1.  (b) Operational Risk
+2.  (d) Testable Business Rules
+3.  (c) Security Analyst
+4.  (b) Platform as a Service
+5.  (c) All users are required to have a unique user id.
+6.  (b) Preventive Control
+7.  (d) Counter Measure
+8.  (c) Infrastructure as a Service (IaaS)
+9.  (a) Cloud based Application
+10. (b) Credit Line setup can be breached.
+                                 Descriptive Questions
+1.  (a) Logical Access Violators are the persons who exploit logical exposures in an organization.
+        They are mainly as follows:
+           Hackers: Hackers try their best to overcome restrictions to prove their ability. Ethical
+            hackers most likely never try to misuse the computer intentionally but assists in finding the
+            weaknesses in the system;
+           Employees (authorized or unauthorized);
+           IS Personnel: They have easiest to access to computerized information since they come
+            across to information during discharging their duties. Segregation of duties and supervision
+            help to reduce the logical access violations;
+           Former Employees: should be cautious of former employees who have left the organization
+            on unfavorable terms;
+           End  Users; Interested or Educated Outsiders; Competitors; Foreigners; Organized
+            Criminals; Crackers; Part-time and Temporary Personnel; Vendors and consultants; and
+            Accidental Ignorant – Violation done unknowingly.
+    (b) Automated Teller Machines (ATM) Channel Server: This server contains the details of ATM
+        account holders. Soon after the facility of using the ATM is created by the Bank, the details of
+        such customers are loaded on to the ATM server. When the Central Database is busy with
+        central end-of- day activities or for any other reason, the file containing the account balance of
+        the customer is sent to the ATM switch. Such a file is called Positive Balance File (PBF). This
+        ensures not only continuity of ATM operations but also ensures that the Central database is
+        always up-to-date. The above process is applicable to stand alone ATMs at the Branch level. As
+        most of the ATMs are attached to the central network, the only control is through ATM Switch.
+
+2.  (a) The key benefits of CRM module that the company may have availed are as follows:
+           Improved customer relations: One of the prime benefits of using a CRM is obtaining
+            better customer satisfaction. By using this strategy, all dealings involving servicing,
+            marketing, and selling out products to the customers can be carried out in an organized and
+            systematic way. Better services can be provided to customers through improved
+            understanding of their issues and this in turn helps in increasing customer loyalty and
+            decreasing customer agitation. In this way, continuous feedback from the customers
+            regarding the products and services can be received. It is also possible that the customers
+            may recommend the product to their acquaintances, when efficient and satisfactory services
+            are provided.
+           Increase customer revenues: By using a CRM strategy for any business, the revenue of
+            the company can be increased. Using the data collected, marketing campaigns can be
+            popularized in a more effective way. With the help of CRM software, it can be ensured that
+            the product promotions reach a different and brand new set of customers, and not the ones
+            who had already purchased the product, and thus effectively increase the customer
+            revenue.
+           Maximize up-selling and cross-selling: A CRM system allows up-selling which is the
+            practice of giving customers premium products that fall in the same category of their
+            purchase. The strategy also facilitates cross selling which is the practice of offering
+            complementary products to customers, based on their previous purchases. This is done by
+            interacting with the customers and getting an idea about their wants, needs, and patterns of
+            purchase. The details thus obtained will be stored in a central database, which is accessible
+            to all company executives. So, when an opportunity is spotted, the executives can promote
+            their products to the customers, thus maximizing up-selling and cross selling.
+           Better internal communication: Following a CRM strategy helps in building up better
+            communication within the company. The sharing of customer data between different
+            departments will enable them to work as a team. This is better than functioning as an
+            isolated entity, as it will help in increasing the company’s profitability and enabling better
+            service to customers.
+           Optimize marketing: CRM enables to understand the customer needs and behavior in a
+            better way, thereby allowing any enterprise to identify the correct time to market its product
+            to the customers. CRM will also give an idea about the most profitable customer groups,
+            and by using this information, similar prospective groups, at the right time will be targeted.
+            In this way, marketing resources can be optimized efficiently and time is not wasted on less
+            profitable customer groups.
+    (b) The application areas where Grid Computing can be used effectively and efficiently are as
+        follows:
+           Civil engineers collaborate to design, execute, & analyze shake table experiments.
+           An insurance company mines data from partner hospitals for fraud detection.
+           An application service provider offloads excess load to a compute cycle provider.
+           An enterprise configures internal & external resources to support e-Business workload.
+           Large-scale science and engineering are done through the interaction of people,
+            heterogeneous computing resources, information systems and instruments, all of which are
+            geographically and organizationally dispersed.
+3.  (a) The activities that Mr. Anil would be performing while doing auditing of physical access controls
+        are as follows:
+
+        (i) Sitting and Marking: Auditing building sitting and marking requires attention to several key
+            factors and features, including:
+            o   Proximity to hazards: The IS auditor should estimate the building’s distance to
+                natural and manmade hazards, such as Dams; Rivers, lakes, and canals; Natural gas
+                and petroleum pipelines; Water mains and pipelines; Earthquake faults; Areas prone to
+                landslides; Volcanoes; Severe weather such as hurricanes, cyclones, and tornadoes;
+                Flood zones; Military bases; Airports; Railroads and Freeways. The IS auditor should
+                determine if any risk assessment regarding hazards has been performed and if any
+                compensating controls that were recommended have been carried out.
+            o   Marking: The IS auditor should inspect the building and surrounding area to see if
+                building(s) containing information processing equipment identify the organization.
+                Marking may be visible on the building itself, but also on signs or parking stickers on
+                vehicles.
+        (ii) Physical barriers: This includes fencing, walls, barbed/razor wire, bollards, and crash
+            gates. The IS auditor needs to understand how these are used to control access to the
+            facility and determine their effectiveness.
+        (iii) Surveillance: The IS auditor needs to understand how video and human surveillance are
+            used to control and monitor access. He or she needs to understand how (and if) video is
+            recorded and reviewed, and if it is effective in preventing or detecting incidents.
+        (iv) Guards and dogs: The IS auditor need to understand the use and effectiveness of security
+            guards and guard dogs. Processes, policies, procedures, and records should be examined
+            to understand required activities and how they are carried out.
+        (v) Key-Card systems: The IS auditor needs to understand how key-card systems are used to
+            control access to the facility. Some points to consider include: Work zones: Whether the
+            facility is divided into security zones and which persons are permitted to access which
+            zones whether key-card systems record personnel movement; What processes and
+            procedures are used to issue keycards to employees? etc.
+    (b) [Section 63] Punishment for false information or failure to give information, etc.
+        (1) Any person willfully and maliciously giving false information and so causing an arrest or a
+            search to be made under this Act shall on conviction be liable for imprisonment for a term
+            which may extend to two years or with fine which may extend to fifty thousand rupees or
+            both.
+        (2) If any person -
+            (a) being legally bound to state the truth of any matter relating to an offence under section
+                3, refuses to answer any question put to him by an authority in the exercise of its
+                powers under this Act; or
+            (b) refuses to sign any statement made by him in the course of any proceedings under this
+                Act, which an authority may legally require to sign; or
+            (c) to whom a summon is issued under section 50 either to attend to give evidence or
+                produce books of account or other documents at a certain place and time, omits to
+                attend or produce books of account or documents at the place or time, he shall pay, by
+                way of penalty, a sum which shall not be less than five hundred rupees but which may
+                extend to ten thousand rupees for each such default or failure.
+        (3) No order under this section shall be passed by an authority referred to in sub-section (2)
+            unless the person on whom the penalty is proposed to be imposed is given an opportunity of
+            being heard in the matter by such authority.
+
+        (4) Notwithstanding anything contained in clause (c) of sub-section (2), a person who
+            intentionally disobeys any direction issued under section 50 shall also be liable to be
+            proceeded against under section 174 of the Indian Penal Code (45 of 186 0).
+4.  (a) General Controls that can be applied to all components of system are as follows:
+        •   Information Security Policy: The security policy is approved by the senior management
+            and encompasses all areas of operations of bank and drives access to information across
+            the enterprise and other stakeholders.
+        •   Administration, Access, and Authentication: IT should be administered with appropriate
+            policies and procedures clearly defining the levels of access to information and
+            authentication of users.
+        •   Separation of key IT functions: Secure deployment of IT requires the bank to have
+            separate IT organization structure with key demarcation of duties for different personnel
+            within IT department and to ensure that there are no Segregation of Duties (SoD) conflicts.
+        •   Management of Systems Acquisition and Implementation: Software solutions for CBS
+            are most developed acquired and implemented. Hence, process of acquisition and
+            implementation of systems should be properly controlled.
+        •   Change Management: IT solutions deployed and its various components must be changed
+            in tune with changing needs as per changes in technology environment, business
+            processes, regulatory and compliance requirements. These changes impact the live
+            environment of banking services. Hence, change management process should be
+            implemented to ensure smooth transition to new environments covering all key changes
+            including hardware, software and business processes. All changes must be properly
+            approved by the management, before implementation.
+        •   Backup, Recovery and Business Continuity: Heavy dependence on IT and criticality
+            makes it imperative that resilience of banking operations should be ensured by having
+            appropriate business continuity including backup, recovery and off-site data center.
+        •   Proper Development and Implementation of Application Software: Application software
+            drives the business processes of the banks. These solutions in case developed and
+            implemented must be properly controlled by using standard software development process.
+        •   Confidentiality, Integrity and Availability of Software and data files: Security is
+            implemented to ensure Confidentiality, Integrity and Availability of information.
+            Confidentiality refers to protection of critical information. Integrity refers to ensuring
+            authenticity of information at all stages of processing. Availability refers to ensuring
+            availability of information to users when required.
+        •   Incident response and management: There may be various incidents created due to
+            failure of IT. These incidents need to be appropriately responded and managed as per pre -
+            defined policies and procedures.
+        •   Monitoring of Applications and supporting Servers: The Servers and applications
+            running on them are monitored to ensure that servers, network connections and application
+            software along with the interfaces are working continuously.
+        •   Value Add areas of Service Level Agreements (SLA): SLA with vendors is regularly
+            reviewed to ensure that the services are delivered as per specified performance
+            parameters.
+        •   User training and qualification of Operations personnel: The personnel deployed have
+            required competencies and skill-sets to operate and monitor the IT environment.
+
+    (b) The various criteria that information in Mr. Rajesh’s report should meet so that it should be useful
+        to his credit chief manager are as follows:
+           Relevant - MIS reports need to be specific to the business area they address. This is
+            important because a report that includes unnecessary information might be ignored.
+           Timely - Managers need to know what’s happening now or in the recent past to make
+            decisions about the future. Be careful not to include information that is old. An example of
+            timely information for your report might be customer phone calls and emails going back 12
+            months from the current date.
+           Accurate - It’s critical that numbers add up and that dates and times are correct. Managers
+            and others who rely on MIS reports can’t make sound decisions with information that is
+            wrong. Financial information is often required to be accurate to the dollar. In other cases, it
+            may be OK to round off numbers.
+           Structured - Information in an MIS report can be complicated. Making that information easy
+            to follow helps management understand what the report is saying. Try to break long
+            passages of information into more readable blocks or chunks and give these chunks
+            meaningful headings.
+5.  (a) The pertinent issues related to Cloud Computing are as follows:
+           Threshold Policy: The main objective of implementing threshold policy is to inform cloud
+            computing service consumers and providers what they should do. Quite often, this policy
+            does not exist. The only legal document between the customer and service provider is the
+            Service Level Agreement (SLA). This document contains all the agreements between the
+            customer and the service provider; it contains what the service provider is doing and is
+            willing to do. However, there is no standard format for the SLA, and as such, there may be
+            services not documented in the SLA that the customer may be requiring in future. A
+            carefully drafted threshold policy outlines what cloud computing service consumers and
+            providers should do. It is important to consider how the cloud service provider will handle
+            sudden increases or decreases in demand. How will unused resources be allocated?
+           Interoperability: If a company enters into a contract with one cloud computing vendor, it
+            may find it difficult to change to another computing vendor that has proprietary APIs
+            (application programming interfaces) and different formats for importing and exporting data.
+            Industry cloud computing standards do not exist for APIs or formats for importing/exporting
+            data. This creates problems of achieving interoperability of applications between two cloud
+            computing vendors. Once a company is locked in with one cloud provider, it is not easy to
+            move an entire infrastructure to other clouds. Moreover, each cloud provider offers a unique
+            set of services and tools for operating and controlling its cloud. Learning a new cloud
+            environment is similar to learning a new technology.
+           Hidden Costs: Such costs may include higher network charges for storage and database
+            applications, or latency issues for users who may be located far from cloud service
+            providers.
+           Unexpected Behaviour: An application may perform well at the company’s internal data
+            centre. It does not necessarily imply that the application will perform the same way in the
+            cloud. Therefore, it is essential to test its performance in the cloud for unexpected behavior.
+            Testing may include checking how the application allocates resources on sudden increase
+            in demand for resources and how it allocates unused resources. This problem must be
+            solved before obtaining services from the cloud.
+           Security Issues: Cloud computing infrastructures use new technologies and services, most
+            which have not been fully evaluated with respect to security. The important security issues
+
+            with cloud computing are: the management of the data might not be fully trustworthy; the
+            risk of malicious insider attacks in the cloud; and the failing of cloud services. Ma intaining
+            confidentiality is one the major issues faced in cloud systems because information is stored
+            at a remote location which can be accessed by the service provider. Data confidentiality can
+            be preserved by encrypting data. Cloud systems share computational resources, storage,
+            and services between multiple customer applications in order to achieve efficient utilization
+            of resources while decreasing cost. However, this sharing of resources may violate the
+            confidentiality users’ IT Assets. It must be ensured that there a degree of isolation between
+            these users. In most cases, the provider must ensure that their infrastructure is secure and
+            that their consumers’ data and applications are protected while the customer must ensure
+            that the provider has taken the proper security measures to protect their information.
+           Legal Issues: Cloud systems need to adhere to several regulatory requirements, privacy
+            laws and data security laws. These laws vary from country to country and cloud users have
+            no control over where their data is physically located.
+           Software Development in Cloud: From the perspective of the application development,
+            developers face the complexity of building secure applications that may be hosted in the
+            cloud. The speed at which applications will change in the cloud will affect both the System
+            Development Life Cycle (SDLC) and security. The project manager must keep in mind the
+            applications should be upgraded frequently. For this, the project manager must ensure that
+            their application development processes are flexible enough to keep up with the changes.
+           Bugs in Large-Scale Distributed Systems: One of the difficult challenges in Cloud
+            Computing is removing errors in these very large scale distributed systems.
+    (b) The different sub processes involved in the process Order to Cash Cycle are as follows:
+        (i) Sales and Marketing (SM)
+               Advertises and markets the company’s products and books sales orders from
+                customers.
+        (ii) Order Fulfilment
+               Receives orders from SM.
+               Checks inventory to establish availability of the product. If the product is available in
+                stock, transportation is arranged and the product is sent to the customer.
+        (iii) Manufacturing
+               If the product is not available in stock, this information is sent to the manufacturing
+                department so that the product is manufactured and subsequently sent to the
+                customer.
+        (iv) Receivables
+               The invoice is created, sent to the customer, payment received and the invoice closed.
+               Under each sub process, there could be many activities. For example:
+                o   Main Process - Order Fulfilment
+                o   Sub Process –Receive Orders
+                o   Other Activities –Check correctness and validity of information in order, enter
+                    order in computer system, check credit worthiness of customer, check credit limit,
+                    obtain approval for any discrepancy etc.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1. (A)
+        (1)     (2)    (3)     (4)    (5)
+        (b)     (c)    (d)     (c)    (b)
+    (B) (c)
+    (C) (c)
+    (D) (b)
+    (E) (a)
+    (F) (c)
+    (G) (b)
+    (H) (a)
+2.  The strategy used here was of developing a competitive advantage via product which helped Kamal
+    Sweets Corner regain their lost business. This is also one of the major importance cum advantage of
+    strategic management, that is helps to develop core competencies and competitive advantages to
+    overcome competition.
+    This strategy was a Reactive strategy. Wherein, the owners saw their business fall to 50% of revenue
+    and then seeking a strategic advisory. They did not plan proactively as to when the new shops were
+    already opening. They reacted only when the business started to lose up.
+    Generally, it is always beneficial to develop strategies proactively, so that the dip in businesses is
+    small and manageable, and even if they are huge, the management has ample time to fix it.
+3.  (a) The presence of strategic management cannot counter all hindrances and always achieve
+        success as there are limitations attached to strategic management. These can be explained in
+        the following lines:
+           Environment is highly complex and turbulent. It is difficult to understand the complex
+            environment and exactly pinpoint how it will shape-up in future. The organisational estimate
+            about its future shape may awfully go wrong and jeopardise all strategic plans. The
+            environment affects as the organisation has to deal with suppliers, customers, governments
+            and other external factors.
+           Strategic Management is a time-consuming process. Organisations spend a lot of time
+            in preparing, communicating the strategies that may impede daily operations and negatively
+            impact the routine business.
+           Strategic Management is a costly process. Strategic management adds a lot of expenses
+            to an organization. Expert strategic planners need to be engaged, efforts are made for
+            analysis of external and internal environments devise strategies and properly implement.
+            These can be really costly for organisations with limited resources particularly when small
+            and medium organisations create strategies to compete.
+        In a competitive scenario, where all organisations are trying to move strategically, it is difficult to
+        clearly estimate the competitive responses to the strategies.
+
+    (b) A strategic group consists of those rival firms which have similar competitive approaches and
+        positions in the market. Companies in the same strategic group can resemble one another in any
+        of the several ways – have comparable product-line breadth, same price/quality range, same
+        distribution channels, same product attributes, identical technological approaches, offer similar
+        services and technical assistance and so on.
+        The procedure for constructing a strategic group map and deciding which firms belong in which
+        strategic group is as follows:
+           Identify the competitive characteristics that differentiate firms in the industry typical
+            variables are price/quality range (high, medium, low); geographic coverage (local, regiona l,
+            national, global); degree of vertical integration (none, partial, full); product -line breadth
+            (wide, narrow); use of distribution channels (one, some, all); and degree of service offered
+            (no-frills, limited, full).
+           Plot the firms on a two-variable map using pairs of these differentiating characteristics.
+           Assign firms that fall in about the same strategy space to the same strategic group.
+           Draw circles around each strategic group making the circles proportional to the size of the
+            group’s respective share of total industry sales revenues.
+4.  (a) A company’s mission statement is typically focused on its present business scope — “who we are
+        and what we do”; mission statements broadly describe an organizations present capabilities,
+        customer focus activities and business makeup. An organisation’s mission states what customers
+        it serves, what need it satisfies, and what type of product it offers. It is an expression of the
+        growth ambition of the organisation. It helps organisation to set its own special identity, business
+        emphasis and path for development. Mission amplifies what brings the organisation to this
+        business or why it is there, what existence it seeks and what purpose it seeks to achieve as a
+        business organisation.
+        In other words, the mission serves as a justification for the firm's very presence and existence; it
+        legitimizes the firm's presence.
+    (b) Following are the differences between Divestment and Liquidation strategy:
+| Divestment Strategy | Liquidation Strategy |
+| --- | --- |
+| Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit center or SBU. | It involves closing down a firm and selling its assets. |
+| Divestment is usually a part of rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful. Option of a turnaround may even be ignored if it is obvious that divestment is the only answer. | Liquidation becomes only option in case of severe and critical conditions where either turnaround or divestment are not seen as solution or have been attempted but failed. |
+| Efforts are made for the survival of organization. | Liquidation as a form of retrenchment strategy is considered as the most extreme and unattractive. |
+| Survival of organization helps in retaining personnel, at least to some extent. | There is loss of employment with stigma of failure. |
+5.  (a) The Best Cost Provider strategy would ensure a better reach to the not so affluent customers and
+        provide them with good quality cycles and equipments, thus tapping in on the increasing trend of
+        cycling.
+        Two sub-strategies that can be implemented are:
+
+        1.  Offering lower prices than rivals for the same quality of products
+        2.  Charging same prices for better quality of products
+        The idea of Mr. Vijay is to provide almost same quality of products in terms of functionality if not
+        so in terms of branding, to customer who do not have huge sums of money to pay. Thus, sub -
+        strategy number one, offering lower prices for almost same quality should be impl emented to
+        become the best cost provider of cycles and related equipments in the market.
+    (b) Human resource management has been accepted as a strategic partner in the formulation of
+        organization’s strategies and in the implementation of such strategies through human resource
+        planning, employment, training, appraisal and reward systems. The following points should be
+        kept in mind as they can have a strong influence on employee competence:
+        i.  Recruitment and selection: The workforce will be more competent if a firm can
+            successfully identify, attract, and select highly competent applicants.
+        ii. Training: The workforce will be more competent if employees are well trained to perform
+            their jobs properly.
+        iii. Appraisal of performance: The performance appraisal is to identify any performance
+            deficiencies experienced by employees due to lack of competence. Such deficiencies, once
+            identified, can often be solved through counselling, coaching or training.
+        iv. Compensation: A firm can usually increase the competency of its workforce by offering
+            pay, benefits and rewards that are not only attractive than those of their competitors but
+            also recognizes merit.
+6.  (a) Leading change has to start with diagnosing the situation and then deciding which of several
+        ways to handle it. Managers have five leadership roles to play in pushing for good strategy
+        execution:
+        (i) Staying on top of what is happening, closely monitoring progress, solving out issues, and
+            learning what obstacles lie in the path of good execution.
+        (ii) Promoting a culture of esprit de corps that mobilizes and energizes organizational members
+            to execute strategy in a competent fashion and perform at a high level.
+        (iii) Keeping the organization responsive to changing conditions, alert for new opportunities,
+            bubbling with innovative ideas, and ahead of rivals in developing competitively valuable
+            competencies and capabilities.
+        (iv) Exercising ethical leadership and insisting that the company conduct its affairs like a model
+            corporate citizen.
+        (v) Pushing corrective actions to improve strategy execution and overall strategic performance.
+    (b) The various steps in Benchmarking Process are as under:
+        (i) Identifying the need for benchmarking: This step will define the objectives of the
+            benchmarking exercise. It will also involve selecting the type of benchmarking.
+            Organizations identify realistic opportunities for improvements.
+        (ii) Clearly understanding existing decisions processes: The step will involve compiling
+            information and data on performance.
+        (iii) Identify best processes: Within the selected framework best processes are identified.
+            These may be within the same organization or external to them.
+        (iv) Comparison of own process and performance with that of others: Benchmarking
+            process also involves comparison of performance of the organization with performance of
+            other organization. Any deviation between the two is analysed to make further
+            improvements.
+
+        (v) Prepare a report and implement the steps necessary to close the performance gap: A
+            report on benchmarking initiatives containing recommendations is prepared. Such a report
+            also contains the action plans for implementation.
+        (vi) Evaluation: Business organizations evaluate the results of the benchmarking process in
+            terms of improvements vis-à-vis objectives and other criteria set for the purpose. It also
+            periodically evaluates and reset the benchmarks in the light of changes in the conditions
+            that impact the performance.

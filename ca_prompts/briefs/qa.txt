@@ -1,0 +1,32 @@
+JOB=qa
+You are the FINAL QA of PassBook (~/CA_PERSONAL/ca_passbook), an offline study app for ICAI CA Intermediate Group II (P4 Costing, P5 Audit, P6A FM,
+P6B SM; exams 8/10/12 Jan 2027). It is a fork of the GATE Ascent engine (~/DSA_PERSONAL/gate_cse, read-only), now holding 181 reviewed lessons, 30
+step-through labs embedded in lessons, ~2,000 flashcards and an ICAI question bank (RTP/MTP/past papers, verbatim ICAI answers; ~15
+transcription agents are still adding documents while you work: do not touch bank/items/* files that are not status: checked, and
+expect the bank counts to grow). Read ~/CA_PERSONAL/ca_prompts/reports/fork.md, bank-core.md, kit.md, embed.md, consist.md (if present) and
+~/CA_PERSONAL/ca_prompts/EMBEDS.md (a list of known follow-ups) first.
+PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py qa <step>; steps start, suites, bank, screens, wording, readme, site, report
+(register {"id":"qa","kind":"qa","deps":[],"steps":["start","suites","bank","screens","wording","readme","site","report"]} in
+~/CA_PERSONAL/ca_prompts/jobs.json if unknown). Lesson edits: take the lock (sh ~/CA_PERSONAL/ca_prompts/tools/lock.sh take <id>) and keep them minimal.
+
+1 suites: .venv/bin/python build.py (full) and --check; node tests/run.js (all); python3 -I -m unittest discover -s tests/py;
+  python3 -I tools/smoke.py and `smoke.py demo`; node tools/lint_content.js on every lesson. Fix every failure at its root (tests that
+  still assume GATE content are adapted with a comment; real bugs fixed). Known: home "question of the day" test (P3-46); settings keyed-papers test; the full `node tests/run.js` crash caused by tests/diagram.test.js loading tools/lint_content.js (it resets the shared app object for later files); smoke failure on n-p4-pyq-sep2026-m1 (unpublished answers: show 'ICAI has not published the answers yet' instead of an empty answer); the lesson word counter counting `::: lab` JSON (skip lab blocks like diagrams). Also give the two exemplars (cma.mc.bep, aud.report.sa705), which never had an independent reviewer, a fact and number spot check against the Study Material.
+2 bank: run python3 -I tools/bank/check.py on every bank file with status checked and list any that no longer pass (do not edit
+  transcribers' files: list them for the lead); check the app's ICAI screens: bank filters, a descriptive item with "Show ICAI answer"
+  and self-grading, an MCQ, "ICAI asked this" on 3 lessons, a paper sitting through to its result page. Fix the wording problem that a
+  paper whose answers are unpublished shows its question scan as "Suggested Answers"; make the question card honour a figure's
+  `where: answer` (today it shows in the question area, so its description gives the answer away); let the side navigator show long labels
+  ("1(b), part 1 of 2") without cutting them; and handle an OR alternative that replaces two sub-parts in sitting scoring (see EMBEDS.md).
+3 screens (the consistency pass reported these on the paper pages: 'share of the paper, by year' bars near zero for 2018-2023; hero '239 ICAI questions' next to 'Practise 566 questions' with no explanation; '100.0 marks'; '8/36 papers asked it' wording; '1st of 4' wrapping; sticky lesson bar title clipped at 390 px): screenshot every main route at 1440 and 390 px, light and dark (tools/shot.sh; SHOT_CALM=1): home, learn hub, each paper page,
+  syllabus, map, 3 lessons (Quick / Exam / Deep), labs gallery and 4 lab pages, bank, question page, sitting, flashcards, formula sheets
+  (#/rev), progress, settings, search. LOOK at them (~60 images max; crop). Fix broken layouts, overlaps, empty sections that should
+  hide, and anything that still shows GATE-era assumptions. Respect the approved Cobalt Pop look: fix, do not redesign.
+4 wording: grep the app (app/, index.html, content/*.json, docs shown in-app) for GATE, IIT, rank, cut-off, NAT, MSQ, "Peak", and any
+  claim of a number that is not real; replace with PassBook / ICAI wording per docs/CONTENT_GUIDE.md §2b.
+5 readme: rewrite ~/CA_PERSONAL/ca_passbook/README.md for PassBook: what it is (for the student), how to open it (open index.html), what is inside
+  with REAL counts from the build, the accuracy rules (ICAI Study Material July 2024 edition, Reprint Aug 2025, applicable for Jan 2027;
+  verbatim ICAI questions; independent review of every lesson), the develop/rebuild commands, and known limits.
+6 site: run `.venv/bin/python build.py --site` (the hostable copy in _site/, see HOSTING.md) and check that it opens and works offline
+  from a local file. NEVER publish or upload it anywhere.
+7 report (final message; also ~/CA_PERSONAL/ca_prompts/reports/qa.md): what you fixed, what still fails and why, the screens checked, real counts.

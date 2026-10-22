@@ -1,0 +1,144 @@
+/* PassBook — revision sheets (owner: WP15, wave 2; audit P1-53, owner decision D12a): /rev (the subject list) and /rev/:subject (the sheet),
+   including its print rules. Built on the hub primitives (hubs.css: .hb-head, .hb-card, .hb-ic, .hb-go) and the lesson-content sheets (lesson.css:
+   .md, the .co boxes, tables; content.css: the fit cues), so it is linked after them. Calm reading: one column of lessons in the lesson page's
+   language, a little denser; a sticky contents rail from 1180 px; no cobalt panel and no colour beyond the content's own boxes; the coral is the
+   end card's (D18). Tokens only, light + dark parity, 360 -> 1920 px, no motion. Print prints what is shown, in the light tokens (base.css). */
+
+/* ===================================================================== /rev */
+.rv-subs { --hb-min: 262px; margin-top: 4px; }
+.rv-sc { display: flex; align-items: center; gap: 14px; }
+.rv-sc-t { display: grid; gap: 3px; flex: 1; min-width: 0; }
+.rv-sc-t b { font-size: 16px; font-weight: 700; letter-spacing: -.015em; line-height: 1.25; }
+.rv-sc-t small { font-size: 13px; line-height: 1.4; font-weight: 550; color: var(--muted); font-variant-numeric: tabular-nums; }
+.rv-sc-t small.rv-sc-ok { display: inline-flex; align-items: center; gap: 5px; color: var(--ok); font-weight: 650; }
+.rv-sc-ok svg.i { width: 14px; height: 14px; stroke-width: 2.6; }
+.rv-sc > svg.i:last-child { flex: none; color: var(--muted); transition: transform .2s var(--hb-ease, ease); }
+.rv-sc:hover > svg.i:last-child { transform: translateX(3px); color: var(--ink); }
+
+/* ===================================================================== /rev/:subject */
+.rv-sheet { --rv-top: var(--topbar, 68px); --rv-col: 760px; --rv-rail: 248px; --rv-gap: 56px; max-width: calc(var(--rv-col) + var(--rv-gap) + var(--rv-rail)); }
+.rv-head { margin-bottom: 16px; }
+.rv-eb { color: var(--ink-2); }
+.rv-sub { max-width: 74ch; }
+
+/* the options: the filter, three toggles that look like what they are (a box that fills with a tick), print */
+.rv-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin: 0 0 12px; }
+.rv-tgs { display: flex; flex-wrap: wrap; gap: 8px; }
+.rv-tg { display: inline-flex; align-items: center; gap: 8px; min-height: 38px; padding: 0 13px 0 10px; border-radius: 12px; border: 1.5px solid var(--line-2); background: var(--surface);
+  font: 700 13.5px/1.2 var(--font-ui); color: var(--ink-2); cursor: pointer; transition: background-color .15s, border-color .15s, color .15s; }
+.rv-tg:hover { background: var(--surface-2); color: var(--ink); }
+.rv-tg:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.rv-tg em { font-style: normal; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
+.rv-tg em:empty { display: none; }
+.rv-box { flex: none; display: grid; place-items: center; width: 18px; height: 18px; border-radius: 6px; border: 2px solid var(--line-2); background: var(--surface); transition: background-color .15s, border-color .15s; }
+.rv-box svg.i { width: 12px; height: 12px; stroke-width: 3.2; opacity: 0; }
+.rv-tg[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); }
+.rv-tg[aria-pressed="true"] .rv-box { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.rv-tg[aria-pressed="true"] .rv-box svg.i { opacity: 1; }
+.rv-print { margin-left: auto; }
+@media (max-width: 700px) { .rv-bar > .seg { order: 0; } .rv-print { order: 1; } .rv-tgs { order: 2; flex-basis: 100%; } }
+.rv-print svg.i { font-size: 17px; }
+@media (pointer: coarse) { .rv-tg { min-height: 44px; } .rv-only button { height: 38px; } }
+.rv-l30 { display: none; align-items: flex-start; gap: 8px; margin: 0 0 12px; font: 550 14px/1.5 var(--font-ui); color: var(--muted); max-width: 760px; }
+.rv-l30 svg.i { flex: none; margin-top: 2px; color: var(--accent); }
+.rv-30 .rv-l30 { display: flex; }
+
+/* the column and the contents: a sticky rail from 1180 px, a fold above the lessons below that */
+.rv-grid { display: grid; grid-template-columns: minmax(0, var(--rv-col)); justify-content: start; column-gap: var(--rv-gap); }
+.rv-main { min-width: 0; }
+.rv-rail { display: none; }
+@media (min-width: 1180px) {
+  .rv-grid { grid-template-columns: minmax(0, var(--rv-col)) var(--rv-rail); }
+  .rv-toc { display: none; }
+  .rv-rail { display: block; position: sticky; top: calc(var(--rv-top) + 18px); align-self: start; max-height: calc(100vh - var(--rv-top) - 36px); overflow: auto;
+    overscroll-behavior: contain; padding: 2px 4px 12px 0; scrollbar-width: thin; }
+}
+.rv-rail-h { margin: 0 0 8px 10px; font: 700 12.5px/1.3 var(--font-ui); color: var(--muted); }
+.rv-tl { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
+.rv-tl a { display: flex; gap: 8px; padding: 6px 10px; border-radius: 10px; font: 600 13.5px/1.35 var(--font-ui); color: var(--ink-2); }
+.rv-tl a:hover { background: var(--surface-2); color: var(--ink); }
+.rv-tl a[aria-current] { background: var(--accent-soft); color: var(--ink); box-shadow: inset 3px 0 0 var(--accent); }
+.rv-tl .rv-n { flex: none; min-width: 1.5em; color: var(--muted); font-weight: 650; font-variant-numeric: tabular-nums; }
+.rv-toc { margin: 0 0 6px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); }
+.rv-toc > summary { display: flex; align-items: center; gap: 9px; min-height: 48px; padding: 0 16px; cursor: pointer; list-style: none; font: 700 15px/1.2 var(--font-ui); color: var(--ink); border-radius: 16px; }
+.rv-toc > summary::-webkit-details-marker { display: none; }
+.rv-toc > summary svg.i { color: var(--muted); }
+.rv-toc > summary em { margin-left: auto; font-style: normal; font-weight: 600; font-size: 13.5px; color: var(--muted); }
+.rv-toc > summary::after { content: ""; flex: none; width: 8px; height: 8px; margin: -4px 2px 0 4px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); transition: transform .2s; }
+.rv-toc[open] > summary::after { transform: rotate(-135deg); margin-top: 4px; }
+.rv-toc > summary:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.rv-toc .rv-tl { padding: 0 6px 10px; max-height: 60vh; overflow: auto; overscroll-behavior: contain; }
+.rv-30 :is(.rv-tl li, .rv-l, .rv-out)[data-l30="0"] { display: none; }
+
+/* one lesson: number + title (to the lesson), its facts line, then the content in the lesson's reading style */
+.rv-l { padding: 30px 0 8px; border-top: 1px solid var(--line); }
+.rv-lh h2 { display: flex; align-items: baseline; gap: 10px; margin: 0 0 6px; font: 700 24px/1.22 var(--font-ui); letter-spacing: -.025em; color: var(--ink); scroll-margin-top: 6px; text-wrap: balance; }   /* html already pads by the top bar (base.css) */
+.rv-lh h2:focus { outline: none; } .rv-lh h2:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 4px; border-radius: 6px; }
+.rv-lh h2 a { color: inherit; border-radius: 6px; }
+.rv-lh h2 a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; text-decoration-color: var(--accent); }
+.rv-lh .rv-n { flex: none; min-width: 1.7em; font: 750 15px/1 var(--font-ui); letter-spacing: 0; color: var(--muted); font-variant-numeric: tabular-nums; }
+.rv-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; margin: 0 0 12px calc(1.7em * 15 / 13.5 + 10px); font: 600 13.5px/1.45 var(--font-ui); color: var(--muted); font-variant-numeric: tabular-nums; }
+.rv-meta a { color: var(--ink-2); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 3px; }
+.rv-meta a:hover { color: var(--ink); text-decoration-color: var(--accent); }
+.rv-flag { padding: 1px 7px; border-radius: 7px; background: var(--warn-soft); color: var(--ink); }
+.rv-ok { display: inline-flex; align-items: center; gap: 4px; color: var(--ok); font-weight: 700; }
+.rv-ok svg.i { width: 15px; height: 15px; stroke-width: 2.6; }
+.rv-c.md { font-size: 17px; line-height: 1.62; }
+.rv-c > .co, .rv-c > .rv-fact > .co { margin: 12px 0; }
+.rv-c > .co:first-child { margin-top: 2px; }
+.rv-c h3.rv-h { margin: 18px 0 6px; font: 750 12.5px/1.3 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.rv-rc > ul, .rv-rc > ol { margin-bottom: 4px; }
+.rv-fact > :first-child { margin-top: 12px; } .rv-fact > :last-child { margin-bottom: 12px; }
+.rv-sheet:not(.rv-facts) .rv-fact, .rv-sheet:not(.rv-tricks) .rv-x-tricks, .rv-sheet:not(.rv-mistakes) .rv-x-mistakes { display: none; }
+.rv-x { margin-top: 14px; }
+.rv-x > .co { margin: 12px 0; }
+.rv-sk { display: block; height: 14px; margin: 12px 0; border-radius: 7px; }
+.rv-sk + .rv-sk { width: 64%; }
+.rv-fail { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 10px; margin: 6px 0 12px; font: 600 14.5px/1.45 var(--font-ui); color: var(--ink-2); }
+.rv-fail > svg.i { color: var(--bad); }
+.rv-out { display: flex; gap: 10px; align-items: flex-start; margin: 34px 0 0; padding: 12px 16px; border-radius: 14px; background: var(--warn-soft); font: 600 14px/1.5 var(--font-ui); color: var(--ink); }
+.rv-out svg.i { flex: none; margin-top: 2px; color: var(--warn); }
+.rv-out + .rv-l { border-top: 0; padding-top: 22px; }
+
+/* the end card: the screen's one coral */
+.rv-end { margin: 34px 0 8px; padding: 24px 24px 22px; border-radius: var(--r-lg, 22px); background: var(--surface); box-shadow: var(--lift); border: 1px solid var(--line); }
+.rv-end h2 { margin: 0 0 6px; font: 700 21px/1.25 var(--font-ui); letter-spacing: -.02em; }
+.rv-end p { margin: 0 0 16px; max-width: 62ch; font-size: 15px; line-height: 1.5; color: var(--muted); }
+
+@media (max-width: 700px) {
+  .rv-bar { gap: 8px; }
+  .rv-wide { display: none; }
+  .rv-l { padding-top: 24px; }
+  .rv-lh h2 { font-size: 20.5px; gap: 8px; }
+  .rv-lh .rv-n { font-size: 14px; min-width: 1.5em; }
+  .rv-meta { margin-left: 0; font-size: 13px; gap: 3px 12px; }
+  .rv-c.md { font-size: 16px; line-height: 1.6; }
+  .rv-end { padding: 20px 18px 18px; }
+  .rv-end .hb-acts .btn { flex: 1 1 100%; max-width: none; justify-content: center; }
+}
+
+/* print: the sheet as a handout. The light tokens and the hidden app chrome come from base.css; the boxes lose their shadows and keep a
+   hairline (lesson.css); here the options, the contents and the end card go, the column fills the page and the type is set in points */
+@media print {
+  .rv-bar, .rv-rail, .rv-toc, .rv-end, .rv-l30, .rv-sk, .rv-fail button { display: none !important; }
+  .rv-grid { display: block; }
+  .rv-head { margin: 0 0 6pt; }
+  .rv-head h1 { font-size: 22pt; }
+  .rv-sub { font-size: 10pt; max-width: none; }
+  .rv-eb .hb-ic { display: none; }
+  .rv-l { padding: 10pt 0 0; border-top: 1px solid var(--line-2); }
+  .rv-lh { break-inside: avoid; break-after: avoid; }
+  .rv-lh h2 { font-size: 13.5pt; margin-bottom: 2pt; }
+  .rv-lh .rv-n { font-size: 10.5pt; }
+  .rv-meta { margin-bottom: 4pt; font-size: 8.5pt; }
+  .rv-meta a, .rv-lh h2 a { color: inherit; text-decoration: none; }
+  .rv-c.md { font-size: 10.5pt; line-height: 1.45; }
+  .rv-c .co { margin: 6pt 0; padding: 6pt 10pt 7pt; font-size: 9.5pt; line-height: 1.45; }
+  .rv-c .co-t { font-size: 10.5pt; }
+  .rv-c .co-grp { break-inside: auto; }                   /* a run of tricks may break between its items, never inside one */
+  .rv-c .co-grp > .co-l > li { break-inside: avoid; padding: 5pt 0 6pt 22pt; }
+  .rv-c .co-grp > .co-l > li::before { top: 5pt; }
+  .rv-c h3.rv-h { margin: 8pt 0 3pt; font-size: 8pt; }
+  .rv-rc li { margin: 2pt 0; }
+  .rv-out { margin-top: 12pt; padding: 6pt 10pt; font-size: 9.5pt; border: 1px solid var(--line-2); }
+}

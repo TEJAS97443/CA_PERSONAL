@@ -1,0 +1,246 @@
+a1    hook        0.80  0.94 af_heart  Meera runs a bakery in Pune. Her books say she made 
+a2    observe     9.85  1.00 af_heart  Nobody cheated. Her accountant measures profit one w
+a3    explain    19.49  1.00 af_heart  The law asks three questions about every rupee. Is i
+a4    say        27.86  1.00 af_heart  We'll answer them from first principles. What gets t
+a5    say        40.20  1.00 af_heart  Everything follows the Income-tax Act, nineteen sixt
+b1    hook       55.43  0.94 af_heart  Meera bakes cakes. Her friend Kabir fixes teeth. Is 
+b2    explain    61.56  1.00 af_heart  First, the big picture. The Act sorts all income int
+b3    name       75.24  1.00 af_heart  Business means any trade, commerce or manufacture, o
+b4    name       83.44  1.00 af_heart  A profession is work that needs learning, like a doc
+b5    explain    93.74  1.00 af_heart  Here's the good news. For computing income, the diff
+b6    example   106.29  0.92 af_heart  Business usually means doing something again and aga
+b7    extreme   119.20  1.00 af_heart  What if the business itself is illegal? Its profit i
+b8    explain   129.71  1.00 af_heart  Two more rules. Profit received in kind is valued at
+b9    check     140.47  0.93 af_heart  Kabir runs a clinic and a medical shop. Two heads of
+c1    hook      154.78  0.94 af_heart  A company pays Meera five lakh rupees to promise she
+c2    predict   165.13  0.92 af_heart  Is a promise not to do business, business income?
+c3    explain   170.47  1.00 af_heart  Yes. Section twenty eight is a net. It lists everyth
+c4    name      178.60  1.00 af_heart  That payment is a non-compete fee. Money for not car
+c5    explain   186.71  1.00 af_heart  The net also catches compensation, when an agency or
+c6    example   201.91  0.92 af_heart  Benefits in kind count too. A company gives its lawy
+c7    explain   213.00  1.00 af_heart  A partner's salary, bonus, commission and interest f
+c8    explain   226.20  1.00 af_heart  Three more. Money received on a key-man insurance po
+c9    trap      239.59  1.00 af_heart  One thing slips out of the net. Rent from letting ou
+c10   check     248.51  0.93 af_heart  A distributor's agency is cancelled, and she gets ei
+d1    hook      265.41  0.94 af_heart  Rohan buys shares in the morning, and sells them bef
+d2    explain   274.89  1.00 af_heart  No. When a deal is settled without the goods or shar
+d3    name      282.04  1.00 af_heart  The law calls it a speculative transaction, under se
+d4    explain   290.00  1.00 af_heart  Why keep it separate? Because of losses. If you lose
+d5    explain   300.99  1.00 af_heart  Some deals without delivery are not speculation. A b
+d6    example   314.82  0.92 af_heart  Rohan loses fifty thousand rupees on intraday trades
+d7    imagine   327.69  1.00 af_heart  Now picture a tea estate. Growing the leaves is farm
+d8    name      336.24  1.00 af_heart  The rules split this composite income. For tea grown
+d9    example   347.49  0.92 af_heart  So a tea estate earning ten lakh rupees pays tax on 
+d10   check     363.05  0.93 af_heart  Is futures trading on the N S E a speculative transa
+e1    hook      377.25  0.94 af_heart  Meera delivers a wedding cake on twenty eight March.
+e2    predict   385.83  0.92 af_heart  This year, or next?
+e3    explain   389.59  1.00 af_heart  It depends on her method of accounting. Under sectio
+e4    example   399.51  0.92 af_heart  Under the mercantile system, income counts when it's
+e5    trap      410.68  1.00 af_heart  Government money follows its own clock. A subsidy, g
+e6    explain   419.63  1.00 af_heart  Now the big picture. Section twenty nine says busine
+e7    name      430.78  1.00 af_heart  Here's the machine every exam question uses. Start w
+e8    analogy   444.15  1.00 af_heart  Think of a security check at the airport. Every item
+e9    check     460.02  0.93 af_heart  Meera's books include thirty thousand rupees of bank
+f1    hook      474.33  0.94 af_heart  Meera spends four lakh rupees on flour, and four lak
+f2    predict   483.43  0.92 af_heart  Both, one, or neither?
+f3    explain   487.23  1.00 af_heart  Only the flour. It's used up making this year's cake
+f4    name      497.90  1.00 af_heart  Spending that's used up within the year is revenue e
+f5    explain   508.89  1.00 af_heart  Repairs sit on this line too. Section thirty allows 
+f6    example   522.61  0.92 af_heart  Repainting the shop, or fixing the oven door, is a c
+f7    explain   533.77  1.00 af_heart  A few details. An owner using her own shop can't ded
+f8    extreme   547.06  1.00 af_heart  What if an asset is used partly for personal work? M
+f9    check     557.95  0.93 af_heart  Meera rebuilds a collapsed wall of her shop. Revenue
+g1    hook      569.87  0.94 af_heart  If the oven can't be deducted, does Meera just lose 
+g2    explain   575.19  1.00 af_heart  No. You get the cost back slowly, a slice every year
+g3    explain   584.32  1.00 af_heart  But only some assets qualify. Tangible ones: buildin
+g4    trap      596.89  1.00 af_heart  Two famous exceptions. Land never wears out, so it g
+g5    explain   607.39  1.00 af_heart  Plant is a wide word. It includes vehicles, books, s
+g6    name      620.74  1.00 af_heart  Then three conditions. She must own the asset, wholl
+g7    example   630.20  0.92 af_heart  Use includes standby use. A backup generator that ne
+g8    extreme   644.90  1.00 af_heart  What if Meera simply skips depreciation this year, t
+g9    check     657.27  0.93 af_heart  Meera leases a mixer from a dealer. Who claims depre
+h1    hook      669.23  0.94 af_heart  Meera's bakery has ovens, mixers, trays, fridges and
+h2    explain   677.23  1.00 af_heart  Imagine doing that for a factory with five thousand 
+h3    name      685.88  1.00 af_heart  So the Act pools them. A block of assets is a group 
+h4    explain   692.56  1.00 af_heart  Depreciation is then charged on the whole pool, at a
+h5    example   702.51  0.92 af_heart  Here are the main rates. Residential buildings, five
+h6    example   715.67  0.92 af_heart  And the higher ones. Buses, lorries and taxis in a h
+h7    analogy   730.53  1.00 af_heart  A block works like a water tank. New assets pour in.
+h8    check     745.86  0.93 af_heart  A new laptop and a new oven, both bought this year. 
+i1    hook      760.22  0.94 af_heart  Meera buys a mixer on twenty December. Should she ge
+i2    explain   767.51  1.00 af_heart  That seems unfair. So the Act has a simple rule. Cou
+i3    name      774.32  1.00 af_heart  If it's used for less than one hundred eighty days i
+i4    example   783.93  0.92 af_heart  Let's work it out. Her plant and machinery block sta
+i5    explain   797.34  1.00 af_heart  The oven is used for ten months, so it joins the ful
+i6    formula   807.64  0.92 af_heart  So fifteen percent of fourteen lakh rupees is two la
+i7    explain   823.52  1.00 af_heart  The block carries sixteen lakh rupees, minus two lak
+i8    trap      838.03  1.00 af_heart  The rule is about use, not purchase. A machine bough
+i9    exam      847.73  1.00 af_heart  Write it like this. The asset was acquired during th
+i10   check     860.29  0.93 af_heart  A laptop is bought and put to use on one January. Ra
+j1    hook      872.96  0.94 af_heart  Meera sells her old van for more than the whole bloc
+j2    imagine   880.74  1.00 af_heart  Imagine a van block holding three lakh rupees. Let's
+j3    example   886.40  0.92 af_heart  First, she buys a new van for five lakh rupees, and 
+j4    example   903.17  0.92 af_heart  Second, no new van. She sells her only van for three
+j5    name      912.50  1.00 af_heart  Then there's no depreciation for that block. The six
+j6    explain   922.52  1.00 af_heart  Why short-term? Because she already got depreciation
+j7    extreme   932.78  1.00 af_heart  Third. She sells the only van for just two lakh fort
+j8    extreme   944.04  1.00 af_heart  Fourth. She buys a new van for five lakh rupees, and
+j9    trap      961.28  1.00 af_heart  Don't charge depreciation on a block that has ceased
+j10   check     971.99  0.93 af_heart  A machine block holds fifty thousand rupees, and its
+k1    hook      991.65  0.94 af_heart  The oven's price tag said three lakh seventy thousan
+k2    explain   999.57  1.00 af_heart  Because actual cost, under section forty three one, 
+k3    explain  1012.02  1.00 af_heart  And it's reduced by any part of the cost paid by som
+k4    trap     1022.90  1.00 af_heart  Cash breaks the cost. Any payment of more than ten t
+k5    explain  1032.58  1.00 af_heart  Interest has a dividing line too. Say she borrowed f
+k6    example  1048.08  0.92 af_heart  Old assets keep their original cost. If Meera's pers
+k7    extreme  1063.59  1.00 af_heart  Two odd cases. A building moved from personal use is
+k8    explain  1077.35  1.00 af_heart  One more. If the oven were imported on credit, and t
+k9    check    1087.63  0.93 af_heart  A machine costs six lakh rupees in all, including fi
+l1    hook     1108.72  0.94 af_heart  If Meera buys new machines to bake more, should the 
+l2    explain  1113.56  1.00 af_heart  Under the old rules, yes. If you manufacture goods a
+l3    name     1125.88  1.00 af_heart  Section one fifteen B ay C is the default tax regime
+l4    name     1137.01  1.00 af_heart  If she opts out, she gets additional depreciation. I
+l5    example  1147.29  0.92 af_heart  So the four lakh rupees oven gets eighty thousand ru
+l6    trap     1163.67  1.00 af_heart  Not every machine qualifies. Not second hand machine
+l7    explain  1175.40  1.00 af_heart  And a business owner can't hop between regimes every
+l8    explain  1182.82  1.00 af_heart  What if her profit is too small to absorb the deprec
+l9    explain  1195.90  1.00 af_heart  When it's set off, the order matters. This year's de
+l10   check    1205.00  0.93 af_heart  A printing press buys a new printing machine. Is add
+m1    hook     1221.71  0.94 af_heart  Meera wants to invent a sugar-free cake, so she sets
+m2    explain  1229.57  1.00 af_heart  The law wants you to do research. So under section t
+m3    explain  1236.98  1.00 af_heart  Revenue spending on research for her own business is
+m4    name     1245.41  1.00 af_heart  And capital spending on that research is also deduct
+m5    example  1253.74  0.92 af_heart  She spends three lakh rupees on salaries and materia
+m6    explain  1272.08  1.00 af_heart  Research before the business starts counts too. What
+m7    trap     1280.80  1.00 af_heart  No double counting. A lab asset deducted under secti
+m8    explain  1293.32  1.00 af_heart  Paying outsiders is different. She may give money to
+m9    example  1305.99  0.92 af_heart  Say Meera also gives one lakh rupees to an approved 
+m10   check    1320.45  0.93 af_heart  What if her profit is too small to use the research 
+n1    hook     1336.39  0.94 af_heart  Meera's cousin Anil builds a cold storage for fruit 
+n2    explain  1344.54  1.00 af_heart  If you run one of a few businesses the country badly
+n3    name     1356.63  1.00 af_heart  These are specified businesses. Cold chains, warehou
+n4    example  1369.40  0.92 af_heart  Anil spends one point two crore rupees. forty lakh r
+n5    explain  1387.34  1.00 af_heart  That loss can be set off only against profit from a 
+n6    trap     1394.86  1.00 af_heart  The conditions bite. He must have opted out of the d
+n7    extreme  1407.23  1.00 af_heart  What if Anil moves the building to an ordinary busin
+n8    check    1417.69  0.93 af_heart  Can Anil claim both the thirty five ay D deduction a
+o1    hook     1432.15  0.94 af_heart  Before opening a second outlet, Meera pays for a pro
+o2    explain  1440.44  1.00 af_heart  Neither, quite. The spending builds the new unit, bu
+o3    name     1449.71  1.00 af_heart  Preliminary expenses are deducted at one fifth a yea
+o4    explain  1457.14  1.00 af_heart  The list is fixed. Feasibility and project reports, 
+o5    example  1472.46  0.92 af_heart  Meera spends four lakh rupees. But there's a cap: fi
+o6    explain  1488.14  1.00 af_heart  An Indian company can use five percent of its capita
+o7    name     1498.45  1.00 af_heart  Voluntary retirement payments follow the same five-y
+o8    check    1511.34  0.93 af_heart  Meera's books write off the whole four lakh rupees t
+p1    hook     1524.08  0.94 af_heart  Meera now has twelve employees. Which of their costs
+p2    explain  1529.52  1.00 af_heart  Section thirty six is a list of specific deductions.
+p3    explain  1539.23  1.00 af_heart  Insurance on her stock is allowed. So is health insu
+p4    explain  1552.04  1.00 af_heart  Interest on money borrowed for the business is allow
+p5    example  1561.13  0.92 af_heart  Her contribution to her staff's pension scheme, the 
+p6    explain  1579.85  1.00 af_heart  She actually paid two lakh rupees. So four thousand 
+p7    trap     1585.00  1.00 af_heart  Here's the one examiners love. Employees' own P F sh
+p8    explain  1598.95  1.00 af_heart  Bad debts are allowed once they're written off in th
+p9    explain  1610.84  1.00 af_heart  And a share trader can deduct the securities transac
+p10   check    1617.92  0.93 af_heart  Meera cuts fifteen thousand rupees of P F from May s
+q1    hook     1636.99  0.94 af_heart  Meera pays a food blogger to taste her cakes. No sec
+q2    explain  1644.01  1.00 af_heart  No. Section thirty seven is the last door. Any expen
+q3    name     1653.82  1.00 af_heart  It must be laid out wholly and exclusively for the b
+q4    explain  1661.09  1.00 af_heart  Notice the words. Wholly and exclusively, not necess
+q5    trap     1670.90  1.00 af_heart  Illegal spending never passes. A bribe. A penalty fo
+q6    explain  1680.83  1.00 af_heart  Since April two thousand twenty five, money paid to 
+q7    explain  1695.17  1.00 af_heart  Two more rules. CSR spending by a company is never a
+q8    example  1706.16  0.92 af_heart  Some costs that do pass. Key-man insurance premium o
+q9    check    1716.85  0.93 af_heart  Meera's van gets a two thousand rupees fine for park
+r1    hook     1728.54  0.94 af_heart  Meera pays a chef-consultant one lakh fifty thousand
+r2    explain  1739.22  1.00 af_heart  Because tax deducted at source is how the government
+r3    name     1748.83  1.00 af_heart  For a payment to a resident, thirty percent of the e
+r4    example  1761.39  0.92 af_heart  So thirty percent of one lakh fifty thousand rupees,
+r5    explain  1775.25  1.00 af_heart  The deadline is generous. Tax deducted this year can
+r6    explain  1784.40  1.00 af_heart  There's one escape. If the payee has filed his retur
+r7    trap     1795.57  1.00 af_heart  Students forget section forty ay, two. Income tax it
+r8    explain  1807.15  1.00 af_heart  And when an employer pays the tax on an employee's n
+r9    exam     1813.74  1.00 af_heart  Write it like this. Thirty percent of any sum payabl
+r10   check    1827.02  0.93 af_heart  A company pays salary of fourteen lakh rupees withou
+s1    hook     1841.43  0.94 af_heart  Meera's brother Rohan joins, and the bakery becomes 
+s2    explain  1851.51  1.00 af_heart  A firm and its partners are the same people. If you 
+s3    name     1860.27  1.00 af_heart  So section forty B allows it, within limits. Salary 
+s4    explain  1870.03  1.00 af_heart  Interest on a partner's capital is allowed up to twe
+s5    explain  1877.66  1.00 af_heart  Book profit is the firm's net profit, worked out und
+s6    formula  1883.81  0.92 af_heart  The salary limit works on book profit. On the first 
+s7    example  1896.44  0.92 af_heart  The firm earns seventeen lakh rupees, before one lak
+s8    example  1920.16  0.92 af_heart  The limit is ninety percent of six lakh rupees, whic
+s9    explain  1937.66  1.00 af_heart  The partners were paid forty thousand rupees a month
+s10   explain  1946.64  1.00 af_heart  On the other side, Rohan pays tax on the salary and 
+s11   extreme  1957.19  1.00 af_heart  What if the firm makes a loss? It can still pay its 
+s12   check    1964.42  0.93 af_heart  The deed allows salary from one April, but it was si
+t1    hook     1979.38  0.94 af_heart  Meera buys flour from her husband's mill at forty ei
+t2    explain  1988.67  1.00 af_heart  If you overpay a relative, you quietly move profit f
+t3    name     2000.70  1.00 af_heart  These are specified persons. For an individual, rela
+t4    explain  2014.32  1.00 af_heart  Now cash. Under section forty ay, three, if she pays
+t5    example  2025.86  0.92 af_heart  Four cash payments of eight thousand rupees to the s
+t6    explain  2041.96  1.00 af_heart  Safe modes are an account payee cheque or draft, and
+t7    extreme  2058.17  1.00 af_heart  What if an expense was allowed last year, and she pa
+t8    explain  2068.28  1.00 af_heart  Rule six D D gives exceptions. Paying a bank or the 
+t9    explain  2081.90  1.00 af_heart  Two last ones. A provision for gratuity isn't deduct
+t10   exam     2097.24  1.00 af_heart  Write it like this. Expenditure paid to a person in 
+t11   check    2109.93  0.93 af_heart  Meera buys sixty thousand rupees of milk in cash fro
+u1    hook     2125.70  0.94 af_heart  On thirty one March, Meera owes eighty thousand rupe
+u2    predict  2134.91  0.92 af_heart  Deduct now, or only after paying?
+u3    explain  2139.64  1.00 af_heart  If you could claim dues without paying, you could de
+u4    name     2149.82  1.00 af_heart  The list: taxes, duties, cess and fees. The employer
+u5    explain  2165.38  1.00 af_heart  But there's a grace period. If she pays before the d
+u6    example  2173.82  0.92 af_heart  Meera's return is due on thirty one October two thou
+u7    trap     2188.51  1.00 af_heart  Converting unpaid bank interest into a new loan is n
+u8    name     2197.49  1.00 af_heart  Then the newest clause, forty three B, H. Money owed
+u9    example  2210.39  0.92 af_heart  She buys boxes worth ten thousand rupees from a micr
+u10   explain  2225.42  1.00 af_heart  Notice the difference. Ordinary forty three B items 
+u11   check    2236.94  0.93 af_heart  Meera collects GST in March, and pays it on twenty A
+v1    hook     2248.92  0.94 af_heart  Years ago, Meera deducted a thirty five thousand rup
+v2    explain  2259.12  1.00 af_heart  She already got a deduction for that bill. If she ne
+v3    name     2266.49  1.00 af_heart  That's a remission of a trading liability, under sec
+v4    explain  2275.66  1.00 af_heart  It applies even if she writes the liability back her
+v5    explain  2285.24  1.00 af_heart  The same idea runs through section forty one. A bad 
+v6    imagine  2298.58  1.00 af_heart  Now a different business. A builder holds flats as h
+v7    name     2310.13  1.00 af_heart  Under section forty three C ay, the stamp duty value
+v8    example  2320.22  0.92 af_heart  one point two crore rupees is more than one hundred 
+v9    explain  2337.73  1.00 af_heart  Sometimes the price is agreed earlier, and part is p
+v10   check    2347.20  0.93 af_heart  Meera writes off a supplier's balance of twenty thou
+w1    hook     2363.05  0.94 af_heart  Does every shopkeeper in India have to keep books, a
+w2    explain  2367.79  1.00 af_heart  No. You need books only above certain limits, under 
+w3    explain  2378.31  1.00 af_heart  For specified professions, like doctors, lawyers and
+w4    explain  2390.04  1.00 af_heart  For other businesses run by an individual, there are
+w5    name     2403.41  1.00 af_heart  Tax audit is needed when business turnover is over o
+w6    example  2418.00  0.92 af_heart  Meera's turnover is two point four crore rupees, and
+w7    explain  2431.56  1.00 af_heart  The audit report is due by thirty September two thou
+w8    check    2447.65  0.93 af_heart  A trader with eight crore rupees of turnover receive
+x1    hook     2463.38  0.94 af_heart  A small grocery shop has no accountant. How can the 
+x2    explain  2469.51  1.00 af_heart  It can't, easily. So for small businesses, the law o
+x3    name     2478.19  1.00 af_heart  That's presumptive taxation, under section forty fou
+x4    explain  2490.37  1.00 af_heart  Who can use it? A resident individual, HUF, or partn
+x5    trap     2503.32  1.00 af_heart  It's not for everyone. Not for professionals, commis
+x6    example  2513.49  0.92 af_heart  Sunil's grocery turns over two crore ninety eight la
+x7    explain  2537.75  1.00 af_heart  That's it. Every deduction from sections thirty to t
+x8    extreme  2552.90  1.00 af_heart  What if he uses the scheme one year, then declares l
+x9    exam     2565.54  1.00 af_heart  Write it like this. The profit is deemed to be eight
+x10   check    2577.74  0.93 af_heart  Meera's turnover is two point four crore rupees, and
+y1    hook     2594.20  0.94 af_heart  Kabir the dentist earns sixty lakh rupees a year, an
+y2    explain  2601.53  1.00 af_heart  Yes. If you're a professional, there's section forty
+y3    name     2609.55  1.00 af_heart  Under forty four ay D ay, half the gross receipts is
+y4    example  2620.97  0.92 af_heart  Kabir's receipts are sixty lakh rupees, with three p
+y5    name     2639.72  1.00 af_heart  Under forty four ay E, a person owning at most ten g
+y6    example  2648.77  0.92 af_heart  Ravi has two light trucks all year. That's two times
+y7    trap     2672.19  1.00 af_heart  Months count from ownership, not use. A truck bought
+y8    explain  2683.13  1.00 af_heart  One difference worth remembering. Under forty four a
+y9    check    2696.63  0.93 af_heart  Kabir declares twenty two lakh rupees on receipts of
+z1    hook     2715.17  0.94 af_heart  Back to Meera. Her books say twelve lakh rupees. Let
+z2    example  2721.76  0.92 af_heart  Start with the net profit, twelve lakh rupees. First
+z3    example  2740.02  0.92 af_heart  Then the disallowances. Cash to the packaging suppli
+z4    example  2759.55  0.92 af_heart  And the rest. Her family trip, forty thousand rupees
+z5    example  2776.52  0.92 af_heart  Now deduct what the books missed. Depreciation as pe
+z6    example  2791.76  0.92 af_heart  Take out other heads' income. thirty thousand rupees
+z7    example  2803.86  0.92 af_heart  Finally, add deemed income. A bad debt recovered, tw
+z8    extreme  2818.93  1.00 af_heart  And if she'd opted out of the default regime? Additi
+z9    recap    2831.25  1.04 af_heart  So, the whole chapter in one breath. Section twenty 
+z10   recap    2844.04  1.04 af_heart  Sections thirty to thirty seven let costs in. Sectio
+z11   wonder   2858.60  1.00 af_heart  Every adjustment answers one of three questions. Is 
+narration ends at 2870.37

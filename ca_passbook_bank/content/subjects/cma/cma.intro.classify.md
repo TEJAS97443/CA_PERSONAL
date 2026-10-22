@@ -1,0 +1,477 @@
+---
+id: cma.intro.classify
+title: Elements and classification of cost
+minutes: 32
+needs: cma.intro.terms
+tags: elements of cost, classification of cost, direct and indirect cost, functional classification, controllable cost, opportunity cost, sunk cost
+labs:
+summary: Six ways ICAI sorts the same rupee of cost (element, function, behaviour, controllability, normality and managerial decision making), with the elements of cost and eighteen decision-making cost terms.
+---
+
+## In plain words
+
+### One bill, five people, five questions
+
+The Diwali gift-box line at Tapri's Indore factory has just closed its books for October. Ritu prints one list of every rupee it spent, and five people want five different answers from it.
+
+> **Kesar:** Simple question. What did one gift box cost us?
+> **Dev:** Not so simple. If we make 20% more boxes next month, which of these lines go up?
+> **Ritu:** And the plant head wants to know which lines he will be blamed for. The flooded godown is a fourth question, and your new packing machine is a fifth.
+
+Kesar's question needs the costs sorted by **what they are made of**: the cardboard and chai premix that go into each box (traceable to the box: **direct**) and the factory rent that no single box "uses" (**indirect**, an **overhead**). It also needs them sorted by **what they were spent for**: making the box, running the office, selling it, or delivering it.
+
+Dev's question sorts the same list by **behaviour**: rent stays put when output rises (**fixed**), cardboard rises with every box (**variable**), and electricity does a bit of both (**semi-variable**).
+
+The plant head's question sorts it by **controllability**: he can influence the wastage of cardboard, not the head office's share of the rent. The flood sorts it by **normality**: an ordinary month's costs are normal; stock ruined by a flood is not. And the machine needs **decision-making costs**: what is already spent and gone (**sunk**), what cash the decision would actually cost (**out-of-pocket**), and what Tapri gives up by choosing it (**opportunity cost**).
+
+::: analogy The same student on five lists
+In your coaching class you are on the roll-number list, the batch list, the attendance-defaulter list (hopefully not), the topper list and the fee list. You did not change; the teacher's question did. A rupee of cost is the same: classification does not change the rupee, it files it under whatever question management is asking today.
+:::
+
+::: key
+Classification is grouping costs by a common characteristic. ICAI uses six bases, and every cost sits in all six at once: the one you use depends on the question being asked and on the cost object (a box, a café, a department) you are costing.
+:::
+
+## How it works
+
+**Classification of costs** means the grouping of costs according to their common characteristics. ICAI's six bases, in its order (SM 1.24):
+
+::: diagram Six ways to file the same rupee
+{"type": "layers", "layers": [{"label": "1. Nature or element", "note": "material, labour, expenses, overheads", "right": "made of what?"}, {"label": "2. Function", "note": "production, administration, selling, distribution, R&D", "right": "spent for what?"}, {"label": "3. Variability or behaviour", "note": "fixed, variable, semi-variable", "right": "moves with output?"}, {"label": "4. Controllability", "note": "controllable, uncontrollable", "right": "who can influence it?"}, {"label": "5. Normality", "note": "normal, abnormal", "right": "usual at this output?"}, {"label": "6. Managerial decision making", "note": "sunk, opportunity, differential and others", "right": "matters for a decision?"}], "caption": "ICAI's order of the six bases (SM 1.24). Factory rent is, at the same time, an indirect expense, a production overhead, fixed, uncontrollable by the shop-floor supervisor, normal, and a shut-down cost."}
+:::
+
+### 1. By nature or element: what the cost is made of
+
+Under this classification, the total cost of a cost object is classified on the basis of the **elements of cost**: material, labour, other expenses and overheads (SM 1.24). Each of the first three is either direct or indirect, and the indirect parts together are the overheads.
+
+::: diagram Elements of cost
+{"type": "nest", "w": 430, "root": {"title": "Total cost of a cost object", "mono": false, "children": [{"title": "Direct costs (prime cost)", "mono": false, "lines": ["Direct material", "Direct employee (labour) cost", "Direct expenses"], "color": "a"}, {"title": "Overheads (indirect costs)", "mono": false, "lines": ["Indirect material + indirect employee cost + indirect expenses"], "rows": [["Production", "factory rent, power"], ["Administration", "office rent, telephone"], ["Selling", "advertising, commission"], ["Distribution", "warehouse, secondary packing"]], "color": "c"}]}, "caption": "The three elements split into direct and indirect; the indirect parts add up to overheads, which ICAI groups into production, administration, selling and distribution overheads (SM 1.25–1.26)."}
+:::
+
+- **Material** is the cost of raw material required to make a product into finished goods. Materials present in the finished product (the cost object) or that can be economically identified in it are **direct materials**: cloth in dress making, materials purchased for a specific job. A material used in such small quantities that identifying it is not economically feasible is treated as **indirect**, and so are materials used for purposes ancillary to the business (SM 1.25).
+- **Labour** is the wages paid to workers for converting raw materials into finished goods. Labour that can be economically identified or attributed wholly to a cost object is **direct labour**: employees engaged on the actual production of the product (SM 1.26).
+- **Other expenses** are all expenses other than material or labour incurred for a particular cost object, for example hire charges for some special machinery or the cost of defective work (SM 1.26). The Cost Sheet chapter calls these **direct expenses** and lists more: royalty for production, fee for technical know-how, product-specific design or software, amortised moulds and patterns (SM 6.4; see [[cma.emp.direct|direct expenses]]).
+- **Overheads** are the aggregate of indirect material costs, indirect labour costs and indirect expenses, subdivided into **production or works overheads** (incurred in and for running the factory: rent, power), **administration overheads** (management and administration: office rent, lighting, telephone), **selling overheads** (marketing: advertisement, salesmen's commission) and **distribution overheads** (dispatch: warehouse charges, secondary packing, loading) (SM 1.26).
+
+The test for "direct" is **economic traceability to the cost object**, not the kind of item. Salt in a samosa is physically in the product, yet it is indirect, because weighing the pinch in each samosa costs more than it tells you.
+
+### 2. By function: what the cost was spent for
+
+Costs are divided according to the function for which they have been incurred: (i) production or manufacturing cost, (ii) administration cost, (iii) selling cost, (iv) distribution cost and (v) research and development cost etc. (SM 1.26–1.27). The cost sheet is built on this classification:
+
+::: diagram Flow of costs under functional classification
+{"type": "flow", "w": 420, "gapY": 70, "nodes": [{"id": "d", "kind": "start", "label": "Direct material, labour, expenses"}, {"id": "p", "kind": "process", "label": "Prime cost", "color": "a"}, {"id": "w", "kind": "process", "label": "Factory or works cost", "color": "b"}, {"id": "g", "kind": "process", "label": "Cost of goods sold", "color": "c"}, {"id": "s", "kind": "end", "label": "Cost of sales", "color": "d"}], "edges": [["d", "p"], ["p", "w", "+ factory overheads"], ["w", "g", "+ administration overheads"], ["g", "s", "+ selling and distribution overheads"]], "caption": "ICAI's chart of the flow of costs in a cost sheet (SM 1.27). The full cost sheet adds stock adjustments and splits administration overheads, as in the cost sheet lesson."}
+:::
+
+The full format, with stocks of work-in-process and finished goods, primary and secondary packing and the split of administration overheads, is in [[cma.sheet.mfg|the cost sheet for a manufacturer]].
+
+### 3. By variability or behaviour: does it move with output?
+
+- **Fixed costs** are incurred for a period and, within certain output and turnover limits, tend to be unaffected by fluctuations in the level of activity: rent, insurance of factory building.
+- **Variable costs** tend to vary with the volume of activity: direct material, direct labour.
+- **Semi-variable costs** contain both fixed and variable components: telephone bills, gas and electricity (SM 1.27–1.28).
+
+How each one behaves, step costs, and the five methods of splitting a semi-variable cost are in [[cma.intro.behaviour|cost behaviour]].
+
+### 4. By controllability: who can influence it?
+
+::: definition Controllable and uncontrollable costs
+**Controllable cost**: cost that can be controlled, typically by a cost, profit or investment centre manager. Controllable costs incurred in a particular responsibility centre can be influenced by the action of the manager heading that responsibility centre: direct material, direct labour, direct expenses and some overheads are generally controllable by the shop floor supervisor or factory manager.
+
+**Uncontrollable cost**: costs which cannot be influenced by the action of a specified member of an undertaking. The tool room's expenditure is controllable by the foreman in charge of the tool room, but its share apportioned to the machine shop is not controlled by the machine shop foreman. (SM 1.33)
+:::
+
+The distinction is not very prominent and is sometimes left to individual judgement: ==no cost is uncontrollable; it is only in relation to a particular individual== that a cost is controllable or uncontrollable (SM 1.33). Responsibility centres are in [[cma.intro.terms|cost objects and responsibility centres]].
+
+### 5. By normality: is it usual at this output?
+
+::: definition Normal and abnormal cost
+**Normal cost**: the cost which is normally incurred at a given level of output under the conditions in which that level of output is normally attained.
+
+**Abnormal cost**: the cost which is not normally incurred at a given level of output in the conditions in which that level of output is normally attained. It is charged to Costing Profit and Loss Account. (SM 1.33)
+:::
+
+Normal costs belong in the cost of the product; abnormal ones are kept out of it, so that one bad month (a flood, a fire, a breakdown beyond the usual) does not inflate the cost per unit. The same idea returns as normal and abnormal loss in [[cma.mat.losses|material losses]] and [[cma.proc.accounts|process accounts]].
+
+### 6. For managerial decision making: does it matter for this decision?
+
+ICAI lists eighteen costs under this head, in this order (SM 1.34–1.36). The first column is what to memorise; the middle column is ICAI's meaning, shortened.
+
+| Cost | ICAI's meaning | Tapri example |
+|---|---|---|
+| (a) Pre-determined | Computed in advance before production starts, from the specification of all factors affecting cost | Cost of a new premix pack worked out before launch |
+| (b) Standard | Pre-determined from management's expected standard of efficient operation; basis for price fixation and for cost control through variance analysis | ₹6.50 a cup of chai at standard usage and prices |
+| (c) Marginal | The amount by which aggregate costs change if output is increased or decreased by one unit | Cost of one more samosa pack |
+| (d) Estimated | Kohler: expected cost of manufacture or acquisition, computed from information available in advance; a prospective cost | Quoted cost of a wedding catering order |
+| (e) Differential | Change (increase or decrease) in total cost, variable and fixed, due to a change in activity level, technology, process or method: incremental or decremental cost | Extra cost of a second shift |
+| (f) Imputed | Notional costs with no cash outlay, such as interest on capital not actually paid; similar to opportunity costs | Notional interest on Kesar's own capital |
+| (g) Capitalised | Initially recorded as assets and subsequently treated as expenses | Installation of a new fryer added to its cost |
+| (h) Product | Costs of purchase and sale of goods (merchandise), or of acquiring and converting materials and other manufacturing inputs into finished product: variable manufacturing costs under marginal costing, total manufacturing costs under absorption costing | Materials, wages and factory overheads in a pack |
+| (i) Opportunity | Value of the sacrifice made, or benefit of opportunity forgone, in accepting an alternative | Interest lost on a fixed deposit withdrawn |
+| (j) Out-of-pocket | Portion of total cost involving cash outflow; short-run; avoidable if the proposal is not accepted | Cash paid for a new machine |
+| (k) Shut down | Costs that continue even when a plant is temporarily shut down: rent, rates, depreciation | Rent of a café closed for metro work |
+| (l) Sunk | Historical costs incurred in the past; no role in current decisions | Written-down value of the old fryer |
+| (m) Absolute | Cost of a product, process or unit in its totality, in absolute amount; the base for further analysis | Total cost of the gift-box line |
+| (n) Discretionary | Not tied to a clear cause-and-effect link between input and output; periodic decisions on the maximum outlay | Advertising, public relations, executive training |
+| (o) Period | Not assigned to products; charged against the revenue of the period: all non-manufacturing costs | Office salaries, selling and distribution |
+| (p) Engineered | A clear, usually observable, cause-and-effect link between inputs and outputs | Tea leaves per kilogram of premix |
+| (q) Explicit | Also called out-of-pocket; involve immediate payment of cash | Salaries, wages, postage, interest on loan |
+| (r) Implicit | No immediate cash payment; not recorded in the books; also called economic costs | Rent Kesar could earn on his own godown |
+
+::: warning
+Two pairs look alike. ICAI says imputed costs are "similar to" opportunity costs, and explicit costs are "also known as" out-of-pocket costs (SM 1.34–1.36). In an answer, use the term the question uses and give ICAI's meaning for it.
+:::
+
+## Formats and formulas
+
+### From a list of costs to a cost statement
+
+ICAI questions hand you a jumbled list and ask you to classify it, then total it. File each item first by element (direct or indirect), then by function. *Reproduce this layout from memory.*
+
+| Particulars | Amount (₹) |
+|---|---:|
+| Direct material | xxx |
+| Direct employee (labour) cost | xxx |
+| Direct expenses | xxx |
+| **Prime cost** | **xxx** |
+| Add: Factory overheads | xxx |
+| **Factory or works cost** | **xxx** |
+| Add: Administration overheads | xxx |
+| **Cost of goods sold** | **xxx** |
+| Add: Selling and distribution overheads | xxx |
+| **Cost of sales** | **xxx** |
+
+This is the chart of SM 1.27 written as a statement; with no stocks and only general administration it gives the same cost of sales as the full cost sheet of SM 6.8.
+
+::: formula The element identities
+$$\text{Prime cost} = \text{Direct material} + \text{Direct employee cost} + \text{Direct expenses}$$
+$$\text{Overheads} = \text{Indirect material} + \text{Indirect employee cost} + \text{Indirect expenses}$$
+Total cost = prime cost + overheads, whichever way the overheads are grouped (SM 1.25–1.26).
+:::
+
+::: formula The functional build-up (SM 1.27)
+$$\text{Works cost} = \text{Prime cost} + \text{Factory overheads} \qquad \text{Cost of sales} = \text{Works cost} + \text{Administration} + \text{S\&D overheads}$$
+S&D = selling and distribution.
+:::
+
+::: definition Direct materials
+Materials which are present in the finished product (cost object) or can be economically identified in the product. A direct material used in small quantities, where identifying the quantity is not economically feasible, is treated as indirect; materials used for purposes ancillary to the business are indirect materials. (SM 1.25)
+:::
+
+::: definition Direct labour
+Labour which can be economically identified or attributed wholly to a cost object: employees engaged on the actual production of the product or in carrying out the operations converting raw materials into finished product. (SM 1.26)
+:::
+
+::: definition Overheads
+The aggregate of indirect material costs, indirect labour costs and indirect expenses, subdivided into production or works, administration, selling and distribution overheads. (SM 1.26)
+:::
+
+## Worked examples
+
+:::: example The samosa factory's October list
+Tapri's Indore factory made 2,00,000 samosa packs in October. Its cost list for the month:
+
+| Item | Amount (₹) |
+|---|---:|
+| (i) Potatoes, maida and peas | 18,40,000 |
+| (ii) Piece-rate wages of the cooks | 6,20,000 |
+| (iii) Royalty to a celebrity chef for the recipe, 50 paise a pack | 1,00,000 |
+| (iv) Salt, spices and hing (tiny quantities) | 45,000 |
+| (v) Factory supervisor's salary | 1,20,000 |
+| (vi) Factory electricity (fixed demand charge plus units) | 2,30,000 |
+| (vii) Depreciation of the frying line (straight line) | 1,50,000 |
+| (viii) Company secretary's salary | 1,80,000 |
+| (ix) Distributors' commission, 3% of sales | 1,35,000 |
+| (x) Diwali TV advertising | 3,00,000 |
+| (xi) Cartons for dispatch (secondary packing) | 80,000 |
+| (xii) Fuel of delivery vans | 1,10,000 |
+
+There were no opening or closing stocks, and the company secretary's salary is general administration.
+
+**Required:**
+
+(i) Classify each item by element, by function and by behaviour.
+
+(ii) Prepare a statement showing prime cost, works cost and cost of sales, in total and per pack.
+
+(iii) Find the total of fixed, variable and semi-variable costs.
+
+::: answer Show the working
+**(i) Classification**
+
+| Item | Element | Function; behaviour |
+|---|---|---|
+| (i) Potatoes | Direct material | Production; variable |
+| (ii) Cooks' wages | Direct labour | Production; variable |
+| (iii) Royalty | Direct expense | Production; variable |
+| (iv) Salt, spices | Indirect material | Production OH; variable |
+| (v) Supervisor | Indirect labour | Production OH; fixed |
+| (vi) Electricity | Indirect expense | Production OH; semi-variable |
+| (vii) Depreciation | Indirect expense | Production OH; fixed |
+| (viii) Secretary | Indirect labour | Admin. OH; fixed |
+| (ix) Commission | Indirect expense | Selling OH; variable |
+| (x) Advertising | Indirect expense | Selling OH; fixed |
+| (xi) Cartons | Indirect material | Distribution OH; variable |
+| (xii) Van fuel | Indirect expense | Distribution OH; variable |
+
+OH = overheads; Admin. = administration. Notes: (iii) royalty paid for production is a direct expense (SM 6.4); (iv) salt is in the product but used in quantities too small to identify economically, so it is indirect (SM 1.25); (xi) secondary packing is a distribution overhead (SM 1.26); (x) advertising is also a discretionary cost (SM 1.36).
+
+**(ii) Statement of cost for October (2,00,000 packs)**
+
+| Particulars | Total (₹) | Per pack (₹) |
+|---|---:|---:|
+| Direct material | 18,40,000 | 9.20 |
+| Direct employee cost | 6,20,000 | 3.10 |
+| Direct expenses (royalty) | 1,00,000 | 0.50 |
+| **Prime cost** | **25,60,000** | **12.80** |
+| Add: Factory overheads (WN) | 5,45,000 | 2.725 |
+| **Works cost** | **31,05,000** | **15.525** |
+| Add: Administration overheads | 1,80,000 | 0.90 |
+| Add: Selling overheads | 4,35,000 | 2.175 |
+| Add: Distribution overheads | 1,90,000 | 0.95 |
+| **Cost of sales** | **39,10,000** | **19.55** |
+
+Working note: factory overheads = ₹45,000 + ₹1,20,000 + ₹2,30,000 + ₹1,50,000 = ₹5,45,000; selling = ₹1,35,000 + ₹3,00,000; distribution = ₹80,000 + ₹1,10,000. With no stocks, cost of goods sold equals works cost plus administration overheads, ₹32,85,000.
+
+**(iii) By behaviour**
+
+| Behaviour | Items | Amount (₹) |
+|---|---|---:|
+| Variable | (i), (ii), (iii), (iv), (ix), (xi), (xii) | 29,30,000 |
+| Fixed | (v), (vii), (viii), (x) | 7,50,000 |
+| Semi-variable | (vi) | 2,30,000 |
+| **Total** | | **39,10,000** |
+
+The two totals agree: classification regroups the same ₹39,10,000, it never adds or loses a rupee.
+:::
+::::
+
+::::: example The old fryer and the new one
+Tapri's samosa factory is deciding whether to replace its fryer.
+
+- The old fryer cost ₹12,00,000 four years ago; its written-down value is ₹6,40,000 and a scrap dealer will pay ₹1,50,000 for it now.
+- The new fryer costs ₹18,00,000 plus ₹60,000 for installation.
+- Gas, oil and repairs cost ₹9,20,000 a year with the old fryer and would cost ₹6,80,000 with the new one.
+- The net cash needed will come from a fixed deposit that earns 7% a year.
+- The changeover shuts the factory for one month, during which rent (₹1,00,000), depreciation of the building (₹40,000), insurance (₹10,000) and the supervisor's salary (₹40,000) continue.
+- Ritu's management report also charges notional interest at 10% on the ₹50,00,000 of capital Kesar has put into the factory; no such interest is paid.
+
+**Required:**
+
+(i) Name the type of cost, as classified for managerial decision making, of each figure: the ₹6,40,000; the ₹60,000; the ₹18,60,000 paid for the new fryer; the interest on the fixed deposit; the month's rent, depreciation, insurance and salary; the notional interest; the change in operating cost.
+
+(ii) Quantify the net cash outlay, the interest forgone in the first year, the change in annual operating cost and the shut-down cost of the changeover.
+
+(iii) State which figures should be ignored in deciding whether to replace the fryer, with reasons.
+
+:::: answer Show the working
+::: diagram Does this cost matter for the decision?
+{"type": "flow", "w": 420, "nodes": [{"id": "s", "kind": "start", "label": "A cost in the case"}, {"id": "q1", "kind": "decision", "label": "Already\nincurred?"}, {"id": "sunk", "kind": "end", "label": "Sunk: ignore", "color": "mute"}, {"id": "q2", "kind": "decision", "label": "Same under\nboth choices?"}, {"id": "same", "kind": "end", "label": "Not differential: ignore", "color": "mute"}, {"id": "rel", "kind": "end", "label": "Relevant: keep", "color": "g"}], "edges": [["s", "q1"], ["q1", "sunk", "yes"], ["q1", "q2", "no"], ["q2", "same", "yes"], ["q2", "rel", "no"]], "caption": "Green: relevant costs, which change with the decision (out-of-pocket, differential, opportunity); grey: costs to leave out. The questions follow ICAI's meanings of sunk and differential cost (SM 1.34–1.35)."}
+:::
+
+**(i) Type of each cost**
+
+| Figure | Type | Reason |
+|---|---|---|
+| WDV ₹6,40,000 | Sunk | Historical cost; no role in the decision |
+| Installation ₹60,000 | Capitalised | Added to the cost of the machine |
+| ₹18,60,000 for the new fryer | Out-of-pocket (explicit) | Cash outflow, avoided if not accepted |
+| Interest on the fixed deposit | Opportunity | Benefit forgone by using the deposit |
+| Rent, depreciation, insurance, salary in the closed month | Shut-down | Continue while the plant is shut |
+| Notional interest on capital | Imputed (implicit) | Notional; no cash outlay, not in the books |
+| Fall in operating cost | Differential (decremental) | Change in total cost due to a change in method |
+
+**(ii) Quantification**
+
+1. Net cash outlay = ₹18,00,000 + ₹60,000 − ₹1,50,000 (scrap received) = **₹17,10,000**.
+2. Interest forgone in the first year = ₹17,10,000 × 7% = **₹1,19,700** (opportunity cost).
+3. Decremental operating cost = ₹9,20,000 − ₹6,80,000 = **₹2,40,000 a year**.
+4. Shut-down cost of the changeover = ₹1,00,000 + ₹40,000 + ₹10,000 + ₹40,000 = **₹1,90,000**.
+
+**(iii) Figures to ignore**
+
+- The written-down value of ₹6,40,000 and the book "loss" of ₹4,90,000 (₹6,40,000 − ₹1,50,000): sunk costs, already incurred; only the ₹1,50,000 scrap value is a future cash flow.
+- The notional interest of ₹5,00,000 (₹50,00,000 × 10%): an imputed cost that is the same whether or not the fryer is replaced.
+
+The relevant figures are the net outlay of ₹17,10,000, the interest forgone of ₹1,19,700 a year, the saving of ₹2,40,000 a year and the one-time shut-down cost of ₹1,90,000; weighing them over the fryer's life is a capital budgeting exercise ([[fm.capbud.cashflows|relevant cash flows, Paper 6A]]).
+::::
+:::::
+
+:::: example The frying supervisor's bad report
+Tapri's frying department is a cost centre. Its monthly report shows an adverse variance of ₹62,000 on "quality laboratory charges", the frying department's share of the quality laboratory's cost, apportioned on the basis of the number of tests. The quality laboratory has its own manager. Kesar wants the frying supervisor to explain the variance.
+
+**Comment** on Kesar's view, with reference to the classification of costs by controllability.
+
+::: answer Model answer
+**Relevant classification.** Costs are classified by controllability into controllable and uncontrollable costs. A controllable cost is one that can be influenced by the action of the manager heading the responsibility centre in which it is incurred; an uncontrollable cost is one which cannot be influenced by the action of a specified member of the undertaking. The share of a service department's expenditure apportioned to another department is not controlled by the head of the receiving department (SM 1.33).
+
+**Facts of the case.** The ₹62,000 is the frying department's apportioned share of the quality laboratory's cost; the laboratory is run by its own manager.
+
+**Analysis.** The quality laboratory's spending is controllable by the laboratory manager, not by the frying supervisor. For the frying supervisor it is an uncontrollable cost, except to the extent that the number of tests his department calls for (the apportionment basis) is within his influence.
+
+**Conclusion.** Kesar's view is not correct. The variance in the laboratory's costs should be explained by the laboratory manager; the frying supervisor should be held responsible only for the costs he controls, such as direct material, direct labour and the department's own overheads. The frying department's report should show the apportioned charge separately as uncontrollable.
+:::
+::::
+
+## Under the hood
+
+### The cost object decides "direct"
+
+ICAI: the cost object "remains in nucleus of cost classification", and whether a cost element is direct, indirect, fixed or variable "all depends on cost object" (SM 1.20). The Pune café manager's salary is a direct cost of the Pune café (the cost object is the café) but an indirect cost of each cup sold there (the cost object is the cup). Always ask "direct to what?"
+
+### The chart and the cost sheet
+
+The Chapter 1 chart adds administration overheads between works cost and cost of goods sold (SM 1.27). The Cost Sheet chapter is finer: administration overheads related to production go into cost of production, general administration overheads come after cost of goods sold, and finished-goods stocks are adjusted to reach cost of goods sold (SM 6.4–6.8). With no stocks and only general administration, both give the same cost of sales. In a cost sheet answer, follow SM 6.8 ([[cma.sheet.mfg|cost sheet]]).
+
+### Classifying overheads again
+
+The overheads chapter classifies overheads four ways, by function, nature, element and control (SM 4.3–4.5), with its own examples (for instance, uncontrollable: rates and taxes, depreciation, interest on borrowings). It is the same scheme seen from inside the overheads box: [[cma.oh.classify|classifying overheads]].
+
+### Product cost and period cost under the two techniques
+
+Under marginal costing only variable manufacturing costs are product costs; under absorption costing total manufacturing costs, variable and fixed, are product costs (SM 1.35). Non-manufacturing costs are always period costs (SM 1.36). This difference is why the two techniques value stock, and so report profit, differently: [[cma.mc.absorb|marginal versus absorption costing]].
+
+## Exam angle
+
+::: exam Where classification appeared, May 2024 to September 2026 (and old-scheme papers)
+In the ICAI documents read for this lesson, classification of cost was examined in 12 questions in 12 documents.
+
+- **Classify a list, 5 marks.** January 2026 Q6(a): five items by function and variability (consumable stores, General Manager's salary, delivery van expenses, a salesman's fixed salary plus commission, rent of finished goods warehouse). September 2026 Q6(a): ten items "under appropriate functions of cost" (blueprint cost, hire charges of factory machinery for a product, one-time software licence for a particular job, overtime at a customer's request, specialised packing, royalty); suggested answers not yet published.
+- **Decision-making costs.** RTP May 2025 Q1: five MCQs on one case (avoidable cost, sunk and shut-down costs, out-of-pocket cost, unexpired cost). RTP January 2026 Q19(a): "DISCUSS any five types of costs categorised based on its use in Managerial Decision Making". RTP May 2026 Q17(a): how seven of them (pre-determined, differential, product, out-of-pocket, shut-down, sunk, implicit) influence decisions in a scenario.
+- **Controllability, 4 marks.** MTP May 2024 Series I Q6(c): "DIFFERENTIATE" controllable and uncontrollable costs. Old scheme: "EXPLAIN the difference between controllable & uncontrollable costs" in MTP May 2023 Series II Q6(a), MTP November 2023 Series I Q6(a) and RTP May 2022 Q14(a) (5 marks each in the MTPs); MTP December 2021 Series II Q6(b) and RTP July 2021 Q13(c), "DISCUSS cost classification based on variability and controllability".
+- **The examiner's complaint.** July 2021 (old scheme) Q2(a): examinees "were confused about the treatment of some items like cost of special drawing, hire charges paid for plant, carriage on return and general overheads" in a cost sheet.
+:::
+
+::: exam The traps ICAI sets
+- **Direct expenses hide in plain sight**: royalty for production, hire charges of a machine for a specific product or job, product-specific design or software, overtime caused by a customer's urgency. They go in prime cost, not overheads (SM 6.4).
+- **Two answers can both be right on behaviour.** For delivery van expenses ICAI's January 2026 answer accepts "Semi-variable/Variable", and for a salesman paid a fixed salary plus commission, "Semi-variable". State your reading in a word.
+- **Function words**: "Selling & Distribution/Distribution" was accepted for the warehouse rent. Use ICAI's five functions, not "miscellaneous".
+:::
+
+::: trick Element first, then function
+For each item ask two questions in order: (1) "Can it be traced economically to the cost object?" Yes: direct material, labour or expense, part of prime cost. No: overhead. (2) "For which function was it spent?" Factory, office, selling or delivery. The answer to (1) is about the cost object, so read the question for what the cost object is.
+:::
+
+## Answer frame
+
+### "Discuss any five types of costs used in managerial decision making"
+
+Write each as the term, ICAI's meaning, and one example. The five most useful, in ICAI's order: **differential cost** (change in total cost due to a change in activity level, technology, process or method), **opportunity cost** (value of the sacrifice or benefit of the opportunity forgone), **out-of-pocket cost** (portion of total cost involving cash outflow; avoidable if the proposal is not accepted), **shut down cost** (costs that continue while a plant is temporarily shut down, such as rent, rates and depreciation) and **sunk cost** (historical cost that plays no role in current decisions, such as the written-down value of a machine being replaced) (SM 1.34–1.35).
+
+### "Differentiate controllable and uncontrollable costs"
+
+| Point | Controllable cost | Uncontrollable cost |
+|---|---|---|
+| Meaning | Can be influenced by the manager heading the responsibility centre | Cannot be influenced by the action of a specified member |
+| Usual examples | Direct material, direct labour, direct expenses, some overheads | Share of a service department's cost apportioned to another department |
+| Responsibility | The centre's manager answers for it | Reported separately, not charged to the manager's performance |
+| Key point | No cost is uncontrollable for everyone; the classification is in relation to a particular individual (SM 1.33) | |
+
+### "Discuss cost classification based on variability and controllability"
+
+1. Variability: fixed, variable and semi-variable costs, each with ICAI's meaning and an example (SM 1.27–1.28).
+2. Controllability: controllable and uncontrollable costs, with ICAI's meaning and the tool-room example (SM 1.33).
+3. A closing line: the distinction is sometimes left to judgement; no cost is uncontrollable, only in relation to a particular individual.
+
+## Common mistakes
+
+::: mistake Hall of Shame: the royalty that ended up in overheads
+Royalty paid per pack, hire charges of a special machine for one job, and design costs for one product are treated as factory overheads, so prime cost comes out too low and overheads too high. **Fix:** expenses that can be traced to the cost object in an economically feasible manner are direct expenses and belong in prime cost (SM 6.4).
+:::
+
+::: mistake The written-down value that sneaked into the decision
+The old fryer's ₹6,40,000 written-down value (or the ₹4,90,000 "loss on sale") is counted as a cost of replacing it. **Fix:** it is a sunk cost, already incurred, and plays no role in the decision; only future costs that differ between the choices count, here the ₹1,50,000 scrap value.
+:::
+
+::: mistake "Uncontrollable" stamped on a cost for everyone
+Writing "depreciation is an uncontrollable cost" without saying for whom. **Fix:** controllability is always in relation to a particular individual; the decision to buy the machine was controllable by someone (SM 1.33).
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: A Tapri café's monthly list shows direct material ₹4,00,000, direct wages ₹2,50,000, royalty paid per cup sold under a franchise recipe ₹30,000, hire of a special espresso machine for one corporate order ₹20,000, rent of the café ₹60,000 and office salaries ₹80,000. What is the prime cost in rupees?
+= 700000
+> Prime cost = direct material + direct wages + direct expenses = ₹4,00,000 + ₹2,50,000 + ₹30,000 + ₹20,000 = ₹7,00,000. The royalty and the hire charge are direct expenses; rent and office salaries are overheads.
+
+Q: Case scenario. Tapri's Bhopal café has been closed for three months while metro work blocks its road. Kesar asks Ritu which of its costs are shut-down costs. Rent ₹75,000 a month, depreciation of fittings ₹20,000 a month and the security guard ₹15,000 a month continue; milk and tea purchases (₹1,40,000 a month when open) have stopped; ₹6,00,000 was spent on interiors two years ago. Which statement is correct?
+- [ ] Shut-down costs are ₹2,50,000 a month, including milk and tea
+- [ ] The ₹6,00,000 spent on interiors is a shut-down cost
+- [x] Shut-down costs are ₹1,10,000 a month: rent, depreciation and the guard
+- [ ] There are no shut-down costs, because the café earns no revenue
+> Shut-down costs are those that continue to be incurred while the plant is temporarily shut: ₹75,000 + ₹20,000 + ₹15,000 = ₹1,10,000 a month. Milk and tea have stopped, so they are not; the interiors are a sunk cost.
+
+Q: Ritu reports costs under the heads "production, administration, selling, distribution and research and development". Which basis of classification is she using?
+- [ ] Nature or element
+- [ ] Variability or behaviour
+- [ ] Controllability
+- [x] Function
+> These are ICAI's five functions (SM 1.26–1.27). Element would be material, labour, expenses and overheads; behaviour would be fixed, variable and semi-variable.
+
+Q: Which of these are period costs? Select all that apply.
+- [x] Salary of the company secretary
+- [ ] Wages of the cooks in the samosa factory
+- [x] Commission paid to distributors
+- [x] Fuel of the delivery vans
+> Period costs are not assigned to products but charged against the revenue of the period: all non-manufacturing costs, such as administration, selling and distribution (SM 1.36). The cooks' wages are a manufacturing cost, so a product cost.
+
+Q: Kesar keeps an empty godown that a logistics firm would rent for ₹25,000 a month, and uses it to store gift boxes for six months instead. What is the opportunity cost of using it?
+= 150000
+> Opportunity cost is the benefit of the opportunity forgone: 6 × ₹25,000 = ₹1,50,000. It is not recorded in the books (an implicit cost), but it matters for the decision.
+
+Q: The share of the head office's cost apportioned to the Pune café is, for the café manager:
+- [ ] A controllable cost, because it appears in the café's report
+- [x] An uncontrollable cost, because she cannot influence it
+- [ ] An abnormal cost, to be charged to Costing Profit and Loss Account
+- [ ] Not a cost of the café at all
+> A cost apportioned from another centre cannot be influenced by the receiving centre's manager (SM 1.33). It is a normal cost of the café, just not one she controls.
+:::
+
+## Recap
+
+- Classification = grouping costs by common characteristics; six bases in ICAI's order: element, function, behaviour, controllability, normality, managerial decision making (SM 1.24).
+- Elements: material, labour, other expenses (each direct or indirect) and overheads; overheads = indirect material + indirect labour + indirect expenses.
+- Direct means economically traceable to the cost object; tiny quantities and ancillary materials are indirect even if physically present.
+- Prime cost = direct material + direct labour + direct expenses; + factory overheads = works cost; + administration = cost of goods sold; + selling and distribution = cost of sales (SM 1.27).
+- Functions: production, administration, selling, distribution, research and development.
+- Controllability is always in relation to a particular individual; apportioned costs are uncontrollable for the receiving manager.
+- Abnormal cost is charged to Costing Profit and Loss Account.
+- Decisions: sunk costs are ignored; opportunity cost = benefit forgone; out-of-pocket = cash outflow, avoidable; shut-down costs continue while closed. (Same rupee, different list.)
+
+## Flashcards
+
+Q:: ICAI's six bases of classification of costs, in order?
+A:: By nature or element; by functions; by variability or behaviour; by controllability; by normality; by costs used in managerial decision making.
+
+Q:: What are overheads, as ICAI defines them?
+A:: The aggregate of indirect material costs, indirect labour costs and indirect expenses, subdivided into production (works), administration, selling and distribution overheads.
+
+Q:: When is a direct material treated as indirect?
+A:: When it is used in small quantities and identifying the quantity is not economically feasible; materials used for purposes ancillary to the business are also indirect.
+
+Q:: ICAI's five functions for functional classification of cost?
+A:: Production or manufacturing cost, administration cost, selling cost, distribution cost, and research and development cost etc.
+
+Q:: Controllable cost: ICAI's meaning?
+A:: Cost that can be controlled, typically by a cost, profit or investment centre manager; it can be influenced by the action of the manager heading the responsibility centre in which it is incurred.
+
+Q:: Abnormal cost: meaning and treatment?
+A:: Cost not normally incurred at a given level of output in the conditions in which that level is normally attained; charged to Costing Profit and Loss Account.
+
+Q:: Opportunity cost: ICAI's meaning and example?
+A:: The value of sacrifice made or benefit of opportunity foregone in accepting an alternative course of action; e.g. interest lost on a bank deposit withdrawn to finance expansion.
+
+Q:: Sunk cost: meaning and example?
+A:: Historical costs incurred in the past; they play no role in current decisions; e.g. the written-down value of a machine being considered for replacement.
+
+Q:: Shut down costs?
+A:: Costs which continue to be incurred even when a plant is temporarily shut down, e.g. rent, rates, depreciation: fixed costs that cannot be avoided during the temporary closure.
+
+Q:: Out-of-pocket cost?
+A:: The portion of total cost which involves cash outflow; a short-run concept used in decisions such as pricing in recession or make or buy; avoidable if the proposal is not accepted.
+
+Q:: Imputed cost?
+A:: A notional cost not involving any cash outlay, e.g. interest on capital not actually paid; similar to opportunity cost.
+
+Q:: Product cost under marginal costing and under absorption costing?
+A:: Marginal costing: variable manufacturing costs. Absorption costing: total manufacturing costs, variable and fixed.

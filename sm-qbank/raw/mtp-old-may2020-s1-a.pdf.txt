@@ -1,0 +1,315 @@
+                                                                 Test Series: May, 2020
+                                 MOCK TEST PAPER  1
+                           INTERMEDIATE  (NEW): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                     ANSWERS
+        Division A: MULTIPLE CHOICE QUESTIONS (Answers 1-4 based on Case Scenario)
+1.  (a) Helps to take action needed to measure quality
+2.  (c)
+3.  (c) Database Analyst
+4.  (b) Section 66-C
+5.  (b) Buyer Aggregator
+6.  (a) Application Layer
+7.  (a) Internet Banking Channel Server
+8.  (b) Section 134
+9.  (a) Contra
+10. (b) It uses minimal memory.
+                           Division B: DESCRIPTIVE ANSWERS
+1.  (a) Corrective Controls are used to correct errors, omissions or incidents once they have been
+        detected. The main characteristics of the corrective controls are as follows:
+        •   Minimizing the impact of the threat;
+        •   Identifying the cause of the problem;
+        •   Providing Remedy to the problems discovered by detective controls;
+        •   Getting feedback from preventive and detective controls;
+        •   Correcting error arising from a problem; and
+        •   Modifying the processing systems to minimize future occurrences of the incidents.
+    (b) Credit Risk is the risk that an asset or a loan becomes irrecoverable in the case of outright
+        default, or the risk of an unexpected delay in the servicing of a loan. Since bank and borrower
+        usually sign a loan contract, credit risk can be considered a form of counterparty risk.
+2.  (a) The software modules included in Enterprise Resource Planning (ERP) are as follows:
+        •   Manufacturing: Some  of the functions include engineering, capacity, workflow
+            management, quality control, bills of material, manufacturing process, etc.
+        •   Financials: Accounts payable, accounts receivable, fixed assets, general ledger and cash
+            management, etc.
+
+        •   Human Resources: Benefits, training, payroll, time and attendance, etc.
+        •   Supply Chain Management: Inventory, supply chain planning, supplier scheduling, claim
+            processing, order entry, purchasing, etc.
+        •   Projects: Costing, billing, activity management, time and expense, etc.
+        •   Customer Relationship Management (CRM): CRM is a term applied to processes
+            implemented by a company to handle its contact with its customers. CRM software is used
+            to support these processes, storing information on current and prospective customers.
+            Information in the system can be accessed and entered by employees in different
+            departments, such as sales, marketing, customer service, training, professional
+            development, performance management, human resource development, and compensation.
+        •   Data Warehouse: This is a module that can be accessed by an organizations customers,
+            suppliers and employees. Data warehouse is a repository of an organization’s electronically
+            stored data. Data warehouses are designed to facilitate reporting and analysis. An
+            expanded definition for data warehousing includes business intelligence tools, tools to
+            extract, transform, and load data into the repository, and tools to manage and retrieve
+            metadata. Data warehouses are operational systems which perform day-to-day transaction
+            processing. The process of transforming data into information and making it available to the
+            user in a timely enough manner to make a difference is known as data warehousing.
+   (b) Mobile Applications are small piece of software developed specifically for the operating systems of
+       handheld devices such as mobile phones, PDAs and Tablet computers. Mobile Apps can come
+       preloaded on handheld devices or can be downloaded by users from the app stores over the
+       Internet. The e-commerce architecture that will run on mobile app is via M-Commerce (Mobile
+       Commerce) that enables users to access the Internet without needing to find a place to plug in. It
+       has following three layers:
+        1.  Client / User Interface: This layer helps the e-commerce customer connect to e-commerce
+            merchant. It includes Web Server, Web Browser and Internet. For example: If an user buys
+            a mobile phone from an e-commerce merchant it includes -User, Web Browser (Internet
+            Explorer/Chrome) & Web Server.
+        2.  Application Layer: Through these application’s customer logs to merchant systems. This layer
+            allows customer to check the products available on merchant’s website. It includes Application
+            Server and Back End Server. For example - E-merchant, Reseller, Logistics partner.
+        3.  Database Layer: This layer is accessible to user through application layer. It includes the
+            information store house, where all data relating to products and price is kept.
+3.  (a) The Benefits of Big Data Processing are as follows:
+        (I) Ability to process Big Data brings in multiple benefits, such as-
+| • | Businesses can utilize outside intelligence while taking decisions. |
+| --- | --- |
+| • | Access to social data from search engines and sites like Facebook, Twitter are enabling organizations to fine tune their business strategies. |
+| • | Early identification of risk to the product/services, if any |
+        (II) Improved customer service
+            •  Traditional customer feedback systems are getting replaced by new systems designed
+               with Big Data technologies. In these new systems, Big Data and natural language
+
+               processing technologies are being used to read and evaluate consumer responses.
+        (III) Better operational efficiency
+            •  Integration of Big Data technologies and data warehouse helps an organization to
+               offload infrequently accessed data, this leading to better operational efficiency.
+    (b) The different types of documentary evidence used in Inventory Module are as follows:
+        •   Purchase Order- For recording of a purchase order raised on a vendor.
+        •   Sales Order- For recording of a sales order received from a customer.
+        •   Stock Journal- For recording of physical movement of stock from one location to another.
+        •   Physical Stock-For making corrections in stock after physical counting.
+        •   Delivery Note- For recording of physical delivery of goods sold to a customer.
+        •   Receipt Note- For recording of physical receipt of goods purchased from a vendor.
+4.  (a) The risks associated in E-Business Environment are as follows:
+        (i) Privacy and Security: There are often issues of security and privacy due to lack of
+            personalized digital access and knowledge.
+        (ii) Quality issues: There are quality issues raised by customers as the original product differs
+            from the one that was ordered.
+        (iii) Delay in goods and Hidden Costs: When goods are ordered from another country, there
+            are hidden costs enforced by Companies.
+        (iv) Needs Access to internet and lack of personal touch: The e-commerce requires an
+            internet connection which is extra expensive and lacks personal touch.
+        (v) Security and credit card issues: There is cloning possible of credit cards and debit cards
+            which pose a security threat.
+        (vi) Infrastructure: There is a greater need of not only digital infrastructure but also network
+            expansion of roads and railways which remains a substantial challenge in developing
+            countries.
+        (vii) Problem of anonymity: There is need to identify and authenticate users in the virtual global
+            market where anyone can sell to or buy from anyone, anything from anywhere.
+        (viii) Repudiation of contract: There is possibility that the electronic transaction in the form of
+            contract, sale order or purchase by the trading partner or customer maybe denied.
+        (ix) Lack of authenticity of transactions: The electronic documents that are produced during
+            an e-Commerce transaction may not be authentic and reliable.
+        (x) Data Loss or theft or duplication: The data transmitted over the Internet may be lost,
+            duplicated, tampered with or replayed.
+        (xi) Attack from hackers: Web servers used for e-Commerce maybe vulnerable to hackers.
+        (xii) Denial of Service: Service to customers may be denied due to non-availability of system as
+            it may be affected by viruses, e-mail bombs and floods.
+        (xiii) Non-recognition of electronic transactions: e-Commerce transactions, as electronic
+            records and digital signatures may not be recognized as evidence in courts of law.
+
+        (xiv) Lack of audit trails: Audit trails in e-Commerce system may be lacking and the logs may
+            be incomplete, too voluminous or easily tampered with.
+        (xv) Problem of piracy: Intellectual property may not be adequately protected when such
+            property is transacted through e-Commerce.
+    (b) Control Activities are the actions established through policies and procedures that help ensure
+        that management’s directives to mitigate risks related to financial statement audit and to the
+        achievement of objectives are carried out. Control activities are performed at all levels of the
+        entity, at various stages within business processes, and over the technology environment. They
+        may be preventive or detective in nature and may encompass a range of manual and automated
+        activities such as authorizations and approvals, verifications, reconciliations and business
+        performance reviews.
+        The control activities include the elements that operate to ensure transactions are authorized,
+        duties are segregated, adequate documents and records are maintained, assets and records are
+        safeguarded, and independent checks on performance and valuation of records. Internal auditors
+        are also concerned with administrative controls to achieve effectiveness and efficiency
+        objectives. Control activities must be developed to manage, mitigate, and reduce the risks
+        associated with each business process. It is unrealistic to expect to eliminate risks completely.
+5.  (a) The benefits of Automating Business Processes are as follows:
+        ♦   Quality and Consistency: Ensures that every action is performed identically - resulting in
+            high quality, reliable results and stakeholders will consistently experience the same level of
+            service.
+        ♦   Time Saving: Automation reduces the number of tasks employees would otherwise need to
+            do manually. It frees up time to work on items that add genuine value to the business,
+            allowing innovation and increasing employees’ levels of motivation.
+        ♦   Visibility: Automated processes are controlled and they consistently operate accurately
+            within the defined timeline. It gives visibility of the process status to the organization.
+        ♦   Improved Operational Efficiency: Automation reduces the time it takes to achieve a task,
+            the effort required to undertake it and the cost of completing it successfully. Automation not
+            only ensures systems run smoothly and efficiently, but that errors are eliminated and that
+            best practices are constantly leveraged.
+        ♦   Governance & Reliability: The consistency of automated processes means stakeholders
+            can rely on business processes to operate and offer reliable processes to customers,
+            maintaining a competitive advantage.
+        ♦   Reduced  Turnaround Times: This relates to elimination of unnecessary tasks and
+            realignment process steps to optimize the flow of information throughout production,
+            service, billing and collection. This adjustment of processes distils operational performance
+            and reduces the turnaround times for both staff and external customers.
+        ♦   Reduced Costs: Manual tasks, given that they are performed one-at-a-time and at a slower
+            rate than an automated task, will cost more. Automation allows us to accomplish more by
+            utilizing fewer resources.
+    (b) Mobile Banking, Internet banking and Phone banking can be understood as follows:
+        •   Internet Banking also known as Online Banking, is an electronic payment system that
+            enables customers of a bank or other financial institution to conduct a range of financial
+
+            transactions through the financial institution's website. The online banking system offers
+            over 250+ services and facilities that give us real-time access to our bank account. We can
+            make and receive payments to our bank accounts, open Fixed and Recurring Deposits, view
+            account details, request a cheque book and a lot more, while we are online.
+        •   Mobile Banking is a service provided by a bank or other financial that allows its customers
+            to conduct financial institution that allows its customers to conduct financial transactions
+            remotely using a mobile device such as a Smartphone or tablet. Unlike the related internet
+            banking, it uses software, usually called an app, provided by the financial institution for the
+            purpose. Mobile banking is usually available on a 24-hour basis.
+        •   Phone Banking is a functionality through which customers can execute many of the
+            banking transactional services through Contact Centre of a bank over phone, without the
+            need to visit a bank branch or ATM. Registration of Mobile number in account is one of the
+            basic pre-requisite to avail Phone Banking. The use of telephone banking services,
+            however, has been declining in favour of internet banking. Account related information,
+            Cheque Book issue request, stop payment of cheque, Opening of Fixed deposit etc. are
+            some of the services that can be availed under Phone Banking.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+           (1)    (2)     (3)    (4)     (5)
+           (c)    (c)     (c)    (c)     (a)
+    (B) (c)
+    (C) (b)
+    (D) (a)
+    (E) (d)
+    (F) (d)
+    (G) (d)
+    (H) (b)
+2.  Kurt Lewin’s Model of Change proposes three phases of change process to make the change lasting.
+    They are Compliance, Identification and Internalization.
+    For Dr. Radhika, Compliance and Identification will not a big challenge, as her father has been one of
+    the most sort after personalities serving the ill in their district. And her return from the USA to serve her
+    country, especially her district, will help the workforce identify her as a role model and there would
+    actually be no need for compliance, i.e. Reward and Punishment for bringing about a change.
+    However, the new lucrative E-Commerce employment opportunities will have to be fought through
+    Internalization, i.e. internal changing of the individual’s thought process, to give them freedom to learn
+    and succeed. Thus, Internalization will be the most challenging phase.
+3.  (a) A strategic business unit (SBU) is any part of a business organization which is treated separately
+        for strategic management purposes. The concept of SBU is helpful in creating an SBU
+        organizational structure. It is discrete element of the business serving product markets with readily
+        identifiable competitors and for which strategic planning can be concluded. It is created by adding
+        another level of management in a divisional structure after the divisions have been grouped under
+        a divisional top management authority based on the common strategic interests.
+        Advantages of SBU are:
+        ♦   Establishing coordination between divisions having common strategic interests.
+        ♦   Facilitates strategic management and control on large and diverse organizations.
+        ♦   Fixes accountabilities at the level of distinct business units.
+        ♦   Allows strategic planning to be done at the most relevant level within the total enterprise.
+        ♦   Makes the task of strategic review by top executives more objective and more effective.
+        ♦   Helps allocate corporate resources to areas with greatest growth opportunities.
+
+    (b) Prominent areas where the Human Resource Manager can play strategic role are as follows:
+        1.  Providing purposeful direction: The human resource manager leads people and the
+            organization towards the desired direction involving people. He can ensure harmony between
+            organisational objectives and individual objectives.
+        2.  Creating competitive atmosphere: In the present business environment, maintaining
+            competitive position or gains is an important objective of any business. Having a highly
+            committed and competent workforce is very important for getting a competitively
+            advantageous position.
+        3.  Facilitation of change: The human resource manager will be more concerned about
+            furthering the organization not just maintaining it. He can devote more time to promote
+            acceptance of change rather than maintaining the status quo.
+        4.  Managing workforce diversity: In a modern organization, management of diverse workforce
+            is a great challenge. Workforce diversity can be observed in terms of male and female, young
+            and old, educated and uneducated, unskilled and professional employee and so on.
+            Motivation, maintaining morale and commitment are some of the key tasks that a HR manager
+            can perform.
+        5.  Empowerment  of human resources: Empowerment involves giving more power to those
+            who, at present, have little control on what they do and little ability to influence the decisions
+            being made around them.
+        6.  Building core competency: The human resource manager has an important role to play in
+            developing core competency of the firm. A core competence is a unique strength of an
+            organization which may not be shared by others. Organization of business around core
+            competence implies leveraging the limited resources of a firm.
+        7.  Development of works ethics and culture: A vibrant work culture will have to be developed
+            in the organizations to create an atmosphere of trust among people and to encourage creative
+            ideas by the people.
+4.  (a) The presence of strategic management cannot counter all hindrances and always achieve success.
+        There are limitations attached to strategic management. These can be explained in the following
+        lines:
+        ♦   Environment is highly complex and turbulent. It is difficult to understand the complex
+            environment and exactly pinpoint how it will shape-up in future. The organisational estimate
+            about its future shape may awfully go wrong and jeopardise all strategic plans.
+        ♦   Strategic management is a time-consuming process. Organisations spend a lot of time in
+            preparing, communicating the strategies that may impede daily operations and negatively
+            impact the routine business.
+        ♦   Strategic management is a costly process. Strategic management adds a lot of expenses to
+            an organization. Expert strategic planners need to be engaged, efforts are made for analysis
+            of external and internal environments devise strategies and properly implement. These can
+            be really costly for organisations with limited resources.
+        ♦   In a competitive scenario, where all organisations are trying to move strategically, it is difficult
+            to clearly estimate the competitive responses to a firm’s strategies.
+
+    (b) Competitive advantage is the position of a firm to maintain and sustain a favorable market position
+        when compared to the competitors. Competitive advantage is ability to offer buyers something
+        different and thereby providing more value for the money. It is achieved advantage over rivals when
+        a company’s profitability is greater than average profitability of firms in its industry. It is the result
+        of a successful strategy. This position gets translated into higher market share, higher profits when
+        compared to those that are obtained by competitors operating in the same industry. Competitive
+        advantage may also be in the form of low cost relationship in the industry or being unique in the
+        industry along dimensions that are widely valued by the customers in particular and the society at
+        large.
+5.  (a) Decision-making is a managerial process and a function of choosing a particular course of action
+        out of several alternative courses for the purpose of accomplishment of the organizational goals.
+        Strategic decisions are different in nature than all other decisions which are taken at various levels
+        of the organization during their day-to-day working. The major dimensions of strategic decisions
+        are given below:
+        1.  Strategic issues require top-management decisions. Strategic issues involve thinking in
+            totality of the organizations and there is lot of risk involved.
+        2.  Strategic issues involve the allocation of large amounts of company resources - financial,
+            technical, human etc.
+        3.  Strategic issues are likely to have a significant impact on the long-term prosperity of the firm.
+        4.  Strategic issues are future oriented.
+        5.  Strategic issues usually have major multifunctional or multi-business consequences.
+        6.  Strategic issues necessitate consideration of factors in the firm’s external environment.
+    (b) Reasons to adopt Turnaround Strategy:
+        1.  Turnaround is needed when an enterprise's performance deteriorates to a point that it needs
+            a radical change of direction in strategy, and possibly in structure and culture as well.
+        2.  It is a highly targeted effort to return an organization to profitability and increase positive cash
+            flows to a sufficient level.
+        3.  It is used when both threats and weaknesses adversely affect the health of an organization
+            so much that its basic survival is difficult.
+        4.  The overall goal of turnaround strategy is to return an underperforming or distressed company
+            to normalcy in terms of acceptable levels of profitability, solvency, liquidity and cash flow.
+        5.  To achieve its objectives, turnaround strategy must reverse causes of distress, resolve the
+            financial crisis, achieve a rapid improvement in financial performance, regain stakeholder
+            support, and overcome internal constraints and unfavourable industry characteristics.
+6.  (a) According to Porter, strategies allow organizations to gain competitive advantage from three
+        different bases: cost leadership, differentiation, and focus. Cost leadership emphasizes producing
+        standardized products at a very low per-unit cost for consumers who are price-sensitive.
+        Differentiation is a strategy aimed at producing products and services considered unique industry
+        wide and directed at consumers who are relatively price-insensitive.
+        A primary reason for pursuing forward, backward, and horizontal integration strategies is to gain
+        cost leadership benefits. But cost leadership generally must be pursued in conjunction with
+        differentiation. Different strategies offer different degrees of differentiation. A differentiation
+
+        strategy should be pursued only after a careful study of buyers’ needs and preferences to
+        determine the feasibility of incorporating one or more differentiating features into a unique product.
+        A successful differentiation strategy allows a firm to charge a higher price for its product and to
+        gain customer loyalty.
+    (b) Benchmarking is a process of finding the best practices within and outside the industry to which an
+        organisation belongs. Knowledge of the best practices helps in setting standards and finding ways
+        to match or even surpass own performances with the best performances.
+        Benchmarking is a process of continuous improvement in search for competitive advantage. Firms
+        can use benchmarking process to achieve improvement in diverse range of management function
+        such as mentioned below:
+        •   Maintenance operations,
+        •   Assessment of total manufacturing costs,
+        •   Product development,
+        •   Product distribution,
+        •   Customer services,
+        •   Plant utilisation levels; and
+        •   Human resource management.

@@ -1,0 +1,9 @@
+[
+ {"paper": "p6b", "txt": "txt/02-strategic-analysis-external-environment.txt", "page": 3, "old": "STRA             GIC ANALYSIS", "new": "STRATEGIC ANALYSIS", "why": "heading glyphs 'TE' have no text-layer characters; page image and OCR read 'STRATEGIC ANALYSIS'"},
+ {"paper": "p6a", "txt": "txt/03-financial-analysis-and-planning-ratio-analysis.txt", "page": 78, "old": "Liabilitie s", "new": "Liabilities", "why": "word split in text layer; OCR 'liabilities'"},
+ {"paper": "p6a", "txt": "txt/08-dividend-decision.txt", "page": 21, "old": "Pr ice at end", "new": "Price at end", "why": "word split in text layer; OCR 'price'"},
+ {"paper": "p4", "txt": "txt/14-marginal-costing.txt", "page": 15, "old": "Contributi on", "new": "Contribution", "why": "word split in text layer; OCR 'contribution'"},
+ {"paper": "p4", "txt": "txt/14-marginal-costing.txt", "page": 17, "old": "Contributi on", "new": "Contribution", "why": "word split in text layer; OCR 'contribution'"},
+ {"paper": "p4", "txt": "txt/14-marginal-costing.txt", "page": 28, "old": "Contributi on", "new": "Contribution", "why": "word split in text layer; OCR 'contribution'"},
+ {"paper": "p4", "txt": "txt/15-budgets-and-budgetary-control.txt", "page": 40, "old": "inven tory", "new": "inventory", "why": "word split in text layer; OCR 'inventory'"}
+]

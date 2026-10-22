@@ -1,0 +1,358 @@
+                                                                Test Series: April, 2022
+                                MOCK  TEST PAPER - II
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+                                     ANSWERS
+                            Part I: Multiple Choice Questions
+1.  (c) Boundary Control
+2.  (d) Error and Exception Reporting
+3.  (a) e-Shop
+4.  (a) (i)-(III),(ii)-(IV),(iii)-(I),(iv)-(II)
+5.  (b) Information independence
+6.  (c) (i) – (III), (ii) – (IV), (iii) – (I), (iv) – (II)
+7.  (d) (i) – (II), (ii) – (IV), (iii) – (I), (iv) – (III)
+8.  (a) (i), (ii), (v)
+9.  (b) (i) - IV, (ii) - I, (iii) - III, (iv) – II
+10. (b) (ii) - (III), (iii) – (II), (i) – (I)
+                              Part II: Descriptive Questions
+1.  (a) The modes of remittance of funds adopted by banks are as follows:
+        •   Demand  Drafts: These are issued by one branch of the bank and are payable by another
+            branch of the Bank or, in case, there being no branch of the Bank at the place of
+            destination, branch of another bank with which the issuing bank has necessary
+            arrangements. The demand drafts are handed over to the applicant.
+        •   Mail Transfer (MT): In case of MT, no instrument or document guaranteeing the payment of
+            a specific amount of money, either on demand, or at a set time, with the payer named on
+            the document, that includes cheques, drafts, bills of exchange, credit notes etc. is handed
+            over to the applicant. The transmission of the instrument is the responsibility of the branch.
+            Generally, the payee of MT is an account holder of the paying branch.
+        •   Electronic Funds Transfer (EFT): It is another mode of remittance which facilitates almost
+            instantaneous transfer of funds between two centers electronically. Most of the banks have
+            now introduced digital mode of remittance which makes remittance possible online and on
+            mobile devices directly by the customer in a few clicks. In recent times, new modes of
+            money transfer have replaced the traditional methods of funds transfer. These include Real
+            Time Gross Settlement (RTGS) National Electronic Funds Transfer (NEFT) and Immediate
+            Payment Service (IMPS).
+    (b) W.r.t. Security Management Control, Insurance is termed as a contract, represented by a policy,
+        in which an individual or entity receives financial protection or reimbursement against losses from
+        an insurance company. Adequate insurance must be able to replace Information Systems assets
+        and to cover the extra costs associated with restoring normal operations.
+
+2.  (a) The key factors on the implementation process of Business Reporting are as follows:
+        •   The implementation process of business reporting involves Extract, Transform, and Load
+            (ETL) procedures in coordination with a data warehouse and then using one or more
+            reporting tools. While reports can be distributed in print form or via email, they are typically
+            accessed via a corporate intranet.
+        •   All the stakeholders are communicated about mission, vision, objective and strategy of the
+            organization and are also updated about its financial, social, and environmental
+            performance (how they have fared against their objectives in practice).
+        •   The implementation of reporting also involves to communication to the stake holders about
+            governance, arrangements and risk management of the organization.
+        The significance of Business Reporting is as follows:
+        •   Effective and transparent business reporting allows organizations to present a cohesive
+            explanation of their business and helps them engage with internal and external
+            stakeholders, including customers, employees, shareholders, creditors, and regulators.
+        •   High-quality business reporting is at the heart of strong and sustainable organizations,
+            financial markets, and economies, as this information is crucial for stakeholders to assess
+            organizational performance and make informed decisions with respect to an organization’s
+            capacity to create and preserve value. Value in this context is not necessarily limited to
+            monetary value, but can also comprise, for example, social, environmental, or wider
+            economic value.
+        •   As organizations fully depend on their stakeholders for sustainable success, it is in their
+            interest to provide them with high-quality reports. For example, effective high-quality
+            reporting reduces the risk for lenders and may lower the cost of capital.
+        •   Many organizations are increasingly complex, and have larger economic, environmental,
+            and social footprints. Thus, various stakeholder groups are demanding increased
+            Environmental, Social and Global (ESG) information, as well as greater insight into how
+            these factors affect financial performance and valuations.
+        •   High-quality reports also promote better internal decision-making. High-quality information is
+            integral to the successful management of the business and is one of the major drivers of
+            sustainable organizational success.
+    (b) The controls necessary for all persons in the chain of e-business operations are as follows:
+        (i) Users: This is important to ensure that the genuine user is using the e-commerce/ m-
+            commerce platform. There is potential risk if user accounts are hacked, and hackers buy
+            products / services.
+        (ii) Sellers / Buyers / Merchants: These people need to have proper framework in place to
+            ensure success of business. Many e-commerce businesses have lost huge amount of
+            money as they did not have proper controls put in place. These include controls on Product
+            and Price catalogues; Discounts and promotional schemes; Product returns and Accounting
+            for cash received through Cash on Delivery mode of sales.
+        (iii) Government: Governments across the world and in India have few critical concerns vis -à-
+            vis electronic transactions, namely:
+            a.  Tax accounting of all products / services sold.
+            b.  All products / services sold are legal. There have been instances where narcotics
+                drugs have found to be sold and bought through electronic means.
+        (iv) Network Service Providers: They need to ensure availability and security of network. Any
+            downtime of network can be disastrous for business.
+
+        (v) Technology Service Providers: These include all other service providers other than
+            network service provider. For example, cloud computing back-ends, applications back-ends
+            and like. They are also prone to risk of availability and security.
+        (vi) Logistics Service Providers: Success or failure of any e-commerce / m-commerce venture
+            finally lies here. Logistics service providers are the ones who are finally responsible for
+            timely product deliveries.
+        (vii). Payment Gateways: E-commerce vendors’ business shall run only when their payment
+            gateways are efficient, effective and foolproof.
+3.  (a) The Data Resource Management control activities that are involved in maintaining data integrity
+        are as under:
+        (i) Definition Controls: These controls are placed to ensure that the database always
+            corresponds and comply with its definition standards.
+        (ii) Existence/Backup Controls: These controls ensure the existence of the database by
+            establishing backup and recovery procedures. Backup refers to making copies of the data
+            so that these additional copies may be used to restore the original data after a data loss.
+            Backup controls ensure the availability of system in the event of data loss due to
+            unauthorized access, equipment failure or physical disaster; the organization can retrieve its
+            files and databases. Various backup strategies like dual recording of data; periodic dumping
+            of data; logging input transactions and changes to the data may be used.
+        (iii) Access Controls: These controls are designed to prevent unauthorized individual from
+            viewing, retrieving, computing, or destroying the entity's data. User Access Controls are
+            established through passwords, tokens and biometric controls; and Data Encryption controls
+            are established by keeping the data in database in encrypted form.
+        (iv) Update Controls: These controls restrict update of the database to authorized users in two
+            ways either by permitting only addition of data to the database or allowing users to change
+            or delete existing data.
+        (v) Concurrency Controls: These controls provide solutions, agreed-upon schedules, and
+            strategies to overcome the data integrity problems that may arise when two update
+            processes access the same data item at the same time.
+        (vi) Quality Controls: These controls ensure the accuracy, completeness, and consistency of
+            data maintained in the database. This may include traditional measures such as program
+            validation of input data and batch controls over data in transit through the organization.
+    (b) The criterias that make information useful and beneficial for senior managers of Mr. Ajit are as
+        follows:
+           Relevant - MIS reports need to be specific to the business area they address. This is
+            important because a report that includes unnecessary information might be ignored.
+           Timely - Managers need to know what’s happening now or in the recent past to make
+            decisions about the future. Therefore, its utmost important that old information is not
+            included in the MIS. An example of timely information for any report might be customer
+            phone calls and emails going back 12 months from the current date.
+           Accurate – It is critical that numbers add up and that dates and times are correct in the MIS
+            report. Managers and others who rely on MIS reports can’t make sound decisions with
+            information that is wrong. Financial information is often required to be accurate to the dollar.
+            In other cases, it may be OK to round off numbers.
+           Structured - Information in an MIS report can be complicated. Making that information easy
+            to follow helps management understand what the report is saying. For example-long
+
+            passages of information can be broken into more readable blocks or chunks and these
+            chunks can be given meaningful headings.
+4.  (a) The limitations of Mobile Computing are as follows:
+        •   Insufficient Bandwidth: Mobile Internet access is generally slower than direct cable
+            connections using technologies such as General Packet Radio Service (GPRS) and
+            Enhanced Data Rates for GSM (Global System for Mobile Communication) Evolution -
+            (EDGE) and 3G, 4G networks. These networks are usually available within range of
+            commercial cell phone towers. Higher speed wireless LANs are inexpensive but have very
+            limited range.
+        •   Security Standards: When working mobile, one is dependent on public networks, requiring
+            careful use of Virtual Private Network (VPN). Security is a major concern while concerning
+            the mobile computing standards on the fleet. One can easily attack the VPN through a huge
+            number of networks interconnected through the line.
+        •   Power consumption: When a power outlet or portable generator is not available, mobile
+            computers must rely entirely on battery power. Combined with the compact size of many
+            mobile devices, this often means unusually expensive batteries must be used to obtain the
+            necessary battery life. Mobile computing should also look into Greener IT in such a way that
+            it saves the power or increases the battery life.
+        •   Transmission interferences: Weather, terrain and the range from the nearest signal point
+            can all interfere with signal reception. Reception in tunnels, some buildings, and rural areas
+            is often poor.
+        •   Potential health hazards: People who use mobile devices while driving is often distracted
+            from driving and are thus assumed more likely to be involved in traffic accidents. Cell
+            phones may interfere with sensitive medical devices. There are allegations that cell phone
+            signals may cause health problems.
+        •   Human  interface with device: Screens and keyboards tend to be small, which may make
+            them hard to use. Alternate input methods such as speech or handwriting recognition
+            require training.
+    (b) The description of Section 66F of IT Act, 2000 related to Punishment for cyber terrorism is:
+        (1) Whoever -
+            (A) with intent to threaten the unity, integrity, security or sovereignty of India or to strike
+                terror in the people or any section of the people by –
+                (i) denying or cause the denial of access to any person authorized to access
+                    computer resource; or
+                (ii) attempting to penetrate or access a computer resource without authorization or
+                    exceeding authorized access; or
+                (iii) introducing or causing to introduce any computer contaminant,
+                and by means of such conduct causes or is likely to cause death or injuries to persons
+                or damage to or destruction of property or disrupts or knowing that it is likely to cause
+                damage or disruption of supplies or services essential to the life of the community or
+                adversely affect the critical information infrastructure specified under section 70; or
+            (B) knowingly or intentionally penetrates or accesses a computer resource without
+                authorization or exceeding authorized access, and by means of such conduct obtains
+                access to information, data or computer database that is restricted for reasons of the
+                security of the State or foreign relations; or any restricted information, data or
+                computer database, with reasons to believe that such information, data or computer
+
+                database so obtained may be used to cause or likely to cause injury to the interests of
+                the sovereignty and integrity of India, the security of the State, friendly relations with
+                foreign States, public order, decency or morality, or in relation to contempt of court,
+                defamation or incitement to an offence, or to the advantage of any foreign nation,
+                group of individuals or otherwise, commits the offence of cyber terrorism.
+        (2) Whoever commits or conspires to commit cyber terrorism shall be punishable with
+            imprisonment which may extend to imprisonment for life.
+5.  (a) The limitations of Internal Control System are as follows:
+        •   Management’s consideration that the cost of an internal control does not exceed the
+            expected benefits to be derived.
+        •   The fact that most internal controls do not tend to be directed at transactions of unusual
+            nature, the reasonable potential for human error such as – due to carelessness, distraction,
+            mistakes of judgment and misunderstanding of instructions.
+        •   The possibility of circumvention of internal controls through collusion with employees or with
+            parties outside the entity.
+        •   The possibility that a person responsible for exercising an internal control could abuse that
+            responsibility, for example, a member of management overriding an internal control.
+        •   Manipulations by management with respect to transactions or estimates and judgments
+            required in the preparation of financial statements.
+    (b) The components of Operational risk in Core Banking Systems (CBS) are as follows.
+        •   Transaction Processing Risk arises because faulty reporting of important market
+            developments to the bank management may occur due to errors in entry of data for
+            subsequent bank computations.
+        •   Information Security Risk comprises the impacts to an organization and its stakeholders
+            that could occur due to the threats and vulnerabilities associated with the operation and use
+            of information systems and the environments in which those systems operate. Data
+            breaches can cost a bank its reputation, customers can lose time and money and above all
+            their confidential information.
+        •   Legal Risk arises because of the treatment of clients, the sale of products, or business
+            practices of a bank. There are countless examples of banks being taken to court by
+            disgruntled corporate customers, who claim they were misled by advice given to them or
+            business products sold. Contracts with customers may be disputed.
+        •   Compliance Risk is exposure to legal penalties, financial penalty, and material loss an
+            organization faces; when it fails to act in accordance with industry laws and regulations,
+            internal policies or prescribed best practices.
+        •   People Risk arises from lack of trained key personnel, tampering of records, unauthorized
+            access to dealing rooms and nexus between front and back end offices.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+         (1)     (2)    (3)     (4)    (5)
+         (d)     (c)    (d)     (c)    (c)
+    (B) (b)
+    (C) (d)
+    (D) (c)
+    (E) (a)
+    (F) (a)
+    (G) (c)
+2.  It is advisable that divestment strategy should be adopted by X Pvt. Ltd.
+    In the given situation where the business of co-working spaces became unprofitable and unviable due
+    to Global pandemic, the best option for the company is to divest the loss-making business.
+    Retrenchment may be done either internally or externally. Turnaround strategy is adopted in case of
+    internal retrenchment where emphasis is laid on improving internal efficiency of the organization, while
+    divestment strategy is adopted when a business turns unprofitable and unviable due to some external
+    factors. In view of the above, the company should go for divestment strategy.
+    Further, divestment helps address issues like:
+    1.  Persistent cash flows from loss making segment could affect other profit-making segments, which
+        is the case in the given scenario.
+    2.  Inability to cope from the losses, which again is uncertain due to pandemic.
+    3.  Better investment opportunity, which could be the case if X Pvt. Ltd. can invest the money it
+        generates from divestment.
+3.  (a) Yes, a business organization cannot always plan all their strategies in advance and often need to
+        blend planned strategies with reactive strategies.
+        In planned strategy, organisations will analyse possible environmental scenarios and create
+        strategic framework after proper planning and set procedures and work on these strategies in a
+        pre-determined manner. However, in reality no company can forecast both internal and external
+        environment exactly. Everything cannot be planned in advance. It is not possible to anticipate
+        moves of rival firms, consumer behaviour, evolving technologies and so on.
+       There can be significant deviations between what was visualised and what actually happens. There
+        can be significant or major strategic changes when the environment demands. Reactive strategy
+        is triggered by the changes in the environment and provides ways and means to cope with the
+        negative factors or take advantage of emerging opportunities.
+    (b) Product Life Cycle (PLC) is a useful concept for guiding strategic choice. Essentially, PLC is S-
+        shaped curve which exhibits the relationship of sales with respect of time for a product that passes
+        through the four successive stages of introduction (slow sales growth), g rowth (rapid market
+        acceptance) maturity (slowdown in growth rate) and decline (sharp downward drift). If businesses
+        are substituted for product, the concept of PLC could work just as well.
+
+        The first stage of PLC is the introduction stage in which competition is almost negligible, prices
+        are relatively high, and markets are limited. The growth in sales is at a lower rate because of lack
+        of knowledge on the part of customers.
+        The second stage of PLC is growth stage. In the growth stage, the demand expands rapidly,
+        prices fall, competition increases, and market expands. The customer has knowledge about the
+        product and shows interest in purchasing it.
+        The third stage of PLC is maturity stage. In this stage, the competition gets tough, and market
+        gets stabilised. Profit comes down because of stiff competition. At this stage organisations may
+        work for maintaining stability.
+        The fourth stage of PLC is declining stage in which the sales and profits fall down sharply due
+        to some new product replaces the existing product. So, a combination of strategies can be
+        implemented to stay in the market either by diversification or retrenchment.
+                               Figure: Product Life Cycle
+        Significance of PLC
+        The main advantage of PLC is that it can be used to diagnose a portfolio of products (or businesses)
+        in order to establish the stage at which each of them exists. Particular attention is to be paid on
+        the businesses that are in the declining stage. Depending on the diagnosis, appropriate strategic
+        choice can be made. For instance, expansion may be a feasible alternative for businesses in the
+        introductory and growth stages. Mature businesses may be used as sources of cash for investment
+        in other businesses which need resources. A combination of strategies like selective harvesting,
+        retrenchment, etc. may be adopted for declining businesses. In this way, a balanced portfolio of
+        businesses may be built up by exercising a strategic choice based on the PLC concept.
+4.  (a) Core competencies are capabilities that serve as a source of competitive advantage for a firm over
+        its rivals. Core competency as the collective learning in the organization, especially coordinating
+        diverse production skills and integrating multiple streams of technologies. An organization’s
+        combination of technological and managerial know-how, wisdom and experience are a complex
+        set of capabilities and resources that can lead to a competitive advantage compared to a
+        competitor.
+    (b) Ramesh is a follower of transactional leadership style that focuses on designing systems and
+        controlling the organization’s activities. Such a leader believes in using authority of its office to
+        exchange rewards, such as pay and status. They prefer a more formalized approach to motivation,
+        setting clear goals with explicit rewards or penalties for achievement or non-achievement.
+        Transactional leaders try to build on the existing culture and enhance current practices. The style
+        is better suited in persuading people to work efficiently and run operations smoothly.
+        On the other hand, Yashpal is follower of transformational leadership style. The style uses
+        charisma and enthusiasm to inspire people to exert them for the good of the organization.
+        Transformational leaders offer excitement, vision, intellectual stimulation and personal satisfaction.
+
+        They inspire involvement in a mission, giving followers a ‘dream’ or ‘vision’ of a higher calling so
+        as to elicit more dramatic changes in organizational performance. Such a leadership motivates
+        followers to do more than originally affected to do by stretching their abilities and increasing their
+        self-confidence, and also promote innovation throughout the organization.
+5.  (a) Sanya Private Limited deteriorating performance due to poor implementation of plans that is
+        improper use of resources, undesirable tendencies of the workers, and non-conformance to norms
+        and standards, all point towards weak controls in the organization. Implementation of plans cannot
+        assure results unless strong and sufficient controls are put in place. The management of the
+        company should focus diligently on developing controls especially in the identified problem areas.
+        The process of control has the following elements:
+        (a) Objectives of the business system which could be operationalized into measurable and
+            controllable standards.
+        (b) A mechanism for monitoring and measuring the performance of the system.
+        (c) A mechanism (i) for comparing the actual results with reference to the standards (ii) for
+            detecting deviations from standards and (iii) for learning new insights on standards
+            themselves.
+        (d) A mechanism for feeding back corrective and adaptive information and instructions to the
+            system, for effecting the desired changes to set right the system to keep it on course.
+        Above elements of control would ensure a proper check on improper use of resources, undesirable
+        tendencies of the workers, and non-conformance to norms and standards and ensure a result
+        oriented implementation of plans.
+    (b) Expanded Marketing Mix:
+        Typically, all organizations use a combination of 4 Ps in some form or the other that is product,
+        price, place, and promotion. However, the above elements of marketing mix are not exhaustive.
+        There are a few more elements that may form part of an organizational marketing mix strategy as
+        follows:
+        1.  People: all human actors who play a part in delivery of the market offering and thus influence
+            the buyer’s perception, namely the firm’s personnel and the customer.
+        2.  Physical evidence: the environment in which the market offering is delivered and where the
+            firm and customer interact.
+        3.  Process: the actual procedures, mechanisms and flow of activities by which the product/
+            service is delivered.
+6.  (a) Cost leadership emphasizes producing standardized products at a very low per -unit cost for
+        consumers who are price-sensitive. Differentiation is a strategy aimed at producing products and
+        services considered unique industry wide and directed at consumers who are relatively price
+        insensitive.
+        A primary reason for pursuing forward, backward, and horizontal integration strateg ies is to gain
+        cost leadership benefits. But cost leadership generally must be pursued in conjunction with
+        differentiation. Different strategies offer different degrees of differentiation. A differentiation
+        strategy should be pursued only after a careful study of buyers’ needs and preferences to
+        determine the feasibility of incorporating one or more differentiating features into a unique product.
+        A successful differentiation strategy allows a firm to charge a higher price for its product and to
+        gain customer loyalty.
+
+    (b) A Mission statement tells you the fundamental purpose of the organisation. It concentrates on the
+        present. It defines the customer and the critical processes. It informs you of the desired level of
+        performance. On the other hand, a vision statement outlines what the organisation wants to be. It
+        concentrates on the future. It is a source of inspiration. It provides clear decision -making criteria.
+        A mission statement can resemble a vision statement in a few companies, but that can be a grave
+        mistake. It can confuse people. Following are the major differences between vision and mission:
+        1.  The vision states the future direction while the mission states the ongoing activities of the
+            organisation.
+        2.  The vision statement can galvanize the people to achieve defined objectives, even if they are
+            stretch objectives, provided the vision is specific, measurable, achievable, relevant and time
+            bound. A mission statement provides a path to realize the vision in line with its values. These
+            statements have a direct bearing on the bottom line and success of the organisation.
+        3.  A vision statement defines the purpose or broader goal for being in existence or in the
+            business and can remain the same for decades if crafted well while a mission statement is
+            more specific in terms of both the future state and the time frame. Mission describes what will
+            be achieved if the organisation is successful.

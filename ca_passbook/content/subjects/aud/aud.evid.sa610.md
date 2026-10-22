@@ -1,0 +1,438 @@
+---
+id: aud.evid.sa610
+title: SA 610: using the work of internal auditors
+minutes: 24
+needs: aud.evid.sa500, aud.risk.sa315
+tags: SA 610, internal audit function, direct assistance, objectivity, competence, internal auditor
+labs:
+summary: When the external auditor may use the internal audit function's work or its people, the three tests (objectivity, competence, a systematic approach), and why the opinion stays the external auditor's alone.
+---
+
+## In plain words
+
+### The cupboard Bunty found
+
+It is February, the audit of Tapri Tea Co. Ltd is behind schedule, and Bunty has found a cupboard. Inside are twelve binders from Tapri's **internal audit** department: tests of purchase controls, surprise cash counts at the kulhad cafés, an ageing of every receivable.
+
+> **Bunty:** Ma'am, they have done half our audit already. We copy their conclusions, sign, and go home before Holi.
+> **Lakshmi:** Whose name goes at the bottom of the audit report, Bunty?
+> **Bunty:** Iyer & Associates, Ma'am.
+> **Lakshmi:** Then whose evidence has to be good enough?
+
+That exchange is SA 610 in miniature. Internal auditors check a company's controls, risks and governance for its management and board. Their work can help the statutory auditor (the **external auditor**), but they are **not independent** of the company in the way the external auditor must be, and only the external auditor signs the opinion.
+
+So SA 610 allows two kinds of help: using the **work** internal audit has done (its tests and reports), or borrowing its **people** to perform audit procedures under the external auditor's direction, called **direct assistance**. First the internal audit function faces three tests: is it **objective** (free to report what it finds), **competent** (skilled and properly staffed), and **systematic and disciplined** (planned, documented, reviewed)? Fail any one and its work cannot be used at all. Pass all three and the external auditor still uses less of it wherever the judgment is heavy or the risk is high.
+
+::: analogy The food inspector and the kitchen's logbook
+A food-safety inspector can look at a café kitchen's own temperature logbook. If the person keeping it reports to the owner, has had no training and fills it in from memory every Saturday, the inspector ignores it. If a trained supervisor reporting to head office keeps it at fixed hours, the inspector may use it for the routine fridges and still checks the risky ones personally. Either way, the inspection report carries the inspector's name.
+:::
+
+::: key
+Using internal auditors never shares the opinion: ==the external auditor has sole responsibility for the audit opinion expressed==. Their work is usable only if objectivity, competence and a systematic and disciplined approach are all present; the more judgment or risk an area involves, the less of it is used.
+:::
+
+## How it works
+
+SA 610, "Using the Work of Internal Auditors", deals with the external auditor's responsibilities if using the work of internal auditors (SM 4.35). Here it is in the Study Material's order.
+
+### 1. What an internal audit function is
+
+::: definition Internal audit function
+A function of an entity that performs assurance and consulting activities designed to evaluate and improve the effectiveness of the entity's governance, risk management and internal control processes (SM 4.33).
+:::
+
+Its objectives and scope typically include (SM 4.33–4.34):
+
+1. **Activities relating to governance**: assessing the governance process on ethics and values, performance management and accountability, communicating risk and control information, and communication among those charged with governance, external and internal auditors, and management.
+2. **Activities relating to risk management**: identifying and evaluating significant exposures to risk, contributing to better risk management and internal control (including the financial reporting process), and procedures to assist in detecting fraud.
+3. **Activities relating to internal control**: *evaluation of internal control* (reviewing controls, evaluating their operation, recommending improvements); *examination of financial and operating information* (including detailed testing of transactions, balances and procedures); *review of operating activities* (economy, efficiency and effectiveness, including non-financial activities); *review of compliance with laws and regulations* and with management policies and directives.
+
+Not on the list: expressing an independent opinion on the financial statements. That is the external auditor's job alone (SM 4.122, Test Your Knowledge MCQ 1).
+
+### 2. Three ways the external auditor may use it
+
+The objectives of internal audit and of the external auditor differ, but internal audit may perform similar procedures. If so, the external auditor may use the function in one or more of these ways (SM 4.34–4.35):
+
+1. To obtain information relevant to the external auditor's **assessments of the risks of material misstatement** due to error or fraud.
+2. Unless prohibited, or restricted to some extent, by law or regulation: after appropriate evaluation, to use **work performed by the internal audit function** during the period **in partial substitution** for audit evidence to be obtained directly.
+3. Unless prohibited, or restricted to some extent, by law or regulation: to use internal auditors to perform audit procedures **under the direction, supervision and review** of the external auditor (**direct assistance**).
+
+### 3. Scope, and the rule that never bends
+
+SA 610 covers (a) using the work of the internal audit function in obtaining audit evidence and (b) using internal auditors to provide direct assistance. Nothing in it **requires** the external auditor to use that work to change the nature or timing, or reduce the extent, of the external auditor's own procedures: that remains the external auditor's decision in establishing the overall audit strategy (SM 4.35).
+
+The external auditor has **sole responsibility** for the audit opinion expressed, and it is **not reduced** by using the function's work or direct assistance. Neither the function nor its internal auditors are independent of the entity as SA 200 requires of the external auditor. So SA 610 sets the conditions for using their work, and the work effort needed to show it is adequate, to prevent over or undue use of it (SM 4.35).
+
+### 4. The objectives
+
+Where the entity has an internal audit function and the external auditor expects to use its work to modify the nature or timing, or reduce the extent, of procedures performed directly, or to use internal auditors for direct assistance, the objectives of the external auditor are (SM 4.36):
+
+- (a) to determine whether the work of the internal audit function or direct assistance from internal auditors can be used, and if so, in which areas and to what extent; and having made that determination:
+- (b) if using the work of the internal audit function, to determine whether that work is adequate for purposes of the audit; and
+- (c) if using internal auditors to provide direct assistance, to appropriately direct, supervise and review their work.
+
+### 5. Evaluating the function: three tests
+
+The external auditor shall determine whether the work of the internal audit function can be used by evaluating (SM 4.36):
+
+- (A) the extent to which the function's **organisational status and relevant policies and procedures support the objectivity** of the internal auditors;
+- (B) the **level of competence** of the function; and
+- (C) whether the function applies a **systematic and disciplined approach, including quality control**.
+
+This is professional judgment, and the first two are particularly important in deciding whether, and how much, to use (SM 4.36–4.37).
+
+::: definition Objectivity
+The ability to perform those tasks without allowing bias, conflict of interest or undue influence of others to override professional judgments (SM 4.37).
+:::
+
+::: definition Competence of the internal audit function
+The attainment and maintenance of knowledge and skills of the function as a whole at the level required to enable assigned tasks to be performed diligently and in accordance with applicable professional standards (SM 4.38).
+:::
+
+The factors that may affect each test (SM 4.37–4.39):
+
+**Objectivity**
+
+1. Whether the function's organisational status, including its authority and accountability, supports its ability to be free from bias, conflict of interest or undue influence of others; for example, whether it reports to those charged with governance or an officer with appropriate authority, or, if it reports to management, whether it has direct access to those charged with governance.
+2. Whether those charged with governance oversee employment decisions related to the function (for example, the remuneration policy).
+3. Whether management or those charged with governance place any constraints or restrictions on it (for example, on communicating its findings to the external auditor).
+4. Whether it is free of conflicting responsibilities, such as managerial or operational duties outside internal audit.
+
+**Competence**
+
+1. Whether it is adequately and appropriately resourced relative to the size of the entity and the nature of its operations.
+2. Whether there are established policies for hiring, training and assigning internal auditors to internal audit engagements.
+3. Whether the internal auditors have adequate technical training and proficiency in auditing.
+4. Whether they possess the required knowledge of the entity's financial reporting and the applicable financial reporting framework.
+
+**Systematic and disciplined approach**
+
+1. The existence, adequacy and use of documented internal audit procedures or guidance (risk assessments, work programmes, documentation and reporting), commensurate with the entity's size and circumstances.
+2. Whether it has appropriate quality control policies and procedures.
+
+A systematic and disciplined approach to planning, performing, supervising, reviewing and documenting is what distinguishes internal audit from other monitoring control activities in the entity (SM 4.38–4.39).
+
+**Objectivity and competence may be viewed as a continuum.** The better the support for objectivity and the higher the competence, the more likely the work is used, and in more areas. But neither makes up for the other: strong support for objectivity cannot compensate for a lack of sufficient competence, and high competence cannot compensate for status and policies that do not adequately support objectivity (SM 4.38).
+
+### 6. When the work cannot be used
+
+The external auditor shall **not** use the work of the internal audit function if the external auditor determines that (SM 4.39):
+
+- (a) the function's organisational status and relevant policies and procedures do not adequately support the objectivity of internal auditors;
+- (b) the function lacks sufficient competence; or
+- (c) the function does not apply a systematic and disciplined approach, including quality control.
+
+::: diagram Can the internal audit function's work be used?
+{"type": "flow", "w": 430, "nodes": [{"id": "s", "kind": "start", "label": "Entity has an internal\naudit function"}, {"id": "o", "kind": "decision", "label": "Objectivity\nsupported?"}, {"id": "x1", "kind": "end", "label": "Do not use\nits work", "color": "bad"}, {"id": "c", "kind": "decision", "label": "Sufficient\ncompetence?"}, {"id": "x2", "kind": "end", "label": "Do not use\nits work", "color": "bad"}, {"id": "q", "kind": "decision", "label": "Systematic,\ndisciplined,\nwith QC?"}, {"id": "x3", "kind": "end", "label": "Do not use\nits work", "color": "bad"}, {"id": "r", "kind": "process", "label": "Relevance to audit\nstrategy and plan"}, {"id": "l", "kind": "process", "label": "Use less where risk\nor judgment is high"}, {"id": "u", "kind": "process", "label": "Discuss; read reports;\ntest the body of work"}, {"id": "e", "kind": "end", "label": "Use adequate work;\nopinion stays yours", "color": "ok"}], "edges": [["s", "o"], ["o", "x1", "no"], ["o", "c", "yes"], ["c", "x2", "no"], ["c", "q", "yes"], ["q", "x3", "no"], ["q", "r", "yes"], ["r", "l"], ["l", "u"], ["u", "e"]], "caption": "Rose: a failed test, after which none of the function's work is used. Green: the work found adequate is used, and the external auditor keeps sole responsibility for the opinion. QC: quality control."}
+:::
+
+### 7. Which areas, and how much
+
+To decide the areas and extent, the external auditor shall consider the nature and scope of the work performed, or planned, by the function and its relevance to the overall audit strategy and audit plan (SM 4.39–4.40). Examples of work that can be used (SM 4.40):
+
+1. Testing of the operating effectiveness of controls.
+2. Substantive procedures involving limited judgment.
+3. Observations of inventory counts.
+4. Tracing transactions through the information system relevant to financial reporting.
+5. Testing of compliance with regulatory requirements.
+
+The external auditor shall make **all significant judgments** and, to prevent undue use, shall ==plan to use less of the work of the function and perform more of the work directly== (SM 4.40):
+
+- (a) the more judgment is involved in (i) planning and performing relevant audit procedures and (ii) evaluating the audit evidence gathered;
+- (b) the higher the assessed risk of material misstatement at the assertion level, with special consideration given to risks identified as significant;
+- (c) the less the function's organisational status and relevant policies and procedures adequately support the objectivity of the internal auditors; and
+- (d) the lower the level of competence of the function.
+
+### 8. Using the work
+
+If the external auditor plans to use the function's work, the external auditor shall (SM 4.40–4.41):
+
+- (A) **discuss** the planned use of its work with the function, as a basis for coordinating their activities;
+- (B) **read the reports** of the function on that work, to understand the nature and extent of its procedures and its findings;
+- (C) **perform sufficient audit procedures on the body of work as a whole** that the external auditor plans to use, to determine its adequacy for purposes of the audit.
+
+The discussion may usefully address (SM 4.41): (1) the timing of the work; (2) its nature; (3) the extent of audit coverage; (4) materiality for the financial statements as a whole (and, if applicable, for particular classes of transactions, account balances or disclosures) and performance materiality; (5) proposed methods of item selection and sample sizes; (6) documentation of the work performed; (7) review and reporting procedures.
+
+Coordination is effective when, for example (SM 4.41): discussions take place at appropriate intervals throughout the period; the external auditor informs the function of significant matters that may affect it; and the external auditor is advised of, and has access to, relevant internal audit reports and is told of significant matters that may affect the external auditor's work.
+
+::: diagram Using the function's work: who does what
+{"type": "seq", "lanes": ["External auditor", "Internal audit"], "events": [{"from": "External auditor", "to": "Internal audit", "text": "discuss the planned use"}, {"from": "Internal audit", "to": "External auditor", "text": "reports on the work to be used"}, {"lane": "External auditor", "text": "read the reports"}, {"lane": "External auditor", "text": "test the body of work"}, {"from": "External auditor", "to": "Internal audit", "text": "significant matters for it", "style": "dashed"}, {"from": "Internal audit", "to": "External auditor", "text": "significant matters for the audit", "style": "dashed"}, {"lane": "External auditor", "text": "work adequate?", "kind": "ok"}], "caption": "The three \"shall\" steps (discuss, read the reports, perform procedures on the body of work) come first; the dashed arrows are the two-way flow of significant matters that makes coordination effective."}
+:::
+
+### 9. Direct assistance
+
+::: definition Direct assistance
+The use of internal auditors to perform audit procedures under the direction, supervision and review of the external auditor (SM 4.42).
+:::
+
+Law or regulation may prohibit direct assistance. If not prohibited, and the external auditor plans to use it, the external auditor shall evaluate the existence and significance of **threats to objectivity** and the **level of competence** of the internal auditors who will provide it; the evaluation of threats shall include **inquiry of the internal auditors** about interests and relationships that may threaten their objectivity (SM 4.42).
+
+The external auditor **shall not use an internal auditor** for direct assistance if (SM 4.42): (a) there are significant threats to the objectivity of the internal auditor; or (b) the internal auditor lacks sufficient competence to perform the proposed work.
+
+The external auditor **shall not use internal auditors** for direct assistance to perform procedures that (SM 4.42–4.43):
+
+- (a) involve making significant judgments in the audit;
+- (b) relate to higher assessed risks of material misstatement where the judgment required in performing the relevant audit procedures or evaluating the audit evidence gathered is more than limited;
+- (c) relate to work with which the internal auditors have been involved and which has already been, or will be, reported to management or those charged with governance by the internal audit function; or
+- (d) relate to decisions the external auditor makes under SA 610 regarding the internal audit function and the use of its work or direct assistance.
+
+**Prior to using internal auditors for direct assistance**, the external auditor shall (SM 4.43):
+
+- (a) obtain written agreement from an **authorised representative of the entity** that the internal auditors will be allowed to follow the external auditor's instructions, and that the entity will not intervene in the work the internal auditor performs for the external auditor; and
+- (b) obtain written agreement from the **internal auditors** that they will keep confidential specific matters as instructed by the external auditor and inform the external auditor of any threat to their objectivity.
+
+::: diagram Direct assistance, step by step
+{"type": "flow", "w": 430, "nodes": [{"id": "s", "kind": "start", "label": "Plan to use internal\nauditors directly"}, {"id": "law", "kind": "decision", "label": "Prohibited by\nlaw or regulation?"}, {"id": "n1", "kind": "end", "label": "No direct\nassistance", "color": "bad"}, {"id": "ev", "kind": "process", "label": "Evaluate threats\nand competence"}, {"id": "t", "kind": "decision", "label": "Significant threats,\nor competence\ninsufficient?"}, {"id": "n2", "kind": "end", "label": "Not that\ninternal auditor", "color": "bad"}, {"id": "p", "kind": "decision", "label": "Procedure on the\n\"shall not\" list?"}, {"id": "n3", "kind": "end", "label": "Perform it\nyourself", "color": "bad"}, {"id": "w", "kind": "process", "label": "Two written\nagreements first"}, {"id": "e", "kind": "end", "label": "Direct, supervise\nand review", "color": "ok"}], "edges": [["s", "law"], ["law", "n1", "yes"], ["law", "ev", "no"], ["ev", "t"], ["t", "n2", "yes"], ["t", "p", "no"], ["p", "n3", "yes"], ["p", "w", "no"], ["w", "e"]], "caption": "The \"shall not\" list: significant judgments; higher assessed risks needing more than limited judgment; work the internal auditors were involved in that internal audit has reported or will report; decisions about the use of internal audit itself. Rose: where direct assistance stops; green: where it proceeds."}
+:::
+
+### Work versus people, side by side
+
+| Point | Use of the work | Direct assistance |
+|---|---|---|
+| What is used | Work the function has done or plans to do | Internal auditors performing the external auditor's procedures |
+| Who directs it | The function's own programme | The external auditor directs, supervises and reviews |
+| What is evaluated | The function: objectivity, competence, systematic approach | Each internal auditor: threats to objectivity (with inquiry), competence |
+| Steps | Discuss; read reports; test the body of work | Two written agreements first |
+
+## Worked examples
+
+:::: example Malwa Namkeen's loyal internal auditor
+CA Rohan Desai audits Malwa Namkeen Ltd, a Ratlam snack maker that supplies Tapri. Its two-person internal audit team is headed by the CFO's nephew, who reports to the CFO, has no access to the audit committee, and gets his increments from the CFO. He also prepares the monthly bank reconciliations and approves vendor payments above ₹5 lakh. There are no documented audit programmes, and the CFO insists that findings are "cleared by him" before the statutory auditor sees them. The team's purchase-controls testing for 2025-26 is detailed and neatly typed, so CA Rohan wants to rely on it and halve his own tests of controls over purchases.
+
+Advise CA Rohan, with reference to SA 610.
+
+::: answer Model answer
+**Relevant provision.** As per SA 610, the external auditor shall determine whether the work of the internal audit function can be used by evaluating (a) the extent to which its organisational status and relevant policies and procedures support the objectivity of the internal auditors; (b) its level of competence; and (c) whether it applies a systematic and disciplined approach, including quality control. Objectivity factors include whether the function reports to, or has direct access to, those charged with governance; whether they oversee its remuneration; whether management restricts the communication of its findings to the external auditor; and whether it is free of conflicting operational duties. The external auditor shall not use the work if any of the three is absent; competence cannot compensate for inadequate support for objectivity.
+
+**Facts of the case.** The head of internal audit reports to the CFO, who sets his increments, with no access to the audit committee; he prepares bank reconciliations and approves payments; the CFO clears findings before the auditor sees them; there are no documented procedures.
+
+**Analysis.** The organisational status does not support objectivity; the CFO's clearance is a constraint on communicating findings to the external auditor; the operational duties mean the function would be testing its own work; and without documented procedures there is no systematic and disciplined approach. Neat working papers do not cure any of this.
+
+**Conclusion.** CA Rohan shall not use the work of the internal audit function. He should perform the tests of controls over purchases himself, with the nature, timing and extent his own risk assessment requires.
+:::
+::::
+
+:::: example Kesar lends Lakshmi his internal auditors
+For the 2025-26 audit of Tapri Tea Co. Ltd, Lakshmi has evaluated Tapri's internal audit function, headed by Meenal Joshi, CA, who reports to the audit committee. No law prohibits direct assistance. Lakshmi plans to use three of Meenal's team (Farhan, Pallavi and Joseph), under her direction, for:
+
+(i) recalculating depreciation on the 1,240 café assets in the fixed asset register;
+
+(ii) estimating the impairment loss on the loss-making samosa factory at Dewas, which Lakshmi has identified as a significant risk;
+
+(iii) re-testing the vendor master-file controls that internal audit tested in October and reported on to the audit committee;
+
+(iv) deciding which internal audit reports Iyer & Associates will rely on;
+
+(v) for café cash sales, which Lakshmi has assessed as a higher risk, agreeing the daily sales summaries of 60 cafés she has selected to the bank deposit slips and listing every difference for her to evaluate.
+
+On inquiry, Pallavi tells Lakshmi that her husband manages the Bhopal cafés, 12 of which are in the sample for (v). Kesar signs a letter lending the team, with one line added in his own hand: "Meenal sees whatever they do for you before you do, and she may drop cafés that are closed for renovation." Advise Lakshmi on which tasks may be assigned, to whom, and what she must have before the team starts.
+
+::: answer Model answer
+**Relevant provision.** As per SA 610, the external auditor shall evaluate the existence and significance of threats to the objectivity of the internal auditors who will provide direct assistance (including inquiry of them about interests and relationships) and their level of competence, and shall not use an internal auditor for direct assistance if there are significant threats to that internal auditor's objectivity. The external auditor shall not use internal auditors for procedures that (a) involve making significant judgments; (b) relate to higher assessed risks of material misstatement where the judgment required in performing the procedures or evaluating the evidence is more than limited; (c) relate to work they have been involved in that internal audit has reported, or will report, to management or those charged with governance; or (d) relate to the external auditor's decisions about internal audit under SA 610. Prior to using them, the external auditor shall obtain written agreement from an authorised representative of the entity that the internal auditors will be allowed to follow the external auditor's instructions and that the entity will not intervene in their work for the external auditor, and written agreement from the internal auditors that they will keep specified matters confidential and inform the external auditor of any threat to their objectivity.
+
+**Facts and analysis.**
+
+| Task | Assign? | Reason |
+|---|---|---|
+| (i) Recalculating depreciation | Yes | Limited judgment |
+| (ii) Dewas impairment estimate | No | Significant judgment, significant risk |
+| (iii) Vendor master re-test | No | Own work, already reported to the audit committee |
+| (iv) Choosing reports to rely on | No | A decision under SA 610 itself |
+| (v) Agreeing cash summaries | Yes, not Pallavi | Higher risk, limited judgment |
+
+Task (v) relates to a higher assessed risk, but condition (b) bars such work only where the judgment required is more than limited. Agreeing summaries to deposit slips is mechanical, and Lakshmi evaluates every difference herself. Pallavi's husband manages 12 of the cafés being tested: that is a significant threat to her objectivity, so she shall not provide direct assistance.
+
+Kesar's letter is not the agreement SA 610 requires. Its added line does the opposite: Meenal previewing the team's work for Lakshmi, and dropping cafés from Lakshmi's sample, is the entity intervening in work performed for the external auditor.
+
+**Conclusion.** Lakshmi may assign tasks (i) and (v) to Farhan and Joseph, after evaluating their competence and inquiring about their interests and relationships, and must perform (ii), (iii) and (iv) herself. Before they start she shall obtain (a) a written agreement from an authorised representative of Tapri, without Kesar's added line, that the internal auditors will follow her instructions and Tapri will not intervene in their work for her, and (b) written agreements from Farhan and Joseph that they will keep specified matters confidential and inform her of any threat to their objectivity. She then directs, supervises and reviews their work; the opinion remains Iyer & Associates' sole responsibility.
+:::
+::::
+
+:::: example The payroll test that stopped in September
+CA Hemant Bhatt is the statutory auditor of Narmada Kulhad Works Ltd, an unlisted company that makes some of the clay cups Tapri's cafés serve in, for 2025-26. He evaluated its internal audit function (two Chartered Accountants reporting to the audit committee, documented work programmes, files reviewed by the head of internal audit) and concluded that its work can be used.
+
+Internal audit tested the payroll controls over the company's 4,800 contract potters for April to September 2025, on 25 workers picked by the payroll supervisor. Its report runs to nine pages; Hemant read the one-page summary ("controls operating effectively"). Page 6 records wages paid in July to three potters who had already left, "since recovered". Hemant performed no tests of payroll controls of his own for the year and placed internal audit's file in his working papers as his evidence.
+
+Comment on Hemant's approach with reference to SA 610, and state what he should do.
+
+::: answer Model answer
+**Relevant provision.** As per SA 610, once the external auditor has determined that the work of the internal audit function can be used, he shall determine the areas and extent of its use by considering the nature and scope of the work performed by the function and its relevance to the overall audit strategy and audit plan, and he shall make all significant judgments in the engagement. If he plans to use the work, he shall (A) discuss the planned use of its work with the function as a basis for coordinating their activities; (B) read the reports of the function relating to that work, to obtain an understanding of the nature and extent of the procedures it performed and the related findings; and (C) perform sufficient audit procedures on the body of work as a whole that he plans to use, to determine its adequacy for the purposes of the audit. Matters for discussion include the timing and nature of the work, the extent of audit coverage, and the proposed methods of item selection and sample sizes. His sole responsibility for the audit opinion is not reduced by using the work.
+
+**Facts and analysis.**
+
+1. *Evaluation of the function*: done, and its status, competence and approach support use. This first step was correct.
+2. *Extent and relevance*: the work covers six months of a twelve-month period. Nothing in it supports the operation of the controls from October to March, so it cannot replace his evidence for the whole year.
+3. *Discussion*: there was none, so timing, coverage, item selection and sample size were never agreed; a sample picked by the payroll supervisor, whose controls were being tested, is a selection method he could not have accepted without evaluating it.
+4. *Reading the reports*: reading only the summary missed the payments to three potters who had left. That finding bears on whether the control operated effectively and on his own assessment of the risk of fraud in payroll.
+5. *Procedures on the body of work*: none were performed. Filing internal audit's file is not evidence that the work is adequate.
+
+**Conclusion.** Hemant has not complied with SA 610. He should discuss the work with internal audit, read the full report and evaluate the July exceptions, perform procedures on the work he uses (for example, re-performing part of internal audit's testing on items he selects), and obtain his own evidence for October to March, through tests of controls or substantive procedures as his risk assessment requires. The responsibility for the opinion remains his alone.
+:::
+::::
+
+## Under the hood
+
+### Where SA 610 meets other Standards
+
+- **Risk assessment.** Inquiry of internal audit personnel is a risk assessment procedure ([[aud.risk.sa315|SA 315]]) and the first of SA 610's three uses.
+- **External confirmations.** Handing internal audit the choice of debtors, the design of requests and the receipt of replies (to its own mailbox) is not in line with SA 505, under which the external auditor controls the requests (SM 4.86, 4.140; [[aud.evid.sa505|SA 505]]).
+- **Management's expert.** SA 500 asks the same kind of question of a management's expert: evaluate competence, capabilities and objectivity (SM 4.32; [[aud.evid.sa500|SA 500]]).
+- **Inventory counts.** Observation of inventory counts is internal audit work that can be used (SM 4.40); the auditor's own attendance requirements are in [[aud.evid.sa501|SA 501]].
+
+### Two situations from the Study Material
+
+- A software glitch stopped an automated control from charging 12% interest on overdue receivables. Reporting it falls within internal audit's work of reviewing controls and recommending improvements (SM 4.67, 4.139, Test Your Understanding 4).
+- An internal auditor who does not report directly to the higher levels of management, where the risk of material misstatement is assessed as high, should not be relied on extensively (SM 4.67, 4.139–4.140, Test Your Understanding 5).
+
+## Exam angle
+
+::: exam Where SA 610 appeared, May 2024 to September 2026
+SA 610 was examined in 9 of the ICAI documents read for this lesson:
+
+- **Descriptive, 3 to 5 marks.** Sole responsibility, and what to consider before relying on internal audit (a partner blamed the internal auditor for a wrong ageing): January 2025 Q4(a) (5 marks). When to use less of the work: January 2026 Q6(b) (5 marks). Effective coordination: May 2024 Q3(d) (3 marks). Direct assistance, the "shall not" procedures and the written agreements: September 2026 Q1(b) (3 + 2 marks; the facts suggested management's written approval alone was enough; answers not yet published) and RTP January 2025 Q12. Checking an ageing's accuracy (assignable) versus evaluating the provision on it (not): MTP May 2024 Series I Q6(a) (4 marks).
+- **Multiple choice, 2 marks.** Relying on internal audit instead of performing procedures is wrong because the statutory auditor has sole responsibility for the opinion: MTP May 2025 Series I MCQ 4. Going concern evaluation is not for direct assistance: MTP September 2025 Series I MCQ 2. A control failure is internal audit's to report, and no extensive reliance on an internal auditor not reporting to higher management when risk is high: MTP September 2025 Series II MCQs 3 and 4.
+:::
+
+::: exam How the marks are earned
+The suggested answers open with "As per SA 610", quote the list the question needs in the Standard's words and order, apply it to each fact and end with a clear yes or no. Phrases that carry marks: "sole responsibility for the audit opinion expressed", "organisational status and relevant policies and procedures", "systematic and disciplined approach, including quality control", "more than limited judgment", "direction, supervision and review".
+:::
+
+::: trick JROC: when to do more yourself
+**J**udgement more, **R**isk higher, **O**bjectivity support weaker, **C**ompetence lower: each moves work back to the external auditor. Condition: JROC decides *how much* to use once all three tests are passed; failing a test means none is used.
+:::
+
+::: trick SHOD: the four closed doors of direct assistance
+**S**ignificant judgments, **H**igher risk needing more than limited judgment, **O**wn work already reported, **D**ecisions about internal audit itself. Typical assignable work: recalculating, tracing, checking the accuracy of a listing.
+:::
+
+## Answer frame
+
+### A case question: provision, facts, analysis, conclusion
+
+1. **Relevant provision**: "As per SA 610, …", only the list the question needs: the three tests; the "shall not use" conditions; JROC; SHOD; the written agreements. For "what should the auditor consider before relying on internal audit", ICAI's answer (January 2025 Q4(a)) gave the three objectives and then the three tests.
+2. **Facts of the case**: who internal audit reports to, its other duties, staffing and methods, the area's risk and judgment.
+3. **Analysis**: each fact against each condition, one line each.
+4. **Conclusion**: can the work (or the person) be used, for what, and what must be done first; sole responsibility where the question invites it.
+
+### Three answers to "Can Lakshmi give the Dewas impairment estimate to internal audit?"
+
+::: cols
+**Loses marks**
+
+"No, because internal auditors are not independent."
+
+True, but not SA 610's reason; no provision, no facts.
+---
+**Passes**
+
+"No. SA 610 does not allow direct assistance on higher-risk areas."
+
+Half the condition: higher-risk work is barred only "where the judgment required is more than limited" (task (v) is higher risk and still assignable).
+---
+**Full marks**
+
+The "shall not" conditions in full, the facts (a significant risk; estimating an impairment loss is a significant judgment), the conclusion, and that routine tasks may still be assigned after the written agreements.
+:::
+
+## Common mistakes
+
+::: mistake Hall of Shame: "the internal auditor is responsible"
+Blaming internal audit for an error the external auditor signed off. **Fix:** the external auditor has sole responsibility for the opinion; using internal audit's work or people never reduces it.
+:::
+
+::: mistake The brilliant team that reports to the CFO
+"Highly qualified, so we rely on it, although it reports to the CFO and approves payments." **Fix:** neither objectivity nor competence compensates for the other. If status and policies do not adequately support objectivity, the work shall not be used.
+:::
+
+::: mistake Direct assistance on the judgment calls
+Giving internal auditors a provision, an estimate or going concern because they "know the business". **Fix:** significant judgments, and higher assessed risks where the judgment required is more than limited, stay with the external auditor.
+:::
+
+::: mistake Management's nod instead of two written agreements
+**Fix:** before direct assistance, obtain written agreement from an authorised representative of the entity (follow instructions; no intervention) **and** from the internal auditors (confidentiality; report threats to objectivity).
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. At Sanchi Dairy Ltd, the head of internal audit reports to the CFO but meets the audit committee alone every quarter; the team is well staffed and trained, and follows documented work programmes with review. The statutory auditor has identified revenue recognition as a significant risk. Which of the following is correct?
+- [ ] The work cannot be used, because internal audit reports to management
+- [x] The work may be used, but for revenue the auditor should plan to use less of it and perform more directly
+- [ ] The work may be used extensively everywhere, because all three tests are passed
+- [ ] The auditor must use internal audit's revenue work once the tests are passed
+> Reporting to management with direct access to those charged with governance can support objectivity, so the tests are passed. But the higher the assessed risk, especially a significant risk, the less of the work is used. SA 610 never requires its use.
+
+Q: Case scenario. Tapri's internal audit team tested the café cash-handling controls in December and reported on them to the audit committee. Lakshmi now wants three auditors from that team to provide direct assistance on the 2025-26 audit; the written agreements are in place and she has found no threats to their objectivity. Which task may she NOT give them?
+- [ ] Agreeing additions in the fixed asset register to purchase invoices she has selected
+- [ ] Casting the March sales register and agreeing its total to the general ledger
+- [ ] Recalculating interest on the term loans from the sanction letters
+- [x] Testing the café cash-handling controls they examined in December
+> Direct assistance shall not be used for procedures relating to work the internal auditors were involved in that internal audit has already reported, or will report, to management or those charged with governance. The other three need only limited judgment and may be assigned under her direction, supervision and review.
+
+Q: Before using internal auditors for direct assistance, which written agreements does SA 610 require? Select all that apply.
+- [x] From an authorised representative of the entity: the internal auditors may follow the external auditor's instructions
+- [x] From an authorised representative of the entity: the entity will not intervene in their work for the external auditor
+- [x] From the internal auditors: they will keep specified matters confidential and report threats to their objectivity
+- [ ] From those charged with governance: they accept joint responsibility for the opinion
+> One agreement from the entity (two promises) and one from the internal auditors. Responsibility for the opinion is never shared.
+
+Q: An internal audit function's status strongly supports objectivity, but its staff have no training in auditing and no knowledge of the financial reporting framework. What follows?
+- [ ] Strong objectivity compensates, so the work can be used in limited areas
+- [ ] The work can be used if the external auditor documents the reasons
+- [x] The work shall not be used, because the function lacks sufficient competence
+- [ ] The work can be used only for direct assistance
+> Objectivity cannot compensate for a lack of sufficient competence. Direct assistance also needs competent internal auditors.
+
+Q: Which is a factor in evaluating competence, not objectivity?
+- [ ] Whether those charged with governance oversee its remuneration policy
+- [ ] Whether it has operational duties outside internal audit
+- [x] Whether there are established policies for hiring, training and assigning internal auditors
+- [ ] Whether management restricts it from sharing findings with the external auditor
+> Hiring, training and assigning policies are a competence factor; the other three are objectivity factors.
+:::
+
+## Recap
+
+- SA 610 uses of internal audit: risk assessment information; its work in partial substitution for direct evidence; direct assistance (the last two unless law or regulation prohibits or restricts them).
+- The external auditor has sole responsibility for the opinion; using internal audit never reduces it, and SA 610 never requires its use.
+- Three tests: objectivity supported by status and policies; competence; a systematic and disciplined approach including quality control. Fail one, and none of the work is used.
+- Objectivity and competence are a continuum, but neither compensates for the other.
+- Use less and do more directly the more judgment, the higher the risk, the weaker the objectivity, the lower the competence (JROC).
+- Using the work: discuss it, read the reports, perform sufficient procedures on the body of work.
+- Direct assistance: evaluate threats (with inquiry) and competence; never for significant judgments, higher risks needing more than limited judgment, their own reported work, or decisions about internal audit itself (SHOD); two written agreements first.
+- Bunty's cupboard can save time, not responsibility.
+
+## Flashcards
+
+Q:: SA 610: define the internal audit function.
+A:: A function of an entity that performs assurance and consulting activities designed to evaluate and improve the effectiveness of the entity's governance, risk management and internal control processes.
+
+Q:: SA 610: in what three ways may the external auditor use the internal audit function?
+A:: (i) To obtain information relevant to assessing the risks of material misstatement; (ii) unless law prohibits or restricts it, to use the function's work in partial substitution for evidence obtained directly; (iii) unless law prohibits or restricts it, to use internal auditors for direct assistance.
+
+Q:: SA 610: what are the objectives of the external auditor?
+A:: (a) To determine whether the work of the internal audit function or direct assistance can be used, and if so in which areas and to what extent; (b) if using the work, to determine whether it is adequate for the audit; (c) if using direct assistance, to appropriately direct, supervise and review the work.
+
+Q:: SA 610: what three things does the external auditor evaluate before using the function's work?
+A:: (A) The extent to which its organisational status and relevant policies and procedures support the internal auditors' objectivity; (B) its level of competence; (C) whether it applies a systematic and disciplined approach, including quality control.
+
+Q:: SA 610: define objectivity.
+A:: The ability to perform those tasks without allowing bias, conflict of interest or undue influence of others to override professional judgments.
+
+Q:: SA 610: when shall the external auditor plan to use less of the function's work and perform more directly?
+A:: The more judgment involved in planning and performing procedures and evaluating evidence; the higher the assessed risk of material misstatement (especially significant risks); the less the status and policies support objectivity; the lower the competence.
+
+Q:: SA 610: what three things shall the external auditor do when using the function's work?
+A:: Discuss the planned use with the function; read its reports on that work; perform sufficient audit procedures on the body of work as a whole to determine its adequacy.
+
+Q:: SA 610: define direct assistance.
+A:: The use of internal auditors to perform audit procedures under the direction, supervision and review of the external auditor.
+
+Q:: SA 610: for which procedures shall internal auditors not provide direct assistance?
+A:: Procedures that involve significant judgments; relate to higher assessed risks where the judgment required is more than limited; relate to work the internal auditors were involved in that has been or will be reported by internal audit to management or those charged with governance; relate to the external auditor's decisions about internal audit under SA 610.
+
+Q:: SA 610: which written agreements are needed before direct assistance?
+A:: From an authorised representative of the entity: internal auditors may follow the external auditor's instructions and the entity will not intervene. From the internal auditors: they will keep specified matters confidential and report any threat to their objectivity.
+
+Q:: SA 610: give five examples of internal audit work that can be used.
+A:: Testing operating effectiveness of controls; substantive procedures involving limited judgment; observations of inventory counts; tracing transactions through the information system; testing compliance with regulatory requirements.

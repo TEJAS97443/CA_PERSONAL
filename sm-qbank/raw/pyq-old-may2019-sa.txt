@@ -1,0 +1,669 @@
+         PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                          SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                        Question No. 1 is compulsory.
+                                  Answer any three questions from the rest.
+        Question 1
+        (a) Corporate governance is the framework of rules and practices, by which a board of
+            directors ensures accountability, fairness and transparency in a company’s relationship
+            with all its stakeholders. List out the rules and procedures that constitute corporate
+            governance framework.                                                        (3 Marks)
+        (b) Write any two application areas of Internet of Things (IOT).                      (2 Marks)
+        Answer
+        (a) The Corporate Governance Framework consists of:
+             •    explicit and implicit contracts between the company and the stakeholders for
+                  distribution of responsibilities, rights, and rewards;
+             •    procedures for reconciling the sometimes-conflicting interests of stakeholders in
+                  accordance with their duties, privileges and roles; and
+             •    procedures for proper supervision, control, and information-flows to serve as a
+                  system of checks-and-balances.
+        (b) Some of the applications area of Internet of Things (IoT) are as follows:
+             •    All home appliances to be connected and that shall create a virtual home.
+                  o    Home owners can keep track of all activities in house through their hand-held
+                       devices.
+                  o    Home security CCTV is also monitored through hand held devices.
+             •    Office machines shall be connected through internet.
+                  o    Human resource managers shall be able to see how many people have had a
+                       cup of coffee from vending machine and how many are present.
+                  o    How many printouts are being generated through office printer?
+             •    Governments can keep track of resource utilizations/extra support needed. For
+                  example- under SWACHH mission, government can tag all dustbins with IoT sensors.
+                  They (dustbins) generate a message once they are full. Being connected to wi-fi, they
+                  can intimate the cleaning supervisor of Municipal Corporation so that BIN can be
+                  emptied.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 43
+
+
+             •    As a research study, individuals have got themselves implanted with electronic chips
+                  in their bodies. This chip allows him/her to connect to home/office wi-fi. Once
+                  connected person can enter home/office and perform designated function. This chip
+                  becomes individual’s authentication token.
+             •    Washing machines with Wi-Fi networking capabilities can connect themselves to
+                  home Wi-Fi. Once these machines are so connected they can be controlled through
+                  machine manufacturer mobile APP from anywhere in the world.
+             •    India’s living legend of cricket appearing in an Advertisement for water purifier informs
+                  that, the water purifier is Wi-Fi enabled. When the purifying agents deplete in the
+                  machine, it connects to home Wi-Fi and informs the service agents of the company.
+        Question 2
+        (a) A company XYZ is implementing the software using the program development life cycle
+            methodology and applying control phases in parallel to the development phases to monitor
+            the progress against plan. Being an IT developer, design the various phases and their
+            controls for program development life cycle.                                  (6 Marks)
+        (b) Customer Relationship Management (CRM) is a system which aims at improving
+            relationship with customers. Briefly explain any four key benefits of CRM module of ERP.
+                                                                                                (4 Marks)
+        Answer
+        (a) The primary objective of Program Development Life Cycle phase within the System s
+            Development Life Cycle is to produce or acquire and to implement high-quality programs.
+            This includes the following phases:
+             •    Planning: Techniques like Work Breakdown Structures (WBS), Gantt Charts and
+                  PERT (Program Evaluation and Review Technique) Charts can be used to monitor
+                  progress against plan.
+             •    Control: The Control phase has two major purposes:
+                  o    Task progress in various software life-cycle phases should be monitored against
+                       plan and corrective action should be taken in case of any deviations.
+                  o    Control over software development, acquisition, and implementation tasks
+                       should be exercised to ensure that the software released for production use is
+                       authentic, accurate, and complete.
+             •    Design: A systematic approach to program design, such as any of the structured
+                  design approaches or object-oriented design is adopted.
+             •    Coding: Programmers must choose a module implementation and integration
+                  strategy like Top-down, Bottom-up and Threads approach; a coding strategy that
+
+
+
+
+© The Institute of Chartered Accountants of India
+        44                   INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+                  follows the precepts of structured programming, and a documentation strategy to
+                  ensure program code is easily readable and understandable.
+             •    Testing: These tests are to ensure that a developed or acquired program achieves
+                  its specified requirements. These are as follows:
+                  o    Unit Testing – which focuses on individual program modules;
+                  o    Integration Testing – Which focuses in groups of program modules; and
+                  o    Whole-of-Program Testing – which focuses on whole program.
+             •    Operation and Maintenance: Management establishes formal mechanisms to
+                  monitor the status of operational programs so maintenance needs can be identified
+                  on a timely basis. Three types of maintenance can be used are as follows:
+                  o    Repair Maintenance: in which program errors are corrected;
+                  o    Adaptive Maintenance: in which the program is modified to meet changing user
+                       requirements; and
+                  o    Perfective Maintenance: in which the program is tuned to decrease the
+                       resource consumption.
+        (b) Key benefits of a Customer Relationship Management (CRM) module of ERP are as under:
+             •    Improved customer relations: One of the prime benefits of using a CRM is obtaining
+                  better customer satisfaction. By using this strategy, all dealings involving servicing,
+                  marketing, and selling out products to the customers can be carried out in an
+                  organized and systematic way. Better services can be provided to customers through
+                  improved understanding of their issues and this in turn helps in increasing customer
+                  loyalty and decreasing customer agitation. In this way, continuous feedback from the
+                  customers regarding the products and services can be received. It is also possible
+                  that the customers may recommend the product to their acquaintances, when efficient
+                  and satisfactory services are provided.
+             •    Increase customer revenues: By using a CRM strategy for any business, the
+                  revenue of the company can be increased. Using the data collected, marketing
+                  campaigns can be popularized in a more effective way. With the help of CRM
+                  software, it can be ensured that the product promotions reach a different and brand
+                  new set of customers, and not the ones who had already purchased the product, and
+                  thus effectively increase the customer revenue.
+             •    Maximize up-selling and cross-selling: A CRM system allows up-selling which is
+                  the practice of giving customers premium products that fall in the same category of
+                  their purchase. The strategy also facilitates cross selling which is the practice of
+                  offering complementary products to customers, based on their previous purchases.
+                  This is done by interacting with the customers and getting an idea about their wants,
+                  needs, and patterns of purchase. The details thus obtained will be stored in a central
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 45
+
+
+                  database, which is accessible to all company executives. So, when an opportunity is
+                  spotted, the executives can promote their products to the customers, thus maximizing
+                  up-selling and cross selling.
+             •    Better internal communication: Following a CRM strategy helps in building up
+                  better communication within the company. The sharing of customer data between
+                  different departments will enable them to work as a team. This is better than
+                  functioning as an isolated entity, as it will help in increasing the company’s profitability
+                  and enabling better service to customers.
+             •    Optimize marketing: CRM enables to understand the customer needs and behavior
+                  in a better way, thereby allowing any enterprise to identify the correct time to market
+                  its product to the customers. CRM will also give an idea about the most profitable
+                  customer groups, and by using this information, similar prospective groups, at the
+                  right time will be targeted. In this way, marketing resources can be optimized
+                  efficiently and time is not wasted on less profitable customer groups.
+        Question 3
+        (a) Information Technology (IT) risks can be reduced by implementing the right type and level
+            of control in automated environment that is done by integrated controls into information
+            technology. Being an IT consultant, suggest various steps of IT related control to a branch
+            manager of a bank.                                                                (6 Marks)
+        (b) A business organization is planning to increase the accuracy of information transferred
+            and certifies the repeatability of the value-added task performed by the automation of
+            business. Being a management consultant, identify any four major benefits that the
+            organization can achieve through the automation of a business process.        (4 Marks)
+        Answer
+        (a) IT risks need to be mitigated by implementing the right type and level of controls in the
+            automated environment. Sample list of IT related controls in Banks are as follows:
+             •    The system maintains a record of all log-ins and log-outs. If the transaction is sought
+                  to be posted to a dormant or inoperative account, the processing is halted and can
+                  be proceeded with only with a supervisory password.
+             •    The system checks whether the amount to be withdrawn is within the drawing power.
+             •    The system flashes a message if the balance in a lien account would fall below the
+                  lien amount after the processing of the transaction.
+             •    Access to the system is available only between stipulated hours and specified days
+                  only.
+             •    Individual users can access only specified directories and files. Users should be given
+                  access only on a ‘need-to-know basis’ based on their role in the bank. This is
+                  applicable for internal users of the bank and customers.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        46                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+             •    Exception situations such as limit excess, reactivating dormant accounts, etc. can be
+                  handled only with a valid supervisory level password.
+             •    A user timeout is prescribed that means that after a user logs-in and there is no
+                  activity for a pre-determined time, the user is automatically logged out of the system .
+             •    Once the end-of-the-day process is over, the ledgers cannot be opened without a
+                  supervisory level password.
+        (b) Major benefits of automating Business Processes are as follows:
+             •    Quality and Consistency: Ensures that every action is performed identically -
+                  resulting in high quality, reliable results and stakeholders will consistently experience
+                  the same level of service.
+             •    Time Saving: Automation reduces the number of tasks employees would otherwise
+                  need to do manually. It frees up time to work on items that add genuine value to the
+                  business, allowing innovation and increasing employees’ levels of motivation.
+             •    Visibility: Automated processes are controlled and consistently operate accurately
+                  within the defined timeline. It gives visibility of the process status to the organization.
+             •    Improved Operational Efficiency: Automation reduces the time it takes to achieve
+                  a task, the effort required to undertake it and the cost of completing it successfully.
+                  Automation not only ensures systems run smoothly and efficiently, but that errors are
+                  eliminated and best practices are constantly leveraged.
+             •    Governance & Reliability: The consistency of automated processes means
+                  stakeholders can rely on business processes to operate and offer reliable processes
+                  to customers, maintaining a competitive advantage.
+             •    Reduced Turnaround Times: Eliminate unnecessary tasks and realign process
+                  steps to optimize the flow of information throughout production, service, billing and
+                  collection. This adjustment of processes distills operational performance and reduces
+                  the turnaround times for both staff and external customers.
+             •    Reduced Costs: Manual tasks, given that they are performed one-at-a-time and at a
+                  slower rate than an automated task, will c ost more. Automation allows us to
+                  accomplish more by utilizing fewer resources.
+        Question 4
+        (a) General controls are pervasive controls and apply to all system components, processes
+            and data for a given enterprise or systems environment. As an IT consultant, discuss some
+            of the controls covered under general controls which you would like to ensure for a given
+            enterprise.                                                                      (6 Marks)
+        (b) Discuss the key activities, which require special attention for auditing the user access
+            provisioning.                                                                  (4 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 47
+
+
+        Answer
+        (a) General controls related to IT environment and Information Systems include the following:
+             •    Information Security Policy: The security policy is approved by the senior
+                  management and encompasses all areas of operations of bank and drives access to
+                  information across the enterprise and other stakeholders.
+             •    Administration, Access and Authentication: IT should be administered with
+                  appropriate policies and procedures clearly defining the levels of access to
+                  information and authentication of users.
+             •    Separation of key IT functions: Secure deployment of IT requires the bank to have
+                  separate IT organization structure with key demarcation of duties for different
+                  personnel within IT department and to ensure that there are no SoD conflicts.
+             •    Management of Systems Acquisition and Implementation: Software solutions for
+                  Core Banking Systems (CBS) are most developed acquired and implemented. Hence,
+                  process of acquisition and implementation of systems should be properly controlled.
+             •    Change Management: IT solutions deployed and its various components must be
+                  changed in tune with changing needs as per changes in technology environment,
+                  business processes, regulatory and compliance requirements as these changes
+                  impact the live environment of banking services. Hence, change management
+                  process should be implemented to ensure smooth transition to new environments
+                  covering all key changes including hardware, software and business processes. All
+                  changes must be properly approved by the management before implementation.
+             •    Backup, Recovery and Business Continuity: Heavy dependence on IT and
+                  criticality makes it imperative that resilience of banking operations should be ensured
+                  by having appropriate business continuity including backup, recovery and off-site data
+                  center.
+             •    Proper Development and Implementation of Application Software: Application
+                  software drives the business processes of the banks. These solutions in case
+                  developed and implemented must be properly controlled by using standard software
+                  development process.
+             •    Confidentiality, Integrity and Availability of Software and data files: Security is
+                  implemented to ensure Confidentiality, Integrity and Availability of information.
+                  Confidentiality refers to protection of critical information, Integrity refers to ensuring
+                  authenticity of information at all stages of processing or contents should not be
+                  altered, and Availability refers to ensuring availability of information to users when
+                  required. All IT operations need to be controlled by appropriate policies and
+                  procedures that refer to how IT is deployed, implemented and maintained within the
+                  bank.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        48                   INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+             •    Incident response and management: There may be various incidents created due
+                  to failure of IT that need to be appropriately responded and managed as per pre-
+                  defined policies and procedures.
+        (b) Auditing the user access provisioning process requires attention to several key activities
+            that include the following:
+             •    Access request processes: The IS auditor should identify all user access request
+                  processes and determine if these processes are used consistently throughout the
+                  organization.
+             •    Access approvals: The IS auditor needs to determine how requests are approved
+                  and by what authority they are approved. The auditor should determine if system or
+                  data owners approve access requests, or if any accesses are ever denied.
+             •    New employee provisioning: The IS auditor should examine the new employee
+                  provisioning process to see how a new employee’s user accounts are initially set up.
+                  The auditor should determine if new employees’ managers are aware of the access
+                  requests that their employees are given and if they are excessive.
+             •    Segregation of Duties (SoD): The IS auditor should determine if the organization
+                  makes any effort to identify segregation of duties. This may include whether there are
+                  any SoD matrices in existence and if they are actively used to make user access
+                  request decisions.
+             •    Access reviews: The IS auditor should determine if there are any periodic access
+                  reviews and what aspects of user accounts are reviewed; this may include termination
+                  reviews, internal transfer reviews, SoD reviews and dormant account reviews.
+        Question 5
+        (a) Mobile computing is an important and rapidly evolving technology that allows users to
+            transmit data from remote location to other locations in mobility condition. Being a
+            communication expert, identify the limitations in current scenario that impede or hesitate
+            users to use this technology frequently.                                        (8 Marks)
+        (b) A business organization is shifting from traditional accounting system to computerized
+            accounting system. The organization needs to store the data that is relatively permanent
+            and not expected to change frequently in accounting system. As a financial expert, suggest
+            any two types of such data in accounting system.                                (2 Marks)
+                                                     OR
+             Major feature of an ERP system is central database. Which are the options possible to
+             different users while assigning access to it?
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 49
+
+
+        Answer
+        (a) Limitations of Mobile Computing are as follows:
+             •    Insufficient Bandwidth: Mobile Internet access is generally slower than direct cable
+                  connections using technologies such as General Packet Radio Service (GPRS) and
+                  Enhanced Data for GSM (Global System for Mobile Communication) Evolution
+                  (EDGE), and 3G networks. These networks are usually available within range of
+                  commercial cell phone towers. Higher speed wireless LANs are inexpensive but have
+                  very limited range.
+             •    Security Standards: When working mobile, one is dependent on public networks,
+                  requiring careful use of Virtual Private Network (VPN). Security is a major concern
+                  while concerning the mobile computing standards on the fleet. One can easily attack
+                  the VPN through a huge number of networks interconnected through the line.
+             •    Power consumption: When a power outlet or portable generator is not available,
+                  mobile computers must rely entirely on battery power. Combined with the compact
+                  size of many mobile devices, this often means unusually expensive batteries must be
+                  used to obtain the necessary battery life.
+             •    Transmission interferences: Weather, terrain, and the range from the nearest
+                  signal point can all interfere with signal reception. Reception in tunnels, some
+                  buildings, and rural areas is often poor.
+             •    Potential health hazards: People who use mobile devices while driving is often
+                  distracted from driving, and are thus assumed more likely to be involved in traffic
+                  accide nts. Cell phon es may interfe re with sensitive medica l devices. There are
+                  allegations that cell phone signals may cause health problems.
+             •    Human interface with device: Screens and keyboards tend to be small, which may
+                  make them hard to use. Alternate input methods such as speech or handwriting
+                  recognition require training.
+        (b) Master data is relatively permanent data that is not expected to change again and again.
+            It may change, but not again and again. In accounting systems, there may be following
+            type of master data.
+             •    Accounting Master Data: This includes names of ledgers, groups, cost centers,
+                  accounting voucher types, etc. E.g. Capital Ledger is created once and not expected
+                  to change frequently. Similarly, all other ledgers like sales, purchase, expenses and
+                  income ledgers are created once and not expected to change again and again.
+                  Opening balance carried forward from previous year to next year is also a part of
+                  master data and not expected to change.
+             •    Inventory Master Data: This includes stock items, stock groups, godowns, inventory
+                  voucher types, etc. Stock item is something which bought and sold for business
+                  purpose, trading goods. E.g. If a person is into the business of dealing in white goods,
+
+
+
+
+© The Institute of Chartered Accountants of India
+        50                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+                  stock items shall be Television, Fridge, Air Conditioner, etc. For a person running a
+                  medicine shop, all types of medicines shall be stock items for him/her.
+             •    Payroll Master Data: Payroll is a system for calculation of salary and recoding of
+                  transactions relating to employees. Master data in case of payroll can be names of
+                  employees, group of employees, salary structure, pay heads, etc. These data are not
+                  expected to change frequently. E.g. Employee created in the system will remain as it
+                  is for a longer period of time, his/her salary structure may change but not frequently,
+                  pay heads associated with his/ her salary structure will be relatively permanent.
+             •    Statutory Master Data: This is a master data relating to statute/law which may be
+                  different for different type of taxes. E.g. Goods and Service Tax (GST), Nature of
+                  Payments for Tax Deducted at Source (TDS), etc. This data also shall be relatively
+                  permanent. We don’t have any control on this data as statutory changes are made by
+                  Government and not by us. In case of change in tax rates, forms, categories; we need
+                  to update/change our master data.
+                                                          OR
+             While assigning access to different users in an ERP System, following options are possible.
+             •    Create – Allows to create data.
+             •    Alter – Allows to alter data.
+             •    View – Allows only to view data.
+             •    Print – Allows to print data.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 51
+
+
+                             PAPER 7 - SECTION – B: STRATEGIC MANAGEMENT
+        Question paper comprises of 5 questions, Answer Question No. 6 which is compulsory and any 3
+                                       out of the remaining 4 questions.
+        Question 6
+        Gautam and Siddhartha two brothers are the owners of a cloth manufacturing unit located in
+        Faridabad. They are doing well and have substantial surplus funds available within the
+        business. They have different approaches regarding corporate strategies to be followed to be
+        more competitive and profitable in future.
+        Gautam is interested in acquiring another industrial unit located in Faridabad manufacturing
+        stationery items such as permanent markers, notebooks, pencils and pencil sharpeners,
+        envelopes and other office supplies. On the other hand, Siddhartha desires to start another
+        unit to produce readymade garments.
+        Discuss the nature of corporate strategies being suggested by two brothers and risks involved
+        in it.                                                                             (5 Marks)
+        Answer
+        Gautam wishes to diversify in a business that is not related to their existing line of product and
+        can be termed as conglomerate diversification. He is interested in acquiring another industrial
+        unit located in Faridabad manufacturing stationery items such as permanent markers,
+        notebooks, pencils and pencil sharpeners, envelopes and other office supplies, which is not
+        related to their existing product. In conglomerate diversification, the new businesses/ products
+        are disjointed from the existing businesses/products in every way; it is a unrelated
+        diversification. In process/ technology/ function, there is no connection between the new
+        products and the existing ones. Conglomerate diversification has no common thread at all with
+        the firm's present position.
+        On the other hand, Siddhartha seeks to move forward in the chain of existing product by
+        adopting vertically integrated diversification/ forward integration. The cloth being manufactured
+        by the existing processes can be used as raw material of garments manufacturing business. In
+        such diversification, firms opt to engage in businesses that are related to the existing business
+        of the firm. The firm remains vertically within the same process and moves forward or
+        backward in the chain. It enters specific product/process steps with the intention of making
+        them into new businesses for the firm. The characteristic feature of vertically integrated
+        diversification is that here, the firm does not jump outside the vertically linked product-process
+        chain.
+        Both types of diversifications have their own risks. In conglomerate diversification, there are
+        no linkages with customer group, customer marketing functions and technology used, which is
+        a risk. In the case of vertical integrated diversification, there is a risk of lack of continued focus
+        on the original business.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        52                    INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+        Question 7
+        (a) ‘Strategic Management is not a panacea for all the corporate ills, it has its own pitfalls
+            which can’t counter all hindrances and always achieve success’.
+             Do you agree with this statement? Discuss.                                       (5 Marks)
+        (b) What do you understand by ‘Competitive Landscape’? What are steps to understand the
+            competitive landscape?                                                   (5 Marks)
+        Answer
+        (a) It is true that the strategic management is not a panacea for all corporate ills. This is on
+            account of complex multiple forces acting on business organization and limiting its
+            success.
+             These limitations are on account of following factors:
+                  Environment is highly complex and turbulent. It is difficult to understand the
+                   complex environment and exactly pinpoint how it will shape-up in future. T he
+                   organisational estimate about its future shape may awfully go wrong and jeopardise
+                   all strategic plans.
+                  Strategic management is a time-consuming process. Organisations spend a lot
+                   of time in preparing, communicating the strategies that may impede daily operations
+                   and negatively impact the routine business.
+                  Strategic management is a costly process. Strategic management adds a lot of
+                   expenses to an organization – particularly to small and medium organisations.
+                   Expert strategic planners need to be engaged, efforts are made for analysis of
+                   external and internal environments devise strategies and properly implement.
+                  Competition is unpredictable. In a competitive scenario, where all organisations
+                   are trying to move strategically, it is difficult to clearly estimate the competitive
+                   responses to the strategies.
+        (b) Competitive landscape is a business analysis which identifies competitors, either direct
+            or indirect. Competitive landscape is about identifying and understanding the competitors
+            and at the same time, it permits the comprehension of their vision, mission, core values,
+            niche market, strengths and weaknesses.
+             Steps to understand the competitive landscape are:
+             (i)   Identify the competitor: The first step to understand the competitive landscape is
+                   to identify the competitors in the firm’s industry and have actual data about their
+                   respective market share.
+             (ii) Understand the competitors: Once the competitors have been identified, the
+                  strategist can use market research report, internet, newspapers, social media,
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 53
+
+
+                   industry reports, and various other sources to understand the products and services
+                   offered by them in different markets.
+             (iii) Determine the strengths of the competitors: What are the strength of the
+                   competitors? What do they do well? Do they offer great products? Do they utilize
+                   marketing in a way that comparatively reaches out to more consumers? Why do
+                   customers give them their business?
+             (iv) Determine the weaknesses of the competitors: Weaknesses (and strengths) can
+                  be identified by going through consumer reports and reviews appearing in various
+                  media. After all, consumers are often willing to give their opinions, especially when
+                  the products or services are either great or very poor.
+             (v)   Put all of the information together: At this stage, the strategist should put
+                   together all information about competitors and draw inference about what they are
+                   not offering and what the firm can do to fill in the gaps. The strategist can also know
+                   the areas which need to be strengthen by the firm.
+        Question 8
+        (a) What are the characteristics which must be possess by objectives, to be meaningful to
+            serve the intended role?                                                   (5 Marks)
+        (b) Explain the prominent areas where the Human Resource Manager can play a strategic
+            role.                                                                  (5 Marks)
+        Answer
+        (a) Objectives with strategic focus relate to outcomes that strengthen an organization’s
+            overall business position and competitive vitality. Objectives, to be meaningful to serve
+            the intended role, must possess the following characteristics:
+                  Objectives should define the organization’s relationship with its environment.
+                  Objectives should be facilitative towards achievement of mission and purpose.
+                  Objectives should provide the basis for strategic decision-making.
+                  Objectives should provide standards for performance appraisal.
+                  Objectives should be understandable.
+                  Objectives should be concrete and specific.
+                  Objectives should be related to a time frame.
+                  Objectives should be measurable and controllable.
+                  Objectives should be challenging.
+                  Different objectives should correlate with each other.
+                  Objectives should be set within constraints.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        54                   INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+        (b) Prominent areas where the Human Resource Manager can play strategic role are as
+            follows:
+             1.   Providing purposeful direction: The human resource manager leads people and
+                  the organization towards the desired direction involving people. He can ensure
+                  harmony between organisational objectives and individual objectives.
+             2.   Creating competitive atmosphere: In the present business environment,
+                  maintaining competitive position or gains is an important objective of any business.
+                  Having a highly committed and competent workforce is very important for getting a
+                  competitively advantageous position.
+             3.   Facilitation of change: The human resource manager will be more concerned
+                  about furthering the organization not just maintaining it. He can devote more time to
+                  promote acceptance of change rather than maintaining the status quo.
+             4.   Managing workforce diversity: In a modern organization, management of diverse
+                  workforce is a great challenge. Workforce diversity can be observed in terms of
+                  male and female, young and old, educated and uneducated, unskilled and
+                  professional employee and so on. Motivation, maintaining morale and commitment
+                  are some of the key tasks that a HR manager can perform.
+             5.   Empowerment of human resources: Empowerment involves giving more power to
+                  those who, at present, have little control on what they do and little ability to
+                  influence the decisions being made around them.
+             6.   Building core competency: The human resource manager has an important role to
+                  play in developing core competency of the firm . A core competence is a unique
+                  strength of an organization which may not be shared by others. Organization of
+                  business around core competence implies leveraging the limited resources of a firm.
+             7.   Development of works ethics and culture: A vibrant work culture will have to be
+                  developed in the organizations to create an atmosphere of trust among people and
+                  to encourage creative ideas by the people.
+        Question 9
+        (a) Discuss the leadership roles played by the managers in pushing for good strategy
+            execution.                                                            (5 Marks)
+        (b) What do you mean by differentiation strategy? How is it achieved?                (5 Marks)
+        Answer
+        (a) A manager as a strategic leader has many different leadership roles to play: visionary,
+            chief entrepreneur and strategist, chief administrator, culture builder, resource acquirer
+            and allocator, capabilities builder, process integrator, crisis solver, spokesperson,
+            negotiator, motivator, arbitrator, policy maker an so on. Managers have five leadership
+            roles to play in pushing for good strategy execution:
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 55
+
+
+             1.   Staying on top of what is happening, closely monitoring progress, working through
+                  issues and obstacles.
+             2.   Promoting a culture that mobilizes and energizes organizational members to
+                  execute strategy and perform at a high level.
+             3.   Keeping the organization responsive to changing conditions, alert for new
+                  opportunities and remain ahead of rivals in developing competitively valuable
+                  competencies and capabilities.
+             4.   Ethical leadership and insisting that the organization conduct its affairs like a model
+                  corporate citizen.
+             5.   Pushing corrective actions to improve strategy execution and overall strategic
+                  performance.
+        (b) Differentiation strategy is aimed at broad mass market and involves the creation of a
+            product or service that is perceived by the customers as unique. The uniqueness can be
+            associated with product design, brand image, features, technology, dealer network or
+            customer service. Because of differentiation, the business can charge a premium for its
+            product.
+             Differentiation strategy should be pursued only after a careful study of buyers’ needs and
+             preferences to determine the feasibility of incorporating one or more differentiating
+             features into a unique product that features the desired attributes.
+             To achieve differentiation, following measures can be adopted by an organization:
+             1.   Offer utility for the customers and match the products with their tastes and preferences.
+             2.   Elevate the performance of the product.
+             3.   Offer the promise of high quality product/service for buyer satisfaction.
+             4.   Rapid product innovation.
+             5.   Taking steps for enhancing image and its brand value.
+             6.   Fixing product prices based on the unique features of the product and buying capacity of
+                  the customer.
+        Question 10
+        (a) What is Benchmarking? Explain the various steps in Benchmarking process.             (7 Marks)
+        (b) What is an Hourglass structure? How is it beneficial for an organization?            (3 Marks)
+                                                        OR
+
+             Distinguish between Strategy Formulation and Strategy Implementation.               (3 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+        56                   INTERMEDIATE (NEW) EXAMINATION: MAY, 2019
+
+
+        Answer
+        (a) Benchmarking is an approach of setting goals and measuring productivity of firms based
+            on best industry practices or against the products, services and practices of its
+            competitors or other acknowledged leaders in the industry. It developed out of need to
+            have information against which performance can be measured. Benchmarking helps
+            businesses in improving performance by learning from the best practices and the
+            processes by which they are achieved. Thus, benchmarking is a process of continuous
+            improvement in search for competitive advantage. Firms can use benchmarking
+            practices to achieve improvements in diverse range of management functions like
+            product development, customer services, human resources management, etc.
+             The various steps in Benchmarking Process are as under:
+             (i)   Identifying the need for benchmarking: This step will define the objectives of the
+                   benchmarking exercise. It will also involve selecting the type of benchmarking.
+                   Organizations identify realistic opportunities for improvements.
+             (ii) Clearly understanding existing decisions processes: The step will involve
+                  compiling information and data on performance.
+             (iii) Identify best processes: Within the selected framework best processes are
+                   identified. These may be within the same organization or external to them.
+             (iv) Comparison of own process and performance with that of others :
+                  Benchmarking process also involves comparison of performance of the organization
+                  with performance of other organization. Any deviation between the two is analysed
+                  to make further improvements.
+             (v)   Prepare a report and implement the steps necessary to close the performance
+                   gap: A report on benchmarking initiatives containing recommendations is prepared.
+                   Such a report also contains the action plans for implementation.
+             (vi) Evaluation: Business organizations evaluate the results of the benchmarking
+                  process in terms of improvements vis-à-vis objectives and other criteria set for the
+                  purpose. It also periodically evaluates and reset the benchmarks in the light of
+                  changes in the conditions that impact the performance.
+        (b) In the recent years information technology and communications have significantly altered
+            the functioning of organizations. The role played by middle management is diminishing
+            as the tasks performed by them are increasingly being replaced by the technological
+            tools. Hourglass organization structure consists of three layers in an organisation
+            structure with constricted middle layer. The structure has a short and narrow middle
+            management level.
+             Information technology links the top and bottom levels in the organization taking away
+             many tasks that are performed by the middle level managers. A shrunken middle layer
+             coordinates diverse lower level activities.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 57
+
+
+
+
+                                     Hourglass Organization Structure
+             Hourglass structure has obvious benefit of reduced costs. It also helps in enhancing
+             responsiveness by simplifying decision making. Decision making authority is shifted
+             close to the source of information so that it is faster. However, with the reduced size of
+             middle management, the promotion opportunities for the lower levels diminish
+             significantly.
+                                                     OR
+
+             Although inextricably linked, strategy implementation is fundamentally different from
+             strategy formulation in the following ways:
+                       Strategy Formulation                        Strategy Implementation
+                 Strategy formulation focuses on             Strategy implementation focuses on
+                  effectiveness.                               efficiency.
+                 Strategy formulation is primarily an        Strategy implementation is primarily
+                  intellectual process.                        an operational process.
+                 Strategy   formulation    requires          Strategy implementation requires
+                  conceptual intuitive and analytical          motivation and leadership skills.
+                  skills.
+                 Strategy      formulation requires          Strategy implementation requires
+                  coordination among the executives            coordination among the executives at
+                  at the top level.                            the middle and lower levels.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

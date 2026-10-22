@@ -1,0 +1,625 @@
+{
+ "source": {
+  "type": "RTP",
+  "attempt": "May 2023",
+  "attempt_sort": "2023-05",
+  "series": null,
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://cacult.com/wp-content/uploads/2023/03/7..pdf",
+  "local_file": "raw/rtp-old-may2023-p7.pdf",
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Mirror: CA Cult (https://cacult.com/rtps-ca-intermediate-course/), which hosts the official ICAI RTP PDF. Not retrieved from an icai.org URL."
+ },
+ "questions": [
+  {
+   "id": "rtp-old-may2023-q1i",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Competitive landscape → Ch 2 (Competitive Strategy)",
+   "qno": "1(i)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "Anand, a fashion designer from Mumbai, started a nail art parlour in a posh Mumbai urban area, in partnership with his college friend Aanya. They had a clear choice of business as per their field of study and were assured that cosmetics is one of the biggest industries in India.\nCosmetics include a huge range of products, from skin care to hair care, makeup (the most profitable), lip care, hygiene products and many more lines of personal care. However, Aanya being a trained nano art designer and Anand driven by Nail Art, happened to share common interests, and hence, built Naileo.\nThe business plan was simple, collaborate with online service providers, be active on social media, offer paid promotions, and give out free trials to lure in customers. The focus being on creating a connection. Clearly, the target group was young working females who could spend decent amounts of money on personal luxury. The brand wanted to cash on easy disposal income of the target consumers. However, in the same segment for men, tattoo parlours were already taking away the share of business. These tattoo brands could easily transition into Nail Art and be a tough competition to Naileo. The team had to be aware of the competitor dynamics.\nAnand had personal connections in Solan district of Himachal Pradesh, where they planned to open small workshops to produce artificial nails of high quality to be sold pan- India, online as well as to other parlours. The team of two also wanted to add value to the society. For that they offered free training to young girls and offered them permanent employment. The customers found the initiative quite enriching and supported them by being loyal to their services. This was an unplanned aspect of brand building that added more value than paid promotions.\nThe brand has been doing well lately, with the economic model being sustainable so far. They plan to open two more stores in Mumbai and a flagship store in Bengaluru. With a set vision of the future and a socially impactful mission, Naileo has been a profitable bet for Anand and Aanya.\nBased on the above Case Scenario, answer the Multiple Choice Questions.\n\nTattoo Parlours are an indirect competition to Naileo. Application of which of the following can be utilised to understand the in-depth intricacies of their competitive strength?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Competitive Landscape"
+    },
+    {
+     "label": "b",
+     "text": "Identification Tools"
+    },
+    {
+     "label": "c",
+     "text": "Competitive Intelligence"
+    },
+    {
+     "label": "d",
+     "text": "Collation of all gathered information"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "competitive landscape",
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q1ii",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic alliance → Ch 4 (External growth strategies)",
+   "qno": "1(ii)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nAnand’s decision of opening Solan Workshop can be described as?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Horizontal Integration Diversification"
+    },
+    {
+     "label": "b",
+     "text": "Vertical Integration Diversification"
+    },
+    {
+     "label": "c",
+     "text": "Concentric Diversification"
+    },
+    {
+     "label": "d",
+     "text": "Strategic Alliance"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic alliance"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q1iii",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Understanding customers and markets → Ch 2",
+   "qno": "1(iii)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nThe main idea behind marketing is to connect with the customers. In this context, which of the following has been willingly ignored by the marketing team at Naileo?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Market Segmentation"
+    },
+    {
+     "label": "b",
+     "text": "Market Scanning"
+    },
+    {
+     "label": "c",
+     "text": "Market Positioning"
+    },
+    {
+     "label": "d",
+     "text": "Marketing Target"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "customer analysis"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q1iv",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "SWOT analysis → Ch 3 (Combining External and Internal Analysis)",
+   "qno": "1(iv)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nBased on question three above, what was the core methodology behind willingly ignoring a major aspect of marketing?",
+   "options": [
+    {
+     "label": "a",
+     "text": "SWOT Analysis, founders’ area of expertise"
+    },
+    {
+     "label": "b",
+     "text": "BCG Matrix, Artificial Nails being a cash cow"
+    },
+    {
+     "label": "c",
+     "text": "Vision, to employ underprivileged youth"
+    },
+    {
+     "label": "d",
+     "text": "Mission, to be a national leader in new cosmetic segment"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "swot analysis"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q1v",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisational culture → Ch 5 (Culture (soft))",
+   "qno": "1(v)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nAnand being the strategy implementer of Naileo, should be aware of which of the following statements around corporate culture?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Corporate Culture prevails strategic decisions"
+    },
+    {
+     "label": "b",
+     "text": "Change all the hindering facets of corporate culture for effective strategy execution"
+    },
+    {
+     "label": "c",
+     "text": "Implementation is a superset of corporate culture"
+    },
+    {
+     "label": "d",
+     "text": "Leadership Style is a subset of culture"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "culture"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q2",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Portfolio analysis / BCG matrix → Ch 4 (How to develop strategic options)",
+   "qno": "2",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Sanjay guided the team of young entrepreneurs to hold to the current position in the market till they get a big opportunity. What could be their business termed as basis Sanjay’s advice?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Question Mark"
+    },
+    {
+     "label": "b",
+     "text": "Cash Cow"
+    },
+    {
+     "label": "c",
+     "text": "Star"
+    },
+    {
+     "label": "d",
+     "text": "Dog"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "bcg matrix",
+    "entrepreneur"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Diversification / integration → Ch 4 (Expansion through diversification)",
+   "qno": "3",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Sumedha has a home-grown brand which makes traditional lehengas. She thought of expanding her business and added linen jackets and cotton trousers to her product line. Which strategy is she working on?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Backward integration"
+    },
+    {
+     "label": "b",
+     "text": "Intensification"
+    },
+    {
+     "label": "c",
+     "text": "Diversification"
+    },
+    {
+     "label": "d",
+     "text": "Horizontal Diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "diversification"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q4",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter's five forces / industry environment analysis → Ch 2",
+   "qno": "4",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Raju started a samosa stall in a local market and the existing momos and bhelpuri stall owners started creating problems for him. This is an example of-",
+   "options": [
+    {
+     "label": "a",
+     "text": "Bargaining power of suppliers"
+    },
+    {
+     "label": "b",
+     "text": "Threat of new entrants"
+    },
+    {
+     "label": "c",
+     "text": "Substitute products"
+    },
+    {
+     "label": "d",
+     "text": "Nature of rivalry in industry"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "five forces"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q5",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic group mapping → Ch 3 (Analysing Industry and Markets)",
+   "qno": "5",
+   "kind": "mcq",
+   "marks": null,
+   "question": "The activity of identifying the strongest and weakest companies is known as:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategic Audit"
+    },
+    {
+     "label": "b",
+     "text": "Portfolio Analysis"
+    },
+    {
+     "label": "c",
+     "text": "Strategic Surveillance"
+    },
+    {
+     "label": "d",
+     "text": "Strategic Group mapping"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic group mapping"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q6",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic Marketing Techniques → Ch 3 (relocated verbatim into Ch 3.3.3 Strategic Drivers: Product/Services)",
+   "qno": "6",
+   "kind": "mcq",
+   "marks": null,
+   "question": "An airline operator is providing special lounge at major airports for its frequent flyers. This marketing technique is known as:-",
+   "options": [
+    {
+     "label": "a",
+     "text": "Relationship Marketing"
+    },
+    {
+     "label": "b",
+     "text": "Augmented Marketing"
+    },
+    {
+     "label": "c",
+     "text": "Social Marketing"
+    },
+    {
+     "label": "d",
+     "text": "Synchro Marketing"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "marketing techniques"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q7",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 1 \"Introduction to Strategic Management\" → Ch 1",
+   "qno": "7",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "\"A business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\" Do you agree with the statement? Give reasons.",
+   "options": null,
+   "answer": "Yes, a business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\nIn planned strategy, organisations will analyse possible environmental scenarios and create strategic framework after proper planning and set procedures and work on these strategies in a pre-determined manner. However, in reality no company can forecast both internal and external environment exactly. Everything cannot be planned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour, evolving technologies and so on.\nThere can be significant deviations between what was visualised and what actually happens. There can be significant or major strategic changes when the environment demands. Reactive strategy is triggered by the changes in the environment and provides ways and means to cope with the negative factors or take advantage of emerging opportunities.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "proactive and reactive strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q8",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Importance / benefits of strategic management → Ch 1",
+   "qno": "8",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What benefits accrue by following a strategic approach to managing?",
+   "options": null,
+   "answer": "The following are the benefits of strategic approach to managing:\n• Strategic management helps organisations to be more proactive instead of reactive in shaping its future. Organisations are able to analyse and take actions instead of being mere spectators. Thereby they are able to control their own destiny in a better manner. It helps them in working within vagaries of environment and shaping it, instead of getting carried away by its turbulence or uncertainties.\n• Strategic management provides framework for all the major decisions of an enterprise such as decisions on businesses, products, markets, manufacturing facilities, investments and organisational structure. It provides better guidance to entire organisation on the crucial point - what it is trying to do.\n• Strategic management is concerned with ensuring a good future for the firm. It seeks to prepare the corporation to face the future and act as pathfinder to various business opportunities. Organisations are able to identify the available opportunities and identify ways and means as how to reach them.\n• Strategic management serves as a corporate defence mechanism against mistakes and pitfalls. It help organisations to avoid costly mistakes in product market choices or investments. Over a period of time strategic management helps organisation to evolve certain core competencies and competitive advantages that assist in its fight for survival and growth.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "importance of sm",
+    "proactive and reactive strategy",
+    "strategic management"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q9",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Ansoff's product-market growth matrix → Ch 4 (Strategic Options)",
+   "qno": "9",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Sky chemical industry intends to grow its business. Advise the company on the available options using Ansoff’s product market growth matrix.",
+   "options": null,
+   "answer": "The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps businesses decide their product and market growth strategy. With the us e of this matrix, a business can get a fair idea about how its growth depends upon its markets in new or existing products in both new and existing markets.\nThe Ansoff’s product market growth matrix is as follows:\nAnsoff’s Product Market Growth Matrix Sky chemical industry can adopt market penetration, product development, market development or diversification simultaneously for its different products.\nMarket penetration refers to a growth strategy where the business focuses on selling existing products into existing markets. It is achieved by making more sales to present customers without changing products in any major way.\nMarket development refers to a growth strategy where the business seeks to sell its existing products into new markets. It is a strategy for company growth by identifying and developing new markets for the existing products of the company.\nProduct development refers to a growth strategy where business aims to introduce new products into existing markets. It is a strategy for company growth by offering modified or new products to current markets.\nDiversification refers to a growth strategy where a business markets new products in new markets. It is a strategy by starting up or acquiring businesses outside the company’s current products and markets.\nAs market conditions change overtime, a company may shift product-market growth strategies. For example, when its present market is fully saturated a company may have no choice other than to pursue new market.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "ansoff matrix",
+    "diversification"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q10",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Driving forces affecting an industry → Ch 2",
+   "qno": "10",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Write a brief note on ‘Driving Forces’ that affect an industry.",
+   "options": null,
+   "answer": "The most dominant forces are called driving forces because they have the biggest influence on what kinds of changes will take place in the industry’s structure and competitive environment. The most common driving forces are as follows:\n• The internet and the new e-commerce opportunities and threats it breeds in the industry.\n• Increasing globalization\n• Changes in the long-term industry growth rate\n• Product innovation\n• Marketing innovations\n• Entry or exit of major firms\n• Diffusion of technical now-how across more companies and more countries\n• Changes in cost and efficiency.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "driving forces",
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q11",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Vision / mission → Ch 1 (Strategic Intent)",
+   "qno": "11",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Mission statement of a company focuses on the question: ‘who we are’ and ‘what we do’. Explain briefly.",
+   "options": null,
+   "answer": "A company’s mission statement is typically focused on its present business scope — “who we are and what we do”; mission statements broadly describe an organizations present capabilities, customer focus activities and business makeup. An organisation’s mission states what customers it serves, what need it satisfies, and what type of product it offers. It is an expression of the growth ambition of the organisation. It helps organisation to set its own special identity, business emphasis and path for development. Mission amplifies what brings the organisation to this business or why it is there, what existence it seeks and what purpose it seeks to achieve as a business organisation.\nIn other words, the mission serves as a justification for the firm's very pre sence and existence; it legitimizes the firm's presence.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission",
+    "adl matrix"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q12",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Placement in the organisational hierarchy and the nature/dimensions of strategic decisions → Ch 1 (Strategic Levels in Organisations; nature of strategic management)",
+   "qno": "12",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Mr. Batra is working in Apex Corporation, a leading manufacturer of electronic products, is considering whether to enter the fitness trackers and smartwatches technology market. The market is growing rapidly, but the competition is fierce. Mr. Batra and his team has to decide whether to invest in research and development for fitness trackers and smartwatches technology or to focus on their core products. The decision could have significant implications for the company's future growth and profitability.\nWhere will you place Mr. Batra in organisational hierarchy? What are the dimensions of the decisions being taken by him?",
+   "options": null,
+   "answer": "As the decisions taken by Mr. Batra have organisation wide impact, involves large commitments and have implication on the future, he is at the top level in organisational hierarchy. These characteristics also indicate that he is taking strategic decisions in the organisation. The major dimensions of strategic decisions are as follows:\n• Strategic decisions require top-management involvement: Strategic decisions\ninvolve thinking in totality of the organisation. Hence, problems calling for strategic decisions require to be considered by the top management.\n• Strategic decisions involve commitment of organisational resources:\nStrategic decisions to launch a new project by a firm requires allocation of huge funds and assignment of a large number of employees.\n• Strategic decisions necessitate consideration of factors in the firm’s external environment: Strategic focus in organisation involves orienting its internal environment to the changes of external environment.\n• Strategic decisions are likely to have a significant impact on the long-term prosperity of the firm: Generally, the results of strategic implementation are seen on a long-term basis and not immediately.\n• Strategic decisions are future oriented: Strategic thinking involves predicting the future environmental conditions and how to orient for the changed conditions.\n• Strategic decisions usually have major multifunctional or multi-business\nconsequences: As they involve organisation in totality, they affect different sections of the organisation with varying degree.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic levels",
+    "strategic decisions",
+    "r&d strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q13",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Retrenchment strategy → Ch 4",
+   "qno": "13",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Redefinition of business is involved in both \"Expansion\" and \"Retrenchment\" strategy, however, method involved in their execution is completely different. Explain.",
+   "options": null,
+   "answer": "Expansion strategy is implemented by redefining the business by adding the scope of business substantially increasing the efforts of the current business. On the other hand, Retrenchment strategy involves redefinition of business by divesting a major product line or market.\nExpansion is a promising and popular strategy that tends to be equated with dynamism, vigour, promise and success. Retrenchment or retreat becomes necessary or expedient for coping with particularly hostile and adverse situations in the environment and when any other strategy is likely to be suicidal.\nExpansion may take the enterprise along relatively unknown and risky paths, full of promises and pitfalls. Retrenchment involves regrouping and recouping of the resources.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "retrenchment",
+    "divestment",
+    "expansion strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q14",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 4 \"Corporate Level Strategies\" → Ch 4 (Strategic Choices)",
+   "qno": "14",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "ABC Inc. a successful company in the healthcare industry, was facing a decline due to outdated technology and lack of innovation. The company was losing market share and struggling to retain customers. In an effort to reverse the trend, the management decided to implement a strategy. They hired new talent, invested in research and development, and streamlined their operations to increase efficiency. Through these efforts, ABC Inc. was able to introduce new products and services, reposition themselves in t he market, and eventually regain their competitive edge. The company’s revenue and profits increased, and they were once again on the path to success.\nDiscuss the strategy which has been implemented by the management of ABC Inc. t",
+   "options": null,
+   "answer": "The management of ABC Inc. implemented turnaround strategy which is a highly-targeted effort to return ABC Inc. to profitability and increase positive cash flows to a sufficient level. Organizations those have faced a significant crisis that has negatively affected operations require turnaround strategy. Once turnaround is successful the organization may turn to focus on growth.\nConditions for turnaround strategies When firms are losing their grips over market, profits due to several internal and external factors, and if they have to survive under the competitive environment they have to identify danger signals as early as possible and undertake rectification steps immediately. These conditions may be, inter alia cash flow problems, lower profit margins, high employee turnover and decline in market share, capacity underutilization, low morale of employees, recessionary conditions, mismanagement, raw material supply problems and so on.\nAction plan for turnaround strategy\n• Stage One – Assessment of current problems\n• Stage Two – Analyze the situation and develop a strategic plan\n• Stage Three – Implementing an emergency action plan\n• Stage Four – Restructuring the business\n• Stage Five – Returning to normal",
+   "mcq_answer": null,
+   "topic_tags": [
+    "turnaround",
+    "r&d strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q15",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Best-cost provider strategy → Ch 3 (Michael Porter's generic strategies)",
+   "qno": "15",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Domolo is a premium cycle and cycling equipments brand which targets high spending customer with a liking for quality and brand name. Their cycles range from rupees fifteen thousand to rupees one lac. The recent trend of fitness through cycling has created humongous demand for cycles and peripherals like helmets, lights, braking systems, fitness applications, etc. The customer base has grown 150% in the last three months. Mr. Vijay, who is an investor wants to tap in this industry and bring about cheaper options to people who cannot spend so much. Which business level strategy would best suit for Mr. Vijay’s idea and what are the major sub-strategies that can be implemented to capture maximum market?",
+   "options": null,
+   "answer": "The Best Cost Provider strategy would ensure a better reach to the not so affluent customers and provide them with good quality cycles and equipments, thus tapping in on the increasing trend of cycling.\nTwo sub-strategies that can be implemented are:\n1. Offering lower prices than rivals for the same quality of products\n2. Charging same prices for better quality of products\nThe idea of Mr. Vijay is to provide almost same quality of products in terms of functionality if not so in terms of branding, to customer who do not have huge sums of money to pay. Thus, sub-strategy number one, offering lower prices for almost same quality should be implemented to become the best cost provider of cycles and related equipments in the market.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "best-cost provider"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q16",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter's five forces / industry environment analysis → Ch 2",
+   "qno": "16",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What are the common barriers that are faced by new entrants when an existing firm earns higher profits?",
+   "options": null,
+   "answer": "A firm’s profitability tends to be higher when other firms are blocked from entering the industry. New entrants can reduce industry profitability because they add new production capacity leading to increase supply of the product even at a lower price and can substantially erode existing firm’s market share. Barriers to entry represent economic forces (or ‘hurdles’) that slow down or impede entry by other firms. Common barriers to entry include:\n(i) Capital requirements: When a large amount of capital is required to enter an industry, firms lacking funds are effectively barred from the industry, thus enhancing the profitability of existing firms in the industry.\n(ii) Economies of scale: Many industries are characterized by economic activities driven by economies of scale. Economies of scale refer to the decline in the per-unit cost of production (or other activity) as volume grows. A large firm that enjoys economies of scale can produce high volumes of goods at successively lower costs. This tends to discourage new entrants.\n(iii) Product differentiation: Production differentiation refers to the physical or perceptual differences, or enhancements, that make a product special or unique in the eyes of customers. Firms in the personal care products and cosmetics industries actively engage in product differentiation to enhance their products’ features. Differentiation works to reinforce entry barriers because the cost of creating genuine product differences may be too high for the new entrants.\n(iv) Switching costs: To succeed in an industry, new entrant must be able to persuade existing customers of other companies to switch to its products. To make a switch, buyers may need to test a new firm’s product, negotiate new purchase contracts, and train personnel to use the equipment, or modify facilities for product use. Buyers often incur substantial financial (and psychological) costs in switching between firms. When such switching costs are high, buyers are often reluctant to change.\n(v) Brand identity: The brand identity of products or services offered by existing firms can serve as another entry barrier. Brand identity is particularly important for infrequently purchased products that carry a high unit cost to the buyer. New entrants often encounter significant difficulties in building up the brand identity, because to do so they must commit substantial resources over a long period.\n(vi) Access to distribution channels: The unavailability of distribution channels for new entrants poses another significant entry barrier. Despite the growing power of the internet, many firms may continue to rely on their control of physical distribution channels to sustain a barrier to entry to rivals. Often, existing firms have significant influence over the distribution channels and can retard or impede their use by new firms.\n(vii) Possibility of aggressive retaliation: Sometimes the mere threat of aggressive retaliation by incumbents can deter entry by other firms into an existing industry. For example, introduction of products by a new firm may lead existing firms to reduce their product prices and increase their advertising budgets.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "five forces",
+    "barriers to entry"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q17",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing Mix / promotion (old Ch 6.2.2) — dropped with the functional-strategy chapter",
+   "qno": "17",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What are the objectives that must be kept in mind while designing a pricing strategy of a new product?",
+   "options": null,
+   "answer": "For a new product pricing strategies for entering a market needs to be designed. In pricing a really new product at least three objectives must be kept in mind.\ni. Making the product acceptable to the customers.\nii. Producing a reasonable margin over cost.\niii. Achieving a market that helps in developing market share.\nFor a new product an organization may either choose to skim or penetrate the market. In skimming prices are set at a very high level. The product is directed to those buyers who are relatively price insensitive but sensitive to the novelty of the new product. For example call rates of mobile telephony were set very high initially. Even the incoming calls were charged. Since the initial off take of the product is low, high price, in a way, helps in rationing of supply in favour of those who can afford it.\nIn penetration pricing firm keeps a temptingly low price for a new product which itself is selling point. A very large number of the potential customers may be able to afford and willing to try the product.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "marketing mix",
+    "objectives"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q18",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Research and Development Strategy (old Ch 6.5) — dropped with the functional-strategy chapter",
+   "qno": "18",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "How would you argue that Research and Development Personnel are important for effective strategy implementation?",
+   "options": null,
+   "answer": "Research and Development (R&D) personnel can play an integral part in strategy implementation. These individuals are generally charged with developing new products and improving old products in a way that will allow effective strategy implementation. R&D employees and managers perform tasks that include transferring complex technology, adjusting processes to local raw materials, adapting processes to local markets, and altering products to particular tastes and specifications.\nStrategies such as product development, market penetration, and concentric diversification require that new products be successfully developed and that old products be significantly improved. But the level of management support for R&D is often constrained by resource availability.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "r&d strategy",
+    "diversification",
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q19",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "19",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Anshuman was a CEO at a struggling company. Despite the challenges, he believed in the potential of his team and was determined to turn the company around. He started by communicating his vision to his employees. He encouraged them to think outside the box, take risks and be creative. He also invested in training programs to help employees develop new skills. He regularly recognized and rewarded employees for their hard work, which increased their job satisfaction and commitment. As a result, the company began to see positive changes.\nIdentify and discuss the leadership style adopted by Anshuman?",
+   "options": null,
+   "answer": "Being a CEO of a struggling company, Anshuman has adopted Transformational leadership style. The style uses charisma and enthusiasm to inspire people to exert them for the good of the organization. Transformational leaders offer excitement, vision, intellectual stimulation and personal satisfaction. They inspire involvement in a mission, giving followers a ‘dream’ or ‘vision’ of a higher calling so as to elicit more dramatic changes in organizational performance. Such a leadership motivates followers to do more than originally affected to do by stretching their abilities and increasing their self - confidence, and also promote innovation throughout the organization.\nAnshuman believed in the potential of his team. He started by communicating his vision to his employees. He encouraged them to think outside the box, take risks and be creative. He also invested in training programs to help employees develop new skills. He regularly recognized and rewarded employees for their hard work, which increased their job satisfaction and commitment.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic leadership",
+    "vision",
+    "mission",
+    "transformational leadership"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q20",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisational culture → Ch 5 (Culture (soft))",
+   "qno": "20",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "You are appointed as a manager of a company where you find that the company's culture is out of sync with what is needed for strategic success. Discuss steps you would initiate to tackle the problem.",
+   "options": null,
+   "answer": "Changing problem cultures is very difficult because of deeply held values and habits. It takes concerted management action over a period of time to replace an unhealthy culture with a healthy culture or to root out certain unwanted cultural obstacles and instil ones that are more strategy-supportive.\n• The first step is to diagnose which facets of the present culture are strategy supportive and which are not.\n• Then, managers have to talk openly and forthrightly to all concerned about those aspects of the culture that have to be changed.\n• The talk has to be followed swiftly by visible, aggressive actions to modify the culture-actions that everyone will understand are intended to establish a new culture more in tune with the strategy.\nThe menu of culture-changing actions includes revising policies and procedures, altering incentive compensation, recruiting and hiring new managers and employees, replacing key executives, communication on need and benefit to employees and so on.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "culture"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q21",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Business Process Reengineering (old Ch 8.7) — dropped from the 2023 syllabus",
+   "qno": "21",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "India's luxurious domestic airline Indijet in an attempt to retain its leadership in aviation sector has hired J S Dutta as its Chief Executive. Mr Dutta wishes to reorient company to make it a domestic discount carrier. He desires to introduce no frills business model by offering extremely low fares and improve margins by cutting down traditional ameni ties such as reclining seats and complimentary meals. At the same time setting the stage for a new air revolution, he wishes to brand itself as on-time airlines having proper systems in place and removing additional and wasteful activities and processes.\nWhat steps will you advise to Mr Dutta?",
+   "options": null,
+   "answer": "Mr Dutta should adopt business process reengineering (BPR). It is an approach to unusual improvement in operating effectiveness through the redesigning of critical business processes and supporting business systems. It is revolutionary redesign of key business processes that involves examination of the basic process itself. BPR refers to the analysis and redesign of workflows and processes both within the organization and between the organization and the external entities like suppliers, distributors, and service providers. The orientation of redesigning efforts involves total deconstruction and rethinking of business process BPR involves the following steps:\ni. Determining objectives: Objectives are the desired end results of the redesign process. They will provide the required focus, direction, and motivation for the redesign process and help in building a comprehensive foundation for the reengineering process.\nii. Identify customers and determine their needs: The process designers have to understand customers. The purpose is to redesign business process that clearly provides value addition to the customer.\niii. Study the existing processes: The study of existing processes will provide an important base for the process designers. The purpose is to gain an understanding of the ‘what’, and ‘why’ of the targeted process.\niv. Formulate a redesign process plan: Formulation of redesign plan is the real crux of the reengineering efforts. Customer focussed redesign concepts are identified and formulated. In this step alternative processes are considered and the best is selected.\nv. Implement the redesigned process: It is easier to formulate new process than to implement them. Implementation of the redesigned process and application of other knowledge gained from the previous steps is key to achieve dramatic improvements.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "bpr"
+   ]
+  },
+  {
+   "id": "rtp-old-may2023-q22",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy Audit (old Ch 8.6) — dropped from the 2023 syllabus",
+   "qno": "22",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What is Strategy Audit? Explain briefly the criteria for strategy audit given by Richard Rumelt’s.",
+   "options": null,
+   "answer": "A strategy audit is an examination and evaluation of areas affected by the operation of a strategic management process within an organization.\nRichard Rumelt’s Criteria for Strategy Audit\n(i) Consistency: A strategy should not present inconsistent goals and policies which can lead to organizational problems and conflicts. Inconsistencies in strategy are indicated if\n(a) the cause of organizational problems is issue based;\n(b) success for one department implies failure for another;\n(c) the top management is expected to resolve policy problems and issues every time.\n(ii) Consonance: Consonance refers to the need for strategists to examine sets of trends, as well as individual trends, in auditing strategies. The difficulty is that most trends are the result of interactions among other trends. A strategy must represent an adaptive response to the external environment and to the critical changes occurring within it.\n(iii) Feasibility: A strategy must neither overtax available resources nor create unsolvable sub-problems. The final broad test of strategy is its feasibility; that is, can the strategy be attempted within the physical, human, and financial resources of the enterprise?\n(iv) Advantage: A strategy must provide for the creation and/or maintenance of a\ncompetitive advantage in a selected area of activity. The advantage may reflect superiority in any one or combination of: resources, skills and position.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy audit",
+    "strategic management"
+   ]
+  }
+ ]
+}

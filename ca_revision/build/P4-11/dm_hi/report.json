@@ -1,0 +1,27 @@
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 13.14,
+ "words": 1731,
+ "overall_wpm": 132,
+ "lines": 65,
+ "lines_below_bar": [
+  "L001"
+ ],
+ "mean_recall": 0.9614,
+ "min_recall": 0.615,
+ "mp3": "/Users/ztejas/CA_PERSONAL/ca_revision/out/P4-11 - Joint Products and By-Products - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.7,
+ "loudness_in": {
+  "input_i": "-25.58",
+  "input_tp": "-5.01",
+  "input_lra": "2.30",
+  "input_thresh": "-35.96",
+  "output_i": "-16.40",
+  "output_tp": "-1.50",
+  "output_lra": "2.30",
+  "output_thresh": "-26.78",
+  "normalization_type": "dynamic",
+  "target_offset": "0.40"
+ }
+}

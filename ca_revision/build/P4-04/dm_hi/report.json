@@ -1,0 +1,27 @@
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 12.48,
+ "words": 1700,
+ "overall_wpm": 136,
+ "lines": 62,
+ "lines_below_bar": [
+  "L001"
+ ],
+ "mean_recall": 0.9521,
+ "min_recall": 0.615,
+ "mp3": "/Users/ztejas/CA_PERSONAL/ca_revision/out/P4-04 - Employee Cost and Direct Expenses - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.0,
+ "loudness_in": {
+  "input_i": "-25.65",
+  "input_tp": "-4.93",
+  "input_lra": "2.40",
+  "input_thresh": "-36.03",
+  "output_i": "-16.51",
+  "output_tp": "-1.50",
+  "output_lra": "2.30",
+  "output_thresh": "-26.89",
+  "normalization_type": "dynamic",
+  "target_offset": "0.51"
+ }
+}

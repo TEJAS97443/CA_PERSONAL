@@ -1,0 +1,672 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "Nov 2019",
+  "attempt_sort": "2019-11",
+  "series": "I",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SM-New-MTP-Inter-Oct-19-Q.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SM-New-MTP-Inter-Oct-19-A.pdf",
+  "local_file": "raw/mtp-old-nov2019-s1-q.pdf",
+  "local_answers_file": "raw/mtp-old-nov2019-s1-a.pdf",
+  "test_series": "October 2019",
+  "mock_test_paper_no": "1",
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series I for Nov 2019 (Test Series: October 2019, MOCK TEST PAPER 1). ICAI originals removed; castudynotes.com mirror. Diagonal mirror watermark removed during extraction. ICAI published only Series I for this attempt."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-nov2019-s1-q1",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations → Ch 1",
+   "qno": "1(i)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Which of the following are responsible for formulating and developing realistic and attainable strategies?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Corporate level and business level managers"
+    },
+    {
+     "label": "b",
+     "text": "Corporate level and functional level managers"
+    },
+    {
+     "label": "c",
+     "text": "Functional level managers and business level managers"
+    },
+    {
+     "label": "d",
+     "text": "Corporate level managers, business level managers and functional level managers"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q2",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Competitive landscape → Ch 2",
+   "qno": "1(ii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Competitive landscape requires the application of:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Competitive advantage"
+    },
+    {
+     "label": "b",
+     "text": "Competitive strategy"
+    },
+    {
+     "label": "c",
+     "text": "Competitive acumen"
+    },
+    {
+     "label": "d",
+     "text": "Competitive intelligence"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "competitive landscape"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q3",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — objectives and goals → Ch 1",
+   "qno": "1(iii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Which one is not the element of strategic intent?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Business model"
+    },
+    {
+     "label": "b",
+     "text": "Vision"
+    },
+    {
+     "label": "c",
+     "text": "Business definition"
+    },
+    {
+     "label": "d",
+     "text": "Business standard"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "objectives"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q4",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(iv)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "If suppliers are unreliable or too costly, which of these strategies may be appropriate?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Horizontal integration"
+    },
+    {
+     "label": "b",
+     "text": "Backward integration"
+    },
+    {
+     "label": "c",
+     "text": "Market penetration"
+    },
+    {
+     "label": "d",
+     "text": "Forward integration"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q5",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(v)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In Michael Porter’s generic strategy _____________ emphasizes producing standardized products at a very low per unit-cost for consumers who are price sensitive.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Cheap leadership"
+    },
+    {
+     "label": "b",
+     "text": "Inferior product leadership"
+    },
+    {
+     "label": "c",
+     "text": "Cost leadership"
+    },
+    {
+     "label": "d",
+     "text": "Cost benefit"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q6",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic marketing techniques (retained in Ch 3 ‘Strategic Drivers: Product/Services’)",
+   "qno": "1(vi)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "A campaign advocating the message of ‘save water’ is:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Services Marketing"
+    },
+    {
+     "label": "b",
+     "text": "Holistic marketing"
+    },
+    {
+     "label": "c",
+     "text": "Social Marketing"
+    },
+    {
+     "label": "d",
+     "text": "Direct Marketing"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic marketing techniques"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q7",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "1(vii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "______________leadership style may be appropriate in turbulent environment.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Transactional"
+    },
+    {
+     "label": "b",
+     "text": "Transformational"
+    },
+    {
+     "label": "c",
+     "text": "Autocratic"
+    },
+    {
+     "label": "d",
+     "text": "None of these"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic leadership"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q8",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy evaluation and control → Ch 5",
+   "qno": "1(viii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "The purpose of strategy evaluation is to:",
+   "options": [
+    {
+     "label": "a",
+     "text": "increase the budget annually"
+    },
+    {
+     "label": "b",
+     "text": "alert management to problems or potential problems"
+    },
+    {
+     "label": "c",
+     "text": "make budget changes"
+    },
+    {
+     "label": "d",
+     "text": "evaluate employees’ performance"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategy evaluation"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q9",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management in NGOs / not-for-profit organisations — dropped from the 2023 syllabus (old Ch 1)",
+   "qno": "1(ix)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Strategic management can be effectively used by NGOs to:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Use resource effectively"
+    },
+    {
+     "label": "b",
+     "text": "Raise funds"
+    },
+    {
+     "label": "c",
+     "text": "Achieve goals"
+    },
+    {
+     "label": "d",
+     "text": "All the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "not-for-profit",
+    "ngo"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q10",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(x)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Anything that a firm does especially well compared to rival firms is referred to as _____.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Competitive advantage"
+    },
+    {
+     "label": "b",
+     "text": "Comparative advantage"
+    },
+    {
+     "label": "c",
+     "text": "Opportunity cost"
+    },
+    {
+     "label": "d",
+     "text": "Sustainable advantage"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q11",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management process / stages → Ch 5",
+   "qno": "1(xi)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "What is the first step in the comprehensive strategic-management model?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Developing vision and mission statements"
+    },
+    {
+     "label": "b",
+     "text": "Performing external audits"
+    },
+    {
+     "label": "c",
+     "text": "Measuring and evaluating performance"
+    },
+    {
+     "label": "d",
+     "text": "Establishing long-term objectives"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic management process"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q12",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Turnaround strategy → Ch 4 (strategic exits)",
+   "qno": "1(xii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Which strategy is implemented after the failure of turnaround strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Expansion strategy"
+    },
+    {
+     "label": "b",
+     "text": "Diversification strategy"
+    },
+    {
+     "label": "c",
+     "text": "Divestment strategy"
+    },
+    {
+     "label": "d",
+     "text": "Growth strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "turnaround"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q13",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(xiii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Best-cost provider strategy involves providing customers more value for the money by emphasizing:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Low cost and low quality difference"
+    },
+    {
+     "label": "b",
+     "text": "Low cost and better quality difference"
+    },
+    {
+     "label": "c",
+     "text": "High cost and low quality difference"
+    },
+    {
+     "label": "d",
+     "text": "High cost and better quality difference"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q14",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Promotion / pricing element of the marketing mix — part of the dropped functional Marketing Strategy (old Ch 6.2)",
+   "qno": "1(xiv)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "For a new product, an organization may choose:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Skimming pricing strategy"
+    },
+    {
+     "label": "b",
+     "text": "Penetration pricing strategy"
+    },
+    {
+     "label": "c",
+     "text": "Both (a) and (b)"
+    },
+    {
+     "label": "d",
+     "text": "None of these"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "promotion",
+    "marketing mix"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q15",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Entrepreneurship / Intrapreneurship — dropped from the 2023 syllabus (old Ch 7.5)",
+   "qno": "1(xv)",
+   "kind": "mcq",
+   "marks": 15,
+   "question": "A person who searched for business opportunity and starts a new enterprise to make use of that opportunity is called",
+   "options": [
+    {
+     "label": "a",
+     "text": "Employee"
+    },
+    {
+     "label": "b",
+     "text": "Entrepreneur"
+    },
+    {
+     "label": "c",
+     "text": "Intrapreneur"
+    },
+    {
+     "label": "d",
+     "text": "Investor"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "entrepreneur",
+    "intrapreneur"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q16",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "‘Coffee Beans’ is a coffeehouse chain that operates across the globe in different countries. ‘Coffee\nBeans’ has adopted a strategy to build business by establishing product uniqueness or qualities and\ngain competitive advantage based on features of its offerings in coffee business. Which type of strategy\n‘Coffee Beans’ has adopted?",
+   "options": null,
+   "answer": "Coffee Beans is opting for differentiation strategy. This strategy is aimed at broad mass market and\ninvolves the creation of a product or service that is perceived by the customers as unique. The\nuniqueness can be associated with product design, brand image, features, technology, dealer network\nor customer service. Because of differentiation, Coffee Beans can charge a premium for its product.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q17",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — partly proactive, partly reactive → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "“Strategy is partly proactive and partly reactive.” Discuss.",
+   "options": null,
+   "answer": "Strategy is partly proactive and partly reactive. In proactive strategy, organizations will analyze\npossible environmental scenarios and create strategic framework after proper planning and set\nprocedures and work on these strategies in a predetermined manner. However, in reality no\ncompany can forecast both internal and external environment exactly. Everything cannot be\nplanned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour,\nevolving technologies and so on.\nThere can be significant deviations between what was visualized and what actually happens.\nStrategies need to be attuned or modified in the light of possible environmental changes. There\ncan be significant or major strategic changes when the environment demands. Reactive strategy\nis triggered by the changes in the environment and provides ways and means to cope with th e\nnegative factors or take advantage of emerging opportunities.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "nature of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q18",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy audit (management audit of strategy) — dropped from the 2023 syllabus (old Paper 7B Ch 8.6)",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Zumba Robots, an electronic robot manufacturing company is a leader in its business segment.\nOver a period of time, it started losing its grip on the market as its overall position started to weaken.\nDiscuss the type of audit that you would like to suggest to analyse the situation of the company?",
+   "options": null,
+   "answer": "The audit of management performance with regard to its strategies helps ‘Zumba Robots’ identify\nproblem areas and correct the strategic approaches that have not been effective so far. A strategy\naudit is a review of a company's business plan and strategies to identify weaknesses and\nshortcomings and enable a successful development of the company. An assessment of the external\nenvironment shows where changes happen and where organization’s strategic management no\nlonger match the demands of the marketplace. Based on such analysis, Zumba Robots can\nimprove business performance by periodically conducting such an audit.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy audit"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q19",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategic management — strategic decisions and the strategic manager → Ch 1",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What is strategic decision making? What tasks are performed by a strategic Manager?",
+   "options": null,
+   "answer": "Decision making is a managerial process of selecting the best course of action out of several\nalternative courses for the purpose of accomplishment of the organizational goals. Decisions may\nbe operational i.e., which relate to general day-to-day operations. They may also be strategic in\nnature. According to Jauch and Glueck “Strategic decisions encompass the definition of the\nbusiness, products to be handled, markets to be served, functions to be performed and\nmajor policies needed for the organisation to execute these decisions to achieve the\nstrategic objectives.”\nThe primary task of the strategic manager is conceptualizing, designing and executing company\nstrategies. For this purpose, his tasks include:\n Defining the mission and goals of the organization.\n Determining what businesses it should be in.\n Allocating resources among the different businesses.\n Formulating and implementing strategies that span individual businesses.\n\n Providing leadership for the organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q20",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Telecom industry is growing at a rapid speed in India. There is a cut throat competition among the\nservice providers in the industry. Identify the capabilities that will best serve as a source of\ncompetitive advantage for a firm over its rivals?",
+   "options": null,
+   "answer": "Core competencies are capabilities that serve as a source of competitive advantage for a firm over\nits rivals. Core competency as the collective learning in the organization, especially coordinating\ndiverse production skills and integrating multiple streams of technologies. An organization’s\ncombination of technological and managerial know-how, wisdom and experience are a complex\nset of capabilities and resources that can lead to a competitive advantage compared to a\ncompetitor.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q21",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "State the factors of human resource that influence on employee’s competence.",
+   "options": null,
+   "answer": "Human resource management has been accepted as a strategic partner in the formulation of\norganization’s strategies and in the implementation of such strategies through human resource\nplanning, employment, training, appraisal and reward systems. The following points should be kept\nin mind as they can have a strong influence on employee competence:\ni. Recruitment and selection: The workforce will be more competent if a firm can successfully\nidentify, attract, and select highly competent applicants.\nii. Training: The workforce will be more competent if employees are well trained to perform their\njobs properly.\niii. Appraisal of performance: The performance appraisal is to identify any performance\ndeficiencies experienced by employees due to lack of competence. Such deficiencies, once\nidentified, can often be solved through counselling, coaching or training.\niv. Compensation: A firm can usually increase the competency of its workforce by offering pay,\nbenefits and rewards that are not only attractive than those of their competitors but also\nrecognizes merit.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q22",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Divestment / liquidation → Ch 4 (strategic exits)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Differentiate between divestment and liquidation strategy.",
+   "options": null,
+   "answer": "| Divestment Strategy | Liquidation Strategy |\n| --- | --- |\n| Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit center or SBU. | It involves closing down a firm and selling its assets. |\n| Divestment is usually a part of rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful. Option of a turnaround may even be ignored if it is obvious that divestment is the only answer. | Liquidation becomes only option in case of severe and critical conditions where either turnaround and divestment are not seen as solution or have been attempted but failed. |\n| Efforts are made for the survival of organization. | Liquidation as a form of retrenchment strategy is considered as the most extreme and unattractive. |\n| Survival of organization helps in retaining personnel, at least to some extent. | There is loss of employment with stigma of failure. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "divestment",
+    "liquidation"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q23",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation culture (soft) → Ch 5",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "How can a corporate culture be both strength and weakness of an organisation?",
+   "options": null,
+   "answer": "The most important phenomenon which often distinguishes one organisation with another is its\ncorporate culture. Corporate culture refers to a company’s values, beliefs, business principles,\ntraditions, and ways of operating and internal work environment. Every corporation has a culture\nthat exerts powerful influences on the behaviour of managers.\n(i) As a strength: Culture can facilitate communication, decision making and control and instil\ncooperation and commitment. An organization’s culture could be strong and cohesive when it\nconducts its business according to clear and explicit set of principles and values, which the\nmanagement devotes considerable time to communicating to employees and which values\nare shared widely across the organisation.\n\n(ii) As a weakness: Culture, as a weakness can obstruct the smooth implementation of strategy\nby creating resistance to change. An organization’s culture could be characterised as weak\nwhen many sub-cultures exists, few values and behavioural norms are shared and traditions\nare rare. In such organizations, employees do not have a sense of commitment, loyalty and\nsense of identity.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisational culture"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2019-s1-q24",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Turnaround strategy → Ch 4 (strategic exits)",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Write a short note on need for turnaround strategy.",
+   "options": null,
+   "answer": "Turnaround is needed when an enterprise's performance deteriorates to a point that it needs a\nradical change of direction in strategy, and possibly in structure and culture as well. It is a highly\ntargeted effort to return an organization to profitability and increase positive cash flows to a\nsufficient level. It is used when both threats and weaknesses adversely affect the health of an\norganization so much that its basic survival is difficult.\nThe overall goal of turnaround strategy is to return an underperforming or distressed company to\nnormalcy in terms of acceptable levels of profitability, solvency, liquidity and cash flow. To achieve\nits objectives, turnaround strategy must reverse causes of distress, resolve the financial crisis,\nachieve a rapid improvement in financial performance, regain stakeholder support, and overcome\ninternal constraints and unfavourable industry characteristics.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "turnaround"
+   ]
+  }
+ ]
+}

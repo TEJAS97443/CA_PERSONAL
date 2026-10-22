@@ -1,0 +1,568 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "July 2021",
+  "attempt_sort": "2021-07",
+  "series": "II",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SMNew-Q-MTP-Inter-Apr-2021.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SMNew-A-MTP-Inter-Apr-2021.pdf",
+  "local_file": "raw/mtp-old-july2021-s2-q.pdf",
+  "local_answers_file": "raw/mtp-old-july2021-s2-a.pdf",
+  "test_series": "April 2021",
+  "mock_test_paper_no": "II",
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series II for the May 2021 attempt, held in July 2021 (Test Series: April 2021, MOCK TEST PAPER-II). ICAI originals removed; castudynotes.com mirror. Diagonal mirror watermark removed during extraction."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-july2021-s2-q1",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategic management — inducing and directing people → Ch 1",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "Amrutha, a third year computer science student living in Tamilnadu, realised that during covid-19\npandemic her mother was not able to buy the basic products that she used in her worship\nroutine. As a result, many small vendors also went out of business during the lockdown. She\nstarted studying more about the market and observed that the way the business was conducted\nhad many gaps and loopholes. She dedicated herself to develop a small market place where\nconsumers like her mother and small vendors could meet and trade, and called it Saamagree.\nHer interaction with small vendors was a success factor, where she was able to convince them to\nbring their business online and give them volume in sales. Vendors were hesitant early on, but\nfollowed suit when they saw the benefits coming in. Amrutha, being a student was happy with the\ngrowth and wanted to focus on studies more and let the business operate as usual.\nTo her surprise, her father's company which was a big FMCG brand took over her business\nwithin a year itself, and designated Ms. Srividya Rajanan, to lead the division with Amrutha.\nAmrutha, knew her customers and vendors very closely and Ms. Rajanan was an expansion\nexpert. So their division was developed as a simple structure within the organisation as an\nexperiment.\nMs. Rajanan’s marketing team expanded swiftly to rope in vendors from areas far and beyond\nbacked by their in-house distribution channels. However, the initial vendors and customers felt\nbetrayed as their trust rested in Amrutha and her personalised touch to the business. It took the\nteam months to build an identity that matched the sincerity of a one woman led brand.\nThe market segment has been a very niche one for the FMCG brand however the results have\nbeen satisfying. The plan is to go Pan-India in the coming years with Amrutha leading from the\nfront and Ms. Rajanan exiting the division. New markets, new ways of business are inevitable\nand bring a freshness to business is what Saamagree has proven.\nBased on the above Case Scenario, answer the Multiple Choice Questions.\n\nWhich of the following characteristics has been one of the biggest strengths of Saamagree’s management?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Induce and direct events"
+    },
+    {
+     "label": "b",
+     "text": "Induce and direct people"
+    },
+    {
+     "label": "c",
+     "text": "Influence process to make things happen"
+    },
+    {
+     "label": "d",
+     "text": "Gain command over the phenomena"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "nature of strategic management"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q2",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nThe leadership team decided to keep the organisation structure straight and simple based on the intricacies of?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Goals and objectives"
+    },
+    {
+     "label": "b",
+     "text": "Vision statement"
+    },
+    {
+     "label": "c",
+     "text": "Business definition"
+    },
+    {
+     "label": "d",
+     "text": "Business model"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level strategic choices → Ch 4",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nBefore Ms. Srividya Rajanan joined the company, Amrutha’s intent was inclined towards which of the following strategies?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Combination strategy"
+    },
+    {
+     "label": "b",
+     "text": "Retrenchment strategy"
+    },
+    {
+     "label": "c",
+     "text": "Expansion strategy"
+    },
+    {
+     "label": "d",
+     "text": "Stability strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic choices"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q4",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic drivers (industry/markets, customers, channels) → Ch 3",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nThe marketing team of Saamagree could not gauge a very crucial aspect of markets that led to a temporary dent in its brand positioning. Which of the following is being mentioned in the above scenario?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Switching costs of products"
+    },
+    {
+     "label": "b",
+     "text": "Distribution channel accessibility"
+    },
+    {
+     "label": "c",
+     "text": "Retaliation from the market"
+    },
+    {
+     "label": "d",
+     "text": "Political influence in the industry"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic drivers"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q5",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Business Process Reengineering — dropped from the 2023 syllabus (old Paper 7B Ch 8.7); no counterpart in current Paper 6B",
+   "qno": "1(A)5",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nThe very ideation of the business was based on bringing about a change in existing ways of business. What can be said about the basis of building Saamagree?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Market penetration"
+    },
+    {
+     "label": "b",
+     "text": "Business process reengineering"
+    },
+    {
+     "label": "c",
+     "text": "Product differentiation"
+    },
+    {
+     "label": "d",
+     "text": "Best cost provider strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "bpr",
+    "reengineering"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q6",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG growth-share matrix → Ch 4",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "A beverage company has more than 500 soft drink brands, but none of them is anywhere close to its premium brand One Sip in awareness, revenue and profits. As per BCG's Matrix, One Sip brand for the beverage company is?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Star"
+    },
+    {
+     "label": "b",
+     "text": "Dog"
+    },
+    {
+     "label": "c",
+     "text": "Cash cow"
+    },
+    {
+     "label": "d",
+     "text": "Question mark"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "bcg matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q7",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Davis and Lawrence have proposed three distinct phases for development of matrix structure. These phases are (1) Cross-functional task forces (2) Product/brand management and (3) ______.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Market/external management"
+    },
+    {
+     "label": "b",
+     "text": "Functional matrix"
+    },
+    {
+     "label": "c",
+     "text": "Mature matrix"
+    },
+    {
+     "label": "d",
+     "text": "Internal management"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q8",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic marketing techniques (retained in Ch 3 ‘Strategic Drivers: Product/Services’)",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "A famous restaurant enjoys full occupancy during the lunch and dinner time for last few months. In fact, many customers go back as they have to wait for their turn. Between 15:00 hours to 18:00 hours, the occupancy rate is near to nil. To raise the footfalls of customers during this lean time, the owner offers a discount of 20% on total bill if a customer comes in these 3 hours. Whic h type of marketing strategy does the restaurant follow to attract the customers in the lean period?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Differential Marketing"
+    },
+    {
+     "label": "b",
+     "text": "Synchro-marketing"
+    },
+    {
+     "label": "c",
+     "text": "Place Marketing"
+    },
+    {
+     "label": "d",
+     "text": "Concentrated Marketing"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic marketing techniques"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q9",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management process / stages → Ch 5",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "What is the first step in the comprehensive strategic-management model?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Developing vision and mission statements"
+    },
+    {
+     "label": "b",
+     "text": "Performing external audits"
+    },
+    {
+     "label": "c",
+     "text": "Measuring and evaluating performance"
+    },
+    {
+     "label": "d",
+     "text": "Establishing long-term objectives"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic management process"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q10",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Turnaround strategy → Ch 4 (strategic exits)",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Which strategy is implemented after the failure of turnaround strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Expansion strategy"
+    },
+    {
+     "label": "b",
+     "text": "Diversification strategy"
+    },
+    {
+     "label": "c",
+     "text": "Divestment strategy"
+    },
+    {
+     "label": "d",
+     "text": "Growth strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "turnaround"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q11",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "A firm successfully implementing a differentiation strategy would expect:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Customers to be sensitive to price increases."
+    },
+    {
+     "label": "b",
+     "text": "To charge premium prices."
+    },
+    {
+     "label": "c",
+     "text": "Customers to perceive the product as standard."
+    },
+    {
+     "label": "d",
+     "text": "To automatically have high levels of power over suppliers."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q12",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy evaluation and control → Ch 5",
+   "qno": "1(H)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Which one is NOT a type of strategic control?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Operational control"
+    },
+    {
+     "label": "b",
+     "text": "Strategic surveillance"
+    },
+    {
+     "label": "c",
+     "text": "Special alert control"
+    },
+    {
+     "label": "d",
+     "text": "Premise control"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategy evaluation"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q13",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Competitive advantage built through the product → Ch 3",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Kamal Sweets Corner, a very popular sweets shop in Ranchi, was facing tough competition from\nbranded stores of packaged sweets and imported goods. The owners realised that their busi ness\nreduced by 50% in the last six months, and this created a stressful business environment for them. To\nfind a solution, they consulted a business consultant to help them develop a strategy to fight\ncompetition and sustain their century old family business. The business consultant advised them to\ninnovate a new snack for the public and market it as a traditional snack of the region. The owners\nliked the idea and developed a new snack called Dahi Samosa, which very quickly became popular\namongst the public and it helped regain the lost business of Kamal Sweets Corner.\nOne of the very crucial importance of strategic management was used by the business consultant to\nhelp the owners of Kamal Sweets Corner. Which one could it be? Also, was this strategy Reactive or\nProactive? According to you who are more beneficial in general parlance?",
+   "options": null,
+   "answer": "The strategy used here was of developing a competitive advantage via product which helped Kamal\nSweets Corner regain their lost business. This is also one of the major importance cum advantage of\nstrategic management, that is helps to develop core competencies and competitive advantages to\novercome competition.\nThis strategy was a Reactive strategy. Wherein, the owners saw their business fall to 50% of revenue\nand then seeking a strategic advisory. They did not plan proactively as to when the new shops were\nalready opening. They reacted only when the business started to lose up.\nGenerally, it is always beneficial to develop strategies proactively, so that the dip in businesses is\nsmall and manageable, and even if they are huge, the management has ample time to fix it.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q14",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Limitations of strategic management → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "The presence of strategic management cannot counter all hindrances and always achieve\nsuccess for an organisation. What are the limitations attached to strategic management?",
+   "options": null,
+   "answer": "The presence of strategic management cannot counter all hindrances and always achieve\nsuccess as there are limitations attached to strategic management. These can be explained in\nthe following lines:\n Environment is highly complex and turbulent. It is difficult to understand the complex\nenvironment and exactly pinpoint how it will shape-up in future. The organisational estimate\nabout its future shape may awfully go wrong and jeopardise all strategic plans. The\nenvironment affects as the organisation has to deal with suppliers, customers, governments\nand other external factors.\n Strategic Management is a time-consuming process. Organisations spend a lot of time\nin preparing, communicating the strategies that may impede daily operations and negatively\nimpact the routine business.\n Strategic Management is a costly process. Strategic management adds a lot of expenses\nto an organization. Expert strategic planners need to be engaged, efforts are made for\nanalysis of external and internal environments devise strategies and properly implement.\nThese can be really costly for organisations with limited resources particularly when small\nand medium organisations create strategies to compete.\nIn a competitive scenario, where all organisations are trying to move strategically, it is difficult to\nclearly estimate the competitive responses to the strategies.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "limitations"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q15",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic group mapping → Ch 3",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What is a strategic group? Discuss the procedure for constructing a strategic group map.",
+   "options": null,
+   "answer": "A strategic group consists of those rival firms which have similar competitive approaches and\npositions in the market. Companies in the same strategic group can resemble one another in any\nof the several ways – have comparable product-line breadth, same price/quality range, same\ndistribution channels, same product attributes, identical technological approaches, offer similar\nservices and technical assistance and so on.\nThe procedure for constructing a strategic group map and deciding which firms belong in which\nstrategic group is as follows:\n Identify the competitive characteristics that differentiate firms in the industry typical\nvariables are price/quality range (high, medium, low); geographic coverage (local, regiona l,\nnational, global); degree of vertical integration (none, partial, full); product-line breadth\n(wide, narrow); use of distribution channels (one, some, all); and degree of service offered\n(no-frills, limited, full).\n Plot the firms on a two-variable map using pairs of these differentiating characteristics.\n Assign firms that fall in about the same strategy space to the same strategic group.\n Draw circles around each strategic group making the circles proportional to the size of the\ngroup’s respective share of total industry sales revenues.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic group mapping"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q16",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Mission statement of a company focuses on the question: ‘who we are’ and ‘what we do’. Explain\nbriefly.",
+   "options": null,
+   "answer": "A company’s mission statement is typically focused on its present business scope — “who we are\nand what we do”; mission statements broadly describe an organizations present capabilities,\ncustomer focus activities and business makeup. An organisation’s mission states what customers\nit serves, what need it satisfies, and what type of product it offers. It is an expression of the\ngrowth ambition of the organisation. It helps organisation to set its own special identity, business\nemphasis and path for development. Mission amplifies what brings the organisation to this\nbusiness or why it is there, what existence it seeks and what purpose it seeks to achieve as a\nbusiness organisation.\nIn other words, the mission serves as a justification for the firm's very presence and existence; it\nlegitimizes the firm's presence.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q17",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Divestment / liquidation → Ch 4 (strategic exits)",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Differentiate between Divestment and Liquidation strategy.",
+   "options": null,
+   "answer": "Following are the differences between Divestment and Liquidation strategy:\n| Divestment Strategy | Liquidation Strategy |\n| --- | --- |\n| Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit center or SBU. | It involves closing down a firm and selling its assets. |\n| Divestment is usually a part of rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful. Option of a turnaround may even be ignored if it is obvious that divestment is the only answer. | Liquidation becomes only option in case of severe and critical conditions where either turnaround or divestment are not seen as solution or have been attempted but failed. |\n| Efforts are made for the survival of organization. | Liquidation as a form of retrenchment strategy is considered as the most extreme and unattractive. |\n| Survival of organization helps in retaining personnel, at least to some extent. | There is loss of employment with stigma of failure. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "divestment",
+    "liquidation"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q18",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Best-cost provider strategy → Ch 3",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Domolo is a premium cycles and cycling equipments brand which targets high spending\ncustomer with a liking for quality and brand name. Their cycles range from rupees fifteen\nthousand to rupees one lac. The recent trend of fitness through cycling has created humongous\ndemand for cycles and peripherals like helmets, lights, braking systems, fitness applications, etc.\nThe customer base has grown 150% in the last three months. Mr. Vijay, who is an investor wants\nto tap in this industry and bring about cheaper options to people who cannot spend so much.\nWhich business level strategy would best suit for Mr. Vijay’s idea and what are the major sub-\nstrategies that can be implemented to capture maximum market?",
+   "options": null,
+   "answer": "The Best Cost Provider strategy would ensure a better reach to the not so affluent customers and\nprovide them with good quality cycles and equipments, thus tapping in on the increasing trend of\ncycling.\nTwo sub-strategies that can be implemented are:\n\n1. Offering lower prices than rivals for the same quality of products\n2. Charging same prices for better quality of products\nThe idea of Mr. Vijay is to provide almost same quality of products in terms of functionality if not\nso in terms of branding, to customer who do not have huge sums of money to pay. Thus, sub -\nstrategy number one, offering lower prices for almost same quality should be impl emented to\nbecome the best cost provider of cycles and related equipments in the market.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "best-cost provider",
+    "generic strategies"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q19",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "State the factors of human resource that have influence on employee’s competence.",
+   "options": null,
+   "answer": "Human resource management has been accepted as a strategic partner in the formulation of\norganization’s strategies and in the implementation of such strategies through human resource\nplanning, employment, training, appraisal and reward systems. The following points should be\nkept in mind as they can have a strong influence on employee competence:\ni. Recruitment and selection: The workforce will be more competent if a firm can\nsuccessfully identify, attract, and select highly competent applicants.\nii. Training: The workforce will be more competent if employees are well trained to perform\ntheir jobs properly.\niii. Appraisal of performance: The performance appraisal is to identify any performance\ndeficiencies experienced by employees due to lack of competence. Such deficiencies, once\nidentified, can often be solved through counselling, coaching or training.\niv. Compensation: A firm can usually increase the competency of its workforce by offering\npay, benefits and rewards that are not only attractive than those of their competitors but\nalso recognizes merit.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q20",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Suresh Sinha has been recently appointed as the head of a strategic business unit of a large\nmultiproduct company. Advise Mr Sinha about the leadership role to be played by him in\nexecution of strategy.",
+   "options": null,
+   "answer": "Leading change has to start with diagnosing the situation and then deciding which of several\nways to handle it. Managers have five leadership roles to play in pushing for good strategy\nexecution:\n(i) Staying on top of what is happening, closely monitoring progress, solving out issues, and\nlearning what obstacles lie in the path of good execution.\n(ii) Promoting a culture of esprit de corps that mobilizes and energizes organizational members\nto execute strategy in a competent fashion and perform at a high level.\n(iii) Keeping the organization responsive to changing conditions, alert for new opportunities,\nbubbling with innovative ideas, and ahead of rivals in developing competitively valuable\ncompetencies and capabilities.\n(iv) Exercising ethical leadership and insisting that the company conduct its affairs like a model\ncorporate citizen.\n(v) Pushing corrective actions to improve strategy execution and overall strategic performance.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic leadership"
+   ]
+  },
+  {
+   "id": "mtp-old-july2021-s2-q21",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Benchmarking — dropped from the 2023 syllabus (old Paper 7B Ch 8.8); no counterpart in current Paper 6B",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain the various steps in Benchmarking process.",
+   "options": null,
+   "answer": "The various steps in Benchmarking Process are as under:\n(i) Identifying the need for benchmarking: This step will define the objectives of the\nbenchmarking exercise. It will also involve selecting the type of benchmarking.\nOrganizations identify realistic opportunities for improvements.\n(ii) Clearly understanding existing decisions processes: The step will involve compiling\ninformation and data on performance.\n(iii) Identify best processes: Within the selected framework best processes are identified.\nThese may be within the same organization or external to them.\n(iv) Comparison of own process and performance with that of others: Benchmarking\nprocess also involves comparison of performance of the organization with performance of\nother organization. Any deviation between the two is analysed to make further\nimprovements.\n\n(v) Prepare a report and implement the steps necessary to close the performance gap: A\nreport on benchmarking initiatives containing recommendations is prepared. Such a report\nalso contains the action plans for implementation.\n(vi) Evaluation: Business organizations evaluate the results of the benchmarking process in\nterms of improvements vis-à-vis objectives and other criteria set for the purpose. It also\nperiodically evaluates and reset the benchmarks in the light of changes in the conditions\nthat impact the performance.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "benchmarking"
+   ]
+  }
+ ]
+}

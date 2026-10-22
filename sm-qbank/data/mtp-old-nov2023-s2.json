@@ -1,0 +1,534 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "Nov 2023",
+  "attempt_sort": "2023-11",
+  "series": "II",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://boslive.icai.org/mock_test_paper/MTP_12_22_QUESTIONS_1696853344.pdf",
+  "answers_url": "https://boslive.icai.org/mock_test_paper/MTP_12_22_ANSWERS_1696998020.pdf",
+  "local_file": "raw/mtp-old-nov2023-s2-q.pdf",
+  "local_answers_file": "raw/mtp-old-nov2023-s2-a.pdf",
+  "test_series": "October 2023",
+  "mock_test_paper_no": null,
+  "source_is_mirror": false,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Official ICAI PDFs served by the BoS app API (https://boslive.icai.org/androidapi/mock_test_paper_details.php?id=12; Test Series: October 2023, MOCK TEST PAPER - 2). The castudynotes.com mirror copies were also downloaded and their extracted text is byte-identical to the ICAI files once the mirror banner is stripped."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-nov2023-s2-q1",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "GE / ADL portfolio matrix → Ch 4",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "In the wake of increasing incomes among salaried individuals and a surge in economic\nconsumption, Anant Khanna, a 23-year-old graduate from IIT Mumbai, identified a lucrative market\nopportunity. He launched a digital credit payback platform named Money Mox, targeting the\ngrowing second-generation demographic.\nSince its inception last year, the company has swiftly garnered a user base of approximately two\nmillion active customers. The availability of disruptive technology from earlier FinTech startups\nfacilitated the establishment of the platform. Money Mox's concept is straightforward: create an\nexclusive community of high-income, high-spending individuals and incentivize their purchases\nthrough credit and debit card rewards.\nThe company recently made headlines, attracting the interest of global investors. Following this,\nearly investor Josh Kattings met with the team and advised them not to merely mimic the approach\nof Batuya, a key competitor with a distinct business model, but rather to learn, enhance, and refine\nthe process for customers.\nSurprisingly, Josh also proposed a collaboration between Money Mox and Batuya for enhanced\nmarket penetration. However, Anant and his team hesitated, as they were dealing with their own\ninfrastructure issues and were more inclined towards outperforming the competition rather than\nforming alliances at this stage.\nLast month, the company publicly disclosed its revenue projections, which caught the attention of\nestablished players in the banking sector. CBZ Bank, at the forefront of this interest, extended an\noffer to purchase Money Mox for 50 crores, under a 100% equity arrangement. Anant and his team\nare yet to respond to this substantial offer from the well-established bank, underscoring how unique\nideas are valued in developing economies like India.\nBased on the above Case Scenario, answer the Multiple-Choice Questions which are as\nfollows:\n\nWhich model has been thoughtfully considered while taking the decision to dive into FinTech market?",
+   "options": [
+    {
+     "label": "a",
+     "text": "BCG growth share matrix"
+    },
+    {
+     "label": "b",
+     "text": "ADL matrix"
+    },
+    {
+     "label": "c",
+     "text": "Stop-Light strategy model"
+    },
+    {
+     "label": "d",
+     "text": "SWOT analysis"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "ge matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q2",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nMoney Mox’s market strategy falls under which of Michael Porter’s generic strategies?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Cost leadership strategy"
+    },
+    {
+     "label": "b",
+     "text": "Focused differentiation strategy"
+    },
+    {
+     "label": "c",
+     "text": "Focused cost leadership"
+    },
+    {
+     "label": "d",
+     "text": "Differentiation strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic alliance — risks and downsides → Ch 4",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich of the following may be true about the downsides of the plan to work along with Batuya, that Anant and team might have considered?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Trade secrets can be spilled out"
+    },
+    {
+     "label": "b",
+     "text": "Ally may become a competitor"
+    },
+    {
+     "label": "c",
+     "text": "There may be good sharing of skills and technology and thus the costs will rise"
+    },
+    {
+     "label": "d",
+     "text": "Only A and B"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic alliance"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q4",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Benchmarking — dropped from the 2023 syllabus (old Paper 7B Ch 8.8); no counterpart in current Paper 6B",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich procedural approach was brought out in the investor meeting by Josh Kattings for a better market standing of Money Mox?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Business process re-engineering (BPR)"
+    },
+    {
+     "label": "b",
+     "text": "Benchmarking"
+    },
+    {
+     "label": "c",
+     "text": "Change management"
+    },
+    {
+     "label": "d",
+     "text": "Strategy control"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "benchmarking"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q5",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(A)5",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nCBZ Bank’s offer to buy 100% equity of Money Mox is an example of?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Horizontal merger"
+    },
+    {
+     "label": "b",
+     "text": "Concentric diversification"
+    },
+    {
+     "label": "c",
+     "text": "Strategic alliance"
+    },
+    {
+     "label": "d",
+     "text": "Co-generic merger"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q6",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG growth-share matrix → Ch 4",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "XYZ Corporation is a multinational conglomerate operating in various industries. They have a diverse portfolio of businesses, including a leading consumer electronics division, a growing e - commerce platform, a mature industrial machinery division, and a newly established software development unit. Which division of XYZ Corporation would most likely be classified as a \"Star\" in the BCG Growth-Share Matrix?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Consumer Electronics Division"
+    },
+    {
+     "label": "b",
+     "text": "E-commerce Platform"
+    },
+    {
+     "label": "c",
+     "text": "Industrial Machinery Division"
+    },
+    {
+     "label": "d",
+     "text": "Software Development Unit"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "bcg matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q7",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — partly proactive, partly reactive → Ch 1",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Mr. Prakash and Mr. Pal are partners in a thriving business venture. Recently, they have become aware of their employees' dissatisfaction with their working conditions. Mr. Prakash believes that the situation should be dealt with before the employees explode. Mr. Pal, on the other hand, believes that if the employees have an outburst, then they will handle it. Mr. Prakash and Mr. Pal business philosophy is:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Reactive, Proactive"
+    },
+    {
+     "label": "b",
+     "text": "Reactive, Reactive"
+    },
+    {
+     "label": "c",
+     "text": "Proactive, Proactive"
+    },
+    {
+     "label": "d",
+     "text": "Proactive, Reactive"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "nature of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q8",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "TechNo Solutions, a dynamic tech company, is considering a shift in its organizational structure to enhance efficiency. The management team is evaluating various strategies and decided to virtually eliminate in-house business functions. Which of the following organizational structures is TechNo Solutions shifting towards?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Network Structure"
+    },
+    {
+     "label": "b",
+     "text": "Matrix structure"
+    },
+    {
+     "label": "c",
+     "text": "Hourglass Structure"
+    },
+    {
+     "label": "d",
+     "text": "SBU Structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q9",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic marketing techniques (retained in Ch 3 ‘Strategic Drivers: Product/Services’)",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "ABC Fashion provides early access and exclusive designs to its exclusive clientele, emphasizing personalized experiences. Which marketing type does this exemplify?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Augmented marketing"
+    },
+    {
+     "label": "b",
+     "text": "Service marketing"
+    },
+    {
+     "label": "c",
+     "text": "Person marketing"
+    },
+    {
+     "label": "d",
+     "text": "Relationship marketing"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic marketing techniques"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q10",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management — dropped from the 2023 syllabus (old Ch 6.4.3-6.4.4)",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Who ensures that the right materials are available at the right place, at the right time, of the right quality, and at the right cost?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Marketing management"
+    },
+    {
+     "label": "b",
+     "text": "R & D management"
+    },
+    {
+     "label": "c",
+     "text": "Supply chain management"
+    },
+    {
+     "label": "d",
+     "text": "Logistics management"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q11",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "What is one of the key purposes of having an organizational mission?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Ensuring unanimity of purpose within the organization."
+    },
+    {
+     "label": "b",
+     "text": "Setting short-term operational goals."
+    },
+    {
+     "label": "c",
+     "text": "Providing a basis for marketing strategies."
+    },
+    {
+     "label": "d",
+     "text": "Specifying financial forecasts."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q12",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level strategic choices → Ch 4",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"XYZ Ltd., a multi-product company, has been experiencing consistent losses in recent years, leading\nto a significant erosion of its net worth. What strategic options should the management consider\naddressing the company's current situation? Provide recommendations along with supporting reasons.\"",
+   "options": null,
+   "answer": "XYZ Ltd. is a sick company with accumulated losses that have eroded its net worth. The multi-product\ncompany may analyse its various products to take decisions on the viability of each. The company may\nconsider a retrenchment strategy. Retrenchment becomes necessary for coping with hostile and\nadverse situations in the environment and when any other strategy is likely to be suicidal.\nRetrenchment strategy is adopted because of continuous losses and unviability and stability can be\nensured by reallocation of resources from unprofitable to profitable businesses.\nRetrenchment strategy is followed when an organization substantially reduces the scope of its activity.\nThis is done through an attempt to find out the problem areas and diagnose the causes of the pr oblems.\nNext, steps are taken to solve the problems. These steps result in different kinds of retrenchment\nstrategies as follows:\nTurnaround strategy: If the organization chooses to transform itself into a leaner structure and focuses\non ways and means to reverse the process of decline, it adopts a turnaround strategy. It may try to\nreduce costs, eliminate unprofitable outputs, generate revenue, improve coordination, better control,\nand so on.\nDivestment Strategy: Divestment strategy involves the sale or liquidation of a portion of business, or a\nmajor division, profit centre or SBU. Divestment is usually a part of a rehabilitation or restructuring plan\nand is adopted when a turnaround has been attempted but has proved to be unsuccessful.\nLiquidation Strategy: In the retrenchment strategy, the most extreme and unattractive is liquidation\nstrategy. It involves closing down a firm and selling its assets. It is considered as the last resort because\nit leads to serious consequences such as loss of employment for workers and other employees,\ntermination of opportunities where a firm could pursue any future activities, and the stigma of failure.\nThe management of multiproduct sick company manufacturing various items need to understand pros\nand cons of each strategic option. The decision will depend upon the specific circumstances of each\nproduct and the management goals of the company.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic choices"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q13",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Limitations of strategic management → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Define Strategic Management. Also discuss the limitations of Strategic Management.",
+   "options": null,
+   "answer": "The term ‘strategic management’ refers to the managerial process of developing a strategic vision,\nsetting objectives, crafting a strategy, implementing and evaluating the strategy, and initiating\ncorrective adjustments were deemed appropriate.\nThe presence of strategic management cannot counter all hindrances and always achieve success\nas there are limitations attached to strategic management. These can be explained in the following\nlines:\n\n Environment is highly complex and turbulent. It is difficult to understand the complex\nenvironment and exactly pinpoint how it will shape-up in future. The organisational estimate\nabout its future shape may awfully go wrong and jeopardise all strategic plans. The\nenvironment affects as the organisationhas to deal with suppliers, customers, governments\nand other external factors.\n Strategic Management is a time-consuming process. Organisations spend a lot of time in\npreparing, communicating the strategies that may impede daily operations and negatively\nimpact the routine business.\n Strategic Management is a costly process. Strategic management adds a lot of expenses\nto an organization. Expert strategic planners need to be engaged, efforts are made for\nanalysis of external and internal environments, devise strategies and properly implement.\nThese can be really costly for organisations with limited resources particularly when small\nand medium organisation create strategies to compete.\n Competition is unpredictable. In a competitive scenario, where all organisations are trying\nto move strategically, it is difficult to clearly estimate the competitive responses to the\nstrategies.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "limitations"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q14",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / implementation issues → Ch 5",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Describe the principal aspects of strategy-execution process, which are included in most situations.",
+   "options": null,
+   "answer": "Implementation or execution is an operations-oriented, activity aimed at shaping the\nperformance of core business activities in a strategy-supportive manner. In most situations,\nstrategy-execution process includes the following principal aspects:\n Developing budgets that steer ample resources into those activities that are critical to\nstrategic success.\n Staffing the organization with the needed skills and expertise, consciously building and\nstrengthening strategy-supportive competencies and competitive capabilities and organizing\nthe work effort.\n Ensuring that policies and operating procedures facilitate rather than impede effective\nexecution.\n Using the best-known practices to perform core business activities and pushing for\ncontinuous improvement.\n Installing information and operating systems that enable company personnel to better\ncarry out their strategic roles day in and day out.\n Motivating people to pursue the target objectives energetically.\n Creating culture and climate conducive to successful strategy implementation and\nexecution.\n Exerting the internal leadership needed to drive implementation forward and keep\nimproving strategy execution.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q15",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "\"A well designed strategic management system can fail if insufficient attention is given to the human\nresource dimension.\" ·Elucidate this statement.",
+   "options": null,
+   "answer": "A well-designed strategic-management system can fail if insufficient attention is given to the human\nresource dimension. Human resource problems that arise when a business implements strategies\ncan usually be traced to one of three causes: (1) disruption of social and political structures, (2)\nfailure to match individuals’ aptitudes with implementation tasks, and (3) inadequate top\nmanagement support for implementation activities.\ni. Disruption of social and political structures: Strategy implementation poses a threat to\nmany managers and employees in an organization. New power and status relationships are\n\nanticipated and realized. New formal and informal groups’ values, beliefs, and priorities may\nbe largely unknown. Managers and employees may become engaged in resistance behaviour\nas their roles, prerogatives, and power in the firm change. Disruption of social and political\nstructures that accompany strategy execution must be anticipated and considered during\nstrategy formulation and managed during strategy implementation.\nii. Failure to match individuals’ aptitudes with implementation tasks: A concern in matching\nmanagers with strategy is that jobs have specific and relatively static responsibilities, although\npeople are dynamic in their personal development. Commonly used methods that match\nmanagers with strategies to be implemented include transferring managers, developing\nleadership workshops, offering career development activities, promotions, job enlargement,\nand job enrichment.\nIt is surprising that so often during strategy formulation; individual values , skills, and abilities\nneeded for successful strategy implementation are not considered. It is rare that a firm\nselecting new strategies or significantly altering existing strategies possesses the right line\nand staff personnel in tight positions for successful strategy implementation. The need to\nmatch individual aptitudes with strategy-implementation tasks should be considered in\nstrategy choice.\niii. Inadequate top management support for implementation activities: Inadequate support\nfrom strategists for implementation activities often undermines organizational success. Chief\nexecutive officers, small business owners, and government agency heads must be personally\ncommitted to strategy implementation and express this commitment in highly visible ways.\nStrategists’ formal statements about the importance of strategic management must be\nconsistent with actual support and rewards given for activities completed and objectives\nreached. Otherwise, stress created by inconsistency can cause uncertainty among manag ers\nand employees at all levels.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q16",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level strategic choices → Ch 4",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Woodworld Ltd. is a company manufactures a variety of household furniture items. They offered\ntraditional designs, low cost furniture items to low income group customers. During the last couple\nof years, the company has been observing a fall in the market share. Th is is due to the change in\nthe taste and preferences, designing, better quality, increase in purchasing power of buyers\ntowards the household furniture. The customers are switching away traditional designs and\nmaterial that have been the backbone of Woodworld Ltd.\nAs a CEO of Woodworld Ltd., what can be the strategic options available with you.",
+   "options": null,
+   "answer": "Woodworld is having a product portfolio that is evidently in the decline stage. The product is being\nreplaced with the latest designs with better quality of the product. Strategically, the company should\nminimize their dependence on the existing products and identify other avenues for the survival and\ngrowth. As a CEO of Woodworld Ltd., following can be the strategic options available with the CEO:\n• Invest in new product development and switchover to the latest designs. Woodworld Ltd. also\nneed time to invest in hiring interior designers.\n• They can acquire or takeover a competitor, provided they have or are able to generate enough\nfinancial resources.\n• They may also consider unrelated growth and identify other areas for expansion. This will\nenable Woodworld Ltd. to spread their risks.\n• In longer run, they should divest the existing products. However, they may continue with the\nexisting products in a limited manner for such time there is demand for the product.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic choices"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q17",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter’s five forces → Ch 2",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Rajiv Arya is owner of an electrical appliance company that specializes in manufacturing of\ndomestic vacuum cleaners. There are four other manufacturers with similar products and sales\nvolume. Current rival firms also own a number of patents related to the product. The supplier base\nfor procurement of raw material is also very large as there are multiple suppliers.\nIdentify Porter’s Five Forces that may be classified as significant for the company? Explain.",
+   "options": null,
+   "answer": "The competitive rivalry will be a significant force in case of company of Rajiv Arya as all the rivals\nare similar in sizes and are manufacturing similar products. It is difficult for any single manufacturer\nto dominate the market. Large number of patents will make it difficult for new entrants to break into\nthe market. Further, as there are a large number of small suppliers the power that suppliers can\nexert will also be low.\nThere is no information relating to substitutes and bargaining power of customers in the information\ngiven in scenario. However, a domestic vacuum cleaner will directly compete with other options\n\nsuch as house maids. Availability of house maids at low cost can significantly disturb the sales of\nproducts.\nFurther, as the products are similar customers can easily shift from one compa ny to another. This\nwill only enhance competitive rivalry.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "five forces"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q18",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy evaluation and control → Ch 5",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What is strategic control? Briefly explain the different types of strategic control?",
+   "options": null,
+   "answer": "Strategic Control focuses on the dual questions of whether: (1) the strategy is being implemented\nas planned; and (2) the results produced by the strategy are those intended.\nThere are four types of strategic control:\n Premise control: A strategy is formed on the basis of certain assumptions or premises about\nthe environment. Premise control is a tool for systematic and continuous monitoring of the\nenvironment to verify the validity and accuracy of the premises on which the strategy ha s\nbeen built.\n Strategic surveillance: Strategic surveillance is unfocussed. It involves general monitoring\nof various sources of information to uncover unanticipated information having a bearing on\nthe organizational strategy.\n Special alert control: At times, unexpected events may force organizations to reconsider\ntheir strategy. Sudden changes in government, natural calamities, unexpected\nmerger/acquisition by competitors, industrial disasters and other such events may trigger an\nimmediate and intense review of strategy.\n Implementation control: Managers implement strategy by converting major plans into\nconcrete, sequential actions that form incremental steps. Implementation control is directed\ntowards assessing the need for changes in the overall strategy in light of unfolding events\nand results.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategy evaluation"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q19",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation culture (soft) → Ch 5",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "'A strategy-supportive culture promotes good strategy execution.' Explain.",
+   "options": null,
+   "answer": "Strong cultures promote good strategy execution when there’s fit and hurt execution when there’s\nnegligible fit. A culture grounded in values, practices, and behavioral norms that match what is\nneeded for good strategy execution helps energize people throughout the organization to do their\njobs in a strategy-supportive manner. A culture built around such business principles as listening\nto customers, encouraging employees to take pride in their work, and g iving employees a high\ndegree of decision-making responsibility. This is very conducive to successful execution of a\nstrategy of delivering superior customer service.\nA work environment where the culture matches the conditions for good strategy execution provides\na system of informal rules and peer pressure regarding how to conduct business internally and\nhow to go about doing one’s job.\nA strong strategy-supportive culture makes employees feel genuinely better about their jobs and\nwork environment and the merits of what the company is trying to accomplish. Employees are\nstimulated to take on the challenge of realizing the organizational vision, do their jobs competently\nand with enthusiasm, and collaborate with others.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisational culture"
+   ]
+  },
+  {
+   "id": "mtp-old-nov2023-s2-q20",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic planning within the strategic management process → Ch 5",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Differentiation between Strategic Planning and Operational Planning.",
+   "options": null,
+   "answer": "| Strategic planning | Operational planning |\n| --- | --- |\n| Strategic planning shapes the organisation and its resources. | Operational planning deals with current deployment of resources. |\n| Strategic planning assesses the impact of environmental variables. | Operational planning develops tactics rather than strategy. |\n| Strategic planning takes a holistic view of the organisation. | Operational planning projects current operations into the future. |\n| Strategic planning develops overall objectives and strategies. | Operational planning makes modifications to the business functions but not fundamental changes. |\n| Strategic planning is concerned with the long-term success of the organisation. | Operational planning is concerned with the short-term success of the organisation. |\n| Strategic planning is a senior management responsibility. | Operational planning is the responsibility of functional managers. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic planning"
+   ]
+  }
+ ]
+}

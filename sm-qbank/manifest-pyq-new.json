@@ -1,0 +1,112 @@
+{
+ "type": "PYQ",
+ "scheme": "new",
+ "paper": "Paper 6B: Strategic Management (Intermediate Paper 6, Section B)",
+ "generated": "2026-10-05",
+ "attempts": [
+  {
+   "attempt": "May 2024",
+   "attempt_sort": "2024-05",
+   "type": "PYQ",
+   "scheme": "new",
+   "qp_url": "https://resource.cdn.icai.org/80550bos64734.pdf",
+   "sa_url": "https://resource.cdn.icai.org/81501bos65715-p6.pdf",
+   "local_file": "data/pyq-may2024.json",
+   "status": "complete",
+   "question_count": 10,
+   "has_answers": true,
+   "note": "ICAI's May 2024 Suggested Answers reproduce only the Section B descriptive portion (Q5-8); no Part I MCQ portion is printed in that PDF, so this attempt has no Section B MCQ records."
+  },
+  {
+   "attempt": "September 2024",
+   "attempt_sort": "2024-09",
+   "type": "PYQ",
+   "scheme": "new",
+   "qp_url": "https://resource.cdn.icai.org/82246bos66313.pdf",
+   "sa_url": "https://resource.cdn.icai.org/83077bos67152-6.pdf",
+   "local_file": "data/pyq-sep2024.json",
+   "status": "complete",
+   "question_count": 18,
+   "has_answers": true,
+   "note": "Section B MCQ (Q9-16) marks are not printed in ICAI's reproduction, so marks are null for those records."
+  },
+  {
+   "attempt": "January 2025",
+   "attempt_sort": "2025-01",
+   "type": "PYQ",
+   "scheme": "new",
+   "qp_url": "https://resource.cdn.icai.org/84224bos67894-p6.pdf",
+   "sa_url": "https://resource.cdn.icai.org/84880bos68360-p6.pdf",
+   "local_file": "data/pyq-jan2025.json",
+   "status": "complete",
+   "question_count": 18,
+   "has_answers": true,
+   "note": "Section B MCQ (Q9-16) marks are not printed in ICAI's reproduction, so marks are null for those records."
+  },
+  {
+   "attempt": "May 2025",
+   "attempt_sort": "2025-05",
+   "type": "PYQ",
+   "scheme": "new",
+   "qp_url": "https://resource.cdn.icai.org/86051bos-aps471-int-p6.pdf",
+   "sa_url": "https://resource.cdn.icai.org/87258bos-sa-int-may2025-g2-p6b.pdf",
+   "local_file": "data/pyq-may2025.json",
+   "status": "complete",
+   "question_count": 18,
+   "has_answers": true,
+   "note": "Descriptive answers from the dedicated Paper 6B PDF; Section B MCQs (Q9-16) are printed only in the Paper 6A PDF https://resource.cdn.icai.org/87257bos-sa-int-may2025-g2-p6a.pdf (saved as raw/pyq-may2025-sa-mcq.pdf) and were taken from there."
+  },
+  {
+   "attempt": "September 2025",
+   "attempt_sort": "2025-09",
+   "type": "PYQ",
+   "scheme": "new",
+   "qp_url": "https://resource.cdn.icai.org/88294bos160925.pdf",
+   "sa_url": "https://resource.cdn.icai.org/89275bos-aps3012-int-p6.pdf",
+   "local_file": "data/pyq-sep2025.json",
+   "status": "complete",
+   "question_count": 18,
+   "has_answers": true,
+   "note": "Answer to Q8(b) is a two-column comparison table, re-rendered as a markdown pipe table."
+  },
+  {
+   "attempt": "January 2026",
+   "attempt_sort": "2026-01",
+   "type": "PYQ",
+   "scheme": "new",
+   "qp_url": "https://resource.cdn.icai.org/90369bos-aps3856-int-jan2026-p6.pdf",
+   "sa_url": "https://resource.cdn.icai.org/91204bos-aps4356-sa-int-p6.pdf",
+   "local_file": "data/pyq-jan2026.json",
+   "status": "complete",
+   "question_count": 18,
+   "has_answers": true,
+   "note": "Marks for the alternative Q8(b) (OR) are not printed by ICAI, so marks is null there. MCQ 12 option (D) is printed by ICAI without its closing bracket."
+  },
+  {
+   "attempt": "May 2026",
+   "attempt_sort": "2026-05",
+   "type": "PYQ",
+   "scheme": "new",
+   "qp_url": "https://resource.cdn.icai.org/92261bos-aps4903-int-may2026-p6.pdf",
+   "sa_url": "https://resource.cdn.icai.org/92877bos-sa-int-may2026-p6.pdf",
+   "local_file": "data/pyq-may2026.json",
+   "status": "complete",
+   "question_count": 18,
+   "has_answers": true,
+   "note": "Answer to the alternative Q8(b) (OR) is a three-column comparison table, re-rendered as a markdown pipe table."
+  },
+  {
+   "attempt": "September 2026",
+   "attempt_sort": "2026-09",
+   "type": "PYQ",
+   "scheme": "new",
+   "qp_url": "https://resource.cdn.icai.org/94309bos-aps4903-int-sep2026-p6.pdf",
+   "sa_url": null,
+   "local_file": "data/pyq-sep2026.json",
+   "status": "not_published",
+   "question_count": 18,
+   "has_answers": false,
+   "note": "Question paper captured (transcribed from the scanned ICAI PDF, which has no text layer). ICAI Suggested Answers for September 2026 are not published yet: https://www.icai.org/post/suggested-answer-intermediate lists attempts only up to May 2026 and https://www.icai.org/post/sugg-ans-inter-sep2026 returned HTTP 404 on 2026-10-05. All answer fields are empty and mcq_answer is null - no answers were written."
+  }
+ ]
+}

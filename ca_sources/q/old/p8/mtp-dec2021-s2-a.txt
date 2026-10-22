@@ -1,0 +1,1453 @@
+=== p.1 ===
+1 
+Test Series: November, 2021 
+MOCK TEST PAPER 2 
+INTERMEDIATE (NEW): GROUP – II 
+PAPER – 8: FINANCIAL MANAGEMENT & ECONOMICS FOR FINANCE 
+8A : FINANCIAL MANAGEMENT 
+SUGGESTED ANSWERS/ HINTS 
+1. 
+(a)  
+(i)  
+Cost of Equity Capital (Ke): 
+ 
+ 
+ 
+Ke = 
+1
+0
+Expecteddividendpershare(D )+Growthrate(g)
+Marketpricepershare(P )
+ 
+ 
+ 
+ 
+ 
+= 
+₹ 5 × 1.05
+₹ 25
++ 0.05 = 26%  
+ 
+ 
+(ii) 
+Cost of Debenture (Kd): 
+ 
+ 
+Using Present Value method (or YTM) 
+ 
+ 
+Identification of relevant cash flows 
+Year 
+Cash flows 
+0 
+Current market price (P0) = ₹ 95 
+1 to 10 
+Interest net of tax [I(1-t)] = 12% of ₹ 100 (1 – 0.30) = ₹ 8.40 
+10 
+Redemption value (RV) = ₹ 100 (1.12) = ₹ 112 
+ 
+ 
+Calculation of Net Present Values (NPV) at two discount rates 
+Year 
+Cash 
+flows 
+Discount factor 
+@ 9% (L) 
+Present 
+Value 
+Discount factor 
+@ 10% (H) 
+Present 
+Value 
+0 
+(95) 
+1.0000 
+(95.00) 
+1.0000 
+(95.00) 
+1 to 10 
+8.40 
+6.4176 
+53.91 
+6.1445 
+51.61 
+10 
+112 
+0.4224 
+47.31 
+0.3855 
+43.18 
+NPV 
+ 
+ 
++6.22 
+ 
+-0.21 
+ 
+ 
+Calculation of IRR 
+ 
+IRR = 
+(
+)
+L
+L
+H
+NPV
+L+
+H-L
+NPV -NPV
+  
+ 
+      = 9% +
+6.22
+6.22 - (- 0.21) ൫10% - 9%൯= 9% + 6.22
+6.43 = 9.97% 
+  
+ 
+ 
+Therefore, Kd = 9.97% 
+ 
+ 
+(b) 
+Calculation of Indifference point between the two alternatives of financing. 
+Alternative-I By issue of 9,00,000 equity shares of ₹10 each amounting to ₹ 90 lakhs. No 
+financial charges are involved. 
+© The Institute of Chartered Accountants of India
+=== p.2 ===
+2 
+Alternative-II By raising the funds in the following way: 
+Debt = ₹ 60 lakhs 
+Equity = ₹ 30 lakhs (3,00,000 equity shares of ₹ 10 each) 
+Interest payable on debt = 60,00,000× 18
+100= ₹ 10,80,000 
+The difference point between the two alternatives is calculated by:  
+1
+2
+1
+2
+(EBIT -I ) (1-T)
+(EBIT -I ) (1-T)
+=
+E
+E
+ 
+ 
+ 
+3,00,000
+0.30)
+(1
+ 
+,80,000)
+(EBIT
+9,00,000
+0.30)
+(1
+ 
+0)
+(EBIT
+−
+−
+=
+−
+−
+10
+ 
+ 
+ 
+3,00,000
+(0.70)
+ 
+,80,000)
+(EBIT
+9,00,000
+(0.70)
+ 
+(EBIT)
+10
+−
+=
+ 
+ 
+ 
+1
+,80,000)
+(EBIT
+0.70
+3
+EBIT(0.70)
+10
+−
+=
+ 
+ 
+ 
+EBIT = 3EBIT−32,40,000 
+ 
+ 
+−2 EBIT = −32,40,000 
+ 
+ 
+EBIT = 
+2
+32,40,000 
+ 
+ 
+EBIT = ₹ 16,20,000 
+ 
+ 
+Therefore, at EBIT of ₹ 16,20,000, earnings per share for the two alternatives is equal. 
+ 
+(c)  
+ 
+Sales in units 
+12,000 
+10,000 
+ 
+(₹) 
+(₹) 
+Sales Value 
+1,44,000 
+1,20,000 
+Variable Cost 
+(96,000) 
+(80,000) 
+Contribution 
+48,000 
+40,000 
+Fixed expenses 
+(20,000) 
+(20,000) 
+EBIT 
+28,000 
+20,000 
+Debenture Interest 
+(10,000) 
+(10,000) 
+EBT 
+18,000 
+10,000 
+Tax @ 30% 
+(5,400) 
+(3,000) 
+Profit after tax (PAT) 
+12,600 
+7,000 
+(i) Financial Leverage= EBIT
+EBT 
+=  ₹ 28,000
+₹ 18,000 = 1.56 
+= ₹ 20,000
+₹ 10,000 = 2 
+© The Institute of Chartered Accountants of India
+=== p.3 ===
+3 
+(ii) Operating leverage = Contribution
+EBIT
+ 
+= ₹ 48,000
+₹ 28,000 = 1.71 
+= ₹ 40,000
+₹ 20,000 = 2 
+(iii) Earnings per share (EPS) 
+= ₹ 12,600
+₹ 1,000 = ₹ 12.6 
+= ₹ 7,000
+₹ 1,000 = ₹ 7 
+Decrease in EPS  
+ 
+ 
+= ₹ 12.6 – ₹ 7 = ₹ 5.6 
+% decrease in EPS 
+= 5.6
+12.6 X 100 = 44.44% 
+ 
+(d)  
+(i) 
+The EPS of the firm is ₹ 10 (i.e. ₹ 5,00,000/ 50,000). r = 5,00,000/ 50,00,000 = 10%. 
+The P/E Ratio is given at 12.5 and the cost of capital, Ke, may be taken at the inverse 
+of P/E ratio. Therefore, Ke is 8 (i.e., 1/12.5). The firm is distributing total dividends of  
+₹ 3,75,000 among 50,000 shares, giving a dividend per share of ₹ 7.50. The value of 
+the share as per Walter’s model may be found as follows: 
+ 
+ 
+ 
+e
+e
+r
+D+
+(E-D)
+K
+P    =     
+K
+= 
+7.5+
+(10 - 7.5)
+0.08
+0.08
+0.1
+= ₹ 132.81 
+ 
+The firm has a dividend payout of 75% (i.e., ₹ 3,75,000) out of total earnings of  
+₹ 5,00,000. Since, the rate of return of the firm, r, is 10% and it is more than the Ke of 
+8%, therefore, by distributing 75% of earnings, the firm is not following an optimal 
+dividend policy. The optimal dividend policy for the firm would be to pay zero dividend 
+and in such a situation, the market price would be, 
+ 
+ 
+ 
+0+
+(10 - 0)
+0.08
+0.08
+0.1
+= ₹ 156.25 
+ 
+So, theoretically, the market price of the share can be increased by adopting a zero 
+payout. 
+ 
+ 
+(ii) 
+The P/E ratio at which the dividend policy will have no effect on the value of the share 
+is such at which the Ke would be equal to the rate of return, r, of the firm. The Ke would 
+be 10% (= r) at the P/E ratio of 10. Therefore, at the P/E ratio of 10, the dividend policy 
+would have no effect on the value of the share. 
+ 
+ 
+(iii) 
+If the P/E is 8 instead of 12.5, then the Ke which is the inverse of P/E ratio, would be 
+12.5 and in such a situation ke> r and the market price, as per Walter’s model would 
+be: 
+ 
+ 
+ 
+e
+e
+r
+D+
+(E-D)
+K
+P    =     
+K
+ = 
+7.5+
+(10 - 7.5)
+0.125
+0.125
+0.1
+= ₹ 76 
+2. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(In ₹ ‘000) 
+Ratio 
+Formula 
+2018–19 
+2019–20 
+2020–21 
+Industry 
+Average 
+Current 
+ratio 
+Current Assets
+Current Liabilities 
+1,320
+520 
+6,200
+3,456
+ 
+8,912
+5,560
+ 
+2.30:1 
+© The Institute of Chartered Accountants of India
+=== p.4 ===
+4 
+= 2.54 
+= 1.80 
+= 1.60 
+Acid test 
+ratio (quick 
+ratio) 
+Quick Assets
+Current Liabilities 
+680
+520 
+= 1.31 
+3,200
+3,456
+ 
+= 0.93 
+4,412
+5,560
+ 
+= 0.79 
+1.20:1 
+Receivable 
+turnover 
+ratio 
+Credit Sales
+Average Accounts Receivable 
+3,600
+(600+600)/2 
+= 6 
+8,640
+(600+ 3,000)/2 
+= 4.80 
+14,400
+(3,000+ 4,200)/2 
+= 4 
+7 times 
+Inventory 
+turnover 
+ratio 
+COGS
+Average Inventory 
+2,480
+(640+640)/2 
+= 3.88 
+5,664
+(640+ 3,000)/2 
+= 3.11 
+9,600
+(3,000+ 4,500)/2 
+= 2.56 
+4.85 times 
+Long-term 
+debt to 
+total debt 
+Long term Debt
+Total Debt
+ × 100 
+1,472
+ 100
+1,992 ×
+ 
+= 73.90% 
+2,472
+ 100
+5,928 ×
+ 
+= 41.70% 
+5,000
+ 100
+10,560 ×
+ 
+= 47.35% 
+24% 
+Debt-to-
+equity ratio 
+Long term Debt
+Shareholders' Equity × 100 
+1,472
+ 100
+3,128 ×
+ 
+= 47.06% 
+2,472
+ 100
+5,272 ×
+ 
+= 46.89% 
+5,000
+ 100
+7,752 ×
+ 
+= 64.50% 
+35% 
+Net profit 
+ratio 
+Net Profit
+Sales
+×100 
+728
+ 100
+4,000 ×
+ 
+= 18.2% 
+1,344
+ 100
+9,600 ×
+ 
+= 14% 
+1,680
+ 100
+16,000 ×
+ 
+= 10.5% 
+18% 
+Return on 
+total assets 
+Net Profit after taxes
+Total assets
+×100 
+728
+ 100
+5,120 ×
+ 
+= 14.22% 
+1,344
+ 100
+11,200 ×
+ 
+= 12% 
+1,680
+ 100
+18,312 ×
+ 
+= 9.17% 
+10% 
+Interest 
+coverage 
+ratio (times 
+interest 
+earned) 
+EBIT
+Interest 
+1,160
+120 
+= 9.67 
+2,236
+316 
+= 7.08 
+3,080
+680 
+= 4.53 
+10 
+Conclusion: 
+In the last two years, the current ratio and quick ratio are less than the ideal ratio (2:1 and 1:1 
+respectively) indicating that the company is not having enough resources to meet its current 
+obligations. Receivables are growing slower. Inventory turnover is slowing down as well, indicating a 
+relative build-up in inventories or increased investment in stock. High Long-term debt to total debt 
+ratio and Debt to equity ratio compared to that of industry average indicates high dependency on 
+© The Institute of Chartered Accountants of India
+=== p.5 ===
+5 
+long term debt by the company. The net profit ratio is declining substantially and is much lower than 
+the industry norm. Additionally, though the Return on Total Asset(ROTA) is near to industry average, 
+it is declining as well. The interest coverage ratio measures how many times a company can cover 
+its current interest payment with its available earnings. A high interest coverage ratio means that an 
+enterprise can easily meet its interest obligations, however, it is declining in the case of Jensen & 
+Spencer and is also below the industry average indicating excessive use of debt or inefficient 
+operations. 
+On overall comparison of the industry average of key ratios than that of Jensen & Spencer, the 
+company is in deterioration position. The company’s profitability has declined steadily over the 
+period. However, before jumping to the conclusion relying only on the key ratios, it is pertinent to 
+keep in mind the industry, the company dealing in with i.e. manufacturing of pharmaceutical drugs. 
+The pharmaceutical industry is one of the major contributors to the economy and is expected to grow 
+further. After the covid situation, people are more cautious towards their health and are going to 
+spend relatively more on health medicines. Thus, while analysing the loan proposal, both the factors, 
+financial and non-financial, needs to be kept in mind. 
+3.  
+Option I : Cost of travel, in case Video Conferencing facility is not provided  
+ 
+Total Trip = No. of Locations × No. of Persons × No. of Trips per Person = 7×2×2 = 28 Trips  
+ 
+Total Travel Cost (including air fare, hotel accommodation and meals) (28 trips × ₹ 27,000 per trip)  
+= ₹ 7,56,000  
+ 
+Option II : Video Conferencing Facility is provided by Installation of Own Equipment at 
+Different Locations  
+Cost of Equipment at each location (₹ 8,25,000 × 8 locations) = ₹ 66,00,000  
+Economic life of Machines (5 years). Annual depreciation (66,00,000/5) = ₹ 13,20,000  
+Annual transmission cost (48 hrs. transmission × 8 locations × ₹ 300 per hour) = ₹ 1,15,200  
+Annual cost of operation (13,20,000 + 1,15,200) = ₹ 14,35,200  
+Option III : Engaging Video Conferencing Facility on Rental Basis  
+Rental cost (48 hrs. × 8 location × ₹ 1,500 per hr) = ₹ 5,76,000 
+Telephone cost (48 hrs.× 8 locations × ₹ 400 per hr.) = ₹ 1,53,600  
+Total rental cost of equipment (5,76,000 + 1,53,600) = ₹ 7,29,600  
+Analysis: The annual cash outflow is minimum, if video conferencing facility is engaged on rental 
+basis. Therefore, Option III is suggested. 
+4.  
+ 
+ 
+Forecast Profit and Loss Account for the period 01.04.2020 to 31.03.2021 
+Particulars 
+₹ Particulars 
+₹ 
+Materials consumed  
+1,20,000 @ ₹ 3 
+3,60,000 By Sales 1,20,000 @ ₹ 5  
+6,00,000 
+Direct wages :  
+1,20,000 @ ₹ 0.50 
+60,000  
+ 
+Overheads :  
+1,20,000 @ ₹ 1 
+1,20,000  
+ 
+© The Institute of Chartered Accountants of India
+=== p.6 ===
+6 
+Gross profit c/d 
+60,000  
+ 
+ 
+6,00,000  
+6,00,000 
+Debenture interest  
+(10% of 1,00,000) 
+10,000 By gross profit b/d 
+60,000 
+Net profit c/d 
+50,000  
+ 
+ 
+60,000  
+60,000 
+Working Capital Requirement Forecast for the year 01.04.2020 to 31.03.2021 
+Particulars 
+Period 
+(Months) 
+Total (₹) 
+Current Assets  (₹) 
+Current 
+Liabilities (₹) 
+ 
+ 
+ 
+Raw 
+materials 
+Work-in-
+progress 
+Finished 
+goods 
+Debtors 
+Creditors 
+1. Material 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In store 
+2 
+ 
+60,000 
+ 
+ 
+ 
+ 
+In work-in-
+progress 
+1 
+ 
+ 
+30,000 
+ 
+ 
+ 
+In 
+finished 
+goods 
+3 
+ 
+ 
+ 
+90,000 
+ 
+ 
+Credit 
+to 
+debtors 
+3 
+ 
+ 
+ 
+ 
+90,000 
+ 
+ 
+9 
+ 
+ 
+ 
+ 
+ 
+ 
+Less 
+: 
+Credit from 
+creditors 
+2 
+ 
+ 
+ 
+ 
+ 
+60,000 
+Net 
+block 
+period 
+7 
+2,10,000 
+ 
+ 
+ 
+ 
+ 
+2. Wages: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In work-in-
+progress 
+1/2 
+ 
+ 
+2,500 
+ 
+ 
+ 
+In finished 
+goods 
+3 
+ 
+ 
+ 
+15,000 
+ 
+ 
+Credit 
+to 
+debtors 
+3 
+ 
+ 
+ 
+ 
+15,000 
+ 
+ 
+6½  
+ 
+ 
+ 
+ 
+ 
+ 
+Less : Time 
+lag 
+in 
+payment  
+ 
+1 
+ 
+ 
+ 
+ 
+ 
+5,000 
+ 
+© The Institute of Chartered Accountants of India
+=== p.7 ===
+7 
+Net block 
+period 
+5 ½ 
+27,500 
+ 
+ 
+ 
+ 
+ 
+3. Overhead
+s: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In work-in-
+progress 
+½ 
+ 
+ 
+5,000 
+ 
+ 
+ 
+In finished 
+goods 
+3 
+ 
+ 
+ 
+30,000 
+ 
+ 
+Credit 
+to 
+debtors 
+3 
+ 
+ 
+ 
+ 
+30,000 
+ 
+Net block 
+period 
+6½ 
+65,000 
+ 
+ 
+ 
+ 
+ 
+4. Profit 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Credit 
+to 
+debtors 
+3 
+ 
+ 
+ 
+ 
+15,000 
+ 
+Net block 
+period 
+3 
+15,000 
+ 
+ 
+ 
+ 
+ 
+Total (₹) 
+ 
+3,17,500 
+60,000 
+37,500 
+1,35,000 
+1,50,000 
+65,000 
+Forecast Balance Sheet as on 31.03.2021 
+ 
+(₹) 
+ 
+ 
+(₹) 
+Issued share capital 
+6,00,000 Fixed Assets 
+ 
+4,50,000 
+Profit and Loss A/c 
+50,000 Current Assets: 
+ 
+ 
+10% Debentures 
+1,00,000 Stock: 
+ 
+ 
+Sundry creditors 
+65,000  
+Raw materials 
+60,000 
+ 
+Bank overdraft- 
+  
+Work-in-progress 
+37,500 
+ 
+Balancing figure 
+17,500  
+Finished goods 
+1,35,000 
+2,32,500 
+ 
+ Debtors 
+ 
+1,50,000 
+ 
+  
+ 
+ 
+ 
+8,32,500  
+ 
+8,32,500 
+ 
+ 
+The Total amount of working capital, thus, stands as follows: 
+₹ 
+Requirement as per working capital 
+3,17,500 
+Less: Bank overdraft as per balance sheet 
+17,500 
+Net requirement 
+3,00,000 
+ 
+ 
+© The Institute of Chartered Accountants of India
+=== p.8 ===
+8 
+Notes: 
+1. Average monthly production: 1,20,000 ÷ 12 = 10,000 units 
+2. Average cost per month: 
+Raw Material  
+10,000 × (₹ 5 × 0.6) = ₹ 30,000 
+Direct wages  
+10,000 × (₹ 5 × 0.1) = ₹ 5,000 
+Overheads 
+ 
+10,000 × (₹ 5 × 0.2) = ₹ 10,000 
+3. Average profit per month: 10,000 × (₹ 5 × 0.1) = ₹ 5,000 
+4. Wages and overheads accrue evenly over the period and, hence, are assumed to be completely 
+introduced for half the processing time.  
+5. 
+(a)  
+(i)  
+Calculation of Net Present Value (NPV) 
+Year 
+Prob. = 0.2 
+Prob. = 0.7 
+Prob. = 0.1 
+ 
+Cash flow Probable 
+cash flow  
+Cash flow Probable 
+cash flow 
+Cash flow Probable 
+cash flow 
+Total Cash 
+flow 
+PVF@ 
+12% 
+PV of Total 
+cash flow 
+0 
+ 
+ 
+ 
+ 
+ 
+ (2,25,00,000) 1.0000 (2,25,00,000) 
+1 to 5 50,00,000 10,00,000 75,00,000 52,50,000 1,00,00,000 10,00,000 
+72,50,000 3.6048 
+2,61,34,800 
+5 
+0 
+0 50,00,000 35,00,000 
+75,00,000 
+7,50,000 
+42,50,000 0.5674 
+24,11,450 
+Net Present Value (NPV) 
+60,46,250 
+(ii)  
+Worst and Best case is the case where expected annual cash inflows are 
+minimum and maximum respectively.  
+Calculation of Worst Case and Best Case NPV: 
+Year 
+PVF@ 
+12% 
+Worst case 
+Best Case 
+Cash flows 
+PV of Cash 
+flows 
+Cash flows 
+PV of Cash 
+flows 
+0 
+1.0000 
+(2,25,00,000) 
+(2,25,00,000) 
+(2,25,00,000) 
+(2,25,00,000) 
+1 to 5 
+3.6048 
+50,00,000 
+1,80,24,000 
+1,00,00,000 
+3,60,48,000 
+5 
+0.5674 
+0 
+0 
+75,00,000 
+42,55,500 
+NPV 
+ 
+(44,76,000) 
+ 
+1,78,03,500 
+Worst case NPV = ₹ (44,76,000) 
+Best Case NPV = ₹ 1,78,03,500 
+(iii) 
+The cash flows are perfectly positively correlated over time means cash flow in first 
+year will be cash flows in subsequent years. The cash flow of ₹ 50,00,000 is the worst 
+case cash flow and its probability is 20%, thus, possibility of worst case is 20%.  
+ 
+(b)  
+Pecking order theory suggests that managers may use various sources for raising of fund in 
+the following order: 
+1. 
+Managers first choice is to use internal finance. 
+© The Institute of Chartered Accountants of India
+=== p.9 ===
+9 
+2. 
+In absence of internal finance, they can use secured debt, unsecured debt, hybrid debt 
+etc. 
+3. 
+Managers may issue new equity shares as a last option. 
+6. 
+(a)  
+  
+Sl. No.  
+Type of Preference Shares Salient Features 
+1 
+Cumulative  
+Arrear Dividend will accumulate. 
+2 
+Non-cumulative 
+No right to arrear dividend. 
+3 
+Redeemable 
+Redemption should be done. 
+4 
+Participating 
+Can participate in the surplus which remains 
+after payment to equity shareholders. 
+5 
+Non- Participating 
+Cannot participate in the surplus after payment 
+of fixed rate of Dividend. 
+6 
+Convertible 
+Option of converting into equity Shares. 
+ 
+(b)  
+(i) 
+Clean packing credit: This is an advance made available to an exporter only on 
+production of a firm export order or a letter of credit without exercising any charge or 
+control over raw material or finished goods. It is a clean type of export advance. Each 
+proposal is weighed according to particular requirements of the trade and credit 
+worthiness of the exporter. A suitable margin has to be maintained. Also, Export Credit 
+Guarantee Corporation (ECGC) cover should be obtained by the bank. 
+ 
+ 
+(ii) 
+Packing credit against hypothecation of goods: Export finance is made available on 
+certain terms and conditions where the exporter has pledge able interest and the 
+goods are hypothecated to the bank as security with stipulated margin. At the time of 
+utilising the advance, the exporter is required to submit, along with the firm export 
+order or letter of credit relative stock statements and thereafter continue submitting 
+them every fortnight and/or whenever there is any movement in stocks. 
+ 
+ 
+(iii) 
+Packing credit against pledge of goods: Export finance is made available on certain 
+terms and conditions where the exportable finished goods are pledged to the banks 
+with approved clearing agents who will ship the same from time to time as required by 
+the exporter. The possession of the goods so pledged lies with the bank and is kept 
+under its lock and key. 
+ 
+ 
+(iv) 
+E.C.G.C. guarantee: Any loan given to an exporter for the manufacture, processing, 
+purchasing, or packing of goods meant for export against a firm order qualifies for the 
+packing credit guarantee issued by Export Credit Guarantee Corporation. 
+ 
+ 
+(v)  
+Forward exchange contract: Another requirement of packing credit facility is that if 
+the export bill is to be drawn in a foreign currency, the exporter should enter into a 
+forward exchange contact with the bank, thereby avoiding risk involved in a possible 
+change in the rate of exchange. 
+ 
+(c) 
+(i) 
+Callable bonds: A callable bond has a call option which gives the issuer the right to 
+redeem the bond before maturity at a predetermined price known as the call price 
+(Generally at a premium). 
+© The Institute of Chartered Accountants of India
+=== p.10 ===
+10 
+ 
+ 
+(ii)  
+Puttable bonds: Puttable bonds give the investor a put option (i.e. the right to sell the 
+bond) back to the company before maturity. 
+OR 
+ 
+(c) 
+Bridge Finance: Bridge finance refers to loans taken by a company normally from 
+commercial banks for a short period because of pending disbursement of loans 
+sanctioned by financial institutions. Though it is of short-term nature but since it is an 
+important step in the facilitation of long-term loan, therefore it is being discussed along with 
+the long term sources of funds. Normally, it takes time for financial institutions to disburse 
+loans to companies. However, once the loans are approved by the term lending institutions, 
+companies, in order not to lose further time in starting their projects, arrange short term loans 
+from commercial banks. The bridge loans are repaid/ adjusted out of the term loans as and 
+when disbursed by the concerned institutions. Bridge loans are normally secured by 
+hypothecating movable assets, personal guarantees and demand promissory notes. 
+Generally, the rate of interest on bridge finance is higher as compared with that on term loans  
+© The Institute of Chartered Accountants of India
+=== p.11 ===
+1 
+Test Series: November, 2021 
+MOCK TEST PAPER 2 
+INTERMEDIATE (NEW): GROUP – II 
+PAPER – 8: FINANCIAL MANAGEMENT & ECONOMICS FOR FINANCE 
+8B : ECONOMICS FOR FINANCE 
+SUGGESTED ANSWERS/ HINTS 
+ 
+1. 
+(a)  Production taxes are paid in relation to production and are independent of the volume of actual 
+production. Examples of production taxes are land revenues, stamps and registration fees and tax 
+on profession, factory license fee, taxes to be paid to the local authorities, pollution tax etc.  
+ 
+ 
+Product taxes are paid on per unit of product. Examples of product taxes are excise duties, sales tax, 
+service tax and import-export duties.  
+ 
+(b) Circular flow of income refers to the continuous circulation of production, income generation and 
+expenditure involving different sectors of the economy. There are three different interlinked phases in a 
+circular flow of income, namely: production, distribution, and disposition. 
+(i) 
+In the production phase, firms produce goods and services with the help of factor services. 
+(ii) In the income or distribution phase, the flow of factor incomes in the form of rent, wages, 
+interest, and profits from firms to the households occurs 
+(iii) In the expenditure or disposition phase, the income received by different factors of 
+production is spent on consumption goods and services and investment goods. This 
+expenditure leads to further production of goods and services and sustains the circular flow. 
+ 
+(c)  The multiplier concept is central to Keynes's theory because it explains how shifts in investment 
+caused by changes in business expectations set off a process that causes not only investment but 
+also consumption to vary. The multiplier shows how shocks to one sector are transmitted 
+throughout the economy. Increase in income due to increase in initial investment, does not go on 
+endlessly. If the increased income goes out of the cycle of consumption expenditure, there is a 
+leakage from income stream which reduces the effect of multiplier. The more powerful these 
+leakages are the smaller will be the value of multiplier. 
+ 
+(d)  Y = C +I  
+           
+Y = 40 + 0.2Y + 30 + 0.3Y 
+           
+Y = 70 + 0.5Y 
+          
+ Y = 70 /0.5  
+             Y = 140 
+2. 
+(a)  The significance of fiscal policy as a strategy for achieving certain socio-economic objectives was not 
+recognized or widely acknowledged before 1930 due to the faith in the limited role of government 
+advocated by the then prevailing laissez- faire approach. Governments of all countries pursue 
+innumerable policies to accomplish their economic goals such as rapid economic growth, equitable 
+distribution of wealth and income, reduction of poverty, price stability, exchange rate stability, full- 
+employment, balanced regional development etc. Government budget is one among the most 
+powerful instruments of economic policy. 
+ 
+ 
+Fiscal policy involves the use of government spending, taxation and borrowing to influence both the 
+pattern of economic activity and level of growth of aggregate demand, output, and employment. 
+ 
+ 
+© The Institute of Chartered Accountants of India
+=== p.12 ===
+2 
+ 
+(b) The term money supply denotes the total quantity of money available to the people in an 
+economy. The quantity of money at any point of time is a measurable concept. 
+ 
+ 
+Rationale of money supply:  
+• 
+It facilitates analysis of monetary developments in order  to provide deeper understanding of the 
+causes of money growth. 
+• 
+It is essential from a monetary policy perspective as it provides a framework to evaluate whether 
+the stock of money in the economy is consistent with the standards for price stability and to 
+understand the nature of deviations from this standard. The central banks all over the world 
+adopt monetary policy to stabilise price level and GDP growth by directly controlling the 
+supply of money. This is achieved mainly by managing the quantity of monetary base. The 
+success of monetary policy depends to a large extent on the controllability of the monetary 
+base and the money supply. 
+ 
+(c) GDPmp  
+= Private consumption expenditure + Gross Private (both fixed and inventories) +  
+ 
+  
+   Gross expenditure (Central & State) + Net Exports   
+ 
+ 
+ 
+  
+= 5000+ 400 + 200 + 700 + 800 + (1200-900) 
+ 
+ 
+ 
+  
+= 7400cr 
+  
+ 
+National Income = GDPmp – Net Indirect Taxes 
+ 
+ 
+ 
+  
+= 7400-6500-600 
+ 
+ 
+ 
+  
+= 300cr 
+3  
+(a) The operating framework relates to all aspects of implementation of monetary policy 
+• 
+The operating targets refer to the financial variables that can be controlled by the central bank to 
+a large extent through the monetary policy instruments. 
+• 
+The intermediate targets are variables which the central bank can hope to influence to a 
+reasonable degree through the operating targets. The intermediate targets display a 
+predictable and stable relationship with the goal variables. 
+• 
+The monetary policy instruments are the various tools that a central bank can use to influence 
+money market and credit conditions and pursue its monetary policy objectives. The day-to-day 
+implementation of monetary policy by central banks through various instruments is referred 
+to as ‘operating procedures.  
+In general, the direct instruments comprise of: 
+(a) the required cash reserve ratios and liquidity reserve ratios prescribed from time to time. 
+(b) directed credit which takes the form of prescribed targets for allocation of credit to preferred 
+sectors  
+(c) administered interest rates wherein the deposit and lending rates are prescribed by the 
+central bank. 
+The indirect instruments mainly consist of: 
+(a) Repos 
+(b) Open market operations 
+(c) Standing facilities, and 
+(d) Market-based discount window. 
+ 
+ 
+© The Institute of Chartered Accountants of India
+=== p.13 ===
+3 
+ 
+(b)  As you already know, the key framework for analyzing prices is the operation of forces of supply 
+and demand in markets. Usually, the supply of and demand for foreign exchange in the domestic 
+foreign exchange market determine the external value of the domestic currency, or in other words, 
+a country’s exchange rate. 
+ 
+ 
+Individuals, institutions, and governments participate in the foreign exchange market for a   
+number of reasons. On the demand side, people desire foreign currency to: 
+•
+purchase goods and services from another country 
+•
+for unilateral transfers such as gifts, awards, grants, donations or endowment. 
+•
+to make investment income payments abroad 
+•
+to purchase financial assets, stocks, or bonds abroad 
+•
+to open a foreign bank account 
+•
+to acquire direct ownership of real capital, and 
+•
+for speculation and hedging activities related to risk-taking or risk- avoidance activity 
+Determination of Nominal Exchange Rate 
+                               
+ 
+ 
+ 
+The equilibrium rate of exchange is determined by the interaction of the supply and demand for a 
+particular foreign currency. In figure the demand curve (D$) and supply curve (S$) of dollars intersect 
+to determine equilibrium exchange rate. 
+ 
+(c) There are four major reasons for market failure. They are: 
+•
+Market power, 
+•
+Externalities, 
+•
+Public goods, and 
+•
+Incomplete information 
+ 
+Market Power: Market power is the ability of a firm to profitably raise the market price of a good 
+or service over its marginal cost. 
+ 
+Externalities: The unique feature of an externality is that it is initiated and experienced not through 
+the operation of the price system, but outside the market. Since it occurs outside the price 
+mechanism, it has not been compensated for, or in other words it is uninternalized or the cost of it is 
+not borne by the parties. 
+ 
+Public Goods: A public good is defined as one which all enjoy in common in the sense that 
+everyone’s consumption of such a good lead to no subtraction from any other individuals’ 
+consumption of that good. 
+ 
+ 
+© The Institute of Chartered Accountants of India
+=== p.14 ===
+4 
+ 
+ 
+Incomplete information: Information failure is widespread in numerous market exchanges. When 
+this happens misallocation of scarce resources takes place and equilibrium price, and quantity is not 
+established through price mechanism. This results in market failure. 
+ 
+(d)   Foreign portfolio investment (FPI) is not concerned with either manufacture of goods or with 
+provision of services. Such investors also do not have any intention of exercising voting power or 
+controlling or managing the affairs of the company in whose securities they invest. The sole intention of 
+a foreign portfolio investor is to earn a remunerative return through investment in foreign securities 
+and is primarily concerned about the safety of their capital, the likelihood of appreciation in its 
+value, and the return generated. 
+• 
+Portfolio capital moves to a recipient country which has revealed its potential for higher 
+returns and profitability. 
+• 
+Investment is only in financial assets 
+• 
+Only short-term interest and generally remain invested for short periods 
+• 
+Relatively easy to withdraw 
+• 
+Not accompanied by technology transfer 
+• 
+No direct impact on employment of labour and wages 
+• 
+No abiding interest in management and control 
+• 
+Securities are held purely as a financial investment and no significant degree of influence on 
+the management of the enterprise 
+4 
+(a) Countervailing duties are tariffs that aim to offset the artificially low prices charged by exporters who 
+enjoy export subsidies and tax concessions offered by the governments in their home country. If a 
+foreign country does not have a comparative advantage in a particular good and a government subsidy 
+allows the foreign firm to be an exporter of the product, then the subsidy generates a distortion 
+from the free-trade allocation of resources. In such cases, CVD is charged in an importing 
+country to negate the advantage that exporters get from subsidies to ensure fair and market-
+oriented pricing of imported products and thereby protecting domestic industries and firms. 
+(b)   The crowding out view is that a rapid growth of government spending leads to a transfer of scarce 
+productive resources from the private sector to the public sector where productivity might be lower. An 
+increase in the size of government spending during recessions will ‘crowd-out’ private spending in 
+an economy and lead to reduction in an economy’s ability to self-correct from the recession, and 
+possibly also reduce the economy’s prospects of long-run economic growth. Crowding out effect is 
+the negative effect fiscal policy may generate when money from the private sector is ‘crowded out’ to 
+the public sector. 
+ 
+During deep recessions, crowding-out is less likely to happen as private sector investment is already 
+minimal and therefore there is only insignificant private spending to crowd out. Moreover, during a 
+recession phase the government would be able to borrow from the market without increasing 
+interest rates. 
+(c)  Economists use the term to describe the problem which occurs when rivalrous but non excludable 
+goods are overused to the disadvantage of the entire world. The term “commons” is derived from the 
+traditional English legal term of “common land” where farmers/peasants would graze their 
+livestock, hunt, and collect wild plants and other produce. Everyone has access to a commonly 
+held pasture; there are no rules about sustainable numbers for grazing. The outcome of the 
+individual rational economic decisions of cattle owners was market failure because these actions 
+resulted in degradation, depletion or even destruction of the resource leading to welfare loss for 
+the entire society. 
+(d) The estimates of national income show the composition and structure of national income in terms 
+of different sectors of the economy, the periodical variations in them and the broad sectoral shifts in an 
+© The Institute of Chartered Accountants of India
+=== p.15 ===
+5 
+economy over time. It is also possible to make temporal and spatial comparisons of the trend and 
+speed of economic progress and development. Using this information, the government can fix various 
+sector-specific development targets for different sectors of the economy and formulate suitable 
+development plans and policies to increase growth rates. 
+5 
+(a) New Trade Policy helps in understanding why developed and big countries trade partners are when 
+they are trading similar goods and services. These countries constitute more than 50% of world trade. 
+This is particularly true in key economic sectors such as electronics, IT, food, and automotive. NTT 
+argues that, because of substantial economies of scale and network effects, it pays to export phones 
+to sell in another country. Those countries with the advantages will dominate the market, and the 
+market takes the form of monopolistic competition. 
+ 
+ 
+According to NTT, two key concepts give advantages to countries that import goods to compete with 
+products from the home country: 
+ 
+ 
+Economies of Scale: As a firm produces more of a product, its cost per unit keeps going down. So, if 
+the firm serves domestic as well as foreign market instead of just one, then it can reap the benefit of 
+large scale of production consequently the profits are likely to be higher. 
+ 
+ 
+Network effects refer to the way one person’s value for a good or service is affected by the value of 
+that good or service to others. The value of the product or service is enhanced as the number of 
+individuals using it increases. This is also referred to as the ‘bandwagon effect’. Consumers like more 
+choices, but they also want products and services with high utility, and the network effect increases 
+utility obtained from these products over others.  
+ 
+(b) Demerit goods are goods which are believed to be socially undesirable. The consumption of demerit 
+goods imposes significant negative externalities on the society as a whole and therefore the 
+private costs incurred by individual consumers are less than the social costs experienced by the 
+society. The production and consumption of demerit goods are likely to be more than optimal under 
+free markets. The government should therefore intervene in the marketplace to discourage their 
+production and consumption. Imposing unusually high taxes on producing or purchasing the good 
+making them very costly and unaffordable to many is perhaps the most commonly used method 
+for reducing the consumption of a demerit good. 
+(c)  Fiscal policy changes may at times be badly timed due to the various lags so that it is highly possible 
+that an expansionary policy is initiated when the economy is already on a path of recovery and 
+vice versa. The imitation of fiscal policy is :- 
+• 
+There are difficulties in instantaneously changing governments’ spending and taxation 
+policies. 
+• 
+It is practically difficult to reduce government spending on various items such as defence and 
+social security as well as on huge capital projects which are already midway. 
+• 
+Public works cannot be adjusted easily along with movements of the trade cycle because 
+many huge projects such as highways and dams have long gestation period.  
+• 
+Due to uncertainties, there are difficulties of forecasting when a period of inflation or deflation 
+may set in and promptly determining the accurate policy to be undertaken. 
+• 
+There are possible conflicts between different objectives of fiscal policy such that a policy 
+designed to achieve one goal may adversely affect another. 
+• 
+Supply-side economists are of the opinion that certain fiscal measures will cause disincentives 
+• 
+Deficit financing increases the purchasing power of people. 
+• 
+Increase is government borrowing creates perpetual burden on even future generations as 
+debts have to be repaid. 
+© The Institute of Chartered Accountants of India
+=== p.16 ===
+6 
+(d)
+Trade Policy encompasses all instruments that government may use to promote or restrict 
+imports and exports.
+Export related measures are:
+1.
+Ban on export.
+2.
+Export Taxes.
+3.
+Export Subsidies and incentives.
+4.
+Voluntary Export Restraints 
+Over the past few decades, significant transformations are happening in terms of growth as well 
+as terms of flows and pattern of global trade. The increasing importance of developing countries 
+has been a salient feature of the shitting global trade patterns. 
+© The Institute of Chartered Accountants of India

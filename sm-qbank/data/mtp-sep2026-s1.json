@@ -1,0 +1,462 @@
+{
+  "source": {
+    "type": "MTP",
+    "attempt": "September 2026",
+    "attempt_sort": "2026-09",
+    "series": "I",
+    "scheme": "new",
+    "paper": "Paper 6B: Strategic Management",
+    "pdf_url": "https://boslive.icai.org/mock_test_paper/MTP_68_53_QUESTIONS_1785836219.pdf",
+    "answers_url": "https://boslive.icai.org/mock_test_paper/MTP_68_53_ANSWERS_1786335654.pdf",
+    "local_file": "raw/mtp-sep2026-s1-q.pdf",
+    "retrieved": "2026-10-05",
+    "extract_ok": true,
+    "notes": "Mock Test Paper - Series I: July, 2026, Date of Paper: 5th August, 2026. Official ICAI BoS Knowledge Portal files. Question paper: https://boslive.icai.org/mock_test_paper/MTP_68_53_QUESTIONS_1785836219.pdf (raw/mtp-sep2026-s1-q.pdf). Suggested Answers/Hints: https://boslive.icai.org/mock_test_paper/MTP_68_53_ANSWERS_1786335654.pdf (raw/mtp-sep2026-s1-a.pdf). The MTP prints no 'Chapter N' headings, so chapters are mapped per SPEC section 4. The answers PDF prints the same header as 'Mock Test Paper - Series I: July 2026 / Date of Paper: 5 th August 2026'. Part I of this MTP has five case-scenario MCQs in 1(A) and three application based independent MCQs in 1(B); Part II has a compulsory Q1 with three sub-parts 1(a)-(c) and three further questions of two sub-parts each, of which any two are to be attempted. Q4(b) prints its '(5 Marks)' line after the 'OR' alternative, covering both the main part and its alternative, so both records carry marks 5. ICAI's answer to Q4(b) includes a diagram captioned 'Figure: Process of consumer behaviour'; the caption line is retained but the picture itself is a graphic and cannot be reproduced in text. ICAI's round bullet glyphs are normalised to '- ' and curly quotes/apostrophes to their ASCII equivalents; everything else is verbatim."
+  },
+  "questions": [
+    {
+      "id": "mtp-sep2026-s1-q1A-i",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; ICAI prints no chapter heading in the MTP.",
+      "qno": "1(A)(i)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "Blue Horizon Travel (BHT), a boutique travel agency based in Singapore, has carved a niche by offering curated luxury travel experiences. However, with the rise of online travel aggregators and changing consumer behavior post-pandemic, BHT's growth has stagnated. To stay competitive, the management is rethinking its organizational structure and strategy while ensuring alignment with its core values and vision.\n\nAt the heart of its transformation is the company's emphasis on values. By prioritizing sustainability, cultural immersion and personalized service, BHT seeks to redefine tourism for modern travelers. Its vision is to become the top travel agency for sustainable luxury tourism in Southeast Asia by 2030. To support this vision, BHT is transitioning to a network organizational structure. This new model decentralizes decision-making and encourages collaboration between in-house experts, freelance travel consultants, and local tour operators. This structure enables BHT to respond quickly to customer needs while leveraging diverse expertise.\n\nAdditionally, BHT has integrated an hourglass organizational structure within its operations. While the management layer is lean, significant investment is made in customer-facing staff and the technology backbone. This ensures a seamless experience for clients while maintaining operational efficiency. Moreover, inbound logistics is now a critical value chain activity for BHT. By forming partnerships with sustainable transportation providers and local eco-friendly accommodation partners, the company enhances its competitive advantage. These efforts align with customer expectations and reinforce BHT's sustainability-driven brand.\n\nTo monitor its progress, BHT employs premise control, regularly assessing market trends and reviews internal performance metrics. This allows the company to make proactive adjustments to its strategies and ensure alignment with its long-term goals.\n\nLastly, BHT's leadership has identified key success factors critical to its success: exceptional customer service, strong local partnerships, and the integration of cutting-edge travel technology. With these in place, BHT aims to thrive in a competitive and rapidly evolving industry.\n\nBased on the above Case Scenario, answer the Multiple-Choice Questions.\n\n(i) Significant investment made in customer-facing staff and the technology backbone has been taken seriously by the management. Which of the following would this strategic decision of BHT fall under?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Transition to Network Organisational Structure"
+        },
+        {
+          "label": "b",
+          "text": "Dwelling upon Hourglass Structure for Internal Operations"
+        },
+        {
+          "label": "c",
+          "text": "Part of their Premise Control Activity"
+        },
+        {
+          "label": "d",
+          "text": "Upliftment of to their Primary Activity in Value Chain"
+        }
+      ],
+      "answer": "(b) Dwelling upon Hourglass Structure for Internal Operations",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "hourglass structure",
+        "organisation structure"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1A-ii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared Blue Horizon Travel (BHT) scenario given in 1(A)(i).",
+      "qno": "1(A)(ii)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared Blue Horizon Travel (BHT) case scenario set out in 1(A)(i).)\n\n(ii) Technology is imperative and any business today has to embrace it to flourish. For BHT, integration of cutting-edge travel technology forms part of which aspect of strategic management?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Is it part of their Vision Statement"
+        },
+        {
+          "label": "b",
+          "text": "Is it part of their Internal Performance Metric"
+        },
+        {
+          "label": "c",
+          "text": "Is it part of their Decentralized Structure"
+        },
+        {
+          "label": "d",
+          "text": "Is it part of their identified Key Success Factors"
+        }
+      ],
+      "answer": "(d) Is it part of their identified Key Success Factors",
+      "mcq_answer": "d",
+      "topic_tags": [
+        "key success factors",
+        "technology"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1A-iii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared Blue Horizon Travel (BHT) scenario given in 1(A)(i).",
+      "qno": "1(A)(iii)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared Blue Horizon Travel (BHT) case scenario set out in 1(A)(i).)\n\n(iii) BHT's growth has stagnated. To stay competitive, the management is rethinking its organizational structure and strategy while ensuring alignment with its core values and vision. What are the macro environment trends causing stress on BHT's business.",
+      "options": [
+        {
+          "label": "a",
+          "text": "Government policy change and International Travel Restrictions"
+        },
+        {
+          "label": "b",
+          "text": "Rise of online travel aggregators and changing consumer behavior"
+        },
+        {
+          "label": "c",
+          "text": "Middle East conflict and Slowdown of International student travel"
+        },
+        {
+          "label": "d",
+          "text": "Rising air fuel costs and high tax on luxury travel"
+        }
+      ],
+      "answer": "(b) Rise of online travel aggregators and changing consumer behavior",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "macro environment",
+        "consumer behaviour"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1A-iv",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared Blue Horizon Travel (BHT) scenario given in 1(A)(i).",
+      "qno": "1(A)(iv)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared Blue Horizon Travel (BHT) case scenario set out in 1(A)(i).)\n\n(iv) Brands aim to attract customer attention through innovative ways. BHT's partnerships with sustainable transportation providers and local eco-friendly accommodation partners strategy were to help them achieve what?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Competitive Advantage"
+        },
+        {
+          "label": "b",
+          "text": "To respond quickly to customer needs"
+        },
+        {
+          "label": "c",
+          "text": "Ensuring alignment with its core values and vision"
+        },
+        {
+          "label": "d",
+          "text": "Key Success Factor"
+        }
+      ],
+      "answer": "(a) Competitive Advantage",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "competitive advantage",
+        "value chain"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1A-v",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Case-scenario MCQ set; shared Blue Horizon Travel (BHT) scenario given in 1(A)(i).",
+      "qno": "1(A)(v)",
+      "kind": "case-mcq",
+      "marks": 2,
+      "question": "(Based on the shared Blue Horizon Travel (BHT) case scenario set out in 1(A)(i).)\n\n(v) BHT has been working on a lot of changes in the way it conducts its business while ensuring it also keeps itself on track to make proactive adjustments. Which of the following is helping it achieve the following?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Value Chain Analysis"
+        },
+        {
+          "label": "b",
+          "text": "A clear vision"
+        },
+        {
+          "label": "c",
+          "text": "Premise Control"
+        },
+        {
+          "label": "d",
+          "text": "Network Structure"
+        }
+      ],
+      "answer": "(c) Premise Control",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "premise control",
+        "strategic control"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1B-i",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Compulsory application based independent MCQ; ICAI prints no chapter heading.",
+      "qno": "1(B)(i)",
+      "kind": "mcq",
+      "marks": 2,
+      "question": "A rapidly expanding FinTech company has adopted the following statement: \"We exist to simplify digital financial services by providing secure, accessible and customer-centric payment solutions that enhance financial inclusion.\" The Board subsequently approves a plan to go onboard with 50 million new users within the next four years. Which of the following correctly identifies the first statement?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Vision"
+        },
+        {
+          "label": "b",
+          "text": "Mission"
+        },
+        {
+          "label": "c",
+          "text": "Goal"
+        },
+        {
+          "label": "d",
+          "text": "Objective"
+        }
+      ],
+      "answer": "(b) Mission",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "mission statement",
+        "strategic intent"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1B-ii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Compulsory application based independent MCQ; ICAI prints no chapter heading.",
+      "qno": "1(B)(ii)",
+      "kind": "mcq",
+      "marks": 2,
+      "question": "A pharmaceutical company has recently completed three major acquisitions and integrated more than 8,000 employees into its operations. Although several new business opportunities are available, management postpones further expansion for the next three years to consolidate operations and improve organisational efficiency. The primary reason for adopting this strategy is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "Lack of investment opportunities"
+        },
+        {
+          "label": "b",
+          "text": "Consolidation after rapid expansion"
+        },
+        {
+          "label": "c",
+          "text": "Government restrictions"
+        },
+        {
+          "label": "d",
+          "text": "Declining customer demand"
+        }
+      ],
+      "answer": "(b) Consolidation after rapid expansion",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "stability strategy",
+        "consolidation"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1B-iii",
+      "chapter": "MCQ",
+      "chapter_source": "mapped",
+      "mapping_note": "Compulsory application based independent MCQ; ICAI prints no chapter heading.",
+      "qno": "1(B)(iii)",
+      "kind": "mcq",
+      "marks": 1,
+      "question": "Elevating customer service to unprecedented level by providing better customer interface, online repair service and service on site is known as:",
+      "options": [
+        {
+          "label": "a",
+          "text": "Augmented marketing"
+        },
+        {
+          "label": "b",
+          "text": "Enlightened marketing"
+        },
+        {
+          "label": "c",
+          "text": "Social marketing"
+        },
+        {
+          "label": "d",
+          "text": "Synchro marketing"
+        }
+      ],
+      "answer": "(a) Augmented marketing",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "augmented marketing",
+        "marketing strategy"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1a",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Qualities of a strategic thinker and the importance/benefits of strategic management -> Ch 1 (introduction to strategic management).",
+      "qno": "1(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Modern Sangeet Academy, a classical music training institute based in Bengaluru, has gained nationwide recognition through its engaging social media presence and viral reels. Encouraged by its growing popularity, students from across the country have requested the academy to introduce online classes. However, JJ Sir, the founder and head of the academy, opposes the idea. He believes that online classes would attract non-serious learners and dilute the academy's mission of preserving and promoting classical music while striving for global recognition. In the light of the above case, explain why JJ Sir should develop the qualities of a strategic thinker rather than relying solely on his expertise in classical music. How can strategic thinking contribute to the long-term growth and sustainability of the academy?",
+      "options": null,
+      "answer": "JJ Sir should develop the qualities of a strategic thinker because long-term success depends not only on expertise in classical music but also on the effective application of strategic management. Strategic management enables an organisation to perform better than its competitors by creating a competitive advantage and responding successfully to changes in the environment.\n\nIn the given case, the increasing demand for online classes represents a change in the business environment. Instead of rejecting the idea, JJ Sir should evaluate it strategically. Strategic thinking will help the academy:\n\n- Provide direction by aligning decisions with the academy's vision of making classical music globally recognised.\n- Be proactive rather than reactive by analysing environmental changes and responding appropriately.\n- Identify and exploit new opportunities, such as reaching students across the country through online learning.\n- Enhance the longevity of the academy by adapting to changing customer needs and ensuring sustainable growth.\n- Develop competitive advantage and core competencies, enabling the academy to strengthen its position while preserving the quality and authenticity of classical music.\n\nThus, strategic thinking will help JJ Sir achieve the academy's mission while ensuring its long-term survival, growth, and sustainability.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic thinking",
+        "importance of strategic management"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1b",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic drivers (industry and markets, customers, products/services, channels) -> Ch 3, section 3.3 of the ICAI SM study material.",
+      "qno": "1(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Rafi Merchant, a timber trader based in Surat, entered into a strategic alliance with Woodie Ducks, a South Africa-based manufacturer of premium wooden planks, to manufacture and supply wooden planks worth ₹150 crore for residential projects in GIFT City, Gujarat. Before the consignment reached India, real estate developers and customers shifted their preference to polyester-based furnishing materials due to their durability, affordability and variety of colours. Consequently, the demand for wooden planks declined sharply, causing substantial losses to Rafi Merchant. In the light of the above case, identify and explain the strategic driver overlooked by Rafi Merchant. Also, state other strategic drivers that organisations should consider before making strategic decisions.",
+      "options": null,
+      "answer": "Rafi Merchant overlooked the strategic driver of Customers. Customers are one of the key strategic drivers, and organisations must understand the needs, preferences and buying behaviour of their target customers before taking strategic decisions. Different customers have different requirements and changes in customer preferences directly influence the demand for products and services. In the given case, customers shifted their preference from premium wooden planks to polyester-based furnishing materials due to their greater durability, affordability and wider range of colours. As a result, the demand for wooden planks declined, leading to substantial losses for Rafi Merchant despite the strategic alliance.\n\nApart from Customers, organisations should also analyse the following strategic drivers before making strategic business decisions:\n\n1. **Industry and Markets:** Organisations should understand their position in the industry and the markets in which they operate. This involves analysing the competitive environment, market size, customer segments, growth opportunities and competitors' strategies. Such analysis helps in identifying the organisation's competitive position and formulating strategies to achieve and sustain a competitive advantage.\n2. **Products/Services:** Organisations should continuously evaluate whether their products or services meet changing customer needs. They should improve existing products, introduce new offerings, or discontinue unprofitable ones. Product differentiation through quality, branding, innovation, packaging and after-sales service helps organisations remain competitive and create customer value.\n3. **Channels:** Organisations should analyse the effectiveness of their sales, product, and service channels. Efficient distribution channels improve market reach, ensure better customer accessibility, strengthen customer service and support business expansion while creating barriers for new competitors.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic drivers",
+        "customers",
+        "internal analysis"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q1c",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic alliance as a growth strategy and its advantages -> Ch 4 (strategic choices).",
+      "qno": "1(c)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Jeff Inc., a leading US-based smartphone company, intends to strengthen its global presence by manufacturing its latest Android smartphones with high storage capacity in India. For this purpose, it enters into an agreement with Desi Group, a leading Indian mobile manufacturer, under which both companies will collaborate in manufacturing the smartphones. The products will be exported to the USA as well as European countries. Both companies will continue to exist as independent entities while sharing resources, expertise and risks. Identify the growth strategy adopted by Jeff Inc. and Desi Group. Also explain any four advantages that both companies are likely to derive from this arrangement.",
+      "options": null,
+      "answer": "The growth strategy adopted by Jeff Inc. and Desi Group is a Strategic Alliance. A strategic alliance is an arrangement between two or more independent firms to cooperate in achieving specific strategic objectives. The participating firms remain legally independent but share resources, capabilities, knowledge and risks to achieve mutual benefits.\n\nAdvantages of Strategic Alliance\n\n1. **Organisational Advantage:** The alliance enables Jeff Inc. to leverage Desi Group's manufacturing capabilities and production facilities, while Desi Group gains access to Jeff Inc.'s technological expertise and global quality standards. This facilitates learning and capability enhancement for both partners.\n2. **Economic Advantage:** By sharing production facilities, investment and operational costs, both companies can reduce costs and business risks. Higher production volumes for exports also help achieve economies of scale, resulting in lower per-unit production cost.\n3. **Strategic Advantage:** The collaboration allows both companies to pool their resources and competencies, thereby strengthening their competitive position in international markets. It also provides opportunities for joint product development and technology advancement.\n4. **Political Advantage:** Collaborating with an established Indian manufacturer enables Jeff Inc. to benefit from local market knowledge, regulatory support and ease of operations, while Desi Group enhances its international presence through association with a reputed global brand.\n\nThus, the collaboration between Jeff Inc. and Desi Group represents a Strategic Alliance, enabling both organisations to achieve common strategic objectives by combining their complementary strengths while remaining independent entities.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic alliance",
+        "growth strategy"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q2a",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Corporate, business and functional levels of management and the network of relationships between them -> Ch 1 (strategic levels in organisations).",
+      "qno": "2(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Outline the main levels of management generally found in an organization. Also explain the types of networks of relationship between these levels and amongst the same levels of a business.",
+      "options": null,
+      "answer": "Main Levels of Management in an Organization\n\nIn a typical large organization, there are three main levels of management:\n\n1. **Corporate Level:** This includes the Chief Executive Officer (CEO), senior executives, and the board of directors. Their primary responsibility is to oversee the organization as a whole, make strategic decisions, define the mission and goals, allocate resources, and manage the corporate portfolio of businesses.\n2. **Business Level:** This level consists of general managers responsible for specific Strategic Business Units (SBUs). They translate corporate-level strategies into concrete plans for their respective divisions, focusing on creating competitive advantages and achieving profitability.\n3. **Functional Level:** This level encompasses managers responsible for specific functions such as finance, marketing, and human resources. They develop functional strategies aligned with the objectives set by the corporate and business-level managers and are crucial for implementing strategies effectively.\n\nTypes of Networks of Relationship Between Management Levels\n\n1. **Functional and Divisional Relationship:** This independent relationship operates where each function or division is managed independently, with business-level managers reporting to corporate-level managers. For example, finance and marketing functions operate under their respective heads, who report to the division head.\n2. **Horizontal Relationship:** This flat structure promotes equality among all employees, facilitating openness and transparency. All positions, from top management to staff-level employees, share the same hierarchical status, enhancing idea-sharing and innovation, particularly in startups.\n3. **Matrix Relationship:** This complex structure combines various departments into project-based teams. It features multiple business-level managers for each functional team, making it suitable for large organizations with diverse operations, enabling efficient management of projects across different functions.\n\nThese levels and their relationships help streamline decision-making and strategy implementation within an organization, fostering a cohesive approach to achieving business goals.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic levels",
+        "network relationships",
+        "matrix"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q2b",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Conditions / danger signals indicating the need for a turnaround strategy -> Ch 4 (strategic choices: turnaround).",
+      "qno": "2(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "\"There are certain conditions or indicators which point out that a turnaround is needed if the company has to survive\". Discuss.",
+      "options": null,
+      "answer": "Rising competition, business cycles and economic volatility have created a climate where no business can take viability for granted. Turnaround strategy is a highly targeted effort to return an organization to profitability and increase positive cash flow to a sufficient level. Organizations that have faced a significant crisis that has negatively affected operations require turnaround strategy. Turnaround strategy is used when both threats and weaknesses adversely affect the health of an organization so much that its basic survival is a question. When organization is facing both internal and external pressures making things difficult, then it has to find something which is entirely new, innovative and different. Being organization's first objective is to survive and then grow in the market; turnaround strategy is used when organization's survival is under threat. Once turnaround is successful the organization may focus on growth.\n\nConditions for turnaround strategies: When firms are losing their grips over market, profits are due to several internal and external factors, and if they have to survive in the competitive environment, they have to identify danger signals as early as possible and undertake rectification steps immediately. These are certain conditions or indicators which point out that a turnaround is needed if the company has to survive. These danger signals are:\n\n- Persistent negative cash flow from business.\n- Uncompetitive products or services.\n- Declining market share.\n- Deterioration in physical facilities.\n- Over-staffing, high turnover of employees, and low morale.\n- Mismanagement.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "turnaround strategy",
+        "danger signals"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q3a",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Mendelow's Matrix (stakeholder power-interest grid) -> Ch 3, where the ICAI SM study material covers it.",
+      "qno": "3(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "GreenBasket Pvt. Ltd., an online grocery retailer, is planning to expand its operations across India. The management recognises that different stakeholders have varying levels of influence and interest in the organisation. While the company intends to engage its investors and top management in every strategic decision, it plans to regularly update employees, suppliers, and customers about its expansion plans. The company also intends to maintain good relations with regulatory authorities and lenders by ensuring compliance and periodic communication. At the same time, it proposes to spend minimal time and resources on business magazines and similar external groups, while continuing to monitor them. In the light of the above case, explain how GreenBasket Pvt. Ltd. can manage its stakeholders effectively using Mendelow's Matrix.",
+      "options": null,
+      "answer": "Mendelow's Matrix is a stakeholder analysis tool that categorises stakeholders based on their Power (ability to influence the organisation) and Interest (level of concern in the organisation's success). It helps organisations determine the appropriate level of engagement with different stakeholders.\n\nGreenBasket Pvt. Ltd. should manage its stakeholders as follows:\n\n- **Key Players (High Power, High Interest):** Investors and top management should be closely involved in strategic decisions and regularly consulted, as they significantly influence the organisation's success.\n- **Keep Satisfied (High Power, Low Interest):** Regulatory authorities and lenders should be kept satisfied through compliance, timely communication, and periodic updates.\n- **Keep Informed (Low Power, High Interest):** Employees, suppliers, and customers should receive regular information and feedback opportunities, as they are highly interested in the organisation's activities.\n- **Low Priority (Low Power, Low Interest):** Business magazines and similar external groups require only occasional monitoring, with minimum time and resources devoted to them.\n\nUsing Mendelow's Matrix enables GreenBasket Pvt. Ltd. to allocate its resources efficiently, strengthen stakeholder relationships, and improve the effectiveness of its strategic decisions.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "mendelow's matrix",
+        "stakeholder analysis"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q3b",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Managing change during digital transformation -> Ch 5 (strategic change / change management).",
+      "qno": "3(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Explain the pointers for navigating change during digital transformation",
+      "options": null,
+      "answer": "Any organisation may find the work of digital transformation challenging and overwhelming. To ensure that a digital transition is effective, change management is essential. Here are some pointers for navigating change during the digital transformation:\n\n1. **Specify the digital transformation's aims and objectives:** What is the intended outcome? What are the precise objectives that must be accomplished? It will be easier to make sure that everyone is on the same page and pursuing the same aims if everyone has a clear grasp of the goals.\n2. **Always, always, always communicate:** It might be challenging for people to accept change and adjust to it. Ensure that you routinely and honestly discuss the objectives of digital transformation and how they will affect stakeholders, including employees, clients, and other parties.\n3. **Be ready for resistance:** Even when a change is for the better, it can be challenging for people to embrace it. Have a strategy in place for dealing with any resistance that may arise.\n4. **Implement changes gradually:** Changes should ideally be implemented gradually rather than all at once. In order to avoid overwhelming individuals with too much change at once, this will give people time to become used to the new way of doing things.\n5. **Offer assistance and training:** Workers will need guidance in the new procedures, software applications, etc.\n\nIn conclusion, effective completion of the massive project known as digital transformation depends on meticulous planning and change management. Digital transformation efforts are more likely to fail without change management. Organizations can successfully integrate a new digital system by planning for and managing the changes that must take place. Any project involving digital transformation must include it.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "digital transformation",
+        "change management"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q4a",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Corporate culture and its sources -> Ch 5 (strategy implementation: culture).",
+      "qno": "4(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "What is Corporate culture? Where does it come from?",
+      "options": null,
+      "answer": "Corporate culture refers to a company's values, beliefs, business principles, traditions, ways of operating and internal work environment. Every organisation has a unique culture shaped by its philosophy, history, values, rituals, work climate and ingrained ways of doing things. Corporate culture exerts a powerful influence on the behaviour of managers and employees and guides how decisions are made and work is carried out.\n\nWhere Does Corporate Culture Come From?\n\nCorporate culture is shaped and manifested through the following sources:\n\n1. **Values and Business Principles of Management:** The values, ethical standards and business principles that management preaches and practices strongly influence organisational culture.\n2. **Organisational History and Traditions:** Past experiences, successes, failures, traditions, stories and legends repeated within the organisation help embed cultural values.\n3. **Leadership Behaviour and Supervisory Practices:** The leadership style, attitudes and behaviour of managers shape employee conduct and work practices.\n4. **Stakeholder Relationships:** Dealings with employees, unions, shareholders, vendors and the community influence beliefs and behavioural norms.\n5. **Formal and Informal Systems:** Policies, procedures, reward systems, communication patterns, peer pressure and organisational politics together define and reinforce culture.\n\nThus, corporate culture emerges over time from multiple sociological forces operating at different levels of the organisation and acts as a guiding force for employee behaviour, strategy execution and organisational performance.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "corporate culture",
+        "strategy implementation"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q4b",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Factors influencing consumer behaviour (external influences, internal influences, decision-making, post-decision processes) -> Ch 2 of the ICAI SM study material.",
+      "qno": "4(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Aarav Mehta, the founder of TechNova Mobiles, is preparing to launch the company's latest AI-enabled smartphone targeted at young professionals and technology enthusiasts. Although the smartphone offers advanced features and innovative technology, Aarav believes that understanding consumer behaviour is essential for ensuring a successful product launch. He wants the marketing team to design a strategy that effectively influences customers' purchase decisions and builds long-term customer satisfaction. In the light of the above case, explain how Aarav Mehta can develop an effective marketing strategy by considering the various factors influencing consumer behaviour.",
+      "options": null,
+      "answer": "To effectively market the AI-enabled smartphone, Aarav Mehta should develop a marketing strategy by understanding the factors influencing consumer behaviour, which are:\n\n- **External Influences:** Use social media, technology forums and collaborations with tech influencers to create awareness and build a positive brand image among target customers.\n- **Internal Influences:** Appeal to customers' desire for innovation and superior performance by highlighting the smartphone's AI capabilities, premium design and advanced features.\n- **Decision-Making:** Provide detailed product specifications, feature comparisons, demonstrations and customer testimonials to help consumers make informed purchase decisions.\n- **Post-decision Processes:** Offer prompt after-sales service, regular software updates, warranties and encourage customer feedback and reviews to enhance satisfaction and build customer loyalty.\n\nFigure: Process of consumer behaviour\n\nBy aligning its marketing strategy with consumer behaviour, TechNova Mobiles can effectively attract technology enthusiasts, strengthen customer relationships and ensure the successful launch of its new smartphone.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "consumer behaviour",
+        "marketing strategy"
+      ]
+    },
+    {
+      "id": "mtp-sep2026-s1-q4b-or",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Porter's Five Forces Model of competitive analysis -> Ch 2 (external environment).",
+      "qno": "4(b) (OR)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Bharat EV Motors, an Indian electric vehicle manufacturer, has witnessed intense competition in the EV market. Several new domestic and international companies have entered the industry with innovative models. Customers have many alternatives and can easily compare prices and features online. Battery suppliers have increased their prices due to limited availability of raw materials, while petrol and hybrid vehicles continue to remain attractive substitutes for many consumers. In the light of the above case, analyse the competitive environment of Bharat EV Motors using Porter's Five Forces Model. Explain any five competitive forces affecting the company.",
+      "options": null,
+      "answer": "Porter's Five Forces Model, developed by Michael Porter, analyses the competitive forces that determine the attractiveness and profitability of an industry.\n\n1. **Threat of New Entrants:** The entry of new domestic and international EV manufacturers increases competition and reduces the market share of existing firms like Bharat EV Motors.\n2. **Bargaining Power of Buyers:** Customers have several alternatives and can easily compare prices, quality and features, giving them higher bargaining power and forcing companies to offer better value.\n3. **Bargaining Power of Suppliers:** Limited availability of battery raw materials enables suppliers to increase prices, raising production costs and strengthening their bargaining power.\n4. **Threat of Substitute Products:** Petrol, diesel and hybrid vehicles serve as substitutes. If customers find these alternatives more economical or convenient, demand for electric vehicles may decline.\n5. **Rivalry among Existing Competitors:** Intense competition among existing EV manufacturers through pricing, product innovation, technology and marketing increases competitive rivalry and affects profitability.\n\nThus, Porter's Five Forces help organisations understand the competitive intensity of an industry and formulate strategies to build and sustain a competitive advantage.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "porter's five forces",
+        "competitive analysis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+ "source": {
+  "type": "RTP",
+  "attempt": "November 2020",
+  "attempt_sort": "2020-11",
+  "series": null,
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://cacult.com/wp-content/uploads/2021/05/rtp-nov-20-8.pdf",
+  "local_file": "raw/rtp-old-nov2020-p7.pdf",
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Mirror: CA Cult (https://cacult.com/rtps-ca-intermediate-course/), which hosts the official ICAI RTP PDF. Not retrieved from an icai.org URL."
+ },
+ "questions": [
+  {
+   "qno": "1(i)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "Connect Private Limited, a Mumbai based company is launching a smartphone, under the brand name of Poppy. The company recognizes plethora of options that customers have from Chinese manufacturers flooding the smartphone landscape. With recent COVID-19 pandemic hurting the global sentiment towards Chinese products, the company plans to play on the patriotic card and advertise Poppy as the “Desi” smartphone of India. Strategic Arm of the company undertook an industry analysis and reported, that, budget phone segment was overtaken by the Chinese brands completely; however, the low segment of smartphones was still open for exploration. Thus, the company planned to enter the market with two models, Poppy A and Poppy B, priced at ` 4,499 and ` 5,499. The company is also aware that their product can easily be imitated at same costing as well as pricing, and thus the very essence of their product can be lost. A team of marketing professionals was hired to tackle this issue. The solution they suggested was to take the first mover advantage by spending huge sums in advertising and promotion. Based on sound consciousness of the competition from huge money backed international players, the company decided to manufacture smartphone covers and accessories with the same “Desi” tag, along with Poppy smartphones. This shall help them mitigate the risk of being completely thrown out of business. Consequently, they invested a fairly good amount in manufacturing of these accessories.\nThe investors made it an objective for the team to reach an annual sales volume of 15,000 handsets and 70,000 pieces of accessories. The accessories sales surpassed the expectations by a fairly good margin. However, Poppy A and Poppy B did not receive the much anticipated response and the leadership decided to reduce the scope and focus purely on accessories business going forward.\nWith a new focus on accessories production, the “Desi” tag will still play an important part in the success. However, they need to ensure creation of strong barriers to entry for domestic players, and for that, they have plans to increase the production to enormous levels. This shall reduce their unit cost, thus, eliminating the new entrants due t o extremely competitive pricing.\nBased on the above case scenario, answer the multiple choice questions which are as follows:\n\nConnect Private Limited, entered a saturated market of smartphones, after a due market study of understanding the competitive landscape. Put the below steps in correct sequence of understanding the competitive landscape.\n(I) Understanding the competitors\n(II) Determining strengths and weaknesses of the competitors\n(III) Identify the competitors\n(IV) Put all information gathered together",
+   "options": [
+    {
+     "label": "a",
+     "text": "(I),(III),(II),(IV)"
+    },
+    {
+     "label": "b",
+     "text": "(III),(I),(II),(IV)"
+    },
+    {
+     "label": "c",
+     "text": "(II),(III),(IV),(I)"
+    },
+    {
+     "label": "d",
+     "text": "(I),(III),(II),(IV)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "sub": "i",
+   "scenario_len": 2349
+  },
+  {
+   "qno": "1(ii)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "[Shared case scenario — see question 1(i).]\nAnnual sales volume as an objective by the investors was crucial to establish the company in the market. In which stage of strategic management are such annual objectives especially important?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Formulation"
+    },
+    {
+     "label": "b",
+     "text": "Control"
+    },
+    {
+     "label": "c",
+     "text": "Evaluation"
+    },
+    {
+     "label": "d",
+     "text": "Implementation"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "sub": "ii",
+   "scenario_len": 2349
+  },
+  {
+   "qno": "1(iii)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "[Shared case scenario — see question 1(i).]\nFollowing the sales numbers reported at the end of year, the leadership took a serious strategic stand point to move forward and shift to a new core business which was more profitable. Under which of the following category of business strategy can this decision be categorized?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Retrenchment strategy"
+    },
+    {
+     "label": "b",
+     "text": "Strategic alliance"
+    },
+    {
+     "label": "c",
+     "text": "Diversification strategy"
+    },
+    {
+     "label": "d",
+     "text": "Market development"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "sub": "iii",
+   "scenario_len": 2349
+  },
+  {
+   "qno": "1(iv)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "[Shared case scenario — see question 1(i).]\nAfter getting results from the market, accessories business of the company can be classified under which category of BCG’s growth share matrix?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Star"
+    },
+    {
+     "label": "b",
+     "text": "Question mark"
+    },
+    {
+     "label": "c",
+     "text": "Cash cow"
+    },
+    {
+     "label": "d",
+     "text": "Dog"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "sub": "iv",
+   "scenario_len": 2349
+  },
+  {
+   "qno": "1(v)",
+   "kind": "case-mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "[Shared case scenario — see question 1(i).]\nIn the second phase of shifting the business focus to peripheral accessories production, Connect Private Limited has planned setting up entries to barrier for its potential competitors. Which of the following barrier have they planned to implement?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Capital requirement"
+    },
+    {
+     "label": "b",
+     "text": "Product differentiation"
+    },
+    {
+     "label": "c",
+     "text": "Access to distribution channels"
+    },
+    {
+     "label": "d",
+     "text": "Economies of scale"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "sub": "v",
+   "scenario_len": 2349
+  },
+  {
+   "qno": "2",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "Velvet Limited is a full-service airline. The company is making the following decisions:\n(i) Should a ‘no-frills’, ‘low-fare’ subsidiary be set-up?\n(ii) If it is set-up, how should the cabin staff be recruited?\nWhich of the above decisions will be taken by corporate level managers?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only (i)"
+    },
+    {
+     "label": "b",
+     "text": "Only (ii)"
+    },
+    {
+     "label": "c",
+     "text": "Both (i) & (ii)"
+    },
+    {
+     "label": "d",
+     "text": "Neither (i) nor (ii)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "3",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "Training company operates a network of accounting training centres throughout Europe, the US and Australia. The business intends to enter developing markets in order to drive growth and has now decided to enter India which is 7,500 kilometres from the Training Co.'s UK headquarters. The Board has suggested that it will require externally focused management information to move into India. Which of the following is an external factor(s) that the Board should consider while implementing its strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Key local rivals and their strengths and weaknesses"
+    },
+    {
+     "label": "b",
+     "text": "Courses are suitable for this market"
+    },
+    {
+     "label": "c",
+     "text": "Timing of the courses (Public holidays, religious festivals, etc to be avoided)"
+    },
+    {
+     "label": "d",
+     "text": "All of the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "4",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "GetWellSoon Limited is a health provider and has only large edge of town hospitals. It is considering setting-up additional small city centre clinics capable of treating less-serious day cases. Which of the following will fall under “Strategy Implementation”?\n(1) Acquiring and fitting out clinics\n(2) Hiring and/or transferring staff\n(3) Publicity, so that patients know where and when to go\n(4) Liaison with general practitioners and the main hospitals",
+   "options": [
+    {
+     "label": "a",
+     "text": "Only (d)"
+    },
+    {
+     "label": "b",
+     "text": "(b) & (d)"
+    },
+    {
+     "label": "c",
+     "text": "(a), (b) & (d)"
+    },
+    {
+     "label": "d",
+     "text": "(a), (b), (c) & (d)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "5",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "A person who searched for business opportunity and starts a new enterprise to make use of that opportunity called",
+   "options": [
+    {
+     "label": "a",
+     "text": "Employee"
+    },
+    {
+     "label": "b",
+     "text": "Entrepreneur"
+    },
+    {
+     "label": "c",
+     "text": "Intrapreneur"
+    },
+    {
+     "label": "d",
+     "text": "Investor"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "6",
+   "kind": "mcq",
+   "group": "Multiple Choice Questions",
+   "chapter_head": null,
+   "question": "The Niche strategy is the best way to enter a:",
+   "options": [
+    {
+     "label": "a",
+     "text": "New market"
+    },
+    {
+     "label": "b",
+     "text": "Growing market"
+    },
+    {
+     "label": "c",
+     "text": "Matured market"
+    },
+    {
+     "label": "d",
+     "text": "None of the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "7",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 1-Introduction to Strategic Management",
+   "question": "Ramesh Sharma has fifteen stores selling consumer durables in Delhi Region. Four of these stores were opened in last three years. He believes in managing strategically and enjoyed significant sales of refrigerator, televisions, washing machines, air conditioners and like till four years back. With shift to the purchases to online strores, the sales of his stores came down to about seventy per cent in last four years.\nAnalyse the position of Ramesh Sharma in light of limitations of strategic management.",
+   "options": null,
+   "answer": "Ramesh Sharma is facing declining sales on account of large scale shift of customers to online stores. While he is using the tools of strategic management, they cannot counter all hindrances and always achieve success. There are limitations attached to strategic management as follows:\n• Environment under which strategies are made is highly complex and turbulent. Entry of online stores, a new kind of competitor brought a different dimension to selling consumer durables. Online stores with their size power could control the market and offer stiff competition to traditional stores.\n• Another limitation of strategic management is that it is difficult to predict how things will shape-up in future. Ramesh Sharma, although managing strategically failed to see how online stores will impact the sales.\n• Although, strategic management is a time-consuming process, he should continue to manage strategically. The challenging times require more efforts on his part.\n• Strategic management is costly. Ramesh Sharma may consider engaging experts to find out preferences of the customers and attune his strategies to better serve them in a customized manner. Such customized offerings may be difficult to match by the online stores.\n• The stores owned by Ramesh Sharma are much smaller than online stores. It is very difficult for him to visualize how online stores will be moving strategically.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "8",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 1-Introduction to Strategic Management",
+   "question": "“Strategy is partly proactive and partly reactive.” Discuss.",
+   "options": null,
+   "answer": "Strategy is partly proactive and partly reactive. In proactive strategy, organizations will analyze possible environmental scenarios and create strategic framework after proper planning and set procedures and work on these strategies in a predetermined manner. However, in reality no company can forecast both internal and external environment exactly. Everything cannot be planned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour, evolving technologies and so on.\nThere can be significant deviations between what was visualized and what actually happens. Strategies need to be attuned or modified in the light of possible environmental changes. There can be significant or major strategic changes when the environment demands. Reactive strategy is triggered by the changes in the environment and provides ways and means to cope with the negative factors or take advantage of emerging opportunities.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "9",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 2-Dynamics of Competitive Strategy",
+   "question": "‘Speed’ is a leading retail chain, on account of its ability to operate its business at low costs. The retail chain aims to further strengthen its top position in the retail industry. The Chief executive of the retail chain is of the view that to achieve the goals they should focus on lowering the costs of procurement of products. Highlight and explain the c ore competence of the retail chain.",
+   "options": null,
+   "answer": "A core competence is a unique strength of an organization which may not be shared by others. Core competencies are those capabilities that are critical to a business achieving competitive advantage. In order to qualify as a core competence, the competency should differentiate the business from any other similar businesses. A core competency for a firm is whatever it does is highly beneficial to the organisation. ‘Speed’ is the leader on account of its ability to keep costs low. The cost advantage that ‘Value for Money’ has created for itself has allowed the retailer to price goods lower than competitors. The core competency in this case is derived from the company’s ability to generate large sales volume, allowing the company to remain profitable with low profit margin.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "10",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 2-Dynamics of Competitive Strategy",
+   "question": "Write a short note on the role of ADL Matrix in assessing competitive position of a firm.",
+   "options": null,
+   "answer": "The ADL matrix has derived its name from Arthur D. Little which is a portfolio analysis method based on product life cycle. The approach forms a two dimensional matrix based on stage of industry maturity and the firm’s competitive position, environmental assessment and business strength assessment. The role of ADL matrix is to assess the competitive position of a firm based on an assessment of the following criteria:\n• Dominant: This is a comparatively rare position and in many cases is attributable either to a monopoly or a strong and protected technological leadership.\n• Strong: By virtue of this position, the firm has a considerable degree of freedom over its choice of strategies and is often able to act without its market position being unduly threatened by its competitors.\n• Favourable: This position, which generally comes about when the industry is\nfragmented and no one competitor stand out clearly, results in the market leaders a reasonable degree of freedom.\n• Tenable: Although the firms within this category are able to perform satisfactorily and can justify staying in the industry, they are generally vulnerable in the face of increased competition from stronger and more proactive companies in the market.\n• Weak: The performance of firms in this category is generally unsatisfactory although the opportunities for improvement do exist.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "11",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 3-Strategic Management Process",
+   "question": "Mr. Raj has been hired as a CEO by XYZ ltd a FMCG company that has diversified into affordable cosmetics. The company intends to launch Feelgood brand of cosmetics. XYZ wishes to enrich the lives of people with its products that are good for skin and are produced in ecologically beneficial manner using herbal ingredients. Draft vision and mission statement that may be formulated by Raj.",
+   "options": null,
+   "answer": "Feelgood brand of cosmetics may have following vision and mission:\nVision: Vision implies the blueprint of the company’s future position. It describes where the organisation wants to land. Mr. Raj should aim to position “Feelgood cosmetics” as India’s beauty care company. It may have vision to be India’s largest beauty care company that improves looks, give extraordinary feeling and bring happiness to people. Mission: Mission delineates the firm’s business, its goals and ways to reach the goals. It explains the reason for the existence of the firm in the society. It is designed to help potential shareholders and investors understand the purpose of the company:\nMr Raj may identify mission in the following lines:\n• To be in the business of cosmetics to enhance the lives of people, give them confidence to lead.\n• To protect skin from harmful elements in environment and sun rays.\n• To produce herbal cosmetics using natural ingredients.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "12",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 3-Strategic Management Process",
+   "question": "What is strategic decision making? What tasks are performed by a strategic manager?",
+   "options": null,
+   "answer": "Decision making is a managerial process of selecting the best course of action out of several alternative courses for the purpose of accomplishment of the organizational goals. Decisions may be operational i.e., which relate to general day-to-day operations. They may also be strategic in nature. According to Jauch and Glueck “Strategic decisions encompass the definition of the business, products to be handled, markets to be served, functions to be performed and major policies needed for the organisation to execute these decisions to achieve the strategic objectives.” The primary task of the strategic manager is conceptualizing, designing and executing company strategies. For this purpose, his tasks include:\n• Defining the mission and goals of the organization.\n• Determining what businesses it should be in.\n• Allocating resources among the different businesses.\n• Formulating and implementing strategies that span individual businesses.\n• Providing leadership for the organization.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "13",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 4-Corporate Level Strategies",
+   "question": "General public is discerning from buying air conditioning units based on the Health Ministry guidelines regarding emergence of a contagious viral pandemic. Consequently, Nebula Pvt. Ltd, a manufacturer of evaporation coils used in air conditioning units has faced significant loss in working capital due to sharp fall in demand. The company conducted financial assessment and developed a workable action plan based on short and long term financial needs. But for immediate needs, an emergency plan has been implemented. It includes selling scrap, asset liquidation and overheads cost reduction. Further, to avoid any such untoward event in future, they plan to diversify into newer business areas along with its core business. Identify and explain the strategy opted by M/s. Nebula Pvt. Ltd.?",
+   "options": null,
+   "answer": "M/s. Nebula Pvt Ltd has opted Turnaround Strategy as the company while facing serious working capital crunch persistently conducted an assessment of current problem and developed a workable action plan based on short and long term financial needs and strategic issues. A workable action plan for turnaround would involve:\nStage One – Assessment of current problems: In the first step, assess the current problems and get to the root causes and the extent of damage.\nStage Two – Analyze the situation and develop a strategic plan: Identify major problems and opportunities, develop a strategic plan with specific goals and detailed functional actions.\nStage Three – Implementing an emergency action plan: If the organization is in a critical stage, an appropriate action plan must be developed to stop the bleeding and enable the organization to survive.\nStage Four – Restructuring the business: If the core business is irreparably damaged, then the outlook for the entire organization may be bleak. Efforts to be made to position the organization for rapid improvement.\nStage Five – Returning to normal: In the final stage of turnaround strategy process, the organization should begin to show signs of profitability, return on inves tments and enhancing economic value-added.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "14",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 4-Corporate Level Strategies",
+   "question": "What is Divestment strategy? When is, it adopted?",
+   "options": null,
+   "answer": "Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit centre or SBU. For a multiple product company, divestment could be a part of rehabilitating or restructuring plan called turnaround.\n• A divestment strategy may be adopted due to various reasons:\n• When a turnaround has been attempted but has proved to be unsuccessful.\n• A business that had been acquired proves to be a mismatch and cannot be\nintegrated within the company.\n• Persistent negative cash flows from a particular business create financial problems for the whole company.\n• Severity of competition and the inability of a firm to cope with it.\n• Technological upgradation is required if the business is to survive but where it is not possible for the firm to invest in it.\n• A better alternative may be available for investment.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "15",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 5-Business Level Strategies",
+   "question": "Airlines industry in India is highly competitive with several players. Businesses face severe competition and aggressively market themselves with each other. Luxury Jet is a private Delhi based company with a fleet size of 9 small aircrafts with seating capacity ranging between 6 seats to 9 seats. There aircrafts are chartered by big business houses and high net worth individuals for their personalised use. With customised tourism packages their aircrafts are also often hired by foreigners. Identify and explain the Michael Porter’s Generic Strategy followed by Luxury Jet.",
+   "options": null,
+   "answer": "The Airlines industry faces stiff competition. However, Luxury Jet has attempted to create a niche market by adopting focused differentiation strategy. A focused differentiation strategy requires offering unique features that fulfil the demands of a narrow market. Luxury Jet compete in the market based on uniqueness and target a narrow market which provides business houses, high net worth individuals to maintain strict schedules. The option of charter flights provided several advantages including, flexibility, privacy, luxury and many a times cost saving. Apart from conveniences, the facility will provide time flexibility. Travelling by private jet is the most comfortable, safe and secure way of flying your company’s senior business personnel.\nChartered services in airlines can have both business and private use. Personalized tourism packages can be provided to those who can afford it.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "16",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 5-Business Level Strategies",
+   "question": "Distinguish between Cost Leadership and Differentiation Strategies.",
+   "options": null,
+   "answer": "Cost leadership emphasizes producing standardized products at a very low per-unit cost for consumers who are price-sensitive. Differentiation is a strategy aimed at producing products and services considered unique industry wide and directed at consumers who are relatively price-insensitive.\nA primary reason for pursuing forward, backward, and horizontal integration strategies is to gain cost leadership benefits. But cost leadership generally must be pursued in conjunction with differentiation. Different strategies offer different degrees of differentiation. A differentiation strategy should be pursued only after a careful study of buyers’ needs and preferences to determine the feasibility of incorporating one or more differentiating features into a unique product. A successful differentiation strategy allows a firm to charge a higher price for its product and to gain customer loyalty.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "17",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 6-Functional Level Strategies",
+   "question": "Mr. Vicky Verma, a Gwalior based entrepreneur, has entered into an exclusive-retail deal with an Italian company selling ‘Fantasy-3D’, a Hologram LED Fan, which is being used for advertising at public places. Mr. Verma procured a total of 500 units of the product and paid upfront as per the seller’s policy. This resulted in blocking of his working capital significantly and the shipment is expected in a month. Meanwhile his continued efforts of establishing relations with the marketing heads of corporates resulted in a series of meetings, where he demonstrated his specialist product knowledge by changing the hologram images to personalise basis specifications of the customer. The management of a big automative company was impressed with the quality and adaptability of the product, and awarded a contract of 125 units to be displayed in the auto-maker’s showrooms. Identify and explain the product promotion strategy adopted by Mr. Verma.",
+   "options": null,
+   "answer": "Mr. Vicky Verma established personal contacts with potential buyers of the product and persuaded the marketing department over several physical meetings, and was finally able to make sales. The personal relation establishment and physical demonstration, indicates that Mr. Verma used the Personal Selling method of Promotion. Modern marketing is highly promotional oriented and include personal selling, advertising, publicity and sales promotion. Personal selling involves face to face interaction of sales persons with the prospective customers and provides a high degree of personal attention. It involves working with one customer at a time and hence not cost effective. The intention of oral communication is sale.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "18",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 6-Functional Level Strategies",
+   "question": "How would you argue that Research and Development Personnel are important for effective strategy implementation?",
+   "options": null,
+   "answer": "Research and Development (R&D) personnel can play an integral part in strategy implementation. These individuals are generally charged with developing new products and improving old products in a way that will allow effective strategy implementation. R&D employees and managers perform tasks that include transferring complex technology, adjusting processes to local raw materials, adapting processes to local markets, and altering products to particular tastes and specifications.\nStrategies such as product development, market penetration, and concentric diversification require that new products be successfully developed and that old products be significantly improved. But the level of management support for R&D is often constrained by resource availability.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "19",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 7-Organisation and Strategic Leadership",
+   "question": "Delta is an organization specializing in Information Technology enables Services (ITeS) and Communications business. Previous year the organization had successfully integrated an Artificial Intelligence (AI) tool named ‘Zeus’ into the existing ERP system. The AI tool using Deep Learning technique provided a digital leap transformation in various business processes and operations. It has significantly diminished the role played by specialist managers of the middle management. This technological tool in addition to saving organisational costs by replacing many tasks of the middle management, has also served as a link between top and bottom levels in the organization and assists in faster decision making. The skewed middle level managers now perform cross-functional duties. Which type of organisational structure is the company transitioning into?",
+   "options": null,
+   "answer": "The company Delta is transitioning into the Hourglass organization structure because it has used technological tools to transform various business processes and operations and has significantly diminished the role played by specialist managers of the middle management. The technological tool in addition to savings organisational costs by replacing many tasks of the middle management has also served as a link between top and bottom levels in the organization and assists in faster decision making. The skewed middle level managers now perform cross-functional duties. All these factors indicate towards Hourglass organization structure.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "20",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 7-Organisation and Strategic Leadership",
+   "question": "How can you differentiate between transformational and transactional leaders?",
+   "options": null,
+   "answer": "Difference between transformational and transactional leadership:\n1. Transformational leadership style uses charisma and enthusiasm to inspire people to exert them for the good of organization. Transactional leadership style uses the authority of its office to exchange rewards such as pay, status symbols etc.\n2. Transformational leadership style may be appropriate in turbulent environment, in industries at the very start or end of their cycles, poorly performing organisations, when there is a need to inspire a company to embrace major changes.\nTransactional leadership style can be appropriate in static environment, in growing or mature industries and in organisations that are performing well.\n3. Transformational leaders inspire employees by offering excitement, vision, intellectual stimulation and personal satisfaction. Transactional leaders prefer a more formalized approach to motivation, setting clear goals with explicit rewards or penalties for achievement and non-achievement. Transactional leaders focus mainly to build on existing culture and enhance current practices.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "21",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 8-Strategy Implementation and Control",
+   "question": "The Audit Committee of Theta Ltd on observing a sluggish growth has advised a radical internal digital transformation. A strategy audit was proposed to identify problem areas and correct the strategic approaches that have not been effective so far. The strategy auditor while measuring organisational performance has identified gaps in flow between order booking by the sales department and the dispatch of product by the delivery department, which amounts to success of one department means failure for another. With reference to Richard Rumelt’s criteria for strategy audit, identify and explain the correct evaluation criteria to be adopted.",
+   "options": null,
+   "answer": "Richard Rumelt’s criteria for strategy audit proposes four criteria namely, consistency, consonance, feasibility and advantage. In the present scenario, the strategy auditor while measuring organisational performance has identified a gap which amounts to success of one department means failure for another. This can be clearly identified as a consistency criterion as the current organisational strategies are inconsistent.\nThree guidelines help determine if organizational problems are due to inconsistencies in strategy:\n• If managerial problems continue despite changes in personnel and if they tend to be issue-based rather than people-based, then strategies may be inconsistent.\n• If success for one organizational department means, or is interpreted to mean, failure for another department, then strategies may be inconsistent.\n• If policy problems and issues continue to be brought to the top for resolution, then strategies may be inconsistent.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  },
+  {
+   "qno": "22",
+   "kind": "descriptive",
+   "group": "Descriptive Questions",
+   "chapter_head": "Chapter 8-Strategy Implementation and Control",
+   "question": "Discuss three methods for reassigning new patterns of behavior as proposed by H.C. Kellman.",
+   "options": null,
+   "answer": "H.C. Kellman has proposed three methods for reassigning new patterns of behaviour. These are compliance, identification and internalisation.\n• Compliance: It is achieved by strictly enforcing the reward and punishment strategy for good or bad behaviour. Fear of punishment, actual punishment or actual reward seems to change behaviour for the better.\n• Identification: Identification occurs when members are psychologically impressed upon to identify themselves with some given role models whose behaviour the y would like to adopt and try to become like them.\n• Internalization: Internalization involves some internal changing of the individual’s thought processes in order to adjust to a new environment. They have given freedom to learn and adopt new behaviour in order to succeed in the new set of circumstances.",
+   "mcq_answer": null,
+   "sub": null,
+   "scenario_len": 0
+  }
+ ]
+}

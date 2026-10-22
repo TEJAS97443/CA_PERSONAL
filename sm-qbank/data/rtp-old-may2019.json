@@ -1,0 +1,972 @@
+{
+ "source": {
+  "type": "RTP",
+  "attempt": "May 2019",
+  "attempt_sort": "2019-05",
+  "series": null,
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://drive.google.com/uc?id=1TOEejxUFqeLWfnw8wQeXrbZkmhqehvFX&export=download",
+  "local_file": "raw/rtp-old-may2019-p7.pdf",
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Mirror: CA Study Web (https://castudyweb.com/ca-inter-rtp/) Google Drive copy of the official ICAI RTP PDF. Not retrieved from an icai.org URL."
+ },
+ "questions": [
+  {
+   "id": "rtp-old-may2019-q1i",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy → Ch 1 (Meaning and Nature of Strategic Management)",
+   "qno": "1(i)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nWhich of the following statement is not true with regards to strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategy reduces uncertainty."
+    },
+    {
+     "label": "b",
+     "text": "Strategy is long range blueprint of desired position."
+    },
+    {
+     "label": "c",
+     "text": "Strategy relates organisations to the external environment."
+    },
+    {
+     "label": "d",
+     "text": "Strategy is perfect and flawless."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "meaning of strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1ii",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management process / strategic planning → Ch 5 (5.2)",
+   "qno": "1(ii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nThe strategic management process is:",
+   "options": [
+    {
+     "label": "a",
+     "text": "a solution that guarantees prevention of organizational failure."
+    },
+    {
+     "label": "b",
+     "text": "concerned with a resources, capabilities, and competencies, but not the conditions in its external environment."
+    },
+    {
+     "label": "c",
+     "text": "not to be used in the not-for-profit organisations."
+    },
+    {
+     "label": "d",
+     "text": "full set of commitments, decisions, and actions related to the firm."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic management process",
+    "strategic management"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1iii",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent → Ch 1",
+   "qno": "1(iii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nMission:",
+   "options": [
+    {
+     "label": "a",
+     "text": "is an internally-focused definition of the organization's societal goals."
+    },
+    {
+     "label": "b",
+     "text": "is a statement of a firms unique purpose and scope of operations."
+    },
+    {
+     "label": "c",
+     "text": "does not relate to the industry in which the firm intends to compete."
+    },
+    {
+     "label": "d",
+     "text": "is developed by a firm before the firm develops its strategic intent."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic intent",
+    "mission"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1iv",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic group mapping → Ch 3 (Analysing Industry and Markets)",
+   "qno": "1(iv)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nA __________ consists of those rival firms which have similar competitive approaches and positions in the market.",
+   "options": [
+    {
+     "label": "a",
+     "text": "BCG Matrix."
+    },
+    {
+     "label": "b",
+     "text": "Strategic group."
+    },
+    {
+     "label": "c",
+     "text": "Strategy Map."
+    },
+    {
+     "label": "d",
+     "text": "Industry."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic group mapping"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1v",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter's generic strategies → Ch 3 (Competitive Advantage)",
+   "qno": "1(v)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nAccording to C.K. Prahalad and Gary Hamel, major core competencies are identified in three areas - ________, ____________, and application to other markets.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Competitor differentiation, customer value."
+    },
+    {
+     "label": "b",
+     "text": "Competitor differentiation, focus."
+    },
+    {
+     "label": "c",
+     "text": "Cost leadership, differentiation."
+    },
+    {
+     "label": "d",
+     "text": "Profits, growth."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "generic strategies",
+    "core competence"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1vi",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategic decisions → Ch 1",
+   "qno": "1(vi)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nWhich of the following statement is not true about strategic decisions?",
+   "options": [
+    {
+     "label": "a",
+     "text": "They need top-management involvement."
+    },
+    {
+     "label": "b",
+     "text": "Involve commitment of organisational resources."
+    },
+    {
+     "label": "c",
+     "text": "They are based on external environment"
+    },
+    {
+     "label": "d",
+     "text": "They have insignificant impact on the long-term prosperity"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1vii",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations (corporate / business / functional) → Ch 1",
+   "qno": "1(vii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nStrategic decision making can take place at three common levels of an organisation as follows:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Divisional, group and individual."
+    },
+    {
+     "label": "b",
+     "text": "Executive, leader and manager."
+    },
+    {
+     "label": "c",
+     "text": "Corporate, business and functional."
+    },
+    {
+     "label": "d",
+     "text": "Strategic, tactical and operational."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic levels",
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1viii",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Diversification / integration → Ch 4 (Expansion through diversification)",
+   "qno": "1(viii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nWhich of the following is not a type of diversification strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Vertical diversification."
+    },
+    {
+     "label": "b",
+     "text": "Concentric diversification."
+    },
+    {
+     "label": "c",
+     "text": "Conglomerate diversification."
+    },
+    {
+     "label": "d",
+     "text": "Co-generic diversification."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "diversification"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1ix",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Competitive advantage / distinctive competence → Ch 3",
+   "qno": "1(ix)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nA thing that a firm does especially well in comparison to the rival firms is:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Opportunity availed."
+    },
+    {
+     "label": "b",
+     "text": "Successful leadership."
+    },
+    {
+     "label": "c",
+     "text": "Competitive advantage."
+    },
+    {
+     "label": "d",
+     "text": "Comparative advantage."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1x",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Stability strategy → Ch 4",
+   "qno": "1(x)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nStability strategy is a ____________ strategy.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Functional level."
+    },
+    {
+     "label": "b",
+     "text": "Business level."
+    },
+    {
+     "label": "c",
+     "text": "Corporate level."
+    },
+    {
+     "label": "d",
+     "text": "implementation."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "stability strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1xi",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Portfolio analysis / BCG matrix → Ch 4 (How to develop strategic options)",
+   "qno": "1(xi)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nUnder BCG an SBU with products having little market share but in an attractive industry is referred to as:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Cash cow."
+    },
+    {
+     "label": "b",
+     "text": "Star."
+    },
+    {
+     "label": "c",
+     "text": "Dog."
+    },
+    {
+     "label": "d",
+     "text": "Question mark."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "bcg matrix",
+    "strategic business unit"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1xii",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy Audit (old Ch 8.6) — dropped from the 2023 syllabus",
+   "qno": "1(xii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nWhich of the following does not form part of Richard Rumelt’s criteria for strategy audit?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Adaptation."
+    },
+    {
+     "label": "b",
+     "text": "Consistency."
+    },
+    {
+     "label": "c",
+     "text": "Consonance."
+    },
+    {
+     "label": "d",
+     "text": "Feasibility."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategy audit"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1xiii",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter's generic strategies → Ch 3 (Competitive Advantage)",
+   "qno": "1(xiii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nAccording to Porter, which of the following is important to achieve competitive advantage?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Differentiation and cost advantage."
+    },
+    {
+     "label": "b",
+     "text": "Outsourcing activities."
+    },
+    {
+     "label": "c",
+     "text": "Having strong relationship with buyer and sellers."
+    },
+    {
+     "label": "d",
+     "text": "Focus on most competitive businesses."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "generic strategies"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1xiv",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter's five forces / industry environment analysis → Ch 2",
+   "qno": "1(xiv)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nWhat will happen in case many new businesses enter a market?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Barriers to entry will rise."
+    },
+    {
+     "label": "b",
+     "text": "Competitive rivalry will intensify."
+    },
+    {
+     "label": "c",
+     "text": "Capacity of industry will fall."
+    },
+    {
+     "label": "d",
+     "text": "Industry will become more lucrative."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "five forces"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1xv",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations (corporate / business / functional) → Ch 1",
+   "qno": "1(xv)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nMarketing Strategy is the following type of strategy:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Business Strategy."
+    },
+    {
+     "label": "b",
+     "text": "Functional Strategy."
+    },
+    {
+     "label": "c",
+     "text": "Growth Strategy."
+    },
+    {
+     "label": "d",
+     "text": "Product Strategy."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic levels",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1xvi",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "1(xvi)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nWhich of the following situation will most likely suit a transformational leader?",
+   "options": [
+    {
+     "label": "a",
+     "text": "An organization that is in trouble."
+    },
+    {
+     "label": "b",
+     "text": "A growing organization."
+    },
+    {
+     "label": "c",
+     "text": "An organization in a stable environment."
+    },
+    {
+     "label": "d",
+     "text": "An organization at maturity stage of product life cycle."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic leadership",
+    "transformational leadership"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1xvii",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic change / Kurt Lewin change process → Ch 5 (Strategic Change)",
+   "qno": "1(xvii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nWhich of the following is not a phase in Kurt Lewin’s Model of Change?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Changing."
+    },
+    {
+     "label": "b",
+     "text": "Deep freezing."
+    },
+    {
+     "label": "c",
+     "text": "Refreezing."
+    },
+    {
+     "label": "d",
+     "text": "Unfreezing."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic change"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q1xviii",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Diversification / integration → Ch 4 (Expansion through diversification)",
+   "qno": "1(xviii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "In the questions given below select the best answer out of options (a), (b), (c), or (d):\nAn organization acquires its supplier is an example of:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Horizontal integrated diversification."
+    },
+    {
+     "label": "b",
+     "text": "Forward integrated diversification."
+    },
+    {
+     "label": "c",
+     "text": "Backward integrated diversification."
+    },
+    {
+     "label": "d",
+     "text": "Conglomerate diversification."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "diversification"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q2",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Importance / benefits of strategic management → Ch 1",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "`Do Good Group’ is a not-for-profit organization based in northern India working towards childcare. The group educates people towards immunization, sanitation and works in coordination with local hospitals or medical centers. Recently, a new team has taken over the management of its activities. Explain whether tools of strategic Management are relevant for the group.",
+   "options": null,
+   "answer": "The tools of strategic management process are effectively being used by a number of not-for-profit or charitable organizations. While ‘Do Good Group’ may have social and charitable existence, still it has to generate resources and use them wisely to achieve organisational objectives. Organisation needs to be managed strategically, irrespective whether they have profit motive. The strategic Management at ‘Do Good Group’ should essentially cover:\n• Analyzing and interpreting the strategic intent in terms of vision, mission and objectives.\n• Generating required resources in terms of finance and manpower (volunteers, paid employees).\n• Undertaking SWOT analysis from time to time.\n• Setting goals in the area of childcare. It can be in terms of geographical coverage and number of children.\n• Analyzing the desired future position with the past and present situation.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "importance of sm",
+    "vision",
+    "mission",
+    "strategic intent"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q3",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Limitations of strategic management → Ch 1",
+   "qno": "3",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Are there any limitations attached to strategic management in organizations? Discuss.",
+   "options": null,
+   "answer": "The presence of strategic management cannot counter all hindrances and always achieve success. There are limitations attached to strategic management. These can be explained in the following lines:\n• Environment is highly complex and turbulent. It is difficult to understand the c omplex environment and exactly pinpoint how it will shape-up in future. The organisational estimate about its future shape may awfully go wrong and jeopardise all strategic plans.\n• Strategic management is a time-consuming process. Organisations spend a lot of time in preparing, communicating the strategies that may impede daily operations and negatively impact the routine business.\n• Strategic management is a costly process. Strategic management adds a lot of expenses to an organization. Expert strategic planners need to be engaged, efforts are made for analysis of external and internal environments devise strategies and\nproperly implement. These can be really costly for organisations with limited resources.\n• In a competitive scenario, where all organisations are trying to move strategically, it is difficult to clearly estimate the competitive responses to a firm’s strategies.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "limitations",
+    "strategic management"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q4",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Core competence → Ch 3 (Role of Resources and Capabilities)",
+   "qno": "4",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Rohit Patel is having a small chemist shop in the central part of Ahmedabad. What kind of competencies Rohit can build to gain competitive advantage over online medic ine sellers?",
+   "options": null,
+   "answer": "Capabilities that are valuable, rare, costly to imitate, and non-substitutable are core competencies. A small chemist shop has a local presence and functions within a limited geographical area. Still it can build its own competencies to gain competitive advantage. Rohit Patel can build competencies in the areas of:\n(i) Developing personal and cordial relations with the customers.\n(ii) Providing home delivery with no additional cost.\n(iii) Developing a system of speedy delivery that can be difficult to match by online sellers. Being in central part of city, he can create a network to supply at wider locations in the city.\n(iv) Having extended working hours for convenience of buyers.\n(v) Providing easy credit or a system of monthly payments to the patients consuming regular medicines.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "core competence",
+    "substitutes"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q5",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic group mapping → Ch 3 (Analysing industry and markets)",
+   "qno": "5",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What is a Strategic Group? Discuss the procedure for constructing a strategic group map.",
+   "options": null,
+   "answer": "A strategic group consists of those rival firms which have similar competitive approaches and positions in the market. Companies in the same strategic group can resemble one another in any of the several ways – have comparable product-line breadth, same price/quality range, same distribution channels, same product attributes, identical technological approaches, offer similar services and technical assistance and so on. The procedure for constructing a strategic group map and deciding which firms belong in which strategic group is as follows:\n• Identify the competitive characteristics that differentiate firms in the industry typical variables are price/quality range (high, medium, low); geographic coverage (local, regional, national, global); degree of vertical integration (none, partial, full); product-line breadth (wide, narrow); use of distribution channels (one, some, all); and degree of service offered (no-frills, limited, full).\n• Plot the firms on a two-variable map using pairs of these differentiating\ncharacteristics.\n• Assign firms that fall in about the same strategy space to the same strategic group.\n• Draw circles around each strategic group making the circles proportional to the size of the group’s respective share of total industry sales revenues.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic group mapping"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q6",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Placement in the organisational hierarchy and the nature/dimensions of strategic decisions → Ch 1 (Strategic Levels in Organisations; nature of strategic management)",
+   "qno": "6",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Shri Alok Kumar is having his own medium size factory in Aligarh manufacturing hardware consisting handles, hinges, tower bolts and so on. He has a staff of more than 220 in his organisation. One of the leading brand of Hardware seller in India is rebranding and selling the material from his factory. Shri Alok Kumar, believes in close supervision and takes all major and minor decisions in the organisation.\nDo you think Shri Alok should take all decisions himself? What should be nature of decisions that should be taken by him.",
+   "options": null,
+   "answer": "Decision making is a managerial process of selecting the best course of action out of several alternative courses for the purpose of accomplishment of the organizational goals. Decisions may be operational, i.e., which relate to general day-to-day operations. They may also be strategic in nature.\nAs owner manager at the top level in the company, Shri Alok Kumar should concentrate on strategic decisions. These are higher level decisions having organisation wide implications. The major dimensions of strategic decisions are as follows:\n• Strategic decisions require top-management involvement as they involve thinking in totality of the organization.\n• Strategic decisions involve significant commitment of organisational resources.\n• Strategic decisions necessitate consideration of factors in the firm’s external environment.\n• Strategic decisions are likely to have a significant impact on the long-term prosperity of the firm.\n• Strategic decisions are future oriented.\n• Strategic decisions usually have major multifunctional or multi-business consequences.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic levels",
+    "strategic decisions",
+    "vision"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q7",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent → Ch 1",
+   "qno": "7",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What are the elements in strategic intent of organisation?",
+   "options": null,
+   "answer": "Strategic intent can be understood as the philosophical base of strategic management. It implies the purposes, which an organization endeavours to achieve. It is a statement that provides a perspective. Strategic intent gives an idea of what the organization desires to attain in future. Strategic intent provides the framework within which the firm would adopt a predetermined direction and would operate to achieve strategic objectives. Elements of strategic management are as follows:\n(i) Vision: Vision implies the blueprint of the company’s future position. It describes where the organisation wants to land. It depicts the organisation’s aspirations and provides a glimps of what the organization would like to become in future. Every sub system of the organization is required to follow its vision.\n(ii) Mission: Mission delineates the firm’s business, its goals and ways to reach the goals. It explains the reason for the existence of the firm in the society. A mission statement helps to identify, ‘what business the company undertakes.’ It defines the present capabilities, activities, customer focus and role in society.\n(iii) Business Definition: It seeks to explain the business undertaken by the firm, with respect to the customer needs, target markets, and alternative technologies. With the help of business definition, one can ascertain the strategic business choices.\n(iv) Business Model: Business model, as the name implies is a strategy for the effective operation of the business, ascertaining sources of income, desired customer base, and financial details. Rival firms, operating in the same industry rely on the different business model due to their strategic choice.\n(v) Goals and Objectives: These are the base of measurement. Goals are the end\nresults, that the organization attempts to achieve. On the other hand, objectives are time-based measurable targets, which help in the accomplishment of goals. These are the end results which are to be attained with the help of an overall plan. However, in practice, no distinction is made between goals and objectives and both the terms are used interchangeably.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic intent",
+    "vision",
+    "objectives",
+    "strategic management"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q8",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 4 \"Corporate Level Strategies\" → Ch 4 (Strategic Choices)",
+   "qno": "8",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "With the global economic recession Soft Cloth Ltd. incurred significant losses in all its previous five financial years. Currently, they are into manufacturing of cloth made of cotton, silk, polyster, rayon, lycra and blends. Competition is also intense on account of cheap imports. The company is facing cash crunch and has not been able to pay the salaries to its employees in the current month.\nSuggest a grand strategy that can be opted by Soft Cloth Ltd.",
+   "options": null,
+   "answer": "Soft Cloth Ltd. is facing internal as well as external challenges. The external environment is in economic recession and the organization is facing cash crunch. The company needs to work on retrenchment / turnaround strategy. The strategy is suitable in case of issues such as:\n• Persistent negative cash flow.\n• Uncompetitive products or services\n• Declining market share\n• Deterioration in physical facilities\n• Overstaffing, high turnover of employees, and low morale\n• Mismanagement\nThe company may consider to substantially reduce the scope of its activity. This is done through an attempt to find out the problem areas and diagnose the causes of the problems. Next, steps are taken to solve the problems.\nThese steps result in different kinds of retrenchment strategies. If the organization chooses to focus on ways and means to reverse the process of decline, it adopts at turnaround strategy. If it cuts off the loss-making units, divisions, or SBUs, curtails its product line, or reduces the functions performed, it adopts a divestment strategy. If none of these actions work, then it may choose to abandon the activities totally, resulting in a liquidation strategy.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "turnaround",
+    "retrenchment"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q9",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic alliance → Ch 4 (External growth strategies)",
+   "qno": "9",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What are the advantages of a strategic alliance?",
+   "options": null,
+   "answer": "A strategic alliance is a relationship between two or more businesses that enables each to achieve certain strategic objectives which neither would be able to achieve on its own. The strategic partners maintain their status as independent and separate entities, share the benefits and control over the partnership, and continue to make contributions to the alliance until it is terminated. The advantages of strategic alliance can be broadly categorised as follows:\n(a) Organizational: Strategic alliance helps to learn necessary skills and obtain certain capabilities from strategic partners. Strategic partners may also help to enhance productive capacity, provide a distribution system, or extend supply chain.\n(b) Economic: There can be reduction in costs and risks by distributing them across the members of the alliance. Greater economies of scale can be obtained in an alliance, as production volume can increase, causing the cost per unit to decline.\n(c) Strategic: Rivals can join together to cooperate instead of compete. Strategic alliances may also be useful to create a competitive advantage by the pooling of resources and skills. This may also help with future business opportunities and the development of new products and technologies. Strategic alliances may also be used to get access to new technologies or to pursue joint research and development.\n(d) Political: Sometimes strategic alliances are formed with a local foreign business to gain entry into a foreign market either because of local prejudices or legal barriers to entry.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic alliance",
+    "objectives",
+    "importance of sm",
+    "adl matrix"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q10",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Barriers to entry / threat of new entrants → Ch 2 (Porter's Five Forces)",
+   "qno": "10",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Rahul Sharma is Managing Director of a company which is manufacturing trucks. He is worried about the entry of new businesses. What kind of barriers will help Rahul against such a threat?",
+   "options": null,
+   "answer": "A firm’s profitability tends to be higher when other firms are blocked from entering the industry. New entrants can reduce industry profitability because they add new production capacity leading to increase supply of the product even at a lower price and c an substantially erode existing firm’s market share position. Barriers to entry represent economic forces that slow down or impede entry by other firms. Common barriers to entry include:\n(i) Capital Requirements: When a large amount of capital is required to enter an industry, firms lacking funds are effectively barred from the industry, thus enhancing the profitability of existing firms in the industry.\n(ii) Economies of Scale: Many industries are characterized by economic activities driven by economies of scale. Economies of scale refer to the decline in the per-unit cost of production (or other activity) as volume grows.\n(iii) Product Differentiation: Product differentiation refers to the physical or perceptual differences, or enhancements, that make a product special or unique in the eyes of customers.\n(iv) Switching Costs: To succeed in an industry, new entrant must be able to persuade existing customers of other companies to switch to its products. When such switching costs are high, buyers are often reluctant to change.\n(v) Brand Identity: The brand identity of products or services offered by existing firms can serve as another entry barrier. Brand identity is particularly important for infrequently purchased products that carry a high unit cost to the buyer.\n(vi) Access to Distribution Channels: The unavailability of distribution channels for new entrants poses another significant entry barrier. Despite the growing power of the internet, many firms may continue to rely on their control of physical distribution channels to sustain a barrier to entry to rivals.\n(vii) Possibility of Aggressive Retaliation: Sometimes the mere threat of aggressive retaliation by incumbents can deter entry by other firms into an existing industry.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "barriers to entry"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q11",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter's generic strategies → Ch 3 (Competitive Advantage)",
+   "qno": "11",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What do you understand by cost leadership? How is it achieved?",
+   "options": null,
+   "answer": "Cost leadership is a low cost competitive strategy that aims at broad mass market. It requires vigorous pursuit of cost reduction in the areas of procurement, production, storage and distribution of product or service and also economies in overhead costs. Because of its lower costs, the cost leader is able to charge a lower price for its products than its competitors and still make satisfactory profits. A primary reason for pursuing forward, backward, and horizontal integration strategies is to gain cost leadership benefits. A successful cost leadership strategy usually permeates the entire firm, as evidenced by high efficiency, low overhead, limited perks, intolerance of waste, intensive screening of budget requests, wide spans of control, rewards linked to cost containment, and broad employee participation in cost control efforts. Some risks of pursuing cost leadership are that competitors may imitate the strategy.\nTo achieve cost leadership, following are the actions that could be taken:\n(a) Forecast the demand of a product or service promptly.\n(b) Optimum utilization of the resources to get cost advantages.\n(c) Achieving economies of scale leads to lower per unit cost of product/service.\n(d) Standardisation of products for mass production to yield lower cost per unit.\n(e) Invest in cost saving technologies and try using advance technology for smart working.\n(f) Resistance to differentiation till it becomes essential.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "importance of sm",
+    "cost leadership",
+    "integration"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q12",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Formulation of functional strategies (old Ch 6) — the standalone functional-strategy treatment has no counterpart in the 2023 scheme",
+   "qno": "12",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "ABC Ltd is a company that has grown eleven times its size in last five years. With the increase in size the company is facing difficulty in managing things. Many a times functional level is not in sync with the corporate level. What will you like to advise to the company and why?",
+   "options": null,
+   "answer": "The higher-level corporate strategies need to be segregated into viable plans and policies that are compatible with each other and communicated down the line. The higher-level strategies need to be broken into functional strategies for implementation. These functional strategies, in form of marketing, finance, human resource, production, research and development help in achieving the organisational objective. The reasons why functional strategies are needed can be enumerated as follows:\n• Functional strategies lay down clearly what is to be done at the functional level. They provide a sense of direction to the functional staff.\n• They are aimed at facilitating the implementation of corporate strategies and the business strategies formulation at the business level.\n• They act as basis for controlling activities in the different functional areas of business.\n• They help in bringing harmony and coordination as they are formulated to achieve major strategies.\n• Similar situations occurring in different functional areas are handled in a consistent manner by the functional managers.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "functional strategy",
+    "objectives",
+    "hr strategy",
+    "r&d strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q13",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / SHRM (old Ch 6.6) — dropped with the functional-strategy chapter",
+   "qno": "13",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Explain the prominent areas where human resource manager can play a strategic role.",
+   "options": null,
+   "answer": "The prominent areas where the human resource manager c an play strategic role are as follows:\n(a) Providing purposeful direction: The human resource manager must be able to lead people and the organization towards the desired direction involving people right from the beginning. The most important task of a HR manager is to ensure that the objectives of an organization are internalized by everyone.\n(b) Building core competency: The human resource manager has a great role to play in developing core competency by the firm. A core competence is a unique strength of an organization which may not be shared by others. This may be in the form of human resources, marketing capability, or technological capability.\n(c) Creating competitive advantage: Creating and maintaining a competitive\nadvantage in the globalized market is the object of any organization. There are two important ways a business can achieve a competitive advantage over the others. The first is cost leadership and second is differentiation.\n(d) Facilitation of change: The human resource manager will be more concerned with substance rather than form, accomplishments rather than activities, and practice rather than theory. The HR function will be responsible for furthering the organization and devote more time to promote changes than to maintain the status quo.\n(e) Managing workforce diversity: In modern organizations, management of diverse workforce is a great challenge. Workforce diversity can be observed in terms of male and female workers, young and old workers, educated and uneducated workers, unskilled and professional employee, etc.\n(f) Empowerment of human resources: Empowerment means authorizing every\nmember of an organization to take up his/her own destiny realizing his/her full potential. It involves giving more power to those who, at present, have little control what they do and little ability to influence the decisions being made around them.\n(g) Development of works ethic and culture: Greater efforts will be needed to achieve cohesiveness because employees will have transient commitment to groups. As changing work ethic requires increasing emphasis on individuals, jobs will have to be redesigned to provide challenge. A vibrant work culture will have to be developed in the organizations to create an atmosphere of trust and encourage creative ideas.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hr strategy",
+    "objectives",
+    "core competence"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q14",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "14",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Ramesh, is owner of a popular brand of Breads. Yashpal, his son after completing Chartered Accountancy started assisting his father in running of business. The approaches followed by father and son in management were very different. While Ramesh preferred to use authority and having a formal system of defining goals and motivation with explicit rewards and punishments, Yashpal believed in involving employees and generating enthusiasm to inspire people to deliver in the organization.\nDiscuss the difference in leadership style of father and son.",
+   "options": null,
+   "answer": "Ramesh is a follower of transactional leadership style that focuses on designing system s and controlling the organization’s activities. Such a leader believes in using authority of its office to exchange rewards, such as pay and status. They prefer a more formalized approach to motivation, setting clear goals with explicit rewards or penalties for achievement or non-achievement. Transactional leaders try to build on the existing culture and enhance current practices. The style is better suited in persuading people to work efficiently and run operations smoothly.\nOn the other hand, Yashpal is follower of transformational leadership style. The style uses charisma and enthusiasm to inspire people to exert them for the good of the organization. Transformational leaders offer excitement, vision, intellectual stimulation and personal satisfaction. They inspire involvement in a mission, giving followers a ‘dream’ or ‘vision’ of a higher calling so as to elicit more dramatic changes in organizational performance. Such a leadership motivates followers to do more than originally affected to do by stretching their abilities and increasing their self-confidence, and also promote innovation throughout the organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic leadership",
+    "culture"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q15",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "qno": "15",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Discuss the concept of Multi Divisional Structure.",
+   "options": null,
+   "answer": "Multidivisional (M-form) structure is composed of operating divisions where each division represents a separate business to which the top corporate officer delegates responsibility for day-to-day operations and business unit strategy to division managers. By such delegation, the corporate office is responsible for formulating and implementing overall corporate strategy and manages divisions through strategic and financial controls. Multidivisional or M-form structure was developed in the 1920s, in response to coordination-and control-related problems in large firms. Functional departments often had difficulty dealing with distinct product lines and markets, especially in coordinating conflicting priorities among the products.\nCosts were not allocated to individual products, so it was not possible to assess an individual product’s profit contribution. Loss of control meant that optimal allocation of firm resources between products was difficult (if not impossible). Top managers became over - involved in solving short-run problems (such as coordination, communications, conflict resolution) and neglected long-term strategic issues. Multidivisional structure calls for:\n• Creating separate divisions, each representing a distinct business.\n• Each division would house its functional hierarchy.\n• Division managers would be given responsibility for managing day-to-day operations.\n• A small corporate office that would determine the long-term strategic direction of the firm and exercise overall financial control over the semi-autonomous divisions.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure",
+    "vision"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q16",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management process / strategic planning → Ch 5 (5.2)",
+   "qno": "16",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "HQ is a service company? Two years back the company hired a reputed management consultant to formulate its strategy. The consultant recommended an aggressive expansion plan. Now in an internal review meeting the company finds that many of the suggestions are not even fully considered.\nWhich part of strategic management process is missing in HQ?",
+   "options": null,
+   "answer": "Strategy implementation is missing in HQ. Implementation is the managerial exercise of putting a chosen strategy into action. It deals with the managerial exercise of supervising the ongoing pursuit of strategy, making it work, improving the competence with which it is executed and showing measurable progress in ac hieving the targeted results.\nStrategic implementation is concerned with translating a strategic decision into action, which presupposes that the decision itself (i.e., the strategic choice) was made with some thought being given to feasibility and acceptability. The allocation of resources to new courses of action will need to be undertaken, and there may be a need for adapting the organization’s structure to handle new activities as well as training personnel and devising appropriate systems.\nIt is crucial to realize the difference between the formulation and implementation because they both require very different skills. Also, a company will be successful only when the strategy formulation is sound and implementation is excellent.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic management process",
+    "expansion strategy",
+    "strategy implementation",
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q17",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Benchmarking (old Ch 8.8) — dropped from the 2023 syllabus",
+   "qno": "17",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What is Benchmarking? Explain briefly the elements involved in Benchmarking process.",
+   "options": null,
+   "answer": "Benchmarking is an approach of setting goals and measuring productivity of firms based on best industry practices or against the products, services and practices of its competitors or other acknowledged leaders in the industry. It developed out of need to have information against which performance can be measured. Benchmarking helps businesses in improving performance by learning from the best practices and the processes by which they are achieved. Thus, benchmarking is a process of continuous improvement in search for competitive advantage. Firms can use benchmarking practices to achieve improvements in diverse range of managerial functions like product development, customer services, human resources management, etc.\nThe various steps in Benchmarking Process are as under:\n(i) Identifying the need for benchmarking: This step will define the objectives of the benchmarking exercise. It will also involve selecting the type of benchmarking. Organizations identify realistic opportunities for improvements.\n(ii) Clearly understanding existing decisions processes: The step will involve compiling information and data on performance.\n(iii) Identify best processes: Within the selected framework best processes are identified. These may be within the same organization or external to them.\n(iv) Comparison of own process and performance with that of others: Benchmarking process also involves comparison of performance of the organization with performance of other organization. Any deviation between the two is analysed to make further improvements.\n(v) Prepare a report and implement the steps necessary to close the performance gap: A report on benchmarking initiatives containing recommendations is prepared. Such a report also contains the action plans for implementation.\n(vi) Evaluation: Business organizations evaluate the results of the benchmarking process in terms of improvements vis-à-vis objectives and other criteria set for the purpose. It also periodically evaluates and reset the benchmarks in the light of changes in the conditions that impact the performance.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "benchmarking"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q18a",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Mergers and acquisitions → Ch 4 (External growth strategies)",
+   "qno": "18(a)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Distinguish between the following: Mergers and acquisitions.",
+   "options": null,
+   "answer": "Merger and acquisition in simple words are defined as a process of combining two or more organizations together.\nSome organizations prefer to grow through mergers. Merger is considered to be a process when two or more companies come together to expand their business operations. In such a case the deal gets finalized on friendly terms and both the organizations share profits in the newly created entity. In a merger two organizations combine to increase their strength and financial gains along with breaking the trade barriers.\nWhen one organization takes over the other organization and controls all its business operations, it is known as acquisitions. In this process of acquisition, one financially strong organization overpowers the weaker one. Acquisitions often happen during recession in economy or during declining profit margins. In this process, one that is financially stronger and bigger establishes it power. The combined operations then run under the name of the powerful entity. A deal in case of an acquisition is often done in an unfriendly manner, it is more or less a forced association.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "mergers",
+    "acquisitions"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q18b",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Vision / mission → Ch 1 (Strategic Intent)",
+   "qno": "18(b)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Distinguish between the following: Vision and mission.",
+   "options": null,
+   "answer": "The vision describes a future identity while the Mission serves as an on-going and time-independent guide.\nThe vision statement can galvanize the people to achieve defined objectives, even if they are stretch objectives, provided the vision is specific, measurable, achievable, and relevant and time bound. A mission statement provides a path to realize the vision in line with its values. These statements have a direct bearing on the bottom line and success of the organization.\nA mission statement defines the purpose or broader goal for being in existence or in the business and can remain the same for decades if crafted well while a vision statement is more specific in terms of both the future state and the time frame. Vision describes what will be achieved if the organization is successful.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission",
+    "objectives"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q18c",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management (old Ch 6.4.3-6.4.4) — dropped with the functional-strategy chapter",
+   "qno": "18(c)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Distinguish between the following: Logistic management and supply chain management.",
+   "options": null,
+   "answer": "Supply chain management is an extension of logistic management. However, there are differences between the two. Logistical activities typically include management of inbound and outbound goods, transportation, warehousing, handling of material, fulfillment of orders, inventory management and supply/demand planning. Although these activities also form part of supply chain management, the latter is much broader. Logistic management can be termed as one of its part that is related to planning, implementing, and controlling the movement and storage of goods, services and related information between the point of origin and the point of consumption. Supply chain management is an integrating function of all the major business activities and business processes within and across organisations. Supply Chain Management is a systems view of the linkages in the chain consisting of different channel partners – suppliers, intermediaries, third-party service providers and customers. Different elements in the chain work together in a collaborative and coordinated manner. Often it is used as a tool of business transformation and involves delivering the right product at the right time to the right place and at the right price.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "rtp-old-may2019-q18d",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations → Ch 1",
+   "qno": "18(d)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Distinguish between the following: Corporate and business level.",
+   "options": null,
+   "answer": "A typical large organization is a multi-divisional organisation that competes in several different businesses. There are three main levels of management: corporate, business, and functional. Corporate level occupies the highest level of strategic decision making and cover actions dealing with the objective of the firm, acquisition and allocation of resources and coordination of strategies of various businesses for optimal performance. The corporate level of management consists of the Chief Executive Officer (CEO), other senior executives. The role of corporate level managers is to oversee the development of strategies for the whole organization. This role includes defining the mission and goals of the organization, determining what businesses it should be in, allocating resources and so on.\nBusiness level comes below corporate level. Business level strategies are the courses of action adopted by an organisation for each of its businesses separately, to serve identified customer groups and provide value to the customers by satisfaction of their needs.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic levels",
+    "vision",
+    "objectives",
+    "acquisitions"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1244 @@
+# ICAI Board of Studies - Intermediate (New Scheme) Study Material - Paper 6A: Financial Management
+# Chapter 9: Management of Working Capital - Unit I: Introduction to Working Capital Management
+# Edition: July 2024, Reprint August 2025 (cover: "Relevant for May 2026 Examination"); ICAI lists this edition as applicable for January 2027
+# Source: https://resource.cdn.icai.org/88440bos280825-cp9u1.pdf  (local ../pdf/ch09-u1.pdf, sha256 d20523d840cacbb7)
+# Page markers "=== p.N [X.Y] ===": N = page number inside the PDF file above, X.Y = ICAI printed page number
+# Text: poppler pdftotext -layout (columns of tables kept), symbol-font bullets -> "-", Rupee-font backtick -> ₹, running heads/footers removed. Equations from MathType objects are not reliable as text: see formula_pages in toc.json and render the PDF page
+
+=== p.1 [9.1] ===
+CHAPTER                        a              9
+
+MANAGEMENT OF
+WORKING CAPITAL
+
+                                                    LEARNING OUTCOMES
+
+-       Understanding the meaning, need and importance of working capital for
+        smooth functioning of an entity.
+-       Understanding the factors which determine the working capital.
+-       Learning the methods of estimating working capital.
+-       Understanding the various components of working capital with its
+        management.
+-       Understanding methods of receivable management.
+-       Learning the methods of evaluating receivables and implementation of
+        credit policy.
+-       Learning the importance and management of treasury (cash) in an entity.
+-       Learning the various sources of working capital finance.
+-       Learning the importance of optimal inventory level and management of
+        payables.
+
+=== p.2 [9.2] ===
+CHAPTER OVERVIEW
+
+                                   Management of Working Capital
+
+           Determinants of                                    Cash (Treasury)
+           Working Capital                                    Management:
+                                                              - Functions of Treasury
+                                                                Department
+       Estimation of Working                                  - Treasury Management
+               Capital                                        - Cash Management
+                                                                Models
+       Working Capital Cycles
+
+                                                              Receivable
+              Inventory                                       Management:
+             Management
+                                                              - Factors determining
+                                                                credit policy
+       Payables Management                                    - Financing of
+                                                                receivables
+                                                              - Monitoring of
+            Financing of                                        receivables
+           Working Capital
+
+This chapter is Divided into Six Units:
+
+   UNIT I: Introduction to Working Capital Management
+   UNIT II: Treasury and Cash Management
+   UNIT III: Management of Inventory
+   UNIT IV: Management of Receivables
+   UNIT V: Management of Payables
+   UNIT VI: Financing of Working Capital
+
+=== p.3 [9.3] ===
+                         UNIT – I
+             INTRODUCTION TO WORKING CAPITAL
+                      MANAGEMENT
+
+       1.       MEANING AND CONCEPT OF WORKING
+                CAPITAL
+In accounting terms, working capital is defined as the difference between current
+assets and current liabilities. If we break down the components of working capital,
+we will find working capital as follows:
+                      Working Capital = Current Assets – Current Liabilities
+
+Current Assets: An asset is classified as current when:
+
+(i)     It is expected to be realised or intends to be sold or consumed in normal
+        operating cycle of the entity or within twelve months after the reporting
+        period whichever is longer; and
+
+(ii)    The asset is held primarily for the purpose of trading in the ordinary course of
+        business.
+For the purpose of working capital management, current assets of an entity can be
+grouped into the following categories:
+(a)     Inventory (raw material, work in process and finished goods)
+(b)     Receivables (trade receivables and bills receivables)
+
+(c)     Cash or cash equivalents (including short-term marketable securities)
+(d)     Prepaid expenses
+Other current assets may also include short term loans or advances, any other
+accrued revenue etc.
+Current Liabilities: A liability is classified as current when:
+(i)     It is expected to be settled in normal operating cycle of the entity or within
+        twelve months after the reporting period whichever is longer; and
+
+=== p.4 [9.4] ===
+(ii)    It is settled either by the use of current assets or by creation of new current
+        liability.
+For the purpose of working capital management, current liabilities of an entity can
+be grouped into the following categories:
+
+(a)     Payable (trade payables and bills payables)
+(b)     Outstanding payments (wages & salary, overheads & other expenses etc.)
+Other current liabilities may also include short term borrowings, current portion of
+long-term debts, short term provisions that are payable within twelve months such
+as provision for taxes etc.
+Working Capital Management is process which is designed to ensure that an
+organization operates efficiently by monitoring & utilizing its current assets and
+current liabilities to the best effect. Primary objective is to enable a company
+maintaining sufficient cash flows in order to meet its day-to-day operating
+expenses and its short-term obligations.
+
+The concept of working capital can also be explained through two angles.
+
+                                             Working capital
+
+             On the basis of Value                             On the basis of Time
+
+           Gross                       Net               Permanent            Fluctuating
+
+(a) Value: From the value point of view, Working Capital can be defined as Gross
+Working Capital or Net Working Capital.
+Gross working capital refers to the firm’s investment in current assets.
+
+Net working capital refers to the difference between current assets and current
+liabilities.
+
+=== p.5 [9.5] ===
+A positive working capital indicates the company’s ability to pay its short-term
+liabilities. On the other hand, a negative working capital shows inability of an entity
+to meet its short-term obligations.
+
+(b) Time: From the point of view of time, working capital can be divided into two
+categories viz., Permanent and Fluctuating (temporary).
+Permanent working capital refers to the base working capital, which is the minimum
+level of investment in the current assets that is carried by the entity at all times to
+carry its day-to-day activities. It generally stays invested in the business, unless the
+operations are scaled up or down permanently which would also result in increase
+or decrease in permanent working capital. It is generally financed by long term
+sources of finance.
+Temporary working capital refers to that part of total working capital, which is
+required by an entity in addition to the permanent working capital. It is also called
+variable or fluctuating working capital which is used to finance the short-term
+working capital requirements which arises due to fluctuation in sales volume. For
+instance, an organization would maintain increased levels of inventory to meet
+increased seasonal demand.
+The following diagrams shows Permanent and Temporary or Fluctuating or variable
+working capital:
+
+Both kinds of working capital i.e. permanent and fluctuating (temporary) are
+necessary to facilitate production and sales through the operating cycle.
+
+=== p.6 [9.6] ===
+      2.        SIGNIFICANCE OF WORKING CAPITAL
+2.1 Importance of Adequate Working Capital
+Management of working capital is an essential task of the finance manager. He has
+to ensure that the amount of working capital available is neither too large nor too
+small for its requirements.
+A large amount of working capital would mean that the company has idle funds.
+Since funds have a cost, the company has to pay huge amount as interest on such
+funds that are used to invest in surplus working capital. Another way to look at it is
+that there is an opportunity cost involved where the company could have invested
+the surplus funds in long term investments and earned some return on the same.
+Various studies conducted by the Bureau of Public Enterprises have shown that one
+of the reasons for the poor performance of public sector undertakings in our
+country has been the large amount of funds locked up in working capital. This
+results in over capitalization. Over capitalization implies that a company has too
+large funds for its requirements, resulting in a low rate of return, a situation which
+implies a less than optimal use of resources.
+On the other hand, if the firm has inadequate working capital, such firm runs the
+risk of insolvency. Paucity of working capital may lead to a situation where the firm
+may not be able to meet its liabilities. It may also mean that a company may not
+be holding enough inventory in order to meet the customers’ demand and hence
+would lose sales and eventually some reputation as well.
+
+An organization, therefore, has to be very careful in estimating its working capital
+requirements.
+Maintaining adequate working capital is not just important in the short-term,
+sufficient liquidity must be maintained in order to ensure the survival of the
+business in the long-term as well. When businesses make investment decisions,
+they must not only consider the financial outlay involved with acquiring the new
+machine or the new building, etc., but must also take account of the additional
+current assets that are usually required with any expansion of activity. For e.g.:
+➢       Increased production leads to holding of additional stocks of raw materials
+        and work-in-progress.
+
+=== p.7 [9.7] ===
+➢       An increased sale usually means that the level of debtors and the finished
+        goods inventory requirements will increase.
+➢       A general increase in the firm’s scale of operations tends to imply a need for
+        greater levels of working capital.
+A question then arises what is an optimum amount of working capital for a firm?
+An organization should neither have too high an amount of working capital nor
+should the same be too low. It is the job of the finance manager to estimate the
+requirements of working capital carefully and determine the optimum level of
+investment in working capital.
+
+2.2 Optimum Working Capital
+If a company’s current assets do not exceed its current liabilities, then it may run
+into trouble with creditors that want their money quickly. Not being able to meet
+its short-term obligations, company shall eventually lose its reputation and not
+many vendors would like to do business with them.
+Current ratio (current assets/current liabilities) (along with acid test ratio to
+supplement it) has traditionally been considered the best indicator of the working
+capital situation.
+It is understood that a current ratio of 2 (two) for a manufacturing firm implies that
+the firm has an optimum amount of working capital. A higher ratio may indicate
+inefficient use of funds and a lower ratio would mean liquidity issues as mentioned
+above. This is supplemented by Quick Ratio or Acid Test Ratio (Quick assets/Current
+liabilities) which should be at least 1 (one) which would imply that there is a
+comfortable liquidity position if liquid current assets are equal to current liabilities
+(where quick assets / liquid current assets refer to current assets less inventory &
+prepaid expenses).
+Bankers, financial institutions, financial analysts, investors and other people
+interested in financial statements have, for years, considered the current ratio at
+‘two’ and the acid test ratio at ‘one’ as indicators of a good working capital
+situation. As a thumb rule, this may be quite adequate.
+
+=== p.8 [9.8] ===
+However, it should be remembered that optimum working capital can be
+determined only with reference to the particular circumstances of a specific
+situation. Thus, in a company where the inventories are easily saleable and the
+sundry debtors are as good as liquid cash, the current ratio may be lower than 2
+and yet firm may be sound or where the nature of finished goods are perishable in
+nature like a restaurant, then also the organization cannot afford to hold large
+amount of working capital. On the other hand, an organization dealing in products
+which take a longer production time, may need a higher amount of working capital.
+In nutshell, a firm should have adequate working capital to run its business
+operations. Both excessive as well as inadequate working capital positions are
+dangerous.
+
+      3.        DETERMINANTS OF WORKING CAPITAL
+Working capital management is concerned with:
+(a)     Maintaining adequate working capital (managing the level of individual
+        current assets and the current liabilities) and
+
+(b)     Financing of the working capital.
+For the point a) above, a Finance Manager needs to plan and compute the working
+capital requirement for its business. And once the requirement has been computed
+he needs to ensure that it is financed properly. This whole exercise is known as
+Working Capital Management.
+Sound financial and statistical techniques, supported by judgment should be used
+to predict the quantum of working capital required at different times.
+Some of the factors which need to be considered while planning for working capital
+requirement are:
+
+=== p.9 [9.9] ===
+                                                    Need for Cash
+
+                                                                             Desired
+                             Price Level
+                              Changes                                       Inventory
+                                                                              Level
+
+                Operating
+                                                                                        Receivables
+                Efficiency                      Factors to be
+                                              considered while
+                                            planning for Working
+                                             Capital requirement
+
+                   Technology
+                                                                                  Short-term
+                      and
+                                                                                   Financing
+                  Manufacturing
+                                                                                    Options
+                     Policies
+
+                                       Market and
+                                                                Nature of
+                                        Demand
+                                                                Business
+                                       Conditions
+
+1.      Need for Cash: Identify the cash balance which allows for the business to
+        meet day-to-day expenses but reduces cash holding costs (example - loss
+        of interest on long term investment had the surplus cash invested therein).
+
+2.      Desired level of Inventory: Identify the level of inventory which allows for
+        uninterrupted production but reduces the investment in raw materials and
+        hence increases cash flow. The techniques like Just in Time (JIT) and Economic
+        order quantity (EOQ) are used for this.
+3.      Receivables: Identify the appropriate credit policy, i.e., credit terms which
+        will attract customers, such that any impact on cash flows and the cash
+        conversion cycle will be offset by increased revenue and hence Return on
+        Capital (or vice versa). The tools like Early Payment Discounts and allowances
+        are used for this.
+
+=== p.10 [9.10] ===
+4.      Short-term Financing Options: Inventory is ideally financed by credit
+        granted by the supplier. However, depending on the cash conversion cycle, it
+        may be necessary to utilize a bank loan (or overdraft), or to “convert debtors
+        to cash” through “factoring” in order to finance working capital requirements.
+5.      Nature of Business: For e.g. in a business of restaurant, most of the sales are
+        in Cash. Therefore, need for working capital is very less. On the other hand,
+        there would be a higher inventory in case of a pharmacy or a bookstore.
+6.      Market and Demand Conditions: For e.g. if an item’s demand far exceeds its
+        production, the working capital requirement would be less as investment in
+        finished goods inventory would be very less with continuous sales.
+7.      Technology and Manufacturing Policies: For e.g. in some businesses the
+        demand for goods is seasonal, in that case a business may follow a policy
+        for steady production throughout the whole year or rather may choose a
+        policy of production only during the demand season.
+8.      Operating Efficiency: A company can reduce the working capital requirement
+        by eliminating waste, improving coordination, process improvements etc.
+9.      Price Level Changes & Exchange Rate Fluctuations: For e.g. rising prices
+        necessitate the use of more funds for maintaining an existing level of activity.
+        For the same level of current assets, higher cash outlays are required. Therefore,
+        the effect of rising prices is that a higher amount of working capital is required.
+        Another example would be unfavorable exchange rate movement in case of
+        imported raw materials would warrant additional cost of same.
+
+      4.        MANAGEMENT OF WORKING CAPITAL
+The importance of working capital for an entity can be compared to importance of
+life blood for a living body or of a lubricant/ fuel for an engine. Working capital is
+required for smooth functioning of the business of an entity as lack of this may
+interrupt the ordinary course of activities. Hence, the working capital needs
+adequate attention and efficient management. When we talk about the
+management, it involves 3 Es i.e. Economy, Efficiency and Effectiveness and all
+these three are required for the working capital management.
+The scope of working capital management can be grouped into two broad areas:
+(i) Liquidity and Profitability (ii) Investment and Financing Decision.
+
+=== p.11 [9.11] ===
+                           Scope of Working Capital Management
+
+           Liquidity and Profitability                        Investment and Financing
+
+4.1 Liquidity and Profitability
+For uninterrupted and smooth functioning of the day-to-day business of an entity,
+it is important to maintain liquidity of funds evenly. As we have already learnt in
+previous chapters that each rupee of capital bears some cost. So, while maintaining
+liquidity the cost aspect needs to be borne in mind. Also, a higher working capital
+may be intended to increase the revenue & hence profitability, but at the same
+time unnecessary tying up of funds in idle assets not only reduces the liquidity but
+also reduces the opportunity to earn better return from a productive asset. Hence,
+a trade-off is required between the liquidity and profitability which increases the
+profitability without disturbing the day-to-day functioning. This requires 3Es as
+discussed above i.e. economy in financing, efficiency in utilisation and
+effectiveness in achieving the intended objectives.
+
+The trade-off between the components of working capital can be summarised as follows:
+
+ Component Advantages         of Trade-off (between Advantages                                    of
+ of Working higher          side Profitability  and lower                                       side
+ Capital    (Profitability)      Liquidity)         (Liquidity)
+ Inventory            Fewer      stock-outs Use techniques like              Lower       inventory
+                      increase          the EOQ, JIT etc. to carry           requires less capital
+                      profitability.        optimum level of                 but       endangered
+                                            inventory.                       stock-out and loss of
+                                                                             goodwill.
+ Receivables          Higher      Credit            Evaluate the credit      Cash sales provide
+                      period      attract           policy;     use    the   liquidity but fails to
+                      customers      and            services     of   debt   boost     sales    and
+                      increase  revenue             management               revenue (due to
+                      (but can result in            (factoring) agencies.    lower credit period)
+                      more bad debts)
+
+=== p.12 [9.12] ===
+ Pre-payment           Reduces                   Cost-benefit analysis Improves             or
+ of expenses           uncertainty          and required               maintains liquidity.
+                       profitable             in
+                       inflationary
+                       environment.
+ Cash     and Payables          are                 Cash budgets and Cash can be invested
+ Cash         honoured in time,                     other         cash in    some     other
+ equivalents  improves         the                  management         investment avenues
+              goodwill        and                   techniques can be
+              helpful in getting                    used
+              future discounts.
+ Payables and Capital can be used Evaluate the credit Payables         are
+ Expenses     in    some    other policy and related honoured in time,
+              investment avenues cost.                improves        the
+                                                      goodwill and helpful
+                                                      in getting future
+                                                      discounts.
+
+4.2 Investment and Financing
+Working capital policy is a function of two decisions, first is investment in working
+capital and the second is financing of the investment. Investment in working capital
+is concerned with the level of investment in the current assets. It gives the answer
+of ‘How much’ fund to be tied in to achieve the organisation objectives (i.e.
+Effectiveness of fund). Financing decision concerned with the arrangement of funds
+to finance the working capital. It gives the answer ‘Where from’ fund to be sourced
+at lowest cost as possible (i.e. Economy). Financing decision, we will discuss this in
+later unit of this chapter.
+Investment of working capital: How much to be invested in current assets as
+working capital is a matter of policy decision by an entity. It has to be decided in
+the light of organisational objectives, trade policies and financial (cost-benefit)
+considerations. There are not set or fixed rules for deciding the level of investment
+in working capital. Some organisations due to its peculiarity require more
+investment than others. For example, an infrastructure development company
+requires more investment in its working capital as there may be huge inventory in
+the form of work in process on the other hand a company which is engaged in fast
+
+=== p.13 [9.13] ===
+food business, comparatively requires less investment as inventory is of perishable
+nature & most sales are cash sales. Hence, level of investment depends on the
+various factors listed below:
+(a)     Nature of Industry: Construction companies, breweries etc. requires large
+        investment in working capital due long gestation period.
+(b)     Types of products: Consumer durable has large inventory as compared to
+        perishable products.
+(c)     Manufacturing Vs Trading Vs Service: A manufacturing entity has to
+        maintain three levels of inventory i.e. raw material, work-in-process and
+        finished goods whereas a trading and a service entity has to maintain
+        inventory only in the form of trading stock and consumables respectively.
+(d)     Volume of sales: Where the sales are high, there is a possibility of high
+        receivables as well.
+(e)     Credit policy: An entity whose credit policy is liberal has not only high level
+        of receivables but may require more capital to fund raw material purchases as
+        that will depend on credit period allowed by suppliers.
+
+4.3 Approaches of working capital investment
+Based on the organisational policy and risk-return trade off, working capital
+investment decisions are categorised into three approaches i.e. aggressive,
+conservative and moderate.
+
+                                    Approaches of Working Capital
+                                            Investment
+
+                         Aggressive                 Moderate   Conservative
+
+(a) Aggressive: Here investment in working capital is kept at minimal investment
+in current assets which means the entity does hold lower level of inventory, follow
+strict credit policy, keeps less cash balance etc. The advantage of this approach is
+that lower level of fund is tied in the working capital which results in lower financial
+costs but the flip side could be risk of stock-outs & that the organisation could not
+grow which leads to lower utilisation of fixed assets and long-term debts. In the
+
+=== p.14 [9.14] ===
+long run firm may stay behind the competitors. This approach would better suit a
+highly integrated organisation with efficient processes.
+(b) Conservative: In this approach, organisation choose to invest high capital in
+current assets. Organisations use to keep inventory level higher, follows liberal
+credit policies, and cash balance as high as to meet any current liabilities
+immediately. The advantages of this approach are higher sales volume, increased
+demand due to liberal credit policy and increase goodwill among the suppliers due
+to payment in short time. The disadvantages are increased cost of capital, inventory
+obsolescence, higher risk of bad debts, shortage of liquidity in long run due to
+longer operating cycles.
+
+(c) Moderate: This approach is in between the above two approaches. Under
+this approach a balance between the risk and return is maintained to gain more by
+using the funds in very efficient manner.
+
+A conservative policy implies greater liquidity and lower risk whereas an aggressive
+policy indicates higher risk and poor liquidity. Moderate current assets policy will
+fall in the middle of conservative and aggressive policies which most of the firms
+follow to strike an appropriate balance as per the requirements of their trade or
+industry. Also, an organization may follow a different policy at different times as
+may be needed depending on determinants of working capital as discussed earlier.
+
+=== p.15 [9.15] ===
+4.4 Current Assets to Fixed Assets Ratio
+The finance manager is required to determine the optimum level of current assets
+so that the shareholders’ value is maximized.
+
+A firm needs both fixed and current assets to support a particular level of output.
+As the firm’s output and sales increases, the need for current assets also increases.
+Generally, current assets do not increase in direct proportion to output; current assets
+may increase at a decreasing rate with output. As the output increases, the firm starts
+using its current asset more efficiently.
+The level of the current assets can be measured by creating a relationship between
+current assets and fixed assets. Dividing current assets by fixed assets gives current
+assets/fixed assets ratio.
+Assuming a constant level of fixed assets, a higher current assets/fixed assets ratio
+indicates a conservative current assets policy and a lower current assets/fixed assets
+ratio means an aggressive current assets policy assuming all other factors to be
+constant.
+The following illustration explains the risk-return trade off of various working
+capital management policies, viz., conservative, aggressive and moderate.
+ILLUSTRATION 1
+A firm has the following data for the year ending 31 st March, 2022:
+                                                          (₹ )
+ Sales (1,00,000 @ ₹ 20)                            20,00,000
+ Earnings before Interest and Taxes                  2,00,000
+ Fixed Assets                                        5,00,000
+
+The three possible current assets holdings of the firm are ₹ 5,00,000, ₹ 4,00,000 and
+₹ 3,00,000. It is assumed that fixed assets level is constant, and profits do not vary
+with current assets levels. ANALYSE the effect of the three alternative current assets
+policies.
+
+=== p.16 [9.16] ===
+SOLUTION
+Effect of Alternative Current Assets Policies
+
+                                                    Conservative   Moderate    Aggressive
+                                                             (₹)         (₹)          (₹)
+ Sales                                                 20,00,000   20,00,000    20,00,000
+ Earnings before Interest and Taxes                     2,00,000    2,00,000     2,00,000
+ (EBIT)
+ Current Assets                                         5,00,000    4,00,000     3,00,000
+ Fixed Assets                                           5,00,000    5,00,000     5,00,000
+ Total Assets                                          10,00,000    9,00,000     8,00,000
+ Return on Total Assets (EBIT÷ Total                        20%      22.22%          25%
+ Assets)
+ Current Assets/Fixed Assets                                1.00        0.80         0.60
+
+The aforesaid calculation shows that the conservative policy provides greater
+liquidity (solvency) to the firm, but lower return on total assets. On the other hand,
+the aggressive policy gives higher return, but low liquidity and thus is very risky.
+The moderate policy generates return higher than Conservative policy but lower
+than aggressive policy. This is less risky than aggressive policy but riskier than
+conservative policy. It also reflects inverse relationship between Current Assets /
+Fixed Assets ratio and Return on Total Assets.
+In determining the optimum level of current assets, the firm should balance the
+profitability – solvency tangle by minimizing total costs – Cost of liquidity and cost
+of illiquidity.
+
+      5.        ESTIMATING WORKING CAPITAL NEEDS
+Operating cycle is one of the most reliable methods of Computation of Working
+Capital.
+However, other methods like ratio of sales and ratio of fixed investment may also
+be used to determine the Working Capital requirements. These methods are briefly
+explained as follows:
+
+=== p.17 [9.17] ===
+(i)     Current Assets Holding Period: To estimate working capital needs based
+        on the average holding period of current assets and relating them to costs
+        based on the company’s experience in the previous year. This method is
+        essentially based on the Operating Cycle Concept.
+(ii)    Ratio of Sales: To estimate working capital needs as a ratio of sales on the
+        assumption that current assets change with changes in sales.
+(iii) Ratio of Fixed Investments: To estimate Working Capital requirements as
+      a percentage of fixed investments.
+A number of factors will, however, be impacting the choice of method of estimating
+Working Capital. Factors such as seasonal fluctuations, accurate sales forecast,
+investment cost and variability in sales price would generally be considered. The
+production cycle and credit and collection policies of the firm will have an impact
+on Working Capital requirements. Therefore, they should be given due weightage
+in projecting Working Capital requirements.
+
+       6.       OPERATING OR WORKING CAPITAL CYCLE
+A useful tool for managing working capital is the operating cycle.
+The operating cycle analyses the accounts receivable, inventory and accounts
+payable cycles in terms of number of days. For example:
+➢       Accounts receivables are analyzed by the average number of days it takes to
+        collect an account.
+➢       Inventory is analyzed by the average number of days it takes to turn over the
+        sale of a product (from the point it comes in the store to the point it is
+        converted to cash or an account receivable).
+➢       Accounts payables are analyzed by the average number of days it takes to
+        pay a supplier invoice.
+Operating/Working Capital Cycle Definition
+Working Capital cycle indicates the length of time between a company’s paying for
+materials, entering into stock and receiving the cash from sales of finished goods.
+It can be determined by adding the number of days required for each stage in the
+
+=== p.18 [9.18] ===
+cycle. For example, a company holds raw materials on an average for 60 days, it
+gets credit from the supplier for 15 days, production process needs 15 days,
+finished goods are held for 30 days and 30 days credit is extended to debtors. The
+total of all these, 120 days, i.e., 60 – 15 + 15 + 30 + 30 days is the total working
+capital cycle.
+
+                                          Working Capital Cycle
+
+                                                       Cash
+
+                                     Receivables                Raw Material
+                                                              Labour Overhead
+
+                                               Stock           WIP
+
+Most businesses cannot finance the operating cycle (accounts receivable days +
+inventory days) with accounts payable financing alone. Consequently, working
+capital financing is needed. This shortfall is typically covered by the net profits
+generated internally or by externally borrowed funds or by a combination of the
+two.
+The faster a business expands the more cash it will need for working capital and
+investment. The cheapest and best sources of cash exist as working capital right
+within the business. Good management of working capital will generate cash which
+will help improve profits and reduce risks. Bear in mind that the cost of providing
+credit to customers and holding stocks can represent a substantial proportion of a
+firm’s total profits.
+Each component of working capital (namely inventory, receivables and payables)
+has two dimensions Time and Money. When it comes to managing working capital
+then time is money. If you can get money to move faster around the cycle (e.g.
+collect amount due from debtors more quickly) or reduce the amount of money
+tied up (e.g. reduce inventory levels relative to sales), the business will generate
+more cash or it will need to borrow less money to fund working capital. Similarly,
+if you can negotiate improved terms with suppliers e.g. get longer credit or an
+
+=== p.19 [9.19] ===
+increased credit limit; you are effectively creating free finance to help fund future
+sales.
+
+ If you………………                                        Then ………………….
+
+ Collect receivables (debtors) faster                You release cash from the cycle
+
+ Collect receivables (debtors) slower                Your receivables soak up cash.
+
+ Get better credit (in terms of duration or          You increase your cash resources.
+ amount) from suppliers.
+
+ Shift inventory (stocks) faster                     You free up cash.
+
+ Move inventory (stocks) slower                      You consume more cash.
+
+The determination of operating capital cycle helps in the forecasting, controlling
+and management of working capital. The length of operating cycle is the indicator
+of performance of management. The net operating cycle represents the time
+interval for which the firm has to negotiate for Working Capital from its lenders. It
+enables to determine accurately the amount of working capital needed for the
+continuous operation of business activities.
+The duration of working capital cycle may vary depending on the nature of the
+business.
+In the form of an equation, the operating cycle process can be expressed as follows:
+                                 Operating Cycle = R + W + F + D – C
+Where,
+                R = Raw material storage period
+                W = Work-in-progress inventory * holding period
+                F = Finished goods storage period
+                D = Receivables (Debtors) collection period
+                C = Credit period allowed by suppliers (Creditors)
+
+* work in progress inventory may also be termed as works cost.
+
+=== p.20 [9.20] ===
+Also,
+
+Number of Operating Cycles in a Year = 360 or 365 / Operating Cycle
+Wherein, more the number of operating cycles better it is for the organization as it
+indicates shorter operating cycle.
+
+The various components of Operating Cycle may be calculated as shown
+below:
+
+ (1)     Raw         Material                          Average stock of raw material
+                                          =
+         Storage Period                       Average Costof Raw Material Consumption per day
+ (2)     Work-in-Progress                     AverageWork -in-progress inventory
+                                          =
+         inventory   holding                   Average Costof Production per day
+         period
+ (3)     Finished      Goods                   Average stock of finished goods
+                                          =
+         storage period                       Average Costof Goods Sold per day
+ (4)     Receivables                             Average Receivables
+                                          =
+         (Debtors) collection                 Average Credit Sales per day
+         period
+ (5)     Credit       period                         Average Payables
+                                          =
+         allowed by suppliers                 Average Credit Purchases per day
+         (Creditors)
+
+6.1 Working Capital Based on Operating Cycle
+One of the methods for forecasting working capital requirement is based on the
+concept of operating cycle. The calculation of operating cycle and the formula for
+estimating working capital on its basis has been demonstrated with the help of
+following illustration:
+ILLUSTRATION 2
+From the following information of XYZ Ltd., you are required to CALCULATE:
+(a)     Net operating cycle period.
+(b)     Number of operating cycles in a year.
+
+=== p.21 [9.21] ===
+                                                                                        (₹)
+
+       (i)      Raw material inventory consumed during the year                  6,00,000
+
+       (ii)     Average stock of raw material                                      50,000
+
+       (iii)    Cost of Production for the year                                  5,00,000
+
+       (iv)     Average work-in-progress inventory                                 30,000
+
+       (v)      Cost of goods sold during the year                               8,00,000
+
+       (vi)     Average finished goods stock held                                  40,000
+
+       (vii)    Average collection period from debtors                            45 days
+
+       (viii) Average credit period availed                                       30 days
+
+       (ix)     No. of days in a year                                            360 days
+
+SOLUTION
+(a)     Calculation of Net Operating Cycle period of XYZ Ltd.
+
+        Raw Material storage period (R)=
+
+                                                   Average stockof raw material
+                                         Average Cost of Raw Material Consumption perday
+
+                                                           ₹ 50,000       ₹ 50,000
+                                                =                       =          =30 days
+                                                     ₹ 6,00,000÷360days     1,667
+
+        Work-in-progress inventory holding period (W)
+
+                                                     AverageWork -in-progress inventory
+                                                =
+                                                     Average Cost of Production per day
+
+                                                          ₹ 30,000       ₹ 30,000
+                                                =                      =          = 22 days
+                                                    ₹ 5,00,000÷360days     1,389
+
+=== p.22 [9.22] ===
+        Finished Goods storage period (F)
+
+                                                     Average stock of finished goods
+                                                =
+                                                    Average Cost of Goods Soldper day
+
+                                                         ₹40,000        ₹ 40,000
+                                                =                     =          = 18 days
+                                                    ₹8,00,000÷360days      2,222
+
+        Receivables (Debtors) collection period (D) = 45 days
+        Credit Period allowed by creditors (C)                = 30 days
+        Net Operating Cycle = R + W + F+ D – C = 30 + 22 + 18 + 45 – 30 = 85 days
+
+(b)     Number of Operating Cycles in a year                  =    No.of daysina year
+                                                                  OperatingCycleperiod
+
+                                                                  360days
+                                                              =           = 4.23 times
+                                                                   85days
+
+6.2 Estimation of amount of Different Components of
+    Current Assets and Current Liabilities
+The various constituents of current assets and current liabilities have a direct
+bearing on the computation of working capital and the operating cycle. The holding
+period of various constituents of Current Assets and Current Liabilities cycle may
+either contract or expand the net operating cycle period.
+Shorter the operating cycle period, lower will be the requirement of working capital
+and vice-versa.
+
+Estimation of Current Assets
+The estimates of various components of gross working capital or current assets
+may be made as follows:
+
+(i)   Raw Materials Inventory: The funds to be invested in raw materials
+inventory may be estimated on the basis of production budget, the estimated cost
+per unit and average holding period of raw material inventory by using the
+following formula:
+
+=== p.23 [9.23] ===
+Estimated Production (units)
+                             x Estimated cost per unit x Average raw material storage period
+    12months /365days*
+
+(ii) Work-in-Progress Inventory: The funds to be invested in work-in-progress
+can be estimated by the following formula:
+  Estimated Production(units)
+                              x Estimated WIP cost per unit x Average WIP holding period
+      12months /365days *
+
+(iii) Finished Goods: The funds to be invested in finished goods inventory can
+be estimated with the help of following formula:
+Estimated Production(units)
+                                    x Estimated cost of production per unit x Average finished goods storage period
+    12months / 365days *
+
+(iv) Receivables (Debtors): Funds to be invested in trade receivables (debtors)
+may be estimated with the help of following formula:
+Estimated Credit sales (units)
+                                 x Estimated cost of sales (Excl. Dep.) per unit x Average receivable collection period.
+    12months / 365days *
+
+Note that only cash cost is considered for debtors and finished goods
+elements (as the sales to debtors include cost & profit whereas the funds
+required for working capital purposes doesn’t need to include profit). Further,
+non-cash expense like depreciation is also excluded.
+
+(v) Cash and Cash equivalents: Minimum desired Cash and Bank balance to be
+maintained by the firm has to be added in the current assets for the computation
+of working capital.
+
+Estimation of Current Liabilities
+Current liabilities are deducted from the current assets to get working capital.
+Hence, the amount of working capital is lowered to the extent of current liabilities
+(other than bank credit) arising in the normal course of business. The important
+current liabilities like trade payables, wages and overheads can be estimated as
+follows:
+(i)  Trade Payables: Trade payable can be estimated on the basis of material
+purchase budget and the credit purchase by using following formula:
+
+=== p.24 [9.24] ===
+ Estimated credit purchase
+                           × Credit period allowed by suppliers
+    12months /365days *
+
+(ii) Direct Wages: It is estimated with the help of direct wages budget by using
+following formula:
+  Estimated labour hours×wages rate perhour
+                                            × Average time lag in payment of wages
+              12months /365days *
+
+(iii) Overheads (other than depreciation and amortization): It may be
+estimated with the help of following formula:
+  Estimated Overheads
+                      × Average time lag in payment of overheads
+  12months /360days *
+
+      *Number of days in a year may be taken as 365 or 360 days.
+
+Estimation of Working Capital Requirements
+
+                                                     Amount     Amount    Amount
+                                                         (₹)        (₹)       (₹)
+ I.      Current Assets:
+         Inventories:
+              - Raw Materials                            ---
+              - Work-in-process                          ---
+              - Finished goods                           ---        ---
+         Receivables:
+              - Trade debtors                            ---
+              - Bills                                    ---        ---
+         Prepaid Expenses                                           ---
+         Minimum Cash Balance                                       ---
+         Gross Working Capital                                      ---       ---
+ II.     Current Liabilities:
+         Trade Payables                                             ---
+
+=== p.25 [9.25] ===
+         Bills Payables                                            ---
+         Wages Payables                                            ---
+         Payables for overheads                                    ---          ---
+ III.    Excess of Current Assets over                                          ---
+         Current Liabilities [I – II]
+ IV.     Safety Margin                                                          ---
+ V.      Net Working Capital [III + IV]                                         ---
+
+The following illustration shows the process of working capital estimation:
+ILLUSTRATION 3
+On 1st January, the Managing Director of Naureen Ltd. wishes to know the amount
+of working capital that will be required during the year. From the following
+information, PREPARE the working capital requirements forecast.
+Production during the previous year was 60,000 units. It is planned that this level of
+activity would be maintained during the present year.
+The expected ratios of the cost to selling prices are Raw materials 60%, Direct wages
+10% and Overheads 20%.
+Raw materials are expected to remain in store for an average of 2 months before
+issue to production.
+Each unit is expected to be in process for one month, the raw materials being fed into
+the pipeline immediately and the labour and overhead costs accruing evenly during
+the month.
+Finished goods will stay in the warehouse awaiting dispatch to customers for
+approximately 3 months.
+Credit allowed by creditors is 2 months from the date of delivery of raw material.
+Credit allowed to debtors is 3 months from the date of dispatch.
+Selling price is ₹ 5 per unit.
+There is a regular production and sales cycle.
+Wages and overheads are paid on the 1 st of each month for the previous month.
+The company normally keeps cash in hand to the extent of ₹ 20,000.
+
+=== p.26 [9.26] ===
+SOLUTION
+Working Notes:
+1.      Raw material inventory: The cost of materials for the whole year is 60% of
+        the Sales value.
+                                         60
+        Hence it is 60,000 units × ₹ 5 ×    = ₹ 1,80,000 . The monthly consumption
+                                        100
+        of raw material would be ₹ 15,000. Raw material requirements would be for
+        two months; hence raw materials in stock would be ₹ 30,000.
+2.      Work-in-process: (Students may give special attention to this point). It is
+        stated that each unit of production is expected to be in process for one
+        month).
+
+                                                                                   (₹)
+         (a)     Raw materials in work-in-process (being one month’s raw        15,000
+                 material requirements)
+         (b)     Labour costs in work-in-process                                 1,250
+                 (It is stated that it accrues evenly during the month. Thus,
+                 on the first day of each month it would be zero and on
+                 the last day of month the work-in-process would include
+                 one month’s labour costs. On an average therefore, it
+                 would be equivalent to ½ of the month’s labour costs)
+                 ( 10% of (60,000 × ₹ 5)              )
+                                          ×0.5 month
+                        12 months
+         (c)     Overheads                                                       2,500
+                 (For ½ month as explained above)
+                  ( 20% of (60,000 × ₹ 5)            )
+                                         ×0.5 month
+                       12 months
+
+                 Total work-in-process                                          18,750
+
+3.      Finished goods inventory: (3 month’s cost of production)
+
+                       ( 60% of (60,000 × ₹ 5)           )                      45,000
+         Raw materials                        ×3 months
+                            12 months
+
+=== p.27 [9.27] ===
+                ( 10% of (60,000 × ₹ 5)           )                                  7,500
+         Labour                        ×3 months
+                     12 months
+
+                   ( 20% of (60,000 × ₹ 5)           )                              15,000
+         Overheads                        ×3 months
+                        12 months
+
+         Total finished goods inventory                                             67,500
+
+         Alternatively, (60,000 units x ₹ 5 x 90%) x 3/12                           67,500
+
+4.      Debtors: The total cost of sales = 2,70,000.
+                                                     3
+        Therefore, debtors = ₹ 2,70,000 ×              = ₹ 67,500
+                                                    12
+        Where, Total Cost of Sales = RM + Wages + Overheads + Opening Finished
+        goods inventory – Closing finished goods inventory.
+        = ₹ 1,80,000 + ₹ 30,000 + ₹ 60,000 + ₹ 67,500 – ₹ 67,500 = ₹ 2,70,000.
+5.      Creditors: Suppliers allow a two months’ credit period. Hence, the average
+        amount of creditors would be two months consumption of raw materials i.e.
+        ( 60% of (60,000 × ₹ 5)           )
+                               ×2 months  = ₹ 30,000.
+             12 months
+                              ( 10% of (60,000 × ₹ 5)          )
+6.      Direct Wages payable:                        ×1 month  = ₹ 2,500
+                                   12 months
+                           ( 20% of (60,000 × ₹ 5)          )
+7.      Overheads Payable:                        ×1 month  = ₹ 5,000
+                                12 months
+Here it has been assumed that inventory level is uniform throughout the year,
+therefore opening inventory equals closing inventory.
+Statement of Working Capital Required
+
+                                                                       (₹)          (₹)
+ Current Assets or Gross Working Capital:
+ Raw materials inventory (Refer to working note 1)                  30,000
+ Working–in-process (Refer to working note 2)                       18,750
+ Finished goods inventory (Refer to working note 3)                 67,500
+
+=== p.28 [9.28] ===
+ Debtors (Refer to working note 4)                              67,500
+ Cash                                                           20,000   2,03,750
+ Current Liabilities:
+ Creditors (Refer to working note 5)                            30,000
+ Direct wages payable (Refer to working note 6)                  2,500
+ Overheads payable (Refer to working note 7)                     5,000   (37,500)
+ Estimated working capital requirements                                  1,66,250
+
+6.3 Working Capital Requirement Estimation based on
+    Cash Cost
+We have already seen that working capital is the difference between current assets
+and current liabilities. To estimate requirements of working capital, we have to
+forecast the amount required for each item of current assets and current liabilities.
+
+In practice another approach may also be useful in estimating working capital
+requirements. This approach is based on the fact that in the case of current assets,
+like sundry debtors and finished goods, etc., the exact amount of funds
+blocked is less than the amount of such current assets. For example:
+➢       If we have sundry debtors worth ₹ 1 lakh and our cost of sales is₹ 75,000,
+        the actual amount of funds blocked in sundry debtors is
+        ₹ 75,000 the cost of sundry debtors, the rest (₹ 25,000) is profit.
+➢       Again, some of the cost items also are non-cash costs; depreciation is a
+        non-cash cost item. Suppose out of ₹ 75,000, ₹ 5,000 is depreciation; then
+        it is obvious that the actual funds blocked in terms of sundry debtors
+        totaling ₹ 1 lakh is only ₹ 70,000. In other words, ₹ 70,000 is the amount
+        of funds required to finance sundry debtors worth ₹ 1 lakh.
+➢       Similarly, in the case of finished goods which are valued at cost, non -cash
+        costs may be excluded to work out the amount of funds blocked.
+Many experts, therefore, calculate the working capital requirements by working out
+the cash costs of finished goods and sundry debtors. Under this approach, the
+debtors are calculated not as a percentage of sales value but as a percentage of
+cash costs. Similarly, finished goods are valued according to cash costs.
+
+=== p.29 [9.29] ===
+ILLUSTRATION 4
+The following annual figures relate to XYZ Co.:
+
+                                                                                      (₹ )
+ Sales (at two months’ credit)                                                36,00,000
+ Materials consumed (suppliers extend two months’ credit)                      9,00,000
+ Wages paid (1 month lag in payment)                                           7,20,000
+ Cash manufacturing expenses (expenses are paid one month in                   9,60,000
+ arrear)
+ Administrative expenses (1 month lag in payment)                              2,40,000
+ Sales promotion expenses (paid quarterly in advance)                          1,20,000
+
+The company sells its products on gross profit of 25%. Depreciation is considered as
+a part of the cost of production. It keeps one month’s stock each of raw materials
+and finished goods, and a cash balance of ₹ 1,00,000.
+Assuming a 20% safety margin, COMPUTE the working capital requirements of the
+company on cash cost basis. Ignore work-in-process.
+SOLUTION
+            Statement of Working Capital requirements (cash cost basis)
+
+                                                                 (₹)                 (₹)
+ A. Current Assets
+ Inventory:
+                        ( ₹ 9,00,000          )              75,000
+         -Raw materials             ×1 month
+                         12months
+                         ( ₹25,80,000          )            2,15,000
+         -Finished Goods             ×1 month
+                          12months
+                       ( ₹29, 40,000          )             4,90,000
+ Receivables (Debtors)              ×2months
+                        12months
+ Sales Promotion expenses paid in advance                    30,000
+      ( ₹1,20,000           )
+                 ×3 months
+       12 months
+
+=== p.30 [9.30] ===
+ Cash balance                                                   1,00,000   9,10,000
+ Gross Working Capital                                                     9,10,000
+ B. Current Liabilities:
+ Payables:
+                          ( ₹ 9,00,000          )               1,50,000
+ -Creditors for materials             ×2 month
+                           12months
+                   ( ₹ 7,20,000          )                       60,000
+ Wages outstanding             ×1 month
+                    12months
+ Manufacturing expenses outstanding                              80,000
+ ( ₹ 9,60,000          )
+             ×1 month
+  12months
+ Administrative expenses outstanding                             20,000    3,10,000
+ ( ₹ 2, 40,000          )
+              ×1 month
+  12months
+ Net working capital (A - B)                                               6,00,000
+ Add: Safety margin @ 20%                                                  1,20,000
+ Total Working Capital requirements                                        7,20,000
+
+Working Notes:
+
+ (i)     Computation of Annual Cash Cost of Production                           (₹)
+         Material consumed                                                  9,00,000
+         Wages                                                              7,20,000
+         Manufacturing expenses                                             9,60,000
+         Total cash cost of production                                     25,80,000
+ (ii)    Computation of Annual Cash Cost of Sales:                               (₹)
+         Total Cash cost of production as in (i) above                     25,80,000
+         Administrative Expenses                                            2,40,000
+         Sales promotion expenses                                           1,20,000
+         Total cash cost of sales                                          29,40,000
+
+=== p.31 [9.31] ===
+6.4 Effect of Double Shift Working on Working Capital
+    Requirements
+The greatest economy in introducing double shift is the greater utilization of fixed
+assets. Although production increases, little or very marginal funds may be required
+for additional assets.
+But increase in the number of hours of production has an effect on the working
+capital requirements. Let’s see the impact of double shift on some of the
+components of working capital:-
+➢       It is obvious that in double shift working, an increase in stocks will be
+        required as the production rises. However, it is quite possible that the
+        increase may not be proportionate to the rise in production since the
+        minimum level of stocks may not be very much higher. Thus, it is quite
+        likely that the level of stocks may not be required to be doubled as the
+        production goes up two-fold.
+➢       The amount of materials in process will not change due to double shift
+        working since work started in the first shift will be completed in the
+        second; hence, capital tied up in materials in process will be the same as
+        with single shift working. As such the cost of work-in-process will not
+        change unless the second shift’s workers are paid at a higher rate.
+➢       Also, additional requirements of materials & other resources may result in
+        some economies (for example better negotiation with vendors on account
+        increased purchase of materials etc). Further all the fixed costs may not
+        increase with additional shift.
+ILLUSTRATION 5
+Samreen Enterprises has been operating its manufacturing facilities till 31.3.2022 on
+a single shift working with the following cost structure:
+
+                                                     Per unit (₹)
+ Cost of Materials                                           6.00
+ Wages (out of which 40% fixed)                              5.00
+ Overheads (out of which 80% fixed)                          5.00
+ Profit                                                      2.00
+ Selling Price                                              18.00
+ Sales during 2020-21 – ₹ 4,32,000
+
+=== p.32 [9.32] ===
+As at 31.3.2022 the company held:
+
+                                                                            (₹ )
+ Stock of raw materials (at cost)                                       36,000
+ Work-in-progress (valued at prime cost)                                22,000
+ Finished goods (valued at total cost)                                  72,000
+ Sundry debtors                                                        1,08,000
+
+In view of increased market demand, it is proposed to double production by working
+an extra shift. It is expected that a 10% discount will be available from suppliers of
+raw materials in view of increased volume of business. Selling price will remain the
+same. The credit period allowed to customers will remain unaltered. Credit availed
+of from suppliers will continue to remain at the present level i.e., 2 months. Lag in
+payment of wages and expenses will continue to remain half a month.
+You are required to PREPARE the additional working capital requirements, if the
+policy to increase output is implemented.
+SOLUTION
+This question can be solved using two approaches:
+(i)     To assess the impact of double shift for long term as a matter of production policy.
+(ii)    To assess the impact of double shift to mitigate the immediate demand for
+        next year only.
+The first approach is more appropriate and fulfilling the requirement of the question.
+(i)     Assessment of impact of double shift for long term as a matter of
+        production policy:
+                Comparative Statement of Working Capital Requirement
+
+                                               Single Shift (24,000)     Double Shift (48,000)
+                                                Unit   Rate Amount        Unit     Rate Amount
+                                                        (₹)       (₹)               (₹)      (₹)
+       Current Assets
+       Inventories:
+           Raw Materials                       6,000   6.00   36,000 12,000        5.40   64,800
+
+=== p.33 [9.33] ===
+         Work-in-Progress                2,000 11.00       22,000    2,000      9.40      18,800
+         Finished Goods                  4,500 16.00       72,000    9,000 12.40        1,11,600
+Sundry Debtors                           6,000 16.00       96,000 12,000 12.40          1,48,800
+Total Current Assets: (A)                                 2,26,000                      3,44,000
+Current Liabilities
+Creditors for Materials                  4,000   6.00      24,000    8,000      5.40      43,200
+Creditors for Wages                      1,000   5.00       5,000    2,000      4.00         8,000
+Creditors for Expenses                   1,000   5.00       5,000    2,000      3.00         6,000
+Total Current Liabilities: (B)                             34,000                         57,200
+Working Capital: (A) – (B)                                1,92,000                      2,86,800
+
+  Additional Working Capital requirement = ₹ 2,86,800 – ₹ 1,92,000 = ₹ 94,800
+  Workings:
+  (1)     Statement of cost at single shift and double shift working
+
+                                                  24,000 units               48,000 Units
+                                                   Per       Total (₹)         Per       Total
+                                                  unit                        unit         (₹)
+                                                    (₹)                         (₹)
+             Raw materials                        6.00       1,44,000         5.40     2,59,200
+                   1. Wages - Variable            3.00         72,000         3.00     1,44,000
+                              Fixed               2.00         48,000         1.00      48,000
+
+             Overheads - Variable                 1.00         24,000         1.00      48,000
+                                Fixed             4.00         96,000         2.00      96,000
+             Total cost                          16.00       3,84,000        12.40     5,95,200
+             Profit                               2.00         48,000         5.60     2,68,800
+                                                 18.00       4,32,000        18.00     8,64,000
+
+=== p.34 [9.34] ===
+                                                          Sales          ₹ 4,32,000
+        (2)     Sales in units 2020-21=                                =            = 24,000 units
+                                                    Unit selling price      ₹ 18
+
+        (3)     Stock of Raw Materials in units on 31.3.2021
+                    Value of Stock ₹ 36,000
+                =                  =        = 6,000 units
+                    Cos t per unit     6
+
+        (4)     Stock of work-in-progress in units on 31.3.2021
+                    Value of work-in-progress ₹ 22,000
+                =                            =             = 2,000 units
+                       Prime Cost per unit     (₹ 6 + ₹ 5)
+
+        (5)     Stock of finished goods in units 2020-21
+                      Value of Stock       ₹ 72,000
+                =                       ==          = 4,500 units
+                    TotalCos t per unit       ₹ 16
+
+(ii)    Assessment of the impact of double shift to mitigate the immediate
+        demand for next year only & not as part of policy implementation.
+        In this approach, working capital shall be computed as if we are calculating
+        the same for the next / second year with double production. Whereas, in the
+        first approach to implement double-shift as part of policy implementation, we
+        calculated comparative analysis of working capital requirement for single &
+        double shift within the same year.
+        Workings:
+        (6)     Calculation of no. of units to be sold:
+
+                  No. of units to be Produced                               48,000
+                  Add: Opening stock of finished goods                       4,500
+                  Less: Closing stock of finished goods                     (9,000)
+                  No. of units to be Sold                                   43,500
+
+        (7)     Calculation of Material to be consumed and materials to be purchased
+                in units:
+
+                  No. of units Produced                                     48,000
+                  Add: Closing stock of WIP                                  2,000
+                  Less: Opening stock of WIP                                (2,000)
+                  Raw Materials to be consumed in units                     48,000
+
+=== p.35 [9.35] ===
+          Add: Closing stock of Raw material                        12,000
+          Less: Opening stock of Raw material                       (6,000)
+          Raw Materials to be purchased (in                         54,000
+          units)
+
+(8)     Credit allowed by suppliers:
+            No. of units to purchased × Cost per unit
+        =                                             × 2 months
+                            12 months
+            54,000 ×₹ 5.40
+        =                  × 2 months =₹ 48,600
+             12 months
+       Comparative Statement of Working Capital Requirement
+
+                                            Single Shift (Current      Double Shift (Next
+                                            Year – 24,000 units)       Year – 48,000 units)
+                                            Unit    Rate Amount        Unit   Rate Amount
+                                                    (₹)       (₹)              (₹)       (₹)
+  Current Assets
+  Inventories:
+        Raw Materials                       6,000    6.00    36,000 12,000 5.40       64,800
+        Work-in-Progress                    2,000 11.00      22,000    2,000 9.40     18,800
+        Finished Goods                      4,500 16.00      72,000    9,000 12.40 1,11,600
+  Sundry Debtors                            6,000 16.00      96,000 12,000 12.40 1,48,800
+  Total Current Assets: (A)                                 2,26,000                 3,44,000
+  Current Liabilities
+  Creditors for Materials                   4,000    6.00    24,000    9,000 5.40     48,600
+  Creditors for Wages                       1,000    5.00     5,000    2,000 4.00        8,000
+  Creditors for Expenses                    1,000    5.00     5,000    2,000 3.00        6,000
+  Total Current Liabilities: (B)                             34,000                   62,600
+  Working Capital: (A) – (B)                                1,92,000                 2,81,400
+
+Additional Working Capital requirement = ₹ 2,81,400 – ₹ 1,92,000 = ₹ 89,400
+
+=== p.36 [9.36] ===
+Notes:
+(i)     The quantity of material in process will not change due to double shift
+        working since work started in the first shift will be completed in the
+        second shift.
+(ii)    It is given in the question that the WIP is valued at prime cost hence, it
+        is assumed that the WIP is 100% complete in respect of material and
+        labour.
+(iii)   In absence of any information on proportion of credit sales to total sales,
+        debtors quantity has been doubled for double shift. Hence, the units
+        have been taken as 12,000 only.
+(iv)    It is assumed that all purchases are on credit.
+(v)     The valuation of work-in-progress based on prime cost (i.e. material &
+        labor) as per the policy of the company is as under.
+
+                                        Single shift   Double shift
+                                                 (₹)            (₹)
+        Materials                              6.00            5.40
+        Wages – Variable                       3.00            3.00
+                      Fixed                    2.00            1.00
+                                              11.00            9.40
+

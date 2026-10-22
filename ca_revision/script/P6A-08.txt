@@ -1,0 +1,87 @@
+# P6A-08 · dividend-decision · Dividend Decision: बाँटें या लगाएँ
+
+## Introduction: profit का आख़िरी फ़ैसला
+
+<|emotion:contentment|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+पिछले chapter में देव ने तय किया कि पैसा किन projects में लगे, और अब सवाल है कि profit after tax का कितना हिस्सा shareholders को मिले और कितना business में रुके।
+आज Paper six A का chapter eight है, Dividend Decision, जिसे ICAI ने बासठ documents में पूछा है, जिनमें पंद्रह exam papers हैं, और इनमें से इकसठ में dividend theories आई हैं।
+<|emotion:determination|>Episode के आख़िर तक आप Walter, Gordon और MM के formulas, optimum payout का r और Ke वाला rule, और dividend के forms और determinants लिख पाएँगे।
+
+## Forms of dividend and dividend policy: profit shareholders तक कैसे पहुँचे
+
+<|emotion:amusement|>Tapri का सबसे अच्छा साल रहा, profit after tax साठ करोड़ रुपये, और केसर दिवाली से पहले सब बाँट देना चाहते थे, क्योंकि shareholders को मोटा dividend पसंद है।
+देव ने याद दिलाया कि एक सौ बीस नए cafés भी खुलने हैं, और बाँटा हुआ हर rupee issue cost देकर फिर से जुटाना पड़ेगा।
+ICAI के words में dividend is that part of Profit After Tax which is distributed to the shareholders of the company, और बाकी retained earnings बनकर growth को finance करता है।
+Dividend decision, investment और financing decisions के साथ, finance manager के तीन long-term decisions में से एक है।
+
+Cash dividend सबसे common form है, share buy-back उसी cash से कुछ shares वापस खरीदता है, और bonus shares cash की जगह नए shares देकर reserves capitalise करते हैं।
+<|emotion:determination|>ICAI के words में stock split means splitting one share into many, say one share of five hundred rupees into five shares of one hundred rupees, और ये कुछ नहीं बाँटता।
+Bonus issue और stock split दोनों एक ही pie को ज़्यादा टुकड़ों में काटते हैं और किसी को ज़्यादा pie नहीं मिलती, पर bonus dividend का form है और split नहीं।
+Stock split share को small investors के लिए affordable बनाता है, पर process पर खर्च होता है और low price speculators को खींच सकता है।
+Buy-back में shares buy-back price से गिनिए, जैसे Tapri का छियानवे करोड़ का tender offer छह सौ रुपये पर सोलह लाख shares खरीदता है, market price पर बीस लाख नहीं।
+
+<|emotion:contemplation|>Payout ratio है DPS by EPS, retention ratio b है one minus payout ratio, और growth है g equals b into r, जहाँ r retained earnings पर मिलने वाला return है।
+ICAI के नौ determinants इसी order में हैं, पहले पाँच availability of funds, cost of capital, capital structure, stock price और investment opportunities in hand।
+बाकी चार determinants हैं trend of industry, expectation of shareholders, legal constraints यानी Companies Act की section one twenty-three, और taxation।
+Constant dividend policy हर साल fixed amount देती है और dividend equalisation reserve रखती है, जबकि stable dividend policy constant payout ratio या long-term sustainable earnings पर चलती है।
+Lintner's model में D one है D zero plus, EPS into target payout minus D zero, into Af, जहाँ Af adjustment factor है, zero और one के बीच।
+इसके दो parameters हैं target payout ratio और speed of adjustment, और dividend हर साल target की तरफ़ gap का सिर्फ़ Af हिस्सा ही चलता है।
+
+## Walter and Gordon: r और Ke की तुलना
+
+<|emotion:contemplation|>Board के सामने दस रुपये EPS था, और देव ने बताया कि नए cafés अठारह प्रतिशत कमाते हैं जबकि shareholders सिर्फ़ पंद्रह प्रतिशत चाहते हैं, इसलिए पैसा रोकना बेहतर है।
+Cafés बारह प्रतिशत ही कमाते तो जवाब उल्टा होता, सब बाँट दो ताकि shareholders खुद पंद्रह प्रतिशत पर लगाएँ, और यही Walter's model है।
+Walter और Gordon relevance theory हैं, यानी dividend policy share price पर असर डालती है, जबकि Modigliani और Miller की theory irrelevance की है।
+
+<|prosody:speed_slow|>Walter's model में P है D plus r by Ke into E minus D, पूरा divided by Ke।
+यहाँ D dividend per share है, E earnings per share, r return on investment, और Ke capitalisation rate यानी cost of equity।
+<|emotion:determination|>r Ke से ज़्यादा हो तो growth firm और optimum payout zero, r कम हो तो declining firm और सौ प्रतिशत, और बराबर हो तो every payout ratio optimum है।
+Walter मानते हैं कि investment सिर्फ़ retained earnings से होता है, r और Ke constant हैं, capital markets perfect हैं, taxes और floatation cost नहीं हैं, और firm की life perpetual है।
+Limitations ये हैं कि model सारे factors नहीं देखता, Ke निकालना मुश्किल है, और ये taxation, legal and contractual obligations, और management policy and attitude ignore करता है।
+
+<|emotion:determination|>Gordon's model में P zero है E one into one minus b, by Ke minus br, जहाँ E one earnings per share है, b retention ratio, और br growth rate g है।
+इसका दूसरा रूप है D zero into one plus g, by Ke minus g, यानी D one by Ke minus g, और ये तभी चलता है जब Ke g से ज़्यादा हो।
+<|emotion:contemplation|>Gordon में भी r ज़्यादा तो zero payout और कम तो सौ प्रतिशत optimum है, पर r Ke के बराबर हो तो ICAI कहता है there is no optimum ratio।
+Gordon की assumptions हैं all-equity firm, constant IRR, constant Ke, constant retention ratio, constant growth, Ke g से ज़्यादा, और investment सिर्फ़ retained earnings से।
+Gordon का revised model bird-in-hand theory है, जिसमें risk averse investors certain current dividend को uncertain future dividend से ज़्यादा value देते हैं।
+
+<|emotion:contentment|>सौ प्रतिशत payout पर दोनों models price E by Ke देते हैं, और zero growth में dividend discount model का price सीधा D by Ke होता है।
+Multi-stage DDM में high growth के सालों के dividends की present value में उस phase के आख़िर के price की present value जोड़ी जाती है।
+<|emotion:enthusiasm|>Mango tree सोचिए: seeds बोने से market से ज़्यादा mangoes मिलें तो सब बोइए, और कम मिलें तो सब खाइए, यही r और Ke का पूरा switch है।
+
+## Modigliani-Miller and the traditional view: dividend irrelevant या ज़रूरी
+
+<|emotion:contemplation|>MM कहते हैं कि perfect market में dividend policy irrelevant है, क्योंकि firm की value सिर्फ़ उसकी earning power और investment policy पर depend करती है।
+Reserves से dividend दें तो cash shareholders की एक जेब से दूसरी में जाता है, और नए shares से दें तो dilution से उतना ही capital loss होता है।
+Dividend न मिले तो cash चाहने वाला shareholder कुछ shares बेचकर home-made dividend बना लेता है, इसलिए तीनों हालात में value वही रहती है।
+<|prosody:speed_slow|>MM में P zero है P one plus D one, by one plus Ke, यानी आज का price साल के end के price और dividend का discounted जोड़ है।
+Firm की value, n P zero, है n plus delta n का जोड़ into P one, minus I, plus E, सब by one plus Ke, जहाँ I investment और E earnings हैं।
+New shares delta n हैं funds required by P one, और dividend दिया हो तो funds required है I minus, E minus n D one, यानी सिर्फ़ retained earnings घटती हैं।
+
+<|emotion:determination|>MM की पाँच assumptions ICAI के order में हैं perfect capital markets, no taxes, fixed investment policy, no floatation or transaction cost, और risk of uncertainty does not exist।
+Traditional approach में Graham and Dodd कहते हैं कि market dividends को retained earnings से ज़्यादा weight देता है, और P है m into, D और E by three का जोड़।
+यहाँ m multiplier है, और मतलब ये कि बाँटा गया एक rupee price को रोके गए एक rupee से चार गुना ज़्यादा बढ़ाता है।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>New scheme के May twenty twenty-six तक के हर past paper में कोई dividend model आया है, ज़्यादातर Walter, Gordon या MM का दो से पाँच marks का numerical।
+Walter को ICAI अक्सर P by E ratio से Ke देकर तीन हिस्सों में पूछता है, और पहला हिस्सा होता है कि policy optimal है या नहीं।
+बाकी दो हिस्से हैं कि किस P by E पर dividend policy का कोई असर नहीं होगा, और दूसरे P by E पर फ़ैसला बदलेगा या नहीं।
+दोहराए गए सवालों में यही Walter वाला सवाल, दो growth rates वाला two-stage DDM, और MM में new shares से project finance करने वाला सवाल है।
+Theory में MM की assumptions और Gordon की कोई चार assumptions चार-चार marks में आई हैं, और Walter की limitations दो marks में।
+
+<|emotion:contemplation|>EPS हमेशा preference dividend घटाकर निकालिए, और retention ratio बीस प्रतिशत लिखा हो तो payout अस्सी प्रतिशत है।
+Gordon के D वाले formula में next year का dividend, यानी D zero into one plus g, लगाइए, और optimum payout को balanced पचास प्रतिशत कभी मत लिखिए।
+No-effect वाला P by E वो है जिस पर Ke r के बराबर हो, यानी one by r, और cash के अलावा profit बाँटने का option bonus shares है, stock split नहीं।
+Numerical का answer working notes से शुरू कीजिए, यानी EPS, DPS, r और Ke, फिर formula, figures और result, और आख़िर में r और Ke की तुलना से एक line का conclusion।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: dividend profit after tax का बाँटा हुआ हिस्सा है, payout है DPS by EPS, और retention से growth आती है, g equals b into r।
+Bonus shares dividend का form हैं, stock split नहीं, buy-back को buy-back price पर गिनिए, और Lintner में dividend हर साल gap का सिर्फ़ Af हिस्सा भरता है।
+Walter में P है D plus r by Ke into E minus D, by Ke, और Gordon में P zero है E one into one minus b, by Ke minus br।
+दोनों में r ज़्यादा तो zero payout, कम तो सौ प्रतिशत, बराबर हो तो Walter में every payout और Gordon में no optimum, और MM के लिए dividend irrelevant है।
+MM की value earning power और investment policy से आती है, और numerical में पहले preference dividend, D one और retention ratio के traps जाँचिए।
+
+अगले episode में देव long-term फ़ैसलों से रोज़ के पैसे पर आएँगे, यानी stock, debtors, cash और creditors, Paper six A का chapter nine, Management of Working Capital।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

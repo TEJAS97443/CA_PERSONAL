@@ -1,0 +1,630 @@
+{
+ "source": {
+  "type": "RTP",
+  "attempt": "May 2022",
+  "attempt_sort": "2022-05",
+  "series": null,
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://cacult.com/wp-content/uploads/2022/03/SM-May-2022.pdf",
+  "local_file": "raw/rtp-old-may2022-p7.pdf",
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "Mirror: CA Cult (https://cacult.com/rtps-ca-intermediate-course/), which hosts the official ICAI RTP PDF. Not retrieved from an icai.org URL."
+ },
+ "questions": [
+  {
+   "id": "rtp-old-may2022-q1i",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Stability strategy → Ch 4 (corporate strategy alternatives)",
+   "qno": "1(i)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "Since its inception in 1910, the family business of Indian ethnic wear firm Shanti Prasad & Sons, run by Mr. Mukesh Gupta and his three sons has seen major transformation in supply chain, product development and management. The inheritance over generations hasn't been easy, as it was subject to family brawls, but the company stood strong to its core principles.\nSince 2011, major foreign brands have been eyeing the segment with world class designers opening up their boutiques in plush areas around the country. JJM, a French design house, recently branded its Indian wear with leading film personalities, to attract masses. This damaged existing supply chains, attracted new age buyers and has been profitable from the very beginning.\nThe three sons reach out to you for management consultancy, to help them meet the competition, if not beat it. You study the business inside out and come up with three options.\nFirst, to exit Indian Market, and start exporting their designs to European markets. This would ensure bigger revenue and forex gains, and also the distribution chains were well built there.\nSecond, to become the major manufacturer of JMM and other big foreign brands. This would ensure they stay relevant in the market as all the promotional spend would be taken care of by JMM and the volumes they would rope in would actually mean growth for Shanti Prasad & Sons too.\nThird, to sell their designs to the global brands with patent protection. This would ensure a perpetual flow of revenue and a new market altogether, with global business exposure. The family after considering your proposals, knowing the intricacies of business, and its environment, decided to blend options two and three. The success or failure could only be gauged in three quarters, when they sit down for an internal post implementation review.\nBased on the above Case Scenario, answer the Multiple Choice Questions.\n\nWhat can be said about the attitude of the owners with regards to their strategy mindset when they reached out for consultancy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Expansion Oriented"
+    },
+    {
+     "label": "b",
+     "text": "Stability Oriented"
+    },
+    {
+     "label": "c",
+     "text": "Retrenchment Oriented"
+    },
+    {
+     "label": "d",
+     "text": "Combination Oriented"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "stability strategy",
+    "supply chain",
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q1ii",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing Mix / promotion (old Ch 6.2.2) — dropped with the functional-strategy chapter",
+   "qno": "1(ii)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nIf the owners went with option two, which of the following components of marketing strategy would be irrelevant for them?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Product and Promotion"
+    },
+    {
+     "label": "b",
+     "text": "Price and Product"
+    },
+    {
+     "label": "c",
+     "text": "Promotion only"
+    },
+    {
+     "label": "d",
+     "text": "Place only"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "marketing mix"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q1iii",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Sustainability of competitive advantage → Ch 3 (Competitive Advantage)",
+   "qno": "1(iii)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nOption three if opted, would help in sustainability of which of the following, and would ensure so because of what major characteristic of sustainability?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Sustainability of Competitive Advantage by ensuring Transferability"
+    },
+    {
+     "label": "b",
+     "text": "Sustainability of Value Creation by ensuring Appropriability"
+    },
+    {
+     "label": "c",
+     "text": "Sustainability of Value Creation by restricting Imitability"
+    },
+    {
+     "label": "d",
+     "text": "Sustainability of Competitive Advantage by ensuring Durability"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "competitive advantage",
+    "sustainability"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q1iv",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Macro/external environment analysis (PESTLE) → Ch 2",
+   "qno": "1(iv)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nFor Shanti Prasad & Sons well as JJM, globalisation has been a key area of consideration. As times change, and new players enter a market, the existing firms need to be careful about their survival. Which of the following statements about Globalisation is false for JJM?",
+   "options": [
+    {
+     "label": "a",
+     "text": "It unifies the trade and such trade barriers become irrelevant"
+    },
+    {
+     "label": "b",
+     "text": "It needs ability to compete in domestic market with foreign competitors"
+    },
+    {
+     "label": "c",
+     "text": "It includes commitment to invest heavily in other countries"
+    },
+    {
+     "label": "d",
+     "text": "It brings in foreign investment in the form of FDI"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "pestle"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q1v",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "qno": "1(v)",
+   "kind": "case-mcq",
+   "marks": null,
+   "question": "[Shared case scenario — see question 1(i).]\nFor JMM, which of the following structures would be best suited, in case all major Indian family run businesses start producing designs for them, while JMM simply takes care of distribution and marketing?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Simple Structure"
+    },
+    {
+     "label": "b",
+     "text": "Network Structure"
+    },
+    {
+     "label": "c",
+     "text": "Matrix Structure"
+    },
+    {
+     "label": "d",
+     "text": "Divisional Structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q2",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Divestment / liquidation → Ch 4 (Strategic Exits)",
+   "qno": "2",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Nom-Nom is a fast-food brand and has been facing a lot of competition from American brands and has decided to NOT go very aggressive but to just preserve market share? Which of the strategy Nom-Nom is following?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Build"
+    },
+    {
+     "label": "b",
+     "text": "Hold"
+    },
+    {
+     "label": "c",
+     "text": "Harvest"
+    },
+    {
+     "label": "d",
+     "text": "Divest"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "divestment"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Diversification / integration → Ch 4 (Expansion through diversification)",
+   "qno": "3",
+   "kind": "mcq",
+   "marks": null,
+   "question": "A tea farm owners plan to open tea cafes in tourist spots and to sell their own premium tea to build a brand. Which of the following can this be termed as?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Backward Integration"
+    },
+    {
+     "label": "b",
+     "text": "Forward Integration"
+    },
+    {
+     "label": "c",
+     "text": "Diversification"
+    },
+    {
+     "label": "d",
+     "text": "Horizontal Integration"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "diversification"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q4",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic Marketing Techniques → Ch 3 (relocated verbatim into Ch 3.3.3 Strategic Drivers: Product/Services)",
+   "qno": "4",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Airlines providing special lounge access to loyal customers is a type of which marketing?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Augmented Marketing"
+    },
+    {
+     "label": "b",
+     "text": "Direct Marketing"
+    },
+    {
+     "label": "c",
+     "text": "Relationship Marketing"
+    },
+    {
+     "label": "d",
+     "text": "Services Marketing"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "marketing techniques"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q5",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "qno": "5",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Maadhyam, a hearing aid manufacturer recently introduced an AI based management tool that has the capabilities of managing teams across functions. What could be their new organisational structure post this implementation?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Divisional Structure"
+    },
+    {
+     "label": "b",
+     "text": "Matrix Structure"
+    },
+    {
+     "label": "c",
+     "text": "Hourglass Structure"
+    },
+    {
+     "label": "d",
+     "text": "Network Structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "organisation structure",
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q6",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Exit barriers → Ch 2 (industry environment analysis)",
+   "qno": "6",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Halder & Sons have invested in latest technology in terms of latest printing machines from Germany and Israel. But recent advent of internet has posed a big threat to their printing business as majority of their clients have now turned to more environment friendly options. They are not able to sell off their machines which are now redundant. What condition are they facing right now?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Improper market analysis"
+    },
+    {
+     "label": "b",
+     "text": "Exit Barriers"
+    },
+    {
+     "label": "c",
+     "text": "Paralysis of Strategic Vision"
+    },
+    {
+     "label": "d",
+     "text": "Weak SWOT Analysis"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "exit barriers"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q7",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 1 \"Introduction to Strategic Management\" → Ch 1",
+   "qno": "7",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "ABC Ltd. currently sells its product in two major markets – Europe and Asia. While it is a market leader in Europe, ABC Ltd. has struggled to penetrate the more competitive Asian market. ABC Ltd. hired a strategic consultant to analyze the situation and submit his report to them. After the report received from the strategic consultant, it has therefore decided to pull out of Asia entirely and focus on its European markets only. This decision relates to which level in ABC Ltd. and explain the role of managers at this level in the organization.",
+   "options": null,
+   "answer": "Corporate level strategy relates to the markets and industries that the organization chooses to operate in, as well as other decisions that affect the organization as a whole. The role of corporate-level managers is to oversee the development of strategies for the whole organization. This role includes defining the mission and goals of the organization, determining what businesses it should be in, allocating resources among the different businesses, formulating and implementing strategies that span individual businesses, and providing leadership for the organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "mission",
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q8",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management in Government / Public Sector Units (old Ch 1) — absent from the current Paper 6B study material (no \"public sector\", \"government agency\" or \"taxpayer\" content in any of the 5 chapters)",
+   "qno": "8",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Discuss the challenges faced by public sector units while designing for their organisations.",
+   "options": null,
+   "answer": "Central, state, municipal agencies, Public Sector Units, departments are responsible for formulating, implementing, and evaluating strategies that use taxpayers' money in the most cost-effective way to provide services and programs. The Challenges faced by the public sector units while designing their organizations are on account of basic nature of such organizations.\nPublic sector units face the following challenges while designing strategies for their organizations:\n• Operating with less strategic autonomy.\n• Cannot diversify into unrelated businesses or merge with other firms.\n• Strategists usually enjoy little freedom while altering the organization’s mission or redirecting objectives when needed.\n• Legislators and politicians control over major decisions and resources.\n• Fear of media debate over the strategic issues.\n• Chances of politicization of issues resulting fewer strategic choice.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "public sector",
+    "diversification"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q9",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG growth-share matrix → Ch 4 (Strategic Options)",
+   "qno": "9",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Explain the strategic implications of each of the following types of business in a corporate portfolio:\n(a) Stars (b) Question Marks (c) Cash Cows (d) Dogs",
+   "options": null,
+   "answer": "In the BCG growth-share matrix portfolio of investments are represented in two-dimensional space. The vertical axis represents market growth rate, and the horizontal axis represents relative market share. The strategic implications for various business types under BCG in the corporate portfolio are:\nStars are products or businesses that are growing rapidly and are best opportunity for expansion. Stars may follow build strategy. They need heavy investments to maintain their position and finance their rapid growth potential.\nCash Cows are low-growth, high market share businesses or products. They generate cash and have low costs. They are established, successful, and need less investment to maintain their market share. Strategic alternative advocated for cash cows is harvest. Question Marks are low market share business in high-growth markets. Strategic option for them is hold for which they need heavy investments. Question marks if left unattended are capable of becoming cash traps.\nDogs are low-growth, low-share businesses and products. Relevant strategy is divest. Dogs may generate enough cash to maintain themselves, but do not have much future. Dogs should be minimized by means of divestment or liquidation.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "bcg matrix",
+    "portfolio analysis",
+    "expansion strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q10",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "ADL matrix → Ch 4 (Strategic Options)",
+   "qno": "10",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Explain the role of ADL Matrix in assessing competitive position of a firm.",
+   "options": null,
+   "answer": "The ADL matrix has derived its name from Arthur D. Little which is a portfolio an alysis method based on product life cycle. The approach forms a two-dimensional matrix based on stage of industry maturity and the firm’s competitive position, environmental assessment and business strength assessment. The role of ADL matrix is to assess t he competitive position of a firm based on an assessment of the following criteria:\n• Dominant: This is a comparatively rare position and in many cases is attributable either to a monopoly or a strong h\n• Strong: By virtue of this position, the firm has a considerable degree of freedom over its choice of strategies and is often able to act without its market position being unduly threatened by its competitors.\n• Favourable: This position, which generally comes about when the industry is\nfragmented and no one competitor stand out clearly, results in the market leaders a reasonable degree of freedom.\n• Tenable: Although the firms within this category are able to perform satisfactorily and can justify staying in the industry, they are generally vulnerable in the face o f increased competition from stronger and more proactive companies in the market.\n• Weak: The performance of firms in this category is generally unsatisfactory\nalthough the opportunities for improvement do exist.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "adl matrix",
+    "product life cycle",
+    "portfolio analysis"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q11",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management process / strategic planning → Ch 5 (5.2)",
+   "qno": "11",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Differentiation between Strategic Planning and Operational Planning.",
+   "options": null,
+   "answer": "| Strategic planning | Operational planning |\n|---|---|\n| Strategic planning shapes the organisation and its resources. | Operational planning deals with current deployment of resources. |\n| Strategic planning assesses the impact of environmental variables. | Operational planning develops tactics rather than strategy. |\n| Strategic planning takes a holistic view of the organisation. | Operational planning projects current operations into the future. |\n| Strategic planning develops overall objectives and strategies. | Operational planning makes modifications to the business functions but not fundamental changes. |\n| Strategic planning is concerned with the long-term success of the organisation. | Operational planning is concerned with the short-term success of the organisation. |\n| Strategic planning is a senior management responsibility. | Operational planning is the responsibility of functional managers. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic management process",
+    "objectives",
+    "strategic planning"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q12",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Objectives and goals → Ch 1 (Strategic Intent)",
+   "qno": "12",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What are 'objectives'? What characteristics it must possess to be meaningful?",
+   "options": null,
+   "answer": "Objectives are organizations performance targets – the results and outcomes it wants to achieve. They function as yardstick for tracking an organization’s performance and progress.\nObjectives with strategic focus relate to outcomes that strengthen an organization’s overall business position and competitive vitality. Objectives, to be meaningful to serve the intended role, must possess the following characteristics:\n• Objectives should define the organization’s relationship with its environment.\n• Objectives should be facilitative towards achievement of mission and purpose.\n• Objectives should provide the basis for strategic decision-making.\n• Objectives should provide standards for performance appraisal.\n• Objectives should be understandable.\n• Objectives should be concrete and specific.\n• Objectives should be related to a time frame.\n• Objectives should be measurable and controllable.\n• Objectives should be challenging.\n• Different objectives should correlate with each other.\n• Objectives should be set within constraints.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "objectives",
+    "mission"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q13",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter's generic strategies → Ch 3 (Competitive Advantage)",
+   "qno": "13",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Racers Ltd. manufactures bicycles. Until recently it has adopted a differentiation strategy, offering high quality bicycles which Racers Ltd. sells at a high profit margin.\nIn recent years, Racers Ltd. has entered a period of decline due to the market becoming flooded with cheaper, high quality bicycles from abroad, where labour costs are lower. Racers Ltd. has therefore decided to adjust its strategy and adopt a focus approach, targeting its bicycles towards professional athletes. This will allow Racers Ltd. to continue earning high margins, though the size of its potential market will likely fall. Identify and explain the need of adopting this strategy by Racers Ltd. to manage decline?",
+   "options": null,
+   "answer": "Racers Ltd. has adopted Turnaround strategy. This involves Racers Ltd. repositioning itself in the market in an attempt to once again gain competitive advantage.\nTurnaround is needed when an enterprise's performance deteriorates to a point that it needs a radical change of direction in strategy, and possibly in structure and culture as well. It is a highly targeted effort to return an organization to profitability and increase positive cash flows to a sufficient level. It is used when both threats and weaknesses adversely affect the health of an organization so much that its basic survival is difficult. The overall goal of turnaround strategy is to return an underperforming or distressed company to normalcy in terms of acceptable levels of profitability, solvency, liquidity and cash flow. To achieve its objectives, turnaround strategy must reverse causes of distress, resolve the financial crisis, achieve a rapid improvement in financial performance, regain stakeholder support, and overcome internal constraints and unfavourable industry characteristics.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "differentiation",
+    "turnaround",
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q14",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Diversification / integration → Ch 4 (Expansion through diversification)",
+   "qno": "14",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Diversification endeavours can be categorized into four broad classifications. State the basis for this classification and name the four categories. How is concentric diversification different from vertically diversification? Explain.",
+   "options": null,
+   "answer": "Diversification strategy involves expansion into new businesses that are outside the current business and markets of an organisation. Based on the nature and extent of their relationship to existing businesses, diversification can be classified into four b road categories:\n(i) Vertically integrated diversification\n(ii) Horizontally integrated diversification\n(iii) Concentric diversification\n(iv) Conglomerate diversification\nConcentric diversification takes place when the products are related. The new product is a spin-off from the existing facilities and products/processes. This means that in concentric diversification too, there are benefits of synergy with the current operations. However, concentric diversification differs from vertically integrated diversi fication in the nature of the linkage the new product has with the existing ones.\nIn vertically integrated diversification, firms opt to engage in businesses that are related to the existing business of the firm. The firm remains vertically within the same process. Sequence moves forward or backward in the chain and enters specific product/process steps with the intention of making them into new businesses for the firm. The new product falls within the firm’s current process-product chain. In concentric diversification, there is a departure from this vertical linkage, a new related product is added to the existing business. The new product is only connected in a loop-like manner at one or more points in the firm’s existing process/technology/product chain.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "diversification",
+    "expansion strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q15",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Old Ch 5 \"Business Level Strategies\" → Ch 3 (Competitive Advantage/generic strategies)",
+   "qno": "15",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "A business consultancy firm specializes in environment management consultancy. It advises client companies on how to set up environmental management accounting systems. For measuring recording and analyzing environmental costs. A large part of its business involves performing environmental audits to check whether companies have achieved an international assurance standard in environmental management; this is something that rival consultancy firms do not do. The firm also carries out other management consultancy projects for client, but these make up only a small proportion of its total annual fee income.\nIdentify the strategy categories by Michael Porter which best describes the strategy of this firm.",
+   "options": null,
+   "answer": "By concentrating mainly on the ‘market’ for consultancy services in environmental management, the firm is pursuing a focus strategy. By offering audit services, which rival firms do not, this indicates a differentiation strategy within this chosen mark et niche. Hence, the firm is following Focus differentiation strategy.\nA focused differentiation strategy requires offering unique features that fulfil the demands of a narrow market. Similar to focused low-cost strategy, narrow markets are defined in different ways in different settings. Some firms using a focused differentiation strategy concentrate their efforts on a particular sales channel, such as selling over the internet only. Others target particular demographic groups. Firms that compete based o n uniqueness and target a narrow market are following a focused differentiations strategy.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "differentiation",
+    "focus strategy"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q16",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Porter's five forces / industry environment analysis → Ch 2",
+   "qno": "16",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "What are the five competitive forces in an industry as identified by Michael Porter?",
+   "options": null,
+   "answer": "Five forces model of Michael Porter is a popular tool for systematically diagnosing the significant competitive pressures in the market and assessing their strength and importance. The model holds that the state of competition in an industry is a composite of competitive pressures operating in five forces as follows:\n1. Threat of new entrants: New entrants place a limit on prices and affect the profitability of existing players. The new capacity and product range the new entrants bring increases competitive pressure.\n2. Bargaining power of customers: The bargaining power of the buyers influences not only the prices that the producer can charge but also influence costs and investments of the producer. This force will become heavier depending on the possibilities of the buyers forming groups or cartels, particularly in case of industrial products.\n3. Bargaining power of suppliers: Often suppliers can exercise considerable bargaining power. The bargaining power of suppliers determines the cost of raw materials and other inputs of the industry and, therefore, can affect industry attractiveness and profitability.\n4. Rivalry among current players: The impact is evident more at functional level in the prices being charged, advertising, and pressures on costs, product and so on.\n5. Threats from substitutes: Substitute products are a latent source of competition in an industry. Substitute products offering a price advantage and/or performance improvement to the consumer can have significant impact.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "five forces",
+    "barriers to entry"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q17",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / SHRM (old Ch 6.6) — dropped with the functional-strategy chapter",
+   "qno": "17",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "You are the Human Resource Manager of a Company. What are the prominent areas where you can play strategic role?",
+   "options": null,
+   "answer": "Prominent areas where the Human Resource Manager can play strategic role are as follows:\n1. Providing purposeful direction: The human resource manager leads people and the organization towards the desired direction involving people. He can ensure harmony between organisational objectives and individual objectives.\n2. Creating competitive atmosphere: In the present business environment,\nmaintaining competitive position or gains is an important objective of any business. Having a highly committed and competent workforce is very important for getting a competitively advantageous position.\n3. Facilitation of change: The human resource manager will be more concerned about furthering the organization not just maintaining it. He can devote more time to promote acceptance of change rather than maintaining the status quo.\n4. Managing diversity of workforce: In a modern organization, management of diverse workforce is a great challenge. Workforce diversity can be observed in terms of male and female, young and old, educated and uneducated, unskilled and professional employee and so on. Motivation, maintaining morale and commitment are some of the key tasks that a HR manager can perform.\n5. Empowerment of human resources: Empowerment involves giving more power to those who, at present, have little control on what they do and little ability to influence the decisions being made around them.\n6. Building core competency: The human resource manager has an important role to play in developing core competency of the firm. A core competence is a unique strength of an organization which may not be shared by others. Organization of business around core competence implies leveraging the limited resources of a firm.\n7. Development of works ethics and culture: A vibrant work culture will have to be developed in the organizations to create an atmosphere of trust among peopl e and to encourage creative ideas by the people.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hr strategy",
+    "objectives"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q18",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Financial Strategy (old Ch 6.3) — dropped with the functional-strategy chapter; \"financial strategy\" occurs 0 times in the current Paper 6B study material",
+   "qno": "18",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "You are a manager of a firm, and you have to raise funds for a business project. From which sources can you raise the funds for your company?",
+   "options": null,
+   "answer": "Strategies related to the source of fund are important since they determine how financial resources will be available for the implementation of the financial strategies. Companies may rely on internal and external sources of financing for their short term and long term requirement of their funds. The funds may be raised from national and international money and capital markets.\nFollowing are some important sources for raising funds:\ni. Net profit from the operations: Using retained earnings to reinvest in the business, either in new projects or to scale up existing operations.\nii. Sale of assets: The purpose of an asset sale is generally to increase cash flow, reduce bad debt risk and liquidation of assets.\niii. Debt: Debt is an amount of money borrowed by one party from another. It is used by many corporations as a method of making large purchases that they could not afford under normal circumstances. It could be applied to boost organizations return on investment. During low earning periods, too much debt in the capital structure of an organization can endanger stockholders’ return and jeopardize comp any survival. Debt can be in the form of debentures, bonds, loans from financial institutions and deposits from public/fixed deposits.\niv. Issuance of share capital to the public: Equity can be of two type – ordinary Shares and preference shares.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "financial strategy",
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q19",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "qno": "19",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "How the 'Strategic Business Unit (SBU), structure becomes imperative in an organization with increase in number, size and diversity of divisions?",
+   "options": null,
+   "answer": "SBU is a part of a large business organization that is treated separately for strategic management purposes. The concept of SBU is helpful in creating an SBU organizational structure. It is separate part of large business serving product markets with readily identifiable competitors. It is created by adding another level of management in a divisional structure after the divisions have been grouped under a divisional top management authority based on the common strategic interests.\nVery large organisations, particularly those running into several products, or operating at distant geographical locations that are extremely diverse in terms of environmental factors, can be better managed by creating strategic business units. SBU structu re becomes imperative in an organisation with increase in number, size and diversity. SBUs helps such organisations by:\n• Establishing coordination between divisions having common strategic interest.\n• Facilitate strategic management and control.\n• Determine accountability at the level of distinct business units.\n• Allow strategic planning to be done at the most relevant level within the total enterprise.\n• Make the task of strategic review by top executives more objective and more effective.\n• Help to allocate resources to areas with better opportunities.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure",
+    "vision",
+    "strategic business unit",
+    "strategic management"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q20",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure types → Ch 5 (Organisation Structure (hard))",
+   "qno": "20",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "\"A network structure is suited to unstable environment.\" Elucidate this statement.",
+   "options": null,
+   "answer": "Network structure is a newer and somewhat more radical organizational design. The network structure could be termed a \"non-structure\" as it virtually eliminates in-house business functions and outsource many of them. An organization organized in this manner is often called a virtual organization because it is composed of a series of project groups or collaborations linked by constantly changing non-hierarchical, cobweb-like networks.\nThe network structure becomes most useful when the environment of a firm is unstable and is expected to remain so. Under such conditions, there is usually a strong need for innovation and quick response. Instead of having salaried employees, it may contract with people for a specific project or length of time. Long-term contracts with suppliers and distributors replace services that the company could provide for itself through vertical integration. The network structure provides organization with increased flexibility and adaptability to cope with rapid technological change and shifting pattern of international trade and competition.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q21",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic change / Kurt Lewin change process → Ch 5 (Strategic Change)",
+   "qno": "21",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Glassware Ltd. is about to go through a significant restructuring. The strategic change involves moving from a decentralized to a centralized structure. This will help Glassware avoid duplication of support activities and lower its costs.\nThe management have held the first staff briefing in which they went to great lengths to explain that the change was necessary to equip the company to face future competitive challenges. Identify and explain the current stage of Glassware Ltd. from the Lewin’s three-stage model of change?",
+   "options": null,
+   "answer": "Glassware Ltd. is currently in the ‘unfreezing’ stage, where management is attempting to explain the need for change in an attempt to maximize buy-in by employees and reduce the amount of resistance.\nUnfreezing the situation: The process of unfreezing simply makes the individuals aware of the necessity for change and prepares them for such a change. Lewin proposes that the changes should not come as a surprise to the members of the organization. Sudden and unannounced change would be socially destructive and morale lowering. The management must pave the way for the change by first “unfreezing the situation”, so that members would be willing and ready to accept the change.\nUnfreezing is the process of breaking down the old attitudes and behaviours, customs and traditions so that they start with a clean slate. This can be achieved by making announcements, holding meetings and promoting the new ideas throughout the organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic change",
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "rtp-old-may2022-q22",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Business Process Reengineering (old Ch 8.7) — dropped from the 2023 syllabus",
+   "qno": "22",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Explain the various categories in which generic business process of a firm requires redesigning.",
+   "options": null,
+   "answer": "The generic business processes of a firm that require redesign may be classified into three broad categories as follows:\n• Processes pertaining to development and delivery of product(s) and / or services - These may include research, design, engineering, manufacturing, and logistics, besides purchasing / procurement and materials management.\n• Process involving interface(s) with customers - These usually include marketing, advertising, order fulfilment, and service.\n• Process comprising management activities - These include strategy formulation, planning and budgeting, performance measurement and reporting, human resource management, and building infrastructure.\nIn the context of these generic business processes, BPR may be viewed as a means of solving business problem through IT capabilities.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "bpr",
+    "logistics",
+    "strategy formulation"
+   ]
+  }
+ ]
+}

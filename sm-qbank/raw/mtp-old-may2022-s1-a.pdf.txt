@@ -1,0 +1,398 @@
+                                                               Test Series: March, 2022
+                                 MOCK  TEST PAPER-I
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+                                     ANSWERS
+                          Part I: MULTIPLE CHOICE QUESTIONS
+1   (a) Data Flow Diagram
+2   (b) Stock Journal
+3   (a) Update Control
+4   (c) e-Rupi
+5   (a) Internet Banking Application Server
+6   (b) 200
+7   (a) (v) - (viii) - (vii) - (vi) - (i) - (iv) - (iii) - (ix) - (ii)
+8   (a) (i) - I, (ii) - IV, (iii) - II, (iv) - III
+9   (b) (i) - II, (ii) - IV, (iii) - I, (iv) – III
+10  (a) (i) - I, (ii) - II, (iii) - III, (iv) - IV
+                            Part II: DESCRIPTIVE QUESTIONS
+1.  (a) The various modes of Electronic Funds Transfer (EFT) are as follows:
+        •   Real Time Gross Settlement (RTGS) is an electronic form of funds transfer where the
+            transmission takes place on a real-time basis. In India, transfer of funds with RTGS is done
+            for high value transactions, the minimum amount being ₹ 2 lakh. The beneficiary account
+            receives the funds transferred on a real- time basis.
+        •   National Electronic Funds Transfer (NEFT) is a nation-wide payment system facilitating
+            one-to-one funds transfer. Under this Scheme, individuals can electronically transfer funds
+            from any bank branch to any individual having an account with any other bank branch in the
+            country participating in the scheme.
+        •   Immediate Payment Service (IMPS) is an instant payment inter-bank electronic funds
+            transfer system in India. IMPS offer an inter-bank electronic fund transfer service through
+            mobile phones. Unlike NEFT and RTGS, the service is available 24x7 throughout the year
+            including bank holidays.
+    (b) Various Controls under the Application Control Framework of Information Systems are as
+        follows:
+        •   Boundary Control
+        •   Input Control
+        •   Processing Control
+        •   Database Control
+        •   Output Control
+        •   Communication Control
+
+2.  (a) Various modules of Enterprise Resource Planning (ERP) is integrated so that the master data
+        across all the ERP modules can be same and can be shared with other modules where-ever
+        required. The integration of ERP’s Material Management (MM) Module with other modules is as
+        under:
+        (i) Material Management Integration with Finance and Controlling (FICO): It is integrated
+            in the area like Material Valuation, Vendor payments, Material costing etc. Whenever any
+            inventory posting is done, it updates the General Ledger (G/L) accounts online in the
+            background. Logistics invoice verification will create vendor liability in vendo r account
+            immediately on posting the document. Any advance given against the purchase order
+            updates the Purchase Order history. For every inventory posting, there is corresponding
+            Controlling document to update profit centre accounting reporting.
+        (ii) Material Management Integration with Production Planning (PP): It is integrated in the
+            areas like Material Requirement Planning, Receipts/issues against production orders,
+            Availability check for stocks etc. Material requirement Planning is based on Stocks,
+            expected receipts, expected issues. It generates planned orders or purchase requisitions
+            which can be converted to purchase orders/Contracts. Inventory Management is responsible
+            for staging of the components required for production orders. The receipt of the finished
+            products in the Warehouse is posted in Inventory Management.
+        (iii) Material Management Integration with Sales and Distribution (SD): It is integrated in the
+            areas like Delivery, Availability Check, Stock transfers requirements etc. As soon as a s ales
+            order is created, it can initiate a dynamic availability check of stocks on hand. When the
+            delivery is created, the quantity to be delivered is marked as “Scheduled for delivery”. It is
+            deducted from the total stock when the goods issue is posted. Purchase order can be
+            directly converted to delivery for a stock transfer requirement.
+        (iv) Material Management Integration with Quality Management (QM): It is integrated with
+            QM  for Quality inspection at Goods Receipt, In-process inspection etc. In the case of a
+            goods movement, the system determines whether the material is subject to an inspection
+            operation. If so, a corresponding activity is initiated for the movement in the Quality
+            Management system. Based on quality parameters, vendor evaluation is done.
+        (v) Material Management Integration with Plant Maintenance (PM): The material/service
+            requirement is mentioned in Maintenance order. This leads to generation of Purchase
+            Requisition (PR). This PR will be converted to Purchase Order (PO) by MM. The goods for a
+            PO  will be awarded to Maintenance by MM. The spares which were reserved for
+            maintenance order will be issued by MM against the reservation number.
+    (b) Various application areas of Blockchain are discussed below:
+        •   Financial Services: Blockchain can be used to provide an automated trade lifecycle in
+            terms of the transaction log of any transaction of asset or property - whether physical or
+            digital such as laptops, smartphones, automobiles, real estate, etc. from one person to
+            another.
+        •   Healthcare: Blockchain provides secure sharing of data in healthcare industry by increasing
+            the privacy, security, and interoperability of the data by eliminating the interference of third
+            party and avoiding the overhead costs.
+        •   Government: At  the government front, there are instances where the technical
+            decentralization is necessary but politically should be governed by governments like land
+            registration, vehicle registration and management, e-voting etc. Blockchain improves the
+
+            transparency and provides a better way to monitor and audit the transactions in these
+            systems.
+        •   Travel Industry: Blockchain can be applied in money transactions and in storing important
+            documents like passports/other identification cards, reservations and managing travel
+            insurance, loyalty, and rewards thus, changing the working of travel and hospitality industry.
+        •   Economic Forecasts: Blockchain makes possible the financial and economic forecasts
+            based on decentralized prediction markets, decentralized voting, and stock trading, thus
+            enabling the organizations to plan and shape their businesses.
+3.  (a) The activities that the Systems Development Management team of KK Software would perform to
+        develop the proposed system for ABC Ltd. are as follows:
+        (i) Problem definition and Feasibility assessment: Information Systems can be developed
+            to help resolve problems or to take advantage of opportunities. All the stakeholders must
+            reach to agreement on the problem and should understand the possible threats associated
+            with possible solutions/systems related to asset safeguarding, data integrity, system
+            effectiveness, and system efficiency. The feasibility assessment is done to obtain a
+            commitment to change and to evaluate whether cost-effective solutions are available to
+            address the problem or opportunity that has been identified. All solutions must be properly
+            and formally authorized to ensure their economic justification and feasibility. This requires
+            that each new solution request be submitted in written form by stakeholders to systems
+            professionals who have both the expertise and authority to evaluate and approve (or reject)
+            the request.
+        (ii) Analysis of existing system: Designers need to analyze the existing system that involves
+            two major tasks:
+            •   Studying the existing organizational history, structure, and culture to gain an
+                understanding of the social and task systems in place, the ways these systems are
+                coupled, and the willingness if stakeholders to change.
+            •   Studying the existing product and information flows as the proposed system will be
+                based primarily on current product and information flows. The designers need to
+                understand the strengths and weaknesses of existing product to determine the new
+                system requirements and the extent of change required.
+        (iii) Information Processing System design: This phase involves following activities:
+            •   Elicitation of detailed requirements: Either ask the stakeholders for their
+                requirement in case they are aware about it or discover the requirement through
+                analysis and experimentation in case stakeholders are uncertain about their need.
+            •   Design of data/information flow: The designers shall determine the flow of
+                data/information and transformation points, the frequency and timing of the data and
+                information flows and the extent to which data and information flows will be formalized.
+                Tools such as Data Flow Diagram (DFD) can be used for this purpose.
+            •   Design of Database and user interface: Design of database involves determining its
+                scope and structure whereas the design of user interface determines the ways in which
+                users interact with a system.
+            •   Physical design: This involves breaking up the logical design into units which in turn
+                can be decomposed further into implementation units such as programs and modules .
+
+            •   Design of the hardware/software platform: In case the hardware and software
+                platforms are not available in the organization, the new platforms are required to be
+                designed to support the proposed system.
+        (iv) Hardware/Software acquisition and procedures development: To purchase the new
+            application system or hardware, a request for a proposal must be prepared, vendor
+            proposals are sought, and final decisions is made based on evaluation. During procedures
+            development, designers specify the activities that users must undertake to support the on-
+            going operation of the system and to obtain useful output.
+        (v) Acceptance Testing and Conversion: Acceptance Testing is carried out to identify errors
+            or deficiencies in the system prior to its final release into production use. The conversion
+            phase comprises the activities undertaken to place the new system in operation.
+        (vi) Operation and Maintenance: In this phase, the new system is run as a production system
+            and periodically modified to better meet its objectives. A formal process is required to
+            identify and record the need for changes to a system and to authorize and control the
+            implementation of needed changes. The maintenance activities associated with these
+            systems need to be approved and monitored carefully.
+    (b) The process of Data Analytics involves the following:
+        •   Data Collection: The analytics process starts with data collection, in which data scientists
+            identify the information they need for an analytics application and then work on their own or
+            with data engineers and IT staffers to assemble it for use. Data from different source
+            systems may need to be combined via data integration routines transformed into a common
+            format and loaded into an analytics system such as a Hadoop cluster, NoSQL database or
+            data warehouse.
+        •   Find and Fix Data Quality Problem: Once the data that’s needed is in place, the next step
+            is to find and fix data quality problems that could affect the accuracy of analytics
+            applications. That includes running data profiling and data cleansing jobs to make sure that
+            the information in a data set is consistent and that errors and duplicate entries are
+            eliminated. A data scientist builds an analytical model, using predictive modelling tools or
+            other analytics software and programming languages such as Python, Scala, R and SQL.
+            Finally, the model is run in production mode against the full data set, something that can be
+            done once to address a specific information need or on an ongoing basis as the data is
+            updated.
+        •   Building Analytical Model: In some cases, analytics applications can be set to
+            automatically trigger business actions. For example, stock trades by a financial services
+            firm. Otherwise, the last step in the data analytics process is communicating the results
+            generated by analytical models to business executives and other end users to aid in their
+            decision-making. That usually is done with the help of data visualization techniques, which
+            analytics teams use to create charts and other info graphics designed to make their findings
+            easier to understand. Data visualizations often are incorporated into Business Intelligence
+            (BI) dashboard applications that display data on a single screen and can be updated in real
+            time as new information becomes available.
+4.  (a) To develop security architecture of Grid Computing, constraints considerations that need to be
+        kept in mind are as follows:
+            Secured Single Sign-on: Most of the distributed computing systems use identity-based
+             username and password, authentication, and authorization control for accessing a
+             computing system. To access resources from different administrative domains having
+             different security mechanisms, the user needs to authenticate him/her to different
+
+             domains. This is a very irritating and time-consuming process. To resolve this issue, a
+             mechanism should be established in which a user authenticates once only (e.g., at the
+             point of starting a computation) and then are able to acquire resources, use them, and
+             release them and to communicate internally without any further authentication.
+            Resource Management: Grid resources are from different administrative domains that
+             have their own local resource managers, and a grid does not have full control of these
+             resources. Allocation of resources to co-users, prioritizing local jobs over system jobs, and
+             managing these resources without ownership is a big issue.
+            Data Management: The users’ data-intensive, high-performance computing applications
+             in grid computing require the efficient management and transfer of huge data. Providing
+             secure, efficient, and transparent access to distributed and heterogeneous pool of data is
+             a big issue in grid computing.
+            Management  and Protection of Credentials: The different multiple systems involved in
+             grid computing require different credentials to access them. The credential management
+             and protection of users’ credentials such as passwords are big issues involved in grid
+             computing.
+            Interoperability with local security solutions: The grid security mechanism may provide
+             access to different domains with a single sign-on, the access to a local resource will
+             typically be determined by a local security policy at a local level. It is very difficult to
+             modify every local resource to accommodate inter-domain accesses. Hence, despite of
+             modifying every local resource there is an inter-domain security server for providing
+             security to local resource.
+            Standardization: Grid computing as a highly integrated system involves multi-purpose
+             protocols and interfaces to resolve the issues explained above. Standardizing these
+             protocols and interfaces is a big issue in grid computing.
+            Exportability: The code should be exportable i.e. they cannot use a large amount of
+             encryption at a time. There should be a minimum communication at a time.
+            Support for secure group communication: In a communication, there are number of
+             processes which coordinate their activities. This coordination must be secure and for this
+             there is no such security policy.
+            Support for multiple implementations: There should be a security policy which should
+             provide security to multiple sources based on public and private key cryptography.
+    (b) The Asynchronous attacks of automated environment that fall under Data Related Risks are of
+        following types:
+        •   Data Leakage: This involves leaking information out of the computer by means of dumping
+            files to paper or stealing computer reports and tape.
+        •   Subversive Attacks: These can provide intruders with important information about
+            messages being transmitted and the intruder may attempt to violate the integrity of some
+            components in the sub-system.
+        •   Wire-Tapping: This involves spying on information being transmitted over communication
+            network.
+        •   Piggybacking: This is the act of following an authorized person through a secured door or
+            electronically attaching to an authorized telecommunication link that intercepts and alters
+            transmissions. This involves intercepting communication between the operating system and
+            the user and modifying them or substituting new messages.
+5.  (a) In computer systems, controls should be checked at three levels namely Configuration,
+        Masters, and Transaction level. These are discussed below:
+        (i) Configuration: Configuration refers to the way a software system is set up. Configuration is
+            the methodical process of defining options that are provided. When any software is
+
+            installed, values for various parameters should be set up (configured) as per policies and
+            business process work-flow and business process rules of the enterprise. The various
+            modules of the enterprise such as Purchase, Sales, Inventory, Finance, User Access etc.
+            must be configured. Configuration will define how software will function and what menu
+            options are displayed. Some examples of configuration are Mapping of accounts to front
+            end transactions like purchase and sales, User activation and deactivation, User Access
+            and privileges - Configuration and its management and Password Management.
+        (ii) Masters: Masters refer to the way various parameters are set up for all modules of
+            software, like Purchase, Sales, Inventory, and Finance etc. These drive how the software
+            will process relevant transactions. The masters are set up first time during installation and
+            these are changed whenever the business process rules or parameters are changed.
+            Examples are Vendor Master, Customer Master, Material Master, Accounts Master,
+            Employee Master etc. Any changes to these data have to be authorized by appropriate
+            personnel and these are logged and captured in exception reports. The way masters are set
+            up will drive the way software will process transactions of that type. For example - The
+            Customer Master will have the credit limit of the customer. When an invoice is raised, the
+            system will check against the approved credit limit and if the amount invoiced is within the
+            credit limit, the invoice will be created, if not the invoice will be put on “credit hold” till proper
+            approvals are obtained.
+        (iii) Transactions: Transactions refer to the actual transactions entered through menus and
+            functions in the application software, through which all transactions for specific modules are
+            initiated, authorized, or approved. For example - Sales transactions, Purchase transactions,
+            Stock transfer transactions, Journal entries and Payment transactions. Implementation or
+            review of specific business process can be done from risk or control perspective. In case of
+            risk perspective, we need to consider each of the key sub-processes or activities performed
+            in a business process and look at existing and related control objectives and existing
+            controls and the residual risks after application of controls. The residual risk should be
+            knowingly accepted by the management.
+    (b) The key measures required to implement Network security and secure configuration in digital
+        environment of bank are as follows:
+        •   Multi-layered boundary defense through properly configured proxy servers, firewalls,
+            intrusion detection systems to protect the network from any malicious attacks and to detect
+            any unauthorized network entries.
+         •  Different LAN segments for in-house/onsite ATM and CBS branch/network to confirm the
+            adequacy of bandwidth to deal with the volume of transactions so as to prevent slowing
+            down and resulting in lower efficiency.
+         •  To ensure secure network configuration; proper usage of routers, hubs and switches should
+            be envisaged.
+         •  Periodic security review of systems and terminals to assess the network’s vulnerability and
+            identify the weaknesses.
+         •  Identification of the risks to ensure that risks are within the bank’s risk appetite and are
+            managed appropriately.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+         (1)     (2)    (3)     (4)    (5)
+         (c)     (b)    (d)     (d)    (d)
+    (B) (a)
+    (C) (c)
+    (D) (d)
+    (E) (a)
+    (F) (d)
+    (G) (c)
+2.  According to Porter, strategies allow organizations to gain competitive advantage from three different bases:
+    cost leadership, differentiation, and focus. Porter called these base generic strategies.
+    Moneyland Ltd. Bank targets a narrow segment of the market, offering unique and desirable products. The
+    bank will want to keep its costs under control, but it will not reduce costs at the expenses of reducing the
+    quality levels of the customer service it offers. By maintaining high quality levels, it will still be able to charge
+    a premium for its services. Thus, the strategy adopted by Moneyland Ltd. Bank is Focused Differentiation.
+     A focused differentiation strategy requires offering unique features that fulfil the demands of a narrow market.
+    Some firms using a focused differentiation strategy concentrate their efforts on a particular sales channel,
+    such as selling over the internet only. Others target particular demographic groups. Firms that compete based
+    on uniqueness and target a narrow market are following a focused differentiations strategy.
+3.  (a) The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps
+        businesses decide their product and market growth strategy. With the use of this matrix, a business
+        can get a fair idea about how its growth depends upon its markets in new or existing products in
+        both new and existing markets.
+        The Ansoff’s product market growth matrix is as follows:
+                          Ansoff’s Product Market Growth Matrix
+
+        Sky chemical industry can adopt market penetration, product development, market development
+        or diversification simultaneously for its different products.
+        Market penetration refers to a growth strategy where the business focuses on selling existing
+        products into existing markets. It is achieved by making more sales to present customers without
+        changing products in any major way.
+        Market development refers to a growth strategy where the business seeks to sell its existing
+        products into new markets. It is a strategy for company growth by identifying and developing new
+        markets for the existing products of the company.
+        Product development refers to a growth strategy where business aims to introduce new products
+        into existing markets. It is a strategy for company growth by offering modified or new products to
+        current markets.
+        Diversification refers to a growth strategy where a business markets new products in new
+        markets. It is a strategy by starting up or acquiring businesses outside the company’s current
+        products and markets.
+        As market conditions change overtime, a company may shift product-market growth strategies. For
+        example, when its present market is fully saturated a company may have no choice other than to
+        pursue new market.
+    (b) The presence of strategic management cannot counter all hindrances and always achieve success
+        as there are limitations attached to strategic management. These can be explained in the following
+        lines:
+        ♦   Environment is highly complex and turbulent. It is difficult to understand the complex
+            environment and exactly pinpoint how it will shape-up in future. The organisational estimate
+            about its future shape may awfully go wrong and jeopardise all strategic plans. The
+            environment affects as the organisation has to deal with suppliers, customers, governments
+            and other external factors.
+        ♦   Strategic Management is a time-consuming process. Organisations spend a lot of time in
+            preparing, communicating the strategies that may impede daily operations and negatively
+            impact the routine business.
+        ♦   Strategic Management is a costly process. Strategic management adds a lot of expenses to
+            an organization. Expert strategic planners need to be engaged, efforts are made for analysis
+            of external and internal environments devise strategies and properly implement. These can
+            be really costly for organisations with limited resources particularly when small and medium
+            organisation create strategies to compete.
+        ♦   In a competitive scenario, where all organisations are trying to move strategically, it is difficult
+            to clearly estimate the competitive responses to the strategies.
+4.  (a) FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition
+        with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into
+        producing pens starts producing them and other similar products is following concentric
+        diversification which is basically related diversification.
+        In this form of diversification, the new business is linked to the existing businesses through existing
+        systems such as processes, technology or marketing. The new product is a spin-off from the
+        existing facilities and products/processes. There are benefits of synergy with the current
+        operations. The most common reasons for pursuing a concentric diversification are that
+        opportunities in existing line of business are available.
+
+    (b) A strategic manager defines the strategic intent of the organisation and take it on the path of
+        achieving the organisational objectives. There can be a number of areas that a strategic manager
+        should concentrate on to achieve desired results. They commonly establish long-term objectives
+        in seven areas as follows.
+        •   Profitability.
+        •   Productivity.
+        •   Competitive Position.
+        •   Employee Development.
+        •   Employee Relations.
+        •   Technological Leadership.
+        •   Public Responsibility.
+5.  (a) The changes in the environmental forces often require businesses to make modifications in their
+        existing strategies and bring out new strategies. Strategic change is a complex process that
+        involves a corporate strategy focused on new markets, products, services and new ways of doing
+        business.
+        Three steps for initiating strategic change are:
+        (i) Recognise the need for change – The first step is to diagnose the which facets of the present
+            corporate culture are strategy supportive and which are not.
+        (ii) Create a shared vision to manage change – Objectives of both individuals and organisation
+            should coincide. There should be no conflict between them. This is possible only if the
+            management and the organisation members follow a shared vision.
+        (iii) Institutionalise the change – This is an action stage which requires the implementation of
+            the changed strategy. Creating and sustaining a different attitude towards change is essential
+            to ensure that the firm does not slip back into old ways of doing things.
+    (b) Functional structure is widely used because of its simplicity and low cost. A functional structure
+        groups tasks and activities by business function.
+        The functional structure consists of a chief executive officer or a managing director and limited
+        corporate staff with functional line managers in dominant functions such as production, accounting,
+        marketing, R&D, engineering, and human resources. Disadvantages of a functional structure are
+        that it forces accountability to the top, minimizes career development opportunities, etc.
+6.  (a)
+| Strategic planning | Operational planning |
+| --- | --- |
+| Strategic planning shapes the organisation and its resources. | Operational planning deals with current deployment of resources. |
+| Strategic planning assesses the impact of environmental variables. | Operational planning develops tactics rather than strategy. |
+| Strategic planning takes a holistic view of the organisation. | Operational planning projects current operations into the future. |
+| Strategic planning develops overall objectives and strategies. | Operational planning makes modifications to the business functions but not fundamental changes. |
+| Strategic planning is concerned with the long-term success of the organisation. | Operational planning is concerned with the short-term success of the organisation. |
+| Strategic planning is a senior management responsibility. | Operational planning is the responsibility of functional managers. |
+
+    (b) Publicity and Sales promotion are adopted by organizations when they are undertaking promotion
+        in the overall marketing mix.
+        Publicity is a non-personal form of promotion similar to advertising. However, no payments are
+        made to the media as in case of advertising. Organizations skillfully seek to promote themselves
+        and their product without payment. Publicity is communication of a product, brand or business by
+        placing information about it in the media without paying for the time or media space directly.
+        Thus, it is way of reaching customers with negligible cost. Basic tools for publicity are press
+        releases, press conferences, reports, stories, and internet releases. These releases must be of
+        interest to the public.
+        Sales promotion is an omnibus term that includes all activities that are undertaken to promote the
+        business but are not specifically included under personal selling, advertising or publicity. Activities
+        like discounts, contests, money refunds, installments, kiosks, exhibitions and fairs constitute sales
+        promotion. All these are meant to give a boost to the sales. Sales promotion done periodically may
+        help in getting a larger market share to an organization.

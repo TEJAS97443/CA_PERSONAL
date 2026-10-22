@@ -1,0 +1,382 @@
+---
+id: aud.report.companies
+title: Company auditor's reporting under the Companies Act, 2013
+minutes: 32
+needs: aud.report.sa700
+tags: section 143, Rule 11, Report on Other Legal and Regulatory Requirements, fraud reporting, section 143(12), section 143(1), company audit report
+labs:
+summary: What section 143 makes a company's auditor inquire into, state and report: the six inquiries, the section 143(3) and Rule 11 statements, reasons for every "no", CARO and frauds.
+---
+
+## In plain words
+
+### Four extra pages, and who asked for them
+
+Iyer & Associates are drafting the 2025-26 report on Tapri Tea Co. Ltd. The true and fair opinion fills the first pages. Then comes a second heading, "Report on Other Legal and Regulatory Requirements", and four more pages.
+
+> **Kesar:** Lakshmi-ji, I asked for "true and fair". Who ordered the extra pages?
+> **Lakshmi:** Parliament did, Kesar-ji. The Companies Act gives a company's auditor duties of its own.
+> **Bunty:** Ma'am, I have written "we are satisfied" against all six items on the inquiry list.
+> **Lakshmi:** Then you have written six sentences the law never asked for, Bunty.
+
+The law gives a company's auditor three kinds of duty on top of the Standards on Auditing.
+
+**Things to look into, and mention only if something is wrong.** Were the MD's personal bills booked as company expenses? Were shares shown as "allotted for cash" when no cash came in? If all is well, the report says nothing about them.
+
+**Things to state every year, good or bad.** Did the auditor get all the information needed? Are proper books kept? Do the accounts follow the accounting standards? Is any director disqualified? Are internal financial controls adequate? Plus a short list set by the rules (pending litigations, dividends, the software's audit trail and a few more), and, for most companies, a longer government questionnaire, CARO 2020. Every "no" or "yes, but" carries its reasons.
+
+**Frauds.** If the auditor has reason to believe that officers or employees are committing a fraud, a big one (₹1 crore or more) goes to the Central Government, a smaller one to the audit committee or the board.
+
+::: analogy The school-bus fitness check
+The inspector gives one verdict: fit to run. He also fills the transport department's printed checklist (brakes, speed governor, first-aid box), quietly checks under the seats for a few named dangers and writes about them only if he finds one, writes a reason against every "no", and fills an extra form for heavy vehicles. If he finds the driver drunk, he does not just note it in the report: he calls the authorities. Verdict, checklist, quiet checks, reasons, extra form, call: that is the company audit report.
+:::
+
+::: key
+A company's auditor inquires into some matters and speaks only if the answer is adverse; states others every year, with reasons for every negative or qualified answer; and reports frauds by officers or employees outside the report, to the Central Government or to the audit committee or board depending on the amount.
+:::
+
+## How it works
+
+Section 143 of the Companies Act, 2013 contains, inter alia, the reporting requirements of the auditor of a company in the form of duties (SM 8.68). Its sub-sections, in order:
+
+::: diagram Section 143: the auditor's duties
+{"type": "layers", "layers": [{"label": "143(1) Inquire", "note": "six matters; report only an adverse answer", "right": "silent if satisfied"}, {"label": "143(2) Report", "note": "to the members: true and fair view", "right": "every audit"}, {"label": "143(3) State", "note": "matters (a) to (j), Rule 11 included", "right": "every audit"}, {"label": "143(4) Reasons", "note": "for a negative or qualified answer", "right": "when not clean"}, {"label": "143(9) Standards", "note": "comply with the auditing standards", "right": "always"}, {"label": "143(11) CARO", "note": "matters ordered by the Central Government", "right": "companies covered"}, {"label": "143(12) Frauds", "note": "by officers or employees", "right": "outside the report"}], "caption": "Read top to bottom: what the auditor looks into, what the report says, how it says \"no\", and what goes outside the report."}
+:::
+
+### 1. Section 143(1): six matters to inquire into
+
+Under section 143(1), the auditor shall inquire into the following matters (SM 8.68–8.69):
+
+- (a) whether **loans and advances made by the company on the basis of security** have been properly secured and whether the terms on which they have been made are prejudicial to the interests of the company or its members;
+- (b) whether **transactions of the company which are represented merely by book entries** are prejudicial to the interests of the company;
+- (c) where the company not being an investment company or a banking company, whether so much of the assets of the company as consist of **shares, debentures and other securities have been sold at a price less than** that at which they were purchased by the company;
+- (d) whether **loans and advances made by the company have been shown as deposits**;
+- (e) whether **personal expenses have been charged to revenue account**;
+- (f) where it is stated in the books and documents of the company that any **shares have been allotted for cash**, whether cash has actually been received in respect of such allotment, and if no cash has actually been so received, whether the position as stated in the account books and the balance sheet is correct, regular and not misleading.
+
+**How it is reported.** The auditor is ==not required to report on these matters unless he has any special comments to make== on any of them. If he is satisfied as a result of the inquiries, he has no further duty to report that he is so satisfied. So the auditor makes a report to the members only when he finds the answer to any of these matters adverse (SM 8.69).
+
+### 2. Section 143(2): the report to the members
+
+The auditor shall make a report to the **members** on the accounts examined by him and on every financial statement required to be laid before the company in general meeting, taking into account the provisions of the Act, the accounting and auditing standards, and the matters required by the Act, the rules or any order under section 143(11). It states whether, to the best of his information and knowledge, they give a **true and fair view** of the state of the company's affairs at the end of the financial year and of its profit or loss and cash flow for the year, and other matters prescribed under Rule 11 (SM 8.69).
+
+### 3. Section 143(3): what the report shall also state
+
+In terms of section 143(3), the auditor's report shall also state (SM 8.69–8.70):
+
+- (a) whether he has **sought and obtained all the information and explanations** which to the best of his knowledge and belief were necessary for the purpose of his audit and if not, the details thereof and the effect of such information on the financial statements;
+- (b) whether, in his opinion, **proper books of account** as required by law have been kept by the company so far as appears from his examination of those books and proper returns adequate for the purposes of his audit have been received from **branches not visited** by him;
+- (c) whether the report on the accounts of any **branch office** of the company **audited under section 143(8)** by a person other than the company's auditors has been sent to him under the proviso to that sub-section and the manner in which he has dealt with it in preparing his report;
+- (d) whether the company's balance sheet and profit and loss account dealt with in the report are **in agreement with the books** of account and returns;
+- (e) whether, in his opinion, the financial statements **comply with the accounting standards**;
+- (f) the **observations or comments** of the auditors on financial transactions or matters which have any **adverse effect on the functioning** of the company;
+- (g) whether any **director is disqualified** from being appointed as a director under section 164(2);
+- (h) any **qualification, reservation or adverse remark** relating to the maintenance of accounts and other matters connected therewith;
+- (i) whether the company has adequate **internal financial controls** with reference to financial statements in place and the operating effectiveness of such controls;
+- (j) such **other matters as are prescribed in Rule 11** of the Companies (Audit and Auditors) Rules, 2014.
+
+Clause (i) does not apply to a private company which is a One Person Company, a small company, or a company having turnover less than ₹50 crore as per its latest audited financial statements and aggregate borrowings from banks, financial institutions or any body corporate at any point of time during the financial year less than ₹25 crore (SM 8.70). The exemption, the Annexure A report and who else answers for these controls are in [[aud.evid.ifc|internal financial controls]].
+
+::: warning
+The small company limits in section 2(85), which this exemption and CARO 2020 rely on, were raised to paid-up capital not exceeding ₹10 crore and turnover not exceeding ₹100 crore by notification G.S.R 880(E) dated 1 December 2025. ICAI lists this under Paper 2; Paper 5 answers follow the Study Material, which gives no figures. Verify against the Study Material and Statutory Update for your attempt.
+:::
+
+### 4. Rule 11: the six other matters
+
+Rule 11 requires the report to state (SM 8.71–8.72):
+
+- (a) whether the company has **disclosed the impact, if any, of pending litigations** on its financial position in its financial statements;
+- (b) whether the company has made provision, as required under any law or accounting standards, for **material foreseeable losses**, if any, on **long term contracts including derivative contracts**;
+- (c) whether there has been any **delay in transferring amounts** required to be transferred to the **Investor Education and Protection Fund**;
+- (d) (i) whether the management has represented that, to the best of its knowledge and belief, other than as disclosed in the notes to the accounts, no funds have been advanced or loaned or invested (either from borrowed funds or share premium or any other sources or kind of funds) by the company to or in any other person(s) or entity(ies), including foreign entities ("**Intermediaries**"), with the understanding, whether recorded in writing or otherwise, that the Intermediary shall, whether directly or indirectly, lend or invest in other persons or entities identified in any manner whatsoever by or on behalf of the company ("**Ultimate Beneficiaries**") or provide any guarantee, security or the like on behalf of the Ultimate Beneficiaries; (ii) whether the management has represented that, to the best of its knowledge and belief, other than as disclosed in the notes to the accounts, no funds have been received by the company from any person(s) or entity(ies), including foreign entities ("**Funding Parties**"), with the understanding, whether recorded in writing or otherwise, that the company shall, whether directly or indirectly, lend or invest in other persons or entities identified in any manner whatsoever by or on behalf of the Funding Party ("Ultimate Beneficiaries") or provide any guarantee, security or the like on behalf of the Ultimate Beneficiaries; and (iii) based on such audit procedures that the auditor has considered reasonable and appropriate in the circumstances, nothing has come to their notice that has caused them to believe that the representations under (i) and (ii) contain any material misstatement;
+- (e) whether the **dividend declared or paid** during the year is in compliance with **section 123**;
+- (f) whether the company has used such accounting software for maintaining its books of account which has a feature of recording **audit trail (edit log)** facility and the same has been operated throughout the year for all transactions recorded in the software and the audit trail feature has not been tampered with and the audit trail has been preserved by the company as per the statutory requirements for record retention.
+
+### 5. Reasons, standards and the Central Government's order
+
+- **Section 143(4)**: where any of the matters required to be included in the audit report is answered in the **negative or with a qualification**, the report shall state the **reasons** for it (SM 8.72).
+- **Section 143(9)**: every auditor shall comply with the auditing standards (SM 8.72).
+- **Section 143(11)**: the Central Government may, in consultation with the National Financial Reporting Authority, by general or special order, direct that for a specified class of companies the auditor's report shall also include a statement on specified matters. The Companies (Auditor's Report) Order, 2020 is notified under it: see [[aud.report.caro|CARO 2020]] (SM 8.72).
+
+### 6. Section 143(12): reporting on frauds
+
+As per section 143(12) read with Rule 13 of the Companies (Audit and Auditors) Rules, 2014 (SM 8.72–8.73):
+
+- **To the Central Government**: if the auditor, in the course of the performance of his duties as auditor, has **reason to believe** that an offence of fraud, which involves or is expected to involve **individually an amount of ₹1 crore or above**, is being or has been committed in the company **by its officers or employees**, he shall report the matter to the Central Government within such time and in such manner as prescribed.
+- **To the audit committee or Board**: for a fraud involving **less than ₹1 crore**, the auditor shall report the matter to the audit committee constituted under section 177, or to the Board in other cases, within such time and in such manner as prescribed.
+- The auditor also reports frauds under clause (xi) of paragraph 3 of CARO 2020.
+
+::: diagram Section 143(12): where a fraud report goes
+{"type": "flow", "w": 420, "nodes": [{"id": "s", "kind": "start", "label": "Reason to believe\na fraud is committed"}, {"id": "d1", "kind": "decision", "label": "By officers\nor employees?"}, {"id": "n", "kind": "end", "label": "No 143(12) report", "color": "mute"}, {"id": "d2", "kind": "decision", "label": "₹1 crore or\nmore, singly?"}, {"id": "cg", "kind": "end", "label": "Central\nGovernment", "color": "d"}, {"id": "d3", "kind": "decision", "label": "Audit committee\nunder s 177?"}, {"id": "ac", "kind": "end", "label": "Audit\ncommittee", "color": "c"}, {"id": "bd", "kind": "end", "label": "The Board", "color": "c"}], "edges": [["s", "d1"], ["d1", "n", "no"], ["d1", "d2", "yes"], ["d2", "cg", "yes"], ["d2", "d3", "no"], ["d3", "ac", "yes"], ["d3", "bd", "no"]], "caption": "Orange: report to the Central Government (a fraud that involves or is expected to involve ₹1 crore or above, individually); amber: report to the audit committee or Board (less than ₹1 crore); grey: no section 143(12) report. Where CARO applies, every case is also reported under clause (xi), which is wider: any fraud by or on the company noticed or reported during the year."}
+:::
+
+::: warning
+The auditor's fraud report to the Central Government is in Form ADT-4 (CARO clause (xi)(b), SM 8.80). Notification G.S.R 359(E), effective 14 July 2025, requires it to be filed electronically in form ADT-4; ICAI lists this under Paper 2, and Paper 5 answers follow the Study Material. Verify against the Study Material and Statutory Update for your attempt.
+:::
+
+## Formats and formulas
+
+### The "Report on Other Legal and Regulatory Requirements"
+
+ICAI's illustrative report on a listed company (SM 8.31–8.33) puts the Companies Act reporting under its own heading, after the Report on the Audit of the Financial Statements. Its order:
+
+::: diagram What the legal section contains, in order
+{"type": "nest", "w": 420, "root": {"title": "Report on Other Legal and Regulatory Requirements", "color": "mute", "mono": false, "children": [{"title": "CARO 2020", "note": "s 143(11)", "color": "d", "mono": false, "lines": ["statement in the Annexure", "paragraphs 3 and 4"]}, {"title": "As required by s 143(3)", "color": "a", "mono": false, "lines": ["(a) information obtained", "(b) books; branch returns", "(c) branch auditors' reports", "(d) agreement with books", "(e) accounting standards", "(f) adverse observations", "(g) directors not disqualified", "(h) remarks on accounts", "(i) IFC: Annexure A"]}, {"title": "(j) Rule 11", "color": "g", "mono": false, "lines": ["(1) pending litigations", "(2) foreseeable losses", "(3) IEPF transfers", "(4) intermediaries", "(5) dividend, s 123", "(6) audit trail"]}]}, "caption": "Orange: the CARO paragraph comes first; blue: the section 143(3) statements; green: the Rule 11 matters, reported under clause (j)."}
+:::
+
+*Reproduce this wording from memory.* The clean-report wording (SM 8.31–8.33):
+
+1. As required by the Companies (Auditor's Report) Order, 2020 ("the Order"), issued by the Central Government of India in terms of sub-section (11) of section 143 of the Companies Act, 2013, we give in the Annexure a statement on the matters specified in paragraphs 3 and 4 of the Order, to the extent applicable.
+2. As required by Section 143(3) of the Act, we report that:
+   - (a) We have sought and obtained all the information and explanations which to the best of our knowledge and belief were necessary for the purposes of our audit.
+   - (b) In our opinion, proper books of account as required by law have been kept by the Company so far as it appears from our examination of those books [and proper returns adequate for the purposes of our audit have been received from the branches not visited by us].
+   - (c) [The reports on the accounts of the branch offices of the Company audited under Section 143(8) of the Act by branch auditors have been sent to us and have been properly dealt with by us in preparing this report.]
+   - (d) The Balance Sheet, the Statement of Profit and Loss, and the Cash Flow Statement dealt with by this Report are in agreement with the books of account [and with the returns received from the branches not visited by us].
+   - (e) In our opinion, the aforesaid standalone financial statements comply with the Accounting Standards specified under Section 133 of the Act, read with Rule 7 of the Companies (Accounts) Rules, 2014.
+   - (f) We do not have any observation or comment on the financial statements or matters which have any adverse effect on the functioning of the company.
+   - (g) On the basis of the written representations received from the directors as on 31st March, 20XX taken on record by the Board of Directors, none of the directors is disqualified as on 31st March, 20XX from being appointed as a director in terms of Section 164(2) of the Act.
+   - (h) We do not have any qualification, reservation or adverse remark relating to the maintenance of accounts and other matters connected herewith.
+   - (i) With respect to the adequacy of the internal financial controls over financial reporting of the Company and the operating effectiveness of such controls, refer to our separate Report in "Annexure A".
+   - (j) With respect to the other matters to be included in the Auditor's Report in accordance with Rule 11 of the Companies (Audit and Auditors) Rules, 2014, in our opinion and to the best of our information and according to the explanations given to us:
+     - (1) The Company has disclosed the impact of pending litigations on its financial position in its financial statements – Refer Note XX to the financial statements;
+     - (2) The Company has made provision, as required under the applicable law or accounting standards, for material foreseeable losses, if any, on long-term contracts including derivative contracts – Refer Note XX to the financial statements;
+     - (3) There has been no delay in transferring amounts, required to be transferred, to the Investor Education and Protection Fund by the Company.
+     - (4) (i) and (ii) The management's representations on Intermediaries and on Funding Parties, worded as in Rule 11(d) above but beginning "The management has represented that …"; (iii) Based on such audit procedures that we have considered reasonable and appropriate in the circumstances, nothing has come to our notice that has caused us to believe that the representations under sub-clause (i) and (ii) contain any material mis-statement.
+     - (5) The dividend declared or paid during the year by the company is in compliance with section 123 of the Companies Act, 2013.
+     - (6) The company has used such accounting software for maintaining its books of account which has a feature of recording audit trail (edit log) facility and the same has been operated throughout the year for all transactions recorded in the software and the audit trail feature has not been tampered with and the audit trail has been preserved by the company as per the statutory requirements for record retention.
+
+Square brackets mark "where applicable" wording. ICAI also gives alternative versions, as may be applicable: the Company does not have any pending litigations which would impact its financial position; did not have any long-term contracts including derivative contracts for which there were any material foreseeable losses; "following are the instances of delay in transferring amounts …" to the Fund; or there were no amounts required to be transferred to the Fund (SM 8.32).
+
+## Worked examples
+
+:::: example Bunty's six "satisfied" sentences
+During the 2025-26 audit of Tapri Tea Co. Ltd, Bunty finds that ₹6.80 lakh of Kesar's family holiday in Goa has been booked as "business promotion", and that an advance of ₹2 crore given to a dealer, Malwa Chai Distributors, is shown under "Deposits". The other matters under section 143(1) raise no concern. Bunty's draft report says: "We have inquired into the matters specified in section 143(1) and are satisfied with each of them."
+
+Comment on Bunty's draft and advise how Iyer & Associates should deal with the matters.
+
+::: answer Model answer
+**Relevant provision.** Under section 143(1) of the Companies Act, 2013, the auditor shall inquire into, among other matters, whether loans and advances made by the company have been shown as deposits and whether personal expenses have been charged to revenue account. The auditor is not required to report on these matters unless he has any special comments to make on any of them; if he is satisfied as a result of the inquiries, he has no further duty to report that he is so satisfied. He should make a report to the members if he finds the answer to any of these matters adverse.
+
+**Facts of the case.** Kesar's personal holiday of ₹6.80 lakh is charged to revenue as business promotion; an advance of ₹2 crore to a dealer is shown as a deposit; the other four matters are satisfactory.
+
+**Analysis.** The answers to clauses (d) and (e) are adverse, so the auditor has special comments to make and must report them to the members. "Satisfied with each of them" is wrong for these two and unnecessary for the other four, on which the law requires no statement of satisfaction. Both items are also misstatements to be evaluated for their effect on the opinion under [[aud.report.sa705|SA 705]] if uncorrected.
+
+**Conclusion.** Bunty's sentence should be deleted. The report should state that personal expenses of ₹6.80 lakh have been charged to revenue account and that advances of ₹2 crore have been shown as deposits, and say nothing about the four satisfactory matters.
+:::
+::::
+
+::::: example The potato kickback and the fuel claims
+While auditing Tapri for 2025-26, Lakshmi has reason to believe that three offences of fraud are being committed by Tapri's employees:
+
+(i) The purchase manager of the samosa factory approves a potato supplier's bills at rates above the contract rate and shares the excess with him. The excess paid so far is ₹85 lakh; at the present rate it is expected to reach ₹1.40 crore before the contract ends.
+
+(ii) A café manager in Pune has skimmed ₹18 lakh of cash sales.
+
+(iii) Two fleet supervisors, acting separately, have inflated fuel claims by ₹46 lakh and ₹58 lakh.
+
+Tapri, a listed company, has an audit committee constituted under section 177. State the reporting responsibilities of Iyer & Associates under the Companies Act, 2013 and CARO 2020.
+
+:::: answer Model answer
+**Relevant provision.** As per section 143(12) of the Companies Act, 2013 read with Rule 13 of the Companies (Audit and Auditors) Rules, 2014, if an auditor, in the course of the performance of his duties as auditor, has reason to believe that an offence of fraud, which involves or is expected to involve individually an amount of ₹1 crore or above, is being or has been committed in the company by its officers or employees, the auditor shall report the matter to the Central Government within such time and in such manner as prescribed. In case of a fraud involving less than ₹1 crore, the auditor shall report the matter to the audit committee constituted under section 177, or to the Board in other cases. Clause (xi) of paragraph 3 of CARO 2020 requires the frauds noticed or reported during the year, the filing of any section 143(12) report in Form ADT-4, and the whistle-blower complaints considered, to be reported.
+
+**Facts and analysis.**
+
+| Fraud | Amount (₹) | Test | Report to |
+|---|---|---|---|
+| Potato over-rate kickback | 85 lakh paid; 1.40 crore expected | Expected ≥ ₹1 crore | Central Government |
+| Pune cash skimming | 18 lakh | Below ₹1 crore | Audit committee |
+| Fuel claims, A | 46 lakh | Each below ₹1 crore | Audit committee |
+| Fuel claims, B | 58 lakh | Each below ₹1 crore | Audit committee |
+
+The potato fraud has involved only ₹85 lakh so far, but it is **expected to involve** ₹1.40 crore, so it crosses the threshold. The two fuel frauds total ₹1.04 crore, but the threshold applies **individually** to each offence, and each is below ₹1 crore.
+
+**Conclusion.** Iyer & Associates should report the potato fraud to the Central Government, and the cash skimming and the two fuel-claim frauds to Tapri's audit committee, each within the time and in the manner prescribed. Under CARO clause (xi), they should state the nature and amount of each fraud noticed during the year, whether a report under section 143(12) has been filed by them in Form ADT-4 with the Central Government (here, for the potato fraud), and whether they have considered the whistle-blower complaints, if any, received during the year.
+::::
+:::::
+
+:::: example Drafting Rule 11 for a year that was not clean
+Iyer & Associates must draft the paragraph under section 143(3)(j) of Tapri's 2025-26 report. The facts:
+
+1. A GST demand of ₹4.20 crore is under appeal; Note 36 discloses it as a contingent liability.
+2. Tapri has forward exchange contracts for imported cardamom; Note 41 shows the provision made for material foreseeable losses on them.
+3. Unpaid dividend of ₹3.10 lakh, due for transfer to the Investor Education and Protection Fund on 14 November 2025, was transferred on 9 February 2026.
+4. Management has given the representations on Intermediaries and Funding Parties; the procedures performed have brought nothing to notice.
+5. The interim dividend declared in October 2025 complies with section 123.
+6. The audit trail (edit log) feature of the accounting software was switched off from 1 to 21 June 2025 during an ERP upgrade, and the log for that period does not exist.
+
+Draft the statements required and state what section 143(4) adds.
+
+::: answer Model answer
+**Relevant provision.** Section 143(3)(j) requires the auditor's report to state the other matters prescribed in Rule 11 of the Companies (Audit and Auditors) Rules, 2014, in the order drafted below. Under section 143(4), where any matter required to be included in the report is answered in the negative or with a qualification, the report shall state the reasons for it.
+
+**Draft.** With respect to the other matters to be included in the Auditor's Report in accordance with Rule 11 of the Companies (Audit and Auditors) Rules, 2014, in our opinion and to the best of our information and according to the explanations given to us:
+
+1. The Company has disclosed the impact of pending litigations on its financial position in its financial statements – Refer Note 36 to the financial statements.
+2. The Company has made provision, as required under the applicable law or accounting standards, for material foreseeable losses, if any, on long-term contracts including derivative contracts – Refer Note 41 to the financial statements.
+3. The following is the instance of delay in transferring amounts required to be transferred to the Investor Education and Protection Fund by the Company: unpaid dividend of ₹3.10 lakh, due for transfer on 14 November 2025, was transferred on 9 February 2026, a delay of 87 days.
+4. (i) and (ii) The management has made the representations on Intermediaries, Funding Parties and Ultimate Beneficiaries; (iii) based on such audit procedures as we considered reasonable and appropriate in the circumstances, nothing has come to our notice that has caused us to believe that these representations contain any material mis-statement.
+5. The dividend declared or paid during the year by the Company is in compliance with section 123 of the Companies Act, 2013.
+6. The Company has used accounting software for maintaining its books of account which has a feature of recording audit trail (edit log) facility; however, the feature was not operated from 1 June 2025 to 21 June 2025 (21 days) during the upgrade of the software, so the audit trail was not operated throughout the year for all transactions recorded in the software and has not been preserved for that period.
+
+**Section 143(4).** Items 3 and 6 are answered in the negative, so the report states the reasons, as drafted: the late transfer with its dates, and the ERP upgrade during which the audit trail was not operated.
+:::
+::::
+
+## Under the hood
+
+### Where the Act meets the Standards on Auditing
+
+A report whose layout is prescribed by law refers to the Standards on Auditing only if it contains SA 700's minimum elements (SM 8.24–8.25; [[aud.report.sa700|SA 700]]). In ICAI's illustrative report the Act also shows inside the SA sections: the audit was conducted under the Standards on Auditing "specified under section 143(10)", and the auditor's responsibilities include the section 143(3)(i) opinion on internal financial controls (SM 8.27, 8.29).
+
+### Branches, banks and government companies
+
+- **Branches.** The branch auditor under section 143(8) sends his report to the company's auditor, who deals with it as he considers necessary (hence clauses (b) to (d)); the duty to report fraud extends to the branch auditor for his branch (SM 8.63). See [[aud.report.branch|branch audit]].
+- **Banking companies.** The auditor of a banking company also states in his report the matters covered by section 143, but CARO 2020 does not apply to a banking company (SM 10.14). See [[aud.bank.auditor|the bank auditor's report]].
+- **Government companies.** Section 143(5) to (7) let the Comptroller and Auditor-General of India appoint the auditor and direct the audit, conduct a supplementary audit and comment, and order a test audit (SM 9.19–9.20). See [[aud.entities.govt|government audit]].
+
+### What the Study Material leaves out
+
+ICAI's MTP September 2024 Series II Q5(a) opened with the rest of section 143(1): the auditor's access to the books of account and vouchers and his right to require information and explanations from the officers. The Study Material lists only the six inquiries. Older-scheme fraud answers (December 2021 Q6(a), May 2023 Q5(b)) went into Rule 13 timelines and the Board's report; the current Study Material gives the ₹1 crore threshold and the two destinations, so learn those exactly.
+
+## Exam angle
+
+::: exam Where this topic appeared
+In the new-scheme ICAI documents read for this lesson, section 143 was examined directly in five:
+
+- **Section 143(1), list the inquiries, 5 marks**: MTP September 2024 Series II Q5(a); MTP September 2025 Series I Q4(a), which quoted "not required to report … unless he has any special comments" and asked for the matters.
+- **The section 143(3)(i) exemption for private companies, 2 marks**: September 2025 Q3(a)(i), answered with the One Person Company, small company and ₹50 crore / ₹25 crore conditions.
+- **Rule 11 other matters, 5 marks**: September 2026 Q3(a), "Discuss the other matters (excluding the above) on which the auditor is required to report under Section 143(3)(j)", the intermediaries representation being given as "the above" (answers not yet published).
+- **A case through Rule 11, 4 marks**: January 2025 Q4(c), a pending appeal before a telecom tribunal; ICAI's answer combined SA 501, SA 706 and the statement on whether the company has disclosed the impact of pending litigations.
+
+Old-scheme papers asked the same: Rule 11 matters (December 2021 Q5(d), 3 marks), the audit trail statement (November 2023 Q2(d), 3 marks), fraud reporting of ₹25 lakh (May 2023 Q5(b), 4 marks), and "an auditor has to report on the matters in section 143(1)" as a true-or-false statement (RTP November 2022; MTP May 2022 Series I), answered **incorrect**.
+:::
+
+::: exam How the marks are earned
+ICAI's answers to list questions give the Act's matters in its order and words. In cases they quote the provision, apply it and state what to report and to whom. Phrases that carry marks: "special comments", "reason to believe", "involves or is expected to involve individually", "officers or employees", "answered in the negative or with a qualification".
+:::
+
+::: trick Inquire, state, explain, report
+**143(1)** inquire (silent if satisfied); **143(2)** and **143(3)** state (every year); **143(4)** explain (reasons for every "no"); **143(12)** report a fraud outside the report. Condition: 143(3)(i) on internal financial controls has its private-company exemption, and CARO only covers the companies the Order covers.
+:::
+
+## Answer frame
+
+### "State the matters the auditor must inquire into under section 143(1)"
+
+Write the six matters (a) to (f) in the Act's words and order, then the reporting rule: no report unless special comments; no statement of satisfaction; report to the members when an answer is adverse.
+
+### A case question on section 143
+
+1. **Relevant provision**: the sub-section in the Act's words (143(1), 143(3) with Rule 11, or 143(12)).
+2. **Facts of the case**: the facts that decide it, with amounts and dates.
+3. **Analysis**: adverse answer or not; above or below ₹1 crore, individually; negative answer needing reasons.
+4. **Conclusion**: what the report states, or to whom the fraud is reported, plus the CARO clause if asked.
+
+### "Distinguish section 143(1) from section 143(3)"
+
+| Point | Section 143(1) | Section 143(3) |
+|---|---|---|
+| Duty | Inquire into six matters | State matters (a) to (j) |
+| Reporting | Only special comments, when an answer is adverse | Every year, favourable or not |
+| Satisfaction | No duty to say "satisfied" | A statement on each matter |
+| Examples | Personal expenses; loans shown as deposits | Proper books; directors; IFC; Rule 11 |
+
+## Common mistakes
+
+::: mistake Hall of Shame: the six "we are satisfied" sentences
+Bunty reports every section 143(1) matter. **Fix:** inquire into all six; report only the adverse ones, as special comments. Saying "satisfied" is not required.
+:::
+
+::: mistake The two small frauds that became one big one
+Adding two separate ₹46 lakh and ₹58 lakh frauds and reporting ₹1.04 crore to the Central Government. **Fix:** the ₹1 crore test is applied individually, to each offence; and an amount the fraud is *expected* to reach counts.
+:::
+
+::: mistake Putting CARO clauses in section 143(3)
+Writing "whether the company has an internal audit system" or "statutory dues" as a section 143(3) or Rule 11 matter. **Fix:** those are CARO 2020 clauses (xiv) and (vii). Rule 11 has six matters only: litigations, foreseeable losses, IEPF, intermediaries, dividend, audit trail.
+:::
+
+::: mistake Reporting the internal financial controls of every company
+**Fix:** section 143(3)(i) does not apply to the exempt private companies (One Person Company, small company, or turnover below ₹50 crore with borrowings below ₹25 crore).
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. While auditing Ujjain Kulhad Works Ltd, CA Meera Joshi has reason to believe that its sales head is diverting cash collections in a fraud expected to involve exactly ₹1 crore. The company has an audit committee constituted under section 177. To whom must she report under section 143(12)?
+- [ ] The audit committee, because the amount is not above ₹1 crore
+- [ ] The Board of Directors
+- [x] The Central Government
+- [ ] Nobody; it is disclosed only under CARO clause (xi)
+> The threshold is "₹1 crore or above", and an amount the fraud is expected to involve counts. Exactly ₹1 crore goes to the Central Government; only less than ₹1 crore goes to the audit committee.
+
+Q: Which statement about section 143(1) is correct?
+- [ ] The auditor must state in the report that he is satisfied with each of the six matters
+- [x] The auditor reports on these matters only when he has special comments, that is, when an answer is adverse
+- [ ] The matters are reported in the CARO annexure
+- [ ] The inquiry is needed only for listed companies
+> The auditor inquires into all six but has no duty to say he is satisfied; he reports to the members when an answer is adverse.
+
+Q: Which of these are matters the auditor's report must state under section 143(3)? Select all that apply.
+- [x] Whether any director is disqualified under section 164(2)
+- [ ] Whether personal expenses have been charged to revenue account
+- [x] Whether, in the auditor's opinion, the financial statements comply with the accounting standards
+- [ ] Whether loans and advances have been shown as deposits
+- [x] Whether proper books of account as required by law have been kept
+> Personal expenses and loans shown as deposits are section 143(1) inquiries, reported only when adverse.
+
+Q: Case scenario. Iyer & Associates list the Rule 11 matters for Tapri's report. Which of the following is NOT a Rule 11 matter?
+- [ ] Delay in transferring amounts to the Investor Education and Protection Fund
+- [ ] Use and preservation of an audit trail (edit log) in the accounting software
+- [x] Whether the company has an internal audit system commensurate with the size and nature of its business
+- [ ] Compliance of the dividend declared or paid with section 123
+> The internal audit system is CARO 2020 clause (xiv). Rule 11 covers litigations, foreseeable losses, IEPF, intermediaries, dividend and audit trail.
+
+Q: Under section 143(4), what must the report contain when a matter is answered in the negative or with a qualification?
+- [ ] A disclaimer of opinion
+- [x] The reasons for the negative or qualified answer
+- [ ] A separate report to the Central Government
+- [ ] Nothing more; the negative answer is enough
+> Section 143(4) requires the reasons. Whether the opinion itself is modified is decided separately under SA 705.
+:::
+
+## Recap
+
+- Section 143(1): inquire into six matters (secured loans, book entries, securities sold below cost, loans shown as deposits, personal expenses, shares allotted for cash); report only special comments.
+- Section 143(2): report to the members whether the financial statements give a true and fair view of the state of affairs, profit or loss and cash flow.
+- Section 143(3): (a) information, (b) books and branch returns, (c) branch reports, (d) agreement with books, (e) accounting standards, (f) adverse effects, (g) directors under 164(2), (h) remarks on accounts, (i) IFC, (j) Rule 11.
+- Rule 11: pending litigations, foreseeable losses, IEPF delay, intermediaries representations, dividend under section 123, audit trail.
+- Section 143(4): reasons for every negative or qualified answer; 143(9): comply with auditing standards; 143(11): CARO 2020.
+- Section 143(12): fraud by officers or employees, ₹1 crore or above individually (or expected), to the Central Government; less, to the audit committee or Board; also CARO clause (xi).
+- In the report: a separate "Report on Other Legal and Regulatory Requirements": CARO annexure, then 143(3) (a) to (j). (The bus inspector calls the authorities, not just the newspaper.)
+
+## Flashcards
+
+Q:: Section 143(1): which six matters must the auditor inquire into?
+A:: (a) Loans and advances on security properly secured and terms not prejudicial; (b) book-entry transactions prejudicial; (c) securities sold below purchase price (not investment or banking company); (d) loans and advances shown as deposits; (e) personal expenses charged to revenue; (f) shares allotted for cash where cash not received.
+
+Q:: Section 143(1): must the auditor report that he is satisfied?
+A:: No. He reports only if he has special comments, that is, when an answer is adverse; if satisfied, he has no further duty to report so.
+
+Q:: Section 143(3)(a) to (e): what does the report state?
+A:: (a) all information and explanations sought and obtained; (b) proper books kept and branch returns received; (c) branch auditor's report received and how dealt with; (d) statements agree with books and returns; (e) compliance with accounting standards.
+
+Q:: Section 143(3)(f) to (j): what does the report state?
+A:: (f) observations on matters adversely affecting the functioning of the company; (g) any director disqualified under section 164(2); (h) qualification, reservation or adverse remark on maintenance of accounts; (i) adequacy and operating effectiveness of IFC; (j) Rule 11 matters.
+
+Q:: Rule 11: which six other matters does the auditor's report state?
+A:: Impact of pending litigations disclosed; provision for material foreseeable losses on long term contracts including derivatives; delay in transfers to IEPF; representations on Intermediaries, Funding Parties and Ultimate Beneficiaries; dividend in compliance with section 123; audit trail (edit log) used, operated, not tampered with and preserved.
+
+Q:: Section 143(4): what does it require?
+A:: Where any matter required in the report is answered in the negative or with a qualification, the report shall state the reasons.
+
+Q:: Section 143(12): when does the auditor report a fraud to the Central Government?
+A:: When he has reason to believe that a fraud involving or expected to involve individually ₹1 crore or above is being or has been committed in the company by its officers or employees.
+
+Q:: Section 143(12): where does a fraud of less than ₹1 crore go?
+A:: To the audit committee constituted under section 177, or to the Board in other cases.
+
+Q:: Section 143(11): what does it empower?
+A:: The Central Government, in consultation with NFRA, may order that the auditor's report of specified classes of companies include a statement on specified matters: CARO 2020.
+
+Q:: Section 143(3)(i): which companies are exempt from reporting on internal financial controls?
+A:: A private company that is a One Person Company, or a small company, or has turnover below ₹50 crore (latest audited statements) and aggregate borrowings from banks, FIs or any body corporate at any point of time during the year below ₹25 crore.

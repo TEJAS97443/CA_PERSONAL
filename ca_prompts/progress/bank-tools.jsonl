@@ -1,0 +1,6 @@
+{"t": 1792470908.140864, "step": "start", "note": "reading ICAI_BANK.md and check.py"}
+{"t": 1792492033.257449, "step": "qnums", "note": "past-paper Question N once + heading-page check + qno label rule"}
+{"t": 1792492033.320516, "step": "cases", "note": "case labels, part: numbers, furniture, running heads, page numbers"}
+{"t": 1792492033.377495, "step": "ligatures", "note": "ligature map in word check (kept a transcriber's identical fix)"}
+{"t": 1792498194.642393, "step": "verify", "note": "194/194 checked pass, no new fails; flags 3210->674; mutation 2264 errors"}
+{"t": 1792498243.0746932, "step": "report", "note": "report written; 194/194 checked pass"}

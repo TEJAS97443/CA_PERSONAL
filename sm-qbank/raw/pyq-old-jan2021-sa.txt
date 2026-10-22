@@ -1,0 +1,709 @@
+ PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                 SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                               Question No. 1 is compulsory.
+                          Answer any five questions from the rest.
+Question 1
+(a) Write a short note on Extraction- Transformation-Load (ETL).                   (3 Marks)
+(b) What is virtual memory? How does it differ from secondary memory?              (2 Marks)
+Answer
+(a) Extraction-Transformation-Load (ETL)
+        The concept of the data warehouse includes the process of extraction of data from
+         one or more of the organization’s databases, its transformation into an appropriate
+         form using different techniques like smoothing, aggregation, normalization etc. and
+         loading into the data warehouse which is itself another database for storage and
+         analysis.
+        For ETL to be performed on a data, a data warehouse should be designed so that it
+         meets the following criteria:
+         o    It uses non-operational data which means that the data warehouse is using a
+              copy of data from the active databases that the company uses in its day -to-day
+              operations.
+         o    The data is time-variant which means a time-stamp is received whenever data
+              is loaded into the data warehouse.
+         o    The data is to be standardized in case the data in a data warehouse comes from
+              different sources and does not use the same definitions or units.
+        For example, the Events table in Student Clubs database lists the event dates using
+         the mm/dd/yyyy format (e.g. 01/10/2013) whereas a table in another database might
+         use the format yy/mm/dd (e.g.13/01/10) for dates. For the data warehouse to match
+         up dates, a standard date format would have to be agreed upon and all data loaded
+         into the data warehouse would have to be transformed to use this stan dard format
+         before its loading into the database for storage.
+(b) Virtual Memory
+        Virtual Memory is not a separate device but an imaginary memory area supported by
+         some operating systems (for example, Windows) in conjunction with the hardware. If
+         a computer lacks in required size of the Random-Access Memory (RAM) needed to
+         run a program or operation, Windows uses virtual memory to compensate.
+2                  INTERMEDIATE (NEW) EXAMINATION: JANUARY 2021
+
+
+         Virtual memory is an allocation of temporary space on hard disk space to help RAM.
+          When RAM runs low, virtual memory moves data from RAM to a space called a paging
+          file. Moving data to and from the paging file frees up RAM to complete its work.
+     Differences between Virtual Memory and Secondary Memory are given below:
+         Virtual Memory                           Secondary Memory
+         Virtual Memory is an imaginary memory    Secondary memory is a storage device
+         area that combines computer’s RAM with   having features of non-volatility (contents
+         temporary space on the hard disk.        are permanent in nature), greater
+                                                  capacity (they are available in large size),
+                                                  and greater economy.
+         When RAM runs low, virtual memory The secondary memory is available in
+         moves data from RAM to a space called bigger sizes; thus program and data can
+         a paging file. Moving data to and from the be stored permanently.
+         paging file frees up RAM to complete its
+         work.
+Question 2
+(a) The Goods and Service Tax (GST) rate in India for various goods and services is divided
+    broadly under 4 categories, draw a flowchart to compute Goods and Service Tax for the
+    goods manufactured as per table below.
+              Category (K)               Rate
+                   A                      5%
+                   B                     12%
+                   C                     18%
+                   D                     28%
+                                                                                     (6 Marks)
+(b) Information systems have set high hopes to companies for their growth as it reduces
+    processing speed and helps in cutting cost. Being an auditor of ABC manufacturing
+    company, discuss the key areas that should pay attention to while evaluating Managerial
+    controls by top management.                                                   (4 Marks)
+Answer
+(a) Abbreviations used in flowchart are as follows:
+     K: category for various goods and services
+     PA, PB, PC, PD: Price of goods manufactured under categories A, B, C and D respectively.
+     Tax: Goods and Services tax
+    PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                   3
+
+
+This flowchart is based on the assumption that the Price value (P A, PB, PC, PD) may vary
+depending upon the category of Goods manufactured (A, B, C and D) respectively.
+
+
+            Start
+
+
+
+         Read K
+
+
+
+
+            If K=A?                    Read PA             Tax=PA*0.05
+                          Yes
+                  No
+
+            If K=B?                    Read PB
+                           Yes                           Tax=PB*0.12
+
+
+
+                No
+
+
+
+
+            If K=C?                       Read PC           Tax=PC*0.18
+                                 Yes
+                    No
+
+
+             Read PD                                      Tax=PD*0.28
+
+
+
+
+                                                                           PrintTax
+
+
+
+
+                                                                             Stop
+4                  INTERMEDIATE (NEW) EXAMINATION: JANUARY 2021
+
+
+Alternate Presentation
+This flowchart is based on the assumption that the Price value V is same for all the Goods
+manufactured (A, B, C and D) irrespective of their category.
+Abbreviations used in flowchart are as follows:
+K: Category for various goods and services
+V: Price of goods manufactured.
+GST: Goods and Services tax
+                                                                   Start
+
+
+
+                                                               Input V, K
+
+
+
+
+                              GST=V*0.05                       If K = A?
+                                                   Yes
+
+                                                                      No
+
+                              GST=V*0.12                       If K = B?
+                                                   Yes
+
+                                                                          No
+
+                             GST=V*0.18                       If K = C?
+                                                   Yes
+
+                                                                      No
+                                                           GST=V*0.28
+
+
+
+                                                           Print/Display GST
+
+
+
+                                                               Stop
+     PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                              5
+
+
+(b) The key areas that auditors should pay attention to while evaluating Managerial controls
+    are as follows:
+     (i)   Planning: Auditors need to evaluate whether top management has formulated a high-
+           quality information system’s plan that is appropriate to the needs of an organization
+           or not. A poor-quality information system is ineffective and inefficient leading to losing
+           of its competitive position within the marketplace.
+     (ii) Organizing: Auditors should be concerned about how well top management acquires
+          and manages staff resources.
+     (iii) Leading: Generally, the auditors examine variables that often indicate when
+           motivation problems exist or suggest poor leadership – for example, staff turnover
+           statistics, frequent failure of projects to meet their budget and absenteeism level to
+           evaluate the leading function. Auditors may use both formal and informal sources of
+           evidence to evaluate how well top managers communicate with their staff.
+     (iv) Controlling: Auditors should focus on subset of the control activities that should be
+          performed by top management – namely, those aimed at ensuring that the information
+          systems function accomplishes its objectives at a global level. Auditors must evaluate
+          whether top management’s choice to the means of control over the users of IS
+          services is likely to be effective or not.
+Question 3
+(a) Explain the concept of green computing. How will you develop a sustainable green
+    computing plan?                                                        (6 Marks)
+(b) From traditional digital payment methods, India is moving towards newer methods of digital
+    payments. In light of the above statement, briefly explain following new methods.
+     (i)   BHIM        (ii)   USSD                                                        (4 Marks)
+Answer
+(a) Green Computing
+          Green Computing or Green IT refers to the study and practice of environmentally
+           sustainable computing or IT. It is the study and practice of establishing/ using
+           computers and IT resources in a more efficient and environmentally friendly and
+           responsible way.
+          The objective of Green computing is to reduce the use of hazardous materials,
+           maximize energy efficiency during the product’s lifetime, and promote the recyclability
+           or biodegradability of defunct products and factory waste.
+          Green computing’s practices include the implementation of energy-efficient Central
+           Processing Units (CPUs), servers and peripherals as well as reduced resource
+           consumption and proper disposal of electronic waste (e-waste).
+6                 INTERMEDIATE (NEW) EXAMINATION: JANUARY 2021
+
+
+    The steps to develop a sustainable Green Computing plan are as follows:
+         Involve stakeholders to include checklists, recycling policies, recommendations for
+          disposal of used equipment, government guidelines and recommendations for
+          purchasing green computer equipment in organizational policies and plans;
+         Encourage the IT community for using the best practices and encourage them to
+          consider green computing practices and guidelines.
+         On-going communication about and campus commitment to green IT best practices
+          to produce notable results.
+         Include power usage, reduction of paper consumption, as well as recommendations
+          for new equipment and recycling old machines in organizational policies and plans;
+          and
+         Use cloud computing so that multiple organizations share the same computing
+          resources thus increasing the utilization by making more efficient use of hardware
+          resources.
+(b) (i)   BHIM (Bharat Interface for Money)
+              BHIM (Bharat Interface for Money) is a Mobile App developed by National
+               Payments Corporation of India (NPCI) based on UPI (Unified Payment
+               Interface). It facilitates e-payments directly through banks and supports all
+               Indian banks which use that platform.
+              It is built on the Immediate Payment Service infrastructure and allows the user
+               to instantly transfer money between the bank accounts of any two parties.
+              BHIM works on all mobile devices and enables users to send or receive money
+               to other UPI payment addresses by scanning QR code or using account number
+               with Indian Financial Systems Code (IFSC) code or MMID (Mobile Money
+               Identifier) Code for users who do not have a UPI-based bank account.
+    (ii) Unstructured Supplementary Service Data (USSD)
+              Unstructured Supplementary Service Data (USSD) is a revolutionary idea where
+               to make payments through mobiles, there is neither need for internet nor any
+               smart phone.
+              USSD banking or *99# Banking is a mobile banking based digital payment mode
+               and can be easily used with any normal feature phone.
+              USSD banking is as easy as checking of mobile balance. S/he can use this
+               service for many financial and non-financial operations such as checking
+     PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            7
+
+
+                balance, sending money, changing Mobile Banking Personal Identification
+                Number (MPIN) and getting Mobile Money Identifier (MMID).
+Question 4
+(a) Explain the stages of Money Laundering.                                             (6 Marks)
+(b) Define the Mortgage Loan. Briefly explain the types of Mortgage Loan.               (4 Marks)
+Answer
+(a) The stages of Money Laundering are as follows:
+     (i)   Placement: The first stage involves the Placement of proceeds derived from illegal
+           activities - the movement of proceeds, frequent currency from the scene of the crime
+           to a place, or into a form, less suspicious and more convenient for the criminal.
+     (ii) Layering: It involves the separation of proceeds from illegal source using complex
+          transactions designed to obscure the audit trail and hide the proceeds. The criminals
+          frequently use shell corporations, offshore banks or countries with loose regulation
+          and secrecy laws for this purpose. Layering involves sending the money through
+          various financial transactions to change its form and make it difficult to follow.
+          Layering may consist of several banks to bank transfers or wire transfers between
+          different accounts in different names in different countries making deposit and
+          withdrawals to continually vary the amount of money in the accounts changing the
+          money’s currency purchasing high value items (boats, houses cars, diamonds) to
+          change the form of money-making it hard to trace.
+     (iii) Integration: It involves conversion of illegal proceeds into apparently legitimate
+           business earnings through normal financial or commercial operations. Integration
+           creates the illusion of a legitimate source for criminally derived funds and involves
+           techniques as numerous and creative as those used by legitimate businesses. For
+           example- false invoices for goods exported, domestic loan against a foreign deposit,
+           purchasing of property and comingling of money in bank accounts.
+(b) Mortgage Loan
+          A Mortgage loan is a secured loan which is secured on the borrower’s property by
+           marking a lien on the property as collateral for the loan. If the borrower stops paying,
+           then the lender has the first charge on the property.
+          Mortgages are used by individuals and businesses to make large real estate
+           purchases without paying the entire value of the purchase up front. Over the period
+           of many years, the borrowers repay the loan amount along with interest until there is
+           no outstanding.
+     Types of Mortgage Loan are as follows:
+          Home Loan: This is a traditional mortgage where customer has an option of selecting
+           fixed or variable rate of interest and is provided for the purchase of property.
+8                      INTERMEDIATE (NEW) EXAMINATION: JANUARY 2021
+
+
+         Top Up Loan: Here the customer already has an existing loan and is applying for
+          additional amount either for refurbishment or renovation of the house.
+         Loans for Under Construction Property: In case of under construction properties
+          the loan is disbursed in tranches / parts as per construction plan.
+Question 5
+(a) Using the automation technique in modem era of business, the business gets well
+    developed with a great customer satisfaction of its services and products in which the
+    customer-oriented supply chain plays a major role. List down the name of all the benefits
+    of Automating Business processes by explaining any four benefits.              (6 Marks)
+(b) Write a short note on (i) Digital Library (ii) Payment Gateway                      (4 Marks)
+                                               OR
+     Cloud based applications are now taking over Installed applications. What are the major
+     differences between Cloud based Applications and Installed Applications? Explain any
+     four.
+Answer
+(a) The benefits of automating Business Processes are as follows:
+         Quality and Consistency
+         Time Saving
+         Visibility
+         Improved Operational Efficiency
+         Governance and Reliability
+         Reduced Turnaround Times
+         Reduced Costs
+     These benefits are explained below:
+         Quality and Consistency: Ensures that every action is performed identically -
+          resulting in high quality, reliable results and stakeholders will consistently experience
+          the same level of service.
+         Time Saving: Automation reduces the number of tasks employees would otherwise
+          need to do manually. It frees up time to work on items that add genuine value to the
+          business, allowing innovation and increasing employees’ levels of motivation.
+         Visibility: Automated processes are controlled and they consistently operate
+          accurately within the defined timeline. It gives visibility of the process status to the
+          organization.
+    PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            9
+
+
+         Improved Operational Efficiency: Automation reduces the time it takes to achieve
+          a task, the effort required to undertake it and the cost of completing it successfully.
+          Automation not only ensures systems run smoothly and efficiently, but that errors are
+          eliminated and that best practices are constantly leveraged.
+         Governance and Reliability: The consistency of automated processes means
+          stakeholders can rely on business processes to operate and offer reliable processes
+          to customers, maintaining a competitive advantage.
+         Reduced Turnaround Times: Eliminate unnecessary tasks and realign process
+          steps to optimize the flow of information throughout production, service, billing and
+          collection. This adjustment of processes distils operational performance and reduces
+          the turnaround times for both staff and external customers.
+         Reduced Costs: Manual tasks, given that they are performed one-at-a-time and at a
+          slower rate than an automated task, will cost more. Automation allows us to
+          accomplish more by utilizing fewer resources.
+(b) (i)   Digital Library
+              A Digital Library is a special library with a focused collection of digital objects
+               that can include text, visual material, audio material, video material, stored as
+               electronic media formats (as opposed to print, microform, or other media), along
+               with means for organizing, storing, and retrieving the files and media contained
+               in the library collection.
+              Digital libraries can vary immensely in size and scope, and can be maintained
+               by individuals, organizations, or affiliated with established physical library
+               buildings or institutions, or with academic institutions.
+              The digital content may be stored locally or accessed remotely via computer
+               networks. An electronic library is a type of information retrieval system.
+    (ii) Payment Gateway
+              Payment gateway is the payment mode through which customers shall make
+               payments. Payment gateway represents the way e-commerce / m-commerce
+               vendors collects their payments.
+              The payment gateway is the last and most critical part of e-commerce
+               transactions. These assure seller of receipt of payment from buyer of
+               goods/services from e-commerce vendors.
+              Presently numerous methods of payments by buyers to sellers are being used,
+               including Credit / Debit Card Payments, Online bank payments, Vendors own
+               payment wallet, Third Party Payment wallets, like SBI BUDDY or PAYTM, Cash
+               on Delivery (COD) and Unified Payments Interface (UPI).
+10                  INTERMEDIATE (NEW) EXAMINATION: JANUARY 2021
+
+
+                                            OR
+(b) Differences between Cloud based Applications and Installed Applications are given below:
+      Particulars        Installed Applications         Cloud Based Applications
+      Installation and   As software is installed on    Installation on user computer is not
+      Maintenance        hard disc of the computer      required. Update and maintenance
+                         used by user, it needs to be   are defined responsibility of service
+                         installed on every computer    provider.
+                         one by one. This may take
+                         lot     of    time.    Also,
+                         maintenance and updating
+                         of software may take lot of
+                         time and efforts.
+      Accessibility      As software is installed on    As software is available through
+                         the hard disc of the user’s    online access, to use the software a
+                         computer, user needs to go     browser and an internet connection
+                         the computer only, i.e. the    is needed. It can be used from any
+                         computer where software is     computer in the world. Access to the
+                         installed, to use the          software becomes very easy. Also, it
+                         software. It cannot be used    can be used 24 x 7.
+                         from any computer.
+      Mobile             Using the software through     Mobile application becomes very
+      Application        mobile        application is   easy as data is available 24x7. As
+                         difficult in this case.        technology       evolves,    mobile
+                                                        technology is becoming an industry
+                                                        norm that makes cloud based
+                                                        application future oriented.
+      Data Storage       Data is physically stored in   Data is not stored in the user’s
+                         the premises of the user,      server computer. It is stored on a
+                         i.e. on the hard disc of the   web server. Ownership of data is
+                         user’s server computer.        defined in Service Level Agreement
+                         Hence user will have full      (SLA) that defines the rights,
+                         control over the data.         responsibilities and authority of both
+                                                        service provider and service user.
+      Data Security      As the data is in physical     Data security is a challenge in case
+                         control of the user, user      of cloud based application as the
+                         shall have the full physical   data is not in control of the user or
+                         control over the data and      owner of data. As time evolves;
+                         he/she can ensure that it is   SLAs provides for details of back-up,
+                         not accessed without           disaster recovery alternatives being
+                         proper access.                 used by service provider.
+PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                   11
+
+
+ Performance   A well written installed         Access is dependent on speed of
+               application shall always be      internet. Slow internet slows access
+               faster than web application,     to information and may slow
+               reason being data is picked      operations.
+               from local server without
+               internet.
+ Flexibility   It shall have more flexibility   The success of cloud based
+               and controls as compared         applications is that they allow
+               to web application. It is very   flexibility against both Capital
+               easy to write desktop            Expenditure      (CAPEX)       and
+               applications that take           Operating Expense (OPEX) to the
+               advantage of the user’s          user. User can scale up operations
+               hardware        (such      as:   as per need.
+               scanners, cameras, Wi-Fi,
+               serial ports, network ports,
+               etc.). Installed applications
+               have this dis-advantage of
+               higher Capital Expenditure
+               (CAPEX) in comparison to
+               cloud based application.
+  PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                         SECTION –B: STRATEGIC MANAGEMENT
+                                 Question No. 6 is compulsory
+                           Answer any four questions from the rest.
+Question 6
+Mohan has joined as the new CEO of XYZ Corporation and aims to make it a dominant
+technology company in the next five years. He aims to develop competencies for managers for
+achieving better performance and a competitive advantage for XYZ Corporation. Mohan is well
+aware of the importance of resources and capabilities in generating competitive advantage.
+Discuss the four major characteristics of resources and capabilities required by XYZ
+Corporation to sustain the competitive advantage and its ability to earn profits from it.
+                                                                                       (5 Marks)
+Answer
+XYZ Corporation is aiming to transform into a dominant technology company under the
+leadership of Mohan, the new CEO. He aims to develop competencies for managers for
+achieving better performance and a competitive advantage for the corporation. Mohan is al so
+well aware of the importance of resources and capabilities in generating and sustaining the
+competitive advantage. Therefore he must focus on characteristics of resources and
+capabilities of the corporation.
+The sustainability of competitive advantage and a firm’s ability to earn profits from it depends,
+to a great extent, upon four major characteristics of resources and capabilities which are as
+follows:
+1.   Durability: The period over which a competitive advantage is sustained depends in part
+     on the rate at which a firm’s resources and capabilities deteriorate. In industries where
+     the rate of product innovation is fast, product patents are quite likely to become obsolete.
+     Similarly, capabilities which are the result of the management expertise of the CEO are
+     also vulnerable to his or her retirement or departure. On the other hand, many consumer
+     brand names have a highly durable appeal.
+2.   Transferability: Even if the resources and capabilities on which a competitive advantage
+     is based are durable, it is likely to be eroded by competition from rivals. The ability of
+     rivals to attack position of competitive advantage relies on their gaining access to the
+     necessary resources and capabilities. The easier it is to transfer resources and
+     capabilities between companies, the less sustainable will be the competitive advantage
+     which is based on them.
+3.   Imitability: If resources and capabilities cannot be purchased by a would-be imitator,
+     then they must be built from scratch. How easily and quickly can the competitors buil d
+     the resources and capabilities on which a firm’s competitive advantage is based? This is
+     PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          13
+
+
+     the true test of imitability. Where capabilities require networks of organizational routines,
+     whose effectiveness depends on the corporate culture, imitation is difficult.
+4.   Appropriability: Appropriability refers to the ability of the firm’s owners to appropriate
+     the returns on its resource base. Even where resources and capabilities are capable of
+     offering sustainable advantage, there is an issue as to who receives the returns on these
+     resources.
+Question 7
+(a) Strategy execution is an operations-oriented activity which involves a good fit between
+    strategy and organizational capabilities, structure, climate & culture. Enumerate the
+    principal aspects of strategy execution process which are used in most of the situations.
+                                                                                       (5 Marks)
+(b) X Pvt. Ltd. had recently ventured into the business of co-working spaces when the global
+    pandemic struck.. This has resulted in the business line becoming unprofitable and
+    unviable, and a failure of the existing strategy. However, the other businesses of X Pvt.
+    Ltd. are relatively less affected by the pandemic as compared to the recent co-working
+    spaces. Suggest a strategy for X Pvt. Ltd. with reasons to justify your answer. (5 Marks)
+Answer
+(a) Implementation and execution are an operations-oriented activity aimed at shaping the
+    performance of core business activities in a strategy-supportive manner. To convert
+    strategic plans into actions and results, a manager must be able to direct organizational
+    change, motivate people, build and strengthen company’s competencies and competitive
+    capabilities, create a strategy-supportive work culture, and meet or beat performance
+    targets. Good strategy execution involves creating strong “fits” between strategy and
+    organizational capabilities, structure, climate & culture.
+     In most situations, strategy-execution process includes the following principal
+     aspects:
+     1.   Developing budgets that steer ample resources into those activities critical to
+          strategic success.
+     2.   Staffing the organization with the needed skills and expertise, consciously
+          building and strengthening strategy-supportive competencies and competitive
+          capabilities and organizing the work effort.
+     3.   Ensuring that policies and operating procedures facilitate rather than impede
+          effective execution.
+     4.   Using the best-known practices to perform core business activities and pushing
+          for continuous improvement.
+14                  INTERMEDIATE (NEW) EXAMINATION: JANUARY 2021
+
+
+     5.    Installing information and operating systems that enable company personnel to
+           better carry out their strategic roles day in and day out.
+     6.    Motivating people to pursue the target objectives energetically.
+     7.    Creating a company culture and work climate conducive to successful strategy
+           implementation and execution.
+     8.    Exerting the internal leadership needed to drive implementation forward and
+           keep improving strategy execution. When the organization encounters stumbling
+           blocks or weaknesses, management has to see that they are addressed and
+           rectified quickly.
+(b) It is advisable that divestment strategy should be adopted by X Pvt. Ltd.
+     In the given situation where the business of co-working spaces became unprofitable and
+     unviable due to Global pandemic, the best option for the company is to divest the loss
+     making business.
+     Retrenchment may be done either internally or externally. Turnaround strategy is
+     adopted in case of internal retrenchment where emphasis is laid on improving internal
+     efficiency of the organization, while divestment strategy is adopted when a business
+     turns unprofitable and unviable due to some external factors. In view of the above, the
+     company should go for divestment strategy.
+     Further, divestment helps address issues like:
+     1.    Persistent cash flows from loss making segment could affect other profit-making
+           segments, which is the case in the given scenario.
+     2.    Inability to cope from the losses, which again is uncertain due to pandemic.
+     3.    Better investment opportunity, which could be the case if X Pvt. Ltd. can inve st the
+           money it generates from divestment.
+Question 8
+(a) ABC Limited is in a wide range of businesses which include apparels, lifestyle products,
+    furniture, real estate and electrical products. The company is looking to hire a suitable
+    Chief Executive Officer. Consider yourself as the HR consultant for ABC limited. You
+    have been assigned the task to enlist the activities involved with the role of the Chief
+    Executive Officer. Name the strategic level that this role belongs to and enlist the
+    activities associated with it.                                                 (5 Marks)
+(b) Spacetek Pvt. Ltd. is an IT company. Although there is cut throat competition in the IT
+    sector, Spacetek deals with distinctive niche clients and is generating high efficiencies for
+    serving such niche market. Other rival firms are not attempting to specialize in the same
+    target market. Identify the strategy adopted by Spacetek Pvt. Ltd. and also explain the
+    advantages and disadvantages of that strategy.                                     (5 Marks)
+    PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                      15
+
+
+Answer
+(a) The role of Chief Executive Officer pertains to Corporate level.
+    The corporate level of management consists of the Chief Executive Officer (CEO) and
+    other top-level executives. These individuals occupy the apex of decision making within
+    the organization.
+    The role of Chief Executive Officer is to:
+    1.   oversee the development of strategies for the whole organization;
+    2.   defining the mission and goals of the organization;
+    3.   determining what businesses, it should be in;
+    4.   allocating resources among the different businesses;
+    5.   formulating, and implementing strategies that span individual businesses;
+    6.   providing leadership for the organization;
+    7.   ensuring that the corporate and business level strategies which company pursues
+         are consistent with maximizing shareholders wealth; and
+    8.   managing the divestment and acquisition process.
+(b) Spacetek Pvt. Ltd. company has adopted Focus strategy which is one of the Michael
+    Porter’s Generic strategies. Focus strategies are most effective when consumers have
+    distinctive preferences or requirements and when rival firms are not attempting to
+    specialize in the same target segment. An organization using a focus strategy may
+    concentrate on a particular group of customers, geographic markets, or on particular
+    product-line segments in order to serve a well-defined but narrow market better than
+    competitors who serve a broader market.
+    Advantages of Focus Strategy
+    1.   Premium prices can be charged by the organizations for their focused
+         product/services.
+    2.   Due to the tremendous expertise about the goods and services that organizations
+         following focus strategy offer, rivals and new entrants may find it difficult to
+         compete.
+    Disadvantages of Focus Strategy
+    1.   The firms lacking in distinctive competencies may not be able to pursue focus
+         strategy.
+    2.   Due to the limited demand of product/services, costs are high which can cause
+         problems.
+    3.   In the long run, the niche could disappear or be taken over by larger competitors by
+         acquiring the same distinctive competencies.
+16                 INTERMEDIATE (NEW) EXAMINATION: JANUARY 2021
+
+
+Question 9
+(a) Core competencies provide edge to a business over its competitors. Discuss. Also,
+    briefly state the three areas in which major core competencies are identified. (5 Marks)
+(b) Sanya Private Limited is an automobile company. For the past few years, it has been
+    observed that the progress of the company has become stagnant.. When scrutinized, it
+    was found that the planning department was performing fairly well but the plans could not
+    be implemented due to improper use of resources, undesirable tendencies of workers
+    and non-conformance to norms and standards. You are hired as a Strategic Manager.
+    Suggest the elements of process of control to overcome the problem.            (5 Marks)
+Answer
+(a) A core competence is a unique strength of an organization which may not be shared by
+    others. Core competencies are those capabilities that are critical to a business achieving
+    competitive advantage. In order to qualify as a core competence, the competency should
+    differentiate the business from any other similar businesses. An organization’s
+    combination of technological and managerial know-how, wisdom and experience are a
+    complex set of capabilities and resources that can lead to a competitive advantage
+    compared to a competitor.
+     According to C.K. Prahalad and Gary Hamel, major core competencies are identified in
+     following three areas:
+     1.   Competitor differentiation: The Company can consider having a core competence
+          if the competence is unique and it is difficult for competitors to imitate. This can
+          provide a company an edge compared to competitors. It allows the company to
+          provide better products and services to market with no fear that competitors can
+          copy it.
+     2.   Customer value: When purchasing a product or service it has to deliver a
+          fundamental benefit for the end customer in order to be a core competence. It will
+          include all the skills needed to provide fundamental benefits. The service or the
+          product has to have real impact on the customer as the reason to choose to
+          purchase them. If customer has chosen the company without this impact, then
+          competence is not a core competence and it will not affect the company’s market
+          position.
+     3.   Application of competencies to other markets: Core competence must be
+          applicable to the whole organization; it cannot be only one particular skill or
+          specified area of expertise. Therefore, although some special capability would be
+          essential or crucial for the success of business activity, it will not be considered as
+          core competence if it is not fundamental from the whole organization’s point of view.
+          Thus, a core competence is a unique set of skills and expertise, which will be used
+          throughout the organization to open up potential markets to be exploited.
+     PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                       17
+
+
+(b) Sanya Private Limited deteriorating performance due to poor implementation of plans
+    that is improper use of resources, undesirable tendencies of the workers, and non-
+    conformance to norms and standards, all point towards weak controls in the organization.
+    Implementation of plans cannot assure results unless strong and sufficient controls are
+    put in place. The management of the company should focus diligently on developing
+    controls especially in the identified problem areas.
+     The process of control has the following elements:
+     (a) Objectives of the business system which could be operationalized into measurable
+         and controllable standards.
+     (b) A mechanism for monitoring and measuring the performance of the system.
+     (c) A mechanism (i) for comparing the actual results with reference to the standards (ii)
+         for detecting deviations from standards and (iii) for learning new insights on
+         standards themselves.
+     (d) A mechanism for feeding back corrective and adaptive information and instructions
+         to the system, for effecting the desired changes to set right the system to keep it on
+         course.
+     Above elements of control would ensure a proper check on improper use of resources,
+     undesirable tendencies of the workers, and non-conformance to norms and standards
+     and ensure a result oriented implementation of plans.
+Question 10
+(a) Moonlight Private Limited deals in multi-products and multi-businesses. It has its own set
+    of competitors. It seems impractical for the company to provide separate strategic
+    planning treatment to each one of its product or businesses. As a strategic manager,
+    suggest the type of structure best suitable for Moonlight Private Limited and state its
+    benefits.                                                                        (5 Marks)
+(b) Elucidate:
+     Expanded Marketing Mix                                                          (5 Marks)
+                 OR
+     Matrix Structure
+Answer
+(a) It is advisable for Moonlight Private Limited to follow the strategic business unit (SBU)
+    structure.
+     Moonlight Private Limited has a multi-product and multi-business structure where, each
+     of these businesses has its own set of competitors. In the given case, Strategic Business
+     Unit (SBU) structure would best suit the interests of the company.
+18                 INTERMEDIATE (NEW) EXAMINATION: JANUARY 2021
+
+
+     SBU is a part of a large business organization that is treated separately for strategic
+     management purposes. It is separate part of large business serving product markets with
+     readily identifiable competitors. It is created by adding another level of management in a
+     divisional structure after the divisions have been grouped under a divisional top
+     management authority based on the common strategic interests.
+     Very large organizations, particularly those running into several products, or operating at
+     distant geographical locations that are extremely diverse in terms of environmental
+     factors, can be better managed by creating strategic business units , just as is the case
+     for Moonlight Private Limited. SBU structure becomes imperative in an organization with
+     increase in number, size and diversity.
+     Benefits of SBUs:
+     1.   Establishing coordination between divisions having common strategic interest.
+     2.   Facilitate strategic management and control.
+     3.   Determine accountability at the level of distinct business units.
+     4.   Allow strategic planning to be done at the most relevant level within the total
+          enterprise.
+     5.   Make the task of strategic review by top executives more objective and more
+          effective.
+     6.   Help to allocate resources to areas with better opportunities.
+     Thus, an SBU structure with its set of advantages would be most suitable for the
+     company with the given diverse businesses having separate identifiable competitors, but
+     a common organizational goal.
+(b) Expanded Marketing Mix:
+     Typically, all organizations use a combination of 4 Ps in some form or the other that is
+     product, price, place, and promotion. However, the above elements of marketing mix are
+     not exhaustive. There are a few more elements that may form part of an organizational
+     marketing mix strategy as follows:
+     1.   People: all human actors who play a part in delivery of the market offering and thus
+          influence the buyer’s perception, namely the firm’s personnel and the customer.
+     2.   Physical evidence: the environment in which the market offering is delivered and
+          where the firm and customer interact.
+     3.   Process: the actual procedures, mechanisms and flow of activities by which the
+          product/ service is delivered.
+                                              OR
+PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          19
+
+
+In matrix structure, functional and product forms are combined simultaneously at the
+same level of the organization. Employees have two superiors, a product / project
+manager and a functional manager. The “home” department - that is, engineering,
+manufacturing, or marketing - is usually functional and is reasonably permanent. People
+from these functional units are often assigned temporarily to one or more product units or
+projects.
+The product units / projects are usually temporary and act like divisions in that they are
+differentiated on a product-market basis. The matrix structure may be very appropriate
+when organizations conclude that neither functional nor divisional forms, even when
+combined with horizontal linking mechanisms like strategic business units, are right for
+the implementation of their strategies. Matrix structure was developed to combine the
+stability of the functional structure with flexibility of the product form. It is very useful
+when the external environment (especially its technological and market aspects) is very
+complex and changeable.
+A matrix structure is most complex of all designs because it depends upon both vertical
+and horizontal flows of authority and communication. It may result in higher overhead
+costs due to more management positions.
+The matrix structure is often found in an organization when the following three
+conditions exist:
+1.   Ideas need to be cross-fertilized across projects or products;
+2.    Resources are scarce; and
+3.    Abilities to process information and to make decisions need to be improved.
+

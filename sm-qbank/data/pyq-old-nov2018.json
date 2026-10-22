@@ -1,0 +1,344 @@
+{
+  "source": {
+    "type": "PYQ",
+    "attempt": "November 2018",
+    "attempt_sort": "2018-11",
+    "series": null,
+    "scheme": "old",
+    "paper": "Paper 7B: Strategic Management",
+    "pdf_url": "https://resource.cdn.icai.org/54632bos43792interp7.pdf",
+    "local_file": "raw/pyq-old-nov2018-sa.pdf",
+    "retrieved": "2026-10-05",
+    "extract_ok": true,
+    "notes": "ICAI Suggested Answers, Intermediate (New) Paper 7, November 2018. Official ICAI CDN URL now HTTP 404; retrieved from Internet Archive: http://web.archive.org/web/20210418024847id_/https://resource.cdn.icai.org/54632bos43792interp7.pdf . Byte-identical (md5 fff4c1e24a2b1c6ec30e71ac6e6ef2e5) to the mirror https://cacult.com/wp-content/uploads/2021/05/1.-nov-18-7.pdf, confirming the mirror reproduces the official ICAI PDF. Only Section B (Strategic Management) extracted. Chapter mapping was reconciled against /Users/ztejas/CA_PERSONAL/sm-qbank/syllabus.json (retrieved 2026-10-05) and its evidence-backed dropped_from_old_scheme list; every OUT_OF_SYLLABUS flag cites that evidence in the record's mapping_note."
+  },
+  "questions": [
+    {
+      "id": "pyq-old-nov2018-q7a",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic levels in an organisation - corporate, business, functional -> Ch 1",
+      "qno": "7(a)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "List the different strategic levels in an organization.",
+      "options": null,
+      "answer": "There are three main strategic levels in an organisation:\n- Corporate level – consisting of CEO, Board of Directors and other senior executives.\n- Business level – Divisional Managers and staff.\n- Functional level – Functional Managers – Marketing, Finance, Production, Human Resource.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic levels",
+        "corporate level",
+        "functional level"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q7b",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Diagrammatic strategic management model -> Ch 5 (strategic management process and its stages)",
+      "qno": "7(b)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "Present a diagrammatic representation of a Strategic Management model.",
+      "options": null,
+      "answer": "Strategic Management Model\n| Develop Vision, Mission and Objectives | Environmental Analysis | Generate, Analyse and select Strategies | Implement Strategies | Strategic Evaluation and Control |\n|---|---|---|---|---|\n| | Organisation Appraisal | | | |\n| | Analysis | | Implementation | Evaluation |",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic management process",
+        "strategic management model"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q7c",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Advantages of strategic alliances -> Ch 4 (expansion through strategic alliance)",
+      "qno": "7(c)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "List the advantages of Strategic Alliances.",
+      "options": null,
+      "answer": "Advantages of strategic alliance are:\n(i) Organisational: learn skills and obtain capabilities from strategic partners.\n(ii) Economic: Sharing of costs and risks by members of alliance.\n(iii) Strategic: Rivals can join together to cooperate rather than compete.\n(iv) Political: Alliance with partners with political influence improve overall power position of the organisation.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic alliance"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q7d",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Economies of scale -> Ch 2 (barrier to entry under Porter's five forces)",
+      "qno": "7(d)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "What do you mean by \"Economies of Scale\"?",
+      "options": null,
+      "answer": "Economies of scale refer to the decline in the per unit cost of production as volume grows. A large firm that enjoys economies of scale can produce high volume of goods at lower costs. This tends to discourage new entrants.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "economies of scale",
+        "barriers to entry"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q7e",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Augmented marketing -> Ch 3 (strategic marketing techniques)",
+      "qno": "7(e)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "Define Augmented Marketing. Give two examples.",
+      "options": null,
+      "answer": "Augmented Marketing is provision of additional customer services and benefits built around the core and actual products that relate to introduction of hi-tech services like movies on demand, online computer repair services, etc. Such innovative offerings provide a set of benefits that promise to elevate customer service to unprecedented levels.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "augmented marketing"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q8a",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Vision as a key element of strategic intent -> Ch 1",
+      "qno": "8(a)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "Which of the following statements are correct and which are incorrect? Give reasons in brief for your answer.\nVision is one of the key elements of Strategic Intent.",
+      "options": null,
+      "answer": "Correct: Vision implies the blueprint of the company’s future position. It describes where the organisation wants to land. It depicts the organisation’s aspirations and provides a glimpse of what the organisation would like to become in future. Every sub system of the organisation is required to follow its vision.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "vision",
+        "strategic intent"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q8b",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Structure follows strategy -> Ch 5 (organisation structure; linkages and issues in strategy implementation)",
+      "qno": "8(b)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "Which of the following statements are correct and which are incorrect? Give reasons in brief for your answer.\nStructure has no impact on the strategy of the organization.",
+      "options": null,
+      "answer": "Incorrect: Structures are designed to facilitate the strategic pursuit of a firm and, therefore, follows strategy. Without a strategy or reason for being, it will be difficult to design an effective structure. Strategic developments may require allocation of resources and there may be a need for adapting the organisation’s structure to handle new activities as well as training personnel and devising appropriate systems.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "organisation structure",
+        "strategy implementation"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q8c",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Benchmarking as a topic in its own right and Business Process Reengineering - both dropped from the 2023 syllabus (absent from all 5 chapters of syllabus.json)",
+      "qno": "8(c)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "Which of the following statements are correct and which are incorrect? Give reasons in brief for your answer.\nThere is no distinction between Benchmarking and Business Process Reengineering.",
+      "options": null,
+      "answer": "Incorrect: Benchmarking relates to setting goals and measuring productivity based on best industry practices. The idea is to learn from the practices of competitors and others to improve the firm’s performance. On the other hand, business process reengineering relates to analysis and redesign of workflows and processes both within and between the organisations.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "benchmarking",
+        "business process reengineering"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q8d",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Backward vs forward (vertical) integration -> Ch 4 (expansion through vertical integration)",
+      "qno": "8(d)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "Which of the following statements are correct and which are incorrect? Give reasons in brief for your answer.\nAcquiring of ambulance services by a hospital is an example of forward integration strategy.",
+      "options": null,
+      "answer": "Incorrect: Acquiring of ambulance services by a hospital is an example of backward integration strategy. Backward integration is a step towards creation of effective supply by entering business of input providers. Forward integration is moving forward in the value chain.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "backward integration",
+        "forward integration",
+        "vertical integration"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q8e",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Backward integration -> Ch 4 (diversification through vertical integration)",
+      "qno": "8(e)",
+      "kind": "descriptive",
+      "marks": 2,
+      "question": "Which of the following statements are correct and which are incorrect? Give reasons in brief for your answer.\nThere is no such thing as backward integration.",
+      "options": null,
+      "answer": "Incorrect: Organisations may diversify into new businesses that are vertically integrated with their existing business. Backward integration firms create effective supply by entering business of input providers. This strategy is employed to expand profits and gain greater control over production.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "backward integration",
+        "vertical integration",
+        "diversification"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q9a",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Functional organisation structure -> Ch 5 (organisation structure)",
+      "qno": "9(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Manoj started his telecom business in 2010. Over next five years, he gradually hired fifty people for various activities such as to keep his accounts, administration, sell his products in the market, create more customers, provide after sales service, coordinate with vendors.\nDraw the organization structure Manoj should implement in his organization and name it.",
+      "options": null,
+      "answer": "Manoj has started a telecom business. Accounts, Administration, Marketing (customer creation, after sales service, vendor coordination) are the functional areas that are desired in the organisational structure. Further there is inherent need to have a department for the management of telecom services/ operations.\nThus, the functional structure in the telecom business of Manoj can be as follows:\nChairman (Managing Director/ CEO)\n| Telecom Operations | Accounts and Finance | Marketing | Administration Human Resource, etc. |\n|---|---|---|---|\n| | Sales (Customer Creation) | After Sales Service | Vendor Coordination |",
+      "mcq_answer": null,
+      "topic_tags": [
+        "functional structure",
+        "organisation structure"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q9b",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Porter's generic strategies - cost leadership and differentiation -> Ch 3",
+      "qno": "9(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Sohan and Ramesh are two friends who are partners in their business of making biscuits. Sohan believe in making profits through selling more volume of products. Hence, he believes in charging lesser price to the customers. Ramesh, however of the opinion that higher price should be charged to create an image of exclusivity and for this, he proposes that the product to undergo some change.\nAnalyse the nature of generic strategy used by Sohan and Ramesh.",
+      "options": null,
+      "answer": "Considering the generic strategies of Porter there are three different bases: cost leadership, differentiation and focus. Sohan and Ramesh are contemplating pricing for their product.\nSohan is trying to have a low price and high volume are thereby trying for cost leadership. Cost leadership emphasizes producing standardised products at a very low per unit cost for consumers who are price sensitive.\nRamesh desires to create perceived value for the product and charge higher prices. He is trying to adopt differentiation. Differentiation is aimed at producing products and services considered unique industry wide and directed at consumers who are relatively price insensitive.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "porter generic strategies",
+        "cost leadership",
+        "differentiation"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q10a",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Corporate culture as a strength and as a weakness -> Ch 5 (organisation culture)",
+      "qno": "10(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Describe corporate culture. Elaborate the statement \"Culture is a strength that can also be a weakness\".",
+      "options": null,
+      "answer": "Corporate culture refers to a company’s values, beliefs, business principles, traditions, way of operating and internal work environment. Every corporation has a culture that exerts powerful influences on the behaviour of managers.\nCulture as a strength – Culture can facilitate communication, decision making and control and create cooperation and commitment. An organisation’s culture could be strong and cohesive when it conducts its business according to clear and explicit set of principles and values. The management devotes considerable time in communicating values & principles to employees and sharing them widely across the organisation.\nCulture as a weakness – can obstruct the smooth implementation of strategy by creating resistance to change. An organisation’s culture can be characterised as weak when many sub cultures exist, few values and behavioural norms are shared and traditions are rare. In such organisations, employees do not have a sense of commitment, loyalty and a sense of identity.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "corporate culture"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q10b",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Marketing mix / 4Ps and promotion as a functional (marketing) strategy - part of the old standalone 'Formulation of Functional Strategy' chapter, dropped from the 2023 syllabus (absent from all 5 chapters of syllabus.json)",
+      "qno": "10(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Explain the marketing mix in the context of modern marketing.",
+      "options": null,
+      "answer": "Marketing mix is a set of controllable marketing variables that the firm blends to produce the response that it wants in the target market. Marketing mix consists of everything that the firm can do to influence the demand for its product. The original framework of marketing mix comprises of product, price, place and promotion.\nModern marketing is highly promotional oriented and include personal selling, advertising, publicity and sales promotion.\nPersonal selling – involves face to face interaction of sales persons with the prospective customers and provides a high degree of personal attention. It involves working with one customer at a time and hence not cost effective. The intention of oral communication is sale.\nAdvertising – is a non-personal, flexible and dynamic promotion method. The media for advertising are several and choice of an appropriate one is important for effectiveness of message. Sale of the product and the amount of expenditure cannot be directly measured.\nPublicity – is also non-personal but no payments are made to the media. Publicity is communication of a product, brand or business by placing information about it in the media without paying for the time or media space directly. It could be through press releases, press conferences, reports, etc.\nSales promotion – includes all activities that are undertaken to promote the business but are not specifically included under personal selling, advertising or publicity. Activities like discounts, contests, money refunds, exhibitions etc. are included.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "marketing mix",
+        "promotion",
+        "functional strategy"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q11a",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Supply chain management as a functional (logistics) strategy - part of the old standalone 'Formulation of Functional Strategy' chapter, dropped from the 2023 syllabus (absent from all 5 chapters of syllabus.json)",
+      "qno": "11(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "What steps are to be considered for implementing the supply chain management in a business organization? Explain.",
+      "options": null,
+      "answer": "A key requirement for successfully implementing supply chain management system in a business organisation are:\n(i) Product development – Customers and suppliers must work together in the product development process. Products are developed and launched in shorter time and help organisations to remain competitive.\n(ii) Procurement – requires careful resource planning, quality issues, identifying sources, negotiation, order placement, inbound transportation and storage. Organisations coordinate with suppliers in scheduling without interruption.\n(iii) Manufacturing – Flexible manufacturing process is required to respond to market changes like accommodate customisation and changes in tastes and preferences. Manufacturing is done on the basis of just in time and minimum lot sizes.\n(iv) Physical Distribution – Delivery of final product to customers is the last position in a marketing channel. To ensure right place at right time is important for each channel participant. So supply chain management links a marketing channel with customers.\n(v) Outsourcing – is not limited to the procurement of materials and components but also includes outsourcing of services that traditionally have been provided within an organisation. The company will focus on the core competency areas alone and outsource rest.\n(vi) Customer Service – Organisations work with customers to determine mutually satisfying goals, establish and maintain relationships. This produces positive feelings in the organisation and among customers.\n(vii) Performance Measurement – Supplier capabilities and customer relationships can be corrected with a firm’s performance. Performance is measured in different parameters such as costs, customer services, productivity and quality.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "supply chain management",
+        "logistics",
+        "functional strategy"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q11b",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategy is partly proactive and partly reactive -> Ch 1 (meaning and nature of strategy)",
+      "qno": "11(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "\"Strategy is partly proactive and partly reactive.\" Elaborate.",
+      "options": null,
+      "answer": "Yes, strategy is partly proactive and partly reactive. In proactive strategy, organisations will analyse possible environmental scenarios and create strategic framework after proper planning and set procedures and work on these strategies in a pre-determined manner. However, in reality no company can forecast both internal and external environment exactly. Everything cannot be planned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour, evolving technologies and so on.\nThere can be significant deviations between what was visualised and what actually happens. There can be significant or major strategic changes when the environment demands. Reactive strategy is triggered by the changes in the environment and provides ways and means to cope with the negative factors or take advantage of emerging opportunities.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "proactive strategy",
+        "reactive strategy",
+        "nature of strategy"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q12a",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic change and the process of strategic change (Kurt Lewin's unfreezing - changing - refreezing) -> Ch 5",
+      "qno": "12(a)",
+      "kind": "descriptive",
+      "marks": 7,
+      "question": "Write a short note on strategic change and explain the process of strategic change.",
+      "options": null,
+      "answer": "The changes in the environmental forces often require businesses to make modifications in their existing strategies and bring out new strategies. Strategic change is a complex process that involves a corporate strategy focused on new markets, products, services and new ways of doing business.\nThree steps for initiating strategic change are:\n(i) Recognise the need for change – The first step is to diagnose the which facets of the present corporate culture are strategy supportive and which are not.\n(ii) Create a shared vision to manage change – Objectives of both individuals and organisation should coincide. There should be no conflict between them. This is possible only if the management and the organisation members follow a shared vision.\n(iii) Institutionalise the change – This is an action stage which requires the implementation of the changed strategy. Creating and sustaining a different attitude towards change is essential to ensure that the firm does not slip back into old ways of doing things.\nKurt Lewin proposed three stages of the change process for moving the organisation from the present to the future.\n(i) Unfreezing the situation – The process of unfreezing makes the individuals or organisations aware of the necessity for change and prepares them for it. The change should not come as a surprise to the members of the organisation. Sudden and unannounced change would be socially destructive and morale lowering,\n(ii) Changing to new situation – once unfreezing is complete and members of the organisation recognize the need for change, then their behaviour patterns need to be redefined as:\ni. Compliance – enforcing reward and punishment strategy for good or bad behaviour\nii. Identification – members are psychologically impressed to identify themselves with some given role models whose behaviour they would like to adopt.\niii. Internalisation - involves some internal changing of the individual’s thought process. They are given the freedom to learn and adopt new behaviour.\n(iii) Refreezing – occurs when the new behaviour becomes a normal way of life. The new behaviour must replace the former behaviour completely for successful and permanent change. This can be achieved by continuously reinforcing the newly acquired behaviour.\nChange process is not a one-time application but a continuous process due to dynamism and ever-changing environment.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic change",
+        "change management"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q12b",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Business Process Reengineering - dropped from the 2023 syllabus (absent from all 5 chapters of syllabus.json)",
+      "qno": "12(b)",
+      "kind": "descriptive",
+      "marks": 3,
+      "question": "Identify three aspects of impact of IT Systems on Business Process Reengineering and list three areas where it provides business value.",
+      "options": null,
+      "answer": "Impact of IT Systems on Business Process Reengineering are identified as:\n- Compression of time\n- Overcoming restrictions of geography and/or distance\n- Restructuring of relationships\nIT initiatives, thus, provide business values in three distinct areas:\n- Efficiency – by way of increased productivity\n- Effectiveness – by way of better management\n- Innovation – by way of improved products and services",
+      "mcq_answer": null,
+      "topic_tags": [
+        "business process reengineering",
+        "information technology"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2018-q12b-or",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Key Success Factors for competitive success -> Ch 2 (key factors for competitive success)",
+      "qno": "12(b) OR",
+      "kind": "descriptive",
+      "marks": 3,
+      "question": "Examine the significance of KSFs (Key Success Factors) for competitive success.",
+      "options": null,
+      "answer": "As industry’s Key Success Factors (KSFs) are those things that most affect industry members’ ability to prosper in the market place – the particular strategy elements, product attributes, resources, competencies, competitive capabilities and business outcomes that spell the difference between profit & loss and ultimately, between competitive success or failure. KSFs by their very nature are so important that all firms in the industry must pay close attention to them. They are the prerequisites for industry success, or, to put it in another way, KSFs are the rules that shape whether a company will be financially and competitively successful.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "key success factors",
+        "competitive success"
+      ]
+    }
+  ]
+}

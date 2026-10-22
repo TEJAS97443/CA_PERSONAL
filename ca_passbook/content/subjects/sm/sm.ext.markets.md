@@ -1,0 +1,425 @@
+---
+id: sm.ext.markets
+title: Understanding customers, markets and competition
+minutes: 30
+needs: sm.ext.porter
+tags: market, customer, consumer, customer analysis, customer behaviour, competitive landscape, key success factors, KSF
+labs:
+summary: Markets and marketing orientations, customers and consumers, customer analysis and customer behaviour, competitive strategy, the five steps to understand the competitive landscape, and key success factors.
+---
+
+## In plain words
+
+### Everyone loves chai, so everyone will buy it?
+
+Tapri is launching the Tapri Home Brewer, a ₹4,500 smart machine that makes masala chai at the press of a button.
+
+> **Kesar:** India drinks chai twice a day. Put it in every shop, and sales will boil over.
+> **Ananya:** Who pays for it, who drinks from it, how do they decide, and who else wants their ₹4,500? Answer those first, Kesar-ji.
+> **Dev:** And discount the boiling over.
+
+A **market** is where buyers and sellers exchange goods and services for a price: a shop, an app, a vegetable mandi, even a whole industry ("the global oil market"). **Marketing** is everything a business does to win in it: research, design, pricing, promotion, transport and distribution, often summed up as the four Ps (product, place, pricing, promotion).
+
+Ananya's first questions are about the **customer**, the person or business that buys. The customer is not always the **consumer**, the one who uses it: an office manager buys Tapri premix for the pantry, and forty employees drink it. **Customer analysis** finds the target customers, what they want, and how the product meets that need. **Customer behaviour** goes further: *how* they buy, what influences them (advertisements and friends from outside, motivation and attitudes from inside), how they decide (spot a need, list alternatives, weigh them, choose) and how they feel afterwards (happy buyers come back and recommend; unhappy ones do neither).
+
+Her next questions are about **competition**. A firm's **competitive strategy** is how it means to create and protect an advantage over rivals. To build one, it studies the **competitive landscape**: who the competitors are, what they sell, what they do well and badly, and what gap that leaves. Finally it asks what the industry's **key success factors** are: the three or four things that decide who prospers and who fails.
+
+::: analogy The wedding caterer
+A good wedding caterer knows the bride's father is the customer who pays, while five hundred guests are the consumers who eat. He knows how families decide: they hear of him from relatives (external influences), want the wedding to feel grand (internal influences), hold three tasting sessions before choosing (decision making), and the aunties' verdict after the wedding decides his next ten bookings (post-decision). He knows every rival caterer in town, their speciality and their weak spot. And he knows the few things that really decide success: taste, serving five hundred people on time, and hygiene. The colour of the napkins is not one of them.
+:::
+
+::: key
+Understand the market from both sides. On the customer side: who buys (the customer) and who uses (the consumer), what they need (customer analysis), and how they buy (external and internal influences, decision making, post-decision processes). On the competition side: who the competitors are and what they do well and badly (the competitive landscape, in five steps), and the few **key success factors** that decide success in the industry.
+:::
+
+## How it works
+
+### Markets and marketing
+
+::: definition Market
+"A market is a place for interested parties, buyers and sellers, where items and services can be exchanged for a price." It may be **physical** (a departmental store where people engage in person) or **virtual** (an online market where buyers and sellers use technology to strike a deal without meeting) (SM 2.38).
+:::
+
+The term also applies to a wide range of contexts: the stock exchange, where securities are traded; a group of individuals trying to buy a specific commodity or service in a specific place (a grain or vegetable market where farmers sell their produce); or a business or industry (the global oil market) (SM 2.38).
+
+**Marketing** encompasses research, designing, pricing, promotion, transportation and distribution, often explained as the **four Ps: product, place, pricing and promotion**, which help marketers identify customer needs and deliver satisfaction. Its main goals are delivering the best customer experience and establishing, maintaining and growing relationships with customers (SM 2.38).
+
+The orientation of marketing has evolved around four ideas (SM 2.38–2.39):
+
+| Orientation | What the business believes |
+|---|---|
+| Product orientation | Buyers will choose the products with the best quality, performance, design or features |
+| Production orientation | Customers choose low-price products |
+| Sales orientation | If it spends enough on advertisement, sales and promotion, customers can be persuaded to buy |
+| Customer (market) orientation | Prioritise efforts on customers: gather, disseminate and use customer and competitive information to create better value propositions |
+
+A **customer-centric** business continuously learns from its customers' needs and market dynamics; in the present times the success of many businesses lies in customer-centric approaches (SM 2.39).
+
+### The customer
+
+::: definition Customer
+"A customer is a person or business that buys products or services from another organisation." Customers are important because they provide revenue, and organisations cannot exist without them (SM 2.39).
+:::
+
+**Customer and consumer** are practically synonymous and often used interchangeably, but there is a thin distinction: **consumers** are the individuals or businesses that **consume or utilise** products and services; **customers** are the **purchasers**, and may be consumers too or only customers. In homes, groceries are often bought by a parent and consumed by all the members of the family (SM 2.39).
+
+Businesses research their consumers' characteristics to fine-tune marketing strategies and adjust inventory. Customers are frequently categorised by **demographics**, such as age, race, gender, ethnicity, economic level and geographic region, to develop a profile of a perfect customer (SM 2.39). (How a firm analyses its own customers as a driver of its performance is covered in [[sm.int.drivers|strategic drivers]].)
+
+### Customer analysis
+
+::: definition Customer analysis
+"Customer analysis is an essential marketing component of any strategic business plan. It identifies target clients, determines their wants, and then defines how the product meets those needs." It involves the examination and evaluation of consumer needs, desires and wants (SM 2.39).
+:::
+
+It **includes** (SM 2.39–2.40):
+
+1. the administration of customer surveys;
+2. the study of consumer data;
+3. the evaluation of market positioning strategies;
+4. the development of customer profiles; and
+5. the selection of the best market segmentation techniques.
+
+Customer profiles built from these facts can reveal demographic information. Many parties can help gather information on consumers' needs and desires: buyers, sellers, distributors, salespeople, managers, wholesalers, retailers, suppliers and creditors. Successful businesses constantly monitor the behaviour of **existing and prospective** customers (SM 2.40).
+
+### Customer behaviour
+
+**Customer behaviour** moves beyond the identification of customers to explain **how they purchase** products: shopping frequency, product preferences, and their perception of the firm's marketing, sales and service. Understanding it lets a business communicate with customers effectively, establish effective marketing and advertising campaigns, provide products and services that meet their needs, and **retain customers for repeat sales** (SM 2.40).
+
+The Study Material groups the elements that influence consumer behaviour into conceptual domains (SM 2.40–2.41):
+
+- **External influences**: advertisement, peer recommendations or social norms, which directly affect the psychological and internal processes behind consumer decisions. They fall into two groups: **the company's marketing efforts** and **the numerous environmental elements**.
+- **Internal influences**: psychological factors internal to the customer, such as **motivation and attitudes**, that affect decision making.
+- **Decision making**: a rational consumer seeks information about potential decisions, integrates it with existing knowledge about the product, weighs the advantages and disadvantages of each option, and decides.
+- **Post-decision processes**: after purchase, the final phase of the decision-making process is **evaluating the outcome**. A happy customer may make a repeat purchase and recommend the product to others; a customer with **dissonance** will neither purchase again nor recommend it.
+
+::: diagram Process of consumer behaviour
+{"type": "graph", "w": 360, "h": 330, "r": 44, "nodes": [
+ {"id": "E", "label": "External\nfactors", "x": 90, "y": 50, "fill": "e", "shape": "square"},
+ {"id": "I", "label": "Internal\nfactors", "x": 270, "y": 50, "fill": "c", "shape": "square"},
+ {"id": "D", "label": "Decision\nmaking", "x": 180, "y": 170, "fill": "a", "shape": "square"},
+ {"id": "P", "label": "Purchase and\npost-purchase\nactions", "x": 180, "y": 285, "fill": "g", "shape": "square"}],
+ "edges": [{"from": "E", "to": "D"}, {"from": "I", "to": "D"}, {"from": "D", "to": "P"}],
+ "caption": "After the Study Material's figure (SM 2.41). External factors are market stimuli (the company's marketing) and environmental factors; with the customer's internal factors they feed decision making, which ends in the purchase and post-purchase actions."}
+:::
+
+The **stages of the decision-making process** (SM 2.41):
+
+::: steps
+1. **Problem recognition**: identify an existing need or desire that is unfulfilled.
+2. **Search** for desirable alternatives and list them.
+3. **Seek information** on the available alternatives and weigh their pros and cons.
+4. **Make a final choice.**
+:::
+
+This behaviour happens very frequently, but it mostly applies when the purchase is **significant to the customer**, such as when the product could significantly influence their health or self-image: it is extremely valid when purchasing a car, television or refrigerator, in contrast to ice creams or soft drinks (SM 2.41).
+
+### Competitive strategy
+
+Competition is a fundamental attribute of economic systems and business: businesses compete for the same set of resources and customers (SM 2.42).
+
+::: definition Competitive strategy
+The competitive strategy of a business is concerned with **how to compete** in the business areas in which the organisation operates: it defines how a firm expects to **create and sustain a competitive advantage** over competitors, which means being more profitable in the long run. It is analysed using two criteria: ==the creation of competitive advantage and the protection of competitive advantage== (SM 2.42).
+:::
+
+An important component of industry and competitive analysis is delving into the industry's competitive process to discover the main sources of competitive pressure and how strong each is: managers cannot devise a successful strategy without an in-depth understanding of the industry's competitive character. [[sm.ext.porter|Porter's five forces model]] is the widely used, relatively easy tool for it (SM 2.42); the bases of advantage themselves are [[sm.int.generic|Porter's generic strategies]].
+
+### The competitive landscape
+
+::: definition Competitive landscape
+"Competitive landscape is a business analysis which identifies competitors, either direct or indirect." It is about identifying and understanding the competitors, and it permits the comprehension of their **vision, mission, core values, niche market, strengths and weaknesses**. Understanding it requires the application of **"competitive intelligence"** (SM 2.42).
+:::
+
+An in-depth investigation of the competition lets a firm assess competitors' strengths and weaknesses in the marketplace and choose and implement effective strategies that improve its competitive advantage; understanding the competitive landscape is therefore important to build upon a competitive advantage (SM 2.43).
+
+::: diagram Steps to understand the competitive landscape
+{"type": "flow", "w": 400, "nodes": [
+ {"id": "s1", "kind": "start", "label": "1. Identify the\ncompetitors"},
+ {"id": "s2", "kind": "process", "label": "2. Understand the\ncompetitors"},
+ {"id": "s3", "kind": "process", "label": "3. Determine their\nstrengths"},
+ {"id": "s4", "kind": "process", "label": "4. Determine their\nweaknesses"},
+ {"id": "s5", "kind": "end", "label": "5. Put all the\ninformation together"}],
+ "edges": [["s1", "s2"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"]],
+ "caption": "SM 2.43–2.44, in ICAI's order. The table below gives the questions each step answers."}
+:::
+
+| Step | What the strategist does | Questions it answers |
+|---|---|---|
+| (i) Identify the competitor | Identify the competitors in the firm's industry and get actual data on their market share | Who are the competitors and how big are they? |
+| (ii) Understand the competitors | Use market research reports, internet, newspapers, social media, industry reports and other sources to understand their products and services in different markets | What are their products and services? |
+| (iii) Determine their strengths | What do they do well? Great products? Marketing that reaches more consumers? Why do customers give them their business? | Financial positions; what gives them cost and price advantage; what they are likely to do next; strength of distribution network; human resource strengths |
+| (iv) Determine their weaknesses | Identify where they are lacking, from consumer reports and reviews in various media; financial strength and weakness from annual reports | Where are they lacking? |
+| (v) Put all the information together | Infer what competitors are not offering and what the firm can do to fill the gaps; see which of the firm's own areas need strengthening | What will the business do with this information? What improvements does the firm need? How can it exploit competitors' weaknesses? |
+
+### Key success factors
+
+::: definition Key success factors (KSFs)
+"An industry's Key Success Factors (KSFs) are those things that most affect industry members' ability to prosper in the marketplace": the particular strategy elements, product attributes, resources, competencies, competitive capabilities and business outcomes that spell the difference between profit and loss and, ultimately, between competitive success or failure. They are the **prerequisites for industry success**, the factors that shape whether a company will be financially and competitively successful (SM 2.44).
+:::
+
+The answers to **three questions** help identify an industry's KSFs (SM 2.44–2.45):
+
+1. On what basis do customers choose between the competing brands of sellers? What product attributes are crucial to sales?
+2. What resources and competitive capabilities does a seller need to be competitively successful (better human capital, quality or quantity of product, cost of service, etc.)?
+3. What does it take for sellers to achieve a sustainable competitive advantage, something that can be sustained for the long term?
+
+::: diagram Three questions that find the KSFs
+{"type": "layers", "layers": [
+ {"label": "1. Customers", "note": "on what basis do they choose between brands?", "right": "crucial attributes"},
+ {"label": "2. Capabilities", "note": "what must a seller have to succeed?", "right": "resources"},
+ {"label": "3. Sustainability", "note": "what gives a lasting advantage?", "right": "long term"}],
+ "caption": "SM 2.44–2.45. Apparel manufacturing, the Study Material's example: appealing designs and colour combinations (buyer interest) and low-cost manufacturing efficiency (attractive retail prices and ample margins)."}
+:::
+
+**Why KSFs matter** (SM 2.45):
+
+- Determining the industry's KSFs, given prevailing and anticipated conditions, is a **top-priority analytical consideration**; managers must know what is more important to competitive success and what is less, and what kinds of resources are competitively valuable.
+- **Misdiagnosing** the factors critical to long-term success greatly raises the risk of a **misdirected strategy**. A firm with a perceptive understanding of KSFs can gain **sustainable competitive advantage** by training its strategy on them and being distinctively better than rivals on one or more of them: using the KSFs as cornerstones of strategy and excelling at one particular KSF is a fruitful competitive approach.
+- KSFs **vary from industry to industry**, and from time to time within the same industry, as driving forces and competitive conditions change.
+- ==Only rarely does an industry have more than three or four key success factors== at any one time, and one or two usually outrank the others. Managers must resist including factors of only minor importance: listing every factor that matters even a little defeats the purpose of concentrating management attention on what is truly critical.
+
+## Worked examples
+
+:::: example The ₹4,500 chai machine
+Tapri's market survey for the Tapri Home Brewer found:
+
+- Most machines are bought by working sons and daughters aged 25 to 40, often as a gift for parents who live with them; the parents make chai with it every morning.
+- Buyers first see the machine in short videos by food creators and in their housing-society WhatsApp groups.
+- Buyers care about the taste being "like Ma's chai" and about not wasting milk.
+- Before buying, most compare it with two rival machines over two weeks, reading reviews and specifications.
+- Early buyers praise the taste, but some complain that the milk pipe is hard to clean and do not buy Tapri's spice pods afterwards.
+
+Required:
+
+(a) Distinguish the customer from the consumer in this case.
+
+(b) Using the factors that influence customer behaviour, develop a marketing strategy for the Home Brewer.
+
+::: answer Model answer
+**(a)** A customer is a person or business that buys products or services from another organisation; consumers are those who consume or utilise them. Customers may be consumers too, or only customers. Here the working sons and daughters are the **customers** (they purchase the machine), while the parents, who use it every morning, are the **consumers**; where the buyer also drinks from it, the same person is both. Understanding both is important: from a pricing perspective the customer is of more importance, while for value creation and design the consumer must be kept at the centre. Tapri must price for the sons and daughters and design for the parents.
+
+**(b)** Customer behaviour explains how customers purchase products. The marketing strategy can be built on the factors that influence it:
+
+1. **External influences**: advertisement, peer recommendations and social norms. Tapri should partner with food creators for short videos and seed demonstrations in housing societies, since that is where buyers first hear of the machine.
+2. **Internal influences**: motivation and attitudes. The campaign should appeal to the wish to give parents "Ma's chai" every morning and to the dislike of wasting milk.
+3. **Decision making**: the purchase is significant, so buyers recognise the need, search for and list alternatives, weigh their pros and cons, and then choose. Tapri should provide clear specifications, an honest comparison with rival machines, a taste trial in its cafés and customer reviews.
+4. **Post-decision processes**: a satisfied customer buys again and recommends; one with dissonance neither buys again nor recommends. Tapri should redesign or replace the milk pipe for early buyers, offer free cleaning demonstrations and follow up after purchase, so that the consumers keep buying spice pods and the customers recommend the machine.
+:::
+::::
+
+:::: example Ananya's dossier on the rivals
+Sales at Tapri's 30 kulhad cafés in Bengaluru have fallen by 12% in a year, most of the fall at the 4 p.m. tea break. Ananya's research shows:
+
+- BrewBucks holds 30% of the city's café market, Filter House (a local filter-coffee chain) 25%, ChaiCraft (a delivery-first chai brand) 15% and Tapri 18%.
+- The large tech parks have installed free chai-and-coffee vending machines on every office floor.
+- BrewBucks' annual report shows large cash reserves; it is opening 20 more cafés. Customers praise its seating and Wi-Fi but call it expensive.
+- Filter House buys coffee directly from Coorg estates, which keeps its prices low; reviews praise the taste and complain about crowded, standing-only outlets.
+- ChaiCraft delivers in 15 minutes through its own riders; reviews praise speed and complain that the chai arrives lukewarm.
+- Tapri's own reviews praise its kulhad chai and complain that the billing queue at 4 p.m. takes ten minutes.
+
+Explain the steps Ananya should follow to understand the competitive landscape, applying each to the facts, and advise Tapri on what to do with the result.
+
+::: answer Model answer
+Competitive landscape is a business analysis which identifies competitors, either direct or indirect, and permits the comprehension of their vision, mission, core values, niche market, strengths and weaknesses. It requires the application of competitive intelligence. The steps are:
+
+1. **Identify the competitors**: identify the competitors in the industry, with actual data on their market share. Here the direct competitors are BrewBucks (30%), Filter House (25%) and ChaiCraft (15%), against Tapri's 18%. The office vending machines are an indirect competitor: they meet the same tea-break need without a café.
+2. **Understand the competitors**: use market research reports, the internet, newspapers, social media and industry reports to understand their products and services: premium cafés (BrewBucks), low-price filter coffee (Filter House), fast chai delivery (ChaiCraft), free chai at the desk (vending machines).
+3. **Determine their strengths**: what they do well and why customers give them their business, including their financial position, cost and price advantage, likely next moves and distribution. BrewBucks has cash reserves and is adding 20 cafés, with good seating and Wi-Fi; Filter House's direct sourcing gives it a cost and price advantage; ChaiCraft's own riders give it 15-minute delivery; the vending machines are free and sit on every floor.
+4. **Determine their weaknesses**: from consumer reports and reviews, and from annual reports for financial weakness. BrewBucks is seen as expensive; Filter House's outlets are crowded with no seating; ChaiCraft's chai arrives lukewarm. The facts give no weakness for the vending machines.
+5. **Put all the information together**: infer what the competitors are not offering and what the firm can do to fill the gaps, and which of its own areas need strengthening. No rival delivers hot chai quickly, BrewBucks leaves price-conscious customers unserved and Filter House leaves those who want to sit; Tapri's own weak area is the 4 p.m. billing queue.
+
+**Advice.** Tapri should first strengthen its own weak area, since the 4 p.m. queue sits exactly where its sales are falling: faster billing or pre-ordering on its app. It can then fill the gap the rivals leave by delivering hot kulhad chai to the tech parks from its nearby cafés, which answers both ChaiCraft's lukewarm chai and the vending machines at the desk. It should also prepare for BrewBucks' 20 new cafés, the rival's likely next move.
+:::
+::::
+
+::::: example Kesar's list of eleven
+Tapri is entering the cloud-kitchen chai delivery industry (orders through apps, no seating). Kesar has listed eleven "key success factors" for the board: delivery within 20 minutes; chai that arrives hot; a low cost per order; top ratings on the delivery apps; the colour of the logo; a head office in Indore; the founder's Instagram followers; a 120-item menu; the number of board meetings; Diwali gift boxes; and a mascot.
+
+Required:
+
+(a) Explain the meaning of an industry's key success factors and the questions that help identify them.
+
+(b) Advise the board on which of Kesar's factors are KSFs for this industry, and why the list should be short.
+
+:::: answer Model answer
+**(a)** An industry's key success factors (KSFs) are those things that most affect industry members' ability to prosper in the marketplace: the particular strategy elements, product attributes, resources, competencies, competitive capabilities and business outcomes that spell the difference between profit and loss and, ultimately, between competitive success or failure. They are the prerequisites for industry success. The answers to three questions help identify them:
+
+1. On what basis do customers choose between the competing brands of sellers? What product attributes are crucial to sales?
+2. What resources and competitive capabilities does a seller need to be competitively successful?
+3. What does it take for sellers to achieve a sustainable competitive advantage?
+
+**(b)** Applying the questions:
+
+::: diagram Kesar's eleven, sorted by the three questions
+{"type": "table", "head": ["Factor", "KSF?", "Reason"], "rows": [
+ ["Delivery within 20 minutes", "Yes", "Q1: customers choose on speed"],
+ ["Chai that arrives hot", "Yes", "Q1: crucial product attribute"],
+ ["Low cost per order", "Yes", "Q2, Q3: cost capability, lasting margin"],
+ ["Top app ratings", "Supports", "An outcome of the three above"],
+ ["Logo colour, mascot", "No", "Minor importance"],
+ ["Indore head office", "No", "Does not affect customers' choice"],
+ ["Founder's followers", "No", "Minor importance"],
+ ["120-item menu", "No", "Adds cost; not why customers choose"],
+ ["Number of board meetings", "No", "Not a market factor"],
+ ["Diwali gift boxes", "No", "A product idea, not a KSF"]],
+ "cells": {"0,1": "a", "1,1": "a", "2,1": "a", "3,1": "c"}}
+:::
+
+The KSFs for this industry are **fast delivery, chai that arrives hot and a low cost per order**; top app ratings follow from them. Only rarely does an industry have more than three or four key success factors at any one time, and one or two usually outrank the others. Managers must resist the temptation to include factors of only minor importance: compiling a list of every factor that matters even a little defeats the purpose of concentrating management attention on the factors truly critical to long-term success. Misdiagnosing them raises the risk of a misdirected strategy, while being distinctively better than rivals on one KSF (for example, chai that arrives hot) gives Tapri a sustainable competitive advantage.
+::::
+:::::
+
+## Under the hood
+
+### Three domains or four?
+
+The Study Material introduces the influences on consumer behaviour as "the following three conceptual domains" and then gives four headings: external influences, internal influences, decision making and post-decision processes (SM 2.40–2.41, checked on the printed page). The three domains match its figure (external factors, internal factors, decision making), with post-decision processes described as "the final phase in the decision-making process". ICAI's suggested answers write all four headings, and one MTP calls them "four major conceptual domains" (MTP January 2026 Series II Q1(a)). In an answer, use the four headings; you lose nothing by it.
+
+### Customers and consumers in other lessons
+
+The customer-consumer distinction returns in the internal-environment chapter's [[sm.int.drivers|strategic drivers]]: from a pricing perspective the customer is of more importance, and for value creation and design or usability the consumer must be kept at the centre of decision making (SM 3.12). The marketing strategies (augmented, synchro-, de- and relationship marketing) are taught in that chapter too.
+
+### Competitive landscape or strategic group mapping?
+
+Both look at rivals, but they answer different questions. The competitive landscape's five steps profile individual competitors and the gaps they leave. **Strategic group mapping** plots groups of rivals with similar competitive approaches, to see who is closest to whom and identify the strongest or weakest players (ICAI's key to January 2025 MCQ 10); it is taught with [[sm.int.drivers|strategic drivers]].
+
+## Exam angle
+
+::: exam Where this lesson appeared, May 2024 to September 2026
+Of the 32 new-scheme ICAI documents searched (eight past papers, eight RTPs and sixteen MTP series), 16 ask about it:
+
+- **Steps to understand the competitive landscape, 5 marks**, mostly as a case of a business with falling sales or margins: RTP May 2024 Q9 and RTP January 2026 Q9 (a confectionery business), RTP January 2025 Q9 (ceramic décor), January 2026 Q5(c) (organic grocery stores), MTP September 2024 Series I Q3(a), MTP September 2025 Series I (smart home devices). MCQ: which is **not** a step ("understanding the customer", MTP January 2026 Series II).
+- **Key success factors, 5 marks**: meaning, the questions that identify them and how they help gain sustainable competitive advantage, May 2025 Q8(a) (1 + 2 + 2 marks); the role of KSFs in competitive success, MTP September 2024 Series II Q2(a) and MTP January 2025 Series II Q2(a); KSFs from a case, MTP May 2025 Series II Q1(a). In an MCQ, "key success factor" is a distractor: partnerships that enhance a travel firm's competitive advantage are keyed **competitive advantage** (MTP September 2026 Series I 1(A)(iv)); the same series' case lists the firm's KSFs in its facts.
+- **Customer behaviour**: a marketing strategy built on the factors that influence consumer behaviour (a new smartphone in the Study Material's own question, repeated in MTP May 2024 Series I and MTP January 2025 Series I; an AI-enabled smartphone in MTP September 2026 Series I; celebrity endorsements of a skincare brand in MTP January 2026 Series II Q1(a)). MCQ: preferences, attitudes, motivation and perception shaping behaviour before any advertisement: **internal influences** (May 2026 MCQ 15).
+- **Customer analysis**: an assertion-reason MCQ (September 2026 MCQ 9; ICAI's answers for that paper were not yet published).
+- Markets, marketing orientations and competitive strategy have not been asked on their own in these documents; they appear inside case scenarios.
+:::
+
+::: exam How the marks are earned
+The suggested answers to competitive landscape cases give a one-line meaning ("a business analysis which identifies competitors, either direct or indirect"), then the five steps in order, each with its Study Material sentence, then a line applying it to the case. KSF answers give the definition, the three questions as bullets, and the "distinctively better than rivals on one or more KSFs" point for sustainable competitive advantage. Behaviour answers use the four headings, each with a marketing action from the case.
+:::
+
+::: trick "I Understand Strong, Weak, Together"
+The five steps of the competitive landscape in order: **I**dentify the competitor, **U**nderstand the competitors, **S**trengths, **W**eaknesses, put it all **T**ogether. Condition: the steps study competitors; studying customers is customer analysis, a different tool.
+:::
+
+## Answer frame
+
+### "Explain the steps to understand the competitive landscape" (case, 5 marks)
+
+1. **Meaning (1 line)**: a business analysis which identifies competitors, direct or indirect; requires competitive intelligence.
+2. **The five steps, in order**: identify the competitor (market share data); understand the competitors (sources, their products and services); determine strengths (what they do well, why customers buy, finances, cost and price advantage, distribution, people); determine weaknesses (consumer reports, reviews, annual reports); put all the information together (gaps the firm can fill, areas it must strengthen).
+3. **Apply each step** to the case in one sentence, and close with what the firm should do.
+
+### "What are KSFs? How do they help gain sustainable competitive advantage?" (5 marks)
+
+Definition (1 mark); the three questions (2 marks); then (2 marks, the split printed on May 2025 Q8(a)): training strategy on KSFs and being distinctively better than rivals on one or more of them gives sustainable competitive advantage; misdiagnosing them risks a misdirected strategy; rarely more than three or four, one or two outrank the others (2 marks).
+
+### "Develop a marketing strategy using customer behaviour" (5 marks)
+
+Meaning of customer behaviour (how customers purchase), then four headings, each with an action from the case: external influences (advertising, influencers, peers); internal influences (motivation, attitudes); decision making (information and comparisons for a significant purchase); post-decision processes (after-sales service and feedback to turn satisfaction into repeat purchases and recommendations).
+
+## Common mistakes
+
+::: mistake Hall of Shame: Bunty studies the customers and calls it the competitive landscape
+Asked for the steps to understand the competitive landscape, Bunty writes "survey customers, build customer profiles, segment the market". **Fix:** those belong to customer analysis. The competitive landscape's five steps are about **competitors**: identify them, understand them, their strengths, their weaknesses, then put it all together.
+:::
+
+::: mistake "Customer and consumer mean the same thing"
+**Fix:** they are often used interchangeably, but there is a thin distinction: the customer purchases, the consumer consumes or uses. A parent buying groceries for the family is the customer; every family member is a consumer.
+:::
+
+::: mistake The KSF list that runs to a page
+**Fix:** only rarely does an industry have more than three or four KSFs at any one time. Listing every factor that matters a little defeats the purpose of concentrating management attention on what is truly critical.
+:::
+
+::: mistake Writing "competitive strategy" as "beating competitors on price"
+**Fix:** competitive strategy is how a firm competes in its business areas: how it expects to **create and sustain** a competitive advantage. It is analysed on two criteria: the creation and the protection of competitive advantage.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. Meera bought a ₹14,000 air purifier after reading reviews and comparing three brands. A month later she finds it noisy, decides not to buy the brand's replacement filters, and warns her housing society's WhatsApp group against it. Which element of customer behaviour does her reaction illustrate?
+- [ ] External influences
+- [ ] Internal influences
+- [ ] Problem recognition in decision making
+- [x] Post-decision processes
+> After the purchase, evaluating the outcome is the final phase of the decision-making process. A customer with dissonance will neither purchase again nor recommend the product. Her review would be an external influence on her neighbours, not on her own decision.
+
+Q: A school canteen contractor buys juice packs every week, and the children drink them at lunch. Who is the customer?
+- [x] The canteen contractor
+- [ ] The children
+- [ ] The juice company's distributor
+- [ ] The school principal
+> Customers are the purchasers; consumers are those who consume or utilise the product. The contractor buys (customer); the children drink (consumers).
+
+Q: A detergent maker believes that customers can be persuaded to buy if it spends enough on advertisement, sales and promotion. Its approach is:
+- [ ] Product orientation
+- [ ] Production orientation
+- [x] Sales orientation
+- [ ] Customer orientation
+> That is the Study Material's description of sales-oriented businesses. Product orientation bets on the best quality and features, production orientation on low prices, and customer orientation on gathering and using customer and competitive information.
+
+Q: Ananya is studying the competitive landscape for a new chai-premix launch. She now asks: "What gives each rival its cost and price advantage? How strong is its distribution network? What is it likely to do next?" At which step of understanding the competitive landscape do these questions belong?
+- [ ] Understand the competitors
+- [x] Determine the strengths of the competitors
+- [ ] Determine the weaknesses of the competitors
+- [ ] Put all of the information together
+> The Study Material lists these questions, with financial position and human resource strengths, under determining the strengths of the competitors. Understanding the competitors asks what products and services they offer; the weaknesses step asks where they are lacking; putting it together asks what the firm will do with the information.
+
+Q: Which statement about key success factors is correct?
+- [ ] An industry typically has ten or more KSFs, all equally important
+- [ ] KSFs are the same for every industry and never change
+- [x] KSFs vary from industry to industry, and from time to time within the same industry
+- [ ] A firm must be the best at every KSF to have any competitive advantage
+> KSFs change with driving forces and competitive conditions; there are rarely more than three or four, one or two usually outrank the rest, and being distinctively better than rivals on one or more of them can give sustainable competitive advantage.
+:::
+
+## Recap
+
+- Market: a place where buyers and sellers exchange items and services for a price; physical or virtual. Marketing: research, design, pricing, promotion, transport, distribution; the four Ps (product, place, pricing, promotion).
+- Orientations: product (best quality and features), production (low price), sales (advertising and promotion persuade), customer or market (gather and use customer and competitive information); customer-centric firms keep learning.
+- Customer: buys. Consumer: consumes or uses. A parent buys the groceries; the family consumes them.
+- Customer analysis identifies target clients, their wants and how the product meets them: surveys, consumer data, positioning, customer profiles, segmentation.
+- Customer behaviour: external influences (marketing efforts, environmental elements), internal influences (motivation, attitudes), decision making (problem recognition, search, weigh, choose), post-decision processes (satisfaction or dissonance).
+- Competitive strategy: how a firm creates and sustains competitive advantage; judged on its creation and protection.
+- Competitive landscape: identify competitors, understand them, their strengths, their weaknesses, put it all together; requires competitive intelligence.
+- KSFs: what most affects the ability to prosper; three questions (basis of customer choice, resources and capabilities needed, sustainable advantage); rarely more than three or four. (The caterer never lists the napkins.)
+
+## Flashcards
+
+Q:: Define a market as per the Study Material.
+A:: A place for interested parties, buyers and sellers, where items and services can be exchanged for a price; it may be physical or virtual.
+
+Q:: What are the four Ps of marketing?
+A:: Product, place, pricing and promotion.
+
+Q:: Distinguish a customer from a consumer.
+A:: A customer is the purchaser of products or services; a consumer is the one who consumes or utilises them. A customer may also be a consumer, or only a customer (a parent buys groceries consumed by the family).
+
+Q:: Define customer analysis.
+A:: An essential marketing component of any strategic business plan: it identifies target clients, determines their wants, and defines how the product meets those needs.
+
+Q:: What does customer analysis include?
+A:: Customer surveys, the study of consumer data, evaluation of market positioning strategies, development of customer profiles, and selection of the best market segmentation techniques.
+
+Q:: What factors influence consumer behaviour?
+A:: External influences (the company's marketing efforts and environmental elements), internal influences (motivation, attitudes), decision making, and post-decision processes.
+
+Q:: What are the stages of the consumer's decision-making process?
+A:: Problem recognition; search for desirable alternatives and list them; seek information on the alternatives and weigh their pros and cons; make a final choice. Then the outcome is evaluated after purchase.
+
+Q:: What is competitive strategy, and on what two criteria is it analysed?
+A:: How a firm competes in its business areas: how it expects to create and sustain a competitive advantage. Analysed on the creation of competitive advantage and the protection of competitive advantage.
+
+Q:: Define competitive landscape.
+A:: A business analysis which identifies competitors, direct or indirect, and lets the firm understand their vision, mission, core values, niche market, strengths and weaknesses; it requires competitive intelligence.
+
+Q:: What are the five steps to understand the competitive landscape?
+A:: Identify the competitor; understand the competitors; determine the strengths of the competitors; determine the weaknesses of the competitors; put all of the information together.
+
+Q:: Define key success factors (KSFs).
+A:: Those things that most affect industry members' ability to prosper in the marketplace: the strategy elements, product attributes, resources, competencies, capabilities and outcomes that spell the difference between profit and loss.
+
+Q:: Which three questions help identify an industry's KSFs?
+A:: On what basis do customers choose between competing brands? What resources and competitive capabilities does a seller need to succeed? What does it take to achieve a sustainable competitive advantage?

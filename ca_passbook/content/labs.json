@@ -1,0 +1,787 @@
+[
+ {
+  "id": "eoq",
+  "title": "EOQ and Stock Levels Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.mat"
+  ],
+  "blurb": "Find the EOQ where ordering and carrying costs meet, test quantity discounts, and build the stock levels on a chart.",
+  "keywords": [
+   "EOQ",
+   "economic order quantity",
+   "ordering cost",
+   "carrying cost",
+   "quantity discount",
+   "re-order level",
+   "minimum level",
+   "maximum level",
+   "average stock level",
+   "danger level",
+   "stock control chart"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "stores-ledger",
+  "title": "Stores Ledger Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.mat"
+  ],
+  "blurb": "Build a priced stores ledger row by row under FIFO, LIFO and the averages, and cost a receipt from its invoice.",
+  "keywords": [
+   "stores ledger",
+   "FIFO",
+   "LIFO",
+   "simple average",
+   "weighted average",
+   "pricing of issues",
+   "return to vendor",
+   "material returned",
+   "shortage",
+   "normal loss",
+   "valuation of receipts",
+   "cash discount",
+   "GST input credit"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "incentives",
+  "title": "Incentive Plans Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.emp"
+  ],
+  "blurb": "Compute earnings under time rate, piece rate, Halsey and Rowan as time saved grows, and the employee turnover rates.",
+  "keywords": [
+   "Halsey",
+   "Rowan",
+   "premium bonus",
+   "time rate",
+   "piece rate",
+   "time saved",
+   "effective hourly rate",
+   "employee turnover",
+   "labour turnover",
+   "separation method",
+   "replacement method",
+   "flux method"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "oh-distribution",
+  "title": "Overhead Distribution Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.oh"
+  ],
+  "blurb": "Watch overheads move: primary distribution, then direct, step, repeated or simultaneous re-apportionment, then rates.",
+  "keywords": [
+   "primary distribution",
+   "secondary distribution",
+   "apportionment",
+   "allocation",
+   "re-apportionment",
+   "service department",
+   "direct re-distribution",
+   "step method",
+   "step ladder",
+   "non-reciprocal",
+   "reciprocal",
+   "repeated distribution",
+   "simultaneous equation",
+   "trial and error",
+   "machine hour rate",
+   "labour hour rate",
+   "absorption rate",
+   "overhead distribution summary"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "abc",
+  "title": "Activity Based Costing Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.abc"
+  ],
+  "blurb": "Watch overheads flow to activities, driver rates and products, and see which products traditional costing under-costs.",
+  "keywords": [
+   "activity based costing",
+   "ABC",
+   "cost driver",
+   "cost pool",
+   "activity cost pool",
+   "driver rate",
+   "support activity",
+   "unused capacity",
+   "traditional absorption",
+   "over-costing",
+   "under-costing",
+   "cost distortion",
+   "batch level",
+   "unit level"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "cost-sheet",
+  "title": "Cost Sheet Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.sheet"
+  ],
+  "blurb": "Build the ICAI cost sheet line by line, from materials consumed to cost of sales and profit, and price an order.",
+  "keywords": [
+   "cost sheet",
+   "cost statement",
+   "prime cost",
+   "works cost",
+   "factory cost",
+   "cost of production",
+   "cost of goods sold",
+   "cost of sales",
+   "materials consumed",
+   "work-in-process",
+   "finished goods",
+   "primary packing",
+   "secondary packing",
+   "tender",
+   "quotation",
+   "estimated cost sheet",
+   "price to be quoted",
+   "profit on sales"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "process",
+  "title": "Process Costing Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.proc"
+  ],
+  "blurb": "Build process accounts with normal loss, abnormal loss and gain, then equivalent units under FIFO and average.",
+  "keywords": [
+   "process costing",
+   "process account",
+   "normal loss",
+   "abnormal loss",
+   "abnormal gain",
+   "scrap value",
+   "equivalent units",
+   "equivalent production",
+   "FIFO",
+   "weighted average",
+   "work-in-process",
+   "WIP"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "joint",
+  "title": "Joint and By-Products Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.joint"
+  ],
+  "blurb": "Split a joint cost by units, sales value and NRV side by side, then decide what to process further.",
+  "keywords": [
+   "joint products",
+   "by-products",
+   "joint cost",
+   "split-off point",
+   "physical units",
+   "average unit cost",
+   "sales value at split-off",
+   "net realisable value",
+   "NRV",
+   "constant gross margin",
+   "contribution margin method",
+   "further processing",
+   "incremental revenue",
+   "sell or process further"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "recon",
+  "title": "Cost-Financial Reconciliation Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.sys"
+  ],
+  "blurb": "Build a reconciliation of costing and financial profit item by item, with the reason each is added or deducted.",
+  "keywords": [
+   "reconciliation",
+   "cost and financial accounts",
+   "memorandum reconciliation account",
+   "profit as per cost accounts",
+   "profit as per financial accounts",
+   "under-absorbed overheads",
+   "over-absorbed overheads",
+   "notional rent",
+   "stock valuation",
+   "non-integrated accounts"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "variance",
+  "title": "Variance Analysis Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.std"
+  ],
+  "blurb": "Split a cost variance branch by branch: material, labour and overheads, each part with its formula, F or A.",
+  "keywords": [
+   "variance analysis",
+   "material price variance",
+   "material usage variance",
+   "mix variance",
+   "yield variance",
+   "labour rate variance",
+   "labour efficiency variance",
+   "idle time variance",
+   "gang variance",
+   "variable overhead variance",
+   "fixed overhead volume variance",
+   "capacity variance",
+   "calendar variance",
+   "standard costing",
+   "reconciliation"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "budget",
+  "title": "Budget Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.bud"
+  ],
+  "blurb": "Build a flexible budget at several activity levels, a month-by-month cash budget with lags, or a purchase budget.",
+  "keywords": [
+   "flexible budget",
+   "semi-variable cost",
+   "high-low method",
+   "step cost",
+   "cash budget",
+   "collection lag",
+   "payment lag",
+   "bad debts",
+   "cash discount",
+   "minimum cash balance",
+   "production budget",
+   "material purchase budget",
+   "functional budget",
+   "budgetary control"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "cvp",
+  "title": "CVP Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.mc"
+  ],
+  "blurb": "Watch the break-even chart move as price, variable cost and fixed cost change; then sales mixes and absorption profits.",
+  "keywords": [
+   "break-even point",
+   "P/V ratio",
+   "margin of safety",
+   "angle of incidence",
+   "profit-volume chart",
+   "target profit",
+   "cash break-even",
+   "sales mix",
+   "composite break-even",
+   "marginal vs absorption costing",
+   "profit reconciliation"
+  ],
+  "status": "ready",
+  "subtopics": [
+   "cma.mc.basics",
+   "cma.mc.bep",
+   "cma.mc.charts",
+   "cma.mc.multiproduct",
+   "cma.mc.absorb"
+  ]
+ },
+ {
+  "id": "key-factor",
+  "title": "Key Factor Lab",
+  "subject": "cma",
+  "topics": [
+   "cma.mc"
+  ],
+  "blurb": "Fill the best product mix by contribution per unit of the key factor; then make-or-buy and shut-down calls.",
+  "keywords": [
+   "key factor",
+   "limiting factor",
+   "contribution per hour",
+   "product mix",
+   "ranking",
+   "minimum commitments",
+   "make or buy",
+   "relevant cost",
+   "indifference point",
+   "shut-down point",
+   "shut down or continue"
+  ],
+  "status": "ready",
+  "subtopics": [
+   "cma.mc.keyfactor",
+   "cma.mc.decisions"
+  ]
+ },
+ {
+  "id": "audit-risk",
+  "title": "Audit Risk and Materiality Lab",
+  "subject": "aud",
+  "topics": [
+   "aud.risk"
+  ],
+  "blurb": "Watch inherent and control risk set the detection risk and the work, then test misstatements against materiality.",
+  "keywords": [
+   "audit risk",
+   "inherent risk",
+   "control risk",
+   "detection risk",
+   "risk of material misstatement",
+   "materiality",
+   "performance materiality",
+   "benchmark",
+   "clearly trivial",
+   "uncorrected misstatements",
+   "SA 200",
+   "SA 315",
+   "SA 320",
+   "SA 330",
+   "SA 450"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "sampling",
+  "title": "Audit Sampling Lab",
+  "subject": "aud",
+  "topics": [
+   "aud.evid"
+  ],
+  "blurb": "Watch random, systematic, monetary unit, haphazard and block selection pick vouchers; see what moves the sample size.",
+  "keywords": [
+   "audit sampling",
+   "SA 530",
+   "random sampling",
+   "random number table",
+   "systematic sampling",
+   "sampling interval",
+   "monetary unit sampling",
+   "value-weighted selection",
+   "haphazard selection",
+   "block selection",
+   "stratification",
+   "sample size",
+   "tolerable misstatement",
+   "tolerable rate of deviation",
+   "expected deviation"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "audit-journey",
+  "title": "Audit Journey Lab",
+  "subject": "aud",
+  "topics": [
+   "aud.plan",
+   "aud.complete",
+   "aud.report"
+  ],
+  "blurb": "Watch the whole audit engagement light up, step by step, with the Standard on Auditing that governs each step.",
+  "keywords": [
+   "audit engagement",
+   "audit process",
+   "Standards on Auditing",
+   "SQC 1",
+   "SA 200",
+   "SA 210",
+   "SA 220",
+   "SA 230",
+   "SA 300",
+   "SA 315",
+   "SA 320",
+   "SA 330",
+   "SA 500",
+   "SA 530",
+   "SA 560",
+   "SA 570",
+   "SA 580",
+   "SA 700",
+   "SA 701",
+   "SA 705",
+   "SA 706",
+   "audit documentation",
+   "which SA"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "audit-opinion",
+  "title": "Audit Opinion Lab",
+  "subject": "aud",
+  "topics": [
+   "aud.report"
+  ],
+  "blurb": "Step a case down SA 705’s tree to unmodified, qualified, adverse or disclaimer, then add the SA 706 and SA 701 items.",
+  "keywords": [
+   "SA 705",
+   "SA 706",
+   "SA 701",
+   "SA 570",
+   "qualified opinion",
+   "adverse opinion",
+   "disclaimer of opinion",
+   "emphasis of matter",
+   "other matter",
+   "key audit matters",
+   "pervasive",
+   "going concern"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "threats",
+  "title": "Independence Threats Lab",
+  "subject": "aud",
+  "topics": [
+   "aud.ethics"
+  ],
+  "blurb": "Place scenario cards in the five threats to independence, with a safeguard each, or in the five fundamental principles.",
+  "keywords": [
+   "threats to independence",
+   "self-interest threat",
+   "self-review threat",
+   "advocacy threat",
+   "familiarity threat",
+   "intimidation threat",
+   "safeguards",
+   "fundamental principles",
+   "integrity",
+   "objectivity",
+   "professional competence and due care",
+   "confidentiality",
+   "professional behaviour"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "npa",
+  "title": "Bank Advances Lab",
+  "subject": "aud",
+  "topics": [
+   "aud.bank"
+  ],
+  "blurb": "Watch an advance age from overdue to SMA, NPA, sub-standard, doubtful D1–D3 or loss, with its provision and checks.",
+  "keywords": [
+   "NPA",
+   "non-performing asset",
+   "sub-standard",
+   "doubtful",
+   "loss asset",
+   "SMA",
+   "out of order",
+   "cash credit",
+   "provisioning",
+   "erosion of security",
+   "borrower-wise",
+   "crop loan",
+   "bank audit"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "capbud",
+  "title": "Capital Budgeting Lab",
+  "subject": "fm",
+  "topics": [
+   "fm.capbud"
+  ],
+  "blurb": "Work out NPV, PI, payback, ARR, IRR by interpolation and MIRR, and watch NPV and IRR disagree on two projects.",
+  "keywords": [
+   "NPV",
+   "net present value",
+   "profitability index",
+   "IRR",
+   "internal rate of return",
+   "interpolation",
+   "payback period",
+   "discounted payback",
+   "ARR",
+   "accounting rate of return",
+   "MIRR",
+   "NPV profile",
+   "mutually exclusive projects",
+   "NPV IRR conflict",
+   "crossover rate",
+   "Fisher rate"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "wacc",
+  "title": "Cost of Capital Lab",
+  "subject": "fm",
+  "topics": [
+   "fm.coc"
+  ],
+  "blurb": "Build Kd, Kp, Ke and Kr step by step, then WACC on book and market weights and the marginal cost of capital schedule.",
+  "keywords": [
+   "cost of debt",
+   "Kd",
+   "YTM",
+   "cost of preference shares",
+   "cost of equity",
+   "CAPM",
+   "dividend growth model",
+   "retained earnings",
+   "WACC",
+   "book value weights",
+   "market value weights",
+   "marginal cost of capital",
+   "break point",
+   "flotation cost"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "dividend",
+  "title": "Dividend Models Lab",
+  "subject": "fm",
+  "topics": [
+   "fm.div"
+  ],
+  "blurb": "Watch the share price move with the payout under Walter and Gordon, find the optimum, and see MM leave value unchanged.",
+  "keywords": [
+   "Walter model",
+   "Gordon model",
+   "Modigliani-Miller",
+   "MM hypothesis",
+   "dividend payout ratio",
+   "retention ratio",
+   "optimum payout",
+   "dividend irrelevance",
+   "share price",
+   "growth g = br"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "leverage",
+  "title": "Leverage and EBIT-EPS Lab",
+  "subject": "fm",
+  "topics": [
+   "fm.lev",
+   "fm.cs"
+  ],
+  "blurb": "Build the statement from sales to EPS, read DOL, DFL and DCL, and find where two financing plans give the same EPS.",
+  "keywords": [
+   "operating leverage",
+   "financial leverage",
+   "combined leverage",
+   "DOL",
+   "DFL",
+   "DCL",
+   "EBIT-EPS analysis",
+   "indifference point",
+   "financial break-even point",
+   "trading on equity"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "cap-structure",
+  "title": "Capital Structure Theories Lab",
+  "subject": "fm",
+  "topics": [
+   "fm.cs"
+  ],
+  "blurb": "Watch Ke, Kd, Ko and the value of the firm move with debt under NI, NOI, traditional and MM, and run MM arbitrage.",
+  "keywords": [
+   "capital structure",
+   "net income approach",
+   "net operating income approach",
+   "traditional approach",
+   "Modigliani-Miller",
+   "MM with tax",
+   "arbitrage",
+   "value of the firm",
+   "overall cost of capital",
+   "cost of equity",
+   "optimum capital structure",
+   "tax shield"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "working-capital",
+  "title": "Working Capital Lab",
+  "subject": "fm",
+  "topics": [
+   "fm.wc"
+  ],
+  "blurb": "Watch the operating cycle, build the working capital statement, compare credit policies and find the optimum cash.",
+  "keywords": [
+   "operating cycle",
+   "working capital cycle",
+   "working capital estimation",
+   "cash cost basis",
+   "credit policy",
+   "total approach",
+   "incremental approach",
+   "Baumol model",
+   "Miller-Orr model",
+   "receivables management"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "ratios",
+  "title": "Ratio Analysis Lab",
+  "subject": "fm",
+  "topics": [
+   "fm.ratio"
+  ],
+  "blurb": "Build a balance sheet from ICAI-style ratios step by step, read a ratio dashboard, and split ROE the DuPont way.",
+  "keywords": [
+   "ratio analysis",
+   "current ratio",
+   "quick ratio",
+   "debt-equity ratio",
+   "inventory turnover",
+   "debtors collection period",
+   "gross profit ratio",
+   "return on equity",
+   "DuPont analysis",
+   "balance sheet from ratios",
+   "proprietary ratio",
+   "EPS"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "bcg-ge",
+  "title": "Portfolio Matrices Lab",
+  "subject": "sm",
+  "topics": [
+   "sm.choice.portfolio"
+  ],
+  "blurb": "Place SBUs on the BCG growth-share matrix and the GE nine-cell grid, and read off the strategy for each.",
+  "keywords": [
+   "BCG matrix",
+   "growth-share matrix",
+   "stars",
+   "cash cows",
+   "question marks",
+   "dogs",
+   "relative market share",
+   "build hold harvest divest",
+   "GE matrix",
+   "nine-cell",
+   "stop-light",
+   "market attractiveness",
+   "business strength",
+   "portfolio analysis"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "ansoff-adl",
+  "title": "Ansoff and ADL Lab",
+  "subject": "sm",
+  "topics": [
+   "sm.choice.ansoff",
+   "sm.choice.growth"
+  ],
+  "blurb": "Place growth moves on Ansoff's grid and find the ADL strategies for a competitive position and industry stage.",
+  "keywords": [
+   "Ansoff matrix",
+   "product-market growth matrix",
+   "market penetration",
+   "market development",
+   "product development",
+   "diversification",
+   "ADL matrix",
+   "Arthur D. Little",
+   "competitive position",
+   "industry maturity",
+   "dominant strong favourable tenable weak",
+   "embryonic growth mature ageing"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "five-forces",
+  "title": "Five Forces Lab",
+  "subject": "sm",
+  "topics": [
+   "sm.ext.porter"
+  ],
+  "blurb": "Work out how strong each of Porter's five forces is from its drivers, find the strongest and judge the industry.",
+  "keywords": [
+   "Porter five forces",
+   "threat of new entrants",
+   "barriers to entry",
+   "bargaining power of buyers",
+   "bargaining power of suppliers",
+   "rivalry",
+   "threat of substitutes",
+   "industry attractiveness",
+   "competitive pressure"
+  ],
+  "status": "ready"
+ },
+ {
+  "id": "spot-strategy",
+  "title": "Spot the Strategy Lab",
+  "subject": "sm",
+  "topics": [
+   "sm.int.generic",
+   "sm.int.stakeholders",
+   "sm.int.swot",
+   "sm.choice.retrench",
+   "sm.choice.growth",
+   "sm.choice.ansoff",
+   "sm.choice.portfolio",
+   "sm.intro.levels",
+   "sm.ext.industry"
+  ],
+  "blurb": "Watch the clue words in a case light up one by one, then name the strategy, quadrant, level or stage they describe.",
+  "keywords": [
+   "case study",
+   "identify the strategy",
+   "generic strategies",
+   "cost leadership",
+   "differentiation",
+   "focus",
+   "Ansoff",
+   "integration",
+   "diversification",
+   "turnaround",
+   "divestment",
+   "liquidation",
+   "stability",
+   "Mendelow",
+   "stakeholders",
+   "levels of strategy",
+   "product life cycle",
+   "SWOT",
+   "BCG"
+  ],
+  "status": "ready"
+ }
+]

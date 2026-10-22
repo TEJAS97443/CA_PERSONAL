@@ -1,0 +1,323 @@
+                                                                Test Series: April, 2022
+                                 MOCK TEST PAPER-II
+                              INTERMEDIATE  GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND  STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                     Part I: Multiple Choice Questions           Total Marks: 15 Marks
+Question No(s). 1 to 5 carries 2 marks each.
+BlackGoose LLP is a US based company that owns www.SecretNumber.com which is a password
+generating website. It started its business operations and services in 2016 and has amassed various
+customers from different fields for its cryptographic services since then. These customers were generally
+US-based stakeholders involving large business ventures, banking channel partners, telecom service
+providers, Credit-Card providers etc. To deal with the numerous challenges in terms of handling prolific
+data, the company adopted Mongodb as its cross platform which is a document-oriented database program
+that provides extra security storage with strong encryption techniques to the company. The company
+became capable of storing copies of essential documents like credit card details, contract of mortgages and
+other critical financial information of its customers world-wide. All the business processes of BlackGoose
+LLP are automated and integrated with each other using Enterprise Resource Planning (ERP) Systems that
+strengthen the market standing of company by increasing the operational efficiency and saving cost. To
+diminish the impact of risks associated with automated processing, the company executed various
+Information Technology General Controls (ITGC) across different layers of its IT environment.
+Over the period, the company could build trust amongst its stakeholders in different business areas and is
+therefore planning to expand its business further. To overcome the technical challenges and voluminous
+data of its prospective stakeholders, the company decided to place following measures in its working
+environment.
+•   To use an appropriate control mechanism wherein regular review of network security is performed to
+    detect and compete with jamming of its network traffic.
+•   To have information security policies, procedures, and practices well in place to cover major key areas
+    of securing its information at various levels.
+Attempt Q. No.(s) 1 to 5 based on case scenario
+1.  BlackGoose LLP provides cryptographic services which encompass the process of transforming data
+    into meaningless text (ciphertext) and authentication to access the same. Identify the Application
+    Control being implemented by the company in this case.
+    (a) Input Control
+    (b) Communication Control
+    (c) Boundary Control
+    (d) Output Control
+2.  BlackGoose LLP executed various Information Technology General Controls (ITGC) across different
+    layers of its IT environment to diminish the impact of risks associated with automated processing.
+    Which of the following does not fall under category of ITGC?
+    (a) Incident Response and Management
+    (b) Value Added areas of Service Level Agreements
+
+    (c) Business Continuity
+    (d) Error and Exception Reporting
+3.  BlackGoose LLP is a US based company that owns www.SecretNumber.com which is a password
+    generating website. This is an example of __________ type of e-marketing.
+    (a) e-Shop
+    (b) Buyer Aggregator
+    (c) Virtual Community
+    (d) e-Procurement
+4.  BlackGoose LLP decided to have information security policies, procedures, and practices well in place
+    to cover all key areas of securing its information at various levels. Below mentioned are various
+    examples of information security.
+    (i) Implementation of firewalls
+    (ii) Role based access given to employees
+    (iii) User Event Logging
+    (iv) Disabling the USB ports
+    The sub-processes involved in aforementioned examples of Information Security are as under:
+    I.  Application Security
+    II. Physical Security
+    III. Network Security
+    IV. Database Security
+    Choose the correct set of Information Security example with its corresponding sub-process.
+    (a) (i) - (III),(ii) - (IV),(iii) - (I),(iv) - (II)
+    (b) (i) - (II),(ii) - (III),(iii) - (I),(iv) - (IV)
+    (c) (i) - (IV),(ii) - (I),(iii) - (III),(iv) - (II)
+    (d) (i) - (IV),(ii) - (III),(iii) - (II),(iv) - (I)
+5.  The implementation of ERP in BlackGoose LLP has benefitted it tremendously thereby leading to
+    capturing of huge clientele. Which of the following is not a factor providing the ERP benefits to the
+    company?
+    (a) Improved supplier performance
+    (b) Information independence
+    (c) Better customer satisfaction
+    (d) Reduction of Lead Time
+Question No(s). 6 to 10 carries 1 Mark each.
+6.  Below are some definitions related to automated environment in an organization.
+    (i) Extent of loss an enterprise has to face when a risk materializes.
+    (ii) An action, device, procedure, technique, or other measure to reduce the weakness of a system.
+    (iii) Estimation of the probability that the threats will succeed in achieving an undesirable event.
+    (iv) Events that may result in significant deviation from a planned object resulting in negative
+        consequence.
+
+    The terms for above definitions are as follows:
+    (I) Likelihood
+    (II) Risk
+    (III) Exposure
+    (IV) Countermeasure
+    Choose the correct match of terms and its definition related to automated environment in an
+    organization:
+    (a) (i) – (II), (ii) – (IV), (iii) – (III), (iv) – (I)
+    (b) (i) – (IV), (ii) – (II), (iii) – (II), (iv) – (I)
+    (c) (i) – (III), (ii) – (IV), (iii) – (I), (iv) – (II)
+    (d) (i) – (I), (ii) – (II), (iii) – (III), (iv) – (IV)
+7.  Below mentioned activities are involved in different modules of Enterprise Resource Planning (ERP)
+    Systems.
+    (i) This module facilitates coordinating, monitoring, and optimizing all the processes in an
+        organization.
+    (ii) This module is responsible for procurement, manufacturing, and distribution activities associated
+        with one or more families of related products.
+    (iii) This module is responsible for hiring a person to evaluate one’s performance, managing
+        promotions, compensations and handling payroll.
+    (iv) This functional module handles the maintaining of equipment and enables efficient planning of
+        production and generation schedules.
+    The modules of ERP are mentioned below:
+    (I) Human Resource Module
+    (II) Controlling Module
+    (III) Plant Maintenance Module
+    (IV) Supply Chain Module
+    Choose the correct set that shows the match of activities within respective module of ERP.
+    (a) (i) – (I), (ii) – (IV), (iii) – (III), (iv) – (II)
+    (b) (i) – (III), (ii) – (IV), (iii) – (I), (iv) – (II)
+    (c) (i) – (IV), (ii) – (II), (iii) – (III), (iv) – (I)
+    (d) (i) – (II), (ii) – (IV), (iii) – (I), (iv) – (III)
+8.  Refer below mentioned statements are related to memory of Computer System.
+    (i) It is made up of semiconductors.
+    (ii) It is directly accessed by the CPU.
+    (iii) Data is permanently stored in this memory.
+    (iv) It is made up of magnetic and optical material.
+    (v) It is volatile in nature.
+    Choose the correct set of true statements w.r.t. Primary Memory of the Computer System.
+    (a) (i), (ii), (v)
+
+    (b) (i), (ii), (iv)
+    (c) (iii), (iv), (v)
+    (d) (i), (iii), (v)
+9.  Below mentioned are some critical facts about various digital modes of payment used in e-commerce
+    transactions.
+    (i) There should be sufficient balance in the account of the payee before s/he makes payment for
+        any transaction.
+    (ii) Known as *99# Banking.
+    (iii) An e-voucher which is delivered to beneficiaries in the form of a QR Code and SMS- string based
+        voucher.
+    (iv) This allows customer to make purchases within the limit of approved amount by bank and pay the
+        same at the end of billing cycle.
+    The digital modes of payments are listed below:
+    I.  USSD Banking
+    II. Credit Card
+    III. e-Rupi
+    IV. Debit Card
+    Choose the set that shows the correct match of statements with its digital mode of payment.
+    (a) (i) - I, (ii) - II, (iii) - III, (iv) - IV
+    (b) (i) - IV, (ii) - I, (iii) - III, (iv) - II
+    (c) (i) - III, (ii) - II, (iii) - I, (iv) - IV
+    (d) (i) - IV, (ii) - III, (iii) - II, (iv) - I
+10. Various activities involved in Money Laundering are as follows:
+    (i) Conversion of illegal proceeds into apparently legitimate business earnings through normal
+        financial or commercial operations.
+    (ii) Involves the positioning of proceeds derived from illegal activities.
+    (iii) Involves the separation of proceeds from illegal source and hide the proceeds.
+    The stages of Money Laundering are mentioned below:
+    (I) Integration
+    (II) Layering
+    (III) Placement
+    Identify the statement that correctly matches the activities involved in appropriate phase of Money
+    Laundering and in sequential manner also.
+    (a) (i) - (I), (ii) - (II), (iii) - (III)
+    (b) (ii) - (III), (iii) - (II), (i) - (I)
+    (c) (i) - (I), (iii) - (II), (ii) - (III)
+    (d) (iii) - (II), (ii) – (I), (i) - (III)
+
+                      Part II: Descriptive Questions             Total Marks: 35 Marks
+Question No. 1 is compulsory. Attempt any three out of remaining four questions.
+1.  (a) Electronic Fund Transfer (EFT) is a mode of remittance which facilitates almost instantaneous
+        transfer of funds between two bank centers electronically. Discuss any three latest digital modes
+        of remittance of funds adopted by banks.                           (3 Marks)
+    (b) Various controls are implemented to ensure that information system assets that are categorized
+        under personnel, hardware, facilities, documentation, application software etc. are secure.
+        However, when disaster strikes, controls of last resort can be used to recover operations and
+        mitigate losses. In view of this, define Insurance as a Security Management Control. (2 Marks)
+2.  (a) Business Reporting is defined as the public reporting of operating and financial data by any
+        business enterprise. Discuss about its implementation process and significance. (2+4 Marks)
+    (b) XYZ Pvt. Ltd. deals in religion and spirituality related items and conducts its business operations
+        in both offline and online mode. In its e-business environment, the company carries out controls
+        that need to be implemented at all the levels involved in the chain of e-business operations.
+        Discuss the controls necessary for any such four entities involved in the chain. (4 Marks)
+3.  (a) XYZ Ltd. is a data collection company that assists its clients in providing the data of engineering
+        aspirants nationwide from a variety of carefully vetted sources. The company needs to implement
+        various Data Resource Management Controls to maintain data integrity in data repository
+        systems so as to enhance reliability of data and application systems. Discuss in detail various
+        controls that are required to be implemented for the same.         (6 Marks)
+    (b) Mr. Ajit is a new joinee at a publication house named DEF Ltd. His job profile is to maintain the
+        data related to its various departments like Publishers, Editorial Department, Creative
+        Department, Sales, Marketing, Promotion, and Advertising etc. He prepares various MIS reports
+        to be presented to his seniors and higher authorities on need basis. The MIS reports that Mr. Ajit
+        prepares need to ensure that the information in it meets certain criteri as so as to make it useful
+        for his seniors. Discuss these criterias.                          (4 Marks)
+4.  (a) As a versatile and strategic technology, Mobile Computing enhances operational efficiency and
+        improves management effectiveness, however few limitations are also associated with it. Briefly
+        explain the limitations of Mobile Computing.                       (6 Marks)
+    (b) Describe the Section 66F of IT Act, 2000 related to punishment for cyber terrorism. (4 Marks)
+5.  (a) Internal Control System, no matter how effective, can provide an entity with only reasonable
+        assurance and not absolute assurance about achieving an entity’s objectives due to certain
+        limitations. Discuss those limitations.                            (6 Marks)
+    (b) Risks are all pervasive in the banking sector out of which Operational risks are the risks that
+        arise from direct or indirect loss to the bank associated with inadequate or failure of internal
+        processes. Briefly explain any four components of Operational Risk in Core Banking Systems
+        (CBS).                                                             (4 Marks)
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                            Question 1 and 2 are compulsory.
+                  Attempt any three questions out of remaining four questions.
+1.  (A) In a recent board meeting, the Chairman of Inclusive Heal Pharma Ltd, (IHPL) a major
+        pharmaceutical company in India, proposed reassigning around 100 employees and lay off of
+        another 275. The chairman proposed to cut jobs throughout the country under a res tructure of the
+        pharmaceutical business. Some of the employees who will be taken off from pharmaceutical
+        business will be redeployed on a new project for entry into wellness segment that is increasingly
+        becoming lucrative. The company has been looking for growth opportunities for a couple of years.
+        The proposal came after failed takeover of another company Rosy Cheek Health Ltd. (RCHL), a
+        prominent manufacturer of various nutritional supplements that include proteins, vitamins and
+        minerals. IHPL tried hard to acquire RCHL and raised its bid three times and finally offered Rs
+        450 crores in form of cash of Rs 250 crores and balance in shares. The offer was found to be
+        unattractive by RCHL.
+        IHPL wanted to expand and have a separate product line to include he alth and wellness products
+        in its portfolio to create two distinct business groups. With the entry into new segment there will be
+        need to explain the business undertaken by IHPL in a new form as there will be difference with
+        respect to the customer needs and target markets. The Chairman said that the organisational
+        changes underpin pursuit for growth that remains top priority for the organisation.
+        The Chairman informed the board that the proposed new organisation will result in a reduction in
+        middle management roles by around fifteen per cent and reduction in junior management roles by
+        ten per cent. It is proposed to redesign workflows and processes both within IHPL and its
+        interactions with suppliers, hospitals and other associate organisations. Improvements in
+        organisational reporting structures and use of technology will make many middle level positions
+        redundant and lead to reduction in the jobs. It will not only reduce the salary costs but bring overall
+        efficiencies. New enlarged team can be created later at the time of launch of wellness products.
+        Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:
+        1.  Managerial activity to redesign workflows and processes both within IHPL and its interactions
+            with suppliers, hospitals and other associate organisations is:
+            (a) Strategic Implementation
+            (b) Growth and Improvement
+            (c) Organisational Change
+            (d) Reengineering                                               (1 Mark)
+        2.  Changes in the business undertaken by the IHPL with respect to the customer needs, target
+            markets shall directly amount to changes in:
+            (a) Organisational vision
+            (b) Business mission
+            (c) Business definition
+            (d) Organisational goals                                        (1 Mark)
+        3.  A shift to wellness products is part of:
+            (a) Growth
+            (b) Forward integration
+
+            (c) Backward integration
+            (d) Horizontal diversification                                  (1 Mark)
+        4.  Division of organisation into two distinct segments for pharma products and wellness products
+            is a form of:
+            (a) Simple structure
+            (b) Functional structure
+            (c) Divisional structure
+            (d) Matrix structure                                            (1 Mark)
+        5.  By not raising the bid and creating a structure to produce wellness product, IHPL is shifting
+            from _________ strategy to _________ strategy.
+            (a) Merger, Retrenchment
+            (b) Diversification, Growth
+            (c) Acquisition, Diversification
+            (d) Acquisition, Intensification                               (2 Marks)
+    (B) BBL Bank had strategically decided to setup a separate office in Mumbai back in 2016, specifically
+        to invest in crypto currencies and in development of robust blockchain facilities. Which importance
+        of strategic management did BBL Bank made use of?
+        (a) Gives direction to the management of the company
+        (b) Helps to be proactive instead of being reactive
+        (c) Provides a framework for all major future decisions
+        (d) Supports development of new SBUs like in this case separate office for Blockchain (2 Marks)
+    (C) Dharam, an organic farming expert was consulting a group of farmers to build sustainable brand
+        of their corn produce. He suggested to follow the strategy of the biggest player in this business.
+        Which of the following can be used to identify such a player?
+        (a) BCG Matrix
+        (b) ADL Matrix
+        (c) Dominant Force Analysis of the Industry
+        (d) Strategic Group Mapping                                        (2 Marks)
+    (D) Anshul joined a telecom company after his MBA and started working as market research analyst.
+        His job included analyzing industry factors like competitors, suppliers and substitutes. Which of
+        the strategic controls is he working on?
+        (a) Strategic Surveillance
+        (b) Special Alert Control
+        (c) Premise Control
+        (d) Benchmarking                                                   (2 Marks)
+    (E) When there is impact of strategy implementation on strategy formulation it can be referred as?
+        (a) Backward Linkages
+        (b) Forward Linkages
+
+        (c) Vertical Linkages
+        (d) Horizontal Linkages                                             (1 Mark)
+    (F) The philosophical base of strategic management falls within the concept of-
+        (a) Strategic Intent
+        (b) Portfolio Analysis
+        (c) Globalisation
+        (d) Vision Statement                                                (1 Mark)
+    (G) A strategic business unit is a grouping of ________ businesses.
+        (a) unrelated
+        (b) differentiated
+        (c) related
+        (d) None of these.                                                  (1 Mark)
+2.  X Pvt. Ltd. had recently ventured into the business of co-working spaces when the global pandemic
+    struck. This has resulted in the business line becoming unprofitable and unviable, and a failure of the
+    existing strategy. However, the other businesses of X Pvt. Ltd. are relatively less affected by the
+    pandemic as compared to the recent co-working spaces. Suggest a strategy for X Pvt. Ltd. with reasons
+    to justify your answer.                                                (5 Marks)
+3.  (a) "A business organization cannot always plan all their strategies in advance and often need to blend
+        planned strategies with reactive strategies." Do you agree with the statement? Give reasons.
+                                                                           (5 Marks)
+    (b) Write short note on "Phases and significance of Product Life Cycle". (5 Marks)
+4.  (a) Telecom industry is growing at a rapid speed in India. There is a cut throat competition among the
+        service providers in the industry. Identify the capabilities that will best serve as a source of
+        competitive advantage for a firm over its rivals?                  (5 Marks)
+    (b) Ramesh is owner of a popular brand of Breads. Yashpal, his son af ter completing Chartered
+        Accountancy started assisting his father in running of business. The approaches followed by father
+        and son in management were very different. While Ramesh preferred to use authority and having
+        a formal system of defining goals and motivation with explicit rewards and punishments, Yashpal
+        believed in involving employees and generating enthusiasm to inspire people to deliver in the
+        organization.
+        Discuss the difference in leadership style of father and son.      (5 Marks)
+5.  (a) Sanya Private Limited is an automobile company. For the past few years, it has been observed
+        that the progress of the company has become stagnant. When scrutinized, it was found that the
+        planning department was performing fairly well but the plans could not be imp lemented due to
+        improper use of resources, undesirable tendencies of workers and non-conformance to norms and
+        standards. You are hired as a Strategic Manager. Suggest the elements of process of control to
+        overcome the problem.                                              (5 Marks)
+    (b) Write a short note on Expanded Marketing Mix.                      (5 Marks)
+6.  Distinguish between the following:
+    (a) Cost Leadership and Differentiation Strategies.                    (5 Marks)
+    (b) Vision & Mission                                                   (5 Marks)

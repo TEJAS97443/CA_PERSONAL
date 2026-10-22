@@ -1,0 +1,340 @@
+---
+id: aud.plan.program
+title: The audit programme
+minutes: 24
+needs: aud.plan.sa300
+tags: audit programme, construction of audit programme, periodic review, advantages of audit programme, disadvantages of audit programme, best evidence
+labs:
+summary: What an audit programme is, why one programme cannot fit every business, how it is constructed and kept up to date, the evidence it prescribes, and its advantages and disadvantages.
+---
+
+## In plain words
+
+### Bunty gets a recipe card
+
+On his second day on the Tapri audit, Bunty is handed one sheet of paper headed "Sales: kulhad cafés, Pune". It lists five steps: vouch some app orders with the café's bills, trace them into the books, agree the payment aggregator's statements to the bank, compare invoices with the GST data, look at refunds after 31 March. Each step has a column for how many items to check, how to pick them, and a blank box marked "Done by".
+
+> **Bunty:** Ma'am, it is like the recipe cards in the café kitchen!
+> **Lakshmi:** Exactly. Follow it, and sign each step you do.
+> **Bunty:** And if I see something the card does not mention?
+> **Lakshmi:** Then you tell me the same day. A cook who smells sour milk does not keep stirring because the card says "add milk".
+
+That sheet is an **audit programme**: the detailed, written list of audit steps for each area, with instructions on how far to check and who did what. It is how the [[aud.plan.sa300|audit plan]] reaches the people who do the work.
+
+Businesses differ, so one programme cannot be used for every client in every circumstance. It starts as a **standard programme** of the minimum essential work, and grows or shrinks as the auditors learn the client. It must be **reviewed periodically**: a programme that ignores this year's new billing app is an old recipe for a new dish. And the assistant must keep an **open mind** beyond it.
+
+::: analogy The café recipe card
+Every Tapri kitchen uses the same card for masala chai, so a new cook makes it right on the first day, and the manager can see which cook made which batch. But the samosa card from Indore will not work in a Kolkata café that sells fish chops, the card must change when the supplier changes the tea, and a cook who notices the milk has turned must say so even though the card is silent.
+:::
+
+::: key
+An audit programme is a detailed plan of applying the audit procedures, with instructions, for one engagement. It must be written, tailored to the business, reviewed periodically, followed and signed by the assistants, who are encouraged to report significant matters beyond it.
+:::
+
+## How it works
+
+### 1. What an audit programme is
+
+It is desirable that in respect of each audit, and more particularly for bigger audits, an audit programme should be drawn up (SM 2.18). The Study Material describes it three ways:
+
+::: definition Audit programme
+1. A list of examination and verification steps to be applied, set out in such a way that the inter-relationship of one step to another is clearly shown, and designed keeping in view the assertions discernible in the statements of account produced for audit, or on the basis of an appraisal of the accounting records of the client.
+2. A series of verification procedures to be applied to the financial statements and accounts of a given entity for the purpose of obtaining sufficient evidence to enable the auditor to express an informed opinion on financial statements.
+3. In other words, ==a detailed plan of applying the audit procedures in the given circumstances with instructions for the appropriate techniques to be adopted for accomplishing the audit objectives== (SM 2.18).
+:::
+
+As a basic feature, an audit programme not only lists the tasks to be carried out but also contains a few relevant instructions, like the **extent of checking** and the **sampling plan** (SM 2.20). It sits below the overall audit strategy and the audit plan: the written programme sets out the procedures needed to implement the audit plan (SM 2.21).
+
+### 2. One programme cannot fit every business
+
+Businesses vary in nature, size and composition; work which is suitable to one business may not be suitable to others; the efficiency and operation of internal controls and the exact nature of the service to be rendered by the auditor also vary from assignment to assignment. On account of such variations, ==evolving one audit programme applicable to all businesses under all circumstances is not practicable== (SM 2.19). It is still necessary to specify in detail the nature of work to be done, so that no time is wasted on matters not pertinent to the engagement and any special matter or specific situation can be taken care of (SM 2.19).
+
+### 3. A standard programme, and an open mind
+
+To start with, having regard to the nature, size and composition of the business, the dependability of the internal control and the given scope of work, the auditor should frame a programme providing for the **minimum essential work**: a **standard programme**. As experience is gained, the programme may be altered to cover situations left out originally but found relevant; work that proves beyond doubt to be unnecessary or irrelevant may be dropped (SM 2.19).
+
+The assistant should be encouraged to **keep an open mind** beyond the programme given to him, and instructed to note and report significant matters coming to his notice to his seniors or to the partners or proprietor of the firm (SM 2.19).
+
+### 4. Periodic review
+
+There should be **periodic review** of the audit programme to assess whether it continues to be adequate for obtaining requisite knowledge and evidence about the transactions. Unless this is done, a change in the client's business policy may not be adequately known, audit work may be carried on the basis of an **obsolete programme**, and, for this negligence, the whole audit may be held as negligently conducted and the auditor may have to face legal consequences (SM 2.19).
+
+The utility of the programme is retained and enhanced only by keeping the programme, and the client's operations and internal control, under periodic review, so that inadequacies or redundancies are removed. So long as the programme is not officially changed by the principal, every assistant deputed on the job should unfailingly carry out the detailed work according to its instructions. This does not make the programme rigid, provided the periodic review keeps it up to date and the assistants are encouraged to observe all salient features of the client's accounting functions (SM 2.20).
+
+::: diagram How a programme stays alive
+{"type": "flow", "w": 420, "nodes": [{"id": "s", "kind": "start", "label": "Previous year's\naudit concluded"}, {"id": "ic", "kind": "process", "label": "Review and evaluate\ninternal control"}, {"id": "f", "kind": "process", "label": "Frame programme:\nminimum essential work"}, {"id": "x", "kind": "process", "label": "Assistants carry it out,\nsign, report matters"}, {"id": "d", "kind": "decision", "label": "Still adequate\non review?"}, {"id": "c", "kind": "end", "label": "Continue"}, {"id": "a", "kind": "process", "label": "Alter: add steps,\ndrop redundant ones"}], "edges": [["s", "ic"], ["ic", "f"], ["f", "x"], ["x", "d"], ["d", "c", "yes"], ["d", "a", "no"], ["a", "x"]], "caption": "Planning, and with it the programme, ideally starts at the conclusion of the previous year's audit and is reconsidered as the audit progresses (SM 2.20); periodic review removes inadequacies and redundancies (SM 2.19–2.20)."}
+:::
+
+### 5. Constructing the programme
+
+The audit planning ideally commences at the conclusion of the previous year's audit and, along with the related programme, should be reconsidered for modification as the audit progresses, based on the auditor's review of internal control, its preliminary evaluation and the results of compliance and substantive procedures (SM 2.20). The auditor can formulate the entire programme only after a satisfactory understanding of the internal control system and its actual operation; otherwise the programme may become unwieldy and unnecessarily heavy, and the object of the audit may be lost in the mass of entries and vouchers (SM 3.44; [[aud.risk.ic|internal control and its evaluation]]).
+
+While developing the programme the auditor may conclude that relying on certain internal controls is effective and efficient, or decide not to rely on them where there are more efficient ways of obtaining sufficient appropriate audit evidence. The auditor should also consider the timing of procedures, the coordination of any assistance expected from the client, the availability of assistants, and the involvement of other auditors or experts. The auditor normally has flexibility in deciding when to perform procedures, but in some cases has **no discretion as to timing**: for example, when observing the taking of inventories by client personnel, or verifying the securities and cash balances at the year-end (SM 2.20).
+
+For the purpose of programme construction, the following points should be kept in mind (SM 2.20–2.21):
+
+1. Stay within the scope and limitation of the assignment.
+2. Prepare a written audit programme setting forth the procedures that are needed to implement the audit plan.
+3. Determine the evidence reasonably available and identify the best evidence for deriving the necessary satisfaction.
+4. Apply only those steps and procedures which are useful in accomplishing the verification purpose in the specific situation.
+5. Include the audit objectives for each area and sufficient details which serve as a set of instructions for the assistants involved in audit and help in controlling the proper execution of the work.
+6. Consider all possibilities of error.
+7. Co-ordinate the procedures to be applied to related items.
+
+### 6. Designed to provide audit evidence
+
+Audit evidence is the information used by the auditor in arriving at the conclusions on which the auditor's opinion is based (see [[aud.evid.sa500|SA 500]]). Evidence is the very basis of the opinion, and the programme provides for it by prescribing procedures and techniques; choosing the best evidence for each assertion is a matter of expert knowledge and experience (SM 2.22). The auditor picks up evidence of these broad types (SM 2.22):
+
+| Broad type of evidence | Broad type of evidence |
+|---|---|
+| (a) Documentary examination | (f) State of internal controls and internal checks |
+| (b) Physical examination | (g) Inter-relationship of the various accounting data |
+| (c) Statements and explanations of management, officials and employees | (h) Subsidiary and memorandum records |
+| (d) Statements and explanations of third parties | (i) Minutes |
+| (e) Arithmetical calculations by the auditor | (j) Subsequent action by the client and by others |
+
+ICAI's examples (SM 2.23): for cash in hand, the best evidence is a **count**; for an investment pledged with a bank, the **banker's certificate**; for book debts, the client's ledger, invoices, debit notes, credit notes and monthly statements sent to customers are all evidence, some corroborative and others complementary, and balance confirmation gives greater satisfaction. The auditor places appropriate weight on each piece of evidence and prescribes the priority of verification. "Available" evidence does not mean only what the client has: the auditor should know what normally should be available for the transaction, having regard to the circumstances and usage (SM 2.23).
+
+### 7. Advantages and disadvantages
+
+**Advantages** (SM 2.23–2.24), in ICAI's order:
+
+- (a) It provides the assistant carrying out the audit with a total and clear set of instructions of the work generally to be done.
+- (b) It is essential, particularly for major audits, to provide a total perspective of the work to be performed.
+- (c) Selection of assistants for the jobs on the basis of capability becomes easier when the work is rationally planned, defined and segregated.
+- (d) Without a written, pre-determined programme, work is carried out on some "mental" plan, with the danger of ignoring or overlooking certain books and records; under a properly framed programme that danger is significantly less and the audit proceeds systematically.
+- (e) The assistants, by putting their signature on the programme, accept responsibility for the work carried out by them individually, and if necessary the work done may be traced back to the assistant.
+- (f) The principal can control the progress of the various audits in hand by examining the audit programmes initiated by the assistants for completed work.
+- (g) It serves as a guide for audits to be carried out in the succeeding year.
+- (h) A properly drawn up audit programme serves as **evidence in the event of any charge of negligence** being brought against the auditor: it may be of considerable value in establishing that he exercised the reasonable skill and care expected of a professional auditor.
+
+**Disadvantages** (SM 2.24), most of which can be removed by concrete steps:
+
+- (a) The work may become mechanical, and particular parts of the programme may be carried out without any understanding of their object in the whole audit scheme.
+- (b) The programme often tends to become rigid and inflexible, following set grooves: the business may change, but the old programme is still carried on; changes in staff or internal control may make precautions necessary at points different from those originally decided upon.
+- (c) Inefficient assistants may **take shelter behind the programme**, defending deficiencies in their work on the ground that it contained no instruction on the matter.
+- (d) A hard and fast audit programme may kill the initiative of efficient and enterprising assistants.
+
+**The cure for all four** (SM 2.24): ==imaginative supervision of the work carried on by the assistants==; a receptive attitude of the auditor towards the assistants; and assistants encouraged to observe matters objectively and bring significant matters to the notice of the supervisor or principal. Against rigidity in particular, the Study Material adds periodic review to keep the programme up to date (SM 2.20).
+
+## Formats and formulas
+
+### ICAI's layout of an audit programme
+
+*Reproduce this layout from memory: the header block, then the five columns, in this order (SM 2.25).*
+
+| Header | Entry |
+|---|---|
+| Name of concern | (entity) |
+| Financial year | (year) |
+| Prepared by | (name, with date) |
+| Reviewed by | (name, with date) |
+| Approved by | (name, with date) |
+
+| Serial number | Nature of procedure | Extent of check | Basis of sample | Done by |
+|---|---|---|---|---|
+| (a) | Vouch a few invoices | | | |
+| (b) | Trace into account books | | | |
+| (c) | … | | | |
+
+ICAI's own extract (sales of a manufacturer, SM 2.25) lists: vouch a few sales invoices; trace them into the account books; verify a few invoices with e-way bills on the e-way bill portal; trace a few invoices into the stock records to ensure sold quantities were reduced from stock; trace a few invoices into the buyers' accounts. The extract in ICAI's January 2025 paper (case scenario 1) shows the columns filled in: "10%" for extent of check, "Random Sampling" for basis of sample, and the assistant's initial under "Done by".
+
+## Worked examples
+
+:::: example Draft the programme for app-delivery sales
+Tapri Tea Co. Ltd's Pune cafés recorded 62,400 delivery-app orders in 2025-26. Each order produces a POS bill at the café; the payment aggregator settles the money to Tapri's bank account and sends a monthly settlement report; Tapri files its GST returns monthly. Cancelled orders are refunded through the aggregator. Lakshmi has decided, on her evaluation of internal control, to check 2% of orders in detail and 1% against the GST data, both by random sampling, to agree every month's settlement, and to examine every April refund above ₹5,000.
+
+Draft the audit programme for these sales in ICAI's format, prepared by Bunty (Varun Khanna) and reviewed by Neha Kulkarni (senior).
+
+::: answer Model answer
+| Header | Entry |
+|---|---|
+| Name of concern | Tapri Tea Co. Ltd: Pune cafés |
+| Financial year | 2025-26 |
+| Prepared by | Varun Khanna (with date) |
+| Reviewed by | Neha Kulkarni (with date) |
+| Approved by | CA Lakshmi Iyer (with date) |
+
+| Sr. | Nature of procedure | Extent of check | Basis of sample | Done by |
+|---|---|---|---|---|
+| (a) | Vouch orders to POS bills | 2% (1,248) | Random | VK |
+| (b) | Trace bills to ledgers | 1,248 | Same sample | VK |
+| (c) | Agree settlements to bank | 12 months | 100% | NK |
+| (d) | Match invoices to GST data | 1% (624) | Random | VK |
+| (e) | Trace April refunds | Over ₹5,000 | All | NK |
+
+**The steps in full.** (a) Vouch app orders with the café POS bills and delivery records. (b) Trace the same bills into the sales account and the aggregator's account. (c) Agree the aggregator's monthly settlement reports with the bank receipts. (d) Verify invoices with the GST returns data. (e) Trace refunds made in April to cancelled orders and credit notes, for every refund above ₹5,000.
+
+**Working note.** 2% of 62,400 = 1,248 orders; 1% of 62,400 = 624 invoices.
+
+The programme applies the construction points: it stays within the sales area, is written, prescribes the best evidence available for each step (the aggregator's and bank's records are third-party evidence), coordinates related items (steps (a) and (b) use the same sample; refunds after the year-end test cut-off of sales), and gives the extent and basis of every check as instructions to the assistants. Each assistant signs the steps he or she performs.
+:::
+::::
+
+:::: example The 46-page programme
+After last year's audit, Neha Kulkarni, the senior on the Tapri audit, decides that no assistant will ever again say "it was not in my programme". She rewrites the programme for café sales into 46 pages. It covers every procedure she can think of, including eleven steps on export sales and foreign-currency receipts (the cafés sell only in India), and it ends with an instruction:
+
+> **Neha:** Do exactly what is written, nothing more and nothing less. Anything not written here is not your concern.
+
+In the second week, Bunty notices that the new billing app lets a café manager change the amount of a bill after the customer has paid, and that such changes are not shown on the daily sales report. He tells Neha. She reminds him of her instruction: it is not in the programme, so it is not his concern.
+
+Required:
+
+(i) Comment on Neha's approach with reference to the construction of an audit programme and its disadvantages.
+
+(ii) Bunty wonders whether to drop the matter. Advise him, and state what the engagement partner should do.
+
+::: answer Model answer
+**(i) Relevant provision.** For the purpose of programme construction, the auditor should, among other points, apply only those steps and procedures which are useful in accomplishing the verification purpose in the specific situation, and include the audit objectives for each area with sufficient details to serve as instructions to the assistants. The disadvantages of an audit programme include that the work may become mechanical, the programme may become rigid and inflexible, and a hard and fast programme may kill the initiative of efficient and enterprising assistants. These are removed by imaginative supervision of the work of the assistants, a receptive attitude of the auditor towards them, and encouraging them to observe matters objectively and bring significant matters to the notice of the supervisor or principal. The assistant should keep an open mind beyond the programme and report significant matters to his seniors or the partners.
+
+**Facts and analysis.** Eleven steps on export sales, which the cafés do not have, are not useful in the specific situation. "Nothing more and nothing less" makes the work mechanical and kills the initiative of assistants, and "anything not written is not your concern" is the opposite of the open mind the assistants must keep. A longer programme does not cure taking shelter behind the programme; supervision and a receptive attitude do.
+
+**Conclusion.** Neha's approach is not proper. The programme should be tailored to the cafés' actual business, and the assistants encouraged to observe and report.
+
+**(ii) Relevant provision.** The assistant should be instructed to note and report significant matters coming to his notice to his seniors or to the partners or proprietor of the firm. As experience is gained, the programme may be altered to take care of situations which were left out originally but are found relevant; so long as it is not officially changed by the principal, the assistants carry out the work according to its instructions.
+
+**Facts and analysis.** Bills changed after payment, and not shown on the daily sales report, may conceal cash sales that were taken and not recorded. This is a significant matter that the programme did not foresee. Reporting it to the senior was right; the senior's refusal does not end Bunty's duty, because significant matters may be reported to the partners of the firm.
+
+**Conclusion.** Bunty should not drop the matter: he should bring it to the notice of the engagement partner, Lakshmi, and meanwhile carry out the programme as it stands. Lakshmi should officially alter the programme to add procedures, for example examining the app's record of bills changed after payment and comparing those bills with the payments received, consider the matter in assessing the risks and the controls over café sales, and, through imaginative supervision, make sure the assistants are encouraged, not discouraged, to report what they observe.
+:::
+::::
+
+## Under the hood
+
+### Where the programme meets other topics
+
+- **Internal control first.** Examination and evaluation of internal control is an indispensable part of the overall audit programme; the extent and nature of the programme are substantially influenced by the internal control system in operation, and reviewing it early gives the auditor time to be more objective in framing the programme (SM 3.43–3.45; [[aud.risk.ic|internal control]]).
+- **Planning documentation.** The documentation of the audit plan may use standard audit programs and audit completion checklists, tailored to the engagement (SM 2.17; [[aud.plan.sa300|SA 300]]).
+- **Audit documentation.** Audit programmes are the first example of audit documentation (SM 6.7; [[aud.doc.sa230|SA 230]]); the signatures and dates on them meet SA 230's requirement to record who performed the work, when, and who reviewed it.
+- **Dropping a step is allowed.** Work that proves beyond doubt to be unnecessary or irrelevant may be dropped (SM 2.19). ICAI's MTP January 2025 Series II MCQ 1 accepted dropping a planned petty cash review because the entity's internal controls and policy of limiting cash transactions made it unnecessary.
+
+## Exam angle
+
+::: exam Where the audit programme appeared, May 2024 to September 2026
+In the ICAI documents read for this lesson, the audit programme was examined in 23 documents (7 past papers, 3 RTPs and 13 MTP papers).
+
+- **Descriptive, 4 or 5 marks.** Matters to consider in preparing a programme, and whether one programme fits two different companies: May 2024 Q1(a) (4 marks); RTP May 2025 Q10; MTP September 2026 Series I Q2(c) (4 marks). Last year's programme handed over unchanged after major business changes (periodic review): September 2024 Q5(a) (4 marks); MTP September 2024 Series II, MTP May 2026 Series I, MTP September 2025 Series II. One programme for different businesses: MTP May 2026 Series II, MTP September 2026 Series II. Advantages: RTP May 2026 Q10 (from eight facts, one per advantage), MTP January 2025 Series I, MTP May 2025 Series I. Disadvantages and their removal: May 2026 Q2(b) (any three disadvantages, 3 marks; how to minimise them, 2 marks), MTP September 2024 Series I (4 marks). The evidence an audit programme should look for, and the best evidence for cash in hand and for investments pledged with a bank: September 2025 Q1(a) (3 + 2 marks). Draft a programme: RTP May 2024 Q4 and MTP May 2025 Series II (purchases of paper by a GST-registered maker of packing boxes), MTP September 2025 Series I (NGO donations).
+- **Multiple choice, 2 marks each.** An extract with "Nature of procedure, Extent of check, Basis of sample, Done by" is part of the audit programme: January 2025 MCQ 3. Evaluation of internal control is an important part of the audit programme: May 2025 MCQ 9. Without studying internal control the programme becomes unwieldy and heavy: May 2026 MCQ 1. "Detailed plan of applying audit procedures" is the audit programme: May 2026 MCQ 7. One programme for four clients in different industries is not practicable: MTP May 2025 Series I MCQ 1. A programme as evidence against negligence: MTP January 2026 Series II MCQ 14. Last year's programme kept unchanged after the audit began, though it missed part of the business: September 2026 MCQ 2 (answers not yet published).
+:::
+
+::: exam How the marks are earned
+The suggested answers list the Study Material's points in its order (seven construction points, eight advantages, four disadvantages and the cure), then add the "not practicable for all businesses" or "periodic review" paragraph, and end with a conclusion on the facts ("Thus, CA P is correct in emphasising a different audit programme"). In a "draft a programme" question the marks are for the header block and the five-column table with relevant procedures.
+:::
+
+::: trick Seven construction points: "Scope, Written, Best, Useful, Objectives, Errors, Co-ordinate"
+Stay within scope; written programme; best evidence; only useful steps; objectives and instructions for each area; all possibilities of error; co-ordinate related items. The order is ICAI's.
+:::
+
+## Answer frame
+
+### "Is the auditor right to use another client's (or last year's) programme?"
+
+1. **Provision**: evolving one audit programme for all businesses under all circumstances is not practicable (nature, size, composition, internal control, nature of service vary); the programme needs periodic review, or an obsolete programme may make the whole audit negligently conducted.
+2. **Points for construction**: list the seven.
+3. **Facts**: how the two businesses (or this year and last) differ.
+4. **Conclusion**: "Thus, CA … is (not) correct; a separate (revised) audit programme should be prepared."
+
+### "Advantages and disadvantages": a two-column answer
+
+| Advantages (8) | Disadvantages (4) |
+|---|---|
+| Clear instructions; total perspective; easier selection of assistants; no "mental plan"; responsibility by signature; principal controls progress; guide for next year; evidence against negligence | Mechanical work; rigid and inflexible; shelter for inefficient assistants; kills initiative. Cure: imaginative supervision, receptive attitude, assistants encouraged to report |
+
+## Common mistakes
+
+::: mistake Hall of Shame: the programme photocopied from last year
+The firm reuses last year's programme for a client that has since diversified. **Fix:** periodic review is required; an obsolete programme can make the whole audit "negligently conducted" (SM 2.19).
+:::
+
+::: mistake "It was not in my programme"
+Treating the programme as the limit of the job. **Fix:** assistants keep an open mind beyond the programme and report significant matters; taking shelter behind the programme is a disadvantage the auditor must cure.
+:::
+
+::: mistake Confusing the programme with the audit plan
+Answering "the extract showing extent of check and done by is the audit plan". **Fix:** the audit plan describes the nature, timing and extent of planned procedures; the written **audit programme** sets out the procedures, with instructions, needed to implement it (SM 2.21). January 2025 MCQ 3 turns on this.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. CA Rohan Bhatt drafts the purchases programme for Sarafa Stationers Pvt Ltd, an Indore trader that buys only from local wholesalers and returns goods to them every week. His draft has steps on forward exchange contracts and customs duty on imports, and no step on purchase returns or debit notes. Which points of programme construction has he ignored?
+- [ ] Stay within the scope and limitation of the assignment; prepare a written audit programme
+- [ ] Determine the evidence reasonably available; co-ordinate the procedures to be applied to related items
+- [ ] None: a programme should include every procedure that could be relevant to any business
+- [x] Apply only those steps useful in the specific situation; consider all possibilities of error
+> Import and forward-contract steps are not useful for a trader who buys locally, and the weekly purchase returns are a possibility of error the draft ignores (SM 2.21). The third option is exactly what the construction points rule out.
+
+Q: Which statement about the disadvantages of an audit programme is correct, as per the Study Material?
+- [ ] They cannot be removed, so a written programme is best avoided in a large audit
+- [ ] They are removed by making the programme so detailed that no matter is left without an instruction
+- [x] They may be eliminated by imaginative supervision, a receptive attitude towards the assistants, and encouraging the assistants to bring significant matters to notice
+- [ ] They are removed by allowing each assistant to skip the steps he considers unnecessary
+> SM 2.24. A longer, harder programme makes rigidity and the loss of initiative worse; an assistant may not skip steps until the principal officially changes the programme (SM 2.20); and for major audits a programme is essential (SM 2.23).
+
+Q: For which of these may the auditor have no discretion as to the timing of the procedure?
+- [ ] Vouching purchase invoices
+- [x] Observing the client's inventory count and verifying cash balances at the year-end
+- [ ] Reviewing the minutes of board meetings
+- [ ] Recalculating depreciation
+> SM 2.20 gives these two examples; for most procedures the auditor has flexibility in timing.
+
+Q: An audit programme prescribes procedures to obtain evidence. Which of the following are among the broad types of evidence the Study Material lists? Select all that apply.
+- [x] Inter-relationship of the various accounting data
+- [x] Minutes
+- [ ] The auditor's general impression of management's honesty
+- [x] Subsequent action by the client and by others
+> SM 2.22 lists ten broad types, from documentary examination to subsequent action by the client and by others. An impression is not evidence; statements and explanations of management, officials and employees are.
+
+Q: Step (d) of Bunty's programme asks him to recompute the GST on every sampled café bill. The billing app computes GST automatically, and he has found no error in the first 200 bills, so he thinks the step is unnecessary. The programme has not been changed. What should he do?
+- [x] Carry out the step as instructed, and tell his senior his view so that the principal can decide whether to change the programme
+- [ ] Skip the step, because work that proves unnecessary may be dropped
+- [ ] Skip the step and record his reason in the working papers
+- [ ] Ask the café manager to certify that the app computes GST correctly
+> So long as the programme is not officially changed by the principal, every assistant should unfailingly carry out the work according to its instructions (SM 2.20). Unnecessary work may be dropped (SM 2.19), but by the principal's change, not by the assistant's choice.
+:::
+
+## Recap
+
+- Audit programme: a detailed plan of applying the audit procedures in the given circumstances, with instructions for the techniques to accomplish the audit objectives; it includes the extent of checking and the sampling plan.
+- One programme for all businesses is not practicable (nature, size, composition, internal control and service vary).
+- Start with a standard programme of minimum essential work; add relevant steps and drop irrelevant ones; assistants keep an open mind and report significant matters.
+- Review it periodically, or an obsolete programme can make the whole audit negligently conducted; until the principal changes it, assistants follow it unfailingly.
+- Construction: scope; written; best evidence; useful steps only; objectives and instructions; all possibilities of error; co-ordinate related items. No discretion on timing for inventory counts and year-end cash and securities.
+- Evidence: the programme prescribes procedures for the best evidence of each assertion, drawn from ten broad types (documentary and physical examination to subsequent action by the client and others); cash in hand: count; investment pledged with a bank: banker's certificate.
+- Eight advantages, ending with evidence against a charge of negligence; four disadvantages (mechanical, rigid, shelter, kills initiative), cured by imaginative supervision, a receptive attitude and encouraging assistants to report.
+- ICAI's layout: name, year, prepared, reviewed, approved; then serial number, nature of procedure, extent of check, basis of sample, done by. (Sour milk gets reported, recipe card or no recipe card.)
+
+## Flashcards
+
+Q:: What is an audit programme, in ICAI's "in other words" definition?
+A:: A detailed plan of applying the audit procedures in the given circumstances with instructions for the appropriate techniques to be adopted for accomplishing the audit objectives.
+
+Q:: Why is one audit programme for all businesses not practicable?
+A:: Businesses vary in nature, size and composition; work suited to one may not suit another; the efficiency and operation of internal controls and the nature of the service vary from assignment to assignment.
+
+Q:: Audit programme: what happens if it is not periodically reviewed?
+A:: Changes in the client's business policy may go unnoticed, work proceeds on an obsolete programme, and the whole audit may be held as negligently conducted, with legal consequences for the auditor.
+
+Q:: List the seven points for constructing an audit programme.
+A:: Stay within scope and limitation; prepare a written programme; determine the evidence available and the best evidence; apply only useful steps; include objectives and instructions for each area; consider all possibilities of error; co-ordinate procedures for related items.
+
+Q:: When may the auditor have no discretion as to the timing of a procedure?
+A:: For example, when observing the taking of inventories by client personnel, or verifying securities and cash balances at the year-end.
+
+Q:: Audit programme: give ICAI's best evidence for cash in hand and for an investment pledged with a bank.
+A:: Cash in hand: count. Investment pledged with a bank: the banker's certificate.
+
+Q:: List the advantages of an audit programme.
+A:: Clear instructions; total perspective for major audits; easier selection of assistants; no reliance on a mental plan; responsibility fixed by signature; principal controls progress; guide for the next year; evidence against a charge of negligence.
+
+Q:: List the disadvantages of an audit programme and how they are removed.
+A:: Mechanical work; rigidity; inefficient assistants take shelter; kills initiative. Removed by imaginative supervision, a receptive attitude towards assistants, and encouraging assistants to observe objectively and report significant matters.
+
+Q:: What are the columns of ICAI's sample audit programme?
+A:: Serial number, nature of procedure, extent of check, basis of sample, done by; under a header of name of concern, financial year, prepared by, reviewed by and approved by (each with date).
+
+Q:: Should an assistant follow the audit programme even if he thinks a step is unnecessary?
+A:: Yes, so long as the programme is not officially changed by the principal; he should report his view and any significant matters to his seniors.
+
+Q:: Audit programme: list the broad types of evidence an auditor picks up.
+A:: Documentary examination; physical examination; statements and explanations of management, officials and employees; statements and explanations of third parties; arithmetical calculations by the auditor; state of internal controls and internal checks; inter-relationship of accounting data; subsidiary and memorandum records; minutes; subsequent action by the client and by others.

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Costing Desk &middot; The Firm</title>
+<meta name="description" content="The Firm — CA Intermediate Group II short notes: Cost and Management Accounting, Auditing and Ethics, Financial Management, Strategic Management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="progress"></div>
+<button id="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+<aside id="sidebar">
+  <a class="brand" href="index.html">
+    <span class="brand-kicker">CA Inter &middot; Group II</span>
+    <span class="brand-title">The Firm</span>
+    <span class="brand-sub">Four desks &middot; short notes</span>
+  </a>
+  <div class="toolbar">
+    <button id="reveal-all" class="tool">Reveal everything</button>
+    <button id="export-notebook" class="tool">Export my notebook</button>
+  </div>
+  <nav class="toc">
+    <a href="index.html"><span class="toc-num">&mdash;</span><span class="toc-title">How to read this</span></a>
+    <a class="active" href="desk-costing.html"><span class="toc-num">4</span><span class="toc-title">The Costing Desk</span></a><div class="subtoc"><a href="#unit-1-overview-of-cost-and-management-accounting">Unit 1 — Overview of Cost and Management Accounting</a><a href="#unit-2-ascertainment-of-cost-and-cost-accounting-system">Unit 2 — Ascertainment of Cost and Cost Accounting System</a><a href="#unit-3-methods-of-costing">Unit 3 — Methods of Costing</a><a href="#unit-4-cost-control-and-analysis">Unit 4 — Cost Control and Analysis</a></div>
+    <a class="" href="desk-audit.html"><span class="toc-num">5</span><span class="toc-title">The Audit Desk</span></a>
+    <a class="" href="desk-treasury.html"><span class="toc-num">6A</span><span class="toc-title">The Treasury Desk</span></a>
+    <a class="" href="desk-boardroom.html"><span class="toc-num">6B</span><span class="toc-title">The Boardroom</span></a>
+    
+    <div class="toc-group">Reference</div>
+    <a class="" href="tracker.html"><span class="toc-num">&#9635;</span><span class="toc-title">Revision tracker</span></a>
+  </nav>
+  <div class="sidebar-foot">Answers are sealed on purpose.<br>Attempt first, then open.</div>
+</aside>
+<main>
+  <article class="chapter">
+    <header class="phase-head">
+      <span class="phase-kicker">Paper 4 · 100 marks</span>
+      <h1>The Costing Desk</h1>
+      <p class="phase-q">What did it cost, and how do you defend the number?</p>
+      <p class="phase-lede">Cost and Management Accounting. Cost sheets, material and employee cost, overheads, the four methods of costing, and the three control techniques — standard costing, marginal costing and budgets.</p>
+      <div class="phase-meta">
+        <span><strong>4</strong>sections</span>
+        <span><strong>4</strong>attempts</span>
+        <span><strong>13</strong>sealed answers</span>
+        <span><strong>8,830</strong>words</span>
+      </div>
+    </header>
+<h2 id="unit-1-overview-of-cost-and-management-accounting">Unit 1 — Overview of Cost and Management Accounting<a class="headerlink" href="#unit-1-overview-of-cost-and-management-accounting">&#167;</a></h2>
+<figure class="slate">
+<div class="slate-bar"><span class="slate-tag">Scene</span><span class="slate-title">Day one, costing desk</span></div>
+<div class="slate-body"><div class="slate-row slate-k">Set</div><div class="slate-row slate-v">A client's factory office, third week of April. Two years of files on the table and a kettle nobody has descaled. Through the glass, the shop floor is running.</div>
+<div class="slate-row slate-k">Cast</div><div class="slate-row slate-v">You, with a blank cost sheet. The Principal, who has ten minutes.</div>
+<div class="slate-row slate-k">Camera</div><div class="slate-row slate-v">Over the blank sheet, the shop floor soft behind the glass.</div>
+<div class="slate-row slate-k">Light</div><div class="slate-row slate-v">Fluorescent, flat. Nothing dramatic.</div>
+<div class="slate-row beat slate-k">Beat</div><div class="slate-row beat slate-v">He puts a single invoice on the table and waits.</div>
+<div class="slate-row a11y slate-k">In words</div><div class="slate-row a11y slate-v">The plainness of the setting is deliberate — nothing has gone wrong; this is ordinary first-day work. The Principal's silence is a prompt, not disapproval.</div></div>
+</figure>
+<div class="dialogue">
+<div class="turn p"><div class="turn-who">Principal</div><div class="turn-what"><p>This factory made 40,000 units last month and sold them for ₹4,50,000. Did it make money?</p></div></div>
+<div class="turn y"><div class="turn-who">You</div><div class="turn-what"><p>Their profit and loss account says yes, ₹60,000.</p></div></div>
+<div class="turn p"><div class="turn-who">Principal</div><div class="turn-what"><p>That tells you the factory made money. I asked whether the <em>units</em> did. Which of them, and how much each?</p></div></div>
+<div class="turn n"><div class="turn-who">Margin note</div><div class="turn-what"><p>That gap is the entire reason cost accounting exists. Financial accounting answers "how did the entity perform"; cost accounting answers "what did this thing cost, and why". Every definitional question in this unit is really about that distinction.</p></div></div>
+</div>
+<h3 id="what-cost-and-management-accounting-is-for">What cost and management accounting is for<a class="headerlink" href="#what-cost-and-management-accounting-is-for">&#167;</a></h3>
+<p>The syllabus objective is worth reading as a list of verbs: <strong>establish</strong> the cost of products and services, <strong>apply</strong> it to determine prices, <strong>understand</strong> cost statements, and <strong>apply</strong> information for cost ascertainment, planning, control and decision making.</p>
+<p>Four disciplines get confused in exam answers, so fix them now:</p>
+<div class="tw"><table><thead><tr><th>Discipline</th><th>Question it answers</th><th>Audience</th><th>Governed by</th></tr></thead><tbody><tr><td>Financial Accounting</td><td>How did the entity perform and what does it own and owe?</td><td>External — shareholders, lenders, regulators</td><td>Statute and accounting standards</td></tr><tr><td>Cost Accounting</td><td>What did this product, service, job or process cost?</td><td>Internal management</td><td>Management's own needs</td></tr><tr><td>Management Accounting</td><td>What should we do?</td><td>Internal management</td><td>Nothing mandatory</td></tr><tr><td>Financial Management</td><td>Where do funds come from and where should they go?</td><td>Internal, and the capital market</td><td>Judgement plus market discipline</td></tr></tbody></table></div>
+<p><strong>Users of cost and management accounting information</strong> are internal: management at every level, plus employees, and in a regulated or cost-audited environment, outside parties. The <strong>functions of management accounting</strong> run from collecting and classifying data through planning, control, performance measurement and decision support.</p>
+<p>The <strong>cost accounting department</strong> does not sit alone. It draws from stores, personnel and payroll, production, and financial accounting, and it feeds back to all of them. Exam questions on "relation with other departments" want that two-way flow, not a list.</p>
+<p><strong>Installation of a costing system</strong> is examined as a set of considerations rather than a procedure: the objective and the entity's own needs, the nature of the product and process, the organisational structure, the level of detail worth its cost, and the cooperation of the people who will feed it. The recurring theme is that the system must be <strong>worth more than it costs to run</strong> and must fit the business it is installed in.</p>
+<div class="callout key">
+<span class="callout-label">Remember this</span>
+<span class="callout-title">Cost accounting is not a smaller financial accounting. It has a different question, a different audience, and no statutory format to hide behind.</span>
+<p>Answers that describe cost accounting as "accounting for costs in more detail" lose the mark. The distinction the examiner wants is the <em>purpose</em>: ascertainment, control and decision making for internal management, against a chosen cost object.</p></div>
+<h3 id="cost-terms-you-must-be-exact-about">Cost terms you must be exact about<a class="headerlink" href="#cost-terms-you-must-be-exact-about">&#167;</a></h3>
+<ul><li><strong>Cost</strong> — the amount of expenditure incurred on, or attributable to, a specified thing.</li><li><strong>Cost object</strong> — the thing being costed: a product, service, job, process, batch, customer, department.</li><li><strong>Cost centre</strong> — a location, person, or item of equipment for which cost is ascertained and used for control. Subdivided into <strong>personal and impersonal</strong>, and into <strong>production and service</strong> cost centres.</li><li><strong>Cost unit</strong> — the unit of quantity in which cost is expressed. Get the unit right and the answer follows: per tonne-kilometre for transport, per patient-day for a hospital, per kilowatt-hour for power, per student-year for education.</li><li><strong>Cost driver</strong> — the factor that causes a change in the cost of an activity. This is the term Activity Based Costing is built on, later in Unit 2.</li></ul>
+<p><strong>Cost control versus cost reduction</strong> is asked almost every attempt, and the contrast is clean:</p>
+<div class="tw"><table><thead><tr><th></th><th>Cost control</th><th>Cost reduction</th></tr></thead><tbody><tr><td>Aim</td><td>Keep cost within a predetermined standard or budget</td><td>Reduce cost permanently below the present level</td></tr><tr><td>Assumes</td><td>The standard is acceptable</td><td>No standard is sacred</td></tr><tr><td>Ends when</td><td>The target is met</td><td>Never; it is continuous</td></tr><tr><td>Nature</td><td>Preventive and comparative</td><td>Corrective and innovative</td></tr><tr><td>Effect on quality/utility</td><td>Maintains it</td><td>Must not sacrifice it</td></tr></tbody></table></div>
+<p>That last row is the mark most people drop: <strong>cost reduction must be real and permanent, and must not reduce the utility or quality of the product.</strong> A saving obtained by cheapening the product is not cost reduction.</p>
+<h3 id="elements-of-cost-and-how-cost-behaves">Elements of cost, and how cost behaves<a class="headerlink" href="#elements-of-cost-and-how-cost-behaves">&#167;</a></h3>
+<p>The three <strong>elements</strong> are material, labour (employee cost) and expenses, and each splits into <strong>direct</strong> and <strong>indirect</strong>. The three indirect elements together are <strong>overheads</strong>.</p>
+<div class="code"><pre><code>                       Material        Labour          Expenses
+   Direct           Direct material  Direct wages   Direct expenses   -&gt; PRIME COST
+   Indirect         Indirect mat.    Indirect lab.  Indirect exp.     -&gt; OVERHEADS</code></pre></div>
+<p>Everything in Paper 4 hangs off that grid. Prime cost is the total of the direct row; overheads are the total of the indirect row, then classified functionally as factory, administration, selling, distribution, and research and development.</p>
+<p><strong>Behavioural classification</strong> is the other axis, and Unit 4's marginal costing depends on it:</p>
+<ul><li><strong>Fixed cost</strong> — unchanged in total over a period within a relevant range, so it falls per unit as volume rises. Factory rent.</li><li><strong>Variable cost</strong> — changes in total in direct proportion to volume, so it is constant per unit. Direct material.</li><li><strong>Semi-variable cost</strong> — has both a fixed and a variable component. A telephone line rental plus call charges; supervisory salary plus overtime.</li><li><strong>Step cost</strong> — fixed over a range, then jumps to a new level. One supervisor per shift: add a shift and the cost steps up, it does not slope.</li></ul>
+<p>Separating the fixed and variable halves of a semi-variable cost is examined numerically, usually by the <strong>high-low method</strong>: take the highest and lowest activity levels, divide the change in cost by the change in volume to get the variable rate per unit, then substitute back to get the fixed portion.</p>
+<div class="callout trap">
+<span class="callout-label">Exam trap</span>
+<span class="callout-title">Calling a step cost a variable cost because it rises with volume</span>
+<p>A variable cost rises <em>proportionately</em> and is constant per unit. A step cost is fixed within each range and jumps between ranges, so it is neither constant in total nor constant per unit. The exam tests this with supervision, inspection and delivery-vehicle costs. If the cost only changes when you cross a threshold, it steps.</p></div>
+<p><strong>Methods of costing</strong> answer "what kind of thing are we costing" — unit, job, batch, contract, process, operation, service — and are the whole of Unit 3. <strong>Techniques of costing</strong> answer "how are we using the cost" — standard costing, marginal costing, absorption costing, budgetary control — and are the whole of Unit 4. Do not mix the two words in an answer; the syllabus keeps them separate and so does the marking.</p>
+<p><strong>Digital costing</strong> is explicitly in the syllabus. Treat it as the use of integrated digital systems — ERP, real-time data capture, analytics, and in Unit 2 the Government e-Marketplace (GeM) and digital inventory control — to collect and analyse cost data continuously rather than periodically. The benefits examined are accuracy, timeliness, traceability and lower cost of collection; the concerns are data quality, implementation cost and control over access.</p>
+<h3 id="the-cost-sheet">The cost sheet<a class="headerlink" href="#the-cost-sheet">&#167;</a></h3>
+<p>A cost sheet is a statement showing the build-up from material to sales for a cost object and period. Learn the order of the totals, because the order <em>is</em> the marks.</p>
+<div class="code"><pre><code>COST SHEET for the period ended ...                        ₹            ₹
+  Opening stock of raw material                        20,000
+  Add: Purchases of raw material                    1,80,000
+  Add: Carriage inward / freight on purchases           8,000
+  Less: Purchase returns                              (5,000)
+  Less: Closing stock of raw material                (25,000)
+Raw material consumed                                             1,78,000
+Direct wages                                                        90,000
+Direct expenses (chargeable expenses)                               12,000
+PRIME COST                                                        2,80,000
+  Add: Factory / works overheads                       60,000
+  Add: Opening work-in-progress                        15,000
+  Less: Closing work-in-progress                     (18,000)
+  Less: Sale of scrap                                 (3,000)
+WORKS / FACTORY COST                                              3,34,000
+  Add: Quality control and R&amp;D cost, and administration
+       overheads relating to production                 6,000
+COST OF PRODUCTION                                                3,40,000
+  Add: Opening stock of finished goods                 22,000
+  Less: Closing stock of finished goods               (30,000)
+COST OF GOODS SOLD                                                3,32,000
+  Add: Administration overheads (general)              25,000
+  Add: Selling and distribution overheads              33,000
+COST OF SALES                                                     3,90,000
+Profit                                                              60,000
+SALES                                                             4,50,000</code></pre></div>
+<p>Four things about that statement are where marks are actually won:</p>
+<ol><li><strong>Freight inward is part of material cost; freight outward is distribution overhead.</strong> The words are nearly identical and the treatments are opposite.</li><li><strong>Work-in-progress is adjusted at works cost stage</strong>, not at prime cost, because WIP has already absorbed factory overheads.</li><li><strong>Finished goods stock is adjusted after cost of production</strong>, because that is the value at which finished goods are carried.</li><li><strong>Sale of scrap is deducted from factory overheads or works cost</strong>, not treated as income.</li></ol>
+<blockquote><p><strong>Verify:</strong> the treatment of administration overheads — how much is absorbed into cost of production versus shown after cost of goods sold — is a convention that ICAI states in the Study Material. Confirm the layout your attempt's material uses before the exam.</p></blockquote>
+<p>For the <strong>service sector</strong> the same logic applies with a different cost unit and no material or WIP to speak of. A service cost statement builds up operating cost by element, then divides by the composite cost unit. The examinable skill is choosing that unit: a <strong>tonne-kilometre</strong> for goods transport, a <strong>passenger-kilometre</strong> for passenger transport, a <strong>bed-day</strong> or <strong>patient-day</strong> for a hospital, a <strong>room-day</strong> for a hotel, a <strong>kilowatt-hour</strong> for power.</p>
+<div class="callout estimate">
+<span class="callout-label">Worked problem</span>
+<span class="callout-title">Build the cost sheet and find the profit percentages</span>
+<div class="rows"><div class="row-k">Given</div><div class="row-v"><p>Opening raw material ₹20,000; purchases ₹1,80,000; carriage inward ₹8,000; purchase returns ₹5,000; closing raw material ₹25,000. Direct wages ₹90,000; direct expenses ₹12,000. Factory overheads ₹60,000; opening WIP ₹15,000; closing WIP ₹18,000; sale of scrap ₹3,000. Quality control cost ₹6,000. Opening finished goods ₹22,000; closing finished goods ₹30,000. General administration overheads ₹25,000; selling and distribution overheads ₹33,000. Sales ₹4,50,000.</p></div><div class="row-k">Attempt it</div><div class="row-v"><p>Compute raw material consumed, prime cost, works cost, cost of production, cost of goods sold, cost of sales and profit. Then express profit both as a percentage of sales and as a percentage of cost, and say which one the question is more likely to want.</p></div></div></div>
+<details class="gate" data-id="gbqwb85">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">The solution</span><span class="gate-text">Compute raw material consumed, prime cost, works cost, cost of production, cost of goods sold, cost of sales and profit. Then express profit both as a percentage of sales and as a percentage of cost, and say which one the question is more likely to want.</span><span class="gate-hint">Commit to an answer, then open this</span></span></summary>
+<div class="gate-inner"><div class="rows"><div class="row-k">Solution</div><div class="row-v"><p>Raw material consumed = 20,000 + 1,80,000 + 8,000 − 5,000 − 25,000 = <strong>₹1,78,000</strong>.</p>
+<p>Prime cost = 1,78,000 + 90,000 + 12,000 = <strong>₹2,80,000</strong>.</p>
+<p>Works cost = 2,80,000 + 60,000 + 15,000 − 18,000 − 3,000 = <strong>₹3,34,000</strong>.</p>
+<p>Cost of production = 3,34,000 + 6,000 = <strong>₹3,40,000</strong>.</p>
+<p>Cost of goods sold = 3,40,000 + 22,000 − 30,000 = <strong>₹3,32,000</strong>.</p>
+<p>Cost of sales = 3,32,000 + 25,000 + 33,000 = <strong>₹3,90,000</strong>.</p>
+<p>Profit = 4,50,000 − 3,90,000 = <strong>₹60,000</strong>.</p>
+<p>As a percentage of sales: 60,000 / 4,50,000 = <strong>13.33%</strong>. As a percentage of cost: 60,000 / 3,90,000 = <strong>15.38%</strong>.</p></div><div class="row-k">Check</div><div class="row-v"><p>Two checks. First, the two percentages must differ and the cost-based one must be the larger, because the denominator is smaller — if yours came out equal or the other way round, you have divided by the wrong figure. Second, read the question's wording: "profit on cost" and "profit on sales" are different questions, and a question that gives you a margin and asks for sales is testing exactly this. When the question says the entity earns a profit of 20% <strong>on cost</strong>, sales are 120% of cost; when it says 20% <strong>on sales</strong>, cost is 80% of sales.</p></div></div></div>
+</details>
+<section class="attempt-block callout key" data-id="gni897r">
+<span class="callout-label">Practise it</span>
+<span class="callout-title">Without looking above, write the cost sheet skeleton from opening raw material down to sales, marking at which line WIP is adjusted and at which line finished goods stock is adjusted.</span>
+<div class="attempt-work" data-for="gni897r" data-min="60"><textarea placeholder="Write your answer here. Saved on this machine only."></textarea><div class="attempt-foot"><button class="btn-unseal">Sealed</button><span class="attempt-count"></span><button class="btn-skip">Stuck &mdash; show me</button></div></div>
+<details class="gate sealed" data-id="gni897r">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">Model answer</span><span class="gate-text">Compare against what a full-mark answer contains</span><span class="gate-hint">Write above to unseal</span></span></summary>
+<div class="gate-inner"><p>A full-mark skeleton has the six named totals in this order — <strong>raw material consumed, prime cost, works or factory cost, cost of production, cost of goods sold, cost of sales</strong> — with sales reached by adding profit.</p>
+<p>The two adjustment points are the whole test:</p>
+<ul><li><strong>Work-in-progress is adjusted between prime cost and works cost.</strong> Opening WIP added, closing WIP deducted. It sits there because WIP already carries factory overheads, so adjusting it before overheads are added would understate it.</li><li><strong>Finished goods stock is adjusted between cost of production and cost of goods sold.</strong> Opening added, closing deducted. It sits there because finished goods are valued at cost of production.</li></ul>
+<p>If you wrote the two adjustments in the wrong places, the totals still add up and every subsequent figure is wrong — which is exactly why examiners like this question. Also check that you deducted sale of scrap rather than adding it as income, and that carriage inward went into material rather than into distribution.</p></div>
+</details>
+</section>
+<div class="callout transfer">
+<span class="callout-label">Also applies to</span>
+<span class="callout-title">Cost behaviour</span>
+<div class="rows"><div class="row-k">Also applies to</div><div class="row-v"><p>Unit 4's marginal costing and CVP analysis is built entirely on splitting cost into fixed and variable, so the high-low method you learn here is a prerequisite there rather than a separate topic.</p></div><div class="row-k">Where it stops</div><div class="row-v"><p>Marginal costing treats the fixed/variable split as a decision tool and deliberately excludes fixed cost from product cost. The cost sheet in this unit is an <strong>absorption</strong> costing statement and includes fixed factory overheads in cost of production. The same classification serves two methods that give different product costs and different profits — reconciling them is itself an examinable topic.</p></div></div></div>
+<hr class="seam">
+<h2 id="unit-2-ascertainment-of-cost-and-cost-accounting-system">Unit 2 — Ascertainment of Cost and Cost Accounting System<a class="headerlink" href="#unit-2-ascertainment-of-cost-and-cost-accounting-system">&#167;</a></h2>
+<h3 id="material-cost-procurement-receipt-issue">Material cost: procurement, receipt, issue<a class="headerlink" href="#material-cost-procurement-receipt-issue">&#167;</a></h3>
+<p>Procurement runs requisition, <strong>tender or quotation</strong> above the value limit, purchase order, goods received note, stores ledger, requisition on issue. <strong>GeM</strong>, the Government e-Marketplace, discovers rates online and makes tendering auditable; <strong>ERP costing</strong> unifies purchase, stores, production and costing so that material requirement analysis is continuous; <strong>digital inventory control</strong> fires re-order triggers off tagged movements.</p>
+<p>Material cost is purchase price plus non-recoverable taxes, freight inward, insurance in transit and handling, less trade discount, rebates and refundable taxes; <strong>cash discount is financial and excluded</strong>. Normal transit shortage is absorbed by the good units, raising the rate. <strong>Issues</strong> use FIFO, LIFO, average or standard price — weighted average recomputes the rate on every receipt, never on an issue.</p>
+<div class="code"><pre><code>STORES LEDGER — Material M (Weighted Average)
+Date  Particulars      Receipts                 Issues                  Balance
+                    Qty   Rate       ₹      Qty   Rate       ₹      Qty   Rate       ₹
+  1   Opening        —      —         —       —     —         —      500  20.00  10,000
+  5   GRN 14        300  24.00     7,200      —     —         —      800  21.50  17,200
+ 12   Requisition     —     —         —     400  21.50     8,600     400  21.50   8,600
+ 20   GRN 19        600  25.00    15,000      —     —         —    1,000  23.60  23,600
+ 26   Requisition     —     —         —     700  23.60    16,520     300  23.60   7,080
+                    ----          ------    ----          ------
+                     900          22,200   1,100          25,120</code></pre></div>
+<p>Opening ₹10,000 plus receipts ₹22,200 equals issues ₹25,120 plus closing ₹7,080 (FIFO: ₹24,700 and ₹7,500). Stock taking is periodic or continuous; the <strong>perpetual inventory system</strong> is the live record.</p>
+<h3 id="inventory-control">Inventory control<a class="headerlink" href="#inventory-control">&#167;</a></h3>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Economic Order Quantity</span>
+<div class="rows"><div class="row-k">Formula</div><div class="row-v"><p>EOQ = sqrt( (2 x A x O) / C )</p></div><div class="row-k">Terms</div><div class="row-v"><p>A = annual consumption in units. O = ordering cost per order. C = carrying cost per unit per annum.</p></div><div class="row-k">Watch out</div><div class="row-v"><p>Convert carrying cost given as a percentage of unit price into rupees per unit a year first.</p></div></div></div>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Stock levels and safety stock</span>
+<div class="rows"><div class="row-k">Formula</div><div class="row-v"><p>Re-order level = Maximum consumption x Maximum re-order period Minimum level = Re-order level − (Normal consumption x Normal re-order period) Maximum level = Re-order level + Re-order quantity − (Minimum consumption x Minimum re-order period)</p></div><div class="row-k">Terms</div><div class="row-v"><p><strong>Safety stock</strong> is the cushion against variation in consumption and in lead time.</p></div><div class="row-k">Watch out</div><div class="row-v"><p>Re-order level takes the <em>maximum</em> of both figures, minimum level the <em>normal</em> of both.</p></div></div></div>
+<div class="callout estimate">
+<span class="callout-label">Worked problem</span>
+<span class="callout-title">EOQ and the stock levels, with proof of the EOQ balance</span>
+<div class="rows"><div class="row-k">Given</div><div class="row-v"><p>90,000 units a year over 300 days; ordering cost ₹100 an order; price ₹20, carrying cost 10% a year. Daily consumption normal 300, minimum 250, maximum 350; re-order period 8–12 days, normal 10.</p></div><div class="row-k">Attempt it</div><div class="row-v"><p>Compute the EOQ and the re-order, minimum and maximum levels, and prove the EOQ.</p></div></div></div>
+<details class="gate" data-id="gnnlnxq">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">The solution</span><span class="gate-text">Compute the EOQ and the re-order, minimum and maximum levels, and prove the EOQ.</span><span class="gate-hint">Commit to an answer, then open this</span></span></summary>
+<div class="gate-inner"><div class="rows"><div class="row-k">Solution</div><div class="row-v"><p>C = 10% of ₹20 = <strong>₹2 per unit per annum</strong>.</p>
+<p>EOQ = sqrt( (2 x 90,000 x 100) / 2 ) = sqrt(90,00,000) = <strong>3,000 units</strong>, so <strong>30 orders a year</strong>.</p>
+<p>Re-order level = 350 x 12 = <strong>4,200</strong>. Minimum = 4,200 − (300 x 10) = <strong>1,200</strong>. Maximum = 4,200 + 3,000 − (250 x 8) = <strong>5,200 units</strong>.</p></div><div class="row-k">Check</div><div class="row-v"><p>Ordering 30 x 100 = ₹3,000 equals carrying 1,500 x ₹2 = ₹3,000 — <strong>the definition of the EOQ</strong>.</p></div></div></div>
+</details>
+<p>Techniques differ by basis: <strong>ABC</strong> by annual value of consumption, <strong>FSN</strong> by movement (which flags obsolescence), <strong>HML</strong> by unit price, <strong>VED</strong> by criticality. <strong>JIT</strong> produces against demand only, so carrying cost approaches zero. <strong>Inventory turnover</strong> is material consumed over average inventory.</p>
+<details class="gate" data-id="gt64rhp">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">Quick recall</span><span class="gate-text">A ₹200 gasket is a C item on ABC analysis. Why might it still get the tightest control in the stores?</span><span class="gate-hint">Answer it in your head first</span></span></summary>
+<div class="gate-inner"><p>Because ABC classifies by annual value of consumption while <strong>VED</strong> classifies by criticality to production. A cheap gasket whose absence halts the line is <strong>vital</strong>, so the control policy follows the V, not the C. The techniques are complementary, not alternatives.</p></div>
+</details>
+<h3 id="waste-scrap-spoilage-defectives-obsolescence">Waste, scrap, spoilage, defectives, obsolescence<a class="headerlink" href="#waste-scrap-spoilage-defectives-obsolescence">&#167;</a></h3>
+<div class="tw"><table><thead><tr><th>Item</th><th>Normal</th><th>Abnormal</th></tr></thead><tbody><tr><td>Waste (no realisable value)</td><td>Absorbed by good output</td><td>Cost to Costing P&amp;L</td></tr><tr><td>Scrap (small realisable value)</td><td>Credited to job, process or overhead</td><td>Realisation and cost to Costing P&amp;L</td></tr><tr><td>Spoilage (unrectifiable)</td><td>Net cost after salvage to good output</td><td>Net cost to Costing P&amp;L</td></tr><tr><td>Defectives (rectifiable)</td><td>Rework cost to job or overhead</td><td>Rework cost to Costing P&amp;L</td></tr><tr><td>Obsolescence</td><td>—</td><td>Written off to Costing P&amp;L</td></tr></tbody></table></div>
+<div class="callout key">
+<span class="callout-label">Remember this</span>
+<span class="callout-title">Every item here sorts into normal or abnormal, and the sort decides the ledger.</span>
+<p>Normal loss, idle time and spoilage stay in product cost, raising cost per good unit; anything abnormal leaves it for the <strong>Costing Profit and Loss Account</strong>.</p></div>
+<h3 id="employee-cost">Employee cost<a class="headerlink" href="#employee-cost">&#167;</a></h3>
+<p>Time keeping records presence, time booking what the time was spent on; the gap is idle time. <strong>Elements of wages</strong> are basic pay, dearness allowance, overtime, bonus, holiday and leave wages, allowances and perquisites, leave wages being recovered through an inflated hourly rate. Normal idle time is absorbed in the wage rate or in factory overhead and abnormal idle time goes to Costing P&amp;L; the <strong>overtime premium</strong> goes to the job for customer urgency, to factory overhead where overtime is general, to the department whose delay caused it, or to Costing P&amp;L when abnormal.</p>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Employee turnover rates</span>
+<div class="rows"><div class="row-k">Formula</div><div class="row-v"><p>Separation rate = (Separations / Average employees) x 100 Replacement rate = (Replacements / Average employees) x 100 New recruitment rate = (New recruitments / Average employees) x 100 Flux rate = ((Separations + Accessions) / Average employees) x 100</p></div><div class="row-k">Terms</div><div class="row-v"><p>Accessions = replacements + new recruitments; average employees = (opening + closing) / 2.</p></div><div class="row-k">Watch out</div><div class="row-v"><p>Expansion is not turnover, so keep replacements and new recruitments apart; some editions define flux on separations plus replacements only. On 1,800 at the start and 2,200 at the close, with 90 separations, 60 replacements and 430 new recruitments: average 2,000, so 4.5%, 3%, 21.5%, flux <strong>29%</strong>.</p></div></div></div>
+<p><strong>Causes</strong> are avoidable (pay, supervision, conditions) and unavoidable (retirement, death, illness, dismissal); <strong>effects</strong> are costed as preventive and replacement cost — recruitment, training, low output while learning. <strong>Employee cost control</strong> works through standard times, incentives tied to output, and watching idle time, overtime and turnover.</p>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Halsey and Rowan premium bonus</span>
+<div class="rows"><div class="row-k">Formula</div><div class="row-v"><p>Halsey wages = (Time taken x Rate) + (50% x Time saved x Rate) Rowan wages = (Time taken x Rate) + ((Time saved / Standard time) x Time taken x Rate)</p></div><div class="row-k">Terms</div><div class="row-v"><p>Time saved = standard time allowed − time taken; Halsey's share is 50% unless stated.</p></div><div class="row-k">Watch out</div><div class="row-v"><p>Rowan's bonus is a proportion of <em>wages earned</em>, not of time saved. On standard time 40 hours, taken 30, rate ₹50: Halsey pays 1,500 + 250 = <strong>₹1,750</strong>, Rowan 1,500 + 375 = <strong>₹1,875</strong>. Rowan pays more while time saved is under half the standard time and Halsey more beyond it; at exactly half — 20 hours taken of 40 — the plans coincide, each paying ₹1,000 of wages plus ₹500 of bonus.</p></div></div></div>
+<h3 id="direct-expenses">Direct expenses<a class="headerlink" href="#direct-expenses">&#167;</a></h3>
+<p>Direct or <strong>chargeable expenses</strong> are wholly attributable to one job, product, service or process — a royalty per unit, a tool hired for one job. They form the third line of prime cost; anything shared on a basis is an overhead.</p>
+<h3 id="overheads">Overheads<a class="headerlink" href="#overheads">&#167;</a></h3>
+<p>Overheads are the three indirect elements, classified <strong>functionally</strong> (factory, administration, selling, distribution, research and development) and <strong>behaviourally</strong> (fixed, variable, semi-variable). <strong>Allocation</strong> charges a whole item to the centre where it arose, <strong>apportionment</strong> splits a common item on an equitable basis (floor area, capital value, headcount, kilowatt-hours), <strong>absorption</strong> charges a centre's total onto its cost units.</p>
+<p><strong>Primary distribution</strong> spreads factory overhead over all departments, service ones included; <strong>secondary distribution</strong> clears the service departments onto production, by the direct method, the step ladder where servicing runs one way, or — for reciprocal services — repeated distribution or simultaneous equations (S1 = 4,500 + 0.10 S2 with S2 = 4,000 + 0.20 S1 gives ₹5,000 each).</p>
+<p><strong>Absorption rates</strong> are a percentage of direct wages or prime cost, a rate per unit, a labour hour rate, or a <strong>machine hour rate</strong> where work is machine-paced. Predetermined, they leave overhead <strong>under- or over-absorbed</strong>, cleared by a supplementary rate, by carry forward where seasonal, or to Costing P&amp;L. <strong>Administration overheads</strong> are apportioned between production and selling, absorbed into production cost, or charged wholly to Costing P&amp;L.</p>
+<blockquote><p><strong>Verify:</strong> which treatment of administration overheads your attempt's Study Material treats as the standard, against the current Study Guidelines.</p></blockquote>
+<p><strong>Selling and distribution overheads</strong> are absorbed on sales value, units sold or weight, and marketing strategy moves them directly: the <strong>cost effectiveness of a promotion method</strong> is judged on incremental contribution against incremental cost. <strong>R&amp;D cost</strong> follows purpose: existing product to its production overhead, new-product development charged when production begins, an abandoned project to Costing P&amp;L.</p>
+<h3 id="activity-based-costing">Activity Based Costing<a class="headerlink" href="#activity-based-costing">&#167;</a></h3>
+<p>Overhead is traced to <strong>activities</strong> — set-ups, purchase orders, inspections, handling — each with the <strong>cost driver</strong> that causes its cost, and charged to products on the drivers each consumes, from unit level up to facility level. ABC pays where overheads are large and products differ in complexity, since one labour-hour rate cross-subsidises them.</p>
+<h3 id="integration-of-cost-and-financial-data">Integration of cost and financial data<a class="headerlink" href="#integration-of-cost-and-financial-data">&#167;</a></h3>
+<p>Financial data is recorded once, then segregated by element and function. A <strong>non-integrated system</strong> keeps a separate self-balancing cost ledger through a <strong>General Ledger Adjustment Account</strong>, with control accounts for stores, work-in-progress, finished goods, wages and overhead; two sets of books mean two profits, so reconciliation is required. An <strong>integrated system</strong> keeps one set, so there is <strong>no reconciliation to do</strong>.</p>
+<div class="tw"><table><thead><tr><th>Group</th><th>Examples</th><th>Appears in</th></tr></thead><tbody><tr><td>Financial charges and appropriations</td><td>Loss on sale of an asset, goodwill written off, interest, income tax, dividend</td><td>Financial books only</td></tr><tr><td>Financial income</td><td>Interest, dividend, rent received, profit on sale of an asset</td><td>Financial books only</td></tr><tr><td>Notional charges</td><td>Notional rent, notional interest on capital</td><td>Cost books only</td></tr></tbody></table></div>
+<p>Add <strong>under- or over-absorption of overheads</strong> and different stock valuation.</p>
+<div class="callout estimate">
+<span class="callout-label">Worked problem</span>
+<span class="callout-title">Reconcile profit as per cost accounts with profit as per financial accounts</span>
+<div class="rows"><div class="row-k">Given</div><div class="row-v"><p>Cost profit ₹1,50,000; factory overheads under-absorbed ₹12,000; administration overheads over-absorbed ₹5,000; interest received ₹8,000; dividend ₹4,000; loss on sale of machinery ₹10,000; goodwill written off ₹15,000; notional rent in cost accounts ₹6,000; closing stock ₹22,000 (cost) against ₹25,000 (financial); opening stock ₹18,000 against ₹15,000.</p></div><div class="row-k">Attempt it</div><div class="row-v"><p>Prepare the reconciliation statement and find profit as per financial accounts.</p></div></div></div>
+<details class="gate" data-id="gbbm51h">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">The solution</span><span class="gate-text">Prepare the reconciliation statement and find profit as per financial accounts.</span><span class="gate-hint">Commit to an answer, then open this</span></span></summary>
+<div class="gate-inner"><div class="rows"><div class="row-k">Solution</div><div class="row-v"><p>The marks are in the layout.</p>
+<div class="code"><pre><code>RECONCILIATION STATEMENT for the period ended ...            ₹            ₹
+Profit as per Cost Accounts                                            1,50,000
+  Add:  Administration overheads over-absorbed          5,000
+        Interest received                               8,000
+        Dividend received                               4,000
+        Notional rent charged in cost accounts only     6,000
+        Closing stock undervalued in cost accounts      3,000
+        Opening stock overvalued in cost accounts       3,000
+                                                      ------            29,000
+                                                                       1,79,000
+  Less: Factory overheads under-absorbed               12,000
+        Loss on sale of machinery                      10,000
+        Goodwill written off                           15,000
+                                                      ------            37,000
+Profit as per Financial Accounts                                       1,42,000</code></pre></div>
+<p>1,50,000 + 29,000 − 37,000 = <strong>₹1,42,000</strong>.</p></div><div class="row-k">Check</div><div class="row-v"><p>Under-absorption means cost accounts charged less overhead than was incurred, so cost profit is the higher figure and the item is <strong>deducted</strong>; over-absorption is the mirror.</p></div></div></div>
+</details>
+<section class="attempt-block callout key" data-id="glzs9cx">
+<span class="callout-label">Practise it</span>
+<span class="callout-title">Starting from cost profit, say whether each is added or deducted: notional interest on capital; overheads over-absorbed; income tax paid; profit on sale of investments; closing stock overvalued in cost accounts.</span>
+<div class="attempt-work" data-for="glzs9cx" data-min="60"><textarea placeholder="Write your answer here. Saved on this machine only."></textarea><div class="attempt-foot"><button class="btn-unseal">Sealed</button><span class="attempt-count"></span><button class="btn-skip">Stuck &mdash; show me</button></div></div>
+<details class="gate sealed" data-id="glzs9cx">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">Model answer</span><span class="gate-text">Compare against what a full-mark answer contains</span><span class="gate-hint">Write above to unseal</span></span></summary>
+<div class="gate-inner"><p><strong>Anything that reduced cost profit but not financial profit is added back; anything that reduced financial profit but not cost profit is deducted.</strong></p>
+<ul><li>Notional interest on capital — cost books only. <strong>Add.</strong></li><li>Overheads over-absorbed. <strong>Add.</strong></li><li>Income tax paid, an appropriation. <strong>Deduct.</strong></li><li>Profit on sale of investments. <strong>Add.</strong></li><li>Closing stock overvalued in cost accounts, so cost profit is overstated. <strong>Deduct.</strong></li></ul>
+<p>Travelling the other way reverses every sign, so state your direction.</p></div>
+</details>
+</section>
+<div class="callout trap">
+<span class="callout-label">Exam trap</span>
+<span class="callout-title">Absorbing abnormal cost into the cost unit</span>
+<p>Abnormal idle time, wastage, process loss, an overtime premium caused by a department's own delay and under-absorption from an abnormal cause all leave product cost for the Costing P&amp;L. Candidates lose it by never asking the question of an item like "idle time ₹8,000".</p></div>
+<hr class="seam">
+<h2 id="unit-3-methods-of-costing">Unit 3 — Methods of Costing<a class="headerlink" href="#unit-3-methods-of-costing">&#167;</a></h2>
+<p>The method follows the shape of the output: identical continuous units give <strong>unit costing</strong>, customer orders give <strong>job costing</strong>, identifiable lots give <strong>batch costing</strong>, a continuous sequence of operations whose output cannot be told apart gives <strong>process or operation costing</strong>, and an intangible output gives <strong>service costing</strong>.</p>
+<h3 id="single-output-or-unit-costing">Single output or unit costing<a class="headerlink" href="#single-output-or-unit-costing">&#167;</a></h3>
+<p>One product, one cost unit — a tonne of cement, a thousand bricks, a litre of paint. The statement is the cost sheet of Unit 1 carried down to cost of sales, with a cost-per-unit column beside the total column. Where output comes in grades, it is converted into equivalent units of the standard grade before dividing.</p>
+<h3 id="job-costing">Job costing<a class="headerlink" href="#job-costing">&#167;</a></h3>
+<p>Each order is a cost object with its own <strong>job cost card</strong> or record in a job database: material from stores requisitions at the issue price in force, wages from job cards, direct expenses as incurred, and overhead at the absorption rate of each department the job passes through. The card totals to a job cost, compared with the quotation to give profit on the job. It suits printing, repairs, one-off construction and professional assignments — work done to customer specification, so no two cost objects are alike.</p>
+<h3 id="batch-costing">Batch costing<a class="headerlink" href="#batch-costing">&#167;</a></h3>
+<p>A batch is the cost unit while it is made, accumulated on a <strong>batch cost sheet</strong> and then divided by good units produced to give cost per unit. <strong>Spoiled work</strong> within the normal rate is absorbed by the good units of the batch; beyond it, the abnormal loss goes to Costing P&amp;L. Rectification cost of <strong>defectives</strong> is added to the batch when normal, and charged to Costing P&amp;L when abnormal.</p>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Economic Batch Quantity</span>
+<div class="rows"><div class="row-k">Measures</div><div class="row-v"><p>EOQ logic applied to production: the batch size minimising set-up plus carrying cost.</p></div><div class="row-k">Formula</div><div class="row-v"><p>EBQ = sqrt( (2 x D x S) / C )</p></div><div class="row-k">Terms</div><div class="row-v"><p>D = annual demand in units. S = set-up cost per batch. C = carrying cost per unit per annum.</p></div><div class="row-k">Watch out</div><div class="row-v"><p>S is set-up cost per <em>batch</em>, not per unit. On D = 24,000 units, S = ₹360 and C = ₹3, EBQ = sqrt(57,60,000) = <strong>2,400 units</strong>, so 10 batches a year: set-up cost 10 x 360 = ₹3,600 and carrying cost 1,200 x 3 = ₹3,600. Equal, as at the EOQ.</p></div></div></div>
+<h3 id="process-and-operation-costing">Process and operation costing<a class="headerlink" href="#process-and-operation-costing">&#167;</a></h3>
+<p>Cost is collected process by process in a <strong>process account</strong> and transferred on. Three loss situations, and the whole topic turns on telling them apart:</p>
+<ul><li><strong>Normal loss</strong> — the expected, unavoidable loss. Its units are entered on the credit side at scrap or realisable value only, never at cost, so the cost of the lost units is borne by the good units. This is what raises cost per unit.</li><li><strong>Abnormal loss</strong> — actual loss beyond normal. Valued at the <strong>full cost per good unit</strong> and taken out of the process to the Abnormal Loss Account, which recovers scrap value and sends the balance to Costing P&amp;L.</li><li><strong>Abnormal gain</strong> — actual loss less than normal. Valued at the same full cost per good unit, debited to the process and credited to the Abnormal Gain Account; that account is debited with the scrap value the entity failed to realise on the shortfall in normal loss, and the balance goes to Costing P&amp;L.</li></ul>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Cost per good unit in a process</span>
+<div class="rows"><div class="row-k">Formula</div><div class="row-v"><p>Cost per unit = (Total process cost − Scrap value of normal loss) / (Units introduced − Normal loss units)</p></div><div class="row-k">Terms</div><div class="row-v"><p>Total process cost is material introduced plus the transfer from the previous process plus wages plus production overhead. <strong>Units introduced</strong> means the whole input to that process, so for a second or later process it is the units transferred in plus any material added there.</p></div><div class="row-k">Watch out</div><div class="row-v"><p>The denominator uses <strong>expected</strong> output, not actual. Compute the rate once and value output, abnormal loss and abnormal gain at that same rate; a rate recomputed on actual output is the standard error here.</p></div></div></div>
+<div class="callout estimate">
+<span class="callout-label">Worked problem</span>
+<span class="callout-title">Process account with normal and abnormal loss</span>
+<div class="rows"><div class="row-k">Given</div><div class="row-v"><p>10,000 units introduced at ₹5 each; direct wages ₹21,000; production overhead ₹12,000. Normal loss is 10% of input with a scrap value of ₹2 a unit. Actual output is 8,700 units.</p></div><div class="row-k">Attempt it</div><div class="row-v"><p>Compute cost per unit, prepare the process account in units and rupees, and show the Abnormal Loss Account.</p></div></div></div>
+<details class="gate" data-id="gawy029">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">The solution</span><span class="gate-text">Compute cost per unit, prepare the process account in units and rupees, and show the Abnormal Loss Account.</span><span class="gate-hint">Commit to an answer, then open this</span></span></summary>
+<div class="gate-inner"><div class="rows"><div class="row-k">Solution</div><div class="row-v"><p>Total cost = 50,000 + 21,000 + 12,000 = ₹83,000. Normal loss = 1,000 units, scrap ₹2,000.</p>
+<p>Cost per unit = (83,000 − 2,000) / (10,000 − 1,000) = 81,000 / 9,000 = <strong>₹9</strong>.</p>
+<p>Abnormal loss = 10,000 − 1,000 − 8,700 = <strong>300 units</strong>, valued at 300 x 9 = <strong>₹2,700</strong>. Output = 8,700 x 9 = <strong>₹78,300</strong>.</p>
+<div class="code"><pre><code>PROCESS A ACCOUNT
+Particulars           Units          ₹    Particulars           Units          ₹
+To Material          10,000     50,000    By Normal loss         1,000      2,000
+To Direct wages           —     21,000    By Abnormal loss         300      2,700
+To Production o/h         —     12,000    By Transfer to next
+                                            process              8,700     78,300
+                     ------     ------                          ------     ------
+                     10,000     83,000                          10,000     83,000
+
+ABNORMAL LOSS ACCOUNT
+To Process A A/c        300      2,700    By Cash (scrap 300 x 2)  300        600
+                                          By Costing P&amp;L A/c        —      2,100
+                        ---      -----                            ---      -----
+                        300      2,700                            300      2,700</code></pre></div></div><div class="row-k">Check</div><div class="row-v"><p>Both sides agree at 10,000 units and ₹83,000 — the check to run in the hall. The mirror case: had output been 9,200 units, abnormal <strong>gain</strong> of 200 units would be valued at the same ₹9 = ₹1,800, the Abnormal Gain Account debited with the ₹400 scrap not realised, and ₹1,400 credited to Costing P&amp;L.</p></div></div></div>
+</details>
+<p><strong>Equivalent units</strong> convert part-finished work into finished-unit terms so that cost can be split between output and closing work-in-progress, degree of completion being taken separately for material, labour and overhead. With 8,000 units completed and 2,000 in closing WIP that are complete for material but half complete for labour and overhead, equivalent units are 10,000 and 9,000; material of ₹1,00,000 gives ₹10 a unit and labour with overhead of ₹45,000 gives ₹5, so output is 8,000 x ₹15 = ₹1,20,000 and closing WIP is (2,000 x 10) + (1,000 x 5) = ₹25,000. The two add back to ₹1,45,000.</p>
+<blockquote><p><strong>Verify:</strong> whether your attempt's material works equivalent units on the <strong>FIFO</strong> or the <strong>weighted average</strong> basis where opening WIP exists — the two give different answers and the question usually names one. Confirm against the current Study Guidelines.</p></blockquote>
+<p><strong>Inter-process profit</strong> arises where each process transfers output at cost plus a margin, so that management can compare a process against an outside quotation. It complicates the accounts in one specific way: the closing stock held in a later process contains <strong>unrealised profit</strong>, which must be removed to state stock at cost. On a transfer price of ₹1,20,000 that includes ₹20,000 profit, closing stock of ₹30,000 carries 30,000 x 20,000 / 1,20,000 = <strong>₹5,000</strong> of unrealised profit.</p>
+<h3 id="joint-products-and-by-products">Joint products and by-products<a class="headerlink" href="#joint-products-and-by-products">&#167;</a></h3>
+<p><strong>Joint products</strong> are two or more products of significant sales value produced together from the same process; a <strong>by-product</strong> is of minor value beside the main product. The line between them is relative sales value, and it decides the accounting.</p>
+<p>Joint cost is apportioned up to the point of separation by <strong>physical units</strong>, <strong>average unit cost</strong>, a <strong>survey or weighted points</strong> method scoring products by effort or technical difficulty, <strong>market value at separation</strong>, <strong>net realisable value</strong> (market value after further processing less that processing and selling cost), or <strong>contribution margin</strong>, splitting variable joint cost on physical units and fixed joint cost on contribution. Cost incurred <em>after</em> separation is never joint; it belongs to the product that incurred it.</p>
+<p>By-products are handled by <strong>non-cost methods</strong> — net realisable value credited to the main process cost, or by-product income shown as other income — or by <strong>cost methods</strong>, giving the by-product a share of joint cost at standard cost, opportunity cost, or a reverse-cost calculation from its selling price.</p>
+<div class="callout estimate">
+<span class="callout-label">Worked problem</span>
+<span class="callout-title">Apportion joint cost on net realisable value</span>
+<div class="rows"><div class="row-k">Given</div><div class="row-v"><p>Joint cost to the separation point ₹1,80,000. Product A: 3,000 kg selling at ₹90, further processing ₹30,000. Product B: 2,000 kg selling at ₹90, further processing ₹20,000.</p></div><div class="row-k">Attempt it</div><div class="row-v"><p>Apportion the joint cost on net realisable value.</p></div></div></div>
+<details class="gate" data-id="g58omjw">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">The solution</span><span class="gate-text">Apportion the joint cost on net realisable value.</span><span class="gate-hint">Commit to an answer, then open this</span></span></summary>
+<div class="gate-inner"><div class="rows"><div class="row-k">Solution</div><div class="row-v"><p>NRV of A = (3,000 x 90) − 30,000 = <strong>₹2,40,000</strong>; of B = (2,000 x 90) − 20,000 = <strong>₹1,60,000</strong>. Total ₹4,00,000, so the ratio is <strong>60:40</strong>.</p>
+<p>A takes 1,80,000 x 60% = <strong>₹1,08,000</strong>; B takes <strong>₹72,000</strong>.</p></div><div class="row-k">Check</div><div class="row-v"><p>The shares add back to ₹1,80,000. Physical units would give 3,000:2,000 — 60:40 on these figures by coincidence — but once further processing cost per kilogram differs the two bases diverge, so read the question for the basis it wants.</p></div></div></div>
+</details>
+<h3 id="costing-of-service-sectors">Costing of service sectors<a class="headerlink" href="#costing-of-service-sectors">&#167;</a></h3>
+<p>Service costing has no material or work-in-progress to speak of; the skill is choosing the <strong>cost unit</strong> and building operating cost by element. Composite units are the core: tonne-kilometre, passenger-kilometre, patient-day, room-day, kilowatt-hour. Cost is grouped into standing charges, maintenance charges and running charges, and price is cost per unit plus the required margin.</p>
+<details class="gate" data-id="ghd3duu">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">Quick recall</span><span class="gate-text">A lorry carries 10 tonnes for 40 km, then 6 tonnes for 60 km. What are the absolute and the commercial tonne-kilometres?</span><span class="gate-hint">Answer it in your head first</span></span></summary>
+<div class="gate-inner"><p><strong>Absolute</strong> tonne-km weights each leg by its own load: (10 x 40) + (6 x 60) = 400 + 360 = <strong>760 tonne-km</strong>. <strong>Commercial</strong> tonne-km uses the average load over the whole distance: ((10 + 6) / 2) x 100 = <strong>800 tonne-km</strong>. The absolute figure is the more accurate and gives the higher cost per tonne-km; using the wrong one is a favourite one-mark trap.</p></div>
+</details>
+<section class="attempt-block callout key" data-id="givjtbp">
+<span class="callout-label">Practise it</span>
+<span class="callout-title">Write the credit side of a process account where output is less than expected, naming every item and how each is valued.</span>
+<div class="attempt-work" data-for="givjtbp" data-min="60"><textarea placeholder="Write your answer here. Saved on this machine only."></textarea><div class="attempt-foot"><button class="btn-unseal">Sealed</button><span class="attempt-count"></span><button class="btn-skip">Stuck &mdash; show me</button></div></div>
+<details class="gate sealed" data-id="givjtbp">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">Model answer</span><span class="gate-text">Compare against what a full-mark answer contains</span><span class="gate-hint">Write above to unseal</span></span></summary>
+<div class="gate-inner"><p>Three items, each with its own valuation rule:</p>
+<ol><li><strong>Normal loss</strong> — at scrap or realisable value only. Its units appear, its cost does not, which is how the loss gets absorbed by good output.</li><li><strong>Abnormal loss</strong> — at full cost per good unit, from (total cost − normal loss scrap) / (input − normal loss units).</li><li><strong>Output transferred</strong> — the balance of units, at that same rate.</li></ol>
+<p>Then check that units and rupees agree with the debit side. If they do not, the cause is usually normal loss valued at cost, or a rate recomputed on actual rather than expected output. Where output <em>exceeds</em> expectation there is no abnormal loss line and an <strong>abnormal gain</strong> appears on the <em>debit</em> side at the same rate.</p></div>
+</details>
+</section>
+<div class="callout key">
+<span class="callout-label">Remember this</span>
+<span class="callout-title">Normal loss is valued at scrap value; everything abnormal is valued at full cost per good unit.</span>
+<p>That single sentence decides the process account, and the rate must come from expected output. Say it before you start writing, and the account balances itself.</p></div>
+<div class="callout trap">
+<span class="callout-label">Exam trap</span>
+<span class="callout-title">Reducing the normal loss entry when there is an abnormal gain</span>
+<p>An abnormal gain means fewer units were lost than expected, so less scrap was realised than the normal-loss line assumes. The normal loss entry is <strong>not</strong> reduced; instead the Abnormal Gain Account is debited with the scrap lost on the shortfall, and only the net balance reaches Costing P&amp;L. Netting it off inside the process account gives the right total in the wrong account.</p></div>
+<hr class="seam">
+<h2 id="unit-4-cost-control-and-analysis">Unit 4 — Cost Control and Analysis<a class="headerlink" href="#unit-4-cost-control-and-analysis">&#167;</a></h2>
+<h3 id="standard-costing-setting-standards">Standard costing: setting standards<a class="headerlink" href="#standard-costing-setting-standards">&#167;</a></h3>
+<p>A standard cost is predetermined on a <strong>standard cost card</strong> — standard quantity at standard price for each element — set from specifications, time study, wage agreements and expected activity. Four types: <strong>ideal</strong> (perfect conditions, so demotivating), <strong>normal</strong> (average over a trade cycle), <strong>basic</strong> (a fixed trend base) and <strong>current or expected</strong>, which control uses. As performance measurement it asks what the actual output <em>should</em> have cost and splits the gap into variances that each point at one manager.</p>
+<div class="callout key">
+<span class="callout-label">Remember this</span>
+<span class="callout-title">A positive variance is favourable and a negative one adverse. Label every answer F or A.</span>
+<p>In every material, labour and variable overhead variance the <strong>standard-based figure is written first and the actual subtracted</strong>, and so it is for fixed overhead expenditure (budgeted − actual) and volume (standard for actual output − budgeted). The exception is <strong>fixed overhead capacity</strong>, written (actual hours worked − budgeted hours). Take the order from the formula as printed; only the sign convention never changes.</p></div>
+<p>One card, one period, so every variance ties into one reconciliation.</p>
+<div class="code"><pre><code>STANDARD COST CARD (per unit)                     ACTUAL FOR THE PERIOD
+  Material X   3 kg @ ₹10          30      X   6,400 kg @ ₹9.50          60,800
+  Material Y   2 kg @ ₹15          30      Y   3,800 kg @ ₹16.00         60,800
+  Labour       5 hours @ ₹40      200      Wages 10,400 hrs paid @ ₹41 4,26,400
+  Variable OH  5 hours @ ₹10       50        (of which 200 hours idle)
+  Fixed OH     5 hours @ ₹20      100      Variable overhead           1,05,000
+                                 ----      Fixed overhead              2,25,000
+STANDARD COST PER UNIT            410                                  --------
+                                           Total actual cost            8,78,000
+Budgeted output 2,200 units; budgeted hours 11,000; budgeted fixed OH ₹2,20,000
+Actual output 2,000 units, so standard cost of actual output = 2,000 x 410 = ₹8,20,000</code></pre></div>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Material and labour variances</span>
+<div class="rows"><div class="row-k">Formula</div><div class="row-v"><p>Material cost = Std cost of actual output − Actual cost Material price = Actual quantity x (Std price − Actual price) Material usage = Std price x (Std quantity for actual output − Actual quantity) Material mix = Std price x (Actual input in std proportion − Actual quantity) Material yield = Std cost per unit of input x (Std input for actual output − Actual input) Labour cost = Std cost of actual output − Actual wages Labour rate = Hours paid x (Std rate − Actual rate) Idle time = Idle hours x Std rate (always adverse) Labour efficiency = Std rate x (Std hours for actual output − Actual hours worked)</p></div><div class="row-k">Terms</div><div class="row-v"><p>Price + usage = material cost; mix + yield = usage; rate + idle + efficiency = labour cost.</p></div><div class="row-k">Watch out</div><div class="row-v"><p><strong>Rate</strong> is on hours <em>paid</em>, <strong>efficiency</strong> on hours <em>worked</em>; use paid hours for efficiency and idle time counts twice, so the three will not sum.</p></div></div></div>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Overhead variances</span>
+<div class="rows"><div class="row-k">Formula</div><div class="row-v"><p>Variable OH cost = (Std hours for actual output x Std rate) − Actual variable OH Variable OH expenditure = (Actual hours worked x Std rate) − Actual variable OH Variable OH efficiency = Std rate x (Std hours for actual output − Actual hours worked) Fixed OH cost = (Actual output x Std fixed OH per unit) − Actual fixed OH Fixed OH expenditure = Budgeted fixed OH − Actual fixed OH Fixed OH volume = (Actual output x Std fixed OH per unit) − Budgeted fixed OH Fixed OH capacity = Std rate per hour x (Actual hours worked − Budgeted hours) Fixed OH efficiency = Std rate per hour x (Std hours for actual output − Actual hours worked)</p></div><div class="row-k">Terms</div><div class="row-v"><p>Expenditure + efficiency = variable overhead variance; expenditure + volume = fixed overhead variance; capacity + efficiency = volume.</p></div><div class="row-k">Watch out</div><div class="row-v"><p>Only <strong>fixed</strong> overhead has a volume variance, because only fixed overhead is spread over a budgeted volume. Capacity is the one measured against <em>budgeted</em> hours, so it turns adverse when fewer hours are run than planned.</p></div></div></div>
+<blockquote><p><strong>Verify:</strong> whether your attempt's material splits volume into capacity and efficiency only, or also expects a <strong>calendar</strong> variance where actual working days differ from budgeted.</p></blockquote>
+<div class="callout estimate">
+<span class="callout-label">Worked problem</span>
+<span class="callout-title">Compute every variance from the card above and reconcile to actual cost</span>
+<div class="rows"><div class="row-k">Given</div><div class="row-v"><p>Standard per unit — X 3 kg at ₹10, Y 2 kg at ₹15, 5 labour hours at ₹40, variable overhead ₹10 and fixed overhead ₹20 per standard hour. Budget 2,200 units and 11,000 hours, so budgeted fixed overhead ₹2,20,000. <strong>Actual output 2,000 units</strong>, with X 6,400 kg at ₹9.50, Y 3,800 kg at ₹16, 10,400 hours paid at ₹41 of which 200 were idle, variable overhead ₹1,05,000 and fixed overhead ₹2,25,000.</p></div><div class="row-k">Attempt it</div><div class="row-v"><p>Compute every material, labour, variable and fixed overhead variance, and prove each set sums to its total.</p></div></div></div>
+<details class="gate" data-id="gwxb4gc">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">The solution</span><span class="gate-text">Compute every material, labour, variable and fixed overhead variance, and prove each set sums to its total.</span><span class="gate-hint">Commit to an answer, then open this</span></span></summary>
+<div class="gate-inner"><div class="rows"><div class="row-k">Solution</div><div class="row-v"><p>Standard for actual output is X 6,000 kg = ₹60,000 and Y 4,000 kg = ₹60,000, so ₹1,20,000 on 10,000 kg — a standard cost per kg of input of <strong>₹12</strong>. Then set it out as a statement, because that is how marks are allotted.</p>
+<div class="code"><pre><code>VARIANCE STATEMENT                                                    ₹
+MATERIAL   std cost of actual output 1,20,000 · actual 1,21,600
+  Price      X 6,400 x (10.00 − 9.50)             3,200 F
+             Y 3,800 x (15.00 − 16.00)            3,800 A         600 A
+  Usage      X 10 x (6,000 − 6,400)               4,000 A
+             Y 15 x (4,000 − 3,800)               3,000 F       1,000 A
+  MATERIAL COST VARIANCE                                        1,600 A
+  Mix        X 10 x (6,120 − 6,400)               2,800 A
+             Y 15 x (4,080 − 3,800)               4,200 F       1,400 F
+  Yield      12 x (10,000 − 10,200)                             2,400 A
+             mix + yield = usage                                1,000 A
+LABOUR     std 10,000 hrs @ 40 = 4,00,000 · actual 10,400 paid @ 41 = 4,26,400
+  Rate       10,400 x (40 − 41)                                10,400 A
+  Idle time  200 x 40                                           8,000 A
+  Efficiency 40 x (10,000 − 10,200)                             8,000 A
+  LABOUR COST VARIANCE                                         26,400 A
+VARIABLE OVERHEAD   std 10,000 x 10 = 1,00,000 · actual 1,05,000
+  Expenditure (10,200 x 10) − 1,05,000                          3,000 A
+  Efficiency  10 x (10,000 − 10,200)                            2,000 A
+  VARIABLE OVERHEAD COST VARIANCE                               5,000 A
+FIXED OVERHEAD   std 2,000 x 100 = 2,00,000 · budget 2,20,000 · actual 2,25,000
+  Expenditure 2,20,000 − 2,25,000                               5,000 A
+  Volume      2,00,000 − 2,20,000                              20,000 A
+  FIXED OVERHEAD COST VARIANCE                                 25,000 A
+    Capacity   20 x (10,200 − 11,000)                          16,000 A
+    Efficiency 20 x (10,000 − 10,200)                           4,000 A
+               capacity + efficiency = volume                  20,000 A
+
+RECONCILIATION
+  Standard cost of actual output                              8,20,000
+  Add: total adverse variances 1,600 + 26,400 + 5,000 + 25,000  58,000
+  ACTUAL COST                                                 8,78,000</code></pre></div></div><div class="row-k">Check</div><div class="row-v"><p>Each pair sums to its total — 600 A + 1,000 A = 1,600 A, 1,400 F + 2,400 A = 1,000 A, and so on. The four element variances add to ₹58,000 adverse, exactly the gap between standard cost of actual output and actual cost; if they do not, a whole element is wrong. The same 200 excess hours drive all three adverse efficiency variances, so the story holds.</p></div></div></div>
+</details>
+<h3 id="marginal-costing">Marginal costing<a class="headerlink" href="#marginal-costing">&#167;</a></h3>
+<p>Marginal costing charges only variable cost to the product and treats fixed cost as a period cost, so <strong>contribution = sales − variable cost</strong> carries every short-term decision. Finished goods and work-in-progress are valued at variable cost only — the whole source of the profit difference against absorption costing.</p>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Contribution, break-even and margin of safety</span>
+<div class="rows"><div class="row-k">Formula</div><div class="row-v"><p>P/V ratio = Contribution / Sales Break-even (units) = Fixed cost / Contribution per unit Break-even (value) = Fixed cost / P/V ratio Margin of safety = Actual sales − Break-even sales Profit = (Sales x P/V ratio) − Fixed cost = Margin of safety x P/V ratio Sales for a target profit = (Fixed cost + Target profit) / P/V ratio</p></div><div class="row-k">Terms</div><div class="row-v"><p>On the <strong>break-even chart</strong> the <strong>angle of incidence</strong> is the angle at which the sales line cuts the total cost line — a wide angle means profit accrues quickly beyond break-even. A <strong>profit-volume chart</strong> plots profit against sales instead, cutting the axis at break-even.</p></div><div class="row-k">Watch out</div><div class="row-v"><p>For <strong>multiproduct break-even</strong> work in a composite unit — contribution per bundle of the given mix. Break-even moves when the mix changes, so state the mix assumed.</p></div></div></div>
+<p>Multiproduct break-even is worked on a composite bundle of the given sales mix, with fixed cost ₹4,80,000:</p>
+<div class="code"><pre><code>MULTIPRODUCT BREAK-EVEN (mix 3 A : 2 B)          A        B     Bundle
+  Selling price per unit                       100      150
+  Variable cost per unit                        60       90
+  Contribution per unit                         40       60
+  Units in the bundle                            3        2
+  Contribution                                 120      120        240
+  Sales                                        300      300        600
+Composite P/V ratio = 240 / 600                                    40%
+Break-even = 4,80,000 / 240 = 2,000 bundles
+           = 6,000 units of A + 4,000 of B  =  ₹12,00,000
+  check: 4,80,000 / 0.40                    =  ₹12,00,000
+At sales ₹15,00,000: margin of safety ₹3,00,000 (20%)
+  profit = 3,00,000 x 40%                   =  ₹1,20,000</code></pre></div>
+<p><strong>Reconciling the methods:</strong> the profit gap is the fixed overhead in the stock movement. On 2,000 units produced against 1,800 sold, with <strong>fixed overhead of ₹100 a unit</strong>, the 200 units of closing stock carry ₹20,000, so absorption profit is <strong>₹20,000 higher</strong>; where stock falls it is lower, and where stock is unchanged the two agree.</p>
+<p><strong>Short-term decisions</strong> reduce to contribution. <strong>Make or buy</strong> compares the buying price with the variable cost of making, plus avoidable fixed cost and contribution lost on displaced work. <strong>Discontinuation</strong>: keep a product while its contribution is positive. With a <strong>limiting factor</strong>, rank by contribution per unit of that factor, not per unit of product.</p>
+<h3 id="budget-and-budgetary-control">Budget and budgetary control<a class="headerlink" href="#budget-and-budgetary-control">&#167;</a></h3>
+<p>A <strong>budget</strong> is a quantitative plan for a defined future period; <strong>budgetary control</strong> monitors actual against it, isolates variances and acts. Essentials: prepared in advance, tied to an objective, expressed in money or quantity, owned by the managers held to it. The <strong>budget manual</strong> records responsibilities, forms, timetable and procedures, and budgeting begins from the <strong>principal or key budget factor</strong> — the constraint, usually sales, that limits everything else.</p>
+<p>Functional budgets — sales, production, material, labour, overhead, capital expenditure and non-operating functions such as administration and research — feed the <strong>cash budget</strong>, and all consolidate into the <strong>master budget</strong>. <strong>Zero-based budgeting</strong> justifies every rupee from zero each period through ranked decision packages instead of extrapolating last year: thorough, expensive in time. A <strong>performance budget</strong> links spending to output achieved. Budgets also <strong>motivate</strong>: attainable targets lift performance, ideal or imposed ones invite budgetary slack.</p>
+<p><strong>Feedback control</strong> compares actual with budget after the event and corrects next period; <strong>feed-forward control</strong> compares a forecast outcome with the budget and corrects before it. A cash budget prepared three months ahead so an overdraft can be arranged is feed-forward; a variance report is feedback.</p>
+<div class="code"><pre><code>FLEXIBLE BUDGET                       60%          80%         100%
+Output (units)                       6,000        8,000       10,000
+                                         ₹            ₹            ₹
+  Variable cost @ ₹60 a unit      3,60,000     4,80,000     6,00,000
+  Semi-variable (₹40,000 + ₹5/unit)  70,000       80,000       90,000
+  Fixed cost                      1,20,000     1,20,000     1,20,000
+                                  --------     --------     --------
+TOTAL COST                        5,50,000     6,80,000     8,10,000
+Cost per unit                        91.67        85.00        81.00
+Sales @ ₹110 a unit               6,60,000     8,80,000    11,00,000
+PROFIT                            1,10,000     2,00,000     2,90,000</code></pre></div>
+<p>Split the semi-variable line before flexing it and do not let the fixed line move — that is where the marks sit.</p>
+<div class="callout formula">
+<span class="callout-label">Formula</span>
+<span class="callout-title">Control ratios</span>
+<div class="rows"><div class="row-k">Formula</div><div class="row-v"><p>Capacity ratio = (Actual hours worked / Budgeted hours) x 100 Activity ratio = (Std hours for actual output / Budgeted hours) x 100 Efficiency ratio = (Std hours for actual output / Actual hours worked) x 100 Activity ratio = (Capacity ratio x Efficiency ratio) / 100, all three being percentages</p></div><div class="row-k">Terms</div><div class="row-v"><p>Above 100% is favourable; where working days differ from budget, a calendar ratio of actual to budgeted days is also computed.</p></div><div class="row-k">Watch out</div><div class="row-v"><p>On the data above — 11,000 budgeted hours, 10,200 worked, 10,000 standard — capacity is 92.73%, efficiency 98.04% and activity 90.91%, and (92.73 x 98.04) / 100 = 90.91.</p></div></div></div>
+<section class="attempt-block callout key" data-id="g6qjejw">
+<span class="callout-label">Practise it</span>
+<span class="callout-title">Without looking above, write the four fixed-overhead variances with their formulas, and say which two add to the volume variance and why.</span>
+<div class="attempt-work" data-for="g6qjejw" data-min="60"><textarea placeholder="Write your answer here. Saved on this machine only."></textarea><div class="attempt-foot"><button class="btn-unseal">Sealed</button><span class="attempt-count"></span><button class="btn-skip">Stuck &mdash; show me</button></div></div>
+<details class="gate sealed" data-id="g6qjejw">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">Model answer</span><span class="gate-text">Compare against what a full-mark answer contains</span><span class="gate-hint">Write above to unseal</span></span></summary>
+<div class="gate-inner"><p>Each compares a different pair, so take the order from the formula rather than from a general rule:</p>
+<ul><li><strong>Cost</strong> = (actual output x standard fixed OH per unit) − actual fixed overhead.</li><li><strong>Expenditure</strong> = budgeted − actual fixed overhead: did it spend its allowance?</li><li><strong>Volume</strong> = (actual output x standard fixed OH per unit) − budgeted fixed overhead: did the volume materialise?</li><li><strong>Capacity</strong> = standard rate x (actual hours worked − budgeted hours); <strong>efficiency</strong> = standard rate x (standard hours for actual output − actual hours worked).</li></ul>
+<p><strong>Capacity and efficiency add to volume</strong>, because volume falls short for two reasons only: fewer hours run than budgeted, or hours producing less than standard. Expenditure plus volume gives the total, and only fixed overhead has a volume variance.</p></div>
+</details>
+</section>
+<details class="gate" data-id="g3gocl9">
+<summary><span class="gate-seal">&#10022;</span><span class="gate-q"><span class="gate-kind">Quick recall</span><span class="gate-text">Why can a product showing a loss under absorption costing be worth keeping?</span><span class="gate-hint">Answer it in your head first</span></span></summary>
+<div class="gate-inner"><p>Because that loss includes apportioned fixed overhead which continues whether or not the product is made. While sales exceed variable cost, the contribution reduces the fixed cost the rest of the business carries, so discontinuing cuts profit by that contribution less any fixed cost saved.</p></div>
+</details>
+<div class="callout trap">
+<span class="callout-label">Exam trap</span>
+<span class="callout-title">Reading the fixed overhead volume variance as overspending</span>
+<p>Overspending the allowance is the <strong>expenditure</strong> variance; failing to produce the budgeted volume, so that fixed overhead is under-recovered, is the <strong>volume</strong> variance. A department can spend exactly its allowance and still show a large adverse volume variance because output fell.</p></div>
+<section class="checkpoint"><span class="callout-label">Revision checklist</span><p><strong>Formats to reproduce from memory.</strong> The cost sheet, with WIP adjusted at works cost and finished goods after cost of production; the stores ledger on weighted average; the cost–financial reconciliation statement; the process account with normal loss and abnormal loss or gain, plus the Abnormal Loss Account; the variance statement above with its reconciliation; the flexible budget with the semi-variable line split.</p>
+<p><strong>The formula set.</strong> EOQ and stock levels; turnover rates; Halsey and Rowan; economic batch quantity; cost per good unit in a process; equivalent units; the full variance set; P/V ratio, break-even, margin of safety, multiproduct break-even; the control ratios.</p>
+<p><strong>Examined most often.</strong> Cost sheet; EOQ with stock levels; incentive plans compared; overhead absorption and under- or over-absorption; cost–financial reconciliation; process costing with abnormal loss or gain; service costing on a composite unit; full variance analysis; CVP and short-term decisions; flexible and cash budgets.</p>
+<p><strong>The traps.</strong> Absorbing abnormal cost into the cost unit; valuing normal loss at cost; recomputing the process rate on actual output; using hours paid for labour efficiency; confusing fixed overhead expenditure with volume; omitting F or A; ranking by contribution per unit rather than per unit of the limiting factor.</p>
+<p><strong>Confirm against the Study Guidelines</strong>: administration overheads; equivalent units on FIFO or weighted average; whether a calendar variance is expected; and any topic the Guidelines exclude — ICAI resets these every year and these notes cannot substitute for them.</p></section>
+    <nav class="pager"><a class="pager-link prev" href="index.html"><span class="pager-dir">&larr; Previous</span><span class="pager-name">How to read this</span></a><a class="pager-link next" href="desk-audit.html"><span class="pager-dir">Next &rarr;</span><span class="pager-name">The Audit Desk</span></a></nav>
+  </article>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>

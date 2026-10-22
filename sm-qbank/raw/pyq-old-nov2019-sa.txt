@@ -1,0 +1,593 @@
+          PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                            SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                          Question No. 1 is compulsory.
+                                    Answer any three questions from the rest.
+        Question 1
+        (a) Describe any three key functions of RBI.                                             (3 Marks)
+        (b) How the inherent risks involved in BPA can be classified? Discuss any four.          (2 Marks)
+        Answer
+        (a) The key functions of Reserve Bank of India (RBI) are as follows:
+             i.     Monetary Authority: This function formulates, implements and monitors the
+                    monetary policy with the objective of maintaining price stability and ensuring
+                    adequate flow of credit to productive sectors.
+             ii.    Regulator and supervisor of the financial system: It prescribes broad parameters
+                    of banking operations within which the country’s banking and financial system
+                    functions with the objective of maintaining public confidence in the system, protect
+                    depositors’ interest and provide cost- effective banking services to the public.
+             iii.   Issuer of currency: It deals with issuing and exchanging or destroying currency and
+                    coins not it for circulation with the objective to give the public adequate quantity of
+                    supplies of currency notes and coins and in good quality.
+        (b) The inherent risks involved in Business Process Automation (BPA) are classified as below:
+             •      Input & Access: All input transaction data may not be accurate, complete and
+                    authorized.
+             •      File & Data Transmission: All files and data transmitted may not be processed
+                    accurately and completely, due to network error.
+             •      Processing: Valid input data may not have been processed accurately and
+                    completely due to program error or bugs.
+             •      Output: IT may not be complete and accurate due to program error or bugs and is
+                    distributed to unauthorized personnel due to weak access control.
+             •      Data: Master data and transaction data may be changed by unauthorized personnel
+                    due to weak access control.
+             •      Infrastructure: All data and programs could be lost if there is no proper backup in
+                    the event of a disaster and the business could come to a standstill.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        44                 INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2019
+
+
+        Question 2
+        (a) Business Processes are documented/designed using flow-charts to understand the
+            process in visualized form. Being a business advisor, what advantages of flow-charts will
+            you suggest to represent the business processes in diagrammatic form?         (6 Marks)
+        (b) Explain any four examples of Segregation of Duties (SoD) controls.                  (4 Marks)
+        Answer
+        (a) The advantages of Flowcharts to represent the business process in diagrammatic form are
+            as follows:
+             i.    Quicker grasp of relationships: The relationship between various elements of the
+                   application program/business process must be identified. Flowchart can help depict
+                   a lengthy procedure more easily than by describing it by means of written notes.
+             ii.   Effective Analysis: The flowchart becomes a blueprint of a system that can be
+                   broken down into detailed parts for study. Problems may be identified, and new
+                   approaches may be suggested by flowcharts.
+             iii. Communication: Flowcharts aid in communicating the facts of a business problem
+                  to those whose skills are needed for arriving at the solution.
+             iv.   Documentation: Flowcharts serve as a good documentation which aid greatly in
+                   future program conversions. In the event of staff changes, they serve as training
+                   function by helping new employees in understanding the existing programs.
+             v.    Efficient coding: Flowcharts act as a guide during the system analysis and program
+                   preparation phase. Instructions coded in a programming language may be checked
+                   against the flowchart to ensure that no steps are omitted.
+             vi. Program Debugging: Flowcharts serve as an important tool during program
+                 debugging by detecting, locating and removing mistakes.
+             vii. Efficient program maintenance: The maintenance of operating programs is
+                  facilitated by flowcharts that help the programmer to concentrate attention on that
+                  part of the information flow which is to be modified.
+             viii. Identifying Responsibilities: Specific business processes can be clearly identified
+                   to functional departments thereby establishing responsibility of the process owner.
+             ix.   Establishing Controls: Business process conflicts and risks can be easily identified
+                   for recommending suitable controls.
+        (b) The examples of Segregation of Duties (SoD) Controls are as below:
+             i.    Transaction Authorization: Information systems can be programmed or configured
+                   to require two (or more) persons to approve certain transactions. This is seen in retail
+                   establishments where a manager is required to approve a large transaction or a
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                           45
+
+
+                   refund. In IT applications, transactions meeting certain criteria may require a
+                   manager’s approval to be able to proceed.
+             ii.   Split custody of high-value assets: Assets of high importance or value can be
+                   protected using various means of split custody. For example, a password to an
+                   encryption key that protects a high-valued asset can be split in two halves, one half
+                   assigned to two persons, and the other half assigned to two persons, so that no single
+                   individual knows the entire password. Banks do this for central vaults, where a vault
+                   combination is split into two or more pieces so that two or more are required to open
+                   it.
+             iii. Workflow: Applications that are workflow-enabled can use a second (or third) level
+                  of approval before certain high-value or high-sensitivity activities can take place. For
+                  example, a workflow application that is used to provision user accounts can include
+                  extra management approval steps in requests for administrative privileges .
+             iv.   Periodic reviews: IT or internal audit personnel can periodically review user access
+                   rights to identify whether any segregation of duties issues exist. The access privileges
+                   for each worker can be compared against a segregation of duties control matrix.
+                   When SoD issues are encountered during segregation of duties review, management
+                   will need to decide how to mitigate the matter.
+        Question 3
+        (a) An internet connection exposes an organization to the harmful elements of the outside
+            world. As a network administrator, which Network Access controls will you implement in
+            the organization to protect from such harmful elements?                      (6 Marks)
+        (b) Every business decision is accompanied with a set of threats and so is BYOD program.
+            Explain briefly the areas in which the risks associated with BYOD program can be
+            classified.                                                                (4 Marks)
+        Answer
+        (a) The protection of an organization from harmful elements can be achieved through the
+            following Network Access Controls:
+             i.    Policy on use of network services: An enterprise wide policy applicable to internet
+                   service requirements aligned with the business need for using the Internet services
+                   is the first step. Selection of appropriate services and approval to access them should
+                   be part of this policy.
+             ii.   Enforced path: Based on risk assessment, it is necessary to specify the exact path
+                   or route connecting the networks; e.g. internet access by employees will be routed
+                   through a firewall and proxy.
+             iii. Segregation of networks: Based on the sensitive information handling function; say
+                  a Virtual Private Network (VPN) connection between a branch office and the head -
+                  office, this network is to be isolated from the internet usage service.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        46                 INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2019
+
+
+             iv.   Network connection and routing control: The traffic between networks should be
+                   restricted, based on identification of source and authentication access policies
+                   implemented across the enterprise network facility.
+             v.    Security of network services: The techniques of authentication and authorization
+                   policy should be implemented across the organization’s network.
+             vi. Firewall: A Firewall is a system that enforces access control between two networks.
+                 To accomplish this, all traffic between the external network and the organization’s
+                 Intranet must pass through the firewall that will allow only authorized traffic between
+                 the organization and the outside to pass through it. The firewall must be immune to
+                 penetrate from both outside and inside the organization.
+             vii. Encryption: Encryption is the conversion of data into a secret code for storage in
+                  databases and transmission over networks. The sender uses an encryption algorithm
+                  with a key to convert the original message called the Clear text into Cipher text. This
+                  is decrypted at the receiving end.
+             viii. Call Back Devices: It is based on the principle that the key to network security is to
+                   keep the intruder off the Intranet rather than imposing security measure after the
+                   criminal has connected to the intranet. The call- back device requires the user to enter
+                   a password and then the system breaks the connection. If the caller is authorized,
+                   the call back device dials the caller’s number to establish a new connection. This limit
+                   access only from authorized terminals or telephone numbers and prevents an intruder
+                   masquerading as a legitimate user. This also helps to avoid the call forwarding and
+                   man-in-the middle attack.
+        (b) The risks associated with Bring Your Own Device (BYOD) program are classified as below:
+             i.    Network Risks: It is normally exemplified and hidden in ‘Lack of Device Visibility’.
+                   When company-owned devices are used by all employees within an organization, the
+                   organization’s IT practice has complete visibility of the devices connected to the
+                   network. This helps to analyze traffic and data exchanged over the Internet. As BYOD
+                   permits employees to carry their own devices (smart phones, laptops for business
+                   use), the IT practice team is unaware about the number of devices being connected
+                   to the network. As network visibility is of high importance, this lack of visibility can be
+                   hazardous.
+             ii.   Device Risks: It is normally exemplified and hidden in ‘Loss of Devices’. A lost or
+                   stolen device can result in an enormous financial and reputational embarrassment to
+                   an organization as the device may hold sensitive corporate information. Data lost from
+                   stolen or lost devices ranks as the top security threats as per the rankings released
+                   by Cloud Security Alliance. With easy access to company emails as well as corporate
+                   intranet, company trade secrets can be easily retrieved from a misplaced device.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                              47
+
+
+             iii. Application Risks: It is normally exemplified and hidden in ‘Application Viruses and
+                  Malware’. A related report revealed that most employees’ phones and sma rt devices
+                  that were connected to the corporate network weren’t protected by security software.
+                  With an increase in mobile usage, mobile vulnerabilities have increased concurrently.
+                  Organizations are not clear in deciding that ‘who is responsible for devic e security –
+                  the organization or the user’.
+             iv.   Implementation Risks: It is normally exemplified and hidden in ‘Weak BYOD Policy’.
+                   The effective implementation of the BYOD program should not only cover the
+                   technical issues mentioned above but also mandate the development of a robust
+                   implementation policy. Because corporate knowledge and data are key assets of an
+                   organization, the absence of a strong BYOD policy would fail to communicate
+                   employee expectations, thereby increasing the chances of device misuse.
+        Question 4
+        (a) Central database is the main feature of an ERP system. As the complete data is stored at
+            one place, ensuring safety of data and minimizing risk of loss of data is a big challenge.
+            As an IT expert, discuss the risks associated with various aspects of ERP.       (6 Marks)
+        (b) Explain the concept of E-Commerce briefly. How can you protect your E-Commerce
+            business from intrusion?                                               (4 Marks)
+        Answer
+        (a) The Risks associated with various aspect of Enterprise Resource Planning (ERP) are given
+            below:
+             i.    Data Access: Data is stored centrally, and all the departments access the central
+                   data. This creates a possibility of access to non-relevant data.
+             ii.   Data Safety: As there is only one set of data, if this data is lost, whole business may
+                   come to stand still. For the physical safety of data, risk of total or partial loss of data
+                   are considered. Whereas for the electronic safety of data; risk of changes in data, risk
+                   of partial/complete deletion of data, risk of leakage of information and risk of incorrect
+                   input of data are considered.
+             iii. Speed of Operation: As data is maintained centrally, gradually the data size
+                  becomes more and more and it may reduce the speed of operation.
+             iv.   Change in process: As the overall system is integrated, a small change in process
+                   for one department may require lot of efforts and money.
+             v.    Staff Turnover: As the overall system is integrated and connected with each other
+                   department, it becomes complicated and difficult to understand. In case of staff
+                   turnover, it becomes increasingly difficult to maintain the system.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        48                       INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2019
+
+
+                    vi. System Failure: As everybody is connected to a single system and central database,
+                        in case of failure of system, the whole business may come to stand still and may get
+                        affected badly.
+        (b) Definition of E-commerce are as follows:
+                    E-Commerce can be defined as “Sale/Purchase of goods/services through electronic
+                    mode.” This could include the use of technology in the form of Computers, Desktops,
+                    Mobile Applications, etc. In other words, E-Commerce is the process of doing business
+                    electronically. It refers to the use of technology to enhance the processing of commercial
+                    transactions between a company, its customers and its business partners. It involves the
+                    automation of a variety of Business-To-Business (B2B) and Business-To-Consumer (B2C)
+                    transactions through reliable and secure connections.
+               E-Commerce business can be protected from intrusion using following methods:
+              i.         Viruses: Check your website daily for viruses, the presence of which can result in the
+                         loss of valuable data.
+             ii.         Hackers: Use software packages to carry out regular assessments of how vulnerable
+                         your website is to hackers.
+             iii.        Passwords: Ensure employees change these regularly and that passwords set by
+                         former employees of your organization are defunct.
+             iv.         Regular software updates: The site should always be up to date with the newest
+                         versions of security software. If it is not done, the website will become vulnerable to
+                         attack.
+             v.          Sensitive data: This involves considering the encryption of financial information and
+                         other confidential data (using encryption software). Hackers or third parties will not
+                         be able to access encrypted data without a key. This is particularly relevant for any
+                         e-Commerce sites that use a shopping cart system.
+             vi.         Know the details of your payment service provider contract.
+        Question 5
+        (a) Banks face the challenge of addressing the threat of money laundering on multiple fronts
+            as banks can be used as primary means for transfer of money across geographies. In light
+            of the above statement, discuss the Money Laundering process and its different stages.
+                                                                                                     (6 Marks)
+        (b) (i)          What do you understand by Regulatory Compliance?                            (2 Marks)
+                    (ii) Write a brief description of three tier architecture of Application Software. (2 Marks)
+                                                             OR
+                         Explain briefly the concept of Role-Based-Access-Control (RBAC) in ERP System.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            49
+
+
+        Answer
+        (a) Section 3 of Prevention of Money Laundering Act (PMLA), 2002 defines 'Money
+            Laundering’ as: ‘whosoever directly or indirectly attempts to indulge or knowingly assists
+            or knowingly is a party or is actually involved in any process or activity connected with the
+            proceeds of crime and projecting it as untainted property shall be guilty of the o ffence of
+            money-laundering”.
+             In other words, Money laundering may be defined as the process by which the proceeds
+             of the crime and the true ownership of those proceeds are concealed or made opaque so
+             that the proceeds appear to come from a legitimate source. The objective in money
+             laundering is to conceal the existence, illegal source, or illegal application of income to
+             make it appear legitimate. Money laundering is commonly used by criminals to make ‘dirty’
+             money appear ‘clean’ or the profits of criminal activities are made to appear legitimate.
+             Stages of Money Laundering are as follows:
+             i.     Placement: The first stage involves the Placement of proceeds derived from illegal
+                    activities - the movement of proceeds frequently currency, from the scene of the crime
+                    to a place, or into a form less suspicious and more convenient for the criminal.
+             ii.    Layering: Layering involves the separation of proceeds from illegal source using
+                    complex transactions designed to obscure the audit trail and hide the proceeds.
+                    Layering involves sending the money through various financial transactions to change
+                    its form and make it difficult to follow. Layering may consist of several banks to bank
+                    transfers or wire transfers between different accounts in different names in different
+                    countries making deposit and withdrawals to continually vary the amount of money in
+                    the accounts changing the money’s currency purchasing high value items (boats,
+                    houses cars, diamonds) to change the form of money, thus making it hard to trace.
+             iii.   Integration: Integration involves conversion of illegal proceeds into apparently
+                    legitimate business earnings through normal financial or commercial operations.
+                    Integration creates the illusion of a legitimate source for criminally derived funds and
+                    involves techniques as numerous and creative as those used by legitimate
+                    businesses.
+        (b) (i)     Regulatory Compliance describes the goal that organizations aspire to achieve in
+                    their efforts to ensure that they are aware of and take steps to comply with relevant
+                    laws, policies, and regulations. This approach is used to ensure that all necessary
+                    governance requirements can be met without the unnecessary duplication of effort
+                    and activity from resources.
+                    In other words, Regulatory Compliance is an organization’s adherence to laws,
+                    regulations, guidelines and specifications relevant to its business. Violations of
+
+
+
+
+© The Institute of Chartered Accountants of India
+        50               INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2019
+
+
+                  regulatory compliance regulations often result in legal punishment, including interest,
+                  penalty and prosecution in some cases.
+                  The compliance and regulatory requirements can be classified in two types as under.
+                  o    General – Applicable to all irrespective of anything.
+                  o    Specific – Applicable to specific type of businesses only.
+             (ii) The layers of Three Tier Architecture of Application Software are as below:
+                  ▪    The Application Layer receives the inputs from the users and performs certain
+                       validations like, if the user is authorized to request the transaction.
+                  ▪    The Operating System Layer then carries these instructions and processes
+                       them using the data stored in the database and returns the results to the
+                       application layer.
+                  ▪    The Database Layer stores the data in a certain form. For a transaction to be
+                       completed, all the three layers need to be invoked. Most application software is
+                       built on this model these days.
+                                                      OR
+             (ii) Role-Based Access Control (RBAC) is an approach to restricting system access to
+                  authorized users. It is used by most enterprises and can implement mandatory access
+                  control or discretionary access control.
+                  ▪    RBAC is a policy neutral access control mechanism defined around roles and
+                       privileges that lets employees having access rights only to the information they
+                       need to do their jobs and prevent them from accessing information that doesn't
+                       pertain to them.
+                  ▪    RBAC can be used to facilitate administration of security in large organizations
+                       with hundreds of users and thousands of permissions.
+                  ▪    The components of RBAC such as role-permissions, user-role and role-role
+                       relationships make it simple to perform user assignments.
+                  ▪    Roles for staff are defined in organization and permission to access a specific
+                       system or perform certain operation is defined as per the role assigned.
+
+
+
+
+© The Institute of Chartered Accountants of India
+           PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                                  SECTION –B: STRATEGIC MANAGEMENT
+                                         Question No. 6 is compulsory
+                                   Answer any three questions from the rest.
+        Question 6
+        An XYZ Company is facing continuous losses. There is decline in sales and product market
+        share. The products of the company became uncompetitive and there is persistent negative
+        cash flow. The physical facilities are deteriorating and employees have low morale. At the
+        board meeting, the board members decided that they should continue the organization and
+        adopt such measures that the company functions properly. The board has decided to hire
+        young executive Shayamli for improving the functions of the organization. What corporate
+        strategy should Shayamli adopt for this company and what steps to be taken to implement
+        the corporate strategy adopted by Shayamli?                                      (5 Marks)
+        Answer
+        XYZ Company is facing continuous losses, decline in sales and product market share, persistent
+        negative cash flow, uncompetitive products, declining market share, deterioration in physical
+        facilities, low morale of employees. In such a scenario, Shayamli may choose turnaround
+        strategy as this strategy attempts to reverse the process of decline and bring improvement in
+        organizational health. This is also important as Board has decided to continue the company and
+        adopt measures for its proper functioning.
+        For success, Shayamli needs to focus on the short and long-term financing needs as well as on
+        strategic issues. During the turnaround, the “product mix” may be changed, requiring the
+        organization to do some repositioning. A workable action plan for turnaround would involve:
+        Stage One – Assessment of current problems: In the first step, assess the current problems
+        and get to the root causes and the extent of damage.
+        Stage Two – Analyze the situation and develop a strategic plan: Identify major problems
+        and opportunities, develop a strategic plan with specific goals and detailed functional actions.
+        Stage Three – Implementing an emergency action plan: If the organization is in a critical
+        stage, an appropriate action plan must be developed to stop the bleeding and enable the
+        organization to survive.
+        Stage Four – Restructuring the business: If the core business is irreparably damaged, then
+        the outlook for the entire organization may be bleak. Efforts to be made to position the
+        organization for rapid improvement.
+        Stage Five – Returning to normal: In the final stage of turnaround strategy process, the
+        organization should begin to show signs of profitability, return on investments and enhancing
+        economic value-added.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        44                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2019
+
+
+        Question 7
+        (a) "Strategic Management concepts are useful for educational institutions." Explain with
+            reasons.                                                                   (5 Marks)
+        (b) "Industry and competitive analysis begins with an overview of the industry's dominant
+            economic features." Explain and also narrate the factors to be considered in profiling in
+            industry's economic features.                                                 (5 Marks)
+        Answer
+        (a) Education is considered to be a noble profession. An educational institution often functions
+            as a not-for-profit organization managed by trusts and societies. They include schools,
+            colleges and universities. Being inherently non-commercial in nature, educational
+            organisations do not have cut-throat competition as in case of their commercial
+            counterparts. However, as the number of institutions belonging to both public and private
+            sector are increasing, the competition is gradually rising. Key reasons for use of strategic
+            management techniques in educational institutes are as follows:
+             •    Getting better name and recognition.
+             •    Adopt different strategies for attracting best students.
+             •    Appointing and retaining quality faculty for teaching.
+             •    Deliver education to make graduates more employable.
+             •    Nurturing responsible citizens.
+        (b) Industry is “a group of firms whose products have same and similar attributes such that
+            they compete for the same buyers.” Industries differ significantly in their basic character
+            and structure. Industry and competitive analysis begins with an overview of the industry’s
+            dominant economic features. The factors to be considered while profiling an industry’s
+            economic features are fairly standard and are given as under:
+                 Size and nature of market.
+                 Scope of competitive rivalry.
+                 Market growth rate and position in the business life.
+                 Number of rivals and their relative market share.
+                 The number of buyers and their relative sizes.
+                 The types of distribution channels used to access consumers.
+                 The pace of technological change in both production process innovation and new
+                  product introductions.
+                 Whether the products and services of rival firms are highly differentiated, weakly
+                  differentiated, or essentially identical?
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                           45
+
+
+                  Whether organisation can realize economies of scale in purchasing, manufacturing,
+                   transportation, marketing, or advertising.
+                  Whether key industry participants are clustered in a location.
+                  Whether certain industry activities are characterized by strong learning and
+                   experience effects (“learning by doing”) such that unit costs decline as cumulative
+                   output grows.
+                  Whether high rates of capacity utilization are crucial to achieve low-cost production
+                   efficiency.
+                  Capital requirements and the ease of entry and exit.
+                  Whether industry profitability is above or below par?
+        Question 8
+        (a) Why an organisation should have a mission? What considerations are to be kept in mind
+            while writing a good mission statement of a company?                       (5 Marks)
+        (b) Explain the Strategic Alliance. Describe the advantages of Strategic Alliance.      (5 Marks)
+        Answer
+        (a) Organization should have a mission on account of the following reasons:
+                  To ensure unanimity of purpose within the organization.
+                  To develop a basis, or standard, for allocating organizational resources.
+                  To provide a basis for motivating the use of the organization’s resources.
+                  To establish a general tone or organizational climate.
+                  To serve as a focal point for those who can identify with the organization’s purpose
+                   and direction.
+                  To facilitate the translation of objective and goals into a work structure involving the
+                   assignment of tasks to responsible elements within the organization.
+                  To specify organizational purposes and the translation of these purposes into goals
+                   in such a way that cost, time, and performance parameters can be assessed and
+                   controlled.
+             The following points must be considered while writing a good mission statement of a
+             company:
+             (i)   To establish the special identity of the business - one that typically distinct it from
+                   other similarly positioned companies.
+             (ii) Good mission statements should be unique to the organisation for which they are
+                  developed.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        46                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2019
+
+
+            (iii) Needs which business tries to satisfy, customer groups it wishes to target and the
+                  technologies and competencies it uses and the activities it performs.
+        (b) A strategic alliance is a relationship between two or more businesses that enables each to
+            achieve certain strategic objectives which neither would be able to achieve on its own. The
+            strategic partners maintain their status as independent and separate entities, share the
+            benefits and control over the partnership, and continue to make contributions to the
+            alliance until it is terminated.
+             Advantages of Strategic Alliance
+             Strategic alliance usually is only formed if they provide an advantage to all the parties in
+             the alliance. These advantages can be broadly categorised as follows:
+             1. Organizational: Strategic alliance helps to learn necessary skills and obtain certain
+                  capabilities from strategic partners. Strategic partners may also help to enhance
+                  productive capacity, provide a distribution system, or extend supply chain. Strategic
+                  partners may provide a good or service that complements thereby creating a synergy.
+                  Having a strategic partner who is well-known and respected also helps add legitimacy
+                  and creditability to a new venture.
+             2. Economic: There can be reduction in costs and risks by distributing them across the
+                  members of the alliance. Greater economies of scale can be obtained in an alliance,
+                  as production volume can increase, causing the cost per unit to decline. Finally,
+                  partners can take advantage of co-specialization, creating additional value.
+             3.  Strategic: Rivals can join together to cooperate instead of compete. Vertical
+                 integration can be created where partners are part of supply chain. Strategic alliances
+                 may also be useful to create a competitive advantage by the pooling of resources and
+                 skills. This may also help with future business opportunities and the development of
+                 new products and technologies. Strategic alliances may also be used to get access
+                 to new technologies or to pursue joint research and development.
+            4. Political: Sometimes strategic alliances are formed with a local foreign business to
+                 gain entry into a foreign market either because of local prejudices or legal barriers to
+                 entry. Forming strategic alliances with politically-influential partners may also help
+                 improve your own influence and position.
+        Question 9
+        (a) Discuss in what conditions rivalry among competitors tends to be cut-throat and profitability
+            of the industry goes down.                                                       (5 Marks)
+        (b) Discuss the various approaches for evaluating the worth of a business.              (5 Marks)
+        Answer
+        (a) The intensity of rivalry in an industry is a significant determinant of industry attractiveness
+            and profitability. The intensity of rivalry can influence the costs of suppliers, distribution,
+            and of attracting customers and thus directly affect the profitability. The more intensive the
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                           47
+
+
+             rivalry, the less attractive is the industry. Rivalry among competitors tends to be cutthroat
+             and industry profitability low when
+             (i)   An industry has no clear leader.
+             (ii) Competitors in the industry are numerous.
+             (iii) Competitors operate with high fixed costs.
+             (iv) Competitors face high exit barriers.
+             (v) Competitors have little opportunity to differentiate their offerings.
+             (vi) The industry faces slow or diminished growth.
+        (b) Various approaches for determining a business’s worth can be grouped into three main
+            approaches:
+             (i)   Net worth or stockholders’ equity: Net worth is the total assets minus total outside
+                   liabilities of an organisation.
+             (ii) Future benefits to owners through net profits: These benefits are considered to
+                  be much greater than the amount of profits. A conservative rule of thumb is to
+                  establish a business’s worth as five times the firm’s current annual profit. A five -year
+                  average profit level could also be used.
+             (iii) Market-determined business worth: This approach involves three methods. First,
+                   the firm’s worth may be based on the selling price of a similar company. The second
+                   approach is called the price-earnings ratio method whereby the market price of the
+                   firm’s equity shares is divided by the annual earnings per share and multiplied by the
+                   firm’s average net income for the preceding years. The third approach can be called
+                   the outstanding shares method whereby one has to simply multiply the number of
+                   shares outstanding by the market price per share and add a premium.
+        Question 10
+        (a) Distinguish between transformational leadership style and transactional leadership style.
+        (b) Explain concept and nature of BPR.                                                  (5 Marks)
+                                                         OR
+             Write a short note on the concept of cost leadership strategy and how to achieve it?
+                                                                                                (5 Marks)
+        Answer
+        (a) Difference between transformational and transactional leadership are as follows:
+             1.    Transformational leadership style uses charisma and enthusiasm to inspire people to
+                   exert them for the good of organization. Transactional leadership style uses the
+                   authority of its office to exchange rewards such as pay, status symbols etc.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        48                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2019
+
+
+             2.   Transformational leadership style may be appropriate in turbulent environment, in
+                  industries at the very start or end of their cycles, poorly performing organisations,
+                  when there is a need to inspire a company to embrace major changes. Transactional
+                  leadership style can be appropriate in static environment, in growing or mature
+                  industries and in organisations that are performing well.
+             3.   Transformational leaders inspire employees by offering excitement, vision,
+                  intellectual stimulation and personal satisfaction. Transactional leaders prefer a more
+                  formalized approach to motivation, setting clear goals with explicit rewards or
+                  penalties for achievement and non-achievement. Transactional leaders focus mainly
+                  to build on existing culture and enhance current practices.
+        (b) BPR stands for business process reengineering which means starting all over again from
+            scratch. It refers to the analysis and redesign of workflows and processes both within and
+            between the organisations. Its objective is to improve performance in terms of time, cost,
+            quality, and responsiveness to customers. It implies giving up old practices and adopting
+            the improved ones. It is an effective tool of realising new strategies.
+             Improving business processes is paramount for businesses to stay competitive in today’s
+             marketplace. New technologies are rapidly bringing new capabilities to businesses,
+             thereby raising the strategical options and the need to improve busines s processes
+             dramatically. Even the competition has become harder. In today’s market place, major
+             changes are required to just stay even.
+                                                       OR
+             Cost leadership strategy requires vigorous pursuit of cost reduction in the areas of
+             procurement, production, storage and distribution of product or service and also economies
+             in overhead costs. Accordingly, the cost leader is able to charge a lower price for its
+             products than its competitors and still make satisfactory profits. The low cost leadership
+             should be such that no competitors are able to imitate so that it can result in sustainable
+             competitive advantage to the cost leader firm.
+             To achieve cost leadership, following are the actions that could be taken:
+             1.   Forecast the demand of a product or service promptly.
+             2.   Optimum utilization of the resources to get cost advantages.
+             3.   Achieving economies of scale leads to lower per unit cost of product/servic e.
+             4.   Standardisation of products for mass production to yield lower cost per unit.
+             5.   Invest in cost saving technologies and try using advance technology for smart
+                  working.
+             6.   Resistance to differentiation till it becomes essential.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

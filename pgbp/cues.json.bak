@@ -1,0 +1,2692 @@
+[
+ {
+  "id": "a1",
+  "text": "Meera runs a bakery in Pune. Her books say she made twelve lakh rupees this year. So why will she pay tax on almost nineteen lakh?",
+  "start": 0.8,
+  "dur": 8.1,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "a2",
+  "text": "Nobody cheated. Her accountant measures profit one way. The Income-tax Act measures it another way. The gap between the two is this whole chapter.",
+  "start": 9.85,
+  "dur": 8.937,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "a3",
+  "text": "The law asks three questions about every rupee. Is it business income at all? Is this cost allowed? And is it allowed this year?",
+  "start": 19.488,
+  "dur": 7.675,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "a4",
+  "text": "We'll answer them from first principles. What gets taxed. What you can deduct, and what you can't. The shortcuts for small businesses. And at the end, Meera's full computation, line by line.",
+  "start": 27.863,
+  "dur": 11.633,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "a5",
+  "text": "Everything follows the Income-tax Act, nineteen sixty-one, as amended by the Finance Act, two thousand twenty five. That's assessment year twenty twenty-six, twenty-seven, for the January two thousand twenty seven exam.",
+  "start": 40.196,
+  "dur": 13.935,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "b1",
+  "text": "Meera bakes cakes. Her friend Kabir fixes teeth. Is a dentist running a business?",
+  "start": 55.431,
+  "dur": 5.184,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "b2",
+  "text": "First, the big picture. The Act sorts all income into five heads. Salaries, house property, business or profession, capital gains, and other sources. Each head has its own rules. Ours is the third one.",
+  "start": 61.564,
+  "dur": 12.974,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "b3",
+  "text": "Business means any trade, commerce or manufacture, or any adventure in the nature of trade. That's section two thirteen.",
+  "start": 75.238,
+  "dur": 7.4,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "b4",
+  "text": "A profession is work that needs learning, like a doctor, a lawyer, an architect or an auditor. It includes a vocation too. That's section two thirty six.",
+  "start": 83.439,
+  "dur": 9.505,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "b5",
+  "text": "Here's the good news. For computing income, the difference hardly matters. Business and profession are taxed alike. It matters only for tax audit and the presumptive schemes, which have different limits.",
+  "start": 93.744,
+  "dur": 11.846,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "b6",
+  "text": "Business usually means doing something again and again, for profit. But even one deal can count. Buy a truckload of mangoes once, just to resell them, and that's an adventure in the nature of trade.",
+  "start": 106.289,
+  "dur": 12.107,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "b7",
+  "text": "What if the business itself is illegal? Its profit is still taxed. The law doesn't ask where income came from. But money spent on an offence is never deductible.",
+  "start": 119.197,
+  "dur": 9.567,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "b8",
+  "text": "Two more rules. Profit received in kind is valued at its cash worth. And if you run three businesses, each one's profit is worked out separately, then added together.",
+  "start": 129.714,
+  "dur": 10.053,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "b9",
+  "text": "Kabir runs a clinic and a medical shop. Two heads of income?",
+  "start": 140.467,
+  "dur": 3.549,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "b9a",
+  "text": "No. Both fall under one head, business or profession. Their profits are worked out separately, then added.",
+  "start": 147.015,
+  "dur": 6.361,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "c1",
+  "text": "A company pays Meera five lakh rupees to promise she won't open a bakery in its area for three years. She baked nothing for it. Is it business income?",
+  "start": 154.776,
+  "dur": 9.401,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "c2",
+  "text": "Is a promise not to do business, business income?",
+  "start": 165.127,
+  "dur": 2.796,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 2.2
+ },
+ {
+  "id": "c3",
+  "text": "Yes. Section twenty eight is a net. It lists everything taxed under this head, and it reaches well past ordinary profit.",
+  "start": 170.473,
+  "dur": 7.428,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "c4",
+  "text": "That payment is a non-compete fee. Money for not carrying on a business, or for not sharing know-how, is business income.",
+  "start": 178.601,
+  "dur": 7.31,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "c5",
+  "text": "The net also catches compensation, when an agency or a business contract is ended or changed. It catches export incentives, like duty drawback. And a trade association's income from special services to its members.",
+  "start": 186.711,
+  "dur": 14.499,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "c6",
+  "text": "Benefits in kind count too. A company gives its lawyer a free flat, in return for legal work. The value of that flat is the lawyer's professional income.",
+  "start": 201.91,
+  "dur": 10.285,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "c7",
+  "text": "A partner's salary, bonus, commission and interest from the firm are business income too. But only the part the firm was allowed to deduct. His share of the firm's profit is exempt, under section ten two ay.",
+  "start": 212.995,
+  "dur": 12.501,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "c8",
+  "text": "Three more. Money received on a key-man insurance policy. The market value of stock turned into a capital asset. And money from an asset whose whole cost was deducted under section thirty five ay D.",
+  "start": 226.197,
+  "dur": 12.694,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "c9",
+  "text": "One thing slips out of the net. Rent from letting out a residential house is taxed under house property, even when letting is your business.",
+  "start": 239.59,
+  "dur": 7.975,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "c10",
+  "text": "A distributor's agency is cancelled, and she gets eight lakh rupees as compensation. Which head?",
+  "start": 248.515,
+  "dur": 6.239,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "c10a",
+  "text": "Business or profession. Compensation on the end of an agency is caught by section twenty eight.",
+  "start": 257.755,
+  "dur": 6.259,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "d1",
+  "text": "Rohan buys shares in the morning, and sells them before the market closes. He never takes delivery. Is that the same business as the bakery?",
+  "start": 265.414,
+  "dur": 8.523,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "d2",
+  "text": "No. When a deal is settled without the goods or shares ever changing hands, it's a bet on prices, not trade.",
+  "start": 274.887,
+  "dur": 6.455,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "d3",
+  "text": "The law calls it a speculative transaction, under section forty three five. And it's treated as a business of its own.",
+  "start": 282.042,
+  "dur": 7.156,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "d4",
+  "text": "Why keep it separate? Because of losses. If you lose on speculation, you can set it off only against speculation profit. And you can carry it forward for just four years.",
+  "start": 289.998,
+  "dur": 10.292,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "d5",
+  "text": "Some deals without delivery are not speculation. A baker hedging the price of wheat. An investor hedging his shares. And trading in derivatives, or commodity derivatives, on a recognised stock exchange.",
+  "start": 300.991,
+  "dur": 13.129,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "d6",
+  "text": "Rohan loses fifty thousand rupees on intraday trades, while the bakery makes twelve lakh rupees. That loss can't cut the bakery's profit. It waits for a future speculation profit.",
+  "start": 314.819,
+  "dur": 12.075,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "d7",
+  "text": "Now picture a tea estate. Growing the leaves is farming. Making tea in the factory is business. One profit, with two natures.",
+  "start": 327.694,
+  "dur": 7.751,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "d8",
+  "text": "The rules split this composite income. For tea grown and made by the seller, forty percent is business income. The other sixty percent is agricultural, and exempt.",
+  "start": 336.244,
+  "dur": 10.441,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "d9",
+  "text": "So a tea estate earning ten lakh rupees pays tax on four lakh rupees. For rubber, thirty five percent is business. For coffee grown and cured, twenty five percent. If it's also roasted and ground, forty percent.",
+  "start": 347.485,
+  "dur": 14.763,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "d10",
+  "text": "Is futures trading on the N S E a speculative transaction?",
+  "start": 363.048,
+  "dur": 3.939,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "d10a",
+  "text": "No. Eligible trading in derivatives on a recognised stock exchange is not speculation.",
+  "start": 369.987,
+  "dur": 5.858,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "e1",
+  "text": "Meera delivers a wedding cake on twenty eight March. The money arrives on ten April. Which year does that income belong to?",
+  "start": 377.245,
+  "dur": 7.638,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "e2",
+  "text": "This year, or next?",
+  "start": 385.833,
+  "dur": 1.211,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 2.2
+ },
+ {
+  "id": "e3",
+  "text": "It depends on her method of accounting. Under section one forty-five, income is computed by the method she regularly follows, cash or mercantile.",
+  "start": 389.594,
+  "dur": 9.216,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "e4",
+  "text": "Under the mercantile system, income counts when it's earned, so the cake belongs to this year. Under the cash system, it counts when the money arrives. That's next year.",
+  "start": 399.51,
+  "dur": 10.367,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "e5",
+  "text": "Government money follows its own clock. A subsidy, grant or cash incentive is taxed in the year it's received, whatever her method.",
+  "start": 410.676,
+  "dur": 8.005,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "e6",
+  "text": "Now the big picture. Section twenty nine says business income is worked out under sections thirty to forty three D. The profit and loss account is only the starting point.",
+  "start": 419.632,
+  "dur": 10.444,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "e7",
+  "text": "Here's the machine every exam question uses. Start with net profit. Add back what the law doesn't allow. Deduct what it allows but the books missed. Remove other heads' income. Then add deemed income.",
+  "start": 430.776,
+  "dur": 12.578,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "e8",
+  "text": "Think of a security check at the airport. Every item in the profit and loss account goes through. Most pass. Some are taken out. And a few are added that you never packed. Unlike security, a disallowed cost is often just allowed in a later year.",
+  "start": 444.154,
+  "dur": 15.067,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "e9",
+  "text": "Meera's books include thirty thousand rupees of bank interest. What does the machine do with it?",
+  "start": 460.021,
+  "dur": 5.455,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "e9a",
+  "text": "It takes it out. Bank interest is taxed under income from other sources.",
+  "start": 468.476,
+  "dur": 4.457,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "f1",
+  "text": "Meera spends four lakh rupees on flour, and four lakh rupees on a new oven. Both leave her bank this year. Can she deduct both?",
+  "start": 474.333,
+  "dur": 8.144,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "f2",
+  "text": "Both, one, or neither?",
+  "start": 483.427,
+  "dur": 1.257,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 2.2
+ },
+ {
+  "id": "f3",
+  "text": "Only the flour. It's used up making this year's cakes. The oven will bake for ten years. If you charged it all to one year, this year would look poor, and the next nine rich.",
+  "start": 487.234,
+  "dur": 9.968,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "f4",
+  "text": "Spending that's used up within the year is revenue expenditure. You can deduct it. Spending with a lasting benefit is capital expenditure. You can't deduct it directly.",
+  "start": 497.903,
+  "dur": 10.191,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "f5",
+  "text": "Repairs sit on this line too. Section thirty allows rent, rates, taxes, repairs and insurance of the building. Section thirty one allows current repairs and insurance of machinery, plant and furniture.",
+  "start": 508.894,
+  "dur": 13.016,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "f6",
+  "text": "Repainting the shop, or fixing the oven door, is a current repair. Deductible. Replacing the whole oven, or adding a new floor, is capital. Not a repair at all.",
+  "start": 522.609,
+  "dur": 10.361,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "f7",
+  "text": "A few details. An owner using her own shop can't deduct notional rent. A firm paying rent to its own partner can, if it's reasonable. And a machine used for even a month gets its full insurance.",
+  "start": 533.77,
+  "dur": 12.589,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "f8",
+  "text": "What if an asset is used partly for personal work? Meera takes the van on family trips. Under section thirty eight, only the business share of its costs is allowed.",
+  "start": 547.059,
+  "dur": 9.939,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "f9",
+  "text": "Meera rebuilds a collapsed wall of her shop. Revenue or capital?",
+  "start": 557.949,
+  "dur": 3.982,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "f9a",
+  "text": "Capital. Rebuilding is a replacement, not a current repair.",
+  "start": 564.931,
+  "dur": 3.542,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "g1",
+  "text": "If the oven can't be deducted, does Meera just lose that four lakh rupees?",
+  "start": 569.873,
+  "dur": 4.363,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "g2",
+  "text": "No. You get the cost back slowly, a slice every year, as the oven wears out. That slice is depreciation, under section thirty two.",
+  "start": 575.186,
+  "dur": 8.43,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "g3",
+  "text": "But only some assets qualify. Tangible ones: buildings, machinery, plant and furniture. And intangible ones: know-how, patents, copyrights, trademarks, licences and franchises.",
+  "start": 584.316,
+  "dur": 11.877,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "g4",
+  "text": "Two famous exceptions. Land never wears out, so it gets no depreciation, even under a building. And goodwill of a business isn't depreciable any more.",
+  "start": 596.893,
+  "dur": 9.547,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "g5",
+  "text": "Plant is a wide word. It includes vehicles, books, scientific apparatus and surgical equipment. But not tea bushes, livestock or buildings. And roads, bridges and wells count as buildings.",
+  "start": 607.39,
+  "dur": 12.653,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "g6",
+  "text": "Then three conditions. She must own the asset, wholly or partly. She must use it for business during the year. And it must be one of those assets.",
+  "start": 620.744,
+  "dur": 8.654,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "g7",
+  "text": "Use includes standby use. A backup generator that never ran, or a fire extinguisher on the wall, is in use. And a tenant who builds a store room in a rented shop gets depreciation on it, as if she owned it.",
+  "start": 630.198,
+  "dur": 13.904,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "g8",
+  "text": "What if Meera simply skips depreciation this year, to save it for later? She can't. Under Explanation five, depreciation is compulsory. It's deducted whether she claims it or not.",
+  "start": 644.901,
+  "dur": 11.421,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "g9",
+  "text": "Meera leases a mixer from a dealer. Who claims depreciation on it?",
+  "start": 657.272,
+  "dur": 3.909,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "g9a",
+  "text": "The dealer, who owns it. Meera deducts the lease rent instead.",
+  "start": 664.181,
+  "dur": 3.651,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "h1",
+  "text": "Meera's bakery has ovens, mixers, trays, fridges and a van. Does she track the depreciation of each one?",
+  "start": 669.232,
+  "dur": 7.045,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "h2",
+  "text": "Imagine doing that for a factory with five thousand machines. Each with its own date, cost and value. The paperwork would never end.",
+  "start": 677.226,
+  "dur": 7.954,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "h3",
+  "text": "So the Act pools them. A block of assets is a group of assets in the same class, with the same rate.",
+  "start": 685.881,
+  "dur": 5.882,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "h4",
+  "text": "Depreciation is then charged on the whole pool, at a fixed share of its written down value. That's what's left of the cost, after earlier depreciation.",
+  "start": 692.563,
+  "dur": 9.25,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "h5",
+  "text": "Here are the main rates. Residential buildings, five percent. Other buildings, ten percent. Furniture and fittings, ten percent. Plant and machinery, fifteen percent, and that includes cars.",
+  "start": 702.513,
+  "dur": 12.36,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "h6",
+  "text": "And the higher ones. Buses, lorries and taxis in a hiring business, thirty percent. Computers and software, forty percent. Books for professionals, forty percent. Intangible assets, twenty five percent.",
+  "start": 715.673,
+  "dur": 14.054,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "h7",
+  "text": "A block works like a water tank. New assets pour in. Sale money drains out. Every year, a fixed share of what's inside is taken as depreciation. Unlike water, the level can never go below zero. We'll see what happens then.",
+  "start": 730.526,
+  "dur": 14.534,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "h8",
+  "text": "A new laptop and a new oven, both bought this year. Same block?",
+  "start": 745.86,
+  "dur": 3.87,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "h8a",
+  "text": "No. The laptop is at forty percent, the oven at fifteen percent. Different rates, different blocks.",
+  "start": 752.73,
+  "dur": 6.095,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "i1",
+  "text": "Meera buys a mixer on twenty December. Should she get a full year's depreciation, for three months of use?",
+  "start": 760.224,
+  "dur": 6.338,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "i2",
+  "text": "That seems unfair. So the Act has a simple rule. Count the days the asset is used, in the year it's bought.",
+  "start": 767.512,
+  "dur": 6.109,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "i3",
+  "text": "If it's used for less than one hundred eighty days in that year, depreciation is half the normal rate. For one hundred eighty days or more, it's the full rate.",
+  "start": 774.321,
+  "dur": 8.809,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "i4",
+  "text": "Let's work it out. Her plant and machinery block starts the year at ten lakh rupees. On one June, she adds a new oven for four lakh rupees. On twenty December, a mixer for two lakh rupees.",
+  "start": 783.93,
+  "dur": 12.609,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "i5",
+  "text": "The oven is used for ten months, so it joins the full-rate part. The mixer is used for just a hundred and two days. That's under one hundred eighty, so it gets half.",
+  "start": 797.339,
+  "dur": 9.604,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "i6",
+  "text": "So fifteen percent of fourteen lakh rupees is two lakh ten thousand rupees. And seven point five percent of two lakh rupees is fifteen thousand rupees. Total depreciation, two lakh twenty five thousand rupees.",
+  "start": 807.643,
+  "dur": 14.924,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.6
+ },
+ {
+  "id": "i7",
+  "text": "The block carries sixteen lakh rupees, minus two lakh twenty five thousand rupees, into next year. That's thirteen lakh seventy five thousand rupees. And the mixer's half rate was a one-time thing. Next year, it's at the full rate.",
+  "start": 823.517,
+  "dur": 13.816,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "i8",
+  "text": "The rule is about use, not purchase. A machine bought in April but installed in November is used for under one hundred eighty days. Half rate.",
+  "start": 838.032,
+  "dur": 8.746,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "i9",
+  "text": "Write it like this. The asset was acquired during the previous year. It was put to use for less than one hundred eighty days. So depreciation is restricted to fifty percent of the prescribed rate.",
+  "start": 847.729,
+  "dur": 11.609,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "i10",
+  "text": "A laptop is bought and put to use on one January. Rate?",
+  "start": 860.288,
+  "dur": 3.687,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "i10a",
+  "text": "Twenty percent. Half of forty, since it's used for under one hundred eighty days.",
+  "start": 866.975,
+  "dur": 4.586,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "j1",
+  "text": "Meera sells her old van for more than the whole block is worth. The block now holds less than nothing. What happens?",
+  "start": 872.961,
+  "dur": 6.826,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "j2",
+  "text": "Imagine a van block holding three lakh rupees. Let's follow four different sales.",
+  "start": 880.737,
+  "dur": 4.86,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "j3",
+  "text": "First, she buys a new van for five lakh rupees, and sells the old one for three lakh sixty thousand rupees. Three lakh plus five lakh, minus three lakh sixty thousand, leaves four lakh forty thousand rupees. Depreciation runs on that.",
+  "start": 886.397,
+  "dur": 15.97,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "j4",
+  "text": "Second, no new van. She sells her only van for three lakh sixty thousand rupees. The block is empty. It has ceased to exist.",
+  "start": 903.167,
+  "dur": 8.538,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "j5",
+  "text": "Then there's no depreciation for that block. The sixty thousand rupees over its written down value is a short-term capital gain, under section fifty.",
+  "start": 912.505,
+  "dur": 9.217,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "j6",
+  "text": "Why short-term? Because she already got depreciation on that money. Gains on depreciable assets in a block are always short-term, however long she owned them.",
+  "start": 922.522,
+  "dur": 9.561,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "j7",
+  "text": "Third. She sells the only van for just two lakh forty thousand rupees. The block ceases with sixty thousand rupees still inside. That's a short-term capital loss.",
+  "start": 932.783,
+  "dur": 10.307,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "j8",
+  "text": "Fourth. She buys a new van for five lakh rupees, and sells a vintage one for nine lakh rupees. Three plus five is eight, and nine comes out. The level stops at zero. The block lives on at zero, and the extra one lakh rupees is a short-term capital gain.",
+  "start": 944.041,
+  "dur": 16.289,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "j9",
+  "text": "Don't charge depreciation on a block that has ceased, or hit zero. And the money that comes out includes scrap value and insurance money, not just the sale price.",
+  "start": 961.279,
+  "dur": 9.763,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "j10",
+  "text": "A machine block holds fifty thousand rupees, and its only machine is lost in a fire. Insurance pays thirty thousand rupees. Result?",
+  "start": 971.992,
+  "dur": 9.161,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "j10a",
+  "text": "The block ceases. twenty thousand rupees is a short-term capital loss, with no depreciation.",
+  "start": 984.153,
+  "dur": 6.097,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "k1",
+  "text": "The oven's price tag said three lakh seventy thousand rupees. So why did it enter the block at four lakh rupees?",
+  "start": 991.649,
+  "dur": 6.965,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "k2",
+  "text": "Because actual cost, under section forty three one, is everything you spend to bring the asset into use. The price, plus ten thousand rupees of freight, plus twenty thousand rupees for installation.",
+  "start": 999.565,
+  "dur": 11.757,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "k3",
+  "text": "And it's reduced by any part of the cost paid by someone else. If the state paid fifty thousand rupees of it as a subsidy, the cost would be three lakh fifty thousand rupees.",
+  "start": 1012.022,
+  "dur": 10.183,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "k4",
+  "text": "Cash breaks the cost. Any payment of more than ten thousand rupees in a day in cash is left out of the cost. No depreciation on it, ever.",
+  "start": 1022.905,
+  "dur": 8.727,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "k5",
+  "text": "Interest has a dividing line too. Say she borrowed for the oven on one April, and started using it on one June. Interest till one June is added to the cost. Interest after that is a normal expense, under section thirty six.",
+  "start": 1032.582,
+  "dur": 14.802,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "k6",
+  "text": "Old assets keep their original cost. If Meera's personal car, bought for five lakh twenty five thousand rupees, joins the business, its cost is five lakh twenty five thousand rupees. Not today's market value.",
+  "start": 1048.084,
+  "dur": 14.707,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "k7",
+  "text": "Two odd cases. A building moved from personal use is valued at cost, minus the depreciation it would have had. And a gift or an inheritance takes the previous owner's cost, minus depreciation since.",
+  "start": 1063.591,
+  "dur": 12.811,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "k8",
+  "text": "One more. If the oven were imported on credit, and the rupee fell before she paid, the extra rupees would be added to its cost. That's section forty three ay.",
+  "start": 1077.352,
+  "dur": 9.575,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "k9",
+  "text": "A machine costs six lakh rupees in all, including fifty thousand rupees of installation paid in cash in one day. The government pays one lakh rupees. Actual cost?",
+  "start": 1087.627,
+  "dur": 10.978,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "k9a",
+  "text": "four lakh fifty thousand rupees. Six lakh, minus the subsidy, minus the cash payment.",
+  "start": 1101.605,
+  "dur": 5.719,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "l1",
+  "text": "If Meera buys new machines to bake more, should the law reward her for it?",
+  "start": 1108.725,
+  "dur": 3.888,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "l2",
+  "text": "Under the old rules, yes. If you manufacture goods and buy new plant or machinery, you get extra depreciation in year one. But there's a catch, called section one fifteen B ay C.",
+  "start": 1113.563,
+  "dur": 11.619,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "l3",
+  "text": "Section one fifteen B ay C is the default tax regime. Lower slab rates, but fewer deductions. An individual is in it automatically, unless she opts out.",
+  "start": 1125.882,
+  "dur": 10.326,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "l4",
+  "text": "If she opts out, she gets additional depreciation. It's twenty percent of the cost of new plant or machinery, for anyone who makes goods, or generates power.",
+  "start": 1137.008,
+  "dur": 9.482,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "l5",
+  "text": "So the four lakh rupees oven gets eighty thousand rupees extra. The mixer, used under one hundred eighty days, gets half: twenty thousand rupees now. The other twenty thousand rupees comes next year, if she's still outside the default regime.",
+  "start": 1147.29,
+  "dur": 15.577,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "l6",
+  "text": "Not every machine qualifies. Not second hand machines. Not office machines, like the laptop. Not road vehicles, like the van. And not anything fully deducted in one year.",
+  "start": 1163.668,
+  "dur": 10.788,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "l7",
+  "text": "And a business owner can't hop between regimes every year. Once she opts out, she gets only one chance to come back.",
+  "start": 1175.405,
+  "dur": 6.718,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "l8",
+  "text": "What if her profit is too small to absorb the depreciation? The unused part is unabsorbed depreciation. It's carried forward with no time limit, and set off against any head except salaries.",
+  "start": 1182.823,
+  "dur": 12.377,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "l9",
+  "text": "When it's set off, the order matters. This year's depreciation comes first. Then old business losses. Then unabsorbed depreciation.",
+  "start": 1195.9,
+  "dur": 8.404,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "l10",
+  "text": "A printing press buys a new printing machine. Is additional depreciation possible?",
+  "start": 1205.004,
+  "dur": 4.988,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "l10a",
+  "text": "Yes, if it opts out of one fifteen B ay C. Printing counts as manufacture, says a C B D T circular.",
+  "start": 1212.992,
+  "dur": 7.321,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "m1",
+  "text": "Meera wants to invent a sugar-free cake, so she sets up a small lab. Should research be treated like any other cost?",
+  "start": 1221.713,
+  "dur": 6.904,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "m2",
+  "text": "The law wants you to do research. So under section thirty five, research gets special treatment, even when it's capital.",
+  "start": 1229.567,
+  "dur": 6.712,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "m3",
+  "text": "Revenue spending on research for her own business is deducted in full. That's things like a scientist's salary, and the ingredients.",
+  "start": 1236.979,
+  "dur": 7.731,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "m4",
+  "text": "And capital spending on that research is also deducted in full, in the year she spends it. Except land. Land never counts.",
+  "start": 1245.411,
+  "dur": 7.531,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "m5",
+  "text": "She spends three lakh rupees on salaries and materials, and seven lakh fifty thousand rupees on a lab building, of which five lakh rupees is land. Her deduction is three lakh rupees plus two lakh fifty thousand rupees. That's five lakh fifty thousand rupees.",
+  "start": 1253.742,
+  "dur": 17.534,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "m6",
+  "text": "Research before the business starts counts too. What she spends in the three years before starting is deducted in the year the business begins.",
+  "start": 1272.076,
+  "dur": 8.019,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "m7",
+  "text": "No double counting. A lab asset deducted under section thirty five gets no depreciation. And if she sells it, the sale price, up to the deduction, is taxed as business income.",
+  "start": 1280.795,
+  "dur": 11.57,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "m8",
+  "text": "Paying outsiders is different. She may give money to an approved university, research body, company or lab. That's deductible at one hundred percent, but only if she opts out of the default regime.",
+  "start": 1293.315,
+  "dur": 11.98,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "m9",
+  "text": "Say Meera also gives one lakh rupees to an approved university for food research. In the default regime, she still gets five lakh fifty thousand rupees. If she opts out, six lakh fifty thousand rupees.",
+  "start": 1305.995,
+  "dur": 13.658,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "m10",
+  "text": "What if her profit is too small to use the research deduction? Can she carry it forward?",
+  "start": 1320.454,
+  "dur": 4.796,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "m10a",
+  "text": "Yes, with no time limit. It's set off like unabsorbed depreciation, against any head except salaries.",
+  "start": 1328.25,
+  "dur": 6.743,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "n1",
+  "text": "Meera's cousin Anil builds a cold storage for fruit and vegetables. What if he could deduct the whole building in year one?",
+  "start": 1336.393,
+  "dur": 7.195,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "n2",
+  "text": "If you run one of a few businesses the country badly needs, you can. Section thirty five ay D gives one hundred percent of the capital spending as a deduction, instead of depreciation.",
+  "start": 1344.539,
+  "dur": 11.391,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "n3",
+  "text": "These are specified businesses. Cold chains, warehouses for farm produce or sugar, hospitals with a hundred beds, hotels of two stars and above, and affordable housing, among others.",
+  "start": 1356.629,
+  "dur": 11.973,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "n4",
+  "text": "Anil spends one point two crore rupees. forty lakh rupees is land, which doesn't count. The other eighty lakh rupees is deducted, including what he spent before opening. His profit was thirty lakh rupees, so he now has a loss of fifty lakh rupees.",
+  "start": 1369.402,
+  "dur": 17.138,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "n5",
+  "text": "That loss can be set off only against profit from a specified business. But it can be carried forward with no time limit.",
+  "start": 1387.34,
+  "dur": 6.818,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "n6",
+  "text": "The conditions bite. He must have opted out of the default regime. Any cash payment over ten thousand rupees in a day is excluded. And the asset must be used for that business for eight years.",
+  "start": 1394.858,
+  "dur": 11.417,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "n7",
+  "text": "What if Anil moves the building to an ordinary business in year three? Then the deduction he got, minus normal depreciation, becomes his income that year.",
+  "start": 1407.226,
+  "dur": 9.518,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "n8",
+  "text": "Can Anil claim both the thirty five ay D deduction and depreciation on the same building?",
+  "start": 1417.693,
+  "dur": 5.503,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "n8a",
+  "text": "No. Its actual cost becomes nil, so there's nothing left to depreciate.",
+  "start": 1426.196,
+  "dur": 4.557,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "o1",
+  "text": "Before opening a second outlet, Meera pays for a project report, a market survey and a lawyer. Capital or revenue?",
+  "start": 1432.153,
+  "dur": 7.341,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "o2",
+  "text": "Neither, quite. The spending builds the new unit, but it isn't an asset you can touch. So section thirty five D spreads it over five years.",
+  "start": 1440.444,
+  "dur": 8.565,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "o3",
+  "text": "Preliminary expenses are deducted at one fifth a year, for five years, starting the year the new unit begins.",
+  "start": 1449.708,
+  "dur": 6.632,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "o4",
+  "text": "The list is fixed. Feasibility and project reports, market surveys, engineering services, and legal charges for business agreements. For a company, also its memorandum, registration fees, and the costs of a public issue.",
+  "start": 1457.14,
+  "dur": 14.619,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "o5",
+  "text": "Meera spends four lakh rupees. But there's a cap: five percent of the cost of the project. Her project costs sixty lakh rupees, so only three lakh rupees counts. She deducts sixty thousand rupees a year, for five years.",
+  "start": 1472.46,
+  "dur": 14.88,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "o6",
+  "text": "An Indian company can use five percent of its capital employed instead, if that's higher. And a non-corporate taxpayer must get her accounts audited to claim it.",
+  "start": 1488.139,
+  "dur": 9.611,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "o7",
+  "text": "Voluntary retirement payments follow the same five-year pattern, under section thirty five D D ay. Pay ten lakh rupees to staff who retire early, and deduct two lakh rupees a year.",
+  "start": 1498.45,
+  "dur": 12.09,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "o8",
+  "text": "Meera's books write off the whole four lakh rupees this year. What's the adjustment?",
+  "start": 1511.34,
+  "dur": 4.551,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "o8a",
+  "text": "Add back four lakh rupees, and deduct sixty thousand rupees.",
+  "start": 1518.891,
+  "dur": 3.788,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "p1",
+  "text": "Meera now has twelve employees. Which of their costs can she deduct, and when?",
+  "start": 1524.079,
+  "dur": 4.493,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "p2",
+  "text": "Section thirty six is a list of specific deductions. Most are about people and money. Insurance, bonus, interest, staff funds and bad debts.",
+  "start": 1529.522,
+  "dur": 9.006,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "p3",
+  "text": "Insurance on her stock is allowed. So is health insurance for her staff, if the premium isn't paid in cash. Bonus and commission to employees are allowed too, unless they replace a share of profit.",
+  "start": 1539.228,
+  "dur": 12.114,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "p4",
+  "text": "Interest on money borrowed for the business is allowed. But for a new asset, interest before it's first used goes into its cost, as we saw.",
+  "start": 1552.042,
+  "dur": 8.392,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "p5",
+  "text": "Her contribution to her staff's pension scheme, the N P S, is allowed up to fourteen percent of salary. Salary means basic plus dearness allowance. With basic of ten lakh rupees and D A of four lakh rupees, the limit is one lakh ninety six thousand rupees.",
+  "start": 1561.134,
+  "dur": 17.915,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "p6",
+  "text": "She actually paid two lakh rupees. So four thousand rupees is disallowed.",
+  "start": 1579.849,
+  "dur": 4.449,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "p7",
+  "text": "Here's the one examiners love. Employees' own P F share, cut from their salary, must reach the fund by the due date under the P F law. That's the fifteenth of the next month. Late means never deductible.",
+  "start": 1584.998,
+  "dur": 13.007,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "p8",
+  "text": "Bad debts are allowed once they're written off in the books, if the debt was counted as income earlier. If she later recovers one, the recovery becomes income again, under section forty one four.",
+  "start": 1598.955,
+  "dur": 11.189,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "p9",
+  "text": "And a share trader can deduct the securities transaction tax he pays, when his trading profit is business income.",
+  "start": 1610.844,
+  "dur": 6.379,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "p10",
+  "text": "Meera cuts fifteen thousand rupees of P F from May salaries, and deposits it on thirty June. Allowed?",
+  "start": 1617.923,
+  "dur": 6.942,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "p10a",
+  "text": "No. It was due by fifteen June. Section forty three B's extra time doesn't apply to employees' contributions.",
+  "start": 1627.866,
+  "dur": 7.724,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "q1",
+  "text": "Meera pays a food blogger to taste her cakes. No section mentions bloggers. Is that cost lost?",
+  "start": 1636.99,
+  "dur": 6.071,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "q2",
+  "text": "No. Section thirty seven is the last door. Any expense not covered by sections thirty to thirty six can still pass, if it meets a few conditions.",
+  "start": 1644.011,
+  "dur": 9.108,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "q3",
+  "text": "It must be laid out wholly and exclusively for the business. It must not be capital. And it must not be personal.",
+  "start": 1653.819,
+  "dur": 6.469,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "q4",
+  "text": "Notice the words. Wholly and exclusively, not necessarily. Even if you spend unwisely, the expense is allowed, as long as it was for the business.",
+  "start": 1661.088,
+  "dur": 9.108,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "q5",
+  "text": "Illegal spending never passes. A bribe. A penalty for breaking a law. Or freebies that doctors aren't allowed to accept from drug companies.",
+  "start": 1670.897,
+  "dur": 8.981,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "q6",
+  "text": "Since April two thousand twenty five, money paid to settle proceedings under the SEBI and Competition laws is blocked too. But a penalty for late delivery under a contract is fine. It's compensation, not a fine.",
+  "start": 1680.827,
+  "dur": 13.639,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "q7",
+  "text": "Two more rules. CSR spending by a company is never allowed under section thirty seven. And nobody can deduct an advertisement in a political party's souvenir.",
+  "start": 1695.166,
+  "dur": 10.291,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "q8",
+  "text": "Some costs that do pass. Key-man insurance premium on a key person, even a partner. The food blogger's fee. Legal fees to defend her business.",
+  "start": 1706.157,
+  "dur": 9.888,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "q9",
+  "text": "Meera's van gets a two thousand rupees fine for parking on the road. Deductible?",
+  "start": 1716.845,
+  "dur": 5.079,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "q9a",
+  "text": "No. It's a penalty for breaking the law.",
+  "start": 1724.924,
+  "dur": 2.218,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "r1",
+  "text": "Meera pays a chef-consultant one lakh fifty thousand rupees, and forgets to deduct TDS. The cost is real. Why would the law cut her deduction?",
+  "start": 1728.542,
+  "dur": 9.733,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "r2",
+  "text": "Because tax deducted at source is how the government follows the money. If she doesn't deduct it, the law holds back part of her deduction until she does.",
+  "start": 1739.225,
+  "dur": 8.901,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "r3",
+  "text": "For a payment to a resident, thirty percent of the expense is disallowed, under section forty ay, one ay. For a payment to a non-resident, under section forty ay, one, it's one hundred percent.",
+  "start": 1748.826,
+  "dur": 11.765,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "r4",
+  "text": "So thirty percent of one lakh fifty thousand rupees, which is forty five thousand rupees, is added back. If she deducts and pays the tax next year, that forty five thousand rupees is allowed next year.",
+  "start": 1761.391,
+  "dur": 13.059,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "r5",
+  "text": "The deadline is generous. Tax deducted this year can be paid any time before the due date of the return, under section one thirty nine one.",
+  "start": 1775.25,
+  "dur": 8.447,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "r6",
+  "text": "There's one escape. If the payee has filed his return, included the income and paid the tax, she's treated as having deducted it on that date. An accountant must certify it.",
+  "start": 1784.398,
+  "dur": 10.474,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "r7",
+  "text": "Students forget section forty ay, two. Income tax itself is never a business expense, including surcharge and cess. You can't deduct the tax on profit from the profit.",
+  "start": 1795.571,
+  "dur": 10.629,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "r8",
+  "text": "And when an employer pays the tax on an employee's non-cash perks, that tax isn't deductible either.",
+  "start": 1807.151,
+  "dur": 5.893,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "r9",
+  "text": "Write it like this. Thirty percent of any sum payable to a resident is disallowed, if tax at source is not deducted. The same applies if it's not paid by the due date under section one thirty nine one.",
+  "start": 1813.743,
+  "dur": 12.329,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "r10",
+  "text": "A company pays salary of fourteen lakh rupees without deducting TDS. How much is disallowed?",
+  "start": 1827.023,
+  "dur": 6.596,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "r10a",
+  "text": "thirty percent, which is four lakh twenty thousand rupees.",
+  "start": 1836.619,
+  "dur": 3.407,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "s1",
+  "text": "Meera's brother Rohan joins, and the bakery becomes a firm. The firm pays both of them a salary. Can a firm pay its own owners, and deduct it?",
+  "start": 1841.426,
+  "dur": 9.135,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "s2",
+  "text": "A firm and its partners are the same people. If you could pay yourself any salary, you could drain every rupee out, and leave nothing to tax.",
+  "start": 1851.511,
+  "dur": 8.063,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "s3",
+  "text": "So section forty B allows it, within limits. Salary only to working partners. It must be written in the deed, and only for the period after the deed.",
+  "start": 1860.274,
+  "dur": 8.957,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "s4",
+  "text": "Interest on a partner's capital is allowed up to twelve percent a year, simple interest. Anything more is disallowed.",
+  "start": 1870.031,
+  "dur": 6.933,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "s5",
+  "text": "Book profit is the firm's net profit, worked out under the tax rules, before the partners' salary.",
+  "start": 1877.664,
+  "dur": 5.447,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "s6",
+  "text": "The salary limit works on book profit. On the first six lakh rupees, or on a loss, it's three lakh rupees or ninety percent, whichever is higher. On the rest, it's sixty percent.",
+  "start": 1883.811,
+  "dur": 11.682,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.6
+ },
+ {
+  "id": "s7",
+  "text": "The firm earns seventeen lakh rupees, before one lakh fifty thousand rupees of depreciation, and before the partners' salary and interest. Interest at fifteen percent on five lakh rupees is seventy five thousand rupees, but only twelve percent, sixty thousand rupees, is allowed. So the book profit is fourteen lakh ninety thousand rupees.",
+  "start": 1896.443,
+  "dur": 22.919,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "s8",
+  "text": "The limit is ninety percent of six lakh rupees, which is five lakh forty thousand rupees. Plus sixty percent of the other eight lakh ninety thousand rupees, which is five lakh thirty four thousand rupees. Total, ten lakh seventy four thousand rupees.",
+  "start": 1920.162,
+  "dur": 16.695,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "s9",
+  "text": "The partners were paid forty thousand rupees a month each. That's nine lakh sixty thousand rupees, inside the limit. All of it is allowed.",
+  "start": 1937.657,
+  "dur": 8.284,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "s10",
+  "text": "On the other side, Rohan pays tax on the salary and interest the firm could deduct. That's business income in his hands. His share of the firm's profit is exempt.",
+  "start": 1946.641,
+  "dur": 9.85,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "s11",
+  "text": "What if the firm makes a loss? It can still pay its working partners up to three lakh rupees in all, and deduct it.",
+  "start": 1957.191,
+  "dur": 6.28,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "s12",
+  "text": "The deed allows salary from one April, but it was signed on one July. From when is salary allowed?",
+  "start": 1964.421,
+  "dur": 6.143,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "s12a",
+  "text": "From one July. A deed can't authorise salary for the period before it.",
+  "start": 1973.564,
+  "dur": 4.419,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "t1",
+  "text": "Meera buys flour from her husband's mill at forty eight rupees a kilo. The market price is forty rupees. What will the officer say?",
+  "start": 1979.383,
+  "dur": 8.334,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "t2",
+  "text": "If you overpay a relative, you quietly move profit from one family member to another. So section forty ay, two lets the officer disallow the excess. Here, eight rupees a kilo.",
+  "start": 1988.667,
+  "dur": 11.335,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "t3",
+  "text": "These are specified persons. For an individual, relatives: spouse, brother, sister, and anyone in the direct line, up or down. Also businesses where she or a relative holds at least twenty percent.",
+  "start": 2000.703,
+  "dur": 12.816,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "t4",
+  "text": "Now cash. Under section forty ay, three, if she pays one person more than ten thousand rupees in cash in a single day, the whole payment is disallowed. Not just the excess.",
+  "start": 2014.319,
+  "dur": 10.845,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "t5",
+  "text": "Four cash payments of eight thousand rupees to the same supplier, at ten, at noon, at three and at six. Each is under the limit, but the day's total is thirty two thousand rupees. All thirty two thousand rupees is disallowed.",
+  "start": 2025.863,
+  "dur": 15.298,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "t6",
+  "text": "Safe modes are an account payee cheque or draft, and electronic payment: card, net banking, UPI, I M P S, N E F T, R T G S. For a transporter hiring out goods carriages, the cash limit is thirty five thousand rupees.",
+  "start": 2041.961,
+  "dur": 15.509,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "t7",
+  "text": "What if an expense was allowed last year, and she pays it in cash this year? Then that cash payment becomes income this year, under section forty ay, three ay.",
+  "start": 2058.171,
+  "dur": 9.164,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "t8",
+  "text": "Rule six D D gives exceptions. Paying a bank or the government. Buying wheat directly from the farmer who grew it. Paying in a village with no bank. And retirement benefits up to fifty thousand rupees.",
+  "start": 2068.284,
+  "dur": 12.919,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "t9",
+  "text": "Two last ones. A provision for gratuity isn't deductible, under section forty ay, seven. Only payments are, or contributions to an approved fund. And contributions to unapproved staff funds are blocked, under forty ay, nine.",
+  "start": 2081.903,
+  "dur": 14.637,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "t10",
+  "text": "Write it like this. Expenditure paid to a person in a day, otherwise than by account payee cheque, draft or prescribed electronic mode, exceeding ten thousand rupees, is disallowed.",
+  "start": 2097.241,
+  "dur": 11.735,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "t11",
+  "text": "Meera buys sixty thousand rupees of milk in cash from a dairy farmer, in one day. Disallowed?",
+  "start": 2109.926,
+  "dur": 5.993,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "t11a",
+  "text": "No. Buying dairy produce from the producer is an exception under Rule six D D.",
+  "start": 2118.919,
+  "dur": 5.382,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "u1",
+  "text": "On thirty one March, Meera owes eighty thousand rupees of staff bonus. It's in her books. Can she deduct it this year, before paying it?",
+  "start": 2125.701,
+  "dur": 8.261,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "u2",
+  "text": "Deduct now, or only after paying?",
+  "start": 2134.912,
+  "dur": 2.182,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 2.2
+ },
+ {
+  "id": "u3",
+  "text": "If you could claim dues without paying, you could delay paying for years. So section forty three B says certain sums are deductible only when actually paid.",
+  "start": 2139.644,
+  "dur": 9.48,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "u4",
+  "text": "The list: taxes, duties, cess and fees. The employer's contributions to P F and other staff funds. Bonus and commission. Interest to banks and public financial institutions. Leave encashment. And Indian Railways.",
+  "start": 2149.824,
+  "dur": 14.76,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "u5",
+  "text": "But there's a grace period. If she pays before the due date of her return, under section one thirty nine one, it's still allowed this year.",
+  "start": 2165.384,
+  "dur": 7.732,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "u6",
+  "text": "Meera's return is due on thirty one October two thousand twenty six, because she's under tax audit. If the bonus is paid on fifteen October, it's allowed this year. Paid on fifteen November, it moves to next year.",
+  "start": 2173.816,
+  "dur": 13.89,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "u7",
+  "text": "Converting unpaid bank interest into a new loan is not payment. It's allowed only as she actually repays that converted loan.",
+  "start": 2188.506,
+  "dur": 8.031,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "u8",
+  "text": "Then the newest clause, forty three B, H. Money owed to a micro or small enterprise must be paid within the time in the MSME law. Otherwise, it's deductible only in the year it's paid.",
+  "start": 2197.486,
+  "dur": 12.099,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "u9",
+  "text": "She buys boxes worth ten thousand rupees from a micro enterprise on one March two thousand twenty six, payable by five April. Paid on two April, it's allowed this year. Paid on twenty April, it moves to next year.",
+  "start": 2210.385,
+  "dur": 14.238,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "u10",
+  "text": "Notice the difference. Ordinary forty three B items get grace till the return date. MSME dues get no such grace. And the rule doesn't apply to medium enterprises at all.",
+  "start": 2225.424,
+  "dur": 10.816,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "u11",
+  "text": "Meera collects GST in March, and pays it on twenty April. Allowed this year?",
+  "start": 2236.94,
+  "dur": 4.979,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "u11a",
+  "text": "Yes. It's paid before the due date of the return.",
+  "start": 2244.92,
+  "dur": 2.601,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "v1",
+  "text": "Years ago, Meera deducted a thirty five thousand rupees bill from her supplier. Now the supplier says, forget it, you needn't pay. Is that a gift?",
+  "start": 2248.92,
+  "dur": 9.246,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "v2",
+  "text": "She already got a deduction for that bill. If she never pays it, the deduction was for nothing. So the law takes it back.",
+  "start": 2259.116,
+  "dur": 6.678,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "v3",
+  "text": "That's a remission of a trading liability, under section forty one one. The amount waived becomes business income, in the year it's waived.",
+  "start": 2266.494,
+  "dur": 8.368,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "v4",
+  "text": "It applies even if she writes the liability back herself. And even if the business has already closed. A successor in the business is taxed the same way.",
+  "start": 2275.662,
+  "dur": 8.878,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "v5",
+  "text": "The same idea runs through section forty one. A bad debt recovered later, under forty one four. A research asset sold, under forty one three. Whatever was deducted and comes back, is taxed.",
+  "start": 2285.24,
+  "dur": 12.637,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "v6",
+  "text": "Now a different business. A builder holds flats as his stock. He sells one to a friend for one crore rupees. But the stamp duty value is one point two crore rupees.",
+  "start": 2298.577,
+  "dur": 10.758,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "v7",
+  "text": "Under section forty three C ay, the stamp duty value is taken as the sale price. Unless it's within one hundred ten percent of the actual price.",
+  "start": 2310.134,
+  "dur": 9.283,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "v8",
+  "text": "one point two crore rupees is more than one hundred ten percent of one crore rupees. So the sale is taken at one point two crore rupees. If the stamp value were one point zero eight crore rupees, his own price of one crore rupees would stand.",
+  "start": 2320.217,
+  "dur": 16.709,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "v9",
+  "text": "Sometimes the price is agreed earlier, and part is paid by a non-cash mode by that date. Then the stamp value on the agreement date is used.",
+  "start": 2337.726,
+  "dur": 8.776,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "v10",
+  "text": "Meera writes off a supplier's balance of twenty thousand rupees as no longer payable. Taxable?",
+  "start": 2347.202,
+  "dur": 6.142,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "v10a",
+  "text": "Yes. Writing back a trading liability is a remission, under section forty one one.",
+  "start": 2356.345,
+  "dur": 5.31,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "w1",
+  "text": "Does every shopkeeper in India have to keep books, and get them audited?",
+  "start": 2363.055,
+  "dur": 3.785,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "w2",
+  "text": "No. You need books only above certain limits, under section forty four ay ay. And you need an audit only above higher limits, under section forty four ay B.",
+  "start": 2367.79,
+  "dur": 9.824,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "w3",
+  "text": "For specified professions, like doctors, lawyers and accountants, prescribed books are needed if gross receipts crossed one lakh fifty thousand rupees in each of the last three years.",
+  "start": 2378.313,
+  "dur": 11.024,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "w4",
+  "text": "For other businesses run by an individual, there are two limits. Books are needed if income crossed two lakh fifty thousand rupees, or turnover crossed twenty five lakh rupees, in any of the last three years.",
+  "start": 2390.038,
+  "dur": 12.675,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "w5",
+  "text": "Tax audit is needed when business turnover is over one crore rupees. That rises to ten crore rupees if cash receipts and cash payments are each within five percent. For a profession, the limit is fifty lakh rupees.",
+  "start": 2403.413,
+  "dur": 13.791,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "w6",
+  "text": "Meera's turnover is two point four crore rupees, and twelve percent comes in cash at the counter. That's over five percent, so the ten crore rupees limit isn't open to her. She needs a tax audit.",
+  "start": 2418.004,
+  "dur": 12.753,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "w7",
+  "text": "The audit report is due by thirty September two thousand twenty six, a month before her return. Miss it, and the penalty is half a percent of turnover, up to one lakh fifty thousand rupees. Not keeping books costs twenty five thousand rupees.",
+  "start": 2431.558,
+  "dur": 15.395,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "w8",
+  "text": "A trader with eight crore rupees of turnover receives and pays everything through the bank. Audit?",
+  "start": 2447.653,
+  "dur": 5.916,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "w8a",
+  "text": "No. Cash is within five percent on both sides, so his limit is ten crore rupees.",
+  "start": 2456.569,
+  "dur": 5.414,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "x1",
+  "text": "A small grocery shop has no accountant. How can the tax department know its profit?",
+  "start": 2463.383,
+  "dur": 5.174,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "x2",
+  "text": "It can't, easily. So for small businesses, the law offers a deal. Declare a fixed share of your turnover as profit, and skip the books.",
+  "start": 2469.507,
+  "dur": 7.984,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "x3",
+  "text": "That's presumptive taxation, under section forty four ay D. Profit is taken as eight percent of turnover. Or six percent, on the part received through banks or digital modes.",
+  "start": 2478.191,
+  "dur": 11.383,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "x4",
+  "text": "Who can use it? A resident individual, HUF, or partnership firm, but not an LLP. Turnover up to two crore rupees. Or up to three crore rupees, if cash receipts are within five percent.",
+  "start": 2490.374,
+  "dur": 12.248,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "x5",
+  "text": "It's not for everyone. Not for professionals, commission or brokerage earners, or agency businesses. And not for goods carriages, which have their own scheme.",
+  "start": 2503.322,
+  "dur": 9.217,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "x6",
+  "text": "Sunil's grocery turns over two crore ninety eight lakh fifty thousand rupees. Only fourteen lakh rupees comes in cash, which is under five percent. So he's eligible. eight percent of fourteen lakh rupees is one lakh twelve thousand rupees. six percent of the rest is seventeen lakh seven thousand rupees. His income is eighteen lakh nineteen thousand rupees.",
+  "start": 2513.488,
+  "dur": 23.461,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "x7",
+  "text": "That's it. Every deduction from sections thirty to thirty eight counts as already given, depreciation included. Even a firm can't deduct partners' salary and interest. And advance tax is due in one go, by fifteen March.",
+  "start": 2537.749,
+  "dur": 14.455,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "x8",
+  "text": "What if he uses the scheme one year, then declares less within the next five? He's locked out for five years after that. He must keep books, and get an audit, if his income is above the basic exemption limit.",
+  "start": 2552.904,
+  "dur": 11.689,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "x9",
+  "text": "Write it like this. The profit is deemed to be eight percent of total turnover. For turnover received by account payee cheque, draft, or prescribed electronic modes, it's six percent.",
+  "start": 2565.543,
+  "dur": 11.241,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "x10",
+  "text": "Meera's turnover is two point four crore rupees, and twelve percent is cash. Can she use section forty four ay D?",
+  "start": 2577.735,
+  "dur": 7.563,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "x10a",
+  "text": "No. Above two crore rupees, cash receipts must be within five percent.",
+  "start": 2588.298,
+  "dur": 4.499,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "y1",
+  "text": "Kabir the dentist earns sixty lakh rupees a year, and Ravi owns three trucks. Do they get a shortcut too?",
+  "start": 2594.196,
+  "dur": 6.387,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "y2",
+  "text": "Yes. If you're a professional, there's section forty four ay D ay. If you run goods carriages, there's section forty four ay E.",
+  "start": 2601.533,
+  "dur": 7.316,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "y3",
+  "text": "Under forty four ay D ay, half the gross receipts is taken as profit. It's for a resident individual or firm, but not an LLP, in a specified profession.",
+  "start": 2609.55,
+  "dur": 10.619,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "y4",
+  "text": "Kabir's receipts are sixty lakh rupees, with three percent in cash. That's within seventy five lakh rupees, with cash under five percent. So his income is thirty lakh rupees. If eight percent came in cash, his limit would be fifty lakh rupees, and he'd need books and an audit.",
+  "start": 2620.969,
+  "dur": 17.95,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "y5",
+  "text": "Under forty four ay E, a person owning at most ten goods carriages, at any time in the year, declares a fixed amount per vehicle, per month.",
+  "start": 2639.719,
+  "dur": 8.248,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.45
+ },
+ {
+  "id": "y6",
+  "text": "Ravi has two light trucks all year. That's two times twelve months, times seven thousand five hundred rupees, or one lakh eighty thousand rupees. On twenty nine August he buys a fifteen ton heavy truck. August to March is eight months. Eight times fifteen, times one thousand rupees, is one lakh twenty thousand rupees. Total, three lakh rupees.",
+  "start": 2648.767,
+  "dur": 22.625,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "y7",
+  "text": "Months count from ownership, not use. A truck bought in April but driven only from July still counts from April. And any part of a month counts as a whole month.",
+  "start": 2672.192,
+  "dur": 9.99,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "y8",
+  "text": "One difference worth remembering. Under forty four ay E, a firm can still deduct partners' salary and interest, within section forty B. Under forty four ay D and forty four ay D ay, it can't.",
+  "start": 2683.132,
+  "dur": 12.802,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.35
+ },
+ {
+  "id": "y9",
+  "text": "Kabir declares twenty two lakh rupees on receipts of fifty lakh rupees, and his income is above the exemption limit. What must he do?",
+  "start": 2696.633,
+  "dur": 8.448,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 3.0
+ },
+ {
+  "id": "y9a",
+  "text": "Keep books under section forty four ay ay, and get them audited under section forty four ay B.",
+  "start": 2708.081,
+  "dur": 5.688,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.93,
+  "pause": 0.45
+ },
+ {
+  "id": "z1",
+  "text": "Back to Meera. Her books say twelve lakh rupees. Let's put every line through the machine. Ready?",
+  "start": 2715.17,
+  "dur": 5.638,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.94,
+  "pause": 0.6
+ },
+ {
+  "id": "z2",
+  "text": "Start with the net profit, twelve lakh rupees. First, add back what the law doesn't allow. Book depreciation, three lakh ten thousand rupees. Income tax, one lakh twenty thousand rupees. And the new oven, four lakh rupees, wrongly written off as an expense.",
+  "start": 2721.758,
+  "dur": 17.465,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "z3",
+  "text": "Then the disallowances. Cash to the packaging supplier, twenty four thousand rupees. thirty percent of the consultant's fee without TDS, forty five thousand rupees. Bonus paid after the return date, eighty thousand rupees. And the late MSME bill, sixty thousand rupees.",
+  "start": 2740.023,
+  "dur": 18.726,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "z4",
+  "text": "And the rest. Her family trip, forty thousand rupees, which is personal. The food safety penalty, fifteen thousand rupees. And the provision for gratuity, fifty thousand rupees. Our total so far is twenty three lakh forty four thousand rupees.",
+  "start": 2759.549,
+  "dur": 16.167,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "z5",
+  "text": "Now deduct what the books missed. Depreciation as per the Act, two lakh eighty five thousand rupees. And last year's bonus, paid this year, seventy thousand rupees. That leaves nineteen lakh eighty nine thousand rupees.",
+  "start": 2776.516,
+  "dur": 14.444,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "z6",
+  "text": "Take out other heads' income. thirty thousand rupees of bank interest, and one lakh twenty thousand rupees of rent from a flat. That leaves eighteen lakh thirty nine thousand rupees.",
+  "start": 2791.759,
+  "dur": 11.303,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "z7",
+  "text": "Finally, add deemed income. A bad debt recovered, twenty five thousand rupees. And the supplier's waived bill, thirty five thousand rupees. Meera's business income is eighteen lakh ninety nine thousand rupees.",
+  "start": 2803.862,
+  "dur": 14.272,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 0.92,
+  "pause": 0.45
+ },
+ {
+  "id": "z8",
+  "text": "And if she'd opted out of the default regime? Additional depreciation of one lakh rupees, on the oven and the mixer. Her income would be seventeen lakh ninety nine thousand rupees.",
+  "start": 2818.935,
+  "dur": 11.366,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ },
+ {
+  "id": "z9",
+  "text": "So, the whole chapter in one breath. Section twenty eight decides what's caught. The books are only the starting point. Capital becomes depreciation, in blocks, at half rate under one hundred eighty days.",
+  "start": 2831.25,
+  "dur": 11.989,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.04,
+  "pause": 0.45
+ },
+ {
+  "id": "z10",
+  "text": "Sections thirty to thirty seven let costs in. Sections forty, forty ay and forty three B keep some out, or make them wait. Section forty one brings back what returns. And small businesses can take the presumptive shortcut.",
+  "start": 2844.039,
+  "dur": 13.757,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.04,
+  "pause": 0.45
+ },
+ {
+  "id": "z11",
+  "text": "Every adjustment answers one of three questions. Is it business income? Is it allowed? Is it allowed this year? Ask those three, and no P G B P question can surprise you.",
+  "start": 2858.596,
+  "dur": 10.828,
+  "voice": "af_heart",
+  "role": "teacher",
+  "speed": 1.0,
+  "pause": 0.6
+ }
+]

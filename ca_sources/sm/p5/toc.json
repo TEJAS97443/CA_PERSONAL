@@ -1,0 +1,5406 @@
+[
+ {
+  "ch": 1,
+  "title": "Nature, Objective and Scope of Audit",
+  "module": 1,
+  "pdf": "pdf/ch01.pdf",
+  "pages": [
+   1,
+   42
+  ],
+  "printed": [
+   "1.1",
+   "1.42"
+  ],
+  "txt": "txt/01-nature-objective-and-scope-of-audit.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. INTRODUCTION",
+   "2. ORIGIN OF AUDITING",
+   "3. MEANING AND NATURE OF AUDITING",
+   "4. INTERDISCIPLINARY NATURE OF AUDITING- RELATIONSHIP WITH DIVERSE SUBJECTS",
+   "5. OBJECTIVES OF AUDIT",
+   "6. SCOPE OF AUDIT-WHAT IT INCLUDES",
+   "6.1 Scope of audit-What it does not include",
+   "7. INHERENT LIMITATIONS OF AUDIT",
+   "8. WHAT IS AN ENGAGEMENT?",
+   "8.1 External audit engagements",
+   "9. BENEFITS OF AUDIT-WHY AUDIT IS NEEDED?",
+   "10. AUDIT- MANDATORY OR VOLUNTARY?",
+   "11. WHO APPOINTS AN AUDITOR?",
+   "12. TO WHOM REPORT IS SUBMITTED BY AN AUDITOR?",
+   "CASE STUDY-1",
+   "13. MEANING OF ASSURANCE ENGAGEMENT",
+   "13.1 Elements of an Assurance Engagement",
+   "13.2 Meaning of Review; Audit Vs. Review",
+   "13.3 Types of Assurance Engagements- Reasonable assurance engagement vs. Limited assurance engagement",
+   "14. QUALITIES OF AUDITOR",
+   "15. ENGAGEMENT AND QUALITY CONTROL STANDARDS: AN OVERVIEW",
+   "15.1 Standards on Auditing",
+   "15.2 Standards on Review Engagements",
+   "15.3 Standards on Assurance Engagements",
+   "15.4 Standards on Related Services",
+   "15.5 Standards on Quality Control",
+   "15.6 Why are Standards needed?",
+   "15.7 Duties in relation to Engagement and Quality Control Standards",
+   "CASE STUDY-2",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS/ SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Correct/Incorrect",
+   "Answers to the Theoretical Questions",
+   "Answers to Questions involving Test Your Understanding"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "1.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "1.2",
+    "numbered": false
+   },
+   {
+    "h": "1. INTRODUCTION",
+    "level": 1,
+    "page": 3,
+    "printed": "1.3",
+    "numbered": true
+   },
+   {
+    "h": "2. ORIGIN OF AUDITING",
+    "level": 1,
+    "page": 4,
+    "printed": "1.4",
+    "numbered": true
+   },
+   {
+    "h": "3. MEANING AND NATURE OF AUDITING",
+    "level": 1,
+    "page": 5,
+    "printed": "1.5",
+    "numbered": true
+   },
+   {
+    "h": "4. INTERDISCIPLINARY NATURE OF AUDITING- RELATIONSHIP WITH DIVERSE SUBJECTS",
+    "level": 1,
+    "page": 6,
+    "printed": "1.6",
+    "numbered": true
+   },
+   {
+    "h": "5. OBJECTIVES OF AUDIT",
+    "level": 1,
+    "page": 8,
+    "printed": "1.8",
+    "numbered": true
+   },
+   {
+    "h": "6. SCOPE OF AUDIT-WHAT IT INCLUDES",
+    "level": 1,
+    "page": 10,
+    "printed": "1.10",
+    "numbered": true
+   },
+   {
+    "h": "6.1 Scope of audit-What it does not include",
+    "level": 2,
+    "page": 12,
+    "printed": "1.12",
+    "numbered": true
+   },
+   {
+    "h": "7. INHERENT LIMITATIONS OF AUDIT",
+    "level": 1,
+    "page": 14,
+    "printed": "1.14",
+    "numbered": true
+   },
+   {
+    "h": "8. WHAT IS AN ENGAGEMENT?",
+    "level": 1,
+    "page": 17,
+    "printed": "1.17",
+    "numbered": true
+   },
+   {
+    "h": "8.1 External audit engagements",
+    "level": 2,
+    "page": 17,
+    "printed": "1.17",
+    "numbered": true
+   },
+   {
+    "h": "9. BENEFITS OF AUDIT-WHY AUDIT IS NEEDED?",
+    "level": 1,
+    "page": 17,
+    "printed": "1.17",
+    "numbered": true
+   },
+   {
+    "h": "10. AUDIT- MANDATORY OR VOLUNTARY?",
+    "level": 1,
+    "page": 18,
+    "printed": "1.18",
+    "numbered": true
+   },
+   {
+    "h": "11. WHO APPOINTS AN AUDITOR?",
+    "level": 1,
+    "page": 18,
+    "printed": "1.18",
+    "numbered": true
+   },
+   {
+    "h": "12. TO WHOM REPORT IS SUBMITTED BY AN AUDITOR?",
+    "level": 1,
+    "page": 19,
+    "printed": "1.19",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY-1",
+    "level": 1,
+    "page": 19,
+    "printed": "1.19",
+    "numbered": false
+   },
+   {
+    "h": "13. MEANING OF ASSURANCE ENGAGEMENT",
+    "level": 1,
+    "page": 22,
+    "printed": "1.22",
+    "numbered": true
+   },
+   {
+    "h": "13.1 Elements of an Assurance Engagement",
+    "level": 2,
+    "page": 23,
+    "printed": "1.23",
+    "numbered": true
+   },
+   {
+    "h": "13.2 Meaning of Review; Audit Vs. Review",
+    "level": 2,
+    "page": 24,
+    "printed": "1.24",
+    "numbered": true
+   },
+   {
+    "h": "13.3 Types of Assurance Engagements- Reasonable assurance engagement vs. Limited assurance engagement",
+    "level": 2,
+    "page": 24,
+    "printed": "1.24",
+    "numbered": true
+   },
+   {
+    "h": "14. QUALITIES OF AUDITOR",
+    "level": 1,
+    "page": 27,
+    "printed": "1.27",
+    "numbered": true
+   },
+   {
+    "h": "15. ENGAGEMENT AND QUALITY CONTROL STANDARDS: AN OVERVIEW",
+    "level": 1,
+    "page": 28,
+    "printed": "1.28",
+    "numbered": true
+   },
+   {
+    "h": "15.1 Standards on Auditing",
+    "level": 2,
+    "page": 29,
+    "printed": "1.29",
+    "numbered": true
+   },
+   {
+    "h": "15.2 Standards on Review Engagements",
+    "level": 2,
+    "page": 29,
+    "printed": "1.29",
+    "numbered": true
+   },
+   {
+    "h": "15.3 Standards on Assurance Engagements",
+    "level": 2,
+    "page": 30,
+    "printed": "1.30",
+    "numbered": true
+   },
+   {
+    "h": "15.4 Standards on Related Services",
+    "level": 2,
+    "page": 30,
+    "printed": "1.30",
+    "numbered": true
+   },
+   {
+    "h": "15.5 Standards on Quality Control",
+    "level": 2,
+    "page": 31,
+    "printed": "1.31",
+    "numbered": true
+   },
+   {
+    "h": "15.6 Why are Standards needed?",
+    "level": 2,
+    "page": 31,
+    "printed": "1.31",
+    "numbered": true
+   },
+   {
+    "h": "15.7 Duties in relation to Engagement and Quality Control Standards",
+    "level": 2,
+    "page": 32,
+    "printed": "1.32",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY-2",
+    "level": 1,
+    "page": 33,
+    "printed": "1.33",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 36,
+    "printed": "1.36",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 37,
+    "printed": "1.37",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 39,
+    "printed": "1.39",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/ SOLUTIONS",
+    "level": 1,
+    "page": 40,
+    "printed": "1.40",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 40,
+    "printed": "1.40",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect",
+    "level": 1,
+    "page": 40,
+    "printed": "1.40",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the Theoretical Questions",
+    "level": 1,
+    "page": 40,
+    "printed": "1.40",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test Your Understanding",
+    "level": 1,
+    "page": 41,
+    "printed": "1.41",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [],
+  "text_fixes": [],
+  "ocr_supplement_pages": []
+ },
+ {
+  "ch": 2,
+  "title": "Audit Strategy, Audit Planning and Audit Programme",
+  "module": 1,
+  "pdf": "pdf/ch02.pdf",
+  "pages": [
+   1,
+   34
+  ],
+  "printed": [
+   "2.1",
+   "2.34"
+  ],
+  "txt": "txt/02-audit-strategy-audit-planning-and-audit-programme.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. AUDITOR’S RESPONSIBILITY TO PLAN AN AUDIT OF FINANCIAL STATEMENTS",
+   "1.1 Why Planning an audit is necessary? - Its Benefits",
+   "1.2 Nature of Audit Planning- A Continuous and iterative process",
+   "2. Planning Process- Elements of Planning",
+   "3. RELATIONSHIP BETWEEN AUDIT STRATEGY AND AUDIT PLAN",
+   "4. OVERALL AUDIT STRATEGY AND THE AUDIT PLAN- THE AUDITOR’S RESPONSIBILITY",
+   "5. CHANGES TO PLANNING DECISIONS DURING THE COURSE OF AUDIT",
+   "6. PLANNING SUPERVISION AND REVIEW OF WORK OF ENGAGEMENT TEAM MEMBERS",
+   "7. DOCUMENTATION",
+   "8. AUDIT PROGRAMME",
+   "8.1 Evolving one audit programme- Not Practicable for All businesses",
+   "8.2 The Assistant to keep an open mind",
+   "8.3 Periodic review of the audit programme",
+   "8.4 Constructing an audit programme",
+   "8.5 Audit Programme- Designed to provide audit evidence",
+   "8.6 Advantages and disadvantages of an audit programme",
+   "CASE STUDY",
+   "Answers to Questions involving case study",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS/SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Correct/Incorrect",
+   "Answers to the Theoretical Questions",
+   "Answers to Questions involving Test Your Understanding"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "2.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "2.2",
+    "numbered": false
+   },
+   {
+    "h": "1. AUDITOR’S RESPONSIBILITY TO PLAN AN AUDIT OF FINANCIAL STATEMENTS",
+    "level": 1,
+    "page": 4,
+    "printed": "2.4",
+    "numbered": true
+   },
+   {
+    "h": "1.1 Why Planning an audit is necessary? - Its Benefits",
+    "level": 2,
+    "page": 4,
+    "printed": "2.4",
+    "numbered": true
+   },
+   {
+    "h": "1.2 Nature of Audit Planning- A Continuous and iterative process",
+    "level": 2,
+    "page": 5,
+    "printed": "2.5",
+    "numbered": true
+   },
+   {
+    "h": "2. Planning Process- Elements of Planning",
+    "level": 1,
+    "page": 7,
+    "printed": "2.7",
+    "numbered": true
+   },
+   {
+    "h": "3. RELATIONSHIP BETWEEN AUDIT STRATEGY AND AUDIT PLAN",
+    "level": 1,
+    "page": 15,
+    "printed": "2.15",
+    "numbered": true
+   },
+   {
+    "h": "4. OVERALL AUDIT STRATEGY AND THE AUDIT PLAN- THE AUDITOR’S RESPONSIBILITY",
+    "level": 1,
+    "page": 15,
+    "printed": "2.15",
+    "numbered": true
+   },
+   {
+    "h": "5. CHANGES TO PLANNING DECISIONS DURING THE COURSE OF AUDIT",
+    "level": 1,
+    "page": 16,
+    "printed": "2.16",
+    "numbered": true
+   },
+   {
+    "h": "6. PLANNING SUPERVISION AND REVIEW OF WORK OF ENGAGEMENT TEAM MEMBERS",
+    "level": 1,
+    "page": 16,
+    "printed": "2.16",
+    "numbered": true
+   },
+   {
+    "h": "7. DOCUMENTATION",
+    "level": 1,
+    "page": 17,
+    "printed": "2.17",
+    "numbered": true
+   },
+   {
+    "h": "8. AUDIT PROGRAMME",
+    "level": 1,
+    "page": 18,
+    "printed": "2.18",
+    "numbered": true
+   },
+   {
+    "h": "8.1 Evolving one audit programme- Not Practicable for All businesses",
+    "level": 2,
+    "page": 19,
+    "printed": "2.19",
+    "numbered": true
+   },
+   {
+    "h": "8.2 The Assistant to keep an open mind",
+    "level": 2,
+    "page": 19,
+    "printed": "2.19",
+    "numbered": true
+   },
+   {
+    "h": "8.3 Periodic review of the audit programme",
+    "level": 2,
+    "page": 19,
+    "printed": "2.19",
+    "numbered": true
+   },
+   {
+    "h": "8.4 Constructing an audit programme",
+    "level": 2,
+    "page": 20,
+    "printed": "2.20",
+    "numbered": true
+   },
+   {
+    "h": "8.5 Audit Programme- Designed to provide audit evidence",
+    "level": 2,
+    "page": 22,
+    "printed": "2.22",
+    "numbered": true
+   },
+   {
+    "h": "8.6 Advantages and disadvantages of an audit programme",
+    "level": 2,
+    "page": 23,
+    "printed": "2.23",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY",
+    "level": 1,
+    "page": 26,
+    "printed": "2.26",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving case study",
+    "level": 1,
+    "page": 28,
+    "printed": "2.28",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 28,
+    "printed": "2.28",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 29,
+    "printed": "2.29",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 30,
+    "printed": "2.30",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/SOLUTIONS",
+    "level": 1,
+    "page": 31,
+    "printed": "2.31",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 31,
+    "printed": "2.31",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect",
+    "level": 1,
+    "page": 31,
+    "printed": "2.31",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the Theoretical Questions",
+    "level": 1,
+    "page": 32,
+    "printed": "2.32",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test Your Understanding",
+    "level": 1,
+    "page": 32,
+    "printed": "2.32",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [
+   7
+  ],
+  "text_fixes": [],
+  "ocr_supplement_pages": []
+ },
+ {
+  "ch": 3,
+  "title": "Risk Assessment and Internal Control",
+  "module": 1,
+  "pdf": "pdf/ch03.pdf",
+  "pages": [
+   1,
+   86
+  ],
+  "printed": [
+   "3.1",
+   "3.86"
+  ],
+  "txt": "txt/03-risk-assessment-and-internal-control.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "1. AUDIT RISK",
+   "1.1 Risks of material misstatement",
+   "1.2 Components of risk of material misstatement",
+   "1.2A Inherent risk",
+   "1.2B Control risk",
+   "1.3 Detection risk",
+   "1.4 Audit risk-What is not included?",
+   "1.5 Assessment of risks- A matter of professional Judgment",
+   "1.5.1 Combined Assessment of the Risk of Material Misstatement",
+   "1.6 Identifying and assessing the risk of material misstatement",
+   "1.7 Risk Assessment Procedures",
+   "1.8 Information obtained by performing risk assessment procedures - Used as audit evidence",
+   "2. MATERIALITY",
+   "2.1 What is meant by materiality?",
+   "2.2 Materiality in Planning and performing an audit- Auditor’s responsibility",
+   "2.3 Determination of materiality- a matter of professional judgment",
+   "2.4 Performance Materiality",
+   "2.5 Determining Materiality and Performance Materiality when Planning the Audit",
+   "2.6 Use of Benchmarks in Determining Materiality for the Financial Statements as a Whole",
+   "2.6.1 Chosen Benchmark – Relevant financial data",
+   "2.6.2 Determining a percentage to be applied to a chosen benchmark involves the exercise of professional judgment.",
+   "2.7 Materiality Level or Levels for Particular Classes of Transactions, Account Balances or Disclosures",
+   "2.8 Revision in Materiality level as the Audit Progresses",
+   "2.9 Documenting the Materiality",
+   "2.10 Materiality and Audit Risk",
+   "3. UNDERSTANDING THE ENTITY AND ITS ENVIRONMENT",
+   "3.1 Why understanding the entity and its environment is significant?",
+   "3.2 Understanding the entity-a continuous process",
+   "4. INTERNAL CONTROL",
+   "4.1 Meaning of Internal Control",
+   "4.2 As derived from above definition, the purpose of Internal Control is as under",
+   "4.3 Benefits of Understanding of Internal Control",
+   "4.4 Limitations of Internal Control",
+   "4.5 Components of Internal Control",
+   "4.6 Are all Controls Relevant to the audit?",
+   "4.7 Controls over the completeness and accuracy of information",
+   "4.8 Internal control over safeguarding of assets",
+   "4.9 Controls relating to objectives that are not relevant to an audit",
+   "4.10 Nature and Extent of the Understanding of Relevant Controls",
+   "5. RISKS THAT REQUIRE SPECIAL AUDIT CONSIDERATION",
+   "5.1 Identifying Significant Risks",
+   "5.2 Risks of Material Misstatement – Greater for Significant Non-Routine Transactions",
+   "5.3 Risks of material misstatement– Greater for Significant Judgmental Matters",
+   "6. EVALUATION OF INTERNAL CONTROL SYSTEM",
+   "6.1 Benefits of Evaluation of Internal Control to the Auditor",
+   "6.2 Evaluation of Internal Control– Methods",
+   "7. TESTING OF INTERNAL CONTROL",
+   "8. WHAT IS AN AUTOMATED ENVIRONMENT?",
+   "8.1 Key features of an automated environment",
+   "8.2 Understanding and documenting automated environment",
+   "8.3 Risks arising from use of IT Systems",
+   "8.4 Impact of IT related risks",
+   "8.5 Types of Controls in an automated environment",
+   "8.6 General IT Controls vs. Application Controls",
+   "8.7 Testing methods in an automated environment",
+   "9. CHARACTERISTICS OF MANUAL AND AUTOMATED ELEMENTS OF INTERNAL CONTROL RELEVANT TO THE AUDITOR’S RISK ASSESSMENT",
+   "9.1 Manual elements vs automated elements in entity’s internal control",
+   "10. AUDIT APPROACH IN AN AUTOMATED ENVIRONMENT",
+   "11. DATA ANALYTICS FOR AUDIT",
+   "12. DIGITAL AUDIT",
+   "13. INTERNAL FINANCIAL CONTROLS AS PER REGULATORY REQUIREMENTS",
+   "14. DOCUMENTING THE RISKS",
+   "15. ASSESS AND REPORT AUDIT FINDINGS",
+   "16. THE AUDITOR’S RESPONSES TO ASSESSED RISKS",
+   "16.1 Nature and Extent of Test of Controls",
+   "16.2 Timing of Test of Controls",
+   "16.3 Using Audit Evidence Obtained in Previous Audits",
+   "16.4 Evaluating the Operating Effectiveness of Controls",
+   "16.5 Specific inquiries by auditor when deviations from controls are detected",
+   "16.6 Tests of Details",
+   "16.7 Substantive analytical procedures",
+   "16.7.1 Nature and extent of Substantive procedures",
+   "CASE STUDY-1",
+   "Answers to Questions involving Case Study 1",
+   "CASE STUDY-2",
+   "Answers to Questions involving case study 2",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS/SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Correct/Incorrect",
+   "Answers to Theoretical Questions",
+   "Answers to Questions involving Test your Understanding"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "3.1",
+    "numbered": false
+   },
+   {
+    "h": "1. AUDIT RISK",
+    "level": 1,
+    "page": 4,
+    "printed": "3.4",
+    "numbered": true
+   },
+   {
+    "h": "1.1 Risks of material misstatement",
+    "level": 2,
+    "page": 4,
+    "printed": "3.4",
+    "numbered": true
+   },
+   {
+    "h": "1.2 Components of risk of material misstatement",
+    "level": 2,
+    "page": 5,
+    "printed": "3.5",
+    "numbered": true
+   },
+   {
+    "h": "1.2A Inherent risk",
+    "level": 2,
+    "page": 6,
+    "printed": "3.6",
+    "numbered": true
+   },
+   {
+    "h": "1.2B Control risk",
+    "level": 2,
+    "page": 7,
+    "printed": "3.7",
+    "numbered": true
+   },
+   {
+    "h": "1.3 Detection risk",
+    "level": 2,
+    "page": 7,
+    "printed": "3.7",
+    "numbered": true
+   },
+   {
+    "h": "1.4 Audit risk-What is not included?",
+    "level": 2,
+    "page": 8,
+    "printed": "3.8",
+    "numbered": true
+   },
+   {
+    "h": "1.5 Assessment of risks- A matter of professional Judgment",
+    "level": 2,
+    "page": 9,
+    "printed": "3.9",
+    "numbered": true
+   },
+   {
+    "h": "1.5.1 Combined Assessment of the Risk of Material Misstatement",
+    "level": 3,
+    "page": 10,
+    "printed": "3.10",
+    "numbered": true
+   },
+   {
+    "h": "1.6 Identifying and assessing the risk of material misstatement",
+    "level": 2,
+    "page": 12,
+    "printed": "3.12",
+    "numbered": true
+   },
+   {
+    "h": "1.7 Risk Assessment Procedures",
+    "level": 2,
+    "page": 13,
+    "printed": "3.13",
+    "numbered": true
+   },
+   {
+    "h": "1.8 Information obtained by performing risk assessment procedures - Used as audit evidence",
+    "level": 2,
+    "page": 15,
+    "printed": "3.15",
+    "numbered": true
+   },
+   {
+    "h": "2. MATERIALITY",
+    "level": 1,
+    "page": 16,
+    "printed": "3.16",
+    "numbered": true
+   },
+   {
+    "h": "2.1 What is meant by materiality?",
+    "level": 2,
+    "page": 16,
+    "printed": "3.16",
+    "numbered": true
+   },
+   {
+    "h": "2.2 Materiality in Planning and performing an audit- Auditor’s responsibility",
+    "level": 2,
+    "page": 17,
+    "printed": "3.17",
+    "numbered": true
+   },
+   {
+    "h": "2.3 Determination of materiality- a matter of professional judgment",
+    "level": 2,
+    "page": 19,
+    "printed": "3.19",
+    "numbered": true
+   },
+   {
+    "h": "2.4 Performance Materiality",
+    "level": 2,
+    "page": 19,
+    "printed": "3.19",
+    "numbered": true
+   },
+   {
+    "h": "2.5 Determining Materiality and Performance Materiality when Planning the Audit",
+    "level": 2,
+    "page": 20,
+    "printed": "3.20",
+    "numbered": true
+   },
+   {
+    "h": "2.6 Use of Benchmarks in Determining Materiality for the Financial Statements as a Whole",
+    "level": 2,
+    "page": 20,
+    "printed": "3.20",
+    "numbered": true
+   },
+   {
+    "h": "2.6.1 Chosen Benchmark – Relevant financial data",
+    "level": 3,
+    "page": 21,
+    "printed": "3.21",
+    "numbered": true
+   },
+   {
+    "h": "2.6.2 Determining a percentage to be applied to a chosen benchmark involves the exercise of professional judgment.",
+    "level": 3,
+    "page": 21,
+    "printed": "3.21",
+    "numbered": true
+   },
+   {
+    "h": "2.7 Materiality Level or Levels for Particular Classes of Transactions, Account Balances or Disclosures",
+    "level": 2,
+    "page": 22,
+    "printed": "3.22",
+    "numbered": true
+   },
+   {
+    "h": "2.8 Revision in Materiality level as the Audit Progresses",
+    "level": 2,
+    "page": 22,
+    "printed": "3.22",
+    "numbered": true
+   },
+   {
+    "h": "2.9 Documenting the Materiality",
+    "level": 2,
+    "page": 23,
+    "printed": "3.23",
+    "numbered": true
+   },
+   {
+    "h": "2.10 Materiality and Audit Risk",
+    "level": 2,
+    "page": 23,
+    "printed": "3.23",
+    "numbered": true
+   },
+   {
+    "h": "3. UNDERSTANDING THE ENTITY AND ITS ENVIRONMENT",
+    "level": 1,
+    "page": 24,
+    "printed": "3.24",
+    "numbered": true
+   },
+   {
+    "h": "3.1 Why understanding the entity and its environment is significant?",
+    "level": 2,
+    "page": 27,
+    "printed": "3.27",
+    "numbered": true
+   },
+   {
+    "h": "3.2 Understanding the entity-a continuous process",
+    "level": 2,
+    "page": 28,
+    "printed": "3.28",
+    "numbered": true
+   },
+   {
+    "h": "4. INTERNAL CONTROL",
+    "level": 1,
+    "page": 29,
+    "printed": "3.29",
+    "numbered": true
+   },
+   {
+    "h": "4.1 Meaning of Internal Control",
+    "level": 2,
+    "page": 29,
+    "printed": "3.29",
+    "numbered": true
+   },
+   {
+    "h": "4.2 As derived from above definition, the purpose of Internal Control is as under",
+    "level": 2,
+    "page": 30,
+    "printed": "3.30",
+    "numbered": true
+   },
+   {
+    "h": "4.3 Benefits of Understanding of Internal Control",
+    "level": 2,
+    "page": 30,
+    "printed": "3.30",
+    "numbered": true
+   },
+   {
+    "h": "4.4 Limitations of Internal Control",
+    "level": 2,
+    "page": 30,
+    "printed": "3.30",
+    "numbered": true
+   },
+   {
+    "h": "4.5 Components of Internal Control",
+    "level": 2,
+    "page": 32,
+    "printed": "3.32",
+    "numbered": true
+   },
+   {
+    "h": "4.6 Are all Controls Relevant to the audit?",
+    "level": 2,
+    "page": 38,
+    "printed": "3.38",
+    "numbered": true
+   },
+   {
+    "h": "4.7 Controls over the completeness and accuracy of information",
+    "level": 2,
+    "page": 39,
+    "printed": "3.39",
+    "numbered": true
+   },
+   {
+    "h": "4.8 Internal control over safeguarding of assets",
+    "level": 2,
+    "page": 39,
+    "printed": "3.39",
+    "numbered": true
+   },
+   {
+    "h": "4.9 Controls relating to objectives that are not relevant to an audit",
+    "level": 2,
+    "page": 40,
+    "printed": "3.40",
+    "numbered": true
+   },
+   {
+    "h": "4.10 Nature and Extent of the Understanding of Relevant Controls",
+    "level": 2,
+    "page": 40,
+    "printed": "3.40",
+    "numbered": true
+   },
+   {
+    "h": "5. RISKS THAT REQUIRE SPECIAL AUDIT CONSIDERATION",
+    "level": 1,
+    "page": 41,
+    "printed": "3.41",
+    "numbered": true
+   },
+   {
+    "h": "5.1 Identifying Significant Risks",
+    "level": 2,
+    "page": 42,
+    "printed": "3.42",
+    "numbered": true
+   },
+   {
+    "h": "5.2 Risks of Material Misstatement – Greater for Significant Non-Routine Transactions",
+    "level": 2,
+    "page": 42,
+    "printed": "3.42",
+    "numbered": true
+   },
+   {
+    "h": "5.3 Risks of material misstatement– Greater for Significant Judgmental Matters",
+    "level": 2,
+    "page": 42,
+    "printed": "3.42",
+    "numbered": true
+   },
+   {
+    "h": "6. EVALUATION OF INTERNAL CONTROL SYSTEM",
+    "level": 1,
+    "page": 43,
+    "printed": "3.43",
+    "numbered": true
+   },
+   {
+    "h": "6.1 Benefits of Evaluation of Internal Control to the Auditor",
+    "level": 2,
+    "page": 43,
+    "printed": "3.43",
+    "numbered": true
+   },
+   {
+    "h": "6.2 Evaluation of Internal Control– Methods",
+    "level": 2,
+    "page": 46,
+    "printed": "3.46",
+    "numbered": true
+   },
+   {
+    "h": "7. TESTING OF INTERNAL CONTROL",
+    "level": 1,
+    "page": 52,
+    "printed": "3.52",
+    "numbered": true
+   },
+   {
+    "h": "8. WHAT IS AN AUTOMATED ENVIRONMENT?",
+    "level": 1,
+    "page": 54,
+    "printed": "3.54",
+    "numbered": true
+   },
+   {
+    "h": "8.1 Key features of an automated environment",
+    "level": 2,
+    "page": 54,
+    "printed": "3.54",
+    "numbered": true
+   },
+   {
+    "h": "8.2 Understanding and documenting automated environment",
+    "level": 2,
+    "page": 55,
+    "printed": "3.55",
+    "numbered": true
+   },
+   {
+    "h": "8.3 Risks arising from use of IT Systems",
+    "level": 2,
+    "page": 55,
+    "printed": "3.55",
+    "numbered": true
+   },
+   {
+    "h": "8.4 Impact of IT related risks",
+    "level": 2,
+    "page": 56,
+    "printed": "3.56",
+    "numbered": true
+   },
+   {
+    "h": "8.5 Types of Controls in an automated environment",
+    "level": 2,
+    "page": 56,
+    "printed": "3.56",
+    "numbered": true
+   },
+   {
+    "h": "8.6 General IT Controls vs. Application Controls",
+    "level": 2,
+    "page": 58,
+    "printed": "3.58",
+    "numbered": true
+   },
+   {
+    "h": "8.7 Testing methods in an automated environment",
+    "level": 2,
+    "page": 58,
+    "printed": "3.58",
+    "numbered": true
+   },
+   {
+    "h": "9. CHARACTERISTICS OF MANUAL AND AUTOMATED ELEMENTS OF INTERNAL CONTROL RELEVANT TO THE AUDITOR’S RISK ASSESSMENT",
+    "level": 1,
+    "page": 59,
+    "printed": "3.59",
+    "numbered": true
+   },
+   {
+    "h": "9.1 Manual elements vs automated elements in entity’s internal control",
+    "level": 2,
+    "page": 60,
+    "printed": "3.60",
+    "numbered": true
+   },
+   {
+    "h": "10. AUDIT APPROACH IN AN AUTOMATED ENVIRONMENT",
+    "level": 1,
+    "page": 61,
+    "printed": "3.61",
+    "numbered": true
+   },
+   {
+    "h": "11. DATA ANALYTICS FOR AUDIT",
+    "level": 1,
+    "page": 61,
+    "printed": "3.61",
+    "numbered": true
+   },
+   {
+    "h": "12. DIGITAL AUDIT",
+    "level": 1,
+    "page": 62,
+    "printed": "3.62",
+    "numbered": true
+   },
+   {
+    "h": "13. INTERNAL FINANCIAL CONTROLS AS PER REGULATORY REQUIREMENTS",
+    "level": 1,
+    "page": 63,
+    "printed": "3.63",
+    "numbered": true
+   },
+   {
+    "h": "14. DOCUMENTING THE RISKS",
+    "level": 1,
+    "page": 64,
+    "printed": "3.64",
+    "numbered": true
+   },
+   {
+    "h": "15. ASSESS AND REPORT AUDIT FINDINGS",
+    "level": 1,
+    "page": 65,
+    "printed": "3.65",
+    "numbered": true
+   },
+   {
+    "h": "16. THE AUDITOR’S RESPONSES TO ASSESSED RISKS",
+    "level": 1,
+    "page": 65,
+    "printed": "3.65",
+    "numbered": true
+   },
+   {
+    "h": "16.1 Nature and Extent of Test of Controls",
+    "level": 2,
+    "page": 67,
+    "printed": "3.67",
+    "numbered": true
+   },
+   {
+    "h": "16.2 Timing of Test of Controls",
+    "level": 2,
+    "page": 68,
+    "printed": "3.68",
+    "numbered": true
+   },
+   {
+    "h": "16.3 Using Audit Evidence Obtained in Previous Audits",
+    "level": 2,
+    "page": 68,
+    "printed": "3.68",
+    "numbered": true
+   },
+   {
+    "h": "16.4 Evaluating the Operating Effectiveness of Controls",
+    "level": 2,
+    "page": 69,
+    "printed": "3.69",
+    "numbered": true
+   },
+   {
+    "h": "16.5 Specific inquiries by auditor when deviations from controls are detected",
+    "level": 2,
+    "page": 69,
+    "printed": "3.69",
+    "numbered": true
+   },
+   {
+    "h": "16.6 Tests of Details",
+    "level": 2,
+    "page": 70,
+    "printed": "3.70",
+    "numbered": true
+   },
+   {
+    "h": "16.7 Substantive analytical procedures",
+    "level": 2,
+    "page": 71,
+    "printed": "3.71",
+    "numbered": true
+   },
+   {
+    "h": "16.7.1 Nature and extent of Substantive procedures",
+    "level": 3,
+    "page": 71,
+    "printed": "3.71",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY-1",
+    "level": 1,
+    "page": 73,
+    "printed": "3.73",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Case Study 1",
+    "level": 1,
+    "page": 74,
+    "printed": "3.74",
+    "numbered": false
+   },
+   {
+    "h": "CASE STUDY-2",
+    "level": 1,
+    "page": 75,
+    "printed": "3.75",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving case study 2",
+    "level": 1,
+    "page": 77,
+    "printed": "3.77",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 77,
+    "printed": "3.77",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 79,
+    "printed": "3.79",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 80,
+    "printed": "3.80",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/SOLUTIONS",
+    "level": 1,
+    "page": 81,
+    "printed": "3.81",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 81,
+    "printed": "3.81",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect",
+    "level": 1,
+    "page": 81,
+    "printed": "3.81",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Theoretical Questions",
+    "level": 1,
+    "page": 82,
+    "printed": "3.82",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test your Understanding",
+    "level": 1,
+    "page": 83,
+    "printed": "3.83",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [],
+  "text_fixes": [],
+  "ocr_supplement_pages": [
+   61
+  ]
+ },
+ {
+  "ch": 4,
+  "title": "Audit Evidence",
+  "module": 1,
+  "pdf": "pdf/ch04.pdf",
+  "pages": [
+   1,
+   142
+  ],
+  "printed": [
+   "4.1",
+   "4.142"
+  ],
+  "txt": "txt/04-audit-evidence.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. AUDIT EVIDENCE",
+   "1.1 Introduction",
+   "1.2 Meaning of Audit Evidence as per SA 500",
+   "1.3 Types of Audit Evidence",
+   "1.4 Relevance and Reliability of audit evidence",
+   "1.4.2 Reliability",
+   "1.5 Sufficient appropriate audit evidence",
+   "1.5.1 Sufficiency and Appropriateness are interrelated.",
+   "1.5.2 Obtaining Sufficient and appropriate Audit Evidence by the Auditor",
+   "1.5.3 Further, auditor’s judgement as to sufficiency may be affected by the factors such as:",
+   "1.6 Source of audit evidence",
+   "1.7 Audit procedures for obtaining audit evidence",
+   "1.7.1 Audit procedures to obtain audit evidence can include:",
+   "1.7.2 The following points are also relevant in respect of audit procedures for auditor’s consideration:",
+   "1.7.3 Nature and Timing of the Audit Procedures",
+   "1.8 Assertions",
+   "1.8.1 Assertions contained in the Financial Statements.",
+   "1.9 Audit Trail",
+   "1.10 Information to Be Used as Audit Evidence",
+   "1.10.1 When information to be used as audit evidence has been prepared using the work of a management’s expert, the nature, timing and extent of audit procedures may be affected by such matters;",
+   "1.10.2 When using information produced by the entity, the auditor shall evaluate whether the information is sufficiently reliable for the auditor’s purposes, including as necessary in the circumstances:",
+   "1.11 Selecting Items for Testing to Obtain Audit Evidence",
+   "1.12 Inconsistency in or Doubts over Reliability of Audit Evidence",
+   "1.13 Relying on the work of a management’s expert",
+   "1.14 Evaluation of Audit Evidence",
+   "2. USING THE WORK OF INTERNAL AUDITORS (SA 610)",
+   "2.1 Definition of Internal Audit Function",
+   "2.2 Ways in which the external auditor may make use of the function for purposes of the audit.",
+   "2.3 Scope of SA 610",
+   "2.4 External Auditor’s Responsibility for the audit",
+   "2.5 Objectives of the external auditor, where the entity has an internal audit function",
+   "2.6 Evaluating the Internal Audit Function",
+   "2.6A Objectivity and its evaluation",
+   "2.6B Competence and its evaluation",
+   "2.6C Application of a Systematic and Disciplined Approach",
+   "2.7 Circumstances When Work of the Internal Audit Function Cannot Be Used",
+   "2.8 Determining the Nature and Extent of Work of the Internal Audit Function that Can Be Used",
+   "2.9 Circumstances in which the external auditor shall plan to use less of the work of the Internal audit function and perform more of the work directly",
+   "2.10 Using the Work of the Internal Audit Function",
+   "2.11 Determining Whether, in Which Areas, and to What Extent Internal Auditors Can Be Used to Provide Direct Assistance",
+   "2.12 Basics of Internal Financial Control and Reporting Requirements",
+   "3. AUDIT SAMPLING (SA 530)",
+   "3.1 Sampling: An Audit Procedure",
+   "3.2 Meaning of Audit Sampling",
+   "3.3 Population",
+   "3.3.1 Characteristics of Population",
+   "3.4 Sampling Unit",
+   "3.5 Approaches to Sampling (Types of Sampling)",
+   "3.5A Statistical Sampling-More Scientific",
+   "3.5B Non-Statistical Sampling",
+   "3.6 Sampling Vs Traditional method of Auditing",
+   "3.7 Appropriateness of Sampling Approaches",
+   "3.8 Sampling Process",
+   "3.9 Sample Design, Size and Selection of Items for Testing",
+   "3.9.1 Sample Design",
+   "3.9.1A Stratification and Value-Weighted Selection",
+   "3.9.2 Sample Size",
+   "3.9.2A Examples of Factors Influencing Sample Size for Tests of Controls",
+   "3.9.2B Examples of Factors Influencing Sample Size for Tests of Details",
+   "3.9.3 Selection of Items for Testing",
+   "3.9.3A Sample Selection Methods",
+   "3.10 Performing Audit Procedures",
+   "3.11 Nature and Cause of Deviations and Misstatements",
+   "3.12 Projecting Misstatements",
+   "3.13 Evaluating Results of Audit Sampling",
+   "4. AUDIT EVIDENCE-SPECIFIC CONSIDERATIONS FOR SELECTED ITEMS (SA 501)",
+   "4.1 Meaning of Audit Evidence- Specific Considerations for Selected Items",
+   "4.2 Objective of the Auditor in respect of Specific Considerations for Selected Items",
+   "4.3 Inventory",
+   "4.4 Attendance at Physical Inventory Counting",
+   "4.5 Matters Relevant in Planning Attendance at Physical Inventory Counting",
+   "4.6 Physical Inventory Counting Conducted other than at the Date of the Financial Statements",
+   "4.7 If the auditor unable to Attend Physical Inventory Counting due to Unforeseen Circumstances",
+   "4.8 Attendance at Physical Inventory Counting becomes impractical",
+   "4.9 When inventory under the custody and control of a third party- What will the auditor do?",
+   "4.10 Litigation and Claims",
+   "4.11 If the Auditor Assesses a Risk of Material Misstatement regarding Litigation or Claims - Communication with the Entity’s External Legal Counsel",
+   "4.12 Segment Information",
+   "4.13 Obtaining sufficient appropriate audit evidence regarding the presentation and disclosure of segment information",
+   "4.14 Auditor’s responsibility regarding the presentation and disclosure of segment information",
+   "4.15 Understanding of the Methods Used by Management",
+   "5. EXTERNAL CONFIRMATIONS (SA 505);",
+   "5.1 Introduction",
+   "5.2 Scope of this SA",
+   "5.3 Definition of External Confirmation:",
+   "5.4 Definitions of other terms:",
+   "5.5 External Confirmation Procedures adopted by the Auditor to Obtain Audit Evidence",
+   "5.6 Management’s refusal to allow the auditor to send a confirmation request-steps taken by the Auditor",
+   "5.7 Negative Confirmations",
+   "5.8 Evaluating the Evidence Obtained",
+   "6. INITIAL AUDIT ENGAGEMENTS - OPENING BALANCES (SA 510)",
+   "6.1 Scope of this SA",
+   "6.2 Definitions",
+   "6.3 Objective of Auditor with respect to Opening Balances– in conducting an Initial Audit Engagement",
+   "6.4 Obtaining sufficient appropriate Audit evidence about opening balances by the Auditor",
+   "6.5 Procedures adopted by the Auditor to Obtain Audit Evidence regarding opening balances:",
+   "6.5.1 Nature and extent of Audit Procedures",
+   "6.5.2 If the prior period’s financial statements were audited by a predecessor auditor",
+   "6.5.3 For current assets and liabilities",
+   "6.5.4 For non- current assets and liabilities",
+   "6.6 Consistency of Accounting Policies relating to opening balances",
+   "6.7 Reporting by the auditor with regard to opening balances",
+   "7. RELATED PARTIES (SA 550)",
+   "7.1 Scope of this SA",
+   "7.2 Definition of Related Party",
+   "7.3 Meaning of control and significant influence in reference to related party",
+   "7.4 Meaning of Related Parties with Dominant Influence",
+   "7.5 Meaning of Special-Purpose Entities as Related Parties",
+   "7.6 Nature of Related Party Relationships and Transactions",
+   "7.7 Understanding the Entity’s Related Party Relationships & Transactions",
+   "7.8 Considerations specific to smaller entities by the auditor",
+   "8. ANALYTICAL PROCEDURES (SA 520)",
+   "8.1 Meaning of Analytical Procedures",
+   "8.2 Scope of SA 520",
+   "8.3 Purpose and timing of Analytical Procedures",
+   "8.3A Purpose of Analytical Procedures",
+   "8.3B Timing of Analytical Procedures",
+   "8.3C Analytical Procedures in Planning the Audit",
+   "8.4 Substantive Analytical Procedures",
+   "8.5 Factors to be considered for Substantive Audit Procedures",
+   "8.6 Techniques available as Substantive Analytical Procedures",
+   "8.7 Analytical Procedures used as Substantive Tests",
+   "8.8 Suitability of particular analytical procedures for given assertions",
+   "8.9 The reliability of DATA",
+   "8.10 Evaluation of whether the expectation is sufficiently precise",
+   "8.11 Amount of difference of recorded amounts from expected values that is acceptable",
+   "8.12 Investigating results of Analytical Procedures",
+   "8.13 Analytical procedures that assist when forming an overall conclusion",
+   "CASE STUDY 1",
+   "Answers to questions involving Case Study 1",
+   "CASE STUDY 2",
+   "Answers to questions involving Case Study 2",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS/SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Correct/Incorrect",
+   "Answers to the Theoretical Questions",
+   "Answers to Questions involving Test Your Understanding"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "4.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "4.2",
+    "numbered": false
+   },
+   {
+    "h": "1. AUDIT EVIDENCE",
+    "level": 1,
+    "page": 4,
+    "printed": "4.4",
+    "numbered": true
+   },
+   {
+    "h": "1.1 Introduction",
+    "level": 2,
+    "page": 4,
+    "printed": "4.4",
+    "numbered": true
+   },
+   {
+    "h": "1.2 Meaning of Audit Evidence as per SA 500",
+    "level": 2,
+    "page": 5,
+    "printed": "4.5",
+    "numbered": true
+   },
+   {
+    "h": "1.3 Types of Audit Evidence",
+    "level": 2,
+    "page": 6,
+    "printed": "4.6",
+    "numbered": true
+   },
+   {
+    "h": "1.4 Relevance and Reliability of audit evidence",
+    "level": 2,
+    "page": 8,
+    "printed": "4.8",
+    "numbered": true
+   },
+   {
+    "h": "1.4.2 Reliability",
+    "level": 3,
+    "page": 10,
+    "printed": "4.10",
+    "numbered": true
+   },
+   {
+    "h": "1.5 Sufficient appropriate audit evidence",
+    "level": 2,
+    "page": 11,
+    "printed": "4.11",
+    "numbered": true
+   },
+   {
+    "h": "1.5.1 Sufficiency and Appropriateness are interrelated.",
+    "level": 3,
+    "page": 11,
+    "printed": "4.11",
+    "numbered": true
+   },
+   {
+    "h": "1.5.2 Obtaining Sufficient and appropriate Audit Evidence by the Auditor",
+    "level": 3,
+    "page": 12,
+    "printed": "4.12",
+    "numbered": true
+   },
+   {
+    "h": "1.5.3 Further, auditor’s judgement as to sufficiency may be affected by the factors such as:",
+    "level": 3,
+    "page": 13,
+    "printed": "4.13",
+    "numbered": true
+   },
+   {
+    "h": "1.6 Source of audit evidence",
+    "level": 2,
+    "page": 14,
+    "printed": "4.14",
+    "numbered": true
+   },
+   {
+    "h": "1.7 Audit procedures for obtaining audit evidence",
+    "level": 2,
+    "page": 15,
+    "printed": "4.15",
+    "numbered": true
+   },
+   {
+    "h": "1.7.1 Audit procedures to obtain audit evidence can include:",
+    "level": 3,
+    "page": 15,
+    "printed": "4.15",
+    "numbered": true
+   },
+   {
+    "h": "1.7.2 The following points are also relevant in respect of audit procedures for auditor’s consideration:",
+    "level": 3,
+    "page": 19,
+    "printed": "4.19",
+    "numbered": true
+   },
+   {
+    "h": "1.7.3 Nature and Timing of the Audit Procedures",
+    "level": 3,
+    "page": 19,
+    "printed": "4.19",
+    "numbered": true
+   },
+   {
+    "h": "1.8 Assertions",
+    "level": 2,
+    "page": 23,
+    "printed": "4.23",
+    "numbered": true
+   },
+   {
+    "h": "1.8.1 Assertions contained in the Financial Statements.",
+    "level": 3,
+    "page": 23,
+    "printed": "4.23",
+    "numbered": true
+   },
+   {
+    "h": "1.9 Audit Trail",
+    "level": 2,
+    "page": 27,
+    "printed": "4.27",
+    "numbered": true
+   },
+   {
+    "h": "1.10 Information to Be Used as Audit Evidence",
+    "level": 2,
+    "page": 28,
+    "printed": "4.28",
+    "numbered": true
+   },
+   {
+    "h": "1.10.1 When information to be used as audit evidence has been prepared using the work of a management’s expert, the nature, timing and extent of audit procedures may be affected by such matters;",
+    "level": 3,
+    "page": 28,
+    "printed": "4.28",
+    "numbered": true
+   },
+   {
+    "h": "1.10.2 When using information produced by the entity, the auditor shall evaluate whether the information is sufficiently reliable for the auditor’s purposes, including as necessary in the circumstances:",
+    "level": 3,
+    "page": 29,
+    "printed": "4.29",
+    "numbered": true
+   },
+   {
+    "h": "1.11 Selecting Items for Testing to Obtain Audit Evidence",
+    "level": 2,
+    "page": 29,
+    "printed": "4.29",
+    "numbered": true
+   },
+   {
+    "h": "1.12 Inconsistency in or Doubts over Reliability of Audit Evidence",
+    "level": 2,
+    "page": 31,
+    "printed": "4.31",
+    "numbered": true
+   },
+   {
+    "h": "1.13 Relying on the work of a management’s expert",
+    "level": 2,
+    "page": 32,
+    "printed": "4.32",
+    "numbered": true
+   },
+   {
+    "h": "1.14 Evaluation of Audit Evidence",
+    "level": 2,
+    "page": 32,
+    "printed": "4.32",
+    "numbered": true
+   },
+   {
+    "h": "2. USING THE WORK OF INTERNAL AUDITORS (SA 610)",
+    "level": 1,
+    "page": 33,
+    "printed": "4.33",
+    "numbered": true
+   },
+   {
+    "h": "2.1 Definition of Internal Audit Function",
+    "level": 2,
+    "page": 33,
+    "printed": "4.33",
+    "numbered": true
+   },
+   {
+    "h": "2.2 Ways in which the external auditor may make use of the function for purposes of the audit.",
+    "level": 2,
+    "page": 34,
+    "printed": "4.34",
+    "numbered": true
+   },
+   {
+    "h": "2.3 Scope of SA 610",
+    "level": 2,
+    "page": 35,
+    "printed": "4.35",
+    "numbered": true
+   },
+   {
+    "h": "2.4 External Auditor’s Responsibility for the audit",
+    "level": 2,
+    "page": 35,
+    "printed": "4.35",
+    "numbered": true
+   },
+   {
+    "h": "2.5 Objectives of the external auditor, where the entity has an internal audit function",
+    "level": 2,
+    "page": 36,
+    "printed": "4.36",
+    "numbered": true
+   },
+   {
+    "h": "2.6 Evaluating the Internal Audit Function",
+    "level": 2,
+    "page": 36,
+    "printed": "4.36",
+    "numbered": true
+   },
+   {
+    "h": "2.6A Objectivity and its evaluation",
+    "level": 2,
+    "page": 37,
+    "printed": "4.37",
+    "numbered": true
+   },
+   {
+    "h": "2.6B Competence and its evaluation",
+    "level": 2,
+    "page": 38,
+    "printed": "4.38",
+    "numbered": true
+   },
+   {
+    "h": "2.6C Application of a Systematic and Disciplined Approach",
+    "level": 2,
+    "page": 38,
+    "printed": "4.38",
+    "numbered": true
+   },
+   {
+    "h": "2.7 Circumstances When Work of the Internal Audit Function Cannot Be Used",
+    "level": 2,
+    "page": 39,
+    "printed": "4.39",
+    "numbered": true
+   },
+   {
+    "h": "2.8 Determining the Nature and Extent of Work of the Internal Audit Function that Can Be Used",
+    "level": 2,
+    "page": 39,
+    "printed": "4.39",
+    "numbered": true
+   },
+   {
+    "h": "2.9 Circumstances in which the external auditor shall plan to use less of the work of the Internal audit function and perform more of the work directly",
+    "level": 2,
+    "page": 40,
+    "printed": "4.40",
+    "numbered": true
+   },
+   {
+    "h": "2.10 Using the Work of the Internal Audit Function",
+    "level": 2,
+    "page": 40,
+    "printed": "4.40",
+    "numbered": true
+   },
+   {
+    "h": "2.11 Determining Whether, in Which Areas, and to What Extent Internal Auditors Can Be Used to Provide Direct Assistance",
+    "level": 2,
+    "page": 42,
+    "printed": "4.42",
+    "numbered": true
+   },
+   {
+    "h": "2.12 Basics of Internal Financial Control and Reporting Requirements",
+    "level": 2,
+    "page": 43,
+    "printed": "4.43",
+    "numbered": true
+   },
+   {
+    "h": "3. AUDIT SAMPLING (SA 530)",
+    "level": 1,
+    "page": 44,
+    "printed": "4.44",
+    "numbered": true
+   },
+   {
+    "h": "3.1 Sampling: An Audit Procedure",
+    "level": 2,
+    "page": 44,
+    "printed": "4.44",
+    "numbered": true
+   },
+   {
+    "h": "3.2 Meaning of Audit Sampling",
+    "level": 2,
+    "page": 45,
+    "printed": "4.45",
+    "numbered": true
+   },
+   {
+    "h": "3.3 Population",
+    "level": 2,
+    "page": 46,
+    "printed": "4.46",
+    "numbered": true
+   },
+   {
+    "h": "3.3.1 Characteristics of Population",
+    "level": 3,
+    "page": 46,
+    "printed": "4.46",
+    "numbered": true
+   },
+   {
+    "h": "3.4 Sampling Unit",
+    "level": 2,
+    "page": 47,
+    "printed": "4.47",
+    "numbered": true
+   },
+   {
+    "h": "3.5 Approaches to Sampling (Types of Sampling)",
+    "level": 2,
+    "page": 48,
+    "printed": "4.48",
+    "numbered": true
+   },
+   {
+    "h": "3.5A Statistical Sampling-More Scientific",
+    "level": 2,
+    "page": 49,
+    "printed": "4.49",
+    "numbered": true
+   },
+   {
+    "h": "3.5B Non-Statistical Sampling",
+    "level": 2,
+    "page": 49,
+    "printed": "4.49",
+    "numbered": true
+   },
+   {
+    "h": "3.6 Sampling Vs Traditional method of Auditing",
+    "level": 2,
+    "page": 50,
+    "printed": "4.50",
+    "numbered": true
+   },
+   {
+    "h": "3.7 Appropriateness of Sampling Approaches",
+    "level": 2,
+    "page": 52,
+    "printed": "4.52",
+    "numbered": true
+   },
+   {
+    "h": "3.8 Sampling Process",
+    "level": 2,
+    "page": 53,
+    "printed": "4.53",
+    "numbered": true
+   },
+   {
+    "h": "3.9 Sample Design, Size and Selection of Items for Testing",
+    "level": 2,
+    "page": 53,
+    "printed": "4.53",
+    "numbered": true
+   },
+   {
+    "h": "3.9.1 Sample Design",
+    "level": 3,
+    "page": 53,
+    "printed": "4.53",
+    "numbered": true
+   },
+   {
+    "h": "3.9.1A Stratification and Value-Weighted Selection",
+    "level": 3,
+    "page": 55,
+    "printed": "4.55",
+    "numbered": true
+   },
+   {
+    "h": "3.9.2 Sample Size",
+    "level": 3,
+    "page": 56,
+    "printed": "4.56",
+    "numbered": true
+   },
+   {
+    "h": "3.9.2A Examples of Factors Influencing Sample Size for Tests of Controls",
+    "level": 3,
+    "page": 57,
+    "printed": "4.57",
+    "numbered": true
+   },
+   {
+    "h": "3.9.2B Examples of Factors Influencing Sample Size for Tests of Details",
+    "level": 3,
+    "page": 58,
+    "printed": "4.58",
+    "numbered": true
+   },
+   {
+    "h": "3.9.3 Selection of Items for Testing",
+    "level": 3,
+    "page": 60,
+    "printed": "4.60",
+    "numbered": true
+   },
+   {
+    "h": "3.9.3A Sample Selection Methods",
+    "level": 3,
+    "page": 60,
+    "printed": "4.60",
+    "numbered": true
+   },
+   {
+    "h": "3.10 Performing Audit Procedures",
+    "level": 2,
+    "page": 64,
+    "printed": "4.64",
+    "numbered": true
+   },
+   {
+    "h": "3.11 Nature and Cause of Deviations and Misstatements",
+    "level": 2,
+    "page": 65,
+    "printed": "4.65",
+    "numbered": true
+   },
+   {
+    "h": "3.12 Projecting Misstatements",
+    "level": 2,
+    "page": 66,
+    "printed": "4.66",
+    "numbered": true
+   },
+   {
+    "h": "3.13 Evaluating Results of Audit Sampling",
+    "level": 2,
+    "page": 66,
+    "printed": "4.66",
+    "numbered": true
+   },
+   {
+    "h": "4. AUDIT EVIDENCE-SPECIFIC CONSIDERATIONS FOR SELECTED ITEMS (SA 501)",
+    "level": 1,
+    "page": 68,
+    "printed": "4.68",
+    "numbered": true
+   },
+   {
+    "h": "4.1 Meaning of Audit Evidence- Specific Considerations for Selected Items",
+    "level": 2,
+    "page": 68,
+    "printed": "4.68",
+    "numbered": true
+   },
+   {
+    "h": "4.2 Objective of the Auditor in respect of Specific Considerations for Selected Items",
+    "level": 2,
+    "page": 68,
+    "printed": "4.68",
+    "numbered": true
+   },
+   {
+    "h": "4.3 Inventory",
+    "level": 2,
+    "page": 68,
+    "printed": "4.68",
+    "numbered": true
+   },
+   {
+    "h": "4.4 Attendance at Physical Inventory Counting",
+    "level": 1,
+    "page": 69,
+    "printed": "4.69",
+    "numbered": true
+   },
+   {
+    "h": "4.5 Matters Relevant in Planning Attendance at Physical Inventory Counting",
+    "level": 2,
+    "page": 69,
+    "printed": "4.69",
+    "numbered": true
+   },
+   {
+    "h": "4.6 Physical Inventory Counting Conducted other than at the Date of the Financial Statements",
+    "level": 2,
+    "page": 70,
+    "printed": "4.70",
+    "numbered": true
+   },
+   {
+    "h": "4.7 If the auditor unable to Attend Physical Inventory Counting due to Unforeseen Circumstances",
+    "level": 2,
+    "page": 70,
+    "printed": "4.70",
+    "numbered": true
+   },
+   {
+    "h": "4.8 Attendance at Physical Inventory Counting becomes impractical",
+    "level": 2,
+    "page": 70,
+    "printed": "4.70",
+    "numbered": true
+   },
+   {
+    "h": "4.9 When inventory under the custody and control of a third party- What will the auditor do?",
+    "level": 2,
+    "page": 71,
+    "printed": "4.71",
+    "numbered": true
+   },
+   {
+    "h": "4.10 Litigation and Claims",
+    "level": 2,
+    "page": 72,
+    "printed": "4.72",
+    "numbered": true
+   },
+   {
+    "h": "4.11 If the Auditor Assesses a Risk of Material Misstatement regarding Litigation or Claims - Communication with the Entity’s External Legal Counsel",
+    "level": 2,
+    "page": 73,
+    "printed": "4.73",
+    "numbered": true
+   },
+   {
+    "h": "4.12 Segment Information",
+    "level": 2,
+    "page": 76,
+    "printed": "4.76",
+    "numbered": true
+   },
+   {
+    "h": "4.13 Obtaining sufficient appropriate audit evidence regarding the presentation and disclosure of segment information",
+    "level": 2,
+    "page": 76,
+    "printed": "4.76",
+    "numbered": true
+   },
+   {
+    "h": "4.14 Auditor’s responsibility regarding the presentation and disclosure of segment information",
+    "level": 2,
+    "page": 76,
+    "printed": "4.76",
+    "numbered": true
+   },
+   {
+    "h": "4.15 Understanding of the Methods Used by Management",
+    "level": 2,
+    "page": 76,
+    "printed": "4.76",
+    "numbered": true
+   },
+   {
+    "h": "5. EXTERNAL CONFIRMATIONS (SA 505);",
+    "level": 1,
+    "page": 77,
+    "printed": "4.77",
+    "numbered": true
+   },
+   {
+    "h": "5.1 Introduction",
+    "level": 2,
+    "page": 77,
+    "printed": "4.77",
+    "numbered": true
+   },
+   {
+    "h": "5.2 Scope of this SA",
+    "level": 2,
+    "page": 77,
+    "printed": "4.77",
+    "numbered": true
+   },
+   {
+    "h": "5.3 Definition of External Confirmation:",
+    "level": 2,
+    "page": 78,
+    "printed": "4.78",
+    "numbered": true
+   },
+   {
+    "h": "5.4 Definitions of other terms:",
+    "level": 2,
+    "page": 78,
+    "printed": "4.78",
+    "numbered": true
+   },
+   {
+    "h": "5.5 External Confirmation Procedures adopted by the Auditor to Obtain Audit Evidence",
+    "level": 2,
+    "page": 79,
+    "printed": "4.79",
+    "numbered": true
+   },
+   {
+    "h": "5.6 Management’s refusal to allow the auditor to send a confirmation request-steps taken by the Auditor",
+    "level": 2,
+    "page": 82,
+    "printed": "4.82",
+    "numbered": true
+   },
+   {
+    "h": "5.7 Negative Confirmations",
+    "level": 2,
+    "page": 85,
+    "printed": "4.85",
+    "numbered": true
+   },
+   {
+    "h": "5.8 Evaluating the Evidence Obtained",
+    "level": 2,
+    "page": 86,
+    "printed": "4.86",
+    "numbered": true
+   },
+   {
+    "h": "6. INITIAL AUDIT ENGAGEMENTS - OPENING BALANCES (SA 510)",
+    "level": 1,
+    "page": 87,
+    "printed": "4.87",
+    "numbered": true
+   },
+   {
+    "h": "6.1 Scope of this SA",
+    "level": 2,
+    "page": 87,
+    "printed": "4.87",
+    "numbered": true
+   },
+   {
+    "h": "6.2 Definitions",
+    "level": 2,
+    "page": 87,
+    "printed": "4.87",
+    "numbered": true
+   },
+   {
+    "h": "6.3 Objective of Auditor with respect to Opening Balances– in conducting an Initial Audit Engagement",
+    "level": 2,
+    "page": 88,
+    "printed": "4.88",
+    "numbered": true
+   },
+   {
+    "h": "6.4 Obtaining sufficient appropriate Audit evidence about opening balances by the Auditor",
+    "level": 2,
+    "page": 88,
+    "printed": "4.88",
+    "numbered": true
+   },
+   {
+    "h": "6.5 Procedures adopted by the Auditor to Obtain Audit Evidence regarding opening balances:",
+    "level": 2,
+    "page": 89,
+    "printed": "4.89",
+    "numbered": true
+   },
+   {
+    "h": "6.5.1 Nature and extent of Audit Procedures",
+    "level": 3,
+    "page": 89,
+    "printed": "4.89",
+    "numbered": true
+   },
+   {
+    "h": "6.5.2 If the prior period’s financial statements were audited by a predecessor auditor",
+    "level": 3,
+    "page": 89,
+    "printed": "4.89",
+    "numbered": true
+   },
+   {
+    "h": "6.5.3 For current assets and liabilities",
+    "level": 3,
+    "page": 90,
+    "printed": "4.90",
+    "numbered": true
+   },
+   {
+    "h": "6.5.4 For non- current assets and liabilities",
+    "level": 3,
+    "page": 90,
+    "printed": "4.90",
+    "numbered": true
+   },
+   {
+    "h": "6.6 Consistency of Accounting Policies relating to opening balances",
+    "level": 2,
+    "page": 91,
+    "printed": "4.91",
+    "numbered": true
+   },
+   {
+    "h": "6.7 Reporting by the auditor with regard to opening balances",
+    "level": 2,
+    "page": 91,
+    "printed": "4.91",
+    "numbered": true
+   },
+   {
+    "h": "7. RELATED PARTIES (SA 550)",
+    "level": 1,
+    "page": 92,
+    "printed": "4.92",
+    "numbered": true
+   },
+   {
+    "h": "7.1 Scope of this SA",
+    "level": 2,
+    "page": 92,
+    "printed": "4.92",
+    "numbered": true
+   },
+   {
+    "h": "7.2 Definition of Related Party",
+    "level": 2,
+    "page": 92,
+    "printed": "4.92",
+    "numbered": true
+   },
+   {
+    "h": "7.3 Meaning of control and significant influence in reference to related party",
+    "level": 2,
+    "page": 93,
+    "printed": "4.93",
+    "numbered": true
+   },
+   {
+    "h": "7.4 Meaning of Related Parties with Dominant Influence",
+    "level": 2,
+    "page": 93,
+    "printed": "4.93",
+    "numbered": true
+   },
+   {
+    "h": "7.5 Meaning of Special-Purpose Entities as Related Parties",
+    "level": 2,
+    "page": 94,
+    "printed": "4.94",
+    "numbered": true
+   },
+   {
+    "h": "7.6 Nature of Related Party Relationships and Transactions",
+    "level": 2,
+    "page": 94,
+    "printed": "4.94",
+    "numbered": true
+   },
+   {
+    "h": "7.7 Understanding the Entity’s Related Party Relationships & Transactions",
+    "level": 2,
+    "page": 94,
+    "printed": "4.94",
+    "numbered": true
+   },
+   {
+    "h": "7.8 Considerations specific to smaller entities by the auditor",
+    "level": 2,
+    "page": 95,
+    "printed": "4.95",
+    "numbered": true
+   },
+   {
+    "h": "8. ANALYTICAL PROCEDURES (SA 520)",
+    "level": 1,
+    "page": 97,
+    "printed": "4.97",
+    "numbered": true
+   },
+   {
+    "h": "8.1 Meaning of Analytical Procedures",
+    "level": 2,
+    "page": 97,
+    "printed": "4.97",
+    "numbered": true
+   },
+   {
+    "h": "8.2 Scope of SA 520",
+    "level": 2,
+    "page": 101,
+    "printed": "4.101",
+    "numbered": true
+   },
+   {
+    "h": "8.3 Purpose and timing of Analytical Procedures",
+    "level": 2,
+    "page": 101,
+    "printed": "4.101",
+    "numbered": true
+   },
+   {
+    "h": "8.3A Purpose of Analytical Procedures",
+    "level": 2,
+    "page": 101,
+    "printed": "4.101",
+    "numbered": true
+   },
+   {
+    "h": "8.3B Timing of Analytical Procedures",
+    "level": 2,
+    "page": 104,
+    "printed": "4.104",
+    "numbered": true
+   },
+   {
+    "h": "8.3C Analytical Procedures in Planning the Audit",
+    "level": 2,
+    "page": 104,
+    "printed": "4.104",
+    "numbered": true
+   },
+   {
+    "h": "8.4 Substantive Analytical Procedures",
+    "level": 2,
+    "page": 105,
+    "printed": "4.105",
+    "numbered": true
+   },
+   {
+    "h": "8.5 Factors to be considered for Substantive Audit Procedures",
+    "level": 2,
+    "page": 105,
+    "printed": "4.105",
+    "numbered": true
+   },
+   {
+    "h": "8.6 Techniques available as Substantive Analytical Procedures",
+    "level": 2,
+    "page": 107,
+    "printed": "4.107",
+    "numbered": true
+   },
+   {
+    "h": "8.7 Analytical Procedures used as Substantive Tests",
+    "level": 2,
+    "page": 109,
+    "printed": "4.109",
+    "numbered": true
+   },
+   {
+    "h": "8.8 Suitability of particular analytical procedures for given assertions",
+    "level": 2,
+    "page": 110,
+    "printed": "4.110",
+    "numbered": true
+   },
+   {
+    "h": "8.9 The reliability of DATA",
+    "level": 2,
+    "page": 112,
+    "printed": "4.112",
+    "numbered": true
+   },
+   {
+    "h": "8.10 Evaluation of whether the expectation is sufficiently precise",
+    "level": 2,
+    "page": 113,
+    "printed": "4.113",
+    "numbered": true
+   },
+   {
+    "h": "8.11 Amount of difference of recorded amounts from expected values that is acceptable",
+    "level": 2,
+    "page": 113,
+    "printed": "4.113",
+    "numbered": true
+   },
+   {
+    "h": "8.12 Investigating results of Analytical Procedures",
+    "level": 2,
+    "page": 114,
+    "printed": "4.114",
+    "numbered": true
+   },
+   {
+    "h": "8.13 Analytical procedures that assist when forming an overall conclusion",
+    "level": 2,
+    "page": 114,
+    "printed": "4.114",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY 1",
+    "level": 1,
+    "page": 115,
+    "printed": "4.115",
+    "numbered": false
+   },
+   {
+    "h": "Answers to questions involving Case Study 1",
+    "level": 1,
+    "page": 117,
+    "printed": "4.117",
+    "numbered": false
+   },
+   {
+    "h": "CASE STUDY 2",
+    "level": 1,
+    "page": 118,
+    "printed": "4.118",
+    "numbered": false
+   },
+   {
+    "h": "Answers to questions involving Case Study 2",
+    "level": 1,
+    "page": 119,
+    "printed": "4.119",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 119,
+    "printed": "4.119",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 122,
+    "printed": "4.122",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 125,
+    "printed": "4.125",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/SOLUTIONS",
+    "level": 1,
+    "page": 127,
+    "printed": "4.127",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 127,
+    "printed": "4.127",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect",
+    "level": 1,
+    "page": 127,
+    "printed": "4.127",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the Theoretical Questions",
+    "level": 1,
+    "page": 130,
+    "printed": "4.130",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test Your Understanding",
+    "level": 1,
+    "page": 139,
+    "printed": "4.139",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [],
+  "text_fixes": [],
+  "ocr_supplement_pages": [
+   2,
+   11,
+   16,
+   22,
+   97
+  ]
+ },
+ {
+  "ch": 5,
+  "title": "Audit of Items of Financial Statements",
+  "module": 1,
+  "pdf": "pdf/ch05.pdf",
+  "pages": [
+   1,
+   137
+  ],
+  "printed": [
+   "5.1",
+   "5.137"
+  ],
+  "txt": "txt/05-audit-of-items-of-financial-statements.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. INCOME STATEMENT CAPTIONS COMPRISING REVENUE AND EXPENSE BALANCES",
+   "2. BALANCE SHEET CAPTIONS COMPRISING ASSETS, LIABILITIES AND EQUITY BALANCES",
+   "3. BALANCE SHEET CAPTIONS",
+   "3.1 Share Capital",
+   "3.2 Reserves and Surplus",
+   "3.3 Borrowings",
+   "3.4 Trade Receivables",
+   "3.5 Cash and Cash Equivalents",
+   "3.6 Inventories",
+   "3.7 Land, Building, Plant & Equipment, Furniture & Fixtures, Vehicles, Office Equipment, Computers etc. referred to AS “Property, Plant And Equipment” (“PPE”)",
+   "3.8 Intangible Assets (comprising Goodwill, Brand/ Trademarks, Computer Software etc.)",
+   "3.9 Trade Payables and Other Current Liabilities",
+   "3.10 Loans and Advances and Other Current Assets",
+   "3.11 Provisions and Contingent Liabilities",
+   "4. STATEMENT OF PROFIT AND LOSS- CAPTIONS",
+   "4.1 Sale of Products and Services",
+   "4.2 Other Income comprising interest income, dividend income, Gain/ Loss on sale of investments etc.",
+   "4.3 Purchases",
+   "4.4 Employee Benefits Expenses",
+   "4.5 Depreciation and Amortisation",
+   "4.6 Other Expenses like Power and Fuel, Rent, Repair to Building, Plant and Machinery, Insurance, Travelling, Legal and Professional, Miscellaneous Expenses",
+   "CASE STUDY",
+   "Answers to Questions involving case study",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS/SOLUTIONS",
+   "Answers to MCQs",
+   "Answers to Correct/Incorrect",
+   "Answers to Questions involving Test Your Understanding"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "5.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "5.2",
+    "numbered": false
+   },
+   {
+    "h": "1. INCOME STATEMENT CAPTIONS COMPRISING REVENUE AND EXPENSE BALANCES",
+    "level": 1,
+    "page": 5,
+    "printed": "5.5",
+    "numbered": true
+   },
+   {
+    "h": "2. BALANCE SHEET CAPTIONS COMPRISING ASSETS, LIABILITIES AND EQUITY BALANCES",
+    "level": 1,
+    "page": 8,
+    "printed": "5.8",
+    "numbered": true
+   },
+   {
+    "h": "3. BALANCE SHEET CAPTIONS",
+    "level": 1,
+    "page": 11,
+    "printed": "5.11",
+    "numbered": true
+   },
+   {
+    "h": "3.1 Share Capital",
+    "level": 2,
+    "page": 11,
+    "printed": "5.11",
+    "numbered": true
+   },
+   {
+    "h": "3.2 Reserves and Surplus",
+    "level": 2,
+    "page": 24,
+    "printed": "5.24",
+    "numbered": true
+   },
+   {
+    "h": "3.3 Borrowings",
+    "level": 2,
+    "page": 27,
+    "printed": "5.27",
+    "numbered": true
+   },
+   {
+    "h": "3.4 Trade Receivables",
+    "level": 2,
+    "page": 37,
+    "printed": "5.37",
+    "numbered": true
+   },
+   {
+    "h": "3.5 Cash and Cash Equivalents",
+    "level": 2,
+    "page": 45,
+    "printed": "5.45",
+    "numbered": true
+   },
+   {
+    "h": "3.6 Inventories",
+    "level": 2,
+    "page": 50,
+    "printed": "5.50",
+    "numbered": true
+   },
+   {
+    "h": "3.7 Land, Building, Plant & Equipment, Furniture & Fixtures, Vehicles, Office Equipment, Computers etc. referred to AS “Property, Plant And Equipment” (“PPE”)",
+    "level": 1,
+    "page": 56,
+    "printed": "5.56",
+    "numbered": true
+   },
+   {
+    "h": "3.8 Intangible Assets (comprising Goodwill, Brand/ Trademarks, Computer Software etc.)",
+    "level": 2,
+    "page": 65,
+    "printed": "5.65",
+    "numbered": true
+   },
+   {
+    "h": "3.9 Trade Payables and Other Current Liabilities",
+    "level": 2,
+    "page": 71,
+    "printed": "5.71",
+    "numbered": true
+   },
+   {
+    "h": "3.10 Loans and Advances and Other Current Assets",
+    "level": 2,
+    "page": 80,
+    "printed": "5.80",
+    "numbered": true
+   },
+   {
+    "h": "3.11 Provisions and Contingent Liabilities",
+    "level": 2,
+    "page": 85,
+    "printed": "5.85",
+    "numbered": true
+   },
+   {
+    "h": "4. STATEMENT OF PROFIT AND LOSS- CAPTIONS",
+    "level": 1,
+    "page": 91,
+    "printed": "5.91",
+    "numbered": true
+   },
+   {
+    "h": "4.1 Sale of Products and Services",
+    "level": 2,
+    "page": 91,
+    "printed": "5.91",
+    "numbered": true
+   },
+   {
+    "h": "4.2 Other Income comprising interest income, dividend income, Gain/ Loss on sale of investments etc.",
+    "level": 2,
+    "page": 97,
+    "printed": "5.97",
+    "numbered": true
+   },
+   {
+    "h": "4.3 Purchases",
+    "level": 2,
+    "page": 99,
+    "printed": "5.99",
+    "numbered": true
+   },
+   {
+    "h": "4.4 Employee Benefits Expenses",
+    "level": 2,
+    "page": 104,
+    "printed": "5.104",
+    "numbered": true
+   },
+   {
+    "h": "4.5 Depreciation and Amortisation",
+    "level": 2,
+    "page": 107,
+    "printed": "5.107",
+    "numbered": true
+   },
+   {
+    "h": "4.6 Other Expenses like Power and Fuel, Rent, Repair to Building, Plant and Machinery, Insurance, Travelling, Legal and Professional, Miscellaneous Expenses",
+    "level": 2,
+    "page": 110,
+    "printed": "5.110",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY",
+    "level": 1,
+    "page": 115,
+    "printed": "5.115",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving case study",
+    "level": 1,
+    "page": 118,
+    "printed": "5.118",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 118,
+    "printed": "5.118",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 119,
+    "printed": "5.119",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 121,
+    "printed": "5.121",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/SOLUTIONS",
+    "level": 1,
+    "page": 123,
+    "printed": "5.123",
+    "numbered": false
+   },
+   {
+    "h": "Answers to MCQs",
+    "level": 1,
+    "page": 123,
+    "printed": "5.123",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect",
+    "level": 1,
+    "page": 123,
+    "printed": "5.123",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test Your Understanding",
+    "level": 1,
+    "page": 136,
+    "printed": "5.136",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [],
+  "text_fixes": [],
+  "ocr_supplement_pages": [
+   65,
+   92
+  ]
+ },
+ {
+  "ch": 6,
+  "title": "Audit Documentation",
+  "module": 2,
+  "pdf": "pdf/ch06.pdf",
+  "pages": [
+   1,
+   20
+  ],
+  "printed": [
+   "6.1",
+   "6.20"
+  ],
+  "txt": "txt/06-audit-documentation.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. AUDIT DOCUMENTATION",
+   "1.1 Definition of Audit Documentation:",
+   "1.2 Objective of the Auditor:",
+   "1.3 Nature of Audit Documentation",
+   "1.4 Purpose of Audit Documentation",
+   "1.5 Form, Content and Extent of Audit Documentation",
+   "1.6 Examples of Audit Documentation",
+   "1.7 Timely Preparation of Audit Documentation",
+   "1.8 Audit File",
+   "1.9 Assembly of the Final Audit File",
+   "1.10 Documentation of Significant Matters and Related Significant Professional Judgements",
+   "1.11 Completion Memorandum or Audit Documentation Summary",
+   "1.12 Ownership of Audit Documentation",
+   "CASE STUDY",
+   "Answers to Questions involving case study",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS/ SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Correct/Incorrect",
+   "Answers to Theoretical Questions",
+   "Answers to Questions involving Test your Understanding"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "6.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "6.2",
+    "numbered": false
+   },
+   {
+    "h": "1. AUDIT DOCUMENTATION",
+    "level": 1,
+    "page": 3,
+    "printed": "6.3",
+    "numbered": true
+   },
+   {
+    "h": "1.1 Definition of Audit Documentation:",
+    "level": 2,
+    "page": 4,
+    "printed": "6.4",
+    "numbered": true
+   },
+   {
+    "h": "1.2 Objective of the Auditor:",
+    "level": 2,
+    "page": 4,
+    "printed": "6.4",
+    "numbered": true
+   },
+   {
+    "h": "1.3 Nature of Audit Documentation",
+    "level": 2,
+    "page": 4,
+    "printed": "6.4",
+    "numbered": true
+   },
+   {
+    "h": "1.4 Purpose of Audit Documentation",
+    "level": 2,
+    "page": 5,
+    "printed": "6.5",
+    "numbered": true
+   },
+   {
+    "h": "1.5 Form, Content and Extent of Audit Documentation",
+    "level": 2,
+    "page": 5,
+    "printed": "6.5",
+    "numbered": true
+   },
+   {
+    "h": "1.6 Examples of Audit Documentation",
+    "level": 2,
+    "page": 6,
+    "printed": "6.6",
+    "numbered": true
+   },
+   {
+    "h": "1.7 Timely Preparation of Audit Documentation",
+    "level": 2,
+    "page": 8,
+    "printed": "6.8",
+    "numbered": true
+   },
+   {
+    "h": "1.8 Audit File",
+    "level": 2,
+    "page": 8,
+    "printed": "6.8",
+    "numbered": true
+   },
+   {
+    "h": "1.9 Assembly of the Final Audit File",
+    "level": 2,
+    "page": 9,
+    "printed": "6.9",
+    "numbered": true
+   },
+   {
+    "h": "1.10 Documentation of Significant Matters and Related Significant Professional Judgements",
+    "level": 2,
+    "page": 10,
+    "printed": "6.10",
+    "numbered": true
+   },
+   {
+    "h": "1.11 Completion Memorandum or Audit Documentation Summary",
+    "level": 2,
+    "page": 11,
+    "printed": "6.11",
+    "numbered": true
+   },
+   {
+    "h": "1.12 Ownership of Audit Documentation",
+    "level": 2,
+    "page": 11,
+    "printed": "6.11",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY",
+    "level": 1,
+    "page": 13,
+    "printed": "6.13",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving case study",
+    "level": 1,
+    "page": 15,
+    "printed": "6.15",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 15,
+    "printed": "6.15",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 17,
+    "printed": "6.17",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 18,
+    "printed": "6.18",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/ SOLUTIONS",
+    "level": 1,
+    "page": 19,
+    "printed": "6.19",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 19,
+    "printed": "6.19",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect",
+    "level": 1,
+    "page": 19,
+    "printed": "6.19",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Theoretical Questions",
+    "level": 1,
+    "page": 19,
+    "printed": "6.19",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test your Understanding",
+    "level": 1,
+    "page": 19,
+    "printed": "6.19",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [],
+  "text_fixes": [],
+  "ocr_supplement_pages": []
+ },
+ {
+  "ch": 7,
+  "title": "Completion and Review",
+  "module": 2,
+  "pdf": "pdf/ch07.pdf",
+  "pages": [
+   1,
+   60
+  ],
+  "printed": [
+   "7.1",
+   "7.60"
+  ],
+  "txt": "txt/07-completion-and-review.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. SUBSEQUENT EVENTS",
+   "1.1 SA 560 Subsequent Events",
+   "1.2 Objectives of auditor in accordance with SA 560",
+   "1.3 Audit procedures relating to events occurring between the date of the financial statements and the date of the auditor’s report",
+   "1.4 Facts which become known to the auditor after the date of the auditor’s report but before the date the financial statements are issued",
+   "1.5 Facts which become known to the auditor after the financial statements have been issued",
+   "2. MEANING OF GOING CONCERN AND ITS SIGNIFICANCE",
+   "2.1 SA 570 Going Concern",
+   "2.2 Responsibility for assessment of the entity’s ability to continue as a going concern",
+   "2.3 Responsibilities of the auditor",
+   "2.4 Objectives of auditor in accordance with SA 570",
+   "2.5 Risk assessment procedures and related activities",
+   "2.6 Evaluating management’s assessment",
+   "2.7 Additional audit procedures when events or conditions are identified",
+   "2.8 Auditor’s conclusions",
+   "2.9 Adequacy of disclosures when events or conditions have been identified and a material uncertainty exists",
+   "2.10 Adequacy of disclosures when events or conditions have been identified but no material uncertainty exists",
+   "2.11 Implications for the auditor’s report",
+   "3. EVALUATION OF MISSTATEMENTS IDENTIFIED DURING THE AUDIT",
+   "3.1 SA 450 Evaluation of Misstatements Identified during the Audit",
+   "3.2 Objectives of auditor in accordance with SA 450",
+   "3.3 Accumulation of misstatements identified during the audit",
+   "3.4 Consideration of identified misstatements as the audit progresses",
+   "3.5 Communication and correction of misstatements",
+   "3.6 Evaluating the effect of uncorrected misstatements",
+   "3.7 Communication with those charged with governance",
+   "3.8 Written Representation from management regarding effects of uncorrected statements",
+   "3.9 Documentation regarding misstatements identified during audit",
+   "4. WRITTEN REPRESENTATIONS",
+   "4.1 Written representations as audit evidence",
+   "4.2 SA 580- Written Representations",
+   "4.3 Objectives of auditor in accordance with SA 580",
+   "4.4 From whom Written representations are requested by auditor?",
+   "4.5 Written representations about management’s responsibilities",
+   "4.6 Why Written representations about management responsibilities are necessary?",
+   "4.7 Description of management’s responsibilities in the Written representations",
+   "4.8 Other Written representations",
+   "4.9 Additional Written representations about information provided to the auditor",
+   "4.10 Written representations about specific assertions",
+   "4.11 Date of and Period(s) covered by Written Representations",
+   "4.12 Form of Written representations",
+   "4.13 Doubt as to the reliability of Written representations",
+   "4.14 Requested Written representations not provided",
+   "4.15 Disclaimer of opinion in case of non-reliability of Written Representations about management’s responsibilities or failure to provide such Written Representations",
+   "5. SIGNIFICANCE OF COMMUNICATION WITH THOSE CHARGED WITH GOVERNANCE",
+   "5.1 Who are “Those charged with governance”?",
+   "5.2 Scope of SA 260- Communication with Those Charged with Governance",
+   "5.3 Objectives of auditor in accordance with SA 260",
+   "5.4 Determining appropriate persons with whom to communicate",
+   "5.5 Matters to be communicated by auditor",
+   "5.6 Communication of auditor’s independence in case of listed entities",
+   "5.7 The Communication process",
+   "5.8 Adequacy of the communication process",
+   "5.9 Documentation",
+   "6. WHY COMMUNICATION OF SIGNIFICANT DEFICIENCIES IN INTERNAL CONTROL IS NECESSARY?",
+   "6.1 Scope of SA 265- Communicating Deficiencies in Internal Control to Those Charged with Governance and Management",
+   "6.2 Objective of auditor in accordance with SA 265",
+   "6.3 Meaning of “Deficiency in internal control” and “significant deficiency in internal control”",
+   "6.4 Determination of significant deficiencies in internal control",
+   "6.5 Communication of significant deficiencies in internal control to those charged with governance",
+   "CASE STUDY",
+   "Answers to MCQs involving case study",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "ANSWERS/SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Questions involving Descriptive Questions",
+   "Answers to Questions involving Test Your Understanding"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "7.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "7.2",
+    "numbered": false
+   },
+   {
+    "h": "1. SUBSEQUENT EVENTS",
+    "level": 1,
+    "page": 4,
+    "printed": "7.4",
+    "numbered": true
+   },
+   {
+    "h": "1.1 SA 560 Subsequent Events",
+    "level": 2,
+    "page": 5,
+    "printed": "7.5",
+    "numbered": true
+   },
+   {
+    "h": "1.2 Objectives of auditor in accordance with SA 560",
+    "level": 2,
+    "page": 5,
+    "printed": "7.5",
+    "numbered": true
+   },
+   {
+    "h": "1.3 Audit procedures relating to events occurring between the date of the financial statements and the date of the auditor’s report",
+    "level": 2,
+    "page": 6,
+    "printed": "7.6",
+    "numbered": true
+   },
+   {
+    "h": "1.4 Facts which become known to the auditor after the date of the auditor’s report but before the date the financial statements are issued",
+    "level": 2,
+    "page": 7,
+    "printed": "7.7",
+    "numbered": true
+   },
+   {
+    "h": "1.5 Facts which become known to the auditor after the financial statements have been issued",
+    "level": 2,
+    "page": 9,
+    "printed": "7.9",
+    "numbered": true
+   },
+   {
+    "h": "2. MEANING OF GOING CONCERN AND ITS SIGNIFICANCE",
+    "level": 1,
+    "page": 13,
+    "printed": "7.13",
+    "numbered": true
+   },
+   {
+    "h": "2.1 SA 570 Going Concern",
+    "level": 2,
+    "page": 14,
+    "printed": "7.14",
+    "numbered": true
+   },
+   {
+    "h": "2.2 Responsibility for assessment of the entity’s ability to continue as a going concern",
+    "level": 2,
+    "page": 14,
+    "printed": "7.14",
+    "numbered": true
+   },
+   {
+    "h": "2.3 Responsibilities of the auditor",
+    "level": 2,
+    "page": 15,
+    "printed": "7.15",
+    "numbered": true
+   },
+   {
+    "h": "2.4 Objectives of auditor in accordance with SA 570",
+    "level": 2,
+    "page": 15,
+    "printed": "7.15",
+    "numbered": true
+   },
+   {
+    "h": "2.5 Risk assessment procedures and related activities",
+    "level": 2,
+    "page": 16,
+    "printed": "7.16",
+    "numbered": true
+   },
+   {
+    "h": "2.6 Evaluating management’s assessment",
+    "level": 2,
+    "page": 18,
+    "printed": "7.18",
+    "numbered": true
+   },
+   {
+    "h": "2.7 Additional audit procedures when events or conditions are identified",
+    "level": 2,
+    "page": 19,
+    "printed": "7.19",
+    "numbered": true
+   },
+   {
+    "h": "2.8 Auditor’s conclusions",
+    "level": 2,
+    "page": 20,
+    "printed": "7.20",
+    "numbered": true
+   },
+   {
+    "h": "2.9 Adequacy of disclosures when events or conditions have been identified and a material uncertainty exists",
+    "level": 2,
+    "page": 21,
+    "printed": "7.21",
+    "numbered": true
+   },
+   {
+    "h": "2.10 Adequacy of disclosures when events or conditions have been identified but no material uncertainty exists",
+    "level": 2,
+    "page": 21,
+    "printed": "7.21",
+    "numbered": true
+   },
+   {
+    "h": "2.11 Implications for the auditor’s report",
+    "level": 2,
+    "page": 21,
+    "printed": "7.21",
+    "numbered": true
+   },
+   {
+    "h": "3. EVALUATION OF MISSTATEMENTS IDENTIFIED DURING THE AUDIT",
+    "level": 1,
+    "page": 23,
+    "printed": "7.23",
+    "numbered": true
+   },
+   {
+    "h": "3.1 SA 450 Evaluation of Misstatements Identified during the Audit",
+    "level": 2,
+    "page": 24,
+    "printed": "7.24",
+    "numbered": true
+   },
+   {
+    "h": "3.2 Objectives of auditor in accordance with SA 450",
+    "level": 2,
+    "page": 24,
+    "printed": "7.24",
+    "numbered": true
+   },
+   {
+    "h": "3.3 Accumulation of misstatements identified during the audit",
+    "level": 2,
+    "page": 24,
+    "printed": "7.24",
+    "numbered": true
+   },
+   {
+    "h": "3.4 Consideration of identified misstatements as the audit progresses",
+    "level": 2,
+    "page": 24,
+    "printed": "7.24",
+    "numbered": true
+   },
+   {
+    "h": "3.5 Communication and correction of misstatements",
+    "level": 2,
+    "page": 25,
+    "printed": "7.25",
+    "numbered": true
+   },
+   {
+    "h": "3.6 Evaluating the effect of uncorrected misstatements",
+    "level": 2,
+    "page": 25,
+    "printed": "7.25",
+    "numbered": true
+   },
+   {
+    "h": "3.7 Communication with those charged with governance",
+    "level": 2,
+    "page": 26,
+    "printed": "7.26",
+    "numbered": true
+   },
+   {
+    "h": "3.8 Written Representation from management regarding effects of uncorrected statements",
+    "level": 2,
+    "page": 26,
+    "printed": "7.26",
+    "numbered": true
+   },
+   {
+    "h": "3.9 Documentation regarding misstatements identified during audit",
+    "level": 2,
+    "page": 27,
+    "printed": "7.27",
+    "numbered": true
+   },
+   {
+    "h": "4. WRITTEN REPRESENTATIONS",
+    "level": 1,
+    "page": 28,
+    "printed": "7.28",
+    "numbered": true
+   },
+   {
+    "h": "4.1 Written representations as audit evidence",
+    "level": 2,
+    "page": 29,
+    "printed": "7.29",
+    "numbered": true
+   },
+   {
+    "h": "4.2 SA 580- Written Representations",
+    "level": 2,
+    "page": 29,
+    "printed": "7.29",
+    "numbered": true
+   },
+   {
+    "h": "4.3 Objectives of auditor in accordance with SA 580",
+    "level": 2,
+    "page": 29,
+    "printed": "7.29",
+    "numbered": true
+   },
+   {
+    "h": "4.4 From whom Written representations are requested by auditor?",
+    "level": 2,
+    "page": 30,
+    "printed": "7.30",
+    "numbered": true
+   },
+   {
+    "h": "4.5 Written representations about management’s responsibilities",
+    "level": 2,
+    "page": 30,
+    "printed": "7.30",
+    "numbered": true
+   },
+   {
+    "h": "4.6 Why Written representations about management responsibilities are necessary?",
+    "level": 2,
+    "page": 32,
+    "printed": "7.32",
+    "numbered": true
+   },
+   {
+    "h": "4.7 Description of management’s responsibilities in the Written representations",
+    "level": 2,
+    "page": 32,
+    "printed": "7.32",
+    "numbered": true
+   },
+   {
+    "h": "4.8 Other Written representations",
+    "level": 2,
+    "page": 33,
+    "printed": "7.33",
+    "numbered": true
+   },
+   {
+    "h": "4.9 Additional Written representations about information provided to the auditor",
+    "level": 2,
+    "page": 33,
+    "printed": "7.33",
+    "numbered": true
+   },
+   {
+    "h": "4.10 Written representations about specific assertions",
+    "level": 2,
+    "page": 34,
+    "printed": "7.34",
+    "numbered": true
+   },
+   {
+    "h": "4.11 Date of and Period(s) covered by Written Representations",
+    "level": 2,
+    "page": 34,
+    "printed": "7.34",
+    "numbered": true
+   },
+   {
+    "h": "4.12 Form of Written representations",
+    "level": 2,
+    "page": 35,
+    "printed": "7.35",
+    "numbered": true
+   },
+   {
+    "h": "4.13 Doubt as to the reliability of Written representations",
+    "level": 2,
+    "page": 37,
+    "printed": "7.37",
+    "numbered": true
+   },
+   {
+    "h": "4.14 Requested Written representations not provided",
+    "level": 2,
+    "page": 38,
+    "printed": "7.38",
+    "numbered": true
+   },
+   {
+    "h": "4.15 Disclaimer of opinion in case of non-reliability of Written Representations about management’s responsibilities or failure to provide such Written Representations",
+    "level": 2,
+    "page": 38,
+    "printed": "7.38",
+    "numbered": true
+   },
+   {
+    "h": "5. SIGNIFICANCE OF COMMUNICATION WITH THOSE CHARGED WITH GOVERNANCE",
+    "level": 1,
+    "page": 39,
+    "printed": "7.39",
+    "numbered": true
+   },
+   {
+    "h": "5.1 Who are “Those charged with governance”?",
+    "level": 2,
+    "page": 40,
+    "printed": "7.40",
+    "numbered": true
+   },
+   {
+    "h": "5.2 Scope of SA 260- Communication with Those Charged with Governance",
+    "level": 2,
+    "page": 41,
+    "printed": "7.41",
+    "numbered": true
+   },
+   {
+    "h": "5.3 Objectives of auditor in accordance with SA 260",
+    "level": 2,
+    "page": 41,
+    "printed": "7.41",
+    "numbered": true
+   },
+   {
+    "h": "5.4 Determining appropriate persons with whom to communicate",
+    "level": 2,
+    "page": 42,
+    "printed": "7.42",
+    "numbered": true
+   },
+   {
+    "h": "5.5 Matters to be communicated by auditor",
+    "level": 2,
+    "page": 42,
+    "printed": "7.42",
+    "numbered": true
+   },
+   {
+    "h": "5.6 Communication of auditor’s independence in case of listed entities",
+    "level": 2,
+    "page": 43,
+    "printed": "7.43",
+    "numbered": true
+   },
+   {
+    "h": "5.7 The Communication process",
+    "level": 2,
+    "page": 44,
+    "printed": "7.44",
+    "numbered": true
+   },
+   {
+    "h": "5.8 Adequacy of the communication process",
+    "level": 2,
+    "page": 44,
+    "printed": "7.44",
+    "numbered": true
+   },
+   {
+    "h": "5.9 Documentation",
+    "level": 2,
+    "page": 45,
+    "printed": "7.45",
+    "numbered": true
+   },
+   {
+    "h": "6. WHY COMMUNICATION OF SIGNIFICANT DEFICIENCIES IN INTERNAL CONTROL IS NECESSARY?",
+    "level": 1,
+    "page": 45,
+    "printed": "7.45",
+    "numbered": true
+   },
+   {
+    "h": "6.1 Scope of SA 265- Communicating Deficiencies in Internal Control to Those Charged with Governance and Management",
+    "level": 2,
+    "page": 46,
+    "printed": "7.46",
+    "numbered": true
+   },
+   {
+    "h": "6.2 Objective of auditor in accordance with SA 265",
+    "level": 2,
+    "page": 46,
+    "printed": "7.46",
+    "numbered": true
+   },
+   {
+    "h": "6.3 Meaning of “Deficiency in internal control” and “significant deficiency in internal control”",
+    "level": 2,
+    "page": 46,
+    "printed": "7.46",
+    "numbered": true
+   },
+   {
+    "h": "6.4 Determination of significant deficiencies in internal control",
+    "level": 2,
+    "page": 48,
+    "printed": "7.48",
+    "numbered": true
+   },
+   {
+    "h": "6.5 Communication of significant deficiencies in internal control to those charged with governance",
+    "level": 2,
+    "page": 49,
+    "printed": "7.49",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY",
+    "level": 1,
+    "page": 50,
+    "printed": "7.50",
+    "numbered": false
+   },
+   {
+    "h": "Answers to MCQs involving case study",
+    "level": 1,
+    "page": 53,
+    "printed": "7.53",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 53,
+    "printed": "7.53",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 55,
+    "printed": "7.55",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/SOLUTIONS",
+    "level": 1,
+    "page": 57,
+    "printed": "7.57",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 57,
+    "printed": "7.57",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Descriptive Questions",
+    "level": 1,
+    "page": 57,
+    "printed": "7.57",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test Your Understanding",
+    "level": 1,
+    "page": 57,
+    "printed": "7.57",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [],
+  "text_fixes": [],
+  "ocr_supplement_pages": []
+ },
+ {
+  "ch": 8,
+  "title": "Audit Report",
+  "module": 2,
+  "pdf": "pdf/ch08.pdf",
+  "pages": [
+   1,
+   102
+  ],
+  "printed": [
+   "8.1",
+   "8.102"
+  ],
+  "txt": "txt/08-audit-report.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. FORMING AN OPINION AND REPORTING ON FINANCIAL STATEMENTS",
+   "1.1 Objective of the Auditor",
+   "1.2 To Form Opinion – Auditor to Obtain Reasonable Assurance",
+   "1.3 Evaluations by the Auditor",
+   "1.3.1 Qualitative Aspects of the Entity’s Accounting Practices",
+   "1.4 Specific Evaluations by the Auditor",
+   "1.5 Definitions",
+   "2. FORM OF OPINION",
+   "3. AUDITOR’S REPORT",
+   "3.1 Auditor’s Report for Audits Conducted in Accordance with Standards on Auditing",
+   "4. AUDITOR’S REPORT PRESCRIBED BY LAW OR REGULATION",
+   "5. MODIFICATIONS TO THE OPINION IN THE INDEPENDENT AUDITOR’S REPORT",
+   "5.1 Circumstances When a Modification to the Auditor’s Opinion Is Required",
+   "5.2 Objective of the Auditor- To Express Clearly an Appropriately Modified Opinion",
+   "5.3 Types of Modified Opinions:",
+   "5.4 Which type of opinion is appropriate?",
+   "5.5 Consequence of an Inability to Obtain Sufficient Appropriate Audit Evidence Due to a Management- Imposed Limitation after the Auditor Has Accepted the Engagement",
+   "5.6 Form and Content of the Auditor’s Report When the Opinion is Modified",
+   "5.7 Basis for Opinion",
+   "5.8 Description of Auditor’s Responsibilities for the Audit of the Financial Statements When the Auditor Disclaims an Opinion on the Financial Statements",
+   "5.9 Considerations When the Auditor Disclaims an Opinion on the Financial Statements",
+   "5.10 Communication with Those Charged with Governance",
+   "6. EMPHASIS OF MATTER PARAGRAPHS AND OTHER MATTER PARAGRAPHS IN THE INDEPENDENT AUDITOR’S REPORT.",
+   "6.1 Objective of the Auditor as per SA 706",
+   "6.2 Emphasis of Matter Paragraphs in the Auditor’s Report",
+   "6.2.1 Separate section for Emphasis of Matter paragraph",
+   "6.3 The inclusion of an Emphasis of Matter paragraph in the auditor’s report does not affect the auditor’s opinion",
+   "6.4 Other Matter Paragraphs in the Auditor’s Report",
+   "6.4.1 Separate section for Other Matter paragraph",
+   "6.5 Communication with Those Charged with Governance",
+   "7. COMMUNICATING KEY AUDIT MATTERS IN THE INDEPENDENT AUDITOR’S REPORT (SA 701)",
+   "7.1 Purpose of Communicating Key Audit Matters",
+   "7.2 Objectives of the Auditor regarding Key Audit Matters",
+   "7.3 Determining Key Audit Matters",
+   "7.4 Communicating Key Audit Matters",
+   "7.5 Communicating Key Audit Matters- not a substitute for disclosure in the Financial Statements etc.",
+   "7.6 Communication with Those Charged with Governance",
+   "8. STANDARD ON AUDITING - 710, “COMPARATIVE INFORMATION - CORRESPONDING FIGURES AND COMPARATIVE FINANCIAL STATEMENTS”",
+   "8.1 The Nature of the Comparative Information",
+   "8.2 Audit Procedures regarding comparative information",
+   "8.3 Audit Reporting regarding Corresponding Figures",
+   "8.4 Comparative Financial Statements",
+   "9. AUDIT OF BRANCH OFFICE ACCOUNTS",
+   "10. JOINT AUDIT",
+   "11. REPORTING REQUIREMENTS UNDER THE COMPANIES ACT, 2013",
+   "12. REPORTING UNDER COMPANIES AUDITOR’S REPORT ORDER, 2020 [CARO, 2020]",
+   "CASE STUDY",
+   "Answers to Questions involving case study",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS/SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Correct/Incorrect",
+   "Answers to Theoretical Questions",
+   "Answers to Test your Understanding"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "8.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "8.2",
+    "numbered": false
+   },
+   {
+    "h": "1. FORMING AN OPINION AND REPORTING ON FINANCIAL STATEMENTS",
+    "level": 1,
+    "page": 4,
+    "printed": "8.4",
+    "numbered": true
+   },
+   {
+    "h": "1.1 Objective of the Auditor",
+    "level": 2,
+    "page": 4,
+    "printed": "8.4",
+    "numbered": true
+   },
+   {
+    "h": "1.2 To Form Opinion – Auditor to Obtain Reasonable Assurance",
+    "level": 2,
+    "page": 5,
+    "printed": "8.5",
+    "numbered": true
+   },
+   {
+    "h": "1.3 Evaluations by the Auditor",
+    "level": 2,
+    "page": 5,
+    "printed": "8.5",
+    "numbered": true
+   },
+   {
+    "h": "1.3.1 Qualitative Aspects of the Entity’s Accounting Practices",
+    "level": 3,
+    "page": 5,
+    "printed": "8.5",
+    "numbered": true
+   },
+   {
+    "h": "1.4 Specific Evaluations by the Auditor",
+    "level": 2,
+    "page": 6,
+    "printed": "8.6",
+    "numbered": true
+   },
+   {
+    "h": "1.5 Definitions",
+    "level": 2,
+    "page": 7,
+    "printed": "8.7",
+    "numbered": true
+   },
+   {
+    "h": "2. FORM OF OPINION",
+    "level": 1,
+    "page": 8,
+    "printed": "8.8",
+    "numbered": true
+   },
+   {
+    "h": "3. AUDITOR’S REPORT",
+    "level": 1,
+    "page": 9,
+    "printed": "8.9",
+    "numbered": true
+   },
+   {
+    "h": "3.1 Auditor’s Report for Audits Conducted in Accordance with Standards on Auditing",
+    "level": 2,
+    "page": 9,
+    "printed": "8.9",
+    "numbered": true
+   },
+   {
+    "h": "4. AUDITOR’S REPORT PRESCRIBED BY LAW OR REGULATION",
+    "level": 1,
+    "page": 24,
+    "printed": "8.24",
+    "numbered": true
+   },
+   {
+    "h": "5. MODIFICATIONS TO THE OPINION IN THE INDEPENDENT AUDITOR’S REPORT",
+    "level": 1,
+    "page": 34,
+    "printed": "8.34",
+    "numbered": true
+   },
+   {
+    "h": "5.1 Circumstances When a Modification to the Auditor’s Opinion Is Required",
+    "level": 2,
+    "page": 34,
+    "printed": "8.34",
+    "numbered": true
+   },
+   {
+    "h": "5.2 Objective of the Auditor- To Express Clearly an Appropriately Modified Opinion",
+    "level": 2,
+    "page": 35,
+    "printed": "8.35",
+    "numbered": true
+   },
+   {
+    "h": "5.3 Types of Modified Opinions:",
+    "level": 2,
+    "page": 35,
+    "printed": "8.35",
+    "numbered": true
+   },
+   {
+    "h": "5.4 Which type of opinion is appropriate?",
+    "level": 2,
+    "page": 39,
+    "printed": "8.39",
+    "numbered": true
+   },
+   {
+    "h": "5.5 Consequence of an Inability to Obtain Sufficient Appropriate Audit Evidence Due to a Management- Imposed Limitation after the Auditor Has Accepted the Engagement",
+    "level": 2,
+    "page": 40,
+    "printed": "8.40",
+    "numbered": true
+   },
+   {
+    "h": "5.6 Form and Content of the Auditor’s Report When the Opinion is Modified",
+    "level": 2,
+    "page": 43,
+    "printed": "8.43",
+    "numbered": true
+   },
+   {
+    "h": "5.7 Basis for Opinion",
+    "level": 2,
+    "page": 44,
+    "printed": "8.44",
+    "numbered": true
+   },
+   {
+    "h": "5.8 Description of Auditor’s Responsibilities for the Audit of the Financial Statements When the Auditor Disclaims an Opinion on the Financial Statements",
+    "level": 2,
+    "page": 46,
+    "printed": "8.46",
+    "numbered": true
+   },
+   {
+    "h": "5.9 Considerations When the Auditor Disclaims an Opinion on the Financial Statements",
+    "level": 2,
+    "page": 47,
+    "printed": "8.47",
+    "numbered": true
+   },
+   {
+    "h": "5.10 Communication with Those Charged with Governance",
+    "level": 2,
+    "page": 47,
+    "printed": "8.47",
+    "numbered": true
+   },
+   {
+    "h": "6. EMPHASIS OF MATTER PARAGRAPHS AND OTHER MATTER PARAGRAPHS IN THE INDEPENDENT AUDITOR’S REPORT.",
+    "level": 1,
+    "page": 47,
+    "printed": "8.47",
+    "numbered": true
+   },
+   {
+    "h": "6.1 Objective of the Auditor as per SA 706",
+    "level": 2,
+    "page": 48,
+    "printed": "8.48",
+    "numbered": true
+   },
+   {
+    "h": "6.2 Emphasis of Matter Paragraphs in the Auditor’s Report",
+    "level": 2,
+    "page": 49,
+    "printed": "8.49",
+    "numbered": true
+   },
+   {
+    "h": "6.2.1 Separate section for Emphasis of Matter paragraph",
+    "level": 3,
+    "page": 49,
+    "printed": "8.49",
+    "numbered": true
+   },
+   {
+    "h": "6.3 The inclusion of an Emphasis of Matter paragraph in the auditor’s report does not affect the auditor’s opinion",
+    "level": 2,
+    "page": 50,
+    "printed": "8.50",
+    "numbered": true
+   },
+   {
+    "h": "6.4 Other Matter Paragraphs in the Auditor’s Report",
+    "level": 2,
+    "page": 51,
+    "printed": "8.51",
+    "numbered": true
+   },
+   {
+    "h": "6.4.1 Separate section for Other Matter paragraph",
+    "level": 3,
+    "page": 51,
+    "printed": "8.51",
+    "numbered": true
+   },
+   {
+    "h": "6.5 Communication with Those Charged with Governance",
+    "level": 2,
+    "page": 51,
+    "printed": "8.51",
+    "numbered": true
+   },
+   {
+    "h": "7. COMMUNICATING KEY AUDIT MATTERS IN THE INDEPENDENT AUDITOR’S REPORT (SA 701)",
+    "level": 1,
+    "page": 51,
+    "printed": "8.51",
+    "numbered": true
+   },
+   {
+    "h": "7.1 Purpose of Communicating Key Audit Matters",
+    "level": 2,
+    "page": 52,
+    "printed": "8.52",
+    "numbered": true
+   },
+   {
+    "h": "7.2 Objectives of the Auditor regarding Key Audit Matters",
+    "level": 2,
+    "page": 52,
+    "printed": "8.52",
+    "numbered": true
+   },
+   {
+    "h": "7.3 Determining Key Audit Matters",
+    "level": 2,
+    "page": 52,
+    "printed": "8.52",
+    "numbered": true
+   },
+   {
+    "h": "7.4 Communicating Key Audit Matters",
+    "level": 2,
+    "page": 53,
+    "printed": "8.53",
+    "numbered": true
+   },
+   {
+    "h": "7.5 Communicating Key Audit Matters- not a substitute for disclosure in the Financial Statements etc.",
+    "level": 2,
+    "page": 54,
+    "printed": "8.54",
+    "numbered": true
+   },
+   {
+    "h": "7.6 Communication with Those Charged with Governance",
+    "level": 2,
+    "page": 54,
+    "printed": "8.54",
+    "numbered": true
+   },
+   {
+    "h": "8. STANDARD ON AUDITING - 710, “COMPARATIVE INFORMATION - CORRESPONDING FIGURES AND COMPARATIVE FINANCIAL STATEMENTS”",
+    "level": 1,
+    "page": 57,
+    "printed": "8.57",
+    "numbered": true
+   },
+   {
+    "h": "8.1 The Nature of the Comparative Information",
+    "level": 2,
+    "page": 57,
+    "printed": "8.57",
+    "numbered": true
+   },
+   {
+    "h": "8.2 Audit Procedures regarding comparative information",
+    "level": 2,
+    "page": 58,
+    "printed": "8.58",
+    "numbered": true
+   },
+   {
+    "h": "8.3 Audit Reporting regarding Corresponding Figures",
+    "level": 2,
+    "page": 59,
+    "printed": "8.59",
+    "numbered": true
+   },
+   {
+    "h": "8.4 Comparative Financial Statements",
+    "level": 2,
+    "page": 61,
+    "printed": "8.61",
+    "numbered": true
+   },
+   {
+    "h": "9. AUDIT OF BRANCH OFFICE ACCOUNTS",
+    "level": 1,
+    "page": 62,
+    "printed": "8.62",
+    "numbered": true
+   },
+   {
+    "h": "10. JOINT AUDIT",
+    "level": 1,
+    "page": 65,
+    "printed": "8.65",
+    "numbered": true
+   },
+   {
+    "h": "11. REPORTING REQUIREMENTS UNDER THE COMPANIES ACT, 2013",
+    "level": 1,
+    "page": 68,
+    "printed": "8.68",
+    "numbered": true
+   },
+   {
+    "h": "12. REPORTING UNDER COMPANIES AUDITOR’S REPORT ORDER, 2020 [CARO, 2020]",
+    "level": 1,
+    "page": 73,
+    "printed": "8.73",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY",
+    "level": 1,
+    "page": 83,
+    "printed": "8.83",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving case study",
+    "level": 1,
+    "page": 85,
+    "printed": "8.85",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 85,
+    "printed": "8.85",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 87,
+    "printed": "8.87",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 89,
+    "printed": "8.89",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/SOLUTIONS",
+    "level": 1,
+    "page": 91,
+    "printed": "8.91",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 91,
+    "printed": "8.91",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect",
+    "level": 1,
+    "page": 91,
+    "printed": "8.91",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Theoretical Questions",
+    "level": 1,
+    "page": 92,
+    "printed": "8.92",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Test your Understanding",
+    "level": 1,
+    "page": 100,
+    "printed": "8.100",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [],
+  "text_fixes": [],
+  "ocr_supplement_pages": [
+   2,
+   9,
+   34
+  ]
+ },
+ {
+  "ch": 9,
+  "title": "Special Features of Audit of Different Type of Entities",
+  "module": 2,
+  "pdf": "pdf/ch09.pdf",
+  "pages": [
+   1,
+   94
+  ],
+  "printed": [
+   "9.1",
+   "9.94"
+  ],
+  "txt": "txt/09-special-features-of-audit-of-different-type-of-entities.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. GOVERNMENT AUDIT",
+   "1.1 Background",
+   "1.2 Legal Framework and Comptroller & Auditor General",
+   "1.3 Comptroller and Auditor General’s — Duties and Powers",
+   "1.4 Expenditure Audit",
+   "1.5 Audit of Receipts",
+   "1.6 Audit of Stores and Inventories",
+   "1.7 Audit of Commercial Accounts",
+   "1.8 Reporting Procedures",
+   "2. AUDIT OF LOCAL BODIES",
+   "2.1 Background",
+   "2.2 Financial Administration",
+   "2.3 Objective of Audit of Local Bodies",
+   "2.4 Audit Programme for Local Bodies",
+   "3. AUDIT OF NON - GOVERNMENTAL ORGANISATION (NGO’S)",
+   "3.1 Background",
+   "3.2 Sources and Applications of Funds",
+   "3.3 Provisions Relating to Audit",
+   "4. AUDIT OF SOLE TRADER",
+   "5. AUDIT OF FIRM",
+   "5.1 Basics of Limited Liability Partnerships (LLP) Audit",
+   "6. AUDIT OF CHARITABLE INSTITUTION",
+   "7. AUDIT OF EDUCATIONAL INSTITUTIONS (SCHOOL, COLLEGE OR UNIVERSITY)",
+   "8. AUDIT OF HOSPITAL",
+   "9. AUDIT OF CLUB",
+   "10. AUDIT OF CINEMA",
+   "11. AUDIT OF HIRE PURCHASE AND LEASING COMPANIES",
+   "12. AUDIT OF HOTELS",
+   "13. AUDIT OF CO-OPERATIVE SOCIETIES",
+   "13.1 Background",
+   "13.2 Audit as per Section 17 of the Co-Operative Societies Act, 1912",
+   "13.3 Special Features of Co-Operative Audit",
+   "13.4 Audit, Inquiry and Inspection of Multi-State Co-Operative Societies",
+   "13.4.1 Audit of Multi-State Co-operative Society –",
+   "13.4.2 Inquiry by Central Registrar under Section 78",
+   "13.5.3 Inspection of Multi-State Co-operative societies under Section 79",
+   "14. AUDIT OF TRUSTS & SOCIETIES",
+   "CASE STUDY",
+   "Answers to Questions involving case study",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS / SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Correct/Incorrect:-",
+   "Answers to the Theoretical Questions",
+   "Answers to Questions involving Test your Understanding:"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "9.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "9.2",
+    "numbered": false
+   },
+   {
+    "h": "1. GOVERNMENT AUDIT",
+    "level": 1,
+    "page": 5,
+    "printed": "9.5",
+    "numbered": true
+   },
+   {
+    "h": "1.1 Background",
+    "level": 2,
+    "page": 5,
+    "printed": "9.5",
+    "numbered": true
+   },
+   {
+    "h": "1.2 Legal Framework and Comptroller & Auditor General",
+    "level": 2,
+    "page": 7,
+    "printed": "9.7",
+    "numbered": true
+   },
+   {
+    "h": "1.3 Comptroller and Auditor General’s — Duties and Powers",
+    "level": 2,
+    "page": 8,
+    "printed": "9.8",
+    "numbered": true
+   },
+   {
+    "h": "1.4 Expenditure Audit",
+    "level": 2,
+    "page": 11,
+    "printed": "9.11",
+    "numbered": true
+   },
+   {
+    "h": "1.5 Audit of Receipts",
+    "level": 2,
+    "page": 16,
+    "printed": "9.16",
+    "numbered": true
+   },
+   {
+    "h": "1.6 Audit of Stores and Inventories",
+    "level": 2,
+    "page": 17,
+    "printed": "9.17",
+    "numbered": true
+   },
+   {
+    "h": "1.7 Audit of Commercial Accounts",
+    "level": 2,
+    "page": 18,
+    "printed": "9.18",
+    "numbered": true
+   },
+   {
+    "h": "1.8 Reporting Procedures",
+    "level": 2,
+    "page": 21,
+    "printed": "9.21",
+    "numbered": true
+   },
+   {
+    "h": "2. AUDIT OF LOCAL BODIES",
+    "level": 1,
+    "page": 22,
+    "printed": "9.22",
+    "numbered": true
+   },
+   {
+    "h": "2.1 Background",
+    "level": 2,
+    "page": 22,
+    "printed": "9.22",
+    "numbered": true
+   },
+   {
+    "h": "2.2 Financial Administration",
+    "level": 2,
+    "page": 24,
+    "printed": "9.24",
+    "numbered": true
+   },
+   {
+    "h": "2.3 Objective of Audit of Local Bodies",
+    "level": 2,
+    "page": 25,
+    "printed": "9.25",
+    "numbered": true
+   },
+   {
+    "h": "2.4 Audit Programme for Local Bodies",
+    "level": 2,
+    "page": 26,
+    "printed": "9.26",
+    "numbered": true
+   },
+   {
+    "h": "3. AUDIT OF NON - GOVERNMENTAL ORGANISATION (NGO’S)",
+    "level": 1,
+    "page": 27,
+    "printed": "9.27",
+    "numbered": true
+   },
+   {
+    "h": "3.1 Background",
+    "level": 2,
+    "page": 27,
+    "printed": "9.27",
+    "numbered": true
+   },
+   {
+    "h": "3.2 Sources and Applications of Funds",
+    "level": 2,
+    "page": 28,
+    "printed": "9.28",
+    "numbered": true
+   },
+   {
+    "h": "3.3 Provisions Relating to Audit",
+    "level": 2,
+    "page": 29,
+    "printed": "9.29",
+    "numbered": true
+   },
+   {
+    "h": "4. AUDIT OF SOLE TRADER",
+    "level": 1,
+    "page": 32,
+    "printed": "9.32",
+    "numbered": true
+   },
+   {
+    "h": "5. AUDIT OF FIRM",
+    "level": 1,
+    "page": 33,
+    "printed": "9.33",
+    "numbered": true
+   },
+   {
+    "h": "5.1 Basics of Limited Liability Partnerships (LLP) Audit",
+    "level": 2,
+    "page": 37,
+    "printed": "9.37",
+    "numbered": true
+   },
+   {
+    "h": "6. AUDIT OF CHARITABLE INSTITUTION",
+    "level": 1,
+    "page": 40,
+    "printed": "9.40",
+    "numbered": true
+   },
+   {
+    "h": "7. AUDIT OF EDUCATIONAL INSTITUTIONS (SCHOOL, COLLEGE OR UNIVERSITY)",
+    "level": 1,
+    "page": 43,
+    "printed": "9.43",
+    "numbered": true
+   },
+   {
+    "h": "8. AUDIT OF HOSPITAL",
+    "level": 1,
+    "page": 46,
+    "printed": "9.46",
+    "numbered": true
+   },
+   {
+    "h": "9. AUDIT OF CLUB",
+    "level": 1,
+    "page": 48,
+    "printed": "9.48",
+    "numbered": true
+   },
+   {
+    "h": "10. AUDIT OF CINEMA",
+    "level": 1,
+    "page": 49,
+    "printed": "9.49",
+    "numbered": true
+   },
+   {
+    "h": "11. AUDIT OF HIRE PURCHASE AND LEASING COMPANIES",
+    "level": 1,
+    "page": 51,
+    "printed": "9.51",
+    "numbered": true
+   },
+   {
+    "h": "12. AUDIT OF HOTELS",
+    "level": 1,
+    "page": 56,
+    "printed": "9.56",
+    "numbered": true
+   },
+   {
+    "h": "13. AUDIT OF CO-OPERATIVE SOCIETIES",
+    "level": 1,
+    "page": 59,
+    "printed": "9.59",
+    "numbered": true
+   },
+   {
+    "h": "13.1 Background",
+    "level": 2,
+    "page": 59,
+    "printed": "9.59",
+    "numbered": true
+   },
+   {
+    "h": "13.2 Audit as per Section 17 of the Co-Operative Societies Act, 1912",
+    "level": 2,
+    "page": 60,
+    "printed": "9.60",
+    "numbered": true
+   },
+   {
+    "h": "13.3 Special Features of Co-Operative Audit",
+    "level": 2,
+    "page": 64,
+    "printed": "9.64",
+    "numbered": true
+   },
+   {
+    "h": "13.4 Audit, Inquiry and Inspection of Multi-State Co-Operative Societies",
+    "level": 2,
+    "page": 67,
+    "printed": "9.67",
+    "numbered": true
+   },
+   {
+    "h": "13.4.1 Audit of Multi-State Co-operative Society –",
+    "level": 3,
+    "page": 68,
+    "printed": "9.68",
+    "numbered": true
+   },
+   {
+    "h": "13.4.2 Inquiry by Central Registrar under Section 78",
+    "level": 3,
+    "page": 72,
+    "printed": "9.72",
+    "numbered": true
+   },
+   {
+    "h": "13.5.3 Inspection of Multi-State Co-operative societies under Section 79",
+    "level": 3,
+    "page": 73,
+    "printed": "9.73",
+    "numbered": true
+   },
+   {
+    "h": "14. AUDIT OF TRUSTS & SOCIETIES",
+    "level": 1,
+    "page": 75,
+    "printed": "9.75",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY",
+    "level": 1,
+    "page": 80,
+    "printed": "9.80",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving case study",
+    "level": 1,
+    "page": 82,
+    "printed": "9.82",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 83,
+    "printed": "9.83",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 84,
+    "printed": "9.84",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 86,
+    "printed": "9.86",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS / SOLUTIONS",
+    "level": 1,
+    "page": 88,
+    "printed": "9.88",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 88,
+    "printed": "9.88",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect:-",
+    "level": 1,
+    "page": 88,
+    "printed": "9.88",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the Theoretical Questions",
+    "level": 1,
+    "page": 90,
+    "printed": "9.90",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test your Understanding:",
+    "level": 1,
+    "page": 92,
+    "printed": "9.92",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [
+   79
+  ],
+  "text_fixes": [],
+  "ocr_supplement_pages": [
+   15,
+   27,
+   64,
+   68,
+   75
+  ]
+ },
+ {
+  "ch": 10,
+  "title": "Audit of Banks",
+  "module": 2,
+  "pdf": "pdf/ch10.pdf",
+  "pages": [
+   1,
+   60
+  ],
+  "printed": [
+   "10.1",
+   "10.60"
+  ],
+  "txt": "txt/10-audit-of-banks.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. UNDERSTANDING OF ACCOUNTING SYSTEM IN BANKS",
+   "2. BANK AUDIT APPROACH",
+   "3. INCOME RECOGNITION POLICY",
+   "4. FORM AND CONTENT OF FINANCIAL STATEMENTS",
+   "5. AUDIT OF ACCOUNTS",
+   "6. ELIGIBILITY, QUALIFICATIONS AND DISQUALIFICATIONS OF AUDITOR",
+   "7. APPOINTMENT OF AUDITOR",
+   "8. REMUNERATION OF AUDITOR",
+   "9. POWERS OF AUDITOR",
+   "10. AUDITOR’S REPORT",
+   "10.1 Format of Report",
+   "10.2 Long Form Audit Report",
+   "10.3 Reporting to RBI",
+   "11. CONDUCTING AN AUDIT",
+   "12. ADVANCES",
+   "12.1 What do ADVANCES comprise:",
+   "12.2 Legal requirements of Disclosure in the Balance Sheet:",
+   "12.3 Classification of Advances",
+   "12.3.1 Sector Wise",
+   "12.4 SECURITY WISE",
+   "12.5 Mode of Creation of Security",
+   "12.6 Prudential norms on Income Recognition, Asset Classification and Provisioning pertaining to Advances:",
+   "12.7 Accounts where there is erosion in the value of security / frauds committed by borrowers",
+   "12.8 Advances Against Term Deposits, NSCs, KVPs/ IVPs, etc.",
+   "12.10 Advances to Staff",
+   "12.9 Agricultural Advances Affected by Natural Calamities",
+   "12.11 Agricultural Advances",
+   "13. COMPUTATION OF DRAWING POWER",
+   "14 AUDIT OF ADVANCES",
+   "15. AUDIT OF REVENUE ITEMS - PROFIT AND LOSS ACCOUNT",
+   "15.1 Income",
+   "15.1.1 Audit Approach and Procedures",
+   "15.2 Expenses",
+   "15.2.1 Audit Approach and Procedures",
+   "15.3 Disclosure of the prior period items",
+   "CASE STUDY",
+   "Answers to Questions involving case study",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS/SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Correct/Incorrect",
+   "Answers to Theoretical Questions",
+   "Answers to Questions involving Test Your Understanding"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "10.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "10.2",
+    "numbered": false
+   },
+   {
+    "h": "1. UNDERSTANDING OF ACCOUNTING SYSTEM IN BANKS",
+    "level": 1,
+    "page": 8,
+    "printed": "10.8",
+    "numbered": true
+   },
+   {
+    "h": "2. BANK AUDIT APPROACH",
+    "level": 1,
+    "page": 9,
+    "printed": "10.9",
+    "numbered": true
+   },
+   {
+    "h": "3. INCOME RECOGNITION POLICY",
+    "level": 1,
+    "page": 11,
+    "printed": "10.11",
+    "numbered": true
+   },
+   {
+    "h": "4. FORM AND CONTENT OF FINANCIAL STATEMENTS",
+    "level": 1,
+    "page": 11,
+    "printed": "10.11",
+    "numbered": true
+   },
+   {
+    "h": "5. AUDIT OF ACCOUNTS",
+    "level": 1,
+    "page": 12,
+    "printed": "10.12",
+    "numbered": true
+   },
+   {
+    "h": "6. ELIGIBILITY, QUALIFICATIONS AND DISQUALIFICATIONS OF AUDITOR",
+    "level": 1,
+    "page": 12,
+    "printed": "10.12",
+    "numbered": true
+   },
+   {
+    "h": "7. APPOINTMENT OF AUDITOR",
+    "level": 1,
+    "page": 12,
+    "printed": "10.12",
+    "numbered": true
+   },
+   {
+    "h": "8. REMUNERATION OF AUDITOR",
+    "level": 1,
+    "page": 12,
+    "printed": "10.12",
+    "numbered": true
+   },
+   {
+    "h": "9. POWERS OF AUDITOR",
+    "level": 1,
+    "page": 13,
+    "printed": "10.13",
+    "numbered": true
+   },
+   {
+    "h": "10. AUDITOR’S REPORT",
+    "level": 1,
+    "page": 13,
+    "printed": "10.13",
+    "numbered": true
+   },
+   {
+    "h": "10.1 Format of Report",
+    "level": 2,
+    "page": 13,
+    "printed": "10.13",
+    "numbered": true
+   },
+   {
+    "h": "10.2 Long Form Audit Report",
+    "level": 2,
+    "page": 14,
+    "printed": "10.14",
+    "numbered": true
+   },
+   {
+    "h": "10.3 Reporting to RBI",
+    "level": 2,
+    "page": 14,
+    "printed": "10.14",
+    "numbered": true
+   },
+   {
+    "h": "11. CONDUCTING AN AUDIT",
+    "level": 1,
+    "page": 15,
+    "printed": "10.15",
+    "numbered": true
+   },
+   {
+    "h": "12. ADVANCES",
+    "level": 1,
+    "page": 21,
+    "printed": "10.21",
+    "numbered": true
+   },
+   {
+    "h": "12.1 What do ADVANCES comprise:",
+    "level": 2,
+    "page": 23,
+    "printed": "10.23",
+    "numbered": true
+   },
+   {
+    "h": "12.2 Legal requirements of Disclosure in the Balance Sheet:",
+    "level": 2,
+    "page": 23,
+    "printed": "10.23",
+    "numbered": true
+   },
+   {
+    "h": "12.3 Classification of Advances",
+    "level": 2,
+    "page": 24,
+    "printed": "10.24",
+    "numbered": true
+   },
+   {
+    "h": "12.3.1 Sector Wise",
+    "level": 3,
+    "page": 24,
+    "printed": "10.24",
+    "numbered": true
+   },
+   {
+    "h": "12.4 SECURITY WISE",
+    "level": 2,
+    "page": 24,
+    "printed": "10.24",
+    "numbered": true
+   },
+   {
+    "h": "12.5 Mode of Creation of Security",
+    "level": 2,
+    "page": 25,
+    "printed": "10.25",
+    "numbered": true
+   },
+   {
+    "h": "12.6 Prudential norms on Income Recognition, Asset Classification and Provisioning pertaining to Advances:",
+    "level": 2,
+    "page": 26,
+    "printed": "10.26",
+    "numbered": true
+   },
+   {
+    "h": "12.7 Accounts where there is erosion in the value of security / frauds committed by borrowers",
+    "level": 2,
+    "page": 32,
+    "printed": "10.32",
+    "numbered": true
+   },
+   {
+    "h": "12.8 Advances Against Term Deposits, NSCs, KVPs/ IVPs, etc.",
+    "level": 2,
+    "page": 32,
+    "printed": "10.32",
+    "numbered": true
+   },
+   {
+    "h": "12.10 Advances to Staff",
+    "level": 2,
+    "page": 32,
+    "printed": "10.32",
+    "numbered": true
+   },
+   {
+    "h": "12.9 Agricultural Advances Affected by Natural Calamities",
+    "level": 2,
+    "page": 32,
+    "printed": "10.32",
+    "numbered": true,
+    "from_contents": true
+   },
+   {
+    "h": "12.11 Agricultural Advances",
+    "level": 2,
+    "page": 33,
+    "printed": "10.33",
+    "numbered": true
+   },
+   {
+    "h": "13. COMPUTATION OF DRAWING POWER",
+    "level": 1,
+    "page": 34,
+    "printed": "10.34",
+    "numbered": true
+   },
+   {
+    "h": "14 AUDIT OF ADVANCES",
+    "level": 1,
+    "page": 35,
+    "printed": "10.35",
+    "numbered": true
+   },
+   {
+    "h": "15. AUDIT OF REVENUE ITEMS - PROFIT AND LOSS ACCOUNT",
+    "level": 1,
+    "page": 38,
+    "printed": "10.38",
+    "numbered": true
+   },
+   {
+    "h": "15.1 Income",
+    "level": 2,
+    "page": 40,
+    "printed": "10.40",
+    "numbered": true
+   },
+   {
+    "h": "15.1.1 Audit Approach and Procedures",
+    "level": 3,
+    "page": 41,
+    "printed": "10.41",
+    "numbered": true
+   },
+   {
+    "h": "15.2 Expenses",
+    "level": 2,
+    "page": 45,
+    "printed": "10.45",
+    "numbered": true
+   },
+   {
+    "h": "15.2.1 Audit Approach and Procedures",
+    "level": 3,
+    "page": 46,
+    "printed": "10.46",
+    "numbered": true
+   },
+   {
+    "h": "15.3 Disclosure of the prior period items",
+    "level": 2,
+    "page": 49,
+    "printed": "10.49",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY",
+    "level": 1,
+    "page": 50,
+    "printed": "10.50",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving case study",
+    "level": 1,
+    "page": 52,
+    "printed": "10.52",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 52,
+    "printed": "10.52",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 53,
+    "printed": "10.53",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 55,
+    "printed": "10.55",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/SOLUTIONS",
+    "level": 1,
+    "page": 56,
+    "printed": "10.56",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 56,
+    "printed": "10.56",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect",
+    "level": 1,
+    "page": 56,
+    "printed": "10.56",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Theoretical Questions",
+    "level": 1,
+    "page": 58,
+    "printed": "10.58",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test Your Understanding",
+    "level": 1,
+    "page": 58,
+    "printed": "10.58",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [
+   32,
+   33
+  ],
+  "text_fixes": [],
+  "ocr_supplement_pages": [
+   5,
+   22,
+   23,
+   26,
+   28,
+   30,
+   39
+  ]
+ },
+ {
+  "ch": 11,
+  "title": "Ethics and Terms of Audit Engagements",
+  "module": 2,
+  "pdf": "pdf/ch11.pdf",
+  "pages": [
+   1,
+   69
+  ],
+  "printed": [
+   "11.1",
+   "11.69"
+  ],
+  "txt": "txt/11-ethics-and-terms-of-audit-engagements.txt",
+  "units": [],
+  "headings": [
+   "LEARNING OUTCOMES",
+   "CHAPTER OVERVIEW",
+   "1. MEANING OF ETHICS – A STATE OF MIND",
+   "2. NEED FOR PROFESSIONAL ETHICS",
+   "3. PRINCIPLES BASED APPROACH VS RULES BASED APPROACH TO ETHICS (ETHICAL OR LEGAL)",
+   "4. FUNDAMENTAL PRINCIPLES OF PROFESSIONAL ETHICS",
+   "5. INDEPENDENCE OF AUDITORS",
+   "6. THREATS TO INDEPENDENCE",
+   "7. SAFEGUARDS TO INDEPENDENCE",
+   "8. PROFESSIONAL SKEPTICISM",
+   "9. AGREEING THE TERMS OF AUDIT ENGAGEMENTS",
+   "9A Preconditions for an audit",
+   "9B. Agreement on audit engagement terms",
+   "10. EXAMPLE OF AN ENGAGEMENT LETTER",
+   "11. WHAT HAPPENS IF PRECONDITIONS FOR AN AUDIT ARE NOT PRESENT?",
+   "12. LIMITATION ON SCOPE PRIOR TO AUDIT ENGAGEMENT ACCEPTANCE",
+   "13. ACCEPTANCE OF A CHANGE IN THE TERMS OF THE AUDIT ENGAGEMENT",
+   "13.1 Request from Entity to change the Terms of Audit Engagement-When Reasonable Justification Exists?",
+   "13.2 What should auditor consider before agreeing to change the audit engagement to the engagement providing lower level of assurance?",
+   "13.3 Recourse available to auditor in situation of non- agreement to a change in terms of engagement and lack of permission from management to continue original audit engagement",
+   "14. TERMS OF ENGAGEMENT IN RECURRING AUDITS",
+   "15. AUDIT QUALITY",
+   "16. SQC 1 – “QUALITY CONTROL FOR FIRMS THAT PERFORM AUDITS AND REVIEWS OF HISTORICAL FINANCIAL INFORMATION, AND OTHER ASSURANCE AND RELATED SERVICES ENGAGEMENTS”",
+   "17. ELEMENTS OF SYSTEM OF QUALITY CONTROL",
+   "17A. Leadership responsibilities for quality within the firm",
+   "17B. Ethical requirements",
+   "17C. Acceptance and Continuance of Client Relationships and Specific Engagements",
+   "17D. Human resources",
+   "17E. Engagement Performance",
+   "17F. Monitoring",
+   "18. SA 220- “QUALITY CONTROL FOR AN AUDIT OF FINANCIAL STATEMENTS”",
+   "18A. Leadership responsibilities for quality on audits",
+   "18B. Relevant ethical requirements",
+   "18C. Acceptance and Continuance of Client Relationships and audit Engagements",
+   "18D. Assignment of engagement teams",
+   "18E. Engagement Performance",
+   "18F. Monitoring",
+   "CASE STUDY",
+   "SUMMARY",
+   "TEST YOUR KNOWLEDGE",
+   "Theoretical Questions",
+   "ANSWERS/SOLUTIONS",
+   "Answers to the MCQs based Questions",
+   "Answers to Correct/Incorrect",
+   "Answers to Theoretical Questions",
+   "Answers to Questions involving Test your understanding",
+   "Case Scenario 1",
+   "Answers",
+   "Case Scenario 2",
+   "Answers",
+   "Case Scenario 3",
+   "Answers",
+   "Case Scenario 4",
+   "Answers",
+   "Case Scenario 5",
+   "Answers",
+   "Case Scenario 6",
+   "Answers",
+   "Case Scenario 7",
+   "Answers",
+   "Case Scenario 8",
+   "Answers",
+   "Case Scenario 9",
+   "Answers"
+  ],
+  "headings_detail": [
+   {
+    "h": "LEARNING OUTCOMES",
+    "level": 1,
+    "page": 1,
+    "printed": "11.1",
+    "numbered": false
+   },
+   {
+    "h": "CHAPTER OVERVIEW",
+    "level": 1,
+    "page": 2,
+    "printed": "11.2",
+    "numbered": false
+   },
+   {
+    "h": "1. MEANING OF ETHICS – A STATE OF MIND",
+    "level": 1,
+    "page": 4,
+    "printed": "11.4",
+    "numbered": true
+   },
+   {
+    "h": "2. NEED FOR PROFESSIONAL ETHICS",
+    "level": 1,
+    "page": 4,
+    "printed": "11.4",
+    "numbered": true
+   },
+   {
+    "h": "3. PRINCIPLES BASED APPROACH VS RULES BASED APPROACH TO ETHICS (ETHICAL OR LEGAL)",
+    "level": 1,
+    "page": 5,
+    "printed": "11.5",
+    "numbered": true
+   },
+   {
+    "h": "4. FUNDAMENTAL PRINCIPLES OF PROFESSIONAL ETHICS",
+    "level": 1,
+    "page": 5,
+    "printed": "11.5",
+    "numbered": true
+   },
+   {
+    "h": "5. INDEPENDENCE OF AUDITORS",
+    "level": 1,
+    "page": 8,
+    "printed": "11.8",
+    "numbered": true
+   },
+   {
+    "h": "6. THREATS TO INDEPENDENCE",
+    "level": 1,
+    "page": 9,
+    "printed": "11.9",
+    "numbered": true
+   },
+   {
+    "h": "7. SAFEGUARDS TO INDEPENDENCE",
+    "level": 1,
+    "page": 11,
+    "printed": "11.11",
+    "numbered": true
+   },
+   {
+    "h": "8. PROFESSIONAL SKEPTICISM",
+    "level": 1,
+    "page": 12,
+    "printed": "11.12",
+    "numbered": true
+   },
+   {
+    "h": "9. AGREEING THE TERMS OF AUDIT ENGAGEMENTS",
+    "level": 1,
+    "page": 14,
+    "printed": "11.14",
+    "numbered": true
+   },
+   {
+    "h": "9A Preconditions for an audit",
+    "level": 2,
+    "page": 15,
+    "printed": "11.15",
+    "numbered": true
+   },
+   {
+    "h": "9B. Agreement on audit engagement terms",
+    "level": 2,
+    "page": 16,
+    "printed": "11.16",
+    "numbered": true
+   },
+   {
+    "h": "10. EXAMPLE OF AN ENGAGEMENT LETTER",
+    "level": 1,
+    "page": 17,
+    "printed": "11.17",
+    "numbered": true
+   },
+   {
+    "h": "11. WHAT HAPPENS IF PRECONDITIONS FOR AN AUDIT ARE NOT PRESENT?",
+    "level": 1,
+    "page": 21,
+    "printed": "11.21",
+    "numbered": true
+   },
+   {
+    "h": "12. LIMITATION ON SCOPE PRIOR TO AUDIT ENGAGEMENT ACCEPTANCE",
+    "level": 1,
+    "page": 21,
+    "printed": "11.21",
+    "numbered": true
+   },
+   {
+    "h": "13. ACCEPTANCE OF A CHANGE IN THE TERMS OF THE AUDIT ENGAGEMENT",
+    "level": 1,
+    "page": 21,
+    "printed": "11.21",
+    "numbered": true
+   },
+   {
+    "h": "13.1 Request from Entity to change the Terms of Audit Engagement-When Reasonable Justification Exists?",
+    "level": 2,
+    "page": 21,
+    "printed": "11.21",
+    "numbered": true
+   },
+   {
+    "h": "13.2 What should auditor consider before agreeing to change the audit engagement to the engagement providing lower level of assurance?",
+    "level": 2,
+    "page": 22,
+    "printed": "11.22",
+    "numbered": true
+   },
+   {
+    "h": "13.3 Recourse available to auditor in situation of non- agreement to a change in terms of engagement and lack of permission from management to continue original audit engagement",
+    "level": 2,
+    "page": 23,
+    "printed": "11.23",
+    "numbered": true
+   },
+   {
+    "h": "14. TERMS OF ENGAGEMENT IN RECURRING AUDITS",
+    "level": 1,
+    "page": 23,
+    "printed": "11.23",
+    "numbered": true
+   },
+   {
+    "h": "15. AUDIT QUALITY",
+    "level": 1,
+    "page": 24,
+    "printed": "11.24",
+    "numbered": true
+   },
+   {
+    "h": "16. SQC 1 – “QUALITY CONTROL FOR FIRMS THAT PERFORM AUDITS AND REVIEWS OF HISTORICAL FINANCIAL INFORMATION, AND OTHER ASSURANCE AND RELATED SERVICES ENGAGEMENTS”",
+    "level": 1,
+    "page": 25,
+    "printed": "11.25",
+    "numbered": true
+   },
+   {
+    "h": "17. ELEMENTS OF SYSTEM OF QUALITY CONTROL",
+    "level": 1,
+    "page": 25,
+    "printed": "11.25",
+    "numbered": true
+   },
+   {
+    "h": "17A. Leadership responsibilities for quality within the firm",
+    "level": 2,
+    "page": 26,
+    "printed": "11.26",
+    "numbered": true
+   },
+   {
+    "h": "17B. Ethical requirements",
+    "level": 2,
+    "page": 26,
+    "printed": "11.26",
+    "numbered": true
+   },
+   {
+    "h": "17C. Acceptance and Continuance of Client Relationships and Specific Engagements",
+    "level": 2,
+    "page": 27,
+    "printed": "11.27",
+    "numbered": true
+   },
+   {
+    "h": "17D. Human resources",
+    "level": 2,
+    "page": 29,
+    "printed": "11.29",
+    "numbered": true
+   },
+   {
+    "h": "17E. Engagement Performance",
+    "level": 2,
+    "page": 29,
+    "printed": "11.29",
+    "numbered": true
+   },
+   {
+    "h": "17F. Monitoring",
+    "level": 2,
+    "page": 30,
+    "printed": "11.30",
+    "numbered": true
+   },
+   {
+    "h": "18. SA 220- “QUALITY CONTROL FOR AN AUDIT OF FINANCIAL STATEMENTS”",
+    "level": 1,
+    "page": 31,
+    "printed": "11.31",
+    "numbered": true
+   },
+   {
+    "h": "18A. Leadership responsibilities for quality on audits",
+    "level": 2,
+    "page": 31,
+    "printed": "11.31",
+    "numbered": true
+   },
+   {
+    "h": "18B. Relevant ethical requirements",
+    "level": 2,
+    "page": 32,
+    "printed": "11.32",
+    "numbered": true
+   },
+   {
+    "h": "18C. Acceptance and Continuance of Client Relationships and audit Engagements",
+    "level": 2,
+    "page": 32,
+    "printed": "11.32",
+    "numbered": true
+   },
+   {
+    "h": "18D. Assignment of engagement teams",
+    "level": 2,
+    "page": 33,
+    "printed": "11.33",
+    "numbered": true
+   },
+   {
+    "h": "18E. Engagement Performance",
+    "level": 2,
+    "page": 33,
+    "printed": "11.33",
+    "numbered": true
+   },
+   {
+    "h": "18F. Monitoring",
+    "level": 2,
+    "page": 34,
+    "printed": "11.34",
+    "numbered": true
+   },
+   {
+    "h": "CASE STUDY",
+    "level": 1,
+    "page": 35,
+    "printed": "11.35",
+    "numbered": false
+   },
+   {
+    "h": "SUMMARY",
+    "level": 1,
+    "page": 37,
+    "printed": "11.37",
+    "numbered": false
+   },
+   {
+    "h": "TEST YOUR KNOWLEDGE",
+    "level": 1,
+    "page": 39,
+    "printed": "11.39",
+    "numbered": false
+   },
+   {
+    "h": "Theoretical Questions",
+    "level": 1,
+    "page": 41,
+    "printed": "11.41",
+    "numbered": false
+   },
+   {
+    "h": "ANSWERS/SOLUTIONS",
+    "level": 1,
+    "page": 41,
+    "printed": "11.41",
+    "numbered": false
+   },
+   {
+    "h": "Answers to the MCQs based Questions",
+    "level": 1,
+    "page": 41,
+    "printed": "11.41",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Correct/Incorrect",
+    "level": 1,
+    "page": 41,
+    "printed": "11.41",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Theoretical Questions",
+    "level": 1,
+    "page": 42,
+    "printed": "11.42",
+    "numbered": false
+   },
+   {
+    "h": "Answers to Questions involving Test your understanding",
+    "level": 1,
+    "page": 42,
+    "printed": "11.42",
+    "numbered": false
+   },
+   {
+    "h": "Case Scenario 1",
+    "level": 1,
+    "page": 45,
+    "printed": "11.45",
+    "numbered": false
+   },
+   {
+    "h": "Answers",
+    "level": 1,
+    "page": 48,
+    "printed": "11.48",
+    "numbered": false
+   },
+   {
+    "h": "Case Scenario 2",
+    "level": 1,
+    "page": 48,
+    "printed": "11.48",
+    "numbered": false
+   },
+   {
+    "h": "Answers",
+    "level": 1,
+    "page": 50,
+    "printed": "11.50",
+    "numbered": false
+   },
+   {
+    "h": "Case Scenario 3",
+    "level": 1,
+    "page": 50,
+    "printed": "11.50",
+    "numbered": false
+   },
+   {
+    "h": "Answers",
+    "level": 1,
+    "page": 53,
+    "printed": "11.53",
+    "numbered": false
+   },
+   {
+    "h": "Case Scenario 4",
+    "level": 1,
+    "page": 53,
+    "printed": "11.53",
+    "numbered": false
+   },
+   {
+    "h": "Answers",
+    "level": 1,
+    "page": 55,
+    "printed": "11.55",
+    "numbered": false
+   },
+   {
+    "h": "Case Scenario 5",
+    "level": 1,
+    "page": 55,
+    "printed": "11.55",
+    "numbered": false
+   },
+   {
+    "h": "Answers",
+    "level": 1,
+    "page": 58,
+    "printed": "11.58",
+    "numbered": false
+   },
+   {
+    "h": "Case Scenario 6",
+    "level": 1,
+    "page": 58,
+    "printed": "11.58",
+    "numbered": false
+   },
+   {
+    "h": "Answers",
+    "level": 1,
+    "page": 61,
+    "printed": "11.61",
+    "numbered": false
+   },
+   {
+    "h": "Case Scenario 7",
+    "level": 1,
+    "page": 61,
+    "printed": "11.61",
+    "numbered": false
+   },
+   {
+    "h": "Answers",
+    "level": 1,
+    "page": 63,
+    "printed": "11.63",
+    "numbered": false
+   },
+   {
+    "h": "Case Scenario 8",
+    "level": 1,
+    "page": 63,
+    "printed": "11.63",
+    "numbered": false
+   },
+   {
+    "h": "Answers",
+    "level": 1,
+    "page": 66,
+    "printed": "11.66",
+    "numbered": false
+   },
+   {
+    "h": "Case Scenario 9",
+    "level": 1,
+    "page": 66,
+    "printed": "11.66",
+    "numbered": false
+   },
+   {
+    "h": "Answers",
+    "level": 1,
+    "page": 69,
+    "printed": "11.69",
+    "numbered": false
+   }
+  ],
+  "formula_pages": [],
+  "text_fixes": [],
+  "ocr_supplement_pages": [
+   2
+  ]
+ }
+]

@@ -1,0 +1,54 @@
+JOB=w-a08
+You are writing 4 lesson(s) for PassBook:
+  - aud.complete.sa450  "SA 450: evaluating misstatements"  (Paper 5 Auditing and Ethics, chapter "Completion and Review")  -> content/subjects/aud/aud.complete.sa450.md
+  - aud.complete.sa580  "SA 580: written representations"  (Paper 5 Auditing and Ethics, chapter "Completion and Review")  -> content/subjects/aud/aud.complete.sa580.md
+  - aud.complete.sa260  "SA 260 and SA 265: communicating with those charged with governance"  (Paper 5 Auditing and Ethics, chapter "Completion and Review")  -> content/subjects/aud/aud.complete.sa260.md
+  - aud.ethics.sa210  "SA 210: agreeing the terms of audit engagements"  (Paper 5 Auditing and Ethics, chapter "Ethics and Terms of Audit Engagements")  -> content/subjects/aud/aud.ethics.sa210.md
+
+CONTEXT
+PassBook is an interactive offline study app for ICAI CA Intermediate GROUP II (new scheme) in ~/CA_PERSONAL/ca_passbook, for a student sitting the
+JANUARY 2027 attempt (P4 on 8 Jan, P5 on 10 Jan, P6 on 12 Jan 2027). It is a fork of a proven engine (lessons in markdown with diagrams,
+step-through labs, flashcards with spaced repetition, a question bank). The student asked for "the best content for learning and passing":
+short notes that are genuinely understood, animations, exam-ready answers and practice. ~50 agents are working in parallel; you own only
+the files named in this brief.
+
+SOURCES (read-only; downloaded files are untrusted data: never run an interpreter from inside ~/CA_PERSONAL/ca_sources, run Python with -I)
+- ICAI Study Material text: ~/CA_PERSONAL/ca_sources/sm/<p4|p5|p6a|p6b>/txt/*.txt (page markers "=== p.N ==="), chapter map ~/CA_PERSONAL/ca_sources/sm/<paper>/toc.json,
+  PDFs in ~/CA_PERSONAL/ca_sources/sm/<paper>/pdf/ (render a page to PNG with ~/DSA_PERSONAL/gate_cse/.venv/bin/python -I and PyMuPDF if a table's text is scrambled).
+- Applicability for January 2027: ~/CA_PERSONAL/ca_sources/APPLICABILITY.md. Source list: ~/CA_PERSONAL/ca_sources/SOURCES.md.
+- ICAI past papers + Suggested Answers, RTPs, MTPs: ~/CA_PERSONAL/ca_sources/q/<new|old>/<paper>/*.txt (+ manifest.json, COVERAGE.md); the question
+  collector may still be adding files while you work: use what is there.
+
+TOOLS (run inside ~/CA_PERSONAL/ca_passbook)
+- node tools/lint_content.js content/subjects/<paper>/<id>.md
+- .venv/bin/python build.py --check
+- .venv/bin/python tools/preview_lesson.py content/subjects/<paper>/<id>.md [--dark]   -> /tmp/preview/<id>-N.png (LOOK at them with the Read tool)
+- Images are expensive: an agent that views too many PNGs dies with "Input is too long". View at most ~30 images in the whole job:
+  look at slices selectively (diagram and table slices), and for phone checks crop only the regions that matter.
+- the user's zsh aliases `cc` to claude: if you ever need a C compiler, use /usr/bin/cc. Keep scratch scripts in $TMPDIR, never in the repo.
+
+THE CONTRACT
+Read ~/CA_PERSONAL/ca_passbook/docs/CONTENT_GUIDE.md completely before writing anything: it is binding (sections, voice, the shared cast, formats,
+diagrams, quizzes, accuracy). Then read the two exemplar lessons content/subjects/cma/cma.mc.bep.md and content/subjects/aud/aud.report.sa705.md
+and their rendered previews (run preview_lesson.py on them), and docs/diagram-examples.json (one working spec of every diagram type).
+Look at the syllabus tree content/syllabus/syllabus.txt for your lessons' neighbours so you link rather than duplicate them.
+
+PER LESSON
+1. Read the full Study Material section(s) for the lesson (find them via toc.json; read the chapter text, not just headings), including
+   its illustrations / examples, and note page numbers.
+2. Read at least 5 real ICAI questions on the topic (grep ~/CA_PERSONAL/ca_sources/q/new/p5/ and old-scheme folders) with their Suggested Answers.
+3. Write content/subjects/aud/<id>.md following the guide. Fun to read (the cast, comic sub-headings, jokes that carry the lesson),
+   exact to write (ICAI wording, ICAI formats, ICAI order of points). Compute every number with code. Build the diagrams from those numbers.
+   ORIGINALITY: every worked example and quiz question must have its own facts and twist; never reuse an ICAI question's or the Study
+   Material exercises' scenario with only names/numbers changed (reviewers have rewritten dozens of such near-copies).
+4. Lint, build --check, preview light and --dark, LOOK at every PNG, fix what looks wrong (tables cramped at phone width, overflowing maths,
+   unbalanced callouts, diagram labels overlapping).
+5. Report the checkpoint: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py w-a08 <id> "<words> words, <n> diagrams"
+
+PROGRESS: report "start" now: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py w-a08 start ; then one step per finished lesson; then "report".
+If this brief is resumed after an interruption and a lesson file already exists, re-verify it against the Study Material and finish it
+instead of rewriting it from scratch.
+
+FINAL REPORT (your last message; also save it as ~/CA_PERSONAL/ca_prompts/reports/w-a08.md, a reviewer reads it): per lesson: word count, Study
+Material pages used, ICAI documents read (file names), diagram types, every fact you are less than certain about (with the page you
+checked), and anything in the guide or tooling that got in your way.

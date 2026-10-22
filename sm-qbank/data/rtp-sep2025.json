@@ -1,0 +1,529 @@
+{
+  "source": {
+    "type": "RTP",
+    "attempt": "Sep 2025",
+    "attempt_sort": "2025-09",
+    "series": null,
+    "scheme": "new",
+    "paper": "Paper 6B: Strategic Management",
+    "pdf_url": "https://resource.cdn.icai.org/86542rtp-int-g2-sep2025-6.pdf",
+    "local_file": "raw/rtp-sep2025-p6.pdf",
+    "retrieved": "2026-10-05",
+    "extract_ok": true,
+    "notes": "Chapters are ICAI's own printed headings 'Chapter 1-Introduction to Strategic Management' ... 'Chapter 5-Strategy Implementation and Evaluation' inside the 6B Strategic Management section. The case-scenario MCQ (Q1) and the standalone MCQs (Q2-Q6) sit outside any chapter heading and are bucketed as MCQ. For MCQs ICAI publishes only the option letter, so mcq_answer holds that letter and answer reproduces the text of that option verbatim. RTPs state no marks, so marks is null throughout.; Diagrams in the answers to Q11 (Mendelow's Matrix) and Q15 (efficiency/effectiveness grid) are rendered as markdown pipe tables."
+  },
+  "questions": [
+    {
+      "id": "rtp-sep2025-q1i",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(i)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "In the serene city of Pune, Royal Pens stood as a distinguished company with a rich heritage spanning a century. Specializing in crafting luxurious writing instruments, Royal Pens had long been known for its elegance and precision—valued by collectors and enthusiasts across the nation. However, as the world progressed into the digital era, Royal Pens encountered a tsunami of challenges. Emerging substitutes quickly adapted to technological advancements, offering innovative writing solutions that appealed to a younger demographic. Despite its esteemed legacy, Royal Pens faced sluggish growth as it struggled to adapt to the evolving landscape of the writing instrument industry. In an effort to stand out, Royal Pens strategized on ambitious endeavors. They experimented with new materials, introduced limited-edition designs and even forayed into digital pen technology, including a Bluetooth-enabled stylus for tablets—a move intended to attract tech-savvy users. Least expected, these initiatives failed to resonate with modern consumers. Their attempts to innovate were perceived as outdated or disconnected from actual user needs and their once-unquestionable reputation began to downgrade. As Royal Pens struggled with reducing sales and increased competition, internal challenges started building up. Top executives including the CEO, CFO and the marketing head—accustomed to success—found themselves in a tough position to justify their acumen in the face of shifting market dynamics. Disagreements over strategic direction led to a wave of departures leaving a leadership vacuum at the top. Amidst the turmoil, one aspect of Royal Pens remained strong: its unique company culture. Despite the challenges, middle managers and employees remained deeply dedicated to the company’s traditions and values. Compassionate leadership at the functional level ensured a sense of unity and resilience keeping the spirit of Royal Pens alive during uncertainty. Yet the company's troubles were far from over. Royal Pens faced legal battles from a rival competitor alleging patent infringements. The ensuing legal proceedings drained resources and further depleted the company’s finances worsening an already helpless situation. Ultimately, Royal Pens faced a tough choice. With no clear path to recovery, the company made the painful decision to significantly scale down its operations. 70% of its business was discontinued and assets & equipment were sold off to generate much-needed funds. Though difficult, this decision allowed Royal Pens to redirect its resources toward niche opportunities preserving its legacy in a rapidly changing market. Based on the above Case Scenario, answer the Multiple-Choice Questions.\nRoyal Pens, a century-old brand began losing relevance as the market embraced modern digital writing tools. What external environmental factor caused the greatest disruption to Royal Pens’ business model requiring a strategic shift that the company struggled to make?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Political instability"
+        },
+        {
+          "label": "b",
+          "text": "Rising inflation"
+        },
+        {
+          "label": "c",
+          "text": "Legal regulations"
+        },
+        {
+          "label": "d",
+          "text": "Technological advancement"
+        }
+      ],
+      "answer": "(d) Technological advancement",
+      "mcq_answer": "d",
+      "topic_tags": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q1ii",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(ii)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nAfter experiencing a decline in market share due to emerging competitors, Royal Pens responded by launching Bluetooth-enabled styluses and limited-edition pens. These actions were not pre-planned innovations but responses to market shifts. What type of strategic approach does this represent?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Proactive strategy"
+        },
+        {
+          "label": "b",
+          "text": "Reactive strategy"
+        },
+        {
+          "label": "c",
+          "text": "Differentiation strategy"
+        },
+        {
+          "label": "d",
+          "text": "Market penetration strategy"
+        }
+      ],
+      "answer": "(b) Reactive strategy",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q1iii",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(iii)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nTo regain market share, Royal Pens launched limited-edition designs and a stylus pen, targeting younger, tech-driven customers. This strategic choice most closely reflects which of the following business-level strategies?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Cost leadership"
+        },
+        {
+          "label": "b",
+          "text": "Market development"
+        },
+        {
+          "label": "c",
+          "text": "Differentiation"
+        },
+        {
+          "label": "d",
+          "text": "Retrenchment"
+        }
+      ],
+      "answer": "(c) Differentiation",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "differentiation"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q1iv",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(iv)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nDespite facing legal disputes and financial decline, Royal Pens’ workforce remained resilient and united. Which aspect of the company played the most vital role in maintaining employee morale and commitment during turbulent times?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Employee stock ownership"
+        },
+        {
+          "label": "b",
+          "text": "Regular salary hikes"
+        },
+        {
+          "label": "c",
+          "text": "Strong company culture"
+        },
+        {
+          "label": "d",
+          "text": "Remote working options"
+        }
+      ],
+      "answer": "(c) Strong company culture",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "organisational culture"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q1v",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(v)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nRoyal Pens believed that its century-old reputation alone would continue to appeal to modern consumers. This assumption formed the basis of its strategies, which ultimately failed as market dynamics shifted. Which type of strategic control was lacking, leading to unchallenged reliance on outdated assumptions?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Premise control"
+        },
+        {
+          "label": "b",
+          "text": "Special alert control"
+        },
+        {
+          "label": "c",
+          "text": "Implementation control"
+        },
+        {
+          "label": "d",
+          "text": "Strategic surveillance"
+        }
+      ],
+      "answer": "(a) Premise control",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "strategic control",
+        "premise control"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q2",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "2",
+      "kind": "mcq",
+      "marks": null,
+      "question": "A beverage company’s marketing team launches a campaign to boost social media engagement. The production unit enhances efficiency to cut costs and the HR department implements new training programs to improve employee productivity. These departmental initiatives are aligned with the company's overall growth goals. What type of strategy does these efforts represent?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Proactive strategy"
+        },
+        {
+          "label": "b",
+          "text": "Reactive strategy"
+        },
+        {
+          "label": "c",
+          "text": "Functional level strategy"
+        },
+        {
+          "label": "d",
+          "text": "Corporate level strategy"
+        }
+      ],
+      "answer": "(c) Functional level strategy",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q3",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "3",
+      "kind": "mcq",
+      "marks": null,
+      "question": "A startup evaluates its strategic position by identifying its unique technology as a strength, high competition as a threat, an untapped market segment as an opportunity and operational inefficiencies as a weakness. It plans to use these insights to refine its business strategy. Which strategic tool is being used?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Competitor benchmarking analysis"
+        },
+        {
+          "label": "b",
+          "text": "SWOT analysis"
+        },
+        {
+          "label": "c",
+          "text": "PESTEL analysis for market dynamics"
+        },
+        {
+          "label": "d",
+          "text": "Internal capabilities evaluation"
+        }
+      ],
+      "answer": "(b) SWOT analysis",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "swot"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q4",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "4",
+      "kind": "mcq",
+      "marks": null,
+      "question": "A health-conscious community group strongly advocates for more organic options in local eateries and shows great interest in influencing food choices. However, a small local café, whose loyal customer base prefers traditional food remains unaffected by the group's efforts. In terms of Mendelow’s Matrix, how should this stakeholder group be classified?",
+      "options": [
+        {
+          "label": "a",
+          "text": "High Interest, High Power"
+        },
+        {
+          "label": "b",
+          "text": "Low Interest, Low Power"
+        },
+        {
+          "label": "c",
+          "text": "High Interest, Low Power"
+        },
+        {
+          "label": "d",
+          "text": "Low Interest, High Power"
+        }
+      ],
+      "answer": "(c) High Interest, Low Power",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "mendelow matrix",
+        "stakeholders"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q5",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "5",
+      "kind": "mcq",
+      "marks": null,
+      "question": "A mobile phone company already has a strong customer base in its home country. To grow further, it focuses on increasing sales of its existing phones by offering promotional discounts, ramping up advertising and partnering with more local retailers for better distribution. Which growth strategy does this represent according to Ansoff’s Matrix?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Market penetration strategy"
+        },
+        {
+          "label": "b",
+          "text": "Product development strategy"
+        },
+        {
+          "label": "c",
+          "text": "Market development strategy"
+        },
+        {
+          "label": "d",
+          "text": "Diversification strategy"
+        }
+      ],
+      "answer": "(a) Market penetration strategy",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "ansoff matrix",
+        "focus strategy"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q6",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "6",
+      "kind": "mcq",
+      "marks": null,
+      "question": "A well-established clothing brand is experiencing a decline in sales and market share due to the changing consumer preferences and rising competition. In response, the company restructures its operations, cuts cost, revamps its product line, enhances marketing efforts and focuses on boosting employee morale and operational efficiency. What type of strategy is the company implementing?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Divestment strategy"
+        },
+        {
+          "label": "b",
+          "text": "Market penetration strategy"
+        },
+        {
+          "label": "c",
+          "text": "Cost leadership strategy"
+        },
+        {
+          "label": "d",
+          "text": "Turnaround strategy"
+        }
+      ],
+      "answer": "(d) Turnaround strategy",
+      "mcq_answer": "d",
+      "topic_tags": [
+        "turnaround",
+        "focus strategy"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q7",
+      "chapter": 1,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "7",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Vireon Foods started as a small dairy business but is still thriving after 25 years even as many competitors shut down or merged. Its leadership holds regular planning retreats, studies changing consumer habits and adapts its operations every few years. They recently invested in plant-based products before market demand spiked. What advantage is their strategic intelligence offering them? What are the other benefits of strategic management?",
+      "options": null,
+      "answer": "Vireon Foods’ continued success over 25 years despite the exit or merger of several competitors reflects the importance and advantages of strategic management particularly its contribution to the longevity of a business. The strategic intelligence demonstrated by Vireon—through regular planning retreats, environmental scanning, understanding consumer behavior and timely investment in plant-based products—has provided it with a competitive advantage and the ability to successfully navigate environmental changes. This aligns with the dual objectives of strategic management:\n• Creating competitive advantage by delivering something unique and valued by customers.\n• Guiding the company through all changes in the environment by reacting appropriately. Other benefits of strategic management evident from Vireon’s case include:\n• It enables the organization to be proactive rather than reactive helping it controls its future instead of merely responding to change.\n• It provides a clear strategic direction allowing the organization to align its goals and actions with its vision.\n• It serves as a framework for sound decision-making related to markets, products, investments and structure.\n• It helps organizations identify and leverage opportunities while avoiding costly pitfalls.\n• It contributes to building core competencies and sustaining long-term growth and survival as seen in Vireon’s ability to adapt and remain relevant. Thus, strategic management not only ensures superior performance but also enhances the sustainability and adaptability of a business in a dynamic environment.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "vision",
+        "objectives",
+        "core competence",
+        "mergers & acquisitions"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q8",
+      "chapter": 1,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "8",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "‘A company's mission statement is typically focused on its present business scope.' Explain the significance of a mission statement.",
+      "options": null,
+      "answer": "A company's mission statement is typically focused on its present business scope, who we are and what we do. Mission statements broadly describe an organization's present capability, customer focus, activities, and business make up. Mission for an organization is significant for the following reasons:\n• It ensures unanimity of purpose within the organization.\n• It develops a basis, or standard, for allocating organizational resources.\n• It provides a basis for innovating the use of the organisation’s resources.\n• It establishes a general tone or organizational climate, to suggest a business like operation.\n• It serves as a focal point for those who can identify with the organisation's purpose and direction.\n• It facilitates the translation of objectives and goals into a work structure involving the assignment of tasks to responsible elements within the organization.\n• It specifies organizational purposes and the translation of these purposes into goals in such a way that cost, time, and performance parameters can be assessed and controlled.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "mission",
+        "objectives",
+        "adl matrix",
+        "focus strategy"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q9",
+      "chapter": 2,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "9",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Nuvanta Healthcare is planning to launch a nutrition supplement targeted at urban consumers in Tier-2 Indian cities. The product team analyzed local population data age groups, income levels, lifestyle patterns and health concerns before finalizing the formulation and pricing. They are also reviewing how changes in government policy and tech adoption may affect the rollout. What kind of external factor has Nuvanta considered for pricing the product? Briefly explain the major categories of such external influences that shape business strategy.",
+      "options": null,
+      "answer": "Nuvanta Healthcare has considered the Demographic Environment as an external factor for pricing its nutrition supplement. The analysis of local population data such as age groups, income levels, lifestyle patterns, and health concerns reflects the company’s effort to understand its target consumers and formulate a suitable pricing strategy. External environmental factors significantly influence an organization’s strategy and operations. These factors may be external to the firm or introduced by managers to adapt to change. The major categories of such external influences that shape business strategy include:\n♦ Demographic Environment – It includes factors such as population size, age distribution, income levels, education, and occupation, which affect consumer preferences and demand.\n♦ Economic Environment – Includes elements like purchasing power, inflation rates, and overall economic conditions that influence pricing and market potential.\n♦ Political-Legal Environment – Consists of government policies, regulations, and legal aspects that can impact product rollout and compliance requirements.\n♦ Technological Environment – Rapid technological changes affect production, product design, marketing, and distribution, influencing how companies deliver value.\n♦ Socio-Cultural Environment – Involves lifestyle patterns, health consciousness, social values, and consumer attitudes that influence buying behavior.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "demographic environment"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q10",
+      "chapter": 2,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "10",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Value Chain Analysis consists of two activities: Primary activities and Support activities. As per Michael Porter both the activities are intertwined. Do you agree with the statement? Also delineate the main areas in which primary activities of any organization are grouped.",
+      "options": null,
+      "answer": "Yes, I agree with the statement that Value Chain Analysis consists of two activities: Primary activities and Support activities. As per Michael Porter, both the activities are intertwined. It is a tool used to examine the activities that create value in an organization, helping to enhance efficiency and build competitive advantage. It breaks down a business’s operations to identify areas for improvement in value creation. The primary activities of an organization are categorized into five areas:\n1. Inbound logistics: Activities related to receiving, storing, and distributing inputs (e.g., materials handling, stock control, and transport).\n2. Operations: Transforming input into final products or services (e.g., machining, packaging, assembly).\n3. Outbound logistics: Collecting, storing, and delivering products to customers (e.g., warehousing, transport).\n4. Marketing and sales: Promoting and selling the product or service, including advertising and sales administration.\n5. Service: Enhancing or maintaining product value (e.g., installation, repair, training).",
+      "mcq_answer": null,
+      "topic_tags": [
+        "porter",
+        "value chain",
+        "competitive advantage"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q11",
+      "chapter": 3,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "11",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Soltex Green Energy is rolling out a major wind project in a coastal town. A local business coalition with strong political ties and deep interest in the project has started influencing policy discussions. The company’s strategy team is closely engaging with them while managing other stakeholders differently. What might be the reason Soltex is prioritizing engagement with this specific group? Identify and briefly explain the four types of stakeholder categories businesses typically deal with in such situations.",
+      "options": null,
+      "answer": "Soltex Green Energy is prioritizing engagement with the local business coalition because they fall under the category of Key Players in Mendelow’s Stakeholder Matrix. This group possesses high power (due to strong political ties and ability to influence policy) and high interest (due to deep involvement in the wind project). As per Mendelow’s Matrix, such stakeholders must be fully engaged, informed regularly, and their advice and expectations carefully considered, as they can significantly impact the success of the project. Mendelow’s Matrix categorizes stakeholders into four types based on their Power (ability to influence the organization) and Interest (concern with the organization’s success):\n1. Key Players (High Power, High Interest): These stakeholders should be closely managed and fully engaged. They are critical to strategic decisions.\n2. Keep Satisfied (High Power, Low Interest): These stakeholders should be kept satisfied with regular information but not over-communicated with.\n3. Keep Informed (Low Power, High Interest): These stakeholders must be kept adequately informed to avoid misunderstandings and gain useful feedback.\n4. Low Priority (Low Power, Low Interest): These stakeholders require minimal effort, only to be monitored occasionally.\n| Power / Influence | Interest in the Organisation: Low | Interest in the Organisation: High |\n| --- | --- | --- |\n| High | **KEEP SATISFIED** — Consult often; Increase their interest; Can be hindrance to new ideas or strategic choices | **KEY PLAYER** — Manage Closely; Involve in decision making; Engage regularly and build strong relationship |\n| Low | **LOW PRIORITY** — Monitor only, no engagement; General occasional communication | **KEEP INFORMED** — Utilise the high interest by engaging in decisions; Consult in their areas of expertise and interest |\nMendelow’s Matrix thus helps organizations like Soltex to allocate their time, resources, and communication efforts strategically across different stakeholder groups, adjusting the engagement as the environment evolves.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "mendelow matrix",
+        "stakeholders"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q12",
+      "chapter": 3,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "12",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Write a short note on the Key Strategic Drivers of an organization.",
+      "options": null,
+      "answer": "Key Strategic Drivers of an Organization Strategic drivers are essential elements that influence an organization’s ability to differentiate itself from its competitors and achieve competitive advantage. These drivers assess the current performance of the business and provide insights into areas that need focus. The key strategic drivers include:\n1. Industry and Markets: Understanding the industry and markets is crucial for identifying the organization’s relative position. Industries group similar companies based on their primary products, while markets are defined by the buyers and sellers of these products. Analyzing industry and market dynamics, often through tools like strategic group mapping, helps organizations evaluate competition and refine strategies.\n2. Customers: Identifying and understanding customers is a critical driver. Customers are segmented based on their needs and spending capacity, which guides product development and marketing strategies. Differentiating between customers (buyers) and consumers (users) is vital to tailoring pricing, design, and usability strategies effectively.\n3. Products and Services: Products and services are central to defining the business. Organizations must assess their offerings, classify products, and devise strategies for differentiation, branding, and pricing. Product innovation and marketing are key to maintaining competitiveness.\n4. Channels: The channels through which products and services are delivered impact on accessibility and customer satisfaction. Strategies related to direct, digital, or relationship-based marketing ensure the efficient distribution of offerings to target customers. By aligning these drivers with organizational goals, businesses can achieve sustained growth and maintain a competitive edge.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "differentiation",
+        "focus strategy",
+        "strategic group mapping",
+        "key strategic drivers"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q13",
+      "chapter": 4,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "13",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Zeon Beverages, known for its fruit juices, recently acquired a nationwide cold-storage logistics company to control the quality and speed of its product delivery. Earlier, it had set up its own fruit-processing unit to reduce dependence on third-party suppliers. The company believes this strategy strengthens its supply chain and market control. What type of strategic move is Zeon making through these acquisitions? How does this approach differ from horizontal and conglomerate diversification?",
+      "options": null,
+      "answer": "Zeon Beverages is pursuing a strategy of vertically integrated diversification, a form of concentric diversification, where the company expands into businesses that are related to its existing operations along the value chain. By setting up its own fruit-processing unit (backward integration) and acquiring a cold-storage logistics company (forward integration), Zeon is strengthening its supply chain, improving quality control and enhancing speed of delivery. This move falls under concentric diversification, where the new businesses are linked to existing ones through process, technology or marketing, providing synergistic benefits. This approach differs from:\n1. Horizontal Integrated Diversification – where a firm expands by acquiring similar or complementary businesses operating at the same stage of production. For example, if Zeon had acquired another fruit juice brand, it would be horizontal diversification.\n2. Conglomerate Diversification – which involves expansion into unrelated businesses with no connection in terms of product, market, or technology. For instance, if Zeon ventured into unrelated sectors like real estate or electronics, it would be conglomerate diversification. Hence, Zeon’s strategy is a vertically integrated concentric diversification, aimed at enhancing operational efficiency and gaining better control over its value chain.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "value chain",
+        "diversification",
+        "mergers & acquisitions",
+        "expansion strategy"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q14",
+      "chapter": 4,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "14",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "“There are certain conditions or indicators which point out that a turnaround is needed if the company has to survive”. Discuss.",
+      "options": null,
+      "answer": "In today’s competitive and volatile business environment, no organization can assume sustained viability. A turnaround strategy is a focused effort aimed at restoring an organization’s profitability and ensuring survival when both internal weaknesses and external threats endanger its existence.\nTurnaround becomes necessary when a company faces a significant crisis that severely affects its operations and performance. It is typically adopted when survival is the immediate goal, before growth can be pursued. There are several indicators or conditions that signal the need for a turnaround strategy:\n• Persistent negative cash flows from operations\n• Uncompetitive products or services\n• Declining market share\n• Deterioration in physical facilities\n• Over-staffing, high employee turnover, and low morale\n• Mismanagement Early identification of these danger signals and immediate corrective action is essential for ensuring the company’s survival and eventual recovery.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "turnaround",
+        "focus strategy"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q15",
+      "chapter": 5,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "15",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Merako Appliances recently automated its assembly line to produce kitchen gadgets faster and at lower cost, improving operational efficiency. However, customer feedback shows that the new products don’t meet market needs, leading to declining sales. This has sparked an internal debate on balancing efficiency (doing things right) with effectiveness (doing the right things). How should Merako balance efficiency and effectiveness to achieve sustainable success? Also, describe the four possible situations a business can face when comparing levels of efficiency and effectiveness.",
+      "options": null,
+      "answer": "Merako Appliances has improved operational efficiency by automating its assembly line. However, declining sales due to products not meeting customer needs indicate a lack of effectiveness. This highlights the importance of balancing doing things right (efficiency) with doing the right things (effectiveness). To achieve sustainable success, Merako must align its operations with customer preferences through sound strategy formulation (effectiveness), followed by efficient strategy implementation. Four Possible Situations Based on Efficiency and Effectiveness:\n1. Efficient and Effective (Thrive): Ideal scenario. The firm does the right things and does them well. Merako should aim for this by aligning products with customer needs while maintaining efficiency.\n2. Efficient but Ineffective (Die Slowly): Merako’s current state. Operations are streamlined, but customer needs are unmet, risking decline without strategic correction.\n3. Inefficient but Effective (Survive): Right strategy but poor execution. The firm may survive but must improve efficiency to sustain.\n4. Inefficient and Ineffective (Die Quickly): Neither aligned with customer needs nor operationally sound. Leads to rapid failure unless overhauled.\n| Operational Management | Strategic Formulation: Effective | Strategic Formulation: Ineffective |\n| --- | --- | --- |\n| Efficient | 1 — Thrive | 2 — Die Slowly |\n| Inefficient | 3 — Survive | 4 — Die Quickly |\n\nPrincipal combinations of efficiency and effectiveness\nMerako must integrate customer feedback into strategic planning and ensure both efficient execution and effective direction to gain long-term competitiveness.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic planning"
+      ]
+    },
+    {
+      "id": "rtp-sep2025-q16",
+      "chapter": 5,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "16",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Describe the principal aspects of strategy-execution process which are included in most situations.",
+      "options": null,
+      "answer": "Implementation or execution is an operations-oriented activity aimed at shaping the performance of core business activities in a strategy-supportive manner. In most situations, strategy-execution process includes the following principal aspects:\n♦ Developing budgets that steer ample resources into those activities that are critical to strategic success.\n♦ Staffing the organization with the needed skills and expertise, consciously building and strengthening strategy-supportive competencies and competitive capabilities and organizing the work effort.\n♦ Ensuring that policies and operating procedures facilitate rather than impede effective execution.\n♦ Using the best-known practices to perform core business activities and pushing for continuous improvement.\n♦ Installing information and operating systems that enable company personnel to better carry out their strategic roles day in and day out.\n♦ Motivating people to pursue the target objectives energetically.\n♦ Creating culture and climate conducive to successful strategy implementation and execution.\n♦ Exerting the internal leadership needed to drive implementation forward and keep improving strategy execution.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "objectives",
+        "strategic leadership",
+        "organisational culture"
+      ]
+    }
+  ]
+}

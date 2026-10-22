@@ -1,0 +1,197 @@
+{
+  "source": {
+    "type": "PYQ",
+    "attempt": "November 2020",
+    "attempt_sort": "2020-11",
+    "series": null,
+    "scheme": "old",
+    "paper": "Paper 7B: Strategic Management",
+    "pdf_url": "https://resource.cdn.icai.org/63948bos51397interp7.pdf",
+    "local_file": "raw/pyq-old-nov2020-sa.pdf",
+    "retrieved": "2026-10-05",
+    "extract_ok": true,
+    "notes": "ICAI Suggested Answers, Intermediate (New) Paper 7, November 2020. Official ICAI CDN URL now HTTP 404 and no Internet Archive capture; obtained from a mirror of the official ICAI PDF: https://cacult.com/wp-content/uploads/2021/05/1.-nov-20-7.pdf (source_is_mirror). Official URL recovered from the Wayback snapshot of https://www.icai.org/post.html?post_id=14971 (2021-05-09). Mirror fidelity corroborated: for November 2018 the same mirror is byte-identical (md5) to the official ICAI PDF. Only Section B (Strategic Management) extracted.; Extraction notes: Question No. 6 was compulsory and candidates had to answer any four questions from the rest. The answer to Q7(a) asks for a diagram and ICAI prints an actual image captioned 'Figure: Divisional Structure'; the caption line is retained in the answer but the picture itself is a graphic and cannot be reproduced in text. Q10(b) prints its '(5 Marks)' line after the 'Or' alternative, covering both the main part and its alternative, so both records carry marks 5. ICAI's two bullet glyphs (a round bullet and a Wingdings square bullet that extracts as U+F0A8) are normalised to '- '. ICAI's comparison table in Q10(b) is rendered as a markdown pipe table; the cell text is verbatim but is re-ordered out of the PDF's interleaved two-column line layout. Everything else is verbatim, including ICAI's 'headquarters –driven' spacing in Q7(a). Chapter mapping was reconciled against /Users/ztejas/CA_PERSONAL/sm-qbank/syllabus.json (retrieved 2026-10-05) and its evidence-backed dropped_from_old_scheme list; every OUT_OF_SYLLABUS flag cites that evidence in the record's mapping_note."
+  },
+  "questions": [
+    {
+      "id": "pyq-old-nov2020-q6",
+      "chapter": 3,
+      "chapter_source": "mapped",
+      "mapping_note": "Michael Porter's generic strategies - differentiation strategy and how to achieve it -> Ch 3",
+      "qno": "6",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "ABC Ltd. is a beverage manufacturing company. It chiefly manufactures soft drinks. The products are priced on the lower side which has made the company a leader in the business. Currently it is holding 35 percent market share. The R & D of company developed a formula for manufacturing sugar free beverages. On successful trial and approval by the competent authorities, company was granted to manufacture sugar free beverages. This company is the pioneer to launch sugar free beverages which are sold at a relatively higher price. This new product has been accepted widely by a class of customers. These products have proved profitable for the company. Identify the strategy employed by the company ABC Ltd. and mention what measures could be adopted by the company to achieve the employed strategy.",
+      "options": null,
+      "answer": "According to Porter, strategies allow organizations to gain competitive advantage from three different bases: cost leadership, differentiation, and focus. Porter called these base generic strategies.\nABC Ltd. has opted Differentiation Strategy. The company has invested huge amount in R & D and developed a formula for manufacturing sugar free beverages to give the customer value and quality. They are pioneer and serve specific customer needs that are not met by other companies in the industry. The new product has been accepted by a class of customers. Differentiated and unique sugar free beverages enable ABC Ltd. to charge relatively higher for its products hence making higher profits and maintain its competitive position in the market. Sugar free beverage of ABC Ltd. is being accepted widely by a class of customers.\nDifferentiation strategy is aimed at broad mass market and involves the creation of a product or service that is perceived by the customers as unique. The uniqueness can be associated with product design, brand image, features, technology, and dealer network or customer service.\nAchieving Differentiation Strategy\nTo achieve differentiation, following strategies are generally adopted by an organization:\n1. Offer utility to the customers and match products with their tastes and preferences.\n2. Elevate/Improve performance of the product.\n3. Offer the high-quality product/service for buyer satisfaction.\n4. Rapid product innovation to keep up with dynamic environment.\n5. Taking steps for enhancing brand image and brand value.\n6. Fixing product prices based on the unique features of product and buying capacity of the customer.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "differentiation",
+        "generic strategies",
+        "competitive advantage"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2020-q7a",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Organisation structure - divisional structure with its advantages and disadvantages -> Ch 5",
+      "qno": "7(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Draw 'Divisional Structure' with the help of a diagram. Also, give advantages and disadvantages of this structure in brief.",
+      "options": null,
+      "answer": "Divisional structure is that organizational structure which is based on extensive delegation of authority and built on division basis. The divisional structure can be organized in one of the four ways: by geographic area, by product or service, by customer, or by process. With a divisional structure, functional activities are performed both centrally and in each division separately.\nFigure: Divisional Structure\nAdvantages of divisional structure\n- Accountability is clear: Divisional managers can be held responsible for sales and profit levels. Because a divisional structure is based on extensive delegation of authority, managers and employees can easily see the results of their good or bad performances and thus their morale is high.\n- Other advantages: It creates career development opportunities for managers, allows local control of local situations, leads to a competitive climate within an organization, and allows new businesses and products to be added easily.\nDisadvantages of divisional structure\n- Higher cost: Owing to following reasons: (i). requires qualified functional specialist at different divisions and needed centrally (at headquarters); (ii). It requires an elaborate, headquarters –driven control system.\n- Conflicts between divisional managers: Certain regions, products, or customers may sometimes receive special treatment, and it may be difficult to maintain consistent, company-wide practices.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "divisional structure",
+        "organisation structure",
+        "strategy implementation"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2020-q7b",
+      "chapter": 5,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic control and premise control -> Ch 5",
+      "qno": "7(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "What is strategic control? Kindly explain the statement that \"premise control is a tool for systematic and continuous monitoring of the environment\".",
+      "options": null,
+      "answer": "Strategic Control\nStrategic control is the process of evaluating formulated and implemented strategy. It is directed towards identifying changes in the internal and external environments of the organization and making necessary adjustments accordingly.\nStrategic Control focuses on the dual questions of whether: (1) the strategy is being implemented as planned; and (2) the results produced by the strategy are those intended.\nYes, Premise control is a tool for systematic and continuous monitoring of the environment to verify the validity and accuracy of the premises on which the strategy has been built. It primarily involves monitoring two types of factors:\n(i) Environmental factors such as economic (inflation, liquidity, interest rates), technology, social and legal-regulatory.\n(ii) Industry factors such as competitors, suppliers, substitutes.\nIt is neither feasible nor desirable to control all types of premises in the same manner. Different premises may require different amount of control. Thus, managers are required to select those premises that are likely to change and would severely impact the functioning of the organization and its strategy.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategic control",
+        "premise control",
+        "environment monitoring"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2020-q8a",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Research and Development strategy (guidelines for sourcing R&D expertise) - part of the old standalone 'Formulation of Functional Strategy' chapter, dropped from the 2023 syllabus (absent from all 5 chapters of syllabus.json)",
+      "qno": "8(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Discuss the guidelines for selection of Research & Development expertise by an organization.",
+      "options": null,
+      "answer": "A critical question is whether a firm should develop research and development expertise internally or outside to external agencies. The answer to this critical question mainly depends on rate of technology progress and rate of market growth. The following guidelines can be used to help make this decision:\n- If the rate of technical progress is slow, the rate of market growth is moderate, and there are significant barriers to possible new entrants, then in-house R&D is the preferred solution. The reason is that R&D, if successful, will result in a temporary product or process monopoly that the company can exploit.\n- If technology is changing rapidly and the market is growing slowly, then a major effort in R&D may be very risky, because it may lead to the development of an ultimately obsolete technology or one for which there is no market.\n- If technology is changing slowly but the market is growing quickly, there generally is not enough time for in-house development. The prescribed approach is to obtain R&D expertise on an exclusive or non-exclusive basis from an outside firm.\n- If both technical progress and market growth are fast, R&D expertise should be obtained through acquisition of a well-established firm in the industry.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "research and development",
+        "functional strategy",
+        "r&d expertise"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2020-q8b",
+      "chapter": 2,
+      "chapter_source": "mapped",
+      "mapping_note": "Internationalisation of business - reasons why companies go global -> Ch 2",
+      "qno": "8(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Why companies should go global? Mention any five reasons.",
+      "options": null,
+      "answer": "There are several reasons why companies go global. These are discussed as follows:\n- One reason could be the rapid shrinking of time and distance across the globe - thanks to faster communication, speedier transportation, growing financial flows and rapid technological changes.\n- It is being realized that the domestic markets are no longer adequate and rich. Companies globalize to take advantage of opportunities available elsewhere.\n- A new product may gradually get acceptance and grow locally and then globally. This may initially be in form of exports and then later production facilities may begin in other countries.\n- Organizations may go global to take advantage of cheaper raw material and labour costs.\n- Companies often set up overseas plants to reduce high transportation costs.\n- The motivation to go global in high-tech industries is slightly different. Companies in electronics and telecommunications must spend large sums on research and development for new products and thus may be compelled to seek ways to improve sales volume to support high overhead expenses.\n- The companies may also go global to take advantage of local taxation laws.\n- To form strategic alliances to ward off economic and technological threats and leverage their respective comparative and competitive advantages.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "globalisation",
+        "internationalisation",
+        "going global"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2020-q9a",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Human resource / personnel strategy and the HRM function (factors influencing employee competence) - part of the old standalone 'Formulation of Functional Strategy' chapter, dropped from the 2023 syllabus (absent from all 5 chapters of syllabus.json)",
+      "qno": "9(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "State the factors of human resource that have a strong influence on employee competence.",
+      "options": null,
+      "answer": "Human resource management has been accepted as a strategic partner in the formulation of organization’s strategies and in the implementation of such strategies through human resource planning, employment, training, appraisal and reward systems. The following points should be kept in mind as they can have a strong influence on employee competence:\n1. Recruitment and selection: The workforce will be more competent if a firm can successfully identify, attract, and select highly competent applicants.\n2. Training: The workforce will be more competent if employees are well trained to perform their jobs properly.\n3. Appraisal of performance: The performance appraisal is to identify any performance deficiencies experienced by employees due to lack of competence. Such deficiencies, once identified, can often be solved through counseling, coaching or training.\n4. Compensation: A firm can usually increase the competency of its workforce by offering pay, benefits and rewards that are not only attractive than those of their competitors but also recognizes merit.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "human resource strategy",
+        "employee competence",
+        "functional strategy"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2020-q9b",
+      "chapter": 1,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic intent - strategic vision and the essentials of a strategic vision -> Ch 1",
+      "qno": "9(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "What is strategic vision? Describe the essentials of strategic vision.",
+      "options": null,
+      "answer": "Strategic Vision\nA strategic vision is a roadmap of a company’s future – providing specifics about technology and customer focus, the geographic and product markets to be pursued, the capabilities it plans to develop, and the kind of company that management is trying to create. It helps the company to answer the question “where we are to go” and provides a convincing rationale for why this makes good business sense for the company.\nA strategic vision delineates organization’s aspirations for the business, providing a panoramic view of the position where the organization is going. A strategic vision points an organization in a particular direction, charts a strategic path for it to follow in preparing for the future, and molds organizational identity.\nEssentials of a strategic vision\n- The entrepreneurial challenge in developing a strategic vision is to think creatively about how to prepare a company for the future.\n- Forming a strategic vision is an exercise in intelligent entrepreneurship.\n- A well-articulated strategic vision creates enthusiasm among the members of the organization.\n- The best-worded vision statement clearly illuminates the direction in which organization is headed.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "vision",
+        "strategic vision",
+        "strategic intent"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2020-q10a",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Need for strategic management in government and medical (non-commercial) organisations - the old named topic 'Strategic Management in Government and Not-for-profit organisation' (old Ch 1), which syllabus.json lists as dropped with high confidence.",
+      "qno": "10(a)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "\"There is a need for Strategic Management for government and medical organization too.\" Comments.",
+      "options": null,
+      "answer": "Need for strategic management for government and medical organization\nYes, there is a need of strategic management for government and medical organizations like the commercial organizations because optimum utilization of resources in view of their scarcity, good strategy formulation and its effective implementation & proper monitoring is needed equally in both types of organizations.\nOrganizations can be classified as commercial and non-commercial on the basis of the interest they have. Typically, a government or medical organization may function without any commercial objectives. A commercial organization has profit as its main aim. We can find many organizations around us, which do not have any commercial objective of making profits. Their genesis may be for social, charitable, or educational purposes.\nThe strategic-management process is being used effectively by countless non-profit governmental organizations. Many non-profit and governmental organizations outperform private firms and corporations on innovativeness, motivation, productivity, and human resource.\nCompared to for-profit firms, non-profit and governmental organizations often function as a monopoly, produce a product or service that offers little or no measurability of performance, and are totally dependent on outside financing. Especially for these organizations, strategic management provides an excellent vehicle for developing and justifying requests for needed financial support.\nGovernment Organizations: Central, state, municipal agencies, public sector units, department are responsible for formulating, implementing and evaluating strategies that use taxpayers’ money in the most cost-effective way to provide services and programs. Therefore, strategic management concepts are required for them.\nMedical Organizations: Modern hospitals quite often are using strategic management for creating new strategy and implementing properly for diagnosis and treatment of different diseases at lower price. Forward and Backward integration strategies are also required in hospitals for providing better services at lower cost.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "importance of strategic management",
+        "government organisations",
+        "non-commercial"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2020-q10b",
+      "chapter": 4,
+      "chapter_source": "mapped",
+      "mapping_note": "Strategic exits - divestment and liquidation strategies and the difference between them -> Ch 4",
+      "qno": "10(b)",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Briefly describe the meaning of divestment and liquidation strategy and establish difference between the two.",
+      "options": null,
+      "answer": "Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit centre or SBU. Divestment is usually a part of rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful.\nLiquidation strategy is a retrenchment strategy considered the most extreme and unattractive strategy, which involves closing down a firm and selling its assets.\nDifference between Divestment strategy and Liquidation strategy:\n| Basis of Difference | Divestment Strategy | Liquidation Strategy |\n| --- | --- | --- |\n| Meaning | Divestment strategy involves sale or liquidation of a portion of business. | Liquidation strategy involves closing down a firm and selling its business. |\n| Policy option | Divestment is usually a part of rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful. Option of a turnaround may even be ignored if it is obvious that divestment is the only answer. | Liquidation becomes only option in case of severe and critical conditions where either turnaround or divestment are not seen as solution or have been attempted but failed. |\n| Purpose | Efforts are made for survival of the organization. | Liquidation as a form of retrenchment strategy is unattractive and considered as the last resort. |\n| Consequences | Survival of organization helps in retaining personnel, at least to some extent. | There is loss of employment and opportunities with stigma of failure. |",
+      "mcq_answer": null,
+      "topic_tags": [
+        "divestment",
+        "liquidation",
+        "retrenchment"
+      ]
+    },
+    {
+      "id": "pyq-old-nov2020-q10b-or",
+      "chapter": "OUT_OF_SYLLABUS",
+      "chapter_source": "mapped",
+      "mapping_note": "Requirement and basic activities of a strategy audit - dropped from the 2023 syllabus. syllabus.json lists 'Strategy Audit' (old Ch 8.6) as dropped with high confidence; no conceptual treatment survives in the current Paper 6B study material.",
+      "qno": "10(b) OR",
+      "kind": "descriptive",
+      "marks": 5,
+      "question": "Write a short note on requirement of strategy audit. What are the basic activities of strategic audit?",
+      "options": null,
+      "answer": "Need of Strategy Audit\nA strategy audit is an examination and evaluation of areas affected by the operation of a strategic management process within an organization.\nA strategy audit is required under the following conditions:\n- When the performance indicators reflect that a strategy is not working properly or is not producing desired outcomes.\n- When the goals and objectives of the strategy are not being accomplished.\n- When a major change takes place in the external environment of the organization.\n- When the top management plans:\n(a) To fine-tune the existing strategies and introduce new strategies; and\n(b) To ensure that a strategy that has worked in the past continues to be in-tune with subtle internal and external changes that may have occurred since the formulation of strategies.\nAdequate and timely feedback is the cornerstone of effective strategy audit. Strategy audit can be no better than the information on which it is based.\nStrategy Audit includes three basic activities:\n1. Examining the underlying bases of a firm’s strategy,\n2. Comparing expected results with actual results, and\n3. Taking corrective actions to ensure that performance conforms to plans.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "strategy audit",
+        "strategy evaluation",
+        "strategic control"
+      ]
+    }
+  ]
+}

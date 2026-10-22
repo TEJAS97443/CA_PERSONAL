@@ -1,0 +1,13 @@
+/* PassBook — hosted-copy styles (owner: WP16, wave 2; audit P1-58, owner decision D13): the Me menu's 'Install app' row and 'Update ready ·
+   Restart' line (app/js/shell.js with app/js/core/pwa.js). Settings draws its own 'On this phone' lines (hubs.css). Nothing on file:// renders
+   these: GA.pwa exists only in a site build served over http(s). The offline page the service worker answers with when its saved copy is gone
+   carries its own literal colours (sw.js), because no stylesheet can load then. Linked last, after every other sheet. Tokens only
+   (docs/FRONTEND_V3_SPEC.md §1). Contract: docs/ARCHITECTURE.md §10.12. */
+
+/* .mi is display:flex, which would otherwise beat the hidden attribute: the install row shows only while the browser offers its prompt */
+.me-menu .mi[hidden] { display: none; }
+
+/* the update line is an action like the backup nudge (.me-st, shell.css); its refresh icon turns a quarter on hover or focus: feedback, never a loop */
+.me-st[data-me-act="restart"] svg.i { transition: transform .3s ease; }
+.me-st[data-me-act="restart"]:hover svg.i, .me-st[data-me-act="restart"]:focus-visible svg.i { transform: rotate(-90deg); }
+@media (prefers-reduced-motion: reduce) { .me-st[data-me-act="restart"] svg.i { transition: none; } }

@@ -1,0 +1,531 @@
+{
+  "source": {
+    "type": "RTP",
+    "attempt": "May 2024",
+    "attempt_sort": "2024-05",
+    "series": null,
+    "scheme": "new",
+    "paper": "Paper 6B: Strategic Management",
+    "pdf_url": "https://resource.cdn.icai.org/78735bos63031-p6.pdf",
+    "local_file": "raw/rtp-may2024-p6.pdf",
+    "retrieved": "2026-10-05",
+    "extract_ok": true,
+    "notes": "Chapters are ICAI's own printed headings 'Chapter 1-Introduction to Strategic Management' ... 'Chapter 5-Strategy Implementation and Evaluation' inside the 6B Strategic Management section. The case-scenario MCQ (Q1) and the standalone MCQs (Q2-Q6) sit outside any chapter heading and are bucketed as MCQ. For MCQs ICAI publishes only the option letter, so mcq_answer holds that letter and answer reproduces the text of that option verbatim. RTPs state no marks, so marks is null throughout.; ICAI's PDF itself prints 'organisationhas' (no space) in the answer to Q8; retained verbatim."
+  },
+  "questions": [
+    {
+      "id": "rtp-may2024-q1i",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(i)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "Swasthya, a rising star in India's dynamic healthcare sector, stands out as a prime example of smart strategic management. At Swasthya, the compass guiding their endeavors is a compelling thought: to emerge as the finest healthcare provider renowned for delivering accessible, top-notch healthcare services. This overarching goal is not an isolated vision, but a thread woven into the very fabric of the organization, driving every facet of their operations. The people of the organization play a pivotal role in this journey. They are entrusted with translating this vision into tangible outcomes at the grassroots level, ensuring that local operations are aligned with the grand aspiration of becoming a healthcare leader. Swasthya works meticulously towards optimizing each link of the patient experience. From streamlining appointment scheduling to expediting test result delivery, every facet of the healthcare journey is scrutinized. Swasthya's strategy is not merely about being a player in the market but about strategically positioning themselves as leaders. They proactively recognize the constant innovations that could disrupt their areas of expertise. To counter this, they introduced value-added offerings such as telemedicine and wellness programs. This addition not only mitigates the risk but also fortifies their long-term viability. Beyond competition, ensuring the quality and safety of patient care is paramount at Swasthya. Stringent hygiene protocols, equipment maintenance regimens, and adherence to healthcare regulations form the cornerstone of their business. In parallel, the organization meticulously undertakes regular assessment as a central element of its decision-making apparatus. This forward-looking exercise encompasses identifying and assessing potential risks such as regulatory changes, medical malpractice vulnerabilities, or shifts in market dynamics, all of which could have far-reaching consequences for their long-term objectives. The implementation of Swasthya's strategy is steered by the McKinsey 7S model, which ensures a harmonious alignment of seven critical elements: strategy, structure, systems, shared values, skills, style, and staff. It emphasizes that the success of a long-term objective is contingent on the synchronization of these seven elements, reinforcing the idea that strategic management is not a compartmentalized process but a comprehensive activity. Swasthya's strategic journey through India's healthcare landscape is a testament to the seamless integration of core management concepts, guiding its actions and strategies, while keeping the vision and intent at the core.\nBased on the above Case Scenario, answer the Multiple Choice Questions.\nHow does Swasthya's approach to premise control, including stringent hygiene protocols and equipment maintenance, contribute to their long-term objectives and which concept does it align with?",
+      "options": [
+        {
+          "label": "a",
+          "text": "It reduces immediate costs and aligns with strategic risk assessment."
+        },
+        {
+          "label": "b",
+          "text": "It safeguards quality and aligns with strategic risk assessment."
+        },
+        {
+          "label": "c",
+          "text": "It enhances immediate profitability and aligns with shared values."
+        },
+        {
+          "label": "d",
+          "text": "It streamlines administrative processes and aligns with value chain analysis."
+        }
+      ],
+      "answer": "(b) It safeguards quality and aligns with strategic risk assessment.",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "objectives",
+        "premise control"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q1ii",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(ii)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nHow does Swasthya counter the risk posed by constant innovations and disruptions in their areas of expertise?",
+      "options": [
+        {
+          "label": "a",
+          "text": "By aggressively acquiring innovative startups."
+        },
+        {
+          "label": "b",
+          "text": "By introducing value-added services like telemedicine and wellness programs."
+        },
+        {
+          "label": "c",
+          "text": "By downsizing their operations."
+        },
+        {
+          "label": "d",
+          "text": "By focusing exclusively on urban healthcare markets."
+        }
+      ],
+      "answer": "(b) By introducing value-added services like telemedicine and wellness programs.",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q1iii",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(iii)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nWhy is the McKinsey 7S model significant in Swasthya's strategic management approach, and which elements of the model ensure a holistic alignment of their strategy?",
+      "options": [
+        {
+          "label": "a",
+          "text": "It facilitates short-term profit maximization, with a focus on structure and style."
+        },
+        {
+          "label": "b",
+          "text": "It emphasizes a compartmentalized approach to strategy, focusing on shared values and skills."
+        },
+        {
+          "label": "c",
+          "text": "It ensures a comprehensive alignment of strategy, structure, systems, shared values, skills, style, and staff."
+        },
+        {
+          "label": "d",
+          "text": "It prioritizes immediate cost reduction by aligning systems and strategy."
+        }
+      ],
+      "answer": "(c) It ensures a comprehensive alignment of strategy, structure, systems, shared values, skills, style, and staff.",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "mckinsey 7s"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q1iv",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(iv)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nWhy is the focus on local operations essential for Swasthya in the context of their long-term objective, and how does it contribute to their overall strategy?",
+      "options": [
+        {
+          "label": "a",
+          "text": "It reduces strategic risk by minimizing the need for strategic risk assessment."
+        },
+        {
+          "label": "b",
+          "text": "It aligns with their commitment to immediate profitability."
+        },
+        {
+          "label": "c",
+          "text": "It translates the organization's vision into tangible outcomes and aligns with their long-term objective."
+        },
+        {
+          "label": "d",
+          "text": "It diversifies their portfolio and aligns with competitive landscape analysis."
+        }
+      ],
+      "answer": "(c) It translates the organization's vision into tangible outcomes and aligns with their long-term objective.",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "vision",
+        "objectives",
+        "focus strategy"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q1v",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "1(v)",
+      "kind": "case-mcq",
+      "marks": null,
+      "question": "[Shared case scenario — see question 1(i).]\nThe case talks about scrutiny of every facet of the healthcare journey and also emphasizes the fact that people of the organization play a pivotal role in this journey. Based on your reading, which level of management has the most crucial part to play here to ensure the sense of customer-first is imbibed in the organization?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Top Management (C-Suite) which sets the tone and strategy of the organization"
+        },
+        {
+          "label": "b",
+          "text": "Middle Management (Divisional Managers) who have the responsibility of translating strategy to real-time objectives"
+        },
+        {
+          "label": "c",
+          "text": "Functional Managers who actually do the work on the field"
+        },
+        {
+          "label": "d",
+          "text": "Board of Directors who are responsible for wealth creation of the shareholders"
+        }
+      ],
+      "answer": "(b) Middle Management (Divisional Managers) who have the responsibility of translating strategy to real-time objectives",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "vision",
+        "objectives"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q2",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "2",
+      "kind": "mcq",
+      "marks": null,
+      "question": "ABC Foundation envisages a world where every individual, regardless of background, has access to quality education, eradicating illiteracy globally. ABC Foundation is committed to establishing 1000 learning centers, with a target to reach 1 million learners in the next five years. Their core values emphasize equality, empowerment, and knowledge-sharing. What represents the fundamental purpose and long-term aspirations of ABC Foundation?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Vision"
+        },
+        {
+          "label": "b",
+          "text": "Values"
+        },
+        {
+          "label": "c",
+          "text": "Mission"
+        },
+        {
+          "label": "d",
+          "text": "Goals and Objectives"
+        }
+      ],
+      "answer": "(a) Vision",
+      "mcq_answer": "a",
+      "topic_tags": [
+        "vision"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q3",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "3",
+      "kind": "mcq",
+      "marks": null,
+      "question": "Kanika, known as \"Desi Taylor Swift,\" launched the lipstick brand Kolor among intense global and domestic competition. Despite a lack of groundwork, her substantial 45 million social media following gained significant attention. Which aspect of Michael Porter’s force multiplier is working in favour of Kolor?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Social Media Influence"
+        },
+        {
+          "label": "b",
+          "text": "Threat of New Entrants"
+        },
+        {
+          "label": "c",
+          "text": "Supplier Bargaining Power"
+        },
+        {
+          "label": "d",
+          "text": "Buyer Bargaining Power"
+        }
+      ],
+      "answer": "(b) Threat of New Entrants",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "porter"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q4",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "4",
+      "kind": "mcq",
+      "marks": null,
+      "question": "Mukul faced intense competition in an undifferentiated industry. To address this, he opted for a cost-cutting strategy to attract customers with lower pricing. Which factor could pose a risk to Mukul's cost-cutting strategy?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Prompt forecasting of demand for the product or service"
+        },
+        {
+          "label": "b",
+          "text": "Investing in cost-saving technologies and using advanced technology for smart, efficient working"
+        },
+        {
+          "label": "c",
+          "text": "Technological breakthroughs in the industry"
+        },
+        {
+          "label": "d",
+          "text": "Resistance to differentiation until it becomes essential"
+        }
+      ],
+      "answer": "(c) Technological breakthroughs in the industry",
+      "mcq_answer": "c",
+      "topic_tags": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q5",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "5",
+      "kind": "mcq",
+      "marks": null,
+      "question": "Quntik operates in the software industry and enjoys a strong position in the market. They have identified an opportunity to acquire a smaller company to expand their product offerings. Which quadrant of Medelow's Matrix would the CEO of a smaller company fall into?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Keep Satisfied"
+        },
+        {
+          "label": "b",
+          "text": "Key Player"
+        },
+        {
+          "label": "c",
+          "text": "Low Priority"
+        },
+        {
+          "label": "d",
+          "text": "Keep Informed"
+        }
+      ],
+      "answer": "(b) Key Player",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "mcq"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q6",
+      "chapter": "MCQ",
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "6",
+      "kind": "mcq",
+      "marks": null,
+      "question": "What organizational structure is best suited for House of Jani's strategic need for dynamic allocation of resources, ensuring each project and department is mentored, monitored, and maximized via multiple leaders?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Functional Structure"
+        },
+        {
+          "label": "b",
+          "text": "Matrix Structure"
+        },
+        {
+          "label": "c",
+          "text": "Hourglass Structure"
+        },
+        {
+          "label": "d",
+          "text": "Network Structure"
+        }
+      ],
+      "answer": "(b) Matrix Structure",
+      "mcq_answer": "b",
+      "topic_tags": [
+        "matrix structure",
+        "organisation structure"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q7",
+      "chapter": 1,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "7",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "ABC Pharmaceuticals, a leading pharmaceutical company, is in the process of formulating its strategic intent. The top management of ABC Pharmaceuticals wants to define the company's future direction, objectives, and goals. Their aim is to create a vision that sets the organization apart and provides a roadmap for future growth. ABC Pharmaceuticals aspires to enrich the lives of people by producing high-quality pharmaceutical products at competitive prices and wants to become the world's leading pharmaceutical company by 2030.\" Based on this context, draft a vision and mission statement that could be formulated by the top management of ABC Pharmaceuticals.",
+      "options": null,
+      "answer": "ABC Pharmaceuticals may have following vision and mission: Vision: Vision implies the blueprint of the company’s future position. It describes where the organisation wants to land. ABC Pharmaceuticals may have vision \"To be the globally recognized leader in pharmaceutical innovation and enriching the lives of people worldwide by providing high-quality, affordable, and accessible pharmaceutical products.\" Mission: Mission delineates the firm’s business, its goals and ways to reach the goals. It explains the reason for the existence of the firm in society. It is designed to help potential shareholders and investors understand the purpose of the company. ABC Pharmaceuticals may identify mission in the following lines:\n• To improve the well-being of individuals and communities by relentlessly pursuing excellence in pharmaceutical research, development, and manufacturing.\n• Committed to producing safe, effective, and sustainable medicines that address unmet medical needs and enhance the quality of life for patients.\n• Through innovation, collaboration, and ethical practices, we aim to make a positive impact on global healthcare and become the trusted partner of healthcare providers and patients alike.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "vision",
+        "mission",
+        "objectives",
+        "strategic intent"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q8",
+      "chapter": 1,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "8",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Define Strategic Management. Also discuss the limitations of Strategic Management.",
+      "options": null,
+      "answer": "The term ‘strategic management’ refers to the managerial process of developing a strategic vision, setting objectives, crafting a strategy, implementing and evaluating the strategy, and initiating corrective adjustments were deemed appropriate.\nThe presence of strategic management cannot counter all hindrances and always achieve success as there are limitations attached to strategic management. These can be explained in the following lines:\n• Environment is highly complex and turbulent. It is difficult to understand the complex environment and exactly pinpoint how it will shape-up in future. The organisational estimate about its future shape may awfully go wrong and jeopardise all strategic plans. The environment affects as the organisationhas to deal with suppliers, customers, governments and other external factors.\n• Strategic Management is a time-consuming process. Organisations spend a lot of time in preparing, communicating the strategies that may impede daily operations and negatively impact the routine business.\n• Strategic Management is a costly process. Strategic management adds a lot of expenses to an organization. Expert strategic planners need to be engaged, efforts are made for analysis of external and internal environments, devise strategies and properly implement. These can be really costly for organisations with limited resources particularly when small and medium organisation create strategies to compete.\n• Competition is unpredictable. In a competitive scenario, where all organisations are trying to move strategically, it is difficult to clearly estimate the competitive responses to the strategies.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "vision",
+        "objectives",
+        "limitations of strategic management"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q9",
+      "chapter": 2,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "9",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Riya Sharma owns a confectionery business in Jaipur, specializing in homemade chocolates and candies. Despite holding a substantial market share in the central region, her business has experienced declining sales of these products over the last few years. Concerned about the market dynamics, Riya consults a management expert for guidance. The consultant recommends a comprehensive understanding of the competitive landscape. Explain the steps to be followed by Riya Sharma to understand the competitive landscape to address the sales decline.",
+      "options": null,
+      "answer": "Steps to understand the competitive landscape are as follows:\n(i) Identify the competitor: The first step to understanding the competitive landscape is to identify the competitors in the firm’s industry and have actual data about their respective market share.\n(ii) Understand the competitors: Once the competitors have been identified, the strategist can use market research report, internet, newspapers, social media, industry reports, and various other sources to understand the products and services offered by them in different markets.\n(iii) Determine the strengths of the competitors: What is the strength of the competitors? What do they do well? Do they offer great products? Do they utilize marketing in a way that comparatively reaches out to more consumers. Why do customers give them their business?\n(iv) Determine the weaknesses of the competitors: Weaknesses (and strengths) can be identified by going through consumer reports and reviews appearing in various media. After all, consumers are often willing to give their opinions, especially when the products or services are either great or very poor.\n(v) Put all of the information together: At this stage, the strategist should put together all information about competitors and draw inference about what they are not offering and what the firm can do to fill in the gaps. The strategist can also know the areas which need to be strengthened by the firm.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "competitive landscape"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q10",
+      "chapter": 2,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "10",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Explain the concept of Experience Curve and highlight its relevance in strategic management.",
+      "options": null,
+      "answer": "Experience curve akin to a learning curve which explains the efficiency increase gained by workers through repetitive productive work. Experience curve is based on the commonly observed phenomenon that unit costs decline as a firm accumulates experience in terms of a cumulative volume of production. It is based on the concept, “we learn as we grow”. The implication is that larger firms in an industry would tend to have lower unit costs as compared to those for smaller companies, thereby gaining a competitive cost advantage. Experience curve results from a variety of factors such as learning effects, economies of scale, product redesign and technological improvements in production. Experience curve has following features:\n♦ As business organisation grow, they gain experience.\n♦ Experience may provide an advantage over the competition. Experience is a key barrier to entry.\n♦ Large and successful organisation possess stronger “experience effect”.\nA typical experience curve may be depicted as follows:\nFigure: Experience curve As a business grows, it understands the complexities and benefits from its experiences. The concept of experience curve is relevant for a number of areas in strategic management. For instance, the experience curve is considered a barrier for new firms contemplating entry in an industry. It is also used to build market share and discourage competition.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "experience curve"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q11",
+      "chapter": 3,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "11",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "ABC Ltd. is a beverage manufacturing company. It chiefly manufactures soft drinks. The products are priced on the lower side, which has made the company a leader in the business. Currently it holds 35 percent of the market share. The R & D of the company developed a formula for manufacturing sugar-free beverages. On successful trial and approval by the competent authorities, the company was granted to manufacture sugar free beverages. This company is the pioneer to launch sugar free beverages which are sold at a relatively higher price. This new product has been accepted widely by a class of customers. These products have proved profitable for the company. Identify the strategy employed by the company ABC Ltd. and mention what measures could be adopted by the company to achieve the employed strategy.",
+      "options": null,
+      "answer": "According to Porter, strategies allow organizations to gain competitive advantage from three different bases: cost leadership, differentiation, and focus. Porter called these base generic strategies. ABC Ltd. has opted for the Differentiation Strategy. The company has invested a huge amount in R & D and developed a formula for manufacturing sugar-free beverages to give the customer value and quality. They are pioneers and serve specific customer needs that are not met by other companies in the industry. The new product has been accepted by a class of customers. Differentiated and unique sugar-free beverages enable ABC Ltd. to charge relatively higher for its products, hence making higher profits and maintaining its competitive position in the market. Sugar free beverage of ABC Ltd. is being accepted widely by a class of customers. Differentiation strategy is aimed at a broad mass market and involves the creation of a product or service that is perceived by the customers as unique. The uniqueness can be associated with product design, brand image, features, technology, and dealer network or customer service. Achieving Differentiation Strategy To achieve differentiation, following strategies are generally adopted by an organization:\n1. Offer utility to the customers and match products with their tastes and preferences.\n2. Elevate/Improve performance of the product.\n3. Offer a high-quality product/service for buyer satisfaction.\n4. Rapid product innovation to keep up with dynamic environment.\n5. Taking steps to enhance brand image and brand value.\n6. Fixing product prices based on the unique features of product and buying capacity of the customer.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "porter",
+        "cost leadership",
+        "differentiation",
+        "focus strategy"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q12",
+      "chapter": 3,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "12",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "There are four specific criteria of sustainable competitive advantage that firms can use to determine those capabilities that are known as core competencies. Explain.",
+      "options": null,
+      "answer": "Four specific criteria of sustainable competitive advantage that firms can use to determine those capabilities that are core competencies. Capabilities that are valuable, rare, costly to imitate, and non-substitutable are core competencies.\ni. Valuable: Valuable capabilities are the ones that allow the firm to exploit opportunities or avert the threats in its external environment. A firm created value for customers by effectively using capabilities to exploit opportunities. Finance companies build a valuable competence in financial services. In addition, to make such competencies as financial services highly successful requires placing the right people in the right jobs. Human capital is important in creating value for customers.\nii. Rare: Core competencies are very rare capabilities and very few of the competitors possess these. Capabilities possessed by many rivals are unlikely to be sources of competitive advantage for any one of them. Competitive advantage results only when firms develop and exploit valuable capabilities that differ from those shared with competitors.\niii. Costly to imitate: Costly to imitate means such capabilities that competing firms are unable to develop easily.\niv. Non-substitutable: Capabilities that do not have strategic equivalents are called non-substitutable capabilities. This final criterion for a capability to be a source of competitive advantage is that there must be no strategically equivalent valuable resources that are themselves either not rare or imitable.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "core competence",
+        "competitive advantage"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q13",
+      "chapter": 4,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "13",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "XYZ Corporation is a multinational conglomerate operating in various industries. They have a diverse portfolio of businesses, including a leading consumer electronics division, a growing e-commerce platform, a mature industrial machinery division, and a newly established software development unit. Which division of XYZ Corporation would most likely be classified as a \"Star\" in the BCG Growth-Share Matrix?",
+      "options": null,
+      "answer": "In the BCG Growth-Share Matrix, divisions or business units are classified into four categories: Stars, Cash Cows, Question Marks, and Dogs. These classifications are based on a combination of market share and market growth rate. A \"Star\" in the BCG Matrix represents a business unit with a high market share in a high-growth market. In the scenario, the newly established software development unit would be classified as a \"Star.\" The software development unit is described as \"newly established,\" suggesting that it is operating in a high-growth market. Additionally, the potential for high market share can be inferred if the unit is strategically positioned to become a leader in the software development industry. Stars typically require significant investment to fuel their growth, but they have the potential to become future Cash Cows as the market matures. Therefore, the software development unit's high growth potential and the opportunity to capture a substantial market share align with the characteristics of a BCG Matrix \"Star.\"",
+      "mcq_answer": null,
+      "topic_tags": [
+        "vision",
+        "bcg matrix"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q14",
+      "chapter": 4,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "14",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Justify the statement \"Stability strategy is opposite of Expansion strategy\".",
+      "options": null,
+      "answer": "Stability Strategies, as the name suggests, are intended to safeguard the existing interests and strengths of business. It involves organisations pursuing established and tested objectives, continue on the chosen path, maintaining operational efficiency and so on. A stability strategy is pursued when a firm continues to serve in the same or similar markets and deals in the same products and services. In stability strategy, few functional changes are made in the products or markets, however, it is not a ‘do nothing’ strategy. This strategy is typical for mature business organizations. Some small organizations also frequently use stability as a strategic focus to maintain comfortable market or profit position.\nOn the other hand, expansion strategy is an aggressive strategy as it involves redefining the business by adding the scope of business substantially, increasing the efforts of the current business. In this sense, it becomes the opposite to stability strategy. Expansion is a promising and popular strategy that tends to be equated with dynamism, vigor, promise and success. Expansion also includes diversifying, acquiring and merging businesses. This strategy may take the enterprise along relatively unknown and risky paths, full of promises and pitfalls.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "objectives",
+        "diversification",
+        "focus strategy",
+        "expansion strategy"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q15",
+      "chapter": 5,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "15",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "York Investors, recognizing the importance of aligning its organizational elements with strategic objectives, has strategically invested in training programs, technology, and communication systems. The company aims to enhance the skills and capabilities of its workforce through comprehensive training initiatives. Simultaneously, York Investors leverages cutting-edge technology to streamline its operations and improve overall efficiency. The investment in communication systems ensures seamless collaboration and information flow across various departments. Identify and explain the model used by York Investors to achieve its strategic objectives.",
+      "options": null,
+      "answer": "York Investors is employing the McKinsey 7S Model to achieve its strategic objectives. The model focuses on seven interdependent elements within an organization, categorized into \"Hard Ss\" and \"Soft Ss.\" In this case:\n• Strategy (Hard S): Investing in training programs and technology aligns with the strategic objective of enhancing workforce skills and operational efficiency.\n• Structure (Hard S): The investment suggests a structural alignment to support the strategic initiatives, indicating a deliberate organization of resources.\n• Systems (Hard S): The use of cutting-edge technology and communication systems reflects a commitment to optimizing daily tasks and improving overall efficiency, addressing the system component of the model.\n• Shared Values (Soft S): The emphasis on comprehensive training initiatives indicates a commitment to shared values, reflecting a focus on developing a skilled and capable workforce.\n• Style (Soft S): The leadership style is implied in the strategic decision to invest in technology and training for workforce development and operational efficiency.\n• Staff (Soft S): The commitment to enhancing skills and capabilities reflects a focus on the talent pool within the organization.\n• Skills (Soft S): The strategic investment in training programs directly addresses the development of key skills within the workforce.\nYork Investors' approach demonstrates a holistic application of the McKinsey 7S Model, emphasizing the interconnectedness of both hard and soft elements to achieve strategic alignment and organizational effectiveness.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "objectives",
+        "mckinsey 7s",
+        "focus strategy",
+        "strategic leadership"
+      ]
+    },
+    {
+      "id": "rtp-may2024-q16",
+      "chapter": 5,
+      "chapter_source": "icai",
+      "mapping_note": "",
+      "qno": "16",
+      "kind": "descriptive",
+      "marks": null,
+      "question": "Why is change management crucial during digital transformation, and what are some key strategies for navigating change effectively?",
+      "options": null,
+      "answer": "Change management is essential during digital transformation to ensure the success of the process. Here are some key strategies to navigate change effectively:\n• Specify the digital transformation's aims and objectives: Clearly defining the intended outcomes and objectives helps ensure everyone is aligned and working towards the same goals.\n• Always communicate: Regular and transparent communication is crucial to help people understand the goals of digital transformation and how it will impact various stakeholders, including employees, clients, and other parties.\n• Be ready for resistance: Change, even if beneficial, can be met with resistance. Having a strategy in place to address resistance is important for overcoming challenges and ensuring a smooth transition.\n• Implement changes gradually: Instead of making all changes at once, gradual implementation allows individuals to adapt to new ways of doing things without feeling overwhelmed by too much change simultaneously.\n• Offer assistance and training: Providing support, guidance, and training for employees is crucial as they navigate new procedures, software applications, and other aspects of digital transformation. In conclusion, meticulous planning and effective change management are vital for the successful completion of digital transformation projects. Without proper change management, these efforts are more likely to fail, and organizations can enhance the integration of new digital systems by anticipating and managing the necessary changes.",
+      "mcq_answer": null,
+      "topic_tags": [
+        "objectives",
+        "change management",
+        "digital transformation",
+        "stakeholders"
+      ]
+    }
+  ]
+}

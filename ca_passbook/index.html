@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F6F7F9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0D0F13" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<title>PassBook — CA Inter Group II</title>
+<!-- the logo as an inline icon: no request, so a hosted copy has no favicon.ico 404 (P1-58), and file:// is unchanged -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%232450E0'/%3E%3Cpath d='M5 12.8 9.8 17.2 19 7.2' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<script>
+/* apply the saved theme before first paint; a chosen theme also colours the browser bar (P2-51: both theme-color metas take its --bg, and keep
+   their own value in data-auto for GA.ui to restore on Auto). P3-34: the store mirrors the theme in the tiny '<profile>:theme' key, so the whole
+   progress document is parsed here only on a profile that no store has opened since that key existed */
+(function(){try{var q=new URLSearchParams(location.search),p=q.get('profile')||(q.has('selftest')?'selftest':'main'),k='passbook:'+p,t=q.get('theme')||localStorage.getItem(k+':theme');
+if(!t){var s=JSON.parse(localStorage.getItem(k)||'{}');t=s.profile&&s.profile.theme;}t=t||'auto';var set=t==='dark'||t==='light';
+if(!set)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);
+if(set){var c=t==='dark'?'#0D0F13':'#F6F7F9';document.querySelectorAll('meta[name="theme-color"]').forEach(function(m){m.setAttribute('data-auto',m.getAttribute('content'));m.setAttribute('content',c);});}}catch(e){}})();
+</script>
+<style>
+/* the first paint, before any stylesheet has arrived (P2-78): each theme's page colour (build.py --check keeps these equal to base.css's --bg) and the
+   boot line with literal fallbacks, so a slow phone shows the app's own colours at once and a dark cold load never flashes light */
+html { background: #F6F7F9; color: #0F172A; }
+html[data-theme="dark"] { background: #0D0F13; color: #F1F3F7; }
+.boot { display: grid; place-items: center; min-height: 100vh; margin: 0; color: var(--muted, #4D5675); font: 600 14px/1.4 var(--font-ui, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif); }
+html[data-theme="dark"] .boot { color: var(--muted, #A3A8B6); }
+</style>
+</head>
+<body>
+<div id="app"><div class="boot">Loading PassBook…</div></div>
+<!-- the stylesheets come after the boot line (P2-78): it paints while they load; the scripts below wait for them as before. Order = cascade order. -->
+<link rel="stylesheet" href="vendor/fonts/fonts.css">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="app/css/base.css">
+<link rel="stylesheet" href="app/css/components.css">
+<link rel="stylesheet" href="app/css/shell.css">
+<link rel="stylesheet" href="app/css/views.css">
+<!-- practice sheets split out of views.css (audit wave 1): right after it, so a rule moved out of views.css keeps its place in the cascade -->
+<link rel="stylesheet" href="app/css/bank.css">
+<link rel="stylesheet" href="app/css/tests.css">
+<link rel="stylesheet" href="app/css/retention.css">
+<link rel="stylesheet" href="app/css/lesson.css">
+<!-- lesson-content rendering shared by lessons, question cards, labs and home widgets: after the sheets it overrides, before the ones that specialise it -->
+<link rel="stylesheet" href="app/css/content.css">
+<link rel="stylesheet" href="app/css/labs.css">
+<!-- design-system primitives (.sec, .btn-xl, .card-xl, .reveal ...), then the per-page sheets of the content-first screens, which may build on them -->
+<link rel="stylesheet" href="app/css/site.css">
+<link rel="stylesheet" href="app/css/home.css">
+<link rel="stylesheet" href="app/css/map.css">
+<link rel="stylesheet" href="app/css/subject.css">
+<link rel="stylesheet" href="app/css/hubs.css">
+<link rel="stylesheet" href="app/css/engage.css">
+<!-- wave 2 (empty until then): the revision sheet /rev/:subject, then the hosted copy's install / update UI, last -->
+<link rel="stylesheet" href="app/css/revise.css">
+<link rel="stylesheet" href="app/css/pwa.css">
+<noscript><p style="padding:2rem;font:16px system-ui">PassBook needs JavaScript. It runs entirely in your browser; no server or network is required.</p></noscript>
+<!-- core modules (each may use the ones above it), then the shell; views load lazily through the shell's route table.
+     The calc, fit and pyqlib modules are audit wave-1 stubs (docs/ARCHITECTURE.md §10.1); pyqlib stays above search, its first consumer.
+     mapviz.js is not here: the content map and the subject page load it when they draw (P2-78) -->
+<script src="data/boot.js"></script>
+<script src="data/manifest.js"></script>
+<script src="vendor/katex/katex.min.js"></script>
+<script src="app/js/core/util.js"></script>
+<script src="app/js/core/icons.js"></script>
+<script src="app/js/core/srs.js"></script>
+<script src="app/js/core/scoring.js"></script>
+<script src="app/js/core/calc.js"></script>
+<script src="app/js/core/store.js"></script>
+<script src="app/js/core/actions.js"></script>
+<script src="app/js/core/stats.js"></script>
+<script src="app/js/core/testgen.js"></script>
+<script src="app/js/core/planner.js"></script>
+<script src="app/js/core/data.js"></script>
+<script src="app/js/core/md.js"></script>
+<script src="app/js/core/fit.js"></script>
+<script src="app/js/core/pyqlib.js"></script>
+<script src="app/js/core/charts.js"></script>
+<script src="app/js/core/insights.js"></script>
+<script src="app/js/core/engage.js"></script>
+<script src="app/js/core/mascot.js"></script>
+<script src="app/js/core/router.js"></script>
+<script src="app/js/core/ui.js"></script>
+<script src="app/js/core/reveal.js"></script>
+<script src="app/js/core/search.js"></script>
+<script src="app/js/viz/diagram.js"></script>
+<!-- the hosted copy's client (GA.pwa, P1-58): inert here and on file://; only a site build (build.py --site, <html data-site>) over http(s) starts its service worker -->
+<script src="app/js/core/pwa.js"></script>
+<script src="app/js/shell.js"></script>
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+  try { GA.shell.boot(); if (/[?&]selftest/.test(location.search)) { var t = document.createElement('script'); t.src = GA.util && GA.util.verUrl ? GA.util.verUrl('app/js/selftest.js') : 'app/js/selftest.js'; document.body.appendChild(t); } }
+  catch (e) {
+    /* the app could not start (P1-51, P1-59). With the content loaded, saved progress is the likely cause: offer to download it and to start fresh
+       with it kept aside (nothing is deleted). Without the content, say what is missing; 'run build.py' only for a copy opened from a folder. */
+    console.error(e);
+    var esc = function (x) { return String(x == null ? '' : x).replace(/&/g, '&amp;').replace(/</g, '&lt;'); };
+    var q = new URLSearchParams(location.search), key = 'passbook:' + (q.get('profile') || (q.has('selftest') ? 'selftest' : 'main')), file = location.protocol === 'file:';
+    var content = !!(window.GAD && GAD.manifest && GAD.manifest.main), raw = null;
+    try { raw = (window.GA && GA.store && GA.store.rawText) ? GA.store.rawText() : localStorage.getItem(key); } catch (x) { raw = null; }
+    var btn = 'display:inline-flex;align-items:center;height:44px;padding:0 18px;margin:6px 8px 0 0;border-radius:14px;font:700 14.5px system-ui;cursor:pointer;border:2px solid ';
+    var html = '<div role="alert" style="padding:2rem 1.25rem;font:15px/1.55 system-ui;max-width:640px;margin:8vh auto;color:var(--ink,#0E1530)"><h2 style="margin:0 0 .5rem">PassBook could not start</h2>';
+    if (!content) html += (file ? '<p>The data files are missing or out of date. Run <code>python3 build.py</code> in the project folder, then reload this page.</p>'
+      : '<p>Some of the app’s files did not arrive. Check your connection, then try again.</p>') + '<button type="button" data-boot="reload" style="' + btn + '#8A1238;background:#D6245E;color:#fff">' + (file ? 'Reload' : 'Try again') + '</button>';
+    else html += '<p>Your saved progress in this browser may be what stops it. Download a copy first; starting fresh keeps the old data aside in this browser, nothing is deleted.</p>' +
+      (raw ? '<button type="button" data-boot="save" style="' + btn + '#16318C;background:#2450E0;color:#fff">Download my saved data</button>' : '') +
+      '<button type="button" data-boot="fresh" style="' + btn + '#8A1238;background:#D6245E;color:#fff">Start fresh, data kept aside</button>';
+    // the developer's message goes last, folded (P3-42): the learner reads what to do first
+    if (e && e.message) html += '<details style="margin-top:14px;font-size:13px;color:var(--muted,#4D5675)"><summary style="cursor:pointer">Details for a bug report</summary><code style="display:block;margin-top:6px;overflow-wrap:anywhere">' + esc(e.message) + '</code></details>';
+    var app = document.getElementById('app'); app.innerHTML = html + '</div>';
+    app.addEventListener('click', function (ev) {
+      var b = ev.target.closest && ev.target.closest('[data-boot]'); if (!b) return;
+      var k = b.getAttribute('data-boot');
+      if (k === 'reload') location.reload();
+      else if (k === 'save') { var a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([raw || ''], { type: 'application/json' })); a.download = 'passbook-saved-data.json'; document.body.appendChild(a); a.click(); }
+      else if (k === 'fresh') {
+        try {
+          // the store keeps the text aside itself (also in blocked or memory mode) and throws code 'no-room' when it cannot; without a working store, by hand
+          var viaStore = false;
+          if (window.GA && GA.store && typeof GA.store.reset === 'function') { try { GA.store.reset({ keep: true }); viaStore = true; } catch (y) { if (y && y.code === 'no-room') throw y; } }
+          if (!viaStore) { var r = localStorage.getItem(key); if (r != null) { localStorage.setItem(key + ':corrupt-' + Date.now(), r); localStorage.removeItem(key); } }
+          location.reload();
+        }
+        catch (x) { var p = document.createElement('p'); p.style.color = '#B4233C'; p.textContent = 'There is no room in this browser’s storage to keep your saved data aside, so nothing was changed. Download it first, then free some space in the browser’s settings.'; b.parentNode.appendChild(p); }
+      }
+    });
+  }
+});
+</script>
+</body>
+</html>

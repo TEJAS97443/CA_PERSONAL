@@ -1,0 +1,84 @@
+# PassBook, Out Loud · P4-11 · Joint Products and By-Products: एक process, कई products, एक bill
+
+## Introduction: एक process से कई products
+
+नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+पिछले episode में ऋतु ने process costing में हर process की cost उसके output पर average की थी, जहाँ process के आख़िर में एक ही product निकलता था।
+अब Jorhat के पास Tapri की tea factory है, जहाँ एक ही process के आख़िर में sorting sieve से तीन grades निकलते हैं, और साथ में sweepings भी।
+आज Paper four का chapter eleven है, Joint Products and By-Products, जिसे ICAI ने साठ documents में पूछा है, जिनमें सत्रह exam papers हैं।
+Episode के आख़िर तक आप joint cost बाँटने के methods, sell or process further का decision, और by-products का treatment ICAI के शब्दों में लिख पाएँगे।
+
+## Joint products and apportioning joint costs: एक bill, कई हिस्से
+
+Tea factory हर kilo green leaf को एक ही withering, rolling, fermenting और drying से गुज़ारती है, और sieve पर ही Leaf, Brokens और Dust अलग होते हैं।
+ICAI के words में joint products are two or more products of equal importance, produced simultaneously from the same process, with each having a significant relative sale value।
+Split-off point is a point in a production process where joint products emerging from the process get separately identifiable, और joint cost इसी point तक का खर्च है।
+Joint cost में split-off तक का raw material, labour, power, fuel, depreciation और overheads आता है, और उसके बाद की हर cost उसी product की होती है।
+केसर ने Dust का तीस लाख का loss देखकर उसकी line बंद करने को कहा, पर ऋतु ने याद दिलाया कि Dust की कोई अलग line है ही नहीं।
+Joint cost किसी एक product तक trace नहीं हो सकती, और ICAI के शब्दों में it can only be apportioned by using some rational method।
+Weight पर बाँटने से Dust घाटे में दिखा, पर sales value पर बाँटने से हर grade ने बीस प्रतिशत profit कमाया, और factory का total profit दोनों तरह तीस लाख ही रहा।
+इसीलिए apportionment तीन चीज़ों पर असर डालता है, valuation of closing inventory, pricing of products, और profit or loss on the sale of different products।
+ICAI के तीन commonly used methods हैं physical units, net realisable value at split-off, और technical estimates।
+बाकी चार methods managers decisions लेने के लिए use कर सकते हैं, market value at the point of separation, market value after further processing, average unit cost, और contribution margin।
+Physical units में joint cost को total units से divide करके product के units से multiply करते हैं, और ये units split-off पर produced quantity हैं, एक common unit में।
+इस method का main defect ये है कि ये सारे joint products को equal importance और value देता है, और average unit cost method भी यही answer देता है।
+Market value at the point of separation में ICAI का shortcut multiplying factor है, यानी joint cost divided by total sales value at split-off, into hundred।
+हर product की sales value at split-off उसकी produced quantity into split-off price है, और उसकी joint cost उसी sales value into multiplying factor होती है।
+Net realisable value है final sales value minus profit margin minus selling and distribution costs minus post split-off cost, और joint cost NRV के ratio में बँटती है।
+Profit margin की line तभी लगती है जब question margin दे, और margin on cost दिया हो तो पहले उसे निकालिए, फिर post split-off cost घटाइए।
+Contribution margin method में पहले variable joint cost physical units पर बँटती है, फिर sales minus variable cost से contribution, और सिर्फ़ fixed joint cost contribution के ratio में जाती है।
+ICAI की circumstances list में physical unit तब use होता है जब sale price of all the products is uniform, और NRV तब, जब realisable value at split-off is not known।
+Technical estimates तब use होते हैं जब NRV का result resources consumed से match न करे, और market value at separation तब, जब further processing costs are disproportionate।
+Market value after processing तब use होता है जब further costs proportionate हों और सारे products processed हों, और average unit cost तब, जब units produced have the same unit।
+Method कोई भी हो, shares जोड़कर total joint cost से मिलाइए, क्योंकि शादी की biryani की handi की cost वही रहती है, सिर्फ़ उसे काटने का तरीका बदलता है।
+
+## Sell at split-off or process further: खर्च हो चुकी cost, नया decision
+
+Apportionment के बाद सवाल ये था कि हर grade auction में loose बिके या pack होकर, और seminar से लौटे केसर का जवाब था कि value addition के लिए सब pack करो।
+ऋतु ने per kilo देखा कि packing Brokens की price जितनी बढ़ाती है उससे कम खर्च करती है, पर Dust पर उल्टा, और इस हिसाब में joint cost कहीं नहीं आई।
+Rule ये है कि split-off point पर joint cost पहले ही खर्च हो चुकी है और दोनों रास्तों में बराबर है, इसलिए ये इस decision के लिए irrelevant है।
+Incremental revenue है sales after further processing minus sales value at split-off, और incremental cost है further processing cost plus extra selling, packing और marketing, minus selling expenses saved।
+Product को आगे process तभी कीजिए जब incremental revenue incremental cost से ज़्यादा हो, वरना उसे split-off point पर ही बेचिए।
+Further processing में loss हो, तो final sales बचे units पर और split-off sales पूरे units पर निकलती हैं, और split-off पर मिला offer, split-off price की जगह लेता है।
+Minimum final price है sales value at split-off plus incremental cost, divided by output after further processing, और इस price पर incremental profit nil होता है।
+Advice ICAI के इसी form में लिखिए: It is advisable to further process only product X and to sell product Y at the point of separation.
+
+## Treatment of by-products: छोटी value, सही credit
+
+केसर sweepings की बिक्री को free money मानकर miscellaneous income में डालना चाहते थे, पर ऋतु ने याद दिलाया कि उनकी cleaning और freight का खर्च भी लगा है।
+ICAI के words में by-product is a product recovered incidentally from the material used in the manufacture of main or desired products, जिसकी value main product के मुक़ाबले relatively insignificant होती है।
+ICAI के examples हैं sugar के साथ molasses, coal के carbonisation में tar, ammonia और benzole, और soap बनाते समय glycerin।
+Joint products और by-products का फ़र्क ICAI दो points पर देता है, joint products are of equal importance और simultaneously produce होते हैं।
+By-products are of small economic value और incidentally निकलते हैं, इसलिए small value में उन पर joint cost नहीं बँटती, बल्कि उनकी realisation credit होती है।
+By-product की value लगाने के ICAI के चार methods इसी order में हैं, net realisable value, standard cost in technical estimates, comparative price, और re-use basis।
+By-product का NRV है sales value minus further processing cost minus उससे attributable selling, distribution और administration cost, और net joint cost है joint cost minus यही NRV।
+NRV method की theory में लिखिए कि molasses की realisation sugar की cost घटाती है, और further processing और selling, distribution, administration के अलग accounts रखे जाते हैं।
+ICAI के कई answers इसी working note से शुरू होते हैं, calculation of net joint costs to be apportioned, फिर net joint cost question के method से बँटती है।
+Question by-product पर estimated profit दे, तो उसकी joint cost है sales minus estimated profit minus selling expenses minus cost after separation, और बाकी joint cost main product उठाता है।
+Treatment of by-product cost के ICAI के तीन cases हैं, और पहला case when they are of small total value है, जिसमें दो रास्ते हैं।
+पहला रास्ता sales value को Costing Profit and Loss Account में credit करना है, cost accounts में कोई credit नहीं, miscellaneous income या additional sales revenue की तरह।
+दूसरा रास्ता sale proceeds को total costs से घटाना है, यानी production cost से या cost of sales से।
+When they are of considerable total value, वो joint products माने जाते हैं, और split-off तक की cost relative market values, physical output या ultimate selling prices पर बँटती है।
+Where they require further processing, split-off पर NRV है realisable value minus further processing cost, और वो total छोटा हो तो पहला case, बड़ा हो तो दूसरा case लगता है।
+ये order small, big, busy से याद रखिए, यानी पहले small value, फिर big value, और फिर busy by-product, जिसे further processing चाहिए।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+इस chapter में सबसे ज़्यादा joint cost apportionment पूछा गया है, चालीस documents में, और numerical में अक्सर उसी के साथ further processing का part जुड़ा होता है।
+Numericals चार से आठ marks के आते हैं, MCQs दो marks के, और by-products की theory चार या पाँच marks में आती है।
+ICAI ने बार-बार market value at separation और NRV method की discussion, treatment of by-product cost, और by-products पर NRV method पूछे हैं।
+Cases में एक process से तीन products देकर apportionment पूछा जाता है, फिर किसी product की further processing, और कभी best plan का profit भी।
+पहली गलती units sold पर apportion करना है, जबकि base produced quantity है, यानी units sold plus closing stock minus opening stock।
+दूसरी गलती final sales value को ही NRV मान लेना है, और तीसरी, kilos और litres को common unit में बदले बिना जोड़ देना।
+Further processing के decision में joint cost को वापस घसीटना, और by-product को उसकी पूरी sales value पर credit करना भी marks काटते हैं।
+Full-marks answer में produced quantity का working note, ICAI के layout में NRV statement, ratio, हर share, और ये check लिखिए कि shares जोड़कर joint cost बनते हैं।
+Theory में by-product के तीन cases ICAI के order में लिखिए, और decision वाले part में incremental statement के बाद ICAI का advice sentence लिखिए।
+
+## Summary: साठ seconds की revision
+
+साठ seconds में chapter ये है: joint products equal importance के होते हैं, एक process से simultaneously बनते हैं, और split-off point तक की cost joint cost है।
+Joint cost trace नहीं होती, सिर्फ़ apportion होती है, physical units, split-off की sales value, NRV या contribution margin पर, और base हमेशा units produced है।
+Method बदलने से products का profit बदलता है, total joint cost नहीं, और further processing तभी कीजिए जब incremental revenue incremental cost से ज़्यादा हो।
+Small value वाले by-product को Costing Profit and Loss Account में credit या cost से deduct कीजिए, considerable को joint product मानिए, और further processing में पहले NRV निकालिए।
+अगले episode में ऋतु factory से निकलकर Tapri के trucks, chai bus और inn जैसी services की cost per unit निकालेंगी, यानी Paper four का chapter twelve, Service Costing।
+ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

@@ -1,0 +1,29 @@
+[
+ {
+  "lesson": "fm.intro.role",
+  "kind": "quiz",
+  "title": "In which phase of its evolution was financial management con",
+  "containment": 0.24,
+  "shared_numbers": 0,
+  "source": "old/p8/pyq-dec2021-a.txt",
+  "offset": 2400
+ },
+ {
+  "lesson": "fm.lev.leverage",
+  "kind": "quiz",
+  "title": "A company has sales of \u20b940,00,000, variable cost of 60%, fix",
+  "containment": 0.33,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-sep2024-a.txt",
+  "offset": 150
+ },
+ {
+  "lesson": "fm.sources.other",
+  "kind": "quiz",
+  "title": "Which of these are features of seed capital assistance? Sele",
+  "containment": 0.25,
+  "shared_numbers": 0,
+  "source": "new/p6/pyq-jan2026-a.txt",
+  "offset": 3150
+ }
+]

@@ -1,0 +1,734 @@
+          PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                           SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                         Question No. 1 is compulsory.
+                                   Answer any three questions from the rest.
+        Question 1
+        (a) Business managers use MIS reports in the decision-making process. MIS reports need to
+            ensure that it meets certain criteria to make information most useful. Explain any three
+            such criteria.                                                                 (3 Marks)
+        (b) Distinguish between Connection Oriented and Connectionless Networks.                (2 Marks)
+        Answer
+        (a) MIS Reports need to ensure that it meets the following criteria to make the information
+            most useful:
+            •     Relevant: MIS reports need to be specific to the business area they address. This is
+                  important because a report that includes unnecessary information might be ignored.
+            •     Timely: Managers need to know what’s happening now or in the recent past to make
+                  decisions about the future. Be careful not to include information that is old. An example
+                  of timely information might be customer phone calls and emails going back 12 months
+                  from the current date.
+            •     Accurate: Managers and others who rely on MIS reports can’t make sound decisions
+                  with information that is wrong. It’s critical that numbers add up and that dates and
+                  times are correct. Financial information is often required to be accurate to the dollar.
+                  In other cases, it may be OK to round off numbers.
+            •     Structured: Information in an MIS report can be complicated. Making that information
+                  easy to follow helps management understand what the report is saying. Try to break
+                  long passages of information into more readable blocks or chunks and give these
+                  chunks meaningful headings.
+        (b) Difference between Connection Oriented Networks and Connectionless Networks are as
+            follows:
+                Connection Oriented Networks                       Connectionless Networks
+                It refers to the computer network      It refers to the computer network where no prior
+                wherein a connection is first          connection is made before data exchanges.
+                established between the sender and     Data which is being exchanged in fact has a
+                the receiver and then data is          complete contact information of recipient and at
+                exchanged.                             each intermediate destination, it is decided how
+                                                       to proceed further.
+                For example - telephone networks.      For example - postal networks.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                 INTERMEDIATE (NEW) EXAMINATION: DECEMBER, 2021
+
+
+        Question 2
+        (a) Data is a critical resource that must be organized, controlled and managed properly. In
+            order to achieve the same purpose, XYZ Ltd. decided to transform all its data into digitized
+            form. As a Database Administrator of the company, you are required to suggest major
+            advantages of Database Management Systems (DBMS) to the top management. (6 Marks)
+        (b) Briefly explain the advantages of business policy “Bring Your Own Device ” (BYOD).
+                                                                                                  (4 Marks)
+        Answer
+        (a) Major advantages of Database Management Systems (DBMS) are as follows:
+             •    Permitting Data Sharing: One of the principle advantages of a DBMS is that the
+                  same information can be made available to different users.
+             •    Minimizing Data Redundancy: In a DBMS, duplication of information or redundancy
+                  is, if not eliminated, carefully controlled or reduced i.e. there is no need to re peat the
+                  same data repeatedly. Minimizing redundancy significantly reduce the cost of storing
+                  information on storage devices.
+             •    Integrity can be maintained: Data integrity is maintained by having accurate,
+                  consistent, and up-to-date data. Updates and changes to the data only must be made
+                  in one place in DBMS ensuring Integrity.
+             •    Program and File consistency: Using a DBMS, file formats and programs are
+                  standardized. The level of consistency across files and programs makes it easier to
+                  manage data when multiple programmers are involved as the same rules and
+                  guidelines apply across all types of data.
+             •    User-friendly: DBMS makes the data access and manipulation easier for the user.
+                  DBMS also reduces the reliance of users on computer experts to meet their data
+                  needs.
+             •    Improved security: DBMS allows multiple users to access the same data resources
+                  in a controlled manner by defining the security constraints. Some sources of
+                  information should be protected or secured and only viewed by select individuals.
+                  Using passwords, DBMS can be used to restrict data access to only those who should
+                  see it. Security will only be improved in a database when appropriate access
+                  privileges are allotted to prohibit unauthorized modification of data.
+             •    Achieving program/data independence: In a DBMS, data does not reside in
+                  applications, but databases program and data are independent of each other.
+             •    Faster Application Development: In the case of deployment of DBMS, application
+                  development becomes fast. The data is already therein databases, application
+                  developer must think of only the logic required to retrieve the data in the way a user
+                  needs.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          3
+
+
+        (b) The advantages of Bring Your Own Device (BYOD) are as follows:
+             •    Happy Employees: Employees love to use their own devices when at work. This also
+                  reduces the number of devices an employee has to carry; otherwise, s/he would be
+                  carrying his/her personal as well as organization provided devices.
+             •    Lower IT budgets: Could involve financial savings to the organization since
+                  employees would be using the devices, they already possess thus reducing the outlay
+                  of the organization in providing devices to employees.
+             •    IT reduces support requirement: IT department does not have to provide end user
+                  support and maintenance for all these devices resulting in cost savi ngs.
+             •    Early adoption of new Technologies: Employees are generally proactive in
+                  adoption of new technologies that results in enhanced productivity of employees
+                  leading to overall growth of business.
+             •    Increased employee efficiency: The efficiency of employees is more when an
+                  employee works on his/her own device. In an organization provided devices,
+                  employees have to learn and there is a learning curve involved in it.
+        Question 3
+        (a) Human Resource Management (HRM) plays an important role in the effective and efficient
+            management of the human resources in any enterprise. As an HR Manager of XYZ Ltd.,
+            which typical stages of HR life cycle will you implement in the company?
+                                                                                              (6 Marks)
+        (b) Categorize the different kinds of business risks that any enterprise faces.       (4 Marks)
+        Answer
+        (a) The stages of Human Resource (HR) Cycle are as follows:
+             •    Recruiting and On-boarding: Recruiting is the process of hiring a new employee.
+                  The role of the human resources department in this stage is to assist in hiring. This
+                  might include placing the job ads, selecting candidates whose resumes look
+                  promising, conducting employment interviews and administering assessments such
+                  as personality profiles to choose the best applicant for the position. In a small
+                  business where the owner performs these duties personally, the HR person would
+                  assist in a support role. In some organizations, the recruiting stage is referred to as
+                  “hiring support.” On-boarding is the process of getting the successful applicant set up
+                  in the system as a new employee.
+             •    Orientation and Career Planning: Orientation is the process by which an employee
+                  becomes a member of the company’s work force through learning his/her new job
+                  duties, establishing relationships with co-workers and supervisors and developing a
+                  niche. Career planning is the stage at which the employee and his/her supervisors
+                  work out her long-term career goals with the company. The human resource
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                 INTERMEDIATE (NEW) EXAMINATION: DECEMBER, 2021
+
+
+                  department may make additional use of personality profile testing at this stage to help
+                  the employee determine his/her best career options with the company.
+             •    Career Development: Career development opportunities are essential to keep an
+                  employee engaged with the company over time. After an employee has established
+                  himself/herself at the company and determined his long-term career objectives, the
+                  human resources department should try to help him/her meet his/her goals, if they
+                  are realistic. This can include professional growth and training to prepare the
+                  employee for more responsible positions with the company. The company also
+                  assesses the employee’s work history and performance at this stage to determine
+                  whether he has been a successful hire.
+             •    Termination or Transition: Some employees will leave a company through
+                  retirement after a long and successful career. Others will choose to move on to other
+                  opportunities or be laid off. Whatever the reason, all employees will even tually leave
+                  the company. The role of HR in this process is to manage the transition by ensuring
+                  that all policies and procedures are followed, carrying out an exit interview if that is
+                  company policy and removing the employee from the system. These stages can be
+                  handled internally or with the help of enterprises that provide services to manage the
+                  employee life cycle.
+        (b) Different kinds of Business Risks are as follows:
+             •    Strategic Risks: These are the risks that would prevent an organization from
+                  accomplishing its objectives (meeting its goals). Examples include risks related to
+                  strategy, political, economic relationship issues with suppliers and global market
+                  conditions; also could include reputation risk, leadership risk, brand risk, and
+                  changing customer needs.
+             •    Financial Risks: Financial risks are those risks that could result in a negative
+                  financial impact to the organization (waste or loss of assets). Examples include risks
+                  from volatility in foreign currencies, interest rates, and commodities, credit risk,
+                  liquidity risk, and market risk.
+             •    Regulatory (Compliance) Risks: This includes risks that could expose the
+                  organization to fines and penalties from a regulatory agency due to non -compliance
+                  with laws and regulations. The examples include violation of laws or regulations
+                  governing areas such as environmental, employee health and safety, lack of due
+                  diligence, protection of personal data in accordance with global data protection
+                  requirements and local tax or statutory laws. New and emerging regulations can have
+                  a wide-ranging impact on management’s strategic direction, business model and
+                  compliance system. It is, therefore, important to consider regulatory requirements
+                  while evaluating business risks.
+             •    Operational Risks: Operational risks include those risks that could prevent the
+                  organization from operating in the most effective and efficient manner or be disruptive
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                           5
+
+
+                  to other operations due to inefficiencies or breakdown in internal processes, people ,
+                  and systems. Examples include risk of loss resulting from inadequate or failed internal
+                  processes, fraud or any criminal activity by an employee, business continuity, channel
+                  effectiveness, customer satisfaction and product/service failure, efficiency, capacity,
+                  and change integration.
+             •    Hazard Risks: Hazard risks include risks that are insurable such as natural disasters;
+                  various insurable liabilities; impairment of physical assets; terrorism etc.
+             •    Residual Risks: This includes any risk remaining even after the counter measures
+                  are analyzed and implemented. An organization’s management of risk should
+                  consider these two areas: Acceptance of residual risk and Selection of safeguards.
+                  Even when safeguards are applied, there is probably going to be some residual risk.
+                  The risk can be minimized, but it can seldom be eliminated. Residual risk must be
+                  kept at a minimal, acceptable level. As long as it is kept at an acceptable level, (i.e.
+                  the likelihood of the event occurring or the severity of the consequence is sufficiently
+                  reduced) the risk can be managed.
+        Question 4
+        (a) Controlling Module is one of the business process modules of the Enterprise Resources
+            Planning (ERP) systems. It facilitates coordinating, monitoring and optimizing all the
+            processes in an organization. In the light of these statements, describe any six key features
+            of Controlling Module of ERP system.                                               (6 Marks)
+        (b) Briefly explain the Web Server and Proxy Server.                           (2 + 2 = 4 Marks)
+        Answer
+        (a) The key features of Controlling Module of Enterprise Resource Planning (ERP) Systems
+            are as under:
+             •    Cost Element Accounting: This component provides overview of the costs and
+                  revenues that occur in an organization. The cost elements are the basis for cost
+                  accounting and enable the user the ability to display costs for each of the accounts
+                  that have been assigned to the cost element. Examples of accounts that can be
+                  assigned are Cost Centres, Internal Orders, WBS (Work Breakdown Structures).
+             •    Cost Centre Accounting: This provides information on the costs incurred by the
+                  business. Cost Centres can be created for such functional areas as Marketing,
+                  Purchasing, Human Resources, Finance, Facilities, Information Systems,
+                  Administrative Support, Legal, Shipping/Receiving, or even Quality. Some of the
+                  benefits of Cost Centre Accounting are that the managers can set budget / cost
+                  Centre targets; Planning; Availability of Cost allocation methods; and Assessments /
+                  Distribution of costs to other cost objects.
+             •    Activity-Based-Accounting: This analyses cross-departmental business processes
+                  and allows for a process-oriented and cross-functional view of the cost centres.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                INTERMEDIATE (NEW) EXAMINATION: DECEMBER, 2021
+
+
+             •    Internal Orders: Internal Orders provide a means of tracking costs of a specific job,
+                  service, or task. These are used as a method to collect those costs and business
+                  transactions related to the task. This level of monitoring can be very detailed but
+                  allows management the ability to review Internal Order activity for better -decision
+                  making purposes.
+             •    Product Cost Controlling: This calculates the costs that occur during the
+                  manufacture of a product or provision of a service and allows the management the
+                  ability to analyse their product costs and to make decisions on the optimal price(s) to
+                  market their products.
+             •    Profitability Analysis: This allows the management to review information with
+                  respect to the company’s profit or contribution margin by individual market segment.
+             •    Profit Centre Accounting: This evaluates the profit or loss of individual, independent
+                  areas within an organization.
+        (b) Web Server
+             •    The Web Server is used to host all web services and internet related software. All the
+                  online requests and websites are hosted and serviced through the web server.
+             •    A Web server is a program that uses Hypertext Transfer Protocol (HTTP) to serve the
+                  files that form Web pages to users, in response to their requests, which are forwarded
+                  by their computers’ HTTP clients.
+             •    Dedicated computers and appliances may be referred to as Web servers as well. All
+                  computers that host websites must have Web server programs.
+             Proxy Server
+             •    A Proxy Server is a computer that offers a computer network service to allow clients
+                  to make indirect network connections to other network services.
+             •    A client connects to the proxy server, and then requests a connection, file, or other
+                  resource available on a different server.
+             •    The proxy server provides the resource either by connecting to the specified server
+                  or by serving it from a cache and hence is often used to increase the speed and
+                  managing network bandwidth.
+             •    In some cases, the proxy may alter the client’s request or the server’s response for
+                  various purposes. It serves as an intermediary between the users and the websites
+                  they browse for.
+        Question 5
+        (a) Core Banking System/Solution (CBS) has become a mandatory requirement in the banking
+            system. CBS are usually running 24 x 7 to support Internet banking, Mobile banking, ATM
+            services, etc. with the help of its various modules. Most of the key modules of CBS are
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            7
+
+
+             connected to a Central Server. As an IT expert, discuss any three Back End Applications/
+             Modules and any three Front End Applications/Modules of CBS.           (3 + 3 = 6 Marks)
+        (b) What is Mobile Computing? Explain the key components of Mobile Computing.
+                                                                                        (1 + 3 = 4 Marks)
+                                                          OR
+             Describe any four characteristics of Infrastructure as a Service (IaaS).          (4 Marks)
+        Answer
+        (a) The Back End Applications of Core Banking Systems (CBS) are as follows:
+             •    Back Office: The Back Office is the portion of a company made up of administration
+                  and support personnel, who are not client-facing. Backoffice functions include
+                  settlements, clearances, record maintenance, regulatory compliance, accounting and
+                  IT services. Back Office professionals may also work in areas like monitoring
+                  employees' conversations and making sure they are not trading forbidden securities
+                  on their own accounts.
+             •    Data Warehouse: Banking professionals use data warehouses to simplify and
+                  standardize the way they gather data - and finally get to one clear version of the truth.
+                  Data warehouses take care of the difficult data management - digesting large
+                  quantities of data and ensuring accuracy - and make it easier for professionals to
+                  analyze data.
+             •    Credit-Card System: Credit card system provides customer management, credit
+                  card management, account management, customer information management and
+                  general ledger functions; provides the online transaction authorization and service of
+                  the bank card in each transaction channel of the issuing bank; support in the payment
+                  application; and at the same time, the system has a flexible parameter system,
+                  complex organization support mechanism and product factory based design concept
+                  to speed up product time to market.
+             •    Automated Teller Machines (ATM): An ATM is an electronic banking outlet that
+                  allows customers to complete basic transactions without the aid of a branch
+                  representative or teller. Anyone with a credit card or debit card can access most
+                  ATMs. ATMs are convenient, allowing consumers to perform quick, self-serve
+                  transactions from everyday banking like deposits and withdrawals to more complex
+                  transactions like bill payments and transfers.
+             The Front-End Applications of Core Banking Systems (CBS) are as follows:
+             •    Internet Banking also known as Online Banking, is an electronic payment system
+                  that enables customers of a bank or other financial institution to conduct a range of
+                  financial transactions through the financial institution's website accessed through any
+                  browser. The online banking system offers over 250+ services and facilities that give
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                INTERMEDIATE (NEW) EXAMINATION: DECEMBER, 2021
+
+
+                  us real-time access to our bank account. We can make and receive payments to our
+                  bank accounts, open Fixed and Recurring Deposits, view account details, request a
+                  cheque book and a lot more, while you are online.
+             •    Mobile Banking is a service provided by a bank or other financial institution that
+                  allows its customers to conduct financial transactions remotely using a mobile device
+                  such as a smartphone or tablet. Unlike the related internet banking, it uses software,
+                  usually called an app, provided by the financial institution for the purpose. The app
+                  needs to be downloaded to utilize this facility. Mobile banking is usually available on
+                  a 24-hour basis.
+             •    Phone Banking is a functionality through which customers can execute many of the
+                  banking transactional services through Contact Centre of a bank over phone, without
+                  the need to visit a bank branch or ATM. Registration of Mobile number in account is
+                  one of the basic perquisites to avail Phone Banking. Account related information,
+                  Cheque Book issue request, stop payment of cheque, Opening of Fixed deposit etc.
+                  are some of the services that can be availed under Phone Banking.
+             •    Branch Banking: CBS are the bank’s centralized systems that are responsible for
+                  ensuring seamless workflow by automating the frontend and backend processes
+                  within a bank. CBS enables single view of customer data across all branches in a
+                  bank and thus facilitate information across the delivery channels. The branch confines
+                  itself to various key functions such as creating manual documents capturing data
+                  required for input into software; internal authorization; initiating Beginning -Of-Day
+                  (BOD) operations; End-Of-Day (EOD) operations; and reviewing reports for control
+                  and error correction.
+        (b) Mobile Computing refers to the technology that allows transmission of data via a computer
+            without having to be connected to a fixed physical link. Mobile data communication has
+            become a very important and rapidly evolving technology as it allows users to transmit
+            data from remote locations to other remote or fixed locations even when they are on move
+            i.e. mobility. In general, Mobile Computing is a versatile and strategic technology that
+            increases information quality and accessibility, enhances operational efficiency, and
+            improves management effectiveness.
+             The key components of Mobile Computing are as follows:
+             •    Mobile Communication: The Mobile Communication refers to the infrastructure put
+                  in place to ensure that seamless and reliable communication goes on. This would
+                  include communication properties, protocols, data formats and concrete
+                  technologies.
+             •    Mobile Hardware: Mobile Hardware includes mobile devices or device components
+                  that receive or access the service of mobility. They would range from Portable
+                  laptops, Smart Phones, Tablet PCs, and Personal Digital Assistants (PDA) that use
+                  an existing and established network to operate on. At the back end, there are various
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            9
+
+
+                  servers like Application Servers, Database Servers and Servers with wireless
+                  support, WAP gateway, a Communications Server and/or MCSS (Mobile
+                  Communications Server Switch) or a wireless gateway embedded in wireless carrier’s
+                  network. The characteristics of mobile computing hardware are defined by the size
+                  and form factor, weight, microprocessor, primary storage, secondary storage, screen
+                  size and type, means of input, means of output, battery life, communications
+                  capabilities, expandability and durability of the device.
+             •    Mobile Software: Mobile Software is the actual program that runs on the mobile
+                  hardware and deals with the characteristics and requirements of mobile applications.
+                  It is the operating system of that appliance and is the essential component that makes
+                  the mobile device operates. Mobile applications popularly called Apps are being
+                  developed by organizations for use by customers, but these apps could represent
+                  risks, in terms of flow of data as well as personal identification risks, introduction of
+                  malware and access to personal information of mobile owner.
+                                                          OR
+             Characteristics of Infrastructure as a Service (IaaS) are as follows:
+             •    Web access to the resources: The IaaS model enables the IT users to access
+                  infrastructure resources over the Internet. When accessing a huge computing power,
+                  the IT user need not get physical access to the servers.
+             •    Centralized Management: The resources distributed across different parts are
+                  controlled from any management console that ensures effective resource
+                  management and effective resource utilization.
+             •    Elasticity and Dynamic Scaling: Depending on the load, IaaS services can provide
+                  the resources and elastic services where the usage of resources can be increased or
+                  decreased according to the requirements.
+             •    Shared infrastructure: IaaS follows a one-to-many delivery model and allows
+                  multiple IT users to share the same physical infrastructure and thus ensures high
+                  resource utilization.
+             •    Metered Services: IaaS allows the IT users to rent the computing resources instead
+                  of buying it. The services consumed by the IT user will be measured, and the users
+                  will be charged by the IaaS providers based on the amount of usage.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                INTERMEDIATE (NEW) EXAMINATION: DECEMBER, 2021
+
+
+                                  SECTION –B: STRATEGIC MANAGEMENT
+                                          Question No. 6 is compulsory
+                                   Answer any three questions from the rest.
+        Question 6
+        Inspite of high commodity inflation, shortage of components and the threat of third wave of
+        COVID-19 pandemic in India, manufacturers of packaged goods, home appliances and
+        consumer electronics are expecting the business to grow by 12 to 25 percent in the coming
+        months. After one-and-a-half years of disruption, manufacturers are now confident about
+        managing their inventories better, keeping their supply channels well-stocked and preparing
+        themselves to minimalize the impact of any COVID related restrictions even as they gear up for
+        the festive season, which usually accounts for 25 to 35 percent of their yearly sales.
+        The home appliances sector could be an example. After a dismal April-June quarter in the year
+        221; producers of air conditioners, refrigerators and washing machines are expecting their
+        business to grow by 15-20 percent in the months to come. All the companies operating in the
+        sector have geared up to grab the opportunities available in the market.
+        A leading company in the home appliances domain, XXP India, is planning to launch various
+        innovative product designs and offer loyalty programmes to lure consumers.
+        With reference to Michael Porter’s generic strategies, identify which strategy XXP India has
+        planner for? Explain how this strategy will be advantageous to the company to remain
+        profitable?                                                                        (5 Marks)
+        Answer
+        According to Michael Porter, strategies allow organizations to gain competitive advantage from
+        three different bases: cost leadership, differentiation, and focus. Porter called these base
+        generic strategies.
+        XXP India Ltd. has planned for Differentiation Strategy. The company is planning to launch
+        various innovative product designs and offer loyalty programmes to lure customers.
+        Differentiation strategy should be pursued only after a careful study of buyers’ needs and
+        preferences to determine the feasibility of incorporating one or more differentiating features into
+        a unique product that features the desired attributes. A successful differentiation strategy allows
+        a firm to charge a higher price for its product and to gain customer loyalty, because consumers
+        may become strongly attached to the differentiated features.
+        Advantages of Differentiation Strategy
+        A differentiation strategy may help an organisation to remain prof itable even with rivalry, new
+        entrants, suppliers’ power, substitute products, and buyers’ power.
+        1.   Rivalry - Brand loyalty acts as a safeguard against competitors. It means that customers
+             will be less sensitive to price increases, as long as the firm can satisfy the needs of its
+             customers.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          11
+
+
+        2.   Buyers – They do not negotiate for price as they get special features, and they have fewer
+             options in the market.
+        3.   Suppliers – Because differentiators charge a premium price, they can afford to absorb
+             higher costs of supplies as the customers are willing to pay extra too.
+        4.   Entrants – Innovative features are an expensive offer. So, new entrants generally avoid
+             these features because it is tough for them to provide the same product with special
+             features at a comparable price.
+        5.   Substitutes – Substitute products can’t replace differentiated products which have high
+             brand value and enjoy customer loyalty.
+        Question 7
+        (a) A Chennai based fast moving consumer goods (FMCG) major CDE Ltd. recently
+            announced restructuring its business. The company indicated that the business would be
+            split into mainly four different streams-FMCG, E-commerce, Retail, and Research &
+            Development. The company management has decided that these four units will operate as
+            separate businesses. The top corporate officer shall delegate responsibility for day -to-day
+            operations and business unit strategy to the concerned managers.
+             Identify the organization structure that CDE Ltd. has planned to implement. Discuss any
+             four attributes and the benefits the firm may derive by using this organization structure.
+                                                                                               (5 Marks)
+        (b) What are the important aspects of the process of implementation of strategy? (5 Marks)
+        Answer
+        (a) CDE Ltd. has planned to implement Strategic Business Unit (SBU) structure. Very
+            large organisations, particularly those running into several products, or operating at distant
+            geographical locations that are extremely diverse in terms of environmental facto rs, can
+            be better managed by creating strategic business units. SBU structure becomes imperative
+            in an organisation with increase in number, size and diversity.
+             The attributes of an SBU and the benefits a firm may derive by using the SBU Structure
+             are as follows:
+                 A scientific method of grouping the businesses of a multi – business corporation which
+                  helps the firm in strategic planning.
+                 An improvement over the territorial grouping of businesses and strategic planning
+                  based on territorial units.
+                 Strategic planning for SBU is distinct from rest of businesses. Products/ businesses
+                  within an SBU receive same strategic planning treatment and priorities.
+                 Each SBU will have its own distinct set of competitors and its own distinct strategy.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12               INTERMEDIATE (NEW) EXAMINATION: DECEMBER, 2021
+
+
+                 The CEO of SBU will be responsible for strategic planning for SBU and its profit
+                  performance.
+                 Products/businesses that are related from the stand point of function are assembled
+                  together as a distinct SBU.
+                 Unrelated products/ businesses in any group are separated into separate SBU s.
+                 Grouping the businesses on SBU lines helps in strategic planning by removing the
+                  vagueness and confusion.
+                 Each SBU is a separate business and will be distinct from one another on the basis
+                  of mission, objectives etc.
+        (b) Implementation and execution are an operations-oriented activity aimed at shaping the
+            performance of core business activities in a strategy-supportive manner. To convert
+            strategic plans into actions and results, a manager must be able to direct organizatio nal
+            change, motivate people, build and strengthen company’s competencies and competitive
+            capabilities, create a strategy-supportive work culture, and meet or beat performance
+            targets. Good strategy execution involves creating strong “fits” between strategy and
+            organizational capabilities, structure, climate & culture.
+             In most situations, strategy-execution process includes the following principal
+             aspects:
+             1.   Developing budgets that steer ample resources into those activities critical to
+                  strategic success.
+             2.   Staffing the organization with the needed skills and expertise, consciously
+                  building and strengthening strategy-supportive competencies and competitive
+                  capabilities and organizing the work effort.
+             3.   Ensuring that policies and operating procedures facilitate rather than impede
+                  effective execution.
+             4.   Using the best-known practices to perform core business activities and pushing for
+                  continuous improvement.
+             5.   Installing information and operating systems that enable company personnel to
+                  better carry out their strategic roles day in and day out.
+             6.   Motivating people to pursue the target objectives energetically.
+             7.   Creating a company culture and work climate conducive to successful strategy
+                  implementation and execution.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          13
+
+
+             Exerting the internal leadership needed to drive implementation forward and keep
+             improving strategy execution. When the organization encounters stumbling blocks or
+             weaknesses, management has to see that they are addressed and rec tified quickly.
+        Question 8
+        (a) STU’s association with India goes back to 1967, when it played a key role in constructing
+            a very long highway in India spreading over multiple states. Since then, it is contributing
+            in many ways to the country’s growth story. Now it is looking at playing an active role in
+            the key projects taken up by the central government. Suggest few Opportunities and
+            Threats that the company should consider.                                        (5 Marks)
+        (b) “There are certain conditions or indicators which point out that a turnaround is needed if
+            the company has to survive”. Discuss.                                           (5 Marks)
+        Answer
+        (a) Faced with a constantly changing environment, each business unit needs to develop a
+            marketing information system to track trends and developments, which can be cate gorized
+            as an opportunity or a threat. The company has to review its strength and weakness in the
+            background of environment’s opportunities and threat, i.e., an organization’s SWOT
+            analysis.
+             STU is looking at playing an active role in the key projects taken up by the central
+             government. Following are the potential opportunities and threats to STU:
+             Potential STU’s Opportunities:
+                 Alliances or joint ventures with central government that expand the STU’s market
+                  coverage or boost its competitive capability.
+                 Possibilities of working on the future projects of central government.
+                 Serving additional customer groups or expanding into new geographic markets.
+                 Utilizing existing company skills or technological know-how to enter new projects.
+                 Openings to take market share away from rivals.
+                 Openings to exploit emerging new technologies.
+                 Integrating forward or backward.
+             Potential STU’s Threats:
+                 Due to COVID-19 pandemic, companies can have face the lockdown situation.
+                 Economic factors such as recession etc.
+                 Likely entry of potent new competitors.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                INTERMEDIATE (NEW) EXAMINATION: DECEMBER, 2021
+
+
+                 Technological changes/innovations in construction equipment.
+                 Costly new regulatory requirements.
+                 Growing bargaining power of suppliers.
+                 Vulnerability to industry driving forces.
+        (b) Rising competition, business cycles and economic volatility have created a climate where
+            no business can take viability for granted. Turnaround strategy is a highly targeted effort
+            to return an organization to profitability and increase positive cash flows to a sufficient
+            level. Organizations that have faced a significant crisis that has negatively affected
+            operations requires turnaround strategy. Turnaround strategy is used when both threats
+            and weaknesses adversely affect the health of an organization so much that its basic
+            survival is a question. When organization is facing both internal and external pressures
+            making things difficult then it has to find something which is entirely new, innovative and
+            different. Being organization’s first objective is to survive and then grow in the market;
+            turnaround strategy is used when organization’s survival is under threat. Once turnaround
+            is successful the organization may turn to focus on growth.
+             Conditions for turnaround strategies: When firms are losing their grips over market,
+             profits due to several internal and external factors, and if they have to survive under the
+             competitive environment, they have to identify danger signals as early as possible and
+             undertake rectification steps immediately. These are certain conditions or indicators whi ch
+             point out that a turnaround is needed if the company has to survive. These danger signals
+             are:
+                 Persistent negative cash flow from business.
+                 Uncompetitive products or services.
+                 Declining market share.
+                 Deterioration in physical facilities.
+                 Over-staffing, high turnover of employees, and low morale.
+                 Mismanagement.
+        Question 9
+        (a) “Business organizations face countless marketing challenges that affect the success or
+            failure of strategy implementation”. In light of this statement, discuss some marketing
+            decisions that require special attention.                                     (5 Marks)
+        (b) GWA, a leading Japan based automobile company decides to make India a hub for the
+            company’s 250 cc motorcycle to be manufactured in collaboration with the TPR Group, a
+            leading Indian motorcycle manufacturer. The production is to be exported to the
+            company’s home market as well as to other African countries.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                         15
+
+
+             What is this growth strategy called? Point out the most important advantages both the
+             companies expect from such strategy/collaboration.                          (5 Marks)
+        Answer
+        (a) A business organization faces countless marketing challenges that affect the success or
+            failure of strategy implementation. Some examples of marketing decisions that may require
+            special attention are as follows:
+             1.   The amount and the extent of advertising to be done. Whether to use heavy or light
+                  advertising. What should be the amount of advertising in print media, television or
+                  internet?
+             2.   Decisions regarding distribution network to be used. Whether to use exclusive
+                  dealerships or multiple channels of distribution.
+             3.   Whether to be a price leader or a price follower?
+             4.   Whether to offer a complete or limited warranty?
+             5.   Whether to limit or enhance the share of business done with a single or a few
+                  customers?
+             6.   Whether to reward sales people based on straight salary, straight commission, or on
+                  a combination of salary and commission?
+        (b) GWA of Japan and TRP group of India opted for strategic alliance as their growth
+            strategy. A strategic alliance is a relationship between two or more businesses that
+            enables each to achieve certain strategic objectives which neither would be able to achieve
+            on its own. Strategic alliances are often formed in the global marketplace between
+            businesses that are based in different regions of the world.
+             Advantages of Strategic Alliance
+             Strategic alliance usually is only formed if they provide an advantage to all the parties in
+             the alliance. These advantages can be broadly categorised as follows:
+             1.   Organizational: Strategic alliance helps to learn necessary skills and obtain certain
+                  capabilities from strategic partners. Strategic partners may also help to enhance
+                  productive capacity, provide a distribution system, or extend supply chain. Having a
+                  strategic partner who is well-known and respected also helps add legitimacy and
+                  creditability to a new venture.
+             2.   Economic: There can be reduction in costs and risks by distributing them across the
+                  members of the alliance. Greater economies of scale can be obtained in an alliance,
+                  as production volume can increase, causing the cost per unit to decline. Finally,
+                  partners can take advantage of co-specialization, creating additional value, such as
+                  when a leading computer manufacturer bundles its desktop with a leading monitor
+                  manufacturer’s monitor.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                INTERMEDIATE (NEW) EXAMINATION: DECEMBER, 2021
+
+
+             3.   Strategic: Rivals can join together to cooperate instead of competing with each other.
+                  Vertical integration can be created where partners are part of supply chain. Strategic
+                  alliances may also be useful to create a competitive advantage by the pooling of
+                  resources and skills. This may also help with future business opportunities and the
+                  development of new products and technologies. Strategic alliances may also be used
+                  to get access to new technologies or to pursue joint research and development.
+             4.   Political: Sometimes strategic alliances are formed with a local foreign business to
+                  gain entry into a foreign market either because of local prejudices or legal barriers to
+                  entry. Forming strategic alliances with politically influential partners may also help
+                  improve your own influence and position.
+        Question 10
+        (a) “Each organization must build its competitive advantage keeping in mind the business
+            warfare. This can be done by following the process of strategic management.” Considering
+            this statement, explain major benefits of strategic management.                (5 Marks)
+        (b) Why is strategy evaluation more difficult? Give reasons.                              (5 Marks)
+                                                          OR
+             What are the factors which determine the nature of rivalry in an industry?           (5 Marks)
+        Answer
+        (a) Each organization has to build its competitive advantage over the competitors in the
+            business warfare in order to win. This can be done only by following the process of
+            strategic management. Strategic Management is very important for the survival and growth
+            of business organizations in dynamic business environment. Other major benefits of
+            strategic management are as follows:
+                 Strategic management helps organizations to be more proactive rather than reactive
+                  in dealing with its future. It facilitates to work within vagaries of envi ronment and
+                  remains adaptable with the turbulence or uncertain future. Therefore, they are able
+                  to control their own destiny in a better way.
+                 It provides better guidance to entire organization on the crucial point – what it is trying
+                  to do. Also provides frameworks for all major business decisions of an enterprise such
+                  as on businesses, products, markets, organizational structures, etc.
+                 It facilitates to prepare the organization to face the future and act as pathfinder to
+                  various business opportunities. Organizations are able to identify the available
+                  opportunities and identify ways and means as how to reach them.
+                 It serves as a corporate defence mechanism against mistakes and pitfalls. It helps
+                  organizations to avoid costly mistakes in product market choices or investments.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                             17
+
+
+                  Over a period of time strategic management helps organization to evolve certain core
+                   competencies and competitive advantages that assist in the fight for survival and
+                   growth.
+        (b) Strategic evaluation involves measuring and evaluating performance. The goals achieved
+            are compared with the desired goals to identify deviations and make necessary
+            adjustments in strategies or in the efforts being put to achieve those strategies.
+             Reasons why strategy evaluation is more difficult today include the following trends:
+                  A dramatic increase in the environment’s complexity.
+                  The increasing difficulty of predicting the future with accuracy.
+                  The increasing number of variables in the environment.
+                  The rapid rate of obsolescence of even the best plans.
+                  The increase in the number of both domestic and world events affecting
+                   organizations.
+                  The decreasing time span for which planning can be done with any degree of
+                   certainty.
+                                                        OR
+             The intensity of rivalry in an industry is a significant determinant of an industry’s
+             attractiveness and profitability. The intensity of rivalry can influence the costs of suppliers,
+             distribution, and of attracting customers and thus, can directly affect the profitability. “The
+             more intensive the rivalry, the less attractive is the industry”. Rivalry among competitors
+             tends to be cutthroat and an industry’s profitability is low when;
+             (i)   An industry has no clear leader. Therefore, continuous war for leadership.
+             (ii) Competitors in the industry are numerous.
+             (iii) Competitors operate with high fixed costs. Thus, aiming for better Return on
+                   Investment with more fierce tactics.
+             (iv) Competitors face high exit barriers, and therefore, continue to fight for market share.
+             (v) Competitors have little opportunity to differentiate their offerings.
+             (vi) The industry faces slow or diminished growth.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

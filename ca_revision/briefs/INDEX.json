@@ -1,0 +1,623 @@
+[
+ {
+  "ep": "P4-01",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 1,
+  "id": "cma.intro",
+  "name": "Introduction to Cost and Management Accounting",
+  "lessons": [
+   "cma.intro.scope",
+   "cma.intro.install",
+   "cma.intro.relations",
+   "cma.intro.terms",
+   "cma.intro.classify",
+   "cma.intro.behaviour",
+   "cma.intro.control",
+   "cma.intro.methods"
+  ],
+  "words": 9685
+ },
+ {
+  "ep": "P4-02",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 2,
+  "id": "cma.sheet",
+  "name": "Cost Sheet",
+  "lessons": [
+   "cma.sheet.mfg",
+   "cma.sheet.quote",
+   "cma.sheet.service"
+  ],
+  "words": 5042
+ },
+ {
+  "ep": "P4-03",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 3,
+  "id": "cma.mat",
+  "name": "Material Cost",
+  "lessons": [
+   "cma.mat.procure",
+   "cma.mat.receipts",
+   "cma.mat.issues",
+   "cma.mat.levels",
+   "cma.mat.eoq",
+   "cma.mat.techniques",
+   "cma.mat.ratios",
+   "cma.mat.losses"
+  ],
+  "words": 11449
+ },
+ {
+  "ep": "P4-04",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 4,
+  "id": "cma.emp",
+  "name": "Employee Cost and Direct Expenses",
+  "lessons": [
+   "cma.emp.payroll",
+   "cma.emp.idle",
+   "cma.emp.turnover",
+   "cma.emp.incentives",
+   "cma.emp.direct"
+  ],
+  "words": 7097
+ },
+ {
+  "ep": "P4-05",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 5,
+  "id": "cma.oh",
+  "name": "Overheads: Absorption Costing",
+  "lessons": [
+   "cma.oh.classify",
+   "cma.oh.primary",
+   "cma.oh.secondary",
+   "cma.oh.absorb",
+   "cma.oh.underover",
+   "cma.oh.ads"
+  ],
+  "words": 8429
+ },
+ {
+  "ep": "P4-06",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 6,
+  "id": "cma.abc",
+  "name": "Activity Based Costing",
+  "lessons": [
+   "cma.abc.concept",
+   "cma.abc.compute",
+   "cma.abc.abm"
+  ],
+  "words": 4380
+ },
+ {
+  "ep": "P4-07",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 7,
+  "id": "cma.sys",
+  "name": "Cost Accounting Systems",
+  "lessons": [
+   "cma.sys.ledgers",
+   "cma.sys.recon"
+  ],
+  "words": 3112
+ },
+ {
+  "ep": "P4-08",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 8,
+  "id": "cma.unit",
+  "name": "Unit and Batch Costing",
+  "lessons": [
+   "cma.unit.unit",
+   "cma.unit.batch"
+  ],
+  "words": 2611
+ },
+ {
+  "ep": "P4-09",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 9,
+  "id": "cma.job",
+  "name": "Job Costing",
+  "lessons": [
+   "cma.job.job"
+  ],
+  "words": 1741
+ },
+ {
+  "ep": "P4-10",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 10,
+  "id": "cma.proc",
+  "name": "Process and Operation Costing",
+  "lessons": [
+   "cma.proc.accounts",
+   "cma.proc.eu",
+   "cma.proc.interprocess"
+  ],
+  "words": 5182
+ },
+ {
+  "ep": "P4-11",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 11,
+  "id": "cma.joint",
+  "name": "Joint Products and By-Products",
+  "lessons": [
+   "cma.joint.apportion",
+   "cma.joint.further",
+   "cma.joint.byprod"
+  ],
+  "words": 4749
+ },
+ {
+  "ep": "P4-12",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 12,
+  "id": "cma.svc",
+  "name": "Service Costing",
+  "lessons": [
+   "cma.svc.basics",
+   "cma.svc.transport",
+   "cma.svc.others"
+  ],
+  "words": 4616
+ },
+ {
+  "ep": "P4-13",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 13,
+  "id": "cma.std",
+  "name": "Standard Costing",
+  "lessons": [
+   "cma.std.setting",
+   "cma.std.material",
+   "cma.std.labour",
+   "cma.std.voh",
+   "cma.std.foh",
+   "cma.std.recon"
+  ],
+  "words": 9852
+ },
+ {
+  "ep": "P4-14",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 14,
+  "id": "cma.mc",
+  "name": "Marginal Costing",
+  "lessons": [
+   "cma.mc.basics",
+   "cma.mc.bep",
+   "cma.mc.charts",
+   "cma.mc.absorb",
+   "cma.mc.keyfactor",
+   "cma.mc.decisions",
+   "cma.mc.multiproduct"
+  ],
+  "words": 11596
+ },
+ {
+  "ep": "P4-15",
+  "paper": "P4",
+  "subject": "cma",
+  "chapter": 15,
+  "id": "cma.bud",
+  "name": "Budgets and Budgetary Control",
+  "lessons": [
+   "cma.bud.basics",
+   "cma.bud.functional",
+   "cma.bud.flexible",
+   "cma.bud.cash",
+   "cma.bud.zbb",
+   "cma.bud.ratios"
+  ],
+  "words": 10224
+ },
+ {
+  "ep": "P5-01",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 1,
+  "id": "aud.nature",
+  "name": "Nature, Objective and Scope of Audit",
+  "lessons": [
+   "aud.nature.basics",
+   "aud.nature.sa200",
+   "aud.nature.limits",
+   "aud.nature.scope",
+   "aud.nature.relations",
+   "aud.nature.assurance"
+  ],
+  "words": 6215
+ },
+ {
+  "ep": "P5-02",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 2,
+  "id": "aud.plan",
+  "name": "Audit Strategy, Audit Planning and Audit Programme",
+  "lessons": [
+   "aud.plan.sa300",
+   "aud.plan.program"
+  ],
+  "words": 2868
+ },
+ {
+  "ep": "P5-03",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 3,
+  "id": "aud.risk",
+  "name": "Risk Assessment and Internal Control",
+  "lessons": [
+   "aud.risk.model",
+   "aud.risk.sa320",
+   "aud.risk.sa315",
+   "aud.risk.ic",
+   "aud.risk.testing",
+   "aud.risk.it",
+   "aud.risk.digital",
+   "aud.risk.sa330"
+  ],
+  "words": 8640
+ },
+ {
+  "ep": "P5-04",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 4,
+  "id": "aud.evid",
+  "name": "Audit Evidence",
+  "lessons": [
+   "aud.evid.sa500",
+   "aud.evid.assertions",
+   "aud.evid.sa610",
+   "aud.evid.ifc",
+   "aud.evid.sa530",
+   "aud.evid.sa501",
+   "aud.evid.sa505",
+   "aud.evid.sa510",
+   "aud.evid.sa550",
+   "aud.evid.sa520",
+   "aud.evid.trail"
+  ],
+  "words": 11252
+ },
+ {
+  "ep": "P5-05",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 5,
+  "id": "aud.items",
+  "name": "Audit of Items of Financial Statements",
+  "lessons": [
+   "aud.items.revenue",
+   "aud.items.expenses",
+   "aud.items.equity",
+   "aud.items.liabilities",
+   "aud.items.ppe",
+   "aud.items.current",
+   "aud.items.contingent"
+  ],
+  "words": 11135
+ },
+ {
+  "ep": "P5-06",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 6,
+  "id": "aud.doc",
+  "name": "Audit Documentation",
+  "lessons": [
+   "aud.doc.sa230"
+  ],
+  "words": 1674
+ },
+ {
+  "ep": "P5-07",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 7,
+  "id": "aud.complete",
+  "name": "Completion and Review",
+  "lessons": [
+   "aud.complete.sa560",
+   "aud.complete.sa570",
+   "aud.complete.sa450",
+   "aud.complete.sa580",
+   "aud.complete.sa260"
+  ],
+  "words": 6854
+ },
+ {
+  "ep": "P5-08",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 8,
+  "id": "aud.report",
+  "name": "Audit Report",
+  "lessons": [
+   "aud.report.sa700",
+   "aud.report.sa701",
+   "aud.report.sa705",
+   "aud.report.sa706",
+   "aud.report.sa710",
+   "aud.report.companies",
+   "aud.report.caro",
+   "aud.report.branch"
+  ],
+  "words": 11025
+ },
+ {
+  "ep": "P5-09",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 9,
+  "id": "aud.entities",
+  "name": "Special Features of Audit of Different Types of Entities",
+  "lessons": [
+   "aud.entities.govt",
+   "aud.entities.local",
+   "aud.entities.npo",
+   "aud.entities.institutions",
+   "aud.entities.firms",
+   "aud.entities.commercial"
+  ],
+  "words": 6909
+ },
+ {
+  "ep": "P5-10",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 10,
+  "id": "aud.bank",
+  "name": "Audit of Banks",
+  "lessons": [
+   "aud.bank.approach",
+   "aud.bank.auditor",
+   "aud.bank.advances",
+   "aud.bank.revenue"
+  ],
+  "words": 5146
+ },
+ {
+  "ep": "P5-11",
+  "paper": "P5",
+  "subject": "aud",
+  "chapter": 11,
+  "id": "aud.ethics",
+  "name": "Ethics and Terms of Audit Engagements",
+  "lessons": [
+   "aud.ethics.principles",
+   "aud.ethics.independence",
+   "aud.ethics.sa210",
+   "aud.ethics.qc"
+  ],
+  "words": 6083
+ },
+ {
+  "ep": "P6A-01",
+  "paper": "P6A",
+  "subject": "fm",
+  "chapter": 1,
+  "id": "fm.intro",
+  "name": "Scope and Objectives of Financial Management",
+  "lessons": [
+   "fm.intro.objectives",
+   "fm.intro.role",
+   "fm.intro.agency"
+  ],
+  "words": 3926
+ },
+ {
+  "ep": "P6A-02",
+  "paper": "P6A",
+  "subject": "fm",
+  "chapter": 2,
+  "id": "fm.ratio",
+  "name": "Financial Analysis and Planning: Ratio Analysis",
+  "lessons": [
+   "fm.ratio.liquidity",
+   "fm.ratio.activity",
+   "fm.ratio.profit",
+   "fm.ratio.prepare"
+  ],
+  "words": 6836
+ },
+ {
+  "ep": "P6A-03",
+  "paper": "P6A",
+  "subject": "fm",
+  "chapter": 3,
+  "id": "fm.sources",
+  "name": "Types of Financing",
+  "lessons": [
+   "fm.sources.long",
+   "fm.sources.other",
+   "fm.sources.short",
+   "fm.sources.modern"
+  ],
+  "words": 5145
+ },
+ {
+  "ep": "P6A-04",
+  "paper": "P6A",
+  "subject": "fm",
+  "chapter": 4,
+  "id": "fm.coc",
+  "name": "Cost of Capital",
+  "lessons": [
+   "fm.coc.debt",
+   "fm.coc.equity",
+   "fm.coc.wacc"
+  ],
+  "words": 4934
+ },
+ {
+  "ep": "P6A-05",
+  "paper": "P6A",
+  "subject": "fm",
+  "chapter": 5,
+  "id": "fm.cs",
+  "name": "Financing Decisions: Capital Structure",
+  "lessons": [
+   "fm.cs.theories",
+   "fm.cs.ebiteps",
+   "fm.cs.planning"
+  ],
+  "words": 4570
+ },
+ {
+  "ep": "P6A-06",
+  "paper": "P6A",
+  "subject": "fm",
+  "chapter": 6,
+  "id": "fm.lev",
+  "name": "Financing Decisions: Leverages",
+  "lessons": [
+   "fm.lev.leverage"
+  ],
+  "words": 2027
+ },
+ {
+  "ep": "P6A-07",
+  "paper": "P6A",
+  "subject": "fm",
+  "chapter": 7,
+  "id": "fm.capbud",
+  "name": "Investment Decisions",
+  "lessons": [
+   "fm.capbud.cashflows",
+   "fm.capbud.payback",
+   "fm.capbud.npv",
+   "fm.capbud.irr",
+   "fm.capbud.rationing"
+  ],
+  "words": 7023
+ },
+ {
+  "ep": "P6A-08",
+  "paper": "P6A",
+  "subject": "fm",
+  "chapter": 8,
+  "id": "fm.div",
+  "name": "Dividend Decision",
+  "lessons": [
+   "fm.div.basics",
+   "fm.div.models"
+  ],
+  "words": 3025
+ },
+ {
+  "ep": "P6A-09",
+  "paper": "P6A",
+  "subject": "fm",
+  "chapter": 9,
+  "id": "fm.wc",
+  "name": "Management of Working Capital",
+  "lessons": [
+   "fm.wc.basics",
+   "fm.wc.estimate",
+   "fm.wc.receivables",
+   "fm.wc.cash",
+   "fm.wc.inventory",
+   "fm.wc.payables",
+   "fm.wc.banking"
+  ],
+  "words": 10811
+ },
+ {
+  "ep": "P6B-01",
+  "paper": "P6B",
+  "subject": "sm",
+  "chapter": 1,
+  "id": "sm.intro",
+  "name": "Introduction to Strategic Management",
+  "lessons": [
+   "sm.intro.meaning",
+   "sm.intro.intent",
+   "sm.intro.levels"
+  ],
+  "words": 4613
+ },
+ {
+  "ep": "P6B-02",
+  "paper": "P6B",
+  "subject": "sm",
+  "chapter": 2,
+  "id": "sm.ext",
+  "name": "Strategic Analysis: External Environment",
+  "lessons": [
+   "sm.ext.pestle",
+   "sm.ext.industry",
+   "sm.ext.porter",
+   "sm.ext.markets"
+  ],
+  "words": 5790
+ },
+ {
+  "ep": "P6B-03",
+  "paper": "P6B",
+  "subject": "sm",
+  "chapter": 3,
+  "id": "sm.int",
+  "name": "Strategic Analysis: Internal Environment",
+  "lessons": [
+   "sm.int.stakeholders",
+   "sm.int.drivers",
+   "sm.int.resources",
+   "sm.int.swot",
+   "sm.int.generic"
+  ],
+  "words": 5590
+ },
+ {
+  "ep": "P6B-04",
+  "paper": "P6B",
+  "subject": "sm",
+  "chapter": 4,
+  "id": "sm.choice",
+  "name": "Strategic Choices",
+  "lessons": [
+   "sm.choice.growth",
+   "sm.choice.retrench",
+   "sm.choice.ansoff",
+   "sm.choice.portfolio"
+  ],
+  "words": 4765
+ },
+ {
+  "ep": "P6B-05",
+  "paper": "P6B",
+  "subject": "sm",
+  "chapter": 5,
+  "id": "sm.impl",
+  "name": "Strategy Implementation and Evaluation",
+  "lessons": [
+   "sm.impl.matrix",
+   "sm.impl.digital",
+   "sm.impl.structure",
+   "sm.impl.leadership",
+   "sm.impl.control"
+  ],
+  "words": 4960
+ }
+]

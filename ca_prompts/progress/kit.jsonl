@@ -1,0 +1,9 @@
+{"t": 1792453286.161524, "step": "start", "note": "reading docs"}
+{"t": 1792460817.901473, "step": "flow-width", "note": "flows honour w, compact layout, relayout at phone width"}
+{"t": 1792460817.9674299, "step": "flow-edges", "note": "orthogonal routing, side ports, lanes, label placement, edge colour/dash"}
+{"t": 1792460818.049043, "step": "tree-notes", "note": "multi-line notes, wrap stacking, phone auto-stack"}
+{"t": 1792460818.126553, "step": "labels", "note": "plot dx/dy+8 pos, seq wrap, graph squares grow, nest wrap"}
+{"t": 1792460818.190912, "step": "lint-nesting", "note": "fenceProblems in lint_content.js"}
+{"t": 1792460818.250078, "step": "shot-open", "note": "fold=open any width, no overlay"}
+{"t": 1792468393.419944, "step": "regress", "note": "1530 specs re-rendered; 163 changed, reviewed 390/900 light/dark"}
+{"t": 1792468592.59093, "step": "report", "note": "reports/kit.md written; installed in ~/ca_passbook"}

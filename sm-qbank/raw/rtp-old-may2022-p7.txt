@@ -1,0 +1,1157 @@
+            PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                           SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                                QUESTIONS
+                                         Multiple Choice Questions
+        The Printage Ltd. is the printing press that deals with printing of the notepad s and calendars
+        and supplying it to various vendors, schools, and offices. With an aim of expansion of their
+        business and to enter into the competitive market with variety of high-designed products, they
+        purchased several state-of-art printing equipment in the year 2019 costing approximately ` 5
+        lakhs. The distinguishing feature of these printing equipment, if used optimally, enables the
+        users to prepare any customized designs as per customers’ choice on various daily use
+        products like Mugs, T-shirts, and pillows etc. However, due to lack of proper training, the
+        employees in the factory of the company were not able to operate the equipment properly
+        thereby causing the delay in supply of the products against the orders placed by the
+        customers. Few instances were registered where customers returned the products due to
+        defects in designing and misprinting and also due to delay in the delivery of their ordered
+        products.
+        The company being aware about enormous benefits of E-Commerce environment has its own
+        online platform where the customers can place their orders. To place the orders for their
+        customized products, the new customers are required to fill an online registration form that
+        captures the payment related information like Account details or Credit Card details etc. and
+        upload the design and photograph of their choice at the time of placing the order.
+        Though Printage Ltd. has made huge Capital investment in the new equipment, however there
+        was a regular fall in sales and market share due to unsatisfied customers. On Management’s
+        request, an expert Mr. Amit was assigned to assess the reasons for steady fall in sales,
+        market share and furthermore to suggest the improvements for overall business processes to
+        increase the productivity and quality of the end-products. He prepared a pictorial
+        representation of operations and processing of these equipment to understand their working.
+        After completion of his assignment, he suggested the following:
+        o     To enhance the output and reduce the costs and generate a positive Return on
+              Investment (RoI), he suggested the management to begin regular periodic training
+              sessions for its employees to operate and handle the equipment efficiently and use them
+              optimally.
+        o     He recommended to have dedicated Inspection Officer(s) for regular review of products
+              before packing and delivery of products to customer, against the present process of
+              clearing the products by the Production In-charge itself for packing and delivery.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                        INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+        Based on the above case scenario, answer the Question No(s) 1 to 5.
+        1.   In purview of case scenario, the new customers are required to fill an online form that
+             captures the information of their credit cards for payment at the time of placing any order,
+             whereas the details like Credit Card get prefilled in the form of already registered
+             customers. From which category of data of Financial and Accounting systems, does the
+             prefilled data for registered customers get fetched in the online form?
+             (a) Master data
+             (b) Non-Master data
+             (c) Accounting data
+             (d) Customer’s data
+        2.   Mr. Amit used flowchart for diagrammatic representation to describe various business
+             processes and operations. Identify the flowchart symbol used by him to represent the
+             internal storage.
+             (a)
+
+             (b)
+
+             (c)
+
+             (d)
+
+        3.   In purview of above case scenario, the customers may pay for his/her order using Credit
+             Card. The following are the controls applied by Credit Card Issuing Authority except one.
+             Choose the odd statement regarding Credit Cards.
+             (a) Batch processing of the reconciliations for the balances received from the credit
+                 card network with the transactions updated in the credit card system or card
+                 network level.
+             (b) Interest on fund-based credit cards is automatically calculated in credit card system.
+             (c) Access rights to authorize credit limit should be restricted to authorized personnel.
+             (d) No transaction can happen if the aggregate limit of outstanding amount exceeds the
+                 assigned credit limit.
+        4.   The Printage Ltd. has its own online platform to promote and avail the benefits of e-
+             Commerce transactions. However, many risks are also associated with online business.
+             Which of the following does not fall under the category of risk of online business?
+             (a) Denial of Service
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           3
+
+
+             (b) Problem of piracy
+             (c) Repudiation of Contract
+             (d) Elimination of time delays
+        5.   In purview of above case scenario, a control is well implemented in the payment gateway
+             of Prinatge Ltd. that checks for the authorized limit of the Credit Card of any customer
+             when s/he places any online order. Identify the control from the following that has been
+             executed in this case.
+             (a) Detective Control
+             (b) Preventive Control
+             (c) Corrective Control
+             (d) Environmental Control
+                                            Descriptive Questions
+        Chapter 1: Automated Business Process
+        6.   Mr. Rajesh and his team have been given the task to develop Internal controls policies
+             and procedures for ABC Ltd. to safeguard the company’s assets and to ensure the
+             reliability of internal and external financial reporting. Elaborate the components of
+             Internal Control System that Mr. Rajesh and his team must take care to make the system
+             effective.
+        7.   Information Technology has touched every sector of business and has been instrumental
+             in accelerating their growth. However, many crimes are also associated with computers
+             henceforth Information Technology Act, 2000 came into existence. Explain few computer -
+             related offences prescribed in IT Act, 2000.
+        Chapter 2: Financial and Accounting Systems
+        8.   Unlike non-integrated systems in an organization, where all the departments work
+             independent to each other and use their own set of data; ERP systems use single
+             database and contains data for various software modules. This distinct feature of ERP
+             Systems enables them to provide enormous benefits to an organization. Discuss these
+             benefits.
+        9.   XBRL (eXtensible Business Reporting Language) is a freely available and global
+             standard for digital business reporting. Discuss key features of XBRL that makes it an
+             international standard way to communicate and exchange of business information.
+        Chapter 3: Information Systems and its Components
+        10. Information System’s Control affects the working environment of an organization and are
+            classified based on various factors like the objective of controls, the physical and logical
+            security of resources etc. Describe the category of IS controls based on their objectives
+            with examples.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                       INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+        11. In an organization, the Database Controls are used within an application software to
+            maintain the integrity of data and prevent any data integrity violations. Discuss various
+            controls under Database Controls to achieve this objective.
+        Chapter 4: E-Commerce, M-Commerce and Emerging Technologies
+        12. The businesses with the vision to anticipate change generally grab the trend before their
+            competitors does and certainly opt for online mode for their businesses, therefore e-
+            commerce is a happening trend in businesses nowadays. Briefly explain the forces
+            underpinning the revolution of e-commerce.
+        13. Ms. Swati has been directed by her Reporting officer to prepare a short report on
+            Blockchain technology and several risks associated with it. Elaborate in brief the factors
+            that would form part of her report.
+        Chapter 5: Core Banking Systems
+        14. In Core Banking Systems, Information security has become critical to mitigate the risks
+            associated with Information Technology. Elaborate the sub-processes that comprise
+            Information security in this case.
+        15. BNC Financial is a well renowned Mortgage Broker company that is engaged in providing
+            mortgage loans to potential businessmen for expansion/establishing their businesses.
+            Write down various risks and their associated controls around the Mortgage Process.
+
+                                          SUGGESTED ANSWERS
+
+                                        Multiple Choice Questions
+        1.   (a) Master data
+        2.   (a)
+        3.   (a) Batch processing of the reconciliations for the balances received from the credit
+                 card network with the transactions updated in the credit card system or card
+                 network level.
+        4.   (d) Elimination of time delays
+        5.   (a) Detective Control
+                                           Descriptive Questions
+        6.   The components of Internal Control System are as follows:
+             (i)   Control Environment: It is the set of standards, processes, and structures that
+                   provide the basis for carrying out internal control across the organization. The
+                   Board of Directors and Senior Management establish the tone at the top regarding
+                   the importance of internal control, including expected standards of conduct.
+                   Management reinforces expectations at the various levels of the organization. The
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                            5
+
+
+                  control environment comprises the integrity and ethical values of the organization;
+                  the parameters enabling the board of directors to carry out its governance
+                  responsibilities; the organizational structure and assignment of authority and
+                  responsibility; the process for attracting, developing, and retaining competent
+                  individuals; and the rigor around performance measures, incentives, an d rewards to
+                  drive accountability for performance. The resulting control environment has a
+                  pervasive impact on the overall system of internal control.
+             (ii) Risk Assessment: Every entity faces a variety of risks from external and internal
+                  resources. Risk may be defined as the possibility that an event will occur and
+                  adversely affect the achievement of objectives. Risk Assessment involves a
+                  dynamic and iterative process for identifying and assessing risks to the achievement
+                  of objectives. Risks to the achievement of these objectives from across the entity
+                  are considered relative to established risk tolerances. Thus, Risk Assessment forms
+                  the basis for determining how risks will be managed. A precondition to risk
+                  assessment is the establishment of objectives linked at different levels of the entity.
+                  Management specifies objectives within categories of operations, reporting, and
+                  compliance with sufficient clarity to be able to identify and assess risks to those
+                  objectives. Because economic, industry, regulatory and operating conditions will
+                  continue to change; risk assessment also requires management to consider the
+                  impact of possible changes in the external environment and within its own business
+                  model that may render internal control ineffective. Risk Assessment includes the
+                  Identification of threats and vulnerabilities in the system; and Potential impact or
+                  magnitude of harm that a loss of CIA would have on enterprise operations or
+                  enterprise assets, should an identified vulnerability be exploited by a threat .
+             (iii) Control Activities: These are the actions established through policies and
+                   procedures that help ensure that management’s directives to mitigate risks to the
+                   achievement of objectives are carried out. Control activities are performed at all
+                   levels of the entity, at various stages within business processes, and over the
+                   technology environment. They may be preventive or detective in nature and may
+                   encompass a range of manual and automated activities such as authorizations and
+                   approvals, verifications, reconciliations and business performance reviews.
+                  Broadly, the control activities include the elements that operate to ensure
+                  transactions are authorized, duties are segregated, adequate documents and
+                  records are maintained, assets and records are safeguarded, and independent
+                  checks on performance and valuation of records. Internal auditors are also
+                  concerned with administrative controls to achieve effectiveness and efficiency
+                  objectives. Control activities must be developed to manage, mitigate, and reduce
+                  the risks associated with each business process. It is unrealistic to expect to
+                  eliminate risks completely.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                       INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+             (iv) Information and Communication: Information is necessary for the entity to carry
+                  out internal control responsibilities in support of the achievement of its objectives.
+                  Management obtains or generates and uses relevant and quality information from
+                  both internal and external sources to support the functioning of other components of
+                  internal control. Pertinent information must be identified, captured, and
+                  communicated in a form and time frame that enable people to carry out their
+                  responsibilities.
+                  Communication is the continual, iterative process of providing, sharing, and
+                  obtaining necessary information. Internal communication is how information is
+                  disseminated throughout the enterprise, flowing up, down, and across the entity. It
+                  enables personnel to receive a clear message from senior management that control
+                  responsibilities should be taken seriously. External communication is two -fold: it
+                  enables inbound communication of relevant external information and provides
+                  information to external parties in response to requirements and expectations.
+             (v) Monitoring of Controls: It is an ongoing cyclical process. Ongoing evaluations,
+                 separate evaluations, or some combination of the two are used to ascertain whether
+                 each of the five components of internal control including controls to affect the
+                 principles within each component is present and functioning. Ongoing evaluations
+                 built into business processes at different levels of the entity, provide timely
+                 information. Separate evaluations conducted periodically will vary in scope and
+                 frequency depending on assessment of risks, effectiveness of ongoing evaluations,
+                 and other management considerations. Findings are evaluated against
+                 management’s criteria and deficiencies are communicated to management and the
+                 Board of Directors as appropriate.
+        7.   Some computer related scenarios which can attract prosecution as per the penalties and
+             offences prescribed in Information Technology Act, 2000 are as follows:
+                 Harassment via fake public profile on social networking site: A fake profile of a
+                  person is created on a social networking site with the correct address, residential
+                  information or contact details but he/she is labelled as ‘prostitute’ or a person of
+                  ‘loose character’. This leads to harassment of the victim.
+                 Email Account Hacking: If victim’s email account is hacked and obscene emails
+                  are sent to people in victim’s address book.
+                 Credit Card Fraud: Unsuspecting victims would use infected computers to make
+                  online transactions.
+                 Web Defacement: The homepage of a website is replaced with a pornographic or
+                  defamatory page. Government sites generally face the wrath of hackers on symbolic
+                  days.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                          7
+
+
+                 Introducing Viruses, Worms, Backdoors, Rootkits, Trojans, and Bugs: All these
+                  are some sort of malicious programs which are used to destroy or gain access to
+                  some electronic information.
+                 Cyber Terrorism: Cyber terrorism is the terrorism conducted in cyberspace, where
+                  the criminals attempt to damage or disrupt computer systems or telecommunication
+                  services. Examples are hacking into computer systems, introducing viruses to
+                  vulnerable networks, web site defacing, denial-of-service attacks, or terroristic
+                  threats made via electronic communication. Many terrorists use virtual (Drive, FTP
+                  sites) and physical storage media (USB’s, hard drives) for hiding information and
+                  records of their illicit business.
+                 Online sale of illegal Articles: Where sale of narcotics, drugs, weapons and
+                  wildlife is facilitated by the Internet.
+                 Cyber Pornography: Among the largest businesses on Internet, pornography may
+                  not be illegal in many countries, but child pornography is.
+                 Phishing and Email Scams: Phishing involves fraudulently acquiring sensitive
+                  information through masquerading oneself as a trusted entity (e.g. usernames,
+                  Passwords, credit card information).
+                 Theft of Confidential Information: Many business organizations store their
+                  confidential information in computer systems. This information is targeted by rivals,
+                  criminals and disgruntled employees.
+                 Source Code Theft: A Source code generally is the most coveted and important
+                  “crown jewel” asset of a company.
+        8.   The benefits of Enterprise Resource Planning (ERP) systems to an organization are as
+             follows:
+             •    Information integration: The reason ERP systems are called integrated is because
+                  they possess the ability to automatically update data between related business
+                  functions and components. For example - one needs to only update the status of an
+                  order at one place in the order-processing system; and all the other components will
+                  automatically get updated.
+             •    Reduction of Lead-time: The elapsed time between placing an order and receiving
+                  it is known as the Lead-time. The ERP Systems by virtue of their integrated nature
+                  with many modules like Finance, Manufacturing, Material Management Module etc.;
+                  the use of the latest technologies like EFT (Electronic Fund Transfer), EDI
+                  (Electronic Data Interchange) reduce the lead times and make it possible for the
+                  organizations to have the items at the time they are required.
+             •    On-time Shipment: Since the different functions involved in the timely delivery of
+                  the finished goods to the customers- purchasing, material management production,
+                  production planning, plant maintenance, sales, and distribution are integrated and
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                       INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+                  the procedures automated; the chances of errors are minimal, and the production
+                  efficiency is high. Thus, by integrating the various business functions and
+                  automating the procedures and tasks the ERP system ensures on-time delivery of
+                  goods to the customers.
+             •    Reduction in Cycle Time: Cycle time is the time between placement of the order
+                  and delivery of the product. In an ERP System; all the data, updated to the minute,
+                  is available in the centralized database and all the procedures are automated,
+                  almost all these activities are done without human intervention. This efficiency of
+                  the ERP systems helps in reducing the cycle time.
+             •    Improved Resource utilization: The efficient functioning of the different modules
+                  in the ERP system like manufacturing, material management, plant maintenance,
+                  sales and distribution ensures that the inventory is kept to a minimum level, the
+                  machine down time is minimum and the goods are produced only as per the
+                  demand and the finished goods are delivered to the customer in the most efficient
+                  way. Thus, the ERP systems help the organization in drastically improving the
+                  capacity and resource utilization.
+             •    Better Customer Satisfaction: Customer satisfaction means meeting or exceeding
+                  customers’ requirement for a product or service. With the help of web-enabled ERP
+                  systems, customers can place the order, track the status of the order and make the
+                  payment sitting at home. Since all the details of the product and the customer are
+                  available to the person at the technical support department also, the company will
+                  be able to better support the customer.
+             •    Improved Supplier Performance: ERP systems provide vendor management and
+                  procurement support tools designed to coordinate all aspect of the procurement
+                  process. They support the organization in its efforts to effectively negotiate, monitor
+                  and control procurement costs and schedules while assuring superior product
+                  quality. The supplier management and control processes are comprised of features
+                  that will help the organization in managing supplier relations, monitoring vendor
+                  activities and managing supplier quality.
+             •    Increased Flexibility: ERP Systems help the companies to remain flexible by
+                  making the company information available across the departmental barriers and
+                  automating most of the processes and procedures, thus enabling the company to
+                  react quickly to the changing market conditions.
+             •    Reduced Quality Costs: Quality is defined in many different ways- excellence,
+                  conformance to specifications, fitness for use, value for the price and so on. The
+                  ERP System’s central database eliminates redundant specifications and ensures
+                  that a single change to standard procedures takes effect immediately throughout the
+                  organization. The ERP systems also provide tools for implementing total q uality
+                  management programs within an organization.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                          9
+
+
+             •    Better Analysis and Planning Capabilities: Another advantage provided by ERP
+                  Systems is the boost to the planning functions. By enabling the comprehensive and
+                  unified management of related business functions such as production, finance,
+                  inventory management etc. and their data; it becomes possible to utilize fully many
+                  types of Decision Support Systems (DSS) and simulation functions, what -if analysis
+                  and so on; thus, enabling the decision-makers to make better and informed
+                  decisions.
+             •    Improved information accuracy and decision-making capability: The three
+                  fundamental characteristics of information are accuracy, relevancy, and timeliness.
+                  The information needs to be accurate, relevant for the decision-maker and available
+                  to the decision-makers when he requires it. The strength of ERP Systems-
+                  integration and automation help in improving the information accuracy and help in
+                  better decision-making.
+             •    Use of Latest Technology: ERP packages are adapted to utilize the latest
+                  developments in Information Technology such as open systems, client/server
+                  technology, Cloud Computing, Mobile computing etc. It is this adaptation of ERP
+                  packages to the latest changes in IT that makes the flexible adaptation to changes
+                  in future development environments possible.
+        9.   The key features of eXtensible Business Reporting Language (XBRL) that makes it an
+             international standard way to communicate and exchange of business information are as
+             follows:
+             •    Clear Definitions: XBRL allows the creation of reusable, authoritative definitions,
+                  called taxonomies that capture the meaning contained in all the reporting terms
+                  used in a business report, as well as the relationships between all the terms.
+                  Taxonomies are developed by regulators, accounting standards setters, government
+                  agencies and other groups that need to clearly define information that needs to be
+                  reported upon. XBRL doesn’t limit what kind of information is defined: it’s a
+                  language that can be used and extended as needed.
+             •    Testable Business Rules: XBRL allows the creation of business rules that
+                  constrain what can be reported. Business rules can be logical or mathematical, or
+                  both and can be used, for example, these business rules can be used to:
+                  o    stop poor quality information being sent to a regulator or third party, by being
+                       run by the preparer while the report is in draft.
+                  o    stop poor quality information being accepted by a regulator or third party, by
+                       being run at the point that the information is being received. Business reports
+                       that fail critical rules can be bounced back to the preparer for review and
+                       resubmission.
+                  o    flagging or highlighting questionable information, allowing prompt follow up,
+                       correction or explanation.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                       INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+                   o    create ratios, aggregations, and other kinds of value-added information, based
+                        on the fundamental data provided.
+             •     Multi-lingual Support: XBRL allows concept definitions to be prepared in as many
+                   languages as necessary. Translations of definitions can also be added by third
+                   parties. This means that it’s possible to display a range of reports in a different
+                   language to the one that they were prepared in, without any additional work. The
+                   XBRL community makes extensive use of this capability as it can automatically
+                   open up reports to different communities.
+             •     Strong Software Support: XBRL is supported by a very wide range of software
+                   from vendors large and small, allowing a very wide range of stakeholders to work
+                   with the standard.
+        10. The classification of controls of Information System based on their objectives is as under:
+             (i)   Preventive Controls: These controls prevent errors, omissions, or security
+                   incidents from occurring. They are basically proactive in nature. Examples include
+                   simple data-entry edits that block alphabetic characters from being entered in
+                   numeric fields, access controls that protect sensitive data/ system resources from
+                   unauthorized people, and complex and dynamic technical controls such as anti -
+                   virus software, firewalls, and intrusion prevention systems. In other words,
+                   Preventive Controls are those inputs, which are designed to prevent an error,
+                   omission or malicious act occurring. Any control can be implemented in both manual
+                   and computerized environment for the same purpose. Only, the implementation
+                   methodology may differ from one environment to the other.
+             (ii) Detective Controls: These controls are designed to detect errors, omissions or
+                  malicious acts that occur and report the occurrence. Detective Controls detect
+                  errors or incidents that elude preventive controls. They are basically investig ative in
+                  nature. For example, a detective control may identify account numbers of inactive
+                  accounts or accounts that have been flagged for monitoring of suspicious activities.
+                  Detective controls can also include monitoring and analysis to uncover activitie s or
+                  events that exceed authorized limits or violate known patterns in data that may
+                  indicate improper manipulation. For sensitive electronic communications, detective
+                  controls can indicate that a message has been corrupted or the sender’s secure
+                  identification cannot be authenticated.
+             (iii) Corrective Controls: It is desirable to correct errors, omissions, or incidents once
+                   they have been detected. They are reactive in nature. They vary from simple
+                   correction of data-entry errors, to identifying and removing unauthorized users or
+                   software from systems or networks to recovery from incidents, disruptions, or
+                   disasters. Generally, it is most efficient to prevent errors or detect them as close as
+                   possible to their source to simplify correction. These corrective processes also
+                   should be subject to preventive and detective controls because they represent
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                          11
+
+
+                   another opportunity for errors, omissions, or falsification. Corrective controls are
+                   designed to reduce the impact or correct an error once it has been detected.
+        11. Various controls under Database Controls of an application software are as follows:
+             (a) Access Controls: These controls in database subsystem seek to prevent
+                 unauthorized access to and use of the data. A security policy has to be specified
+                 followed by choosing an access control mechanism that will enforce the policy
+                 chosen. If database is replicated, the same access control rules must be enforced
+                 by access control mechanism at each site.
+             (b) Integrity Controls: These are required to ensure that the accuracy, completeness,
+                 and uniqueness of instances used within the data or conceptual modeling are
+                 maintained. Integrity Constraints are established to specify the type of relationship
+                 and consistency among rows (tuple) in relationship.
+             (c) Application Software Controls: When application software acts as an interface to
+                 interact between the user and the database, the DBMS depends on application
+                 software to pass across a correct sequence of commands and update parameters so
+                 that appropriate actions can be taken when certain types of exception condition arise.
+                 This is achieved through Update Controls that ensure that changes to the database
+                 reflect changes to the real-world entities and associations between entities that data
+                 in the database is supposed to represent and Report Controls that identify errors or
+                 irregularities that may have occurred when the database has been updated.
+             (d) Concurrency Controls: These are required to address the situation that arises
+                 either due to simultaneous access to the same database or due to deadlock.
+             (e) Cryptographic Controls: These controls can be well used for protecting the
+                 integrity of data stored in the database using block encryption.
+             (f)   File Handling Controls: These controls are used to prevent accidental destruction
+                   of data contained on a storage medium. These are exercised by hardware,
+                   software, and the operators or users who load/unload storage media.
+             (g) Audit Trail Controls: The audit trail maintains the chronology of events that occur
+                 either to the database definition or the database itself.
+        12. The forces underpinning the revolution of e-Commerce are as follows:
+             •     Proliferation of Mobile Device: The user is moving from desktop to mobile
+                   computing. 55% of the online traffic is generated from mobile devices and still it is
+                   on the increase. The most spectacular growth in mobile phone ownership
+                   contributes to the growth of e-commerce through mobile app. The creation of mobile
+                   application for e-commerce site is the latest trend to drive many online shoppers
+                   who use mobile apps for online shopping. The latest trend is using videos for
+                   product to attract customers. Shoppable videos for customers instead of using
+                   images and content would enable them to shop for products and services directly
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                      INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+                  from videos. The product content and recommendation increase the sales
+                  conversion through competitive analysis and identifying the basic style, studying,
+                  and using trending keywords and trying new trends.
+             •    Convergence of Mobile Telecommunication Network and the Internet: The
+                  mobile internet is also about a very different user experience. It is characterized by
+                  goal-oriented activities reserving movie tickets or looking for directions. These
+                  activities are often conducted when time pressure, such as knowing that movie
+                  starts at 8 PM and are subject to distraction. The transition from 3G to 5G and
+                  faster data rate along with many new applications and services makes the success
+                  of e-commerce possible.
+             •    Social Network: Social media these days is an integral part of almost every
+                  consumer’s online habits. The latest trend is the inclusion of e-commerce in social
+                  networks, such as Facebook, Twitter, YouTube, etc. This allows the consumer to
+                  buy the product without even leaving the social media platform. The concept of
+                  commerce using social media tool box will help the e-marketer to become more
+                  familiar with their clients and at the same time will also enable the customers to
+                  develop deep relationships with the merchants they buy from. Promotion of products
+                  on social media platforms is another trend.
+             •    Artificial Intelligence (AI): Another trend in e-commerce is the use of Chatbot, a
+                  fully automated chat agent that will answer all the questions of consumers and act
+                  as a first point of contact. Chatbots commonly known as messenger bots is a piece
+                  of software that can be used by a retailer to chat with customers via text or voice.
+                  Well-designed chatbots can offer personalized assistances, enhance the user
+                  experience, process orders, track shipments, provide product suggestion,
+                  automates processes, and lot more. A chatbot can offer guided, interactive browsing
+                  to the consumers and provide personalized answers to customers’ questions at all
+                  times.
+             •    Predictive Analysis: The use of predictive analysis tools is increasing to predict
+                  the online customers’ behaviour, their buying habits, their tastes, and preferences,
+                  both quantitative and qualitative. By segmenting the customers in different
+                  categories, the company can optimize its e-mail communication in order to increase
+                  conversions by offering the right customer; the right product; in the right way; and at
+                  the right time. The analytical approach would lead to an increase in the number of
+                  new customers, as well as tools can determine the probability of a customer
+                  purchasing certain products in certain situations. Based on this information,
+                  marketer can create unique, personalized promotions for each customer.
+             •    Support of IT governing Laws: Various provisions of IT Act, 2000 and laws now
+                  govern E-commerce which has proven to be a game-changer for the Indian
+                  economy and the future of “Digital India”. The availability of jurisprudence in India
+                  on the various issues related to e-commerce sector is in abundance. These laws
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                          13
+
+
+                  empower the e-businesses and lower the chances of any upsetting legal conflicts or
+                  lost business.
+        13. Blockchain sometimes referred to as Distributed Ledger Technology (DLT) is a shared,
+            peer-to-peer, and decentralized open ledger of transactions system with no trusted third
+            parties in between. This ledger database has every entry as permanent as it is an
+            append-only database which cannot be changed or altered. All transactions are fully
+            irreversible with any change in the transaction being recorded as new transaction. The
+            decentralized network refers to the network which is not controlled by any bank,
+            corporation, or government. A blockchain generally uses a chain of blocks, with each
+            block representing the digital information stored in public database (“the chain”).
+             The risks associated with Blockchain are as follows:
+             •    With the use of blockchain, organizations need to consider risks with a wider
+                  perspective as different members of a particular blockchain may have different risk
+                  appetite/risk tolerances that may further lead to conflict when monitoring controls
+                  are designed for a blockchain. There may be questions about who is responsible for
+                  managing risks if no one party is in-charge and how proper accountability is to be
+                  achieved in a blockchain.
+             •    The reliability of financial transactions is dependent on the underlying technology
+                  and if this underlying consensus mechanism has been tampered with, it could
+                  render the financial information stored in the ledger to be inaccurate and unreliable.
+             •    In the absence of any central authority to administer and enforce protocol
+                  amendments, there could be a challenge in the establishment of development and
+                  maintenance of process control activities and in such case, users of public
+                  blockchains find difficult to obtain an understanding of the general IT controls
+                  implemented and the effectiveness of these controls.
+             •    As blockchain involves humongous data getting updated frequently, risk related to
+                  information overload could potentially challenge the level of monitoring required.
+                  Furthermore, to find competent people to design and perform effective monitoring
+                  controls may again prove to be difficult.
+        14. The sub-processes that comprise Information security to mitigate the risks associated
+            with Information Technology are as follows:
+             •    Information Security Policies, Procedures and practices: This refers to the
+                  processes relating to approval and implementation of information security. The
+                  security policy is basis on which detailed procedures and practices are developed
+                  and implemented at various units/department and layers of technology, as relevant.
+                  These cover all key areas of securing information at various layers of information
+                  processing and ensure that information is made available safely and securely. For
+                  example: Non-disclosure agreement with employees, vendors etc., KYC procedures
+                  for security.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                        INTERMEDIATE EXAMINATION: MAY, 2022
+
+
+             •     User Security Administration: This refers to security for various users of
+                   information systems. The security administration policy documents define how users
+                   are created and granted access as per organization structure and access matrix. It
+                   also covers the complete administration of users right from creation to disabling of
+                   users is defined as part of security policy.
+             •     Application Security: This refers to how security is implemented at various
+                   aspects of application right from configuration, setting of parameters and security
+                   for transactions through various application controls. For example: Event Logging.
+             •     Database Security: This refers to various aspects of implementing security for the
+                   database software. For example - Role based access privileges given to employees.
+             •     Operating System Security: This refers to security for operating system software
+                   which is installed in the servers and systems which are connected to the servers.
+             •     Network Security: This refers to how security is provided at various layers of
+                   network and connectivity to the servers. For example: Use of virtual private
+                   networks for employees, implementation of firewalls etc.
+             •     Physical Security: This refers to security implemented through physical access
+                   controls. For example: Disabling the USB ports.
+        15. The risks and their associated controls around the Mortgage process are as follows:
+                              Risks                                    Key Controls
+                 Incorrect customer and loan       There is secondary review performed by an
+                 details are captured which will   independent team member who will verify loan
+                 affect the overall downstream     details captured in core banking application with
+                 process.                          offer letter.
+                 Incorrect     loan     amount     There is secondary review performed by an
+                 disbursed.                        independent team member who will verify loan
+                                                   amount to be disbursed with the core banking
+                                                   application to the signed offer letter.
+                 Interest amount is incorrectly    Interest amount is auto calculated by the core
+                 calculated and charged.           banking application basis loan amount, RoI and
+                                                   tenure.
+                 Unauthorized changes made         System enforced Segregation of Duties exist in the
+                 to loan master data or            core banking application where the person putting
+                 customer data.                    in the transaction cannot approve its own
+                                                   transaction and reviewer cannot edit any details
+                                                   submitted by person putting data.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           15
+
+
+
+                                 SECTION – B: STRATEGIC MANAGEMENT
+
+        Multiple Choice Questions
+        1.   Since its inception in 1910, the family business of Indian ethnic wear firm Shanti Prasad
+             & Sons, run by Mr. Mukesh Gupta and his three sons has seen major transformation in
+             supply chain, product development and management. The inheritance over generations
+             hasn't been easy, as it was subject to family brawls, but the company stood strong to its
+             core principles.
+             Since 2011, major foreign brands have been eyeing the segment with world class
+             designers opening up their boutiques in plush areas around the country. JJM, a French
+             design house, recently branded its Indian wear with leading film personalities, to attract
+             masses. This damaged existing supply chains, attracted new age buyers and has been
+             profitable from the very beginning.
+             The three sons reach out to you for management consultancy, to help them meet the
+             competition, if not beat it. You study the business inside out and come up with three
+             options.
+             First, to exit Indian Market, and start exporting their designs to European markets. This
+             would ensure bigger revenue and forex gains, and also the distribution chains were well
+             built there.
+             Second, to become the major manufacturer of JMM and other big foreign brands. This
+             would ensure they stay relevant in the market as all the promotional spend would be
+             taken care of by JMM and the volumes they would rope in would actually mean growth
+             for Shanti Prasad & Sons too.
+             Third, to sell their designs to the global brands with patent protection. This would ensure
+             a perpetual flow of revenue and a new market altogether, with global business exposure.
+             The family after considering your proposals, knowing the intricacies of business, and its
+             environment, decided to blend options two and three. The success or failure could only
+             be gauged in three quarters, when they sit down for an internal post implementation
+             review.
+             Based on the above Case Scenario, answer the Multiple Choice Questions.
+             (i)   What can be said about the attitude of the owners with regards to their strategy
+                   mindset when they reached out for consultancy?
+                   (a) Expansion Oriented
+                   (b) Stability Oriented
+                   (c)   Retrenchment Oriented
+                   (d) Combination Oriented
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                        INTERMEDIATE EXAMINATION: MAY 2022
+
+
+             (ii) If the owners went with option two, which of the following components of marketing
+                  strategy would be irrelevant for them?
+                  (a) Product and Promotion
+                  (b) Price and Product
+                  (c)    Promotion only
+                  (d) Place only
+             (iii) Option three if opted, would help in sustainability of which of the following, and
+                   would ensure so because of what major characteristic of sustainability?
+                  (a) Sustainability of Competitive Advantage by ensuring Transferability
+                  (b) Sustainability of Value Creation by ensuring Appropriability
+                  (c)    Sustainability of Value Creation by restricting Imitability
+                  (d) Sustainability of Competitive Advantage by ensuring Durability
+             (iv) For Shanti Prasad & Sons well as JJM, globalisation has been a key area of
+                  consideration. As times change, and new players enter a market, the existing firms
+                  need to be careful about their survival. Which of the following statements about
+                  Globalisation is false for JJM?
+                  (a) It unifies the trade and such trade barriers become irrelevant
+                  (b) It needs ability to compete in domestic market with foreign competitors
+                  (c)    It includes commitment to invest heavily in other countries
+                  (d) It brings in foreign investment in the form of FDI
+             (v) For JMM, which of the following structures would be best suited, in case all major
+                 Indian family run businesses start producing designs for them, while JMM simply
+                 takes care of distribution and marketing?
+                  (a) Simple Structure
+                  (b) Network Structure
+                  (c)    Matrix Structure
+                  (d) Divisional Structure
+        2.   Nom-Nom is a fast-food brand and has been facing a lot of competition from American
+             brands and has decided to NOT go very aggressive but to just preserve market share?
+             Which of the strategy Nom-Nom is following?
+             (a) Build
+             (b) Hold
+             (c) Harvest
+
+
+
+
+© The Institute of Chartered Accountants of India
+        17                       INTERMEDIATE EXAMINATION: MAY 2022
+
+
+             (d) Divest
+        3.   A tea farm owners plan to open tea cafes in tourist spots and to sell their own premium
+             tea to build a brand. Which of the following can this be termed as?
+             (a) Backward Integration
+             (b) Forward Integration
+             (c) Diversification
+             (d) Horizontal Integration
+        4.   Airlines providing special lounge access to loyal customers is a type of which marketing?
+             (a) Augmented Marketing
+             (b) Direct Marketing
+             (c) Relationship Marketing
+             (d) Services Marketing
+        5.   Maadhyam, a hearing aid manufacturer recently introduced an AI based management
+             tool that has the capabilities of managing teams across functions. What could be their
+             new organisational structure post this implementation?
+             (a) Divisional Structure
+             (b) Matrix Structure
+             (c) Hourglass Structure
+             (d) Network Structure
+        6.   Halder & Sons have invested in latest technology in terms of latest printing machines
+             from Germany and Israel. But recent advent of internet has posed a big threat to their
+             printing business as majority of their clients have now turned to more environment
+             friendly options. They are not able to sell off their machines which are now redundant.
+             What condition are they facing right now?
+             (a) Improper market analysis
+             (b) Exit Barriers
+             (c) Paralysis of Strategic Vision
+             (d) Weak SWOT Analysis
+        Descriptive Questions
+        Chapter 1-Introduction to Strategic Management
+        7.   ABC Ltd. currently sells its product in two major markets – Europe and Asia. While it is a
+             market leader in Europe, ABC Ltd. has struggled to penetrate the more competitive Asian
+             market. ABC Ltd. hired a strategic consultant to analyze the situation and submit his
+
+
+
+
+© The Institute of Chartered Accountants of India
+        18                         INTERMEDIATE EXAMINATION: MAY 2022
+
+
+             report to them. After the report received from the strategic consultant, it has therefore
+             decided to pull out of Asia entirely and focus on its European markets only. This decision
+             relates to which level in ABC Ltd. and explain the role of managers at this level in the
+             organization.
+        8.   Discuss the challenges faced by public sector units while designing for their
+             organisations.
+        Chapter 2-Dynamics of Competitive Strategy
+        9.   Explain the strategic implications of each of the following types of business in a corporate
+             portfolio:
+             (a) Stars       (b)     Question Marks      (c)    Cash Cows (d)        Dogs
+        10. Explain the role of ADL Matrix in assessing competitive position of a firm.
+        Chapter 3-Strategic Management Process
+        11. Differentiation between Strategic Planning and Operational Planning.
+        12. What are 'objectives'? What characteristics it must possess to be meaningful?
+        Chapter 4-Corporate Level Strategies
+        13. Racers Ltd. manufactures bicycles. Until recently it has adopted a differentiation strategy,
+            offering high quality bicycles which Racers Ltd. sells at a high profit margin.
+             In recent years, Racers Ltd. has entered a period of decline due to the market becoming
+             flooded with cheaper, high quality bicycles from abroad, where labour costs are lower.
+             Racers Ltd. has therefore decided to adjust its strategy and adopt a focus approach,
+             targeting its bicycles towards professional athletes. This will allow Racers Ltd. to
+             continue earning high margins, though the size of its potential market will likely fall.
+             Identify and explain the need of adopting this strategy by Racers Ltd. to manage decline?
+        14. Diversification endeavours can be categorized into four broad classifications. State the
+            basis for this classification and name the four categories. How is concentric
+            diversification different from vertically diversification? Explain.
+        Chapter 5-Business Level Strategies
+        15. A business consultancy firm specializes in environment management consultancy. It
+            advises client companies on how to set up environmental management accounting
+            systems. For measuring recording and analyzing environmental costs. A large part of its
+            business involves performing environmental audits to check whether companies have
+            achieved an international assurance standard in environmental management; this is
+            something that rival consultancy firms do not do. The firm also carries out other
+            management consultancy projects for client, but these make up only a small proportion of
+            its total annual fee income.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        19                      INTERMEDIATE EXAMINATION: MAY 2022
+
+
+             Identify the strategy categories by Michael Porter which best describes the strategy of
+             this firm.
+        16. What are the five competitive forces in an industry as identified by Michael Porter?
+        Chapter 6-Functional Level Strategies
+        17. You are the Human Resource Manager of a Company. What are the prominent areas
+            where you can play strategic role?
+        18. You are a manager of a firm, and you have to raise funds for a business project. From
+            which sources can you raise the funds for your company?
+        Chapter 7-Organisation and Strategic Leadership
+        19. How the 'Strategic Business Unit (SBU), structure becomes imperative in an organization
+            with increase in number, size and diversity of divisions?
+        20. "A network structure is suited to unstable environment." Elucidate this statement.
+        Chapter 8-Strategy Implementation and Control
+        21. Glassware Ltd. is about to go through a significant restructuring. The strategic change
+            involves moving from a decentralized to a centralized structure. This will help Glassware
+            avoid duplication of support activities and lower its costs.
+             The management have held the first staff briefing in which they went to great lengths to
+             explain that the change was necessary to equip the company to face future competitive
+             challenges. Identify and explain the current stage of Glassware Ltd. from the Lewin’s
+             three-stage model of change?
+        22. Explain the various categories in which generic business process of a firm requires
+            redesigning.
+
+                                             SUGGESTED ANSWERS
+
+        1.   (i)    (b) (ii) (c)     (iii)   (d) (iv)   (b)   (v)   (b)
+        2.   (b)
+        3.   (b)
+        4.   (c)
+        5.   (c)
+        6.   (b)
+        7.   Corporate level strategy relates to the markets and industries that the organization
+             chooses to operate in, as well as other decisions that affect the organization as a whole.
+             The role of corporate-level managers is to oversee the development of strategies for the
+             whole organization. This role includes defining the mission and goals of the organization,
+
+
+
+
+© The Institute of Chartered Accountants of India
+        20                      INTERMEDIATE EXAMINATION: MAY 2022
+
+
+             determining what businesses it should be in, allocating resources among the different
+             businesses, formulating and implementing strategies that span individual businesses,
+             and providing leadership for the organization.
+        8.   Central, state, municipal agencies, Public Sector Units, departments are responsible for
+             formulating, implementing, and evaluating strategies that use taxpayers' money in the
+             most cost-effective way to provide services and programs. The Challenges faced by the
+             public sector units while designing their organizations are on account of basic nature of
+             such organizations.
+             Public sector units face the following challenges while designing strategies for their
+             organizations:
+             •    Operating with less strategic autonomy.
+             •    Cannot diversify into unrelated businesses or merge with other firms.
+             •    Strategists usually enjoy little freedom while altering the organization’s mission or
+                  redirecting objectives when needed.
+             •    Legislators and politicians control over major decisions and resources.
+             •    Fear of media debate over the strategic issues.
+             •    Chances of politicization of issues resulting fewer strategic choice.
+        9.    In the BCG growth-share matrix portfolio of investments are represented in two-
+             dimensional space. The vertical axis represents market growth rate, and the horizontal
+             axis represents relative market share. The strategic implications for various business
+             types under BCG in the corporate portfolio are:
+             Stars are products or businesses that are growing rapidly and are best opportunity for
+             expansion. Stars may follow build strategy. They need heavy investments to maintain
+             their position and finance their rapid growth potential.
+             Cash Cows are low-growth, high market share businesses or products. They generate
+             cash and have low costs. They are established, successful, and need less investment to
+             maintain their market share. Strategic alternative advocated for cash cows is harvest.
+             Question Marks are low market share business in high-growth markets. Strategic option
+             for them is hold for which they need heavy investments. Question marks if left
+             unattended are capable of becoming cash traps.
+             Dogs are low-growth, low-share businesses and products. Relevant strategy is divest.
+             Dogs may generate enough cash to maintain themselves, but do not have much future.
+             Dogs should be minimized by means of divestment or liquidation.
+        10. The ADL matrix has derived its name from Arthur D. Little which is a portfolio an alysis
+            method based on product life cycle. The approach forms a two-dimensional matrix based
+            on stage of industry maturity and the firm’s competitive position, environmental
+
+
+
+
+© The Institute of Chartered Accountants of India
+        21                        INTERMEDIATE EXAMINATION: MAY 2022
+
+
+              assessment and business strength assessment. The role of ADL matrix is to assess t he
+              competitive position of a firm based on an assessment of the following criteria:
+                   Dominant: This is a comparatively rare position and in many cases is attributable
+                    either to a monopoly or a strong h
+                   Strong: By virtue of this position, the firm has a considerable degree of freedom
+                    over its choice of strategies and is often able to act without its market position being
+                    unduly threatened by its competitors.
+                   Favourable: This position, which generally comes about when the industry is
+                    fragmented and no one competitor stand out clearly, results in the market leaders a
+                    reasonable degree of freedom.
+                   Tenable: Although the firms within this category are able to perform satisfactorily
+                    and can justify staying in the industry, they are generally vulnerable in the face o f
+                    increased competition from stronger and more proactive companies in the market.
+                   Weak: The performance of firms in this category is generally unsatisfactory
+                    although the opportunities for improvement do exist.
+        11.
+                              Strategic planning                       Operational planning
+                  Strategic planning shapes            the Operational planning deals with current
+                  organisation and its resources.          deployment of resources.
+                  Strategic planning assesses the impact Operational planning develops tactics
+                  of environmental variables.            rather than strategy.
+                  Strategic planning takes a holistic view   Operational planning projects current
+                  of the organisation.                       operations into the future.
+                  Strategic planning develops overall Operational        planning     makes
+                  objectives and strategies.          modifications to the business functions
+                                                      but not fundamental changes.
+                  Strategic planning is concerned with Operational planning is concerned with
+                  the long-term success of the the short-term success of the
+                  organisation.                        organisation.
+                  Strategic planning is a           senior Operational planning is the responsibility
+                  management responsibility.               of functional managers.
+        12.    Objectives are organizations performance targets – the results and outcomes it wants to
+              achieve. They function as yardstick for tracking an organization’s performance and
+              progress.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        22                       INTERMEDIATE EXAMINATION: MAY 2022
+
+
+             Objectives with strategic focus relate to outcomes that strengthen an organization’s
+             overall business position and competitive vitality. Objectives, to be meaningful to serve
+             the intended role, must possess the following characteristics:
+                  Objectives should define the organization’s relationship with its environment.
+                  Objectives should be facilitative towards achievement of mission and purpose.
+                  Objectives should provide the basis for strategic decision-making.
+                  Objectives should provide standards for performance appraisal.
+                  Objectives should be understandable.
+                  Objectives should be concrete and specific.
+                  Objectives should be related to a time frame.
+                  Objectives should be measurable and controllable.
+                  Objectives should be challenging.
+                  Different objectives should correlate with each other.
+                  Objectives should be set within constraints.
+        13. Racers Ltd. has adopted Turnaround strategy. This involves Racers Ltd. repositioning
+            itself in the market in an attempt to once again gain competitive advantage.
+             Turnaround is needed when an enterprise's performance deteriorates to a point that it
+             needs a radical change of direction in strategy, and possibly in structure and culture as
+             well. It is a highly targeted effort to return an organization to profitability and increase
+             positive cash flows to a sufficient level. It is used when both threats and weaknesses
+             adversely affect the health of an organization so much that its basic survival is difficult.
+             The overall goal of turnaround strategy is to return an underperforming or distressed
+             company to normalcy in terms of acceptable levels of profitability, solvency, liquidity and
+             cash flow. To achieve its objectives, turnaround strategy must reverse causes of distress,
+             resolve the financial crisis, achieve a rapid improvement in financial performance, regain
+             stakeholder support, and overcome internal constraints and unfavourable industry
+             characteristics.
+        14. Diversification strategy involves expansion into new businesses that are outside the
+            current business and markets of an organisation. Based on the nature and extent of their
+            relationship to existing businesses, diversification can be classified into four b road
+            categories:
+             (i)   Vertically integrated diversification
+             (ii) Horizontally integrated diversification
+             (iii) Concentric diversification
+
+
+
+
+© The Institute of Chartered Accountants of India
+        23                      INTERMEDIATE EXAMINATION: MAY 2022
+
+
+             (iv) Conglomerate diversification
+             Concentric diversification takes place when the products are related. The new product is
+             a spin-off from the existing facilities and products/processes. This means that in
+             concentric diversification too, there are benefits of synergy with the current operations.
+             However, concentric diversification differs from vertically integrated diversi fication in the
+             nature of the linkage the new product has with the existing ones.
+             In vertically integrated diversification, firms opt to engage in businesses that are related
+             to the existing business of the firm. The firm remains vertically within the same process.
+             Sequence moves forward or backward in the chain and enters specific product/process
+             steps with the intention of making them into new businesses for the firm. The new
+             product falls within the firm’s current process-product chain. In concentric diversification,
+             there is a departure from this vertical linkage, a new related product is added to the
+             existing business. The new product is only connected in a loop-like manner at one or
+             more points in the firm’s existing process/technology/product chain.
+        15. By concentrating mainly on the ‘market’ for consultancy services in environmental
+            management, the firm is pursuing a focus strategy. By offering audit services, which rival
+            firms do not, this indicates a differentiation strategy within this chosen mark et niche.
+            Hence, the firm is following Focus differentiation strategy.
+             A focused differentiation strategy requires offering unique features that fulfil the demands
+             of a narrow market. Similar to focused low-cost strategy, narrow markets are defined in
+             different ways in different settings. Some firms using a focused differentiation strategy
+             concentrate their efforts on a particular sales channel, such as selling over the internet
+             only. Others target particular demographic groups. Firms that compete based o n
+             uniqueness and target a narrow market are following a focused differentiations strategy.
+        16. Five forces model of Michael Porter is a popular tool for systematically diagnosing the
+            significant competitive pressures in the market and assessing their strength and
+            importance. The model holds that the state of competition in an industry is a composite of
+            competitive pressures operating in five forces as follows:
+             1.   Threat of new entrants: New entrants place a limit on prices and affect the
+                  profitability of existing players. The new capacity and product range the new
+                  entrants bring increases competitive pressure.
+             2.   Bargaining power of customers: The bargaining power of the buyers influences
+                  not only the prices that the producer can charge but also influence costs and
+                  investments of the producer. This force will become heavier depending on the
+                  possibilities of the buyers forming groups or cartels, particularly in case of industrial
+                  products.
+             3.   Bargaining power of suppliers: Often suppliers can exercise considerable
+                  bargaining power. The bargaining power of suppliers determines the cost of raw
+
+
+
+
+© The Institute of Chartered Accountants of India
+        24                       INTERMEDIATE EXAMINATION: MAY 2022
+
+
+                   materials and other inputs of the industry and, therefore, can affect industry
+                   attractiveness and profitability.
+              4.   Rivalry among current players: The impact is evident more at functional level in
+                   the prices being charged, advertising, and pressures on costs, product and so on.
+              5.   Threats from substitutes: Substitute products are a latent source of competition in
+                   an industry. Substitute products offering a price advantage and/or performance
+                   improvement to the consumer can have significant impact.
+        17. Prominent areas where the Human Resource Manager can play strategic role are as
+            follows:
+              1.   Providing purposeful direction: The human resource manager leads people and
+                   the organization towards the desired direction involving people. He can ensure
+                   harmony between organisational objectives and individual objectives.
+              2.   Creating competitive atmosphere: In the present business environment,
+                   maintaining competitive position or gains is an important objective of any business.
+                   Having a highly committed and competent workforce is very important for getting a
+                   competitively advantageous position.
+              3.   Facilitation of change: The human resource manager will be more concerned
+                   about furthering the organization not just maintaining it. He can devote more time to
+                   promote acceptance of change rather than maintaining the status quo.
+              4.   Managing diversity of workforce: In a modern organization, management of
+                   diverse workforce is a great challenge. Workforce diversity can be observed in
+                   terms of male and female, young and old, educated and uneducated, unskilled and
+                   professional employee and so on. Motivation, maintaining morale and commitment
+                   are some of the key tasks that a HR manager can perform.
+              5.   Empowerment of human resources: Empowerment involves giving more power to
+                   those who, at present, have little control on what they do and little ability to
+                   influence the decisions being made around them.
+              6.   Building core competency: The human resource manager has an important role to
+                   play in developing core competency of the firm. A core competence is a unique
+                   strength of an organization which may not be shared by others. Organization of
+                   business around core competence implies leveraging the limited resources of a firm.
+              7.   Development of works ethics and culture: A vibrant work culture will have to be
+                   developed in the organizations to create an atmosphere of trust among peopl e and
+                   to encourage creative ideas by the people.
+        18.    Strategies related to the source of fund are important since they determine how financial
+              resources will be available for the implementation of the financial strategies. Companies
+              may rely on internal and external sources of financing for their short term and long term
+
+
+
+
+© The Institute of Chartered Accountants of India
+        25                        INTERMEDIATE EXAMINATION: MAY 2022
+
+
+             requirement of their funds. The funds may be raised from national and international
+             money and capital markets.
+             Following are some important sources for raising funds:
+             i.     Net profit from the operations: Using retained earnings to reinvest in the
+                    business, either in new projects or to scale up existing operations.
+             ii.    Sale of assets: The purpose of an asset sale is generally to increase cash flow,
+                    reduce bad debt risk and liquidation of assets.
+             iii.   Debt: Debt is an amount of money borrowed by one party from another. It is used
+                    by many corporations as a method of making large purchases that they could not
+                    afford under normal circumstances. It could be applied to boost organizations return
+                    on investment. During low earning periods, too much debt in the capital structure of
+                    an organization can endanger stockholders’ return and jeopardize comp any
+                    survival. Debt can be in the form of debentures, bonds, loans from financial
+                    institutions and deposits from public/fixed deposits.
+             iv.    Issuance of share capital to the public: Equity can be of two type – ordinary
+                    Shares and preference shares.
+        19. SBU is a part of a large business organization that is treated separately for strategic
+            management purposes. The concept of SBU is helpful in creating an SBU organizational
+            structure. It is separate part of large business serving product markets with readily
+            identifiable competitors. It is created by adding another level of management in a
+            divisional structure after the divisions have been grouped under a divisional top
+            management authority based on the common strategic interests.
+             Very large organisations, particularly those running into several products, or operating at
+             distant geographical locations that are extremely diverse in terms of environmental
+             factors, can be better managed by creating strategic business units. SBU structu re
+             becomes imperative in an organisation with increase in number, size and diversity. SBUs
+             helps such organisations by:
+             •      Establishing coordination between divisions having common strategic interest.
+             •      Facilitate strategic management and control.
+             •      Determine accountability at the level of distinct business units.
+             •      Allow strategic planning to be done at the most relevant level within the total
+                    enterprise.
+             •      Make the task of strategic review by top executives more objective and more
+                    effective.
+             •      Help to allocate resources to areas with better opportunities.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        26                      INTERMEDIATE EXAMINATION: MAY 2022
+
+
+        20. Network structure is a newer and somewhat more radical organizational design. The
+            network structure could be termed a "non-structure" as it virtually eliminates in-house
+            business functions and outsource many of them. An organization organized in this
+            manner is often called a virtual organization because it is composed of a series of project
+            groups or collaborations linked by constantly changing non-hierarchical, cobweb-like
+            networks.
+             The network structure becomes most useful when the environment of a firm is unstable
+             and is expected to remain so. Under such conditions, there is usually a strong need for
+             innovation and quick response. Instead of having salaried employees, it may contract
+             with people for a specific project or length of time. Long-term contracts with suppliers and
+             distributors replace services that the company could provide for itself through vertical
+             integration. The network structure provides organization with increased flexibility and
+             adaptability to cope with rapid technological change and shifting pattern of international
+             trade and competition.
+        21. Glassware Ltd. is currently in the ‘unfreezing’ stage, where management is attempting to
+            explain the need for change in an attempt to maximize buy-in by employees and reduce
+            the amount of resistance.
+             Unfreezing the situation: The process of unfreezing simply makes the individuals aware
+             of the necessity for change and prepares them for such a change. Lewin proposes that
+             the changes should not come as a surprise to the members of the organization. Sudden
+             and unannounced change would be socially destructive and morale lowering. The
+             management must pave the way for the change by first “unfreezing the situation”, so that
+             members would be willing and ready to accept the change.
+             Unfreezing is the process of breaking down the old attitudes and behaviours, customs
+             and traditions so that they start with a clean slate. This can be achieved by making
+             announcements, holding meetings and promoting the new ideas throughout the
+             organization.
+        22. The generic business processes of a firm that require redesign may be classified into
+            three broad categories as follows:
+                 Processes pertaining to development and delivery of product(s) and / or services
+                  - These may include research, design, engineering, manufacturing, and logistics,
+                  besides purchasing / procurement and materials management.
+                 Process involving interface(s) with customers - These usually include marketing,
+                  advertising, order fulfilment, and service.
+                 Process comprising management activities - These include strategy formulation,
+                  planning and budgeting, performance measurement and reporting, human resource
+                  management, and building infrastructure.
+             In the context of these generic business processes, BPR may be viewed as a means of
+             solving business problem through IT capabilities.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

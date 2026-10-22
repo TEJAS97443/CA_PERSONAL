@@ -1,0 +1,279 @@
+                                                             Test Series: October, 2021
+                                 MOCK  TEST PAPER-I
+                           INTERMEDIATE  (NEW): GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                       PART I : MULTIPLE CHOICE QUESTIONS     Total Marks: 15 Marks
+Question Nos. 1 to 5 carries 2 marks each.
+HEALTHY  MAASALA Ltd., a FMCG company is dealing in homemade and organic spices. Considering the
+expansion of company, it planned to start online sales for its products through online merchants like Amazon,
+Flipkart, and BigBasket. To start the new line of business, the company decided to get a detailed study done
+for the proposed system; for which the company hired the services of JS Developers. The detailed study
+performed by JS developers listed few critical issues that were required to be taken care to achieve goals
+and success which the company intended to achieve. On the basis of its analysis of present system, JS
+developers prepared a report and submitted it to management of HEALTHY MAASALA Ltd. In annual board
+meeting, the management considered the report of JS developers on various issues and submitted its
+response on the same. The issues raised by JS developers and action plan of HEALTHY MAASALA Ltd. are
+listed below.
+| S. Critical Issues (as mentioned in report | Management Response of HEALTHY MAASALA Ltd. |
+| --- | --- |
+| No. of JS developers) |  |
+| 1 Company needs to streamline and upgrade its processes of order and supply for its new line of business. | Management agrees to expand resources, time, and guidance to start new line of online business and also shows its concern on authentication of customer. |
+|  | Management decides to engage an auditor as a part of development team to ensure that the developed system would be as per the need of new line of business. |
+| 2 The success of online business depends on the timely supply of products to customer. Therefore, the company should work on Turn-Around-Time (TAT). | Management considers this point as an important factor and feels that same should be taken care by streamlining and upgrading the processes as the standard of online industry for TAT is changed to 24 hours. |
+| 3 The business managers need to be provided Management Information System (MIS) reports on demand. | Management highlights this as an essential feature of being able to generate relevant MIS reports through proposed system. |
+Apart from the above issues, the company extracted the relevant data on market trend of homemade and
+organic spices and purchase pattern of customer of these products. Also, the cybercrimes and their counter
+provisions under IT Act, 2000 governing e-commerce transactions were to be considered while developing
+the new system.
+1.  We know that the phases of Order to Cash (O2C) business process are as follows:
+    (i) Customer Order
+    (ii) Order fulfilment
+    (iii) Collections
+    (iv) Accounting
+    (v) Invoicing
+
+    (vi) Delivery Note
+    Identify the correct sequence of O2C Process.
+    (a) (i),(ii),(vi),(v), (iii), (iv)
+    (b) (i),(ii),(v),(vi), (iii), (iv)
+    (c) (ii),(iv),(v),(vi), (i), (iii)
+    (d) (ii),(iii),(iv),(v), (i), (vi)
+2.  In the proposed system, the business managers shall have the facility to generate relevant MIS reports.
+    Identify the incorrect statement about Management Information System (MIS) reports?
+    (a) Business managers rely on MIS reports to evaluate businesses’ daily activities and make decisions.
+    (b) The warehouse managers require MIS reports to gain information about product inventory and
+        shipping information.
+    (c) Finance and accounting managers would require MIS reports about sales revenue and business
+        expenses.
+    (d) Different MIS reports automatically suggest the best solution to its stakeholders.
+3.  The company does not have its own website and hence the management of HEALTHY MAASALA Ltd.
+    decides to sell its products through online intermediary merchants like Amazon and BigBasket etc.
+    Identify the business model of e-Commerce being used in this case.
+    (a) Business to Consumer e-Commerce
+    (b) Business to Business e-Commerce
+    (c) Consumer to Business e-Commerce
+    (d) Consumer to Consumer e-Commerce
+4.  In purview of above case scenario, the management of HEALTHY MAASALA Ltd. observed that the
+    company must comply to the related provisions of IT Act, 2000 that provide the legal recognition to all
+    the transactions that are made electronically. As per IT Act 2000; which of the following activity does
+    not fall under the purview of computer related offences?
+    (a) Violation of Privacy
+    (b) Stealing Computer resource and computer source document
+    (c) Theft of Identity
+    (d) Removal, transfer of property to prevent tax recovery
+5.  In purview of above case scenario, the decision of management to engage an auditor as a part of system
+    development team is to ensure that the developed system is as per the need of new line of online
+    business. This engagement of Auditor is classified as ____ audit.
+    (a) Post Implementation
+    (b) Internal
+    (c) Concurrent
+    (d) General
+Question No(s). 6 to 10 carries 1 Mark each.
+6.  ABC Ltd. acquired FMN Pvt. Ltd. and replaced all the systems being used by FMN Ltd. During the
+    replacement process, the management of ABC Ltd. observed that the cost of replacement is huge.
+    Therefore, it allowed its employees to use their own systems rather than replacing its old systems. This
+    is an example of____________.
+
+    (a) Grid Computing
+    (b) Machine Learning
+    (c) Bring Your Own Device
+    (d) Device Revolution
+7.  Mr. X, a Marketing head of a publishing house has prepared a flowchart to explain the process of
+    publishing of book along with its discount rate depending upon the clients like – teachers, students, etc.
+    Which of the symbol is relevant to the process of making decision in flowchart?
+   (a)
+   (b)
+   (c)
+   (d)
+8.  Mr. Amit is appointed as an IS auditor by GH Financial services. He uses continuous audit techniques
+    to check whether the accounting systems of the company restricts the cash payment in excess of
+    ` 50,000/- or not. He enters a dummy entity in the application file to test this condition. Which of the
+    following continuous audit technique is being used by Mr. Amit for this audit?
+    (a) Snapshot
+    (b) Integrated Test Facility
+    (c) Continuous and Intermittent Simulation
+    (d) System Control Audit Review File
+9.  Enterprise Resource Planning package software is the integration of various business processes, out of
+    which Production Planning module is one of an important module. Identify from the following process
+    that does not belong to Production Planning module?
+    (a) Issuing of raw material
+    (b) Conversion into Work In Progress (WIP)
+    (c) Delivery of product to customer
+    (d) Stock transfer to Godown
+10. BB Enterprises has a policy to give loan to its employees. If any employee takes a loan from the
+    company, then EMI on that loan is deducted from the monthly salary of that employee. Which of the
+    following service of Core Banking System is implemented in this case?
+    (a) Electronic Clearing Service (ECS) Debit
+    (b) Electronic Clearing Service (ECS) Credit
+    (c) Advances
+    (d) Remittances
+
+                            Part II: DESCRIPTIVE QUESTIONS
+1.  (a) Data Analytics refers to assortment of applications, reporting and online analytical processing to
+        various forms of advance analytics. Explain different advanced data analytics techniques.
+                                                                           (3 Marks)
+    (b) Write a short note on Proxy Server.                                (2 Marks)
+2.  (a) ABC Ltd., a renowned stationary manufacturer with five production units across the country , has
+        adopted Enterprise Resource Planning (ERP) to integrate its business processes. Identify the ERP
+        module that monitors and optimizes all the business process of ABC Ltd. Also, explain various key
+        features of this module.                                           (6 Marks)
+    (b) Cloud Computing is an emerging technology that provides various service models to business
+        organizations for storage, networking, and other services. However, many limitations are
+        associated with this technology. Briefly explain the drawbacks of Cloud Computing. (4 Marks)
+3.  (a) ABC Pvt. Ltd. is a brand manufacturer of automobile parts with huge clientele all over the country.
+        The company maintains the data of its clients in Oracle-the Database management software.
+        Explain the advantages that the company would be benefitted with by using Database Management
+        System (DBMS).                                                     (6 Marks)
+    (b) Mr. X mortgaged his old flat and took a loan from ABC bank to set up his new business. The said
+        transaction was recorded in the ABC bank software that may be prone to various risks. Discuss
+        any two risks and their corresponding controls related to the process of Mortgage involved in Core
+        Banking System.                                                    (4 Marks)
+4.  (a) NN enterprises deals with various types of gas stoves, water purifier and other kitchenware
+        products. On the occasion of festive season, in order to increase its sales, the company decided
+        to offer different types of discounts to its dealers and retailers. The discount policy offered by
+        company is as follows:
+        (i) 12% discount is offered on various types of Water Purifier irrespective of the category of
+            customer and the value of the order.
+        (ii) On Gas Stove, dealers are offered a discount of 15% whereas retailers are offered 9%
+            irrespective of order amount.
+        (iii) On all other kitchenware products, dealers are offered a discount of 20% provided that the
+            value of the order is ` 30,000 and above. Retailers are allowed a discount of 10% irrespective
+            of the value of the order.
+        Draw a flowchart to calculate the discount for the above policy.   (6 Marks)
+    (b) Managerial Controls provide a stable infrastructure in which Information Systems can be built,
+        operated, and maintained on day-to-day basis. List down various controls that can be adapted by
+        management for its smooth functioning.                             (4 Marks)
+5.  (a) SCI Labs is an organization involved in research and development of new medicines and drugs.
+        The company has five branches in different cities across the country interconnected using Grid
+        Computing model so as to share the resources and research that are carried out in its different
+        branches. Explain the benefits that SCI Labs may incur while using Grid Computing. (6 Marks)
+    (b) The management of ABC company is planning to adopt the automation of its major business
+        process. Mr. X has been requested to brief all steps of implementing Business Process Automation
+        to the members of management. Enlist the sequential steps of implementing BPA that can be part
+        of Mr. X’s presentation.                                           (4 Marks)
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                            Question 1 and 2 are compulsory.
+                  Attempt any three questions out of remaining four questions.
+1.  (A) Zuberia, a London based choreographer with a master’s degree in social entrepreneurship, wanted
+        to do something innovative and impactful with her international degree. Following which she took
+        on her dream to inculcate dance as a part of basic curriculum in primary education back in India.
+        For this, she set up a digital dance education company called DanceXT.
+        The business model was simple; approach active NGOs working on the field, conduct local
+        competitions to spread awareness, offer scholarships to talented kids to lure in support, and finally
+        build a community of interested individuals. This would act as a base for marketers to market their
+        products amongst youth and also divert some of their CSR funds to a good cause. Interestingly,
+        there are numerous NGOs working for the same cause, but the business monetisation of
+        DanceXT’s consumer data and easy approachability for businesses has created an advantage
+        over others.
+        A startup incubator was consulted to ensure free flow of funds in the initial few months until
+        sponsors were arranged. The best alternative to bank loans was crowdfunding and that is what
+        DanceXT opted for. Individuals and corporates were encouraged to provide for basic expenses
+        while volunteerism was encouraged for on field support. The operations were smooth and
+        foolproof.
+        The company expanded exponentially in major cities of Delhi, Mumbai and Kolkata, while making
+        a surprising foothold in Jaipur, Indore, Surat and Nashik. With over 500 volunteers and 100 team
+        leaders, many more college students expressed interest in joining the field force. Sports brands,
+        FMCG  giants, political candidates, and even government schools showed immense support to the
+        company. It built a massive workforce making numerous local teams with one single target o f
+        inculcating extra curricular in primary students especially through dance.
+        The highlight of their success was when four of their students got selected in a dance reality show
+        on television. Following it, the business is booming with marketers eyeing yout h while being true
+        to the underlying cause of the company.
+        Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:
+        1.  Similar businesses in dance tutoring operated on different business models because of?
+            (a) The external environment
+            (b) Customer Geographies
+            (c) Choice of Strategy
+            (d) Political Influence                                         (1 Mark)
+        2.  The differentiating factor for DanceXT in comparison to its competitors has been which of the
+            following?
+            (a) Research and Development Strategy - Innovative Dance Forms
+            (b) Vision Statement - Cultural Arts NGO aiming underprivileged talent
+            (c) Marketing Mix Strategy - Product, Potential Consumer Insights for final businesses
+            (d) Human Resource Strategy - Hiring quality dance trainers Pan-India (1 Mark)
+        3.  Incubator was approached for which of the following aspects of financial strategy?
+            (a) Budgeting
+
+            (b) Management of Funds
+            (c) Evaluating worth of business
+            (d) Acquisition of Capital`                                     (1 Mark)
+        4.  DanceXT can be categorised as which of the intensification strategies?
+            (a) Market Penetration
+            (b) Market Development
+            (c) Product Development
+            (d) Diversification of Services                                 (1 Mark)
+        5.  Which of the following could be the biggest challenge from Chandler’s Strategy-Structure
+            Relationship for DanceXT?
+            (a) Too many levels of management
+            (b) Too much attention diverted to intracompany conflicts
+            (c) Too many objectives to achieve
+            (d) Too large a span of control                                 (1 Mark)
+    (B) Baba Pvt Ltd has seventeen factories, nine of which they recently gave to other producers on
+        lease. This has increased their cash inflows to a great extent, and they are enjoying this surplus
+        by investing the same in financial assets. Such a strategy can be termed as which of the following?
+        (a) Divest
+        (b) Harvest
+        (c) Hold
+        (d) Build                                                          (2 Marks)
+    (C) Shreya, the owner of Kalakaari boutiques, wanted to reduce uncertainty of their business strategy
+        for which she gathered a lot of information from peers, groups, industry reports and experts. But it
+        did not give her comfort to take up new strategies. What tool can help her in this regard?
+        (a) Risk Analysis
+        (b) BCG Analysis
+        (c) ADL Matrix
+        (d) Scenario Analysis                                              (2 Marks)
+    (D) Mixfix was having a tough time with its operations and wanting to restructure itself from scratch.
+        For this, they consult a veteran in business strategy, Mrs. Sunita K, who post analysis of their
+        business said, “your dead business is worth more than alive”. What did Mrs. Sunita hint at?
+        (a) Restructuring Business
+        (b) Liquidation
+        (c) Business Process Re-engineering
+        (d) Divestment                                                     (2 Marks)
+    (E) Systematic and continuous monitoring of the business environment to verify the accuracy of
+        assumptions on which strategy is built is achieved by?
+        (a) Premise Control
+        (b) Special Alert Control
+
+        (c) Implementation Control
+        (d) Strategic Surveillance                                         (2 Marks)
+    (F) DMart sells fast moving consumer goods at wholesale prices to retail customers, is a strategy of?
+        (a) Market Penetration
+        (b) Cost Differentiation
+        (c) Cost Leadership
+        (d) Market Development                                              (1 Mark)
+    (G) The philosophical base of strategic management falls within the concept of-
+        (a) Strategic Intent
+        (b) Portfolio Analysis
+        (c) Globalisation
+        (d) Vision Statement                                                (1 Mark)
+2.  Maadhyam, a hearing aid manufacturer recently introduced an AI based management tool in its
+    organization which are having the qualities and capabilities of managing teams across functions. This
+    technological tool in addition to saving organisational costs by replacing many tasks of the middle
+    management has also served as a link between top and bottom levels in the organisation and
+    assists in quick decision making. The skewed middle level managers now perform cross -functional
+    duties. What could be their new organizational structure post implementation of AI based management
+    tool? How can this structure benefit the organization?                 (5 Marks)
+3.  (a) Yummy Foods and Tasty Foods are successfully competing in the business of ready to eat snacks
+        in Patna. Yummy has been pioneer in introducing innovative products. These products will give
+        them good sale. However, Tasty Foods will introduce similar products in reaction to the products
+        introduced by the Yummy Foods taking away the advantage gained by the former (5 Marks)
+    (b) How Ansoff’s Product Market Growth Matrix is a useful tool for business organizations?
+                                                                           (5 Marks)
+4.  (a) Strategy execution is an operations-oriented activity which involves a good fit between strategy
+        and organizational capabilities, structure, climate & culture. Enumerate the principal aspects of
+        strategy execution process which are used in most of the situations. (5 Marks)
+    (b) What are the objectives that must be kept in mind while designing a pricing strategy of a new
+        product?                                                           (5 Marks)
+5.  (a) Spacetek Pvt. Ltd. is an IT company. Although there is cut throat competition in the IT sector,
+        Spacetek deals with distinctive niche clients and is generating high efficiencies for serving such
+        niche market. Other rival firms are not attempting to specialize in the same target market. Identify
+        the strategy adopted by Spacetek Pvt. Ltd. and also explain the advantages and disadvantages of
+        that strategy.                                                     (5 Marks)
+    (b) Explain the three major R & D approaches to implement strategic decisions. (5 Marks)
+6.  Distinguish between the following:
+    (a) Transformational leadership and Transactional leadership.          (5 Marks)
+    (b) Strategy Formulation and Strategy Implementation.                  (5 Marks)

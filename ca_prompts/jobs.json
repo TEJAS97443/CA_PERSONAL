@@ -1,0 +1,3466 @@
+[
+ {
+  "id": "src-sm",
+  "steps": [
+   "start",
+   "find",
+   "download",
+   "extract",
+   "toc",
+   "applicability",
+   "report"
+  ]
+ },
+ {
+  "id": "src-q",
+  "steps": [
+   "start",
+   "p6-copy",
+   "p4-pyq",
+   "p5-pyq",
+   "p6-pyq",
+   "rtp",
+   "mtp",
+   "extract",
+   "manifest",
+   "old-scheme",
+   "report"
+  ]
+ },
+ {
+  "id": "fork",
+  "steps": [
+   "start",
+   "copy",
+   "strip",
+   "syllabus",
+   "rebrand",
+   "exam",
+   "bank-empty",
+   "tooling",
+   "tests",
+   "report"
+  ]
+ },
+ {
+  "id": "ex",
+  "kind": "writer",
+  "lessons": [
+   "cma.mc.bep",
+   "aud.report.sa705"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "cma.mc.bep",
+   "aud.report.sa705",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c01",
+  "kind": "writer",
+  "lessons": [
+   "cma.intro.scope",
+   "cma.intro.install",
+   "cma.intro.relations",
+   "cma.intro.terms"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.intro.scope",
+   "cma.intro.install",
+   "cma.intro.relations",
+   "cma.intro.terms",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c02",
+  "kind": "writer",
+  "lessons": [
+   "cma.intro.classify",
+   "cma.intro.behaviour",
+   "cma.intro.control",
+   "cma.intro.methods"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.intro.classify",
+   "cma.intro.behaviour",
+   "cma.intro.control",
+   "cma.intro.methods",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c03",
+  "kind": "writer",
+  "lessons": [
+   "cma.sheet.mfg",
+   "cma.sheet.quote",
+   "cma.sheet.service",
+   "cma.unit.unit",
+   "cma.unit.batch"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.sheet.mfg",
+   "cma.sheet.quote",
+   "cma.sheet.service",
+   "cma.unit.unit",
+   "cma.unit.batch",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c04",
+  "kind": "writer",
+  "lessons": [
+   "cma.mat.procure",
+   "cma.mat.receipts",
+   "cma.mat.issues",
+   "cma.mat.levels"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.mat.procure",
+   "cma.mat.receipts",
+   "cma.mat.issues",
+   "cma.mat.levels",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c05",
+  "kind": "writer",
+  "lessons": [
+   "cma.mat.eoq",
+   "cma.mat.techniques",
+   "cma.mat.ratios",
+   "cma.mat.losses"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.mat.eoq",
+   "cma.mat.techniques",
+   "cma.mat.ratios",
+   "cma.mat.losses",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c06",
+  "kind": "writer",
+  "lessons": [
+   "cma.emp.payroll",
+   "cma.emp.idle",
+   "cma.emp.turnover",
+   "cma.emp.incentives",
+   "cma.emp.direct"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.emp.payroll",
+   "cma.emp.idle",
+   "cma.emp.turnover",
+   "cma.emp.incentives",
+   "cma.emp.direct",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c07",
+  "kind": "writer",
+  "lessons": [
+   "cma.oh.classify",
+   "cma.oh.primary",
+   "cma.oh.secondary"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.oh.classify",
+   "cma.oh.primary",
+   "cma.oh.secondary",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c08",
+  "kind": "writer",
+  "lessons": [
+   "cma.oh.absorb",
+   "cma.oh.underover",
+   "cma.oh.ads",
+   "cma.job.job"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.oh.absorb",
+   "cma.oh.underover",
+   "cma.oh.ads",
+   "cma.job.job",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c09",
+  "kind": "writer",
+  "lessons": [
+   "cma.abc.concept",
+   "cma.abc.compute",
+   "cma.abc.abm",
+   "cma.sys.ledgers",
+   "cma.sys.recon"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.abc.concept",
+   "cma.abc.compute",
+   "cma.abc.abm",
+   "cma.sys.ledgers",
+   "cma.sys.recon",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c10",
+  "kind": "writer",
+  "lessons": [
+   "cma.proc.accounts",
+   "cma.proc.eu",
+   "cma.proc.interprocess"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.proc.accounts",
+   "cma.proc.eu",
+   "cma.proc.interprocess",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c11",
+  "kind": "writer",
+  "lessons": [
+   "cma.joint.apportion",
+   "cma.joint.further",
+   "cma.joint.byprod"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.joint.apportion",
+   "cma.joint.further",
+   "cma.joint.byprod",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c12",
+  "kind": "writer",
+  "lessons": [
+   "cma.svc.basics",
+   "cma.svc.transport",
+   "cma.svc.others"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.svc.basics",
+   "cma.svc.transport",
+   "cma.svc.others",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c13",
+  "kind": "writer",
+  "lessons": [
+   "cma.std.setting",
+   "cma.std.material",
+   "cma.std.labour"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.std.setting",
+   "cma.std.material",
+   "cma.std.labour",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c14",
+  "kind": "writer",
+  "lessons": [
+   "cma.std.voh",
+   "cma.std.foh",
+   "cma.std.recon"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.std.voh",
+   "cma.std.foh",
+   "cma.std.recon",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c15",
+  "kind": "writer",
+  "lessons": [
+   "cma.mc.basics",
+   "cma.mc.charts",
+   "cma.mc.absorb"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.mc.basics",
+   "cma.mc.charts",
+   "cma.mc.absorb",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c16",
+  "kind": "writer",
+  "lessons": [
+   "cma.mc.keyfactor",
+   "cma.mc.decisions",
+   "cma.mc.multiproduct"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.mc.keyfactor",
+   "cma.mc.decisions",
+   "cma.mc.multiproduct",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c17",
+  "kind": "writer",
+  "lessons": [
+   "cma.bud.basics",
+   "cma.bud.functional",
+   "cma.bud.flexible"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.bud.basics",
+   "cma.bud.functional",
+   "cma.bud.flexible",
+   "report"
+  ]
+ },
+ {
+  "id": "w-c18",
+  "kind": "writer",
+  "lessons": [
+   "cma.bud.cash",
+   "cma.bud.zbb",
+   "cma.bud.ratios"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "cma.bud.cash",
+   "cma.bud.zbb",
+   "cma.bud.ratios",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a01",
+  "kind": "writer",
+  "lessons": [
+   "aud.nature.basics",
+   "aud.nature.sa200",
+   "aud.nature.limits"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.nature.basics",
+   "aud.nature.sa200",
+   "aud.nature.limits",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a17",
+  "kind": "writer",
+  "lessons": [
+   "aud.nature.scope",
+   "aud.nature.relations",
+   "aud.nature.assurance"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.nature.scope",
+   "aud.nature.relations",
+   "aud.nature.assurance",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a02",
+  "kind": "writer",
+  "lessons": [
+   "aud.plan.sa300",
+   "aud.plan.program",
+   "aud.doc.sa230",
+   "aud.evid.trail"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.plan.sa300",
+   "aud.plan.program",
+   "aud.doc.sa230",
+   "aud.evid.trail",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a03",
+  "kind": "writer",
+  "lessons": [
+   "aud.risk.model",
+   "aud.risk.sa320",
+   "aud.risk.sa315",
+   "aud.risk.sa330"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.risk.model",
+   "aud.risk.sa320",
+   "aud.risk.sa315",
+   "aud.risk.sa330",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a04",
+  "kind": "writer",
+  "lessons": [
+   "aud.risk.ic",
+   "aud.risk.testing",
+   "aud.risk.it",
+   "aud.risk.digital"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.risk.ic",
+   "aud.risk.testing",
+   "aud.risk.it",
+   "aud.risk.digital",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a05",
+  "kind": "writer",
+  "lessons": [
+   "aud.evid.sa500",
+   "aud.evid.assertions",
+   "aud.evid.sa530",
+   "aud.evid.sa520"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.evid.sa500",
+   "aud.evid.assertions",
+   "aud.evid.sa530",
+   "aud.evid.sa520",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a06",
+  "kind": "writer",
+  "lessons": [
+   "aud.evid.sa610",
+   "aud.evid.ifc",
+   "aud.evid.sa501",
+   "aud.evid.sa505"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.evid.sa610",
+   "aud.evid.ifc",
+   "aud.evid.sa501",
+   "aud.evid.sa505",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a07",
+  "kind": "writer",
+  "lessons": [
+   "aud.evid.sa510",
+   "aud.evid.sa550",
+   "aud.complete.sa560",
+   "aud.complete.sa570"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.evid.sa510",
+   "aud.evid.sa550",
+   "aud.complete.sa560",
+   "aud.complete.sa570",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a08",
+  "kind": "writer",
+  "lessons": [
+   "aud.complete.sa450",
+   "aud.complete.sa580",
+   "aud.complete.sa260",
+   "aud.ethics.sa210"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.complete.sa450",
+   "aud.complete.sa580",
+   "aud.complete.sa260",
+   "aud.ethics.sa210",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a09",
+  "kind": "writer",
+  "lessons": [
+   "aud.items.revenue",
+   "aud.items.expenses",
+   "aud.items.equity",
+   "aud.items.liabilities"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.items.revenue",
+   "aud.items.expenses",
+   "aud.items.equity",
+   "aud.items.liabilities",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a10",
+  "kind": "writer",
+  "lessons": [
+   "aud.items.ppe",
+   "aud.items.current",
+   "aud.items.contingent"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.items.ppe",
+   "aud.items.current",
+   "aud.items.contingent",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a11",
+  "kind": "writer",
+  "lessons": [
+   "aud.report.sa700",
+   "aud.report.sa701"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.report.sa700",
+   "aud.report.sa701",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a12",
+  "kind": "writer",
+  "lessons": [
+   "aud.report.sa706",
+   "aud.report.sa710",
+   "aud.report.branch"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.report.sa706",
+   "aud.report.sa710",
+   "aud.report.branch",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a13",
+  "kind": "writer",
+  "lessons": [
+   "aud.report.companies",
+   "aud.report.caro"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.report.companies",
+   "aud.report.caro",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a14",
+  "kind": "writer",
+  "lessons": [
+   "aud.entities.govt",
+   "aud.entities.local",
+   "aud.entities.npo"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.entities.govt",
+   "aud.entities.local",
+   "aud.entities.npo",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a18",
+  "kind": "writer",
+  "lessons": [
+   "aud.entities.institutions",
+   "aud.entities.firms",
+   "aud.entities.commercial"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.entities.institutions",
+   "aud.entities.firms",
+   "aud.entities.commercial",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a15",
+  "kind": "writer",
+  "lessons": [
+   "aud.bank.approach",
+   "aud.bank.auditor",
+   "aud.bank.advances",
+   "aud.bank.revenue"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.bank.approach",
+   "aud.bank.auditor",
+   "aud.bank.advances",
+   "aud.bank.revenue",
+   "report"
+  ]
+ },
+ {
+  "id": "w-a16",
+  "kind": "writer",
+  "lessons": [
+   "aud.ethics.principles",
+   "aud.ethics.independence",
+   "aud.ethics.qc"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "aud.ethics.principles",
+   "aud.ethics.independence",
+   "aud.ethics.qc",
+   "report"
+  ]
+ },
+ {
+  "id": "w-f01",
+  "kind": "writer",
+  "lessons": [
+   "fm.intro.objectives",
+   "fm.intro.role",
+   "fm.intro.agency"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "fm.intro.objectives",
+   "fm.intro.role",
+   "fm.intro.agency",
+   "report"
+  ]
+ },
+ {
+  "id": "w-f02",
+  "kind": "writer",
+  "lessons": [
+   "fm.sources.long",
+   "fm.sources.other",
+   "fm.sources.short",
+   "fm.sources.modern"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "fm.sources.long",
+   "fm.sources.other",
+   "fm.sources.short",
+   "fm.sources.modern",
+   "report"
+  ]
+ },
+ {
+  "id": "w-f03",
+  "kind": "writer",
+  "lessons": [
+   "fm.ratio.liquidity",
+   "fm.ratio.activity",
+   "fm.ratio.profit",
+   "fm.ratio.prepare"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "fm.ratio.liquidity",
+   "fm.ratio.activity",
+   "fm.ratio.profit",
+   "fm.ratio.prepare",
+   "report"
+  ]
+ },
+ {
+  "id": "w-f04",
+  "kind": "writer",
+  "lessons": [
+   "fm.coc.debt",
+   "fm.coc.equity",
+   "fm.coc.wacc"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "fm.coc.debt",
+   "fm.coc.equity",
+   "fm.coc.wacc",
+   "report"
+  ]
+ },
+ {
+  "id": "w-f05",
+  "kind": "writer",
+  "lessons": [
+   "fm.cs.theories",
+   "fm.cs.ebiteps",
+   "fm.cs.planning",
+   "fm.lev.leverage"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "fm.cs.theories",
+   "fm.cs.ebiteps",
+   "fm.cs.planning",
+   "fm.lev.leverage",
+   "report"
+  ]
+ },
+ {
+  "id": "w-f06",
+  "kind": "writer",
+  "lessons": [
+   "fm.capbud.cashflows",
+   "fm.capbud.payback",
+   "fm.capbud.npv"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "fm.capbud.cashflows",
+   "fm.capbud.payback",
+   "fm.capbud.npv",
+   "report"
+  ]
+ },
+ {
+  "id": "w-f07",
+  "kind": "writer",
+  "lessons": [
+   "fm.capbud.irr",
+   "fm.capbud.rationing",
+   "fm.div.basics",
+   "fm.div.models"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "fm.capbud.irr",
+   "fm.capbud.rationing",
+   "fm.div.basics",
+   "fm.div.models",
+   "report"
+  ]
+ },
+ {
+  "id": "w-f08",
+  "kind": "writer",
+  "lessons": [
+   "fm.wc.basics",
+   "fm.wc.estimate",
+   "fm.wc.receivables"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "fm.wc.basics",
+   "fm.wc.estimate",
+   "fm.wc.receivables",
+   "report"
+  ]
+ },
+ {
+  "id": "w-f09",
+  "kind": "writer",
+  "lessons": [
+   "fm.wc.cash",
+   "fm.wc.inventory",
+   "fm.wc.payables",
+   "fm.wc.banking"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "fm.wc.cash",
+   "fm.wc.inventory",
+   "fm.wc.payables",
+   "fm.wc.banking",
+   "report"
+  ]
+ },
+ {
+  "id": "w-s01",
+  "kind": "writer",
+  "lessons": [
+   "sm.intro.meaning",
+   "sm.intro.intent",
+   "sm.intro.levels",
+   "sm.ext.pestle"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "sm.intro.meaning",
+   "sm.intro.intent",
+   "sm.intro.levels",
+   "sm.ext.pestle",
+   "report"
+  ]
+ },
+ {
+  "id": "w-s02",
+  "kind": "writer",
+  "lessons": [
+   "sm.ext.industry",
+   "sm.ext.porter",
+   "sm.ext.markets"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "sm.ext.industry",
+   "sm.ext.porter",
+   "sm.ext.markets",
+   "report"
+  ]
+ },
+ {
+  "id": "w-s03",
+  "kind": "writer",
+  "lessons": [
+   "sm.int.stakeholders",
+   "sm.int.drivers",
+   "sm.int.resources",
+   "sm.int.swot",
+   "sm.int.generic"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "sm.int.stakeholders",
+   "sm.int.drivers",
+   "sm.int.resources",
+   "sm.int.swot",
+   "sm.int.generic",
+   "report"
+  ]
+ },
+ {
+  "id": "w-s04",
+  "kind": "writer",
+  "lessons": [
+   "sm.choice.growth",
+   "sm.choice.retrench",
+   "sm.choice.ansoff",
+   "sm.choice.portfolio"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "sm.choice.growth",
+   "sm.choice.retrench",
+   "sm.choice.ansoff",
+   "sm.choice.portfolio",
+   "report"
+  ]
+ },
+ {
+  "id": "w-s05",
+  "kind": "writer",
+  "lessons": [
+   "sm.impl.matrix",
+   "sm.impl.digital",
+   "sm.impl.structure",
+   "sm.impl.leadership",
+   "sm.impl.control"
+  ],
+  "deps": [
+   "ex"
+  ],
+  "steps": [
+   "start",
+   "sm.impl.matrix",
+   "sm.impl.digital",
+   "sm.impl.structure",
+   "sm.impl.leadership",
+   "sm.impl.control",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c01",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.intro.scope",
+   "cma.intro.install",
+   "cma.intro.relations",
+   "cma.intro.terms"
+  ],
+  "deps": [
+   "w-c01"
+  ],
+  "steps": [
+   "start",
+   "cma.intro.scope",
+   "cma.intro.install",
+   "cma.intro.relations",
+   "cma.intro.terms",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c02",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.intro.classify",
+   "cma.intro.behaviour",
+   "cma.intro.control",
+   "cma.intro.methods"
+  ],
+  "deps": [
+   "w-c02"
+  ],
+  "steps": [
+   "start",
+   "cma.intro.classify",
+   "cma.intro.behaviour",
+   "cma.intro.control",
+   "cma.intro.methods",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c03",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.sheet.mfg",
+   "cma.sheet.quote",
+   "cma.sheet.service",
+   "cma.unit.unit",
+   "cma.unit.batch"
+  ],
+  "deps": [
+   "w-c03"
+  ],
+  "steps": [
+   "start",
+   "cma.sheet.mfg",
+   "cma.sheet.quote",
+   "cma.sheet.service",
+   "cma.unit.unit",
+   "cma.unit.batch",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c04",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.mat.procure",
+   "cma.mat.receipts",
+   "cma.mat.issues",
+   "cma.mat.levels"
+  ],
+  "deps": [
+   "w-c04"
+  ],
+  "steps": [
+   "start",
+   "cma.mat.procure",
+   "cma.mat.receipts",
+   "cma.mat.issues",
+   "cma.mat.levels",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c05",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.mat.eoq",
+   "cma.mat.techniques",
+   "cma.mat.ratios",
+   "cma.mat.losses"
+  ],
+  "deps": [
+   "w-c05"
+  ],
+  "steps": [
+   "start",
+   "cma.mat.eoq",
+   "cma.mat.techniques",
+   "cma.mat.ratios",
+   "cma.mat.losses",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c06",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.emp.payroll",
+   "cma.emp.idle",
+   "cma.emp.turnover",
+   "cma.emp.incentives",
+   "cma.emp.direct"
+  ],
+  "deps": [
+   "w-c06"
+  ],
+  "steps": [
+   "start",
+   "cma.emp.payroll",
+   "cma.emp.idle",
+   "cma.emp.turnover",
+   "cma.emp.incentives",
+   "cma.emp.direct",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c07",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.oh.classify",
+   "cma.oh.primary",
+   "cma.oh.secondary"
+  ],
+  "deps": [
+   "w-c07"
+  ],
+  "steps": [
+   "start",
+   "cma.oh.classify",
+   "cma.oh.primary",
+   "cma.oh.secondary",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c08",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.oh.absorb",
+   "cma.oh.underover",
+   "cma.oh.ads",
+   "cma.job.job"
+  ],
+  "deps": [
+   "w-c08"
+  ],
+  "steps": [
+   "start",
+   "cma.oh.absorb",
+   "cma.oh.underover",
+   "cma.oh.ads",
+   "cma.job.job",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c09",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.abc.concept",
+   "cma.abc.compute",
+   "cma.abc.abm",
+   "cma.sys.ledgers",
+   "cma.sys.recon"
+  ],
+  "deps": [
+   "w-c09"
+  ],
+  "steps": [
+   "start",
+   "cma.abc.concept",
+   "cma.abc.compute",
+   "cma.abc.abm",
+   "cma.sys.ledgers",
+   "cma.sys.recon",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c10",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.proc.accounts",
+   "cma.proc.eu",
+   "cma.proc.interprocess"
+  ],
+  "deps": [
+   "w-c10"
+  ],
+  "steps": [
+   "start",
+   "cma.proc.accounts",
+   "cma.proc.eu",
+   "cma.proc.interprocess",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c11",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.joint.apportion",
+   "cma.joint.further",
+   "cma.joint.byprod"
+  ],
+  "deps": [
+   "w-c11"
+  ],
+  "steps": [
+   "start",
+   "cma.joint.apportion",
+   "cma.joint.further",
+   "cma.joint.byprod",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c12",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.svc.basics",
+   "cma.svc.transport",
+   "cma.svc.others"
+  ],
+  "deps": [
+   "w-c12"
+  ],
+  "steps": [
+   "start",
+   "cma.svc.basics",
+   "cma.svc.transport",
+   "cma.svc.others",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c13",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.std.setting",
+   "cma.std.material",
+   "cma.std.labour"
+  ],
+  "deps": [
+   "w-c13"
+  ],
+  "steps": [
+   "start",
+   "cma.std.setting",
+   "cma.std.material",
+   "cma.std.labour",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c14",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.std.voh",
+   "cma.std.foh",
+   "cma.std.recon"
+  ],
+  "deps": [
+   "w-c14"
+  ],
+  "steps": [
+   "start",
+   "cma.std.voh",
+   "cma.std.foh",
+   "cma.std.recon",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c15",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.mc.basics",
+   "cma.mc.charts",
+   "cma.mc.absorb"
+  ],
+  "deps": [
+   "w-c15"
+  ],
+  "steps": [
+   "start",
+   "cma.mc.basics",
+   "cma.mc.charts",
+   "cma.mc.absorb",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c16",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.mc.keyfactor",
+   "cma.mc.decisions",
+   "cma.mc.multiproduct"
+  ],
+  "deps": [
+   "w-c16"
+  ],
+  "steps": [
+   "start",
+   "cma.mc.keyfactor",
+   "cma.mc.decisions",
+   "cma.mc.multiproduct",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c17",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.bud.basics",
+   "cma.bud.functional",
+   "cma.bud.flexible"
+  ],
+  "deps": [
+   "w-c17"
+  ],
+  "steps": [
+   "start",
+   "cma.bud.basics",
+   "cma.bud.functional",
+   "cma.bud.flexible",
+   "report"
+  ]
+ },
+ {
+  "id": "r-c18",
+  "kind": "reviewer",
+  "lessons": [
+   "cma.bud.cash",
+   "cma.bud.zbb",
+   "cma.bud.ratios"
+  ],
+  "deps": [
+   "w-c18"
+  ],
+  "steps": [
+   "start",
+   "cma.bud.cash",
+   "cma.bud.zbb",
+   "cma.bud.ratios",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a01",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.nature.basics",
+   "aud.nature.sa200",
+   "aud.nature.limits"
+  ],
+  "deps": [
+   "w-a01"
+  ],
+  "steps": [
+   "start",
+   "aud.nature.basics",
+   "aud.nature.sa200",
+   "aud.nature.limits",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a17",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.nature.scope",
+   "aud.nature.relations",
+   "aud.nature.assurance"
+  ],
+  "deps": [
+   "w-a17"
+  ],
+  "steps": [
+   "start",
+   "aud.nature.scope",
+   "aud.nature.relations",
+   "aud.nature.assurance",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a02",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.plan.sa300",
+   "aud.plan.program",
+   "aud.doc.sa230",
+   "aud.evid.trail"
+  ],
+  "deps": [
+   "w-a02"
+  ],
+  "steps": [
+   "start",
+   "aud.plan.sa300",
+   "aud.plan.program",
+   "aud.doc.sa230",
+   "aud.evid.trail",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a03",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.risk.model",
+   "aud.risk.sa320",
+   "aud.risk.sa315",
+   "aud.risk.sa330"
+  ],
+  "deps": [
+   "w-a03"
+  ],
+  "steps": [
+   "start",
+   "aud.risk.model",
+   "aud.risk.sa320",
+   "aud.risk.sa315",
+   "aud.risk.sa330",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a04",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.risk.ic",
+   "aud.risk.testing",
+   "aud.risk.it",
+   "aud.risk.digital"
+  ],
+  "deps": [
+   "w-a04"
+  ],
+  "steps": [
+   "start",
+   "aud.risk.ic",
+   "aud.risk.testing",
+   "aud.risk.it",
+   "aud.risk.digital",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a05",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.evid.sa500",
+   "aud.evid.assertions",
+   "aud.evid.sa530",
+   "aud.evid.sa520"
+  ],
+  "deps": [
+   "w-a05"
+  ],
+  "steps": [
+   "start",
+   "aud.evid.sa500",
+   "aud.evid.assertions",
+   "aud.evid.sa530",
+   "aud.evid.sa520",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a06",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.evid.sa610",
+   "aud.evid.ifc",
+   "aud.evid.sa501",
+   "aud.evid.sa505"
+  ],
+  "deps": [
+   "w-a06"
+  ],
+  "steps": [
+   "start",
+   "aud.evid.sa610",
+   "aud.evid.ifc",
+   "aud.evid.sa501",
+   "aud.evid.sa505",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a07",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.evid.sa510",
+   "aud.evid.sa550",
+   "aud.complete.sa560",
+   "aud.complete.sa570"
+  ],
+  "deps": [
+   "w-a07"
+  ],
+  "steps": [
+   "start",
+   "aud.evid.sa510",
+   "aud.evid.sa550",
+   "aud.complete.sa560",
+   "aud.complete.sa570",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a08",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.complete.sa450",
+   "aud.complete.sa580",
+   "aud.complete.sa260",
+   "aud.ethics.sa210"
+  ],
+  "deps": [
+   "w-a08"
+  ],
+  "steps": [
+   "start",
+   "aud.complete.sa450",
+   "aud.complete.sa580",
+   "aud.complete.sa260",
+   "aud.ethics.sa210",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a09",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.items.revenue",
+   "aud.items.expenses",
+   "aud.items.equity",
+   "aud.items.liabilities"
+  ],
+  "deps": [
+   "w-a09"
+  ],
+  "steps": [
+   "start",
+   "aud.items.revenue",
+   "aud.items.expenses",
+   "aud.items.equity",
+   "aud.items.liabilities",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a10",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.items.ppe",
+   "aud.items.current",
+   "aud.items.contingent"
+  ],
+  "deps": [
+   "w-a10"
+  ],
+  "steps": [
+   "start",
+   "aud.items.ppe",
+   "aud.items.current",
+   "aud.items.contingent",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a11",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.report.sa700",
+   "aud.report.sa701"
+  ],
+  "deps": [
+   "w-a11"
+  ],
+  "steps": [
+   "start",
+   "aud.report.sa700",
+   "aud.report.sa701",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a12",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.report.sa706",
+   "aud.report.sa710",
+   "aud.report.branch"
+  ],
+  "deps": [
+   "w-a12"
+  ],
+  "steps": [
+   "start",
+   "aud.report.sa706",
+   "aud.report.sa710",
+   "aud.report.branch",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a13",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.report.companies",
+   "aud.report.caro"
+  ],
+  "deps": [
+   "w-a13"
+  ],
+  "steps": [
+   "start",
+   "aud.report.companies",
+   "aud.report.caro",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a14",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.entities.govt",
+   "aud.entities.local",
+   "aud.entities.npo"
+  ],
+  "deps": [
+   "w-a14"
+  ],
+  "steps": [
+   "start",
+   "aud.entities.govt",
+   "aud.entities.local",
+   "aud.entities.npo",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a18",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.entities.institutions",
+   "aud.entities.firms",
+   "aud.entities.commercial"
+  ],
+  "deps": [
+   "w-a18"
+  ],
+  "steps": [
+   "start",
+   "aud.entities.institutions",
+   "aud.entities.firms",
+   "aud.entities.commercial",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a15",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.bank.approach",
+   "aud.bank.auditor",
+   "aud.bank.advances",
+   "aud.bank.revenue"
+  ],
+  "deps": [
+   "w-a15"
+  ],
+  "steps": [
+   "start",
+   "aud.bank.approach",
+   "aud.bank.auditor",
+   "aud.bank.advances",
+   "aud.bank.revenue",
+   "report"
+  ]
+ },
+ {
+  "id": "r-a16",
+  "kind": "reviewer",
+  "lessons": [
+   "aud.ethics.principles",
+   "aud.ethics.independence",
+   "aud.ethics.qc"
+  ],
+  "deps": [
+   "w-a16"
+  ],
+  "steps": [
+   "start",
+   "aud.ethics.principles",
+   "aud.ethics.independence",
+   "aud.ethics.qc",
+   "report"
+  ]
+ },
+ {
+  "id": "r-f01",
+  "kind": "reviewer",
+  "lessons": [
+   "fm.intro.objectives",
+   "fm.intro.role",
+   "fm.intro.agency"
+  ],
+  "deps": [
+   "w-f01"
+  ],
+  "steps": [
+   "start",
+   "fm.intro.objectives",
+   "fm.intro.role",
+   "fm.intro.agency",
+   "report"
+  ]
+ },
+ {
+  "id": "r-f02",
+  "kind": "reviewer",
+  "lessons": [
+   "fm.sources.long",
+   "fm.sources.other",
+   "fm.sources.short",
+   "fm.sources.modern"
+  ],
+  "deps": [
+   "w-f02"
+  ],
+  "steps": [
+   "start",
+   "fm.sources.long",
+   "fm.sources.other",
+   "fm.sources.short",
+   "fm.sources.modern",
+   "report"
+  ]
+ },
+ {
+  "id": "r-f03",
+  "kind": "reviewer",
+  "lessons": [
+   "fm.ratio.liquidity",
+   "fm.ratio.activity",
+   "fm.ratio.profit",
+   "fm.ratio.prepare"
+  ],
+  "deps": [
+   "w-f03"
+  ],
+  "steps": [
+   "start",
+   "fm.ratio.liquidity",
+   "fm.ratio.activity",
+   "fm.ratio.profit",
+   "fm.ratio.prepare",
+   "report"
+  ]
+ },
+ {
+  "id": "r-f04",
+  "kind": "reviewer",
+  "lessons": [
+   "fm.coc.debt",
+   "fm.coc.equity",
+   "fm.coc.wacc"
+  ],
+  "deps": [
+   "w-f04"
+  ],
+  "steps": [
+   "start",
+   "fm.coc.debt",
+   "fm.coc.equity",
+   "fm.coc.wacc",
+   "report"
+  ]
+ },
+ {
+  "id": "r-f05",
+  "kind": "reviewer",
+  "lessons": [
+   "fm.cs.theories",
+   "fm.cs.ebiteps",
+   "fm.cs.planning",
+   "fm.lev.leverage"
+  ],
+  "deps": [
+   "w-f05"
+  ],
+  "steps": [
+   "start",
+   "fm.cs.theories",
+   "fm.cs.ebiteps",
+   "fm.cs.planning",
+   "fm.lev.leverage",
+   "report"
+  ]
+ },
+ {
+  "id": "r-f06",
+  "kind": "reviewer",
+  "lessons": [
+   "fm.capbud.cashflows",
+   "fm.capbud.payback",
+   "fm.capbud.npv"
+  ],
+  "deps": [
+   "w-f06"
+  ],
+  "steps": [
+   "start",
+   "fm.capbud.cashflows",
+   "fm.capbud.payback",
+   "fm.capbud.npv",
+   "report"
+  ]
+ },
+ {
+  "id": "r-f07",
+  "kind": "reviewer",
+  "lessons": [
+   "fm.capbud.irr",
+   "fm.capbud.rationing",
+   "fm.div.basics",
+   "fm.div.models"
+  ],
+  "deps": [
+   "w-f07"
+  ],
+  "steps": [
+   "start",
+   "fm.capbud.irr",
+   "fm.capbud.rationing",
+   "fm.div.basics",
+   "fm.div.models",
+   "report"
+  ]
+ },
+ {
+  "id": "r-f08",
+  "kind": "reviewer",
+  "lessons": [
+   "fm.wc.basics",
+   "fm.wc.estimate",
+   "fm.wc.receivables"
+  ],
+  "deps": [
+   "w-f08"
+  ],
+  "steps": [
+   "start",
+   "fm.wc.basics",
+   "fm.wc.estimate",
+   "fm.wc.receivables",
+   "report"
+  ]
+ },
+ {
+  "id": "r-f09",
+  "kind": "reviewer",
+  "lessons": [
+   "fm.wc.cash",
+   "fm.wc.inventory",
+   "fm.wc.payables",
+   "fm.wc.banking"
+  ],
+  "deps": [
+   "w-f09"
+  ],
+  "steps": [
+   "start",
+   "fm.wc.cash",
+   "fm.wc.inventory",
+   "fm.wc.payables",
+   "fm.wc.banking",
+   "report"
+  ]
+ },
+ {
+  "id": "r-s01",
+  "kind": "reviewer",
+  "lessons": [
+   "sm.intro.meaning",
+   "sm.intro.intent",
+   "sm.intro.levels",
+   "sm.ext.pestle"
+  ],
+  "deps": [
+   "w-s01"
+  ],
+  "steps": [
+   "start",
+   "sm.intro.meaning",
+   "sm.intro.intent",
+   "sm.intro.levels",
+   "sm.ext.pestle",
+   "report"
+  ]
+ },
+ {
+  "id": "r-s02",
+  "kind": "reviewer",
+  "lessons": [
+   "sm.ext.industry",
+   "sm.ext.porter",
+   "sm.ext.markets"
+  ],
+  "deps": [
+   "w-s02"
+  ],
+  "steps": [
+   "start",
+   "sm.ext.industry",
+   "sm.ext.porter",
+   "sm.ext.markets",
+   "report"
+  ]
+ },
+ {
+  "id": "r-s03",
+  "kind": "reviewer",
+  "lessons": [
+   "sm.int.stakeholders",
+   "sm.int.drivers",
+   "sm.int.resources",
+   "sm.int.swot",
+   "sm.int.generic"
+  ],
+  "deps": [
+   "w-s03"
+  ],
+  "steps": [
+   "start",
+   "sm.int.stakeholders",
+   "sm.int.drivers",
+   "sm.int.resources",
+   "sm.int.swot",
+   "sm.int.generic",
+   "report"
+  ]
+ },
+ {
+  "id": "r-s04",
+  "kind": "reviewer",
+  "lessons": [
+   "sm.choice.growth",
+   "sm.choice.retrench",
+   "sm.choice.ansoff",
+   "sm.choice.portfolio"
+  ],
+  "deps": [
+   "w-s04"
+  ],
+  "steps": [
+   "start",
+   "sm.choice.growth",
+   "sm.choice.retrench",
+   "sm.choice.ansoff",
+   "sm.choice.portfolio",
+   "report"
+  ]
+ },
+ {
+  "id": "r-s05",
+  "kind": "reviewer",
+  "lessons": [
+   "sm.impl.matrix",
+   "sm.impl.digital",
+   "sm.impl.structure",
+   "sm.impl.leadership",
+   "sm.impl.control"
+  ],
+  "deps": [
+   "w-s05"
+  ],
+  "steps": [
+   "start",
+   "sm.impl.matrix",
+   "sm.impl.digital",
+   "sm.impl.structure",
+   "sm.impl.leadership",
+   "sm.impl.control",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-c1",
+  "kind": "lab",
+  "labs": [
+   "eoq",
+   "stores-ledger",
+   "incentives"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "eoq",
+   "stores-ledger",
+   "incentives",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-c2",
+  "kind": "lab",
+  "labs": [
+   "oh-distribution",
+   "abc",
+   "cost-sheet"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "oh-distribution",
+   "abc",
+   "cost-sheet",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-c3",
+  "kind": "lab",
+  "labs": [
+   "process",
+   "joint",
+   "recon"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "process",
+   "joint",
+   "recon",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-c4",
+  "kind": "lab",
+  "labs": [
+   "variance",
+   "budget"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "variance",
+   "budget",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-c5",
+  "kind": "lab",
+  "labs": [
+   "cvp",
+   "key-factor"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "cvp",
+   "key-factor",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-a1",
+  "kind": "lab",
+  "labs": [
+   "audit-risk",
+   "sampling",
+   "audit-journey"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "audit-risk",
+   "sampling",
+   "audit-journey",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-a2",
+  "kind": "lab",
+  "labs": [
+   "audit-opinion",
+   "threats",
+   "npa"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "audit-opinion",
+   "threats",
+   "npa",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-f1",
+  "kind": "lab",
+  "labs": [
+   "capbud",
+   "wacc",
+   "dividend"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "capbud",
+   "wacc",
+   "dividend",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-f2",
+  "kind": "lab",
+  "labs": [
+   "leverage",
+   "cap-structure",
+   "working-capital",
+   "ratios"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "leverage",
+   "cap-structure",
+   "working-capital",
+   "ratios",
+   "report"
+  ]
+ },
+ {
+  "id": "lab-s1",
+  "kind": "lab",
+  "labs": [
+   "bcg-ge",
+   "ansoff-adl",
+   "five-forces",
+   "spot-strategy"
+  ],
+  "deps": [
+   "fork",
+   "src-sm"
+  ],
+  "steps": [
+   "start",
+   "bcg-ge",
+   "ansoff-adl",
+   "five-forces",
+   "spot-strategy",
+   "report"
+  ]
+ },
+ {
+  "id": "bank-core",
+  "kind": "bank",
+  "deps": [
+   "fork",
+   "src-q"
+  ],
+  "steps": [
+   "start",
+   "design",
+   "schema",
+   "importer",
+   "pilot",
+   "ui-bank",
+   "ui-question",
+   "ui-lesson",
+   "ui-paper",
+   "selfgrade",
+   "sm-import",
+   "tests",
+   "docs",
+   "report"
+  ]
+ },
+ {
+  "id": "kit",
+  "kind": "kit",
+  "deps": [],
+  "steps": [
+   "start",
+   "flow-width",
+   "flow-edges",
+   "tree-notes",
+   "labels",
+   "lint-nesting",
+   "shot-open",
+   "regress",
+   "report"
+  ]
+ },
+ {
+  "id": "embed",
+  "kind": "embed",
+  "deps": [],
+  "steps": [
+   "start",
+   "plan",
+   "cma",
+   "aud",
+   "fm",
+   "sm",
+   "verify",
+   "report"
+  ]
+ },
+ {
+  "id": "sweep-cma",
+  "kind": "sweep",
+  "deps": [],
+  "steps": [
+   "start",
+   "half",
+   "report"
+  ]
+ },
+ {
+  "id": "sweep-sm",
+  "kind": "sweep",
+  "deps": [],
+  "steps": [
+   "start",
+   "half",
+   "report"
+  ]
+ },
+ {
+  "id": "osweep-c1",
+  "kind": "sweep",
+  "deps": [],
+  "steps": [
+   "start",
+   "cma.abc.abm",
+   "cma.abc.compute",
+   "cma.abc.concept",
+   "cma.bud.basics",
+   "cma.bud.cash",
+   "cma.bud.flexible",
+   "cma.bud.functional",
+   "cma.bud.ratios",
+   "cma.bud.zbb",
+   "cma.emp.direct",
+   "cma.emp.idle",
+   "cma.emp.incentives",
+   "cma.emp.payroll",
+   "cma.emp.turnover",
+   "cma.job.job",
+   "cma.joint.apportion",
+   "cma.joint.byprod",
+   "cma.joint.further",
+   "cma.mat.eoq",
+   "report"
+  ]
+ },
+ {
+  "id": "osweep-c2",
+  "kind": "sweep",
+  "deps": [],
+  "steps": [
+   "start",
+   "cma.mat.issues",
+   "cma.mat.levels",
+   "cma.mat.losses",
+   "cma.mat.procure",
+   "cma.mat.ratios",
+   "cma.mat.receipts",
+   "cma.mat.techniques",
+   "cma.mc.absorb",
+   "cma.mc.basics",
+   "cma.mc.charts",
+   "cma.mc.decisions",
+   "cma.mc.keyfactor",
+   "cma.mc.multiproduct",
+   "cma.oh.absorb",
+   "cma.oh.ads",
+   "cma.oh.classify",
+   "cma.oh.primary",
+   "cma.oh.secondary",
+   "cma.oh.underover",
+   "report"
+  ]
+ },
+ {
+  "id": "osweep-c3",
+  "kind": "sweep",
+  "deps": [],
+  "steps": [
+   "start",
+   "cma.proc.accounts",
+   "cma.proc.eu",
+   "cma.proc.interprocess",
+   "cma.sheet.mfg",
+   "cma.sheet.quote",
+   "cma.sheet.service",
+   "cma.std.foh",
+   "cma.std.labour",
+   "cma.std.material",
+   "cma.std.recon",
+   "cma.std.setting",
+   "cma.std.voh",
+   "cma.svc.basics",
+   "cma.svc.others",
+   "cma.svc.transport",
+   "cma.sys.ledgers",
+   "cma.sys.recon",
+   "cma.unit.batch",
+   "cma.unit.unit",
+   "report"
+  ]
+ },
+ {
+  "id": "sweep-aud",
+  "kind": "sweep",
+  "deps": [],
+  "steps": [
+   "start",
+   "aud.complete.sa260",
+   "aud.complete.sa450",
+   "aud.complete.sa560",
+   "aud.complete.sa570",
+   "aud.complete.sa580",
+   "aud.ethics.sa210",
+   "aud.evid.assertions",
+   "aud.evid.ifc",
+   "aud.evid.sa500",
+   "aud.evid.sa501",
+   "aud.evid.sa505",
+   "aud.evid.sa510",
+   "aud.evid.sa520",
+   "aud.evid.sa530",
+   "aud.evid.sa550",
+   "report"
+  ]
+ },
+ {
+  "id": "osweep-a2",
+  "kind": "sweep",
+  "deps": [],
+  "steps": [
+   "start",
+   "aud.evid.sa610",
+   "aud.nature.basics",
+   "aud.nature.limits",
+   "aud.nature.sa200",
+   "aud.report.sa700",
+   "aud.report.sa701",
+   "aud.risk.digital",
+   "aud.risk.ic",
+   "aud.risk.it",
+   "aud.risk.model",
+   "aud.risk.sa315",
+   "aud.risk.sa320",
+   "aud.risk.sa330",
+   "aud.risk.testing",
+   "report"
+  ]
+ },
+ {
+  "id": "sweep-fm",
+  "kind": "sweep",
+  "deps": [],
+  "steps": [
+   "start",
+   "fm.capbud.cashflows",
+   "fm.capbud.irr",
+   "fm.capbud.npv",
+   "fm.capbud.payback",
+   "fm.capbud.rationing",
+   "fm.coc.debt",
+   "fm.coc.equity",
+   "fm.coc.wacc",
+   "fm.cs.ebiteps",
+   "fm.cs.planning",
+   "fm.cs.theories",
+   "fm.div.basics",
+   "fm.div.models",
+   "fm.lev.leverage",
+   "fm.wc.basics",
+   "fm.wc.estimate",
+   "fm.wc.receivables",
+   "report"
+  ]
+ },
+ {
+  "id": "osweep-s",
+  "kind": "sweep",
+  "deps": [],
+  "steps": [
+   "start",
+   "sm.choice.ansoff",
+   "sm.choice.growth",
+   "sm.choice.portfolio",
+   "sm.choice.retrench",
+   "sm.int.drivers",
+   "sm.int.generic",
+   "sm.int.resources",
+   "sm.int.stakeholders",
+   "sm.int.swot",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-01",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-02",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-03",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-04",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-05",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-06",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-07",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-08",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-09",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-10",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-11",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-12",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-13",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-14",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-15",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-16",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-17",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-18",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-19",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-20",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-21",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-22",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-23",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-24",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-25",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-26",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-27",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-28",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-29",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-30",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "consist",
+  "kind": "qa",
+  "deps": [],
+  "steps": [
+   "start",
+   "cast",
+   "figures",
+   "links",
+   "terms",
+   "ui",
+   "report"
+  ]
+ },
+ {
+  "id": "sm-bank-fix",
+  "kind": "bank",
+  "deps": [],
+  "steps": [
+   "start",
+   "drafts",
+   "tags",
+   "verify",
+   "report"
+  ]
+ },
+ {
+  "id": "bank-tools",
+  "kind": "bank",
+  "deps": [],
+  "steps": [
+   "start",
+   "qnums",
+   "cases",
+   "ligatures",
+   "verify",
+   "report"
+  ]
+ },
+ {
+  "id": "qa",
+  "kind": "qa",
+  "deps": [],
+  "steps": [
+   "start",
+   "suites",
+   "bank",
+   "screens",
+   "wording",
+   "readme",
+   "site",
+   "report"
+  ]
+ },
+ {
+  "id": "pdf",
+  "kind": "qa",
+  "deps": [],
+  "steps": [
+   "start",
+   "tool",
+   "cma",
+   "aud",
+   "fm",
+   "sm",
+   "check",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-31",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-32",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-33",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-34",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-35",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-36",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-37",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-38",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-39",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-40",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-41",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-42",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-43",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-44",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-45",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "sm-tags",
+  "kind": "bank",
+  "deps": [],
+  "steps": [
+   "start",
+   "paragraphs",
+   "tags",
+   "syllabus",
+   "verify",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-46",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "b4",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-47",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-48",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-49",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-50",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-51",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-52",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-53",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-54",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-55",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-56",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-57",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-58",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-59",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-60",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-61",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-62",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-63",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-64",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-65",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-66",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-67",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-68",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-69",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "tx-70",
+  "kind": "tx",
+  "deps": [],
+  "steps": [
+   "start",
+   "b1",
+   "b2",
+   "b3",
+   "report"
+  ]
+ },
+ {
+  "id": "choice-ext",
+  "kind": "qa",
+  "deps": [],
+  "steps": [
+   "start",
+   "design",
+   "build",
+   "app",
+   "files",
+   "verify",
+   "report"
+  ]
+ }
+]

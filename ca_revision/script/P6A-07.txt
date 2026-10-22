@@ -1,0 +1,100 @@
+# P6A-07 · investment-decisions · Investment Decisions: पैसा किस project में, और क्यों
+
+## Introduction: lever से project तक
+
+<|emotion:contentment|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+पिछले chapter में देखा कि fixed costs और debt EPS को कैसे lever करते हैं, और अब देव मल्होत्रा के सामने सवाल है कि पैसा किन projects में लगे।
+आज Paper six A का chapter seven है, Investment Decisions, जिसे ICAI ने पैंसठ documents में पूछा है, जिनमें सत्रह exam papers हैं, और NPV वाला हिस्सा बावन documents में आया है।
+<|emotion:determination|>Episode के आख़िर तक आप relevant cash flows, payback, ARR, NPV, PI, IRR और MIRR के formulas, उनके decision rules और ICAI के traps लिख पाएँगे।
+
+## Capital budgeting and relevant cash flows: सिर्फ़ वही जो बदले
+
+<|emotion:contemplation|>ICAI के words में capital budgeting is the process of evaluating and selecting long-term investments that are in line with the goal of investor's wealth maximization।
+ये decisions चार कारणों से critical हैं, substantial investment, long time period, irreversibility और complex decisions, इसी order में।
+Capital budgeting process के छह phases इसी order में हैं, planning, evaluation, selection, implementation, control और review।
+Proposals mutually exclusive, accept-reject या contingent होते हैं, और firm के existence के हिसाब से replacement and modernisation, expansion या diversification।
+
+<|emotion:amusement|>केसर Tapri की Indore factory में पचास लाख की frozen samosa line चाहते थे, और बोले कि consultant की fee, head office का rent, interest, depreciation सब डालो, सब adjust हो जाएगा।
+देव का जवाब था कि सिर्फ़ वो गिनो जो bank account में इसलिए बदलता है क्योंकि हमने हाँ कहा, और वो भी tax के बाद, यानी post-tax incremental cash flows।
+Consultant की fee sunk cost है, an outlay of cash that has already been incurred in the past and cannot be reversed in present, इसलिए बाहर है।
+Head office का allocated overhead भी बाहर है, पर courier company से मिलने वाला जो rent छूटेगा, वो opportunity cost है और outflow में गिना जाएगा।
+
+<|emotion:determination|>Interest और dividends बाहर हैं, क्योंकि ये पहले से WACC में हैं, और profit interest के बाद दिया हो तो PAT में interest into one minus t वापस जोड़िए।
+Depreciation cash नहीं है पर tax बचाता है, इसलिए tax shield, यानी depreciation into tax rate, cash inflow है।
+Working capital शुरू में outflow है, और सवाल कुछ और न कहे तो आख़िर में पूरा वापस आता है, और उस पर depreciation नहीं लगता।
+Cash flows के तीन हिस्से हैं, year zero का initial outflow, हर साल का CFAT यानी earning after tax plus depreciation, और terminal year जिसमें salvage और working capital लौटते हैं।
+
+## Payback, discounted payback and ARR: पैसा कब वापस
+
+<|emotion:contemplation|>Cash flows बनते ही केसर का पहला सवाल होता है कि Lucknow cafés के चौबीस लाख रुपये कब वापस आएँगे, और यही payback है।
+ICAI के words में time required to recover the initial cash-outflow is called pay-back period।
+<|prosody:speed_slow|>Uniform cash flows में payback है I by C, यानी total initial investment divided by annual after-tax cash flow, और चौबीस लाख by छह लाख से चार साल आते हैं।
+Uneven cash flows में inflows जोड़ते जाइए, और आख़िरी साल का fraction है unrecovered amount by उसी साल का cash inflow।
+Payback maximum acceptable period से ज़्यादा न हो तो accept, पर ये time value of money और payback के बाद के सारे cash flows ignore करता है।
+
+Payback reciprocal है average annual cash inflow by initial investment, जो IRR के करीब तभी है जब life payback की कम से कम दोगुनी हो और inflows बराबर हों।
+Discounted payback is the payback period calculated after discounting the cash flows by a predetermined rate, इसलिए ये time value मानता है पर बाद के cash flows अब भी छोड़ देता है।
+<|emotion:determination|>Outlay शुरू में हो और inflows positive हों, तो discounted payback कभी simple payback से छोटा नहीं हो सकता, और छोटा आए तो arithmetic की गलती है।
+
+ARR है average annual net income by investment, into hundred, जहाँ net income depreciation के बाद का profit है, और investment initial या average, जैसा सवाल कहे।
+Average investment है initial investment और salvage के फ़र्क का आधा, plus salvage, plus additional working capital, क्योंकि salvage और working capital आख़िर तक blocked रहते हैं।
+ARR पूरी life देखता है पर accounting profit पर चलता है और time value ignore करता है, और इसे cut-off rate से compare करते हैं।
+
+## NPV, PI and equivalent annual figures: आज के rupees में
+
+<|emotion:amusement|>ऋतु ने देव की tie की तारीफ़ की, तो देव बोले कि यही compliment अगले साल मिलता तो उसकी value कम होती, और NPV का पूरा idea यही है।
+Tapri का app upgrade दस लाख का है और चार साल में तीन, चार, चार और तीन लाख लौटाता है, तो केसर ने सीधे चार लाख का profit मान लिया।
+देव ने हर inflow बारह प्रतिशत cost of capital पर discount किया, तो NPV चार लाख नहीं, सिर्फ़ बासठ हज़ार तीन सौ रुपये निकला।
+
+ICAI के words में the net present value of a project is the amount, in current value of amount, the investment earns after paying cost of capital in each period।
+<|prosody:speed_slow|>NPV है sum of C t by one plus k to the power t, minus I, जहाँ C t साल t का cash flow है, k discount rate, और I investment।
+<|emotion:determination|>NPV zero या उससे ज़्यादा हो तो accept, negative हो तो reject, और mutually exclusive projects में highest positive NPV वाला project चुनिए।
+NPV time value और पूरी cash flow stream लेता है और shareholders की wealth में addition दिखाता है, पर ये absolute measure है और forecasts जितना ही सही है।
+
+Profitability index, जिसे desirability factor या present value index भी कहते हैं, है sum of discounted cash inflows by discounted cash outflow, और PI एक या ज़्यादा हो तो accept।
+पूरा outlay year zero पर हो तो PI है one plus NPV by outlay, और app upgrade का PI करीब one point zero six है।
+NPV और PI accept या reject पर हमेशा agree करते हैं, पर mutually exclusive projects की ranking में टकरा सकते हैं, और तब NPV decide करता है।
+
+<|emotion:contemplation|>Lives अलग हों तो NPVs सीधे compare नहीं होते, और ICAI दो methods देता है, replacement chain यानी common life, और equivalent annualised criterion।
+Equivalent annualised NPV है NPV by PVAF, उसी rate पर और project की अपनी life के लिए, और ज़्यादा EAN जीतता है।
+<|emotion:contentment|>सिर्फ़ costs हों तो equivalent annual cost है PV of costs by PVAF, और कम EAC वाला option जीतता है।
+
+## IRR, MIRR and capital rationing: एक percentage, और उसकी सीमाएँ
+
+<|emotion:contemplation|>Board को एक percentage चाहिए था, तो देव discount rate बढ़ाते गए, और app upgrade का NPV पंद्रह प्रतिशत से ज़रा नीचे zero हो गया।
+ICAI के words में IRR is the discount rate that equates the present value of the expected cash inflows with the initial cash outflow।
+<|prosody:speed_slow|>Interpolation में IRR है LR plus NPV at LR by NPV at LR minus NPV at HR, into HR minus LR, जहाँ LR lower rate है और HR higher rate।
+HR पर NPV negative होता है, इसलिए denominator में दोनों NPVs बिना sign के जुड़ते हैं, और जवाब हमेशा LR और HR के बीच आना चाहिए।
+ICAI की table में IRR cut-off rate या WACC के बराबर या ज़्यादा हो तो accept, कम हो तो reject, और ठीक बराबर होने पर firm indifferent रहती है।
+अकेले project के लिए ये rule हमेशा NPV वाले rule से agree करता है।
+
+<|emotion:determination|>Mutually exclusive projects में size, timing या life अलग हो तो NPV और IRR की ranking उलट सकती है, और तब NPV follow कीजिए, क्योंकि वो wealth maximisation से consistent है।
+वजह reinvestment है, NPV cash flows को discount rate पर reinvest मानता है और IRR अपनी ही IRR पर, और MIRR यही ठीक करता है।
+MIRR में हर inflow को cost of capital पर terminal year तक compound करते हैं, और MIRR है terminal value by initial outflow, to the power one by n, minus one।
+
+Capital rationing refers to a situation where funds are restricted and the management has to choose from amongst available alternative investments, और ICAI ने इसे बहुत कम पूछा है।
+Divisible projects को NPV per rupee या PI से rank करके budget भरिए, आख़िरी project का हिस्सा लेकर, और indivisible projects में combinations की highest total NPV चुनिए।
+<|emotion:contemplation|>Negative NPV वाला project बचे पैसे से भी नहीं लिया जाता, क्योंकि test total NPV है, budget ख़र्च करना नहीं।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>इस chapter में NPV ज़्यादातर numericals का end point है, छह या सात marks में, और replacement decisions के cash flows पाँच से आठ marks तक में आए हैं।
+MCQs अक्सर एक case पर पाँच आते हैं, जैसे दो warehouses का equivalent annual cost, और theory दो marks के short notes में आती है।
+Cut-off rate पर short note दो बार आया है, यानी the minimum rate of return the management wishes to have from any project, जो usually cost of capital पर based है।
+Management को फ़ायदा तभी है जब project इससे ज़्यादा कमाए, इसलिए ये discount rate या opportunity cost rate की तरह इस्तेमाल हो सकता है, और इससे कम वाला proposal reject होता है।
+Discounted payback का concept भी दो बार पूछा गया है, यानी वो period जिसमें discounted cash flows initial outflow के बराबर हो जाते हैं, और shorter is better।
+
+<|emotion:contemplation|>Fixed cost including depreciation दिया हो तो depreciation निकालिए, और earnings after interest दी हों तो interest वापस जोड़कर फिर tax लगाइए।
+Year की शुरुआत में दिया खर्च पिछले साल के end पर जाता है, और only asset in the block बिके तो Study Material उस साल depreciation नहीं लगाता।
+Subsidy या working capital के timing से PI बदलता है, इसलिए treatment लिखिए, और samosa line में sunk fee, allocated overheads और interest गिनने से अच्छा project reject हो जाता है।
+Full marks के लिए excluded items reasons के साथ, ICAI के formats में initial outflow, CFAT और terminal year, assumptions, और एक line की advice लिखिए।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: सिर्फ़ post-tax incremental cash flows गिनिए, sunk cost, allocated overheads और interest बाहर, और depreciation सिर्फ़ tax shield से अंदर।
+Payback है I by C, ARR है average annual net income by investment, और discounted payback कभी simple payback से छोटा नहीं होता।
+NPV है present value of inflows minus outflows, zero या ज़्यादा तो accept, PI है discounted inflows by discounted outflow, और unequal lives में NPV by PVAF देखिए।
+IRR वो rate है जहाँ NPV zero हो, interpolation से निकलता है, conflict में NPV जीतता है, और rationing में divisible projects NPV per rupee से rank होते हैं।
+
+अगले episode में देव के सामने सवाल होगा कि बचा हुआ profit shareholders में बाँटें या रोककर लगाएँ, यानी Paper six A का chapter eight, Dividend Decision।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

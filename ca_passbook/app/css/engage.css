@@ -1,0 +1,284 @@
+/* PassBook — engage styles (owner: engage, docs/FRONTEND_V3_SPEC.md §7): mascot tokens, the top-nav chips, the speech bubble, PassBook Wrapped. Tokens only. */
+
+/* ---------------------------------------------------------------- mascot colours (read by GA.mascot.svg via var(), and by GA.mascot.colors for canvas) */
+:root {
+  --m-body: color-mix(in srgb, var(--accent) 26%, var(--surface)); --m-line: var(--ink); --m-cap: var(--surface); --m-eye: var(--surface);
+  --m-pupil: var(--ink); --m-shine: var(--surface); --m-cheek: color-mix(in srgb, var(--pop) 34%, transparent); --m-mouth: var(--ink); --m-tongue: var(--pop);
+  --eg-ease: cubic-bezier(.2, .8, .2, 1); --eg-spring: cubic-bezier(.34, 1.5, .6, 1);
+}
+[data-theme="dark"] {
+  --m-body: color-mix(in srgb, var(--accent) 72%, var(--surface)); --m-line: var(--bg); --m-cap: var(--ink); --m-eye: var(--ink);
+  --m-pupil: var(--bg); --m-shine: var(--ink); --m-cheek: color-mix(in srgb, var(--pop) 45%, transparent); --m-mouth: var(--bg); --m-tongue: var(--pop);
+}
+svg.mascot { display: block; flex: none; overflow: visible; transition: transform .22s var(--eg-spring); }
+svg.mascot .m-eyes { transform-box: fill-box; transform-origin: center; animation: m-blink 1.1s .5s 1 both; }
+:hover > svg.mascot, svg.mascot:hover { transform: translateY(-2px) rotate(-2deg); }
+@keyframes m-blink { 0%, 80%, 100% { transform: scaleY(1); } 88% { transform: scaleY(.12); } }
+
+/* speech bubble: GA.mascot.say(el, text) */
+.mascot-say { display: flex; align-items: center; gap: 14px; }
+.mascot-say.ms-right { flex-direction: row-reverse; }
+.ms-bubble { position: relative; margin: 0; max-width: 360px; padding: 10px 14px; border-radius: 14px; background: var(--surface); border: 1.5px solid var(--line-2);
+  color: var(--ink); font: 600 14px/1.42 var(--font-ui); text-wrap: pretty; animation: ms-in .26s var(--eg-ease) both; }
+.ms-bubble::before { content: ""; position: absolute; top: 50%; left: -7.5px; width: 12px; height: 12px; background: inherit; border: 1.5px solid var(--line-2);
+  border-width: 0 0 1.5px 1.5px; transform: translateY(-50%) rotate(45deg); border-radius: 0 0 0 3px; }
+.ms-right .ms-bubble::before { left: auto; right: -7.5px; border-width: 1.5px 1.5px 0 0; border-radius: 0 3px 0 0; }
+.ms-right .ms-bubble { animation-name: ms-in-r; }
+@keyframes ms-in { from { opacity: 0; transform: translateX(-10px); } }
+@keyframes ms-in-r { from { opacity: 0; transform: translateX(10px); } }
+/* P2-38: a milestone toast carries Tick's 28 px head (GA.ui.toast(text, kind, {peak: true}) wraps it in .t-peak). Beside a two- or three-line
+   message the flex toast would shrink that span, and the svg (max-width: 100%) with it, to about 14 px: the head keeps its size instead. */
+.toast .t-peak { flex: none; display: inline-flex; }
+.toast .t-peak svg.mascot { max-width: none; }
+/* P2-70, Tick at most once per screen: while a milestone toast carries its head, the Tick drawn in the page (Home's hero, an empty or finished
+   state, Wrapped, the test result) steps aside, keeping its box so nothing shifts, and is back when the toast goes (tests.css does the same for
+   the result hero's .tr-peak, which it hides before this sheet loads). Browsers without :has() show both for the toast's few seconds. */
+body:has(.toasts .t-peak) #view svg.mascot, body:has(.toasts .t-peak) #view .mascot-say { visibility: hidden; }
+
+/* ---------------------------------------------------------------- top-nav chips: GA.engage.renderChips(el) */
+.eg-chips { display: inline-flex; align-items: center; gap: 6px; flex: none; }
+.eg-chips[hidden] { display: none !important; }
+.eg-chip-w { position: relative; display: inline-flex; }
+.eg-chip { display: inline-flex; align-items: center; gap: 6px; height: 34px; padding: 0 10px 0 8px; border: 0; border-radius: 10px; margin: 0;
+  background: var(--accent-soft); color: var(--ink); font: 650 12.5px/1 var(--font-ui); white-space: nowrap; cursor: pointer; text-decoration: none;
+  transition: background .15s, transform .12s var(--eg-ease); -webkit-tap-highlight-color: transparent; }
+.eg-chip:hover, .eg-chip[aria-expanded="true"] { background: var(--accent-soft-2); }
+.eg-chip:active { transform: scale(.96); }
+.eg-chip svg.i { width: 15px; height: 15px; stroke-width: 2; vertical-align: 0; }
+.eg-chip b { font-weight: 700; font-size: 13px; letter-spacing: -.01em; display: inline-block; }
+.eg-chip .eg-u { color: var(--ink-2); font-weight: 600; }
+.eg-streak { background: var(--warn-soft); }
+.eg-streak:hover, .eg-streak[aria-expanded="true"] { background: color-mix(in srgb, var(--warn) 24%, transparent); }
+.eg-streak > svg.i { color: var(--warn); fill: currentColor; }
+.eg-streak.idle > svg.i { fill: none; }
+.eg-fz { display: inline-flex; align-items: center; gap: 2px; margin-left: 2px; padding-left: 7px; border-left: 1px solid color-mix(in srgb, var(--warn) 35%, transparent); color: var(--ink-2); font-weight: 700; }
+.eg-fz svg.i { width: 13px; height: 13px; color: var(--accent); }
+.eg-xp > svg.i, .eg-due > svg.i { color: var(--accent); }
+.eg-xp > svg.i { fill: currentColor; }
+.eg-lv { font-weight: 650; }
+.eg-xpn { color: var(--ink-2); font-weight: 600; padding-left: 7px; border-left: 1px solid var(--line-2); }
+.eg-chip.bump b { animation: eg-bump .32s var(--eg-spring); }
+@keyframes eg-bump { 40% { transform: scale(1.22); } }
+
+/* the details panel: hover / keyboard focus / tap */
+.eg-tip { position: absolute; top: calc(100% + 9px); right: 0; z-index: 70; width: 288px; display: grid; gap: 7px; padding: 13px 14px 12px; border-radius: var(--r);
+  background: var(--surface); border: 1.5px solid var(--line-2); box-shadow: var(--shadow-2); color: var(--ink); font: 500 13px/1.45 var(--font-ui); white-space: normal; text-align: left;
+  opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity .16s, transform .2s var(--eg-ease), visibility 0s .2s; pointer-events: none; }
+.eg-tip::before { content: ""; position: absolute; left: 0; right: 0; top: -11px; height: 11px; }   /* hover bridge */
+.eg-chip-w:hover .eg-tip, .eg-chip-w.open .eg-tip, .eg-chip-w:has(.eg-chip:focus-visible) .eg-tip { opacity: 1; visibility: visible; transform: none; pointer-events: auto; transition-delay: 0s; }
+.eg-tt { font-size: 14.5px; font-weight: 700; letter-spacing: -.01em; }
+.eg-tl { display: flex; gap: 7px; align-items: flex-start; }
+.eg-tl svg.i { width: 15px; height: 15px; margin-top: 2px; color: var(--accent); }
+.eg-st svg.i { color: var(--ok); stroke-width: 2.4; }
+.eg-tl.muted { color: var(--muted); font-size: 12.5px; }
+.eg-meter { display: block; height: 8px; border-radius: 6px; background: var(--surface-3); overflow: hidden; }
+.eg-meter i { display: block; height: 100%; border-radius: 6px; background: var(--accent); }
+.eg-xrs { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.eg-xr { display: grid; gap: 1px; padding: 7px 9px; border-radius: 10px; background: var(--surface-2); font-size: 12px; color: var(--muted); }
+.eg-xr b { font-size: 16px; font-weight: 700; color: var(--ink); }
+.eg-link { color: var(--accent); font-weight: 700; text-decoration: none; }
+.eg-link:hover { text-decoration: underline; }
+@media (max-width: 1240px) { .eg-xpn, .eg-chip .eg-u { display: none; } }
+@media (max-width: 700px) {
+  .eg-chips { gap: 4px; }
+  .eg-chip { height: 32px; padding: 0 8px 0 7px; gap: 4px; }
+  .eg-fz { padding-left: 5px; }
+  .eg-tip { position: fixed; top: calc(env(safe-area-inset-top, 0px) + 62px); left: 12px; right: 12px; width: auto; }
+  .eg-tip::before { display: none; }
+}
+@media (max-width: 480px) { .eg-chip-w:has(.eg-xp) { display: none; } .eg-fz { display: none; } }
+/* no 'Lv' chip in the phone bar once the Me sheet's header carries the level (P2-38: GA.engage.meLines sets data-eg-me) */
+@media (max-width: 700px) { [data-eg-me] .eg-chip-w:has(.eg-xp) { display: none; } }
+@media (hover: none) { .eg-chip-w:hover:not(.open) .eg-tip { opacity: 0; visibility: hidden; pointer-events: none; } }
+/* P2-36: no recap yet (GA.engage.gateMenu sets data-eg-norecap): the Me menu's PassBook Wrapped item waits like every other Wrapped link */
+[data-eg-norecap] .me-menu a.mi[data-href="/wrapped"] { display: none; }
+
+/* ---------------------------------------------------------------- PassBook Wrapped (/wrapped) */
+.wr { max-width: 1240px; margin: 0 auto; }
+.wr-head { display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 14px 24px; margin: 4px 0 22px; }
+.wr-range { flex: none; }
+.wr-grid { display: grid; grid-template-columns: minmax(0, 430px) minmax(0, 1fr); gap: 28px; align-items: start; }
+.wr-stage { display: grid; gap: 14px; min-width: 0; }
+
+.wr-card { --dur: 6.5s; position: relative; width: 100%; aspect-ratio: 9 / 15; max-height: max(520px, calc(100vh - 290px)); border-radius: var(--r-xl); overflow: hidden;
+  background: var(--panel); color: var(--panel-ink); --accent-ink: var(--panel-ink); user-select: none; -webkit-user-select: none; touch-action: pan-y; cursor: pointer; box-shadow: var(--lift); }
+.wr-card.t-b { background: var(--ink); color: var(--bg); }
+.wr-card a, .wr-card button { cursor: pointer; }
+.wr-card :focus-visible { outline: 2.5px solid currentColor; outline-offset: 3px; }
+.wr-segs { position: absolute; z-index: 3; top: 12px; left: 16px; right: 16px; display: flex; gap: 5px; }
+.wr-seg { flex: 1; min-height: 24px; padding: 10px 0; margin: 0; border: 0; background: none; color: inherit; min-width: 0; }   /* 24 px targets (P3-39) */
+.wr-seg i { position: relative; display: block; height: 4px; border-radius: 3px; overflow: hidden; background: color-mix(in srgb, currentColor 28%, transparent); }
+.wr-seg i::after { content: ""; position: absolute; inset: 0 auto 0 0; width: 0; border-radius: inherit; background: currentColor; }
+.wr-seg.done i::after { width: 100%; }
+.wr-seg.now i::after { animation: wr-fill var(--dur) linear forwards; }
+.wr-card.paused .wr-seg.now i::after { animation-play-state: paused; }
+.wr-card.last .wr-seg.now i::after { animation: none; width: 100%; }   /* the story stops on its last slide: the bar reads complete, not unwatched */
+@keyframes wr-fill { to { width: 100%; } }
+
+.wr-slides { position: absolute; inset: 0; }
+.wr-slide { position: absolute; inset: 0; display: flex; flex-direction: column; padding: 50px 28px 26px; }
+.wr-slide.t-b { --m-line: var(--ink); }
+.wr-slide.in { animation: wr-in .3s var(--eg-ease) both; }
+.wr-slide.in.back { animation-name: wr-back; }
+@keyframes wr-in { from { opacity: 0; transform: translateX(26px); } }
+@keyframes wr-back { from { opacity: 0; transform: translateX(-26px); } }
+.wr-k { font: 600 12.5px/1.35 var(--font-mono); letter-spacing: .01em; max-width: 72%; text-wrap: balance; }
+.wr-slide:not(:has(.wr-masc)) .wr-k { max-width: none; }     /* the kicker keeps clear of Tick only where Tick is */
+.wr-masc { position: absolute; top: 44px; right: 20px; }
+.wr-body { margin-top: auto; }
+.wr-k + .wr-body { padding-top: 12px; }        /* a full slide with no figure: the big number never touches the kicker */
+.wr-big { display: block; font-size: clamp(76px, 8.6vw, 112px); line-height: .9; font-weight: 750; letter-spacing: -.025em; font-variant-numeric: tabular-nums; }
+.wr-bigt { font-size: clamp(54px, 6.4vw, 80px); letter-spacing: -.025em; line-height: .96; overflow-wrap: anywhere; }
+.wr-unit { display: block; margin-top: 10px; font-size: 21px; line-height: 1.2; font-weight: 700; letter-spacing: -.02em; }
+.wr-lines { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 10px; font-size: 15px; line-height: 1.42; font-weight: 550; }
+.wr-lines li { padding-left: 14px; position: relative; text-wrap: pretty; }
+.wr-lines li::before { content: ""; position: absolute; left: 0; top: .6em; width: 6px; height: 6px; border-radius: 2px; background: currentColor; opacity: .55; }
+.wr-lines b { font-weight: 700; }
+.wr-link { align-self: flex-start; margin-top: 18px; color: inherit; font-weight: 700; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; }
+.wr-rows { display: grid; gap: 20px; }
+.wr-row b { display: block; font-size: clamp(56px, 6vw, 72px); line-height: .92; font-weight: 750; letter-spacing: -.025em; }
+.wr-row span { display: block; margin-top: 4px; font-size: 17px; font-weight: 750; }
+.wr-sum { display: grid; gap: 14px; }
+.wr-sum-h b { display: block; font-size: clamp(60px, 6.6vw, 84px); line-height: .9; font-weight: 750; letter-spacing: -.025em; }
+.wr-sum-h span { display: block; margin-top: 6px; font-size: 18px; font-weight: 700; }
+.wr-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.wr-tile { padding: 11px 13px 10px; border-radius: 14px; background: color-mix(in srgb, currentColor 11%, transparent); min-width: 0; }
+.wr-tile b { display: block; font-size: 22px; font-weight: 700; letter-spacing: -.03em; line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wr-tile span { display: block; font-size: 12.5px; font-weight: 600; }
+.wr-notes { display: grid; gap: 6px; margin: 2px 0 0; }
+.wr-notes div { display: flex; gap: 10px; align-items: baseline; font-size: 13.5px; min-width: 0; }
+.wr-notes dt { flex: none; font: 600 11.5px var(--font-mono); }
+.wr-notes dd { margin: 0; font-weight: 750; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wr-replay { align-self: flex-start; display: inline-flex; align-items: center; gap: 7px; margin-top: 16px; height: 36px; padding: 0 14px; border-radius: 11px;
+  border: 1.5px solid color-mix(in srgb, currentColor 45%, transparent); background: transparent; color: inherit; font: 750 13.5px var(--font-ui); }
+.wr-replay:hover { background: color-mix(in srgb, currentColor 10%, transparent); }
+/* the mascot on a primary-filled slide */
+[data-theme="dark"] .wr-slide.t-a { --m-body: color-mix(in srgb, var(--accent) 45%, var(--ink)); }
+
+.wr-ctrl { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.wr-ctrl .grow { flex: 1; }
+.wr-ctrl [data-wr="pause"] { min-width: 96px; }
+.wr-pos { color: var(--muted); font: 600 13px var(--font-mono); padding-left: 4px; }
+.wr-side { padding: 22px 24px 20px; }
+.wr-side h2 { font-size: 18px; font-weight: 700; letter-spacing: -.02em; margin: 0 0 8px; }
+.wr-dl { margin: 0; display: grid; }
+.wr-dl > div { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 10px 0; border-top: 1px solid var(--line); }
+.wr-dl dt { color: var(--muted); font-weight: 550; }
+.wr-dl dd { margin: 0; font-weight: 700; text-align: right; color: var(--ink); }
+.wr-how { margin: 14px 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+
+.wr-empty { max-width: 760px; padding: 28px 28px 26px; display: grid; gap: 14px; }
+.wr-empty .ms-bubble { font-size: 15.5px; }
+.wr-need { margin: 4px 0 0; color: var(--ink-2); line-height: 1.55; }
+.wr-so { margin: 0; color: var(--muted); font-size: 14px; }
+.wr-quiet { margin: 0; color: var(--ink-2); font-size: 15.5px; font-weight: 600; line-height: 1.45; }
+.wr-ecta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 6px; min-width: 0; }
+/* the empty state's coral names a real step, so its label can be long: it wraps inside the button instead of widening the page (P2-36) */
+.wr-ecta .btn { max-width: 100%; height: auto; min-height: 44px; padding-block: 10px; white-space: normal; line-height: 1.25; text-align: center; }
+/* the two-line coral of D1: 'Start here · Programming & DS · 30 min' over the lesson's title */
+.wr-ecta .btn.wr-cta2 { justify-content: space-between; padding-block: 8px; text-align: left; }   /* the two-line coral (components.css .hb-go family) */
+.wr-cta2 svg.i { flex: none; }
+
+@media (max-width: 1000px) { .wr-grid { grid-template-columns: minmax(0, 400px) minmax(0, 1fr); gap: 20px; } }
+@media (max-width: 760px) {
+  .wr-grid { grid-template-columns: minmax(0, 1fr); }
+  .wr-card { aspect-ratio: auto; height: min(74vh, 640px); min-height: 470px; max-height: none; }
+  .wr-head { align-items: stretch; flex-direction: column; margin-bottom: 16px; }
+  .wr-range { align-self: flex-start; }
+  .wr-slide { padding: 46px 22px 22px; }
+  .wr-ctrl .grow { display: none; }
+  .wr-ctrl .wr-save { width: 100%; order: 5; margin-top: 4px; }
+  .wr-big { font-size: 66px; } .wr-bigt { font-size: 52px; } .k-time .wr-big { font-size: 56px; }
+  .wr-masc { top: 40px; right: 16px; } .wr-masc svg.mascot { width: 66px; height: 66px; }
+  .k-intro .wr-viz { padding-top: 40px; }
+  .wr-lines { font-size: 14px; gap: 8px; margin-top: 16px; }
+  .wr-unit { font-size: 19px; }
+  .wr-empty { padding: 22px 18px; }
+  .wr-empty .mascot-say { align-items: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) { .wr-seg.now i::after { animation: none; width: 100%; } }
+.wr-viz { flex: 1 1 auto; min-height: 0; display: flex; align-items: center; margin: 16px 0 10px; }
+.wr-viz svg.wr-fig { display: block; width: 100%; height: auto; max-height: 100%; overflow: visible; }
+.k-intro .wr-viz { padding-top: 64px; }
+.k-intro .wr-viz svg.wr-fig { max-width: 340px; }
+.wr-viz + .wr-body { margin-top: 0; }
+/* P3-39: a figure that would read too small makes way (wrapped.js fitSlide); its box stays as the spacer that keeps the numbers at the bottom.
+   Nothing else on a slide is squeezed: a too-full summary drops rows (.wr-cut) instead of squashing Replay. */
+.wr-viz.off > svg.wr-fig { display: none; }
+.wr-slide > :not(.wr-viz) { flex-shrink: 0; }
+.wr-slide .wr-cut { display: none; }
+.wr-big small { font-size: .46em; letter-spacing: -.02em; margin-left: .1em; font-weight: 700; }
+.k-time .wr-big { font-size: clamp(58px, 6.2vw, 84px); white-space: nowrap; }
+.k-learn .wr-rows, .k-streak .wr-rows { gap: 14px; }
+.k-learn .wr-row b, .k-streak .wr-row b { font-size: clamp(46px, 5vw, 60px); }
+.wr-egrid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.wr-egrid .wr-empty { max-width: none; }
+.wr-will { padding: 22px 24px; }
+.wr-will h2 { font-size: 16px; font-weight: 700; margin: 0 0 10px; }
+.wr-will ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.wr-will li { display: flex; gap: 11px; align-items: center; padding: 7px 0; color: var(--ink-2); font-weight: 550; }
+.wr-will li svg.i { color: var(--accent); font-size: 18px; }
+@media (max-width: 900px) { .wr-egrid { grid-template-columns: minmax(0, 1fr); } }
+/* phones (P3-39): the story card is sized from the shell's bars (--wr-chrome = the header, the gap, the controls and a little air), so the
+   controls and the coral Save sit above the tab bar, on one row that fits from 320 px: prev · Pause · next on the left, Save on the right. The
+   stage's one column can never grow past the page (a row too wide would widen the card and the page with it). */
+@media (max-width: 760px) {
+  .wr { --wr-chrome: 216px; --wr-min: 300px; }
+  .wr-stage { grid-template-columns: minmax(0, 1fr); }
+  .wr-card { height: clamp(var(--wr-min), calc(100svh - var(--nav-h) - var(--tabbar) - var(--wr-chrome)), 620px); min-height: 0; }
+  .wr-sub-x { display: none; }
+  .wr-ctrl { flex-wrap: nowrap; gap: 6px; min-width: 0; }
+  .wr-ctrl .grow { display: none; }
+  .wr-ctrl .wr-save { width: auto; order: 0; margin: 0 0 0 auto; flex: 0 1 auto; min-width: 0; }
+  .wr-ctrl [data-wr="pause"] { min-width: 0; }
+}
+/* 400 px and less: 'Save image', and Pause / Play as an icon (its name stays 'Pause the slides' / 'Play the slides') */
+@media (max-width: 400px) {
+  .wr-save .wr-x { display: none; }
+  .wr-ctrl [data-wr="pause"] { width: 40px; padding: 0; }
+  .wr-ctrl [data-wr="pause"] .wr-pl { display: none; }
+  .wr-ctrl [data-wr="prev"], .wr-ctrl [data-wr="next"] { width: 40px; padding: 0; }
+}
+/* short phones (700 px tall or less) with a story: the date line goes (the first slide says it) and the header tightens, so the card keeps room */
+@media (max-width: 760px) and (max-height: 700px) {
+  .wr.has-story { --wr-chrome: 186px; --wr-min: 220px; }
+  .wr.has-story .wr-sub { display: none; }
+  .wr.has-story .wr-head { margin-bottom: 12px; }
+}
+/* the range picker keeps its four options on one line at 320–390 px: tighter buttons, and the season reads 'CA Inter January 2027' (its full name stays the label) */
+@media (max-width: 420px) { .wr-range button { padding: 0 8px; font-size: 12.5px; } .wr-range .wr-rl { display: none; } }
+@media (max-width: 340px) { .wr-range button { padding: 0 5px; font-size: 12px; } }
+/* a short story card (small phones): smaller numbers, the summary's first four tiles (every number is in 'All the numbers' below) */
+.wr-card { container-type: size; }
+@container (max-height: 470px) {
+  .wr-slide { padding: 44px 20px 18px; }
+  .wr-big { font-size: 54px; } .wr-bigt { font-size: 44px; } .k-time .wr-big { font-size: 48px; }
+  .wr-unit { font-size: 17px; margin-top: 6px; }
+  .wr-lines { font-size: 13.5px; gap: 6px; margin-top: 12px; }
+  .wr-rows, .k-learn .wr-rows, .k-streak .wr-rows { gap: 10px; }
+  .wr-row b, .k-learn .wr-row b, .k-streak .wr-row b { font-size: 40px; }
+  .wr-row span { font-size: 15px; }
+  .wr-sum { gap: 10px; }
+  .wr-sum-h b { font-size: 46px; } .wr-sum-h span { font-size: 15px; margin-top: 4px; }
+  .wr-tile { padding: 8px 11px 7px; } .wr-tile b { font-size: 18px; }
+  .wr-tile:nth-child(n+5), .wr-notes { display: none; }
+  .wr-masc svg.mascot { width: 54px; height: 54px; }
+  .wr-viz { margin: 10px 0 6px; } .k-intro .wr-viz { padding-top: 28px; }
+  .wr-link { margin-top: 10px; } .wr-replay { margin-top: 10px; height: 32px; }
+}
+/* a very short card (phones about 568 px tall): the decorative figure and Tick make way for the numbers and lines (the figures repeat the text) */
+@container (max-height: 300px) {
+  .wr-slide { padding: 40px 18px 14px; }
+  .wr-viz, .wr-masc { display: none; }
+  .wr-slide .wr-body { margin-top: auto; }
+  .wr-big { font-size: 46px; } .wr-bigt { font-size: 38px; } .k-time .wr-big { font-size: 42px; }
+  .wr-unit { font-size: 16px; margin-top: 4px; }
+  .wr-lines { font-size: 13px; gap: 5px; margin-top: 10px; }
+  .wr-row b, .k-learn .wr-row b, .k-streak .wr-row b { font-size: 32px; }
+  .wr-row span { font-size: 14px; margin-top: 2px; }
+  .wr-rows, .k-learn .wr-rows, .k-streak .wr-rows { gap: 8px; }
+  .wr-sum { gap: 8px; } .wr-sum-h b { font-size: 38px; } .wr-sum-h span { font-size: 14px; }
+  .wr-tile { padding: 6px 10px 5px; } .wr-tile b { font-size: 16px; } .wr-tile span { font-size: 12px; }
+  .wr-link { margin-top: 8px; }
+  .wr-replay { display: none; }          /* Play replays the story from the last slide */
+}

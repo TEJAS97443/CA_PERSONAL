@@ -1,0 +1,263 @@
+{
+ "txt/01-scope-and-objectives-of-financial-management.txt": {
+  "19": {
+   "lines": [
+    "Controller",
+    "Treasurer",
+    "Credit",
+    "Cash",
+    "Accounting",
+    "Accounting",
+    "Manager",
+    "Manager",
+    "Manager",
+    "Manager",
+    "Capital Budgeting",
+    "Data Processing",
+    "Manager",
+    "Manager",
+    "Manager",
+    "Manager",
+    "Portfolio",
+    "Internal",
+    "Manager",
+    "Auditor"
+   ],
+   "dict_words": [
+    "accounting",
+    "auditor",
+    "budgeting",
+    "cash",
+    "controller",
+    "credit",
+    "data",
+    "internal",
+    "manager",
+    "portfolio",
+    "processing",
+    "treasurer"
+   ]
+  },
+  "23": {
+   "lines": [
+    "1. Investment analysis",
+    "2. Working capital management",
+    "3. Sources and cost of funds",
+    "4. Determination of capital structure",
+    "5. Dividend policy",
+    "6. Analysis of risks and returns",
+    "Resulting in",
+    "Shareholder's wealth maximisation"
+   ],
+   "dict_words": [
+    "cost",
+    "determination",
+    "dividend",
+    "funds",
+    "investment",
+    "policy",
+    "resulting",
+    "returns",
+    "risks",
+    "shareholder",
+    "sources",
+    "structure",
+    "wealth",
+    "working"
+   ]
+  }
+ },
+ "txt/04-cost-of-capital.txt": {
+  "29": {
+   "lines": [
+    "opportunity",
+    "opportunity",
+    "Firm",
+    "(financial asset)",
+    "(real asset)",
+    "Alternative",
+    "invest for themselves"
+   ],
+   "dict_words": [
+    "alternative",
+    "asset",
+    "financial",
+    "firm",
+    "opportunity",
+    "themselves"
+   ]
+  }
+ },
+ "txt/05-financing-decisions-capital-structure.txt": {
+  "4": {
+   "lines": [
+    "→ Replacement",
+    "Capital Budgeting Decision",
+    "→ Expansion",
+    "Diversification",
+    "Internal funds",
+    "Need to Raise Funds",
+    "› Debt",
+    "• External equity",
+    "Capital Structure Decision",
+    "Existing Capital",
+    "Desired Debt",
+    "Payout",
+    "Equity Mix",
+    "Policy",
+    "Structure",
+    "Effect of Return",
+    "Effect of Risk",
+    "Effect on",
+    "Cost of Capital",
+    "Optimum",
+    "→ Capital Structure",
+    "Value of",
+    "the Firm"
+   ],
+   "dict_words": [
+    "budgeting",
+    "capital",
+    "cost",
+    "debt",
+    "desired",
+    "diversification",
+    "effect",
+    "equity",
+    "existing",
+    "expansion",
+    "external",
+    "firm",
+    "funds",
+    "internal",
+    "need",
+    "optimum",
+    "policy",
+    "raise",
+    "replacement",
+    "return",
+    "risk",
+    "structure",
+    "value"
+   ]
+  },
+  "28": {
+   "lines": [
+    "shareholders-managers conflict and shareholders-debt holders confllict. The",
+    "Maximum",
+    "tax shields",
+    "level",
+    "unlevered",
+    "Optimal debt level"
+   ],
+   "dict_words": [
+    "level",
+    "maximum",
+    "optimal",
+    "shields"
+   ]
+  }
+ },
+ "txt/06-financing-decisions-leverages.txt": {
+  "18": {
+   "lines": [
+    "ROI>Kd =Positive/Advantage|",
+    "ROI< Kd = Negative/Disadvantage",
+    "Example :",
+    "Example :",
+    "Surplus received to",
+    "Deficit to be borne by",
+    "equity Shareholder i.e.",
+    "equity Shareholder i.e."
+   ],
+   "dict_words": [
+    "borne",
+    "deficit",
+    "example",
+    "negative",
+    "positive",
+    "received",
+    "shareholder",
+    "surplus"
+   ]
+  }
+ },
+ "txt/09-management-of-working-capital-u2.txt": {
+  "5": {
+   "lines": [
+    "bank balance with",
+    "the company",
+    "balance 00",
+    "Cash deficit-",
+    "limit"
+   ],
+   "dict_words": [
+    "balance",
+    "company",
+    "deficit",
+    "limit"
+   ]
+  },
+  "26": {
+   "lines": [
+    "Upper control limit",
+    "Return point",
+    "Lower control limit",
+    "Time"
+   ],
+   "dict_words": [
+    "control",
+    "point",
+    "return",
+    "time"
+   ]
+  }
+ },
+ "txt/09-management-of-working-capital-u4.txt": {
+  "19": {
+   "lines": [
+    "IMPORTER'S",
+    "- EXPORT DOCUMENTS",
+    "+ REGUEST FOR SANCTION",
+    "IMPORTER'S BANK",
+    "(If necessary disbursed",
+    "(IMPORTER)",
+    "- O EOM CONVEYS SANCTION",
+    "amount con be remilted",
+    "to Importer's bank",
+    "S(o) EXPORTER SHIPS THE GOODS AND SENDS DOCUMENTS DIRECTLY TO BUYER",
+    "DISBURSEMENT DOCUMENT",
+    "CONTRACT FOR EXPORT OF GOODS OR SERVICES",
+    "ISBURSEMENT TO EXPORTER'S BANKS NOSTRO",
+    "DOCUMENTS THROUGH EXPORTER'S BANK",
+    "(11) REMITTANCE TO EXPORTER",
+    "COPY OF FIRC",
+    "EXPORTER SUBMITS COPY OF EXPORT DOCUMENTS",
+    "SHIPMENT DOCUMENTS",
+    "EXPORT REALISATION"
+   ],
+   "dict_words": [
+    "amount",
+    "banks",
+    "conveys",
+    "copy",
+    "directly",
+    "disbursed",
+    "disbursement",
+    "document",
+    "documents",
+    "goods",
+    "importer",
+    "necessary",
+    "remittance",
+    "sanction",
+    "sends",
+    "services",
+    "shipment",
+    "ships",
+    "submits",
+    "through"
+   ]
+  }
+ }
+}

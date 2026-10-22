@@ -1,0 +1,484 @@
+/* PassBook — v3 component library (Cobalt Pop, docs/FRONTEND_V3_SPEC.md §2). Owner: shell.
+   Every view inherits these. Old class names keep rendering (they get the v3 look); new names are listed per block.
+   Rules: tokens only (base.css), light + dark parity, one .pop (coral) main CTA per screen, colour never the only signal,
+   motion only as feedback (<= 300 ms, transform-based; prefers-reduced-motion switches it off in base.css).
+
+   Contents: cards · buttons (.btn .primary .pop .ghost .sm .lg .icon .on .ok .bad) · chips · segmented · inputs · switch · progress (bar, ring, segs) ·
+             tabs · tables · empty + skeleton · toast · modal · tooltip · stat tiles (.stat, .stats strip) · glyphs · legend · feedback (burst, shake) */
+
+/* ===================================================================== cards */
+/* card padding (P2-52): two values app-wide, --card-pad (22 px; 16 on phones) and --card-pad-tight (16 px); radii only from the --r-* tokens;
+   the dark edge is the one --card-edge token (base.css) */
+:root { --card-pad: 22px; --card-pad-tight: 16px; }
+@media (max-width: 700px) { :root { --card-pad: 16px; } }
+.card { background: var(--surface); border: 1px solid var(--card-edge); border-radius: var(--r-lg); box-shadow: var(--lift); }
+.card.pad { padding: var(--card-pad); }
+.card.flat { box-shadow: none; background: var(--surface-2); }
+.card.tight { padding: var(--card-pad-tight); border-radius: var(--r); }
+a.card, button.card, .card.hover { transition: transform .25s cubic-bezier(.34, 1.5, .6, 1), box-shadow .25s; }
+a.card:hover, button.card:hover, .card.hover:hover { box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 40%, transparent), var(--shadow-1); }
+a.card:active, button.card:active, .card.hover:active { transform: translateY(1px) scale(.995); }
+.card-h { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+.card-h h3 { font-size: 17px; font-weight: 700; letter-spacing: -.02em; }
+.card-h .sub { color: var(--muted); font-size: 13px; margin-top: 3px; font-weight: 550; }
+.card-h .grow { flex: 1; min-width: 0; }
+/* the one quiet label a block may carry; .dot adds the small primary square of the mockup */
+.eyebrow { display: inline-flex; align-items: center; gap: 9px; font-size: 13.5px; font-weight: 700; letter-spacing: -.005em; text-transform: none; color: var(--muted); }
+.eyebrow.muted { color: var(--faint); }
+.eyebrow > .dot:first-child, .eyebrow .sq { width: 9px; height: 9px; border-radius: 3px; background: var(--accent); flex: none; }
+
+/* ===================================================================== buttons: press-depth (NeoPOP edge that compresses on press)
+   .btn            neutral surface button          .btn.primary   cobalt (secondary emphasis)       .btn.pop   coral, THE main CTA of a screen
+   .btn.ghost      text button, no edge            .btn.sm / .btn.lg   36 / 52 px                    .btn.icon  square icon button (needs aria-label)
+   .btn.on         pressed toggle                  .btn.ok / .btn.bad  success / danger fills        [disabled], [aria-disabled="true"] */
+/* flat buttons (2026-10-18 theme): a 1 px edge, no 3D bottom lip, no jump on hover; --d is kept at 0 for the rules that still read it */
+.btn { --b: var(--surface); --on: var(--ink); --edge: var(--edge-neutral); --d: 0px;
+  position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 42px; padding: 0 16px; border-radius: var(--r-sm);
+  border: 1px solid var(--edge); background: var(--b); color: var(--on); box-shadow: 0 1px 2px rgba(16, 24, 40, .05); transform: none;
+  font: 600 14.5px/1 var(--font-ui); letter-spacing: 0; white-space: nowrap; text-decoration: none; cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent;
+  transition: background-color .15s, border-color .15s, color .15s, box-shadow .15s; }
+.btn:hover { background: color-mix(in srgb, var(--b) 92%, var(--on)); }
+.btn:active, .btn.pressed { background: color-mix(in srgb, var(--b) 86%, var(--on)); box-shadow: none; }
+[data-theme="dark"] .btn { box-shadow: none; }
+.btn:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; border-radius: var(--r-sm); }
+.btn svg.i { font-size: 18px; }
+.btn.primary { --b: var(--accent); --on: var(--accent-ink); --edge: var(--edge-accent); }
+.btn.pop, .btn.accent { --b: var(--pop); --on: var(--pop-ink); --edge: var(--edge-pop); }
+.btn.ok { --b: var(--ok); --on: var(--accent-ink); --edge: color-mix(in srgb, var(--ok) 55%, #000); }
+.btn.bad { --b: var(--bad); --on: var(--accent-ink); --edge: color-mix(in srgb, var(--bad) 55%, #000); }
+.btn.on { --b: var(--accent-soft-2); --on: var(--ink); --edge: var(--accent); }
+.btn.ghost { --b: transparent; --on: var(--ink-2); border-color: transparent; box-shadow: none; }
+.btn.ghost:hover { background: var(--surface-3); color: var(--ink); box-shadow: none; }
+.btn.ghost:active { background: var(--line); }
+.btn.sm { --d: 0px; height: 34px; padding: 0 12px; font-size: 13.5px; border-radius: var(--r-xs); gap: 7px; }
+.btn.sm svg.i { font-size: 16px; }
+/* the coral by role (P2-53): a hero or page-header coral is .lg (52 px) or the two-line .hb-go (56 px, below); a task-flow coral (Check answer,
+   Show answer, a settings row, an empty state) is the 44 px .btn. Page-header corals whose markup has no .lg get the size here. */
+.btn.lg, .hb-head .hb-acts > .btn.pop:not(.hb-go), .lab-h .btn.pop, .tr-hl .pr-acts > .btn.pop { --d: 0px; height: 48px; padding: 0 22px; font-size: 15.5px; border-radius: var(--r-sm); gap: 10px; }
+.btn.lg svg.i, .hb-head .hb-acts > .btn.pop:not(.hb-go) svg.i, .lab-h .btn.pop svg.i, .tr-hl .pr-acts > .btn.pop svg.i { font-size: 20px; }
+.btn.icon { width: 44px; padding: 0; }
+.btn.icon.sm { width: 36px; }
+.btn.icon.lg { width: 52px; }
+.btn.block { display: flex; width: 100%; }
+.btn > svg.i:last-child:not(:first-child) { transition: transform .15s ease-out; }
+.btn:hover > svg.i:last-child:not(:first-child) { transform: translateX(2px); }
+.btn[disabled], .btn[aria-disabled="true"] { opacity: .45; cursor: not-allowed; box-shadow: none; }
+.btn.ghost[disabled], .btn.ghost[aria-disabled="true"] { box-shadow: none; }
+.btns { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+
+/* ===================================================================== chips: small and calm (tags, filters, counts). Subject chips are neutral with a tiny hue dot */
+.chip { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 10px; border-radius: 9px; border: 1px solid var(--line-2); background: var(--surface);
+  font: 650 12.5px/1 var(--font-ui); color: var(--ink-2); white-space: nowrap; text-decoration: none; transition: background-color .15s, color .15s, border-color .15s, transform .12s; }
+button.chip, a.chip { cursor: pointer; }
+button.chip:hover, a.chip:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line-2)); color: var(--ink); }
+button.chip:active, a.chip:active { transform: scale(.97); }
+.chip svg.i { font-size: 14px; }
+.chip em { font-style: normal; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.chip.on em { color: inherit; opacity: .8; }
+.chip.sm { height: 22px; padding: 0 8px; font-size: 11.5px; border-radius: 7px; gap: 5px; }
+.chip.soft { background: var(--accent-soft); border-color: transparent; color: var(--ink); }
+.chip.ok { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+.chip.warn { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.chip.bad { background: var(--bad-soft); color: var(--bad); border-color: transparent; }
+.chip.info, .chip.accent { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.chip.pop { background: var(--pop-soft); color: var(--pop); border-color: transparent; }
+.chip.subj { background: var(--surface); color: var(--ink-2); border-color: var(--line-2); }
+.chip.subj::before { content: ""; width: 6px; height: 6px; border-radius: 2px; background: hsl(var(--h) 60% 52%); flex: none; }
+[data-theme="dark"] .chip.subj { color: var(--ink-2); }
+[data-theme="dark"] .chip.subj::before { background: hsl(var(--h) 70% 66%); }
+.chip.subj.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+
+/* ===================================================================== segmented control (P2-52: one control; .seg and .hb-seg are the same thing)
+   Two selected looks only. TINT (the default: --accent-soft-2 under ink) for filters, options and settings; SOLID (cobalt under --accent-ink) only
+   for the one view switch of a screen: .seg.solid, the Wrapped range (.wr-range), the runner's sections (.xm-tabs) and a lab challenge's answer
+   pick (.lab-pick: the learner's pick is an answer fill); the lesson depth (.lsn-level, lesson.css) and the map lens (.mapv-tabs, map.css) draw the
+   same solid look with a sliding marker. .seg.sm is the compact size (the Me menu). */
+.seg, .hb-seg { display: inline-flex; flex-wrap: nowrap; gap: 2px; padding: 4px; border: 0; border-radius: var(--r-sm); background: var(--surface); box-shadow: inset 0 0 0 1.5px var(--line-2);
+  max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+.seg::-webkit-scrollbar, .hb-seg::-webkit-scrollbar { display: none; }
+:is(.seg, .hb-seg) :is(button, a) { flex: none; display: inline-flex; align-items: center; justify-content: center; gap: 7px; height: 34px; padding: 0 13px; border: 0; border-radius: var(--r-xs);
+  background: transparent; color: var(--muted); font: 650 13.5px/1 var(--font-ui); white-space: nowrap; cursor: pointer; transition: background-color .2s, color .2s; }
+:is(.seg, .hb-seg) :is(button, a):hover { color: var(--ink); background: var(--surface-2); }
+:is(.seg, .hb-seg) :is(button.on, a.on, [aria-pressed="true"], [aria-selected="true"], [aria-checked="true"]),
+:is(.seg, .hb-seg) :is(button.on, a.on, [aria-pressed="true"], [aria-selected="true"], [aria-checked="true"]):hover { background: var(--accent-soft-2); color: var(--ink); }
+:is(.seg.solid, .wr-range, .xm-tabs, .lab-pick) :is(button.on, a.on, [aria-pressed="true"], [aria-selected="true"], [aria-checked="true"]),
+:is(.seg.solid, .wr-range, .xm-tabs, .lab-pick) :is(button.on, a.on, [aria-pressed="true"], [aria-selected="true"], [aria-checked="true"]):hover { background: var(--accent); color: var(--accent-ink); }
+:is(.seg, .hb-seg) em { font-style: normal; font-weight: 600; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+:is(.seg.solid, .wr-range, .xm-tabs, .lab-pick) :is(.on, [aria-pressed="true"], [aria-selected="true"], [aria-checked="true"]) em { color: color-mix(in srgb, var(--accent-ink) 86%, transparent); }
+:is(.seg, .hb-seg) svg.i { width: 16px; height: 16px; }
+:is(.seg, .hb-seg) :is(button, a):focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.seg.sm { padding: 3px; }
+.seg.sm :is(button, a) { height: 27px; padding: 0 10px; font-size: 12px; }
+
+/* ===================================================================== form controls */
+.field { display: grid; gap: 6px; }
+.field > label, .lbl { font-size: 12.5px; font-weight: 700; color: var(--muted); letter-spacing: 0; }
+.input, select.input, textarea.input { width: 100%; height: 44px; padding: 0 14px; border-radius: var(--r-sm); border: 1.5px solid var(--line-2); background: var(--surface); color: var(--ink); outline: 0;
+  font-size: 14.5px; transition: border-color .15s, box-shadow .15s; }
+.input.sm, select.input.sm { height: 36px; padding: 0 11px; font-size: 13.5px; border-radius: 10px; }
+textarea.input { height: auto; padding: 11px 14px; resize: vertical; line-height: 1.5; }
+.input:hover { border-color: color-mix(in srgb, var(--accent) 40%, var(--line-2)); }
+.input:focus, .input:focus-visible { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); outline: 0; }
+.input::placeholder { color: var(--faint); }
+.input[disabled] { opacity: .55; cursor: not-allowed; }
+select.input { appearance: none; -webkit-appearance: none; cursor: pointer; padding-right: 34px; background-repeat: no-repeat; background-position: right 12px center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238189A3' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); }
+/* touch-first devices (P1-50): every field is at least 16 px, or iPhone Safari zooms the page when it is focused and never zooms back (never use
+   maximum-scale for this); a compact field keeps a 44 px target */
+@media (pointer: coarse) {
+  .input, select.input, textarea.input, .input.sm, select.input.sm { font-size: 16px; }
+  .input.sm, select.input.sm { height: auto; min-height: 44px; }
+}
+input[type=range] { accent-color: var(--accent); width: 100%; }
+input[type=checkbox], input[type=radio] { accent-color: var(--accent); }
+.switch { position: relative; display: inline-flex; width: 42px; height: 26px; flex: none; }
+.switch input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; z-index: 1; }
+.switch span { position: absolute; inset: 0; border-radius: 99px; background: var(--line-2); transition: background-color .2s; }
+.switch span::after { content: ""; position: absolute; left: 3px; top: 3px; width: 20px; height: 20px; border-radius: 50%; background: #FFFFFF; box-shadow: 0 1px 3px rgba(14, 21, 48, .3); transition: transform .2s cubic-bezier(.34, 1.5, .6, 1); }
+.switch input:checked + span { background: var(--accent); }
+.switch input:checked + span::after { transform: translateX(16px); }
+.switch input:focus-visible + span { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+
+/* ===================================================================== progress: bar, ring (GA.charts.ring), segments */
+.bar { height: 8px; border-radius: 99px; background: var(--surface-3); overflow: hidden; }
+[data-theme="dark"] .bar { background: color-mix(in srgb, var(--ink) 10%, transparent); }
+.bar > i { display: block; height: 100%; width: 0; border-radius: 99px; background: var(--accent); transition: width .7s cubic-bezier(.2, .8, .2, 1); }
+.bar.thin { height: 5px; }
+.bar.lg { height: 12px; }
+.bar.subj > i { background: var(--accent); }
+.bar.pop > i { background: var(--pop); }
+.bar.ok > i { background: var(--ok); } .bar.warn > i { background: var(--warn); } .bar.bad > i { background: var(--bad); }
+.ring { position: relative; display: inline-grid; place-items: center; flex: none; }
+.ring svg { display: block; transform: rotate(-90deg); }
+.ring .rt { fill: none; stroke: color-mix(in srgb, var(--ink) 11%, transparent); }
+.ring .rf { fill: none; stroke-linecap: round; transition: stroke-dashoffset 1s cubic-bezier(.2, .8, .2, 1); }
+.ring .mid { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; line-height: 1.1; }
+.ring .mid b { font-size: 1.15em; font-weight: 700; letter-spacing: -.03em; }
+.ring .mid small { font-size: .62em; color: var(--muted); font-weight: 650; letter-spacing: .02em; text-transform: none; }
+/* .segs: n equal segments, i.done filled, i.now partly filled (reading / section progress) */
+.segs { display: flex; gap: 5px; }
+.segs > i { flex: 1; height: 8px; border-radius: 4px; background: var(--surface-3); position: relative; overflow: hidden; }
+.segs > i.done { background: var(--accent); }
+.segs > i.now::after { content: ""; position: absolute; inset: 0 auto 0 0; width: var(--p, 40%); background: var(--accent); border-radius: 4px; }
+
+/* ===================================================================== tabs (underline) */
+.tabs { display: flex; gap: 4px; border-bottom: 1.5px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs button, .tabs a { position: relative; flex: none; border: 0; background: none; padding: 11px 14px; font: 700 14px/1.2 var(--font-ui); color: var(--muted); margin-bottom: -1.5px;
+  border-bottom: 3px solid transparent; border-radius: 10px 10px 0 0; cursor: pointer; transition: color .15s, border-color .2s, background-color .15s; }
+.tabs button:hover, .tabs a:hover { color: var(--ink); background: var(--surface-2); }
+.tabs button.on, .tabs a.on, .tabs [aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+/* ===================================================================== tables */
+.tw { overflow-x: auto; overscroll-behavior-x: contain; }
+table.t { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.t th { text-align: left; font-size: 12px; letter-spacing: .02em; text-transform: none; color: var(--muted); font-weight: 700; padding: 10px 12px; border-bottom: 1.5px solid var(--line-2); white-space: nowrap; }
+table.t td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.t tr:last-child td { border-bottom: 0; }
+table.t tbody tr:hover td { background: var(--surface-2); }
+table.t td.r, table.t th.r { text-align: right; font-variant-numeric: tabular-nums; }
+table.t.compact td, table.t.compact th { padding: 7px 10px; }
+
+/* ===================================================================== empty state + skeleton
+   One empty / finished look (P2-52): UI.empty's centred .empty (lists, panels) and the row .hb-empty (a wide first-run card, below) share the title
+   (17 px / 800, the card-title size), Peak at 64 px and a muted line; filter no-match and load-failure states keep the plain icon tile. */
+.empty { display: grid; place-items: center; text-align: center; gap: 8px; padding: 40px 20px; color: var(--muted); }
+.empty .em-i { width: 56px; height: 56px; border-radius: var(--r); display: grid; place-items: center; background: var(--accent-soft-2); color: var(--accent); font-size: 25px; font-weight: 700; margin-bottom: 4px; }
+.empty b { color: var(--ink); font-size: 17px; font-weight: 700; letter-spacing: -.02em; }
+.empty p { max-width: 400px; margin: 0; font-size: 14px; }
+/* UI.empty(…, {peak, say}): Peak above the title on true empty, finished and not-found states (never on load errors or filter no-match states) */
+.empty .em-peak { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 2px; line-height: 0; }
+.empty .em-peak .ms-bubble { line-height: 1.4; }
+/* GA.ui.loadFailed: the failure card is calm (no alarm colour), the retry is the way forward */
+.load-failed .empty .em-i { background: var(--warn-soft); color: var(--warn); }
+.err-card .em-i { background: var(--bad-soft); color: var(--bad); }
+.err-card .err-x { margin-top: 8px; font-size: 12.5px; color: var(--muted); max-width: 520px; }
+.err-card .err-x summary { cursor: pointer; font-weight: 650; }
+.err-card .err-x code { display: block; margin-top: 6px; padding: 8px 10px; border-radius: var(--r-xs); background: var(--surface-2); font-size: 12px; overflow-wrap: anywhere; text-align: left; }
+.sk { display: block; border-radius: var(--r-xs); background: linear-gradient(90deg, var(--surface-3), var(--surface-2), var(--surface-3)); background-size: 200% 100%; animation: sk 1.3s linear infinite; }
+@keyframes sk { to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) { .sk { animation: none; } }
+
+/* ===================================================================== toasts (bottom centre; above the phone tab bar) */
+/* 22 px above the phone tab bar (--tabbar already holds the bottom inset) or above the home indicator where there is no bar (P2-55) */
+.toasts { position: fixed; left: 50%; bottom: calc(22px + max(var(--tabbar, 0px), env(safe-area-inset-bottom, 0px))); transform: translateX(-50%); z-index: 300; display: grid; justify-items: center; gap: 8px;
+  width: max-content; max-width: calc(100vw - 24px); pointer-events: none; }
+.toast { display: flex; align-items: center; gap: 10px; padding: 12px 18px; border-radius: 14px; background: var(--ink); color: var(--bg); font-size: 14px; font-weight: 650; line-height: 1.4;
+  box-shadow: 0 18px 40px -16px rgba(14, 21, 48, .55); animation: toast-in .3s cubic-bezier(.34, 1.5, .6, 1); max-width: 440px; pointer-events: auto; }
+.toast svg.i { font-size: 18px; }
+.toast.ok svg { color: color-mix(in srgb, var(--ok) 55%, var(--bg)); } .toast.bad svg { color: color-mix(in srgb, var(--bad) 55%, var(--bg)); }
+[data-theme="dark"] .toast { background: var(--surface-3); color: var(--ink); border: 1.5px solid var(--line-2); box-shadow: 0 18px 40px -16px rgba(0, 0, 0, .7); }
+[data-theme="dark"] .toast.ok svg { color: var(--ok); } [data-theme="dark"] .toast.bad svg { color: var(--bad); } [data-theme="dark"] .toast svg { color: var(--accent); }
+@keyframes toast-in { from { opacity: 0; transform: translateY(14px) scale(.98); } }
+
+/* ===================================================================== modal (GA.ui.modal / confirm) */
+.scrim { position: fixed; inset: 0; z-index: 200; background: color-mix(in srgb, var(--bg) 55%, rgba(8, 11, 20, .45)); display: grid; place-items: center; padding: 18px; animation: fade .15s; }
+[data-theme="dark"] .scrim { background: rgba(0, 0, 0, .55); }
+@keyframes fade { from { opacity: 0; } }
+.modal { width: min(560px, 100%); max-height: 88vh; overflow: auto; background: var(--surface); border: 1.5px solid var(--line-2); border-radius: var(--r-lg);
+  box-shadow: 0 28px 70px -24px rgba(14, 21, 48, .55); padding: 24px 26px; animation: pop .28s cubic-bezier(.34, 1.5, .6, 1); overscroll-behavior: contain; }
+[data-theme="dark"] .modal { box-shadow: 0 28px 70px -24px rgba(0, 0, 0, .8); }
+.modal.wide { width: min(860px, 100%); }
+@keyframes pop { from { opacity: 0; transform: translateY(-10px) scale(.97); } }
+.modal h3, .modal > h2.m-title { font-size: 21px; font-weight: 700; letter-spacing: -.025em; margin-bottom: 6px; }
+.modal .m-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+@media (max-width: 700px) {
+  .scrim { place-items: end center; padding: 0; }
+  .modal { width: 100%; max-height: 86vh; border-radius: var(--r-lg) var(--r-lg) 0 0; border-bottom: 0; padding: 22px 18px calc(20px + env(safe-area-inset-bottom, 0px)); animation: sheet-in .3s cubic-bezier(.2, .8, .2, 1); }
+  .modal .m-actions .btn { flex: 1 1 auto; }
+}
+@keyframes sheet-in { from { transform: translateY(30px); opacity: .4; } }
+
+/* ===================================================================== tooltips
+   [data-tip]: only the desktop label of an icon button that already has an aria-label (P1-55). Long text wraps (pre-line) inside the screen.
+   Information that matters (provenance, 'our estimate', legacy, lab help, chart values) uses GA.reveal's floating [data-ftip] instead: it opens on
+   hover, on focus and on a tap, and the trigger is a real <button class="itip"> (GA.ui.infoTip) with the text as its name. */
+[data-tip] { position: relative; }
+[data-tip]:hover::after, [data-tip]:focus-visible::after { content: attr(data-tip); position: absolute; left: 50%; top: calc(100% + 8px); transform: translateX(-50%); z-index: 90; white-space: pre-line;
+  width: max-content; max-width: min(280px, calc(100vw - 24px)); text-align: left;
+  background: var(--tip-bg, var(--ink)); color: var(--tip-ink, var(--bg)); border: 1px solid var(--tip-line, transparent); font: 600 12px/1.35 var(--font-ui); letter-spacing: 0; padding: 6px 9px; border-radius: 9px;
+  box-shadow: 0 10px 24px -12px rgba(14, 21, 48, .5); pointer-events: none; animation: tip-in .12s ease-out; }
+@keyframes tip-in { from { opacity: 0; } }
+@media (hover: none) { [data-tip]:hover::after, [data-tip]:focus-visible::after { content: none; } }
+/* the info trigger: at least 24 px to hit (44 px on touch, without moving the layout) */
+.itip { position: relative; display: inline-grid; place-items: center; min-width: 24px; min-height: 24px; padding: 0 2px; margin: 0; border: 0; border-radius: var(--r-xs); background: none;
+  color: var(--muted); font: inherit; line-height: 1; vertical-align: middle; cursor: help; -webkit-tap-highlight-color: transparent; }
+.itip:hover, .itip[aria-describedby] { color: var(--accent); }
+.itip svg.i { font-size: 15px; }
+.itip.txt { display: inline; min-width: 0; min-height: 0; padding: 0; color: inherit; text-decoration: underline dotted color-mix(in srgb, currentColor 55%, transparent); text-underline-offset: 3px; }
+@media (pointer: coarse) { .itip::before { content: ""; position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; transform: translate(-50%, -50%); } }
+
+/* ===================================================================== stat tiles: .stat (one number + label, optional .ico) and .stats (the mockup's number strip) */
+.stat { display: flex; align-items: center; gap: 12px; padding: 16px 18px; min-width: 0; }
+.stat .ico { width: 42px; height: 42px; border-radius: var(--r-sm); display: grid; place-items: center; background: var(--accent-soft-2); color: var(--accent); font-size: 19px; flex: none; }
+.stat b { display: block; font-size: 26px; font-weight: 700; letter-spacing: -.025em; line-height: 1.05; font-variant-numeric: tabular-nums; color: var(--ink); }
+.stat span { font-size: 13px; color: var(--muted); font-weight: 550; }
+.stat small { color: var(--faint); font-weight: 600; font-size: 13px; }
+.stats { display: grid; grid-template-columns: repeat(var(--n, 5), minmax(0, 1fr)); background: var(--surface); border-radius: var(--r-lg); padding: 6px; box-shadow: var(--lift); }
+[data-theme="dark"] .stats { border: 1px solid var(--card-edge); }
+.stats > * { display: block; padding: 16px 20px 15px; border-radius: var(--r); min-width: 0; color: inherit; text-decoration: none; transition: background-color .2s; }
+.stats > * + * { border-left: 1px solid var(--line); }
+.stats > a:hover { background: var(--surface-2); }
+.stats b { display: block; font-size: 34px; line-height: 1; font-weight: 700; letter-spacing: -.025em; font-variant-numeric: tabular-nums; }
+.stats span { display: block; margin-top: 7px; font-size: 13.5px; color: var(--muted); font-weight: 550; }
+@media (max-width: 700px) {
+  .stats { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; padding: 0; overflow: hidden; background: var(--line); }
+  .stats > * { border-radius: 0; background: var(--surface); padding: 13px 14px 12px; }
+  .stats > * + * { border-left: 0; }
+  .stats b { font-size: 27px; } .stats span { font-size: 12.5px; }
+}
+
+/* ===================================================================== difficulty / status glyphs */
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--faint); }
+.dot.easy { background: var(--ok); } .dot.medium { background: var(--warn); } .dot.hard { background: var(--bad); }
+.diff { display: inline-flex; gap: 2px; align-items: center; }
+.diff i { width: 5px; height: 11px; border-radius: 2px; background: var(--line-2); }
+.diff.l1 i:nth-child(1) { background: var(--ok); }
+.diff.l2 i:nth-child(-n+2) { background: var(--warn); }
+.diff.l3 i { background: var(--bad); }
+
+/* ===================================================================== legend */
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12.5px; color: var(--muted); font-weight: 600; }
+.legend i { display: inline-block; width: 11px; height: 11px; border-radius: 4px; margin-right: 6px; vertical-align: -1px; }
+
+/* ===================================================================== feedback: GA.ui.burst(el) on a correct answer, GA.ui.shake(el) on a wrong one (both no-ops with reduced motion) */
+.burst { position: fixed; pointer-events: none; z-index: 400; }
+.burst i { position: absolute; width: 8px; height: 8px; margin: -4px; border-radius: 3px; background: var(--ok); animation: burst-fly .62s cubic-bezier(.2, .8, .2, 1) forwards; }
+.burst i:nth-child(even) { background: var(--accent); border-radius: 50%; }
+.burst b { position: absolute; width: 14px; height: 14px; margin: -7px; border-radius: 50%; border: 3px solid var(--ok); animation: burst-ring .55s cubic-bezier(.2, .8, .2, 1) forwards; }
+@keyframes burst-fly { to { transform: translate(var(--x), var(--y)) rotate(160deg) scale(.4); opacity: 0; } }
+@keyframes burst-ring { to { transform: scale(4.6); opacity: 0; } }
+.shake { animation: shake .42s cubic-bezier(.2, .8, .2, 1); }
+@keyframes shake { 20% { transform: translateX(-7px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(2px); } }
+@media (prefers-reduced-motion: reduce) { .burst { display: none; } .shake { animation: none; } }
+
+/* ===================================================================== touch-first devices (P3-40): no key hints; 'Tap …' copy comes from GA.ui.touch */
+@media (hover: none) and (pointer: coarse) { .pr-keys, .btn kbd, .chip kbd, .seg kbd, kbd.kh, [data-keyhint] { display: none !important; } }
+
+/* ===================================================================== Windows High Contrast (P3-16): selected states and focus survive forced colours
+   (backgrounds and shadows are replaced there, so a pressed chip, the active tab or a focused menu row would look like any other) */
+@media (forced-colors: active) {
+  .btn.on, .chip.on, .seg button.on, .seg a.on, .seg [aria-pressed="true"], .seg [aria-selected="true"], .seg [aria-checked="true"], .tabs .on, .tabs [aria-selected="true"],
+  [role="radio"][aria-checked="true"], [role="menuitemradio"][aria-checked="true"], button[aria-pressed="true"], [role="tab"][aria-selected="true"], [role="option"][aria-selected="true"],
+  .tn-a.on, .tb-tab.on, .mi.on, .pitem.sel { outline: 2px solid Highlight; outline-offset: -2px; }
+  :focus-visible, .mi:focus-visible, .me-st:focus-visible, .btn:focus-visible { outline: 3px solid Highlight !important; outline-offset: 2px; }
+  .mi:focus-visible, .pitem:focus-visible { outline-offset: -3px; }
+  .bar > i, .segs > i.done, .segs > i.now::after, .tn-ind::after, .switch input:checked + span { forced-color-adjust: none; background: Highlight; }
+  .ring .rf { forced-color-adjust: none; stroke: Highlight; }
+  .tn-ind { background: transparent; }
+}
+
+/* ===================================================================== page primitives (.hb-*, promoted from hubs.css by WP14, audit P2-52; names kept)
+   The one primitives layer every screen builds on: page header (.hb-head: title, one real-data line, actions), solid cards (.hb-card), section heads
+   (.hb-sec / .hb-sh), the number strip (.hb-stats), icon tiles, links, bars, segments, rings, calm chips, meta lines, state dots, the first-run card.
+   Loaded before every page sheet, so a page sheet specialises them (subject.css, map.css, labs.css, hubs.css, views.css, …). */
+:root { --hb-ease: cubic-bezier(.2, .8, .2, 1); --hb-spring: cubic-bezier(.34, 1.5, .6, 1); --hb-r: var(--r-lg, 22px); --hb-lift: var(--lift); }
+/* --lift is `none` in dark, which is invalid inside a shadow list; --hb-lift is always a valid list item */
+[data-theme="dark"] { --hb-lift: 0 0 0 transparent; }
+
+.hb { min-width: 0; }
+.hb .num { font-variant-numeric: tabular-nums; }
+
+/* page header: title + one real-data line + at most one .pop action */
+.hb-head { display: flex; align-items: flex-end; flex-wrap: wrap; gap: 16px 28px; margin: 2px 0 24px; }
+.hb-head-t { flex: 1 1 440px; min-width: 0; }
+.hb-eb { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 9px; margin: 0 0 12px; font-size: 13.5px; font-weight: 700; color: var(--muted); }
+.hb-eb .dot { flex: none; width: 9px; height: 9px; border-radius: 3px; background: var(--accent); }
+.hb-eb a:hover { color: var(--ink); }
+/* one page header app-wide (P2-52): every screen's title is this rule and its one real-data line the next; .hb-head (hubs), .pr-head (practice:
+   the bank, a question, tests, flashcards, the notebook), .wr-head (Wrapped), .lab-h (a lab), the subject hero's title, the result hero and the
+   not-found card. Recorded exceptions: the lesson H1 (lesson.css, a reading page) and Home's hero headline (home.css); toolbar titles (the exam
+   runner, a flashcard session, the phone question bar) are not page headers. --fs-page is the size (28-34 px on phones). */
+:root { --fs-page: clamp(30px, 1.4vw + 22px, 42px); }
+@media (max-width: 700px) { :root { --fs-page: clamp(28px, 7.4vw, 34px); } }
+:is(.hb-head, .pr-head, .wr-head, .lab-h, .tr-hl, .nf) h1, h1.sj-title { margin: 0; font-size: var(--fs-page); line-height: 1.04; font-weight: 700; letter-spacing: -.042em; text-wrap: balance; }
+:is(.hb-sub, .pr-ht > p, .wr-sub, .lab-ht > .lab-blurb) { margin: 9px 0 0; max-width: 82ch; font-size: 15px; line-height: 1.5; font-weight: 550; color: var(--muted); text-wrap: pretty; }
+.hb-sub b { color: var(--ink); font-weight: 700; font-variant-numeric: tabular-nums; }
+.hb-nw { white-space: nowrap; }   /* keeps a short note with its link ('assumed · Set it)') on one line */
+.hb-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.hb-acts .btn { white-space: nowrap; }
+/* guard: views.css has a global .lg legend swatch (12 px, grey) that would shrink and repaint every .btn.lg; low specificity on purpose */
+:where(.hb) .btn.lg { width: auto; background: var(--b); flex: 0 1 auto; }
+
+/* the two-line coral (P2-52, P2-53): a small kicker line and the target's name, one size app-wide (56 px tall, 12 px kicker, 16 px name) and never
+   more than two lines: each line ends in an ellipsis instead of wrapping (the full text stays the button's name); full width on phones.
+   .hb-go is the class; older per-screen names share it: .hm-cta2 (Home), .wr-cta2 (Wrapped), .mv-go.two and the exam lens's .mv-go (map),
+   .fl-cta (flashcards, name over its line), .pq-go (the bank, name over its pool) */
+.btn.hb-go, .btn.hm-cta2, .btn.wr-cta2, .btn.mv-go.two, .xm-go .btn.mv-go, .btn.fl-cta, .btn.pq-go { height: auto; min-height: 56px; padding: 8px 18px 8px 20px; gap: 14px;
+  white-space: normal; text-align: left; font-size: 16px; max-width: min(100%, 470px); }
+.hb-go > span, .hm-cta2 > span, .wr-cta2 > span, .mv-go.two > span, .xm-go .mv-go > span, .pq-go > span { display: block; flex: 1 1 auto; min-width: 0; line-height: 1.25; font-weight: 750;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hb-go small, .hm-cta2 small, .wr-cta2 small, .mv-go.two small, .xm-go .mv-go small, .fl-cta small, .pq-go small { display: block; margin: 0 0 2px; font-size: 12px; font-weight: 650;
+  letter-spacing: 0; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hb-go > svg.i, .hm-cta2 > svg.i, .wr-cta2 > svg.i, .mv-go.two > svg.i, .xm-go .mv-go > svg.i, .fl-cta > svg.i, .pq-go > svg.i { flex: none; }
+@media (max-width: 700px) { .btn.hb-go, .btn.hm-cta2, .btn.wr-cta2, .btn.fl-cta { width: 100%; max-width: none; } }
+
+/* solid cards (surface, radius 22, the one lift shadow; none in dark) */
+.hb-card { position: relative; min-width: 0; padding: var(--card-pad); border-radius: var(--hb-r); background: var(--surface); box-shadow: var(--lift); }
+.hb-card.tight { padding: var(--card-pad-tight); }
+/* in dark nothing lifts: the hub, practice and Home cards draw the one card edge instead (inset, so no box grows) */
+[data-theme="dark"] :is(.hb-card, .pr-panel, .pr-empty, .hm-card) { box-shadow: inset 0 0 0 1px var(--card-edge); }
+.hb-card.flush { padding: 0; overflow: hidden; }
+/* P1-39: display at zero specificity, so a view's own layout (.lb-card, .sj-find, .sj-lab: flex columns with footers pinned by margin-top: auto)
+   wins without !important; the rest keeps its weight */
+:where(a.hb-card, button.hb-card) { display: block; }
+a.hb-card, button.hb-card { color: inherit; text-align: left; border: 0; font: inherit; transition: transform .25s var(--hb-spring), background-color .2s; }
+a.hb-card:hover, button.hb-card:hover { box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 40%, transparent), var(--shadow-1); }
+a.hb-card:active, button.hb-card:active { transform: translateY(1px) scale(.99); }
+a.hb-card:focus-visible, button.hb-card:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.hb-card-h { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
+.hb-card-h .grow { flex: 1; min-width: 0; }
+.hb-card-h h2, .hb-card-h h3 { margin: 0; font-size: 17px; font-weight: 700; letter-spacing: -.02em; line-height: 1.25; }
+.hb-card-h p { margin: 4px 0 0; font-size: 13.5px; line-height: 1.45; font-weight: 520; color: var(--muted); text-wrap: pretty; }
+.hb-card-h > .btn, .hb-card-h > .hb-link { flex: none; }
+.hb-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--hb-min, 300px)), 1fr)); }
+.hb-2 { display: grid; gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+
+/* section head */
+/* one section rhythm (P2-52): sections sit --sec-gap apart and open with one head (.hb-sh on hubs, .pr-sec-h on practice pages, .hm-sec-h on
+   Home): title at --fs-sec (27 px, 22 on phones) and one muted line; practice pages add the difference to their 22 px grid gap (views.css) */
+:root { --sec-gap: clamp(34px, 3vw, 48px); --fs-sec: clamp(22px, .7vw + 18px, 27px); }
+.hb-sec { margin-top: var(--sec-gap); scroll-margin-top: calc(var(--topbar, 68px) + 72px); }
+.hb-sh, .pr-sec-h { display: flex; align-items: flex-end; flex-wrap: wrap; gap: 10px 18px; margin-bottom: 16px; }
+.hb-sh > div:first-child, .pr-sec-h > div:first-child { flex: 1 1 380px; min-width: 0; }
+:is(.hb-sh, .pr-sec-h, .hm-sec-h) h2 { margin: 0; font-size: var(--fs-sec); font-weight: 700; letter-spacing: -.03em; line-height: 1.12; text-wrap: balance; }
+:is(.hb-sh, .pr-sec-h, .hm-sec-h) p { margin: 6px 0 0; max-width: 82ch; font-size: 14px; line-height: 1.5; color: var(--muted); text-wrap: pretty; }
+
+/* number strip */
+.hb-stats { display: grid; grid-template-columns: repeat(var(--n, 5), minmax(0, 1fr)); padding: 6px; border-radius: var(--hb-r); background: var(--surface); box-shadow: var(--lift); }
+.hb-stat { min-width: 0; padding: 15px 18px 14px; border-radius: var(--r); transition: background-color .2s; }
+.hb-stat + .hb-stat { border-left: 1px solid var(--line); }
+a.hb-stat { color: inherit; } a.hb-stat:hover { background: var(--surface-2); }
+.hb-stat b { display: block; font-size: clamp(26px, .7vw + 20px, 32px); line-height: 1; font-weight: 700; letter-spacing: -.025em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.hb-stat b small { font-size: .5em; font-weight: 700; letter-spacing: -.01em; color: var(--muted); margin-left: 3px; }
+.hb-stat span { display: block; margin-top: 7px; font-size: 13px; line-height: 1.4; font-weight: 550; color: var(--muted); text-wrap: pretty; }
+
+/* icon tile (subject glyphs and GA.icon), primary tint */
+.hb-ic { flex: none; width: 40px; height: 40px; border-radius: var(--r-sm); display: grid; place-items: center; background: var(--accent-soft-2); color: var(--accent); }
+.hb-ic svg.i { width: 21px; height: 21px; stroke-width: 1.9; }
+.hb-ic.sm { width: 30px; height: 30px; border-radius: 9px; } .hb-ic.sm svg.i { width: 17px; height: 17px; }
+.hb-ic.lg { width: 48px; height: 48px; border-radius: 14px; } .hb-ic.lg svg.i { width: 25px; height: 25px; }
+.hb-ic.ok { background: var(--ok-soft); color: var(--ok); } .hb-ic.warn { background: var(--warn-soft); color: var(--warn); } .hb-ic.bad { background: var(--bad-soft); color: var(--bad); }
+.hb-ic.mute { background: var(--surface-2); color: var(--muted); }
+
+/* links: ink text, primary underline bar */
+.hb-link { display: inline-flex; align-items: center; gap: 6px; padding-bottom: 1px; border-bottom: 2px solid var(--accent); font-size: 14px; font-weight: 700; color: var(--ink); white-space: nowrap; }
+.hb-link svg.i { width: 16px; height: 16px; transition: transform .2s var(--hb-ease); }
+.hb-link:hover svg.i { transform: translateX(3px); }
+.hb-link.sm { font-size: 13px; }
+/* the same link look on a button that acts in place (opens a sheet: no navigation, so the place on the page is kept) */
+button.hb-link { padding: 0 0 1px; border-width: 0 0 2px; border-style: solid; background: none; font-family: inherit; line-height: inherit; cursor: pointer; }
+button.hb-link:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; border-radius: 3px; }
+
+/* bars and segments (primary on a quiet track) */
+.hb-bar { display: block; height: 8px; border-radius: 99px; background: var(--surface-3); overflow: hidden; }
+.hb-bar > i { display: block; height: 100%; min-width: 3px; border-radius: inherit; background: var(--accent); transform-origin: left; }
+.hb-bar.anim > i { animation: hb-grow .7s var(--hb-ease) both; }   /* opt-in: only bars in the first screenful sweep in, once */
+.hb-bar.sm { height: 5px; } .hb-bar.lg { height: 12px; }
+.hb-bar.ok > i { background: var(--ok); }
+@keyframes hb-grow { from { transform: scaleX(0); } }
+
+/* rings drawn by GA.charts.ring: primary sweep, once */
+.hb .ring .rt, .ring.hb-r .rt { stroke: color-mix(in srgb, var(--ink) 11%, transparent); }
+.hb .ring .rf, .ring.hb-r .rf { animation: hb-ring 1.1s var(--hb-ease) both; }
+@keyframes hb-ring { from { stroke-dashoffset: var(--rc); } }
+.hb .ring .mid b { font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.hb .ring .mid small { display: block; font-size: .5em; color: var(--muted); font-weight: 650; }
+
+/* calm chips (plain metadata; never a pill soup) */
+.hb-chip { display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 9px; border-radius: 9px; background: var(--surface-2); color: var(--ink-2); font-size: 12.5px; font-weight: 650; white-space: nowrap; }
+.hb-chip svg.i { width: 14px; height: 14px; }
+.hb-chip.acc { background: var(--accent-soft); color: var(--ink); } .hb-chip.acc svg.i { color: var(--accent); }
+.hb-chip.ok { background: var(--ok-soft); color: var(--ok); }
+.hb-chip.warn { background: var(--warn-soft); color: var(--warn); }
+/* "PYQ heat" chip: tiny bar glyph + text */
+.hb-meta { display: flex; flex-wrap: wrap; align-items: center; font-size: 13px; line-height: 1.5; color: var(--muted); font-variant-numeric: tabular-nums; }
+.hb-meta > * { white-space: nowrap; }
+.hb-meta > :not(:last-child)::after { content: "·"; margin: 0 7px; color: var(--faint); }
+
+/* segmented pills (.hb-seg): the segmented control near the top of this file (one control, two selected looks) */
+
+/* state dots + marks (colour is never the only signal: done carries a check, started a ring) */
+.hb-st { flex: none; display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; }
+.hb-st.done { background: var(--ok); color: var(--surface); } .hb-st.done svg.i { width: 13px; height: 13px; stroke-width: 3; }
+.hb-st.seen { box-shadow: inset 0 0 0 2px var(--accent); }
+
+/* first-run / empty card */
+.hb-empty { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+.hb-empty .grow { flex: 1 1 320px; min-width: 0; }
+.hb-empty h2, .hb-empty h3 { margin: 0; font-size: 17px; font-weight: 700; letter-spacing: -.02em; }
+.hb-empty p { margin: 6px 0 0; color: var(--muted); font-size: 14.5px; line-height: 1.55; max-width: 70ch; }
+.hb-mascot { flex: none; width: 64px; }   /* Peak at 64 px on empty and finished states (CONTENT_GUIDE §2b, P2-70) */
+.hb-mascot svg { display: block; width: 100%; height: auto; }
+
+/* tables in hub cards */
+.hb-card .tw { overflow-x: auto; }
+.hb-card table.t { width: 100%; font-size: 13.5px; }
+
+/* motion */
+@media (prefers-reduced-motion: reduce) {
+  .hb-bar.anim > i, .hb .ring .rf, .ring.hb-r .rf { animation: none; }
+  a.hb-card, button.hb-card, .hb-link svg.i { transition: none; }
+}
+
+/* tablets: the number strip wraps into full rows (3 then 2 across), hairlines between cells */
+@media (max-width: 1100px) {
+  .hb-stats { display: flex; flex-wrap: wrap; gap: 1px; padding: 0; overflow: hidden; background: var(--line); }
+  .hb-stat { flex: 1 1 calc(33.33% - 1px); border-radius: 0; background: var(--surface); }
+  .hb-stat + .hb-stat { border-left: 0; }
+  a.hb-stat:hover { background: var(--surface-2); }
+}
+/* phones */
+@media (max-width: 700px) {
+  .hb-head { margin-bottom: 18px; gap: 14px; }
+  :is(.hb-sub, .pr-ht > p, .wr-sub, .lab-ht > .lab-blurb) { font-size: 14px; }
+  .hb-acts { width: 100%; } .hb-acts .btn.pop, .hb-acts .btn.lg { flex: 1 1 auto; }
+  .hb-stat { flex-basis: calc(50% - 1px); padding: 13px 14px 12px; }
+  .hb-2 { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* feature panels (2026-10-18 theme): navy (light) / raised slate (dark) with --panel-ink text; inside them --accent-ink is the panel's ink, so
+   the white cards they hold get the theme's on-accent ink back for their own accent fills (a selected option, a chart point) */
+:is(.hm-hero-r, .th-hr, .sj-hr, .pg-habit, .pl-road, .lb-feat, .wr-card) :is(.hm-figbox, .hm-qcard, .th-bpx > div, .th-chart, .lb-pv) { --accent-ink: var(--on-accent); }

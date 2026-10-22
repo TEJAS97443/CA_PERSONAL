@@ -1,0 +1,671 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "May 2019",
+  "attempt_sort": "2019-05",
+  "series": "II",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS_SMNew-Q-MTP2-Apr-19.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS_SMNew-A-MTP2-Apr-19.pdf",
+  "local_file": "raw/mtp-old-may2019-s2-q.pdf",
+  "local_answers_file": "raw/mtp-old-may2019-s2-a.pdf",
+  "test_series": "April 2019",
+  "mock_test_paper_no": null,
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series II for May 2019 (Test Series: April 2019, MOCK TEST PAPER - 2). ICAI originals removed; castudynotes.com mirror. Diagonal mirror watermark removed during extraction. Note: MCQs 1(i) (\"Strategy helps in:\") and 1(v) (\"Mission\") have very short stems in the original ICAI paper - that is ICAI's own wording, with the substance carried by the four options; it is not an extraction failure."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-may2019-s2-q1",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Meaning and nature of strategy / strategic management → Ch 1",
+   "qno": "1(i)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Strategy helps in:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Unravelling complexity"
+    },
+    {
+     "label": "b",
+     "text": "Reduce uncertainty"
+    },
+    {
+     "label": "c",
+     "text": "Relate the goals with the resources."
+    },
+    {
+     "label": "d",
+     "text": "All of Above."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "meaning of strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q2",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature and applicability of strategic management → Ch 1",
+   "qno": "1(ii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Which of the following statement is not true:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategic environment is complex"
+    },
+    {
+     "label": "b",
+     "text": "Strategic environment is turbulent."
+    },
+    {
+     "label": "c",
+     "text": "High cost of strategy makes them useless for charitable organization."
+    },
+    {
+     "label": "d",
+     "text": "Public sector units should implement business strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "nature of strategic management"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q3",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Macro/external environment analysis → Ch 2",
+   "qno": "1(iii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Which of the following is not part of external analysis:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Customer segments."
+    },
+    {
+     "label": "b",
+     "text": "Organizational constraints."
+    },
+    {
+     "label": "c",
+     "text": "Entry barriers."
+    },
+    {
+     "label": "d",
+     "text": "Competitors."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "pestle",
+    "external environment"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q4",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Core competence (resources and capabilities) → Ch 3",
+   "qno": "1(iv)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "A core competence is all except?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Valuable"
+    },
+    {
+     "label": "b",
+     "text": "Rare"
+    },
+    {
+     "label": "c",
+     "text": "Impossible to imitate"
+    },
+    {
+     "label": "d",
+     "text": "Non-substitutable"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "core competence"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q5",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "1(v)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Mission",
+   "options": [
+    {
+     "label": "a",
+     "text": "is an internally-focused definition of the organization's societal goals"
+    },
+    {
+     "label": "b",
+     "text": "is a statement of a firms unique purpose and scope of operations"
+    },
+    {
+     "label": "c",
+     "text": "does not limit the firm by specifying the industry in which the firm intends to compete"
+    },
+    {
+     "label": "d",
+     "text": "is developed by a firm before the firm develops its strategic intent."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q6",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — objectives and goals → Ch 1",
+   "qno": "1(vi)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Objectives should be: (i) Concrete and specific. (ii) Related to time frame. (iii) Standards for performance appraisal. Which of the above statements are true:",
+   "options": [
+    {
+     "label": "a",
+     "text": "(i) & (ii)."
+    },
+    {
+     "label": "b",
+     "text": "(ii) & (iii)."
+    },
+    {
+     "label": "c",
+     "text": "(i) & (iii)."
+    },
+    {
+     "label": "d",
+     "text": "(i), (ii) and (iii)."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "objectives"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q7",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(vii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Acquision of a company producing readymade garments by a company manufacturing yarn is.",
+   "options": [
+    {
+     "label": "a",
+     "text": "Horizontal integration"
+    },
+    {
+     "label": "b",
+     "text": "Horizontal Diversification"
+    },
+    {
+     "label": "c",
+     "text": "Forward integration"
+    },
+    {
+     "label": "d",
+     "text": "Backward integration"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q8",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Retrenchment strategy → Ch 4",
+   "qno": "1(viii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Which of the following can be used in retrenchment strategy?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Reducing assets."
+    },
+    {
+     "label": "b",
+     "text": "Operational improvement."
+    },
+    {
+     "label": "c",
+     "text": "Cutting cost."
+    },
+    {
+     "label": "d",
+     "text": "All of the above."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "retrenchment"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q9",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(ix)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Conglomerate diversification can also be explained as:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Merger"
+    },
+    {
+     "label": "b",
+     "text": "Combination strategy"
+    },
+    {
+     "label": "c",
+     "text": "Related diversification"
+    },
+    {
+     "label": "d",
+     "text": "Unrelated diversification"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q10",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(x)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Michael Porter Generic strategies to gain competitive advantage include all except:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Cost leadership"
+    },
+    {
+     "label": "b",
+     "text": "Differentiation"
+    },
+    {
+     "label": "c",
+     "text": "Focus"
+    },
+    {
+     "label": "d",
+     "text": "Revenue generation"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q11",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing mix / expanded marketing mix — part of the dropped functional Marketing Strategy (old Ch 6.2)",
+   "qno": "1(xi)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Decisions with regards to marketing mix are related to:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Growth Strategy"
+    },
+    {
+     "label": "b",
+     "text": "Business level strategy"
+    },
+    {
+     "label": "c",
+     "text": "Functional strategy"
+    },
+    {
+     "label": "d",
+     "text": "Corporate decisions"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "marketing mix",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q12",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management — dropped from the 2023 syllabus (old Ch 6.4.3-6.4.4)",
+   "qno": "1(xii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "The purpose of logistics management is",
+   "options": [
+    {
+     "label": "a",
+     "text": "Provide customer satisfaction"
+    },
+    {
+     "label": "b",
+     "text": "Create automation"
+    },
+    {
+     "label": "c",
+     "text": "Procure better quality raw material"
+    },
+    {
+     "label": "d",
+     "text": "Manage inward and outward movement of goods"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q13",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic leadership → Ch 5",
+   "qno": "1(xiii)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Who is a transformational leader?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Someone who is involved in organizational change."
+    },
+    {
+     "label": "b",
+     "text": "A leader, who provides new ways of carrying out management."
+    },
+    {
+     "label": "c",
+     "text": "A leader who inspires the workers to new levels by offering them a vision of a better future."
+    },
+    {
+     "label": "d",
+     "text": "A leader who tries to transform their staff by giving them rewards for what they do."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic leadership"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q14",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic change / change management → Ch 5",
+   "qno": "1(xiv)",
+   "kind": "mcq",
+   "marks": null,
+   "question": "Which of the following is not a phase in Kurt Lewin’s Model of Change?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Changing"
+    },
+    {
+     "label": "b",
+     "text": "Deep freezing"
+    },
+    {
+     "label": "c",
+     "text": "Refreezing"
+    },
+    {
+     "label": "d",
+     "text": "Unfreezing"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "strategic change"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q15",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy audit / Rumelt’s criteria — dropped from the 2023 syllabus (old Paper 7B Ch 8.6)",
+   "qno": "1(xv)",
+   "kind": "mcq",
+   "marks": 15,
+   "question": "The following are part of Richard Rumelt’s criteria for strategy audit, except:",
+   "options": [
+    {
+     "label": "a",
+     "text": "Adaptation"
+    },
+    {
+     "label": "b",
+     "text": "Consistency"
+    },
+    {
+     "label": "c",
+     "text": "Consonance"
+    },
+    {
+     "label": "d",
+     "text": "Feasibility"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategy audit",
+    "rumelt"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q16",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Core competence (resources and capabilities) → Ch 3",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "‘Speed’ is a leading retail chain, on account of its ability to operate its business at low costs. The retail\nchain aims to further strengthen its top position in the retail industry. The Chief executive of the retail\nchain is of the view that to achieve the goals they should focus on lowering the costs of procurement of\nproducts. Highlight and explain the core competence of the retail chain.",
+   "options": null,
+   "answer": "A core competence is a unique strength of an organization which may not be shared by others. Core\ncompetencies are those capabilities that are critical to a business achieving competitive advantage. In\norder to qualify as a core competence, the competency should differentiate the business from any other\nsimilar businesses. A core competency for a firm is whatever it does is highly beneficial to the\norganisation. ‘Speed’ is the leader on account of its ability to keep costs low. The cost advantage that\n‘Value for Money’ has created for itself has allowed the retailer to price goods lower than competitors.\nThe core competency in this case is derived from the company’s ability to generate large sales volume,\nallowing the company to remain profitable with low profit margin.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "core competence"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q17",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategic management — strategic decisions and the strategic manager → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Enumerate the task to be performed as a strategic manager of a company.",
+   "options": null,
+   "answer": "The primary tasks of the strategic manager is conceptualizing, designing and executing company\nstrategies.\nFor this purpose, his tasks will include:\n| • | Defining the mission and goals of the organization. |\n| --- | --- |\n| • | Determining what businesses it should be in. |\n| • | Allocating resources among the different businesses. |\n| • | Formulating strategies. |\n| • | Implementing strategies. |\n| • | Providing leadership for the organization. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q18",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "SWOT analysis → Ch 3",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "A company manufactures computers that are of low in production cost, competitive price, and\nquality to their competitor’s product. Profits and market share are declining day by day. Shree, a\nsenior executive realizes that drastic strategies have to be created for the survival of a company.\nAfter SWOT analysis by assessing the strengths and weaknesses, they come up with the\nconclusion that they cannot compete in the computers with the competitors. The management\ndirects Shree to act quick and develop a suitable strategic plan.\nDiscuss the strategy which can be opted by Shree.",
+   "options": null,
+   "answer": "Shree can opt for turnaround strategy which is a highly-targeted effort to return the company to\nprofitability and increase positive cash flows to a sufficient level. Organizations those have faced\na significant crisis that has negatively affected operations require turnaround strategy. Once\nturnaround is successful the organization may turn to focus on growth.\nConditions for turnaround strategies\nWhen firms are losing their grips over market, profits due to several internal and external factors,\nand if they have to survive under the competitive environment they have to identify danger signals\nas early as possible and undertake rectification steps immediately. These conditions may be, inter\nalia cash flow problems, lower profit margins, high employee turnover and decline in market share,\ncapacity underutilization, low morale of employees, recessionary conditions, mismanagement, raw\nmaterial supply problems and so on.\nAction plan for turnaround strategy\n• Stage One – Assessment of current problems\n• Stage Two – Analyze the situation and develop a strategic plan\n• Stage Three – Implementing an emergency action plan\n• Stage Four – Restructuring the business\n• Stage Five – Returning to normal",
+   "mcq_answer": null,
+   "topic_tags": [
+    "swot"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q19",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "A owner of medium size factory in Aligarh manufacturing hardware consisting handles, hinges,\ntower bolts and so on has a staff of about 200 in his organisation. One of the leading brand of\nHardware seller in India is rebranding and selling the material from his factory. The owner believes\nin close supervision and takes all major and minor decisions in the organisation.\nDo you think the owner should take all decisions himself? What kind of decisions should be taken\nby person at the level of owner of a medium size factory.",
+   "options": null,
+   "answer": "Decision making is a managerial process of selecting the best course of action out of several\nalternative courses for the purpose of accomplishment of the organizational goals. Decisions may\nbe operational, i.e., which relate to general day-to-day operations. They may also be strategic in\nnature.\nA owner manager at the top level should concentrate on strategic decisions. These are higher level\ndecisions having organisation wide implications. The major dimensions of strategic decisions are\nas follows:\n Strategic decisions require top-management involvement as they involve thinking in totality of\nthe organization.\n Strategic decisions involve significant commitment of organisational resources.\n Strategic decisions necessitate consideration of factors in the firm’s external environment.\n Strategic decisions are likely to have a significant impact on the long-term prosperity of the firm.\n Strategic decisions are future oriented.\n Strategic decisions usually have major multifunctional or multi-business consequences.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q20",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Ansoff’s product-market growth matrix → Ch 4",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "How Ansoff’s Product Market Growth Matrix is a useful tool for business organizations?",
+   "options": null,
+   "answer": "The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps\nbusinesses decide their product and market growth strategy. With the use of this matrix a business\ncan get a fair idea about how its growth depends upon it markets in new or existing products in\nboth new and existing markets.\nCompanies should always be looking to the future. Businesses that use the Ansoff matrix can\ndetermine the best strategy. The matrix can help them to decide how to do this by demonstrating\ntheir options clearly, breaking them down into four strategies, viz., Market Penetration, Market\nDevelopment, Product Development, Diversification. Determining which of these is best for their\nbusiness will depend on a number of variables including available resources, infrastructure, market\nposition, location and budget.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "ansoff"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q21",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter's generic strategies — differentiation → Ch 3",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Gennex is a company that designs, manufactures and sells computer hardware and software.\nGennex is well known for its innovative products that has helped the company to have advantage\nover its competitors. It also spends on research and development and concerned with innovative\nsoftwares. Often the unique features of their product helps them to gain competitive advantage.\nGennex using the strategy is consistently gaining its position in the industry over its competitors.\nIdentify and explain the strategy which Gennex has opted to gain the competitive advantage.",
+   "options": null,
+   "answer": "According to Porter, strategies allow organizations to gain competitive advantage from three\ndifferent bases: cost leadership, differentiation, and focus. Porter called these base generic\nstrategies.\nGennex has opted differentiation strategy. Its products are designed and produced to give the\ncustomer value and quality. They are unique and serve specific customer needs that are not met\nby other companies in the industry. Highly differentiated and unique hardware and software\nenables Gennex to charge premium prices for its products hence making higher profits and\nmaintain its competitive position in the market.\nDifferentiation strategy is aimed at broad mass market and involves the creation of a product or\nservice that is perceived by the customers as unique. The uniqueness can be associated with\nproduct design, brand image, features, technology, dealer network or customer service.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "differentiation"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q22",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations → Ch 1",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Rohit Bhargava is the Managing Director of Smooth and Simple Pvt Ltd. The company established\nin 2011, with 35 employees grew very fast to become an organisation with 335 employees in the\nyear 2016. With the increase in size Rohit started facing difficulty in managing things. Many a times\nhe finds that personnel at the functional level are not in sync with the strategies of the top. He felt\nthat strategies need to be segregated into viable plans and policies that are compatible with each\nother and communicated down the line.\nWhy does Rohit need to segregate the strategies into functional plans? Discuss.",
+   "options": null,
+   "answer": "Rohit Bhargava needs to break higher level strategies into functional strategies for implementation.\nThese functional strategies, in form of Marketing, Finance, Human Resource, Production,\nResearch and Development help in achieving the organisational objective. The reasons why\nfunctional strategies are needed can be enumerated as follows:\n• Functional strategies lay down clearly what is to be done at the functional level. They provide\na sense of direction to the functional staff.\n• They are aimed at facilitating the implementation of corporate strategies and the business\nstrategies formulation at the business level.\n• They act as basis for controlling activities in the different functional areas of business.\n\n• They help in bringing harmony and coordination as they are formulated to achieve major\nstrategies.\nSimilar situations occurring in different functional areas are handled in a consistent manner by the\nfunctional managers.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q23",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": null,
+   "question": "Discuss the concept of Multi Divisional Structure",
+   "options": null,
+   "answer": "Multidivisional (M-form) structure is composed of operating divisions where each division\nrepresents a separate business to which the top corporate officer delegates responsibility for day -\nto-day operations and business unit strategy to division managers. By such delegation, the\ncorporate office is responsible for formulating and implementing overall corporate strategy and\nmanages divisions through strategic and financial controls.\nMultidivisional or M-form structure was developed in the 1920s, in response to coordination-and\ncontrol-related problems in large firms. Functional departments often had difficulty dealing with\ndistinct product lines and markets, especially in coordinating conflicting priorities among the\nproducts.\nCosts were not allocated to individual products, so it was not possible to assess an individual\nproduct’s profit contribution. Loss of control meant that optimal allocation of firm resources between\nproducts was difficult (if not impossible). Top managers became over-involved in solving short-run\nproblems (such as coordination, communications, conflict resolution) and neglected long-term\nstrategic issues. Multidivisional structure calls for:\n Creating separate divisions, each representing a distinct business\n Each division would house its functional hierarchy;\n Division managers would be given responsibility for managing day-to-day operations;\n A small corporate office that would determine the long-term strategic direction of the firm and\nexercise overall financial control over the semi-autonomous divisions.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2019-s2-q24",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic management process / stages → Ch 5",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "HQ is a service company? Two years back the company hired a reputed management consultant\nto formulate its strategy. The consultant recommended an aggressive expansion plan. Now in an\ninternal review meeting the company finds that many of the suggestions are not even fully\nconsidered.\nWhich part of strategic management process is missing in HQ?",
+   "options": null,
+   "answer": "Strategy implementation is missing in HQ. It is concerned with the managerial exercise of putting\na chosen strategy into action. It deals with the managerial exercise of supervising the ongoing\npursuit of strategy, making it work, improving the competence with which it is executed and showing\nmeasurable progress in achieving the targeted results.\nStrategic implementation is concerned with translating a strategic decision into action, which\npresupposes that the decision itself (i.e., the strategic choice) was made with some thought being\ngiven to feasibility and acceptability. The allocation of resources to new courses of action will need\nto be undertaken, and there may be a need for adapting the organization’s structure to handle new\nactivities as well as training personnel and devising appropriate systems.\nIt is crucial to realize the difference between the formulation and implementation because they both\nrequire very different skills. Also, a company will be successful only when the strategy formulation\nis sound and implementation is excellent.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic management process"
+   ]
+  }
+ ]
+}

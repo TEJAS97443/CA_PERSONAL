@@ -1,0 +1,745 @@
+          PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                           SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                          Question No. 1 is compulsory
+                                     Answer any five questions from the rest.
+        Question 1
+        Answer the following in brief:
+        (a) Explain 'Data Flow Diagram'.
+        (b) Define 'Data Analytics'.
+        (c) Explain the term 'Cryptography'.
+        (d) Describe the term 'Digital Library'.
+        (e) Define 'Proxy Server'.                                                  (5 x 2 = 10 Marks)
+        Answer
+        (a) Data Flow Diagrams: Data Flow Diagrams (DFD) shows the flow of data or information
+            from one place to another. DFDs describe the processes showing how these processes
+            link together through data stores and how the processes relate to the users and the outsid e
+            world. In other words, DFD basically provides an overview of -
+             •    What does a system processes;
+             •    What transformations are performed;
+             •    What data are stored;
+             •    What results are produced and where they flow?
+        (b) Data Analytics: It is the process of examining data sets to draw conclusions about the
+            information they contain, increasingly with the aid of specialized systems and software.
+            Data Analytics predominantly refers to an assortment of applications, from basic Business
+            Intelligence (BI), Reporting and Online Analytical Processing (OLAP) to various forms of
+            advanced analytics. Data Analytics technologies and techniques are widely used in
+            commercial industries to enable organizations to make more-informed business decisions
+            and by scientists and researchers to verify or disprove scientific models, theories and
+            hypotheses.
+        (c) Cryptography: It deals with programs for transforming data into cipher text that are
+            meaningless to anyone, who does not possess the authentication to access the respective
+            system resource or file. A cryptographic technique encrypts data (clear text) into
+            cryptograms (cipher text) and its strength depends on the time and cost to decipher the
+            cipher text by a cryptanalyst. Three techniques of cryptography are Transposition (permute
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                 INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2018
+
+
+             the order of characters within a set of data), Substitution (replace text with a key -text) and
+             Product Cipher (combination of Transposition and Substitution).
+        (d) Digital Library: A Digital Library is a special library with a focused collection of digital
+            objects that can include text, visual material, audio material, video material, stored as
+            electronic media formats, along with means for organizing, storing, and retrieving the files
+            and media contained in the library collection. Digital libraries can vary immensely in size
+            and scope, and can be maintained by individuals, organizations, or affiliated with
+            established physical library buildings or institutions, or with academic institutions. The
+            digital content may be stored locally, or accessed remotely via computer networks. An
+            electronic library is a type of information retrieval system.
+        (e) Proxy Server: A Proxy Server is a computer that offers a computer network service to
+            allow clients to make indirect network connections to other network services. A client
+            connects to the proxy server, and then requests a connection, file, or other resource
+            available on a different server. The proxy provides the resource either by connecting to the
+            specified server or by serving it from a cache. In some cases, the proxy may a lter the
+            client’s request or the server’s response for various purposes.
+        Question 2
+        (a) "Enterprise Risk Management (ERM) does not create a risk-free environment; rather it
+            enables management to operate more effectively in environments filled with risks". In view
+            of this statement, explain the various benefits, which Board of Directors and Ma nagement
+            of an entity seek to achieve by implementing the ERM process within the entity.
+                                                                                                 (6 Marks)
+        (b) A business organization is planning to switch on to an integrated software for accounting
+            as well as tax compliance instead of separate software for accounting and tax compliance.
+            Being a consultant to the management of this organization, you are required to advise
+            them on various Pros and Cons of having single software for both the accounting and tax
+            compliance.                                                                     (4 Marks)
+        Answer
+        (a) Following features in Enterprise Risk Management (ERM) provides enhanced capabilities
+            to enable management to operate more effectively in environments filled with risks:
+                 Align risk appetite and strategy: Risk appetite is the degree of risk, on a broad-
+                  based level that an enterprise is willing to accept in pursuit of its goals. Management
+                  considers the entity’s risk appetite first in evaluating strategic alternatives, then in
+                  setting objectives aligned with the selected strategy and in developing mechanisms
+                  to manage the related risks.
+                 Link growth, risk and return: Entities accept risk as part of value creation and
+                  preservation, and they expect return commensurate with the risk. ERM provides an
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          3
+
+
+                  enhanced ability to identify and assess risks, and establish acceptable levels o f risk
+                  relative to growth and return objectives.
+                 Enhance risk response decisions: ERM provides the rigor to identify and select
+                  among alternative risk responses - risk avoidance, reduction, sharing and
+                  acceptance. ERM provides methodologies and techniques for making these
+                  decisions.
+                 Minimize operational surprises and losses: Entities have enhanced capability to
+                  identify potential events, assess risk and establish responses, thereby reducing the
+                  occurrence of surprises and related costs or losses.
+                 Identify and manage cross-enterprise risks: Every entity faces a myriad of risks
+                  affecting different parts of the enterprise. Management needs to not only manage
+                  individual risks, but also understand interrelated impacts.
+                 Provide integrated responses to multiple risks: Business processes carry many
+                  inherent risks and ERM enables integrated solutions for managing the risks.
+                 Seize opportunities: Management considers potential events, rather than just risks,
+                  and by considering a full range of events, management gains an understanding of
+                  how certain events represent opportunities.
+                 Rationalize capital: More robust information on an entity’s total risk allows
+                  management to more effectively assess overall capital needs and improve capital
+                  allocation.
+        (b) Single software for both the Accounting and Tax Compliance must be an integrated
+            system. Pros of having single integrated software for both the Accounting and Tax
+            Compliance as compared to only a Tax Compliance Software are as follows:
+             •    More Accurate: As single software for both Accounting and Tax Compliance is an
+                  integrated system, hence accounting data and tax compliance data shall always be
+                  same and there is no need to transfer data to compliance software and reconcile the
+                  data. However, in only tax compliance software, reconciliation with accounting data
+                  is needed and possibility of mismatch of data between two systems is always there.
+             •    Lesser Time and efforts required: The time required to transfer data to compliance
+                  integrated software is zero whereas it’s relatively more in the separate software
+                  wherein data from accounting software need to put in for preparation of returns that
+                  may take extra time and efforts.
+             Cons of having such integrated software for both the Accounting and Tax Compliance as
+             compared to only a Tax Compliance Software are as follows:
+             •    Less ease of software operation: In an integrated system, everything is connected
+                  with other and making changes at one place may affect other aspects also. However,
+                  single software is less complicated and bound to be easy.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2018
+
+
+             •    Less features and facilities for Tax Compliance: As the integrated is system is not
+                  an exclusive system for tax compliance, it may have limited features for tax
+                  compliance. Whereas single system is an exclusive and specifically designed system
+                  for tax compliance, more features and facilities shall exist in this system.
+             •    More cost: If tax compliance feature is not available in accounting system, then to
+                  make the system integrated and getting it customized may require some amount of
+                  cost which may be higher than buying separate software. Whereas specific purpose
+                  software shall have less complications and the cost also shall be less.
+        Question 3
+        (a) 'Web Applications' are one of the two ways of using a software including financial and
+            Accounting Software and now-a-days, the use of web applications is increasing rapidly.
+            You, being an IT consultant, have to list out some of the advantages and disadvantages of
+            using web applications.                                                         (6 Marks)
+        (b) Data that is waiting to be transmitted are liable to unauthorized access called
+            'Asynchronous Attack'. Explain various types of Asynchronous attacks on data. (4 Marks)
+        Answer
+        (a) Advantages of using Web applications are as follows:
+             •    Installation and Maintenance: As software is installed on only one computer, i.e. a
+                  web server, it need not be installed on each computer. Hence, installation on user
+                  computer is not required and maintenance and updating of software becomes
+                  extremely easy.
+             •    Accessibility: As software is not installed on the hard disc of user’s computer and it
+                  is used through browser and internet, it can be used from any computer in the world.
+                  Access to the software becomes very easy.
+             •    Mobile Application: Using mobile application becomes very easy as data is available
+                  24 x 7.
+             Disadvantages of using Web applications are as follows:
+             •    Data Storage: Data is not stored in the user’s server computer. It is stored on a web
+                  server. Hence user will not have any control over the data.
+             •    Data Security: Data security is a big challenge in case of web application as the data
+                  is not in control of the user or owner of data. It is maintained on a web server.
+             •    Performance: As data is picked from web server using internet, speed of operation
+                  may be slower in web applications.
+             •    Flexibility: Web applications do not even compare to the flexibility of desktop
+                  applications. If a user wants to write a web application that basically interacts with the
+                  user’s hardware, installed/desktop applications are preferable.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          5
+
+
+        (b) Various types of Asynchronous Attacks on data are as follows:
+             •     Data Leakage: This involves leaking information out of the computer by means of
+                   dumping files to paper or stealing computer reports and tape.
+             •     Subversive Attacks: These can provide intruders with important information about
+                   messages being transmitted and the intruder may attempt to violate the integrity of
+                   some components in the subsystem.
+             •     Wire-tapping: This involves spying on information being transmitted over
+                   telecommunication network.
+             •     Piggybacking: This is the act of following an authorized person through a secured
+                   door or electronically attaching to an authorized telecommunication link that
+                   intercepts and alters transmissions. This involves intercepting communication
+                   between the operating system and the user and modifying them or substituting new
+                   messages.
+        Question 4
+        (a) Subsequent to demonetization, one of your elderly neighbour, who was using traditional
+            digital methods of making payments like cards, net banking etc., asked for your help to
+            know about the various new methods of Digital Payments. Identify and explain various new
+            methods of Digital Payments for him.                                           (6 Marks)
+        (b) Explain various key aspects in-built into the architecture of a Core Banking System.
+                                                                                               (4 Marks)
+        Answer
+        (a) Some of the new methods of Digital Payments are as follows:
+             •     Unified Payment Interface (UPI) Apps
+             •     Immediate Payment Service (IMPS)
+             •     BHIM (Bharat Interface for Money) - Mobile App
+             •     Mobile Wallets
+             •     Aadhar Enabled Payment Service(AEPS)
+             •     Unstructured Supplementary Service Data(USSD)
+             The explanation of these Digital Payments is as follows:
+             (i)   Unified Payment Interface (UPI): UPI is a payment mode which is used to make
+                   fund transfers through the mobile app. UPI App is a system that powers multiple bank
+                   accounts of participating banks, several banking services features like fund transfer,
+                   and merchant payments in a single mobile application. User can transfer funds
+                   between two accounts using UPI Apps. User must register for mobile banking to use
+                   UPI apps.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2018
+
+
+             (ii) Immediate Payment Service (IMPS): It is an instant interbank electronic fund
+                  transfer service through mobile phones. It is also being extended through other
+                  channels such as ATM, Internet Banking, etc.
+             (iii) Mobile Apps: BHIM (Bharat Interface for Money) is a Mobile App developed by
+                   National Payments Corporation of India (NPCI) based on UPI (Unified Payment
+                   Interface). It facilitates e-payments directly through banks and supports all Indian
+                   banks which use that platform. It is built on the Immediate Payment Service
+                   infrastructure and allows the user to instantly transfer money between the bank
+                   accounts of any two parties. BHIM works on all mobile devices and enables users to
+                   send or receive money to other UPI payment addresses.
+             (iv) Mobile Wallets: It is defined as Virtual wallets that stores payment card information
+                  on a mobile device. Mobile Wallets provide a convenient way for a user to make -in-
+                  store payments and can be used that merchants listed with the mobile wallet service
+                  providers. There are mobile wallets like Paytm, Freecharge, Buddy, Mobikwik etc.
+                  Some of these are owned by banks and some are owned by private companies.
+             (v) Aadhar Enabled Payment Service(AEPS): AEPS is an Aadhaar based digital
+                 payment mode. Customer needs only his or her Aadhaar number to pay to any
+                 merchant. AEPS allows bank to bank transactions which means the money that you
+                 pay will be deducted from your account and credited to the payee’s account directly.
+                 Customers will need to link their AADHAR numbers to their bank accounts. APES
+                 once launched can be used at POS terminals also.
+             (vi) Unstructured Supplementary Service Data(USSD): A revolutionary idea, where to
+                  make payments through mobiles there is neither need for internet nor any smart
+                  phone. USSD banking or *99# Banking is a mobile banking based digital payment
+                  mode. User does not need to have a smartphone or internet connection to use USSD
+                  banking. S/he can easily use it with any normal feature phone. USSD banking is as
+                  easy as checking of mobile balance. S/he can use this service for many financial and
+                  non-financial operations such as checking balance, sending money, changing Mobile
+                  Banking Personal Identification number (MPIN) and getting Mobile Money Identifier
+                  (MMID).
+        (b) Some key aspects in-built into the architecture of a Core Banking System (CBS) are as
+            follows:
+                 Information flow: Facilitates information flow within the bank and improves the
+                  speed and accuracy of decision-making. It deploys systems that streamline
+                  integration and unite corporate information to create a comprehensive analytical
+                  infrastructure.
+                 Customer centric: A holistic core banking architecture enables banks to target
+                  customers with the right offers at the right time with the right channel to increase
+                  profitability.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                           7
+
+
+                 Regulatory compliance: Compliance in case of banks is complex and expensive.
+                  CBS has built-in and regularly updated regulatory platform which will ensure
+                  compliance.
+                 Resource optimization: Optimizes utilization of information and resources of banks
+                  and lowers costs through improved asset reusability, faster turnaround times, faster
+                  processing and increased accuracy.
+        Question 5
+        (a) In line with the suggestions of RBI, M/s. ABC Bank is planning to obtain ISO 27001: 2013
+            certification for its Information Security Management System. As an IS Auditor, you are
+            required to prepare a sample list of Risks w.r.t. Information Security for the Bank.
+                                                                                                 (6 Marks)
+        (b) Discuss various application areas of 'Virtualization'.                               (4 Marks)
+        Answer
+        (a) Sample listing of Risks w.r.t Information Security for the Bank is as follows:
+             •    Significant information resources may be modified inappropriately, disclosed without
+                  authorization, and/ or unavailable when needed. (e.g., they may be deleted without
+                  authorization).
+             •    Lack of management direction and commitment to protect information assets.
+             •    Potential Loss of confidentiality, availability and integrity of data and system.
+             •    User accountability is not established.
+             •    It is easier for unauthorized users to guess the password of an authorized user and
+                  access the system and/ or data. This may result in loss of confidentiality, availability
+                  and integrity of data and system.
+             •    Unauthorized viewing, modification or copying of data and/ or unauthorized use,
+                  modification or denial of service in the system.
+             •    Security breaches may go undetected.
+             •    Inadequate preventive measure for key server and IT system in case of environmental
+                  threat like heat, humidity, fire, flood etc.
+             •    Unauthorized system or data access, loss and modification due to virus, worms and
+                  Trojans.
+        (b) Various application areas of Virtualization are as follows:
+             •    Server Consolidation: Virtual machines are used to consolidate many physical
+                  servers into fewer servers, which in turn host virtual machines. Each physical server
+                  is reflected as a virtual machine “guest” residing on a virtual machine host system.
+                  This is also known as “Physical-to-Virtual” or ‘P2V’ transformation.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2018
+
+
+             •    Disaster Recovery: Virtual machines can be used as “hot standby” environments for
+                  physical production servers. This changes the classical “backup-and-restore”
+                  philosophy, by providing backup images that can “boot” into live virtual machines,
+                  capable of taking over workload for a production server experiencing an outage.
+             •    Testing and Training: Virtualization can give root access to a virtual machine. This
+                  can be very useful such as in kernel development and operating system courses.
+             •    Portable Applications: Portable applications are needed when running an
+                  application from a removable drive, without installing it on the system’s main disk
+                  drive. Virtualization can be used to encapsulate the application with a redirection layer
+                  that stores temporary files, windows registry entries and other state information in the
+                  application’s installation directory and not within the system’s permanent file system.
+             •    Portable Workspaces: Recent technologies have used virtualization to create
+                  portable workspaces on devices like iPods and USB memory sticks.
+        Question 6
+        (a) An operating system allows users and their applications to share and access common
+            computer resources and execute a variety of activities. Hence, protecting operating system
+            access is extremely crucial. Identify various steps through which protection of operating
+            system access can be achieved.                                                   (8 Marks)
+        (b) State the required characteristics of goals to be achieved by implementing Business
+            Process Automation (BPA).                                                  (2 Marks)
+                                                       OR
+             Give two examples of the Risks and Control objectives for Human Resource Process at
+             configuration level.                                                      (2 Marks)
+        Answer
+        (a) Protecting Operating System Access is extremely crucial and can be achieved using
+            following steps:
+             •    Automated terminal identification: This will help to ensure that a specified session
+                  could only be initiated from a certain location or computer terminal.
+             •    Terminal log-in procedures: A log-in procedure is the first line of defense against
+                  unauthorized access as it does not provide unnecessary help or information, which
+                  could be misused by an intruder. When the user initiates the log-on process by
+                  entering user-id and password; the system compares the ID and password to a
+                  database of valid users and accordingly authorizes the log-in.
+             •    Access Token: If the log on attempt is successful, the Operating System creates an
+                  access token that contains key information about the user including user -id,
+                  password, user group and privileges granted to the user. The information in the
+                  access token is used to approve all actions attempted by the user during the session.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                            9
+
+
+             •    Access Control List: This list contains information that defines the access privileges
+                  for all valid users of the resource. When a user attempts to access a resource, the
+                  system compasses his or her user-id and privileges contained in the access token
+                  with those contained in the access control list. If there is a match, the user is granted
+                  access.
+             •    Discretionary Access Control: The system administrator usually determines who is
+                  granted access to specific resources and maintains the access control list. In
+                  distributed systems, resources may be controlled by the end-user in which they may
+                  be granted discretionary access control, which allows them to grant access privileges
+                  to other users. For example, the controller who is owner of the general ledger grants
+                  read only privilege to the budgeting department while accounts payable manager is
+                  granted both read and write permission to the ledger.
+             •    User identification and authentication: The users must be identified and
+                  authenticated in a foolproof manner. Depending on risk assessment, more stringent
+                  methods like Biometric Authentication or Cryptographic means like Digital Certificates
+                  should be employed.
+             •    Password management system: An operating system could enforce selection of
+                  good passwords. Internal storage of password should use one-way hashing
+                  algorithms and the password file should not be accessible to users.
+             •    Use of system utilities: System utilities are the programs that help to manage critical
+                  functions of the operating system e.g. addition or deletion of users. Obviously, this
+                  utility should not be accessible to a general user. Use and access to these utilities
+                  should be strictly controlled and logged.
+             •    Duress alarm to safeguard users: If users are forced to execute some instruction
+                  under threat, the system should provide a means to alert the authorities.
+             •    Terminal time out: Log out the user if the terminal is inactive for a defined period.
+                  This will prevent misuse in absence of the legitimate user.
+             •    Limitation of connection time: Define the available time slot. Do not allow any
+                  transaction beyond this time. For example, no computer access after 8.00 p.m. and
+                  before 8.00 a.m. - or on a Saturday or Sunday.
+        (b) The required characteristics of goals to be achieved by implementing Business Process
+            Automation (BPA) could be abbreviated as “SMART” which means:
+             •    S - Specific
+             •    M - Measurable
+             •    A - Attainable
+             •    R – Relevant
+             •    T – Timely
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10               INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2018
+
+
+                                                       Or
+        (b) Risks and Control Objectives for Human Resource Process at Configuration Levels are as
+            follows:
+                                Risk                              Control Objective
+                Employees who have left the company   System access to be immediately removed
+                continue to have system access.       when employees leave the company.
+                Employees have system access in       Employees should be given system access
+                excess of their job requirements.     based on a “need to know” basis and to
+                                                      perform their job function.
+
+
+
+
+© The Institute of Chartered Accountants of India
+              PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                                     SECTION –B: STRATEGIC MANAGEMENT
+                                                Question No. 7 is compulsory
+                                           Answer any four questions from the rest.
+        Question 7
+        (a) List the different strategic levels in an organization.                             (2 Marks)
+        (b) Present a diagrammatic representation of a Strategic Management model.              (2 Marks)
+        (c) List the advantages of Strategic Alliances.                                         (2 Marks)
+        (d) What do you mean by "Economies of Scale"?                                           (2 Marks)
+        (e) Define Augmented Marketing. Give two examples.                                      (2 Marks)
+        Answer
+        (a) There are three main strategic levels in an organisation:
+               •   Corporate level – consisting of CEO, Board of Directors and other senior executives.
+               •   Business level – Divisional Managers and staff.
+               •   Functional level – Functional Managers – Marketing, Finance, Production, Human
+                   Resource.
+        (b)                                      Strategic Management Model
+
+                            Environmental
+                              Analysis
+
+
+
+                                              Generate,
+          Develop Vision,                                                                     Strategic
+                                             Analyse and                 Implement
+           Mission and                                                   Strategies          Evaluation
+                                                select
+            Objectives                                                                       and Control
+                                              Strategies
+
+
+
+                            Organisation
+                             Appraisal
+
+
+
+                                Analysis                               Implementation       Evaluation
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                  INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2018
+
+
+        (c)         Advantages of strategic alliance are:
+              (i)    Organisational: learn skills and obtain capabilities from strategic partners.
+              (ii) Economic: Sharing of costs and risks by members of alliance.
+              (iii) Strategic: Rivals can join together to cooperate rather than compete.
+              (iv) Political: Alliance with partners with political influence improve overall power position of
+                   the organisation.
+        (d) Economies of scale refer to the decline in the per unit cost of production as volume grows.
+            A large firm that enjoys economies of scale can produce high volume of goods at lower
+            costs. This tends to discourage new entrants.
+        (e) Augmented Marketing is provision of additional customer services and benefits built
+            around the core and actual products that relate to introduction of hi-tech services like
+            movies on demand, online computer repair services, etc. Such innovative offerings provide
+            a set of benefits that promise to elevate customer service to unprecedented levels.
+        Question 8
+        Which of the following statements are correct and which are incorrect? Give reasons in brief for
+        your answer.
+        (a) Vision is one of the key elements of Strategic Intent.                                   (2 Marks)
+        (b) Structure has no impact on the strategy of the organization.                             (2 Marks)
+        (c) There is no distinction between Benchmarking and Business Process Reengineering.
+                                                                                                     (2 Marks)
+        (d) Acquiring of ambulance services by a hospital is an example of forward integration
+            strategy.                                                               (2 Marks)
+        (e) There is no such thing as backward integration.                                          (2 Marks)
+        Answer
+        (a) Correct: Vision implies the blueprint of the company’s future position. It describes where
+            the organisation wants to land. It depicts the organisation’s aspirations and provides a
+            glimpse of what the organisation would like to become in future. Every sub system of the
+            organisation is required to follow its vision.
+        (b) Incorrect: Structures are designed to facilitate the strategic pursuit of a firm and, therefore,
+            follows strategy. Without a strategy or reason for being, it will be difficult to design an
+            effective structure. Strategic developments may require allocation of resources and there
+            may be a need for adapting the organisation’s structure to handle new activities as well as
+            training personnel and devising appropriate systems.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 13
+
+
+        (c) Incorrect: Benchmarking relates to setting goals and measuring productivity based on
+            best industry practices. The idea is to learn from the practices of competitors and others
+            to improve the firm’s performance. On the other hand, business process reengineering
+            relates to analysis and redesign of workflows and processes both within and between the
+            organisations.
+        (d) Incorrect: Acquiring of ambulance services by a hospital is an example of backward integration
+            strategy. Backward integration is a step towards creation of effective supply by entering
+            business of input providers. Forward integration is moving forward in the value chain.
+        (e) Incorrect: Organisations may diversify into new businesses that are vertically integrated
+            with their existing business. Backward integration firms create effective supply by entering
+            business of input providers. This strategy is employed to expand profits and gain greater
+            control over production.
+        Question 9
+        (a) Manoj started his telecom business in 2010. Over next five years, he gradually hired fifty
+            people for various activities such as to keep his accounts, administration, sell his products
+            in the market, create more customers, provide after sales service, coordinate with vendors.
+             Draw the organization structure Manoj should implement in his organization and name it.
+                                                                                               (5 Marks)
+        (b) Sohan and Ramesh are two friends who are partners in their business of making biscuits.
+            Sohan believe in making profits through selling more volume of products. Hence, he
+            believes in charging lesser price to the customers. Ramesh, however of the opinion that
+            higher price should be charged to create an image of exclusivity and for this, he proposes
+            that the product to undergo some change.
+             Analyse the nature of generic strategy used by Sohan and Ramesh.                  (5 Marks)
+        Answer
+        (a) Manoj has started a telecom business. Accounts, Administration, Marketing (customer
+            creation, after sales service, vendor coordination) are the functional areas that are desired
+            in the organisational structure. Further there is inherent need to have a department for the
+            management of telecom services/ operations.
+             Thus, the functional structure in the telecom business of Manoj can be as follows:
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2018
+
+
+
+                                                   Chairman
+                                                  (Managing
+                                                Director/ CEO)
+
+
+
+                                                                                     Administration
+              Telecom               Accounts and
+                                                              Marketing                 Human
+             Operations               Finance
+                                                                                     Resource, etc.
+
+
+
+                                        Sales
+                                                              After Sales              Vendor
+                                     (Customer
+                                                               Service               Coordination
+                                      Creation)
+
+
+
+        (b) Considering the generic strategies of Porter there are three different bases: cost
+            leadership, differentiation and focus. Sohan and Ramesh are contemplating pricing for
+            their product.
+             Sohan is trying to have a low price and high volume are thereby trying for cost leadership.
+             Cost leadership emphasizes producing standardised products at a very low per unit cost
+             for consumers who are price sensitive.
+             Ramesh desires to create perceived value for the product and charge higher prices. He is
+             trying to adopt differentiation. Differentiation is aimed at producing products and services
+             considered unique industry wide and directed at consumers who are relatively price
+             insensitive.
+        Question 10
+        (a) Describe corporate culture. Elaborate the statement "Culture is a strength that can also be
+            a weakness".                                                                      (5 Marks)
+        (b) Explain the marketing mix in the context of modern ma rketing.                     (5 Marks)
+        Answer
+        (a) Corporate culture refers to a company’s values, beliefs, business principles, traditions, way
+            of operating and internal work environment. Every corporation has a culture that exerts
+            powerful influences on the behaviour of managers.
+             Culture as a strength – Culture can facilitate communication, decision making and control
+             and create cooperation and commitment. An organisation’s culture could be strong and
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 15
+
+
+             cohesive when it conducts its business according to clear and explicit set of principles and
+             values. The management devotes considerable time in communicating values & principles
+             to employees and sharing them widely across the organisation.
+             Culture as a weakness – can obstruct the smooth implementation of strategy by creating
+             resistance to change. An organisation’s culture can be characterised as weak when many
+             sub cultures exist, few values and behavioural norms are shared and traditions are rare.
+             In such organisations, employees do not have a sense of commitment, loyalty and a sense
+             of identity.
+        (b) Marketing mix is a set of controllable marketing variables that the firm blends to produce
+            the response that it wants in the target market. Marketing mix consists of everything that
+            the firm can do to influence the demand for its product. The original framework of marketing
+            mix comprises of product, price, place and promotion.
+             Modern marketing is highly promotional oriented and include personal selling, advertising,
+             publicity and sales promotion.
+             Personal selling – involves face to face interaction of sales persons with the prospective
+             customers and provides a high degree of personal attention. It involves working with one
+             customer at a time and hence not cost effective. The intention of oral communication is
+             sale.
+             Advertising – is a non-personal, flexible and dynamic promotion method. The media for
+             advertising are several and choice of an appropriate one is important for effectiveness of
+             message. Sale of the product and the amount of expenditure cannot be directly measured.
+             Publicity – is also non-personal but no payments are made to the media. Publicity is
+             communication of a product, brand or business by placing information about it in the media
+             without paying for the time or media space directly. It could be through press release s,
+             press conferences, reports, etc.
+             Sales promotion – includes all activities that are undertaken to promote the business but
+             are not specifically included under personal selling, advertising or publicity. Activities like
+             discounts, contests, money refunds, exhibitions etc. are included.
+        Question 11
+        (a) What steps are to be considered for implementing the supply chain management in a
+            business organization? Explain.                                         (5 Marks)
+        (b) "Strategy is partly proactive and partly reactive." Elaborate.                       (5 Marks)
+        Answer
+        (a) A key requirement for successfully implementing supply chain management system in a
+            business organisation are:
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2018
+
+
+             (i)   Product development – Customers and suppliers must work together in the product
+                   development process. Products are developed and launched in shorter time and help
+                   organisations to remain competitive.
+             (ii) Procurement – requires careful resource planning, quality issues, identifying
+                  sources, negotiation, order placement, inbound transportation and storage.
+                  Organisations coordinate with suppliers in scheduling without interruption.
+             (iii) Manufacturing – Flexible manufacturing process is required to respond to market
+                   changes like accommodate customisation and changes in tastes and preferences.
+                   Manufacturing is done on the basis of just in time and minimum lot sizes.
+             (iv) Physical Distribution – Delivery of final product to customers is the last position in
+                  a marketing channel. To ensure right place at right time is important for each channel
+                  participant. So supply chain management links a marketing channel with customers.
+             (v)   Outsourcing – is not limited to the procurement of materials and components but
+                   also includes outsourcing of services that traditionally have been provided within an
+                   organisation. The company will focus on the core competency areas alone and
+                   outsource rest.
+             (vi) Customer Service – Organisations work with customers to determine mutually
+                  satisfying goals, establish and maintain relationships. This produces positive feelings
+                  in the organisation and among customers.
+             (vii) Performance Measurement – Supplier capabilities and customer relationships can
+                   be corrected with a firm’s performance. Performance is measured in different
+                   parameters such as costs, customer services, productivity and quality.
+        (b) Yes, strategy is partly proactive and partly reactive. In proactive strategy, organisations
+            will analyse possible environmental scenarios and create strategic framework after proper
+            planning and set procedures and work on these strategies in a pre-determined manner.
+            However, in reality no company can forecast both internal and external environment
+            exactly. Everything cannot be planned in advance. It is not possible to anticipate moves of
+            rival firms, consumer behaviour, evolving technologies and so on.
+             There can be significant deviations between what was visualised and what actually
+             happens. There can be significant or major strategic changes when the environment
+             demands. Reactive strategy is triggered by the changes in the environment and provides
+             ways and means to cope with the negative factors or take advantage of emerging
+             opportunities.
+        Question 12
+        (a) Write a short note on strategic change and explain the process of strategic change.
+                                                                                              (7 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT 17
+
+
+        (b) Identify three aspects of impact of IT Systems on Business Process Reengineering and list
+            three areas where it provides business value.                                 (3 Marks)
+                                                         OR
+             Examine the significance of KSFs (Key Success Factors) for competitive success. (3 Marks)
+        Answer
+        (a) The changes in the environmental forces often require businesses to make modifications
+            in their existing strategies and bring out new strategies. Strategic change is a complex
+            process that involves a corporate strategy focused on new markets, products, services and
+            new ways of doing business.
+             Three steps for initiating strategic change are:
+             (i)   Recognise the need for change – The first step is to diagnose the which facets of
+                   the present corporate culture are strategy supportive and which are not.
+             (ii) Create a shared vision to manage change – Objectives of both individuals and
+                  organisation should coincide. There should be no conflict between them. This is
+                  possible only if the management and the organisation members follow a shared
+                  vision.
+             (iii) Institutionalise the change – This is an action stage which requires the
+                   implementation of the changed strategy. Creating and sustaining a different attitude
+                   towards change is essential to ensure that the firm does not slip back into old ways
+                   of doing things.
+             Kurt Lewin proposed three stages of the change process for moving the organisation from
+             the present to the future.
+             (i)   Unfreezing the situation – The process of unfreezing makes the individuals or
+                   organisations aware of the necessity for change and prepares them for it. The change
+                   should not come as a surprise to the members of the organisation. Sudden and
+                   unannounced change would be socially destructive and morale lowering,
+             (ii) Changing to new situation – once unfreezing is complete and members of the
+                  organisation recognize the need for change, then their behaviour patterns need to be
+                  redefined as:
+                   i.     Compliance – enforcing reward and punishment strategy for good or bad behaviour
+                   ii.    Identification – members are psychologically impressed to identify themselves with
+                          some given role models whose behaviour they would like to adopt.
+                   iii.   Internalisation - involves some internal changing of the individual’s thought
+                          process. They are given the freedom to learn and adopt new behaviour.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        18                INTERMEDIATE (NEW) EXAMINATION: NOVEMBER, 2018
+
+
+             (iii) Refreezing – occurs when the new behaviour becomes a normal way of life. The new
+                   behaviour must replace the former behaviour completely for successful and permanent
+                   change. This can be achieved by continuously reinforcing the newly acquired behaviour.
+                  Change process is not a one-time application but a continuous process due to
+                  dynamism and ever-changing environment.
+        (b) Impact of IT Systems on Business Process Reengineering are identified as:
+             •    Compression of time
+             •    Overcoming restrictions of geography and/or distance
+             •    Restructuring of relationships
+             IT initiatives, thus, provide business values in three distinct areas:
+             •    Efficiency – by way of increased productivity
+             •    Effectiveness – by way of better management
+             •    Innovation – by way of improved products and services
+             As industry’s Key Success Factors (KSFs) are those things that most affect industry
+             members’ ability to prosper in the market place – the particular strategy elements, product
+             attributes, resources, competencies, competitive capabilities and business outcomes that
+             spell the difference between profit & loss and ultimately, between competitive success or
+             failure. KSFs by their very nature are so important that all firms in the industry must pay
+             close attention to them. They are the prerequisites for industry success, or, to put it in
+             another way, KSFs are the rules that shape whether a company will be financially and
+             competitively successful.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

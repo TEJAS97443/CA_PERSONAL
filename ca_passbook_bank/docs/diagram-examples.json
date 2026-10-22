@@ -1,0 +1,4487 @@
+[
+ {
+  "name": "gantt — Round Robin, one lane",
+  "note": "Blocks are {p, from, to}. Use p:'idle' for CPU idle time. arrivals draw ▲ markers; marks draw dashed vertical lines.",
+  "spec": {
+   "type": "gantt",
+   "title": "Round Robin, q = 4",
+   "blocks": [
+    {
+     "p": "P1",
+     "from": 0,
+     "to": 4
+    },
+    {
+     "p": "P2",
+     "from": 4,
+     "to": 7
+    },
+    {
+     "p": "P3",
+     "from": 7,
+     "to": 11
+    },
+    {
+     "p": "P1",
+     "from": 11,
+     "to": 12
+    },
+    {
+     "p": "P3",
+     "from": 12,
+     "to": 16
+    }
+   ],
+   "arrivals": [
+    {
+     "p": "P1",
+     "t": 0
+    },
+    {
+     "p": "P2",
+     "t": 1
+    },
+    {
+     "p": "P3",
+     "t": 2
+    }
+   ],
+   "axis": {
+    "step": 1
+   },
+   "caption": "P1 (burst 5) is preempted at t = 4 and queues behind P2 and P3, which arrived while it ran."
+  }
+ },
+ {
+  "name": "gantt — one lane per process",
+  "note": "lanes:'by-process' shows waiting at a glance.",
+  "spec": {
+   "type": "gantt",
+   "title": "SRTF",
+   "lanes": "by-process",
+   "blocks": [
+    {
+     "p": "P1",
+     "from": 0,
+     "to": 1
+    },
+    {
+     "p": "P2",
+     "from": 1,
+     "to": 5
+    },
+    {
+     "p": "P4",
+     "from": 5,
+     "to": 10
+    },
+    {
+     "p": "P1",
+     "from": 10,
+     "to": 17
+    },
+    {
+     "p": "P3",
+     "from": 17,
+     "to": 26
+    }
+   ],
+   "axis": {
+    "step": 2
+   },
+   "marks": [
+    {
+     "t": 2,
+     "label": "P3"
+    },
+    {
+     "t": 3,
+     "label": "P4"
+    }
+   ]
+  }
+ },
+ {
+  "name": "graph — DFA (manual layout)",
+  "note": "shape: circle | double (accepting) | square | diamond | none. start:true draws the entry arrow. Parallel opposite edges curve automatically; self-loops are drawn above the node.",
+  "spec": {
+   "type": "graph",
+   "title": "Strings over {0,1} with an even number of 1s",
+   "w": 420,
+   "h": 170,
+   "nodes": [
+    {
+     "id": "e",
+     "label": "even",
+     "x": 110,
+     "y": 95,
+     "shape": "double",
+     "start": true
+    },
+    {
+     "id": "o",
+     "label": "odd",
+     "x": 310,
+     "y": 95
+    }
+   ],
+   "edges": [
+    {
+     "from": "e",
+     "to": "e",
+     "label": "0"
+    },
+    {
+     "from": "o",
+     "to": "o",
+     "label": "0"
+    },
+    {
+     "from": "e",
+     "to": "o",
+     "label": "1"
+    },
+    {
+     "from": "o",
+     "to": "e",
+     "label": "1"
+    }
+   ]
+  }
+ },
+ {
+  "name": "graph — process state diagram",
+  "note": "Use fill:'a'..'h' to colour nodes, style:'dashed' for dashed edges, curve to bend an edge.",
+  "spec": {
+   "type": "graph",
+   "title": "Process states",
+   "w": 600,
+   "h": 250,
+   "nodes": [
+    {
+     "id": "n",
+     "label": "New",
+     "x": 60,
+     "y": 110,
+     "fill": "e"
+    },
+    {
+     "id": "r",
+     "label": "Ready",
+     "x": 230,
+     "y": 110,
+     "fill": "b"
+    },
+    {
+     "id": "x",
+     "label": "Running",
+     "x": 430,
+     "y": 110,
+     "fill": "a"
+    },
+    {
+     "id": "t",
+     "label": "Done",
+     "x": 560,
+     "y": 200,
+     "fill": "d",
+     "shape": "double"
+    },
+    {
+     "id": "w",
+     "label": "Waiting",
+     "x": 330,
+     "y": 215,
+     "fill": "c"
+    }
+   ],
+   "edges": [
+    {
+     "from": "n",
+     "to": "r",
+     "label": "admit"
+    },
+    {
+     "from": "r",
+     "to": "x",
+     "label": "dispatch",
+     "curve": -0.18
+    },
+    {
+     "from": "x",
+     "to": "r",
+     "label": "timer interrupt",
+     "curve": -0.18
+    },
+    {
+     "from": "x",
+     "to": "w",
+     "label": "I/O wait"
+    },
+    {
+     "from": "w",
+     "to": "r",
+     "label": "I/O done"
+    },
+    {
+     "from": "x",
+     "to": "t",
+     "label": "exit"
+    }
+   ]
+  }
+ },
+ {
+  "name": "graph — resource-allocation graph (circle layout)",
+  "note": "layout:'circle' places nodes automatically; 'layers' draws a DAG top-down.",
+  "spec": {
+   "type": "graph",
+   "title": "Resource-allocation graph",
+   "w": 420,
+   "h": 240,
+   "layout": "circle",
+   "nodes": [
+    {
+     "id": "P1",
+     "fill": "a"
+    },
+    {
+     "id": "R1",
+     "shape": "square",
+     "fill": "c"
+    },
+    {
+     "id": "P2",
+     "fill": "a"
+    },
+    {
+     "id": "R2",
+     "shape": "square",
+     "fill": "c"
+    }
+   ],
+   "edges": [
+    {
+     "from": "R1",
+     "to": "P1",
+     "label": "held by"
+    },
+    {
+     "from": "P1",
+     "to": "R2",
+     "label": "wants",
+     "style": "dashed"
+    },
+    {
+     "from": "R2",
+     "to": "P2",
+     "label": "held by"
+    },
+    {
+     "from": "P2",
+     "to": "R1",
+     "label": "wants",
+     "style": "dashed"
+    }
+   ],
+   "caption": "A cycle with single-instance resources means deadlock."
+  }
+ },
+ {
+  "name": "tree — binary search tree",
+  "note": "children: [] in order; use null for a missing left/right child when binary:true. highlight lists labels to colour.",
+  "spec": {
+   "type": "tree",
+   "title": "BST after inserting 50, 30, 70, 20, 40, 60, 80",
+   "binary": true,
+   "highlight": [
+    "40"
+   ],
+   "root": {
+    "label": "50",
+    "children": [
+     {
+      "label": "30",
+      "children": [
+       {
+        "label": "20"
+       },
+       {
+        "label": "40"
+       }
+      ]
+     },
+     {
+      "label": "70",
+      "children": [
+       {
+        "label": "60"
+       },
+       {
+        "label": "80"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "name": "table — page-replacement trace",
+  "note": "Plain HTML table. cells: {\"row,col\": \"a|b|c|d|ok|bad|hl|mute\"} colours a cell. rowLabels:true makes column 0 a header.",
+  "spec": {
+   "type": "table",
+   "title": "FIFO, 3 frames — reference string 7 0 1 2 0 3 0 4",
+   "head": [
+    "ref",
+    "7",
+    "0",
+    "1",
+    "2",
+    "0",
+    "3",
+    "0",
+    "4"
+   ],
+   "rows": [
+    [
+     "frame 1",
+     "7",
+     "7",
+     "7",
+     "2",
+     "2",
+     "2",
+     "2",
+     "4"
+    ],
+    [
+     "frame 2",
+     "",
+     "0",
+     "0",
+     "0",
+     "0",
+     "3",
+     "3",
+     "3"
+    ],
+    [
+     "frame 3",
+     "",
+     "",
+     "1",
+     "1",
+     "1",
+     "1",
+     "0",
+     "0"
+    ],
+    [
+     "fault?",
+     "✗",
+     "✗",
+     "✗",
+     "✗",
+     "·",
+     "✗",
+     "✗",
+     "✗"
+    ]
+   ],
+   "rowLabels": true,
+   "cells": {
+    "3,1": "bad",
+    "3,2": "bad",
+    "3,3": "bad",
+    "3,4": "bad",
+    "3,5": "ok",
+    "3,6": "bad",
+    "3,7": "bad",
+    "3,8": "bad"
+   }
+  }
+ },
+ {
+  "name": "memory — process address space",
+  "note": "Vertical stack of boxes. size is a relative height. addr labels the top edge. brackets group rows.",
+  "spec": {
+   "type": "memory",
+   "title": "Process address space",
+   "h": 260,
+   "blocks": [
+    {
+     "label": "Stack",
+     "size": 3,
+     "addr": "0xFFFF",
+     "note": "grows ↓",
+     "color": "c"
+    },
+    {
+     "label": "(free)",
+     "size": 2,
+     "kind": "free"
+    },
+    {
+     "label": "Heap",
+     "size": 3,
+     "note": "grows ↑",
+     "color": "b"
+    },
+    {
+     "label": "Data / BSS",
+     "size": 2,
+     "color": "e"
+    },
+    {
+     "label": "Text (code)",
+     "size": 3,
+     "addr": "0x0000",
+     "color": "a"
+    }
+   ],
+   "brackets": [
+    {
+     "from": 1,
+     "to": 2,
+     "label": "dynamic region",
+     "dx": 90
+    }
+   ]
+  }
+ },
+ {
+  "name": "memory — contiguous allocation (horizontal)",
+  "note": "orientation:'h' lays blocks left to right; kind:'hole' draws a hatched free block.",
+  "spec": {
+   "type": "memory",
+   "orientation": "h",
+   "title": "Main memory with holes",
+   "w": 640,
+   "blocks": [
+    {
+     "label": "OS",
+     "size": 1,
+     "color": "h"
+    },
+    {
+     "label": "P1",
+     "size": 2,
+     "color": "a"
+    },
+    {
+     "label": "hole\n100 K",
+     "size": 1.5,
+     "kind": "hole"
+    },
+    {
+     "label": "P2",
+     "size": 2.5,
+     "color": "b"
+    },
+    {
+     "label": "hole\n300 K",
+     "size": 2,
+     "kind": "hole"
+    },
+    {
+     "label": "P3",
+     "size": 1,
+     "color": "c"
+    }
+   ],
+   "brackets": [
+    {
+     "label": "total free = 400 K, but the largest hole is only 300 K (external fragmentation)"
+    }
+   ]
+  }
+ },
+ {
+  "name": "seq — sequence of events across lanes",
+  "note": "events: {lane,text,kind:'op|block|ok|bad'} for a box on a lane; {from,to,text} for an arrow; {note,over:[lanes]} for a spanning note. Optional laneColors: {\"Lane\":\"a\"..\"h\"} (or an array) colours each lane and its boxes and arrows; default is by position.",
+  "spec": {
+   "type": "seq",
+   "title": "Binary semaphore S = 1",
+   "lanes": [
+    "P1",
+    "Semaphore S",
+    "P2"
+   ],
+   "events": [
+    {
+     "lane": "P1",
+     "text": "wait(S)"
+    },
+    {
+     "from": "P1",
+     "to": "Semaphore S",
+     "text": "S: 1 → 0"
+    },
+    {
+     "lane": "P1",
+     "text": "critical section",
+     "kind": "ok"
+    },
+    {
+     "lane": "P2",
+     "text": "wait(S)"
+    },
+    {
+     "from": "P2",
+     "to": "Semaphore S",
+     "text": "S = 0 → block",
+     "style": "dashed"
+    },
+    {
+     "lane": "P2",
+     "text": "blocked",
+     "kind": "block"
+    },
+    {
+     "lane": "P1",
+     "text": "signal(S)"
+    },
+    {
+     "from": "Semaphore S",
+     "to": "P2",
+     "text": "wake up"
+    },
+    {
+     "lane": "P2",
+     "text": "critical section",
+     "kind": "ok"
+    }
+   ]
+  }
+ },
+ {
+  "name": "layers — protocol stack",
+  "note": "Top to bottom. side draws a labelled vertical arrow (arrow:'down'|'up').",
+  "spec": {
+   "type": "layers",
+   "title": "TCP/IP model",
+   "layers": [
+    {
+     "label": "Application",
+     "note": "HTTP, DNS",
+     "right": "messages"
+    },
+    {
+     "label": "Transport",
+     "note": "TCP, UDP",
+     "right": "segments"
+    },
+    {
+     "label": "Internet",
+     "note": "IP, ICMP",
+     "right": "packets"
+    },
+    {
+     "label": "Link",
+     "note": "Ethernet, Wi-Fi",
+     "right": "frames"
+    }
+   ],
+   "side": [
+    {
+     "label": "encapsulation",
+     "arrow": "down"
+    }
+   ]
+  }
+ },
+ {
+  "name": "bits — header layout",
+  "note": "fields wrap across rows of `width` bits. sub gives a small second line. Optional \"msb\":true numbers the bits from the right (leftmost = width-1), labels centred on each bit, for address lines and register bit positions.",
+  "spec": {
+   "type": "bits",
+   "title": "IPv4 header (first 5 words)",
+   "width": 32,
+   "fields": [
+    {
+     "label": "Version",
+     "bits": 4
+    },
+    {
+     "label": "IHL",
+     "bits": 4
+    },
+    {
+     "label": "DSCP/ECN",
+     "bits": 8
+    },
+    {
+     "label": "Total length",
+     "bits": 16
+    },
+    {
+     "label": "Identification",
+     "bits": 16
+    },
+    {
+     "label": "Flags",
+     "bits": 3
+    },
+    {
+     "label": "Fragment offset",
+     "bits": 13
+    },
+    {
+     "label": "TTL",
+     "bits": 8
+    },
+    {
+     "label": "Protocol",
+     "bits": 8
+    },
+    {
+     "label": "Header checksum",
+     "bits": 16
+    },
+    {
+     "label": "Source address",
+     "bits": 32
+    },
+    {
+     "label": "Destination address",
+     "bits": 32
+    }
+   ]
+  }
+ },
+ {
+  "name": "flow — flowchart",
+  "note": "kinds: start | end | process | decision | io. Edges are [from, to, label]. Back edges (loops) are routed around the right side.",
+  "spec": {
+   "type": "flow",
+   "title": "Scheduler loop",
+   "nodes": [
+    {
+     "id": "s",
+     "kind": "start",
+     "label": "Start"
+    },
+    {
+     "id": "a",
+     "kind": "process",
+     "label": "Pick next process from ready queue"
+    },
+    {
+     "id": "d",
+     "kind": "decision",
+     "label": "Queue empty?"
+    },
+    {
+     "id": "i",
+     "kind": "process",
+     "label": "Idle"
+    },
+    {
+     "id": "r",
+     "kind": "process",
+     "label": "Run for ≤ quantum"
+    }
+   ],
+   "edges": [
+    [
+     "s",
+     "d"
+    ],
+    [
+     "d",
+     "i",
+     "yes"
+    ],
+    [
+     "d",
+     "a",
+     "no"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "r",
+     "d"
+    ]
+   ]
+  }
+ },
+ {
+  "name": "plot — growth rates",
+  "note": "fn is a safe expression in x (+ - * / ^, sin cos log log2 ln exp sqrt abs min max floor ceil, pi e). pts:[[x,y],…] draws raw points. points:[{x,y,label}] marks dots.",
+  "spec": {
+   "type": "plot",
+   "title": "Growth of common functions",
+   "w": 560,
+   "h": 320,
+   "x": [
+    1,
+    12
+   ],
+   "y": [
+    0,
+    60
+   ],
+   "xlabel": "n",
+   "ylabel": "operations",
+   "series": [
+    {
+     "label": "n",
+     "fn": "x"
+    },
+    {
+     "label": "n log n",
+     "fn": "x*log2(x)"
+    },
+    {
+     "label": "n²",
+     "fn": "x^2"
+    },
+    {
+     "label": "2ⁿ / 70",
+     "fn": "2^x/70"
+    }
+   ],
+   "points": [
+    {
+     "x": 8,
+     "y": 24,
+     "label": "n log n = 24"
+    }
+   ]
+  }
+ },
+ {
+  "name": "array — pointers over cells",
+  "note": "cells may be numbers or {v, hl:'a'..'h'}. pointers: [{at, label, color}].",
+  "spec": {
+   "type": "array",
+   "title": "Binary search for 23",
+   "cells": [
+    2,
+    5,
+    8,
+    12,
+    16,
+    {
+     "v": 23,
+     "hl": "b"
+    },
+    38,
+    56,
+    72,
+    91
+   ],
+   "pointers": [
+    {
+     "at": 0,
+     "label": "lo",
+     "color": "a"
+    },
+    {
+     "at": 5,
+     "label": "mid",
+     "color": "b"
+    },
+    {
+     "at": 9,
+     "label": "hi",
+     "color": "c"
+    }
+   ]
+  }
+ },
+ {
+  "name": "kmap — four variables, corner group",
+  "note": "vars: 2–5 names, first = most significant bit (\"ABCD\" or [\"x1\",\"x2\",\"x3\"]). Values from m (minterms → 1), d (don't-cares → X), M (maxterms → 0, the rest 1) or grid (rows top to bottom in the map's Gray order, e.g. [\"1001\",\"0110\",…], 0/1/X). groups: {term:\"B'D'\"} or {cells:[0,2,8,10]}, plus color a–h and label (defaults to the term, else the term is worked out from the cells). Groups wrap round the edges and the four corners by themselves; a group that is not a rectangle of 1, 2, 4, 8 or 16 adjacent cells, or that mixes 1s and 0s, is an error (\"wrong\": true draws a deliberately wrong group, dashed). index:true prints the minterm number in each cell; hl:[5,7] or {\"5\":\"bad\"} tints cells; zeros:false hides the 0s; split:1 puts one variable on the rows; cell: cell size in px (44); legend: false or \"below\".",
+  "spec": {
+   "type": "kmap",
+   "title": "f(A,B,C,D) = Σm(0, 2, 5, 7, 8, 10, 13, 15)",
+   "vars": "ABCD",
+   "m": [
+    0,
+    2,
+    5,
+    7,
+    8,
+    10,
+    13,
+    15
+   ],
+   "index": true,
+   "groups": [
+    {
+     "term": "B'D'",
+     "color": "a"
+    },
+    {
+     "term": "BD",
+     "color": "b"
+    }
+   ],
+   "caption": "The four corners are adjacent (the map wraps both ways), so they form one group, B'D'. f = B'D' + BD."
+  }
+ },
+ {
+  "name": "kmap — POS: grouping 0s, with a don't-care",
+  "note": "A sum term in brackets, \"(C)\" or \"(A' + B)\", groups 0s (POS); when every group is a sum term the 0s are drawn bold and the 1s faint. Here the values are given as a grid (rows A = 0, A = 1; columns BC = 00, 01, 11, 10).",
+  "spec": {
+   "type": "kmap",
+   "title": "F(A,B,C) = ΠM(0, 2, 4, 5) + d(6)",
+   "vars": "ABC",
+   "grid": [
+    "0110",
+    "001X"
+   ],
+   "groups": [
+    {
+     "term": "(C)",
+     "color": "d"
+    },
+    {
+     "term": "(A' + B)",
+     "color": "e"
+    }
+   ],
+   "caption": "The 0-group (C) wraps from the left edge to the right edge and uses the don't-care at 6. F = C · (A' + B)."
+  }
+ },
+ {
+  "name": "kmap — five variables as two maps",
+  "note": "Five variables draw as two 4-variable maps side by side, A = 0 and A = 1 (the first variable picks the map; minterm = 16·A + the 4-variable index). A group whose term does not mention A is drawn in both maps. With five variables the legend goes below.",
+  "spec": {
+   "type": "kmap",
+   "title": "f = Σm(0, 2, 5, 8, 10, 13, 16, 18, 21, 24, 26, 29, 31)",
+   "vars": "ABCDE",
+   "m": [
+    0,
+    2,
+    5,
+    8,
+    10,
+    13,
+    16,
+    18,
+    21,
+    24,
+    26,
+    29,
+    31
+   ],
+   "index": true,
+   "groups": [
+    {
+     "term": "C'E'",
+     "color": "a"
+    },
+    {
+     "term": "CD'E",
+     "color": "b"
+    },
+    {
+     "term": "ABCE",
+     "color": "g"
+    }
+   ],
+   "caption": "C'E' is the four corners of both maps; CD'E is the same column pair in both maps. f = C'E' + CD'E + ABCE."
+  }
+ },
+ {
+  "name": "circuit — two-level NAND–NAND, input bus, highlighted path",
+  "note": "parts: {id, kind, at:[column, row]} on a grid of grid:[70,46] px per column/row (fractions allowed; a pin such as \"g1.2\" in place of a number lines the part up with that pin). Gates: and, or, not, nand, nor, xor, xnor, buf; n = inputs (2); input pins g1.1 … g1.n top to bottom, output g1.y (or just g1); neg:[1,3] adds inversion bubbles on inputs, neg:[\"y\"] on the output; label writes a small name inside. Terminals: kind in / out, side = where the wire attaches (in: r, out: l; t/b for lines from above or below), label (\"~A\" draws A with a bar). wires: [\"A\",\"g1.1\"] or {from, to (a pin or a list = fan-out sharing one trunk), x: trunk column, y: detour row, via:[[c,r],…] waypoints, label, labelAt:[c,r], color, dash}. Routing is orthogonal; trunks of different nets in the same gap are spread apart automatically; a dot marks a junction of one net, crossing nets get no dot. path:[\"B\",\"g2\",\"g4\",\"F\"] colours those parts and the wires between consecutive ones (pathColor, default bad); color on a part or wire colours just that one.",
+  "spec": {
+   "type": "circuit",
+   "title": "Majority function, NAND–NAND",
+   "grid": [
+    70,
+    46
+   ],
+   "parts": [
+    {
+     "id": "g1",
+     "kind": "nand",
+     "at": [
+      2.3,
+      0
+     ]
+    },
+    {
+     "id": "g2",
+     "kind": "nand",
+     "at": [
+      2.3,
+      1.2
+     ]
+    },
+    {
+     "id": "g3",
+     "kind": "nand",
+     "at": [
+      2.3,
+      2.4
+     ]
+    },
+    {
+     "id": "g4",
+     "kind": "nand",
+     "n": 3,
+     "at": [
+      4,
+      1.2
+     ]
+    },
+    {
+     "id": "A",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      0.6,
+      -0.9
+     ]
+    },
+    {
+     "id": "B",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      1,
+      -0.9
+     ]
+    },
+    {
+     "id": "C",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      1.4,
+      -0.9
+     ]
+    },
+    {
+     "id": "F",
+     "kind": "out",
+     "at": [
+      4.9,
+      1.2
+     ]
+    }
+   ],
+   "wires": [
+    {
+     "from": "A",
+     "to": [
+      "g1.1",
+      "g3.2"
+     ]
+    },
+    {
+     "from": "B",
+     "to": [
+      "g1.2",
+      "g2.1"
+     ]
+    },
+    {
+     "from": "C",
+     "to": [
+      "g2.2",
+      "g3.1"
+     ]
+    },
+    [
+     "g1",
+     "g4.1"
+    ],
+    [
+     "g2",
+     "g4.2"
+    ],
+    [
+     "g3",
+     "g4.3"
+    ],
+    [
+     "g4",
+     "F"
+    ]
+   ],
+   "path": [
+    "B",
+    "g2",
+    "g4",
+    "F"
+   ],
+   "caption": "F = AB + BC + CA. Each input drops down a vertical line; a dot marks where it branches, and lines that merely cross have no dot. The highlighted path B → g2 → g4 → F is two gate delays."
+  }
+ },
+ {
+  "name": "circuit — MUX tree with a routed select line",
+  "note": "mux: n = 2, 4, 8 or 16 data inputs d0, d1, … (top to bottom), select pins on the slanted bottom edge, most significant on the left (s1, s0; a 2:1 mux's is s), output y; en:true adds an enable pin on top. S0 reaches the upper mux through via waypoints; the two S0 wires form one net, so the split gets a dot.",
+  "spec": {
+   "type": "circuit",
+   "title": "4:1 MUX from three 2:1 MUXes",
+   "grid": [
+    70,
+    46
+   ],
+   "parts": [
+    {
+     "id": "m1",
+     "kind": "mux",
+     "at": [
+      2,
+      0.6
+     ]
+    },
+    {
+     "id": "m2",
+     "kind": "mux",
+     "at": [
+      2,
+      2.6
+     ]
+    },
+    {
+     "id": "m3",
+     "kind": "mux",
+     "at": [
+      4,
+      1.6
+     ]
+    },
+    {
+     "id": "I0",
+     "kind": "in",
+     "at": [
+      0.8,
+      "m1.d0"
+     ]
+    },
+    {
+     "id": "I1",
+     "kind": "in",
+     "at": [
+      0.8,
+      "m1.d1"
+     ]
+    },
+    {
+     "id": "I2",
+     "kind": "in",
+     "at": [
+      0.8,
+      "m2.d0"
+     ]
+    },
+    {
+     "id": "I3",
+     "kind": "in",
+     "at": [
+      0.8,
+      "m2.d1"
+     ]
+    },
+    {
+     "id": "S0",
+     "kind": "in",
+     "at": [
+      0.8,
+      3.9
+     ]
+    },
+    {
+     "id": "S1",
+     "kind": "in",
+     "at": [
+      0.8,
+      4.4
+     ]
+    },
+    {
+     "id": "Y",
+     "kind": "out",
+     "at": [
+      5,
+      1.6
+     ]
+    }
+   ],
+   "wires": [
+    [
+     "I0",
+     "m1.d0"
+    ],
+    [
+     "I1",
+     "m1.d1"
+    ],
+    [
+     "I2",
+     "m2.d0"
+    ],
+    [
+     "I3",
+     "m2.d1"
+    ],
+    {
+     "from": "S0",
+     "to": "m2.s"
+    },
+    {
+     "from": "S0",
+     "to": "m1.s",
+     "via": [
+      [
+       1.55,
+       3.9
+      ],
+      [
+       1.55,
+       1.6
+      ],
+      [
+       2,
+       1.6
+      ]
+     ]
+    },
+    [
+     "S1",
+     "m3.s"
+    ],
+    [
+     "m1",
+     "m3.d0"
+    ],
+    [
+     "m2",
+     "m3.d1"
+    ],
+    [
+     "m3",
+     "Y"
+    ]
+   ],
+   "caption": "S1 S0 = 10 selects I2: the lower mux passes I2 (S0 = 0) and the right mux takes its input 1 (S1 = 1)."
+  }
+ },
+ {
+  "name": "circuit — 4-bit ripple-carry adder",
+  "note": "Blocks: fa (a, b, cin → s, cout; chain:true puts a, b on top, s below, cout left, cin right, for ripple chains drawn MSB first), ha (a, b → s, c), dec (n inputs a(n−1) … a0 → y0 …; en:true), enc (n inputs i0 … → y…; valid:true adds v), box (pins:{l:[…], r:[…], t:[…], b:[…]}, label, optional size:[w,h]; a pin written \"op:F\" is called op and labelled F). Terminals above the blocks use side:\"b\", those below side:\"t\", and line up with pins through at:[\"fa3.a\", -0.2]. Wire labels go where they clear other wires, or at labelAt.",
+  "spec": {
+   "type": "circuit",
+   "title": "4-bit ripple-carry adder",
+   "grid": [
+    100,
+    46
+   ],
+   "parts": [
+    {
+     "id": "fa3",
+     "kind": "fa",
+     "chain": true,
+     "at": [
+      1,
+      1
+     ]
+    },
+    {
+     "id": "fa2",
+     "kind": "fa",
+     "chain": true,
+     "at": [
+      2.2,
+      1
+     ]
+    },
+    {
+     "id": "fa1",
+     "kind": "fa",
+     "chain": true,
+     "at": [
+      3.4,
+      1
+     ]
+    },
+    {
+     "id": "fa0",
+     "kind": "fa",
+     "chain": true,
+     "at": [
+      4.6,
+      1
+     ]
+    },
+    {
+     "id": "A3",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      "fa3.a",
+      -0.2
+     ]
+    },
+    {
+     "id": "B3",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      "fa3.b",
+      -0.2
+     ]
+    },
+    {
+     "id": "A2",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      "fa2.a",
+      -0.2
+     ]
+    },
+    {
+     "id": "B2",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      "fa2.b",
+      -0.2
+     ]
+    },
+    {
+     "id": "A1",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      "fa1.a",
+      -0.2
+     ]
+    },
+    {
+     "id": "B1",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      "fa1.b",
+      -0.2
+     ]
+    },
+    {
+     "id": "A0",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      "fa0.a",
+      -0.2
+     ]
+    },
+    {
+     "id": "B0",
+     "kind": "in",
+     "side": "b",
+     "at": [
+      "fa0.b",
+      -0.2
+     ]
+    },
+    {
+     "id": "c0",
+     "kind": "in",
+     "side": "l",
+     "at": [
+      5.4,
+      "fa0.cin"
+     ]
+    },
+    {
+     "id": "c4",
+     "kind": "out",
+     "side": "r",
+     "at": [
+      0.25,
+      "fa3.cout"
+     ]
+    },
+    {
+     "id": "S3",
+     "kind": "out",
+     "side": "t",
+     "at": [
+      "fa3.s",
+      2.1
+     ]
+    },
+    {
+     "id": "S2",
+     "kind": "out",
+     "side": "t",
+     "at": [
+      "fa2.s",
+      2.1
+     ]
+    },
+    {
+     "id": "S1",
+     "kind": "out",
+     "side": "t",
+     "at": [
+      "fa1.s",
+      2.1
+     ]
+    },
+    {
+     "id": "S0",
+     "kind": "out",
+     "side": "t",
+     "at": [
+      "fa0.s",
+      2.1
+     ]
+    }
+   ],
+   "wires": [
+    [
+     "A3",
+     "fa3.a"
+    ],
+    [
+     "B3",
+     "fa3.b"
+    ],
+    [
+     "A2",
+     "fa2.a"
+    ],
+    [
+     "B2",
+     "fa2.b"
+    ],
+    [
+     "A1",
+     "fa1.a"
+    ],
+    [
+     "B1",
+     "fa1.b"
+    ],
+    [
+     "A0",
+     "fa0.a"
+    ],
+    [
+     "B0",
+     "fa0.b"
+    ],
+    [
+     "c0",
+     "fa0.cin"
+    ],
+    {
+     "from": "fa0.cout",
+     "to": "fa1.cin",
+     "label": "c1"
+    },
+    {
+     "from": "fa1.cout",
+     "to": "fa2.cin",
+     "label": "c2"
+    },
+    {
+     "from": "fa2.cout",
+     "to": "fa3.cin",
+     "label": "c3"
+    },
+    [
+     "fa3.cout",
+     "c4"
+    ],
+    [
+     "fa3.s",
+     "S3"
+    ],
+    [
+     "fa2.s",
+     "S2"
+    ],
+    [
+     "fa1.s",
+     "S1"
+    ],
+    [
+     "fa0.s",
+     "S0"
+    ]
+   ],
+   "path": [
+    "c0",
+    "fa0",
+    "fa1",
+    "fa2",
+    "fa3",
+    "c4"
+   ],
+   "pathColor": "warn",
+   "caption": "The carry ripples right to left through all four stages (highlighted), so the sum is ready only after c3 settles."
+  }
+ },
+ {
+  "name": "circuit — synchronous counter sharing one clock",
+  "note": "Flip-flops: dff (d), tff (t), jkff (j, k), srff (s, r), each with clk (drawn as the clock triangle), q and qn (Q̄). pre:true / clr:true add PRE on top and CLR below; neg:[\"pre\",\"clr\"] makes them active-low; edge:\"neg\" puts a bubble on the clock (falling-edge triggered). The clock is one wire per flip-flop with x = the column of its riser, so each riser sits just left of its clock pin and the shared line gets dots.",
+  "spec": {
+   "type": "circuit",
+   "title": "3-bit synchronous counter (T flip-flops)",
+   "grid": [
+    60,
+    46
+   ],
+   "parts": [
+    {
+     "id": "ff0",
+     "kind": "tff",
+     "label": "FF0",
+     "at": [
+      1.5,
+      1
+     ]
+    },
+    {
+     "id": "ff1",
+     "kind": "tff",
+     "label": "FF1",
+     "at": [
+      3.7,
+      1
+     ]
+    },
+    {
+     "id": "ff2",
+     "kind": "tff",
+     "label": "FF2",
+     "at": [
+      5.9,
+      1
+     ]
+    },
+    {
+     "id": "and",
+     "kind": "and",
+     "at": [
+      4.8,
+      -0.5
+     ]
+    },
+    {
+     "id": "one",
+     "kind": "in",
+     "label": "1",
+     "at": [
+      0.4,
+      "ff0.t"
+     ]
+    },
+    {
+     "id": "CLK",
+     "kind": "in",
+     "at": [
+      0.4,
+      2.3
+     ]
+    }
+   ],
+   "wires": [
+    [
+     "one",
+     "ff0.t"
+    ],
+    {
+     "from": "ff0.q",
+     "to": [
+      "ff1.t",
+      "and.1"
+     ],
+     "label": "Q0"
+    },
+    {
+     "from": "ff1.q",
+     "to": "and.2",
+     "label": "Q1"
+    },
+    [
+     "and",
+     "ff2.t"
+    ],
+    {
+     "from": "CLK",
+     "to": "ff0.clk",
+     "x": 0.8
+    },
+    {
+     "from": "CLK",
+     "to": "ff1.clk",
+     "x": 3.0
+    },
+    {
+     "from": "CLK",
+     "to": "ff2.clk",
+     "x": 5.2
+    }
+   ],
+   "caption": "T0 = 1, T1 = Q0, T2 = Q0·Q1: a flip-flop toggles when every lower bit is 1. All three share one clock."
+  }
+ },
+ {
+  "name": "circuit — every part kind",
+  "note": "A visual index of the kinds (no wires): and, or, xor, not, nand, nor, xnor, buf, or with neg:[1,2], dff with pre/clr, jkff with edge:\"neg\", dec, enc, mux n:4, and a box. Pin names are shown inside the blocks.",
+  "spec": {
+   "type": "circuit",
+   "title": "Every part kind",
+   "grid": [
+    80,
+    50
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "kind": "and",
+     "at": [
+      1,
+      0
+     ]
+    },
+    {
+     "id": "o",
+     "kind": "or",
+     "at": [
+      2.2,
+      0
+     ]
+    },
+    {
+     "id": "x",
+     "kind": "xor",
+     "at": [
+      3.4,
+      0
+     ]
+    },
+    {
+     "id": "n",
+     "kind": "not",
+     "at": [
+      4.6,
+      0
+     ]
+    },
+    {
+     "id": "na",
+     "kind": "nand",
+     "n": 3,
+     "at": [
+      1,
+      1.2
+     ]
+    },
+    {
+     "id": "no",
+     "kind": "nor",
+     "n": 4,
+     "at": [
+      2.2,
+      1.2
+     ]
+    },
+    {
+     "id": "xn",
+     "kind": "xnor",
+     "at": [
+      3.4,
+      1.2
+     ]
+    },
+    {
+     "id": "b",
+     "kind": "buf",
+     "at": [
+      4.6,
+      1.2
+     ]
+    },
+    {
+     "id": "bo",
+     "kind": "or",
+     "neg": [
+      1,
+      2
+     ],
+     "at": [
+      1,
+      2.4
+     ],
+     "label": ""
+    },
+    {
+     "id": "d",
+     "kind": "dff",
+     "at": [
+      2.4,
+      2.6
+     ],
+     "pre": true,
+     "clr": true,
+     "neg": [
+      "pre",
+      "clr"
+     ]
+    },
+    {
+     "id": "jk",
+     "kind": "jkff",
+     "edge": "neg",
+     "at": [
+      3.8,
+      2.6
+     ]
+    },
+    {
+     "id": "dec",
+     "kind": "dec",
+     "n": 2,
+     "en": true,
+     "at": [
+      1.2,
+      4.4
+     ]
+    },
+    {
+     "id": "enc",
+     "kind": "enc",
+     "n": 4,
+     "at": [
+      2.6,
+      4.4
+     ]
+    },
+    {
+     "id": "m4",
+     "kind": "mux",
+     "n": 4,
+     "at": [
+      3.8,
+      4.4
+     ]
+    },
+    {
+     "id": "bx",
+     "kind": "box",
+     "label": "ALU",
+     "pins": {
+      "l": [
+       "a",
+       "b"
+      ],
+      "r": [
+       "y"
+      ],
+      "b": [
+       "op:F"
+      ]
+     },
+     "at": [
+      4.9,
+      4.4
+     ]
+    }
+   ],
+   "wires": [],
+   "caption": "Gates and, or, xor, not; nand (n = 3), nor (n = 4), xnor, buf; or with bubbled inputs, D flip-flop with active-low PRE/CLR, JK on the falling edge; dec, enc, 4:1 mux, a generic box."
+  }
+ },
+ {
+  "name": "wave — counter waveforms, clock with edge marks",
+  "note": "lanes: {name, clk: period in time units, phase: time of the first rising edge (0), inv:true starts with the low half, edges: \"rise\" | \"fall\" | \"both\" draws arrows on the edges}; {name, bits: \"0110x1z\"} with one character per time unit: 0, 1, x (unknown, hatched), z (high impedance, middle line), . (same as before); {gap:true} adds a little space. Every lane spans the same time (t, default the longest string; a shorter lane holds its last value). unit: px per time unit (auto); grid: n or {step, from} draws faint lines; marks: [{t, label, color}] dashed vertical lines across all lanes; color on a lane colours its line. Names may use ~ for a bar: \"~Q\", \"F = A·~B\", \"~{A+B}\".",
+  "spec": {
+   "type": "wave",
+   "title": "3-bit synchronous up counter",
+   "t": 16,
+   "grid": {
+    "step": 2,
+    "from": 1
+   },
+   "lanes": [
+    {
+     "name": "CLK",
+     "clk": 2,
+     "phase": 1,
+     "edges": "rise"
+    },
+    {
+     "name": "Q0",
+     "bits": "0110011001100110"
+    },
+    {
+     "name": "Q1",
+     "bits": "0001111000011110"
+    },
+    {
+     "name": "Q2",
+     "bits": "0000000111111110",
+     "color": "d"
+    },
+    {
+     "gap": true
+    },
+    {
+     "name": "count",
+     "bus": "==.=.=.=.=.=.=.=",
+     "data": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "0"
+     ]
+    }
+   ],
+   "marks": [
+    {
+     "t": 7,
+     "label": "Q2 sets"
+    },
+    {
+     "t": 15,
+     "label": "wraps"
+    }
+   ],
+   "caption": "Q0 toggles on every rising edge, Q1 on edges where Q0 was 1, Q2 on edges where Q1 and Q0 were both 1. The count bus reads Q2 Q1 Q0."
+  }
+ },
+ {
+  "name": "wave — gate delays and a glitch",
+  "note": "arrows: [{from:[lane, time], to:[lane, time], label, color}] with lanes by name or index. Between lanes the arrow points from one edge to the edge it causes (delays); within one lane it becomes a dimension arrow under the lane (periods, pulse widths). axis: true or {step, scale, from, unit} prints times under the lanes (label = from + t × scale).",
+  "spec": {
+   "type": "wave",
+   "title": "Static-0 hazard: A·A' glitches for one inverter delay",
+   "axis": {
+    "step": 1,
+    "unit": "ns"
+   },
+   "unit": 40,
+   "lanes": [
+    {
+     "name": "A",
+     "bits": "0001111111"
+    },
+    {
+     "name": "~A",
+     "bits": "1111000000"
+    },
+    {
+     "name": "F = A·~A",
+     "bits": "0000100000",
+     "color": "bad"
+    }
+   ],
+   "arrows": [
+    {
+     "from": [
+      "A",
+      3
+     ],
+     "to": [
+      "~A",
+      4
+     ],
+     "label": "1 ns (NOT)"
+    },
+    {
+     "from": [
+      "~A",
+      4
+     ],
+     "to": [
+      "F = A·~A",
+      5
+     ],
+     "label": "1 ns (AND)"
+    }
+   ],
+   "marks": [
+    {
+     "t": 3,
+     "label": "A rises"
+    }
+   ],
+   "caption": "F should stay 0, but for 1 ns both inputs of the AND are 1: the NOT gate is still catching up."
+  }
+ },
+ {
+  "name": "wave — bus values, unknown and high-impedance",
+  "note": "bus: \"x=..=.z\" with data:[\"0x3F\", …]: = starts the next value from data, 2–9 start a coloured value (2 = a … 9 = h), x is unknown (hatched), z high impedance, . continues. A value too long for its segment is shrunk, then hidden (it stays in the hover title). The T lane shows a same-lane arrow measuring one clock period.",
+  "spec": {
+   "type": "wave",
+   "title": "Read cycle",
+   "unit": 34,
+   "lanes": [
+    {
+     "name": "CLK",
+     "clk": 4,
+     "phase": 1,
+     "edges": "rise"
+    },
+    {
+     "name": "ADDR",
+     "bus": "x3......x...",
+     "data": [
+      "0x3F"
+     ]
+    },
+    {
+     "name": "~RD",
+     "bits": "11000000111"
+    },
+    {
+     "name": "DATA",
+     "bus": "zzzzx4..z...",
+     "data": [
+      "D7"
+     ]
+    },
+    {
+     "name": "T",
+     "clk": 4,
+     "phase": 1,
+     "color": "e"
+    }
+   ],
+   "arrows": [
+    {
+     "from": [
+      "ADDR",
+      1
+     ],
+     "to": [
+      "DATA",
+      5
+     ],
+     "label": "access time"
+    },
+    {
+     "from": [
+      "T",
+      1
+     ],
+     "to": [
+      "T",
+      5
+     ],
+     "label": "T = 1 clock"
+    }
+   ],
+   "caption": "The address is valid from the first rising edge; data appears on the bus one access time later and the bus floats (z) otherwise."
+  }
+ },
+ {
+  "name": "shapes — geometry: polygon, angles, dimensions",
+  "note": "items are drawn in order; coordinates are user units with y pointing up, and the figure scales to fit (u: px per unit, default 40; w: max width, 560). Kinds: poly {pts, v: vertex labels}, rect {at: lower-left corner, w, h, r: corner radius, v}, circle {c, r}, ellipse {c, rx, ry}, arc {c, r, a: [from°, to°] counter-clockwise from +x, sector: true closes it to the centre}, line {pts, arrow: \"end\" | \"start\" | \"both\"}, text {at, t, size (13), anchor, weight, color}. Style keys on any shape: fill (a–h, a light tint), solid: true (full colour), hatch: true, color (outline), dash: true (fold lines), width (px). angle {at: vertex, from, to: a point on each arm, r: radius in px (18), label, right: true for the square mark, reflex: true}. dim {from, to, label, off: distance from the segment in units, positive = left of from → to}.",
+  "spec": {
+   "type": "shapes",
+   "title": "Triangle with an angle, a right angle and dimensions",
+   "u": 46,
+   "items": [
+    {
+     "kind": "poly",
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       4,
+       0
+      ],
+      [
+       0,
+       3
+      ]
+     ],
+     "fill": "e",
+     "v": [
+      "A",
+      "B",
+      "C"
+     ]
+    },
+    {
+     "kind": "angle",
+     "at": [
+      0,
+      0
+     ],
+     "from": [
+      4,
+      0
+     ],
+     "to": [
+      0,
+      3
+     ],
+     "right": true
+    },
+    {
+     "kind": "angle",
+     "at": [
+      4,
+      0
+     ],
+     "from": [
+      0,
+      3
+     ],
+     "to": [
+      0,
+      0
+     ],
+     "label": "θ",
+     "color": "d"
+    },
+    {
+     "kind": "dim",
+     "from": [
+      0,
+      0
+     ],
+     "to": [
+      4,
+      0
+     ],
+     "label": "4 cm",
+     "off": -0.5
+    },
+    {
+     "kind": "dim",
+     "from": [
+      0,
+      3
+     ],
+     "to": [
+      0,
+      0
+     ],
+     "label": "3 cm",
+     "off": -0.5
+    },
+    {
+     "kind": "text",
+     "at": [
+      2.35,
+      1.75
+     ],
+     "t": "5 cm",
+     "anchor": "start"
+    }
+   ],
+   "caption": "Right angle at A; θ is the angle at B, so tan θ = 3/4."
+  }
+ },
+ {
+  "name": "shapes — figure, rotated, mirrored (groups and transforms)",
+  "note": "group {items, tf, id}; use {ref: a group id, tf} draws that group again. tf is a list applied in order: [\"translate\", dx, dy], [\"rotate\", deg, [cx, cy]] (counter-clockwise, centre optional), [\"scale\", s] or [\"scale\", sx, sy] or [\"scale\", s, [cx, cy]], [\"mirror\", \"v\", x] (in the vertical line through x), [\"mirror\", \"h\", y], [\"mirror\", [x1, y1], [x2, y2]]. def: true on a group defines it without drawing it.",
+  "spec": {
+   "type": "shapes",
+   "title": "Rotate, then mirror",
+   "u": 34,
+   "items": [
+    {
+     "kind": "group",
+     "id": "F",
+     "items": [
+      {
+       "kind": "poly",
+       "pts": [
+        [
+         0,
+         0
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         0,
+         3
+        ]
+       ],
+       "fill": "a"
+      },
+      {
+       "kind": "circle",
+       "c": [
+        0.5,
+        2.5
+       ],
+       "r": 0.25,
+       "solid": true,
+       "color": "d"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "pts": [
+      [
+       3,
+       1.5
+      ],
+      [
+       4.4,
+       1.5
+      ]
+     ],
+     "arrow": "end"
+    },
+    {
+     "kind": "use",
+     "ref": "F",
+     "tf": [
+      [
+       "rotate",
+       -90,
+       [
+        1,
+        1.5
+       ]
+      ],
+      [
+       "translate",
+       5.2,
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "line",
+     "pts": [
+      [
+       8.8,
+       -0.4
+      ],
+      [
+       8.8,
+       3.4
+      ]
+     ],
+     "dash": true,
+     "color": "mute"
+    },
+    {
+     "kind": "use",
+     "ref": "F",
+     "tf": [
+      [
+       "rotate",
+       -90,
+       [
+        1,
+        1.5
+       ]
+      ],
+      [
+       "translate",
+       5.2,
+       1
+      ],
+      [
+       "mirror",
+       "v",
+       8.8
+      ]
+     ]
+    },
+    {
+     "kind": "text",
+     "at": [
+      1,
+      -0.6
+     ],
+     "t": "figure"
+    },
+    {
+     "kind": "text",
+     "at": [
+      6.7,
+      -0.6
+     ],
+     "t": "rotated 90° clockwise"
+    },
+    {
+     "kind": "text",
+     "at": [
+      10.9,
+      -0.6
+     ],
+     "t": "mirror image"
+    }
+   ],
+   "caption": "The second figure is the first turned 90° clockwise; the third is the second reflected in the dashed line."
+  }
+ },
+ {
+  "name": "shapes — cube stacks, a cut cube and dice",
+  "note": "cubes {h: rows of stack heights, back row first, each row left to right; or cells: [[x, y, z] or [x, y, z, colour], …]; at: where the origin cube sits; size; color} draws an isometric stack with shaded faces (hidden faces are skipped). cube {at, size, n: cuts per edge, color} is one big cube cut n × n × n (painted-cube questions). die {n: 1–6, at: centre, size} is a flat die face; die {iso: [top, left, right]} is a die in 3-D: numbers become pips, other text is written on the face.",
+  "spec": {
+   "type": "shapes",
+   "title": "Count the cubes",
+   "u": 38,
+   "items": [
+    {
+     "kind": "cubes",
+     "h": [
+      [
+       3,
+       2,
+       1
+      ],
+      [
+       2,
+       1,
+       1
+      ],
+      [
+       1,
+       1,
+       0
+      ]
+     ],
+     "color": "b"
+    },
+    {
+     "kind": "cube",
+     "at": [
+      5,
+      0
+     ],
+     "size": 3,
+     "n": 3,
+     "color": "c"
+    },
+    {
+     "kind": "die",
+     "iso": [
+      1,
+      2,
+      3
+     ],
+     "at": [
+      9.5,
+      0.6
+     ],
+     "size": 1.6
+    },
+    {
+     "kind": "die",
+     "n": 5,
+     "at": [
+      12.5,
+      0.6
+     ],
+     "size": 1.4
+    },
+    {
+     "kind": "die",
+     "n": 6,
+     "at": [
+      14.4,
+      0.6
+     ],
+     "size": 1.4
+    }
+   ],
+   "caption": "Left: stacks of heights 3, 2, 1 / 2, 1, 1 / 1, 1, 0 (back row first) — 12 cubes. Middle: a cube cut into 27. Right: dice."
+  }
+ },
+ {
+  "name": "shapes — cube net, dotted paper, hatching",
+  "note": "net {cells: [[column, row], …] with row 0 at the top, labels and fills per cell, fill for all, at: top-left corner, size, grid: true draws squared paper around it, fold: true dashes the shared (fold) edges}. grid {x: [from, to], y: [from, to], step, dots: true} draws squared or dotted paper anywhere. Also shown: a hatched polygon, an arc with an arrowhead, a dashed ellipse, a sector and a rounded rectangle.",
+  "spec": {
+   "type": "shapes",
+   "title": "A cube net on a square grid",
+   "u": 34,
+   "items": [
+    {
+     "kind": "net",
+     "cells": [
+      [
+       1,
+       0
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      [
+       3,
+       1
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+     ],
+     "grid": true,
+     "fold": true,
+     "fill": "g"
+    },
+    {
+     "kind": "grid",
+     "x": [
+      6,
+      10
+     ],
+     "y": [
+      -3,
+      0
+     ],
+     "dots": true
+    },
+    {
+     "kind": "poly",
+     "pts": [
+      [
+       6,
+       -3
+      ],
+      [
+       8,
+       -1
+      ],
+      [
+       10,
+       -3
+      ]
+     ],
+     "hatch": true,
+     "fill": "c"
+    },
+    {
+     "kind": "arc",
+     "c": [
+      8,
+      -3
+     ],
+     "r": 1,
+     "a": [
+      0,
+      180
+     ],
+     "arrow": "end",
+     "color": "d"
+    },
+    {
+     "kind": "ellipse",
+     "c": [
+      12,
+      -1.5
+     ],
+     "rx": 1,
+     "ry": 0.6,
+     "fill": "f",
+     "dash": true
+    },
+    {
+     "kind": "arc",
+     "c": [
+      12,
+      -1.5
+     ],
+     "r": 1.3,
+     "a": [
+      20,
+      110
+     ],
+     "sector": true,
+     "fill": "h"
+    },
+    {
+     "kind": "rect",
+     "at": [
+      11,
+      -3.4
+     ],
+     "w": 2,
+     "h": 0.8,
+     "r": 0.2,
+     "fill": "b",
+     "hatch": true
+    }
+   ],
+   "caption": "Fold lines are dashed. Faces 1 and 6, 2 and 4, 3 and 5 end up opposite each other."
+  }
+ },
+ {
+  "name": "shapes — mirror image of text",
+  "note": "Labels stay upright under transforms, unless the text item has flip: true: then the letters are mirrored or rotated with their group, as needed for mirror-image questions.",
+  "spec": {
+   "type": "shapes",
+   "title": "Mirror image of a word",
+   "u": 30,
+   "items": [
+    {
+     "kind": "group",
+     "id": "W",
+     "items": [
+      {
+       "kind": "text",
+       "at": [
+        0,
+        0
+       ],
+       "t": "CA INTER",
+       "size": 22,
+       "anchor": "middle",
+       "flip": true
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "pts": [
+      [
+       4,
+       -0.9
+      ],
+      [
+       4,
+       0.9
+      ]
+     ],
+     "dash": true,
+     "color": "mute"
+    },
+    {
+     "kind": "use",
+     "ref": "W",
+     "tf": [
+      [
+       "mirror",
+       "v",
+       4
+      ]
+     ]
+    },
+    {
+     "kind": "text",
+     "at": [
+      0,
+      -1.3
+     ],
+     "t": "word",
+     "size": 12,
+     "weight": 500
+    },
+    {
+     "kind": "text",
+     "at": [
+      8,
+      -1.3
+     ],
+     "t": "its mirror image (mirror on the dashed line)",
+     "size": 12,
+     "weight": 500
+    }
+   ],
+   "caption": "Text in a group with flip:true is mirrored with it; ordinary labels stay upright."
+  }
+ },
+ {
+  "name": "venn — two sets with probabilities, one region shaded",
+  "note": "sets: 2 or 3 names; universe: true or its label (\"U\", \"S\") draws the box. Regions are named by set expressions: & (and, ∩), | (or, ∪), - (minus), ! or a trailing ' (complement), brackets, and U for everything. regions: {expression: text} writes text in one piece each, e.g. \"A&!B\" (only A), \"A&B\", \"!(A|B)\" (outside both); the text goes where it has the most room and never overlaps. shade: [expressions] in color (default a), or {expression: colour, …}; hatch: true hatches instead of tinting. colors: [colour per set outline]; r: circle radius in px.",
+  "spec": {
+   "type": "venn",
+   "title": "P(A − B)",
+   "sets": [
+    "A",
+    "B"
+   ],
+   "universe": "S",
+   "shade": [
+    "A&!B"
+   ],
+   "regions": {
+    "A&!B": "0.3",
+    "A&B": "0.2",
+    "B&!A": "0.25",
+    "!(A|B)": "0.25"
+   },
+   "caption": "P(A − B) = P(A) − P(A ∩ B) = 0.5 − 0.2 = 0.3."
+  }
+ },
+ {
+  "name": "venn — three sets with counts and coloured outlines",
+  "note": "With three sets each labelled piece names all three: \"Cricket&Football&!Hockey\" is the only-those-two piece; a label whose expression covers two or more pieces is an error. Long set names are fine. A region value can also be {t, color}.",
+  "spec": {
+   "type": "venn",
+   "title": "Survey of 100 students",
+   "sets": [
+    "Cricket",
+    "Football",
+    "Hockey"
+   ],
+   "universe": "U",
+   "regions": {
+    "Cricket&!Football&!Hockey": "18",
+    "Football&!Cricket&!Hockey": "12",
+    "Hockey&!Cricket&!Football": "9",
+    "Cricket&Football&!Hockey": "11",
+    "Cricket&Hockey&!Football": "7",
+    "Football&Hockey&!Cricket": "6",
+    "Cricket&Football&Hockey": "4",
+    "U-(Cricket|Football|Hockey)": "33"
+   },
+   "shade": {
+    "Cricket&Football&!Hockey": "c",
+    "Cricket&Hockey&!Football": "c",
+    "Football&Hockey&!Cricket": "c"
+   },
+   "colors": [
+    "a",
+    "b",
+    "g"
+   ],
+   "caption": "Exactly two sports (shaded): 11 + 7 + 6 = 24 students. The eight numbers add up to 100."
+  }
+ },
+ {
+  "name": "venn — a shaded expression, hatched",
+  "note": "shade takes any expression and fills every piece it covers: here (A ∪ B)' ∩ C, written \"(A|B)'&C\".",
+  "spec": {
+   "type": "venn",
+   "title": "(A ∪ B)' ∩ C, hatched",
+   "sets": [
+    "A",
+    "B",
+    "C"
+   ],
+   "universe": true,
+   "shade": [
+    "(A|B)'&C"
+   ],
+   "hatch": true,
+   "color": "d",
+   "caption": "Inside C but outside both A and B."
+  }
+ },
+ {
+  "name": "venn — no universe box",
+  "note": "Without universe the circles stand alone; the outside piece can still be labelled.",
+  "spec": {
+   "type": "venn",
+   "sets": [
+    "A",
+    "B"
+   ],
+   "shade": {
+    "A&B": "b"
+   },
+   "regions": {
+    "A&B": "A ∩ B"
+   }
+  }
+ },
+ {
+  "name": "plot — bars (pmf / histogram) with value labels and explicit ticks",
+  "note": "A series with bars: true draws vertical bars at each point's x instead of a line; bw: bar width in x units (default 0.6 × the closest spacing; use the bin width for a histogram); values: true writes the value above each bar (a third entry in a point, [x, y, \"1/16\"], replaces the number). xticks / yticks: explicit tick values, numbers or [value, \"label\"] pairs, instead of the automatic ones. Plots without these keys are unchanged.",
+  "spec": {
+   "type": "plot",
+   "title": "Binomial(4, 1/2): P(X = k)",
+   "x": [
+    -0.6,
+    4.6
+   ],
+   "y": [
+    0,
+    0.45
+   ],
+   "h": 250,
+   "xticks": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "yticks": [
+    0,
+    0.125,
+    0.25,
+    0.375
+   ],
+   "series": [
+    {
+     "label": "P(X = k)",
+     "bars": true,
+     "values": true,
+     "color": "b",
+     "pts": [
+      [
+       0,
+       0.0625,
+       "1/16"
+      ],
+      [
+       1,
+       0.25,
+       "4/16"
+      ],
+      [
+       2,
+       0.375,
+       "6/16"
+      ],
+      [
+       3,
+       0.25,
+       "4/16"
+      ],
+      [
+       4,
+       0.0625,
+       "1/16"
+      ]
+     ]
+    }
+   ],
+   "xlabel": "k",
+   "caption": "Bars sit on the x-axis at each k; values:true writes each bar's value (here the third entry of each point, a fraction)."
+  }
+ },
+ {
+  "name": "plot — area under a curve between two x values",
+  "note": "areas: [{under: series number or an expression such as \"exp(-x)\", from, to, color (default the series colour), label (written at the area's centre), hatch: true}] shades between the curve and the x-axis over [from, to] (default the whole x range).",
+  "spec": {
+   "type": "plot",
+   "title": "Standard normal: P(−1 < Z < 1)",
+   "x": [
+    -3.5,
+    3.5
+   ],
+   "y": [
+    0,
+    0.45
+   ],
+   "h": 250,
+   "xticks": [
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3
+   ],
+   "series": [
+    {
+     "label": "φ(z)",
+     "fn": "exp(-(x^2)/2)/sqrt(2*pi)",
+     "color": "a"
+    }
+   ],
+   "areas": [
+    {
+     "under": 0,
+     "from": -1,
+     "to": 1,
+     "label": "0.683"
+    }
+   ],
+   "xlabel": "z",
+   "caption": "The shaded area under the density between −1 and 1 is the probability, about 0.683."
+  }
+ },
+ {
+  "name": "plot — area between two curves",
+  "note": "areas: [{between: [i, j], from, to, …}] shades between series i (above) and series j.",
+  "spec": {
+   "type": "plot",
+   "title": "Area between y = x and y = x²",
+   "x": [
+    0,
+    1.2
+   ],
+   "y": [
+    0,
+    1.3
+   ],
+   "w": 420,
+   "h": 300,
+   "xticks": [
+    0,
+    0.5,
+    1
+   ],
+   "yticks": [
+    0,
+    0.5,
+    1
+   ],
+   "series": [
+    {
+     "label": "y = x",
+     "fn": "x",
+     "color": "a"
+    },
+    {
+     "label": "y = x²",
+     "fn": "x^2",
+     "color": "d"
+    }
+   ],
+   "areas": [
+    {
+     "between": [
+      0,
+      1
+     ],
+     "from": 0,
+     "to": 1,
+     "color": "c",
+     "label": "1/6"
+    }
+   ],
+   "caption": "∫₀¹ (x − x²) dx = 1/2 − 1/3 = 1/6."
+  }
+ },
+ {
+  "name": "plot — a 2-D region (the meeting problem)",
+  "note": "regions: [{pts: [[x, y], …] in data coordinates, color, label, hatch: true, outline: true, dash: true, fill: false}] fills any polygon, e.g. the band |x − y| ≤ 15 inside the 60 × 60 square; a second region with fill:false, outline:true draws the square. Make w and h match for a square plot area.",
+  "spec": {
+   "type": "plot",
+   "title": "Meeting problem: |x − y| ≤ 15",
+   "x": [
+    0,
+    60
+   ],
+   "y": [
+    0,
+    60
+   ],
+   "w": 372,
+   "h": 372,
+   "xticks": [
+    0,
+    15,
+    30,
+    45,
+    60
+   ],
+   "yticks": [
+    0,
+    15,
+    30,
+    45,
+    60
+   ],
+   "regions": [
+    {
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       15,
+       0
+      ],
+      [
+       60,
+       45
+      ],
+      [
+       60,
+       60
+      ],
+      [
+       45,
+       60
+      ],
+      [
+       0,
+       15
+      ]
+     ],
+     "color": "g",
+     "hatch": true,
+     "label": "meet: 7/16",
+     "outline": true
+    },
+    {
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       60,
+       0
+      ],
+      [
+       60,
+       60
+      ],
+      [
+       0,
+       60
+      ]
+     ],
+     "fill": false,
+     "outline": true,
+     "color": "mute"
+    }
+   ],
+   "xlabel": "A arrives (min after 12:00)",
+   "ylabel": "B arrives",
+   "caption": "They meet when the arrival times differ by at most 15 minutes: 1 − (45/60)² = 7/16 of the square."
+  }
+ },
+ {
+  "name": "tree — probability tree with edge labels",
+  "note": "edge on a node labels the edge coming into it from its parent (branch probabilities such as \"3/5\"); the label sits beside the middle of the edge, on its outer side, and moves along the edge if it would touch a node or another label. edgeColor colours that edge and its label (to trace one path). With edge labels the default gaps grow (gapX 30, gapY 74); trees without them are drawn exactly as before.",
+  "spec": {
+   "type": "tree",
+   "title": "Two draws without replacement from 3 red, 2 blue",
+   "root": {
+    "label": "start",
+    "children": [
+     {
+      "label": "R",
+      "edge": "3/5",
+      "edgeColor": "d",
+      "color": "d",
+      "children": [
+       {
+        "label": "RR",
+        "edge": "2/4",
+        "note": "6/20",
+        "edgeColor": "d",
+        "color": "d"
+       },
+       {
+        "label": "RB",
+        "edge": "2/4",
+        "note": "6/20"
+       }
+      ]
+     },
+     {
+      "label": "B",
+      "edge": "2/5",
+      "color": "e",
+      "children": [
+       {
+        "label": "BR",
+        "edge": "3/4",
+        "note": "6/20"
+       },
+       {
+        "label": "BB",
+        "edge": "1/4",
+        "note": "2/20",
+        "color": "e"
+       }
+      ]
+     }
+    ]
+   },
+   "caption": "P(RR) = 3/5 · 2/4 = 6/20. Multiply along a path; the leaf notes add up to 1."
+  }
+ },
+ {
+  "name": "tree — unbalanced probability tree",
+  "note": "Leaves can sit at different depths; note writes a small line under a node (here unused).",
+  "spec": {
+   "type": "tree",
+   "title": "Coin, then a die if heads",
+   "root": {
+    "label": "toss",
+    "children": [
+     {
+      "label": "H",
+      "edge": "1/2",
+      "children": [
+       {
+        "label": "1–2",
+        "edge": "1/3"
+       },
+       {
+        "label": "3–6",
+        "edge": "2/3"
+       }
+      ]
+     },
+     {
+      "label": "T",
+      "edge": "1/2"
+     }
+    ]
+   },
+   "caption": "P(H and 3–6) = 1/2 · 2/3 = 1/3."
+  }
+ },
+ {
+  "name": "er — entities, attributes, an M:N relationship",
+  "note": "Chen notation on a grid: grid: [110, 70] px per column / row (fractions and negatives are fine; the picture is cropped to what is drawn). entities: [{id, label (default the id), at: [column, row], weak, color}]. rels (relationships): [{id, label, at, ident, color, links}] where links are [{to, card, total, role, cardAt, via, elbow, arrow, color}] or the short form [\"Entity\", \"N\", \"total\"]. attrs: [{of (an entity, relationship or attribute id), label, at, id (only needed when other attributes hang off it: a composite attribute), key (underlined), partial (dashed underline), multi (double oval), derived (dashed oval), color, via, elbow}]. total: true draws the double line of total participation. card is any text (1, N, M, (0,N), 1..*), set beside the line near the entity end and clear of every shape (cardAt: 0–1 along the line from the diamond fixes it). Entities are tinted a, relationships c, attributes plain unless color is given.",
+  "spec": {
+   "type": "er",
+   "title": "Students enrol in courses",
+   "entities": [
+    {
+     "id": "Student",
+     "at": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "Course",
+     "at": [
+      3,
+      1
+     ]
+    }
+   ],
+   "rels": [
+    {
+     "id": "Enrols",
+     "at": [
+      1.5,
+      1
+     ],
+     "links": [
+      {
+       "to": "Student",
+       "card": "M",
+       "total": true
+      },
+      {
+       "to": "Course",
+       "card": "N"
+      }
+     ]
+    }
+   ],
+   "attrs": [
+    {
+     "of": "Student",
+     "label": "roll",
+     "key": true,
+     "at": [
+      -0.9,
+      0.2
+     ]
+    },
+    {
+     "id": "name",
+     "of": "Student",
+     "label": "name",
+     "at": [
+      0,
+      -0.1
+     ]
+    },
+    {
+     "of": "name",
+     "label": "first",
+     "at": [
+      -0.6,
+      -1
+     ]
+    },
+    {
+     "of": "name",
+     "label": "last",
+     "at": [
+      0.6,
+      -1
+     ]
+    },
+    {
+     "of": "Student",
+     "label": "phone",
+     "multi": true,
+     "at": [
+      -0.9,
+      2
+     ]
+    },
+    {
+     "of": "Student",
+     "label": "age",
+     "derived": true,
+     "at": [
+      0.3,
+      2.1
+     ]
+    },
+    {
+     "of": "Course",
+     "label": "code",
+     "key": true,
+     "at": [
+      3,
+      0
+     ]
+    },
+    {
+     "of": "Course",
+     "label": "credits",
+     "at": [
+      3.9,
+      1.9
+     ]
+    },
+    {
+     "of": "Enrols",
+     "label": "grade",
+     "at": [
+      1.5,
+      0.05
+     ]
+    }
+   ],
+   "caption": "roll and code are keys; name is composite, phone multivalued, age derived; every student enrols (double line)."
+  }
+ },
+ {
+  "name": "er — weak entity and identifying relationship",
+  "note": "weak: true draws the double rectangle, ident: true the double diamond of the identifying relationship, partial: true the dashed underline of the partial key (discriminator). The weak entity's participation is total (\"total\" in the short link form).",
+  "spec": {
+   "type": "er",
+   "title": "Dependants of an employee",
+   "entities": [
+    {
+     "id": "Employee",
+     "at": [
+      0,
+      0
+     ]
+    },
+    {
+     "id": "Dependent",
+     "at": [
+      3,
+      0
+     ],
+     "weak": true
+    }
+   ],
+   "rels": [
+    {
+     "id": "Has",
+     "at": [
+      1.5,
+      0
+     ],
+     "ident": true,
+     "links": [
+      [
+       "Employee",
+       "1"
+      ],
+      [
+       "Dependent",
+       "N",
+       "total"
+      ]
+     ]
+    }
+   ],
+   "attrs": [
+    {
+     "of": "Employee",
+     "label": "eid",
+     "key": true,
+     "at": [
+      -0.5,
+      -1
+     ]
+    },
+    {
+     "of": "Employee",
+     "label": "ename",
+     "at": [
+      0.5,
+      -1
+     ]
+    },
+    {
+     "of": "Dependent",
+     "label": "dname",
+     "partial": true,
+     "at": [
+      2.5,
+      -1
+     ]
+    },
+    {
+     "of": "Dependent",
+     "label": "relation",
+     "at": [
+      3.6,
+      -1
+     ]
+    }
+   ],
+   "caption": "A dependant is identified by (eid, dname)."
+  }
+ },
+ {
+  "name": "er — specialisation: disjoint, total (circle)",
+  "note": "isa: [{at, super (entity id), subs: [entity ids], kind: \"d\" (disjoint) | \"o\" (overlapping) | any short text such as \"U\", total: true (double line from the superclass), shape: \"circle\" (default) | \"triangle\", label (default the kind letter; ISA for a triangle), color}]. Subclass lines run from the circle to each subclass.",
+  "spec": {
+   "type": "er",
+   "title": "Every person is a student or a faculty member, not both",
+   "entities": [
+    {
+     "id": "Person",
+     "at": [
+      1,
+      0
+     ]
+    },
+    {
+     "id": "Student",
+     "at": [
+      0,
+      2
+     ]
+    },
+    {
+     "id": "Faculty",
+     "at": [
+      2,
+      2
+     ]
+    }
+   ],
+   "isa": [
+    {
+     "at": [
+      1,
+      1
+     ],
+     "super": "Person",
+     "subs": [
+      "Student",
+      "Faculty"
+     ],
+     "kind": "d",
+     "total": true
+    }
+   ],
+   "attrs": [
+    {
+     "of": "Person",
+     "label": "pid",
+     "key": true,
+     "at": [
+      2.1,
+      0
+     ]
+    },
+    {
+     "of": "Student",
+     "label": "cgpa",
+     "at": [
+      0,
+      3
+     ]
+    },
+    {
+     "of": "Faculty",
+     "label": "rank",
+     "at": [
+      2,
+      3
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "name": "er — ISA triangle, overlapping, partial",
+  "note": "shape: \"triangle\" draws the ISA triangle (Korth); its apex turns towards the superclass and subclasses hang from its base. kind writes disjoint / overlapping beside it; without total the line from the superclass is single (partial specialisation).",
+  "spec": {
+   "type": "er",
+   "title": "Accounts may be both kinds",
+   "entities": [
+    {
+     "id": "Account",
+     "at": [
+      1,
+      0
+     ]
+    },
+    {
+     "id": "Savings",
+     "at": [
+      0,
+      2
+     ]
+    },
+    {
+     "id": "Current",
+     "at": [
+      2,
+      2
+     ]
+    }
+   ],
+   "isa": [
+    {
+     "at": [
+      1,
+      1
+     ],
+     "super": "Account",
+     "subs": [
+      "Savings",
+      "Current"
+     ],
+     "shape": "triangle",
+     "kind": "o"
+    }
+   ],
+   "attrs": [
+    {
+     "of": "Savings",
+     "label": "rate",
+     "at": [
+      0,
+      3
+     ]
+    },
+    {
+     "of": "Current",
+     "label": "overdraft",
+     "at": [
+      2,
+      3
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "name": "er — aggregation",
+  "note": "aggregations: [{id, around: [ids of a relationship and its entities], label, pad (default 12), color}] draw a dashed box round them; another relationship links to the box by its id, like an entity.",
+  "spec": {
+   "type": "er",
+   "title": "A manager monitors (employee works on project)",
+   "entities": [
+    {
+     "id": "Employee",
+     "at": [
+      0,
+      0
+     ]
+    },
+    {
+     "id": "Project",
+     "at": [
+      3,
+      0
+     ]
+    },
+    {
+     "id": "Manager",
+     "at": [
+      1.5,
+      2.4
+     ]
+    }
+   ],
+   "rels": [
+    {
+     "id": "WorksOn",
+     "label": "Works on",
+     "at": [
+      1.5,
+      0
+     ],
+     "links": [
+      [
+       "Employee",
+       "M"
+      ],
+      [
+       "Project",
+       "N"
+      ]
+     ]
+    },
+    {
+     "id": "Monitors",
+     "at": [
+      1.5,
+      1.5
+     ],
+     "links": [
+      [
+       "Manager",
+       "1"
+      ],
+      [
+       "WP",
+       "N"
+      ]
+     ]
+    }
+   ],
+   "aggregations": [
+    {
+     "id": "WP",
+     "around": [
+      "Employee",
+      "WorksOn",
+      "Project"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "name": "er — recursive relationship with roles and (min,max)",
+  "note": "via: [[column, row], …] bends a line through those points (right angles when neighbouring points share a row or column); elbow: \"hv\" (across, then up or down) or \"vh\" adds one corner. role writes a role name in italics beside the line; (min,max) pairs are just card text.",
+  "spec": {
+   "type": "er",
+   "title": "Supervision",
+   "entities": [
+    {
+     "id": "Employee",
+     "at": [
+      0,
+      0
+     ]
+    }
+   ],
+   "rels": [
+    {
+     "id": "Supervises",
+     "at": [
+      2,
+      0
+     ],
+     "links": [
+      {
+       "to": "Employee",
+       "card": "(0,N)",
+       "role": "supervisor",
+       "via": [
+        [
+         2,
+         -0.9
+        ],
+        [
+         0,
+         -0.9
+        ]
+       ]
+      },
+      {
+       "to": "Employee",
+       "card": "(0,1)",
+       "role": "supervisee",
+       "via": [
+        [
+         2,
+         0.9
+        ],
+        [
+         0,
+         0.9
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "attrs": [
+    {
+     "of": "Employee",
+     "label": "ssn",
+     "key": true,
+     "at": [
+      -1,
+      0
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "name": "er — arrows for one, elbow connectors",
+  "note": "arrow: true ends a link in an arrowhead at the entity (Korth: the arrow points to the \"one\" side). elbow: \"vh\" / \"hv\" routes a link or an attribute line with one right-angle corner.",
+  "spec": {
+   "type": "er",
+   "title": "Each instructor belongs to one department",
+   "entities": [
+    {
+     "id": "Instructor",
+     "at": [
+      0,
+      0
+     ]
+    },
+    {
+     "id": "Department",
+     "at": [
+      2.2,
+      1.3
+     ]
+    }
+   ],
+   "rels": [
+    {
+     "id": "Member",
+     "label": "Inst_dept",
+     "at": [
+      1.3,
+      0
+     ],
+     "links": [
+      {
+       "to": "Instructor",
+       "card": "0..*",
+       "total": true
+      },
+      {
+       "to": "Department",
+       "card": "1..1",
+       "arrow": true,
+       "elbow": "hv"
+      }
+     ]
+    }
+   ],
+   "attrs": [
+    {
+     "of": "Instructor",
+     "label": "ID",
+     "key": true,
+     "at": [
+      0,
+      1.3
+     ]
+    },
+    {
+     "of": "Department",
+     "label": "dept_name",
+     "key": true,
+     "at": [
+      3.3,
+      1.3
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "name": "plot — vectors and arrows on a curve",
+  "note": "A series with arrow: true (or \"start\" / \"both\") ends in an arrowhead. vectors: [{from (default [0,0]), to, label, color, dash}] draws single arrows in data coordinates (pos places the label: \"above\", \"below\", \"left\", \"right\") — gradients, displacements, eigenvectors. dash: true (or style: \"dashed\") dashes a series; legend: false on a series keeps it out of the legend; the diagram's legend takes \"top-left\" (default), \"top-right\", \"bottom-left\", \"bottom-right\", \"outside\" or \"none\".",
+  "spec": {
+   "type": "plot",
+   "title": "Vector addition",
+   "w": 520,
+   "h": 300,
+   "x": [
+    -1,
+    6
+   ],
+   "y": [
+    -1,
+    5
+   ],
+   "xlabel": "x",
+   "ylabel": "y",
+   "legend": "bottom-right",
+   "clip": true,
+   "series": [
+    {
+     "pts": [
+      [
+       0,
+       0
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     "color": "d",
+     "arrow": true,
+     "label": "u + v"
+    }
+   ],
+   "vectors": [
+    {
+     "to": [
+      4,
+      1
+     ],
+     "label": "u",
+     "color": "a",
+     "pos": "below"
+    },
+    {
+     "from": [
+      4,
+      1
+     ],
+     "to": [
+      5,
+      4
+     ],
+     "label": "v",
+     "color": "b"
+    },
+    {
+     "from": [
+      0,
+      0
+     ],
+     "to": [
+      1,
+      3
+     ],
+     "label": "v",
+     "color": "b",
+     "dash": true
+    }
+   ],
+   "caption": "u = (4, 1), v = (1, 3); the dashed copy of v shows the parallelogram."
+  }
+ },
+ {
+  "name": "plot — hollow markers for a piecewise function",
+  "note": "points: [{x, y, label, pos: \"above\" | \"below\" | \"left\" | \"right\", open: true, color}]. open: true draws a hollow marker — the value the function does not take at a jump. A series takes dots: true (filled) or dots: \"open\" to mark each of its own points; clip: true keeps every curve inside the plot box.",
+  "spec": {
+   "type": "plot",
+   "title": "A jump at x = 2",
+   "w": 520,
+   "h": 290,
+   "x": [
+    -1,
+    5
+   ],
+   "y": [
+    -1,
+    5
+   ],
+   "xlabel": "x",
+   "ylabel": "f(x)",
+   "clip": true,
+   "legend": "none",
+   "series": [
+    {
+     "pts": [
+      [
+       -1,
+       0
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     "color": "a"
+    },
+    {
+     "pts": [
+      [
+       2,
+       1
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     "color": "a"
+    }
+   ],
+   "points": [
+    {
+     "x": 2,
+     "y": 3,
+     "open": true,
+     "label": "limit from the left = 3",
+     "pos": "left"
+    },
+    {
+     "x": 2,
+     "y": 1,
+     "label": "f(2) = 1",
+     "pos": "right"
+    }
+   ],
+   "caption": "The hollow circle is not a value of f; the filled one is."
+  }
+ },
+ {
+  "name": "plot — log-log axes (growth rates)",
+  "note": "xlog / ylog give a logarithmic axis: 2, 10 or true (= 10). The range must be positive. Tick labels are the powers of the base ($10^{6}$ beyond a few digits), and gridlines are drawn at each power; xticks / yticks still override them; clip: true cuts the curves at the box. Straight lines on log-log paper are power laws; a straight line on a log y axis alone is exponential growth.",
+  "spec": {
+   "type": "plot",
+   "title": "n, n log n, n² and 2ⁿ on log-log axes",
+   "w": 540,
+   "h": 320,
+   "x": [
+    1,
+    1000
+   ],
+   "y": [
+    1,
+    1000000000
+   ],
+   "xlog": 10,
+   "ylog": 10,
+   "xlabel": "n",
+   "ylabel": "operations",
+   "legend": "top-left",
+   "series": [
+    {
+     "fn": "x",
+     "label": "n",
+     "color": "a"
+    },
+    {
+     "fn": "x*log2(x)",
+     "label": "n log n",
+     "color": "b"
+    },
+    {
+     "fn": "x^2",
+     "label": "n²",
+     "color": "c"
+    },
+    {
+     "fn": "2^x",
+     "label": "2ⁿ",
+     "color": "d",
+     "dash": true
+    }
+   ],
+   "caption": "Each power of n is a straight line; 2ⁿ leaves the box before n = 30.",
+   "clip": true
+  }
+ },
+ {
+  "name": "graph — self-loops on any side",
+  "note": "loop on a node (\"above\" default, \"below\", \"left\", \"right\") places every self-loop of that node; loop on an edge overrides it for that loop. Left and right loops put their label just past the curve. Other keys as in the DFA example: nodes x, y, shape double, start; edges from, to, label, curve.",
+  "spec": {
+   "type": "graph",
+   "title": "Binary numbers divisible by 3",
+   "w": 480,
+   "h": 170,
+   "nodes": [
+    {
+     "id": "r0",
+     "x": 80,
+     "y": 95,
+     "shape": "double",
+     "start": true
+    },
+    {
+     "id": "r1",
+     "x": 240,
+     "y": 95
+    },
+    {
+     "id": "r2",
+     "x": 390,
+     "y": 95,
+     "loop": "right"
+    }
+   ],
+   "edges": [
+    {
+     "from": "r0",
+     "to": "r0",
+     "label": "0"
+    },
+    {
+     "from": "r0",
+     "to": "r1",
+     "label": "1"
+    },
+    {
+     "from": "r1",
+     "to": "r0",
+     "label": "1"
+    },
+    {
+     "from": "r1",
+     "to": "r2",
+     "label": "0"
+    },
+    {
+     "from": "r2",
+     "to": "r1",
+     "label": "0"
+    },
+    {
+     "from": "r2",
+     "to": "r2",
+     "label": "1"
+    }
+   ],
+   "caption": "State rk: the bits read so far leave remainder k. Reading bit b turns k into 2k + b (mod 3)."
+  }
+ },
+ {
+  "name": "graph — a self-loop steps aside for an edge label",
+  "note": "With no loop key a self-loop sits above its node, unless that would cover another edge's label: then it takes the side (below, right, left) that clears the labels, the other nodes and loops and the figure edge, crossing the fewest lines.",
+  "spec": {
+   "type": "graph",
+   "title": "Control-flow graph of a nested loop",
+   "w": 500,
+   "h": 165,
+   "r": 19,
+   "nodes": [
+    {
+     "id": "B1",
+     "x": 50,
+     "y": 80
+    },
+    {
+     "id": "B2",
+     "x": 170,
+     "y": 80
+    },
+    {
+     "id": "B3",
+     "x": 290,
+     "y": 80
+    },
+    {
+     "id": "B4",
+     "x": 410,
+     "y": 80
+    }
+   ],
+   "edges": [
+    {
+     "from": "B1",
+     "to": "B2"
+    },
+    {
+     "from": "B2",
+     "to": "B3"
+    },
+    {
+     "from": "B3",
+     "to": "B3",
+     "label": "j < n"
+    },
+    {
+     "from": "B3",
+     "to": "B4"
+    },
+    {
+     "from": "B4",
+     "to": "B2",
+     "label": "i < n",
+     "curve": 0.38
+    }
+   ],
+   "caption": "The back edge B4 → B2 and its label run over B3, so B3's loop goes underneath."
+  }
+ },
+ {
+  "name": "tree — multi-line labels and maths in labels",
+  "note": "A label with \\n is set on several lines in a rounded box; levels move apart to fit the tallest box. Text between $...$ in any SVG label (every type) gets sub/superscripts and symbols: x_1, 2^{n}, \\overline{x}, x', \\alpha … \\omega, \\varepsilon, \\le, \\ge, \\ne, \\to, \\cdot, \\times, \\infty, \\emptyset, \\in, \\cup, \\cap, \\neg, \\land, \\lor, \\oplus, \\equiv, \\not\\equiv. A $ right after a letter or digit (a#b$c, $t0) stays a dollar sign. Keys as in the other tree examples: root, children, label, note, hl, highlight, color, r, gapX, gapY.",
+  "spec": {
+   "type": "tree",
+   "title": "Recursion tree of $T(n) = 2T(n/2) + n$",
+   "root": {
+    "label": "$T(n)$\ncost $n$",
+    "children": [
+     {
+      "label": "$T(n/2)$\ncost $n/2$",
+      "children": [
+       {
+        "label": "$T(n/4)$\n$n/4$"
+       },
+       {
+        "label": "$T(n/4)$\n$n/4$"
+       }
+      ]
+     },
+     {
+      "label": "$T(n/2)$\ncost $n/2$",
+      "children": [
+       {
+        "label": "$T(n/4)$\n$n/4$"
+       },
+       {
+        "label": "$T(n/4)$\n$n/4$"
+       }
+      ]
+     }
+    ]
+   },
+   "caption": "Every level costs n in total, and there are log₂ n + 1 levels: Θ(n log n)."
+  }
+ },
+ {
+  "name": "tree — a lone child sits to its side (binary)",
+  "note": "binary: true reads children as [left, right]; null marks a missing child. A node with exactly one child keeps an empty slot as wide as a leaf for the missing one, so the lone child sits clearly to the left or right. gap (px) sets that slot's width (the old look was gap = r).",
+  "spec": {
+   "type": "tree",
+   "title": "BST after inserting 50, 30, 70, 20, 40, 80, 35",
+   "binary": true,
+   "highlight": [
+    "35"
+   ],
+   "root": {
+    "label": "50",
+    "children": [
+     {
+      "label": "30",
+      "children": [
+       {
+        "label": "20"
+       },
+       {
+        "label": "40",
+        "children": [
+         {
+          "label": "35"
+         },
+         null
+        ]
+       }
+      ]
+     },
+     {
+      "label": "70",
+      "children": [
+       null,
+       {
+        "label": "80"
+       }
+      ]
+     }
+    ]
+   },
+   "caption": "35 is the left child of 40; 80 is the right child of 70."
+  }
+ },
+ {
+  "name": "gantt — long lane names",
+  "note": "With lanes: \"by-process\", lane names longer than about 8 characters widen the left margin by themselves (short names keep the usual 64 px). Keys: blocks [{p, from, to, label}], lanes, axis {min, max, step}, marks [{t, label}], arrivals, queue, colors, w.",
+  "spec": {
+   "type": "gantt",
+   "title": "DMA cycle stealing",
+   "lanes": "by-process",
+   "w": 600,
+   "axis": {
+    "max": 12,
+    "step": 1
+   },
+   "blocks": [
+    {
+     "p": "CPU",
+     "from": 0,
+     "to": 3
+    },
+    {
+     "p": "DMA controller",
+     "from": 3,
+     "to": 4,
+     "label": "w1"
+    },
+    {
+     "p": "CPU",
+     "from": 4,
+     "to": 7
+    },
+    {
+     "p": "DMA controller",
+     "from": 7,
+     "to": 8,
+     "label": "w2"
+    },
+    {
+     "p": "CPU",
+     "from": 8,
+     "to": 12
+    },
+    {
+     "p": "Disk buffer",
+     "from": 0,
+     "to": 8,
+     "label": "filling"
+    }
+   ]
+  }
+ },
+ {
+  "name": "flow — decision questions of any length",
+  "note": "A decision diamond grows until its text keeps a margin from the edges; a question longer than about 22 characters is set on two lines (split outside brackets and maths), or write your own \\n. Keys: nodes [{id, label, kind: process | decision | start | end | io, color}], edges [[from, to, label]] or {from, to, label}, gapY, w.",
+  "spec": {
+   "type": "flow",
+   "title": "Is the language regular?",
+   "nodes": [
+    {
+     "id": "s",
+     "label": "A language L",
+     "kind": "start"
+    },
+    {
+     "id": "q1",
+     "label": "Can a DFA with finitely many states decide it?",
+     "kind": "decision"
+    },
+    {
+     "id": "r",
+     "label": "Regular",
+     "kind": "end",
+     "color": "g"
+    },
+    {
+     "id": "q2",
+     "label": "Does the pumping lemma fail for some $p$?",
+     "kind": "decision"
+    },
+    {
+     "id": "n",
+     "label": "Not regular",
+     "kind": "end",
+     "color": "bad"
+    },
+    {
+     "id": "t",
+     "label": "Try closure properties",
+     "kind": "process"
+    }
+   ],
+   "edges": [
+    [
+     "s",
+     "q1"
+    ],
+    [
+     "q1",
+     "r",
+     "yes"
+    ],
+    [
+     "q1",
+     "q2",
+     "not sure"
+    ],
+    [
+     "q2",
+     "n",
+     "yes"
+    ],
+    [
+     "q2",
+     "t",
+     "no"
+    ]
+   ]
+  }
+ },
+ {
+  "name": "graph — maths in labels (ε-NFA)",
+  "note": "Node and edge labels with $...$: $q_0$, $\\varepsilon$, $a, b$. Plain labels are drawn exactly as before.",
+  "spec": {
+   "type": "graph",
+   "title": "An ε-NFA for $a^*b$",
+   "w": 460,
+   "h": 160,
+   "nodes": [
+    {
+     "id": "0",
+     "label": "$q_0$",
+     "x": 70,
+     "y": 90,
+     "start": true
+    },
+    {
+     "id": "1",
+     "label": "$q_1$",
+     "x": 230,
+     "y": 90
+    },
+    {
+     "id": "2",
+     "label": "$q_2$",
+     "x": 390,
+     "y": 90,
+     "shape": "double"
+    }
+   ],
+   "edges": [
+    {
+     "from": "0",
+     "to": "0",
+     "label": "$a$"
+    },
+    {
+     "from": "0",
+     "to": "1",
+     "label": "$\\varepsilon$"
+    },
+    {
+     "from": "1",
+     "to": "2",
+     "label": "$b$"
+    },
+    {
+     "from": "2",
+     "to": "2",
+     "label": "$\\emptyset$",
+     "loop": "right",
+     "style": "dashed"
+    }
+   ],
+   "caption": "The dashed loop is only there to show a symbol on a right-hand loop."
+  }
+ },
+ {
+  "name": "nest — block scopes in C (static scoping)",
+  "note": "root: a box {id, title, note, lines, rows, children, dir, color, hl, dash, mono}; lines are mono text (mono: false on a box sets them in the ordinary font; a string, or {t, hl, color} to mark one line); rows are [key, value] pairs (or {k, v, hl}). dir \"h\" puts a box's children side by side (default \"v\": stacked). Colours a-h (default: by depth). arrows [{from, to, label, side: \"right\" | \"left\", straight, color, dash}]: from / to are box ids, or \"id.2\" for the 2nd line or row of a box. Side arrows run round the margin; straight ones join the facing edges. Top level: root (or boxes, a list of boxes with no frame), dir (default for every box), highlight (box ids), w (minimum width), title, caption.",
+  "spec": {
+   "type": "nest",
+   "title": "Which x does the block use?",
+   "root": {
+    "id": "g",
+    "title": "file scope",
+    "lines": [
+     "int x = 1;"
+    ],
+    "dir": "h",
+    "children": [
+     {
+      "id": "f",
+      "title": "void f(void)",
+      "lines": [
+       "int x = 2;"
+      ],
+      "children": [
+       {
+        "id": "blk",
+        "title": "{ block }",
+        "lines": [
+         {
+          "t": "int y = x + 1;",
+          "hl": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "m",
+      "title": "int main(void)",
+      "lines": [
+       "f();",
+       "return x;"
+      ]
+     }
+    ]
+   },
+   "arrows": [
+    {
+     "from": "blk.1",
+     "to": "f.1",
+     "side": "left",
+     "label": "nearest x",
+     "color": "d"
+    },
+    {
+     "from": "m.2",
+     "to": "g.1",
+     "label": "x = 1",
+     "color": "b"
+    }
+   ],
+   "caption": "Name lookup walks outwards from the innermost block: y = 3, while main returns the global x = 1."
+  }
+ },
+ {
+  "name": "nest — call stack with static and dynamic links",
+  "note": "boxes (instead of root) lists top-level boxes with no frame round them. A box id or \"id.n\" anchors an arrow; arrows on the same side get their own lanes. hl marks the running frame.",
+  "spec": {
+   "type": "nest",
+   "title": "Static vs dynamic scoping: main calls g, g calls f",
+   "boxes": [
+    {
+     "id": "f",
+     "title": "f()",
+     "note": "top",
+     "hl": true,
+     "lines": [
+      "print(x);"
+     ],
+     "color": "c"
+    },
+    {
+     "id": "g",
+     "title": "g()",
+     "rows": [
+      [
+       "x",
+       "20"
+      ],
+      [
+       "return to",
+       "main"
+      ]
+     ],
+     "color": "b"
+    },
+    {
+     "id": "m",
+     "title": "main() and globals",
+     "rows": [
+      [
+       "x",
+       "10"
+      ]
+     ],
+     "color": "a"
+    }
+   ],
+   "arrows": [
+    {
+     "from": "f",
+     "to": "g.1",
+     "label": "dynamic link: x = 20",
+     "color": "d",
+     "dash": true
+    },
+    {
+     "from": "f",
+     "to": "m.1",
+     "side": "left",
+     "label": "static link: x = 10",
+     "color": "g"
+    }
+   ],
+   "caption": "Static scoping follows f's definition (globals) and prints 10; dynamic scoping follows the caller and prints 20."
+  }
+ },
+ {
+  "name": "nest — memory segments of a process",
+  "note": "A note sits at the right of the title bar (addresses, sizes). rows align their values in one column.",
+  "spec": {
+   "type": "nest",
+   "title": "Where each variable lives",
+   "w": 420,
+   "root": {
+    "title": "process address space",
+    "color": "mute",
+    "children": [
+     {
+      "title": "stack",
+      "note": "high addresses",
+      "rows": [
+       [
+        "n",
+        "main's local"
+       ],
+       [
+        "ret addr",
+        "0x4005d6"
+       ]
+      ],
+      "color": "a"
+     },
+     {
+      "title": "heap",
+      "rows": [
+       [
+        "*p",
+        "malloc(16)"
+       ]
+      ],
+      "color": "b"
+     },
+     {
+      "title": ".bss",
+      "rows": [
+       [
+        "count",
+        "0 (uninitialised global)"
+       ]
+      ],
+      "color": "c"
+     },
+     {
+      "title": ".data",
+      "rows": [
+       [
+        "limit",
+        "100"
+       ]
+      ],
+      "color": "d",
+      "hl": true
+     },
+     {
+      "title": ".text",
+      "note": "low addresses",
+      "lines": [
+       "main, f, printf"
+      ],
+      "color": "e"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "name": "nest — set containment (Chomsky hierarchy)",
+  "note": "Nested boxes as a containment picture when circles would not fit: each box lies inside its superset. mono: false (set on every box here) uses the ordinary font for lines and notes; titles and lines may use $maths$.",
+  "spec": {
+   "type": "nest",
+   "title": "Every class lies inside the one around it",
+   "root": {
+    "title": "recursively enumerable",
+    "note": "Turing machines",
+    "lines": [
+     "L = {⟨M⟩ : M halts on ε}"
+    ],
+    "children": [
+     {
+      "title": "context-sensitive",
+      "note": "linear bounded automata",
+      "lines": [
+       "$a^n b^n c^n$"
+      ],
+      "children": [
+       {
+        "title": "context-free",
+        "note": "pushdown automata",
+        "lines": [
+         "$a^n b^n$, palindromes"
+        ],
+        "children": [
+         {
+          "title": "regular",
+          "note": "finite automata",
+          "lines": [
+           "$(ab)^*$, strings ending in 01"
+          ],
+          "hl": true,
+          "mono": false
+         }
+        ],
+        "mono": false
+       }
+      ],
+      "mono": false
+     }
+    ],
+    "mono": false
+   }
+  }
+ },
+ {
+  "name": "plot — break-even chart (CA)",
+  "note": "Sales and total cost lines from their formulas; points mark the BEP. Ticks of 10,000 and above use Indian grouping (10,00,000) automatically; the left margin grows to fit them. Give your own xticks / yticks as [value, \"label\"] pairs for lakh labels.",
+  "spec": {
+   "type": "plot",
+   "title": "Tapri premix: break-even chart",
+   "x": [
+    0,
+    10000
+   ],
+   "y": [
+    0,
+    1000000
+   ],
+   "xlabel": "boxes sold",
+   "ylabel": "amount (₹)",
+   "series": [
+    {
+     "label": "sales",
+     "fn": "100*x",
+     "color": "a"
+    },
+    {
+     "label": "total cost",
+     "fn": "200000+60*x",
+     "color": "d"
+    },
+    {
+     "label": "fixed cost",
+     "fn": "200000",
+     "color": "mute",
+     "dash": true
+    }
+   ],
+   "points": [
+    {
+     "x": 5000,
+     "y": 500000,
+     "label": "BEP: 5,000 boxes",
+     "pos": "right"
+    }
+   ],
+   "caption": "Contribution ₹40 a box pays the ₹2,00,000 fixed cost at 5,000 boxes."
+  }
+ },
+ {
+  "name": "tree — variance tree (CA)",
+  "note": "A tree with notes under nodes: the total variance splits into its parts; color marks Fav (ok) and Adv (bad) - say so in the caption, never by colour alone.",
+  "spec": {
+   "type": "tree",
+   "title": "Material cost variance",
+   "root": {
+    "label": "Cost variance\n₹3,000 A",
+    "color": "bad",
+    "children": [
+     {
+      "label": "Price variance\n₹2,000 A",
+      "color": "bad"
+     },
+     {
+      "label": "Usage variance\n₹1,000 A",
+      "color": "bad",
+      "children": [
+       {
+        "label": "Mix\n₹500 F",
+        "color": "ok"
+       },
+       {
+        "label": "Yield\n₹1,500 A",
+        "color": "bad"
+       }
+      ]
+     }
+    ]
+   },
+   "caption": "Green: favourable (F); rose: adverse (A). Each pair of children adds up to its parent."
+  }
+ },
+ {
+  "name": "table — cost sheet format (CA)",
+  "note": "An ICAI pro-forma as a table: align sets each column's alignment (amounts right); cells colours cells (here the subtotal rows, hl). For formats in running text a markdown table (| … |, ---: right-aligns) is usually simpler; use this spec inside labs, folds and answers.",
+  "spec": {
+   "type": "table",
+   "title": "Cost sheet (per unit and total)",
+   "head": [
+    "Particulars",
+    "Per unit (₹)",
+    "Total (₹)"
+   ],
+   "rows": [
+    [
+     "Direct materials",
+     "40",
+     "4,00,000"
+    ],
+    [
+     "Direct employee cost",
+     "25",
+     "2,50,000"
+    ],
+    [
+     "Prime cost",
+     "65",
+     "6,50,000"
+    ],
+    [
+     "Factory overheads",
+     "45",
+     "4,50,000"
+    ],
+    [
+     "Works cost",
+     "110",
+     "11,00,000"
+    ]
+   ],
+   "cells": {
+    "2,0": "hl",
+    "2,1": "hl",
+    "2,2": "hl",
+    "4,0": "hl",
+    "4,1": "hl",
+    "4,2": "hl"
+   },
+   "align": [
+    "left",
+    "right",
+    "right"
+   ]
+  }
+ },
+ {
+  "name": "flow — audit opinion decision (CA)",
+  "note": "Decisions with yes/no edges; end nodes coloured by outcome. Long questions wrap on two lines by themselves.",
+  "spec": {
+   "type": "flow",
+   "title": "SA 705: which opinion?",
+   "nodes": [
+    {
+     "id": "s",
+     "kind": "start",
+     "label": "Misstatement or no sufficient evidence"
+    },
+    {
+     "id": "m",
+     "kind": "decision",
+     "label": "Material?"
+    },
+    {
+     "id": "u",
+     "kind": "end",
+     "label": "Unmodified",
+     "color": "ok"
+    },
+    {
+     "id": "p",
+     "kind": "decision",
+     "label": "Pervasive?"
+    },
+    {
+     "id": "q",
+     "kind": "end",
+     "label": "Qualified",
+     "color": "c"
+    },
+    {
+     "id": "a",
+     "kind": "end",
+     "label": "Adverse or disclaimer",
+     "color": "bad"
+    }
+   ],
+   "edges": [
+    [
+     "s",
+     "m"
+    ],
+    [
+     "m",
+     "u",
+     "no"
+    ],
+    [
+     "m",
+     "p",
+     "yes"
+    ],
+    [
+     "p",
+     "q",
+     "no"
+    ],
+    [
+     "p",
+     "a",
+     "yes"
+    ]
+   ]
+  }
+ },
+ {
+  "name": "seq — communications with those charged with governance (CA)",
+  "note": "Lanes are the parties; arrows are communications in order; a box on a lane is something a party does.",
+  "spec": {
+   "type": "seq",
+   "title": "Auditor, management and TCWG",
+   "lanes": [
+    "Auditor",
+    "Management",
+    "TCWG"
+   ],
+   "events": [
+    {
+     "from": "Auditor",
+     "to": "Management",
+     "text": "requests written representations"
+    },
+    {
+     "from": "Management",
+     "to": "Auditor",
+     "text": "representation letter"
+    },
+    {
+     "lane": "Auditor",
+     "text": "evaluates deficiencies"
+    },
+    {
+     "from": "Auditor",
+     "to": "TCWG",
+     "text": "significant deficiencies in writing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "layers — strategy levels (CA)",
+  "note": "Top to bottom; note and right give a second and third column.",
+  "spec": {
+   "type": "layers",
+   "title": "Levels of strategy",
+   "layers": [
+    {
+     "label": "Corporate level",
+     "note": "which businesses to be in",
+     "right": "board, MD"
+    },
+    {
+     "label": "Business level",
+     "note": "how to compete in one business",
+     "right": "business heads"
+    },
+    {
+     "label": "Functional level",
+     "note": "how each function supports it",
+     "right": "managers"
+    }
+   ]
+  }
+ }
+]

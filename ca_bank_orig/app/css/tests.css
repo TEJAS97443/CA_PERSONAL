@@ -1,0 +1,565 @@
+/* PassBook — tests styles (owner: WP10, audit wave 1): the Tests hub (start-here hero, mock options, year grid of past papers, attempts),
+   the runner (exam mode, palette, the docked calculator, the phone exam bar and action row) and the result page. The hub, runner and result
+   sections were moved here from views.css ("== tests: hub ==", "== tests: runner (exam mode) ==", "== tests: result =="); the runner now uses
+   its own .xm-* classes (P1-28), so views.css's old .ex-* copy no longer applies to it, and the hub and result rules here win at equal
+   specificity because this sheet loads after views.css. Part B adds the CBT palette shapes (.pg), the briefing card (.xb-*), the NAT keypad
+   (.np), the phone calculator grid (.exc-grid), the two-half result hero and its strip, and a forced-colors block. Tokens only
+   (docs/FRONTEND_V3_SPEC.md §1). Contract: docs/ARCHITECTURE.md §10. */
+
+/* == tests: hub == */
+.th { gap: 22px; }
+/* the start-here hero (P1-30, D21): the approved two-half card, the one coral on the left and a solid cobalt half (blueprint or trend) */
+.th-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .95fr); background: var(--surface); border-radius: var(--r-xl); overflow: hidden; box-shadow: var(--lift); min-height: 296px; }
+.th-hl { padding: 30px 34px 30px; display: flex; flex-direction: column; min-width: 0; }
+.th-eye { display: flex; align-items: center; gap: 9px; margin: 0; font-weight: 700; font-size: 13.5px; color: var(--muted); }
+.th-eye .dot { width: 9px; height: 9px; border-radius: 3px; background: var(--accent); flex: none; }
+.th-hero h2 { font-size: clamp(30px, 1.6vw + 18px, 42px); line-height: 1.04; font-weight: 700; letter-spacing: -.042em; margin: 14px 0 10px; text-wrap: balance; }
+.th-hm { margin: 0; font-size: 15.5px; color: var(--ink-2); font-weight: 600; line-height: 1.5; max-width: 560px; }
+.th-hn { margin: 10px 0 0; font-size: 14px; color: var(--muted); line-height: 1.55; max-width: 560px; }
+.th-hn b { color: var(--ink); font-weight: 750; font-variant-numeric: tabular-nums; }
+.th-cta { display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; margin-top: auto; padding-top: 24px; }
+.th .btn.lg { flex: none; }
+.th-link { display: inline-flex; align-items: center; gap: 6px; font: 700 14px/1.3 var(--font-ui); color: var(--ink); background: none; border: 0; border-radius: 0; padding: 2px 0; border-bottom: 2px solid var(--accent); cursor: pointer; text-align: left; }
+.th-link:hover { color: var(--accent); }
+.th-link:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.th-link[disabled] { opacity: .5; cursor: progress; }
+.th-hr { --th-cobalt: var(--accent); background: var(--panel); color: var(--panel-ink); --accent-ink: var(--panel-ink); padding: 22px 24px 20px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.th-cap { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2px 10px; font-weight: 700; font-size: 13px; min-height: 24px; }
+.th-cap > span:first-child { min-width: 0; }
+.th-cap .mono { font: 600 12px var(--font-mono); opacity: .88; white-space: nowrap; }
+.th-bpx { flex: 1 1 auto; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.th-bpx > div { background: var(--surface); color: var(--ink); border-radius: var(--r); padding: 14px 14px 13px; display: grid; grid-template-rows: 1fr auto auto; gap: 5px; align-content: stretch; min-width: 0; }
+.th-bpx small span { white-space: nowrap; }
+.th-bpx b { font-size: 46px; font-weight: 700; letter-spacing: -.025em; line-height: 1; }
+.th-bpx span { font-size: 13px; font-weight: 750; line-height: 1.3; }
+.th-bpx small { font: 600 11.5px/1.45 var(--font-mono); color: var(--muted); }
+.th-bpf { margin: auto 0 0; font-size: 13px; line-height: 1.5; font-weight: 600; opacity: .94; }
+.th-big { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.th-big b { font-size: 58px; font-weight: 700; letter-spacing: -.025em; line-height: 1; }
+.th-big span { font-size: 14px; font-weight: 650; opacity: .92; }
+/* the trend sits on its own surface tile inside the cobalt half (like the blueprint tiles and Home's inner card), so the hero stays near the
+   approved saturation of a first screen (spec §1: about 13.7–15 % at 1440 px) */
+.th-chart { flex: 1 1 auto; display: grid; align-items: end; border-radius: var(--r); background: var(--surface); color: var(--ink); padding: 10px 12px 2px 4px; }
+.th-chart .chart { display: block; overflow: visible; }
+/* the in-progress panel: Resume is then the only coral and no hero is drawn */
+.th-resume { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; box-shadow: var(--lift), inset 0 0 0 2px var(--accent-soft-2); }
+.th-resume .grow { flex: 1 1 260px; min-width: 0; display: grid; gap: 4px; } .th-resume .grow > b { font-size: 17px; font-weight: 700; letter-spacing: -.02em; }
+.th-ri { width: 48px; height: 48px; border-radius: 15px; display: grid; place-items: center; background: var(--accent-soft-2); color: var(--accent); flex: none; } .th-ri svg.i { width: 24px; height: 24px; }
+.th-rm { display: flex; gap: 16px; font-size: 13px; color: var(--muted); font-weight: 550; } .th-rm b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.th-resume .bar { max-width: 360px; margin-top: 4px; }
+/* mock options · subject or topic test, side by side (neutral) */
+.th-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; align-items: stretch; }
+.th-card { display: flex; flex-direction: column; gap: 12px; padding: 22px; }
+.th-ch { display: flex; align-items: center; gap: 12px; }
+.th-card h2 { font-size: 19px; font-weight: 700; letter-spacing: -.025em; margin: 0; }
+.th-card > p { margin: 0; font-size: 14px; color: var(--muted); line-height: 1.55; }
+.th-ic { width: 42px; height: 42px; border-radius: 13px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); flex: none; } .th-ic svg.i { width: 21px; height: 21px; }
+.th-opts, .th-form { display: grid; gap: 10px; }
+.th-card .field.row { display: flex; align-items: center; gap: 10px; font-size: 13.5px; font-weight: 600; }
+.th-card > .btn { margin-top: auto; width: 100%; }
+.th-card .seg { width: 100%; } .th-card .seg button { flex: 1; justify-content: center; }
+.th-lab { display: block; font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+.th-meta { margin: 0; font-size: 12.5px; color: var(--muted); font-weight: 550; }
+.th-card > .th-use { padding-top: 2px; }
+/* past papers: a year grid, 2026 → 2011; each set is a quiet button with your best (the coral stays in the hero) */
+.th-years { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.th-yr { background: var(--surface); border-radius: var(--r-lg); box-shadow: var(--lift); padding: 14px 14px 14px 16px; display: grid; gap: 11px; align-content: start; min-width: 0; }
+.th-yh { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; min-width: 0; }
+.th-yh b { font-size: 26px; font-weight: 700; letter-spacing: -.025em; line-height: 1; }
+.th-yh span { font-size: 12.5px; color: var(--muted); font-weight: 600; text-align: right; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.th-sets { display: flex; flex-wrap: wrap; gap: 8px; }
+.th-set { flex: 1 1 0; min-width: 62px; min-height: 44px; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 6px 8px;
+  border: 0; border-radius: var(--r-sm); background: var(--surface-2); color: var(--ink); font: 700 13.5px/1.15 var(--font-ui); cursor: pointer; box-shadow: inset 0 0 0 1.5px var(--line);
+  transition: background-color .15s, box-shadow .15s, transform .12s; }
+.th-set:hover { background: var(--accent-soft); box-shadow: inset 0 0 0 1.5px var(--accent); }
+.th-set:active { transform: scale(.97); }
+.th-set:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.th-set[disabled] { opacity: .55; cursor: progress; }
+.th-set small { font: 600 11.5px/1.2 var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.th-set small.warn { color: var(--warn); }
+.th-old { margin-top: 12px; background: var(--surface); border-radius: var(--r-lg); box-shadow: var(--lift); }
+.th-old > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; padding: 14px 16px; align-items: center; border-radius: var(--r-lg); }
+.th-old > summary::-webkit-details-marker { display: none; }
+.th-old > summary:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.th-old > summary > span { font-weight: 750; font-size: 14.5px; }
+.th-old > summary > small { grid-column: 1; font-size: 12.5px; color: var(--muted); font-weight: 550; }
+.th-old > summary > svg.i { grid-column: 2; grid-row: 1 / span 2; width: 20px; height: 20px; color: var(--muted); transition: transform .2s; }
+.th-old[open] > summary > svg.i { transform: rotate(180deg); }
+.th-oldl { list-style: none; margin: 0; padding: 0 16px 10px; display: grid; }
+.th-oldl li { display: flex; align-items: center; justify-content: space-between; gap: 8px 14px; padding: 11px 0; border-top: 1px solid var(--line); flex-wrap: wrap; }
+.th-oldl li > span { display: grid; gap: 2px; min-width: 0; } .th-oldl li b { font-weight: 700; font-size: 14px; } .th-oldl small { font-size: 12.5px; color: var(--muted); font-weight: 550; }
+/* your attempts: the full-length trend (when the hero does not show it) and the last five, the rest folded */
+.th-att { display: grid; gap: 12px; padding: 8px 8px 6px; }
+.th-sp { display: grid; gap: 4px; justify-items: end; }
+.th-spark { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 10px 12px 0; flex-wrap: wrap; }
+.th-spark > div { display: grid; } .th-spark b { font-size: 30px; font-weight: 700; letter-spacing: -.025em; line-height: 1.1; }
+.th-spark svg { max-width: 100%; }
+.th .t td, .tr .t td { vertical-align: middle; } .th .t .nw { white-space: nowrap; color: var(--muted); }
+.th-tl { color: var(--ink); text-decoration: none; border-bottom: 1.5px solid color-mix(in srgb, var(--accent) 45%, transparent); }
+.th-tl:hover { color: var(--accent); border-bottom-color: var(--accent); }
+@media (max-width: 700px) { .th-tl { position: relative; } .th-tl::after { content: ''; position: absolute; inset: -8px -4px; } }   /* a ≥34 px hit area without growing the text (P2-54) */
+.th-more > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; margin: 2px 10px 6px; font-weight: 700; font-size: 13.5px; color: var(--ink-2); }
+.th-more > summary::-webkit-details-marker { display: none; }
+.th-more > summary svg.i { width: 16px; height: 16px; transition: transform .2s; } .th-more[open] > summary svg.i { transform: rotate(180deg); }
+.t small.sp { display: none; }
+@media (max-width: 1100px) { .th-hero { grid-template-columns: minmax(0, 1fr) minmax(0, .9fr); } .th-bpx b { font-size: 38px; } }
+@media (max-width: 900px) {
+  .th-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .th-row { grid-template-columns: minmax(0, 1fr); }
+  .th-years { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .th-hl { padding: 22px 20px 22px; }
+  .th-hero { border-radius: var(--r-lg); }
+  .th-hero h2 { font-size: 32px; margin: 10px 0 8px; }
+  .th-hm { font-size: 15px; } .th-hn { font-size: 13.5px; }
+  .th-cta { padding-top: 18px; } .th-cta .btn.lg { width: 100%; }
+  .th-hr { padding: 18px 16px 16px; gap: 12px; }
+  .th-bpx { gap: 8px; } .th-bpx > div { padding: 11px 10px 10px; border-radius: 14px; } .th-bpx b { font-size: 32px; } .th-bpx span { font-size: 12px; } .th-bpx small { font-size: 10.5px; }
+  .th-big b { font-size: 46px; }
+  .th-card { padding: 18px; }
+  .th-years { gap: 10px; } .th-yr { padding: 12px; gap: 9px; } .th-yh { flex-direction: column; align-items: flex-start; gap: 3px; } .th-yh span { text-align: left; max-width: 100%; }
+  .th-set { min-width: 54px; padding: 6px 4px; font-size: 13px; }
+  .t .hp { display: none; } .t small.sp { display: block; color: var(--muted); font-size: 12px; font-weight: 550; margin-top: 2px; } .th-sp { justify-items: start; }
+}
+@media (prefers-reduced-motion: reduce) { .th-set, .th-old > summary > svg.i, .th-more > summary svg.i { transition: none; } }
+
+/* == tests: runner (exam mode, P1-28) == */
+body.in-exam .tabbar { display: none !important; }
+/* focus never lands under the action row or the exam bar (also at 200 % zoom) */
+:root:has(body.in-exam) { scroll-padding-bottom: 96px; }
+.xm { gap: 16px; }
+.xm-head h1 { font-size: clamp(24px, 2.6vw, 32px); }
+.xm-hacts { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.xm-tabs button { min-width: 120px; justify-content: center; gap: 7px; }
+.xm-tc { font: 650 11.5px var(--font-mono); font-variant-numeric: tabular-nums; opacity: .8; }
+/* the variables the runner's bars and the calculator share (on :root, so the scroll-padding rules can read them): the action row's height,
+   the sticky exam bar's height above 980 px; the runner sets --calc-h / --calc-w (the open calculator's size) on <html> */
+:root { --xm-act-h: 64px; --xm-stick: 0px; }
+.xm-bar, .xm-scrim, .xm-sh .xm-x, .xm-st { display: none; }
+.xm-q { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; min-width: 0; position: relative; }
+#qhost { min-width: 0; } #qhost:focus { outline: none; }
+.xm-q .qc { padding: 24px 28px 18px; } .xm-q .qc .qc-body.md { font-size: 17.5px; }
+.xm-act { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 10px; border-radius: var(--r-lg); background: var(--surface); position: sticky; bottom: 12px; z-index: 5;
+  box-shadow: 0 0 0 1px var(--line), 0 14px 34px -22px color-mix(in srgb, var(--ink) 55%, transparent); }
+.xm-act #next { margin-left: auto; }
+.xm-act .s { display: none; }
+.xm-act.off { opacity: .5; }
+.xm-paused { min-height: 300px; display: grid; place-items: center; text-align: center; background: var(--surface); border-radius: var(--r-xl); box-shadow: var(--lift); padding: 30px; }
+.xm-paused[hidden] { display: none; }
+.xm-paused > div { display: grid; justify-items: center; gap: 8px; } .xm-paused > div > svg.i { width: 34px; height: 34px; color: var(--accent); } .xm-paused b { font-size: 22px; font-weight: 700; letter-spacing: -.03em; } .xm-paused p { color: var(--muted); margin: 0 0 8px; }
+.xm-side { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; position: sticky; top: calc(var(--nav-h, 68px) + 14px); max-height: calc(100vh - var(--nav-h, 68px) - 28px); overflow: auto; overscroll-behavior: contain; scrollbar-width: thin; padding-bottom: 2px; }
+.xm-sh { display: flex; align-items: center; gap: 10px; } .xm-sh h2 { flex: 1; }
+.xm-timer { margin-top: 10px; }
+.xm-clock.low { color: var(--warn); } .xm-clock.crit { color: var(--bad); }
+.xm-pal { margin-top: 4px; }
+.pal-sec { margin-top: 12px; } .pal-sec > b { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; font-weight: 750; color: var(--muted); margin-bottom: 7px; } .pal-sec > b span { font-weight: 600; }
+.pal { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 7px; }
+/* the five statuses in the CBT palette's shapes (P2-30), one rule set for the palette cells (.pb), the legend, the Submit summary and the briefing:
+   not visited = a square, not answered = flat top and round bottom, answered = round top and flat bottom, marked = a circle, answered and
+   marked = a circle with a tick. Shape and fill carry the status, so it never rests on colour alone (and survives forced colours) */
+.pg { position: relative; display: inline-grid; place-items: center; flex: none; border-radius: 26%; background: var(--surface-2); color: var(--muted); box-shadow: inset 0 0 0 1.5px var(--line-2); font-style: normal; }
+.pg.na { border-radius: 26% 26% 50% 50% / 26% 26% 44% 44%; background: var(--bad-soft); color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--bad); }
+.pg.ans { border-radius: 50% 50% 26% 26% / 44% 44% 26% 26%; background: var(--accent); color: var(--accent-ink); box-shadow: none; }
+.pg.mk { border-radius: 50%; background: var(--warn-soft); color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--warn); }
+.pg.am { border-radius: 50%; background: var(--accent); color: var(--accent-ink); box-shadow: none; }
+.pg .pg-ck { position: absolute; right: -4px; bottom: -4px; width: 16px; height: 16px; padding: 2.5px; border-radius: 50%; background: var(--ok); color: var(--surface); box-shadow: 0 0 0 1.5px var(--surface); stroke-width: 3.2; }
+.pb { width: 100%; max-width: 44px; height: auto; aspect-ratio: 1 / 1; justify-self: center; border: 0; font: 750 12.5px var(--font-mono); transition: transform .12s, background-color .2s; font-variant-numeric: tabular-nums; padding: 0; cursor: pointer; }
+.pb:hover { color: var(--ink); } .pb.nv:hover { box-shadow: inset 0 0 0 1.5px var(--ink-2); } .pb:active { transform: scale(.94); }
+.pb.ans:hover, .pb.am:hover { color: var(--accent-ink); }
+/* the open question: an outline (it survives forced colours) and, on a cell with no fill of its own, the soft cobalt fill (as in the mockup) */
+.pb.cur { outline: 2.5px solid var(--accent); outline-offset: 2px; } .pb.cur.nv { background: var(--accent-soft); color: var(--ink); }
+.pb:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.pal-legend { margin-top: 14px; } .pal-legend .w { grid-column: 1 / -1; }
+.pal-legend .pg { width: 16px; height: 16px; } .pal-legend .pg .pg-ck, .xm-sum .pg .pg-ck { width: 11px; height: 11px; padding: 1.5px; right: -3px; bottom: -3px; }
+/* the side panel's foot: the legend, Instructions and (in the sheet) Submit */
+.xm-sfa { display: flex; align-items: center; gap: 8px; margin-top: 12px; }
+.xm-sfa .xm-ins { flex: none; } .xm-sfa .xm-subm { flex: 1; }
+/* the Submit summary: the five statuses per section and in total (P1-28) */
+.xm-sum-l { margin: 4px 0 10px; font-size: 14.5px; line-height: 1.5; } .xm-sum-l b { font-variant-numeric: tabular-nums; }
+.xm-sum { width: 100%; font-size: 13.5px; } .xm-sum th[scope="row"] { font-weight: 600; text-align: left; white-space: nowrap; }
+.xm-sum th[scope="row"] .pg { width: 15px; height: 15px; vertical-align: -3px; margin-right: 9px; display: inline-grid; }
+.xm-sum td, .xm-sum th { padding: 7px 10px; } .xm-sum tfoot th, .xm-sum tfoot td { border-top: 1.5px solid var(--line-2); }
+.xm-sum-n { margin: 10px 0 0; font-size: 13px; color: var(--muted); line-height: 1.5; }
+.xm-sum-w { display: flex; gap: 9px; align-items: flex-start; margin: 4px 0 12px; padding: 10px 12px; border-radius: var(--r-sm); background: var(--warn-soft); font-size: 14px; line-height: 1.5; color: var(--ink); }
+.xm-sum-w svg.i { flex: none; color: var(--warn); margin-top: 2px; }
+@media (prefers-reduced-motion: reduce) { .pb { transition: none; } }
+/* the marking rule lives in the card's one header line (P2-30), so the progress row may wrap it on a phone */
+.xm-q .qc-prog { flex-wrap: wrap; row-gap: 4px; }
+/* keyboard hints are for keyboards (P3-40) */
+@media (hover: none) and (pointer: coarse) { .xm .pr-keys, .exc-note { display: none; } }
+
+/* above 980 px (P2-30 page plan): the page header is the sticky exam bar under the top bar: a one-line title, the section tabs with their
+   counts, Calculator and Submit; the side panel sticks under it, and its foot (legend, Instructions, Submit) stays in view while a long
+   palette scrolls */
+@media (min-width: 981px) {
+  :root { --xm-stick: 68px; }
+  .xm-head { position: sticky; top: var(--nav-h); z-index: 20; height: 68px; flex-wrap: nowrap; align-items: center; gap: 18px;
+    margin: 0 calc(-1 * var(--pad-r)) 0 calc(-1 * var(--pad-l)); padding: 0 var(--pad-r) 0 var(--pad-l); background: var(--bg); border-bottom: 1px solid var(--line); }
+  .xm-head .pr-ht { flex: 1 1 auto; min-width: 0; }
+  .xm-head .pr-ht h1 { font-size: 22px; line-height: 1.2; letter-spacing: -.03em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-wrap: nowrap; }
+  .xm-head .pr-ht p { margin: 3px 0 0; font-size: 13px; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .xm-hacts { flex: none; flex-wrap: nowrap; }
+  /* the side panel fits between the bar and the page's end, so at the end of a long question it is never pushed up under the bar */
+  body.in-exam #view { padding-bottom: 24px; }
+  /* no bottom padding on the scroll container: a sticky foot stops at its content edge, so any padding there would show a strip of the
+     scrolling palette under the foot; the keys line keeps the 2 px its keycaps' bottom borders need at the scroll end */
+  .xm-side { top: calc(var(--nav-h) + var(--xm-stick) + 14px); max-height: calc(100vh - var(--nav-h) - var(--xm-stick) - 40px); padding-bottom: 0; }
+  .xm-side > .pr-keys { padding-bottom: 2px; }
+  :root:has(body.in-exam) { scroll-padding-top: calc(var(--nav-h) + var(--xm-stick) + 12px); }
+  .xm-pp { padding-bottom: 0; }
+  .xm-sf { position: sticky; bottom: 0; z-index: 1; margin: 12px -18px 0; padding: 12px 18px 16px; background: var(--surface); border-top: 1px solid var(--line); border-radius: 0 0 var(--r-lg) var(--r-lg); }
+  .xm-sf .pal-legend { margin-top: 0; }
+}
+/* short desktop windows: the bar scrolls with the page, so the question keeps the height */
+@media (min-width: 981px) and (max-height: 560px) {
+  :root { --xm-stick: 0px; }
+  .xm-head { position: static; }
+}
+
+/* at 980 px and below: the exam bar is the top bar, the palette is a sheet */
+@media (max-width: 980px) {
+  body.in-exam .topbar, body.in-exam .crumbs-row { display: none !important; }
+  body.in-exam #view, body.in-exam .crumbs-row + #view { padding-top: 0; }
+  body.in-exam .save-warn { position: relative; top: 0; }
+  :root:has(body.in-exam) { scroll-padding-top: 72px; scroll-padding-bottom: 92px; }
+  .xm { gap: 12px; }
+  /* the page header stays for screen readers (the h1); the bar carries the title, the clock and the controls */
+  .xm-head { position: absolute; width: 1px; height: 1px; margin: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .xm-hacts { display: none; }
+  .xm-bar { display: flex; align-items: center; gap: 8px; position: sticky; top: 0; z-index: 30; min-height: 56px;
+    margin: 0 calc(-1 * var(--sec-pad-x, 16px)); padding: calc(6px + env(safe-area-inset-top, 0px)) max(var(--sec-pad-x, 16px), env(safe-area-inset-right)) 6px max(var(--sec-pad-x, 16px), env(safe-area-inset-left));
+    background: var(--bg); border-bottom: 1px solid var(--line); }
+  .xm-bar .grow { flex: 1; min-width: 4px; }
+  .xm-bt { display: block; flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700; font-size: 15px; letter-spacing: -.01em; margin-right: 6px; }
+  .xm-bar .xm-clock { font: 700 20px var(--font-mono); letter-spacing: -.02em; padding: 0 2px; font-variant-numeric: tabular-nums; flex: none; }
+  .xm-cb, .xm-bar [data-pause] { flex: none; }
+  .xm-palb { flex: none; height: 44px; padding: 0 12px 0 10px; gap: 8px; }
+  .xm-palb svg.i { font-size: 18px; }
+  .xm-pt { display: grid; text-align: left; line-height: 1.12; } .xm-pt b { font: 750 13px var(--font-mono); font-variant-numeric: tabular-nums; } .xm-pt small { font-size: 11px; color: var(--muted); font-weight: 650; }
+  .xm-act { bottom: calc(10px + env(safe-area-inset-bottom, 0px)); }
+  /* the palette sheet: Back, Escape, the scrim and the close button close it */
+  .xm-side { position: fixed; left: 0; right: 0; bottom: 0; top: auto; z-index: 60; max-height: min(88vh, 760px); overflow: auto; overscroll-behavior: contain;
+    padding: 10px max(12px, env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left));
+    background: var(--bg); border-radius: var(--r-lg) var(--r-lg) 0 0; box-shadow: 0 -18px 50px -20px color-mix(in srgb, var(--ink) 45%, transparent);
+    transform: translateY(105%); visibility: hidden; transition: transform .26s cubic-bezier(.2, .8, .2, 1), visibility 0s linear .26s; }
+  .xm.pal-open .xm-side { transform: none; visibility: visible; transition: transform .26s cubic-bezier(.2, .8, .2, 1); }
+  .xm-scrim { display: block; position: fixed; inset: 0; z-index: 59; background: color-mix(in srgb, var(--ink) 38%, transparent); }
+  .xm-scrim[hidden] { display: none; }
+  .xm-sh .xm-x { display: inline-flex; } .xm-st { display: block; flex: 0 1 auto; min-width: 0; max-width: 46%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12.5px; color: var(--muted); font-weight: 600; }
+  .xm-timer, .pr-keys { display: none; }
+  /* the sheet's foot (legend and Submit) stays in reach while the grid scrolls */
+  .xm-pp { padding-bottom: 0; }
+  .xm-sf { position: sticky; bottom: calc(-12px - env(safe-area-inset-bottom, 0px)); z-index: 1; margin: 12px -18px 0; padding: 12px 18px calc(14px + env(safe-area-inset-bottom, 0px)); background: var(--surface); border-top: 1px solid var(--line); border-radius: 0 0 var(--r-lg) var(--r-lg); }
+  .xm-sf .pal-legend { margin-top: 0; }
+  .pal { grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); } .pb { max-width: 48px; font-size: 13px; }
+}
+@media (max-width: 980px) and (prefers-reduced-motion: reduce) { .xm-side, .xm.pal-open .xm-side { transition: none; } }
+/* phones: one 56 px action row (Previous, Mark & next, Clear as icon-over-label, the coral Save & next filling the rest). A row too narrow
+   to hold Save & next whole (320 px phones, the page narrowed beside the calculator on short screens) puts it on its own full-width line
+   under the other three, which share theirs: nothing overflows, is cut or runs under the calculator (P0-15, WCAG 1.4.10) */
+@media (max-width: 700px) {
+  :root { --xm-act-h: 68px; }
+  .xm-bt { display: none; }
+  .xm-cb { width: 40px; padding: 0; } .xm-cb span { display: none; }
+  .xm-q .qc { padding: 16px 14px 12px; } .xm-q .qc .qc-body.md { font-size: 16.5px; }
+  .xm-act { gap: 6px; padding: 6px; border-radius: var(--r); bottom: calc(8px + env(safe-area-inset-bottom, 0px)); }
+  .xm-act .btn { height: 56px; margin: 0; }
+  .xm-act .btn:not(#next) { --d: 3px; flex: 1 0 0; flex-direction: column; gap: 3px; padding: 0 3px; font-size: 11px; letter-spacing: -.01em; border-radius: 13px; }
+  .xm-act #prev { min-width: 60px; } .xm-act #mark { min-width: 74px; } .xm-act #clear { min-width: 50px; }
+  .xm-act .btn:not(#next) svg.i { font-size: 20px; }
+  .xm-act #clear .l, .xm-act #mark .l { display: none; } .xm-act .s { display: inline; }
+  .xm-act #next { flex: 1000 0 auto; margin-left: 0; padding: 0 10px; font-size: 15px; }
+}
+@media (max-width: 400px) { .xm-act #next svg.i { display: none; } .xm-act #next { font-size: 14.5px; } }
+/* the narrowest phones (320–340 px) in a full-length sitting: the 3-hour clock and '47 of 65 / 16 answered' fit the bar with tighter gaps
+   (P1-28, WCAG 1.4.10: at 320 px the palette button ended 12 px past the screen) */
+@media (max-width: 340px) {
+  .xm-bar { gap: 4px; }
+  .xm-bar .xm-clock { font-size: 18px; padding: 0; }
+  .xm-palb { padding: 0 8px 0 6px; gap: 6px; }
+}
+/* where the row takes two lines (narrowest phones), focus keeps clear of both */
+@media (max-width: 350px) { :root:has(body.in-exam) { scroll-padding-bottom: 156px; } }
+/* short screens (landscape phones, 200 % zoom): static bars, so they never cover the question */
+@media (max-height: 560px) {
+  .xm-bar, .xm-act { position: static; }
+  :root:has(body.in-exam) { scroll-padding-top: 12px; scroll-padding-bottom: 12px; }
+}
+
+/* == tests: result == */
+/* the score hero (P2-69): the approved two-half card, the score, real chips and the one coral on the left, a solid cobalt half on the right
+   (the trend of full-length sittings, or this sitting part by part, on surface tiles; the qualifying-mark yardstick when a paper has one) */
+.tr-hero { display: grid; grid-template-columns: minmax(0, 1fr); padding: 0; border-radius: var(--r-xl); overflow: hidden; align-items: stretch; }
+.tr-hero.two { grid-template-columns: minmax(0, 1fr) minmax(0, .82fr); }
+.tr-hl { position: relative; display: grid; gap: 10px; align-content: start; min-width: 0; justify-items: start; padding: 28px 30px; }
+.tr-hl.has-peak h1, .tr-hl.has-peak > .pr-sub { padding-right: 76px; }
+.tr-peak { position: absolute; top: 18px; right: 22px; width: 64px; height: 64px; line-height: 0; }
+/* P2-70 x P2-38: Tick at most once per screen. A level reached on Submit (or a milestone said at boot) shows Tick's head in its toast; while that
+   toast is up the hero's Tick steps aside (its box stays, so nothing moves) and comes back once the toast has gone */
+body:has(.toasts .t-peak) .tr-peak { visibility: hidden; }
+.tr-score { display: flex; align-items: baseline; gap: 8px; line-height: 1; margin: 4px 0 2px; }
+.tr-score b { font-size: clamp(52px, 6vw, 72px); font-weight: 700; letter-spacing: -.025em; font-variant-numeric: tabular-nums; }
+.tr-score span { font-size: 24px; color: var(--muted); font-weight: 700; letter-spacing: -.02em; }
+.tr-score em { font-style: normal; font-size: 18px; font-weight: 700; color: var(--accent); margin-left: 10px; padding: 5px 10px; border-radius: 10px; background: var(--accent-soft); align-self: center; }
+.tr-chips { display: flex; flex-wrap: wrap; gap: 6px 8px; }
+.tr-chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px 5px 9px; border-radius: 10px; background: var(--accent-soft); color: var(--ink); font-size: 13px; font-weight: 700; line-height: 1.25; }
+.tr-chip svg.i { width: 15px; height: 15px; color: var(--accent); flex: none; }
+.tr-split { width: min(100%, 460px); display: grid; gap: 8px; } .tr-split .stackbar { height: 10px; border-radius: 6px; overflow: hidden; display: flex; background: var(--surface-3); }
+.tr-sl { display: flex; gap: 6px 16px; flex-wrap: wrap; font-size: 13px; color: var(--muted); font-weight: 600; } .tr-sl span { display: inline-flex; align-items: center; gap: 6px; } .tr-sl i { width: 10px; height: 10px; border-radius: 3px; background: var(--surface-3); box-shadow: inset 0 0 0 1px var(--line-2); } .tr-sl i.ok { background: var(--ok); box-shadow: none; } .tr-sl i.bad { background: var(--bad); box-shadow: none; }
+.tr-note { margin: 0; font-size: 13.5px; color: var(--muted); max-width: 640px; }
+.tr-hl .pr-acts { margin-top: 6px; }
+.tr-hr { background: var(--accent); color: var(--accent-ink); padding: 22px 24px 20px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.tr-hr .th-chart { flex: 1 1 auto; align-items: center; } .tr-hr .chart { display: block; overflow: visible; }
+.tr-parts { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; flex: 1 1 auto; }
+.tr-parts > div { grid-template-rows: 1fr auto; align-content: stretch; }
+.tr-parts b { font-size: 40px; }
+/* the official yardstick (D11, P2-35): one labelled line, never a prediction */
+.tr-yard { background: var(--surface); color: var(--ink); border-radius: var(--r); padding: 12px 14px 12px; display: grid; gap: 9px; }
+.tr-ybar { position: relative; height: 10px; border-radius: 6px; background: var(--surface-3); }
+.tr-ybar .you { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 6px; background: var(--accent); }
+.tr-ybar .cut { position: absolute; top: -5px; bottom: -5px; width: 3px; margin-left: -1.5px; border-radius: 2px; background: var(--ink); }
+.tr-yard p { margin: 0; display: grid; gap: 2px; font-size: 13px; line-height: 1.45; } .tr-yard p b { font-weight: 750; } .tr-yard p span { color: var(--muted); font-size: 12.5px; }
+.tr-yard a { color: inherit; }
+/* where the marks went (P2-32): numbers that appear nowhere else on the screen, then the MCQ / MSQ / NAT table */
+.tr-went { display: grid; gap: 12px; }
+.tr-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); background: var(--surface-2); border-radius: var(--r-lg); padding: 4px; gap: 4px; }
+.tr-kpis > div { padding: 14px 16px 13px; border-radius: 14px; min-width: 0; background: var(--surface); }
+.tr-kpis b { display: block; font-size: clamp(24px, 1.2vw + 13px, 30px); line-height: 1; font-weight: 700; letter-spacing: -.025em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tr-kpis span { display: block; margin-top: 7px; font-size: 13px; color: var(--muted); font-weight: 550; line-height: 1.35; }
+.tr-types { font-size: 14px; }
+.tr-types tbody th, .xm-sum tbody th { font-size: 13.5px; letter-spacing: 0; color: var(--ink); border-bottom: 1px solid var(--line); }
+.tr-types tbody th { font-weight: 700; } .tr-types tbody tr:last-child th, .xm-sum tbody tr:last-child th { border-bottom: 0; }
+.tr-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr); gap: 16px; align-items: start; }
+.tr-col { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; min-width: 0; }
+.tr .pr-panel .pr-sec-h h2 { font-size: 17px; } .tr .pr-panel .pr-sec-h { margin-bottom: 10px; }
+.tr-sj { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; } .tr-sj svg.sg { width: 17px; height: 17px; color: var(--accent); }
+.tr-k { font-weight: 700; } .tr-k.warn { color: var(--warn); } .tr-k.bad { color: var(--bad); }
+.rv-st { font-weight: 700; } .rv-st.ok { color: var(--ok); } .rv-st.bad { color: var(--bad); } .rv-st.warn { color: var(--warn); }
+.rv-mk { color: var(--warn); font-weight: 700; } .rv-t { font-variant-numeric: tabular-nums; }
+.tr .pr-sec-h .seg { align-self: flex-end; }
+.tr-rf { flex-wrap: wrap; } .tr-rf button[disabled] { opacity: .45; cursor: default; }
+/* a weak subject's row is a button that queues exactly this test's missed questions in it */
+button.rail-a { width: 100%; background: none; border: 0; border-top: 1px solid var(--line); text-align: left; font: inherit; font-size: 13.5px; font-weight: 600; color: var(--ink-2); cursor: pointer; border-radius: 0; }
+button.rail-a:hover { color: var(--accent); } button.rail-a:focus-visible { outline: 2.5px solid var(--accent); outline-offset: -2px; border-radius: var(--r-xs); }
+button.rail-a > span { flex: 1; min-width: 0; }
+/* time against the budget (P2-33): drawn at the host's width, so its 11.5 px labels are never scaled; phones list the five slowest instead */
+.tr-tbox { min-height: 60px; }
+.tr-tbox .chart { display: block; overflow: visible; }
+.tr-slh { margin: 0 0 6px; font-size: 13px; font-weight: 700; color: var(--muted); }
+.tr-slow { list-style: none; margin: 0; padding: 0; display: grid; }
+.tr-sq { width: 100%; display: flex; align-items: center; gap: 12px; padding: 11px 4px; border: 0; border-top: 1px solid var(--line); background: none; color: var(--ink); font: 600 14px/1.35 var(--font-ui); text-align: left; cursor: pointer; }
+.tr-slow li:first-child .tr-sq { border-top: 0; }
+.tr-sq b { font: 750 13.5px var(--font-mono); min-width: 38px; } .tr-sq span { flex: 1; min-width: 0; color: var(--ink-2); } .tr-sq svg.i { color: var(--muted); flex: none; }
+.tr-sq:focus-visible { outline: 2.5px solid var(--accent); outline-offset: -2px; border-radius: var(--r-xs); }
+@media (max-width: 1100px) { .tr-grid { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 900px) { .tr-hero.two { grid-template-columns: minmax(0, 1fr); } }
+.pr-page .t .nw { white-space: nowrap; }
+@media (max-width: 700px) {
+  .tr-hero { border-radius: var(--r-lg); }
+  .tr-hl { padding: 20px 18px; }
+  .tr-peak { top: 14px; right: 14px; width: 52px; height: 52px; } .tr-peak svg { width: 52px; height: 52px; }
+  .tr-hl.has-peak h1, .tr-hl.has-peak > .pr-sub { padding-right: 60px; }
+  .tr-hr { padding: 16px 14px 16px; gap: 10px; }
+  .tr-parts b { font-size: 30px; }
+  .tr-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tr-kpis > div { padding: 12px 13px 11px; } .tr-kpis > div:last-child:nth-child(odd) { grid-column: 1 / -1; } .tr-kpis b { font-size: 25px; }
+  .tr-hl .pr-acts { width: 100%; } .tr-hl .pr-acts .btn { flex: 1 1 auto; }
+}
+
+/* == tests: calculator (P0-15): the exam's whole key set (TCS iON) in one layout, a non-modal panel that never hides the question's controls ==
+   Desktop: over the palette column, aligned with its right edge, under the sticky exam bar. Tablets: at the bottom right above the action row,
+   which is pinned while the calculator is open; the question gets room to scroll clear above both (the panel's own height, --calc-h). Phones: a
+   half-height sheet; the page is padded by its height. Short screens (landscape phones, 200 % zoom): a column at the right and the page
+   narrows beside it (--calc-w). */
+.ex-calc { --k-h: 36px; position: fixed; z-index: 40; bottom: 16px;
+  right: calc(max(0px, (100% - var(--page-max) - 2 * var(--sec-pad-x, 32px)) / 2) + var(--pad-r)); width: 336px;
+  max-height: calc(100vh - var(--nav-h) - var(--xm-stick, 0px) - 32px); overflow: auto; overscroll-behavior: contain; display: grid; align-content: start; gap: 9px; padding: 12px 12px 10px;
+  background: var(--surface); border-radius: var(--r-lg); box-shadow: 0 0 0 1px var(--line), 0 26px 60px -26px color-mix(in srgb, var(--ink) 50%, transparent); }
+.ex-calc[hidden] { display: none; }
+.ex-calc:focus { outline: none; } .ex-calc:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.exc-h { display: flex; align-items: center; gap: 8px; } .exc-h b { flex: 1; font-size: 15px; font-weight: 700; letter-spacing: -.01em; }
+.exc-mode { display: inline-flex; padding: 3px; gap: 2px; border-radius: 11px; background: var(--surface-2); }
+.exc-mode button { height: 30px; min-width: 44px; padding: 0 10px; border: 0; border-radius: var(--r-xs); background: transparent; color: var(--muted); font: 700 12.5px var(--font-ui); cursor: pointer; }
+.exc-mode button.on { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px color-mix(in srgb, var(--ink) 16%, transparent); }
+[data-theme="dark"] .exc-mode button.on { background: var(--accent-soft-2); box-shadow: none; }
+.exc-mode button:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 1px; }
+.exc-scr { display: grid; gap: 2px; padding: 7px 12px 8px; border-radius: var(--r-sm); background: var(--surface-2); text-align: right; min-width: 0; }
+.exc-ex { min-height: 20px; font: 600 14px/1.4 var(--font-mono); color: var(--muted); overflow-wrap: anywhere; }
+.exc-out { display: block; font: 700 26px/1.15 var(--font-mono); letter-spacing: -.02em; color: var(--ink); overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.exc-out.bad { color: var(--bad); font-size: 18px; line-height: 1.6; }
+/* a quiet band (memory and Ans, the hyperbolic functions) over one 8-column grid: functions at the left and on top, C and ⌫ right above the
+   digit block 7 8 9 ÷ / 4 5 6 × / 1 2 3 − / 0 . = +, the operators in the last column */
+.exc-keys { display: grid; gap: 7px; }
+.exc-band { display: grid; gap: 4px; }
+.exc-band > div { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; }
+.exc-grid { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 5px; }
+.exc-k { --edge: var(--edge-neutral); height: var(--k-h); min-width: 0; padding: 0 1px; border: 1.5px solid var(--edge); border-radius: 9px; background: var(--surface-2); color: var(--ink);
+  font: 650 12px var(--font-ui); letter-spacing: -.015em; cursor: pointer; box-shadow: 0 2px 0 var(--edge); transition: transform .08s, box-shadow .08s; white-space: nowrap; overflow: hidden; }
+.exc-k:active { transform: translateY(2px); box-shadow: 0 0 0 var(--edge); }
+.exc-k:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.exc-band .exc-k { height: 28px; font-size: 11.5px; font-weight: 700; color: var(--muted); }
+.exc-grid .exc-k.n, .exc-grid .exc-k.op, .exc-grid .exc-k.eq, .exc-grid .exc-k.tp { font: 700 16px var(--font-mono); letter-spacing: 0; }
+.exc-k.n { background: var(--surface); }
+.exc-k.op { color: var(--accent); }
+.exc-k.eq { --edge: var(--edge-accent); background: var(--accent); color: var(--accent-ink); }   /* the cobalt '=' */
+.exc-note { margin: 0; font-size: 12px; line-height: 1.45; color: var(--muted); } .exc-note .nw { white-space: nowrap; }
+@media (hover: hover) { .exc-k:hover { background: var(--surface-3); } .exc-k.eq:hover { background: color-mix(in srgb, var(--accent) 88%, var(--ink)); } }
+@media (prefers-reduced-motion: reduce) { .exc-k { transition: none; } }
+/* tablets: at the bottom right, above the action row, which is pinned at the bottom while the calculator is open; the page gains the panel's
+   height after the question, so the question's end scrolls clear above both */
+@media (max-width: 980px) {
+  .ex-calc { --k-h: clamp(26px, calc((100vh - 400px) / 6), 40px); right: max(12px, env(safe-area-inset-right, 0px)); width: min(400px, calc(100% - 24px)); z-index: 45;
+    bottom: calc(var(--xm-act-h) + 20px + env(safe-area-inset-bottom, 0px));
+    max-height: calc(100vh - 56px - var(--xm-act-h) - 36px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); }
+  .exc-note { display: none; }
+  body.calc-open .xm-act { position: fixed; left: var(--pad-l); right: var(--pad-r); bottom: calc(10px + env(safe-area-inset-bottom, 0px)); z-index: 41; }
+  body.calc-open .xm-q::after { content: ''; display: block; height: calc(var(--calc-h, 440px) + var(--xm-act-h) + 24px); }
+  :root:has(body.calc-open.in-exam) { scroll-padding-bottom: calc(var(--calc-h, 440px) + var(--xm-act-h) + 32px); }
+}
+@media (max-width: 700px) { body.calc-open .xm-act { bottom: calc(8px + env(safe-area-inset-bottom, 0px)); } }
+/* phones (P0-15): a half-height sheet with all 60 keys and nothing to scroll. The sheet takes the bottom, so the action row stays in the page,
+   which is padded by the sheet's own height (--calc-h): the question and the action row scroll clear above it */
+@media (max-width: 559px) {
+  .ex-calc { --k-h: clamp(30px, 4.6vh, 40px); left: 0; right: 0; bottom: 0; width: auto; max-height: 76vh; gap: 7px; border-radius: var(--r-lg) var(--r-lg) 0 0;
+    padding: 8px max(10px, env(safe-area-inset-left)) calc(8px + env(safe-area-inset-bottom)) max(10px, env(safe-area-inset-right)); }
+  body.calc-open .xm-act { position: sticky; left: auto; right: auto; z-index: 5; }
+  body.calc-open .xm-q::after { content: none; }
+  /* exactly the sheet's height (+ 8 px): the shell's tab-bar room under the page would push the row past the top at the page end */
+  body.in-exam.calc-open #view { padding-bottom: 0; }
+  body.calc-open .exam { padding-bottom: calc(var(--calc-h, 56vh) + 8px); }
+  :root:has(body.calc-open.in-exam) { scroll-padding-bottom: calc(var(--calc-h, 56vh) + 12px); }
+  .exc-h b { font-size: 14px; } .exc-mode button { height: 28px; }
+  .exc-scr { padding: 5px 10px 6px; } .exc-out { font-size: 22px; } .exc-ex { min-height: 17px; font-size: 12.5px; }
+  .exc-keys { gap: 6px; } .exc-band .exc-k { height: 26px; }
+}
+/* short screens 560–980 px wide (landscape phones, 200 % zoom): the bars are static, so the calculator is a column at the right and the page
+   narrows beside it (--calc-w) */
+@media (min-width: 560px) and (max-width: 980px) and (max-height: 560px) {
+  .ex-calc { --k-h: clamp(22px, 5.6vh, 32px); top: 8px; bottom: auto; width: min(340px, 46%); max-height: calc(100vh - 16px); gap: 6px; padding: 8px 10px; }
+  .exc-band .exc-k { height: 22px; } .exc-keys { gap: 5px; } .exc-grid { gap: 4px; } .exc-out { font-size: 20px; }
+  body.calc-open .xm-act { position: static; }
+  body.calc-open .xm-q::after { content: none; }
+  body.calc-open .exam { padding-right: calc(var(--calc-w, 340px) + 12px); }
+  :root:has(body.calc-open.in-exam) { scroll-padding-bottom: 12px; }
+  /* the narrowed bar keeps every control: no title, an icon-only Calculator */
+  body.calc-open .xm-bt { display: none; }
+  body.calc-open .xm-cb { width: 40px; padding: 0; } body.calc-open .xm-cb span { display: none; }
+}
+/* the narrowest columns (560–700 px, 258–322 px wide): tighter gaps and 11 px function labels, so every label fits its key (log₂x, logᵧx
+   and cos⁻¹ are the widest); the digits and operators keep their 16 px */
+@media (min-width: 560px) and (max-width: 700px) and (max-height: 560px) {
+  .ex-calc { padding: 8px 6px; }
+  .exc-grid, .exc-band > div { gap: 3px; }
+  .exc-k { padding: 0; letter-spacing: -.03em; }
+  .exc-grid .exc-k, .exc-band .exc-k { font-size: 11px; }
+}
+/* 701–980 px: the narrowed page (330–580 px) gets the phones' action row too (above), not three lines of full labels */
+@media (min-width: 701px) and (max-width: 980px) and (max-height: 560px) {
+  body.calc-open .xm-act { gap: 6px; padding: 6px; border-radius: var(--r); }
+  body.calc-open .xm-act .btn { height: 56px; margin: 0; }
+  body.calc-open .xm-act .btn:not(#next) { --d: 3px; flex: 1 0 0; flex-direction: column; gap: 3px; padding: 0 3px; font-size: 11px; letter-spacing: -.01em; border-radius: 13px; }
+  body.calc-open .xm-act #prev { min-width: 60px; } body.calc-open .xm-act #mark { min-width: 74px; } body.calc-open .xm-act #clear { min-width: 50px; }
+  body.calc-open .xm-act .btn:not(#next) svg.i { font-size: 20px; }
+  body.calc-open .xm-act #clear .l, body.calc-open .xm-act #mark .l { display: none; } body.calc-open .xm-act .s { display: inline; }
+  body.calc-open .xm-act #next { flex: 1000 0 auto; margin-left: 0; padding: 0 10px; font-size: 15px; }
+}
+/* tall phones: the action row rides right above the sheet, so Save & next stays in reach while the calculator is open. Shorter phones keep
+   it in the padded page: pinned there, it would leave too little of the question (120 px at 360 × 640) */
+@media (max-width: 559px) and (min-height: 760px) {
+  body.calc-open .xm-act { bottom: calc(var(--calc-h, 56vh) + 8px); }
+  :root:has(body.calc-open.in-exam) { scroll-padding-bottom: calc(var(--calc-h, 56vh) + var(--xm-act-h) + 20px); }
+}
+/* desktop windows under 820 px tall: smaller keys and no note, so the panel stays below the palette's clock (from 700 px up) and below the
+   exam bar (always) */
+@media (min-width: 981px) and (max-height: 820px) {
+  .ex-calc { --k-h: clamp(22px, calc((100vh - 560px) / 6), 36px); }
+  .exc-note { display: none; }
+  .exc-band .exc-k { height: 24px; }
+}
+@media (min-width: 981px) and (max-height: 560px) {
+  .ex-calc { bottom: 8px; max-height: calc(100vh - var(--nav-h) - 84px); }
+  .exc-band .exc-k { height: 22px; }
+}
+
+/* == tests: result additions (P0-04, P0-05, P1-56) == */
+.tr-sl i.mta { background: var(--accent-soft-2); box-shadow: none; } .tr-sl i.ne { background: var(--warn-soft); box-shadow: inset 0 0 0 1px var(--warn); }
+.tr-score.tr-ns b { font-size: clamp(36px, 4vw, 48px); font-weight: 700; letter-spacing: -.025em; color: var(--ink-2); }
+.tr .btn.tr-cta2 { height: auto; min-height: 60px; padding: 9px 18px 10px 18px; gap: 14px; text-align: left; white-space: normal; max-width: 100%; }
+.tr-cta-t { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.tr-cta-t small { font: 700 12.5px/1.25 var(--font-ui); letter-spacing: .01em; color: var(--pop-ink); }
+.tr-cta-t > span { font-size: 16.5px; font-weight: 700; line-height: 1.25; letter-spacing: -.01em; }
+.tr-cta2 svg.i { flex: none; }
+.ex-fail { display: grid; gap: 12px; }
+.ex-fail-n { display: flex; gap: 10px; align-items: flex-start; justify-content: center; margin: 0 auto; max-width: 560px; font-size: 14px; line-height: 1.5; color: var(--muted); }
+.ex-fail-n svg.i { flex: none; color: var(--ok); margin-top: 3px; }
+/* the diagnostic's result (P1-56): the next step beside 'By subject', straight after the score */
+.tr-grid.tr-dg { grid-template-columns: minmax(280px, 1fr) minmax(0, 1.65fr); }
+@media (max-width: 1100px) { .tr-grid.tr-dg { grid-template-columns: minmax(0, 1fr); } }
+
+/* == tests: the briefing before a full-length sitting and the Instructions dialog (P2-30, D7) == */
+.xb-card { max-width: 860px; margin: 0 auto; padding: 28px 32px 24px; display: grid; gap: 14px; }
+.xb-eye { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 13.5px; font-weight: 700; color: var(--muted); } .xb-eye svg.i { color: var(--accent); }
+.xb-card h1 { font-size: clamp(26px, 2.8vw, 36px); font-weight: 700; letter-spacing: -.025em; line-height: 1.08; margin: 0; text-wrap: balance; }
+.xb-card h1:focus { outline: none; }
+.xb-sub { margin: -4px 0 0; font-size: 15px; font-weight: 600; color: var(--ink-2); }
+.xb-body { display: grid; gap: 14px; }
+.xb-bp { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+.xb-bp > div { background: var(--surface-2); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 4px; min-width: 0; }
+.xb-bp b { font-size: 38px; font-weight: 700; letter-spacing: -.025em; line-height: 1; }
+.xb-bp span { font-size: 14px; font-weight: 750; } .xb-bp small { font: 600 12px/1.5 var(--font-mono); color: var(--muted); }
+.xb-mark { margin: 0; font-size: 14.5px; line-height: 1.6; color: var(--ink-2); max-width: 70ch; }
+.xb-h { margin: 6px 0 0; font-size: 15px; font-weight: 700; letter-spacing: -.01em; }
+.xb-lg { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px 16px; }
+.xb-lg li { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; color: var(--ink-2); }
+.xb-lg .pg.lg { width: 34px; height: 34px; font: 750 13px var(--font-mono); }
+.xb-how { margin: 0; padding-left: 20px; display: grid; gap: 7px; font-size: 14.5px; line-height: 1.55; color: var(--ink-2); max-width: 72ch; }
+.xb-how b { color: var(--ink); }
+.xb-clock { display: flex; gap: 9px; align-items: flex-start; margin: 2px 0 0; font-size: 14px; line-height: 1.5; color: var(--muted); } .xb-clock svg.i { flex: none; margin-top: 2px; color: var(--accent); }
+.xb-sw { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; padding-top: 14px; border-top: 1px solid var(--line); }
+.xb-cta { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding-top: 4px; }
+.xb-in { display: grid; gap: 12px; } .xb-in .xb-bp b { font-size: 30px; }
+@media (max-width: 700px) {
+  .xb-card { padding: 20px 18px 0; border-radius: var(--r-lg); }
+  .xb-bp { grid-template-columns: minmax(0, 1fr); } .xb-bp > div { grid-template-columns: auto minmax(0, 1fr); column-gap: 14px; align-items: center; } .xb-bp b { grid-row: 1 / span 2; font-size: 32px; }
+  .xb-lg { grid-template-columns: minmax(0, 1fr); }
+  /* the coral stays in reach above the tab bar while the briefing scrolls */
+  .xb-cta { position: sticky; bottom: calc(var(--tabbar, 64px) + env(safe-area-inset-bottom, 0px)); margin: 4px -18px 0; padding: 12px 18px 14px; background: var(--surface); border-top: 1px solid var(--line); border-radius: 0 0 var(--r-lg) var(--r-lg); z-index: 3; }
+  .xb-cta .btn.pop { width: auto; flex: 1 1 auto; } .xb-cta .btn.ghost { flex: none; padding: 0 12px; }
+}
+/* narrow phones: the quiet way back keeps its name for assistive tech but shows only its arrow, so it shares the row with the coral; with
+   larger text the row wraps instead of widening the page */
+@media (max-width: 420px) {
+  .xb-cta { gap: 10px; } .xb-cta .btn.pop { padding: 0 18px; }
+  .xb-cta .btn.ghost { width: 48px; padding: 0; }
+  .xb-cta .btn.ghost .l { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
+
+/* == tests: the on-screen NAT keypad of a full-length sitting (D7, P2-30) == */
+.qc-nat.has-pad .qc-pm { display: none; }
+.np { display: grid; grid-template-columns: repeat(4, minmax(0, 64px)); gap: 7px; margin-top: 12px; }
+.np-k { --edge: var(--edge-neutral); height: 44px; min-width: 0; border: 1.5px solid var(--edge); border-radius: 11px; background: var(--surface-2); color: var(--ink); font: 700 16px var(--font-mono); cursor: pointer; box-shadow: 0 2px 0 var(--edge); transition: transform .08s, box-shadow .08s; }
+.np-k.n { background: var(--surface); }
+.np-k.w { font: 700 12.5px var(--font-ui); }
+.np-k[data-np="back"], .exc-k[data-ck="back"] { font-size: 20px; }
+.np-k:active { transform: translateY(2px); box-shadow: 0 0 0 var(--edge); }
+.np-k:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+@media (hover: hover) { .np-k:hover { background: var(--surface-3); } }
+@media (prefers-reduced-motion: reduce) { .np-k { transition: none; } }
+@media (max-width: 700px) { .np { grid-template-columns: repeat(4, minmax(0, 1fr)); } .np-k { height: 46px; } }
+
+/* == tests: preparing a test (P2-76) == */
+.xm-load { min-height: 280px; display: grid; place-items: center; align-content: center; gap: 10px; text-align: center; color: var(--muted); font-weight: 600; }
+.xm-load svg.i { width: 30px; height: 30px; color: var(--accent); } .xm-load p { margin: 0; } .xm-load b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+/* == tests: Windows High Contrast and other forced colours (P3-16): the palette's fills become system colours, so statuses keep their shapes,
+   borders and ticks; the open question and pressed states use Highlight == */
+@media (forced-colors: active) {
+  .pg { border: 1.5px solid CanvasText; box-shadow: none; }
+  .pg.ans, .pg.am { forced-color-adjust: none; background: Highlight; color: HighlightText; border-color: Highlight; }
+  .pg .pg-ck { forced-color-adjust: none; background: Canvas; color: CanvasText; box-shadow: 0 0 0 1.5px CanvasText; }
+  .pb.cur { outline: 3px solid Highlight; outline-offset: 2px; }
+  .th-set, .exc-k, .np-k { border: 1.5px solid ButtonText; }
+  .exc-mode button.on, .seg button[aria-pressed="true"], .tr-rf button[aria-pressed="true"] { outline: 2.5px solid Highlight; outline-offset: -2px; }
+  .tr-ybar .you { forced-color-adjust: none; background: Highlight; } .tr-ybar .cut { forced-color-adjust: none; background: CanvasText; }
+}

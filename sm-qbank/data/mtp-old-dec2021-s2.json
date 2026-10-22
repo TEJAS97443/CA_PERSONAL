@@ -1,0 +1,573 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "Dec 2021",
+  "attempt_sort": "2021-12",
+  "series": "II",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SM-Q-MTP2-Inter-Nov21.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/07/EIS-SM-A-MTP2-Inter-Nov21.pdf",
+  "local_file": "raw/mtp-old-dec2021-s2-q.pdf",
+  "local_answers_file": "raw/mtp-old-dec2021-s2-a.pdf",
+  "test_series": "November 2021",
+  "mock_test_paper_no": "II",
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series II for Dec 2021 (Test Series: November 2021, MOCK TEST PAPER-II). ICAI originals 67640bos54273-inter-p7q.pdf / 67666bos54327-inter-p7a.pdf now 404; retrieved from the castudynotes.com mirror (https://castudynotes.com/2022/07/03/ca-inter-nov-2021-mock-test-papers-mtps-series-ii-for-new-syllabus-in-pdf-at-one-place/)."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-dec2021-s2-q1",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Marketing mix (4 Ps - Place) — part of the dropped functional Marketing Strategy (old Ch 6.2)",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "Aloe Veda, a women run health company has been making innovative products based on Aloe\nVera. Their portfolio includes creams, edibles, juices, face masks, and now even hand sanitizers.\nThey have had a simple focus; luring women customers of all ages who care about their personal\nhealth and hygiene at prices that the common consumer can afford. The market is growing over\nthe years and even men have shown interest in their products.\nHowever, running the company has not been easy, for big FMCG brands are readily offering\nsimilar products with better reach. Mr. Mukesh Bakshi was onboarded to help the company scale\nup its customer reach and he implemented old school distribution tactics. The distributors were\noffered better margins, foreign trips and gifts and even profit sharing in some cases. This helped\nthe company shelf Aloe Veda products at most of the retailers. Online business was also ramped\nup diligently.\nMukesh has been instrumental in achieving targets, but the core team has been a group of\nclose-knit partners who have built the company on trust. And as the business grew, the partners\ntook up individual responsibilities in an autonomous fashion, where each one of them was\nresponsible for their own segment’s operations and process improvement, and collectively driven\nby positive and margins. The policy of “trust all, ask no questions” could be seen at the\nleadership level.\nThe company has been aware of its industry and the players therein, with different set of\nstrengths and economic backgrounds, but it wanted to deep dive into some more metrics to get a\nholistic view of the competition. For that, they reached out to KMGP LLP to project a strategic\ngroup mapping for them, based on which they could plan ahead. KMGP LLP prepared the below\nchart;\nBusiness segment of Ale Veda has been booming industry wide, all they need to focus is on\nmaintaining their values and scaling before it’s too late. And of course, keeping an eye on the\nexternal business environment shall be crucial too.\n\nBased on the above Case Scenario, answer the Multiple-Choice Questions which are as\nfollows:\n\nMukesh Bakshi, has been leading Aloe Veda from the front with a spear headed strategy on innovating which of the following?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Product"
+    },
+    {
+     "label": "b",
+     "text": "Price"
+    },
+    {
+     "label": "c",
+     "text": "Place"
+    },
+    {
+     "label": "d",
+     "text": "Promotion"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "marketing mix",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q2",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nAloe Veda has been taking up competition with big FMCG brands in which of the following segments?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Cost Leadership of Supply Chain"
+    },
+    {
+     "label": "b",
+     "text": "Differentiation of Product"
+    },
+    {
+     "label": "c",
+     "text": "Focused Cost Leadership of Product"
+    },
+    {
+     "label": "d",
+     "text": "Focused Differentiation of Product"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q3",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich important aspect of organisational structure configuration is missing in Aloe Veda?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Configuration of Intended Roles"
+    },
+    {
+     "label": "b",
+     "text": "Configuration of Processes"
+    },
+    {
+     "label": "c",
+     "text": "Configuration of Decision Making"
+    },
+    {
+     "label": "d",
+     "text": "Configuration of Governance Mechanism"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q4",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic group mapping → Ch 3",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nAs per strategic group mapping done by the marketing team, which of the following is the biggest threat for Aloe Veda for its niche market?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Ele"
+    },
+    {
+     "label": "b",
+     "text": "IndCos"
+    },
+    {
+     "label": "c",
+     "text": "Strategic group mapping does not tell that clearly"
+    },
+    {
+     "label": "d",
+     "text": "There are no threats to their niche market"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "strategic group mapping"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q5",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategy — planned (deliberate) strategy → Ch 1",
+   "qno": "1(A)5",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nSuppose Aloe Veda asks its customers to plant Aloe Vera plant in their houses to get additional discounts. From Aloe Veda’s strategic intent of being environmentally inclined while retaining its customers, much before rivals try to poach them, can be termed as?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Planned Strategy"
+    },
+    {
+     "label": "b",
+     "text": "Reactive Strategy"
+    },
+    {
+     "label": "c",
+     "text": "Adaptive Strategy"
+    },
+    {
+     "label": "d",
+     "text": "This is not a strategy, it is a marketing gimmick"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "nature of strategy",
+    "planned strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q6",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Product life cycle → Ch 2",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "During which stage of the Product Life Cycle will marketing strategies need to concentrate on differentiating a product from competing products, building brand loyalty and offering incentives to attract competitor’s customers to switch?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Decline"
+    },
+    {
+     "label": "b",
+     "text": "Growth"
+    },
+    {
+     "label": "c",
+     "text": "Maturity"
+    },
+    {
+     "label": "d",
+     "text": "Introduction"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "product life cycle"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q7",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Characteristics of good objectives — objectives should be challenging → Ch 1",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Meba Ltd. had a huge capacity of 40,000 Kilo Litres production of Kerosene Oil, and they were able to achieve 90% of it almost always, while the teams were also aware that they can achieve 100% capacity with very less efforts, but always kept margins. Further, the business team was planning to setup two more plants of 20,000 Kilo Litre capacity each in the next five years. This was a welcomed move from state governments as well. From the above, which of the following aspects of objectives is missing by production team?",
+   "options": [
+    {
+     "label": "a",
+     "text": "They should be clear and quantifiable."
+    },
+    {
+     "label": "b",
+     "text": "They should be concise."
+    },
+    {
+     "label": "c",
+     "text": "They should be challenging."
+    },
+    {
+     "label": "d",
+     "text": "They should provide standard for comparative appraisal."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "objectives"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q8",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "BCG growth-share matrix → Ch 4",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "In context to BCG matrix, which of the following statements is not correct?",
+   "options": [
+    {
+     "label": "a",
+     "text": "The BCG assumes that all products will grow and mature."
+    },
+    {
+     "label": "b",
+     "text": "The BCG can be used to examine a company’s current product portfolio."
+    },
+    {
+     "label": "c",
+     "text": "A company with only cash cows and dogs has limited long-term prospects."
+    },
+    {
+     "label": "d",
+     "text": "All of the above"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "bcg matrix"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q9",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategy formulation vs implementation / implementation issues → Ch 5",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "When there is impact of strategy implementation on strategy formulation it can be referred as?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Backward Linkages"
+    },
+    {
+     "label": "b",
+     "text": "Forward Linkages"
+    },
+    {
+     "label": "c",
+     "text": "Vertical Linkages"
+    },
+    {
+     "label": "d",
+     "text": "Horizontal Linkages"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategy implementation"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q10",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through diversification / mergers and acquisitions → Ch 4",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "A rubber manufacturer starts making shoe soles and gum can be termed as?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Conglomerate Diversification"
+    },
+    {
+     "label": "b",
+     "text": "Concentric Diversification"
+    },
+    {
+     "label": "c",
+     "text": "Horizontal Integration"
+    },
+    {
+     "label": "d",
+     "text": "Vertical Integration"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "diversification",
+    "mergers"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q11",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Core competence (resources and capabilities) → Ch 3",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Marketing and Sales of Hindustan Unilever Limited and lowering of operating cost by Walmart are examples of what?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Competitive Advantage"
+    },
+    {
+     "label": "b",
+     "text": "Core Competency"
+    },
+    {
+     "label": "c",
+     "text": "Strategic Planning"
+    },
+    {
+     "label": "d",
+     "text": "Key Performance Indicators (KPIs)"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "core competence"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q12",
+   "chapter": 2,
+   "chapter_source": "mapped",
+   "mapping_note": "Technological and macro-environment forces reshaping an industry → Ch 2",
+   "qno": "1(H)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "The strategic landscape of healthcare sector around the world is changing rapidly because of-",
+   "options": [
+    {
+     "label": "a",
+     "text": "Doctors Educational Interests"
+    },
+    {
+     "label": "b",
+     "text": "Indian Nurses going to abroad"
+    },
+    {
+     "label": "c",
+     "text": "Internet and Technological advancement"
+    },
+    {
+     "label": "d",
+     "text": "Patients being more aware"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "macro environment",
+    "technology"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q13",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "BHAVNAV is a business which makes and sells laptop computers in France. In recent years it has\nbeen struggling to compete with its rivals and has seen a significant fall in its market share.\nBHAVNAV’s managers identify that majority of its products launched by BHAVNAV’s rivals were high\nspecification, with good quality materials and many innovative design features. Products with inferior\nquality, such as those sold by BHAVNAV have not sold well in France. This information led\nBHAVNAV’s management team to decide to select a new business strategy based on Porter’s Generic\nStrategic Model. Identify and suggest the best business strategy BHAVNAV’s management has to opt\nfor?",
+   "options": null,
+   "answer": "According to Porter, the three different business strategies are: cost leadership, differentiation, and\nfocus. Porter called these base generic strategies.\nThe information about competitor activities indicates that the market is uninterested in low-cost\nitems, so a cost leadership approach is unlikely to be successful for BHAVNAV. It is suggested to\nadopt a differentiation strategy and find some way of enabling its laptops to stand out from its rivals.\nDifferentiation strategy is aimed at broad mass market and involves the creation of a product or\nservice that is perceived by the customers as unique. The uniqueness can be associated with\nproduct design, brand image, features, technology, dealer network or customer service.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q14",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic vs operational decision making → Ch 1",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Shri Alok Kumar is having his own medium size factory in Aligarh manufacturing hardware\nconsisting handles, hinges, tower bolts and so on. He has a staff of more than 220 in his\norganisation. One of the leading brand of Hardware seller in India is rebranding and selling the\nmaterial from his factory. Shri Alok Kumar, believes in close supervision and takes all major and\nminor decisions in the organisation.\nDo you think Shri Alok should take all decisions himself? What should be nature of decisions that\nshould be taken by him.",
+   "options": null,
+   "answer": "Decision making is a managerial process of selecting the best course of action out of several\nalternative courses for the purpose of accomplishment of the organizational goals. Decisions may\nbe operational, i.e., which relate to general day-to-day operations. They may also be strategic in\nnature.\nAs owner manager at the top level in the company, Shri Alok Kumar should concentrate on\nstrategic decisions. These are higher level decisions having organisation wide implications. The\nmajor dimensions of strategic decisions are as follows:\n♦ Strategic decisions require top-management involvement as they involve thinking in totality\nof the organization.\n♦ Strategic decisions involve significant commitment of organisational resources.\n♦ Strategic decisions necessitate consideration of factors in the firm’s external environment.\n♦ Strategic decisions are likely to have a significant impact on the long-term prosperity of the\nfirm.\n♦ Strategic decisions are future oriented.\n♦ Strategic decisions usually have major multifunctional or multi-business consequences.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q15",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Expansion through strategic alliance / joint venture → Ch 4",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What are the advantages of a strategic alliance?",
+   "options": null,
+   "answer": "A strategic alliance is a relationship between two or more businesses that enables each to\nachieve certain strategic objectives which neither would be able to achieve on its own. The\nstrategic partners maintain their status as independent and separate entities, share the benefits\nand control over the partnership, and continue to make contributions to the alliance until it is\n\nterminated. The advantages of strategic alliance can be broadly categorised as follows:\n(a) Organizational: Strategic alliance helps to learn necessary skills and obtain certain\ncapabilities from strategic partners. Strategic partners may also help to enhance productive\ncapacity, provide a distribution system, or extend supply chain.\n(b) Economic: There can be reduction in costs and risks by distributing them across the\nmembers of the alliance. Greater economies of scale can be obtained in an alliance, as\nproduction volume can increase, causing the cost per unit to decline.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic alliance"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q16",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "ABC Pvt Ltd is dealing in multiproduct like electronics and FMCG and are having outlets in\ndifferent cities and markets across India. Due to scale of operation, it is having technical difficulty\nin dealing with distinct product line and Markets especially in coordination and control related\nproblems. Which of following technique which was introduced in 1920 can be used to resolve the\nproblem?",
+   "options": null,
+   "answer": "Multi divisional structure is composed of operating divisions where each division represents a\nseparate business to which the top corporate officer delegates responsibility for day-to-day\noperations and business unit strategy to division managers. Multi divisional structure was\ndeveloped in the 1920, in response to coordination and control related problems in large firms\nwhere functional departments often had difficulty dealing with distinct product lines and Markets.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q17",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "State the factors of human resource that have influence on employee’s competence.",
+   "options": null,
+   "answer": "Human resource management has been accepted as a strategic partner in the formulation of\norganization’s strategies and in the implementation of such strategies through human resource\nplanning, employment, training, appraisal and reward systems. The following points should be\nkept in mind as they can have a strong influence on employee competence:\ni. Recruitment and selection: The workforce will be more competent if a firm can\nsuccessfully identify, attract, and select highly competent applicants.\nii. Training: The workforce will be more competent if employees are well trained to perform\ntheir jobs properly.\niii. Appraisal of performance: The performance appraisal is to identify any performance\ndeficiencies experienced by employees due to lack of competence. Such deficiencies, once\nidentified, can often be solved through counselling, coaching or training.\niv. Compensation: A firm can usually increase the competency of its workforce by offering\npay, benefits and rewards that are not only attractive than those of their competitors but\nalso recognizes merit.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q18",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Business Process Reengineering — dropped from the 2023 syllabus (old Paper 7B Ch 8.7); no counterpart in current Paper 6B",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "India's luxurious domestic airline Indijet in an attempt to retain its leadership in aviation sector\nhas hired J S Dutta as its Chief Executive. Mr Dutta wishes to reorient company to make it a\ndomestic discount carrier. He desires to introduce no frills business model by offering extremely\nlow fares and improve margins by cutting down traditional amenities such as reclining seats and\ncomplimentary meals. At the same time setting the stage for a new air revolution, he wishes to\nbrand itself as on-time airlines having proper systems in place and removing additional and\nwasteful activities and processes. What steps will you advise to Mr Dutta?",
+   "options": null,
+   "answer": "Mr. Dutta should adopt business process reengineering (BPR). It is an approach to unusual\nimprovement in operating effectiveness through the redesigning of critical business processes\nand supporting business systems. It is revolutionary redesign of key business processes that\ninvolves examination of the basic process itself. BPR refers to the analysis and redesign of\nworkflows and processes both within the organization and between the organization and the\nexternal entities like suppliers, distributors, and service providers.\nThe orientation of redesigning efforts involves total deconstruction and rethinking of business\nprocess BPR involves the following steps:\ni. Determining objectives: Objectives are the desired end results of the redesign process.\nThey will provide the required focus, direction, and motivation for the redesign process and\nhelp in building a comprehensive foundation for the reengineering process.\nii. Identify customers and determine their needs: The process designers have to\nunderstand customers. The purpose is to redesign business process that clearly provides\nvalue addition to the customer.\n\niii. Study the existing processes: The study of existing processes will provide an important\nbase for the process designers. The purpose is to gain an understanding of the ‘what’, and\n‘why’ of the targeted process.\niv. Formulate a redesign process plan: Formulation of redesign plan is the real crux of the\nreengineering efforts. Customer focussed redesign concepts are identified and formulated.\nIn this step alternative processes are considered, and the best is selected.\nv. Implement the redesigned process: It is easier to formulate new process than to\nimplement them. Implementation of the redesigned process and application of other\nknowledge gained from the previous steps is key to achieve dramatic improvements.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "bpr",
+    "reengineering"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q19",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Benefits / importance of strategic management → Ch 1",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Strategic management helps an organization to work through changes in environment to gain\ncompetitive advantage. In light of statement discuss its benefits.",
+   "options": null,
+   "answer": "Strategic management involves developing the company’s vision, environmental scanning,\nstrategy formulation, implementation, evaluation and control. It emphasises the monitoring and\nevaluation of external opportunities and threats in the light of a company’s strengths and\nweaknesses and designing strategies for the survival and growth. It helps in creation of\ncompetitive advantage to outperform the competitors and also guide the company successfully\nthrough all changes in the environment.\nThe major benefits of strategic management are:\n♦ Strategic management gives a direction to the company to move ahead. It defines the goals\nand mission.\n♦ It helps organisations to be proactive instead of reactive in shaping its future.\n♦ It provides frameworks for all major decisions of an enterprise such as decisions on\nbusinesses, products, markets, manufacturing facilities, investments and organisational\nstructure. It provides better guidance to entire organisation on the crucial point - what it is\ntrying to do.\n♦ It helps organisations to identify the available opportunities and identify ways and means to\nachieve them.\n♦ It serves as a corporate defence mechanism against mistakes and pitfalls.\n♦ It helps to enhance the longevity of the business.\n♦ It helps the organisation to develop certain core competencies and competitive advantages\nthat would facilitate survival and growth.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "importance",
+    "benefits"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q20",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Divestment / liquidation → Ch 4 (strategic exits)",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nDivestment and liquidation strategy.",
+   "options": null,
+   "answer": "| Divestment Strategy | Liquidation Strategy |\n| --- | --- |\n| Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit center or SBU. | It involves closing down a firm and selling its assets. |\n| Divestment is usually a part of rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful. Option of a turnaround may even be ignored if it is obvious that divestment is the only answer. | Liquidation becomes only option in case of severe and critical conditions where either turnaround and divestment are not seen as solution or have been attempted but failed. |\n| Efforts are made for the survival of organization. | Liquidation as a form of retrenchment strategy is considered as the most extreme and unattractive. |\n| Survival of organization helps in retaining personnel, at least to some extent. | There is loss of employment with stigma of failure. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "divestment",
+    "liquidation"
+   ]
+  },
+  {
+   "id": "mtp-old-dec2021-s2-q21",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Logistics Management / Supply Chain Management — dropped from the 2023 syllabus (old Ch 6.4.3-6.4.4)",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nLogistic management and Supply chain management.",
+   "options": null,
+   "answer": "Supply chain management is an extension of logistic management. However, there are\ndifferences between the two. Logistical activities typically include management of inbound and\noutbound goods, transportation, warehousing, handling of material, fulfillment of orders, inventory\nmanagement and supply/demand planning. Although these activities also form part of supply\nchain management, the latter is much broader. Logistic management can be termed as one of its\nparts that is related to planning, implementing, and controlling the movement and storage of\ngoods, services and related information between the point of origin and the point of consumption.\nSupply chain management is an integrating function of all the major business activities and\nbusiness processes within and across organisations. Supply Chain Management is a systems\nview of the linkages in the chain consisting of different channel partners – suppliers,\nintermediaries, third-party service providers and customers. Different elements in the chain work\ntogether in a collaborative and coordinated manner. Often it is used as a tool of business\ntransformation and involves delivering the right product at the right time to the right place and at\nthe right price.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "logistics",
+    "supply chain"
+   ]
+  }
+ ]
+}

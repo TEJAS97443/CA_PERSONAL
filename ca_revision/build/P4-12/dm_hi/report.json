@@ -1,0 +1,25 @@
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 12.85,
+ "words": 1654,
+ "overall_wpm": 129,
+ "lines": 63,
+ "lines_below_bar": [],
+ "mean_recall": 0.9367,
+ "min_recall": 0.769,
+ "mp3": "/Users/ztejas/CA_PERSONAL/ca_revision/out/P4-12 - Service Costing - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.4,
+ "loudness_in": {
+  "input_i": "-25.63",
+  "input_tp": "-5.09",
+  "input_lra": "2.20",
+  "input_thresh": "-36.02",
+  "output_i": "-16.48",
+  "output_tp": "-1.50",
+  "output_lra": "2.20",
+  "output_thresh": "-26.88",
+  "normalization_type": "dynamic",
+  "target_offset": "0.48"
+ }
+}

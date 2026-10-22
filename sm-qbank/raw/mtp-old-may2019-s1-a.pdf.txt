@@ -1,0 +1,341 @@
+                                                               Test Series: March, 2019
+                                MOCK  TEST PAPER - 1
+                           INTERMEDIATE  (NEW): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC  MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                     ANSWERS
+                            MULTIPLE  CHOICE QUESTIONS
+1.  (a) Business Process Automation
+2.  (c) Integration Testing
+3.  (a) Design
+4.  (b) Today itself based on past years’ experience and future projected increase
+5.  (b) Internet of Things (IoT)
+6.  (a) Confidentiality
+7.  (b) Data
+8.  (d) Walkie - Talkie
+9.  (b) Weakness of controls
+10. (d) Auditor Suggesting Controls
+                               DESCRIPTIVE QUESTIONS
+1.  (a) Role-Based Access Control (RBAC): In computer systems security, RBAC also referred as Role-
+        Based Security is an approach to restricting system access to authorized users. It is used by most
+        enterprises and can implement mandatory access control or discretionary access control. RBAC is
+        a policy neutral access control mechanism defined around roles and privileges. The components
+        of RBAC such as role-permissions, user-role and role-role relationships make it simple to perform
+        user assignments. RBAC can be used to facilitate administration of security in large organizations
+        with hundreds of users and thousands of permissions. Roles for staff are defined in organization
+        and access to the system can be given according to the role assigned. E.g. a junior accountant in
+        accounting department is assigned a role of recording basic accounting transactions, an executive
+        in human resource department is assigned a role of gathering data for salary calculations on
+        monthly basis, etc.
+    (b) The key technology components of Core Banking System (CBS) are as follows:
+        •   Database Environment
+        •   Application Environment
+        •   Web Environment
+        •   Security solution
+        •   Connectivity to the Corporate Network and the Internet
+        •   Data Centre and Disaster Recovery Centre
+        •   Network Solution architecture to provide total connectivity
+        •   Enterprise Security architecture
+        •   Branch and Delivery channel environment
+        •   Online Transaction monitoring for fraud risk management
+
+2.  (a) Power Spikes: This is caused due to a very short pulse of energy in a power line.
+        Controls for Environmental Exposures: Some of the major ways of protecting the installation
+        against power spikes as follows:
+           The risk of damage due to power spikes can be reduced using Electrical Surge Protectors
+            that are typically built into the Un-interruptible Power System (UPS).
+           Un-interruptible Power System (UPS)/Generator: In case of a power failure, the UPS
+            provides the back up by providing electrical power from the battery to the computer for a
+            certain span of time. Depending on the sophistication of the UPS, electrical power supply
+            could continue to flow for days or for just a few minutes to permit an orderly computer
+            shutdown.
+           Voltage regulators and circuit breakers protect the hardware from temporary increase or
+            decrease of power.
+           Emergency Power-Off Switch: When the need arises for an immediate power shut down
+            during situations like a computer room fire or an emergencyevacuation, an emergency power-
+            off switch at the strategic locations would serve the purpose. They should be easily accessible
+            and yet secured from unauthorized people.
+        Water Damage: Water damage to a computer installation can be the outcome of water pipes burst.
+        Water damage may also result from other resources such as cyclones, tornadoes, floods etc
+        Controls for Environmental Exposures: Some of the major ways of protecting the installation
+        against water damage are as follows:
+           Wherever possible have waterproof ceilings, walls and floors;
+           Ensure an adequate positive drainage system exists;
+           Install alarms at strategic points within the installation;
+           In flood areas have the installation above the upper floors but not at the top floor;
+           Water proofing; and
+           Water leakage Alarms
+    (b) The success of any Business Process Automation shall only be achieved when BPA ensures the
+        following:
+           Confidentiality: To ensure that data is only available to persons who have right to see the
+            same;
+           Integrity: To ensure that no un-authorized amendments can be made in the data;
+           Availability: To ensure that data is available when asked for; and
+           Timeliness: To ensure that data is made available in at the right time.
+        To ensure that all the above parameters are met, BPA needs to have appropriate internal controls
+        put in place.
+3.  (a) Non-Master Data: It is a data which is expected to change frequently, again and again and not a
+        permanent data. E.g. Amounts recorded in each transaction shall be different every time and
+        expected to change again and again. Date recorded in each transaction is expected to change
+        again and again and will not be constant in all the transactions.
+        Master Data: Master data is relatively permanent data that is not expected to change again and
+        again. It may change, but not again and again. In accounting systems, there may be following types
+        of master data.
+
+        a.  Accounting Master Data – This includes names of ledgers, groups, cost centres, accounting
+            voucher types, etc. E.g. Capital Ledger is created once and not expected to change
+            frequently. Similarly, all other ledgers like, sales, purchase, expenses and income ledgers are
+            created once and not expected to change again and again. Opening balance carried forward
+            from previous year to next year is also a part of master data and not expected to change.
+        b.  Inventory Master Data – This includes stock items, stock groups, godowns, inventory
+            voucher types, etc. Stock item is something which bought and sold for business purpose, a
+            trading goods. E.g. If a person is into the business of dealing in white goods, stock items shall
+            be Television, Fridge, Air Conditioner, etc. For a person running a medicine shop, all types of
+            medicines shall be stock items for him/her.
+        c.  Payroll Master Data – Payroll is another area connecting with Accounting Systems. Payroll
+            is a system for calculation of salary and recoding of transactions relating to employees. Master
+            data in case of payroll can be names of employees, group of employees, salary structure, pay
+            heads, etc. These data are not expected to change frequently. E.g. Employee created in the
+            system will remain as it is for a longer period of time, his/her salary structure may change but
+            not frequently, pay heads associated with his/her salary structure will be relatively permanent.
+        d.  Statutory Master Data – This is a master data relating to statute/law. It may be different for
+            different type of taxes. E.g. Goods and Service Tax (GST), Nature of Payments for Tax
+            Deducted at Source (TDS), etc. This data also shall be relatively permanent. We don’t have
+            any control on this data as statutory changes are made by Government and not by us. In case
+            of change in tax rates, forms, categories, we need to update/change our master data.
+        All business process modules must use common master data.
+    (b) Various benefits of an e-commerce transaction to Customer / Individual / User are as follows:
+           Convenience: Every product at the tip of individual’s fingertips on internet.
+           Time saving: Number of operations that can be performed both by potential buyers and
+            sellers increase.
+           Various Options: There are several options available for customers which are not only being
+            easy to compare but are provided by different players in the market.
+           Easy to find reviews: There are often reviews about a site or product from the previous
+            customers which provides valuable feedback.
+           Coupon and Deals: There are discount coupons and reward points available for customers
+            to encourage online transaction.
+           Anytime Access: Even midnight access to the e commerce platforms is available which
+            brings in customer suitability.
+4.  (a) The deployment and implementation of Core Banking Systems(CBS) should be controlled at
+        various stages to ensure that banks automation objectives are achieved:
+        •   Planning: Planning for implementing the CBS should be done as per strategic and business
+            objectives of bank.
+        •   Approval: The decision to implement CBS requires high investment and recurring costs and
+            will impact how banking services are provided by the bank. Hence, the decision must be
+            approved by the board of directors.
+        •   Selection: Although there are multiple vendors of CBS, each solution has key differentiators.
+            Hence, bank should select the right solution considering various parameters as defined by
+            the bank to meet their specific requirements and business objectives.
+
+        •   Design and Develop/ Procure: CBS solutions used to be earlier developed in-house by the
+            bank. Currently, most of the CBS deployment are procured. There should be appropriate
+            controls covering the design or development or procurement of CBS for the bank.
+        •   Testing: Extensive testing must be done before the CBS is live. The testing is to be done at
+            different phases at procurement stage to test suitability to data migration to ensure all existing
+            data is correctly migrated and testing to confirm processing of various types of transactions
+            of all modules produces the correct results.
+        •   Implementation: CBS must be implemented as per pre-defined and agreed plan with specific
+            project milestones to ensure successful implementation.
+        •   Maintenance: CBS must be maintained as required. E.g. program bugs fixed, version
+            changes implemented, etc.
+        •   Support: CBS must be supported to ensure that it is working effectively.
+        •   Updation: CBS modules must be updated based on requirements of business processes,
+            technology updates and regulatory requirements.
+        •   Audit: Audit of CBS must be done internally and externally as required to ensure that controls
+            are working as envisaged.
+    (b) In an e-business environment, controls are necessary for all persons in the chain that include the
+        following-
+        •   Users: This is important to ensure that the genuine user is using the e-commerce/ m-
+            commerce platform. There is risk if user accounts are hacked and hackers buy products /
+            services.
+        •   Sellers / Buyers / Merchants: These people need to proper framework in place to ensure
+            success of business. Many e-commerce businesses have lost huge amount of money as they
+            did not have proper controls put in place. These include controls on Product catalogues; Price
+            catalogues; Discounts and promotional schemes; Product returns and Accounting for cash
+            received through Cash on Delivery mode of sales.
+        •   Government: Governments across the world and in India have few critical concerns vis-à-vis
+            electronic transactions, namely Tax accounting of all products / services sold and all products/
+            services are sold.
+        •   Network Service Providers: They need to ensure availability and security of network. Any
+            downtime of network can be disastrous for business.
+        •   Technology Service Providers: These include all other service provider other than network
+            service provider, for example, cloud computing back-ends, applications back-ends and like.
+            They are also prone to risk of availability and security.
+        •   Logistics Service Providers: Success or failure of any e-commerce / m-commerce venture
+            finally lies here. Logistics service providers are the ones who are finally responsible for timely
+            product deliveries.
+        •   Payment Gateways: E-commerce vendors’ business shall run only when their payment
+            gateways are efficient, effective and foolproof.
+        Each participant needs to put in place controls in an e-commerce environment.
+5.  (a) Given below is a list of the controls for the Purchase to Pay cycle, which is broken down to four
+        main components:
+           Purchases: When an employee working in a specific department (i.e., marketing, operations,
+            sales, etc.) wants to purchase something required for carrying out the job, he/she will submit
+            a Purchase Requisition (PR) to a manager for approval. Based on the approved PR, a
+
+            Purchase Order (PO) is raised. The PO may be raised manually and then input into the
+            computer system or raised directly by the computer system.
+           Goods Receipt: The PO is then sent to the vendor, who will deliver the goods as per the
+            specifications mentioned in the PO. When the goods are received at the warehouse, the
+            receiving staff checks the delivery note, PO number etc. and acknowledges the receipt of the
+            material. Quantity and quality are checked and any unfit items are rejected and sent back to
+            the vendor. A Goods Receipt Note (GRN) is raised indicating the quantity received. The GRN
+            may be raised manually and then input into the computer system or raised directly by
+            computer system.
+           Invoice Processing: The vendor sends the invoice to the accounts payable department who
+            will input the details into the computer system. The vendor invoice is checked with the PO to
+            ensure that only the goods ordered have been invoiced and at the negotiated price. Further
+            the vendor invoice is checked with the GRN to ensure that the quantity ordered has been
+            received.
+           Payment: If there is no mismatch between the PO, GRN and vendor invoice; the payment is
+            released to the vendor based on the credit period negotiated with the vendor.
+    (b) Subversive Attacks and Piggybacking are the types of Asynchronous Attacks. However, they differ
+        in following aspects:
+        Subversive Attacks: These can provide intruders with important information about messages
+        being transmitted and the intruder may attempt to violate the integrity of some components in the
+        sub-system.
+        Piggybacking: This is the act of following an authorized person through a secured door or
+        electronically attaching to an authorized telecommunication link that intercepts and alters
+        transmissions. This involves intercepting communication between the operating system and the
+        user and modifying them or substituting new messages.
+
+                                                               Test Series: March, 2019
+                                   MOCK  TEST PAPER
+                            INTERMEDIATE COURSE:  GROUP  – II
+          PAPER –7: ENTERPRISE INFORMATION  SYSTEMS & STRATEGIC MANAGEMENT
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.
+         (i)     (ii)   (iii)   (iv)   (v)     (vi)   (vii)   (viii) (ix)    (x)
+         d       b      a       a      b       b      b       d      d       d
+         (xi)    (xii)  (xiii)  (xiv)  (xv)
+         c       c      a       a      b
+2.  Infant care is opting for differentiation strategy. A one-stop shop is a benefit for this type of customers,
+    seeking convenience in a time. Infant care is catering the products only related to infants that is
+    perceived by the customers as unique. Because of differentiation, the Infant care is charging a premium
+    for its product.
+3.  (a) The presence of strategic management cannot counter all hindrances and always achieve success
+        as there are limitations attached to strategic management. These can be explained in the following
+        lines:
+           Environment is highly complex and turbulent. It is difficult to understand the complex
+            environment and exactly pinpoint how it will shape-up in future. The organisational estimate
+            about its future shape may awfully go wrong and jeopardise all strategic plans. The
+            environment affects as the organisation has to deal with suppliers, customers, governments
+            and other external factors.
+           Strategic Management is a time-consuming process. Organisations spend a lot of time in
+            preparing, communicating the strategies that may impede daily operations and negatively
+            impact the routine business.
+           Strategic Management is a costly process. Strategic management adds a lot of expenses to
+            an organization. Expert strategic planners need to be engaged, efforts are made for analysis
+            of external and internal environments devise strategies and properly implement. These can
+            be really costly for organisations with limited resources particularly when small and medium
+            organisation create strategies to compete.
+           In a competitive scenario, where all organisations are trying to move strategically, it is difficult
+            to clearly estimate the competitive responses to the strategies.
+    (b) Steps to understand the competitive landscape:
+        (i) Identify the competitor: The first step to understand the competitive landscape is to identify
+            the competitors in the firm’s industry and have actual data about their respective market
+            share.
+        (ii) Understand the competitors: Once the competitors have been identified, the strategist can
+            use market research report, internet, newspapers, social media, industry reports, and various
+            other sources to understand the products and services offered by them in different markets.
+        (iii) Determine the strengths of the competitors: What are the strength of the competitors?
+            What do they do well? Do they offer great products? Do they utilize marketing in a way that
+            comparatively reaches out to more consumers. Why do customers give them their business?
+        (iv) Determine the weaknesses of the competitors: Weaknesses (and strengths) can be
+
+            identified by going through consumer reports and reviews appearing in various media. After
+            all, consumers are often willing to give their opinions, especially when the products or services
+            are either great or very poor.
+        (v) Put all of the information together: At this stage, the strategist should put together all
+            information about competitors and draw inference about what they are not offering and what
+            the firm can do to fill in the gaps. The strategist can also know the areas which need to be
+            strengthen by the firm.
+4.  (a) In most situations, strategy-execution process includes the following principal aspects:
+           Developing budgets that steer ample resources into those activities critical to strategic
+            success.
+           Staffing the organization with the needed skills and expertise, consciously building and
+            strengthening strategy-supportive competencies and competitive capabilities, and organizing
+            the work effort.
+           Ensuring that policies and operating procedures facilitate rather than impede effective
+            execution.
+           Using the best-known practices to perform core business activities and pushing for continuous
+            improvement.
+           Installing information and operating systems that enable company personnel to better carry
+            out their strategic roles day in and day out.
+           Motivating people to pursue the target objectives energetically.
+           Creating a company culture and work climate conducive to successful strategy
+            implementation and execution.
+           Exerting the internal leadership needed to drive implementation forward and keep improving
+            strategy execution. When the organization encounters stumbling blocks or weaknesses,
+            management has to see that they are addressed and rectified quickly.
+        Good strategy execution involves creating strong “fits” between strategy and organizational
+        capabilities, between strategy and the reward structure, between strategy and internal operating
+        systems, and between strategy and the organization’s work climate and culture.
+    (b) Leatherite Ltd. is currently manufacturing footwears for males and females and its top management
+        has decided to expand its business by manufacturing leather bags for males and females. Both the
+        products are similar in nature within the same industry. The strategic diversification that the top
+        management of Leatherite Ltd. has opted is concentric in nature. They were in business of
+        manufacturing leather footwears and now they will manufacture leather bags as well. They will be
+        able to use existing infrastructure and distribution channel. Concentric diversification amounts to
+        related diversification.
+        In concentric diversification, the new business is linked to the existing businesses through process,
+        technology or marketing. The new product is a spin-off from the existing facilities and
+        products/processes. This means that in concentric diversification too, there are benefits of synergy
+        with the current operations.
+5.  (a) To gain a deep understanding of a company’s industry and competitive environment, managers do
+        not need to gather all the information they can find and waste a lot of time digesting it. Rather, the
+        task is much more focused. A powerful and widely used tool for systematically diagnosing the
+        significant competitive pressures in a market and assessing the strength and importance of each
+        is the Porter’s five-forces model of competition. This model holds that the state of competition in
+        an industry is a composite of competitive pressures operating in five areas of the overall market:
+        •   Competitive pressures associated with the market manoeuvring and jockeying for buyer
+            patronage that goes on among rival sellers in the industry.
+        •   Competitive pressures associated with the threat of new entrants into the market.
+
+        •   Competitive pressures coming from the attempts of companies in other industries to win
+            buyers over to their own substitute products.
+        •   Competitive pressures stemming from supplier bargaining power and supplier-seller
+            collaboration.
+        •   Competitive pressures stemming from buyer bargaining power and seller-buyer Collaboration.
+    (b) Supply chain management is an extension of logistic management. However, there are differences
+        between the two. Logistical activities typically include management of inbound and outbound
+        goods, transportation, warehousing, handling of material, fulfillment of orders, inventory
+        management and supply/demand planning. Although these activities also form part of supply chain
+        management, the latter is much broader. Logistic management can be termed as one of its part
+        that is related to planning, implementing, and c ontrolling the movement and storage of goods,
+        services and related information between the point of origin and the point of consumption.
+        Supply chain management is an integrating function of all the major business activities and
+        business processes within and across organisations. Supply Chain Management is a systems view
+        of the linkages in the chain consisting of different channel partners – suppliers, intermediaries,
+        third-party service providers and customers. Different elements in the chain work together in a
+        collaborative and coordinated manner. Often it is used as a tool of business transformation and
+        involves delivering the right product at the right time to the right place and at the right price.
+6.  (a) The most important phenomenon which often distinguishes one organisation with another is its
+        corporate culture. Corporate culture refers to a company’s values, beliefs, business principles,
+        traditions, and ways of operating and internal work environment. Every corporation has a culture
+        that exerts powerful influences on the behaviour of managers.
+        (i) As a strength: Culture can facilitate communication, decision making and control and instil
+            cooperation and commitment. An organization’s culture could be strong and cohesive when it
+            conducts its business according to clear and explicit set of principles and values, which the
+            management devotes considerable time to communicating to employees and which values
+            are shared widely across the organisation.
+        (ii) As a weakness: Culture, as a weakness can obstruct the smooth implementation of strategy
+            by creating resistance to change. An organization’s culture could be characterised as weak
+            when many sub-cultures exists, few values and behavioural norms are shared and traditions
+            are rare. In such organizations, employees do not have a sense of commitment, loyalty and
+            sense of identity.
+    (b) Implementation control: Managers implement strategy by converting major plans into concrete,
+        sequential actions that form incremental steps. Implementation control is directed towards
+        assessing the need for changes in the overall strategy in light of unfolding events and results
+        associated with incremental steps and actions.
+        Strategic implementation control is not a replacement to operational control. Strategic
+        implementation control, unlike operational controls continuously monitors the basic direction of the
+        strategy. The two basic forms of implementation control are:
+        (i) Monitoring strategic thrusts: Monitoring strategic thrusts help managers to determine
+            whether the overall strategy is progressing as desired or whether there is need for
+            readjustments.
+        (ii) Milestone Reviews. All key activities necessary to implement strategy are segregated in
+            terms of time, events or major resource allocation. It normally involves a complete
+            reassessment of the strategy. It also assesses the need to continue or refocus the direction
+            of an organization.

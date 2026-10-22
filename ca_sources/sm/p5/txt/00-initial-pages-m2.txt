@@ -1,0 +1,435 @@
+# ICAI Board of Studies - Intermediate (New Scheme) Study Material - Paper 5: Auditing and Ethics
+# Module 2 Initial Pages
+# Edition: July 2024, Reprint August 2025 (cover: "Relevant for May 2026 Examination"); ICAI lists this edition as applicable for January 2027
+# Source: https://resource.cdn.icai.org/87761bos280528a-im2.pdf  (local ../pdf/m2-ip.pdf, sha256 a93add9f6deb0ca2)
+# Page markers "=== p.N [X.Y] ===": N = page number inside the PDF file above, X.Y = ICAI printed page number
+# Text: poppler pdftotext -layout (columns of tables kept), symbol-font bullets -> "-", Rupee-font backtick -> ₹, running heads/footers removed. Equations from MathType objects are not reliable as text: see formula_pages in toc.json and render the PDF page
+
+=== p.1 ===
+                          Intermediate Course
+                                                 Study Material
+                                                 (Modules 1 to 2)
+
+                                                       Paper 5
+
+          Auditing & Ethics
+                     (Relevant for May, 2026 Examination)
+                                                      Module – 2
+
+                 BOARD OF STUDIES
+THE INSTITUTE OF CHARTERED ACCOUNTANTS OF INDIA
+
+=== p.2 ===
+This Study Material has been prepared by the faculty of the Board of Studies. The
+objective of the Study Material is to provide teaching material to the students to
+enable them to obtain knowledge in the subject. In case students need any
+clarification or have any suggestion for further improvement of the material
+contained herein, they may write to the Joint Director, Board of Studies.
+All care has been taken to provide interpretations and discussions in a manner
+useful for the students. However, the Study Material has not been specifically
+discussed by the Council of the Institute or any of its committees and the views
+expressed herein may not be taken to necessarily represent the views of the
+Council or any of its Committees.
+Permission of the Institute is essential for reproduction of any portion of this
+material.
+
+All rights reserved. No part of this book may be reproduced, stored in a retrieval
+system, or transmitted, in any form, or by any means, electronic, mechanical,
+photocopying, recording, or otherwise, without prior permission, in writing, from the
+publisher.
+
+Basic draft of this publication was prepared by CA. (Dr.) Rashmi Goel
+
+Edition                                 :       July, 2024
+
+Reprint                                 :       August, 2025
+
+Committee/Department                    :       Board of Studies
+
+E-mail                                  :       bosnoida@icai.in
+
+Website                                 :       www.icai.org
+
+Price                                   :       ₹   /-   (For All Modules)
+
+ISBN No.                                :       978-81-19472-88-8
+
+Published by                            :       The Publication & CDS Directorate on behalf of
+                                                The Institute of Chartered Accountants of India,
+                                                ICAI     Bhawan,    Post     Box   No.    7100,
+                                                Indraprastha Marg, New Delhi 110 002 (India)
+Printed by                              :
+
+=== p.3 ===
+CONTENTS
+ MODULE – 1
+ Chapter 1 : Nature, Objective and Scope of Audit
+
+ Chapter 2 : Audit Strategy, Audit Planning and Audit Programme
+ Chapter 3 : Risk Assessment and Internal Control
+ Chapter 4 : Audit Evidence
+
+ Chapter 5 : Audit of Items of Financial Statements
+
+ MODULE – 2
+ Chapter 6 : Audit Documentation
+ Chapter 7 : Completion and Review
+
+ Chapter 8 : Audit Report
+ Chapter 9 : Special Features of Audit of Different Type of Entities
+ Chapter 10 : Audit of Banks
+
+ Chapter 11 : Ethics and Terms of Audit Engagements
+
+=== p.4 ===
+     MODULE – 2: DETAILED CONTENTS
+
+ CHAPTER – 6: Audit Documentation
+
+Learning Outcomes ........................................................................................................... 6.1
+Chapter Overview .............................................................................................................. 6.2
+
+Contents
+1.         Audit Documentation ........................................................................................................... 6.3
+           1.1         Definition of Audit Documentation.................................................................. 6.4
+           1.2         Objective of the Auditor ....................................................................................... 6.4
+           1.3         Nature of Audit Documentation ....................................................................... 6.4
+           1.4         Purpose of Audit Documentation ..................................................................... 6.5
+           1.5         Form, Content and Extent of Audit Documentation .................................. 6.5
+           1.6         Examples of Audit Documentation................................................................... 6.6
+           1.7         Timely Preparation of Audit Documentation ............................................... 6.8
+           1.8         Audit File..................................................................................................................... 6.8
+           1.9         Assembly of the Final Audit File ........................................................................ 6.9
+           1.10        Documentation of Significant Matters and Related Significant
+                       Professional Judgments ......................................................................................6.10
+           1.11        Completion Memorandum or Audit Documentation Summary .........6.11
+           1.12        Ownership of Audit Documentation..............................................................6.11
+
+Summary............................................................................................................................ 6.15
+Test Your Knowledge ....................................................................................................... 6.17
+
+=== p.5 ===
+ CHAPTER – 7: Completion and Review
+
+Learning Outcomes ........................................................................................................... 7.1
+
+Chapter Overview ............................................................................................................................... 7.2
+
+Contents:
+
+1.          Subsequent Events ................................................................................................................ 7.4
+
+            1.1          SA 560 Subsequent Events......................................................................... 7.5
+            1.2          Objectives of auditor in accordance with SA 560 ................................ 7.5
+            1.3          Audit procedures relating to events occurring between the
+                         date of the financial statements and the date of
+                         the auditor’s report ...................................................................................... 7.6
+            1.4          Facts which become known to the auditor after the date of the
+                         auditor’s report but before the date the financial
+                         statements are issued .................................................................................. 7.7
+            1.5          Facts which become known to the auditor after the financial
+                         Statements Have been issued ................................................................... 7.9
+
+2.          Meaning of Going Concern and its significance ................................................. 7.13
+
+            2.1          SA 570 Going Concern................................................................................ 7.14
+            2.2          Responsibility for assessment of the entity’s ability to continue
+                         as a going concern ...............................................................................................7.14
+            2.3          Responsibilities of the auditor .........................................................................7.15
+            2.4          Objectives of auditor in accordance with SA 570 .....................................7.15
+            2.5          Risk assessment procedures and related activities ..................................7.16
+            2.6          Evaluating management’s assessment .........................................................7.18
+            2.7          Additional audit procedures when events or
+                         conditions are identified ....................................................................................7.19
+            2.8          Auditor’s conclusions...........................................................................................7.20
+
+=== p.6 ===
+          2.9         Adequacy of disclosures when events or conditions have been
+                      identified and a material uncertainty exists ................................................7.21
+
+          2.10        Adequacy of disclosures when events or conditions have been
+                      identified but no material uncertainty exists ..............................................7.21
+          2.11        Implications for the auditor’s report..............................................................7.21
+
+3.        Evaluation of misstatements identified during the audit......................................7.23
+
+          3.1         SA 450 Evaluation of Misstatements Identified during the Audit ......7.24
+          3.2         Objectives of auditor in accordance with SA 450 .....................................7.24
+          3.3         Accumulation of misstatements identified during the audit ................7.24
+          3.4         Consideration of identified misstatements as the audit Progresses.....7.24
+          3.5         Communication and correction of misstatements ...................................7.25
+          3.6         Evaluating the effect of uncorrected misstatements ...............................7.25
+          3.7         Communication with those charged with governance ...........................7.26
+          3.8         Written Representation from management regarding effects of
+                      uncorrected statements ......................................................................................7.26
+          3.9         Documentation regarding misstatements identified during Audit....7.27
+
+4.        Written Representations....................................................................................................7.28
+
+          4.1         Written representations as audit evidence..................................................7.29
+
+          4.2         SA 580- Written Representations....................................................................7.29
+          4.3         Objectives of auditor in accordance with SA 580 .....................................7.29
+          4.4         From whom Written representations are requested by auditor? .......7.30
+
+          4.5         Written representations about management’s Responsibilities .........7.30
+          4.6         Why Written representations about management responsibilities
+                      are necessary? ........................................................................................................7.32
+
+          4.7         Description of management’s responsibilities in the Written
+                      representations ......................................................................................................7.32
+          4.8         Other Written representations .........................................................................7.33
+
+=== p.7 ===
+          4.9          Additional Written representations about information
+                       provided to the auditor ......................................................................................7.33
+          4.10         Written representations about specific assertions ...................................7.34
+          4.11         Date of and Period(s) covered by Written representations ..................7.34
+          4.12         Form of Written representations .....................................................................7.35
+          4.13         Doubt as to the reliability of Written representations ............................7.37
+          4.14         Requested Written representations not provided....................................7.38
+          4.15         Disclaimer of opinion in case of non-reliability of Written
+                       Representations about management’s responsibilities or failure to
+                       provide such Written Representations..........................................................7.38
+5.        Significance of Communication with Those charged with governance ..........7.39
+
+          5.1          Who are “Those charged with governance”? .............................................7.40
+          5.2          Scope of SA 260- Communication with Those Charged
+                       with Governance....................................................................................................7.41
+          5.3          Objectives of auditor in accordance with SA 260 .....................................7.41
+          5.4          Determining appropriate persons with whom to communicate ........7.42
+          5.5          Matters to be communicated by auditor .....................................................7.42
+          5.6          Communication of auditor’s independence in case of listed entities7.43
+          5.7          The Communication process ............................................................................7.44
+          5.8          Adequacy of the communication process ...................................................7.44
+          5.9          Documentation ......................................................................................................7.45
+6.        Why communication of significant deficiencies in internal control is
+          necessary? ...............................................................................................................................7.45
+
+          6.1          Scope of SA 265- Communicating Deficiencies in Internal
+                       Control to Those Charged with Governance and Management .........7.46
+          6.2          Objective of auditor in accordance with SA 265 .......................................7.46
+
+=== p.8 ===
+           6.3          Meaning of “Deficiency in internal control” and
+                        “significant deficiency in internal control” ...................................................7.46
+
+           6.4          Determination of significant deficiencies in internal control ...............7.48
+           6.5          Communication of significant deficiencies in internal control
+                        to those charged with governance.................................................................7.49
+
+Summary............................................................................................................................ 7.53
+
+Test Your Knowledge ...................................................................................................... 7.55
+
+ CHAPTER – 8: Audit Report
+
+Learning Outcomes ....................................................................................................8.1
+Chapter Overview .......................................................................................................8.2
+Contents:
+Introduction ................................................................................................................8.3
+1.         Forming an Opinion on the Financial Statements-Objective of
+           the Auditor................................................................................................................................ 8.4
+           1.1          Objectives of the Auditor .......................................................................... 8.4
+           1.2          To form Opinion - Auditor to obtain Reasonable Assurance........... 8.5
+           1.3          Evaluations by the Auditor ......................................................................... 8.5
+           1.4          Specific Evaluations by the Auditor ......................................................... 8.6
+           1.5          Definitions ...................................................................................................... 8.7
+2.         Form of Opinion ..................................................................................................................... 8.8
+
+3.         Auditor’s Report ..................................................................................................................... 8.9
+           3.1          Auditor’s Report for Audits Conducted in Accordance
+                        with Standards on Auditing ....................................................................... 8.9
+
+4.         Auditor’s Report Prescribed by Law or Regulation .................................................8.24
+5.         Modifications to the Opinion in the Independent Auditor’s Report ................8.34
+           5.1          Circumstances when a Modification to the Auditor’s
+                        Opinion is Required ................................................................................... 8.34
+
+=== p.9 ===
+          5.2        Objective of the Auditor - To Express Clearly an Appropriately
+                     modified Opinion ....................................................................................... 8.35
+          5.3        Types of Modified Opinions .................................................................... 8.35
+          5.4        Which type of opinion is appropriate? ................................................. 8.39
+          5.5        Consequence of an Inability to Obtain Sufficient
+                     Appropriate Audit Evidence Due to a Management-Imposed
+                     Limitation after the Auditor Has Accepted the Engagement ......... 8.40
+          5.6        Form and Content of the Auditor’s Report When the
+                     Opinion is Modified ................................................................................... 8.43
+          5.7        Basis for Opinion ........................................................................................ 8.44
+          5.8        Description of Auditor’s Responsibilities for the Audit of the
+                     Financial Statements When the Auditor Disclaims an
+                     Opinion on the Financial Statements .................................................... 8.46
+          5.9        Considerations When the Auditor Disclaims an Opinion on the
+                     Financial Statements .................................................................................. 8.47
+
+          5.10       Communication with Those Charged with Governance .................. 8.47
+6.        Emphasis of Matter Paragraphs and Other Matter Paragraphs in the
+          Independent Auditor’s Report ........................................................................................8.47
+
+          6.1        Objective of the Auditor as per SA 706 ................................................ 8.48
+          6.2        Emphasis of Matter Paragraphs in the Auditor’s Report ................. 8.49
+          6.3        The inclusion of an Emphasis of Matter paragraph in
+                     the auditor’s report does not affect the auditor’s opinion. ............ 8.50
+          6.4        Other Matter Paragraphs in the Auditor’s Report ............................. 8.51
+          6.5        Communication with Those Charged with Governance .................. 8.51
+7.        Communicating Key Audit Matters in the Independent Auditor’s Report .....8.51
+          7.1        Purpose of Communicating Key Audit Matters.................................. 8.52
+          7.2        Objectives of the Auditor regarding Key Audit Matters .................. 8.52
+
+          7.3        Determining Key Audit Matters .............................................................. 8.52
+
+=== p.10 ===
+          7.4          Communicating Key Audit Matters ....................................................... 8.53
+          7.5          Communicating Key Audit Matter- not a substitute for
+                       disclosure in the Financial Statements etc. ......................................... 8.54
+          7.6          Communication with Those Charged with Governance .................. 8.54
+8.        Standard on Auditing (SA) 710, “Comparative Information-
+          Corresponding Figures and Comparative Financial Statements” ......................8.57
+          8.1          The Nature of the Comparative Information ...................................... 8.57
+          8.2          Audit Procedures Regarding Comparative Information .................. 8.58
+
+          8.3          Audit Reporting Regarding Corresponding Figures ......................... 8.59
+          8.4          Comparative Financial Statements ........................................................ 8.61
+9.        Audit of Branch Office Accounts ....................................................................................8.62
+10.       Joint Audit ...............................................................................................................................8.65
+11.       Reporting Requirements under The Companies Act, 2013..................................8.68
+12.       Reporting under Companies Auditor’s Report Order,
+          2020 [CARO, 2020] ..............................................................................................................8.73
+Summary ................................................................................................................. 8.85
+Test Your Knowledge ............................................................................................. 8.87
+
+ CHAPTER – 9: Special Features of Audit of Different Type of Entities
+
+Learning Outcome ......................................................................................................9.1
+Chapter Overview .......................................................................................................9.2
+Contents:
+1.        Government Audit ................................................................................................. 9.5
+          1.1          Background .................................................................................................... 9.5
+          1.2          Legal Framework and Comptroller & Auditor General ...................... 9.7
+          1.3          Comptroller and Auditor General’s –Duties and Powers ................... 9.8
+          1.4          Expenditure Audit ....................................................................................... 9.11
+          1.5          Audit of Receipts ........................................................................................ 9.16
+
+=== p.11 ===
+          1.6          Audit of Stores and Inventories .............................................................. 9.17
+          1.7          Audit of Commercial Accounts ............................................................... 9.18
+          1.8          Reporting Procedures................................................................................ 9.21
+2.        Audit of Local Bodies ........................................................................................... 9.22
+          2.1          Background .................................................................................................. 9.22
+          2.2          Financial Administration ........................................................................... 9.24
+          2.3          Objective of Audit of Local Bodies ........................................................ 9.25
+          2.4          Audit Programme for local Bodies......................................................... 9.26
+3.        Audit of Non-Governmental Organisations (NGO’s)..............................................9.27
+          3.1          Background .................................................................................................. 9.27
+          3.2          Sources and Applications of Funds ....................................................... 9.28
+          3.3          Provisions Relating to Audit .................................................................... 9.29
+4.        Audit of Sole Trader ............................................................................................................9.32
+5.        Audit of Firm ..........................................................................................................................9.33
+          5.1          Basic of Limited Liability Partnership (LLP) Audit .............................. 9.37
+6.        Audit of Charitable Institution.........................................................................................9.40
+7.        Audit of Educational Institutions (School, College or University) ......................9.43
+8.        Audit of Hospital ..................................................................................................................9.46
+9.        Audit of Club ..........................................................................................................................9.48
+10.       Audit of Cinema ....................................................................................................................9.49
+11.       Audit of Hire Purchase and Leasing Companies ......................................................9.51
+12.       Audit of Hotels ......................................................................................................................9.56
+13.       Audit of Co-Operative Societies .....................................................................................9.59
+          13.1         Background .................................................................................................. 9.59
+          13.2         Audit as per Section 17 of the Co-Operative Societies
+                       Act, 1912 ....................................................................................................... 9.60
+          13.3         Special Features of Co-Operative Audit ............................................... 9.64
+
+=== p.12 ===
+             13.4          Audit, Inquiry and Inspection of Multi-State Co-Operative
+                           Societies ........................................................................................................ 9.67
+14.          Audit of Trusts & Societies .................................................................................. 9.75
+Summary ................................................................................................................. 9.83
+Test your Knowledge ............................................................................................. 9.84
+
+ CHAPTER – 10: Audit of Banks
+
+Learning Outcomes ..................................................................................................10.1
+Chapter Overview .....................................................................................................10.2
+Contents:
+Introduction............................................................................................................................................ 10.3
+1.           Understanding of Accounting System in Banks .......................................................10.8
+2.           Bank Audit Approach..........................................................................................................10.9
+3.           Income Recognition Policy ............................................................................................ 10.11
+4.           Form and Content of Financial Statements............................................................. 10.11
+5.           Audit of Accounts ............................................................................................................. 10.12
+6.           Eligibility, Qualifications and Disqualifications of Auditor ................................. 10.12
+7.           Appointment of Auditor ................................................................................................. 10.12
+8.           Remuneration of Auditor ............................................................................................... 10.12
+9.           Powers of Auditor ............................................................................................................. 10.13
+10.          Auditor’s Report ................................................................................................................ 10.13
+             10.1          Format of Report ..................................................................................... 10.13
+             10.2          Long Form Audit Report ........................................................................ 10.14
+             10.3          Reporting to RBI ...................................................................................... 10.14
+11.          Conducting an Audit ........................................................................................................ 10.15
+12.          Advances .............................................................................................................................. 10.21
+             12.1          What do Advances Comprise ............................................................... 10.23
+             12.2          Legal Requirements of Disclosure in the Balance Sheet .............. 10.23
+
+=== p.13 ===
+          12.3        Classification of Advances ..................................................................... 10.24
+          12.4        Security Wise ............................................................................................ 10.24
+          12.5        Mode of Creation of Security ............................................................... 10.25
+          12.6        Prudential norms on Income Recognition, Asset Classification
+                      and Provisioning pertaining to Advances ......................................... 10.26
+          12.7        Accounts where there is Erosion in the Value of Security /
+                      Frauds Committed by Borrowers ........................................................ 10.32
+          12.8        Advances Against Term Deposits, NSCs, KVPs/ IVPs, etc. ............ 10.32
+          12.9        Agricultural Advances Affected by Natural Calamities ................. 10.32
+          12.10 Advances to Staff ..................................................................................... 10.32
+          12.11 Agricultural Advances............................................................................. 10.33
+13.       Computation of Drawing Power.................................................................................. 10.34
+14.       Audit of Advances ............................................................................................................. 10.35
+15.       Audit of Revenue Items .................................................................................................. 10.38
+          15.1        Income ........................................................................................................ 10.40
+          15.2        Expenses ..................................................................................................... 10.45
+          15.3        Disclosure of the Prior Period Items .................................................. 10.49
+Summary ............................................................................................................... 10.52
+Test Your Knowledge ........................................................................................... 10.53
+
+ CHAPTER – 11: Ethics and Terms of Audit Engagements
+
+Learning Outcomes ..................................................................................................11.1
+Chapter Overview .....................................................................................................11.2
+Contents:
+1.        Meaning of Ethics ................................................................................................................11.4
+2.        Need for Professional Ethics ............................................................................................11.4
+3.        Principles based approach Vs Rules based approach to ethics .........................11.5
+4.        Fundamental principles of professional ethics .........................................................11.5
+
+=== p.14 ===
+5.        Independence of auditors.................................................................................................11.8
+6.        Threats to Independence ..................................................................................................11.9
+7.        Safeguards to Independence........................................................................................ 11.11
+8.        Professional Skepticism .................................................................................................. 11.12
+9.        Agreeing the terms of audit engagements ............................................................. 11.14
+10.       Example of an engagement letter .............................................................................. 11.17
+11.       What happens if preconditions for an audit are not present?......................... 11.21
+12.       Limitation on scope prior to audit engagement acceptance ........................... 11.21
+13.       Acceptance of a Change in the Terms of the Audit Engagement .................. 11.21
+          13.1         Request from entity to change the terms of audit
+                       engagement-When reasonable justification exists? ...................... 11.21
+
+          13.2         What should auditor consider before agreeing to change
+                       the audit engagement to the engagement providing lower
+                       level of assurance? .................................................................................. 11.22
+          13.3         Recourse available to auditor in situation of non-agreement
+                       to a change in terms of engagement and lack of permission
+                       from management to continue original audit engagement........ 11.23
+14.     Terms of engagement in recurring audits .................................................................. 11.23
+15.     Audit Quality .......................................................................................................................... 11.24
+16.     SQC 1 – “Quality Control for firms that perform audits and reviews
+        of historical financial Information, and other assurance and related
+        services engagements” ...................................................................................................... 11.25
+17.     Elements of System of Quality Control ........................................................................ 11.25
+
+18.     SA 220- “Quality Control for an audit of financial statements” .......................... 11.31
+Summary ............................................................................................................... 11.37
+Test Your Knowledge ........................................................................................... 11.39
+Case Scenarios ...........................................................................................CS.1 – CS.25
+

@@ -1,0 +1,538 @@
+---
+id: aud.bank.advances
+title: Audit of advances, NPAs and drawing power
+minutes: 38
+needs: aud.bank.approach
+tags: advances, NPA, out of order, asset classification, provisioning, drawing power, prudential norms, erosion of security
+labs: npa
+summary: What bank advances are and how they are secured, when an advance becomes an NPA, how it ages from sub-standard to loss and what provision each stage needs, how drawing power is computed, and what the auditor checks.
+---
+
+## In plain words
+
+### The loan that stopped paying rent
+
+Kesar's cousin Rohit Mehra makes kulhads for Tapri in a village near Indore. His firm, **Mehra Kulhad Works**, borrows from the Indore Main Branch of Narmada Bank of India, where Iyer & Associates are now the statutory branch auditors.
+
+> **Kesar:** Rohit's loan is safe, Lakshmi-ji. The bank holds his whole kiln as security. Even if he pays late, how can it be a bad loan?
+> **Lakshmi:** The bank does not ask what it could sell, Kesar-ji. It asks what he has actually paid.
+> **Bunty:** So a loan with a whole kiln behind it can still be an NPA?
+> **Lakshmi:** If the money stops coming in, yes.
+
+A bank's loans are its **advances**, and they are most of what it owns. A loan is healthy while it earns: the interest and instalments come in on time. When they stop for long enough, the loan becomes a **non-performing asset** (NPA). The RBI's **prudential norms** then decide three things: when a loan is an NPA, how bad it has become, and how much the bank must set aside as a **provision** against it. The test is the **record of recovery**, not the security and not the borrower's wealth.
+
+An NPA gets older the way milk does. First **sub-standard** (up to a year as an NPA), then **doubtful** (in three grades as the years pass). Each step needs a bigger provision. **Loss** is not a later age but a verdict: the loss has been identified, by the bank, its auditors or the RBI, and not yet written off. Some shortcuts skip the steps: if the security has crumbled, the loan jumps straight to doubtful or loss.
+
+A working-capital loan, the **cash credit**, has its own meter: the **drawing power**, the amount the borrower may actually draw, worked out from the stock and debtors the borrower has paid for, less a safety margin. A cash credit becomes an NPA when it goes **out of order**.
+
+The auditor's job is to check that every advance is real, documented, secured, correctly classified and fully provided for.
+
+::: analogy Rent, not the house
+A landlord does not call a tenant "good" because the tenant owns a big house elsewhere: the tenant is good if the rent arrives. Miss three months and the tenant is a problem, however grand the house. Banks classify loans the same way, by the rent (instalments and interest), not by the house (the security). The house matters only for how much the bank can hope to recover, which is why the provision depends on the security.
+:::
+
+::: key
+Classification as an NPA rests on the record of recovery, borrower by borrower, never on the security or the borrower's net worth. The security comes in afterwards, to size the provision, and to push an account straight to doubtful or loss when it has eroded.
+:::
+
+## How it works
+
+### 1. What advances are
+
+Lending is a major activity of a bank besides investment: its core business is accepting deposits for onward lending. Advances generally constitute the **largest item on the assets side** and a major source of income, so their audit is one of the most important areas of a bank audit (SM 10.22).
+
+- **Funded** facilities involve an actual transfer of funds to the borrower: term loans, cash credits, overdrafts, demand loans, bills discounted and purchased, participation on risk sharing basis, interest-bearing staff loans.
+- **Non-funded** facilities involve no such transfer: letters of credit, bank guarantees.
+
+**Advances comprise** the funded amounts only: the funded facilities listed above (SM 10.23).
+
+**Disclosure in the balance sheet** classifies advances three ways (SM 10.23):
+
+| | Classification |
+|---|---|
+| A | (i) Bills purchased and discounted; (ii) cash credits, overdrafts and loans repayable on demand; (iii) term loans |
+| B | (i) Secured by tangible assets; (ii) covered by bank/Government guarantees; (iii) unsecured |
+| C.I | Advances in India: (i) priority sectors; (ii) public sector; (iii) banks; (iv) others |
+| C.II | Advances outside India: (i) due from banks; (ii) due from others: (a) bills purchased and discounted, (b) syndicated loans, (c) others |
+
+### 2. Classification by sector and by security
+
+**Sector-wise.** The RBI issues common guidelines for lending to the **priority sector** (rate of interest, service charges, registers of receipt, sanction, rejection and disbursement, loan application acknowledgement) and sets targets for it. Examples: agriculture, MSME, education, housing (SM 10.24).
+
+**Security-wise.** Banks take security so that they can sell it if the borrower does not repay (SM 10.24):
+
+- **Primary security** is the security offered by the borrower for bank finance, or the one against which credit has been extended: the principal security for an advance.
+- **Collateral security** is an additional security. Security may be tangible or intangible, movable or immovable.
+
+Common securities: personal security of guarantors; goods, stocks, debtors and trade receivables; gold ornaments and bullion; immovable property; plantations (for agricultural advances); third-party guarantees; banker's general lien; life insurance policies; stock exchange securities and other instruments (SM 10.24–10.25).
+
+**Modes of creating security** (SM 10.25–10.26):
+
+| Mode | How it works |
+|---|---|
+| Mortgage | **Registered**: by a registered mortgage deed signed by the mortgagor. **Equitable**: by mere delivery of title deeds with intent to create security |
+| Pledge | Goods delivered to the bank (bailment) to create a charge; legal ownership stays with the pledger; a specific (fixed) charge |
+| Hypothecation | An equitable charge by a hypothecation agreement on movables; neither ownership nor possession passes; the borrower holds the goods as the bank's agent or trustee and submits periodic stock and debtors statements, on which drawing power is fixed |
+| Assignment | Transfer of an existing or future debt, right or property; only actionable claims such as book debts and life policies; absolute right to the assignee |
+| Set-off | Statutory right to adjust a debit balance against a credit balance of the same person in the same right; all branches are one entity; available even for time-barred debts |
+| Lien | A legal charge with the owner's consent, giving the right to seize and dispose of the asset |
+
+### 3. When an advance becomes an NPA
+
+Under the RBI's prudential norms on income recognition, asset classification and provisioning, advances fall into standard and non-performing categories (SM 10.26):
+
+::: diagram Classification of advances as per the RBI's prudential norms
+{"type": "nest", "w": 420, "root": {"title": "Advances", "color": "mute", "dir": "h", "children": [{"title": "Standard", "color": "ok", "mono": false, "lines": ["Standard regular", "SMA-0: stress signals", "SMA-1: 31–60 days", "SMA-2: 61–90 days"]}, {"title": "NPA", "color": "bad", "mono": false, "lines": ["Sub-standard", "Doubtful D1, D2, D3", "Loss"]}]}, "caption": "SMA: special mention account, a standard account showing stress; the day ranges are the period overdue. Green: standard advances; rose: non-performing assets."}
+:::
+
+::: definition Non-performing asset (SM 10.27)
+An asset becomes an NPA when it **ceases to generate income** for the bank. An NPA is a loan or an advance where:
+
+- interest and/or instalment of principal remain **overdue for a period of more than 90 days** in respect of a **term loan**;
+- the account remains **'out of order'** in respect of an **overdraft/cash credit** (OD/CC);
+- the bill remains **overdue for a period of more than 90 days** in the case of **bills purchased and discounted**.
+:::
+
+::: definition Out of order (SM 10.27)
+An account should be treated as 'out of order' if:
+
+- the outstanding balance remains **continuously in excess of the sanctioned limit/drawing power**; or
+- where the outstanding balance in the principal operating account is less than the sanctioned limit/drawing power, there are **no credits continuously for 90 days** as on the date of the balance sheet; or
+- credits are there but are **not enough to cover the interest debited** during the same period.
+:::
+
+::: definition Overdue (SM 10.28)
+Any amount due to the bank under any credit facility is 'overdue' if it is **not paid on the due date fixed by the bank**.
+:::
+
+A **special mention account** (SMA) is an account showing signs of incipient stress, with the borrower defaulting in timely servicing, which has not yet become an NPA; identifying it early lets the bank act before it slips (SM 10.59). PassBook's counting convention, used in the NPA lab too: the due date is day 1 of the default, so a term loan instalment due on 1 January 2026 and still unpaid is an NPA from day 91, 1 April 2026. What then happens to its interest is in [[aud.bank.revenue|audit of revenue items]].
+
+::: lab npa {"facility":"cc","ccTest":"nocredit","asof":"31.03.2024","lastCredit":"31.12.2023","outstanding":24.754,"security":30}
+Here is MTP September 2024 Series I Q6(a): no credit after 31.12.2023, so an NPA on 30.03.2024.
+:::
+
+### 4. How an NPA ages, and what it costs
+
+::: diagram The NPA ladder and its provisions
+{"type": "layers", "layers": [{"label": "Sub-standard", "note": "NPA for up to 12 months", "right": "15%"}, {"label": "Doubtful D1", "note": "doubtful up to 1 year", "right": "25% + 100%"}, {"label": "Doubtful D2", "note": "doubtful 1 to 3 years", "right": "40% + 100%"}, {"label": "Doubtful D3", "note": "doubtful more than 3 years", "right": "100% + 100%"}, {"label": "Loss", "note": "loss identified, not written off", "right": "100%"}], "side": [{"label": "time as an NPA", "arrow": "down"}], "caption": "Right-hand column: the provision. For doubtful assets, the first rate applies to the secured portion and 100% to the unsecured portion. Loss is not reached by age: an NPA of any age is a loss asset once its loss is identified, or once its security falls below 10% of the outstanding."}
+:::
+
+The categories and provisions, as the Study Material gives them (SM 10.28):
+
+| Category | Meaning | Provision required |
+|---|---|---|
+| Sub-standard | Remained NPA for a period less than or equal to 12 months | 15% |
+| Doubtful | Remained in the sub-standard category for 12 months | Secured + unsecured portion |
+| D1 | Doubtful up to 1 year | 25% + 100% |
+| D2 | Doubtful 1 to 3 years | 40% + 100% |
+| D3 | Doubtful more than 3 years | 100% + 100% |
+| Loss | Loss identified by the bank, internal or external auditors or the RBI inspection, but not written off wholly | 100% |
+
+Two notes govern everything (SM 10.28–10.29):
+
+1. ==Classification as NPA should be based on the record of recovery==. Availability of security or the net worth of the borrower or guarantor is not taken into account in deciding whether an advance is an NPA.
+2. **Asset classification is borrower-wise, not facility-wise.** If one facility of a borrower is an NPA, all his facilities, including investments in his securities, are NPAs.
+
+::: lab npa {"facility":"term","asof":"31.03.2026","due":"15.09.2024","outstanding":140,"security":80}
+Watch a term loan age from SMA to doubtful, with its provision; the dates match January 2026 Q6(a)(i).
+:::
+
+### 5. Special situations
+
+**Accounts regularised near the balance sheet date.** Where a solitary or a few credits are recorded just before the balance sheet date, handle the classification with care and without scope for subjectivity; where the account shows inherent weakness on the data available, deem it an NPA. Check sample transactions immediately before and after the year-end to see whether they are related, or reversed in the first few days after closing, which may show an arrangement to keep the account out of the NPA category (SM 10.29).
+
+**Government guaranteed advances** (SM 10.29):
+
+- **Central Government** guaranteed advances, where the guarantee is not invoked/repudiated, are classified as **standard assets**, but regarded as **NPA for income recognition**.
+- **State Government** guaranteed advances are NPAs if overdue for more than 90 days, **for both provisioning and income recognition**.
+
+**Consortium advances** (two or more banks lending jointly, usually led by the bank with the larger share): classification rests on the record of recovery of **each member bank**. Where remittances are pooled with one bank, or the bank receiving them does not part with the other members' shares, the account is treated as **not serviced in the books of the other members**, and so an NPA. Member banks should get their share transferred from the lead bank, or its express consent to the transfer (SM 10.29–10.30). The lead bank computes the borrower's drawing power and allocates it among the members (SM 10.30).
+
+**Erosion in the value of security, or fraud by borrowers.** It is not prudent to follow the stages of classification; the account goes straight to doubtful or loss (SM 10.32):
+
+- **Significant erosion**: the realisable value of the security is **less than 50% of the value assessed by the bank or accepted by the RBI at the last inspection**. Such NPAs may be straight away classified as **doubtful**, with doubtful-asset provisioning.
+- The realisable value of the security, as assessed by the bank/approved valuers/RBI, is **less than 10% of the outstanding** in the borrower accounts: ignore the security and classify the asset straight away as **loss**; write it off or provide for it fully.
+
+::: lab npa {"facility":"term","asof":"31.03.2026","due":"10.07.2025","outstanding":1000,"security":240,"assessed":600}
+An erosion case: security below half its assessed value sends the NPA straight to doubtful.
+:::
+
+**Advances against term deposits, NSCs eligible for surrender, KVP/IVP and life policies** need not be treated as NPAs, provided adequate margin is available in the accounts (SM 10.32).
+
+**Agricultural advances affected by natural calamities.** Banks may convert a short-term production loan into a term loan, reschedule the repayment period or sanction a fresh short-term loan, subject to the RBI's Master Circular; classification then follows the rescheduled terms (SM 10.32).
+
+**Staff advances.** Interest-bearing staff advances given **as a banker** are part of the advances portfolio. In staff housing or similar loans where interest is payable after recovery of principal, interest is not overdue from the first quarter onwards; such loans are NPAs only on default in repaying an instalment of principal or paying interest on the respective due dates. Staff advances given **as an employer** and not as a banker go under the sub-head 'Others' in the schedule of **Other Assets** (SM 10.32–10.33).
+
+**Agricultural advances** (SM 10.33). "Long duration" crops have a crop season longer than one year; all other crops are "short duration". The crop season (the period up to harvesting) is determined by the **State Level Bankers' Committee** in each State. A loan (including a crop term loan) is an NPA if the instalment of principal or interest remains overdue:
+
+- for **two crop seasons**, for **short duration** crops;
+- for **one crop season**, for **long duration** crops.
+
+::: diagram Classifying one account as on the balance sheet date
+{"type": "flow", "w": 430, "nodes": [{"id": "s", "kind": "start", "label": "A borrower's\naccount"}, {"id": "d1", "kind": "decision", "label": "Overdue > 90 days,\nor CC out of order?"}, {"id": "st", "kind": "end", "label": "Standard\n(SMA if stressed)", "color": "ok"}, {"id": "d2", "kind": "decision", "label": "Against deposits,\nmargin adequate?"}, {"id": "nn", "kind": "end", "label": "Need not be\nan NPA", "color": "ok"}, {"id": "d3", "kind": "decision", "label": "Central Govt\nguarantee intact?"}, {"id": "cg", "kind": "end", "label": "Standard; NPA\nfor income", "color": "warn"}, {"id": "d4", "kind": "decision", "label": "Security < 10%\nof outstanding?"}, {"id": "lo", "kind": "end", "label": "Loss asset", "color": "bad"}, {"id": "d5", "kind": "decision", "label": "Security < 50% of\nearlier value?"}, {"id": "db", "kind": "end", "label": "Doubtful,\nstraight away", "color": "d"}, {"id": "ag", "kind": "end", "label": "By age: sub-\nstandard or D1–D3", "color": "f"}], "edges": [["s", "d1"], ["d1", "st", "no"], ["d1", "d2", "yes"], ["d2", "nn", "yes"], ["d2", "d3", "no"], ["d3", "cg", "yes"], ["d3", "d4", "no"], ["d4", "lo", "yes"], ["d4", "d5", "no"], ["d5", "db", "yes"], ["d5", "ag", "no"]], "caption": "Read top to bottom. Green: standard; amber: standard for provisioning but NPA for income recognition; rose: loss; orange: doubtful because of erosion; violet: classified by its age as an NPA. Then apply borrower-wise classification to the borrower's other facilities. Crop loans use crop seasons instead of 90 days; a State Government guarantee gives no relief."}
+:::
+
+### 6. Drawing power
+
+**Drawing power** (DP) is the limit up to which a firm or company can withdraw from the working capital limit sanctioned. The **sanctioned limit** is the total exposure the bank can take on the client (cash credit, overdraft, export packing credit, non-funded exposures); the DP is the amount **calculated on the primary security less margin** as on a particular date (SM 10.34).
+
+The Study Material's points (SM 10.34–10.35):
+
+1. Accounts should be kept within **both the drawing power and the sanctioned limit** at all times; accounts that exceed either, or are against unapproved securities, or are otherwise irregular, should be brought to the notice of the Management/Head Office regularly.
+2. Drawings must be covered by adequate current assets. DP is arrived at on the **current stock statement**; stock statements relied on should **not be older than three months**, and the outstanding based on a DP from older statements is **deemed irregular**.
+3. **Auditor's concern**: scrutinise in detail the stock statements, quarterly returns and other statements, and the borrower's audited annual report; compare the monthly stock statement for the month of the audited accounts with those accounts and ascertain the reasons for deviations.
+4. DP is calculated as per the guidelines framed by the bank's Board and agreed by the statutory auditors, with special care in reporting **sundry creditors**.
+5. **Stock audit** should be carried out by the bank for all accounts with **funded exposure of more than ₹5 crore**; auditors can advise one in other cases where warranted. Where the bank is not the consortium leader, branches obtain the stock audit report from the lead bank. The auditor reviews these reports, focusing on the stock auditors' comments on **valuation of security and calculation of drawing power**.
+
+### 7. Auditing the advances
+
+In auditing advances, the auditor is primarily concerned with obtaining evidence that (SM 10.36):
+
+- (a) amounts included in the balance sheet are outstanding at the balance sheet date;
+- (b) advances represent amounts due to the bank;
+- (c) amounts due are appropriately supported by loan documents and other documents as applicable;
+- (d) there are no unrecorded advances;
+- (e) the stated basis of valuation is appropriate and properly applied, and the recoverability of advances is recognised in their valuation;
+- (f) advances are disclosed, classified and described in accordance with recognised accounting policies and practices and relevant statutory and regulatory requirements;
+- (g) appropriate provisions have been made as per RBI norms, Accounting Standards and generally accepted accounting practices.
+
+The evidence comes from studying and evaluating the internal controls over advances and from: examining the validity of the recorded amounts; examining loan documentation; reviewing the operation of the accounts; examining the existence, enforceability and valuation of the security; checking compliance with RBI norms, including classification and provisioning; and carrying out analytical procedures (SM 10.36).
+
+**What to examine.** All **large advances**; others on a sampling basis, the extent depending on the internal controls. **Problem accounts** are examined in detail unless insignificant. Advances sanctioned during the year, and those adversely commented on by the RBI inspection team, concurrent auditors or the bank's internal inspection, are generally included (SM 10.21, 10.36–10.37); the reports to read are listed in [[aud.bank.approach|the bank audit approach]]. A **large advance** may be one whose year-end balance exceeds ==₹10 crore or 10% of the aggregate year-end advances of the branch, whichever is less== (SM 10.21).
+
+**Internal controls over advances** the auditor expects (SM 10.37–10.38):
+
+1. An advance only after satisfaction about the borrower's creditworthiness and sanction by the appropriate authority.
+2. All necessary documents (agreements, demand promissory notes, letters of hypothecation) executed before the advance is made.
+3. Compliance with the terms of sanction and end use of funds ensured.
+4. Sufficient margin, as per the sanction letter, kept against securities and checked at regular intervals.
+5. Shares, debentures and similar securities transferred into the bank's name, with effective control retained.
+6. Securities requiring registration registered in the bank's name or accompanied by documents giving title to the bank.
+7. Goods in the bank's possession test-checked on receipt; godowns frequently inspected by branch officers besides the bank's inspectors.
+8. The **Drawing Power Register** updated every month and checked by an officer.
+9. Accounts kept within both the drawing power and the sanctioned limit.
+10. Accounts exceeding the limit or drawing power, or otherwise irregular, reported to the controlling authority regularly.
+11. Operation of each advance reviewed at least once a year, more often for large advances.
+
+## Formats and formulas
+
+### Computation of drawing power
+
+*Reproduce this layout from memory (SM 10.35): unpaid stocks come off before the margin, ineligible debtors come off before the margin, and the total is compared with the sanctioned limit.*
+
+| Particulars of current assets | Amount | DP |
+|---|---:|---:|
+| **(A) Stocks** | | |
+| Stocks at realisable value | 1,000 | |
+| Less: Unpaid stocks: sundry creditors 300, acceptances/LCs etc. 300 | 600 | |
+| Paid-for stocks | 400 | |
+| Less: Margin @ 25% | 100 | 300 |
+| **(B) Debtors** | | |
+| Total debtors | 1,000 | |
+| Less: Ineligible debtors | 200 | |
+| Eligible debtors | 800 | |
+| Less: Margin @ 40% | 320 | 480 |
+| **Total drawing power** | | **780** |
+
+The margins and the eligibility of debtors (for example, debtors up to 90 days) come from the sanction terms. ICAI's suggested answers then restrict the amount the borrower can draw to the **sanctioned limit** when the computed DP is higher.
+
+::: formula Provision on a doubtful asset
+$$\text{Provision} = r \times \text{Secured portion} \qquad + 100\% \times \text{Unsecured portion}$$
+
+Here $r$ is 25% (D1), 40% (D2) or 100% (D3); the secured portion is the realisable value of the security, up to the outstanding, and the unsecured portion is the rest of the outstanding. Sub-standard: 15% of the outstanding; loss: 100% of the outstanding (SM 10.28).
+:::
+
+::: formula Large advance (SM 10.21)
+$$\text{Large advance} > \min\left(\text{₹10 crore},\ 10\%\ \text{of}\ A\right)$$
+
+Here $A$ is the aggregate year-end advances of the branch, and the test is on the advance's year-end balance.
+:::
+
+## Worked examples
+
+:::: example The NPA register at the Indore Main Branch
+Iyer & Associates are verifying the advances of Narmada Bank of India's Indore Main Branch as on 31 March 2026. Extracts (₹ lakh):
+
+| Account | Outstanding | Realisable security |
+|---|---:|---:|
+| Shivam Agro Foods, TL | 64.00 | 70.00 |
+| Rewa Polymers, TL | 150.00 | 96.00 |
+| Rewa Polymers, CC | 25.00 | 30.00 |
+| Kshipra Textiles, CC | 220.00 | 180.00 |
+| Mandu Handicrafts, TL | 40.00 | 9.00 |
+| Omkar Electricals, OD | 18.00 | see note 5 |
+
+| Account | Branch's classification | Provision made |
+|---|---|---:|
+| Shivam Agro Foods, TL | Standard | nil |
+| Rewa Polymers, TL | Sub-standard | 22.50 |
+| Rewa Polymers, CC | Standard | nil |
+| Kshipra Textiles, CC | Doubtful D2 | 88.00 |
+| Mandu Handicrafts, TL | Sub-standard | 6.00 |
+| Omkar Electricals, OD | Sub-standard | 2.70 |
+
+TL: term loan; CC: cash credit; OD: overdraft. Realisable security: the realisable value of the security now.
+
+Further information:
+
+1. Shivam Agro Foods' oldest unpaid instalment fell due on 5 December 2025.
+2. Rewa Polymers' term loan became an NPA on 20 November 2024. Its cash credit, secured by separate stock, is operated regularly.
+3. Kshipra Textiles' account became an NPA on 15 January 2023.
+4. Mandu Handicrafts' loan became an NPA on 10 August 2025. Its security was valued at ₹24.00 lakh at the last RBI inspection.
+5. Omkar Electricals' overdraft is against its own term deposits, with adequate margin; interest has not been serviced for four months.
+
+**Required:** Comment on the classification of each account and the provision required as per the Study Material's prudential norms, and state by how much the branch's provision is short or excess.
+
+::: answer Show the working
+**Rules applied** (SM 10.27–10.32): NPA after more than 90 days overdue; sub-standard for up to 12 months, then D1, D2 and D3; classification on the record of recovery, borrower-wise; erosion below 50% of the last inspection value sends an NPA straight to doubtful; advances against term deposits with adequate margin need not be NPAs. Provisions: sub-standard 15%; doubtful 25%/40%/100% of the secured portion plus 100% of the unsecured portion.
+
+**Working notes**
+
+1. **Shivam Agro Foods.** Counting 5 December 2025 as day 1, the instalment is unpaid on day 117 as on 31 March 2026: overdue for more than 90 days since day 91, 5 March 2026. It is an NPA for less than 12 months: **sub-standard**. Provision 15% × 64.00 = **9.60**. The security does not change the classification.
+2. **Rewa Polymers.** NPA since 20 November 2024; sub-standard for 12 months to 20 November 2025, doubtful since then (about four months): **D1**. Term loan: 25% × 96.00 + 100% × 54.00 = 24.00 + 54.00 = **78.00**. Classification is borrower-wise, so the regular cash credit is also **D1**: secured portion 25.00 (security 30.00, limited to the outstanding), provision 25% × 25.00 = **6.25**.
+3. **Kshipra Textiles.** NPA since 15 January 2023; doubtful since 15 January 2024; one year as doubtful on 15 January 2025, so doubtful for between 1 and 3 years: **D2**, as the branch says. Provision 40% × 180.00 + 100% × 40.00 = 72.00 + 40.00 = **112.00**. The branch applied 40% to the whole ₹220 lakh.
+4. **Mandu Handicrafts.** By age, sub-standard (NPA for under 8 months). But ₹9.00 lakh is below 50% of ₹24.00 lakh (₹12.00 lakh): significant erosion, so straight away **doubtful** (D1, the first doubtful category). It is not below 10% of the outstanding (₹4.00 lakh), so not loss. Provision 25% × 9.00 + 100% × 31.00 = 2.25 + 31.00 = **33.25**.
+5. **Omkar Electricals.** An advance against term deposits with adequate margin need not be treated as an NPA: **standard**; no NPA provision.
+
+| Account | Correct class | Required | Short (+) / excess (−) |
+|---|---|---:|---:|
+| Shivam Agro Foods | Sub-standard | 9.60 | +9.60 |
+| Rewa Polymers (TL + CC) | D1 | 84.25 | +61.75 |
+| Kshipra Textiles | D2 | 112.00 | +24.00 |
+| Mandu Handicrafts | D1 (erosion) | 33.25 | +27.25 |
+| Omkar Electricals | Standard | 0.00 | −2.70 |
+| **Total** | | **239.10** | **+119.90** |
+
+Amounts in ₹ lakh; the shortfall is the required provision less the provision made (total made: ₹119.20 lakh).
+
+**Conclusion.** The branch's provision is short by **₹119.90 lakh** (₹122.60 lakh short on four accounts, less ₹2.70 lakh provided without need on the overdraft). Provisions are understated and profit overstated by that amount; Shivam Agro Foods, Rewa Polymers' cash credit and Omkar Electricals must be reclassified, and income on the NPAs recognised only on realisation. The auditor should report the differences and consider their effect on the branch report.
+:::
+::::
+
+:::: example Mehra Kulhad Works' drawing power
+Mehra Kulhad Works has a cash credit limit of ₹50.00 lakh at the Indore Main Branch, against hypothecation of paid stocks (margin 25%) and debtors up to 90 days (margin 40%). Its latest stock statement, as on 28 February 2026, shows (₹ lakh):
+
+| Item | Amount |
+|---|---:|
+| Stocks at realisable value (clay, glaze, fuel and finished kulhads) | 52.00 |
+| Sundry creditors for goods | 9.50 |
+| Acceptances under an inland letter of credit for glaze | 4.50 |
+| Total debtors | 36.00 |
+| Debtors older than 90 days, included above | 6.80 |
+
+The branch's Drawing Power Register still shows a DP of ₹50.00 lakh, worked out from the statement as on 31 October 2025. The balance in the account was ₹44.10 lakh on 31 March 2026; the highest balance in March was ₹49.30 lakh, on 18 March.
+
+**Required:**
+
+(i) Compute the drawing power as on 31 March 2026.
+
+(ii) Comment on the branch's DP and on the operation of the account, and state what the auditor should do.
+
+::: answer Show the working
+**(i) Computation of drawing power** (₹ lakh), on the 28 February 2026 statement:
+
+| Particulars | Amount | DP |
+|---|---:|---:|
+| **(A) Stocks** | | |
+| Stocks at realisable value | 52.00 | |
+| Less: Unpaid stocks: sundry creditors 9.50, LC acceptances 4.50 | 14.00 | |
+| Paid-for stocks | 38.00 | |
+| Less: Margin @ 25% | 9.50 | 28.50 |
+| **(B) Debtors** | | |
+| Total debtors | 36.00 | |
+| Less: Debtors older than 90 days | 6.80 | |
+| Eligible debtors | 29.20 | |
+| Less: Margin @ 40% | 11.68 | 17.52 |
+| **Total drawing power** | | **46.02** |
+
+DP ₹46.02 lakh is below the sanctioned limit of ₹50.00 lakh, so the borrower may draw up to **₹46.02 lakh**.
+
+**(ii) Comments**
+
+1. **Stale statement.** On 31 March 2026 the 31 October 2025 statement is older than three months. Stock statements relied on for DP should not be older than three months, and the outstanding based on a DP from older statements is deemed irregular (SM 10.34). The register should show ₹46.02 lakh. The Drawing Power Register should be updated every month and checked by an officer (SM 10.38): this control has failed.
+2. **Unpaid stocks.** Goods bought under the letter of credit are not paid for; like sundry creditors, the acceptances are deducted before the margin (SM 10.35).
+3. **Operation.** On 18 March the balance of ₹49.30 lakh exceeded the DP worked out on the 28 February statement by ₹3.28 lakh, though it was within the register's stale figure. Accounts exceeding the drawing power should be brought to the notice of the Management/Head Office regularly (SM 10.34); this excess was not flagged. On 31 March the balance of ₹44.10 lakh is within the DP.
+4. **Auditor's procedures.** Scrutinise the stock statements and the borrower's audited accounts, comparing the stock statement for the month of the audited accounts with them and ascertaining reasons for deviations (SM 10.34); check that DP follows the bank's Board-approved guidelines, with proper reporting of sundry creditors (SM 10.35); test the account against the out-of-order conditions; and report the failure of the DP register control. A stock audit is required above ₹5 crore of funded exposure, so it is not mandatory here, but the auditor may advise one if warranted (SM 10.35).
+:::
+::::
+
+:::: example Bunty's three red flags
+Bunty has flagged three accounts at the branch as wrongly treated. State, with reasons, whether he is right in each case.
+
+(a) A staff housing loan of ₹28 lakh to a branch officer is shown as standard. Principal instalments are recovered from salary every month without a miss, but ₹3.10 lakh of interest accrued over three years is unpaid. Under the scheme, interest is payable after the principal is repaid. Bunty says: "Three years of unpaid interest. NPA."
+
+(b) An interest-free festival advance of ₹45,000, given to the branch's clerks under the bank's service rules as their employer, is included in the branch's advances. Bunty says it is correctly placed.
+
+(c) A crop loan for sugarcane, a crop whose season the State Level Bankers' Committee fixes at 14 months, has its harvest instalment unpaid for one full crop season. The branch shows it as standard. Bunty agrees: "Crop loans need two crop seasons."
+
+::: answer Model answer
+**(a) Bunty is wrong.** In the case of housing loans or similar advances to staff where interest is payable after recovery of principal, interest need not be considered overdue from the first quarter onwards; such loans are classified as NPA only when there is a default in repayment of instalment of principal or payment of interest on the respective due dates (SM 10.32–10.33). Principal instalments are paid on time and interest is not yet due, so the loan is a **standard** asset, and as an interest-bearing staff advance given as a banker it is rightly part of advances.
+
+**(b) Bunty is wrong.** Staff advances given by a bank as an employer and not as a banker are required to be included under the sub-head 'Others' in the schedule of Other Assets (SM 10.33). The festival advance should be removed from advances and shown under **Other Assets – Others**.
+
+**(c) Bunty is wrong.** Crops with a crop season longer than one year are long duration crops; the crop season is determined by the State Level Bankers' Committee. A loan for a long duration crop is treated as NPA if the instalment of principal or interest remains overdue for **one** crop season; the two-season rule is for short duration crops (SM 10.33). Sugarcane's 14-month season makes it a long duration crop, so the loan is an **NPA**, to be classified and provided for, with income recognised only on realisation.
+:::
+::::
+
+## Under the hood
+
+### The consortium drawing power letter
+
+In a consortium cash credit the lead bank computes the drawing power and allocates it among the members, at the borrower's request sometimes above or below a member's share of advances. The Study Material's illustrative allocation letter (SM 10.30–10.31) shows each asset's advance value after margin, less unpaid stocks under LCs, and each member's share and limit; a member bank's auditor checks its allocated DP against it.
+
+### How long must a balance stay above the limit?
+
+The Study Material's first out-of-order test says the balance "remains continuously in excess" of the limit or drawing power, without a number of days; its 90 days belong to the no-credit test. PassBook's NPA lab treats an out-of-order spell as making the account an NPA once it has run for 90 days. In an exam, quote the Study Material's words and apply them to the facts.
+
+## Exam angle
+
+::: exam What ICAI asked, May 2024 to September 2026
+This is the most examined part of the chapter. In the ICAI documents read for this lesson it appeared in 26 documents:
+
+- **Out of order** (3–5 marks): September 2024 Q3(c) (no credits for two quarters); MTP September 2024 Series I Q6(a) (a CBS account extract with no credit after 31 December); MTP September 2025 Series II Q3(c) (credits not covering interest); MTP May 2026 Series II Q2(b); MTP September 2026 Series II Q4(a).
+- **Drawing power computations** (4–5 marks): May 2025 Q5(c); RTP September 2024 Q19; MTP September 2025 Series I Q2(b); MTP September 2026 Series I Q2(b); RTP January 2026 MCQ 5. Three of these end with ICAI's twist: the computed DP exceeds the sanctioned limit, so drawings are restricted to the limit.
+- **Provisioning** (usually 5 marks): RTP January 2025 Q19; RTP September 2026 Q19; RTP May 2024 Q23 (a D1 provision); January 2026 Q6(a) (D1 provision, plus a loan secured at under 10%); MTP January 2025 Series II MCQs 6 and 8.
+- **Erosion of security**: MTP January 2026 Series I Q2(b) (5 marks); January 2025 MCQ 12; MTP September 2024 Series I MCQ 4.
+- **Special rules in MCQs**: Government guarantees (May 2024 Q6(b), 4 marks; January 2025 MCQ 10; MTP September 2024 Series I MCQ 2); consortium advances (January 2025 MCQ 9; May 2026 MCQ 11); SMA (May 2026 MCQ 12; MTP May 2024 Series I MCQ 3.3); borrower-wise classification (MTP January 2025 Series II MCQ 7); crop loans (September 2025 MCQ 13; MTP May 2025 Series II MCQ 10; MTP January 2025 Series II MCQ 9; RTP September 2025 Q19); primary security (MTP September 2026 Series II MCQ 8); advances against NSCs (RTP September 2025 MCQ 8); regularisation before year-end (MTP January 2025 Series I Q3(a), 5 marks; MTP September 2026 Series II MCQ 9); a stale stock statement and stock at a third-party warehouse (MTP May 2026 and September 2026 Series I, the same Case Scenario 3).
+- **Audit of advances**: the matters on which the auditor obtains evidence (MTP May 2024 Series II Q1(b), 4 marks).
+:::
+
+::: exam A published answer that differs from the Study Material
+MTP January 2026 Series I Q2(b) gives a loan of ₹10 crore whose security is now worth ₹80 lakh against ₹6 crore at the last RBI inspection. ICAI's suggested answer applies the 50% erosion test and classifies it as doubtful. The realisable value is 8% of the outstanding, and the Study Material says that when it is less than 10% of the outstanding the security is ignored and the asset is straight away a loss asset (SM 10.32). This lesson follows the Study Material: test 10% of the outstanding first. ICAI's own January 2026 Q6(a) and January 2025 MCQ 12 apply the 10% rule.
+:::
+
+::: exam How the marks are earned
+Suggested answers quote the norm in the Study Material's words ("record of recovery", "remains continuously in excess of the sanctioned limit/drawing power", "straight-away classified as loss asset"), apply it to the figures, and end with the classification and the provision on the secured and unsecured portions. Drawing power answers are a statement in the format above plus a one-line conclusion.
+:::
+
+::: trick 15, 25, 40, 100
+Sub-standard 15; D1 25; D2 40; D3 100; loss 100. For D1, D2 and D3 the rate is on the secured portion, and the unsecured portion is always 100%. Condition: these are the Study Material's rates; sub-standard and loss rates apply to the whole outstanding.
+:::
+
+## Answer frame
+
+### A classification and provisioning case
+
+1. **Provision**: the NPA definition for the facility (term loan, CC, bill, crop loan), the categories and rates, and any special rule the facts touch (borrower-wise, guarantee, erosion, deposits).
+2. **Facts**: dates or periods, outstanding, security, what the branch did.
+3. **Analysis**: when it became an NPA; its age; any rule that moves it; secured and unsecured portions; the provision.
+4. **Conclusion**: classification, provision required, short or excess, and the effect (advances and profit overstated).
+
+### "State the matters on which the auditor obtains evidence about advances"
+
+The seven points (a) to (g) of section 7 above, in the Study Material's order and words, each applied in a line if a case is given.
+
+### A drawing power question
+
+The statement in the format above, then one line comparing the total with the sanctioned limit and the outstanding, and one on the date of the stock statement.
+
+## Common mistakes
+
+::: mistake Hall of Shame: "fully secured, so not an NPA"
+Bunty passes an account with no recovery for six months because the factory behind it is worth twice the loan. **Fix:** classification as NPA is based on the record of recovery; the security and the borrower's net worth are not taken into account.
+:::
+
+::: mistake The good loan of a bad borrower
+Classifying only the defaulting facility as an NPA and leaving the borrower's regular cash credit as standard. **Fix:** classification is borrower-wise, not facility-wise.
+:::
+
+::: mistake The doubtful provision on the whole outstanding
+Applying 25% or 40% to the entire balance. **Fix:** the rate goes on the secured portion only; the unsecured portion needs 100%.
+:::
+
+::: mistake Testing erosion on the wrong base
+Comparing the realisable value with the outstanding for the 50% test, or with the earlier value for the 10% test. **Fix:** 50% is measured against the value assessed by the bank or accepted by the RBI at the last inspection; 10% against the outstanding. Check the 10% test first: if it is met, the asset is loss.
+:::
+
+::: mistake DP on paper the borrower never paid for
+Leaving sundry creditors or LC acceptances in the stock before the margin, or using a statement more than three months old. **Fix:** deduct unpaid stocks first, then the margin; use a current statement; restrict drawings to the lower of DP and the sanctioned limit.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: A branch's aggregate year-end advances are ₹60 crore. Above what year-end balance (₹ crore) is an advance a "large advance" that the auditor examines in full?
+= 6
+> Lower of ₹10 crore and 10% of ₹60 crore = ₹6 crore (SM 10.21).
+
+Q: A term loan of ₹90 lakh has been doubtful for 20 months. The realisable value of its security is ₹55 lakh. What is the provision required, in ₹ lakh?
+= 57
+> Doubtful for 1 to 3 years: D2. 40% × 55 + 100% × 35 = 22 + 35 = ₹57 lakh.
+
+Q: Case scenario. Narmada Bank's Ratlam branch has lent ₹160 lakh to Sanwer Foundry; the account has been an NPA since July 2025. The approved valuer now puts the realisable value of the security at ₹14 lakh; at the last RBI inspection it was valued at ₹20 lakh. The branch keeps it as sub-standard because "the erosion is only 30%". Which of the following is correct?
+- [ ] The branch is right: the security has not fallen below 50% of its earlier value
+- [ ] The account should be straight away classified as doubtful
+- [x] The security should be ignored and the account straight away classified as a loss asset, written off or fully provided for
+- [ ] The account should be D1, with 25% on ₹14 lakh and 100% on the rest
+> ₹14 lakh is below 10% of the outstanding (₹16 lakh), so the 10% rule applies, whatever the erosion against the earlier value (SM 10.32).
+
+Q: Case scenario. A ₹2 crore term loan to a sugar mill is guaranteed by a State Government; the guarantee has not been invoked and an instalment has been overdue for 100 days on the balance sheet date. Which treatment is correct?
+- [ ] Standard asset; interest accrued may be taken to income
+- [ ] Standard asset, but NPA for income recognition
+- [x] NPA for both provisioning and income recognition
+- [ ] NPA for income recognition only, because the guarantee is intact
+> The standard-asset relief applies only to Central Government guarantees not invoked or repudiated. A State Government guaranteed advance overdue for more than 90 days is an NPA for both provisioning and income recognition (SM 10.29).
+
+Q: Bhatt Castings Ltd's term loan has an instalment unpaid for 140 days. The bank also holds ₹50 lakh of its debentures, whose interest is paid on every due date. How are the debentures treated?
+- [ ] Performing, because their own interest is paid on time
+- [ ] Special mention account, because the issuer is under stress
+- [x] Non-performing, with the term loan: classification is borrower-wise and covers investments in securities
+- [ ] Performing, because investments are outside the prudential norms
+> Asset classification is borrower-wise, not facility-wise: all facilities, including investments in securities, are termed NPA when one is (SM 10.29).
+
+Q: Select all the conditions in which a cash credit account is treated as 'out of order'.
+- [x] The outstanding balance remains continuously in excess of the sanctioned limit or drawing power
+- [x] The balance is within the limit, but there have been no credits continuously for 90 days as on the balance sheet date
+- [ ] The borrower's net worth has fallen below the outstanding balance
+- [x] Credits are there, but they are not enough to cover the interest debited in the same period
+> These are the Study Material's three tests (SM 10.27); net worth plays no part in classification.
+:::
+
+## Recap
+
+- An NPA is an advance that has ceased to generate income: term loan or bill overdue for more than 90 days, cash credit or overdraft out of order.
+- A cash credit is out of order in any of three cases: balance continuously above the limit or DP, no credits for 90 days, or credits below the interest debited.
+- Classification rests on the record of recovery, borrower-wise; security and net worth are ignored.
+- Sub-standard (NPA up to 12 months) 15%; doubtful D1/D2/D3 25%/40%/100% of the secured portion plus 100% of the unsecured; loss 100%.
+- Security below 10% of the outstanding: loss straight away; below 50% of the last inspection value: doubtful straight away.
+- Central Government guarantee intact: standard, but NPA for income; State Government: NPA for both. Advances against deposits with adequate margin need not be NPAs.
+- Crop loans: NPA after two crop seasons overdue (short duration) or one (long duration, season over a year, fixed by the State Level Bankers' Committee).
+- DP = paid-for stocks less margin + eligible debtors less margin, on a statement not older than three months; drawings within both DP and the sanctioned limit; stock audit above ₹5 crore funded exposure. (Rent, not the house.)
+
+## Flashcards
+
+Q:: Prudential norms: when is a term loan an NPA?
+A:: When interest and/or an instalment of principal remains overdue for a period of more than 90 days.
+
+Q:: Prudential norms: when is a cash credit account 'out of order'?
+A:: When the balance remains continuously in excess of the sanctioned limit/drawing power; or, within it, there are no credits continuously for 90 days as on the balance sheet date; or credits are not enough to cover the interest debited in the same period.
+
+Q:: Prudential norms: when is an amount 'overdue'?
+A:: When it is not paid on the due date fixed by the bank.
+
+Q:: Prudential norms: the provision for sub-standard, D1, D2, D3 and loss assets?
+A:: Sub-standard 15%; D1 25% of secured + 100% of unsecured; D2 40% + 100%; D3 100% + 100%; loss 100%.
+
+Q:: Prudential norms: is NPA classification based on the security available?
+A:: No. It is based on the record of recovery; the security and the borrower's or guarantor's net worth are not taken into account. Classification is borrower-wise, not facility-wise.
+
+Q:: Erosion of security: when does an NPA go straight to doubtful, and when to loss?
+A:: Doubtful when the realisable value is less than 50% of the value assessed by the bank or accepted by the RBI at the last inspection; loss when it is less than 10% of the outstanding (security ignored; write off or provide fully).
+
+Q:: Prudential norms: how are Central and State Government guaranteed advances treated?
+A:: Central Government guarantee not invoked/repudiated: standard asset, but NPA for income recognition. State Government guarantee: NPA if overdue for more than 90 days, for both provisioning and income recognition.
+
+Q:: Prudential norms: when is a crop loan an NPA?
+A:: Short duration crops: instalment or interest overdue for two crop seasons. Long duration crops (season longer than one year): overdue for one crop season.
+
+Q:: Drawing power: what is it, and how does it differ from the sanctioned limit?
+A:: The limit up to which the borrower can withdraw from the sanctioned working capital limit, calculated on primary security less margin as on a date; the sanctioned limit is the bank's total exposure on the client.
+
+Q:: Drawing power: how old may the stock statement be?
+A:: Not older than three months; the outstanding based on a DP from older statements is deemed irregular.
+
+Q:: Bank audit: what is a "large advance"?
+A:: One whose year-end balance exceeds ₹10 crore or 10% of the aggregate year-end advances of the branch, whichever is less.
+
+Q:: Bank audit: for which accounts should the bank carry out a stock audit?
+A:: All accounts with funded exposure of more than ₹5 crore; auditors may advise one in other cases where warranted.

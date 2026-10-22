@@ -1,0 +1,265 @@
+                                                                   Test Series: April 2023
+                                  MOCK  TEST PAPER-II
+                                INTERMEDIATE GROUP  – II
+            PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC  MANAGEMENT
+                      SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                     PART I: MULTIPLE CHOICE QUESTIONS             Total Marks: 15 Marks
+Question No(s). 1 to 5 carries 2 marks each.
+The www.kidsathome.com is a hassle-free library of physical books managed through online portal for Delhi/NCR
+people. The library is beneficial for kids upto the age of 12 by enabling every young reader to access physical books
+from the comfort of their home.
+The library has a collection of more than 10000 books and most of these books have been suggested by its readers
+and therefore the library is run by Reader for its Readers. The books’ delivery services are available for the cities in
+Delhi/NCR. In each request order, any subscriber can select a maximum of 6 books from the pool of 10000+ books
+available on the portal, place the request and get the books delivered to his/her home within 2 working days.
+There is no security deposit or registration fees and in case of damaged or misplaced books, the subscribers are
+requested to pay for the same. A maximum of six books are sent at a time, however there are various monthly, quarterly,
+semi-annual, and annual subscription plans that vary in terms of charges and frequency of delivery of books to the
+subscriber. There are no extra delivery charges.
+The registered users can pay for the subscription plan using various digital modes – UPI, Mobile wallet, Net banking,
+etc. An Audit Trail is maintained in the system to record various activities that may include details of each subscriber’s
+lending history, subscription plans, recommendations, feedback etc. The trail is maintained at the system, application,
+and user levels to support various security objectives.
+1.  The management founders of www.kidsathome.com are well-aware of the fact that there is always a
+    possibility of a situation wherein a customer may not return the books after getting them issued. Still, they
+    have decided to not to impose any security fee on its customers during their sign up on the website. Which
+    risk management strategy has the management adopted in this case?
+    (a) Treat the risk
+    (b) Tolerate the risk
+    (c) Terminate the risk
+    (d) Transfer the risk
+2.  At the end of every month, the management of www.kidsathome.com requires a detailed report to determine
+    any decisions that need to be taken at that point in time to enhance their business growth. Which of the
+    following will not be a part of MIS report regarding new subscriptions done in a particular month?
+    (a) Lending history of the subscribers
+    (b) Number of visitors on www.kidsathome.com in a particular month
+    (c) The subscription plans majorly /least opted by the subscribers
+    (d) The majorly used digital mode of the payment
+
+3.  The Audit Trails maintained by www.kidsathome.com are required to support various security objectives,
+    some of which are mentioned below. Choose the odd one out.
+    (a) Detecting unauthorized access
+    (b) Reconstructing events
+    (c) Personal accountability
+    (d) Audit Hook
+4.  Mr. Shyam wants to get some books from the www.kidsathome.com online library for his son Raghav. He
+    signed up on the website www.kidsathome and opted for a monthly plan of ` 799 that offers maximum two
+    order deliveries in a month. He paid for the subscription fees through his Mobile Wallet. Which statement is
+    incorrect about Mobile Wallet?
+    (a) Digital version of Physical wallet.
+    (b) 4-digit pin or CVV number of the Debit card is required to be entered during payments.
+    (c) Mobile App is required to be downloaded on the mobile to use mobile wallet.
+    (d) Stores bank account information in an encoded format.
+5.  Mr. Ashok renewed his subscription plan on www.kidsathome.com and opted to pay for the plan through
+    internet banking of ABC Bank. He was navigated to the CBS platform of the bank to proceed with the
+    payment. Which of the following servers would be accessed to authenticate his internet banking password
+    before the payment is done?
+    (a) Internet Banking Channel Server
+    (b) ATM Server
+    (c) Web Server
+    (d) Internet Server
+Question No(s). 6 to 10 carries 1 Mark each.
+6.  From the wide array of controls implemented in any Information System, which of the following activity does
+    not fall under the purview of Application Controls?
+    (a) Error reporting
+    (b) Transaction logging
+    (c) Exception reporting
+    (d) Change Management
+7.  The team members of the management of a company demands for weekly MIS reports from its managers
+    for their better understanding of the business trend and decision making. Any such report shall have the
+    following characteristics.
+    (i) MIS reports need to be specific to the business area they address.
+    (ii) MIS reports shall display correct information as required.
+    (iii) MIS reports are easy to be followed by management.
+    Each of these aforementioned characteristics can be summarized under one word which is as follows:
+    (A) Structured
+
+    (B) Relevant
+    (C) Accurate
+    Choose the correct match:
+    (a) (i) – (A), (ii) – (B), (iii) – (C)
+    (b) (i) – (B), (ii) – (A), (iii) – (C)
+    (c) (i) – (C), (ii) – (B), (iii) – (A)
+    (d) (i) – (B), (ii) – (C), (iii) – (A)
+8.  Following information w.r.t Telecommunication sector is stored somewhere in Database Management
+    System.
+    (i) The information related to monthly bill details, call records, minimum balance etc.
+    (ii) The information regarding product promotions, decisions related to sales, cash back offers etc.
+    (iii) The information analyzed by using different techniques to find out call duration w.r.t a particular age group
+       from the entire data available.
+    The relevant term for their appropriate storage could be any of the following:
+    (A) Datawarehouse
+    (B) Data Mining
+    (C) Database
+    Choose the correct match from the following:
+    (a) (i) – (C), (ii) – (B), (iii) – (A)
+    (b) (i) – (B), (ii) – (C), (iii) – (A)
+    (c) (i) – (C), (ii) – (A), (iii) – (B)
+    (d) (i) – (A), (ii) – (B), (iii) – (C)
+9.  In India, various Commercial Laws that govern e-commerce are mentioned below. Choose the odd one out.
+    (a) The Income Tax Act, 1961
+    (b) The Foreign Trade (Development and Regulation) Act, 1992
+    (c) The Goods and Services Tax Act, 2017
+    (d) The Negotiable Instruments Act, 1881
+10. In a Core Banking System environment, which of the following is not a task of Back Office operations under
+    Bank Treasury Operations?
+    (a) Involved in several number of reconciliation processes
+    (b) Monitoring of counterparty, dealer, and market related limits
+    (c) Verification process by confirmation, settlement and checking existence of valid accounts
+    (d) Segregation of Duties
+
+                             Part II: DESCRIPTIVE QUESTIONS
+1   (a)  In Core Banking System (CBS) environment, the banks provide various banking services to its
+        customers out of which ‘Letter of Credit’ and ‘Guarantees’ are two important services rendered by
+        banks to its customers engaged in business, industrial and commercial activities. Differentiate between
+        these two services.                                                 (3 Marks)
+    (b) Write a short note on Detective Controls.                           (2 Marks)
+2.  (a) The methodology of Enterprise Risk Management (ERM) enhances an organization’s capabilities to
+        operate more effectively in a risk filled environment. Justify the statement. (6 Marks)
+    (b) In an e-Commerce environment, various stakeholders interact electronically using telecommunication
+        network. Therefore, internal controls are necessary at all the stages in the chain to mitigate the risks
+        in an e-business environment. Discuss various controls that are required to protect an e-business from
+        intrusion.                                                           (4 Marks)
+3.  (a) In Information systems, an Application Control Framework of any application is to ensure that the data
+        remains complete, accurate and valid during its input, update, processing , and storage. Describe any
+        four controls that may be implemented for the seamless processing of the data. (6 Marks)
+    (b) You are a key speaker in a workshop conducted by the Ministry of Commerce and Industry wherein
+        you have to present a talk on XBRL (eXtensible Business Reporting Language). Discuss important
+        features of XBRL that help you to make your audience aware of its importance. (4 Marks)
+4.  (a) In an organization, the implementation of the concept of Virtualization through hardware, network and
+        storage overall helps in cutting IT expenses, enhancing security, and increasing operational efficiency.
+        Explain common types of Virtualizations through which the said benefits can be achieved. (6 Marks)
+    (b) Technology has penetrated each business sector and given a new direction of development to them.
+        In purview of this statement, discuss the impact of technology in Banking industry. (4 Marks)
+5.  (a) In its setup, PQS Ltd. wants to prevent wastage of its resources, maximize its revenues, and minimize
+        its expenditure and therefore made the strategic decision to turn towards Business Process Automation
+        (BPA). Describe various challenges that PQS Ltd. may encounter while implementing BPA. (6 Marks)
+    (b) What do you understand by the term “Business Process”? Discuss the activities involved in managing
+        business processes.                                               (1+3 = 4 Marks)
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                             Question 1 and 2 are compulsory.
+                  Attempt any three questions out of remaining four questions.
+1.  (A)  Hi-tech Corporation has been a pioneer in developing innovative products and core technologies
+        that have played a vital role in shaping the future of electronics. The company's expertise in liquid
+        crystal displays (LCDs) and digital technologies has helped it offer one of the most comprehensive
+        and advanced lines of consumer electronics, information products, and electronic components
+        while also creating new network businesses. However, it hasn't always been a leader in the
+        industry.
+        Hi-tech Corporation has travelled a long way from an assembler of televisions to a leading TV
+        manufacturer. In the early days, Hi-tech was making low-quality, low-priced televisions and was
+        overshadowed by big players like LG, Sony and Samsung. It was a technology follower in the
+        beginning and was using secondary technology, which resulted in a low brand image. The company
+        went through a major transformation under the leadership of Mr. Joyce, who focused on R&D and
+        innovation to enhance its market coverage and reputation.
+        Hi-tech’s innovation in LCD technology and developing products featuring LCDs made it the world's
+        largest manufacturer of LCD TVs. The company's success has been attributed to its focus on
+        innovation, which is a critical factor in sustaining its position as a leader in the industry. However,
+        the global economic downturn has affected Hi-tech, and the industry has realized that only
+        innovation in terms of quality, cost, and competitive strength can help companies survive.
+        Additionally, every new technology becomes obsolete faster, which means companies have to
+        continuously innovate to stay ahead of the competition.
+        Hi-tech is facing challenges from the ever-changing competitive scenario, with global competitors
+        striving to dethrone it and the entry of low-cost manufacturers from Asia. The emergence of newer
+        display technologies with superior quality at a lower price has posed one of the biggest challenges
+        for Hi-tech. While Hi-tech has taken the first-mover advantage, it is facing competition from late
+        entrants.
+        Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:
+        1.  Can Hi-tech's initial position in the industry be called as cost leadership strategy?
+            (a) Initial Position: A manufacturer of low-quality, low-priced televisions. No, not a cost
+                leader, as cost leader does not necessarily mean low quality with low prices.
+            (b) Initial Position: A manufacturer of low-quality, low-priced televisions. Yes, a cost leader,
+                as they offered low prices.
+            (c) Initial Position: Technology follower. Yes, a cost leader, as technology followers are
+                always cost leaders.
+            (d) Initial Position: Technology leader. Yes, a cost leader as technology leaders is always
+                cost leaders due to advanced cost cutting techniques.      (2 Marks)
+        2.  Mr.Joyce’s focussed results from moving to an innovative company were?
+            (a) Increased market share.
+            (b) Increased market coverage and reputation.
+            (c) Enjoy price skimming in the market.
+            (d) Change the business model of the organisation.              (1 Mark)
+
+        3.  As consultant who studies industries, what would be your highlighted areas of industry
+            analysis for Hi-tech?
+            (a) Competition from late entrants
+            (b) Emergence of newer display technologies
+            (c) Global economic downturn
+            (d) All of the above                                            (1 Mark)
+        4.  From the case above, which of the following has been the most crucial learning for the
+            company from a long-term product life cycle perspective?
+            (a) Innovation is the key to success.
+            (b) Change in management leads to required growth.
+            (c) Continuous innovation is essential to stay ahead of the competition.
+            (d) Industry analysis should be the first as well as the last step in strategic management.
+                                                                           (1 Mark)
+        5.  What was the Key Success Factor in Hi-tech's success?
+            (a) Market coverage
+            (b) Reputation
+            (c) Innovation
+            (d) Cost                                                       (1 Mark)
+    (B) Abhishek a freelancer writes promotional materials. He decided to collaborate without requiring
+        physical presence of employee, and hired virtual assistants to transcribe voice mail, update his
+        website, and design PowerPoint graphics. What kind of structure is he using for his business?
+        (a) Functional structure
+        (b) Divisional structure
+        (c) Network structure
+        (d) Multi-divisional structure                                     (2 Marks)
+    (C) As the head of an MNC, you have been asked to bring in radical changes in your organisation
+        through BPR. Which of these is the thrust area you would focus on reducing:
+        (a) Total cycle time
+        (b) Total order time
+        (c) Total inventory time
+        (d) None                                                           (2 Marks)
+    (D) A company that produces and sells athletic shoes may acquire or merge with another athletic shoe
+        manufacturer in order to increase their market share and reduce competition is an example of -
+        (a) Horizontal integration
+        (b) Backward integration
+        (c) Market penetration
+        (d) Forward integration                                            (2 Marks)
+    (E) In case of home appliances, the concept of offering additional customer services and benefits to
+        the customers, can be considered as
+
+        (a) Social Marketing
+        (b) Augmented Marketing
+        (c) Concentrated Marketing
+        (d) Differential Marketing                                          (1 Mark)
+    (F) Which one of the following, focuses on present business scope- ‘who we are and what we do’?
+        (a) Mission Statement
+        (b) Vision Statement
+        (c) Goals and objectives
+        (d) Purpose                                                         (1 Mark)
+    (G) Which one out of the following, is not a generic strategy as suggested by Michael Porter?
+        (a) Focus Strategy
+        (b) Differentiation Strategy
+        (c) Cost Leadership Strategy
+        (d) Best-Cost Provider Strategy                                     (1 Mark)
+2.  The CEO of ABC Enterprises, Mr. Rasik Mehta, had the idea of creating a fitness shake called Robust,
+    which prompted the company to conduct research and development. The company conducted a market
+    survey and feasibility study, which indicated that the idea was feasible and had potential for pr ofitability.
+    Consequently, the product was manufactured, marketed, and launched, which led to its success. As a
+    result, the production of Robust grew, and it became widely available. However, with time, the demand
+    for the product decreased, leading to its obsolescence. Identify and explain the concept highlighted in
+    the above case?                                                      (5 Marks)
+3.  (a) ABC Ltd. intends to grow its business. Its top management argues that its ‘Corporate Strategy’ will
+        ensure the growth of the firm. Do you agree with the top management’s argument? Give reasons.
+                                                                          (5 Marks)
+    (b) Distinguish between Market Development and Product Development under Ansoff’s Product
+        Market Growth Matrix.                                              (5 Marks)
+4.  (a) Pulkit was very confident about cloud kitchen business model, and he bought three real estate
+        spaces in very hideous localities. Later due to government and court orders the cloud kitchens had
+        to be only operated in a well-ventilated space, which made his investment redundant. What aspect
+        of industry competition is Pulkit currently faced as a result of this situation? (5 Marks)
+    (b) Write a brief note on the Elements of Benchmarking Process.       (5 Marks)
+5.  (a) Explain briefly the primary activities that are grouped into five main activities under Value chain
+        analysis.                                                          (5 Marks)
+    (b) "Projected financial statement analysis is a central strategy-implementation technique." Justify the
+        statement.                                                         (5 Marks)
+6.  (a) Yummy Foods and Tasty Foods are successfully competing in the business of ready to eat snacks
+        in Patna. Yummy has been pioneer in introducing innovative products. These products will give
+        them good sale. However, Tasty Foods will introduce similar products in reaction to t he products
+        introduced by the Yummy Foods taking away the advantage gained by the former. Discuss the
+        strategic approach of the two companies. Which is superior?        (5 Marks)
+    (b) What are 'objectives'? What characteristics it must possess to be meaningful? (5 Marks)

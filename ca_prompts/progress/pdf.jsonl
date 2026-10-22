@@ -1,0 +1,8 @@
+{"t": 1792473025.387116, "step": "start", "note": "reading engine + ca-firm-notes"}
+{"t": 1792474876.820251, "step": "tool", "note": "tools/pdf: build_html.js, fit.js, print.css, print_pdf.js (CDP pipe), make_pdfs.py; 2-pass contents"}
+{"t": 1792486304.891104, "step": "cma", "note": "P4: notes 505p, full A4 1008p, full phone 2264p, cards 182p (711 cards); checks clean"}
+{"t": 1792486305.1586812, "step": "aud", "note": "P5: notes 348p, A4 923p, phone 2174p, cards 209p (695)"}
+{"t": 1792486305.352739, "step": "fm", "note": "P6A: notes 238p, A4 513p, phone 1123p, cards 98p (363)"}
+{"t": 1792486305.600493, "step": "sm", "note": "P6B: notes 104p, A4 309p, phone 718p, cards 66p (243)"}
+{"t": 1792486442.137974, "step": "check", "note": "38 pages rendered and looked at; contents rows = link targets = outline; no blank pages; no text past margin; 0 broken internal links; no KaTeX/diagram errors"}
+{"t": 1792486491.973003, "step": "report", "note": "16 PDFs in ~/ca_passbook/pdf (112 MB); report ~/ca_prompts/reports/pdf.md"}

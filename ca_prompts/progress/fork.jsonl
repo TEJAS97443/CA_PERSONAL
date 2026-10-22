@@ -1,0 +1,10 @@
+{"t": 1792437832.317378, "step": "start", "note": "reading gate_cse docs"}
+{"t": 1792437927.407846, "step": "copy", "note": "rsync done; real .venv with pymupdf+pillow (pip had network)"}
+{"t": 1792439251.237568, "step": "strip", "note": "29 GATE labs+tests+CSS removed, labs.json []; fixture lab tests/fixtures/fixture-bep.js"}
+{"t": 1792439251.5373912, "step": "syllabus", "note": "CA syllabus copied: 4 papers, 40 chapters, 176 sub-topics; paper/marks parsed"}
+{"t": 1792439251.760792, "step": "tooling", "note": "build --check, lint, preview(+dark), shot.sh, lab framework, tools/lab_status.py add all work; sections from content/sections.json"}
+{"t": 1792441152.046366, "step": "exam", "note": "exam.json: ICAI announcement 13-CA(EXAM)/JANUARY/2027 (23 Sep 2026) Group II 8/10/12 Jan 2-5 PM, checked 2026-10-20; countdown/cap/season count to Paper 4 then roll forward"}
+{"t": 1792441531.873835, "step": "bank-empty", "note": "zero-question build passes; /pyq, /q, /test (all ?new=), lesson practice show 'ICAI past papers, RTPs and MTPs are being added'; ::: pyq optional, unknown ids warn"}
+{"t": 1792446758.8034189, "step": "rebrand", "note": "PassBook / Tick (redrawn tick) / PassBook Wrapped / Questions tab; storage passbook:; home+hubs hide GATE sections until data; no GATE words on 21 routes"}
+{"t": 1792446758.8631759, "step": "tests", "note": "node tests/run.js 1526 passed 0 failed; py 55 OK; smoke 266/0, smoke demo 270/0"}
+{"t": 1792446812.7867122, "step": "report", "note": "report at ~/ca_prompts/reports/fork.md"}

@@ -1,0 +1,646 @@
+          PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT
+                          SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                        Question No. 1 is compulsory.
+                                  Answer any three questions from the rest.
+        Question 1
+        (a) In most software, there are three layers which together form the application and the same
+            is called Three Tier Architecture. Explain the three layers forming part of the Three Tier
+            Architecture of an application software.                                         (3 Marks)
+        (b) Write a short note on Automated Teller Machines (ATM) Channel Server.             (2 Marks)
+        Answer
+        (a) The layers which together form part of Three tier architecture of an application software
+            are as follows:
+             •    The Application Layer receives the inputs from the users and performs certain
+                  validations like if the user is authorized to request the transaction.
+             •    The Operating System Layer carries the instructions and processes them using the
+                  data stored in the database and returns the results to the Application Layer.
+             •    The Database Layer stores the data in a certain form. For a transaction to be
+                  completed, all the three layers need to be invoked. Most application software is built
+                  on this model these days.
+        (b) Automated Teller Machines (ATM) Channel Server: This server contains the details of
+            ATM account holders. Soon after the facility of using the ATM is created by the bank, the
+            details of such customers are loaded onto the ATM server. When the Central Database is
+            busy with central end-of-day activities or for any other reason, the file called Positive
+            Balance File (PBF) that contains the account balance of the customer is sent to the ATM
+            Switch. This ensures not only continuity of ATM operations but also confi rms that the
+            Central database is always up-to-date. The above process is applicable to stand alone
+            ATMs at the Branch level. As most of the ATMs are attached to the central network, the
+            only control is through the ATM Switch.
+        Question 2
+        (a) Operations management is responsible for the daily running of hardware and software
+            facilities so that production application systems can accomplish their work and
+            development staff can design, implement and maintain application systems. Operations
+            management typically performs controls over many functions. Explain any six of such
+            functions.                                                                 (6 Marks)
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+        (b) Flowcharts are used in designing and documenting simple processes or programs . Explain
+            any four limitations of Flowcharts.                                         (4 Marks)
+        Answer
+        (a) Operations management performs controls over various functions that are discussed
+            below:
+             •    Computer Operations: The controls over computer operations govern the activities
+                  that directly support the day-to-day execution of either test or production systems on
+                  the hardware/software platform available.
+             •    Network Operations: Data may be lost or corrupted through component failure. To
+                  avoid such situation; the proper functioning of network operations, monitoring the
+                  performance of network communication channels, network devices, and network
+                  programs and files are required.
+             •    Data Preparation and Entry: Irrespective of whether the data is obtained indirectly
+                  from source documents or directly from say customers, keyboard environments and
+                  facilities should be designed to promote speed and accuracy and to maintain the
+                  wellbeing of keyboard operators.
+             •    Production Control: This includes the major functions like receipt and dispatch of
+                  input and output; job scheduling; management of Service-Level Agreements with
+                  users; transfer pricing/charge-out control; and acquisition of computer consumables.
+             •    File Library: This includes the management of not only machine-readable storage
+                  media like magnetic tapes, cartridges, and optical disks of an organization but also
+                  its fixed storage media.
+             •    Documentation and Program Library: This involves that librarians ensure that
+                  documentation is stored securely; that only authorized personnel gain access to
+                  documentation; that documentation is kept up-to-date and that adequate backup
+                  exists for documentation. There should also be adequate versioning of documents
+                  depending on the updates. The documentation may include reporting of responsibility
+                  and authority of each function; definition of responsibilities and objectives of each
+                  function; reporting responsibility and authority of each function; policies and
+                  procedures; job descriptions and Segregation of Duties.
+             •    Help Desk/Technical support: This assists end-user to employ end-user hardware
+                  and software such as micro-computers, spreadsheet packages, database
+                  management packages etc. and provides the technical support for production
+                  systems by assisting with problem resolution.
+             •    Capacity Planning and Performance Monitoring: Regular performance monitoring
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          3
+
+
+                  facilitates the capacity planning wherein the resource deficiencies must be identified
+                  well in time so that they can be made available when they are needed.
+             •    Management of Outsourced Operations: This has the responsibility for carrying out
+                  day-to-day monitoring of the outsourcing contract.
+        (b) Limitations of Flowcharts are as follows:
+             •    Complex logic: Flowchart becomes complex and clumsy where the problem logic is
+                  complex. The essentials of what is done can be easily lost in the technical details of
+                  how it is done.
+             •    Modification: If modifications to a flowchart are required, it may require complete re-
+                  drawing.
+             •    Reproduction: Reproduction of flowcharts is often a problem because the symbols
+                  used in flowcharts cannot be typed.
+             •    Link between conditions and actions: Sometimes it becomes difficult to establish
+                  the linkage between various conditions and the actions to be taken thereupon for a
+                  condition.
+             •    Standardization: Program flowcharts, although easy to follow, are neither a natural
+                  way of expressing procedures as writing in English, nor are they easily translated into
+                  Programming language.
+        Question 3
+        (a) Financial Accounting Module is the most important module of the overall ERP System and
+            it connects all the modules to each other. Every module is somehow connected with this
+            module. Explain any six key features of this module.                          (6 Marks)
+        (b) Government regulation, however well-intentioned, is only part of an overall green
+            computing philosophy. The work habits of computer users and businesses can be modified
+            to minimize the adverse impact on the global environment. There are several steps for
+            Green IT. What are the Green Computing Best Practices for the Green IT Recycle Step?
+                                                                                              (4 Marks)
+        Answer
+        (a) The key features of Financial Accounting Module of an overall ERP system are as under:
+             •    Tracking of flow of financial data across the organization in a controlled manner and
+                  integrating all the information for effective strategic decision making.
+             •    Creation of Organizational Structure that encompasses defining company, company
+                  codes, business areas, functional areas, credit control, assignment of company codes
+                  to credit controls etc.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+             •    Financial Accounting Global Settings that incorporate maintenance of Fiscal Year,
+                  Posting Periods, Defining Document types, Posting keys, Number ranges for
+                  documents etc.
+             •    General Ledger Accounting that includes creation of Chart of accounts, Account
+                  groups, defining data transfer rules, creation of General Ledger Account etc.
+             •    Tax Configuration & Creation and Maintenance of House of Banks.
+             •    Account Payables, accounts receivable, fixed assets, general ledger and cash
+                  management, etc. For example - creation of vendor master data and vendor-related
+                  finance attributes like account groups and payment terms etc.
+             •    Account Receivables that include creation of customer master data and customer -
+                  related finance attributes like account groups and payment terms etc.
+             •    Asset Accounting.
+             •    Integration with Sales and Distribution and Materials Management.
+        (b) The Green Computing Best Practices for the Green IT Recycle step include the following:
+             •    Dispose e-waste according to central, state, and local regulations.
+             •    Discard used or unwanted electronic equipment in a convenient and environmentally
+                  responsible manner as computers emit harmful emissions.
+             •    Manufacturers must offer safe end-of-life management and recycling options when
+                  products become unusable.
+             •    Recycle computers through manufacturer’s recycling services.
+        Question 4
+        (a) A private bank is planning to migrate all of its existing operations to a Core Banking System
+            (CBS). During their discussions, the IT consultant is asked to expl ain about the common
+            IT risks involved in CBS. Explain any six of the common IT risks related to CBS. (6 Marks)
+        (b) The public cloud is the cloud infrastructure that is provisioned for open use by the general
+            public. Explain any four characteristics of public cloud.                          (4 Marks)
+        Answer
+        (a) Some of the common IT risks related to Core Banking Systems (CBS) are as follows:
+             •    Ownership of Data/ process: Data resides at the Data Centre. Establish clear
+                  ownership so that accountability can be fixed and unwanted changes to the data can
+                  be prevented.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          5
+
+
+             •    Authorization process: What is the authorization process, if anybody with access to
+                  the CBS, including the customer himself, can enter data directly. If the process is not
+                  robust, it can lead to unauthorized access to the customer information.
+             •    Authentication procedures: Usernames and Passwords, Personal Identification
+                  Number (PIN), One Time Password (OTP) are some of the most commonly used
+                  authentication methods. However, these may be inadequate and hence the user
+                  entering the transaction may not be determinable or traceable.
+             •    Several software interfaces across diverse networks: A Data Centre can have as
+                  many as 75-100 different interfaces and application software. A data center must also
+                  contain adequate infrastructure such as power distribution and supplemental power
+                  subsystems including electrical switching; uninterruptable power supplies; backup
+                  generators and so on. Lapse in any of these may lead to real-time data loss.
+             •    Maintaining response time: Maintaining the interfacing software and ensuring
+                  optimum response time and up time can be challenging.
+             •    User Identity Management: This could be a serious issue. Some banks may have
+                  more than 5000 users interacting with the CBS at once and therefore every user's
+                  identity and his/her level of access to a particular system need to be verified.
+             •    Access Controls: Designing and monitoring access control is an extremely
+                  challenging task. Bank environments are subject to all types of attacks; thus, a strong
+                  access control system is a crucial part of a bank’s overall security plan. Access
+                  control, however, does vary between branch networks and head office locations.
+             •    Incident handling procedures: Incident handling procedures are used to address
+                  and manage the aftermath of a security breach or cyberattack. However, these at
+                  times may not be adequate considering the need for real-time risk management.
+             •    Change Management: Though change management reduces the risk that a new
+                  system or other change will be rejected by the users; however, at the same time, it
+                  requires changes at application level and data level of the database - Master files,
+                  transaction files and reporting software.
+        (b) The characteristics of Public Cloud in the cloud infrastructure are as follows:
+             •    Highly Scalable: The resources in the public cloud are large in number and the
+                  service providers make sure that all requests are granted. Hence public clouds are
+                  scalable.
+             •    Affordable: The cloud is offered to the public on a pay-as-you-go basis; hence the
+                  user has to pay only for what s/he is using (using on a per-hour basis) and this does
+                  not involve any cost related to the deployment.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+             •    Less Secure: Since it is offered by a third party and they have full control over the
+                  cloud, the public cloud is less secure out of all the other deployment models.
+             •    Highly Available: It is highly available because anybody from any part of the world
+                  can access the public cloud with proper permission, and this is not possible in other
+                  models as geographical or other access restrictions might be there.
+             •    Stringent Service-Level Agreements (SLAs): As the service provider’s business
+                  reputation and customer strength are totally dependent on the cloud servi ces, they
+                  follow the SLAs strictly and violations are avoided.
+        Question 5
+        (a) The IT Act 2000 attempts to change outdated laws and provides ways to deal with cyber -
+            crimes. We need such laws so that people can perform purchase transactions over the
+            Internet without fear of misuse. In this context, explain any six advantages of Cyber Laws.
+                                                                                             (6 Marks)
+        (b) Audit of environmental controls requires the IS auditor to conduct physical inspections and
+            observe practices. As an IS auditor, you are engaged to conduct an audit of environmental
+            controls for an organization. Discuss any four factors and activities which require your
+            attention in the audit of environmental controls.                                 (4 Marks)
+                                                      OR
+             In today's high-speed world, we cannot imagine an information system without an effective
+             and efficient communication system, which is a valuable resource that helps in good
+             management. You are appointed as an IT consultant to design a model computer network
+             for a newly started company. What are the basic issues to be addressed by your network
+             model?
+        Answer
+        (a) Some advantages of Cyber laws encompassed under the IT Act 2000 are as under:
+             •    The IT Act 2000 offers the crucial legal framework so that any information which is in
+                  the form of electronic records shall not be denied legal effect, validity, or
+                  enforceability. This legal framework allows for the authentication and origin of
+                  electronic records/communications through digital signature.
+             •    Considering the growth in electronic transactions and communications, the Act seeks
+                  to empower government departments to encourage digital data format in terms of
+                  accepting filing, creating and retention of official documents.
+             •    The Act allows the emails to be a valid and legal form of communication in India that
+                  can be duly produced and approved in a court of law; thus, providing boon to e -
+                  businesses in India.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                        7
+
+
+             •    As the Act sanctions and gives legal validity to Digital signatures, many corporate
+                  companies have entered the business of being Certifying Authorities for issuing
+                  Digital Signatures Certificates.
+             •    The Government can issue notification on the web thus heralding e-governance under
+                  the Act.
+             •    The Act enables the companies to approach any office, authority, body, or agency
+                  owned or controlled by the appropriate Government to file any form, application or
+                  any other document in electronic form as prescribed by them.
+             •    The corporates get statutory remedy in case their computer systems, data or network
+                  get damaged by intruders. The Act allows remedy in the form of monetary damages
+                  not exceeding ` 1 crore.
+        (b) As an Information Systems (IS) Auditor, the factors and activities that will be considered
+            while auditing environmental controls are as follows:
+             •    Power conditioning Equipment: The IS auditor should determine how frequently
+                  power conditioning equipment, such as Uninterrupted Power Supply (UPS), line
+                  conditioners, surge protectors, or motor generators are used, inspected, and
+                  maintained and if this is performed by qualified personnel.
+             •    Backup power: The IS auditor should determine if backup power is available via
+                  electric generators or UPS and how frequently they are tested. S/he should examine
+                  maintenance records to see how frequently these components are maintained and if
+                  this is done by qualified personnel.
+             •    Heating, Ventilation, and Air Conditioning (HVAC) Systems: The IS auditor should
+                  determine if HVAC systems are providing adequate temperature and humidity levels,
+                  and if they are monitored. Also, the auditor should determine if HVAC systems are
+                  properly maintained and if qualified persons do this.
+             •    Water Detectors: The IS auditor should determine if any water detectors are used in
+                  rooms where computers are used. S/he should determine how frequently these are
+                  tested and if these are monitored.
+             •    Fire Detection and Suppression Equipment: The IS auditor should determine if fire
+                  detection equipment is adequate, if staff members understand their function, and if
+                  these are tested. S/he should determine how frequently fire suppression systems are
+                  inspected and tested, and if the organization has emergency evacuation plans and
+                  conducts fire drills.
+             •    Cleanliness: The IS auditor should examine data centers to see how clean they are.
+                  IT equipment air filters and the inside of some IT components should be examined to
+                  see if there is an accumulation of dust and dirt.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+                                                      OR
+             The basic issues that are addressed by a newly designed Network Model are as follows:
+             •    Routing: It refers to the process of deciding on how to communicate the data from
+                  source to destination in a network. In this, data is transferred in the form of data
+                  packets using an Internet Protocol or IP address.
+             •    Bandwidth: It refers to the amount of data which can be sent across a network in
+                  given time. The lesser the bandwidth, lesser is the data transferred and slower the
+                  website loads.
+             •    Contention: It refers to the situation that arises when there is a conflict for some
+                  common resource in a network. For example, network contention could arise when
+                  two or more computer systems try to communicate at the same time.
+             •    Resilience: It refers to the ability of a network to recover from any kind of error like
+                  connection failure, loss of data etc.
+
+
+
+
+© The Institute of Chartered Accountants of India
+              PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                       9
+
+
+                           PAPER 7 - SECTION – B: STRATEGIC MANAGEMENT
+          Question paper comprises of 5 questions, Answer Question No. 6 which is compulsory and
+                                  any 3 out of the remaining 4 questions.
+        Question 6
+        Ramesh and Suresh own software development firms ACS Ltd. and BDS Ltd. Ramesh and
+        Suresh pitch their business in international markets and win international contracts . Ramesh
+        has fifty software engineers in his team. Suresh, on the other hand, leads a team of forty
+        software engineers. Every project has a specific and fixed timeline. Individual projects are
+        assigned to project heads by Ramesh and Suresh. Ramesh adheres to strict rules and
+        procedures. He met with the project heads to get an update but exchanged ideas occasionally.
+        He set a weekly target of forty hours to complete the assigned goal or task. The group that
+        met the deadline and completed the task received a 10% bonus. The group that was unable to
+        meet the deadline was penalized. The group that did not meet the deadline was penalized with
+        unpaid extra working hours to complete the task. Suresh, unlike Ramesh, did not priorities a
+        structured approach to work. Suresh inspired the project managers by making them feel like
+        leaders rather than just participants. Suresh's empowering attitude helped to alig n individual
+        goals with group goals. Ramesh established routines to maximize his team efficiency. Suresh,
+        on the other hand, used positive reinforcement to maximize his team efficiency.
+        (a) Identify the leadership style employed by Ramesh and Suresh.
+        (b) What are the conditions/situations that make such leadership styles more appropriate?
+        (c) Discuss the characteristics of the leadership styles.
+        Answer
+        (i)   Ramesh adopted transactional           leadership     style,   while   Suresh   adopted
+              transformational leadership style.
+        (ii) Transactional leadership style can be appropriate in settled and static environment,
+             in growing or mature industries and in organizations that are performing well.
+              Transformational leadership style may be appropriate in turbulent environment, in
+              industries at the very start or end of their life cycles, in poorly performing
+              organizations when there is a need to inspire a company to embrace major changes.
+        (iii) Transactional leadership style uses the authority of its office to exchange rewards
+              such as pay, status symbols etc. Transactional leaders prefer a more formalized
+              approach to motivation, setting clear goals with explicit rewards or penalties for
+              achievement and non-achievement. Transactional leaders focus mainly to build on
+              existing culture and enhance current practices.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                       INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+             Transformational leadership style uses charisma and enthusiasm to inspire people
+             to exert them for the good of organization. Transformational leaders inspire
+             employees by offering excitement, vision, intellectual stimulation and personal
+             satisfaction.
+        Question 7
+        (a) “Management at all levels develop strategies”. Explain the different strategies formulated
+            at different levels of management.
+        (b) "The sustainability of competitive advantage and a firm's ability to earn profits from its
+            competitive advantage depends on characteristics of resources and capabilities". Explain
+            this statement.
+        Answer
+        (a) At different levels of management, various strategies are formulated to align with
+            organizational goals and objectives which are as follows:
+             Corporate-Level Strategies: At the highest level of management, corporate-level
+             strategies are developed. These strategies focus on the overall direction and scope
+             of the entire organization. Major corporate-level strategies include Stability strategies,
+             Growth strategies, Retrenchment strategies and Combination strategies.
+             Business-Level Strategies: Business-level strategies are developed by middle-level
+             management and focus on individual business units or divisions within the organization.
+             These strategies aim to achieve competitive advantage within specific markets.
+             Common business-level strategies include Cost Leadership, Differentiation and Focus
+             strategies.
+             Functional-Level Strategies: Functional-level strategies are formulated by lower-level
+             management or department heads responsible for specific functional areas, such as
+             marketing, finance, operations, or human resources. These strategies align with
+             business-level strategies and focus on achieving functional objectives. These
+             strategies include Marketing strategies, Financial strategies, Operations strategies,
+             Research & Development strategy and Human Resource strategies.
+             In conclusion, management at all levels develops strategies that align with the
+             organization's goals. Corporate-level strategies determine the overall direction,
+             business-level strategies focus on competitive advantage within specific markets,
+             and functional-level strategies aim to achieve functional objectives in support of
+             the broader strategies.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                          11
+
+
+        (b) The sustainability of competitive advantage and a firm’s ability to earn profits from it
+            depends, to a great extent, upon four major characteristics of resources and capabilities
+            which are as follows:
+             1.   Durability: The period over which a competitive advantage is sustained depends in
+                  part on the rate at which a firm’s resources and capabilities deteriorate. In industries
+                  where the rate of product innovation is fast, product patents are quite likely to
+                  become obsolete. Similarly, capabilities which are the result of the management
+                  expertise of the CEO are also vulnerable to his or her retirement or departure. On
+                  the other hand, many consumer brand names have a highly durable appeal.
+             2.   Transferability: Even if the resources and capabilities on which a competitive
+                  advantage is based are durable, it is likely to be eroded by competition from rivals.
+                  The ability of rivals to attack position of competitive advantage re lies on their
+                  gaining access to the necessary resources and capabilities. The easier it is to
+                  transfer resources and capabilities between companies, the less sustainable will be
+                  the competitive advantage which is based on them.
+             3.   Imitability: If resources and capabilities cannot be purchased by a would-be
+                  imitator, then they must be built from scratch. How easily and quickly can the
+                  competitors build the resources and capabilities on which a firm’s competitive
+                  advantage is based? This is the true test of imitability. Where capabilities require
+                  networks of organizational routines, whose effectiveness depends on the corporate
+                  culture, imitation is difficult.
+             4.   Appropriability: Appropriability refers to the ability of the firm’s owners to
+                  appropriate the returns on its resource base. Even where resources and capabilities
+                  are capable of offering sustainable advantage, there is an issue as to who receives
+                  the returns on these resources.
+        Question 8
+        (a) Health Pharma Pvt. Ltd. (HPPL) a one person company with limited liability is
+            manufacturing generic and medicinal drugs in India.
+             Hygiene Laboratories Plc. (HLP) a multinational company with its strong financial position
+             is one of the major players in pharmaceutical sector.
+             Individually, each company has its own core competencies. However, additional focus by
+             the state on generic medicine with renewed regulatory requirements are posing
+             challenges in fierce competitive environment.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+             Considering benefits of synergies, both the companies are considering to join hands for
+             better growth opportunities. Earlier, they tried to go for joint venture or strategic alliance
+             but the arrangement could not materialize.
+             In view of the facts given above:
+             (i)   If HPPL and HLP join hands and make new entity named Health N Hygiene Pharma
+                   Ltd., what type of growth strategy will this strategic development be?
+             (ii) In case, HLP is sold out to HPPL and HLP ceased to exist, what type of growth
+                  strategy will this strategic deal be?
+             (iii) What are the differences between the above two identified growth strategies?
+        (b) Buyers of an industry's products or services can sometimes exert considerable pressure
+            on the company. In the light of the five forces as propagated by Michael Porter explain
+            this force. Also state as to when this leverage is evident.
+        Answer
+        (a) (i)    If HPPL and HLP join hands and form a new entity named Health N Hygiene
+                   Pharma Ltd., this strategic development would be considered a Merger growth
+                   strategy. A merger is a combination of two or more companies to form a new entity
+                   with shared ownership and control.
+             (ii) If HLP is sold out to HPPL and HLP ceases to exist, this strategic deal would be
+                  categorized as an Acquisition growth strategy. An acquisition occurs when one
+                  company purchases another, resulting in the acquiring company gaining control
+                  over the acquired company's assets, operations, and intellectual property.
+             (iii) Many organizations in order to achieve quick growth, expand or diversify with the
+                   use of mergers and acquisitions strategies. Merger and acquisition in simple words
+                   are defined as a process of combining two or more organizations together. There is
+                   a thin line of difference between the two terms, but the impact of combination is
+                   completely different in both the cases.
+             Merger is considered to be a process when two or more organizations join together to
+             expand their business operations. In such a case the deal gets finalized on friendly
+             terms. Owners of pre-merged entities have right over the profits of new entity. In a
+             merger two organizations combine to increase their strength and financial gains.
+             While, when one organization takes over the other organization and controls all its
+             business operations, it is known as acquisition. In the process of acquisition, one
+             financially strong organization overpowers the weaker one. Acquisitions often
+             happen during economic recession or during declining profit margins. In this process,
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                        13
+
+
+             one that is financially stronger and bigger establishes it power. The combined
+             operations then run under the name of the powerful entity. A deal in case of an
+             acquisition is often done in an unfriendly manner; it is more or less a forced
+             association.
+        (b) Bargaining Power of Buyers: This is another force that influences the competitive
+            condition of an industry. This force becomes heavier depending on the possibility of
+            buyers forming groups or cartels. Mostly, this is a phenomenon seen in industrial
+            products. Quite often, users of industrial products come together formally or even
+            informally and exert pressure on the producer. The bargaining power of the buyers
+            influences not only the prices that the producer can charge but also influences
+            costs and investments of the producer. This is because powerful buyers usually
+            bargain for better services which involves more investment on the part of the producer.
+             Buyers of an industry’s products or services can sometimes exert considerable pressure
+             on existing firms to secure lower prices or better services. This leverage is particularly
+             evident when;
+             (i)   Buyers have full knowledge of the source(s) of products and their substitutes. Thus,
+                   challenging the price being charged by producers.
+             (ii) They spend a lot of money on the industry’s products i.e. they are big buyers. Thus,
+                  in a position to demand favourable terms of contract.
+             (iii) The industry’s product is not perceived as critical to the buyer’s needs and buyers
+                   are more concentrated than firms supplying the product. They can easily switch to
+                   the substitutes available.
+        Question 9
+        (a) Strategic planning is an important constituent of strategic management . In the light of the
+            same explain the meaning of strategic planning. Also outline the characteristics of
+            strategic planning.
+        (b) "Strategic control focuses on implementation and results produced by the strategy".
+            Explain strategic control along with its different types.
+        Answer
+        (a) Yes, strategic planning is an important constituent of strategic management. It is a
+            process of determining organizational strategy. It gives directions to the organization
+            and involves making decisions and allocating resources to pursue the strategy. It
+            is the formal blueprint of future course of an organization.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                        INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+             Strategic plans are made by the senior management for the entire organization after
+             taking into account the organization strength and weaknesses in the light of
+             opportunities and threats in the external environment. They involve acquisition and
+             allocation of resources for the attainment of organizational objectives.
+             Strategic planning deals with one or more of three key questions:
+             •    What are we doing?
+             •    For whom do we do it?
+             •    How to improve and excel?
+             Following are the characteristics of strategic planning:
+             •    Strategic planning shapes the organisation and its resources.
+             •    Strategic planning assesses the impact of environmental variables.
+             •    Strategic planning takes a holistic view of the organisation.
+             •    Strategic planning develops overall objectives and strategies.
+             •    Strategic planning is concerned with the long-term success of the organisation.
+             •    Strategic planning is a senior management responsibility.
+        (b) Strategic control focuses on implementation and results produced by the strategy.
+            It focuses on the dual questions of whether: (1) the strategy is being implemented as
+            planned; and (2) the results produced by the strategy are those intended.
+             There are four types of strategic control:
+                 Premise control: A strategy is formed on the basis of certain assumptions or
+                  premises about the environment. Premise control is a tool for systematic and
+                  continuous monitoring of the environment to verify the validity and accuracy of the
+                  premises on which the strategy has been built.
+                 Strategic surveillance: Strategic surveillance is unfocussed. It involves general
+                  monitoring of various sources of information to uncover unanticipated information
+                  having a bearing on the organizational strategy.
+                 Special alert control: At times unexpected events may force organizations to
+                  reconsider their strategy. Sudden changes in government, natural calamities,
+                  unexpected merger/acquisition by competitors, industrial disasters and other such
+                  events may trigger an immediate and intense review of strategy.
+                 Implementation control: Managers implement strategy by converting major plans
+                  into concrete, sequential actions that form incremental steps. Implementation
+                  control is directed towards assessing the need for changes in the overall strategy in
+                  light of unfolding events and results.
+
+
+
+
+© The Institute of Chartered Accountants of India
+             PAPER – 7: ENTERPRISE INFORMATION SYSTEMS & STRATEGIC MANAGEMENT                        15
+
+
+        Question 10
+        (a) Changes in environmental forces often require businesses to make modifications in their
+            existing strategies. In view of the same explain the areas to be focused while considering
+            concept of strategic change. Also explain the steps to initiate strategic change process.
+        (b) Ratu has been as CEO of PRO Ltd. He is given the responsibility of developing new
+            products and improving old products. He is facing a conflict whether the firm should
+            develop research and development expertise internally or outsource it to external
+            agency. What guidelines will help Ratu to make this decision?
+                                                       OR
+             You have been appointed as head of the Strategic Business Unit (SBU) of a large
+             multiproduct company. Explain the leadership roles, you have to play as a Manager in
+             pushing for good strategy execution.
+        Answer
+        (a) The changes in the environmental forces often require businesses to make modific ations
+            in their existing strategies and bring out new strategies. Strategic change is a complex
+            process that involves a corporate strategy focused on new markets, products,
+            services and new ways of doing business.
+             For initiating strategic change, three steps can be identified as under:
+             (i)   Recognize the need for change: The first step is to diagnose facets of the
+                   corporate culture that are strategy supportive or not. The idea is to determine where
+                   the lacuna lies and scope for change exists.
+             (ii) Create a shared vision to manage change: Objectives and vision of both
+                  individuals and organization should coincide. Senior managers need to constantly
+                  and consistently communicate the vision not only to inform but also to overcome
+                  resistance.
+             (iii) Institutionalize the change: Creating and sustaining a different attitude towards
+                   change is essential to ensure that the firm does not slip back into old ways of
+                   thinking or doing things. All these changes should be set up as a practice to be
+                   followed by the organization and be able to transfer from one level to another as a
+                   well settled practice.
+        (b) A critical question is whether PRO Ltd. should develop research and development
+            expertise internally or outside to external agencies. The answer to this critical
+            question mainly depends on rate of technology progress and rate of market
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                       INTERMEDIATE EXAMINATION: MAY, 2023
+
+
+             growth. The following guidelines can be used by Ratu, the CEO of PRO Ltd. to help
+             make this decision:
+                 If the rate of technical progress is slow, the rate of market growth is moderat e,
+                  and there are significant barriers to possible new entrants, then in-house R&D is
+                  the preferred solution. The reason is that R&D, if successful, will result in a
+                  temporary product or process monopoly that the company can exploit.
+                 If technology is changing rapidly and the market is growing slowly, then a
+                  major effort in R&D may be very risky, because it may lead to the development of
+                  an ultimately obsolete technology or one for which there is no market.
+                 If technology is changing slowly but the market is growing quickly, there
+                  generally is not enough time for in-house development. The prescribed approach is
+                  to obtain R&D expertise on an exclusive or non-exclusive basis from an
+                  outside firm.
+                 If both technical progress and market growth are fast, R&D expertise should be
+                  obtained through acquisition of a well-established firm in the industry.
+                                                       Or
+             A head of the strategic business unit (SBU) has many different leadership roles to play:
+             visionary, chief entrepreneur and strategist, chief administrator, culture builder, resource
+             acquirer and allocator, capabilities builder, process integrator, crisis solver,
+             spokesperson, negotiator, motivator, arbitrator, policy maker, policy enforcer, and head
+             cheerleader. Managers have five leadership roles to play in pushing for good strategy
+             execution:
+             1.   Staying on top of what is happening, closely monitoring progress, working through
+                  issues and obstacles.
+             2.   Promoting a culture that mobilizes and energizes organizational members to
+                  execute strategy and perform at a high level.
+             3.   Keeping the organization responsive to changing conditions, alert for new
+                  opportunities and remain ahead of rivals in developing competitively valuable
+                  competencies and capabilities.
+             4.   Ethical leadership and insisting that the organization conduct its affairs like a model
+                  corporate citizen.
+              5. Pushing corrective actions to improve strategy execution and overall strategic
+                 performance.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

@@ -1,0 +1,12 @@
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1087.88it/s]
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1812.19it/s]
+/Users/ztejas/edu2d/pgbp/voice_report.md: 60 cues, 1889 words, WER 4.4%, confirmed 2.5%, word times -> /Users/ztejas/edu2d/pgbp/cues.json
+   1. lakh                         -> -lock, lok, lock, LOK,, LK, LOK, -lock,      x48  both: 29
+   2. meera                        -> Mira, Mira's, Mira,                          x12  both: 12
+   3. lakh rupees                  -> LR, LR., LR,                                 x7  both: 3
+   4. claim                        -> claimed                                      x1  both: 1
+   5. rupees                       -> Rs., R.                                      x4  both: 0
+   6. dearness                     -> deerness                                     x1  both: 0
+   7. pune                         -> Puna.                                        x1  both: 0
+   8. a                            -> (skipped)                                    x1  both: 1
+   9. + days.                      -> days.                                        x1  both: 0

@@ -1,0 +1,82 @@
+# PassBook, Out Loud · P4-10 · Process and Operation Costing: एक process का output, अगले का input
+
+## Introduction: job से process तक
+
+नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+आज Paper four का chapter ten है, Process and Operation Costing, जिसे ICAI ने RTPs और MTPs समेत बासठ documents में पूछा है, जिनमें सत्रह exam papers हैं।
+पिछले chapter में हर job की cost अलग निकली थी, पर Tapri का premix roasting से blending तक लगातार बहता है, जहाँ कोई packet किसी दूसरे से अलग नहीं।
+Exam papers सबसे ज़्यादा process losses पूछते हैं, RTPs और MTPs equivalent units पर टिके हैं, और inter-process profit कभी-कभी case scenario में आता है।
+Episode के आख़िर तक आप normal और abnormal loss का treatment, FIFO और weighted average की equivalent units, और inter-process profit ICAI के format में लिख पाएँगे।
+
+## Process accounts and process losses: normal, abnormal और gain
+
+ICAI के words में process costing is a method of Cost Accounting whereby costs are charged to processes or operations and averaged over units produced।
+इसकी industries हैं steel, paper, medicines, soaps, chemicals, rubber, vegetable oil, और paints and varnish, और हर process का अपना अलग account होता है।
+Features में पहले तीन हैं: factory processes में बँटी होती है, manufacturing continuously चलती है, और एक process का output अगले process का input बनता है।
+बाकी तीन features हैं कि end product like units का होता है, output का कोई lot input के किसी lot तक trace नहीं होता, और joint products और by-products निकल सकते हैं।
+Tapri के premix plant के roasting drum में दस हज़ार kilo चाय गई और तिरानवे सौ kilo निकली, तो केसर ने पूछा कि मेरी चाय कौन खा रहा है।
+ऋतु ने बताया कि roasting और sieve हर महीने करीब पाँच प्रतिशत, यानी पाँच सौ kilo, लेते ही हैं, और बाकी दो सौ kilo conveyor jam होने पर फ़र्श पर गिरे।
+पाँच सौ kilo normal loss है, जिसकी cost अच्छे kilos उठाते हैं, और दो सौ kilo abnormal loss है, जो roasting की cost नहीं, Costing Profit and Loss का मामला है।
+Normal process loss is the loss of material which is inherent in the nature of work, और ये material, operation, experience और technical data से पहले से anticipate हो सकता है।
+Abnormal process loss is the loss in excess of the pre-determined loss, जो carelessness, bad plant design या sabotage से हो सकता है, और suitable measures से control में रहता है।
+Abnormal gain तब होता है जब actual loss normal से कम रहे, और ये process loss के over-estimation, workers की बेहतर efficiency या बेहतर technology से आता है।
+Normal cost per unit है total cost minus scrap value of normal loss, divided by normal output, और normal output है input minus normal loss units।
+Normal loss की value है normal loss units into realisable value minus cost to sell, और abnormal units हैं normal output minus actual output, positive हो तो loss, negative हो तो gain।
+Good units, abnormal loss और abnormal gain, तीनों इसी एक normal cost per unit पर value होते हैं, और scrap rate बाद में loss और gain के accounts में आता है।
+Process account के debit में materials, wages, direct expenses और overheads आते हैं, और credit में normal loss scrap value पर, abnormal loss full cost पर, और अगला process।
+Abnormal loss account अपने units का scrap bank से लेता है, और बची balance Costing Profit and Loss में debit होती है।
+Abnormal gain process account में debit होता है, और gain units की scrap value घटाकर सिर्फ़ net gain Costing Profit and Loss में credit होता है।
+Gain वाले महीने में भी process account normal loss को expected figure पर ही credit करता है, actual loss पर नहीं, और units और rupees दोनों balance होने चाहिए।
+
+## Equivalent units: FIFO and weighted average
+
+इस बार केसर का नया launch Tapri mango achaar था, और महीने के आख़िर में पाँच हज़ार kilo अभी vats में साठ प्रतिशत cured पड़ा था।
+केसर बोले कि जो cost per kilo अच्छी दिखे, उसी हिसाब से vats को finished गिनो या मत गिनो, पर ऋतु ने दोनों में से कुछ नहीं किया।
+सारा mango vats में है, इसलिए materials के लिए वो पाँच हज़ार kilo हैं, पर curing साठ प्रतिशत हुई है, इसलिए labour और overheads के लिए वो तीन हज़ार equivalent kilo हैं।
+ICAI के words में equivalent units means converting the incomplete production units into their equivalent completed units, और ये हर cost element के लिए अलग निकलती हैं।
+Period की cost opening work-in-process, नई शुरू होकर पूरी हुई units, और closing work-in-process पर एक साथ खर्च होती है, इसलिए partly finished units को equivalent units में बदलना पड़ता है।
+Actual basis पर WIP की valuation हो सकती है, पर ICAI कहता है कि उसकी accuracy satisfactory नहीं, इसलिए equivalent units का रास्ता लिया जाता है।
+ICAI के answers तीन statements इसी order में देते हैं: statement of equivalent production, फिर हर element की cost per equivalent unit, फिर statement of evaluation, और आख़िर में process account।
+FIFO में opening WIP को सिर्फ़ इस period का बचा हुआ percentage मिलता है, और सिर्फ़ इस period की cost divide होती है, scrap value of normal loss घटाकर।
+Achaar में opening WIP छह हज़ार kilo चालीस प्रतिशत cured था, तो FIFO ने उसकी curing के छत्तीस सौ equivalent kilo गिने, यानी इस महीने का बचा साठ प्रतिशत।
+FIFO में opening WIP की brought forward cost उसकी completion cost में जुड़ती है, और closing WIP current cost पर value होता है।
+Weighted average में opening WIP की cost और इस period की cost जोड़कर divide होती है, और हर completed unit हर element के लिए सौ प्रतिशत गिनी जाती है।
+Cost per equivalent unit है cost to divide divided by equivalent units, हर cost element के लिए अलग।
+Weighted average और FIFO की equivalent units का फ़र्क हमेशा opening WIP into पिछले period में हुआ percentage होता है, जो एक quick check है।
+Normal loss की कोई equivalent units नहीं होतीं, सिर्फ़ उसकी scrap value cost से घटती है, जबकि abnormal loss अपनी stage of completion पर गिना जाता है।
+Abnormal gain हर element के लिए सौ प्रतिशत पर एक Less row में घटाया जाता है, और units column फिर भी balance होता है, क्योंकि normal loss की row पूरी रहती है।
+
+## Inter-process profit and operation costing: अपने ही घर को बेचना
+
+केसर ने Roasting और Blending को profit centres बना दिया, और दोनों का paper profit देखकर सबके लिए bonus का ऐलान कर दिया।
+ऋतु ने याद दिलाया कि Roasting ने Blending को बेचा है, और Blending भी हम ही हैं, इसलिए godown में पड़े premix के अंदर का profit किसी बाहर वाले ने नहीं दिया।
+ICAI के words में the difference between cost and the transfer price is known as inter-process profits, जहाँ transfer market value या cost plus a percentage of profit पर होता है।
+इसके advantages हैं हर stage पर output की cost और market price की comparison, और हर process का अपनी profitability पर खड़ा होना, और disadvantages हैं complication और unrealised profits।
+Profit transfer price पर p हो तो transfer price है cost divided by one minus p, और cost पर q हो तो transfer price है cost into one plus q।
+इसलिए transfer price पर बीस प्रतिशत, cost पर पच्चीस प्रतिशत है, और cost का एक-तिहाई, transfer price का एक-चौथाई है।
+Accounts में Total, Cost और Profit के तीन columns दोनों sides पर चलते हैं।
+Closing stock prime cost पर valued हो, तो उसका profit prime cost के cost और total columns के ratio से अलग होता है।
+Realised profit है दिखाए गए profits plus opening stocks का profit minus closing stocks का profit, जो sales minus actual cost of goods sold के बराबर है।
+Operation costing तब है जब entity final product के एक से ज़्यादा variants अलग materials से पर similar conversion activities से बनाए, और इसे hybrid product costing system भी कहते हैं।
+Tapri की kulhad unit Plain और Royal kulhads बनाती है, जिनमें clay और glaze अलग है पर moulding और firing एक जैसी, इसलिए materials batch-wise और conversion costs operation-wise जमा होती हैं।
+Conversion costs budgeted costs पर बने predetermined rate से लगती हैं, और ICAI की industries हैं ready-made garments, shoe making और jewellery।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+Exam में process losses पाँच से दस marks के descriptive सवालों में और दो marks के MCQs में आते हैं, जिनमें normal loss percentage उल्टा भी निकलवाया गया है।
+Equivalent units चार से आठ marks के FIFO या weighted average statements में, और cost per equivalent unit से पूरा महीना दोबारा बनाने वाले case scenarios में आती हैं।
+Theory में normal loss, abnormal loss और abnormal gain का treatment, inter-process profit के advantages और disadvantages, और operation costing पाँच-पाँच marks में आए हैं।
+पहली गलती abnormal loss को scrap rate पर value करना है, जबकि वो good unit की cost पर जाता है, और scrap बाद में abnormal loss account में आता है।
+दूसरी गलती FIFO में opening WIP को पहले हो चुके काम पर गिनना है, और तीसरी normal loss को equivalent units देना या abnormal gain को घटाने की जगह जोड़ना।
+Inter-process profit में पहले base पढ़िए, transfer price पर profit हो तो divide कीजिए, cost पर हो तो multiply, और realised profit में closing stocks का profit बाहर रखिए।
+Full marks के लिए working notes, units और rupees वाला process account, और bank और Costing Profit and Loss तक closed loss और gain accounts लिखिए।
+
+## Summary: साठ seconds की revision
+
+साठ seconds में chapter ये है: process costing में cost processes पर charge होकर units पर average होती है, और cost per unit normal output पर निकलती है।
+Normal loss good units उठाती हैं और उसकी scrap value process में लौटती है, जबकि abnormal loss और gain good unit की cost पर value होते हैं।
+Equivalent units हर element के लिए अलग हैं, FIFO में opening WIP का सिर्फ़ बचा काम और period की cost, और weighted average में सब कुछ जोड़कर।
+Normal loss की कोई equivalent units नहीं होतीं, abnormal gain सौ प्रतिशत पर घटता है, और statements का order है equivalent production, cost per equivalent unit, evaluation।
+Inter-process profit transfer price minus cost है, realised profit sales minus actual cost, और operation costing materials batch से और conversion operation से जोड़ने वाला hybrid है।
+अगले episode में एक ही process से कई products एक साथ निकलेंगे, यानी Paper four का chapter eleven, Joint Products and By-Products।
+ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

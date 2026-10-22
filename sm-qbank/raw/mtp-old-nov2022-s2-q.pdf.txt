@@ -1,0 +1,317 @@
+                                                             Test Series: October, 2022
+                                MOCK  TEST PAPER - II
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                   PART I: MULTIPLE CHOICE QUESTIONS       Total Marks: 15 Marks
+Question No(s). 1 to 5 carries 2 marks each.
+ABC Ltd. is a private company that provides financial support to individuals to set up their new startup. The
+company records every transaction in its accounting system and charges very nominal rate of interest on
+the financial support that they lend to the individual startup. However, the company acquires benefits from
+the profit earned by them proportionate to their lent funds.
+Though there are many risks that are associated with the company in terms of business, data, and
+technology; however, being in the field of financial sector, the data related risks are very important to be
+mitigated. The management of the company ABC Ltd. very well understands the criticality of the internal
+controls and owns the responsibility to develop, implement and monitor internal controls to facilitate the
+effectiveness and efficiency of business operations. As a financial institution, the company has laid down a
+framework for security through well defined security policies that define the roles and responsibilities of
+individuals within the company.
+The company has many branches with each branch maintaining its own server at its local site. Now the
+company has a requirement to consolidate its many small physical servers into one large physical server so
+that the processor can be used more effectively. The organization has implemented controls in their
+working environment that restrict unauthorized entry into the premises and also various controls to detect
+errors, omissions, and occurrence of any malicious act. This is to ensure the reliability of internal and
+external financial reporting and assist compliance with applicable laws and regulations in the company. Mr.
+Harsh has been appointed as an auditor of the company to evaluate the adequacy of the existing internal
+control systems by analyzing and testing the controls.
+Attempt the Q. No(s) 1 to 5 based on the above case scenario.
+1.  Though the internal controls are well implemented in ABC Ltd.; at different instances, the company
+    encountered following data related risks which are as under:
+    (i) The program copies itself to another machine on the network.
+    (ii) This involves change of data before or after it has entered the system.
+    (iii) This involves forging one’s source address.
+    Various data related risks are termed below:
+    I.  Data Diddling
+    II. Spoofing
+    III. Worm
+    Choose the correct match:
+    (a) (i) – III, (ii) - I, (iii) - II
+    (b) (i) – I, (ii) - II, (iii) - III
+    (c) (i) – III, (ii) - II, (iii) - I
+    (d) (i) – II, (ii) - I, (iii) - III
+
+2.  Identify the statement(s) that is/are not true for Voucher in which every transaction in the ABC Ltd.
+    company must be recorded.
+    (i) A voucher number is a number used to identify different transactions recorded in several voucher
+        types.
+    (ii) All vouchers must be numbered serially.
+    (iii) Every voucher type shall have similar numbering series.
+    (iv) All vouchers are recorded in chronological order.
+    Choose the correct option.
+    (a) (i), (ii)
+    (b) (ii), (iii)
+    (c) (i), (iii)
+    (d) (ii), (iv)
+3.  For auditing purpose, Mr. Harsh used an audit tool that involved embedding of audit software modules
+    within the host financial system used by the company to monitor the transactions continuously. Which
+    audit tool does this concept belong to?
+    (a)  Integrated Test Facility (ITF)
+    (b) Continuous and Intermittent Simulation (CIS)
+    (c) Audit Hooks
+    (d) System Control Audit Review File (SCARF)
+4.  The process adopted by ABC Ltd. company to consolidate small servers into one large server refers to
+    _________.
+    (a) Network Virtualization
+    (b) Hardware Virtualization
+    (c) Storage Virtualization
+    (d) Software Virtualization
+5.  Various controls that are implemented in the ABC Ltd. as a part of Information security are mentioned
+    below:
+    (i) Disabling the USB Ports.
+    (ii) Logging of each event.
+    (iii) Role based access privileges given to the employees.
+    (iv) Implementation of firewalls.
+    The aforementioned controls can be categorized as under:
+    I.  Application Security
+    II. Network Security
+    III. Database Security
+    IV. Physical Security
+    Choose the correct match:
+    (a) (i) – I, (ii) – II, (iii) – III, (iv) - IV
+    (b) (i) – IV, (ii) – I, (iii) – III, (iv) - II
+    (c) (i) – IV, (ii) – III, (iii) – I, (iv) - II
+
+    (d) (i) – II, (ii) – III, (iii) – I, (iv) - IV
+6.  Mr. X is the marketing head of a financial service provider company named XYZ Ltd. His role in the
+    company allowed him to gain access to the confidential data of company’s huge clientele. He stole the
+    confidential data of few influential customers and misused it for his personal gain due to which the
+    company faced criticism and legal action. Under which Section of Information Tec hnology Act, 2000
+    can the company be charged for paying compensation to the affected customers for failing in
+    protecting their crucial data?
+    (a) Section 67
+    (b) Section 43
+    (c) Section 66C
+    (d) Section 43A
+7.  Mr. Ajeet, a senior manager of a FMCG company named XYZ Ltd. proposed its management to
+    implement ERP system in the company. He prepared a powerpoint presentation to explain the benefits
+    of ERP implementation to the management. Identify from the following which factor shall qualify to be
+    a part of his presentation.
+    (a) Reduced lead time and reduced cycle time
+    (b) Increased lead-time and increased cycle time
+    (c) Reduced lead time and increased cycle time
+    (d) Increased lead-time and reduced cycle time
+8.  An e-commerce company allows its customers to buy products online through its app using their PDA,
+    Laptops and Mobiles etc. Mr. Anil downloads and logs in to the company’s app to check the products
+    available on the company’s app. Which layer of m-commerce architecture has allowed Mr. Anil to do so?
+    (a) Application Layer
+    (b) Client/User Interface Layer
+    (c) Database Layer
+    (d) Processing Layer
+9.  ANB  bank owns different servers for specific significance in its Core Banking System (CBS)
+    component that has helped the bank to scale up its business operations, to provide better service
+    delivery and improved customer satisfaction. Out of many servers that the bank acquires, which of the
+    following server hosts all the websites and services the online requests of its clients?
+    (a) Proxy Server
+    (b) Database Server
+    (c) Web server
+    (d) Application Server
+10. Studious Library is a public library which provides each of its subscribers a unique membership-id and
+    PIN number as an access control mechanism to access its e-books/research papers and journals
+    through its app. Under which of the following Application control does this specific access control
+    mechanism fall.
+    (a) Physical Control
+    (b) Boundary Control
+    (c) Communication Control
+    (d) Input Control
+
+                               DESCRIPTIVE QUESTIONS
+1.  (a) Application Control Framework of Information Systems are required to ensure that data remains
+        complete, accurate and valid during various phases like input, update, and storage. In light of this
+        statement, mention all sub controls associated with the Application Control Framework.
+                                                                           (3 Marks)
+    (b) Write a short note on Database server associated with Core Banking System (CBS). (2 Marks)
+2.  (a) Data Analytics technologies and techniques are used in various industries to enable better
+        decision making and help businesses increase their revenues. Discuss the concept of Data
+        Analytics and its application areas.                          (2 + 4 =6 Marks)
+    (b) Amazon.com allows various sellers to sell their products online at its portal and thereby provide
+        them a suitable platform to boost up their sale and earn more profit. Desc ribe any four benefits
+        that seller gets from e-business.                                  (4 Marks)
+3.  (a) In an Information System, an operating system acts as an interface between the hardware and
+        users by providing a convenient environment to users for executing their programs. Describe
+        various activities executed by Operating System.                   (6 Marks)
+    (b) Quality management module of Enterprise Resource Planning (ERP) helps an organization to
+        accelerate business by adopting a structured and functional way of managing quality in different
+        processes of organization. Briefly describe the sub-processes involved in the said module.
+                                                                           (4 Marks)
+4.  (a) Various NGOs of the country working in the welfare of girl child education and their health came
+        under together to share their common concerns and way ahead. To do so, they established a
+        cloud infrastructure that was owned, managed and operated by service provider XYZ Ltd. Identify
+        the most suitable choice of cloud under cloud computing in this case. Further state its
+        characteristics and advantages.                             (1+3+2 = 6 Marks)
+    (b) Consider the following flowchart and find its output.
+                                   Start
+                           X = 16, Y =28, Z = 39, S = 2, I = 0
+                                   S = Z
+                                   Z = Y
+                                   Y = X
+                                   X = S
+                                  I = I + 1
+                        No
+                                  If I = 1?1?
+                                        Yes
+                                 Print X, Y, Z, S
+                                   Stop
+                                                                           (4 Marks)
+
+5.  (a) Money laundering promotes crime and corruption in a country, slows down its economic growth
+        and decreases productivity in the real sector economy, thereby exhibits harmful effects on the
+        country’s financial sector institutions. Discuss in detail all stages of Money laundering. (6 Marks)
+    (b) Describe Section 67B of Information Technology Act, 2000 which is related to punishment for
+        publishing or transmitting of material depicting children in sexually explicit act in electronic form.
+                                                                           (4 Marks)
+                                        OR
+        Differentiate between Mobile banking and Phone banking.            (4 Marks)
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                             Question 1 and 2 are compulsory.
+                  Attempt any three questions out of remaining four questions.
+1.  (A) SKS, a Bollywood actor, was so affected by the chaos in the country due to the Pandemic that he
+        and his team took upon themselves to cater to the poorest section of the society and formed SKS
+        Foundation.
+        They had to plan in accordance with the policies of the government, arrange for quality medical
+        care especially the internationally acclaimed medicine, which was available in extreme scarcity,
+        transportation of people to and from their hometowns, and on time delivery of basic necessities.
+        The task was humongous given the number of people to be cared for and the restrictions in place
+        for goods/people movement. To execute the plan, they distributed the work amongst themselves
+        as follows;
+        ●   Two people worked on the communication flow - WhatsApp, Facebook and IVR systems, were
+            setup to reach out people, and for arrangements
+        ●   Three people setup logistics - finding medicine suppliers around India, negotiating prices,
+            fixing transportation agents, making basic necessities available at the very doorstep (last mile
+            delivery)
+        ●   Three other people were given the responsibility of food distribution - they took help from
+            temples, gurdwaras and NGOs for making food available to the most needy first, aim was to
+            provide at least two meals a day.
+        ●   Finally, one person worked on fund management - major sources being crowdfunding, NGO
+            support, further support was carried through high net worth individuals networking, and
+            celebrity support.
+        The major challenges were getting the medicines and hospital beds as the demand was sky high
+        and the availability was skewed. But the team was passionate and as they gathered support from
+        the general public, it became easier to operate and arrange necessities.
+        Management is tougher when the motive is not making profit, because all essential elements of
+        strategy are to be considered, while the only way to measure success is people’s safety,
+        satisfaction and happiness. The numeric metrics fail to give a direction and the only measurement
+        is psychological.
+        Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:
+        1.  Given the prices of medicines were widely fluctuating every single day based on the media
+            reports and various medical practitioners recommendations, plus oxygen availability was also
+            not under control, which of the following aspects of Financial Strategy would have been most
+            challenging for the team member responsible?
+            (a) Strategising sources of funds
+            (b) Budgeting of available funds
+            (c) Strategizing usage of funds
+            (d) Valuing the worth of operations                             (1 Mark)
+
+        2.  Let us suppose the foundation wants to expand with a dedicated 7 to 10 member team for
+            each city. Which of the following structures would ensure each area to be handled by the
+            central team to ensure no compromise on the quality and prices?
+            (a) Matrix Structure
+            (b) Divisional Structure
+            (c) Multidivisional Structure
+            (d) Functional Structure                                        (1 Mark)
+        3.  Which of the following questions would have to be taken care of by the logistics team in
+            particular?
+            i.  What are the most reliable sources of medicine sellers?
+            ii. How many of them would be willing to supply at affordable rates?
+            iii. Nature of their business, whether sole proprietorship, LLP, Partnership or Company, for
+                compliance ease?
+            iv. Method of distribution they use if the transportation had to be done nation-wide?
+            v.  What volumes can these distributors handle per day/week/month?
+            (a) Only (i), (ii), (iv) and (v)
+            (b) Only (i), (ii) and (v)
+            (c) Only (iv) and (v)
+            (d) All of these would have to be taken care                   (2 Marks)
+        4.  Given the huge demand and extremely low supply of a new internationally acclaimed
+            medicine, the unethical retailers followed which of the following strategies for maximum
+            profits. Further, in the long term, when the availability stabilizes, what would help them define
+            the target selling price?
+            (a) Skimming Pricing Policy followed currently, and later on stabilisation they would need
+                penetration price strategy to set target price.
+            (b) Skimming Pricing Policy followed currently, and later on stabilisation they would need
+                benchmarking to set target price.
+            (c) Penetration Pricing Policy followed currently, and later on stabilisation they would need
+                skimming to win customer who could afford it.
+            (d) Penetration Pricing Policy followed currently, and later on stabilisation they would need
+                flexible pricing strategy to set target price.             (2 Marks)
+        5.  Strategising a not for profit demands a different strategic mindset. Which of the following
+            would not form part of the food distribution team’s strategic checklist?
+            i.  Cost Saving
+            ii. Reduced Inventory
+            iii. Improved Delivery Time
+            iv. Competitive Advantage
+            (a) Options (i) and (iv)
+            (b) Only (i)
+            (c) Only (iv)
+            (d) Options (i), (ii) and (iv)                                  (1 Mark)
+    (B) After an earnest attempt to bring in a strategic change in your organization, you the operational
+        head of XYZ ltd, succeeded but still your organization couldn’t achieve the desired competitive
+        position in the market. Out of the following what could be the reason?
+        (a) Strategy Formulation
+        (b) Strategy Model
+        (c) Strategy Implementation
+        (d) Strategy Decision                                              (2 Marks)
+    (C) You being the core strategist of your company, entrusted with bringing about strategic change in
+        your company, how will you initiate “unfreezing of the situation”?
+        (a) Promoting new ideas throughout the organization
+        (b) Promoting compliance throughout the organization
+        (c) Promoting change in process throughout the organization
+        (d) None of the above                                              (2 Marks)
+    (D) Maadhyam, a hearing aid manufacturer recently introduced an AI based management tool that has
+        the capabilities of managing teams across functions. What could be their new organisational
+        structure post this implementation?
+        (a) Divisional Structure
+        (b) Matrix Structure
+        (c) Hourglass Structure
+        (d) Network Structure                                               (1 Mark)
+    (E) When there is impact of strategy implementation on strategy formulation it can be referred as?
+        (a) Backward Linkages
+        (b) Forward Linkages
+        (c) Vertical Linkages
+        (d) Horizontal Linkages                                             (1 Mark)
+    (F) Conglomerate diversification is another name for which of the following?
+        (a) Related diversification
+        (b) Unrelated diversification
+        (c) Portfolio diversification
+        (d) Acquisition diversification                                     (1 Mark)
+    (G) Corporate culture refers to:
+        (a) Company’s values and beliefs
+        (b) Company’s business principles
+
+        (c) Internal work environment
+        (d) All the above                                                   (1 Mark)
+2.  ABC Limited is in a wide range of businesses which include apparels, lifestyle products, furniture, real
+    estate and electrical products. The company is looking to hire a suitable Chief Executive Officer.
+    Consider yourself as the HR consultant for ABC limited. You have been assigned the task to enlist the
+    activities involved with the role of the Chief Executive Officer. Name the strategic level that this role
+    belongs to and enlist the activities associated with it.               (5 Marks)
+3.  (a) Sky chemical industry intends to grow its business. Advise the company on the available options
+        using Ansoff’s product market growth matrix.                       (5 Marks)
+    (b) You are appointed as a manager of a company where you find that the company's culture is out of
+        sync with what is needed for strategic success. Discuss steps you would initiate to tackle the
+        problem.                                                           (5 Marks)
+4.  (a) You are Research and Development manager of Sun Ltd. You are assigned the responsibility of
+        technology enhancement. You have to take a decision either to acquire R & D expertise from
+        external firms or develop R & D expertise internally. Do you need guidelines to help you take
+        decision? Validate your answer.                                    (5 Marks)
+    (b) Give the meaning of Strategic Human Resource management. State the key Human Resource
+        Management practices on which strategic focus should be given to achieve competitive advantage.
+                                                                           (5 Marks)
+5.  (a) Distinguish between Operational Control and Management Control.    (5 Marks)
+    (b) What are the various alternative strategies which the managers need to identify that will create and
+        sustain a competitive advantage in the business? Discuss.          (5 Marks)
+6.  (a) Are there any limitations attached to strategic management in organizations? Discuss. (5 Marks)
+    (b) Diversification endeavours can be categorized into four broad classifications. State the basis for
+        this classification and name the four categories. How is concentric diversification different from
+        vertically diversification? Explain.                               (5 Marks)

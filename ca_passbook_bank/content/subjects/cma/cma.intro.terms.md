@@ -1,0 +1,407 @@
+---
+id: cma.intro.terms
+title: Cost units, cost centres, cost objects and responsibility centres
+minutes: 24
+needs: cma.intro.scope
+tags: cost object, cost unit, cost centre, cost driver, responsibility centre, profit centre, investment centre, discretionary cost centre
+summary: The cost object (what is costed), the cost unit (per what), the cost driver (what causes the cost), cost centres, and the four responsibility centres with how each is judged.
+---
+
+## In plain words
+
+### "How much does the Pune café cost?"
+
+Kesar asks it in the corridor. Ritu answers with three questions.
+
+> **Kesar:** Simple question, Ritu. How much does the Pune café cost?
+> **Ritu:** The café, or one cup from it? Per month or per cup? And who in Pune answers for which part of it?
+> **Kesar:** You make everything sound like an exam.
+> **Ritu:** Per unit, please. Then it never is one.
+
+Ritu's three questions are this lesson's words.
+
+- The thing whose cost you want, the café or a cup, is the **cost object**: anything for which a separate measurement of cost is required.
+- The unit in which the cost is expressed, "per cup", "per tonne-km", "per machine hour", is the **cost unit**.
+- What makes the cost go up, the number of cups, the number of delivery orders, is the **cost driver**.
+- The person or department that answers for a part of the business is a **responsibility centre**. If it answers only for costs (the café kitchen), it is a **cost centre**; only for revenue (the billing counter), a **revenue centre**; for both, and so for profit (the café as a whole), a **profit centre**; and if it can also decide on capital investment (a whole subsidiary), an **investment centre**, judged on its return on investment.
+
+::: analogy The family wedding
+A wedding is a cost object (so is the sangeet night on its own). The caterer quotes per plate: the cost unit. The number of guests drives almost every cost: the cost driver. Mama-ji runs the catering committee and must stay within its budget: a cost centre. The cousin collecting the shagun envelopes answers only for what comes in: a revenue centre. The tent house that rents out chairs and pays its own staff answers for both: a profit centre. And Papa, who can decide to buy the banquet hall instead of renting it, is the investment centre.
+:::
+
+::: key
+The cost object is what you cost, the cost unit is what you cost it per, and the cost driver is what makes the cost rise. Responsibility centres say who answers for what: costs (cost centre), revenue (revenue centre), both (profit centre), or profit plus capital investment (investment centre).
+:::
+
+## How it works
+
+### Cost object: what is being costed (SM 1.19–1.20)
+
+::: definition Cost object (SM 1.19)
+Cost object is anything for which a separate measurement of cost is required. Cost object may be a product, a service, a project, a customer, a brand category, an activity, a department or a programme etc.
+:::
+
+ICAI's examples (SM 1.20):
+
+| Cost object | Examples |
+|---|---|
+| Product | Smart phone, tablet computer, SUV car, book |
+| Service | An airline flight from Delhi to Mumbai, a concurrent audit assignment, a utility bill payment facility |
+| Project | Metro rail project, road projects |
+| Activity | Quality inspection of materials, placing of orders |
+| Process | Refinement of crudes in oil refineries, melting of billets or ingots in rolling mills |
+| Department | Production department, finance and accounts, safety |
+
+The cost object ==remains in nucleus of cost classification and analysis of the cost behaviour==: whether a cost is direct or indirect, fixed or variable, all depends on the cost object (SM 1.20). The café manager's salary is a direct cost of the Pune café, but an indirect cost of each cup. Classification is in [[cma.intro.classify|elements and classification of cost]].
+
+### Cost unit: per what (SM 1.20–1.21)
+
+::: definition Cost unit (SM 1.20)
+It is a unit of product, service or time (or combination of these) in relation to which costs may be ascertained or expressed.
+:::
+
+Costs may be found per ton of steel, per ton-kilometre of a transport service or per machine hour. Sometimes a single order or contract is the cost unit; so is a **batch**, a group of identical items that keeps its identity through one or more stages of production. Cost units are usually units of physical measurement: number, weight, area, volume, length, time and value (SM 1.20).
+
+::: formula Cost per unit
+$$\text{Cost per cost unit} = \frac{\text{Total cost for the period}}{\text{Cost units in the period}}$$
+The total cost is the cost of the cost object, the thing being costed (the fleet); the cost unit is the denominator (tonne-km).
+:::
+
+ICAI's two lists (SM 1.20–1.21), worth knowing by heart because "state the cost unit" questions draw on them:
+
+| Industry or product | Cost unit basis |
+|---|---|
+| Automobile | Number |
+| Cement | Ton / per bag etc. |
+| Chemicals | Litre, gallon, kilogram, ton etc. |
+| Power | Kilowatt-hour (kWh) |
+| Steel | Ton |
+| Transport | Passenger-kilometre |
+| Gas | Cubic feet |
+
+| CIMA industry sector | Cost unit |
+|---|---|
+| Brewing | Barrel |
+| Brick-making | 1,000 bricks |
+| Coal mining | Tonne / ton |
+| Electricity | Kilowatt-hour (kWh) |
+| Engineering | Contract, job |
+| Oil | Barrel, tonne, litre |
+| Hotel / Catering | Room / meal |
+| Professional services | Chargeable hour, job, contract |
+| Education | Course, enrolled student, successful student |
+| Hospitals | Patient day |
+
+| CIMA activity | Cost unit |
+|---|---|
+| Credit control | Accounts maintained |
+| Selling | Customer call, value of sales, orders taken |
+| Materials storage / handling | Requisition unit issued / received, material movement, value issued / received |
+| Personnel administration | Personnel record |
+
+Services often need a unit made of two measures (tonne-km, passenger-km, patient-day): a **composite cost unit**, built in [[cma.svc.basics|service costing and composite cost units]].
+
+### Cost driver: what causes the cost (SM 1.21–1.22)
+
+::: definition Cost driver (SM 1.21–1.22)
+A cost driver is a factor or variable which affects the level of cost. Generally, it is an activity which is responsible for cost incurrence; the level of activity or volume of production is an example. CIMA: "Factor influencing the level of cost", often used in Activity Based Costing to denote the factor which links activity resource consumption to product outputs; for example, the number of purchase orders would be a cost driver for procurement cost.
+:::
+
+Examples: number of machine set-ups, number of purchase orders, hours spent on product inspection, number of tests performed (SM 1.22). A cost unit measures output; a cost driver explains why cost rises. How drivers charge overheads to products is in [[cma.abc.concept|activities, cost pools and cost drivers]].
+
+### Cost centres
+
+A cost centre is where costs are collected and someone controls them. The Study Material uses the idea in two places:
+
+1. **For collecting costs** (SM 4.12): a department may be sub-divided into cost centres for better cost control and performance evaluation. The principal object is to collect data on similar activities more conveniently; when costs are collected by cost centre, several items can be ascertained definitely and the element of estimation is reduced considerably. There are two main types, **machine** or **personnel**, depending on whether the work at the centre is done by machine or by people, and cost centres are sometimes given a **code number** for recording. Production and service departments, and how overheads reach them, are in [[cma.oh.classify|classifying overheads, allocation and apportionment]].
+2. **As a responsibility centre** (SM 1.22–1.23): the responsibility centre held accountable for incurrence of costs which are under its control, of two types, standard and discretionary (below).
+
+### Responsibility centres (SM 1.22–1.23)
+
+::: definition Responsibility centres (SM 1.22)
+As the organisation grows, management delegates its responsibility and authority to various departments or persons, to have better control. These departments or persons are known as responsibility centres and are held responsible for performance in terms of expenditure, revenue, profitability and return on investment. Their performance is measured against set standards (input-output ratio, budgets etc.) and evaluated against organisational goals and performance targets.
+:::
+
+::: diagram The four responsibility centres (SM 1.22–1.23)
+{"type": "layers", "layers": [
+ {"label": "Cost centre", "note": "costs under its control", "right": "standards, budgets"},
+ {"label": "Revenue centre", "note": "generation of revenue", "right": "sales targets"},
+ {"label": "Profit centre", "note": "revenue and expenditure", "right": "profitability"},
+ {"label": "Investment centre", "note": "profit + capital investment", "right": "ROI besides profit"}],
+ "caption": "Middle: what each centre is accountable for; right: how its performance is measured. A profit centre answers for both costs and revenue; an investment centre adds capital investment decisions."}
+:::
+
+1. **Cost centres**: held accountable for incurrence of costs which are under their control; performance is measured against pre-determined standards or budgets. Two types:
+   - (a) **Standard cost centre**: output is measurable and the input required for it can be specified. From a well-established study, standard units of input per unit of output are set; actual input cost is compared with standard cost, and any variance is analysed into controllable and uncontrollable cost. The manager must comply with the standard and is held responsible for adverse variances. ==The input-output ratio is clearly identifiable==.
+   - (b) **Discretionary cost centre**: output cannot be measured in financial terms, so the input-output ratio cannot be defined; the cost of inputs is compared with the budget allocated for the activity. Examples: research and development department, advertisement department.
+2. **Revenue centres**: accountable for generation of revenue; a sales department, for example, is responsible for sales targets and revenue. Revenue centres do not control the expenditure they incur, though some selling expenditure such as sales commission is incurred by them.
+3. **Profit centres**: responsible for both generation of revenue and incurrence of expenditure; since their managers are accountable for both, profitability is the basis for measuring performance. Example: decentralised branches of an organisation.
+4. **Investment centres**: responsible for profitability and also have the authority to make capital investment decisions; performance is measured on the basis of **Return on Investment (ROI)** besides profit. Examples: Maharatna, Navratna and Miniratna companies of the Public Sector Undertakings of the Central Government.
+
+::: diagram Which responsibility centre is it?
+{"type": "flow", "w": 420, "nodes": [
+ {"id": "s", "kind": "start", "label": "A department or person"},
+ {"id": "q1", "kind": "decision", "label": "Authority over capital\ninvestment?"},
+ {"id": "inv", "kind": "end", "label": "Investment centre"},
+ {"id": "q2", "kind": "decision", "label": "Revenue and\nexpenditure?"},
+ {"id": "pro", "kind": "end", "label": "Profit centre"},
+ {"id": "q3", "kind": "decision", "label": "Generates\nrevenue only?"},
+ {"id": "rev", "kind": "end", "label": "Revenue centre"},
+ {"id": "q4", "kind": "decision", "label": "Output measurable,\ninput-output ratio?"},
+ {"id": "std", "kind": "end", "label": "Standard\ncost centre"},
+ {"id": "dis", "kind": "end", "label": "Discretionary\ncost centre"}],
+ "edges": [["s", "q1"], ["q1", "inv", "yes"], ["q1", "q2", "no"], ["q2", "pro", "yes"], ["q2", "q3", "no"], ["q3", "rev", "yes"], ["q3", "q4", "no"], ["q4", "std", "yes"], ["q4", "dis", "no"]],
+ "caption": "Ask the widest question first. Anything that reaches the last question is accountable for costs only: a cost centre, standard or discretionary."}
+:::
+
+::: diagram Responsibility centres inside one division
+{"type": "nest", "w": 420, "root": {"title": "Snacks division", "note": "investment centre", "color": "f", "mono": false, "children": [
+ {"title": "Samosa factory", "note": "cost centre", "color": "a", "mono": false, "children": [
+  {"title": "Frying line", "note": "standard cost centre", "color": "e", "mono": false, "lines": ["oil and minutes per 1,000"]}]},
+ {"title": "Snack kiosks", "note": "profit centre", "color": "g", "mono": false, "children": [
+  {"title": "Billing counters", "note": "revenue centre", "color": "c", "mono": false, "lines": ["takings only"]}]},
+ {"title": "New-recipe kitchen", "note": "discretionary cost centre", "color": "h", "mono": false, "lines": ["judged against its budget"]}]},
+ "caption": "Smaller centres sit inside larger ones: the division answers for return on investment, each kiosk for its profit, each counter for its takings."}
+:::
+
+## Worked examples
+
+:::: example Kesar's reorganisation memo
+After a reorganisation, Kesar wants six units of Tapri Tea Co. Ltd set up as responsibility centres. His memo describes each unit and ends with his own guesses.
+
+1. **The batch-testing lab** at the premix plant tests every batch for moisture and strength. A work study fixed the reagents and technician minutes for each test; every month the actual cost of the tests done is compared with their standard cost, and the lab head explains any adverse variance.
+2. **The flavour studio** experiments with new chai blends. In some years nothing it develops is launched; in one year a single blend became the best seller. Its spending is compared only with the amount sanctioned for it at the start of the year.
+3. **The railway catering desk** used only to book orders from railway zones. Since April it also buys its own kulhads and ingredients, employs its own serving staff, sets its rates within limits fixed by head office, and is judged on the margin it earns.
+4. **The franchise team** signs up franchise cafés against a target of 30 a year and is judged on the sign-ups and franchise fees it brings in. The franchisees bear the cost of setting up each café; the team's own expenses are its travel and a bonus for each sign-up.
+5. **The Jaipur café cluster** has ₹6 crore of assets. Its head fixes menus and prices, hires staff and buys supplies, and is judged on the cluster's profit; any new café or equipment needs head-office approval.
+6. **Tapri Cold Chain Pvt Ltd**, the subsidiary, has a board that approves its own capital budget for trucks and warehouses; it is judged on the return on the capital it employs as well as on its profit.
+
+Kesar's guesses: "1 and 2 are both labs, so both discretionary cost centres. 3 sells, so a revenue centre. 4 earns fees and spends on travel, so a profit centre. 5 has ₹6 crore of assets, so an investment centre. 6 decides on its own trucks, so an investment centre."
+
+**Required:** Identify the type of responsibility centre for each unit, with reasons, and state whether Kesar's guess is correct.
+
+::: answer Model answer
+Responsibility centres are the departments or persons to whom management delegates responsibility and authority, held responsible for performance in terms of expenditure, revenue, profitability and return on investment (SM 1.22).
+
+1. **Batch-testing lab: standard cost centre.** Its output (tests done) is measurable and the inputs required for it are specified from a work study; actual cost is compared with standard cost and the lab head is responsible for adverse variances. The input-output ratio is clearly identifiable. **Kesar's guess is wrong**: a cost centre is discretionary only when its output cannot be measured in financial terms; the word "lab" does not decide it.
+2. **Flavour studio: discretionary cost centre.** Its output cannot be measured with certainty or co-related with the cost of its inputs, so no input-output ratio can be defined; the cost of inputs is compared with the budget allocated, as for ICAI's research and development department. **Kesar's guess is correct.**
+3. **Railway catering desk: profit centre.** Since April it is responsible both for generating revenue (orders, its own rates) and for incurring expenditure (kulhads, ingredients, staff), and profitability (its margin) is the basis of measuring its performance. **Kesar's guess is wrong**: a revenue centre does not have control over the expenditure it incurs (though some selling expenditure, such as commission, is incurred by it); this desk now controls its own costs. It has no authority over capital investment, so it is not an investment centre either.
+4. **Franchise team: revenue centre.** It is accountable for generating revenue (sign-ups and franchise fees against a target) and does not answer for the cost of setting up the cafés; its own travel and sign-up bonus are selling expenditure of the kind revenue centres sometimes incur. **Kesar's guess is wrong**: incurring some selling expenditure does not make it a profit centre, because its performance is judged on revenue, not on profitability.
+5. **Jaipur café cluster: profit centre.** Its head is accountable for both revenue (menus, prices) and expenditure (staff, supplies), and profitability measures its performance. **Kesar's guess is wrong**: the size of its assets does not decide the type. An investment centre needs the authority to make capital investment decisions, with performance measured on return on investment, and here new cafés and equipment need head-office approval.
+6. **Tapri Cold Chain Pvt Ltd: investment centre.** It is responsible for profitability and has the authority to make capital investment decisions (its own capital budget); its performance is measured on return on investment (ROI) besides profit. **Kesar's guess is correct.**
+:::
+::::
+
+:::: example Seven businesses, seven cost units
+Tapri runs the following activities:
+
+(a) A cold-chain fleet carrying frozen samosas between cities.
+
+(b) Tapri Academy, which trains baristas in eight-week courses.
+
+(c) A rooftop solar plant supplying the premix plant with power.
+
+(d) Café kitchens catering lunches for corporate clients.
+
+(e) A pottery firing kulhads for the cafés.
+
+(f) A credit control team looking after dealers' accounts.
+
+(g) An engineering cell that builds and installs café counters, each to a separate order.
+
+In March the fleet's total cost was ₹9,45,000 for 3,15,000 tonne-km. The Academy's cost for one course was ₹6,30,000; 140 students enrolled and 126 passed.
+
+**Required:**
+
+(i) Suggest a suitable cost unit for each activity.
+
+(ii) Calculate the fleet's cost per tonne-km, and the Academy's cost per enrolled student and per successful student.
+
+::: answer Show the working
+**(i) Cost units**
+
+| Activity | Cost unit | Basis in the Study Material |
+|---|---|---|
+| (a) Cold-chain fleet | Tonne-km | Cost per ton-kilometre of a transport service |
+| (b) Tapri Academy | Course, enrolled student, successful student | CIMA: education |
+| (c) Rooftop solar plant | Kilowatt-hour (kWh) | Power / electricity |
+| (d) Corporate catering | Meal | CIMA: hotel / catering |
+| (e) Kulhad pottery | 1,000 kulhads | Physical number, as brick-making uses 1,000 bricks |
+| (f) Credit control | Accounts maintained | CIMA activity: credit control |
+| (g) Counter-building cell | Job or contract | CIMA: engineering |
+
+**(ii) Cost per unit**
+
+| Cost object | Total cost (₹) | Cost units | Cost per unit (₹) |
+|---|---:|---:|---:|
+| Fleet, March | 9,45,000 | 3,15,000 tonne-km | 3.00 per tonne-km |
+| Academy course | 6,30,000 | 140 enrolled students | 4,500 per enrolled student |
+| Academy course | 6,30,000 | 126 successful students | 5,000 per successful student |
+
+The same course has two honest costs per student: ₹4,500 for each one taught and ₹5,000 for each one who passed. The cost unit chosen decides which question the figure answers. How tonne-km are counted (absolute or commercial) is in [[cma.svc.basics|service costing]].
+:::
+::::
+
+## Under the hood
+
+### Cost object, cost unit, cost centre: one café, three words
+
+For the Pune café: the **cost object** may be the café, its delivery service, or a single cup; the **cost unit** is the cup (or the order, for delivery); the **cost centres** are the kitchen and the delivery desk where costs are collected and controlled; and the **cost driver** of the delivery desk's packing cost is the number of orders. The same rupee can be direct for one cost object (the café) and indirect for another (a cup): that is why ICAI calls the cost object the nucleus of classification.
+
+### Responsibility accounting elsewhere in the paper
+
+- Controllable and uncontrollable costs are defined around the responsibility centre: a controllable cost is one a cost, profit or investment centre manager can influence ([[cma.intro.classify|classification by controllability]]).
+- Budgets are set and flexed for responsibility centres ([[cma.bud.basics|budgets and budgetary control]]), and the standard cost centre is where standard costing variances are reported ([[cma.std.setting|standard costing]]).
+
+## Exam angle
+
+::: exam Where these terms appeared, May 2024 to September 2026
+In the ICAI documents read for this lesson:
+
+- **Responsibility centres, 5 marks each**: "Define Responsibility Centre and discuss the types" (September 2025 Q6(a)); "Explain the types of responsibility centres" (MTP Series I for September 2024 Q6(a), with standard and discretionary cost centres in the answer); "Explain responsibility centre and its types in brief" (MTP Series I for September 2025 Q6(a)).
+- **Responsibility centres as a case, 5 marks**: identify the type for four departments, with reasons (MTP Series II for January 2026 Q3(b): standard cost centre, discretionary cost centre, revenue centre, investment centre); specify the type for five units (MTP Series I for May 2026 Q6(a): decentralised branches, a Central Government PSU, an e-commerce customer support department, a hotel's restaurant, an airline's reservation department).
+- **Standard and discretionary cost centres**: RTP September 2024 Q19(d); in the old scheme, MTP July 2021 Series I Q6(d) and MTP November 2023 Series II Q6(b).
+- **Cost units, 4–5 marks**: "State cost unit of the following industry sector" for ten sectors (January 2025 Q6(b); the same list in MTP Series II for May 2026 Q6(a)); eight industries (MTP Series I for January 2026 Q6(c), an OR option); "Describe cost unit and give examples" (RTP September 2025 Q18(d)); in the old scheme, RTP November 2022 Q15(d) and MTP May 2023 Series I Q6(d).
+- **Cost objects, 5 marks**: "Define cost objects and give examples of any four cost objects" (May 2023 Q6(a), old scheme), answered with the definition and ICAI's examples table.
+:::
+
+::: exam What the answers show
+- The suggested answers on responsibility centres open with the Study Material's paragraph ("As the organization grows …") before the four types. Write the definition first.
+- In the case versions, each answer names the type and then gives the reason in the Study Material's words: "output is measurable", "input-output ratio cannot be defined", "authority to make capital investment decisions", "evaluated on ROI".
+- The cost unit answers accept more than the Study Material's tables (January 2025: "per course, per student, per batch, per lecture" for education; "guest days or room days, per item, per meal" for hotels), but the tables are the safe core.
+- The chapter's own question "Discuss the different cost centres that an organization can have" is answered by "Please refer paragraph 11": the responsibility centres (SM 1.45–1.46).
+:::
+
+::: trick C, R, P, I: what the manager answers for
+**C**ost centre: costs. **R**evenue centre: revenue. **P**rofit centre: both, so profit. **I**nvestment centre: profit plus capital investment decisions, so ROI. Classify on what the manager is accountable for and has authority over, not on what the department happens to touch: a sales desk that pays commission is still a revenue centre.
+:::
+
+## Answer frame
+
+### "Define responsibility centre and discuss its types" (5 marks)
+
+1. The definition: management delegates responsibility and authority to departments or persons, who are held responsible for performance in terms of expenditure, revenue, profitability and return on investment, measured against set standards.
+2. **Cost centres**: accountable for costs under their control, measured against standards or budgets; (a) standard cost centre (measurable output, identifiable input-output ratio, responsible for adverse variances); (b) discretionary cost centre (output not measurable in financial terms; inputs compared with the allocated budget; R&D, advertisement).
+3. **Revenue centres**: accountable for revenue (sales department); may incur selling expenditure such as commission.
+4. **Profit centres**: revenue and expenditure; judged on profitability (decentralised branches).
+5. **Investment centres**: profitability plus authority over capital investment; judged on ROI besides profit (Maharatna, Navratna, Miniratna PSUs).
+
+### "Identify the responsibility centre, with reasons" (case)
+
+| Step | What to write |
+|---|---|
+| 1 | The type, in ICAI's name (standard cost centre, not "a production centre") |
+| 2 | The fact in the case that decides it ("can buy trucks within its own capital budget") |
+| 3 | The Study Material's test it meets ("authority to make capital investment decisions; measured on ROI") |
+| 4 | Where a near-miss is likely, why not the next type ("not an investment centre: capital spending needs head-office approval") |
+
+### "State the cost unit"
+
+A two-column table, industry and cost unit, in the order the question lists them, using the Study Material's units; for a service, a composite unit where the service depends on two measures (tonne-km, passenger-km, patient day).
+
+## Common mistakes
+
+::: mistake Hall of Shame: the cost unit that was a building
+"Cost unit of a hotel: the hotel." That is the cost object. **Fix:** the cost unit is the unit of product, service or time in which cost is expressed: for a hotel, room or meal (the CIMA list in the Study Material; ICAI's January 2025 answer also accepts guest days or room days). Ask "per what?" and the answer is the cost unit.
+:::
+
+::: mistake Every branch an investment centre
+Calling a branch an investment centre because it is big or makes a large profit. **Fix:** a branch whose manager answers for revenue and costs is a profit centre ("decentralised branches", SM 1.23). Only the authority to make capital investment decisions, with performance measured on ROI, makes it an investment centre.
+:::
+
+::: mistake The R&D lab on a standard cost
+Treating the research or advertising department as a standard cost centre and blaming it for "adverse variances". **Fix:** where output cannot be measured in financial terms, no input-output ratio exists: it is a discretionary cost centre, judged against its allocated budget.
+:::
+
+::: mistake Cost driver or cost unit?
+Writing "number of purchase orders" as the cost unit of the purchase department, or "tonne-km" as a cost driver. **Fix:** the cost driver is the factor that causes the cost (number of purchase orders for procurement cost); the cost unit is the measure the cost is expressed in (tonne-km for transport).
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. Tapri's Pune delivery hub packs and dispatches app orders. A time study fixed the packing material and minutes per order, the hub's actual cost is compared every week with the standard cost of the orders packed, and the hub manager answers for adverse variances. Head office sets the delivery charges and keeps all delivery revenue. Which of the following is correct?
+- [ ] It is a revenue centre, because every order it dispatches earns delivery revenue
+- [ ] It is a profit centre, because delivery charges are earned through its work
+- [x] It is a standard cost centre, because its output is measurable and its input-output ratio is identifiable
+- [ ] It is a discretionary cost centre, because its spending is compared with a budget
+> The hub answers only for costs under its control, its output (orders packed) is measurable and the inputs per order are specified: a standard cost centre. The revenue is earned, priced and kept by head office, so it is not the hub's responsibility; a discretionary cost centre is one whose output cannot be measured in financial terms.
+
+Q: A Tapri cold-chain truck cost ₹2,88,000 to run in October. It made 40 trips of 150 km each, carrying 12 tonnes on every trip (the load did not change during a trip). What was the cost per tonne-km, in rupees?
+= 4
+> Tonne-km = 12 tonnes × 150 km × 40 trips = 72,000. Cost per tonne-km = ₹2,88,000 ÷ 72,000 = ₹4.00. The truck (or its October operation) is the cost object; the tonne-km is the cost unit.
+
+Q: Ritu reports: "The Diwali gift-box line cost ₹6,40,000 in October, which is ₹320 per box." In her sentence, the gift-box line and the box are respectively:
+- [ ] The cost unit and the cost object
+- [x] The cost object and the cost unit
+- [ ] A cost centre and a cost driver
+- [ ] A cost driver and the cost unit
+> The gift-box line is the thing whose cost is measured separately: the cost object. The box is the unit in which the cost is expressed: the cost unit. A cost driver is what causes the cost to change, such as the number of set-ups.
+
+Q: Which of these is a cost driver rather than a cost unit?
+- [ ] Tonne-km for a transport fleet
+- [ ] Kilowatt-hour for a power plant
+- [ ] Patient day for a hospital
+- [x] Number of machine set-ups for set-up cost
+> A cost driver is a factor that influences the level of cost; the number of machine set-ups is ICAI's own example. The other three are units in which cost is expressed.
+
+Q: Which of the following statements about responsibility centres agree with the Study Material? Select all that apply.
+- [x] A revenue centre may incur selling expenditure, such as commission to salespersons
+- [ ] A discretionary cost centre has a clearly identifiable input-output ratio
+- [x] An investment centre's performance is measured on return on investment besides profit
+- [ ] A profit centre has the authority to make capital investment decisions
+- [x] The manager of a standard cost centre is held responsible for adverse cost variances
+> A discretionary cost centre is the one whose input-output ratio cannot be defined (its output is not measurable in financial terms). Authority over capital investment is what turns a profit centre into an investment centre.
+
+Q: For better cost control, Ritu sub-divides the premix plant's packing department into cost centres: one for the four automatic pouch-filling machines and one for the six workers who hand-pack gift boxes. Which is correct?
+- [ ] Both are personnel cost centres, because people operate the machines
+- [x] The first is a machine cost centre and the second a personnel cost centre
+- [ ] Neither can be a cost centre: only a whole department can be one
+- [ ] The first is a cost centre and the second a revenue centre
+> A department may be sub-divided into cost centres; the two main types are machine and personnel, depending on whether the work at the centre is done by machine or by people (SM 4.12). The principal object is to collect data on similar activities more conveniently.
+:::
+
+## Recap
+
+- Cost object: anything for which a separate measurement of cost is required (product, service, project, customer, brand category, activity, department, programme); the nucleus of cost classification.
+- Cost unit: a unit of product, service or time (or a combination) in which costs are ascertained or expressed; usually a physical unit (number, weight, area, volume, length, time, value); an order, contract or batch can be one.
+- Responsibility centres answer for expenditure, revenue, profitability or return on investment: cost centres (costs under their control), revenue centres (revenue), profit centres (revenue and expenditure, judged on profitability) and investment centres (profit plus capital investment decisions, judged on ROI besides profit).
+- Standard cost centre: measurable output, identifiable input-output ratio. Discretionary cost centre: output not measurable in financial terms, inputs compared with the allocated budget (R&D, advertisement).
+- Cost driver: a factor influencing the level of cost (number of set-ups, purchase orders, inspection hours, tests).
+- Cost units to know: power and electricity kWh; steel ton; transport passenger-km (tonne-km for goods); brick-making 1,000 bricks; brewing barrel; hospitals patient day; education course, enrolled or successful student; credit control accounts maintained.
+- Profit centre example: decentralised branches. Investment centre example: Maharatna, Navratna and Miniratna PSUs. (Papa buys the banquet hall; Mama-ji only stays within budget.)
+
+## Flashcards
+
+Q:: ICAI's definition of a cost object?
+A:: Anything for which a separate measurement of cost is required; it may be a product, a service, a project, a customer, a brand category, an activity, a department or a programme etc.
+
+Q:: ICAI's definition of a cost unit?
+A:: A unit of product, service or time (or combination of these) in relation to which costs may be ascertained or expressed.
+
+Q:: Cost unit: brick-making, brewing, hospitals, education?
+A:: Brick-making: 1,000 bricks. Brewing: barrel. Hospitals: patient day. Education: course, enrolled student, successful student.
+
+Q:: Cost unit: power, steel, transport, gas, cement?
+A:: Power: kilowatt-hour (kWh). Steel: ton. Transport: passenger-kilometre. Gas: cubic feet. Cement: ton or per bag.
+
+Q:: What is a cost driver? Give ICAI's examples.
+A:: A factor or variable which affects the level of cost, generally an activity responsible for cost incurrence; e.g. number of machine set-ups, number of purchase orders, hours spent on product inspection, number of tests performed.
+
+Q:: What are responsibility centres?
+A:: Departments or persons to whom management delegates responsibility and authority, held responsible for performance in terms of expenditure, revenue, profitability and return on investment.
+
+Q:: The four types of responsibility centres and how each is measured?
+A:: Cost centre: costs against standards or budgets. Revenue centre: revenue generation. Profit centre: profitability. Investment centre: return on investment besides profit.
+
+Q:: Standard cost centre vs discretionary cost centre?
+A:: Standard: output measurable, inputs specified, input-output ratio clearly identifiable, manager responsible for adverse variances. Discretionary: output not measurable in financial terms, no input-output ratio, inputs compared with the allocated budget (R&D, advertisement).
+
+Q:: What makes a responsibility centre an investment centre rather than a profit centre?
+A:: The authority to make capital investment decisions, with performance measured on return on investment (ROI) besides profit.
+
+Q:: ICAI's examples of a profit centre and of an investment centre?
+A:: Profit centre: decentralised branches of an organisation. Investment centre: Maharatna, Navratna and Miniratna companies of the Public Sector Undertakings of the Central Government.
+
+Q:: The two main types of cost centre when a department is sub-divided for cost collection?
+A:: Machine and personnel, depending on whether the work at the centre is done by machine or by people (SM 4.12).

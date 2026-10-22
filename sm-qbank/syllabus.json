@@ -1,0 +1,448 @@
+{
+  "scheme": "2023 New Scheme",
+  "paper": "Intermediate Paper 6B: Strategic Management",
+  "verified_against": [
+    "https://boslive.icai.org/education_content_study_material_new_scheme.php -> .../education_content_study_material_new_scheme_language.php?c=intermediate -> .../study_material_new_paper_details.php?c=intermediate&language=English&year=Applicable%20for%20May%202026%20Examination%20Onwards -> .../sm_module.php?module=156 -> https://boslive.icai.org/sm_chapter_details.php?p_id=156&m_id=185 (ICAI BoS Live navigation path to 'Paper-6: Section B: Strategic Management (Applicable for May 2026 Exam Onwards)')",
+    "https://resource.cdn.icai.org/88000bos-aps2213-ip.pdf - CURRENT study material Initial Pages, containing the official SYLLABUS (Paper 6B, 50 marks) and DETAILED CONTENTS -> local: /Users/ztejas/CA_PERSONAL/sm-qbank/raw/sm-new-ip.pdf and sm-new-ip.txt",
+    "https://resource.cdn.icai.org/87995bos-aps2213-ch1.pdf - current Ch 1 -> /Users/ztejas/CA_PERSONAL/sm-qbank/raw/sm-new-ch1.pdf (+ .txt)",
+    "https://resource.cdn.icai.org/87996bos-aps2213-ch2.pdf - current Ch 2 -> /Users/ztejas/CA_PERSONAL/sm-qbank/raw/sm-new-ch2.pdf (+ .txt)",
+    "https://resource.cdn.icai.org/87997bos-aps2213-ch3.pdf - current Ch 3 -> /Users/ztejas/CA_PERSONAL/sm-qbank/raw/sm-new-ch3.pdf (+ .txt)",
+    "https://resource.cdn.icai.org/87998bos-aps2213-ch4.pdf - current Ch 4 -> /Users/ztejas/CA_PERSONAL/sm-qbank/raw/sm-new-ch4.pdf (+ .txt)",
+    "https://resource.cdn.icai.org/87999bos-aps2213-ch5.pdf - current Ch 5 -> /Users/ztejas/CA_PERSONAL/sm-qbank/raw/sm-new-ch5.pdf (+ .txt)",
+    "https://www.icai.org/post.html?post_id=19254 - OLD-SCHEME (2017) Intermediate Paper 7B Strategic Management study material, Edition September 2021, 8 chapters",
+    "https://resource.cdn.icai.org/66698bos53810ip.pdf - old-scheme Initial Pages with the official 2017 SYLLABUS and DETAILED CONTENTS -> /Users/ztejas/CA_PERSONAL/sm-qbank/raw/sm-old-ip.pdf (+ .txt)",
+    "https://resource.cdn.icai.org/66690bos53810cp1.pdf .. 66697bos53810cp8.pdf - old-scheme Ch 1-8 -> /Users/ztejas/CA_PERSONAL/sm-qbank/raw/sm-old-cp1.pdf .. sm-old-cp8.pdf (+ .txt)",
+    "https://cacoaching365.com/SM%20PM.pdf - ICAI IPCC Paper 7B Strategic Management PRACTICE MANUAL, Revised Edition April 2016 (pre-2017 syllabus, 7 chapters incl. 'Reaching Strategic Edge') -> /Users/ztejas/CA_PERSONAL/sm-qbank/raw/old-sm-pm.pdf (+ .txt); used ONLY to date the Six Sigma / TQM provenance",
+    "/Users/ztejas/CA_PERSONAL/sm-qbank/raw/rtp-may2026-p6.pdf (+ .txt) - current RTP chapter headings",
+    "/Users/ztejas/CA_PERSONAL/sm-qbank/raw/rtp-may2024-p6, rtp-sep2024-p6, rtp-jan2025-p6, rtp-may2025-p6, rtp-sep2025-p6, rtp-jan2026-p6, rtp-sep2026-p6 (.pdf/.txt) - all 8 new-scheme RTPs; every one uses exactly the same 5 chapter headings",
+    "/Users/ztejas/CA_PERSONAL/sm-qbank/raw/rtp-old-nov2019-p7, rtp-old-may2020-p7, rtp-old-nov2020-p7, rtp-old-july2021-p7, rtp-old-dec2021-p7, rtp-old-may2022-p7, rtp-old-nov2022-p7, rtp-old-may2023-p7, rtp-old-nov2023-p7 (.pdf/.txt) - 9 old-scheme Paper 7B RTPs, used to confirm which old topics were actually examined"
+  ],
+  "retrieved": "2026-10-05",
+  "syllabus_note": "Paper 6B is Section B of Intermediate Paper 6 (Financial Management and Strategic Management) and carries 50 marks. 'syllabus_items' per chapter is ICAI's verbatim SYLLABUS wording; 'topics' expands that using ICAI's own DETAILED CONTENTS headings plus section headings verified inside the chapter PDFs. Study material edition: July 2024, reprint August 2025, 'Relevant for May, 2026 Examination'. The same 5 chapters appear unchanged in all 8 new-scheme RTPs from May 2024 through September 2026, so the structure is stable.",
+  "chapters": [
+    {
+      "n": 1,
+      "name": "Introduction to Strategic Management",
+      "syllabus_items": [
+        "Meaning and Nature of Strategic Management",
+        "Importance and Limitations of Strategic Management",
+        "Strategic Intent - Vision, Mission and Goals & Values",
+        "Strategic Levels in Organizations (Corporate, Business, Functional and Network)"
+      ],
+      "topics": [
+        "Meaning and Nature of Strategic Management",
+        "Concept of Strategy",
+        "Strategic Management (scope; origin as 'business policy')",
+        "Importance of Strategic Management",
+        "Limitations of Strategic Management",
+        "Strategic Intent: Vision (essentials of a strategic vision)",
+        "Strategic Intent: Mission",
+        "Strategic Intent: Goals and Objectives (characteristics of good objectives)",
+        "Strategic Intent: Values",
+        "Strategic Levels in Organisations: Corporate level",
+        "Strategic Levels in Organisations: Business level",
+        "Strategic Levels in Organisations: Functional level",
+        "Strategic Levels in Organisations: Network level",
+        "Network of relationship between the three levels"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Strategic Analysis: External Environment",
+      "syllabus_items": [
+        "International and Macro Environment: PESTLE Analysis",
+        "Defining the industry for analysis (Value Chain, PLC)",
+        "Porters Five Forces - Industry environment analysis",
+        "Understanding customers and markets",
+        "Competition in the industry"
+      ],
+      "topics": [
+        "Strategic Analysis (meaning and purpose)",
+        "Issues to consider for Strategic Analysis",
+        "Strategic and Business Environment",
+        "Micro and Macro Environment",
+        "Elements of Macro Environment",
+        "PESTLE Analysis - a tool to analyse the Macro Environment",
+        "Internationalization of Business",
+        "International Environment",
+        "Understanding Product and Industry",
+        "Product Life Cycle (PLC)",
+        "Value Chain Analysis",
+        "Industry Environment Analysis",
+        "Porter's Five Forces Model",
+        "Attractiveness of Industry",
+        "Experience Curve",
+        "Value Creation",
+        "Market & Customer",
+        "Customer",
+        "Customer Analysis",
+        "Customer Behaviour",
+        "Competitive Strategy",
+        "Competitive Landscape",
+        "Key Factors for Competitive Success"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Strategic Analysis: Internal Environment",
+      "syllabus_items": [
+        "Understanding key stakeholders (Mendelow's Model)",
+        "Strategic Drivers (Industry & markets, Customers, Channels, Product & Services, Competitive Advantage)",
+        "The role of resources and capabilities",
+        "Combining external and internal analysis (SWOT Analysis)",
+        "Gaining competitive advantage (Michael Porter's Generic Strategies)"
+      ],
+      "topics": [
+        "Understanding Key Stakeholders",
+        "Mendelow's Matrix (power / interest stakeholder mapping)",
+        "Strategic Drivers: Industry and Markets",
+        "Analysing Industry and Markets - Strategic Group Mapping (construction and use)",
+        "Strategic Drivers: Customers",
+        "Strategic Drivers: Product/Services",
+        "Strategic Marketing Techniques (social marketing, augmented marketing, person marketing, organization marketing, place marketing, demarketing, relationship marketing, differential marketing, synchro-marketing, concentrated marketing, direct marketing)",
+        "Strategic Drivers: Channels",
+        "Role of Resources and Capabilities: Building Core Competency",
+        "Criteria for building Core Competencies",
+        "Combining External and Internal Analysis (SWOT Analysis)",
+        "Competitive Advantage using Michael Porter's Generic Strategies",
+        "Sustainability of Competitive Advantage",
+        "Michael Porter's Generic Strategies: Cost Leadership",
+        "Michael Porter's Generic Strategies: Differentiation",
+        "Michael Porter's Generic Strategies: Focus (Focused Low-Cost, Focused Differentiation)",
+        "Best-Cost Provider Strategy (the five generic competitive strategies)"
+      ]
+    },
+    {
+      "n": 4,
+      "name": "Strategic Choices",
+      "syllabus_items": [
+        "Strategic Choices: Concentric, Conglomerate, Market Development, Product Development, Innovation, Horizontal Integration, Vertical Integration, Turnaround, Divesture, Liquidation",
+        "How to Develop Strategic Options: Ansoff's Matrix, ADL Matrix, BCG Matrix, GE Matrix"
+      ],
+      "topics": [
+        "Strategic Choices (overview; classification by organisational level, business life-cycle stage and competition)",
+        "Corporate strategy alternatives: Stability, Expansion, Retrenchment, Combination",
+        "Stability Strategy: characteristics",
+        "Stability Strategy: major reasons",
+        "Growth/Expansion Strategy: characteristics",
+        "Growth/Expansion Strategy: major reasons",
+        "Internal Growth Strategies: Expansion through Intensification (Market Penetration, Market Development, Product Development)",
+        "Internal Growth Strategies: Expansion through Diversification (Concentric, Conglomerate, Horizontal Integration, Vertical Integration)",
+        "External Growth Strategies: Expansion through Mergers and Acquisitions",
+        "External Growth Strategies: Expansion through Strategic Alliance (and Joint Ventures)",
+        "Innovation as a strategic choice",
+        "Strategic Exits: Turnaround Strategy",
+        "Strategic Exits: Divestment / Divesture",
+        "Strategic Exits: Liquidation",
+        "Strategic Options: Ansoff's Product Market Growth Matrix",
+        "Strategic Options: ADL Matrix",
+        "Strategic Options: Boston Consulting Group (BCG) Growth-Share Matrix",
+        "Strategic Options: General Electric (GE) Matrix / 'Stop-Light' Strategy Model"
+      ]
+    },
+    {
+      "n": 5,
+      "name": "Strategy Implementation and Evaluation",
+      "syllabus_items": [
+        "Implementation: Formulation vs. Implementation Matrix, Linkages and Issues",
+        "Strategic Change through Digital Transformation",
+        "Organisation Structure (hard) and Culture (soft)",
+        "Strategic Leadership",
+        "Strategic Control",
+        "Strategic Performance Measures"
+      ],
+      "topics": [
+        "Strategic Management Process",
+        "Stages in Strategic Management",
+        "Strategy Formulation",
+        "Strategy Implementation",
+        "Difference between Strategy Formulation and Implementation (Formulation vs. Implementation Matrix)",
+        "Linkages and Issues in Strategy Implementation",
+        "Strategic Change",
+        "Strategic Change through Digital Transformation; how Digital Transformation works",
+        "Change Management Strategies for Digital Transformation",
+        "How to manage change during Digital Transformation",
+        "Organizational Framework - McKinsey 7S Model (hard Ss: Strategy, Structure, Systems; soft Ss: Shared Values, Style, Staff, Skills) and its limitations",
+        "Organization Structure (hard): Simple Structure",
+        "Organization Structure (hard): Functional Structure",
+        "Organization Structure (hard): Divisional Structure",
+        "Organization Structure (hard): Multi-Divisional Structure",
+        "Organization Structure (hard): Strategic Business Unit (SBU) Structure",
+        "Organization Structure (hard): Matrix Structure",
+        "Organization Structure (hard): Network Structure",
+        "Organization Structure (hard): Hourglass Structure",
+        "Organization Culture (soft)",
+        "Strategic Leadership (incl. transformational and transactional leadership styles)",
+        "Strategic Control: Premise Control",
+        "Strategic Control: Implementation Control",
+        "Strategic Control: Strategic Surveillance",
+        "Strategic Control: Special Alert Control",
+        "Operational Control (and operational vs strategic control)",
+        "Strategic Performance Measures",
+        "Case Scenarios (applied, pp. CS.1-CS.13 of the study material)"
+      ]
+    }
+  ],
+  "new_in_2023_scheme": [
+    {
+      "topic": "Mendelow's Matrix / key stakeholder analysis",
+      "note": "0 occurrences in the 2017 old-scheme material, 12 in the current Ch 3; named in the 2023 syllabus. No old-scheme question will cover it."
+    },
+    {
+      "topic": "McKinsey 7S Model",
+      "note": "0 occurrences in the 2017 old-scheme material (1 passing name-drop in old Ch 2), 9 in the current Ch 5 with a full treatment plus limitations and case scenarios."
+    },
+    {
+      "topic": "Strategic Change through Digital Transformation (incl. change-management strategies for digital transformation)",
+      "note": "Essentially new: 'digital transformation' appears once in the 9 old-scheme RTPs vs a full 2023 syllabus bullet and sections 5.3-5.3.4."
+    },
+    {
+      "topic": "Strategic Performance Measures",
+      "note": "0 occurrences of the phrase in the 2017 old-scheme material and 0 in the old-scheme RTPs; a named 2023 syllabus bullet (Ch 5.7)."
+    },
+    {
+      "topic": "Strategic Drivers framework (Industry & Markets, Customers, Product/Services, Channels)",
+      "note": "New organising framework in Ch 3; no old-scheme equivalent chapter."
+    },
+    {
+      "topic": "ADL Matrix and GE Matrix as named 'Strategic Options' tools",
+      "note": "ADL appears in old-scheme RTPs (7 hits) so it is not brand-new, but the 2023 scheme groups Ansoff / ADL / BCG / GE into one explicit syllabus bullet (Ch 4.4)."
+    }
+  ],
+  "dropped_from_old_scheme": [
+    {
+      "topic": "Business Process Reengineering (BPR)",
+      "status": "dropped",
+      "evidence": "Named topic in old syllabus and a full section (8.7, pp. 8.18-8.27) of ICAI 2017 old-scheme Paper 7B study material (Sept 2021 edition); 52 occurrences of 'reengineer' in sm-old-cp8.txt. In the current Paper 6B study material 'reengineer' occurs exactly ONCE (sm-new-ch5.txt line 746), inside a generic list of management issues ('restructuring and reengineering') with no definition, process or sub-sections. Not named anywhere in the official 2023 syllabus page.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 8.7 Business Process Reengineering"
+    },
+    {
+      "topic": "Benchmarking",
+      "status": "dropped",
+      "evidence": "Named topic in old syllabus and a full section (8.8, pp. 8.28-8.30) of ICAI 2017 old-scheme Paper 7B study material (Sept 2021 edition); 53 occurrences in sm-old-cp8.txt, and 47 occurrences across the 9 old-scheme RTPs on disk. In the current Paper 6B study material only 2 incidental uses of the word ('objectives act as benchmarks', 'benchmark her or his efforts') with no definition, types, or process. Not in the 2023 syllabus.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 8.8 Benchmarking"
+    },
+    {
+      "topic": "Strategy Audit",
+      "status": "dropped",
+      "evidence": "Named topic in old syllabus and section 8.6 (pp. 8.15-8.17) of ICAI 2017 old-scheme Paper 7B study material (Sept 2021 edition); 20 occurrences in sm-old-cp8.txt. In the current Paper 6B study material the phrase appears once, inside a narrative case scenario (sm-new-ch5.txt line 3497, 'they conducted a strategy audit and trend analysis') - no conceptual treatment. Not in the 2023 syllabus.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 8.6 Strategy Audit"
+    },
+    {
+      "topic": "Functional Level Strategies (the standalone chapter-level treatment)",
+      "status": "dropped",
+      "evidence": "The whole of old Chapter 6 'Functional Level Strategies' has no counterpart in the 5-chapter 2023 structure. In the current Paper 6B study material, functional strategy survives only as (a) 'Functional' being one of the four Strategic Levels in Ch 1, and (b) a single descriptive paragraph in Ch 4 (sm-new-ch4.txt lines 87-91) noting that 'we come across functional strategies in the literature... meant for strategic management of distinct functions such as Marketing, Financial, Human Resource, Logistics, Production etc.' - a name-drop with zero content. NOTE: 'Strategic Levels in Organizations (Corporate, Business, Functional and Network)' IS still examinable in Ch 1.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 6 Functional Level Strategies",
+      "new_scheme_location": "Ch 1 (level only); Ch 4 one-line mention"
+    },
+    {
+      "topic": "Marketing Strategy and the Marketing Mix (4 Ps)",
+      "status": "dropped",
+      "evidence": "Old sections 6.2/6.2.1/6.2.2/6.2.3; 'marketing mix' appears 17 times in sm-old-cp6.txt. In the current Paper 6B study material 'marketing mix' appears 0 times across all 5 chapters; 'formulation of marketing strategy' has no counterpart. IMPORTANT EXCEPTION: see the separate 'Strategic Marketing Techniques' entry below - that sub-topic was NOT dropped.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 6.2 Marketing Strategy / 6.2.2 Marketing Mix"
+    },
+    {
+      "topic": "Financial Strategy (functional finance strategy)",
+      "status": "dropped",
+      "evidence": "Old section 6.3 (pp. 6.14-6.17). In the current Paper 6B study material the phrase 'financial strategy' / 'financial strateg*' occurs 0 times across all 5 chapters. Not in the 2023 syllabus.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 6.3 Financial Strategy"
+    },
+    {
+      "topic": "Production/Operations Strategy, incl. Operations Planning and Control",
+      "status": "dropped",
+      "evidence": "Old sections 6.4/6.4.1/6.4.2. In the current Paper 6B study material 'production strateg*' = 0 and 'operations planning' = 0 occurrences.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 6.4 Production/Operations Strategy"
+    },
+    {
+      "topic": "Logistics Management and Supply Chain Management (SCM)",
+      "status": "dropped",
+      "evidence": "Old sections 6.4.3 and 6.4.4; 'supply chain management' appears 21 times and 'supply chain' 38 times in sm-old-cp6.txt (and 31 times across old-scheme RTPs). In the current Paper 6B study material 'supply chain management' = 0 occurrences; the 8 'supply chain' hits are all incidental illustrative wording inside examples (e.g. vertical-integration caselets, 'greater control over its supply chain'). 'logistics management' = 0.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 6.4.3 Logistics Management / 6.4.4 Supply Chain Management"
+    },
+    {
+      "topic": "Research and Development Strategy",
+      "status": "dropped",
+      "evidence": "Old sections 6.5/6.5.1/6.5.2 ('Strategic Decisions in Research and Development', 'R&D Approaches to Implement Strategic Decisions'). In the current Paper 6B study material 'R&D strateg*' = 0 and 'strategic decisions in research' = 0; the ~10 R&D mentions are all incidental inside examples and MCQs.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 6.5 Research and Development Strategy"
+    },
+    {
+      "topic": "Human Resource Strategy / Strategic Human Resource Management (SHRM)",
+      "status": "dropped",
+      "evidence": "Old sections 6.6-6.6.3.2, including 'Strategic HRM' and 'Strategic Role of Human Resource Manager'; 'human resource' appears 65 times in the old material. In the current Paper 6B study material 'human resource strateg*' = 0, 'SHRM' = 0, 'strategic human resource' = 0; the 13 'human resource' hits are incidental (e.g. 'developing an effective human resource system' in a list).",
+      "confidence": "high",
+      "old_scheme_location": "Ch 6.6 Human Resource Strategy"
+    },
+    {
+      "topic": "Entrepreneurship and Intrapreneurship",
+      "status": "dropped",
+      "evidence": "Named topic in old syllabus, old sections 7.5/7.5.1/7.5.2 ('Concept of Entrepreneur', 'Concept of Intrapreneur'); 'intrapreneur' appears 11 times in sm-old-cp7.txt. In the current Paper 6B study material 'intrapreneur' = 0 occurrences; the 9 'entrepreneur' hits are all adjectival/incidental ('an exercise in intelligent entrepreneurship', 'an entrepreneurial venture', 'strategy formulation is primarily an entrepreneurial activity'). Not in the 2023 syllabus.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 7.5 Entrepreneurship and Intrapreneurship"
+    },
+    {
+      "topic": "Strategic Management in Government and Not-for-profit organisations",
+      "status": "dropped",
+      "evidence": "Named topic in the old syllabus (under old Ch 1); 'not-for-profit' appears 6 times in sm-old-cp1.txt. In the current Paper 6B study material there is no such section: only 3 incidental references ('generic strategies... can be pursued by... even by not-for-profit organisations'; 'both profit and non-profit organizations practice organization marketing'; 'concepts and tools do not differ greatly for small, large, for-profit, or non-profit organizations'). Not in the 2023 syllabus.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 1 (Strategic Management in Government and Not-for-profit organisation)"
+    },
+    {
+      "topic": "Six Sigma",
+      "status": "dropped",
+      "evidence": "Absent from the current Paper 6B study material: 'Six Sigma' = 0 occurrences across all 5 chapters, and not in the 2023 syllabus. CAVEAT ON PROVENANCE: Six Sigma was ALSO already absent from the 2017 old-scheme Paper 7B study material (0 occurrences across sm-old-cp1..cp8) - it belonged to the even earlier IPCC Paper 7B Ch 7 'Reaching Strategic Edge' (verified: 52 occurrences in the ICAI IPCC Practice Manual, Revised Edition April 2016, /Users/ztejas/CA_PERSONAL/sm-qbank/raw/old-sm-pm.pdf). So a 2017-old-scheme question should not test it either; only pre-2017 IPCC questions would.",
+      "confidence": "high",
+      "old_scheme_location": "NOT in 2017 Ch 1-8; was pre-2017 IPCC Ch 7 'Reaching Strategic Edge'"
+    },
+    {
+      "topic": "Total Quality Management (TQM)",
+      "status": "dropped",
+      "evidence": "Absent from the current Paper 6B study material: 'TQM' = 0 and 'Total Quality' = 0 occurrences across all 5 chapters; not in the 2023 syllabus. Same provenance caveat as Six Sigma: 'TQM' = 0 occurrences in the 2017 old-scheme material too (one stray 'Total Quality' in sm-old-cp2.txt), while the pre-2017 IPCC Practice Manual has 28 'TQM' hits. Only pre-2017 IPCC questions would test it.",
+      "confidence": "high",
+      "old_scheme_location": "NOT in 2017 Ch 1-8; was pre-2017 IPCC Ch 7 'Reaching Strategic Edge'"
+    },
+    {
+      "topic": "Balanced Scorecard",
+      "status": "dropped",
+      "evidence": "'balanced scorecard' = 0 occurrences in the current Paper 6B study material AND 0 occurrences in the 2017 old-scheme material. Listed here only because it is a frequently-assumed SM topic; the 2023 Ch 5 topic 'Strategic Performance Measures' is NOT the Balanced Scorecard. Never examinable in either scheme at this level.",
+      "confidence": "high",
+      "old_scheme_location": "not present in either scheme"
+    },
+    {
+      "topic": "Strategic Marketing Techniques (social marketing, augmented marketing, person marketing, organization marketing, place marketing, demarketing, relationship marketing, differential marketing, synchro-marketing, concentrated marketing, direct marketing)",
+      "status": "retained",
+      "evidence": "DO NOT treat as dropped. This old sub-section (6.2.4, inside the otherwise-dropped Functional Marketing Strategy chapter) was RELOCATED, essentially verbatim, into current Ch 3 under 'Strategic Drivers: Product/Services'. Occurrence counts match 1:1 between sm-old-cp6.txt and sm-new-ch3.txt for every one of the 11 techniques (social 1/1, augmented 1/1, person 1/1, organization 1/1, place 1/1, demarketing 2/2, relationship 1/1, differential 1/1, synchro 2/2, concentrated 1/1, direct 2/2).",
+      "confidence": "high",
+      "old_scheme_location": "Ch 6.2.4 Strategic Marketing Techniques",
+      "new_scheme_location": "Ch 3.3.3 Product/Services"
+    },
+    {
+      "topic": "Organisation Structure - all types (simple, functional, divisional, multi-divisional, SBU, matrix, network, hourglass)",
+      "status": "retained",
+      "evidence": "Old Ch 7.2-7.2.8 moved into current Ch 5.4.1 'Organization Structure (hard)' with near-identical text. Occurrence counts old_cp7 vs new_ch5: simple 11/9, functional 11/10, divisional 35/33, SBU structure 6/7, matrix 16/16, network 7/6, hourglass 7/6. 'Strategic Business Unit' / 'SBU' = 78 hits in the current material.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 7.2 Organization Structure",
+      "new_scheme_location": "Ch 5.4.1 Organization Structure (hard)"
+    },
+    {
+      "topic": "Strategic Leadership",
+      "status": "retained",
+      "evidence": "Old Ch 7.3 -> current Ch 5.5 'Strategic Leadership'; explicitly named in the 2023 syllabus. Transformational and transactional leadership styles both present in sm-new-ch5.txt (8 and 11 hits).",
+      "confidence": "high",
+      "old_scheme_location": "Ch 7.3 Strategic Leadership",
+      "new_scheme_location": "Ch 5.5 Strategic Leadership"
+    },
+    {
+      "topic": "Strategy Supportive Culture / Organisational Culture",
+      "status": "retained",
+      "evidence": "Old Ch 7.4 'Strategy Supportive Culture' -> current Ch 5.4.2 'Organization Culture (soft)', named in the 2023 syllabus as 'Organisation Structure (hard) and Culture (soft)'. Renamed, not dropped.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 7.4 Strategy Supportive Culture",
+      "new_scheme_location": "Ch 5.4.2 Organization Culture (soft)"
+    },
+    {
+      "topic": "Strategic Control (premise control, implementation control, strategic surveillance, special alert control) and Operational Control",
+      "status": "retained",
+      "evidence": "Old Ch 8.5 -> current Ch 5.6 'Strategic Control', explicitly named in the 2023 syllabus. All four control types present in sm-new-ch5.txt: premise control 9, implementation control 13, strategic surveillance 6, special alert 5, operational control 16.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 8.5 Strategic Control",
+      "new_scheme_location": "Ch 5.6 Strategic Control"
+    },
+    {
+      "topic": "Strategy Implementation and Issues in Strategy Implementation",
+      "status": "retained",
+      "evidence": "Old Ch 8.2/8.3 -> current Ch 5.2.3/5.2.5 'Strategy Implementation' and 'Linkages and Issues in Strategy Implementation'; named in the 2023 syllabus as 'Implementation: Formulation vs. Implementation Matrix, Linkages and Issues'.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 8.2/8.3",
+      "new_scheme_location": "Ch 5.2.3 / 5.2.5"
+    },
+    {
+      "topic": "Strategic Change",
+      "status": "retained",
+      "evidence": "Old Ch 8.4 -> current Ch 5.3.1 'Strategic Change'. Reframed and EXPANDED in the 2023 scheme as 'Strategic Change through Digital Transformation' (Ch 5.3-5.3.4), which is new material. Old change-management questions remain examinable; the digital-transformation framing is additional.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 8.4 Strategic Change",
+      "new_scheme_location": "Ch 5.3 Strategic Change through Digital Transformation"
+    },
+    {
+      "topic": "Michael Porter's Generic Strategies and Best-Cost Provider Strategy",
+      "status": "retained",
+      "evidence": "Old Ch 5 (Business Level Strategies) -> current Ch 3.6/3.6.2, including section 3.6.2.4 'Best-Cost Provider Strategy' with the five-generic-strategies figure. 'best-cost' appears 4 times in the old material and 4 times in sm-new-ch3.txt.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 5 Business Level Strategies",
+      "new_scheme_location": "Ch 3.6 Competitive Advantage"
+    },
+    {
+      "topic": "Core Competence",
+      "status": "retained",
+      "evidence": "Old Ch 2 (Dynamics of Competitive Strategy) -> current Ch 3.4 'Role of Resources and Capabilities: Building Core Competency' + 3.4.1 criteria. 'core competenc*' = 42 hits in the current material.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 2 Core Competence",
+      "new_scheme_location": "Ch 3.4"
+    },
+    {
+      "topic": "Competitive Landscape and Key Factors for Competitive Success",
+      "status": "retained",
+      "evidence": "Old Ch 2 -> current Ch 2.7/2.7.1/2.7.2. 'competitive landscape' appears 21 times in the old material and 23 times in the current material.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 2 Competitive Landscape",
+      "new_scheme_location": "Ch 2.7 Competitive Strategy"
+    },
+    {
+      "topic": "Experience Curve, Product Life Cycle, Value Chain Analysis, Porter's Five Forces, Strategic Group Mapping",
+      "status": "retained",
+      "evidence": "All present in the current material: experience curve 19 hits (Ch 2.5.3), PLC (Ch 2.4.1), value chain 15 hits (Ch 2.4.2), Porter's Five Forces (Ch 2.5.1), and Strategic Group Mapping substantively covered in Ch 3.3.1.1 'Analysing Industry and Markets' (21 hits). All except Strategic Group Mapping are named in the 2023 syllabus.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 2 / Ch 3",
+      "new_scheme_location": "Ch 2.4-2.5, Ch 3.3.1.1"
+    },
+    {
+      "topic": "Globalization / Internationalization",
+      "status": "retained",
+      "evidence": "Old Ch 2 named topic 'Globalization' -> current Ch 2.3.4 'Internationalization of Business' and 2.3.5 'International Environment'; the 2023 syllabus names 'International and Macro Environment: PESTLE Analysis'. Renamed and relocated, not dropped.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 2 Globalization",
+      "new_scheme_location": "Ch 2.3.4 / 2.3.5"
+    },
+    {
+      "topic": "Corporate Level Strategies: Stability, Growth/Expansion, Retrenchment/Turnaround, Combination, Mergers & Acquisitions, Strategic Alliances",
+      "status": "retained",
+      "evidence": "Old Ch 4 -> current Ch 4 'Strategic Choices' (4.2-4.3). All present: stability, growth/expansion (intensification + diversification), M&A (4.2.2.3-B-I), strategic alliance (4.2.2.3-B-II), strategic exits incl. turnaround/divestment/liquidation (4.3). 'Combination strategy' is retained: named in the Ch 4 learning outcomes, listed as the 4th corporate strategy (sm-new-ch4.txt line 141) and referenced in Ch 5 Stage 3.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 4 Corporate Level Strategies",
+      "new_scheme_location": "Ch 4.2 / 4.3"
+    },
+    {
+      "topic": "Strategic Planning and Strategy Formulation; Strategic Management Process",
+      "status": "retained",
+      "evidence": "Old Ch 3 ('Strategic Planning', 'Strategic Intent', 'Strategy Formulation') is split in the 2023 scheme: Strategic Intent moved to Ch 1.5, while the process/planning/formulation content moved to Ch 5.2-5.2.4 ('Strategic Management Process', 'Stages in Strategic Management', 'Strategy Formulation', 'Difference between Strategy Formulation and Implementation'). 'strategic planning' = 34 hits in sm-new-ch5.txt; 'strategic intent' 17 old vs 16 new.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 3 Strategic Management Process",
+      "new_scheme_location": "Ch 1.5 + Ch 5.2"
+    },
+    {
+      "topic": "Business Policy (as a discipline)",
+      "status": "reduced",
+      "evidence": "Named as a bullet in the old syllabus with 14 occurrences in sm-old-cp1.txt. In the current Paper 6B study material it survives only as a historical note in Ch 1: 'Originally called, business policy, strategic management emphasizes the monitoring and evaluation of external opportunities and threats...' and in the Ch 1 summary ('elucidated business policy as a discipline and its transformation to strategic management'). Not a standalone 2023 syllabus topic, so a dedicated old-scheme 'explain business policy' question is at most marginal - but the link is still in the book, hence 'reduced' rather than 'dropped'.",
+      "confidence": "high",
+      "old_scheme_location": "Ch 1 Business Policy",
+      "new_scheme_location": "Ch 1.4 (one-line historical note)"
+    },
+    {
+      "topic": "Environmental Scanning / Strategic Responses to the Environment",
+      "status": "reduced",
+      "evidence": "'environmental scanning' appears 2 times in the old material and 3 times in the current material, so the concept is present in Ch 2 but is not a named 2023 syllabus bullet (the syllabus says 'International and Macro Environment: PESTLE Analysis'). Treat broad environment-scanning questions as examinable under Ch 2.2-2.3; treat the old IPCC-era list of 'strategic responses to the environment' as low-value. Marked 'reduced' with the caveat that the exact old sub-headings were not located in the current material.",
+      "confidence": "medium",
+      "old_scheme_location": "Ch 1/Ch 2",
+      "new_scheme_location": "Ch 2.2-2.3"
+    }
+  ]
+}

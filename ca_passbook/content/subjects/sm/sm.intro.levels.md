@@ -1,0 +1,356 @@
+---
+id: sm.intro.levels
+title: Strategic levels: network, corporate, business and functional
+minutes: 26
+needs: sm.intro.meaning, sm.intro.intent
+tags: corporate level, business level, functional level, strategic business unit, SBU, CEO role, network of relationship, matrix relationship
+labs: spot-strategy
+summary: Who decides what in a multi-business company: corporate level (where to compete), business level (how to compete), functional level (how to implement), and the three networks of relationship that link them.
+---
+
+## In plain words
+
+### Three meetings on one Monday
+
+On a Monday in July, three meetings happen at Tapri Tea Co. Ltd.
+
+At 10 am the **board** decides whether Tapri should stay in the samosa business at all, and how to split ₹120 crore between the cafés, the chai premix and the cold-chain fleet. At 2 pm the **head of the café business** decides how the cafés will fight BrewBucks: cheaper cups, or a better experience? At 5 pm the café business's **marketing manager** plans the monsoon "chai and pakoda" campaign that will carry that decision to customers.
+
+> **Bunty:** *(visiting for the audit)* Three meetings, all called "strategy". Who is the real strategist?
+> **Ananya:** All three, Bunty. The board picks the businesses, the business head picks how to win in one of them, and the manager makes it happen in her function.
+> **Bunty:** So the 5 pm meeting is just execution?
+> **Ananya:** Ask her where the delivery-app idea came from.
+
+Those are the three **strategic levels** of a large company. The **corporate level** (the CEO, senior executives, the board and corporate staff) asks *where* to compete: which businesses to be in and how to share money among them. The **business level** (the head of each self-contained division, a strategic business unit) asks *how* to compete in that one business. The **functional level** (the heads of marketing, finance, HR, purchasing and so on) asks *how to implement* the business strategy in its own activity, and, being closest to customers, often supplies the ideas and information the higher levels need. (Tapri's delivery app began as a note from a café customer-service manager, a functional manager like her, about customers ordering chai on WhatsApp.)
+
+How the levels are linked also varies: separate divisions and functions each with its own head, a flat structure where everyone shares ideas at one level, or a grid where people from different departments form project teams.
+
+::: analogy The wedding with three committees
+A big family wedding has the elders, who decide which functions to hold and how to divide the budget among them (corporate). Each function has its own in-charge (the sangeet, the reception), who decides how to make that event a success with the money given (business). Under each in-charge are the caterer, the decorator and the DJ, who carry it out in their own field and know first what guests actually want (functional). A cousins' group that plans everything together, with no ranks, is a horizontal relationship; a decorator who answers both to the sangeet in-charge and to the head of all decoration is in a matrix.
+:::
+
+::: key
+Corporate level decides where to compete (which businesses, resources across them, acquisitions and divestments); business level decides how to compete in one business (an SBU); functional level decides how to implement it in one function, and feeds ideas and information upward. The levels are linked through functional and divisional, horizontal or matrix relationships.
+:::
+
+## How it works
+
+### Why levels exist
+
+A typical large organisation is **multi-divisional**: it competes in several different businesses and has separate self-contained divisions to manage each of them. The Study Material's example is Patanjali, with healthcare, FMCG, organic foods, medicinal oils and herbs, and other businesses, each run by its own division (SM 1.23). Strategies are formulated at the corporate, divisional and functional levels (SM 1.5): corporate-level strategies provide direction to the company, business-level strategies are formulated for each product or process division (strategic business unit), and functional strategies are formulated in areas such as production and operations, marketing, finance and human resources to implement the other two (SM 4.4). There are generally **three main levels of management**: corporate, business and functional. General managers are found at the first two levels, but their strategic roles differ with their sphere of responsibility (SM 1.24).
+
+::: definition Strategic business unit (SBU)
+A self-contained division, with its own functions (for example finance, purchasing, production and marketing departments), that provides a product or service for a particular market. Its general manager is responsible for its product line; the overriding concern of divisional managers is the healthy growth of their divisions, and they decide how to create competitive advantage and achieve higher profitability with the resources and capital at their disposal. (SM 1.24–1.25)
+:::
+
+::: diagram Tapri's three levels, after the Study Material's figure
+{"type": "tree", "gapX": 14, "root": {"label": "Head office\nWhere to compete?", "color": "a", "children": [{"label": "Cafés SBU\nHow to compete?", "color": "b", "children": [{"label": "Marketing\nHow to\nimplement?", "color": "c"}, {"label": "Operations\nHow to\nimplement?", "color": "c"}, {"label": "Finance\nHow to\nimplement?", "color": "c"}]}, {"label": "Premix SBU\nHow to compete?", "color": "b"}, {"label": "Cold-chain SBU\nHow to compete?", "color": "b"}]}, "caption": "Blue: corporate strategy at the head office; teal: a business strategy for each SBU; amber: a functional strategy for each business function (drawn for the cafés SBU only; every SBU has its own functions). After SM 1.24 and 1.26."}
+:::
+
+### Corporate level: where to compete
+
+The corporate level consists of the **Chief Executive Officer (CEO), other senior executives, the board of directors and corporate staff** (SM 1.24). The role of corporate-level managers is to **oversee the development of strategies for the whole organisation** (SM 1.24–1.25). This includes:
+
+1. defining the **mission and goals** of the organisation;
+2. determining **what businesses it should be in**;
+3. **allocating resources** among the different businesses;
+4. formulating and implementing **strategies that span individual businesses**;
+5. providing **leadership** for the organisation as a whole.
+
+They also oversee resource allocation and **manage the divestment and acquisition processes**. The Study Material's example: the main strategic responsibilities of the chairman of the Adani Group, a conglomerate in mining, ports and airports, power and cement, are setting overall strategic objectives, allocating resources among business areas, deciding whether to divest any business and whether to acquire new ones: building and managing the corporate portfolio to maximise corporate profitability. Developing strategies for competing in each individual business is *not* their specific responsibility; that belongs to business-level managers (SM 1.25).
+
+**Guardians of shareholders' welfare.** Corporate-level managers provide the link between the people who oversee the firm's strategic development and those who own it, the shareholders. The CEO in particular is a guardian of shareholders' welfare: it is their responsibility to ensure that the corporate and business strategies are ==consistent with maximising shareholders' wealth==; if not, the CEO is likely to be held accountable by the shareholders (SM 1.25).
+
+### Business level: how to compete
+
+The principal general manager at the business level is the **head of the division** (the SBU). The strategic role of business-level managers is to **translate the general statements of direction and intent that come from the corporate level into concrete strategies for individual businesses**. Corporate-level managers are concerned with strategies that span individual businesses; business-level managers with strategies **specific to a particular business** (SM 1.25–1.26). In simple words, the corporate level gives the organisation-level view of what it wants to achieve, and the business-level managers make sure it happens in the business they are responsible for (SM 1.25).
+
+### Functional level: how to implement
+
+Functional-level managers are responsible for **specific business functions or operations**: human resources, purchasing, product development, customer service and so on, that constitute a company or one of its divisions (SM 1.26).
+
+- Their sphere is generally **confined to one organisational activity**, whereas general managers oversee a whole company or division.
+- They are not responsible for overall performance, but they have a **major strategic role**: to develop **functional strategies** in their area that help fulfil the strategic objectives set by business- and corporate-level managers.
+- They provide **most of the information** that makes it possible for business- and corporate-level managers to formulate realistic and attainable strategies.
+- Because they are **closer to the customer** than the typical general manager, they may themselves generate important ideas that become major strategies for the company. So general managers should listen closely to the ideas of their functional managers.
+- An equally great responsibility at the operational level is **strategy implementation**: the execution of corporate and business-level plans (SM 1.26).
+
+| Level | Who | Concerned with | The question |
+|---|---|---|---|
+| Corporate | CEO, senior executives, board, corporate staff | The whole organisation and its portfolio | Where to compete? |
+| Business | Head of each division (SBU) | One business and its competitive advantage | How to compete? |
+| Functional | Heads of marketing, finance, HR, purchasing | One activity within a business | How to implement the business strategy? |
+
+**Top-down or bottom-up?** A **top-down** approach is when decisions are made solely by leadership at the top, the corporate level; a **bottom-up** approach gives all teams across the levels a voice in decision making (SM 1.27). The Study Material poses "which is better?" without ruling on it; its point that functional managers supply most of the information and many of the ideas (SM 1.26) is the case for hearing from below.
+
+### The network of relationship between the levels
+
+The corporate level decides what the business wants to achieve, the business level draws up ideas and plans to execute it, and these flow down to the functional level to execute and achieve results. But the three levels are interlinked in several ways, and each organisation decides which network of relationship suits its **culture and aspirations**. There are three major types, between the levels and among the same levels (SM 1.27–1.28):
+
+1. **Functional and divisional relationship**: an **independent** relationship, where each function or division is run independently by its head, a business-level manager, reporting directly to the business head. Functions may be finance, human resources, marketing; divisions may be based on products (for a toy maker: kids' toys, teenagers' toys).
+2. **Horizontal relationship**: all positions, from top management to staff-level employees, are at the **same hierarchical position**: a flat structure where everyone is considered at the same level. It leads to openness and transparency and focuses on idea sharing and innovation, and is **more suitable for start-ups**, where ideas must be shared with speed.
+3. **Matrix relationship**: a **grid-like structure** of levels, with teams formed of people from various departments, built for **temporary, task-based projects**. There is more than one business-level manager for each functional-level team. It helps manage **huge conglomerates** where it is nearly impossible to track and manage every team independently; it is complex for smaller organisations but extremely useful for large ones.
+
+::: diagram Functional and divisional relationship
+{"type": "tree", "root": {"label": "Business head", "color": "b", "children": [{"label": "Finance\nhead", "color": "c"}, {"label": "HR\nhead", "color": "c"}, {"label": "Marketing\nhead", "color": "c"}]}, "caption": "Each function (or product division) is run independently by its own head, who reports directly to the business head (SM 1.27)."}
+:::
+
+::: diagram Matrix relationship: two bosses for every team member
+{"type": "table", "head": ["Function", "App relaunch", "Highway kiosks"], "rows": [["Technology", "Meera", "Arjun"], ["Marketing", "Zoya", "Kabir"], ["Finance", "Nikhil", "Isha"]], "rowLabels": true, "caption": "Rows: the function each person belongs to and its head; columns: the temporary project and its head. Meera reports to the head of technology and to the head of the app relaunch."}
+:::
+
+The Study Material's own answer to a scenario on choosing between the three sets out their benefits and drawbacks (SM 1.36–1.37):
+
+| Relationship | Benefits | Drawbacks |
+|---|---|---|
+| Functional and divisional | Specialisation; clear management of functions and products | Departmental isolation; limited collaboration |
+| Horizontal | Open communication; innovation and fast idea sharing | Hard to scale; unclear roles and responsibilities |
+| Matrix | Cross-functional collaboration; flexible resources for complex projects | Complex reporting structures; potential conflicts |
+
+## Worked examples
+
+:::: example Six decisions, three levels
+Here are six decisions taken at Tapri Tea Co. Ltd in 2026:
+
+(a) The board decides to sell the samosa factory and use the money to enter packaged cold coffee.
+
+(b) The board splits next year's capital budget of ₹120 crore: ₹70 crore to the cafés, ₹30 crore to the chai premix and ₹20 crore to the cold-chain fleet.
+
+(c) The head of the premix business decides to fight BrewBucks' instant coffee by pricing 15% below it and selling through kirana stores in Tier-2 towns.
+
+(d) The cafés business's HR manager introduces a six-week barista training programme and a new shift roster.
+
+(e) The cafés business's marketing manager plans a monsoon "chai and pakoda" campaign to support the business's experience-led positioning.
+
+(f) The cafés business's customer-service manager noticed that customers in Pune were ordering chai on WhatsApp. On her note, the board approved ₹25 crore to launch the Tapri delivery app as a new business serving the cafés, the premix range and partner bakeries.
+
+Kesar says: "Decision (f) is a functional-level strategy. A customer-service manager thought of it, so it belongs to her department."
+
+**Required:**
+
+(i) Identify the strategic level of decisions (a) to (e), with reasons.
+
+(ii) Comment on Kesar's view of decision (f), and explain the role the functional level played in it.
+
+::: answer Model answer
+**(i) Levels**
+
+| Decision | Level | Reason |
+|---|---|---|
+| (a) Exit samosas, enter cold coffee | Corporate | Determines what businesses the company should be in; divestment and acquisition |
+| (b) Split ₹120 crore | Corporate | Allocation of resources among the different businesses |
+| (c) Premix pricing and channels | Business | Concrete strategy for competing in one business |
+| (d) Training and rosters | Functional | Confined to one activity (HR) in one business |
+| (e) Monsoon campaign | Functional | Marketing strategy implementing the business strategy |
+
+Corporate-level managers oversee the development of strategies for the whole organisation, including defining its mission and goals, determining what businesses it should be in, allocating resources among them and managing divestment and acquisition. Business-level managers translate the general statements of direction and intent from the corporate level into concrete strategies for individual businesses. Functional-level managers develop functional strategies in their area that help fulfil the objectives set at the business and corporate levels, and implement them.
+
+**(ii) Kesar's view.** The level of a strategy depends on the scope of the decision, not on who suggested it. Corporate-level managers determine what businesses the organisation should be in, allocate resources among the different businesses and formulate strategies that span individual businesses. The board's decision to invest ₹25 crore in a new delivery business serving the cafés, the premix range and partner bakeries is therefore a **corporate-level** decision, and Kesar's view is not right.
+
+**Role of the functional level.** Functional managers provide most of the information that makes it possible for business- and corporate-level managers to formulate realistic and attainable strategies. Because they are closer to the customer than the typical general manager, they may themselves generate important ideas that subsequently become major strategies for the company, as the customer-service manager's note did here. It is therefore important for general managers to listen closely to the ideas of their functional managers. Once the app is approved, functional managers also carry the equally great responsibility of implementing it. Taking the idea from below is an example of the bottom-up approach, which gives all teams across the levels a voice in decision making.
+:::
+::::
+
+::: lab spot-strategy {"fam":"level","case":"l-rohan"}
+Spot the level in an ICAI case: Rohan at Z-Foods, with the clue words lit one by one until his level is named.
+:::
+
+:::: example Two org charts that do not fit
+Ananya is asked for advice on three situations.
+
+(a) Sameer, Bunty's cousin, runs MugMitti, a 25-person start-up that designs clay-look mugs. He has copied a matrix relationship from a conglomerate: each designer reports to a function head and to a project head. Decisions take weeks and nobody knows who approves what.
+
+(b) Kesar wants the whole Tapri group (five businesses, 40 cities, 6,000 employees) to become one flat organisation "like a start-up", with everyone at the same level.
+
+(c) Tapri's app relaunch needs people from technology, marketing, finance and café operations for nine months, after which they return to their departments.
+
+**Required:** Advise the network of relationship suitable in each situation, with reasons.
+
+::: answer Model answer
+The levels of an organisation may be linked by three networks of relationship, and each organisation decides which suits its culture and aspirations.
+
+**(a) MugMitti: horizontal relationship.** In a horizontal relationship all positions, from top management to staff-level employees, are at the same hierarchical position: a flat structure that leads to openness and transparency and focuses on idea sharing and innovation. It is more suitable for start-ups, where ideas must be shared with speed. A matrix relationship is complex for smaller organisations; its multiple reporting lines explain the weeks-long decisions and the confusion over approvals. Rohan should move to a horizontal relationship.
+
+**(b) The Tapri group: not horizontal.** A flat structure is hard to scale and can leave roles and responsibilities unclear. A group of five businesses and 6,000 employees needs a functional and divisional relationship, in which each business or function is run independently by its own head, reporting to the business head, giving specialisation and clear management of functions and products. For large organisations where it is nearly impossible to track every team independently, the matrix relationship is also useful.
+
+**(c) The app relaunch: matrix relationship.** A matrix relationship is a grid-like structure with teams formed of people from various departments for temporary, task-based projects; each team member has more than one manager. The nine-month relaunch needs exactly such a cross-functional team, with members reporting both to their function head and to the project head. Tapri must manage the complex reporting and potential conflicts that come with it.
+:::
+::::
+
+## Under the hood
+
+### The CEO's job in eight points
+
+ICAI's answer to the Study Material's own scenario on hiring a CEO for a diversified company (SM 1.39) turns the corporate-level text into eight activities, and the same list is reprinted in every suggested answer to "identify the level of the CEO's role and list the activities" (RTP January 2025 Q7; MTP September 2024 Series I Q3(b), September 2025 Series II Q3(a), January 2026 Series II Q4(b) OR). The role belongs to the corporate level, and the CEO is to:
+
+1. oversee the development of strategies for the whole organisation;
+2. define the mission and goals of the organisation;
+3. determine what businesses it should be in;
+4. allocate resources among the different businesses;
+5. formulate and implement strategies that span individual businesses;
+6. provide leadership for the organisation;
+7. ensure that the corporate and business-level strategies are consistent with maximising shareholders' wealth;
+8. manage the divestment and acquisition process.
+
+### "Business level manager" in the functional and divisional relationship
+
+The Study Material's sentence reads: each function or division is "run independently headed by the function/division head, who is a business level manager, reporting directly to the business head, who is a business level manager" (SM 1.27, checked on the printed page). ICAI's suggested answer to January 2025 Q7(a) words it as "business-level managers reporting to corporate-level managers". Either way the point examined is the same: each unit is independent, with its own head and a direct reporting line.
+
+### Where the levels meet other chapters
+
+The structures that house these levels (functional, divisional, SBU, matrix, network, hourglass) are taught in [[sm.impl.structure|organisation structure and culture]]. Porter's cost leadership, differentiation and focus strategies are business-level strategies, how one business competes (SM 3.1, 3.25; [[sm.int.generic|Porter's generic strategies]]). Growth, diversification and retrenchment are corporate-level choices ([[sm.choice.growth|growth strategies]]).
+
+## Exam angle
+
+::: exam How ICAI asked this, May 2024 to September 2026
+In the new-scheme documents read for this lesson, strategic levels appeared 24 times in 21 documents.
+
+- **The CEO's level and duties, 5 marks**: a diversified group hiring a CEO, "identify the strategic level and list the activities" (MTP September 2024 Series I Q3(b), MTP September 2025 Series II Q3(a), MTP January 2026 Series II Q4(b) OR, RTP January 2025 Q7); a board allocating capital to the best unit, divesting logistics and setting a group dividend policy (MTP January 2026 Series I Q1(a), corporate level).
+- **The functional level, 5 marks**: a software company's marketing manager (MTP May 2024 Series I Q1(a), the Study Material's own scenario); "although functional-level managers operate at the lower end... discuss their importance" (MTP January 2026 Series II Q4(b)); a sales and marketing manager, with the benefits of strategic management (May 2024 Q5(b); RTP January 2026 Q7).
+- **Levels and networks of relationship, 5 marks**: "outline the main levels of management and explain the types of networks of relationship" (January 2025 Q7(a), MTP September 2026 Series I Q2(a)); identify the relationship used in each division of a group (MTP May 2025 Series I Q1(a), MTP May 2026 Series II Q1(a)); choose one for an AI company (RTP September 2024 Q7).
+- **Multiple choice, 2 marks each**: corporate level for an SBU model (MTP January 2025 Series I (A)(i)), for investments across a conglomerate's portfolio (MTP January 2025 Series II (A)(i)), for a group-wide "holistic innovation" theme (RTP January 2026 MCQ 1(i)) and for a board acquiring a pharma company (RTP September 2026 MCQ 2); business level for dealership partnerships (MTP May 2024 Series I (A)(iv)) and for a café chain's switch to price skimming (MTP May 2024 Series II (A)(iv)); functional level for a marketing manager's tactics (RTP May 2026 MCQ 2), for departmental initiatives (RTP September 2025 MCQ 2) and for partnering with financial institutions to offer customers financing (September 2025 MCQ 11); divisional managers as the level that translates a customer-first strategy into objectives (RTP May 2024 MCQ 1(v)).
+:::
+
+::: exam Close calls in the MCQ keys
+Two partnership decisions were keyed at different levels: forging partnerships with established dealerships to enhance the distribution network is **business level** (MTP May 2024 Series I (A)(iv)), while partnering with financial institutions to offer customers easy financing is **functional level** (September 2025 MCQ 11). Neither key explains itself, so in a descriptive answer state the reason from the case: a decision that changes how the whole business competes (its channels, its positioning) is business level; a programme within one activity (marketing, finance) that supports it is functional. In the documents read, whole-portfolio moves were keyed corporate every time (an SBU model, investments across a conglomerate's divisions, a board acquiring a company in a new industry).
+:::
+
+::: exam How the marks are earned
+ICAI's case answers name the level in the first line, give the level's role in the Study Material's words (for the CEO, the eight-point list), and close by tying the facts to that role. For networks, each relationship is named, matched to the unit in the case, and its suitability explained (independence and specialisation; flat and fast for start-ups; grid-like for temporary cross-functional projects in large organisations).
+:::
+
+::: trick Where, how, how-to-implement
+Corporate: **where** to compete (which businesses, money across them, buy or sell a business). Business: **how** to compete in one business (price, positioning, channels). Functional: **how to implement** it in one activity (a campaign, a training plan, a supplier). Condition: judge the decision, not the job title. A board member's view on how the premix should be priced against BrewBucks is still a business-level matter.
+:::
+
+## Answer frame
+
+### "Outline the main levels of management and the networks of relationship" (5 marks)
+
+1. A typical large organisation is multi-divisional; there are three main levels: corporate, business and functional.
+2. **Corporate**: CEO, senior executives, board, corporate staff; strategies for the whole organisation: mission and goals, which businesses, resource allocation, strategies spanning businesses, leadership, acquisitions and divestments; guardians of shareholders' wealth.
+3. **Business**: head of the SBU; translates corporate direction and intent into concrete strategies for one business.
+4. **Functional**: managers of specific functions; functional strategies, most of the information, ideas from closeness to customers, implementation.
+5. **Networks**: functional and divisional (independent; heads report directly); horizontal (flat, same level, openness, suits start-ups); matrix (grid, temporary task-based cross-functional teams, more than one business-level manager per team, suits large organisations).
+
+### "Identify the level and the role" (case)
+
+::: cols
+**Loses marks**
+
+"He works at the functional level because he is a manager."
+
+The level without the Study Material's role and without the case facts.
+---
+**Passes**
+
+The level, the Study Material's description of that level, and one fact from the case.
+
+Misses the second part (benefits, duties, or why the approach is right or wrong).
+---
+**Full marks**
+
+The level named first; its role in ICAI's words (the eight CEO activities, or the five points on functional managers); each case fact tied to a point; then every other part the question asks.
+:::
+
+## Common mistakes
+
+::: mistake Hall of Shame: the pricing decision sent to the board
+A business head's decision to cut prices against a rival is marked "corporate level, because it is important". **Fix:** importance does not decide the level, scope does. A strategy specific to one business (how to compete) is business level; corporate level is where to compete across businesses.
+:::
+
+::: mistake "Functional managers only execute"
+Answers describe the functional level as pure implementation. **Fix:** write both halves: they develop functional strategies and supply most of the information and many ideas (being closer to the customer), and they carry the great responsibility of implementation.
+:::
+
+::: mistake Matrix recommended for a ten-person start-up
+**Fix:** matrix suits temporary cross-functional projects in large organisations and is complex for smaller ones; a start-up that needs speed and idea sharing suits the horizontal relationship.
+:::
+
+::: mistake Horizontal mixed up with horizontal integration
+"Horizontal relationship" is a flat network between levels (SM 1.27). **Fix:** horizontal *integration* (horizontally integrated diversification) is a growth strategy: acquiring one or more similar businesses operating at the same stage of the production-marketing chain (SM 4.11–4.12), taught in [[sm.choice.growth|growth strategies]]; do not let the shared word merge them in an MCQ.
+:::
+
+## Practice
+
+::: quiz Check yourself
+Q: Case scenario. Shakti Agro Industries Ltd has fertiliser, seeds and farm-equipment divisions. In one month: (i) the board decides to sell the farm-equipment division to a German buyer; (ii) the head of the seeds division decides to compete on drought-resistant varieties instead of price; (iii) the seeds division's purchase manager signs three-year contracts with seed growers in Telangana. Which of the following is correct?
+- [ ] (i) Business, (ii) Corporate, (iii) Functional
+- [x] (i) Corporate, (ii) Business, (iii) Functional
+- [ ] (i) Corporate, (ii) Functional, (iii) Business
+- [ ] All three are corporate level, since each affects the company's profits
+> Divesting a business is corporate (where to compete); choosing how one division competes is business level; a purchase manager's contracts implement it in one function.
+
+Q: Which of the following is NOT a role of corporate-level managers in the Study Material?
+- [ ] Determining what businesses the organisation should be in
+- [ ] Allocating resources among the different businesses
+- [x] Developing the specific strategy for competing in each individual business
+- [ ] Providing a link between those who oversee strategic development and the shareholders
+> SM 1.25: developing strategies for competing in individual business areas is not their specific responsibility; it belongs to business-level managers.
+
+Q: Why should general managers listen closely to functional managers? Select all that apply.
+- [x] Functional managers provide most of the information needed to formulate realistic and attainable strategies
+- [x] Being closer to the customer, they may generate ideas that become major strategies
+- [ ] Functional managers are responsible for the overall performance of the organisation
+- [ ] Functional managers decide which businesses the company should be in
+> SM 1.26. Overall performance and the choice of businesses are general managers' (corporate-level) concerns.
+
+Q: Tapri is setting up "Chai Lab", a 12-person innovation cell where interns and the department head work as equals and share ideas daily to test new flavours fast. Which network of relationship suits it best?
+- [ ] Functional and divisional relationship
+- [ ] Matrix relationship
+- [ ] Top-down relationship
+- [x] Horizontal relationship
+> A flat structure where everyone is at the same level, built for openness, idea sharing and speed: the horizontal relationship, which the Study Material says suits start-ups. "Top-down" is a decision-making approach, not one of the three networks.
+
+Q: In a matrix relationship, according to the Study Material:
+- [ ] Every team member reports to exactly one business-level manager
+- [ ] All employees hold the same hierarchical position
+- [x] There is more than one business-level manager for each functional-level team, in temporary task-based teams
+- [ ] Each division is run independently by its own head
+> SM 1.27–1.28. The second option describes the horizontal relationship, the fourth the functional and divisional relationship.
+:::
+
+## Recap
+
+- Three levels in a multi-divisional organisation: corporate (where to compete), business (how to compete), functional (how to implement).
+- Corporate level (CEO, senior executives, board, corporate staff): strategies for the whole organisation, mission and goals, which businesses, resources across them, strategies spanning businesses, leadership, acquisitions and divestments; guardians of shareholders' wealth.
+- Business level: the SBU head translates corporate direction and intent into concrete strategies for one business.
+- Functional level: one activity; develops functional strategies, supplies most of the information and many ideas, and implements corporate and business plans.
+- SBU: a self-contained division with its own functions, providing a product or service for a particular market.
+- Networks: functional and divisional (independent units, direct reporting); horizontal (flat, open, suits start-ups); matrix (grid, temporary cross-functional teams, more than one manager, suits large organisations).
+- Top-down: decisions only at the top; bottom-up: every level has a voice. (At the wedding, the DJ knows first what the guests want.)
+
+## Flashcards
+
+Q:: Who makes up the corporate level of management?
+A:: The CEO, other senior executives, the board of directors and corporate staff.
+
+Q:: The role of corporate-level managers (SM 1.24–1.25)?
+A:: To oversee the development of strategies for the whole organisation: define the mission and goals, determine what businesses it should be in, allocate resources among them, formulate and implement strategies that span businesses, provide leadership, and manage divestments and acquisitions.
+
+Q:: Why is the CEO called a guardian of shareholders' welfare?
+A:: Corporate-level managers link those who oversee strategic development with the shareholders who own the firm, and must ensure corporate and business strategies are consistent with maximising shareholders' wealth.
+
+Q:: What is a strategic business unit (SBU)?
+A:: A self-contained division with its own functions (finance, purchasing, production, marketing) that provides a product or service for a particular market.
+
+Q:: The strategic role of business-level managers?
+A:: To translate the general statements of direction and intent from the corporate level into concrete strategies for individual businesses.
+
+Q:: The strategic role of functional-level managers?
+A:: To develop functional strategies that help fulfil objectives set at higher levels, provide most of the information for realistic strategies, generate ideas from closeness to customers, and implement corporate and business plans.
+
+Q:: Corporate, business and functional strategy: which question does each answer?
+A:: Corporate: where to compete? Business: how to compete? Functional: how to implement the business strategy?
+
+Q:: The three networks of relationship between strategic levels?
+A:: Functional and divisional (independent), horizontal (flat), matrix (grid-like, temporary task-based teams).
+
+Q:: When does the horizontal relationship suit an organisation?
+A:: In start-ups, where ideas must be shared with speed; it is a flat structure leading to openness, transparency, idea sharing and innovation.
+
+Q:: When is the matrix relationship useful, and when is it a problem?
+A:: Extremely useful for large organisations and huge conglomerates with temporary cross-functional projects; complex for smaller organisations.
+
+Q:: Top-down versus bottom-up decision making?
+A:: Top-down: decisions made solely by leadership at the top (corporate level). Bottom-up: all teams across the levels have a voice.

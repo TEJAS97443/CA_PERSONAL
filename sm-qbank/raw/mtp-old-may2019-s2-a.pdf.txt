@@ -1,0 +1,349 @@
+                                                                Test Series: April, 2019
+                                MOCK  TEST PAPER - 2
+                           INTERMEDIATE  (NEW): GROUP – II
+       PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND  STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                     ANSWERS
+                            MULTIPLE  CHOICE QUESTIONS
+1.  (b)    143(3)
+2.  (a)    Manufacturing
+3.  (b)    RDBMS
+4.  (c)    The law is not being able to meet the requirements of technology.
+5.  (c)    Integration
+6.  (b)
+7.  (a)    Accounting Information System
+8.  (b)    Boss Speakers
+9.  (d)    Cash on Delivery
+10. (c)    Proxy
+                               DESCRIPTIVE QUESTIONS
+1.  (a) Data Warehouse: Usually this is a module that can be accessed by an organizations customers,
+        suppliers and employees. Data warehouse is a repository of an organization’s electronically stored data.
+        Data warehouses are designed to facilitate reporting and analysis. This classic definition of the data
+        warehouse focuses on data storage. However, the means to retrieve and analyze data, to extract,
+        transform and load data, and to manage the data dictionary are also considered essential components
+        of a data warehousing system. An expanded definition for data warehousing includes business
+        intelligence tools, tools to extract, transform, and load data into the repository, and tools to manage and
+        retrieve metadata. In contrast to data warehouses are operational systems which perform day-to-day
+        transaction processing. The process of transforming data into information and making it available to the
+        user in a timely enough manner to make a difference is known as data warehousing.
+    (b) Money Laundering is the process by which the proceeds of the crime and the true ownership of
+        those proceeds are concealed or made opaque so that the proceeds appear to come from a
+        legitimate source. The objective in money laundering is to conceal the existence, illegal source, or
+        illegal application of income to make it appear legitimate. Money laundering is commonly used by
+        criminals to make “dirty” money appear “clean” or the profits of criminal activities are made to
+        appear legitimate.
+2.  (a) Validation Controls: Input validation controls are intended to detect errors in the transaction data
+        before the data are processed. There are three levels of input validation controls:
+        •   Field Interrogation: It involves programmed procedures that examine the characters of the
+            data in the field. The following are some common types of field interrogation. Various field
+            checks used to ensure data integrity have been described below:
+            o   Limit Check: This is a basic test for data processing accuracy and may be applied to
+                both the input and output data. The field is checked by the program against predefined
+                limits to ensure that no input/output error has occurred or at least no input error
+                exceeding certain pre-established limits has occurred.
+            o   Picture Checks: These checks against entry into processing of incorrect/invalid
+                characters.
+
+            o   Valid Code Checks: Checks are made against predetermined transactions codes, tables
+                or order data to ensure that input data are valid. The predetermined codes or tables may
+                either be embedded in the programs or stored in (direct access) files.
+            o   Check Digit: One method for detecting data coding errors is a check digit. A check digit is
+                a control digit (or digits) added to the code when it is originally assigned that allows the
+                integrity of the code to be established during subsequent processing. The check digit can
+                be located anywhere in the code, as a prefix, a suffix, or embedded someplace in the
+                middle.
+            o   Arithmetic Checks: Simple Arithmetic is performed in different ways to validate the result
+                of other computations of the values of selected data fields.
+            o   Cross Checks: may be employed to verify fields appearing in different files to see that the
+                result tally.
+        •   Record Interrogation: These are discussed as follows:
+            o   Reasonableness Check: Whether the value specified in a field is reasonable for that
+                particular field?
+            o   Valid Sign: The contents of one field may determine which sign is valid for a numeric field.
+            o   Sequence Check: If physical records follow a required order matching with logical records.
+        •   File Interrogation: These are discussed as follows:
+            o   Version Usage: Proper version of a file should be used for processing the data correctly.
+                In this regard, it should be ensured that only the most current file be processed.
+            o   Internal and External Labeling: Labeling of storage media is important to ensure that the
+                proper files are loaded for process. Where there is a manual process for loading files,
+                external labeling is important to ensure that the correct file is being processed. Where
+                there is an automated tape loader system, internal labeling is more important.
+            o   Data File Security: Unauthorized access to data file should be prevented, to ensure its
+                confidentiality, integrity and availability. These controls ensure that the correct file is used
+                for processing.
+            o   Before and after Image and Logging: The application may provide for reporting of before
+                and after images of transactions. These images combined with the logging of events
+                enable re-constructing the data file back to its last state of integrity, after which the
+                application can ensure that the incremental transactions/events are rolled back or forward.
+            o   File Updating and Maintenance Authorization: Sufficient controls should exist for file
+                updating and maintenance to ensure that stored data are protected. The access restrictions
+                may either be part of the application program or of the overall system access restrictions.
+            o   Parity Check: When programs or data are transmitted, additional controls are needed.
+                Transmission errors are controlled primarily by detecting errors or correcting codes.
+    (b) ERM provides enhanced capability to do the following:
+            Align risk appetite and strategy: Risk appetite is the degree of risk, on a broad-based level
+             that an enterprise (any type of entity) is willing to accept in pursuit of its goals. Management
+             considers the entity’s risk appetite first in evaluating strategic alternatives, then in setting
+             objectives aligned with the selected strategy and in developing mechanisms to manage the
+             related risks.
+            Link growth, risk and return: Entities accept risk as part of value creation and preservation,
+             and they expect return commensurate with the risk. ERM provides an enhanced ability to
+             identify and assess risks, and establish acceptable levels of risk relative to growth and return
+             objectives.
+
+            Enhance risk response decisions: ERM provides the rigor to identify and select among
+             alternative risk responses – risk avoidance, reduction, sharing and acceptance. ERM provides
+             methodologies and techniques for making these decisions.
+            Minimize operational surprises and losses: Entities have enhanced capability to identify
+             potential events, assess risk and establish responses, thereby reducing the occurrence of
+             surprises and related costs or losses.
+            Identify and manage cross-enterprise risks: Every entity faces a myriad of risks affecting
+             different parts of the enterprise. Management needs to not only manage individual risks, but
+             also understand interrelated impacts.
+            Provide integrated responses to multiple risks: Business processes carry many inherent
+             risks, and ERM enables integrated solutions for managing the risks.
+            Seize opportunities: Management considers potential events, rather than just risks, and by
+             considering a full range of events, management gains an understanding of how certain events
+             represent opportunities.
+            Rationalize capital: More robust information on an entity’s total risk allows management to
+             more effectively assess overall capital needs and improve capital allocation.
+3.  (a) Business Intelligence (BI) is a technology-driven process for analysing data and presenting
+        actionable information to help corporate executives, business managers and other end users make
+        more informed business decisions.
+        •   BI encompasses a wide variety of tools, that enable organizations to collect data from internal
+            systems and external sources, prepare it for analysis, develop and run queries against the
+            data, and create reports, dashboards and data visualizations to make the analytical results
+            available to corporate decision makers as well as operational workers.
+        •   BI systems can also help companies identify market trends and spot business problems that
+            need to be addressed.
+        •   Business Intelligence uses data from different sources and helps to finds answers to various
+            questions as shown on right hand side of above image.
+        •   BI data can include historical information, as well as new data gathered from source systems
+            as it is generated, enabling BI analysis to support both strategic and tactical decision -making
+            processes.
+        •   Initially, BI tools were primarily used by data analysts and other IT professionals who ran
+            analyses and produced reports with query results for business users. Increasingly, however,
+            business executives and workers are using BI software themselves, thanks partl y to the
+            development of self-service BI and data discovery tools.
+        •   Business Intelligence combines a broad set of data analysis applications, including ad hoc
+            analysis and querying, enterprise reporting, Online Analytical Processing (OLAP), mobile BI,
+            real-time BI, operational BI, cloud and software as a service BI, open source BI, collaborative
+            BI and location intelligence.
+        •   BI technology also includes data visualization software for designing charts and other info -
+            graphics, as well as tools for building BI dashboards and performance scorecards that display
+            visualized data on business metrics and key performance indicators in an easy -to-grasp way.
+        •   BI applications can be bought separately from different vendors or as part of a unified BI
+            platform from a single vendor.
+        •   BI programs can also incorporate forms of advanced analytics, such as data mining, predictive
+            analytics, text mining, statistical analysis and big data analytics. In many cases, though,
+            advanced analytics projects are conducted and managed by separate teams of data
+            scientists, statisticians, predictive modelers and other skilled analytics professionals, while BI
+            teams oversee more straightforward querying and analysis of business data.
+
+        •   Business Intelligence data in terms of unstructured data, log files, sensor data and other types
+            of big data are stored in a data warehouse or smaller data marts that hold subsets of a
+            company’s information. Before it’s used in BI applications, raw data from different source
+            systems must be integrated, consolidated and cleansed using data integration and data
+            quality tools to ensure that users are analysing accurate and consistent information.
+    (b) Application Areas of Virtualization are as follows:
+           Server Consolidation: Virtual machines are used to consolidate many physical servers into
+            fewer servers, which in turn host virtual machines. Each physical server is reflected as a
+            virtual machine “guest” residing on a virtual machine host system. This is also known as
+            “Physical-to-Virtual” or ‘P2V’ transformation.
+           Disaster Recovery: Virtual machines can be used as “hot standby” environments for physical
+            production servers. This changes the classical “backup-and-restore” philosophy, by providing
+            backup images that can “boot” into live virtual machines, capable of taking over workload for
+            a production server experiencing an outage.
+           Testing and Training: Virtualization can give root access to a virtual machine. This can be
+            very useful such as in kernel development and operating system courses.
+           Portable Applications: Portable applications are needed when running an application from
+            a removable drive, without installing it on the system’s main disk drive. Virtualization can be
+            used to encapsulate the application with a redirection layer that stores temporary files,
+            windows registry entries and other state information in the application’s installation directory
+            and not within the system’s permanent file system.
+           Portable Workspaces: Recent technologies have used virtualization to create portable
+            workspaces on devices like iPods and USB memory sticks.
+4.  (a) Risks and Controls around the CASA Process of Current and Savings Account (CASA) Process
+        are as follows:
+| Risk | Key Controls |
+| --- | --- |
+| Credit Line setup is unauthorized and not in line with the banks policy. | The credit committee checks that the Financial Ratios, the Net-worth, the Risk factors and its corresponding mitigating factors, the Credit Line offered and the |
+|  | Credit amount etc. is in line with Credit Risk Policy and that the Client can be given the Credit Line. |
+| Credit Line setup in CBS is unauthorized and not in line with the banks policy. | Access rights to authorize the credit limit in case of account setup system should be restricted to authorized personnel. |
+| Customer Master defined in CBS is not in accordance with the Pre- | Access rights to authorize the customer master in CBS should be restricted to authorized personnel. |
+| Disbursement Certificate. |  |
+| Inaccurate interest / charge being calculated in CBS. | Interest on fund based facilities are automatically calculated in the CBS as per the defined rules. |
+| Unauthorized personnel approving the CASAS transaction in CBS. | Segregation of Duties to be maintained between the initiator and authorizer of the transaction for processing transaction in CBS. |
+| Inaccurate accounting entries generated in CBS. | Accounting entries are generated by CBS basis the facilities requested by the customer and basis defined configurations for those facilities in CBS. |
+    (b) The characteristics of Hybrid Cloud are as follows:
+           Scalable: The hybrid cloud has the property of public cloud with a private cloud environment
+            and as the public cloud is scalable; the hybrid cloud with the help of its public counterpart is
+            also scalable.
+
+           Partially Secure: The private cloud is considered as secured and public cloud has high risk of
+            security breach. The hybrid cloud thus cannot be fully termed as secure but as partially secure.
+           Stringent SLAs: Overall the SLAs are more stringent than the private cloud and might be as
+            per the public cloud service providers.
+           Complex Cloud Management: Cloud management is complex as it involves more than one
+            type of deployment models and the number of users is high.
+5.  (a) The required flowchart is as below:
+                             Start
+                          Input A,B,C,D,E
+                         Sum = 0, Per = 0
+                         Sum = A+B+C+D+E
+                            Per = Sum/5
+                                              Yes
+                           If Per ≥ 80?
+                                                        Print Grade “A”
+                            No
+                                              Yes
+                           If Per ≥ 60?
+                                                        Print Grade “B”
+                            No
+                                              Yes
+                           If Per ≥ 50?                Print Grade “C”
+                            No
+                            Print “Fail”
+                             Stop
+        A,B,C,D,E: Denote the five subjects
+        Sum: Sum of marks of all the subjects
+        Per: Percentage
+
+    (b) The IS auditor needs to determine what events are recorded in access logs. The IS auditor needs
+        to understand the capabilities of the system being audited and determine if the right events are
+        being logged, or if logging is suppressed on events that should be logged.
+           Centralized access logs: The IS auditor should determine if the organization’s access logs
+            are aggregated or if they are stored on individual systems.
+           Access log protection: The auditor needs to determine if access logs can be altered,
+            destroyed, or attacked to cause the system to stop logging events. For especially high -value
+            and high-sensitivity environments, the IS auditor needs to determine if logs should be written
+            to digital media that is unalterable, such as optical WORM (write once read many) media.
+           Access log review: The IS auditor needs to determine if there are policies, processes, or
+            procedures regarding access log review. The auditor should determine if access log reviews
+            take place, who performs them, how issues requiring attention are identified, and what actions
+            are taken when necessary.
+           Access log retention: The IS auditor should determine how long access logs are retained
+            by the organization and if they are back up.
+
+                         SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.
+         (i)     (ii)   (iii)   (iv)   (v)     (vi)   (vii)   (viii) (ix)    (x)
+         d       c      b       c      a       d      c       d      d       d
+         (xi)    (xii)  (xiii)  (xiv)  (xv)
+         c       d      c       c      a
+2.  A core competence is a unique strength of an organization which may not be shared by others. Core
+    competencies are those capabilities that are critical to a business achieving competitive advantage. In
+    order to qualify as a core competence, the competency should differentiate the business from any other
+    similar businesses. A core competency for a firm is whatever it does is highly beneficial to the
+    organisation. ‘Speed’ is the leader on account of its ability to keep costs low. The cost advantage that
+    ‘Value for Money’ has created for itself has allowed the retailer to price goods lower than competitors.
+    The core competency in this case is derived from the company’s ability to generate large sales volume,
+    allowing the company to remain profitable with low profit margin.
+3.  (a) The primary tasks of the strategic manager is conceptualizing, designing and executing company
+        strategies.
+        For this purpose, his tasks will include:
+        •   Defining the mission and goals of the organization.
+        •   Determining what businesses it should be in.
+        •   Allocating resources among the different businesses.
+        •   Formulating strategies.
+        •   Implementing strategies.
+        •   Providing leadership for the organization.
+    (b) Shree can opt for turnaround strategy which is a highly-targeted effort to return the company to
+        profitability and increase positive cash flows to a sufficient level. Organizations those have faced
+        a significant crisis that has negatively affected operations require turnaround strategy. Once
+        turnaround is successful the organization may turn to focus on growth.
+        Conditions for turnaround strategies
+        When firms are losing their grips over market, profits due to several internal and external factors,
+        and if they have to survive under the competitive environment they have to identify danger signals
+        as early as possible and undertake rectification steps immediately. These conditions may be, inter
+        alia cash flow problems, lower profit margins, high employee turnover and decline in market share,
+        capacity underutilization, low morale of employees, recessionary conditions, mismanagement, raw
+        material supply problems and so on.
+        Action plan for turnaround strategy
+        •   Stage One – Assessment of current problems
+        •   Stage Two – Analyze the situation and develop a strategic plan
+        •   Stage Three – Implementing an emergency action plan
+        •   Stage Four – Restructuring the business
+        •   Stage Five – Returning to normal
+
+4.  (a) Decision making is a managerial process of selecting the best course of action out of several
+        alternative courses for the purpose of accomplishment of the organizational goals. Decisions may
+        be operational, i.e., which relate to general day-to-day operations. They may also be strategic in
+        nature.
+        A owner manager at the top level should concentrate on strategic decisions. These are higher level
+        decisions having organisation wide implications. The major dimensions of strategic decisions are
+        as follows:
+           Strategic decisions require top-management involvement as they involve thinking in totality of
+            the organization.
+           Strategic decisions involve significant commitment of organisational resources.
+           Strategic decisions necessitate consideration of factors in the firm’s external environment.
+           Strategic decisions are likely to have a significant impact on the long-term prosperity of the firm.
+           Strategic decisions are future oriented.
+           Strategic decisions usually have major multifunctional or multi-business consequences.
+    (b) The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps
+        businesses decide their product and market growth strategy. With the use of this matrix a business
+        can get a fair idea about how its growth depends upon it markets in new or existing products in
+        both new and existing markets.
+        Companies should always be looking to the future. Businesses that use the Ansoff matrix can
+        determine the best strategy. The matrix can help them to decide how to do this by demonstrating
+        their options clearly, breaking them down into four strategies, viz., Market Penetration, Market
+        Development, Product Development, Diversification. Determining which of these is best for their
+        business will depend on a number of variables including available resources, infrastructure, market
+        position, location and budget.
+5.  (a) According to Porter, strategies allow organizations to gain competitive advantage from three
+        different bases: cost leadership, differentiation, and focus. Porter called these base generic
+        strategies.
+        Gennex has opted differentiation strategy. Its products are designed and produced to give the
+        customer value and quality. They are unique and serve specific customer needs that are not met
+        by other companies in the industry. Highly differentiated and unique hardware and software
+        enables Gennex to charge premium prices for its products hence making higher profits and
+        maintain its competitive position in the market.
+        Differentiation strategy is aimed at broad mass market and involves the creation of a product or
+        service that is perceived by the customers as unique. The uniqueness can be associated with
+        product design, brand image, features, technology, dealer network or customer service.
+    (b) Rohit Bhargava needs to break higher level strategies into functional strategies for implementation.
+        These functional strategies, in form of Marketing, Finance, Human Resource, Production,
+        Research and Development help in achieving the organisational objective. The reasons why
+        functional strategies are needed can be enumerated as follows:
+        •   Functional strategies lay down clearly what is to be done at the functional level. They provide
+            a sense of direction to the functional staff.
+        •   They are aimed at facilitating the implementation of corporate strategies and the business
+            strategies formulation at the business level.
+        •   They act as basis for controlling activities in the different functional areas of business.
+
+        •   They help in bringing harmony and coordination as they are formulated to achieve major
+            strategies.
+        Similar situations occurring in different functional areas are handled in a consistent manner by the
+        functional managers.
+6.  (a) Multidivisional (M-form) structure is composed of operating divisions where each division
+        represents a separate business to which the top corporate officer delegates responsibility for day -
+        to-day operations and business unit strategy to division managers. By such delegation, the
+        corporate office is responsible for formulating and implementing overall corporate strategy and
+        manages divisions through strategic and financial controls.
+        Multidivisional or M-form structure was developed in the 1920s, in response to coordination- and
+        control-related problems in large firms. Functional departments often had difficulty dealing with
+        distinct product lines and markets, especially in coordinating conflicting priorities among the
+        products.
+        Costs were not allocated to individual products, so it was not possible to assess an individual
+        product’s profit contribution. Loss of control meant that optimal allocation of firm resources between
+        products was difficult (if not impossible). Top managers became over-involved in solving short-run
+        problems (such as coordination, communications, conflict resolution) and neglected long -term
+        strategic issues. Multidivisional structure calls for:
+           Creating separate divisions, each representing a distinct business
+           Each division would house its functional hierarchy;
+           Division managers would be given responsibility for managing day-to-day operations;
+           A small corporate office that would determine the long-term strategic direction of the firm and
+            exercise overall financial control over the semi-autonomous divisions.
+    (b) Strategy implementation is missing in HQ. It is concerned with the managerial exercise of putting
+        a chosen strategy into action. It deals with the managerial exercise of supervising the ongoing
+        pursuit of strategy, making it work, improving the competence with which it is executed and showing
+        measurable progress in achieving the targeted results.
+        Strategic implementation is concerned with translating a strategic decision into action, which
+        presupposes that the decision itself (i.e., the strategic choice) was made with some thought being
+        given to feasibility and acceptability. The allocation of resources to new courses of action will need
+        to be undertaken, and there may be a need for adapting the organization’s structure to handle new
+        activities as well as training personnel and devising appropriate systems.
+        It is crucial to realize the difference between the formulation and implementation because they both
+        require very different skills. Also, a company will be successful only when the strategy formulation
+        is sound and implementation is excellent.

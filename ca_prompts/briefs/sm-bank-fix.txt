@@ -1,0 +1,16 @@
+JOB=sm-bank-fix
+You are finishing the imported Strategic Management part of the ICAI question bank of PassBook (~/CA_PERSONAL/ca_passbook). The SM items were
+imported verbatim from ~/CA_PERSONAL/sm-qbank (a verified ICAI RTP/MTP/PYQ compilation, 2018-Sep 2026) by tools/bank/smimport.py; read
+~/CA_PERSONAL/ca_passbook/docs/ICAI_BANK.md (§1-3, §9, §10 SM import) and ~/CA_PERSONAL/ca_prompts/reports/bank-core.md first.
+PROGRESS: python3 -I ~/CA_PERSONAL/ca_prompts/progress.py sm-bank-fix <step> ; steps start, drafts, tags, verify, report
+(register {"id":"sm-bank-fix","kind":"bank","deps":[],"steps":["start","drafts","tags","verify","report"]} in ~/CA_PERSONAL/ca_prompts/jobs.json if unknown).
+1 drafts: the SM import left 7 documents (111 items) as `status: draft` (see bank-core.md for why). Finish each from its ICAI PDF
+  (verbatim rules of §9.2; tools/bank/seg.py, check.py), or, where it truly cannot be finished (e.g. May 2025 Paper 6, whose 6B MCQs sit
+  inside the 6A answers file that the format cannot cite), leave it draft with a clear `note` and say why in your report.
+2 tags: 176 SM items are tagged by chapter only (sm.intro / sm.ext / ...). Give each the PassBook sub-topic ids (content/syllabus/syllabus.txt,
+  sm.*) it tests, by reading the question and ICAI's answer (first tag = primary). Also spot-check 40 random sub-topic tags made by the
+  importer and fix wrong ones.
+3 verify: python3 -I tools/bank/check.py on every file you touched; .venv/bin/python build.py --check green; node tests/run.js bank;
+  open 3 items in the app (SHOT_CALM=1 tools/shot.sh "/q/<id>?shot=answer" /tmp/x.png 1440 2400) and look.
+REPORT (final message; also ~/CA_PERSONAL/ca_prompts/reports/sm-bank-fix.md): drafts finished or left (why), tags added (counts per sub-topic),
+importer tags corrected, anything uncertain. Never invent or paraphrase an ICAI question or answer.

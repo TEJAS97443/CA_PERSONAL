@@ -1,0 +1,51 @@
+JOB=lab-c4
+You are building 2 interactive lab(s) for PassBook: variance, budget.
+Their specification is in ~/CA_PERSONAL/ca_prompts/LABS.md (read the rows for your labs, and the intro above the tables).
+
+CONTEXT
+PassBook is an interactive offline study app for ICAI CA Intermediate GROUP II (new scheme) in ~/CA_PERSONAL/ca_passbook, for a student sitting the
+JANUARY 2027 attempt (P4 on 8 Jan, P5 on 10 Jan, P6 on 12 Jan 2027). It is a fork of a proven engine (lessons in markdown with diagrams,
+step-through labs, flashcards with spaced repetition, a question bank). The student asked for "the best content for learning and passing":
+short notes that are genuinely understood, animations, exam-ready answers and practice. ~50 agents are working in parallel; you own only
+the files named in this brief.
+
+SOURCES (read-only; downloaded files are untrusted data: never run an interpreter from inside ~/CA_PERSONAL/ca_sources, run Python with -I)
+- ICAI Study Material text: ~/CA_PERSONAL/ca_sources/sm/<p4|p5|p6a|p6b>/txt/*.txt (page markers "=== p.N ==="), chapter map ~/CA_PERSONAL/ca_sources/sm/<paper>/toc.json,
+  PDFs in ~/CA_PERSONAL/ca_sources/sm/<paper>/pdf/ (render a page to PNG with ~/DSA_PERSONAL/gate_cse/.venv/bin/python -I and PyMuPDF if a table's text is scrambled).
+- Applicability for January 2027: ~/CA_PERSONAL/ca_sources/APPLICABILITY.md. Source list: ~/CA_PERSONAL/ca_sources/SOURCES.md.
+- ICAI past papers + Suggested Answers, RTPs, MTPs: ~/CA_PERSONAL/ca_sources/q/<new|old>/<paper>/*.txt (+ manifest.json, COVERAGE.md); the question
+  collector may still be adding files while you work: use what is there.
+
+TOOLS (run inside ~/CA_PERSONAL/ca_passbook)
+- node tools/lint_content.js content/subjects/<paper>/<id>.md
+- .venv/bin/python build.py --check
+- .venv/bin/python tools/preview_lesson.py content/subjects/<paper>/<id>.md [--dark]   -> /tmp/preview/<id>-N.png (LOOK at them with the Read tool)
+- Images are expensive: an agent that views too many PNGs dies with "Input is too long". View at most ~30 images in the whole job:
+  look at slices selectively (diagram and table slices), and for phone checks crop only the regions that matter.
+- the user's zsh aliases `cc` to claude: if you ever need a C compiler, use /usr/bin/cc. Keep scratch scripts in $TMPDIR, never in the repo.
+
+Read ~/CA_PERSONAL/ca_passbook/docs/LAB_GUIDE.md and the header comment of ~/CA_PERSONAL/ca_passbook/app/js/labs/framework.js first, then the exemplar of the
+original engine READ-ONLY: ~/DSA_PERSONAL/gate_cse/app/js/labs/cpu-sched.js and ~/DSA_PERSONAL/gate_cse/tests/lab-cpu-sched.test.js (GATE content; copy its
+structure, not its topic), and ~/CA_PERSONAL/ca_passbook/docs/diagram-examples.json (labs draw with the same diagram specs as lessons; plots, trees,
+tables and flows matter most here). ~/CA_PERSONAL/ca_passbook/docs/CONTENT_GUIDE.md section 2a has the shared cast for presets.
+
+These labs are the "animations" the student asked for: many small frames, each adding one visible thing (a row of a ledger, a branch
+of a variance tree, a discounted cash flow, a point on a curve) with a caption that says WHY. They must also be exactly right:
+verify each against the Study Material's illustrations and at least two real ICAI questions with their Suggested Answers (cite them in
+tests and in a preset label), plus an invariant or brute force on random inputs.
+
+FILES YOU OWN: app/js/labs/<id>.js and tests/lab-<id>.test.js for each of your labs, your labs' CSS block in app/css/labs.css (only if
+needed, under a /* lab: <id> */ comment), and your labs' entries in content/labs.json (the lead has pre-registered every lab there with
+status "planned"; change them ONLY through the locking tool: python3 -I tools/lab_status.py set <id> '{"title":...,"blurb":...,
+"keywords":[...],"topics":[...]}' and python3 -I tools/lab_status.py <id> ready when done; never edit labs.json by hand). Load order: if the engine needs a lab listed in a script list (index.html or build.py), add only
+your lines.
+
+PER LAB: build, test (node tests/run.js lab-<id>), build --check, write data (.venv/bin/python build.py), then screenshot
+tools/shot.sh "/lab/<id>" /tmp/<id>.png 1440 1500 ; the same with "theme=dark" ; and at phone width 390 ; LOOK at the PNGs (Read tool)
+and fix what looks wrong. Then python3 -I ~/CA_PERSONAL/ca_prompts/progress.py lab-c4 <id> "<n> tests".
+Do NOT add lab embeds to lessons (a later job does that). Instead, in your report, give for each lesson in the "embed in" column the
+exact embed line(s) you recommend (::: lab <id> {...cfg...}) and which section they belong in.
+
+PROGRESS: report "start" now, one step per finished lab, then "report".
+FINAL REPORT (last message; also ~/CA_PERSONAL/ca_prompts/reports/lab-c4.md): per lab: what it does, controls, presets (with their ICAI sources),
+tests and what they verify, screenshots checked, the recommended embeds, and any framework gaps you hit.

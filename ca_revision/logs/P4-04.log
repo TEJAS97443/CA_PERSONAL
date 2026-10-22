@@ -1,0 +1,103 @@
+
+===== render.py synth dm_hi (319s)
+[dm_hi] engine ready in 21s; 62 lines
+[dm_hi] 0 cached, 62 to voice
+  L062 r0 ok  rec=0.78 pre=0.88 159wpm 5.66s 
+  L001 r0 RETRY rec=0.61 pre=0.90 121wpm 8.42s recall 0.615
+  L043 r0 ok  rec=1.00 pre=1.00 167wpm 8.6s 
+  L009 r0 ok  rec=1.00 pre=1.00 169wpm 8.5s 
+  L036 r0 ok  rec=0.93 pre=1.00 150wpm 9.18s 
+  L052 r0 ok  rec=1.00 pre=0.94 175wpm 8.9s 
+  L020 r0 ok  rec=1.00 pre=1.00 156wpm 9.22s 
+  L027 r0 ok  rec=1.00 pre=1.00 171wpm 10.16s 
+  L035 r0 ok  rec=0.94 pre=0.90 175wpm 10.28s 
+  L014 r0 ok  rec=0.95 pre=1.00 148wpm 10.12s 
+  L030 r0 ok  rec=1.00 pre=1.00 153wpm 7.44s 
+  L050 r0 ok  rec=1.00 pre=1.00 178wpm 9.76s 
+  L032 r0 ok  rec=0.93 pre=0.93 126wpm 9.5s 
+  L059 r0 ok  rec=1.00 pre=1.00 175wpm 9.58s 
+  L031 r0 ok  rec=1.00 pre=1.00 122wpm 9.84s 
+  L038 r0 ok  rec=1.00 pre=1.00 148wpm 12.2s 
+  .. batch 16 in 70s; total 2.5 min audio in 1.7 min (1.41x)
+  L054 r0 ok  rec=0.95 pre=0.95 167wpm 9.68s 
+  L046 r0 ok  rec=1.00 pre=1.00 150wpm 10.82s 
+  L061 r0 ok  rec=0.95 pre=0.90 133wpm 10.82s 
+  L042 r0 ok  rec=0.94 pre=1.00 154wpm 8.94s 
+  L060 r0 ok  rec=1.00 pre=1.00 148wpm 10.12s 
+  L039 r0 ok  rec=1.00 pre=1.00 162wpm 11.08s 
+  L057 r0 ok  rec=1.00 pre=1.00 158wpm 9.86s 
+  L022 r0 ok  rec=0.94 pre=1.00 144wpm 10.82s 
+  L055 r0 ok  rec=1.00 pre=1.00 147wpm 11.4s 
+  L023 r0 ok  rec=0.90 pre=0.95 152wpm 12.26s 
+  L041 r0 ok  rec=1.00 pre=1.00 164wpm 10.26s 
+  L002 r0 ok  rec=0.95 pre=1.00 164wpm 11.72s 
+  L005 r0 ok  rec=0.94 pre=0.94 158wpm 10.6s 
+  L013 r0 ok  rec=0.94 pre=1.00 160wpm 9.76s 
+  L024 r0 ok  rec=1.00 pre=1.00 137wpm 11.4s 
+  L037 r0 ok  rec=0.86 pre=1.00 119wpm 14.62s 
+  .. batch 16 in 75s; total 5.4 min audio in 3.5 min (1.52x)
+  L051 r0 ok  rec=0.89 pre=0.94 141wpm 11.94s 
+/Users/ztejas/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+
+===== render.py synth dm_hi (289s)
+[dm_hi] engine ready in 18s; 62 lines
+[dm_hi] 31 cached, 31 to voice
+  L001 r0 RETRY rec=0.46 pre=0.78 125wpm 8.16s recall 0.462
+  L051 r0 ok  rec=0.78 pre=0.75 148wpm 11.32s 
+  L026 r0 ok  rec=0.90 pre=0.89 161wpm 10.42s 
+  L021 r0 ok  rec=1.00 pre=1.00 157wpm 12.26s 
+  L058 r0 ok  rec=0.94 pre=0.94 148wpm 10.94s 
+  L006 r0 ok  rec=0.77 pre=0.90 144wpm 12.96s 
+  L033 r0 ok  rec=0.94 pre=0.94 133wpm 11.72s 
+  L034 r0 ok  rec=1.00 pre=1.00 179wpm 10.7s 
+  L019 r0 ok  rec=0.94 pre=0.85 148wpm 11.38s 
+  L015 r0 ok  rec=0.91 pre=0.95 140wpm 12.88s 
+  L053 r0 ok  rec=1.00 pre=1.00 123wpm 11.72s 
+  L017 r0 ok  rec=1.00 pre=1.00 142wpm 12.22s 
+  L003 r0 ok  rec=0.85 pre=0.94 139wpm 13.84s 
+  L011 r0 ok  rec=1.00 pre=1.00 125wpm 13.9s 
+  L048 r0 ok  rec=0.91 pre=0.95 127wpm 13.24s 
+  L056 r0 ok  rec=1.00 pre=0.74 139wpm 12.08s 
+  .. batch 16 in 80s; total 3.2 min audio in 1.9 min (1.64x)
+  L007 r0 ok  rec=1.00 pre=1.00 145wpm 12.8s 
+  L040 r0 ok  rec=1.00 pre=1.00 156wpm 12.34s 
+  L045 r0 ok  rec=0.95 pre=0.95 135wpm 12.92s 
+  L047 r0 ok  rec=1.00 pre=1.00 140wpm 12.88s 
+  L044 r0 ok  rec=0.82 pre=1.00 140wpm 11.96s 
+  L010 r0 ok  rec=1.00 pre=0.95 170wpm 10.22s 
+  L029 r0 ok  rec=1.00 pre=1.00 119wpm 13.56s 
+  L049 r0 ok  rec=0.95 pre=1.00 160wpm 11.22s 
+  L012 r0 ok  rec=0.95 pre=1.00 143wpm 13.02s 
+  L018 r0 ok  rec=0.95 pre=0.95 160wpm 11.28s 
+  L008 r0 ok  rec=1.00 pre=1.00 130wpm 13.36s 
+  L016 r0 ok  rec=1.00 pre=1.00 131wpm 14.7s 
+  L004 r0 ok  rec=1.00 pre=1.00 133wpm 13.94s 
+  L025 r0 ok  rec=0.95 pre=0.95 129wpm 13.54s 
+  L028 r0 ok  rec=1.00 pre=1.00 109wpm 17.08s 
+  .. batch 15 in 89s; total 6.4 min audio in 3.9 min (1.65x)
+  L001 r1 RETRY rec=0.61 pre=0.90 114wpm 8.94s recall 0.615
+  .. batch 1 in 15s; total 6.6 min audio in 4.2 min (1.57x)
+  L001 r2 RETRY rec=0.61 pre=0.90 128wpm 7.94s recall 0.615
+  .. batch 1 in 14s; total 6.7 min audio in 4.5 min (1.49x)
+[dm_hi] done. 1 lines kept below the bar: ['L001']
+
+===== render.py mix dm_hi (44s)
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 12.48,
+ "words": 1700,
+ "overall_wpm": 136,
+ "lines": 62,
+ "lines_below_bar": [
+  "L001"
+ ],
+ "mean_recall": 0.9521,
+ "min_recall": 0.615,
+ "mp3": "/Users/ztejas/ca_revision/out/P4-04 - Employee Cost and Direct Expenses - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.0
+}
+
+===== render.py narrate dm_hi (1s)
+narrate job 20261021-163944-0b86f0

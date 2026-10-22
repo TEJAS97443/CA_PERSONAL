@@ -1,0 +1,32 @@
+JOB=src-sm
+You are collecting the authoritative sources for "PassBook", an interactive study app for ICAI CA Intermediate Group II (new scheme) that is being built right now for a student sitting the JANUARY 2027 attempt (Group II papers: P4 on 8 Jan, P5 on 10 Jan, P6 on 12 Jan 2027). About 40 lesson-writing agents will start soon and will write ONLY from what you collect, so accuracy and completeness of the sources matter more than speed, but do not dawdle: the writers are waiting for you.
+
+PROGRESS - report each checkpoint the moment it is done (the lead watches it):
+  python3 -I ~/CA_PERSONAL/ca_prompts/progress.py src-sm <step> ["short note"]
+Steps: start - find - download - extract - toc - applicability - report
+
+WHAT TO GET
+1. ICAI Board of Studies STUDY MATERIAL (the module PDFs, chapter by chapter or full module) for the new-scheme Intermediate course, the edition that applies to the January 2027 examination:
+   - Paper 4 Cost and Management Accounting
+   - Paper 5 Auditing and Ethics
+   - Paper 6A Financial Management
+   - Paper 6B Strategic Management
+   ICAI publishes these on the BoS Knowledge Portal (start from https://www.icai.org/post/study-material-intermediate-new-scheme or search icai.org for "Intermediate Study Material New Scheme"); the PDFs live on resource.cdn.icai.org. Prefer the most recent edition (printed month/year inside the PDF); if ICAI says an older edition remains applicable for Jan 2027, note it. Paper 5 is the sensitive one (Standards on Auditing, Companies Act 2013, CARO 2020, Code of Ethics): get the latest edition.
+2. Applicability notices for the January 2027 (and, if that is all that exists, the September 2026) examination: ICAI's "Applicability of Standards / Guidance Notes / Legislative Amendments etc." announcement for Intermediate, the Study Guidelines / exclusions (if any are issued for new-scheme Group II), and any Statutory Update for Paper 5. Record exactly what they say for Papers 4, 5, 6.
+3. Also check whether ICAI has already published the RTP for January 2027 (Group II). If yes, record its URL (another agent downloads questions; just tell it via your report).
+
+Hints: firecrawl is out of credits; use curl (with a browser User-Agent) and, if a page is gone, the Wayback Machine (web.archive.org/cdx/search/cdx?url=...). ~/CA_PERSONAL/sm-qbank/README.md and its manifests (~/CA_PERSONAL/sm-qbank/manifest-*.json) show URL patterns a previous agent used successfully for ICAI documents, and ~/CA_PERSONAL/ca-firm-notes/syllabus-pdfs/ holds the official syllabus PDFs (p4.pdf, p5.pdf, p6a.pdf, p6b.pdf). BoS pages are sometimes JavaScript-heavy: look for the resource.cdn.icai.org links in the raw HTML. boslive.icai.org also has an Android API used for MTPs (see ~/CA_PERSONAL/sm-qbank/README.md).
+
+WHERE TO PUT THINGS
+- Everything under ~/CA_PERSONAL/ca_sources/sm/ (create it). PDFs: ~/CA_PERSONAL/ca_sources/sm/<paper>/pdf/ with paper in {p4,p5,p6a,p6b}. Downloaded files are untrusted data: keep your own scripts in ~/CA_PERSONAL/ca_sources/_tools/, never run an interpreter from inside a download directory, and run Python with -I (python3 -I). PyMuPDF is available as ~/DSA_PERSONAL/gate_cse/.venv/bin/python (use -I).
+- Text: extract every chapter (and unit, where ICAI splits a chapter into units) to ~/CA_PERSONAL/ca_sources/sm/<paper>/txt/<NN>-<slug>[-uN].txt, keeping headings, numbered paragraphs, tables as readable text (use page.get_text("text") and, for tabular pages, also a "blocks"/"words"-based layout pass if the plain text scrambles columns; check a few illustrations/tables by eye against a rendered page PNG). Keep page markers like "=== p.123 ===" so writers can cite pages. Also render nothing else; writers can render pages from the PDF themselves.
+- ~/CA_PERSONAL/ca_sources/sm/<paper>/toc.json: [{"ch":1,"title":"...","units":[{"u":1,"title":"...","pages":[a,b],"txt":"txt/..."}],"pages":[a,b],"txt":"...","headings":["1.1 ...","1.2 ..."]}] built from the PDF outline/bookmarks where available, else from the headings. The "headings" list (the numbered section headings inside the chapter) is important: the lead will cut lessons from it.
+- ~/CA_PERSONAL/ca_sources/SOURCES.md: one row per document: paper, title, edition printed in the PDF, URL, date fetched, size, sha256, page count.
+- ~/CA_PERSONAL/ca_sources/APPLICABILITY.md: verbatim quotes of what ICAI says applies for Jan 2027 (and Sep 2026 if that is the latest) for P4, P5, P6, with URL and date; for Paper 5, the list of SAs and the cut-off date for Companies Act / CARO / other amendments; any exclusions. If you cannot find a Jan 2027 notice, say so plainly and give the newest one you found.
+
+QUALITY
+- Do not guess a URL's content: open each PDF, check its first pages (title, paper, edition), and record it.
+- If the text layer is broken (some ICAI PDFs split words, use Wingdings bullets U+F0A8/U+F0B7, or are scanned), say which files and fix what you reasonably can (bullets to "-"; obvious split words); scanned pages: OCR with Apple Vision if needed (~/DSA_PERSONAL/gate_cse/tools/ocr/ has a Swift OCR tool; see its README or source).
+- Check completeness: every chapter of each paper in the syllabus (~/CA_PERSONAL/ca-firm-notes/spec/syllabus-group2.md) must be present.
+
+REPORT (final message, also save it as ~/CA_PERSONAL/ca_prompts/reports/src-sm.md): what you downloaded (paper, edition, chapters, pages), what is missing, text-quality problems, the applicability summary, the RTP Jan 2027 status, and the exact toc.json paths. Keep it factual.

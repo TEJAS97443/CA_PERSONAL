@@ -1,0 +1,7 @@
+{"t": 1792453370.57932, "step": "start", "note": "start"}
+{"t": 1792454429.792873, "step": "cma.abc.concept", "note": "3 fixes"}
+{"t": 1792454729.012563, "step": "cma.abc.compute", "note": "7 fixes"}
+{"t": 1792455228.113919, "step": "cma.abc.abm", "note": "3 fixes"}
+{"t": 1792455510.374824, "step": "cma.sys.ledgers", "note": "6 fixes"}
+{"t": 1792455797.885504, "step": "cma.sys.recon", "note": "4 fixes"}
+{"t": 1792457358.146252, "step": "report", "note": "lead wrote stub report; agent died at final phone check"}

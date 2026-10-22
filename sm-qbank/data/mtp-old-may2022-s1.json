@@ -1,0 +1,536 @@
+{
+ "source": {
+  "type": "MTP",
+  "attempt": "May 2022",
+  "attempt_sort": "2022-05",
+  "series": "I",
+  "scheme": "old",
+  "paper": "Paper 7B: Strategic Management",
+  "pdf_url": "https://castudynotes.com/wp-content/uploads/2022/03/EIS-SM-Q-MTP-1-Inter-May22.pdf",
+  "answers_url": "https://castudynotes.com/wp-content/uploads/2022/03/EIS-SM-A-MTP-1-Inter-May22.pdf",
+  "local_file": "raw/mtp-old-may2022-s1-q.pdf",
+  "local_answers_file": "raw/mtp-old-may2022-s1-a.pdf",
+  "test_series": "March 2022",
+  "mock_test_paper_no": null,
+  "source_is_mirror": true,
+  "retrieved": "2026-10-05",
+  "extract_ok": true,
+  "notes": "ICAI MTP Series I for May 2022 (Test Series: March 2022, MOCK TEST PAPER-I). ICAI originals 69768bos280322-p7.pdf / 69817bos300322-interp7a.pdf (linked from https://www.icai.org/post/intermediate-mtp-may2022-sr1) now return 404; retrieved from the castudynotes.com mirror (https://castudynotes.com/2022/03/14/ca-inter-may-2022-mock-test-papers-mtps-series-i-in-pdf-at-one-place/)."
+ },
+ "questions": [
+  {
+   "id": "mtp-old-may2022-s1-q1",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Core competence (resources and capabilities) → Ch 3",
+   "qno": "1(A)1",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "Pantheon Yoga Center (PYC), situated in the dense forests of Chhattisgarh by Dr. Manohar\nDasgupta, a less known meditation center is visited by affluent Indians and foreign seekers, only\nby invitation. The uniqueness of his methodologies remains in the fact that only a few people have\nbeen able to experience them yet.\nRecently, CEO of a big investment bank approached Dr. Dasgupta to take special sessions for his\nmanagement team in Los Angeles, USA - and given Dr. Dasgupta’s popularity amongst business\nleaders, he wanted to strengthen his network as well for business purposes by building relations\nwith him. Though Dr. Dasgupta was reluctant at first but understanding the need to publicize his\npractice and an offer by the CEO to get access to more corporates through this route, he took the\nopportunity, and called his corporate suite of sessions, the ‘Shanti Classes’.\nThere were certain risks though; first, his techniques could be shunned by the top management as\nbeing too orthodox and old. Second, maybe they could be revealed to the outside world in a very\ndisruptive manner, thus taking away the core uniqueness of exclusivity, and lastly, how would he\nmonetize his methodologies if they expanded so quickly.\nWith above risks also came the need to build a strong team of like minded individuals who could\nsupport and propagate the ideologies in a positive fashion. For this he relied on his daughter,\nSukanya. She took three months to build a team of fifty young-vibrant men and women from\ndifferent backgrounds and trained them with basics and a few specializations.\nPYC opened its first branch in Los Angeles, USA, and then took the opportunity to open three\nmore in India. One each in Madhya Pradesh, Gujarat and Assam.\nThe center and its techniques have now been recognised globally, especially in Northern America,\nwhile Europe is still to be explored business wise. One thing that Pantheon model reassures is\nthat strategy has no boundation with respect to product or service; it applies to each kind in its\nown way.\nBased on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:\n\nCore competencies cannot be built on single know how, instead it has to be integration of many resources. From the above case, what was the core competency of PYC and which of the following competencies were missing from its bunch of competencies?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Customer Satisfaction was the core competency and its competencies did not include\nmeditation expertise."
+    },
+    {
+     "label": "b",
+     "text": "Location of the Yoga Center was the core competency and its competencies did not\ninclude technological know-how."
+    },
+    {
+     "label": "c",
+     "text": "Exclusivity was the core competency and its competencies did not include easy\nscalability."
+    },
+    {
+     "label": "d",
+     "text": "Dr. Dasgupta’s brand name was the core competency and its competencies did not\ninclude exclusivity."
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "core competence"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q2",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Financial Strategy (sources of funds) — dropped from the 2023 syllabus (old Ch 6.3)",
+   "qno": "1(A)2",
+   "kind": "case-mcq",
+   "marks": 2,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nSuppose you are a banker funding PYC’s new ventures. Please apprise the management about the third risk mentioned above and which of the functional level strategies is it associated with for PYC?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Associated with Delivering Value to Customer, Marketing Strategy"
+    },
+    {
+     "label": "b",
+     "text": "Associated with Sources of Funds, Financial Strategy"
+    },
+    {
+     "label": "c",
+     "text": "Associated with Free Publicity, Marketing Strategy"
+    },
+    {
+     "label": "d",
+     "text": "Associated with Management of Funds, Financial Strategy"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "b",
+   "topic_tags": [
+    "financial strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q3",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level strategic choices → Ch 4",
+   "qno": "1(A)3",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nThe formation of “Shanti Classes’ by Dr. Dasgupta to popularise his business can be categorised as which of the following growth strategies?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Product Development"
+    },
+    {
+     "label": "b",
+     "text": "Diversification"
+    },
+    {
+     "label": "c",
+     "text": "Market Penetration"
+    },
+    {
+     "label": "d",
+     "text": "Market Development"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic choices"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q4",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level strategic choices → Ch 4",
+   "qno": "1(A)4",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nWhich growth strategy was the CEO of the investment bank trying to achieve with Dr. Dasgupta’s classes?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Merger"
+    },
+    {
+     "label": "b",
+     "text": "Diversification"
+    },
+    {
+     "label": "c",
+     "text": "Acquisition"
+    },
+    {
+     "label": "d",
+     "text": "Strategic Alliance"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic choices"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q5",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Human Resource Strategy / Strategic HRM — dropped from the 2023 syllabus (old Ch 6.6)",
+   "qno": "1(A)5",
+   "kind": "case-mcq",
+   "marks": 1,
+   "question": "[Refer to the case scenario given in Question 1(A).]\n\nThe biggest challenge that you think Sukanya would face while implementing Human Resource Strategy for the newly trained 50 odd individuals would be?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Building core competency with faith in employees"
+    },
+    {
+     "label": "b",
+     "text": "Creating Competitive Advantage based on employee skills"
+    },
+    {
+     "label": "c",
+     "text": "Managing Diversity of Workforce"
+    },
+    {
+     "label": "d",
+     "text": "Providing Purposeful Direction"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "hr strategy",
+    "functional strategy"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q6",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(B)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "Greg was heading the Global Biscuits SBU for Jonky’s Ltd. and he got an email congratulating him for being promoted as the head of entire business of Jonky’s in India. Which of the following statements is true about Greg’s position?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Greg was a business level manager but now he is a corporate level manager"
+    },
+    {
+     "label": "b",
+     "text": "Greg was a functional level manager but now he is a corporate level manager"
+    },
+    {
+     "label": "c",
+     "text": "Greg was a business level manager and now also he is a business level manager"
+    },
+    {
+     "label": "d",
+     "text": "Greg was a corporate level manager and now also he is a corporate level manager"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q7",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "1(C)",
+   "kind": "mcq",
+   "marks": 2,
+   "question": "J&P, a western wear brand has contracted Pee Kaw marketing firm from Singapore, product design team working as an outsource company from Mexico and Humans branding company taking care of its people’s operations. What kind of structure is this?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Hourglass Structure"
+    },
+    {
+     "label": "b",
+     "text": "Outsourcing"
+    },
+    {
+     "label": "c",
+     "text": "Network Structure"
+    },
+    {
+     "label": "d",
+     "text": "Tree Branch Structure"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q8",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Nature of strategic management — strategic decisions and the strategic manager → Ch 1",
+   "qno": "1(D)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Which is not the major dimension of strategic decision making?",
+   "options": [
+    {
+     "label": "a",
+     "text": "Top management involvement"
+    },
+    {
+     "label": "b",
+     "text": "Commitment of organizational resources"
+    },
+    {
+     "label": "c",
+     "text": "Future Oriented"
+    },
+    {
+     "label": "d",
+     "text": "Impact on short term prosperity of firm"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "strategic decisions"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q9",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic levels in organisations → Ch 1",
+   "qno": "1(E)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Functional level managers are concerned with_________",
+   "options": [
+    {
+     "label": "a",
+     "text": "Strategies that are responsible for the operations of specific business"
+    },
+    {
+     "label": "b",
+     "text": "Strategies that span multiple businesses"
+    },
+    {
+     "label": "c",
+     "text": "Strategies that are specific to particular country"
+    },
+    {
+     "label": "d",
+     "text": "Strategies that encourage a favourable attitude toward change"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "a",
+   "topic_tags": [
+    "strategic levels"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q10",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "1(F)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "Best Cost provider strategies",
+   "options": [
+    {
+     "label": "a",
+     "text": "Seek to attract buyers on the basis of charging low price for low quality"
+    },
+    {
+     "label": "b",
+     "text": "Aim at giving customers less value for more money"
+    },
+    {
+     "label": "c",
+     "text": "Seek to attract buyers on the basis of charging high price for high quality"
+    },
+    {
+     "label": "d",
+     "text": "Aim to giving customers low cost and better quality"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "d",
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q11",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic intent — vision and mission → Ch 1",
+   "qno": "1(G)",
+   "kind": "mcq",
+   "marks": 1,
+   "question": "The statement “where we want to go “denotes company",
+   "options": [
+    {
+     "label": "a",
+     "text": "Objective"
+    },
+    {
+     "label": "b",
+     "text": "Policy"
+    },
+    {
+     "label": "c",
+     "text": "Strategy"
+    },
+    {
+     "label": "d",
+     "text": "Vision"
+    }
+   ],
+   "answer": "",
+   "mcq_answer": "c",
+   "topic_tags": [
+    "vision",
+    "mission"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q12",
+   "chapter": 3,
+   "chapter_source": "mapped",
+   "mapping_note": "Michael Porter’s generic strategies / competitive advantage → Ch 3",
+   "qno": "2",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "A private Moneyload Ltd. Bank that targets high worth individuals. They offer a premium service with\nmany additional and personal services not normally available through other banks. They charge a\nsignificant annual fee for these services. The company makes full use of information technology\nthroughout its operations in order to minimize costs. Identify and explain the generic strategy adopted\nby Moneyload Ltd. Bank?",
+   "options": null,
+   "answer": "According to Porter, strategies allow organizations to gain competitive advantage from three different bases:\ncost leadership, differentiation, and focus. Porter called these base generic strategies.\nMoneyland Ltd. Bank targets a narrow segment of the market, offering unique and desirable products. The\nbank will want to keep its costs under control, but it will not reduce costs at the expenses of reducing the\nquality levels of the customer service it offers. By maintaining high quality levels, it will still be able to charge\na premium for its services. Thus, the strategy adopted by Moneyland Ltd. Bank is Focused Differentiation.\nA focused differentiation strategy requires offering unique features that fulfil the demands of a narrow market.\nSome firms using a focused differentiation strategy concentrate their efforts on a particular sales channel,\nsuch as selling over the internet only. Others target particular demographic groups. Firms that compete based\non uniqueness and target a narrow market are following a focused differentiations strategy.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "generic strategies",
+    "competitive advantage"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q13",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Ansoff’s product-market growth matrix → Ch 4",
+   "qno": "3(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Sky chemical industry intends to grow its business. Advise the company on the available options\nusing Ansoff’s product market growth matrix.",
+   "options": null,
+   "answer": "The Ansoff’s product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps\nbusinesses decide their product and market growth strategy. With the use of this matrix, a business\ncan get a fair idea about how its growth depends upon its markets in new or existing products in\nboth new and existing markets.\nThe Ansoff’s product market growth matrix is as follows:\nAnsoff’s Product Market Growth Matrix\n\nSky chemical industry can adopt market penetration, product development, market development\nor diversification simultaneously for its different products.\nMarket penetration refers to a growth strategy where the business focuses on selling existing\nproducts into existing markets. It is achieved by making more sales to present customers without\nchanging products in any major way.\nMarket development refers to a growth strategy where the business seeks to sell its existing\nproducts into new markets. It is a strategy for company growth by identifying and developing new\nmarkets for the existing products of the company.\nProduct development refers to a growth strategy where business aims to introduce new products\ninto existing markets. It is a strategy for company growth by offering modified or new products to\ncurrent markets.\nDiversification refers to a growth strategy where a business markets new products in new\nmarkets. It is a strategy by starting up or acquiring businesses outside the company’s current\nproducts and markets.\nAs market conditions change overtime, a company may shift product-market growth strategies. For\nexample, when its present market is fully saturated a company may have no choice other than to\npursue new market.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "ansoff"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q14",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Limitations of strategic management → Ch 1",
+   "qno": "3(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "The presence of strategic management cannot counter all hindrances and always achieve success\nfor an organisation. What are the limitations attached to strategic management?",
+   "options": null,
+   "answer": "The presence of strategic management cannot counter all hindrances and always achieve success\nas there are limitations attached to strategic management. These can be explained in the following\nlines:\n♦ Environment is highly complex and turbulent. It is difficult to understand the complex\nenvironment and exactly pinpoint how it will shape-up in future. The organisational estimate\nabout its future shape may awfully go wrong and jeopardise all strategic plans. The\nenvironment affects as the organisation has to deal with suppliers, customers, governments\nand other external factors.\n♦ Strategic Management is a time-consuming process. Organisations spend a lot of time in\npreparing, communicating the strategies that may impede daily operations and negatively\nimpact the routine business.\n♦ Strategic Management is a costly process. Strategic management adds a lot of expenses to\nan organization. Expert strategic planners need to be engaged, efforts are made for analysis\nof external and internal environments devise strategies and properly implement. These can\nbe really costly for organisations with limited resources particularly when small and medium\norganisation create strategies to compete.\n♦ In a competitive scenario, where all organisations are trying to move strategically, it is difficult\nto clearly estimate the competitive responses to the strategies.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "limitations"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q15",
+   "chapter": 4,
+   "chapter_source": "mapped",
+   "mapping_note": "Corporate-level strategic choices → Ch 4",
+   "qno": "4(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "There has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass\nconsumption pens while FlyBee is a notebook and diary brand - both being complementary goods\nof each other. But to grow further, FlyBee decided to take up competition with Gecko in pens\nsegment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?",
+   "options": null,
+   "answer": "FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition\nwith Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into\nproducing pens starts producing them and other similar products is following concentric\ndiversification which is basically related diversification.\nIn this form of diversification, the new business is linked to the existing businesses through existing\nsystems such as processes, technology or marketing. The new product is a spin-off from the\nexisting facilities and products/processes. There are benefits of synergy with the current\noperations. The most common reasons for pursuing a concentric diversification are that\nopportunities in existing line of business are available.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic choices"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q16",
+   "chapter": 1,
+   "chapter_source": "mapped",
+   "mapping_note": "Key areas on which a strategic manager/planner concentrates → Ch 1",
+   "qno": "4(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain briefly the. key areas in which the strategic planner should concentrate his mind to achieve\ndesired results.",
+   "options": null,
+   "answer": "A strategic manager defines the strategic intent of the organisation and take it on the path of\nachieving the organisational objectives. There can be a number of areas that a strategic manager\nshould concentrate on to achieve desired results. They commonly establish long-term objectives\nin seven areas as follows.\n| • | Profitability. |\n| --- | --- |\n| • | Productivity. |\n| • | Competitive Position. |\n| • | Employee Development. |\n| • | Employee Relations. |\n| • | Technological Leadership. |\n| • | Public Responsibility. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic manager",
+    "strategic intent"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q17",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic change / change management → Ch 5",
+   "qno": "5(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Explain the steps for initiating strategic change.",
+   "options": null,
+   "answer": "The changes in the environmental forces often require businesses to make modifications in their\nexisting strategies and bring out new strategies. Strategic change is a complex process that\ninvolves a corporate strategy focused on new markets, products, services and new ways of doing\nbusiness.\nThree steps for initiating strategic change are:\n(i) Recognise the need for change – The first step is to diagnose the which facets of the present\ncorporate culture are strategy supportive and which are not.\n(ii) Create a shared vision to manage change – Objectives of both individuals and organisation\nshould coincide. There should be no conflict between them. This is possible only if the\nmanagement and the organisation members follow a shared vision.\n(iii) Institutionalise the change – This is an action stage which requires the implementation of\nthe changed strategy. Creating and sustaining a different attitude towards change is essential\nto ensure that the firm does not slip back into old ways of doing things.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic change"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q18",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Organisation structure (hard) → Ch 5",
+   "qno": "5(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "What do you understand by functional structure?",
+   "options": null,
+   "answer": "Functional structure is widely used because of its simplicity and low cost. A functional structure\ngroups tasks and activities by business function.\nThe functional structure consists of a chief executive officer or a managing director and limited\ncorporate staff with functional line managers in dominant functions such as production, accounting,\nmarketing, R&D, engineering, and human resources. Disadvantages of a functional structure are\nthat it forces accountability to the top, minimizes career development opportunities, etc.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "organisation structure"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q19",
+   "chapter": 5,
+   "chapter_source": "mapped",
+   "mapping_note": "Strategic planning within the strategic management process → Ch 5",
+   "qno": "6(a)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nStrategic Planning and Operational Planning.",
+   "options": null,
+   "answer": "| Strategic planning | Operational planning |\n| --- | --- |\n| Strategic planning shapes the organisation and its resources. | Operational planning deals with current deployment of resources. |\n| Strategic planning assesses the impact of environmental variables. | Operational planning develops tactics rather than strategy. |\n| Strategic planning takes a holistic view of the organisation. | Operational planning projects current operations into the future. |\n| Strategic planning develops overall objectives and strategies. | Operational planning makes modifications to the business functions but not fundamental changes. |\n| Strategic planning is concerned with the long-term success of the organisation. | Operational planning is concerned with the short-term success of the organisation. |\n| Strategic planning is a senior management responsibility. | Operational planning is the responsibility of functional managers. |",
+   "mcq_answer": null,
+   "topic_tags": [
+    "strategic planning"
+   ]
+  },
+  {
+   "id": "mtp-old-may2022-s1-q20",
+   "chapter": "OUT_OF_SYLLABUS",
+   "chapter_source": "mapped",
+   "mapping_note": "Promotion / pricing element of the marketing mix — part of the dropped functional Marketing Strategy (old Ch 6.2)",
+   "qno": "6(b)",
+   "kind": "descriptive",
+   "marks": 5,
+   "question": "Distinguish between the following:\nPublicity & Sales Promotion.",
+   "options": null,
+   "answer": "Publicity and Sales promotion are adopted by organizations when they are undertaking promotion\nin the overall marketing mix.\nPublicity is a non-personal form of promotion similar to advertising. However, no payments are\nmade to the media as in case of advertising. Organizations skillfully seek to promote themselves\nand their product without payment. Publicity is communication of a product, brand or business by\nplacing information about it in the media without paying for the time or media space directly.\nThus, it is way of reaching customers with negligible cost. Basic tools for publicity are press\nreleases, press conferences, reports, stories, and internet releases. These releases must be of\ninterest to the public.\nSales promotion is an omnibus term that includes all activities that are undertaken to promote the\nbusiness but are not specifically included under personal selling, advertising or publicity. Activities\nlike discounts, contests, money refunds, installments, kiosks, exhibitions and fairs constitute sales\npromotion. All these are meant to give a boost to the sales. Sales promotion done periodically may\nhelp in getting a larger market share to an organization.",
+   "mcq_answer": null,
+   "topic_tags": [
+    "promotion",
+    "marketing mix"
+   ]
+  }
+ ]
+}

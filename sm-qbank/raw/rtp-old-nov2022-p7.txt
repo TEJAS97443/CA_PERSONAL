@@ -1,0 +1,1090 @@
+                           PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC
+                                                  MANAGEMENT
+                          SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+                                                QUESTIONS
+                                         Multiple Choice Questions
+        Since 1990s, RS Ltd. has been one of the leading companies in India dealing in the business
+        of pulses. Lately in 2019, with the purpose to expand its business, the management of RS Ltd.
+        decided to start its business in the field of spices as well. To develop infrastructure and
+        procure necessary processing equipment in order to promote cross sell activities, the
+        management used various data analytics techniques to predict customer’s behavior and
+        probability of equipment failure. Based on the results of said analysis, the management of RS
+        Ltd. selected a supplier XY Ltd. and obtained the requisite equipment from it so as to increase
+        its production and to provide quality products to its customers. At that time, XY Ltd. had a
+        policy to offer a discount of 2% to its customers if the cash payment was made within 7 days.
+        However, RS Ltd. made the payment of Rs. 5 lakh after 10 days using Real Time Gross
+        Settlement (RTGS) facility and didn’t avail the discount offered by XY Ltd.
+        RS Ltd. installed these new procured machines in its various operational units and to operate
+        them, the workforce of RS Ltd. was strengthened. Furthermore, RS Ltd. decided to expand its
+        business ventures through online mode by collaborating with various renowned e-commerce
+        websites where it can offer its products to customers under various discounts and schemes.
+        These websites would display the electronic catalogue of RS Ltd. and in return RS Ltd. shall
+        pay these websites suitable commission charges from the sales revenue generated from these
+        sites.
+        With the business expansion, the management of RS Ltd. noticed to bring out following
+        changes in their existing automated setup:
+        •    Their organization’s security policy shall be made more robust and Business Continuity
+             Plans shall be formulated.
+        •    To mitigate the risk of unauthorized entries in their working environment, the RS Ltd.
+             switched its manual attendance system to biometric system.
+        •    To enhance the physical security like the deployment of security guards, installation of
+             CCTV cameras is required to supervise the visitor’s access.
+        Based on the above case scenario, answer the Question No(s) 1 to 5.
+        1.   The company RS Ltd. decides to buy new equipment for its latest business of spices.
+             Which risk management strategy is being exercised by the management, if they decided
+             to buy new machineries from XY Ltd.?
+             (a) Tolerate the risk
+
+
+
+
+© The Institute of Chartered Accountants of India
+        2                     INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+             (b) Terminate the risk
+             (c) Transfer the risk
+             (d) Treat the risk
+        2.   Which type of Core Banking Services is being used by RS Ltd. to make the payment to
+             XY Ltd. for the purchase of necessary processing equipments?
+             (a) Remittances
+             (b) Collection
+             (c) Clearing
+             (d) Granting of Advances
+        3.   For new business of spices, RS Ltd. decides to collaborate with renowned e -commerce
+             websites for selling its products through online mode. Which of the following term related
+             to e-marketing fits best in this case?
+             (a) e-Malls
+             (b) Buyer Aggregator
+             (c) e-auction
+             (d) e-distribution
+        4.   Considering the expansion of business, RS Ltd. uses various data analytics tools to
+             predict customers’ behavior. Which advance data analytics tool you think has been used
+             by the company?
+             (a) Numerical Analysis
+             (b) Data Warehouse
+             (c) Predictive Analysis
+             (d) Data Mining
+        5.   RS Ltd. decides to restrict the unauthorized access in the company by changing its
+             employee attendance system from manual to biometric system. Which Control under
+             Application Control Framework deals with biometric authentication?
+             (a) Input Control
+             (b) Processing Control
+             (c) Boundary Control
+             (d) Communication Control
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                        3
+
+
+                                          Descriptive Questions
+        Chapter 1: Automated Business Processes
+        6.   Risks are not always countered by implementing controls. Based on the types of risks
+             and its significance to business, certain risk management strategies can be used in
+             isolation or in combination. Briefly explain the risk management strategies that can be
+             used to manage various risks associated with any business.
+        7.   As technology is taking new forms every day, the business processes and standards
+             adapted by various enterprises should consider different set of IT related risks and
+             challenges from time to time. Discuss them.
+        Chapter 2: Financial and Accounting Systems
+        8.   An organization ABC Ltd. has well implemented Enterprise Resource Planning (ERP) in
+             its working environment. Mr. Karan is hired to conduct audit of ABC Ltd.’s ERP system
+             for which he decides to segregate the audit in two parts- Audit of data and Audit of
+             processes. What aspects shall he consider under these audits?
+        9.   The ERP environment of an organization consists of many business process modules.
+             These processes have either a direct or indirect effect on financial status of the
+             organization, out of which Controlling module is one such module. Discuss its key
+             features.
+        Chapter 3: Information Systems and its Components
+        10. An efficient and effective telecommunication network gives an organization the capability
+            to move information rapidly among various employees and suppliers to cooperate with
+            each other from anywhere and anytime. Discuss the types of computer network and also
+            its benefits.
+        11. For an organization XYZ Ltd., the data is critical resource which needs to be managed
+            and controlled properly. Discuss various Data Resource Management controls that
+            should be well implemented in the organization to achieve this objective.
+        Chapter 4: E-Commerce, M-Commerce and Emerging Technologies
+        12. It has been observed that in most of the organizations, computer nodes in their network
+            remain underutilized leading to wastage of the computing resources at large. Identify the
+            computing technology that may address this issue and further discuss its benefits.
+        13. In an e-business environment, all the e-commerce and m-commerce transactions have
+            various risks associated with them. Discuss various risks that prevail in any e -business
+            environment.
+        Chapter 5: Core Banking Systems
+        14. The technology components of Core Banking Systems allow the banks to deploy new
+            state of art and innovative banking services. As prescribed under Cyber Security
+
+
+
+
+© The Institute of Chartered Accountants of India
+        4                   INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+             Framework of RBI, highlight key measures that are required to implement Network
+             Security and secure Configuration of Core Banking System.
+        15. Most of the banks offer Credit card as the key product service to their customers. The
+            process flow of credit cards may have certain amount of risks that may differ from bank
+            to bank. Discuss various risks involved in credit card process of bank along with their
+            corresponding controls.
+
+                                          SUGGESTED ANSWERS
+
+        1.   (b) Terminate the risk
+        2.   (a) Remittances
+        3.   (a) e-Malls
+        4.   (c) Predictive Analysis
+        5.   (c) Boundary Control
+        6.   The various risk management strategies that can be used to manage various risks
+             associated with any business are as follows:
+             •    Tolerate/Accept the risk. One of the primary functions of management is
+                  managing risk. Some risks may be considered minor because their impact and
+                  probability of occurrence is low. In this case, consciously accepting the risk as a
+                  cost of doing business is appropriate. The risks should be reviewed periodically to
+                  ensure that their impact remains low. A common example of risk acceptance is
+                  planning for potential production delays (within a reasonable time range) since it’s
+                  often difficult to predict a precise delivery schedule in advance.
+             •    Terminate/Eliminate the risk. Especially in the case of risks that have high
+                  probability and impact values, it may be best to modify any project strategy to avoid
+                  them altogether. For example - it is possible for a risk to be associated with the use
+                  of a technology, supplier, or vendor. The risk can be eliminated by replacing the
+                  technology with more robust products and by seeking more capable suppliers and
+                  vendors.
+             •    Transfer/Share the risk. Risk mitigation approaches can be shared with trading
+                  partners and suppliers. A good example is outsourcing infrastructure management.
+                  In such a case, the supplier mitigates the risks associated with managing the IT
+                  infrastructure by being more capable and having access to more highly skilled staff
+                  than the primary organization. Risk also may be mitigated by transferring the cost of
+                  realized risk to an insurance provider.
+             •    Treat/mitigate the risk. Where other options have been eliminated, suitable
+                  controls must be devised and implemented to prevent the risk from manifesting itself
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           5
+
+
+                   or to minimize its effects. A good example of risk mitigation is planning for the
+                   eventuality in case an enterprise won’t have sufficient capacity or supplies to deal
+                   with a very high demand. In that case, enterprise shall have a mitigation strategy in
+                   place that allows them to rapidly scale their capacity, or to subcontract some of the
+                   work to other parties to meet the high demand.
+        7.   The IT related risks and challenges that an enterprise should consider from time to time
+             are as follows:
+             (i)   Downtime due to technology failure: Information system facilities may become
+                   unavailable due to technical problems or equipment failure. A common example of
+                   this type of failure is non-availability of system due to server failure.
+             (ii) Frequent changes or obsolescence of technology: Technology keeps on
+                  evolving and changing constantly and becomes obsolete very quickly. Hence, there
+                  is always a challenge that the investment in technology solutions unless properly
+                  planned may result in loss to the organization due to risk of obsolescence.
+             (iii) Multiplicity and complexity of systems: The technology architecture used for
+                   services could include multiple digital platforms and is quite complex. Hence, this
+                   requires the personnel to have knowledge about requisite technology skills or the
+                   management of the technology could be outsourced to a company having the
+                   relevant skill set.
+             (iv) Different types of controls for different types of technologies/systems:
+                  Deployment of technology often gives rise to new types of risks. These risks need to
+                  be mitigated by relevant controls as applicable to the technology/information
+                  systems deployed.
+             (v) Proper alignment with business objectives and legal/regulatory requirements:
+                 Organizations must ensure that the systems implemented cater to all the business
+                 objectives and needs, in addition to the legal/regulatory requirements envisaged.
+             (vi) Dependence on vendors due to outsourcing of IT services: In systems’
+                  environment, the organization requires staff with specialized domain skills to
+                  manage IT deployed. Hence, these services could be outsourced to vendors and
+                  there is heavy dependency on vendors and gives rise to vendor risks which should
+                  be managed by proper contracts, controls and monitoring.
+             (vii) Vendor related concentration risks: There may not be one but multiple vendors
+                   providing different services. For example, network, hardware, system software and
+                   application software services may be provided by different vendor or these services
+                   may be provided by a single vendor. Both these situations result in higher risks due
+                   to heavy dependence on vendors.
+             (viii) Segregation of Duties (SoD): Organizations may have a highly-defined
+                    organization structure with clearly defined roles, authority and responsibility. The
+                    Segregation of Duties as per organization structure should be clearly mapped. This
+
+
+
+
+© The Institute of Chartered Accountants of India
+        6                    INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+                   is a high-risk area since any SoD conflicts can be a potential vulnerability for
+                   fraudulent activities. For example, if a single employee can initiate, authorize and
+                   disburse a loan, the possibility of misuse cannot be ignored.
+             (ix) External threats leading to cyber frauds/ crime: The system environment
+                  provides access to customers anytime, anywhere using internet. Hence, information
+                  system which was earlier accessible only within and to the employees is now
+                  exposed as it’s open to be accessed by anyone from anywhere. Making the
+                  information available is business imperative but this is also fraught with risks of
+                  increased threats from hackers and others who could access the software to commit
+                  frauds/crime.
+             (x) Higher impact due to intentional or unintentional acts of internal employees:
+                 Employees in a technology environment are the weakest link in an enterprise.
+                 Employees are expected to be trusted individuals that are granted extended
+                 privileges, which can easily be abused.
+             (xi) New social engineering techniques employed to acquire confidential
+                  credentials: Fraudsters use new social engineering techniques such as socializing
+                  with employees and extracting information which is used to commit frauds. For
+                  example: extracting information about passwords from staff acting as genuine
+                  customer and using it to commit frauds.
+             (xii) Need for governance processes to adequately manage technology and
+                   information security: Controls in system should be implemented from macro and
+                   business perspective and not just from function and technology perspective. With
+                   BPA, technology becomes the key enabler for the organization and is implemented
+                   across the organization. The senior management should be involved in directing
+                   how technology is deployed in and approve appropriate policies. This requires
+                   governance process to implement security as required.
+             (xiii) Need to ensure continuity of business processes in the event of major
+                    exigencies: The high dependence on technology makes it imperative to ensure
+                    resilience to ensure that failure does not impact the organization’s services. Hence,
+                    a documented business continuity plan with adequate technology and information
+                    systems should be planned, implemented and monitored.
+        8.   Auditing aspects that Mr. Karan should consider in case of the ERP system of ABC Ltd.
+             are as follows:
+             (i)   Auditing of Data
+                   •    Physical Safety – Ensuring physical control over data.
+                   •    Access Control – Ensuring access to the system is given on “need to know”
+                        (a junior accountant need not view Profit & Loss Account of the business) and
+                        “need to do basis” (HR executive need not record a Purchase Order).
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           7
+
+
+             (ii) Auditing of Processes
+                  •    Functional Audit – This includes testing of different functions / features in the
+                       system and testing of the overall process or part of process in the system and
+                       its comparison with actual process. For example- Purchase Process, Sales
+                       Process, Salary Calculation Process, Recruitment Process, etc. Auditor may
+                       check this process in the system and compare it with actual process. It is quite
+                       possible that all the aspect present in the actual process may not be integrated
+                       in the ERP system. There may be some manual intervention.
+                  •    Input Validations – These stands for checking of rules for input of data into
+                       the system. For example- a transaction of cash sales on sales counter must
+                       not be recorded in a date other than today (not a future date or a back date),
+                       amount field must not be zero, stock item field shall not be empty, etc. Input
+                       validations shall change according to each data input form.
+        9.   The key features of Controlling Module of ERP are as follows:
+             •    Cost Element Accounting: This component provides overview of the costs and
+                  revenues that occur in an organization. The cost elements are the basis for cost
+                  accounting and enable the user the ability to display costs for each of the accounts
+                  that have been assigned to the cost element. Examples of accounts that can be
+                  assigned are Cost Centres, Internal Orders, and Work Breakdown Structures
+                  (WBS).
+             •    Cost Centre Accounting: This provides information on the costs incurred by the
+                  business. Cost Centres can be created for such functional areas as Marketing,
+                  Purchasing, Human Resources, Finance, Facilities, Information Systems,
+                  Administrative Support, Legal, Shipping/Receiving, or even Quality. Some of the
+                  benefits of Cost Centre Accounting are that the managers can set budget / cost
+                  Centre targets; Planning; Availability of Cost allocation methods; and Assessments /
+                  Distribution of costs to other cost objects.
+             •    Activity-Based-Accounting: This analyse cross-departmental business processes
+                  and allows for a process-oriented and cross-functional view of the cost centres.
+             •    Internal Orders: Internal Orders provide a means of tracking costs of a specific job,
+                  service, or task. These are used as a method to collect those costs and business
+                  transactions related to the task. This level of monitoring can be very detailed but
+                  allows management the ability to review Internal Order activity for better -decision
+                  making purposes.
+             •    Product Cost Controlling: This calculates the costs that occur during the
+                  manufacture of a product or provision of a service and allows the management the
+                  ability to analyse their product costs and to make decisions on the optimal price(s)
+                  to market their products.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        8                    INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+             •     Profitability Analysis: This allows the management to review information with
+                   respect to the company’s profit or contribution margin by individual market segment.
+             •     Profit Centre Accounting: This evaluates the profit or loss of individual,
+                   independent areas within an organization.
+        10. The types of computer network are as follows:
+                  Connection Oriented networks: Wherein a connection is first established between
+                   the sender and the receiver and then data is exchanged like it happens in case of
+                   telephone networks.
+                  Connectionless Networks: Where no prior connection is made before data
+                   exchanges. Data which is being exchanged in fact has a complete contact
+                   information of recipient and at each intermediate destination, it is decided how to
+                   proceed further like it happens in case of postal networks.
+             The important benefits of a computer network are as follows:
+             (i)   Distributed nature of information: There would be many situations where
+                   information must be distributed geographically. For example- In the case of Banking
+                   Company, accounting information of various customers could be distributed across
+                   various branches but to make Consolidated Balance Sheet at the year-end, it would
+                   need networking to access information from all its branches.
+             (ii) Resource Sharing: Data could be stored at a central location and can be shared
+                  across different systems. Even resource sharing could be in terms of sharing
+                  peripherals like printers, which are normally shared by many systems. For example -
+                  In the case of a Core Banking System, Bank data is stored at a Central Data Centre
+                  and could be accessed by all branches as well as ATMs.
+             (iii) Computational Power: The computational power of most of the applications would
+                   increase drastically through load balancing when the processing is distributed
+                   amongst computer systems. For example- processing in an ATM machine in a bank
+                   is distributed between ATM machine and the central Computer System in a Bank,
+                   thus reducing load on both.
+             (iv) Reliability: Many critical applications should be available 24x7, if such applications
+                  are run across different systems which are distributed across network, then the
+                  reliability of the applications would be high. For example- In a city, there could be
+                  multiple ATM machines so that if one ATM fails, one could withdraw money from
+                  another ATM.
+             (v) User communication: Networks allow users to communicate using e-mail,
+                 newsgroups, video conferencing, etc.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           9
+
+
+        11. Various Data Resource Management controls under the management control framework
+            are as follows:
+             (i)   Definition Controls: These controls are placed to ensure that the database always
+                   corresponds and comply with its definition standards.
+             (ii) Existence/Backup Controls: These controls ensure the existence of the database
+                  by establishing backup and recovery procedures. Backup refers to making copies of
+                  the data so that these additional copies may be used to restore the original data
+                  after a data loss. Backup controls ensure the availability of system in the event of
+                  data loss due to unauthorized access, equipment failure or physical disaster; the
+                  organization can retrieve its files and databases. Various backup strategies like dual
+                  recording of data; periodic dumping of data; logging input transactions and changes
+                  to the data may be used.
+             (iii) Access Controls: These controls are designed to prevent unauthorized individual
+                   from viewing, retrieving, computing, or destroying the entity's data. User Access
+                   Controls are established through passwords, tokens and biometric controls; and
+                   Data Encryption controls are established by keeping the data in database in
+                   encrypted form.
+             (iv) Update Controls: These controls restrict update of the database to authorized
+                  users in two ways either by permitting only addition of data to the database or
+                  allowing users to change or delete existing data.
+             (v) Concurrency Controls: These controls provide solutions, agreed-upon schedules,
+                 and strategies to overcome the data integrity problems that may arise when two
+                 update processes access the same data item at the same time.
+             (vi) Quality Controls: These controls ensure the accuracy, completeness, and
+                  consistency of data maintained in the database. This may include traditional
+                  measures such as program validation of input data and batch controls over data in
+                  transit through the organization.
+        12. Grid Computing is the computing technology that may address the issue of
+            underutilization of computing resources.
+             The benefits of Grid Computing are as follows:
+             (i)   Making use of Underutilized Resources: In most organizations, there are large
+                   amounts of underutilized computing resources including even the server machines.
+                   Grid computing provides a framework for exploiting these underutilized resources
+                   and thus has the possibility of substantially increasing the efficiency of resource
+                   usage. Grid computing (more specifically, a data grid) can be used to aggregate this
+
+
+
+
+© The Institute of Chartered Accountants of India
+        10                   INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+                  unused storage into a much larger virtual data store, possibly configured to achieve
+                  improved performance and reliability over that of any single machine.
+             (ii) Resource Balancing: For applications that are grid-enabled, the grid can offer a
+                  resource balancing effect by scheduling grid jobs on machines with low utilization.
+                  This feature of grid computing handles occasional peak loads of activity in parts of a
+                  larger organization. An unexpected peak can be routed to relatively idle machines in
+                  the grid; and if the grid is already fully utilized, the lowest priority work being
+                  performed on the grid can temporarily be suspended or even cancelled and
+                  performed again later to make room for the higher priority work.
+             (iii) Parallel CPU Capacity: The potential for usage of massive parallel CPU capacity is
+                   one of the most common vision and attractive feature of a grid. A CPU-intensive grid
+                   application can be thought of as many smaller sub-jobs, each executing on a
+                   different machine in the grid. To the extent that these sub-jobs do not need to
+                   communicate with each other, the application becomes more scalable. A perfectly
+                   scalable application will, for example, finish in one tenth of the time if it uses ten
+                   times the number of processors.
+             (iv) Virtual resources and virtual organizations for collaboration: Grid computing
+                  provides an environment for collaboration among a wider audience. The users of
+                  the grid can be organized dynamically into several virtual organizations each with
+                  different policy requirements. These virtual organizations can share their resources
+                  such as data, specialized devices, software, services, licenses, and so on,
+                  collectively as a larger grid. The grid can help in enforcing security rules among
+                  them and implement policies, which can resolve priorities for both resources and
+                  users.
+             (v) Access to additional resources: In addition to CPU and storage resources, a grid
+                 can provide access to other resources as well. For example, if a user needs to
+                 increase their total bandwidth to the Internet to implement a data mining search
+                 engine, the work can be split among grid machines that have independent
+                 connections to the Internet. In this way, total searching capability is multiplied, since
+                 each machine has a separate connection to the Internet.
+             (vi) Reliability: High-end conventional computing systems use expensive hardware to
+                  increase reliability. The machines also use duplicate processors in such a way that
+                  when they fail, one can be replaced without turning the other off. Power supplies
+                  and cooling systems are duplicated. The systems are operated on special power
+                  sources that can start generators if utility power is interrupted. All of this builds a
+                  reliable system, but at a great cost, due to the duplication of expensive comp onents.
+             (vii) Management: The goal to virtualize the resources on the grid and more uniformly
+                   handle heterogeneous systems create new opportunities to better manage a larger,
+                   more distributed IT infrastructure. The grid offers management of priorities among
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                          11
+
+
+                   different projects. Aggregating utilization data over a larger set of projects can
+                   enhance an organization’s ability to project future upgrade needs. When
+                   maintenance is required, grid work can be rerouted to other machines without
+                   crippling the projects involved.
+        13. The various risks that prevail in any e-business environment are as follows:
+             (i)   Privacy and Security: When an organization uses internet to engage in e-
+                   commerce, it exposes itself to additional security threats and privacy issues. There
+                   are often issues of security and privacy due to lack of personalized digital access
+                   and knowledge. The nature of e-commerce operations is an important factor
+                   determining the security risks perceptions of any e-commerce installation. For
+                   example, if the type of industry is banking and finance, it would require more
+                   stringent deployment of security solutions than would be for manufacturing industry.
+             (ii) Quality issues: There are quality issues raised by customers as the original
+                  product differs from the one that was ordered.
+             (iii) Delay in goods and Hidden Costs: When goods are ordered from another country,
+                   the shipment may be delayed due to factors such as port congestion, bad weather,
+                   custom clearances, etc. Moreover, e-commerce companies may have these hidden
+                   costs.
+             (iv) Needs Access to internet and lack of personal touch: The e-commerce requires
+                  an internet connection which is an extra expense and lacks personal touch.
+             (v) Security and credit card issues: The credit card and debit card information may
+                 be stolen and misused which poses a security threat. There is also possibility of
+                 cloning of credit cards and debit cards.
+             (vi) Infrastructure: There is a greater need of not only digital infrastructure but also
+                  network expansion of roads and railways which remains a substantial challenge in
+                  developing countries.
+             (vii) Problem of anonymity: There is a need to identify and authenticate users in the
+                   virtual global market where anyone can sell to or buy from anyone, anything from
+                   anywhere.
+             (viii) Repudiation of contract: There is possibility that the electronic transaction in the
+                    form of contract, sale order or purchase by the trading partner or customer may be
+                    denied.
+             (ix) Lack of authenticity of transactions: The electronic documents that are produced
+                  during an e-commerce transaction may not be authentic and reliable.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        12                   INTERMEDIATE EXAMINATION: NOVEMBER, 2022
+
+
+             (x) Data Loss or theft or duplication: The data transmitted over the Internet may be
+                 lost, duplicated, tampered with, or replayed.
+             (xi) Attack from hackers: Web servers used for e-commerce may be vulnerable to
+                  hackers. A hacker is an unauthorized user who attempts to or gains access to the
+                  system with/without the intention to steal or modify data or to insert viruses or
+                  worms to cause damage to the system.
+             (xii) Denial of Service: Service to customers may be denied due to non-availability of
+                   system as it may be affected by viruses, e-mail bombs and by transmitting so many
+                   data packets to a server that it cannot process them all. The denial of service may
+                   cause a network to shut down, making it impossible for users to access the site. For
+                   busy e-commerce sites such as Flipkart, these attacks are costly; while the site is
+                   shut down, customers cannot make purchases. Moreover, the longer a site is shut
+                   down, the more damage is done to a site’s reputation.
+             (xiii) Non-recognition of electronic transactions: e-Commerce transactions, as
+                    electronic records and digital signatures may not be recognized as evidence in
+                    courts of law in some countries.
+             (xiv) Lack of audit trails: Audit trails in e-Commerce system may be lacking and the
+                   logs may be incomplete, too voluminous, or easily tampered with.
+             (xv) Problem of piracy: Intellectual property such as copyright may not be adequately
+                  protected when such property is transacted through e-Commerce.
+        14. The following key measures are required to be implemented to have Network Security
+            and Secure Configuration under cyber security framework of Core Banking System :
+             •    Multi-layered boundary defense through properly configured proxy servers, firewalls,
+                  intrusion detection systems to protect the network from any malicious attacks and to
+                  detect any unauthorized network entries.
+             •    Different LAN segments for in-house/onsite ATM and CBS/branch network to
+                  confirm the adequacy of bandwidth to deal with the volume of transactions so as to
+                  prevent slowing down and resulting in lower efficiency.
+             •    To ensure secure network configuration; proper usage of routers, hubs and
+                  switches should be envisaged.
+             •    Periodic security review of systems and terminals to assess the network’s
+                  vulnerability and identify the weaknesses.
+             •    Identification of the risks to ensure that risks are within the bank’s risk appetite and
+                  are managed appropriately.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERRPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                                13
+
+
+        15. The various risks involved in credit card process of bank are as follows:
+              S.     Risks                            Key Controls
+              No.
+              1.     Credit    Line     setup   is    The credit committee checks that the Financial
+                     unauthorized and not in line     Ratios, the Net-worth, the Risk factors and its
+                     with the bank’s policy           corresponding mitigating factors, the Credit
+                                                      Line offered and the Credit amount etc. is in
+                                                      line with Credit Risk Policy and that the Client
+                                                      can be given the Credit Line.
+              2.     Credit    Line     setup   is    Access rights to authorize the credit limit in the
+                     unauthorized and not in line     credit card system should be restricted to
+                     with the bank’s policy.          authorized personnel.
+              3.     Masters defined for the          Access rights to authorize the customer
+                     customer   are      not   in     master in credit card system should be
+                     accordance with the Pre-         restricted to authorized personnel, SoD exist
+                     Disbursement Certificate.        in credit card system such that the system
+                                                      restricts the maker having checker rights to
+                                                      approve the facilities booked by self in the
+                                                      credit card system.
+              4.     Credit Line setup can be         Transaction cannot be made if the aggregate
+                     breached.                        limit of out- standing amount exceeds the
+                                                      credit limit assigned to customer.
+              5.     Inaccurate interest / charge     Interest on fund-based credit cards and
+                     being calculated in the Credit   charges are automatically calculated in the
+                     Card system.                     credit card system as per the defined masters.
+              6.     Inaccurate     reconciliations   Daily reconciliation for the balances received
+                     performed.                       from credit card network with the transactions
+                                                      updated in the credit card system on card
+                                                      network level.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        14                   INTERMEDIATE EXAMINATION: NOVEMBER 2022
+
+
+
+                                  SECTION – B: STRATEGIC MANAGEMENT
+
+                                           Multiple Choice Questions
+        1.   In July 2014, Fresh Air Hospitality and Resorts launched a major project called ‘Fit in
+             Future’ after being in losses for three consecutive years. According to analysis by senior
+             management many customers were not returning and repeat sales of rooms were low.
+             The costs were also high with a lot of wastage in kitchen. If the losses were allowed to
+             continue the survival of the organisation was doubtful.
+             ‘Fit in Future’ project was organisation-wide, employee driven initiative that focused in
+             reversing the trend and find ways to find out how the organisation can survive. Focus
+             was to provide high-quality services while finding new ways of delivery to improve
+             customer satisfaction and reduce costs. The idea was to create a conducive
+             organisational culture and work climate. At the time, Shailja Mehta joined the
+             organisation as the new Resident Manager. She brought with her considerable
+             experience in improving the quality of services in restaurants, banquet sale and room
+             reservations. She immediately set about spending two months talking to staff on the front
+             line followed by a series of meetings, where discussions were held about bringing a
+             guest-first approach. Some of the staff members expressed frustration that their
+             suggestions on improving services were often not heard making them demotivated. The
+             new manager noted their concerns. Over time, she offered enthusiasm and inspired staff
+             to exert them for the good of the organization.
+             As an outcome of the project, it was decided that both in internal as well as external
+             interactions, customers will be called guests and treated accordingly. There was general
+             agreement that reducing wastages and improving the quality of services shall be chief
+             priority from top to bottom. It was decided that the team leaders shall always work
+             together with front-line staff for speedy decisions. Focussed training programmes were
+             organised to train the front-line staff to remain well-groomed and courteous to guests at
+             all times. Accordingly, a new system was put in place from January 2015. As a result of
+             the efforts, the satisfaction level of guests improved, and their loyalty reflected in form of
+             increase in repeat sales over next two years.
+             After two years, while the organisation was able to make some profits, they were still low
+             considering the capital employed. In July 2018, Shailja Mehta suggested to make
+             extensive study to radically redesign existing ways of doing work and deliver se rvices.
+             Based on the above case scenario answer the following multiple-choice questions:
+             (i)   ‘Fit in Future’ project can be best related to:
+                   (a) Improving leadership
+                   (b) Improving morale
+                   (c) Coordination
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                        15
+
+
+                  (d) Turnaround
+             (ii) Name the strategic tool to measure and set goals for wastage in kitchen as per best
+                  practices.
+                  (a) Benchmarking
+                  (b) Cost control
+                  (c) Loss assessment
+                  (d) Turnaround
+             (iii) The leadership style of Shailja Mehta can be best described as
+                  (a) Autocratic
+                  (b) Motivational
+                  (c) Transactional
+                  (d) Transformational
+             (iv) The suggestions made by Shailja Mehta in July 2018 are related to:
+                  (a) Business Process Reengineering
+                  (b) Leverage
+                  (c) Organisational redesign
+                  (d) Strategic Control
+             (v) To succeed Fresh Air Hospitality and Resorts needs to:
+                  (i)   Deliver better value to customers.
+                  (ii) Improve efficiencies.
+                  (iii) Fix minimum profit percentage over costs.
+                  (a) (i) and (ii)
+                  (b) (i) and (iii)
+                  (c) (ii) and (iii)
+                  (d) (i), (ii) and (iii)
+        2.   Which of the following is more radical organisation design and is also called as non -
+             structure which virtually eliminates in house business functions and outsources many of
+             them?
+             (a) Network Structure
+             (b) Strategic Business Unit
+             (c) Hourglass Structure
+
+
+
+
+© The Institute of Chartered Accountants of India
+        16                   INTERMEDIATE EXAMINATION: NOVEMBER 2022
+
+
+             (d) Divisional Structure
+        3.   Smooth Ride and Comfort Ride are two car engine component manufacturers,
+             manufacturing identical auto parts. Both units are almost identical in every aspect. As a
+             Strategic Manager of Comfort Ride, which process would you suggest to the
+             management so that it has an edge over its competitor Smooth Ride.
+             (a) Management Business Process
+             (b) Strategic Business Process
+             (c) Business Process Reengineering
+             (d) Management Reengineering Process
+        4.   Which approach of R & D to implement strategic decisions is a glamorous and exciting
+             strategy but also a dangerous one?
+             (a) Market new technology product
+             (b) Innovate imitator of successful products
+             (c) To be a low cost provider
+             (d) None of the above
+        5.   Jaipur Mart an online marketplace where people from all over Rajasthan come and sell
+             their goods is charging zero commission for listing goods but they take 1% of the sales
+             per month from the seller. It is defined as?
+             (a) Business Intent
+             (b) Business Idea
+             (c) Business Definition
+             (d) Business Model
+        6.   Hupo a honey brand decided to start a new brand for making honey ginger candies to
+             meet the rising demand. Identify their growth strategy?
+             (a) Conglomerate Diversification
+             (b) Concentric Diversification
+             (c) Vertical Integration
+             (d) Horizontal Integration
+                                              Descriptive Questions
+        Chapter 1-Introduction to Strategic Management
+        7.   “Each organization must build its competitive advantage keeping in mind the business
+             warfare. This can be done by following the process of strategic management.”
+             Considering this statement, explain major benefits of strategic management.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                         17
+
+
+        8.   Discuss the challenges faced by public sector units while designing for their
+             organisations.
+        Chapter 2-Dynamics of Competitive Strategy
+        9.   Distinguish between Market Development and Product Development under Ansoff’s
+             Product Market Growth Matrix.
+        10. Woodworld Ltd. is a company manufactures a variety of household furniture items. They
+            offered traditional designs, low cost furniture items to low income group custom ers.
+            During the last couple of years, the company has been observing a fall in the market
+            share. This is due to the change in the taste and preferences, designing, better quality,
+            increase in purchasing power of buyers towards the household furniture. The customers
+            are switching away traditional designs and material that have been the backbone of
+            Woodworld Ltd.
+             As a CEO of Woodworld Ltd., what can be the strategic options available with you.
+        Chapter 3-Strategic Management Process
+        11. What should be the major components of a good mission statement?
+        12. Explain briefly the key areas in which the strategic planner should concentrate his mind
+            to achieve desired results.
+        Chapter 4-Corporate Level Strategies
+        13. Write a short note on Merger and Acquisition Strategy.
+        14. Airlines industry in India is highly competitive with several players. Businesses face
+            severe competition and aggressively market themselves with each other. Luxury Jet is a
+            private Delhi based company with a fleet size of 9 small aircrafts with seating capacity
+            ranging between 6 seats to 9 seats. There aircrafts are chartered by big business houses
+            and high net worth individuals for their personalised use. With customised tourism
+            packages their aircrafts are also often hired by foreigners. Identify and explain the
+            Michael Porter’s Generic Strategy followed by Luxury Jet.
+        Chapter 5-Business Level Strategies
+        15. Rajiv Arya is owner of an electrical appliance company that specializes in manufacturing
+            of domestic vacuum cleaners. There are four other manufacturers with similar products
+            and sales volume. Current rival firms also own a number of patents related to the
+            product. The supplier base for procurement of raw material is also very large as there are
+            multiple suppliers.
+             Identify Porter’s Five Forces that may be classified as significant for the company?
+             Explain.
+        16. A startup company is thinking of launching of a low cost detergent powder in the market.
+            The market of the said product is already dominated by a big FMCG player.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        18                  INTERMEDIATE EXAMINATION: NOVEMBER 2022
+
+
+             You are advised to put forward your suggestions to the management of the company to
+             deal with the problems of 'Entry 'Barrier' while launching the low cost detergent powder.
+        Chapter 6-Functional Level Strategies
+        17. "Projected financial statement analysis is a central strategy-implementation technique."
+            Justify the statement.
+        18. Modern marketing is highly promotion oriented. Discuss citing major direct promotional
+            methods for products.
+        Chapter 7-Organisation and Strategic Leadership
+        19. 'A strategy-supportive culture promotes good strategy execution.' - Explain.
+        20. "Samar Electronics Limited" is engaged in manufacturing and sale of consumer
+            electronic goods globally. The company is rated 'best' in "customer satisfaction survey'
+            for 5 years in a row. The spread of the current pandemic has affected the internal and
+            external environment of the company adversely. Such adverse impact has negatively
+            impacted the revenue of the company. In order to survive and· retain the business, the
+            company decided to outsource a major part of its organisational activities, like
+            manufacturing, distribution channels, after sales service etc. Now the organisation's
+            business functions are scattered worldwide with a small headquarter connected to
+            independent business units digitally.
+             What type of organisational structure is the company transitioning into? List the·basic
+             features of this new structure and the disadvantages that the company may face in future
+             in this new structural arrangement.
+        Chapter 8-Strategy Implementation and Control
+        21. Zumba Robots, an electronic robot manufacturing company is a leader in its business
+            segment. Over a period of time, it started losing its grip on the market as its overall
+            position started to weaken. Discuss the type of audit that you would like to suggest to
+            analyse the situation of the company?
+        22. What is strategic control? Briefly explain the different types of strategic control?
+
+                                              SUGGESTED ANSWERS
+
+        1.    (i)   (d) (ii) (a)      (iii)   (d) (iv)   (a)    (v)    (a)
+        2.   (a)
+        3.   (c)
+        4.   (a)
+        5.   (d)
+        6.   (b)
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           19
+
+
+        7.   Each organization has to build its competitive advantage over the competitors in the
+             business warfare in order to win. This can be done only by following the process of
+             strategic management. Strategic Management is very important for the survival and
+             growth of business organizations in dynamic business environment. Other major benefits
+             of strategic management are as follows:
+                 Strategic management helps organizations to be more proactive rather than reactive
+                  in dealing with its future. It facilitates to work within vagaries of environment and
+                  remains adaptable with the turbulence or uncertain future. Therefore, they are able
+                  to control their own destiny in a better way.
+                 It provides better guidance to entire organization on the crucial point – what it is
+                  trying to do. Also provides frameworks for all major business decisions of an
+                  enterprise such as on businesses, products, markets, organizational structures, etc.
+                 It facilitates to prepare the organization to face the future and act as pathfinder to
+                  various business opportunities. Organizations are able to identify the available
+                  opportunities and identify ways and means as how to reach them.
+                 It serves as a corporate defence mechanism against mistakes and pitfalls. It helps
+                  organizations to avoid costly mistakes in product market choices or investments.
+                 Over a period of time strategic management helps organization to evolve certain
+                  core competencies and competitive advantages that assist in the fight for survival
+                  and growth.
+        8.   Central, state, municipal agencies, Public Sector Units, departments are responsible for
+             formulating, implementing, and evaluating strategies that use taxpayers' money in the
+             most cost-effective way to provide services and programs. The Challenges faced by the
+             public sector units while designing their organizations are on account of basic nature of
+             such organizations.
+             Public sector units face the following challenges while designing strategies for the ir
+             organizations:
+             •    Operating with less strategic autonomy.
+             •    Cannot diversify into unrelated businesses or merge with other firms.
+             •    Strategists usually enjoy little freedom while altering the organization’s mission or
+                  redirecting objectives when needed.
+             •    Legislators and politicians control over major decisions and resources.
+             •    Fear of media debate over the strategic issues.
+             •    Chances of politicization of issues resulting fewer strategic choice.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        20                     INTERMEDIATE EXAMINATION: NOVEMBER 2022
+
+
+        9.    Following are the differences between the market development and product
+              development:
+                  Market Development                             Product Development
+                  Meaning                                        Meaning
+                  • It refers to a growth strategy where         • It refers to a growth strategy
+                       the business seeks to sell its existing        where business aims to introduce
+                       products into new markets. It is a             new products into existing
+                       strategy for company growth by                 markets. It is a strategy for
+                       identifying and developing new                 company growth by offering
+                       markets for current company                    modified or new products to
+                       products.                                      current markets.
+                  Strategy Application                           Strategy Application
+                  • It may be achieved through new               • It is for company’s growth and
+                       geographical markets, new product              requires the development of new
+                       dimensions or packaging, new                   competencies and the business
+                       distribution channels or different             to develop modified products
+                       pricing policies to attract different          which can appeal to existing
+                       customers or create new market                 markets.
+                       segments.
+        10. Woodworld is having a product portfolio that is evidently in the decline stage. The product
+            is being replaced with the latest designs with better quality of the product. Strategically,
+            the company should minimize their dependence on the existing products and identi fy
+            other avenues for the survival and growth. As a CEO of Woodworld Ltd., following can be
+            the strategic options available with the CEO:
+              •      Invest in new product development and switchover to the latest designs. Woodworld
+                     Ltd. also need time to invest in hiring interior designers.
+              •      They can acquire or takeover a competitor, provided they have or are able to
+                     generate enough financial resources.
+              •      They may also consider unrelated growth and identify other areas for expansion.
+                     This will enable Woodworld Ltd. to spread their risks.
+              •      In longer run, they should divest the existing products. However, they may continue
+                     with the existing products in a limited manner for such time there is demand for the
+                     product.
+        11.    Mission statements broadly describe an organizations’ present capabilities, customer
+              focus, activities, and business makeup. Following points are useful while writing a good
+              mission statement of a company:
+              •      Good mission statement is highly personalized – unique to the organization for
+                     which it is developed.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           21
+
+
+             •    *Mission statement should emphasize on giving an organization its own special
+                  identity, business emphasis and path for development.
+             •    *Mission statement should clearly specify that, what needs it is trying to satisfy,
+                  customer groups it is targeting, technologies and competencies it uses and the
+                  activities it performs.
+             •    Technology, competencies and activities are important in defining a company’s
+                  business because they indicate the boundaries on its operation.
+             •    The mission should not be to make profit.
+        12. A strategic manager defines the strategic intent of the organisation and take it on the
+            path of achieving the organisational objectives. There can be a number of areas that a
+            strategic manager should concentrate on to achieve desired results. They commonly
+            establish long-term objectives in seven areas as follows.
+             •    Profitability.
+             •    Productivity.
+             •    Competitive Position.
+             •    Employee Development.
+             •    Employee Relations.
+             •    Technological Leadership.
+             •    Public Responsibility.
+        13. Merger and acquisition in simple words are defined as a process of combining two or
+            more organizations together. There is a thin line of difference between the two terms but
+            the impact of combination is completely different in both the cases.
+             Merger is considered to be a process when two or more companies come together to
+             expand their business operations. In such a case the deal gets finalized on friendly terms
+             and both the organizations share profits in the newly created entity. In a merger two
+             organizations combine to increase their strength and financial gains along with breaking
+             the trade barriers.
+             When one organization takes over the other organization and controls all its business
+             operations, it is known as acquisitions. In this process of acquisition, one financially
+             strong organization overpowers the weaker one. Acquisitions often happen during
+             recession in economy or during declining profit margins. In this process, one that is
+             financially stronger and bigger establishes it power. The combined operations then run
+             under the name of the powerful entity. A deal in case of an acquisition is often done in an
+             unfriendly manner, it is more or less a forced association where the powerful organization
+             either consumes the operation or a company in loss is forced to sell its entity.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        22                   INTERMEDIATE EXAMINATION: NOVEMBER 2022
+
+
+        14. The Airlines industry faces stiff competition. However, Luxury Jet has attempted to create
+            a niche market by adopting focused differentiation strategy. A focused differentiation
+            strategy requires offering unique features that fulfil the demands of a narrow market .
+             Luxury Jet compete in the market based on uniqueness and target a narrow market
+             which provides business houses, high net worth individuals to maintain strict schedules.
+             The option of charter flights provided several advantages including, flexibility, p rivacy,
+             luxury and many a times cost saving. Apart from conveniences, the facility will provide
+             time flexibility. Travelling by private jet is the most comfortable, safe and secure way of
+             flying your company’s senior business personnel.
+             Chartered services in airlines can have both business and private use. Personalized
+             tourism packages can be provided to those who can afford it.
+        15. The competitive rivalry will be a significant force in case of company of Rajiv Arya as all
+            the rivals are similar in sizes and are manufacturing similar products. It is difficult for any
+            single manufacturer to dominate the market. Large number of patents will make it difficult
+            for new entrants to break into the market. Further, as there are a large number of small
+            suppliers the power that suppliers can exert will also be low.
+             There is no information relating to substitutes and bargaining power of customers in the
+             information given in scenario. However, a domestic vacuum cleaner will directly compete
+             with other options such as house maids. Availability of house maids at low cost can
+             significantly disturb the sales of products.
+             Further, as the products are similar customers can easily shift from one company to
+             another. This will only enhance competitive rivalry.
+             The competitive rivalry will be significant in Rajiv Arya’s dealing industry as all rivals are
+             similar in sizes and manufacture similar products, making it difficult for anyone
+             manufacturer to dominates the market or gain market share. The large number of patents
+             will make it hard for new entrants to break into the market, while the fact that Rajiv Arya
+             buys from a large number of small suppliers suggests that supplier power is also low.
+             Finally, there is no information relating to substitutes and bargaining power of customers
+             in the information given in scenario.
+        16. There are number of factors that can act as entry barrier for the start -up company. An
+            FMCG, big in size, is already dominating the market space and will act as a strong
+            deterrent for the new start-up. The following will be some suggestions to the
+            management of the start-up to deal with the problem of entry barriers:
+             1.   The company is working on producing low cost detergent. Keeping other expenses
+                  also on the lower side the management can create price advantage that is
+                  competitive to the existing established players including the large FMCG.
+             2.   The company focussing on single product in comparison to multiple products of an
+                  FMCG can develop competencies to produce and sell the low cost detergent that
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                           23
+
+
+                  are difficult to deploy by the FMCG by its strategy that addresses needs of multiple
+                  products.
+             3.   The start-up needs to have strong financial strength to sustain the onslaught from
+                  the dominant FMCG and other players. The start-up can identify sources of capital
+                  well in advance and be able to use it judiciously to their advantage.
+             4.   The start-up should identify the customer segments that are likely to switch to the
+                  product well in advance so as to target the same and generate the initial hold on the
+                  market. Once the product gets some hold and their brands get some identity, the
+                  market can be further developed to address other customers.
+             5.   The start-up should identify the environmental factors that go to their advantage.
+                  These may include special scheme of the government to encourage entrepreneurs,
+                  tax holiday, low interest rates, advantages available to small and medium sized
+                  enterprises alike.
+             6.   It has to create an image in the market that its products are qualitative and ‘Made in
+                  India’ to attract a particular segment of customers.
+             7.   They need to have a team of experts and dedicated management professionals who
+                  can implement strategies formulated by top management.
+        17. Projected financial statement analysis is a central strategy-implementation technique
+            because it allows an organization to examine the expected results of various actions and
+            approaches. This type of analysis can be used to forecast the impact of various
+            implementation decisions. Nearly all financial institutions require a projected financial
+            statement whenever a business seeks capital.
+             A projected income statement and balance sheet allow an organization to compute
+             projected financial ratios under various strategy-implementation scenarios. When
+             compared to prior years and to industry averages, financial ratios provide valuable
+             insights into the feasibility of various strategy-implementation approaches.
+             A financial budget is also a document that details how funds will be obtained and spent
+             for a specified period of time. Fundamentally, financial budgeting is a method for
+             specifying what must be done to complete strategy implementation successfully.
+             Financial budgeting is a method for obtaining the most productive and profitable use of
+             an organization’s resources. Financial budgets can be viewed as the p lanned allocation
+             of a firm’s resources based on forecasts of the future.
+        18. Modern marketing is highly promotional oriented and include personal selling,
+            advertising, publicity and sales promotion.
+             Personal selling – involves face to face interaction of salespersons with the prospective
+             customers and provides a high degree of personal attention. It involves working with one
+             customer at a time and hence not cost effective. The intention of oral communication is
+             sale.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        24                  INTERMEDIATE EXAMINATION: NOVEMBER 2022
+
+
+             Advertising – is a non-personal, flexible and dynamic promotion method. The media for
+             advertising are several and choice of an appropriate one is important for effectiveness of
+             message. Sale of the product and the amount of expenditure cannot be directly
+             measured.
+             Publicity – is also non-personal but no payments are made to the media. Publicity is
+             communication of a product, brand or business by placing information about it in the
+             media without paying for the time or media space directly. It could be through press
+             releases, press conferences, reports, etc.
+             Sales promotion – includes all activities that are undertaken to promote the business
+             but are not specifically included under personal selling, advertising or publicity. Activities
+             like discounts, contests, money refunds, exhibitions etc. are included.
+        19. Strong cultures promote good strategy execution when there’s fit and hurt execution
+            when there’s negligible fit. A culture grounded in values, practices, and behavioral norms
+            that match what is needed for good strategy execution helps energize people throughout
+            the organization to do their jobs in a strategy-supportive manner. A culture built around
+            such business principles as listening to customers, encouraging employees to take pride
+            in their work, and giving employees a high degree of decision-making responsibility. This
+            is very conducive to successful execution of a strategy of delivering superior customer
+            service.
+             A work environment where the culture matches the conditions for good strategy
+             execution provides a system of informal rules and peer pressure regarding how to
+             conduct business internally and how to go about doing one’s job.
+             A strong strategy-supportive culture makes employees feel genuinely better about their
+             jobs and work environment and the merits of what the company is trying to accomplish.
+             Employees are stimulated to take on the challenge of realizing the organizational vision,
+             do their jobs competently and with enthusiasm, and collaborate with others.
+        20. Samar Electronics Limited transitioning into network structure. It is a newer and
+            somewhat more radical organisational design. Its essential features are as follows:
+             1.   It is termed as “non-structure” as it eliminates in house functions and outsources
+                  many of them.
+             2.   An organisation organised in this manner is often called “virtual organisation”
+                  because it is composed of a series of project groups or collaborations linked by
+                  constantly changing nonhierarchical, cob-web like structures.
+             3.   Network structures become most useful when the environment of a firm is unstable
+                  and is expected to remain so. Under such conditions, there is usually a strong need
+                  for innovation and quick response.
+             4.   Instead of having salaried employees, it may contract with people for a specific
+                  project or length of time.
+
+
+
+
+© The Institute of Chartered Accountants of India
+        PAPER – 7: ENTERPRISE INFORMATION SYSTEMS AND STRATEGIC MANAGEMENT                          25
+
+
+             5.   Long term contracts with suppliers and distributors replace services that company
+                  could provide for itself.
+             However, network structure does have following disadvantages that the company may
+             face in future:
+             1.   The availability of numerous potential partners can be a source of trouble.
+             2.   Co-ordination among the functioning of business partners is perhaps, the biggest
+                  problem for the management in the networking structure.
+             3.   Employees may lack the level of confidence necessary to participate actively in
+                  organisation sponsored learning experiences.
+        21. The audit of management performance with regard to its strategies helps ‘Zumba Robots’
+            identify problem areas and correct the strategic approaches that have not been effective
+            so far. A strategy audit is a review of a company's business plan and strategies to
+            identify weaknesses and shortcomings and enable a successful development of the
+            company. An assessment of the external environment shows where changes happen and
+            where organization’s strategic management no longer match the demands of the
+            marketplace. Based on such analysis, Zumba Robots can improve business performance
+            by periodically conducting such an audit.
+        22. Strategic Control focuses on the dual questions of whether: (1) the strategy is being
+            implemented as planned; and (2) the results produced by the strategy are those
+            intended.
+             There are four types of strategic control:
+                 Premise control: A strategy is formed on the basis of certain assumptions or
+                  premises about the environment. Premise control is a tool for systematic and
+                  continuous monitoring of the environment to verify the validity and accuracy of the
+                  premises on which the strategy has been built.
+                 Strategic surveillance: Strategic surveillance is unfocussed. It involves general
+                  monitoring of various sources of information to uncover unanticipated information
+                  having a bearing on the organizational strategy.
+                 Special alert control: At times, unexpected events may force organizations to
+                  reconsider their strategy. Sudden changes in government, natural calamities,
+                  unexpected merger/acquisition by competitors, industrial disasters and other such
+                  events may trigger an immediate and intense review of strategy.
+                 Implementation control: Managers implement strategy by converting major plans
+                  into concrete, sequential actions that form incremental steps. Implementation
+                  control is directed towards assessing the need for changes in the overall strategy in
+                  light of unfolding events and results.
+
+
+
+
+© The Institute of Chartered Accountants of India
+

@@ -1,0 +1,92 @@
+# P6A-05 · fm-capital-structure · Capital Structure: debt और equity का सही mix
+
+## Introduction: सस्ता debt, तो सब loan से क्यों नहीं
+
+<|emotion:enthusiasm|>नमस्ते, मैं हूँ Arjun, और ये है PassBook, Out Loud, CA Inter Group Two की chapter-wise revision।
+पिछले episode में देव ने हर source की after-tax cost और WACC निकाली थी, और आज Paper six A का chapter five है, Financing Decisions, Capital Structure।
+<|emotion:amusement|>Tapri Cold Chain Private Limited पर कोई debt नहीं, और केसर का plan है कि shareholders पंद्रह प्रतिशत चाहते हैं, bank दस, तो shares हटाकर loan ले लो।
+ICAI ने ये chapter बासठ documents में पूछा है, जिनमें पंद्रह exam papers हैं, और सबसे ज़्यादा EBIT-EPS analysis और capital structure theories आई हैं।
+<|emotion:determination|>Episode के आख़िर तक आप चारों theories, MM का arbitrage, indifference point और financial break-even के formulas, और over-capitalisation के ICAI वाले points लिख पाएँगे।
+
+## Capital structure theories: क्या mix बदलने से value बदलती है
+
+<|emotion:contemplation|>देव का जवाब था कि हो सकता है shareholders bank के पीछे खड़े होकर बीस प्रतिशत माँगने लगें, यानी जवाब इस पर depend करता है कि आप किसकी theory मानते हैं।
+Firm की value है EBIT by K o, यानी operating profit को overall cost of capital से capitalise करना।
+K o है K d into D by V, plus K e into S by V, जहाँ D और S debt और equity की market values हैं, और V उनका जोड़।
+इसलिए capital structure तभी matter करता है जब mix बदलने से K o बदले, और चारों theories इसी एक सवाल का अलग-अलग जवाब हैं।
+
+<|emotion:determination|>Net Income approach में K e और K d constant हैं, S है NI by K e और V है S plus D, इसलिए ज़्यादा debt से K o गिरता है।
+Net Operating Income approach में K o और K d constant हैं, V है EBIT by K o और S है V minus D।
+यहाँ K e debt के साथ इतना बढ़ता है कि सस्ते debt का फ़ायदा cancel हो जाता है, इसलिए mix irrelevant है।
+Traditional approach में K d पहले flat रहता है फिर बढ़ता है, और K e पहले धीरे फिर तेज़ी से बढ़ता है।
+इसलिए K o पहले गिरता है फिर बढ़ता है, और सबसे कम K o वाला point optimum capital structure है।
+
+<|emotion:contemplation|>Modigliani-Miller की assumptions हैं perfect capital markets, rational investors, equivalent risk classes, और no corporate taxes, और बिना tax के उनके हिसाब से mix irrelevant है।
+<|prosody:speed_slow|>MM में levered firm का K e है K o plus, K o और K d का difference into debt by equity, और ये K o unlevered firm का K e है।
+ICAI के words में arbitrage refers to buying asset or security at lower price in one market and selling it at a higher price in another market।
+Arbitrage answer के तीन steps हैं valuation of firms, investment and borrowings, और change in return, और हमेशा ज़्यादा value वाली firm बेची जाती है।
+Levered firm महँगी हो तो investor उसके debt में अपने हिस्से के बराबर personal loan लेता है, to maintain the level of risk, और unlevered महँगी हो तो उतना lend करता है।
+
+<|emotion:determination|>Tax के साथ MM कहते हैं V g equals V u plus debt into t, यानी interest का tax shield levered firm की value बढ़ाता है।
+यहाँ V u है EBIT into one minus t, by K e u, यानी उसी जैसी unlevered firm की value, और K e u उसकी cost of equity है।
+Levered firm का K e है K e u plus, K e u और K d का difference into debt into one minus t by equity, और यहाँ K d pre-tax है।
+Levered firm का WACC है K e u into one minus t L, जहाँ t L है tax rate into L, और L है debt by debt plus equity, market value पर।
+Trade-off theory debt के tax benefit को financial distress और agency costs से तौलती है, और pecking order में पहले internal funds, फिर debt, और new equity सबसे आख़िर में आती है।
+Pecking order asymmetric information की वजह से है, क्योंकि managers वो source चुनते हैं जो सबसे कम information reveal करे।
+
+## EBIT-EPS analysis: कौन सा plan, किस EBIT पर
+
+<|emotion:amusement|>Theory के बाद Tapri का असली फ़ैसला samosa plant है, जिसके लिए देव ने shares, debentures और preference shares के तीन plans रखे, और केसर बोले shares, क्योंकि no interest, no tension।
+देव ने याद दिलाया कि नए shares मतलब हर rupee के profit में नए partners, और debt तभी जीतता है जब EBIT आठ करोड़ से ऊपर रहे।
+<|prosody:speed_slow|>EPS है EBIT minus I, into one minus t, minus P D, और फिर पूरा by N, जहाँ I interest है, P D preference dividend, और N existing plus नए equity shares।
+नए shares हमेशा amount by issue price से निकलते हैं, face value से नहीं, और existing interest और existing shares हर plan में जाते हैं।
+<|emotion:contemplation|>Return on assets fixed-charge funds की cost से ज़्यादा हो तो EPS बढ़ता है, इसे favourable financial leverage या trading on equity कहते हैं, वरना EPS गिरता है।
+
+ICAI के words में financial break-even point is the minimum level of EBIT needed to satisfy all the fixed financial charges, यानी interests और preference dividends।
+इसका formula है I plus, P D by one minus t, यानी सिर्फ़ preference dividend को one minus t से divide करते हैं, और इस EBIT पर EPS zero होता है।
+Indifference point वो EBIT है जिस पर दो financing alternatives की EPS lines intersect करती हैं, यानी दोनों plans की EPS बराबर हो, इसे EPS equivalency point भी कहते हैं।
+<|emotion:determination|>Formula है EBIT minus I one, into one minus t, by E one, बराबर EBIT minus I two, into one minus t, by E two, जहाँ E shares की संख्या है।
+Preference shares वाले plan में numerator से after-tax profit के बाद P D घटाइए, और expected EBIT indifference point से ऊपर हो तो ज़्यादा debt वाला plan, नीचे हो तो equity।
+Market price per share है EPS into P by E ratio, या EPS by K e, और P by E ratios अलग हों तो फ़ैसला सबसे ऊँचे MPS पर, EPS पर नहीं।
+
+## Capital structure planning and capitalisation: control, risk और cost
+
+<|emotion:contemplation|>तीन सौ नए cafés की meeting में केसर ने फिर shares कहा, तो देव बोले कि family इक्यावन प्रतिशत से नीचे चली जाएगी।
+अनन्या ने जोड़ा कि सब debt हो, तो एक खराब monsoon में भी interest महीने की पहली तारीख को आएगा।
+Capital structure is the combination of capitals from different sources of finance, यानी equity shareholders' fund, preference share capital और long-term external debts।
+Source और quantum तीन factors से तय होते हैं, control, ताकि existing shareholders majority रखें, risk, ताकि financial risk tolerable रहे, और cost, ताकि overall cost minimum हो।
+
+ICAI के सात principles इसी order में हैं, पहले financial leverage या trading on equity, फिर growth and stability of sales, cost principle, और risk principle।
+बाकी तीन हैं control principle, flexibility principle, और other considerations जैसे nature of industry, timing of issue और competition, और सही pattern इनका compromise है।
+Optimal capital structure वो है जहाँ value सबसे ज़्यादा और cost of capital सबसे कम हो, और इसे EBIT-EPS-MPS, indifference point और financial break-even analysis से ढूँढते हैं।
+
+<|emotion:amusement|>केसर के cousin ने sweets factory के लिए साठ करोड़ जुटाए जो एक तिहाई capacity पर चलती है, जबकि Indore की पहली tapri पचास हज़ार में factory जैसा कमाती थी।
+Over-capitalisation में firm के पास ज़रूरत से ज़्यादा capital होता है, earnings dividend और interest के लिए कम पड़ती हैं, और chief sign है dividend और interest payment का गिरना।
+<|emotion:determination|>पाँच causes में पहले तीन हैं, जितना profitably लगा सकें उससे ज़्यादा shares या debentures issue करना, कमाई से ऊँचे rate पर borrowing, और goodwill जैसे fictitious assets के लिए ज़्यादा payment।
+बाकी दो causes हैं depreciation, replacement और ऊँचे dividends की improper provision, और earnings और capitalisation का wrong estimation।
+
+Consequences हैं dividend और interest rate में भारी कमी, share price में गिरावट, window dressing का सहारा, और reorganisation या कभी liquidation।
+Remedies हैं thorough reorganisation, buyback of shares, debenture-holders और creditors के claims में reduction, और shares की value में reduction।
+Under-capitalisation में capitalisation earning capacity से कम होती है, अक्सर secret reserves की वजह से, और इसके remedies हैं share split, bonus shares, जो most appropriate है, और par value ऊपर करना।
+दोनों अच्छे नहीं, पर over-capitalisation ज़्यादा dangerous है, जबकि under-capitalisation economic problem नहीं, capital structure adjust करने का problem है।
+
+## Exam angle: ICAI ये chapter कैसे पूछता है
+
+<|emotion:determination|>EBIT-EPS सबसे ज़्यादा आता है, case scenario के दो-दो marks वाले MCQs में और तीन से आठ marks के descriptive में, जहाँ EPS, MPS, financial BEP और indifference point निकालने होते हैं।
+Theories में levered और unlevered firms का arbitrage, दो companies पर MM बिना tax और tax के साथ, और traditional approach से optimum debt वाले सवाल दोहराए गए हैं।
+Theory में over-capitalisation के causes दोहराए गए हैं, और optimal capital structure, pecking order, और financial break-even और indifference analysis भी पूछे गए हैं।
+
+<|emotion:contemplation|>आम गलती arbitrage में personal loan भूल जाना है, जबकि अपने हिस्से का debt लेकर invest करना ही risk बराबर रखता है।
+MM with tax में equity की value V g minus debt है, और difference वाले हिस्से में pre-tax K d, पर weighted average में post-tax K d जाता है।
+Financial BEP में preference dividend को one minus t से divide करना, और over-capitalised company को bonus shares का remedy न देना भी याद रखिए।
+Scenario वाले सवाल में पहली line में situation का नाम लिखिए, फिर ICAI की list उसी order में, और numerical में हर plan के shares और interest के working notes दीजिए।
+
+## Summary: साठ seconds की revision
+
+<|emotion:contentment|>साठ seconds में chapter ये है: value है EBIT by K o, NI में debt से K o गिरता है, और NOI और MM बिना tax में constant रहता है।
+Traditional में K o पहले गिरकर फिर बढ़ता है, और tax के साथ MM कहते हैं V g equals V u plus debt into t।
+EPS है EBIT minus I, into one minus t, minus P D, फिर पूरा by N, और financial BEP है I plus, P D by one minus t।
+Indifference point पर दोनों plans की EPS बराबर है, और capital structure control, risk और cost का balance है, जिसमें over-capitalisation ज़्यादा dangerous है।
+
+अगले episode में देव देखेंगे कि fixed costs और fixed interest EBIT और EPS को कितनी तेज़ी से हिलाते हैं, यानी Paper six A का chapter six, Financing Decisions, Leverages।
+<|emotion:affection|>ये था PassBook, Out Loud, और मैं हूँ Arjun, अगले chapter में फिर मिलते हैं।

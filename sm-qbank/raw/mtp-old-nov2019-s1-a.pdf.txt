@@ -1,0 +1,322 @@
+                                                             Test Series: October, 2019
+                                 MOCK TEST PAPER  1
+                           INTERMEDIATE  (NEW): GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS AND  STRATEGIC MANAGEMENT
+                    SECTION – A: ENTERPRISE INFORMATION SYSTEMS
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                                      Answers
+                          Division A - Multiple Choice Questions
+                                                                 Total Marks: 15 Marks
+1.  (c) Regulatory Risk
+2.  (a) Environmental Controls
+3.  (a) Application Software
+4.  (d) Type of Vendors
+5.  (d) Selection of employees
+6.  (a) Diligence
+7.  (b) Control Activities
+8.  (c) Installed Application
+9.  (d) Relational database Model
+10. (a) Client tier, Middle tier, Database tier
+                            Section B Descriptive Questions
+1.  (a) A variety of activities are executed by Operating Systems which include:
+           Performing hardware functions: Operating System acts as an intermediary between the
+            application program and the hardware by obtaining input from keyboards, retrieve data from
+            disk and display output on monitors
+           User Interfaces: Nowadays, Operating Systems are Graphic User Interface (GUI) based
+            which uses icons and menus like in the case of Windows.
+           Hardware Independence: Operating System provides Application Program Interfaces (API),
+            which can be used by application developers to create application software, thus obviating
+            the need to understand the inner workings of OS and hardware. Thus, OS gives us hardware
+            independence.
+           Memory Management: Operating System allows controlling how memory is accessed and
+            maximize available memory and storage.
+           Task Management: This facilitates a user to work with more than one application at a time
+            i.e. multitasking and allows more than one user to use the system i.e. time sharing.
+           Networking Capability: Operating systems can provide systems with features and
+            capabilities to help connect computer networks like Linux & Windows 8.
+           Logical Access Security: Operating systems provide logical security by establishing a
+            procedure for identification and authentication using a User ID and Password.
+
+           File management: The operating system keeps a track of where each file is stored and who
+            can access it, based on which it provides the file retrieval.
+    (b) The risks of Business Process Automation (BPA) are classified below:
+        •   Input & Access: All input transaction data may not be accurate, complete and authorized.
+        •   File & Data Transmission: All files and data transmitted may not be processed accurately
+            and completely, due to network error.
+        •   Processing: Valid input data may not have been processed accurately and completely due
+            to program error or bugs.
+        •   Output: Is not complete and accurate due to program error or bugs and is distributed to
+            unauthorized personnel due to weak access control.
+        •   Data: Master data and transaction data may be changed by unauthorized personnel due to
+            weak access control.
+        •   Infrastructure: All data & programs could be lost if there is no proper backup in the event of
+            a disaster and the business could come to a standstill.
+2.  (a) Various steps of automation are given as follows:
+        Step 1: Define why we plan to go for a BPA?
+        Step 2: Understand the rules / regulation under which needs to comply with?
+        Step 3: Document the process, we wish to automate.
+        Step 4: Define the objectives/goals to be achieved by implementing BPA.
+        Step 5: Engage the business process consultant.
+        Step 6: Calculate the ROI for project.
+        Step 7: Developing the BPA.
+        Step 8: Testing the BPA.
+    (b) Risks associated with respect to Data Centre and Network Operation in CBS are:
+        •   The transaction may not be recorded completely or accurately, and the related items will be
+            inaccurately or incompletely recorded.
+        •   Invalid items may be recorded or valid items may be inaccurately or incompletely reco rded.
+        •   Timelyand adequate technical support may not be available and issues may not be resolved.
+        •   User queries may not be timely and adequately resolved. Help desk function exists to provide
+            support on user queries regarding systems.
+        •   Timely execution and complete processing and availability of data may not be ensured.
+        •   Unavailability of applications and data backups in the event of a disaster. It can also result in
+            disclosure of sensitive information.
+        •   Data may be lost and systems may not be recoverable in the event of a serious system failure.
+            This may result in regulatory/ legal complaints, loss of reputation beside financial loss.
+        •   Backup may not be available if subject to some disaster, resulting in risk of data loss.
+3.  (a) Steps involved in Purchase Process are as following:
+           Purchase Requisition from Production Department: Production department sends a
+            request to purchase department for purchase of raw material required for production.
+
+           Evaluation of Requisition: Purchase department shall evaluate the requisition with the
+            current stock position and purchase order pending position and shall decide about accepting
+            or rejection the requisition.
+           Asking for Quotation: If requisition is accepted, quotations shall be asked to approve
+            vendors for purchase of material.
+           Evaluation of quotations – Quotations received shall be evaluated and compared.
+           Purchase Order – This is a transaction for letting an approved vendor know what we want to
+            purchase, how much we want to purchase, at what rate we want to purchase, by what date
+            we want the delivery, where we want the delivery. Hence a typical purchase order shall have
+            following information.
+| • | Description of stock items to be purchased. |
+| --- | --- |
+| • | Quantity of these stock items. |
+| • | Rate for purchases. |
+| • | Due Date by which material is to be received. |
+| • | Godown where material is to be received. |
+           Material Receipt – This is a transaction of receipt of material against purchase order. This is
+            commonly known as Material Receipt Note (MRN) or Goods Receipt Note (GRN). This
+            transaction shall have a linking with Purchase Order. Information in Purchase Order is
+            automatically copied to Material Receipt Voucher for saving time and efforts of user. Stock is
+            increased after recording of this transaction.
+           Issue of material – Material received by stores shall be issued to production department as
+            per requirement.
+           Purchase Invoice – This is a financial transaction. Trial balance is affected due this
+            transaction. Material Receipt transaction does not affec t trial balance. This transaction shall
+            have a linking with Material Receipt Transaction and all the details of material received shall
+            be copied automatically in purchase invoice. As stock is increased in Material Receipt
+            transaction, it will not be increased again after recording of purchase invoice.
+           Payment to Vendor – Payment shall be made to vendor based on purchase invoice recorded
+            earlier. Payment transaction shall have a linking with purchase invoice.
+    (b) Traditional Methods of Digital Payment are as follows:
+        (i) E-Wallet: E-wallet or mobile wallet is the digital version of physical wallet with more
+            functionality. User can keep his / her money in an E-wallet and use it when needed. Use the
+            E-wallets to recharge phone, pay at various places and send money to friends. If user’s have
+            a smartphone and a stable internet connection, they can use E-wallets to make payments.
+            These E-Wallets also give additional cashback offers.
+        (ii) Cards: Cards are provided by banks to their account holders. These have been the most
+            used digital payment modes till now. Various types of cards are as follows:
+            a.  Credit Cards: A small plastic card issued by a bank, or issuer etc., allowing the holder
+                to purchase goods or services on credit. In this mode of payment, the buyer’s cash flow
+                is not immediately impacted. User of the card makes payment to card issuer at end of
+                billing cycle which is generally a monthly cycle. Credit Card issuer charge customers per
+                transactions / 5% of transaction as transaction fees.
+            b.  Debits Cards: A small plastic card issued by a bank. Allowing the holder to purchase
+                goods or services on credit. In this mode of payment, the buyer’s cash flow is
+                immediately affected that as soon as payment is authorized buyers account is debited.
+
+        (iii) Net Banking: In this mode, the customers log to his / her bank account and makes payments.
+            All public sectors, large private sector banks allow net banking facilities to their customers.
+4.  (a) The major benefits from e-business are as follows:
+        A.  Benefits to Customer / Individual / User
+| • | Convenience: Every product at the tip of individual’s fingertips on internet. |
+| --- | --- |
+| • | Time saving: No. of operations that can be performed both by potential buyers and sellers increase. |
+| • | Various Options: There are several options available for customers which are not only being easy to compare but are provided by different players in the market. |
+| • | Easy to find reviews: There are often reviews about a particular site or product from the previous customers which provides valuable feedback. |
+| • | Coupon and Deals: There are discount coupons and reward points available for customers to encourage online transaction. |
+| • | Anytime Access: Even midnight access to the e commerce platforms is available which brings in customer suitability. |
+|  | OR |
+        B.  Benefits to Business / Sellers
+| • | Increased Customer Base: Since the number of people getting online is increasing, which are creating not only new customers but also retaining the old ones. |
+| --- | --- |
+| • | Recurring payments made easy: Each business has number of operations being homogeneous. Brings in uniformity of scaled operations. |
+| • | Instant Transaction: The transactions of e commerce are based on real time processes. |
+|  | This has made possible to crack number of deals. |
+| • | Provides a dynamic market: Since there are several players, providing a dynamic market which enhances quality and business. |
+| • | Reduction in costs: |
+                   To buyers from increased competition in procurement as more suppliers are able
+                    to compete in an electronically open marketplace.
+                   To suppliers by electronically accessing on-line databases of bid opportunities, on-
+                    line abilities to submit bids, and on-line review of rewards.
+                   In overhead costs through uniformity, automation, and large-scale integration of
+                    management processes.
+                   Advertising costs.
+            •   Efficiency improvement due to:
+                   Reduction in time to complete business transactions, particularly from delivery to
+                    payment.
+                   Reduction in errors, time, for information processing by eliminating requirements
+                    for re-entering data.
+                   Reduction in inventories and reduction of risk of obsolete inventories as the
+                    demand for goods and services is electronically linked through just-intime inventory
+                    and integrated manufacturing techniques.
+            •   Creation of new markets: This is done through the ability to easily and cheaply reach
+                potential customers.
+
+            •   Easier entry into new markets: This is especially into geographically remote markets,
+                for enterprises regardless of size and location.
+            •   Better quality of goods: As standardized specifications and competition have
+                increased and improved variety of goods through expanded markets and the ability to
+                produce customized goods. Elimination of Time Delays: Faster time to market as
+                business processes are linked, thus enabling seamless processing and eliminating time
+                delays.
+    (b) Risk and Control related to Mortgage Process are as follows:
+| Risk | Key Controls |
+| --- | --- |
+| Incorrect customer and loan details are captured which will affect the overall downstream process. | There is secondary review performed by an independent team member who will verify loan details captured in core banking application with offer letter. |
+| Incorrect loan amount disbursed. | There is secondary review performed by an independent team member who will verify loan amount to be disbursed with the core banking application to the signed offer letter. |
+| Interest amount is incorrectly calculated and charged. | Interest amount is auto calculated by the core banking application basis loan amount, ROI and tenure. |
+| Unauthorized changes made to loan master data or customer data. | System enforced segregation of duties exist in the core banking application where the inputter of the transaction cannot approve its own transaction and reviewer cannot edit any details submitted by inputter. |
+5.  (a) The functions performed in organizing and controlling functions are as follows:
+        A.  Organizing – There should be a prescribed IT organizational structure with documented roles
+            and responsibilities and agreed job descriptions. This includes gathering, allocating, and
+            coordinating the resources needed to accomplish the goals that are established during
+            Planning function.
+            a.  Resourcing the Information Systems Function: A major responsibility of top
+                management is to acquire the resources needed to accomplish the goals and objectives
+                set out in the information systems plan. These resources include hardware, software,
+                personnel, finances and facilities.
+            b.  Staffing the Information systems Function: Staffing the Information systems function
+                involves three major activities - Acquisition of information systems personnel,
+                Development of information systems personnel; and Termination of information system s
+                personnel.
+        B.  Controlling – This includes comparing actual performance with planned performance as a
+            basis for taking any corrective actions that are needed. This involves determining when the
+            actual activities of the information system’s functions deviate from the planned activities.
+               Overall Control of IS Function: When top managers seek to exercise overall control of
+                the information systems function, two questions arise:
+                •   How much  the organization should be spending on the information system s
+                    function?
+                •   Is the organization getting value for the money from its information system s
+                    function?
+               Control of Information System Activities: Top managers should seek to control the
+                activities based on Policies and Procedures; where Policies provide broad, general
+
+                guidelines for behavior whereas Standards provide specific guidelines for behavior. New
+                and existing staff must be made aware of the policies and procedures that govern their
+                work.
+               Control over Information System Services: For each service level, estimates must be
+                made of he expected benefits and resource consumption and finally the review
+                committee must establish priorities.
+    (b) The characteristics of information are as follows:
+        •   Relevant - MIS reports need to be specific to the business area they address. This is
+            important because a report that includes unnecessary information might be ignored.
+        •   Timely - Managers need to know what’s happening now or in the recent past to make
+            decisions about the future. Be careful not to include information that is old. An example of
+            timely information for your report might be customer phone calls and emails going back 12
+            months from the current date.
+        •   Accurate - It’s critical that numbers add up and that dates and times are correct. Managers
+            and others who rely on MIS reports can’t make sound decisions with information that is wrong.
+            Financial information is often required to be accurate to the dollar. In other cases, it may be
+            OK to round off numbers.
+        •   Structured - Information in an MIS report can be complicated. Making that information easy
+            to follow helps management understand what the report is saying. Try to break long passages
+            of information into more readable blocks or chunks and give these chunks meaningful
+            headings.
+
+                                                             Test Series: October, 2019
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.
+         (i)     (ii)   (iii)   (iv)   (v)     (vi)   (vii)   (viii) (ix)    (x)
+         d       d      d       b      c       c      b       b      d       a
+         (xi)    (xii)  (xiii)  (xiv)  (xv)
+         a       c      b       c      b
+2.  Coffee Beans is opting for differentiation strategy. This strategy is aimed at broad mass market and
+    involves the creation of a product or service that is perceived by the customers as unique. The
+    uniqueness can be associated with product design, brand image, features, technology, dealer network
+    or customer service. Because of differentiation, Coffee Beans can charge a premium for its product.
+3.  (a) Strategy is partly proactive and partly reactive. In proactive strategy, organizations will analyze
+        possible environmental scenarios and create strategic framework after proper planning and set
+        procedures and work on these strategies in a predetermined manner. However, in reality no
+        company can forecast both internal and external environment exactly. Everything cannot be
+        planned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour,
+        evolving technologies and so on.
+        There can be significant deviations between what was visualized and what actually happens.
+        Strategies need to be attuned or modified in the light of possible environmental changes. There
+        can be significant or major strategic changes when the environment demands. Reactive strategy
+        is triggered by the changes in the environment and provides ways and means to cope with th e
+        negative factors or take advantage of emerging opportunities.
+    (b) The audit of management performance with regard to its strategies helps ‘Zumba Robots’ identify
+        problem areas and correct the strategic approaches that have not been effective so far. A strategy
+        audit is a review of a company's business plan and strategies to identify weaknesses and
+        shortcomings and enable a successful development of the company. An assessment of the external
+        environment shows where changes happen and where organization’s strategic management no
+        longer match the demands of the marketplace. Based on such analysis, Zumba Robots can
+        improve business performance by periodically conducting such an audit.
+4.  (a) Decision making is a managerial process of selecting the best course of action out of several
+        alternative courses for the purpose of accomplishment of the organizational goals. Decisions may
+        be operational i.e., which relate to general day-to-day operations. They may also be strategic in
+        nature. According to Jauch and Glueck “Strategic decisions encompass the definition of the
+        business, products to be handled, markets to be served, functions to be performed and
+        major policies needed for the organisation to execute these decisions to achieve the
+        strategic objectives.”
+        The primary task of the strategic manager is conceptualizing, designing and executing company
+        strategies. For this purpose, his tasks include:
+           Defining the mission and goals of the organization.
+           Determining what businesses it should be in.
+           Allocating resources among the different businesses.
+           Formulating and implementing strategies that span individual businesses.
+
+           Providing leadership for the organization.
+    (b) Core competencies are capabilities that serve as a source of competitive advantage for a firm over
+        its rivals. Core competency as the collective learning in the organization, especially coordinating
+        diverse production skills and integrating multiple streams of technologies. An organization’s
+        combination of technological and managerial know-how, wisdom and experience are a complex
+        set of capabilities and resources that can lead to a competitive advantage compared to a
+        competitor.
+5.  (a) Human  resource management has been accepted as a strategic partner in the formulation of
+        organization’s strategies and in the implementation of such strategies through human resource
+        planning, employment, training, appraisal and reward systems. The following points should be kept
+        in mind as they can have a strong influence on employee competence:
+        i.  Recruitment and selection: The workforce will be more competent if a firm can successfully
+            identify, attract, and select highly competent applicants.
+        ii. Training: The workforce will be more competent if employees are well trained to perform their
+            jobs properly.
+        iii. Appraisal of performance: The performance appraisal is to identify any performance
+            deficiencies experienced by employees due to lack of competence. Such deficiencies, once
+            identified, can often be solved through counselling, coaching or training.
+        iv. Compensation: A firm can usually increase the competency of its workforce by offering pay,
+            benefits and rewards that are not only attractive than those of their competitors but also
+            recognizes merit.
+    (b)
+| Divestment Strategy | Liquidation Strategy |
+| --- | --- |
+| Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit center or SBU. | It involves closing down a firm and selling its assets. |
+| Divestment is usually a part of rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful. Option of a turnaround may even be ignored if it is obvious that divestment is the only answer. | Liquidation becomes only option in case of severe and critical conditions where either turnaround and divestment are not seen as solution or have been attempted but failed. |
+| Efforts are made for the survival of organization. | Liquidation as a form of retrenchment strategy is considered as the most extreme and unattractive. |
+| Survival of organization helps in retaining personnel, at least to some extent. | There is loss of employment with stigma of failure. |
+6.  (a) The most important phenomenon which often distinguishes one organisation with another is its
+        corporate culture. Corporate culture refers to a company’s values, beliefs, business principles,
+        traditions, and ways of operating and internal work environment. Every corporation has a culture
+        that exerts powerful influences on the behaviour of managers.
+        (i) As a strength: Culture can facilitate communication, decision making and control and instil
+            cooperation and commitment. An organization’s culture could be strong and cohesive when it
+            conducts its business according to clear and explicit set of principles and values, which the
+            management devotes considerable time to communicating to employees and which values
+            are shared widely across the organisation.
+
+        (ii) As a weakness: Culture, as a weakness can obstruct the smooth implementation of strategy
+            by creating resistance to change. An organization’s culture could be characterised as weak
+            when many sub-cultures exists, few values and behavioural norms are shared and traditions
+            are rare. In such organizations, employees do not have a sense of commitment, loyalty and
+            sense of identity.
+    (b) Turnaround is needed when an enterprise's performance deteriorates to a point that it needs a
+        radical change of direction in strategy, and possibly in structure and culture as well. It is a highly
+        targeted effort to return an organization to profitability and increase positive cash flows to a
+        sufficient level. It is used when both threats and weaknesses adversely affect the health of an
+        organization so much that its basic survival is difficult.
+        The overall goal of turnaround strategy is to return an underperforming or distressed company to
+        normalcy in terms of acceptable levels of profitability, solvency, liquidity and cash flow. To achieve
+        its objectives, turnaround strategy must reverse causes of distress, resolve the financial crisis,
+        achieve a rapid improvement in financial performance, regain stakeholder support, and overcome
+        internal constraints and unfavourable industry characteristics.

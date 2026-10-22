@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+h3{font-size: 20px;color: #143868; text-align: center;}
+
+.head_title{
+	background: #143868 !important;
+	background: linear-gradient(90deg, rgba(20,56,104,1) 35%, rgba(68,154,200,1) 100%) !important;
+	padding: 5px 7px !important;
+	border-radius: 0 !important;
+	margin: -1px;
+}
+.panel-default{margin-bottom:15px !important; border: 1px solid #143868;}
+h4{	color:#fff; 
+	width:100%;
+	display: block;
+	background: #143868 !important;
+	background: linear-gradient(90deg, rgba(20,56,104,1) 35%, rgba(68,154,200,1) 100%) !important;
+	padding:10px;
+	font-weight: normal;
+	margin: 0;
+	cursor: pointer;}
+p b{color:#020066;}
+.panel-default > .panel-heading {
+    color: #fff;
+    background: #143868;
+	background: linear-gradient(90deg, rgba(20,56,104,1) 35%, rgba(68,154,200,1) 100%);
+    border-color: #020066;
+	padding: 10px 15px;
+	font-size: 15px;
+}
+.title{
+		font-weight: bold;
+		font-size: 15px;
+		color: var(--titleColor);
+		line-height: 34px;
+		margin-bottom: 5px;
+	}
+.title img{width: 10%; float: left; margin-right: 8px;}
+</style>
+<body>
+<div class="col-md-12">
+	<h3>Mock Test Papers Series - I for Students appearing in May 2024 Intermediate Examination </h3>
+	<hr/>
+	<div class="panel-group" id="bos">
+		        
+		<div class="panel panel-default">
+			<h4 class="panel-heading">Paper-1: Advanced Accounting</h4>
+			<div class="panel-body">
+				<div class="title">
+					<img src="../assets/images/date.png" class="img-responsive">
+					05-Mar-2024 - 2 PM to 5 PM				</div>
+									<button type="button" data-toggle="modal" data-target="#exampleModalquestion93" class="btn btn-primary btn-xs" >Question</button>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalquestion93" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="93" />
+										 <input type="hidden" class="" name="question_link" value="MTP_17_48_QUESTIONS_1714374359.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe_question" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+								
+										  <button type="button" data-toggle="modal" data-target="#exampleModal93" class="btn btn-success btn-xs" >Answer</button>
+						  <!-- Modal -->
+						  <div class="modal fade" id="exampleModal93" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="93" />
+										 <input type="hidden" class="" name="answer_link" value="MTP_17_48_ANSWERS_1709809437.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+					   <a class='btn btn-info btn-xs' href='../mock_test_paper/MTP_17_48_CORRIGENDUM_1714381769.pdf' >Corrigendum</a>			</div>
+		</div>
+		
+		        
+		<div class="panel panel-default">
+			<h4 class="panel-heading">Paper-2: Corporate and Other Laws</h4>
+			<div class="panel-body">
+				<div class="title">
+					<img src="../assets/images/date.png" class="img-responsive">
+					07-Mar-2024 - 2 PM to 5 PM				</div>
+									<button type="button" data-toggle="modal" data-target="#exampleModalquestion94" class="btn btn-primary btn-xs" >Question</button>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalquestion94" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="94" />
+										 <input type="hidden" class="" name="question_link" value="MTP_17_49_QUESTIONS_1709995807.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe_question" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+								
+										  <button type="button" data-toggle="modal" data-target="#exampleModal94" class="btn btn-success btn-xs" >Answer</button>
+						  <!-- Modal -->
+						  <div class="modal fade" id="exampleModal94" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="94" />
+										 <input type="hidden" class="" name="answer_link" value="MTP_17_49_ANSWERS_1709995807.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+					   			</div>
+		</div>
+		
+		        
+		<div class="panel panel-default">
+			<h4 class="panel-heading">Paper-3: Taxation</h4>
+			<div class="panel-body">
+				<div class="title">
+					<img src="../assets/images/date.png" class="img-responsive">
+					09-Mar-2024 - 2 PM to 5 PM				</div>
+									<button type="button" data-toggle="modal" data-target="#exampleModalquestion95" class="btn btn-primary btn-xs" >Question</button>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalquestion95" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="95" />
+										 <input type="hidden" class="" name="question_link" value="MTP_17_50_QUESTIONS_1709941063.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe_question" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+								
+										  <button type="button" data-toggle="modal" data-target="#exampleModal95" class="btn btn-success btn-xs" >Answer</button>
+						  <!-- Modal -->
+						  <div class="modal fade" id="exampleModal95" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="95" />
+										 <input type="hidden" class="" name="answer_link" value="MTP_17_50_ANSWERS_1713164107.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+					   			</div>
+		</div>
+		
+		        
+		<div class="panel panel-default">
+			<h4 class="panel-heading">Paper-4: Cost and Management Accounting</h4>
+			<div class="panel-body">
+				<div class="title">
+					<img src="../assets/images/date.png" class="img-responsive">
+					12-Mar-2024 - 2 PM to 5 PM				</div>
+									<button type="button" data-toggle="modal" data-target="#exampleModalquestion96" class="btn btn-primary btn-xs" >Question</button>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalquestion96" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="96" />
+										 <input type="hidden" class="" name="question_link" value="MTP_17_51_QUESTIONS_1710158898.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe_question" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+								
+										  <button type="button" data-toggle="modal" data-target="#exampleModal96" class="btn btn-success btn-xs" >Answer</button>
+						  <!-- Modal -->
+						  <div class="modal fade" id="exampleModal96" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="96" />
+										 <input type="hidden" class="" name="answer_link" value="MTP_17_51_ANSWERS_1710419441.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+					   			</div>
+		</div>
+		
+		        
+		<div class="panel panel-default">
+			<h4 class="panel-heading">Paper-5: Auditing and Ethics</h4>
+			<div class="panel-body">
+				<div class="title">
+					<img src="../assets/images/date.png" class="img-responsive">
+					14-Mar-2024 - 2 PM to 5 PM				</div>
+									<button type="button" data-toggle="modal" data-target="#exampleModalquestion97" class="btn btn-primary btn-xs" >Question</button>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalquestion97" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="97" />
+										 <input type="hidden" class="" name="question_link" value="MTP_17_52_QUESTIONS_1710925618.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe_question" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+								
+										  <button type="button" data-toggle="modal" data-target="#exampleModal97" class="btn btn-success btn-xs" >Answer</button>
+						  <!-- Modal -->
+						  <div class="modal fade" id="exampleModal97" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="97" />
+										 <input type="hidden" class="" name="answer_link" value="MTP_17_52_ANSWERS_1710606484.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+					   			</div>
+		</div>
+		
+		        
+		<div class="panel panel-default">
+			<h4 class="panel-heading">Paper-6: Financial Management & Strategic Management</h4>
+			<div class="panel-body">
+				<div class="title">
+					<img src="../assets/images/date.png" class="img-responsive">
+					16-Mar-2024 - 2 PM to 5 PM				</div>
+									<button type="button" data-toggle="modal" data-target="#exampleModalquestion98" class="btn btn-primary btn-xs" >Question</button>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalquestion98" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="98" />
+										 <input type="hidden" class="" name="question_link" value="MTP_17_53_QUESTIONS_1710507531.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe_question" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+								
+										  <button type="button" data-toggle="modal" data-target="#exampleModal98" class="btn btn-success btn-xs" >Answer</button>
+						  <!-- Modal -->
+						  <div class="modal fade" id="exampleModal98" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							 <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								   <div class="modal-header">
+								   <h5 class="modal-title" id="exampleModalLabel">Mock Test Paper</h5>
+								   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+								   </button>
+								   </div>
+								   <div class="modal-body">
+									  Do you want to Subscribe the mock test paper session?
+								   </div>
+								   <div class="modal-footer">
+									  <form action="" method="post">
+										 <input type="hidden" class="" name="reg_no" value="" />
+										 <input type="hidden" class="" name="mtp" value="98" />
+										 <input type="hidden" class="" name="answer_link" value="MTP_17_53_ANSWERS_1710739163.pdf" />
+										 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+										 <button type="submit" name="subscribe" class="btn btn-primary">Yes</button>
+									  </form>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+					   			</div>
+		</div>
+		
+			</div>
+</div>
+
+</body>
+</html>

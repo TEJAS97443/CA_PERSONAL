@@ -1,0 +1,285 @@
+                                                               Test Series: March 2023
+                                 MOCK  TEST PAPER-I
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                PART I: MULTIPLE CHOICE QUESTIONS             Total Marks: 15 Marks
+Question No(s). 1 to 5 carries 2 marks each.
+The ABC Ltd. is a pharmaceutical company that conducts the studies on diseases, research, invent and
+manufacture new drugs/medicines. The company requires medical data a nd reports of patients for
+researching and discovering new drugs.
+Under Pharmaceutical manufacturing, the process of drug manufacturing comprises of a series of unit
+operations such as milling, granulation, coating, tablet pressing, and others. For better coordination between
+these multiple operations, the management decided to implement customized ERP systems so as to prepare
+a unified system that could control, connect, and integrate all the departments, and internal processes, and
+automate all the key functions such as planning, procurement, inventory, and manufacturing. The ERP system
+shall enable ABC Ltd. in remotely assessing the demand, operations management, manufacturing related
+work-in-progress and tracking the final delivery of the product and at the same time ensuring the standard
+quality check mode.
+Furthermore, to speed up the drug discovery and research processes, the Cloud Computing combined with
+the power of emerging technologies like Artificial Intelligence (AI) and Machine Learning (ML) h as opened a
+plethora of opportunities for ABC Ltd. to speed up its commercial results and save costs.
+The ABC Ltd. speculates that the implementation of robust ERP system shall evolve a strategy for them in
+revamping its supply chain strategies to avert any unfavorable situation in near future. Also, the company
+acknowledges the fact that in today’s dynamic environment, there will always be certain risks that would
+evolve with ERP implementation and therefore it needs to adopt different strategies to manage various risks
+based on their nature and criticality.
+As the audit is an annual compliance requirement under the Act and Company Law Rules, ABC Ltd. hired
+CA. Suraj to audit its ERP system to determine how adequately individual ERP modules are solving problems
+and streamlining workflows, with a view to make improvements and sure-up the system.
+Attempt the Q. No(s) 1 to 4 based on the above case scenario. Question no. 5 is independent.
+1.  The ABC Ltd. has contracts with some other pharmaceutical manufacturers who in case of high demand,
+    shall help the ABC Ltd. in scaling up their manufacturing to meet the higher demands. Cho ose the risk
+    management strategy adopted by ABC Ltd. in this case.
+    (a) Transfer the risk
+    (b) Terminate the risk
+    (c) Tolerate the risk
+    (d) Treat the risk
+
+2.  Due to the implementation of Quality Management Module of ERP system, the ABC Ltd. can ensure the
+    standard quality check mode of its entire range of products. The implementation of the Quality
+    Management module requires following steps:
+    (i) Set quality targets to be met.
+    (ii) Take the actions needed to measure quality.
+    (iii) In case any change is needed in the product, change requests are sent.
+    (iv) Report on the overall level of quality is achieved.
+    (v) Master data and standards are set for quality management.
+    (vi) Quality management plan is prepared.
+    (vii) Identify quality issues and improvements and changes to be made.
+    (viii) Quality is checked at multiple points.
+    (ix) Define how those quality targets will be measured.
+    Choose the correct sequence of the implementation.
+    (a) (ii) – (i) – (iv) – (v) – (ix) – (viii) – (iii) – (vi) – (vii)
+    (b) (v) – (i) – (vi) – (ix) – (ii) – (vii) – (iii) – (iv) – (viii)
+    (c) (v) – (i) – (iv) – (ix) – (vii) – (viii) – (iii) – (vi) – (ii)
+    (d) (v) – (i) – (vi) – (ix) – (iv) – (viii) – (iii) – (vii) – (ii)
+3.  To audit the implementation of Security Management Controls in ERP environment of the ABC Ltd ., CA.
+    Suraj shall investigate the following aspects except one. Pick the odd one option.
+    (a) He must evaluate whether security administrators in the ABC Ltd. are conducting ongoing, high
+        quality security reviews or not.
+    (b) He shall check whether the ABC Ltd. has appropriate, high quality disaster recovery plan in place
+        or not.
+    (c) He might employ test data to evaluate whether access controls and update controls in ABC Ltd.
+        are working or not.
+    (d) He shall check whether ABC Ltd. has opted for an appropriate insurance plan or not.
+4.  The statement related to Cloud Computing environment of the ABC Ltd. are described below:
+    (i) To store data on storage services provided by service provider on pay-as-per need basis.
+    (ii) The failure of server is completely isolated.
+    (iii) A single physical server partitioned into multiple logical servers.
+    (iv) The ability to expand and reduce resources according to the specific service requirement.
+    The one word referring to each of these statements is as follows:
+    (A) Resiliency
+    (B) Virtualization
+    (C) Infrastructure as a Service
+    (D) Elasticity and Scalability
+
+    Choose the correct match of the word defining the statements:
+    (a) (i) – (C), (ii) – (A), (iii) – (B), (iv) – (D)
+    (b) (i) – (A), (ii) – (B), (iii) – (C), (iv) – (D)
+    (c) (i) – (D), (ii) – (A), (iii) – (B), (iv) – (C)
+    (d) (i) – (A), (ii) – (C), (iii) – (D), (iv) – (B)
+5.  OPQ  Ltd. has a repute in the construction industry majorly focusing on the ideation, creation, and
+    maintenance of residential, commercial, and industrial buildings. The company prepared a USB Pen
+    Drive to store highly confidential data related to the new tender of XYZ group of housing society. Mr.
+    Smith stole the USB with the purpose to access that confidential information and shared the same with
+    the rival company. Under which section of Information Technology Act, 2000; will Mr. Smith be held
+    punishable?
+    (a) Section 66C
+    (b) Section 66B
+    (c) Section 66D
+    (d) Section 43
+Question No(s). 6 to 10 carries 1 Mark each.
+6.  To avoid any discrepancy in the calculation of the salary based on number of working days of each
+    employee, a company has implemented Biometric Attendance System for employees in its working
+    environment. Which of the following control is applied by company in this case?
+    (a) Preventive Control
+    (b) Detective Control
+    (c) Corrective Control
+    (d) Manual Control
+7.  From the following information pertaining to an individual, which does not fall under the category of
+    ‘Sensitive Personal information’?
+    (a) Educational Qualification
+    (b) Financial information
+    (c) Medical history
+    (d) Email Password
+8.  Which of the following voucher is used to record the adjustments without involving the cash or bank
+    accounts?
+    (a) Payment
+    (b) Contra
+    (c) Journal
+    (d) Receipt
+
+9.  ABX is a new startup that provides financial advising, services, and consultation to its clients. Being a
+    startup, the ABX does not wish to invest in procuring its own systems and therefore approached FGH,
+    a Cloud Computing Service Provider seeking access to few virtual machines for its seamless operations.
+    Which service model of Cloud Computing is being used by ABX startup in this case?
+    (a) Infrastructure as a Service (IaaS)
+    (b) Platform as a Service (PaaS)
+    (c) Network as a Service (NaaS)
+    (d) Software as a Service (SaaS)
+10. Mr. Amit applied for a loan of ` 50 lakhs from ABC corporative Bank for the construction of his house
+    by mortgaging his land near National Highway 24. After two months, he again applied to the bank for
+    additional amount of ` 5 Lakh. Under which category of Mortgage Loan, will his loan application fall?
+    (a) Home Loan
+    (b) Loan for under Construction Property
+    (c) Top up Loan
+    (d) Personal Loan
+                            Part II: DESCRIPTIVE QUESTIONS
+Question No. 1 is compulsory. Attempt any three out of remaining four questions.
+1.  (a) Describe any three advantages of Database Management System (DBMS). (3 Marks)
+    (b) Write the factors that affect the success of Business Process Automation. (2 Marks)
+2.  (a) APC Ltd. is a garment manufacturing company established in the year 2000. For so long, the
+        company has been successfully running its business. With sustainability at the forefront, APC Ltd.
+        is now focusing more on meeting increasing customer demands with recycled, biod egradable, and
+        bio-based materials. The company speculates that with this new initiative, the company may face
+        business risks that may lead to serious loss of profits. Explain various business risks that company
+        may face.                                                          (6 Marks)
+    (b) Nowadays, Core Banking System (CBS) has become a mandatory requirement to provide a range
+        of services demanded by customers and the competitive banking environment. All the Front -end
+        and Back-end applications of CBS relate to the Central server. Briefly discuss various Back-End
+        applications of CBS whose related transactions are interfaced with central server. (4 Marks)
+3.  (a) In an ERP system, there exists a module that does not exchange transactions with any other
+        module. Identify the module and explain the key benefits of that module. (6 Marks)
+    (b) Undoubtedly, the Digital payments have gained momentum in today’s e -Commerce world.
+        However, there exists certain drawbacks of Digital payment due to which some set of people have
+        their inhibitions in using this mode of payment. Discuss them.     (4 Marks)
+4.  (a) A seminar has been conducted by JKG Ltd., an e-Commerce Hosting Provider for small and
+        medium-sized business owners/sellers. Mr. Anil, the manager of JKG Ltd. has prepared a detailed
+        presentation to make the participants understand about various benefits of using e- business. What
+        do you think shall form part of Mr. Anil’s presentation?           (6 Marks)
+
+    (b) Mr. Rajesh has a saving bank account in DEF co-operative bank since December 2017. He wants
+        to setup his new business venture and therefore he applied for the loan of ` 5 lakhs in his bank.
+        Discuss various risks that should have been controlled by Core Banking System (CBS) of DEF co -
+        operative bank before disbursing the loan and advances to Mr. Rajesh. (4 Marks)
+5.  (a) Ms. Puja has been appointed as an IS auditor by DSS Ltd. To ensure that the management of the
+        company is managing well, and operation and maintenance of information system is in controlled
+        and planned manner in DSS Ltd., she needs to examine the performance of various controls
+        implemented on the information system. While auditing the information systems, explain the
+        concerns specific to auditing Programming Management Controls that she should address.
+                                                                           (6 Marks)
+    (b) Data Analytics initiatives can help the businesses to increase revenues, boost business
+        performances, improve operational efficiency, and gain a competitive edge in the market. Discuss
+        various application areas where Data Analytics can play an instrumental role in achievi ng the
+        mentioned benefits.                                                (4 Marks)
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+Time Allowed – 1½ Hours                                           Maximum Marks – 50
+                             Question 1 and 2 are compulsory.
+                  Attempt any three questions out of remaining four questions.
+1.  (A) ABC Ltd. and CHEETA Ltd. are two companies that are in the business of manufacturing electric
+        scooters. Sales of ABC Ltd. are rising while sales of CHEETA Ltd. have been falling. During the
+        last five years, the market share of CHEETA Ltd. reduced from second to fifth position. Mr. Ramesh
+        was appointed as the CEO of CHEETA Ltd., last year, when the company was unable to make a
+        mark for itself in the industry. As an immediate corrective measure Mr. Ramesh decided to emulate
+        the successful standards of ABC Ltd. and set them as their own yardsticks. With the help of
+        standards, he intended to compare, measure and judge the performance. Further, he introduced a
+        company-wide competition for the best innovation. He has been influential in bringing about a
+        culture of oneness and inspiration amongst the employees. Under his direction one of the
+        employees came up with the idea of inbuilt GPS system in the electric scooter. Another employee
+        gave the idea of mobile charging point in the scooter with a pocket to hold the mobile hand set.
+        CHEETA  Ltd., adopted the innovations suggested by its employees in their new model. The new
+        modified model ‘RAFTAR’ loaded with new features was launched with a slogan “Reach right place
+        in right time and stay connected”. Mr Ramesh’s leadership turned around the company to be a
+        leader in innovation. CHEETA Ltd., envisaged to innovate mobility solutions with passion to
+        enhance quality of life. The shape of scooter was made attractive. It was available in many colours.
+        The price of new model was higher than the other electric scooters in the market. ‘RAFTAR’ was
+        widely accepted by the young population.
+        Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:
+        1.  What is the strategic tool adopted by CHEETA Ltd., as an immediate corrective measure?
+            (a) Business Process Reengineering
+            (b) Strategic Audit
+            (c) Strategic Control
+            (d) Benchmarking                                                (1 Mark)
+        2.  Which leadership style has been adopted by Mr. Ramesh and this style is appropriate in:
+            (a) Transformational Leadership, Turbulent Environment
+            (b) Transactional Leadership, Static Environment
+            (c) Transactional Leadership, Settled Environment
+            (d) Transformational Leadership, Mature Industries             (2 Marks)
+        3.  Which of the following Michael Porters’ Generic strategics has been followed in launching
+            ‘RAFTAR’?
+            (a) Cost Leadership
+            (b) Differentiation
+            (c) Focused Cost Leadership
+            (d) Focused Differentiation                                     (1 Mark)
+
+        4.  CHEETA Ltd., envisages to innovate mobility solutions with passion to enhance quality of life. This
+            is______________ of the company.
+            (a) Vision
+            (b) Strategy
+            (c) Mission
+            (d) Objective                                                   (1 Mark)
+    (B) Tomtom a sneaker brand wanted to understand their competitive landscape and thus were looking
+        for the weakest competitors to buy them and thereby decrease competition. Which of the following
+        will be most helpful for them to begin with their plans?
+        (a) Mergers and Acquisition Planning
+        (b) BCG Growth Matrix
+        (c) Strategic Group Mapping
+        (d) GE Stop Light Matrix                                           (2 Marks)
+    (C) After an earnest attempt to bring in a strategic change in your organization, you the operational
+        head of XYZ ltd, succeeded but still your organization couldn’t achieve the desired competitive
+        position in the market. Out of the following what could be the reason?
+        (a) Strategy Formulation
+        (b) Strategy Model
+        (c) Strategy Implementation
+        (d) Strategy Decision                                              (2 Marks)
+    (D) Best Cost provider strategies:
+        (a) Seek to attract buyers on the basis of charging low price for low quality
+        (b) Aim at giving customers less value for more money
+        (c) Seek to attract buyers on the basis of charging high price for high quality
+        (d) Aim to giving customers low cost and better quality            (2 Marks)
+    (E) Walmart a global giant sells fast moving consumer goods at even less than wholesale prices to
+        retail customers, this is a strategy of?
+        (a) Market Penetration
+        (b) Cost Differentiation
+        (c) Cost Leadership
+        (d) Market Development                                              (1 Mark)
+    (F) Technique to cope up with sudden change in Government, natural calamities, terrorist attacks,
+        industrial disasters etc. is called
+        (a) Special Alert Control
+        (b) Strategic Surveillance
+        (c) Premise Control
+        (d) Implementation Control                                          (1 Mark)
+
+    (G) Merger of two organisations that are operating in the same industry but at different stages of
+        production and distribution system is called: -
+        (a) Horizontal Merger
+        (b) Vertical Merger
+        (c) Co-generic Merger
+        (d) Conglomerate Merger                                             (1 Mark)
+    (H) Functional level managers are concerned with-
+        (a) Strategies that are responsible for the operations of specific business
+        (b) Strategies that span multiple businesses
+        (c) Strategies that are specific to particular country
+        (d) Strategies that encourage a favourable attitude toward change   (1 Mark)
+2.  Jeff Inc., a leading USA based Mobile company decides to make India a hub for the company’s Android
+    Mobile having largest storage memory to be manufactured in collaboration with the Desi Group, a
+    leading Indian mobile manufacturer. The production is to be exported to the company’s home market as
+    well as to other European countries.
+    What is this growth strategy called? Point out the most important advantages both the companies expect
+    from such strategy/collaboration.                                     (5 Marks)
+3.  (a) Shridhar who is running a medium size cloth manufacturing business in Panipat wishes to
+        understand the driving forces that trigger change. He has sought advice from you and wishes to
+        know common driving forces.                                        (5 Marks)
+    (b) Explain the difference between three levels of strategy formulation. (5 Marks)
+4.  (a) "Strategic decisions are different in nature than all other decisions." In the light of this statement
+        explain major dimensions of strategic decisions.                   (5 Marks)
+    (b) Mr. Vicky Verma, a Gwalior based entrepreneur, has entered into an exclusive-retail deal with an
+        Italian company selling ‘Fantasy-3D’, a Hologram LED Fan, which is being used for advertising at
+        public places. Mr. Verma procured a total of 500 units of the product and paid upfront as per the
+        seller’s policy. This resulted in blocking of his working capital significantly and the shipment is
+        expected in a month. Meanwhile his continued efforts of establishing relations with the marke ting
+        heads of corporates resulted in a series of meetings, where he demonstrated his specialist product
+        knowledge by changing the hologram images to personalise basis specifications of the customer.
+        The management of a big automotive company was impressed with the quality and adaptability of
+        the product and awarded a contract of 125 units to be displayed in the auto -maker’s showrooms.
+        Identify and explain the product promotion strategy adopted by Mr. Verma. (5 Marks)
+5.  (a) Distinguish between Strategy Formulation and Strategy Implementation. (5 Marks)
+    (b) Elucidate Expanded Marketing Mix.                                  (5 Marks)
+6.  (a) Bunch Pvt Ltd. is dealing in multiproduct like electronics and FMCG and are having outlets in
+        different cities and markets across India. Due to scale of operation, it is having technical difficulty
+        in dealing with distinct product line and markets especially in coordination and control related
+        problems. Identify and suggest an ideal organizational structure for Bunch Pvt Ltd in resolving the
+        problem?                                                           (5 Marks)
+    (b) Explain in brief the various basis of differentiation strategy.    (5 Marks)

@@ -1,0 +1,408 @@
+                                                                Test Series: April 2023
+                                MOCK  TEST PAPER - II
+                              INTERMEDIATE  GROUP – II
+      PAPER  – 7: ENTERPRISE INFORMATION SYSTEMS  AND STRATEGIC MANAGEMENT
+                       SECTION – A: Enterprise Information Systems
+Time Allowed – 1½ Hours                                      Maximum Marks: 50 Marks
+                                      Answers
+                         PART I: MULTIPLE CHOICE QUESTIONS
+1.  (b) Tolerate the risk
+2.  (a) Lending history of the subscribers
+3.  (d) Audit Hook
+4.  (b) 4-digit pin or CVV number of the Debit card is required to be entered during payments.
+5.  (a) Internet Banking Channel Server
+6.  (d) Change Management
+7.  (d) (i) – (B), (ii) – (C), (iii) – (A)
+8.  (c) (i) – (C), (ii) – (A), (iii) – (B)
+9.  (d) The Negotiable Instruments Act, 1881
+10. (b) Monitoring of counterparty, dealer, and market related limits.
+                           PART II: DESCRIPTIVE QUESTIONS
+1.  (a) Issuing ‘Letter of Credit’ and ‘Guarantees’ are two important services rendered by banks to
+        customers engaged in business, industrial and commercial activities. These are defined as follows:
+          •  A Letter of Credit (LC) is an undertaking by a bank to the payee (the supplier of goods and/ or
+             services) to pay to him, on behalf of the applicant (the buyer) any amount up to the limit specified
+             in the LC, provided the terms and conditions mentioned in the LC are complied with.
+          •  The Guarantees are required by the customers of banks for submission to the buyers of their
+             goods/services to guarantee the performance of contractual obligations undertaken by them or
+             satisfactory performance of goods supplied by them, or for submission to certain departments
+             like excise and customs, electricity boards, or to suppliers of goods, etc. in lieu of the stipulated
+             security deposit.
+    (b) Detective Controls are designed to detect errors, omissions or malicious acts that occur and
+        report the occurrence. Detective Controls detect errors or incidents that elude preventive controls.
+        They are basically investigative in nature and provide clear understanding of lawful activities so
+        that anything which deviates from these is reported as unlawful, malicious, etc. Detective controls
+        can also include monitoring and analysis to uncover activities or events that exceed authorized
+        limits or violate known patterns in data that may indicate improper manipulation. For sensitive
+        electronic communications, detective controls indicate that a message has been corrupted or the
+        sender’s secure identification cannot be authenticated. These can be surprise checked by
+        supervisor.
+
+       Some examples of Detective Controls are as follows:
+| • | Review of payroll reports; |
+| --- | --- |
+| • | Compare transactions on reports to source documents; |
+| • | Monitor actual expenditures against budget; |
+| • | Use of automatic expenditure profiling where management gets regular reports of spend to date against profiled spend; |
+| • | Hash totals; |
+| • | Check points in production jobs; |
+| • | Echo control in telecommunications; |
+| • | Duplicate checking of calculations; |
+| • | Past-due accounts report, the Internal Audit functions; |
+| • | Intrusion Detection System; |
+| • | Cash counts and Bank reconciliation and Monitoring expenditures against budgeted amount. |
+2.  (a) No organization/entity operates in a risk-free environment and Enterprise Risk Management (ERM)
+        does not create such an environment. Rather, it enables management to operate more effectively
+        in environments filled with risks. ERM provides enhanced capability to do the following:
+        •    Align risk appetite and strategy: Risk appetite is the degree of risk, on a broad-based level
+             that an enterprise (any type of entity) is willing to accept in pursuit of its goals. Management
+             considers the entity’s risk appetite first in evaluating strategic alternatives, then in setting
+             objectives aligned with the selected strategy and in developing mechanisms to manage the
+             related risks.
+        •    Link growth, risk and return: Entities accept risk as part of value creation and preservation,
+             and they expect return commensurate with the risk. ERM provides an enhanced ability to identify
+             and assess risks and establish acceptable levels of risk relative to growth and return objectives.
+        •    Enhance risk response decisions: ERM provides the rigor to identify and select among
+             alternative risk responses – risk avoidance, reduction, sharing and acceptance. ERM provides
+             methodologies and techniques for making these decisions.
+        •    Minimize operational surprises and losses: Entities have enhanced capability to identify
+             potential events, assess risk and establish responses, thereby reducing the occurrence of
+             surprises and related costs or losses.
+        •    Identify and manage cross-enterprise risks: Every entity faces a myriad of risks affecting
+             different parts of the enterprise. Management needs to not only manage individual risks, but also
+             understand interrelated impacts.
+        •    Provide integrated responses to multiple risks: Business processes carry many inherent
+             risks, and ERM enables integrated solutions for managing the risks.
+        •    Seize opportunities: Management considers potential events, rather than just risks, and by
+             considering a full range of events, management gains an understanding of how certain events
+             represent opportunities.
+        •    Rationalize capital: More robust information on an entity’s total risk allows management to
+             assess more effectively overall capital needs and improve capital allocation.
+
+    (b) Various controls to protect an e-business from intrusion are as follows:
+        •    Viruses: One should check its business website daily for viruses, the presence of which can
+             result in the loss of valuable data. Virus protection gains greater significance in e-commerce
+             operations primarily because most of the users of e-commerce infrastructure are either unknown
+             or are not under the control of business enterprise. These users have their own virus protection
+             environment that may not be secure.
+        •    Hackers: Use software packages to carry out regular assessments of how vulnerable your
+             website is to hackers.
+        •    Passwords: Ensure employees change these regularly and that passwords set by former
+             employees of your organization are defunct.
+        •    Regular software updates: A business website should always be up to date with the newest
+             versions of security software. If it is not done regularly, the website may become vulnerable to
+             attack.
+        •    Sensitive data: Consider encrypting financial information and other confidential data (using
+             encryption software). Hackers or third parties will not be able to access encrypted data without a
+             key. This is particularly relevant for any e-commerce sites that use a shopping cart system.
+        •    Know the details of your payment service providers’ contract.
+3.  (a) The processing subsystem of an Information Systems responsible for computing, sorting,
+        classifying, and summarizing data have some controls implemented in it which are as follows:
+    (i) Processor Controls: Following are the Controls to reduce expected losses from errors and
+        irregularities associated with Central processors.
+        •    Error Detection and Correction: Occasionally, processors might malfunction because of
+             design errors, manufacturing defects, damage, fatigue, electromagnetic interference, and
+             ionizing radiation. For the transient (that disappears after a short period) and intermittent errors
+             (that reoccurs periodically); re-tries and re-execution might be successful, whereas for
+             permanent errors (that does not correct with time), the processor must halt and report error.
+        •    Multiple Execution States: It is important to determine the number of and nature of the
+             execution states enforced by the processor. This helps auditors to determine which user
+             processes will be able to carry out unauthorized activities, such as gaining access to sensitive
+             data maintained in memory regions assigned to the operating system or other user processes.
+        •    Timing Controls: An operating system might get stuck in an infinite loop. In the absence of any
+             control, the program will retain use of processor and prevent other programs from undertaking
+             their work.
+        •    Component Replication: In some cases, processor failure can result in significant losses.
+             Redundant processors allow errors to be detected and corrected. If processor failure is
+             permanent in multicomputer or multiprocessor architectures, the system might reconfigure itself
+             to isolate the failed processor.
+    (ii) Real Memory Controls: This comprises the fixed amount of primary storage in which programs or
+        data must reside for them to be executed or referenced by the central processor. Real memory
+        controls seek to detect and correct errors that occur in memory cells and to protect areas of memory
+        assigned to a program from illegal access by another program.
+    (iii) Virtual Memory Controls: Virtual Memory exists when the addressable storage space is larger
+        than the available real memory space. To achieve this outcome, a control mechanism mus t be in
+        place that maps virtual memory addresses into real memory addresses. When an executing
+
+        program references virtual memory addresses, the mechanism then translates these addresses
+        into real memory addresses.
+    (iv) Application Software Controls: These perform validation checks to identify errors during
+        processing of data. They are required to ensure both the completeness and the accuracy of data
+        being processed. Normally, the processing controls are enforced through database management
+        system that stores the data.
+    (v) Audit Trail Controls: This maintains the chronology of events from the time data is received from
+        the input or communication subsystem to the time data is dispatched to the database,
+        communication, or output subsystems.
+        •    Accounting Audit Trail: This includes the data items like- to trace and replicate the processing
+             performed on a data item that enters into the processing subsystem, to follow triggered
+             transactions from end to end by monitoring input data entry, intermediate results and output data
+             values, to check for existence of any data flow diagrams or flowcharts that describe data flow in
+             the transaction, and whether such diagrams or flowcharts correctly identify the flow of data and
+             to check whether audit log entries recorded the changes made in the data items at any time
+             including who made them.
+        •    Operations Audit Trail: This includes a comprehensive log on hardware consumption – CPU
+             time used, secondary storage space used, and communication facilities used and
+             comprehensive log on software consumption – compilers, subroutine libraries, file management
+             facilities and communication software used.
+    (b) The important features of XBRL (eXtensible Business Reporting Language) are as follows:
+        •    Clear Definitions: XBRL allows the creation of reusable, authoritative definitions, called
+             taxonomies that capture the meaning contained in all the reporting terms used in a business
+             report, as well as the relationships between all the terms. Taxonomies are developed by
+             regulators, accounting standards setters, government agencies and other groups that need to
+             clearly define information that needs to be reported upon. XBRL doesn’t limit what kind of
+             information is defined: it’s a language that can be used and extended as needed.
+        •    Testable Business Rules: XBRL allows the creation of business rules that constrain what can
+             be reported. Business rules can be logical or mathematical, or both and can be used, for
+             example, these business rules can be used to:
+            o    stop poor quality information being sent to a regulator or third party, by being run by the
+                 preparer while the report is in draft.
+            o    stop poor quality information being accepted by a regulator or third party, by being run at
+                 the point that the information is being received. Business reports that fail critical rules can
+                 be bounced back to the preparer for review and resubmission.
+            o    flagging or highlighting questionable information, allowing prompt follow up, correction or
+                 explanation.
+            o    create ratios, aggregations, and other kinds of value-added information, based on the
+                 fundamental data provided.
+        •    Multi-lingual Support: XBRL allows concept definitions to be prepared in as many languages
+             as necessary. Translations of definitions can also be added by third parties. This means that it’s
+             possible to display a range of reports in a different language to the one that they were prepared
+             in, without any additional work. The XBRL community makes extensive use of this capability as
+             it can automatically open up reports to different communities.
+        •    Strong Software Support: XBRL is supported by a very wide range of software from large and
+             small vendors, allowing a very wide range of stakeholders to work with the standard.
+
+4.  (a) Common  types of Virtualizations are as follows:
+        •    Hardware Virtualization: Hardware Virtualization or Platform Virtualization refers to the creation
+             of a virtual machine that acts like a real computer with an operating system. Software executed
+             on these virtual machines is separated from the underlying hardware resources. This enables
+             the users to run different operating systems on the same machine simultaneously. For example,
+             a computer that is running Microsoft Windows may host a virtual machine that looks like a
+             computer with Linux operating system-based software that can be run on the virtual machine.
+             The basic idea of hardware virtualization is to consolidate many small physical servers into one
+             large physical server so that the processor can be used more effectively. The software that
+             creates a virtual machine on the host hardware is called a Hypervisor or Virtual Machine Manager
+             that controls the processor, memory, and other components by allowing several different
+             operating systems to run on the same machine without the need for a source code.
+        •    Network Virtualization: Network Virtualization is a method of combining the available resources
+             in a network by splitting up the available bandwidth into channels, each of which is independent
+             from the others, and each of which can be assigned (or reassigned) to a particular server or
+             device in real time. This allows a large physical network to be provisioned into multiple smaller
+             logical networks and conversely allows multiple physical LANs to be combined into a larger
+             logical network. This behavior allows administrators to improve network traffic control, enterprise,
+             and security. Network virtualization involves platform virtualization, often combined with resource
+             virtualization.
+             Various equipment and software vendors offer network virtualization by combining any of the
+             Network hardware such as switches and Network Interface Cards (NICs); Network elements
+             such as firewalls and load balancers; Networks such as Virtual LANs (VLANs); Network storage
+             devices; Network machine-to-machine elements such as telecommunications devices; Network
+             mobile elements such as laptop computers, tablet computers, smart phones, and Network media
+             such as Ethernet and Fiber Channel. Network virtualization is intended to optimize network
+             speed, reliability, flexibility, scalability, and security.
+        •    Storage Virtualization: Storage Virtualization is an apparent pooling of data from multiple
+             storage devices, even different types of storage devices into what appears to be a single device
+             that is managed from a central console. Storage virtualization helps the storage administrator
+             perform the tasks of backup, archiving, and recovery more easily and in less time by disguising
+             the actual complexity of a Storage Area Network (SAN). Administrators can implement
+             virtualization with software applications or by using hardware and software hybrid appliances.
+             The servers connected to the storage system are not aware of where the data really is. Storage
+             virtualization is sometimes described as “abstracting the logical storage from the physical
+             storage”.
+    (b) The impact of technology in Banking industry is as follows:
+        •    In the CBS environment, technology encompasses all the four critical components which are
+             business processes, policies and procedures, regulatory requirements, and organization
+             structure. All controls relevant for all four components are embedded inside and facilitated
+             through technology. The same technology platform is configured as per the specific business
+             style of the bank to provide new products and services.
+        •    The dependence on technology in a bank is very high. If it fails, then none of the business
+             processes can be performed. Hence, it is important to understand how the four components of
+             banking business are configured, maintained, and updated using technology.
+        •     As per policy directives of regulators, the banking software should be configured or updated.
+             The controls also need to be implemented and updated at different layers of technology such as
+             system software, network, database, application software, etc.
+
+        •    Earlier, technology was a tool and used in specific departments of the bank but now with CBS,
+             technology has become all-pervasive and has become integral for doing banking.
+        •    Further, all the business and control aspects of the bank as a whole such as banking business
+             processes, policies and procedures of the bank, regulatory and compliance requirements
+             applicable to the bank and the organization structure of the bank are in-built into the technology
+             through configuration, setting of parameters and controls at different layers of technology.
+5.  (a) Various challenges involved in Business Process Automation (BPA) are as follows:
+        •    Automating Redundant Processes: Sometimes organizations start off an automation project
+             by automating the processes they find suitable for automation without considering whether such
+             processes are necessary and create value or not. In other cases, some business processes and
+             tasks require a high amount of tacit knowledge that cannot be documented and transferred from
+             one person to another and therefore seek employees to use their personal judgment. These
+             processes are generally not good candidates for automation as these processes are hard to
+             encode and automate.
+        •    Defining Complex Processes: BPA requires reengineering of some business processes that
+             requires significant amount of time to be allocated and spent at this stage. This requires a detailed
+             understanding of the underlying business processes to develop an automated process.
+        •    Staff Resistance: In most cases, human factor issues are the main obstacle to the acceptance
+             of automated processes. Staff may see the automation process as a way of reducing their
+             decision-making power. This is due to the reason that with automated processes, the
+             management has a greater visibility of the process and can make decisions that used to be made
+             by the staff earlier. Moreover, the staff may perceive automated processes as threat to their jobs.
+        •    Implementation Cost: The implementation of automated processes may be an expensive
+             proposition in terms of acquisition/development cost of automated systems and special skills
+             required to operate and maintain these systems.
+    (b) A Business Process is a prescribed sequence of work steps performed to produce a desired result
+        for the organization. A business process is initiated by a kind of event, has a well -defined beginning
+        and end, and is usually completed in a relatively short period.
+                                            Or
+        A Business Process consists of a set of activities that are performed in coordination in an
+        organizational and technical environment. These activities jointly realize a business goal. Each
+        business process is enacted by a single organization, but it may interact with busine ss processes
+        performed by other organizations.
+        To manage a business process, following activities are involved:
+        •    The first task is to define it. This involves defining the steps (tasks) in the process and mapping
+             the tasks to the roles involved in the process.
+        •    Once the process is mapped and implemented, performance measures can be established.
+             Establishing measurements creates a basis to improve the process.
+        •    The last piece of the process management definition describes the organizational setup that
+             enables the standardization and adherence to the process throughout the organization.
+             Assigning enterprise process owners and aligning employees’ performance reviews and
+             compensation to the value creation of the processes could accomplish this.
+
+                        SECTION – B: STRATEGIC MANAGEMENT
+                             SUGGESTED  ANSWERS/HINTS
+1.  (A)
+     (1)    (2)   (3)    (4)   (5)
+     (a)    (b)   (d)    (c)   (c)
+    (B) (c)
+    (C) (a)
+    (D) (a)
+    (E) (b)
+    (F) (a)
+    (G) (d)
+2.  The case highlights the concept of Product Life Cycle (PLC), which outlines the various stages a product
+    goes through, including introduction, growth, maturity and decline. Successful businesses must adapt their
+    strategies to each stage to remain profitable.
+    Product Life Cycle (PLC) is a useful concept for guiding strategic choice. Essentially, PLC is S-shaped curve
+    which exhibits the relationship of sales with respect of time for a product that passes through the four
+    successive stages of introduction (slow sales growth), growth (rapid market acceptance) maturity (slowdown
+    in growth rate) and decline (sharp downward drift). If businesses are substituted for product, the concept of
+    PLC could work just as well.
+    The first stage of PLC is the introduction stage in which competition is almost negligible, prices are
+    relatively high, and markets are limited. The growth in sales is at a lower rate because of lack of knowledge
+    on the part of customers.
+    The second stage of PLC is growth stage. In the growth stage, the demand expands rapidly, prices fall,
+    competition increases, and market expands. The customer has knowledge about the product and shows
+    interest in purchasing it.
+    The third stage of PLC is maturity stage. In this stage, the competition gets tough, and market gets
+    stabilised. Profit comes down because of stiff competition. At this stage organisations may work for
+    maintaining stability.
+    The fourth stage of PLC is declining stage in which the sales and profits fall down sharply due to some
+    new product replaces the existing product. So, a combination of strategies can be implemented to stay in
+    the market either by diversification or retrenchment.
+
+                               Figure: Product Life Cycle
+3.  (a) Yes, agreeing with the top management’s argument. Corporate strategy is basically the growth
+        design of the firm; it spells out the growth objective- the direction, pace and timing of the firm’s
+        growth. It also spells out the strategy for achieving the growth. Corporate strategy ensures the
+        growth of the firm because of the following arguments:
+        •   It ensures the correct alignment of the firm with its environment. It also serves as the
+            design for filling the strategic planning gap.
+        •   It gives importance to combination, sequence, timing, direction and depth of various
+            moves and action initiatives taken by managers to handle environmental uncertainties and
+            complexities.
+        •   It helps build the relevant competitive advantages for the firm. Masterminding and
+            working out the right fit between the firm and its external environment.
+        •   It is to harness the opportunities available in the environment, countering the threats
+            embedded therein.
+    (b) Following are the differences between the market development and product developm ent:
+| Market Development | Product Development |
+| --- | --- |
+| Meaning | Meaning |
+| • It refers to a growth strategy where the business seeks to sell its existing products into new markets. It is a strategy for company growth by identifying and developing new markets for current company products. | • It refers to a growth strategy where business aims to introduce new products into existing markets. It is a strategy for company growth by offering modified or new products to current |
+| Strategy Application | markets. |
+| • It may be achieved through new geographical markets, new product dimensions or packaging, new distribution channels or different pricing policies to attract different customers or create new market segments. | Strategy Application • It is for company’s growth and requires the development of new competencies and the business to develop modified products which can appeal to existing markets. |
+4.  (a) Pulkit may be facing exit barriers due to his investment in the real estate spaces. Exit barriers are
+        factors that make it difficult for a company to exit a particular market or industry. In this case,
+        Pulkit's investment in the real estate spaces may make it difficult for him to exit the cloud kitchen
+        industry or switch to a different business model. If Pulkit is unable to find new spaces or make the
+        necessary renovations, he may be forced to continue operating in the hideous localities, which may
+        impact his brand image and customer experience. This can create an exit barrier for Pulkit as it
+        may be difficult for him to turn to a different business model or exit the industry entirely.
+
+        Additionally, Pulkit may have incurred significant sunk costs in the purchase and renovation of the
+        real estate spaces, which can create a further exit barrier. Sunk costs refer to costs that have
+        already been incurred and cannot be recovered. If Pulkit has invested a significant amount of
+        money in the real estate spaces, he may be hesitant to exit the industry or switch to a different
+        business model as it may mean that he has to write off the sunk costs.
+        Therefore, Pulkit may be facing exit barriers due to his investment in the real estate spaces, which
+        may make it difficult for him to adapt to the new requirements or exit the industry entirely.
+    (b) Some of the common elements of benchmarking process are as under:
+        •   Identifying the need for benchmarking: This step will define the objectives of the benchmarking
+            exercise. It will also involve selecting the type of benchmarking. Organizations identify realistic
+            opportunities for improvements.
+        •   Clearly understanding existing decisions processes: The step will involve compiling
+            information and data on performance.
+        •   Identify best processes: Within the selected framework best processes are identified. These
+            may be within the same organization or external to them.
+        •   Comparison of own process and performance with that of others: Benchmarking process
+            also involves comparison of performance of the organization with performance of other
+            organization. Any deviation between the two is analysed to make further improvements.
+        •   Prepare a report and implement the steps necessary to close the performance gap: A report
+            on benchmarking initiatives containing recommendations is prepared. Such a report also contains
+            the action plans for implementation.
+        •   Evaluation: Business organizations evaluate the results of the benchmarking process in terms of
+            improvements vis-à-vis objectives and other criteria set for the purpose. It also periodically
+            evaluates and reset the benchmarks in the light of changes in the conditions that impact the
+            performance.
+5.  (a) The primary activities of the organization are grouped into five main areas: inbound logistics,
+        operations, outbound logistics, marketing and sales, and service.
+           Inbound logistics are the activities concerned with receiving, storing and distributing the
+            inputs to the product/service. This includes materials handling, stock control, transport etc.
+           Operations transform these inputs into the final product or service: machining,
+            packaging, assembly, testing, etc.
+           Outbound logistics collect, store and distribute the product to customers. For tangible
+            products this would be warehousing, materials handling, transport, etc. In the case of
+            services, it may be more concerned with arrangements for bringing customers to the service,
+            if it is a fixed location (e.g., sports events).
+           Marketing and sales provide the means whereby consumers/users are made aware of the
+            product/service and are able to purchase it. This would include sales administratio n,
+            advertising, selling and so on. In public services, communication networks which help users’
+            access a particular service are often important.
+           Service are all those activities, which enhance or maintain the value of a product/service,
+            such as installation, repair, training and spares.
+    (b) Projected financial statement analysis is a central strategy-implementation technique because it
+        allows an organization to examine the expected results of various actions and approaches. This
+
+        type of analysis can be used to forecast the impact of various implementation decisions. Nearly all
+        financial institutions require a projected financial statement whenever a business seeks capital.
+        A projected income statement and balance sheet allow an organization to compute proj ected
+        financial ratios under various strategy-implementation scenarios. When compared to prior years
+        and to industry averages, financial ratios provide valuable insights into the feasibility of various
+        strategy-implementation approaches.
+        A financial budget is also a document that details how funds will be obtained and spent for a
+        specified period of time. Fundamentally, financial budgeting is a method for specifying what must
+        be done to complete strategy implementation successfully.
+        Financial budgeting is a method for obtaining the most productive and profitable use of an
+        organization’s resources. Financial budgets can be viewed as the planned allocation of a firm’s
+        resources based on forecasts of the future.
+6.  (a) Yummy foods are proactive in its approach. On the other hand, Tasty Food is reactive. Proactive
+        strategy is planned strategy whereas reactive strategy is adaptive reaction to changing
+        circumstances. A company’s strategy is typically a blend of proactive actions on the part of
+        managers to improve the company’s market position and financial performance and reactions to
+        unanticipated developments and fresh market conditions.
+        If organisational resources permit, it is better to be proactive rather than reactive. Being proactive
+        in aspects such as introducing new products will give you advantage in the mind of customers.
+        At the same time, crafting a strategy involves stitching together a proactive/intended strategy and
+        then adapting first one piece and then another as circumstances surrounding the company’s
+        situation change or better options emerge-a reactive/adaptive strategy. This aspect can be
+        accomplished by Yummy Foods.
+    (b)  Objectives are organizations performance targets – the results and outcomes it wants to achieve.
+        They function as yardstick for tracking an organization’s performance and progress.
+        Objectives with strategic focus relate to outcomes that strengthen an organization’s overall
+        business position and competitive vitality. Objectives, to be meaningful to serve the intended role,
+        must possess the following characteristics:
+           Objectives should define the organization’s relationship with its environment.
+           Objectives should be facilitative towards achievement of mission and purpose.
+           Objectives should provide the basis for strategic decision-making.
+           Objectives should provide standards for performance appraisal.
+           Objectives should be understandable.
+           Objectives should be concrete and specific.
+           Objectives should be related to a time frame.
+           Objectives should be measurable and controllable.
+           Objectives should be challenging.
+           Different objectives should correlate with each other.
+           Objectives should be set within constraints.

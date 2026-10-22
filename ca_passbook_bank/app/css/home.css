@@ -1,0 +1,605 @@
+/* PassBook — Home ("/"), v3 (FRONTEND_V3_SPEC.md §3; ported from _vibes/v3/app.html, palette Cobalt Pop). Every class is .hm-*.
+   Buttons (.btn .pop .primary .sm .lg .ghost) come from components.css; this sheet only lays out and styles the home's own parts.
+   Colour: cobalt (--accent) for progress, selection and tints, coral (--pop) only on the hero CTA. Light + dark from tokens; no raw hex. */
+
+.hm { --hm-e: cubic-bezier(.2, .8, .2, 1); --hm-spring: cubic-bezier(.34, 1.5, .6, 1); --hm-rx: var(--r-xl, 28px); --hm-rl: var(--r-lg, 22px);
+  max-width: var(--page-max, 1240px); margin: 0 auto; padding: 6px 0 40px; color: var(--ink); font-family: var(--font-ui); }       /* the width every page uses (P2-05) */
+.hm h1, .hm h2, .hm h3, .hm p { margin: 0; }
+.hm .mono { font-family: var(--font-mono); font-variant-ligatures: none; }
+.hm .num { font-variant-numeric: tabular-nums; }
+.hm svg.i { width: 1.15em; height: 1.15em; }
+
+/* entrance: the first visit of a session only (a state change, ≤ 0.5 s, slide > fade) */
+.hm-enter .hm-st { animation: hm-rise .5s var(--hm-e) both; animation-delay: calc(var(--i, 0) * 55ms + 40ms); }
+@keyframes hm-rise { from { transform: translateY(16px); opacity: 0; } }
+.hm-rise { animation: hm-rise .35s var(--hm-e) both; }
+
+/* ---------- section heads + links ---------- */
+.hm-sec { margin-top: 46px; scroll-margin-top: 90px; }
+.hm-sec:focus { outline: none; }
+.hm-sec-h { display: flex; align-items: flex-end; gap: 16px; margin-bottom: 16px; }
+.hm-sec-h > div { flex: 1; min-width: 0; }
+.hm-link { display: inline-flex; align-items: center; gap: 6px; flex: none; font-weight: 700; font-size: 14px; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 1px; white-space: nowrap; }
+.hm-link svg.i { width: 16px; height: 16px; transition: transform .2s var(--hm-e); }
+.hm-link:hover svg.i { transform: translateX(3px); }
+.hm-link.sm { font-size: 13px; }
+
+/* ---------- 1. hero ---------- */
+.hm-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.02fr); background: var(--surface); border-radius: var(--hm-rx); overflow: hidden; box-shadow: var(--lift); min-height: 348px; position: relative; }
+.hm-hero-l { padding: 34px 36px 32px; display: flex; flex-direction: column; position: relative; min-width: 0; }
+.hm-first .hm-hero-l { justify-content: flex-start; }
+.hm-eyebrow { display: flex; align-items: center; gap: 9px; font-weight: 700; font-size: 13.5px; color: var(--muted); }
+.hm-eyebrow .dot { width: 9px; height: 9px; border-radius: 3px; background: var(--accent); flex: none; }
+.hm-hero h1 { text-wrap: balance; font-size: 40px; line-height: 1.08; font-weight: 700; letter-spacing: -.025em; margin: 16px 0 10px; padding-right: 8px; }
+.hm-meta { font-size: 15.5px; color: var(--muted); line-height: 1.5; max-width: 520px; }
+.hm-meta b { color: var(--ink); font-weight: 650; }
+.hm-segs { display: flex; gap: 5px; margin: 20px 0 6px; max-width: 360px; }
+.hm-segs i { flex: 1; height: 8px; border-radius: 4px; background: var(--surface-3); position: relative; overflow: hidden; }
+.hm-segs i.done::after { content: ""; position: absolute; inset: 0; background: var(--accent); border-radius: 4px; transform-origin: left; }
+.hm-enter .hm-segs i.done::after { animation: hm-seg .5s var(--hm-e) both; animation-delay: calc(var(--k) * 110ms + 300ms); }
+@keyframes hm-seg { from { transform: scaleX(0); } }
+.hm-chiprow { margin-top: 12px; }
+.hm-heat { display: inline-flex; align-items: center; gap: 7px; font-weight: 650; font-size: 12.5px; padding: 5px 9px 5px 7px; border-radius: 9px; background: var(--accent-soft); color: var(--ink); white-space: nowrap; max-width: 100%; overflow: hidden; }
+.hm-heat > span { overflow: hidden; text-overflow: ellipsis; }
+.hm-hg { width: 13px; height: 13px; flex: none; }
+.hm-hg rect { fill: var(--accent); }
+.hm-hg rect.lo { fill: color-mix(in srgb, var(--accent) 35%, transparent); }
+/* guard: views.css has a global .lg legend swatch (12 px square) that must not shrink the hero CTA */
+.hm .btn.lg { width: auto; height: 52px; border-radius: var(--r); background: var(--b); flex: none; }
+.hm-cta-row { display: flex; align-items: center; gap: 12px; margin-top: auto; padding-top: 24px; flex-wrap: wrap; position: relative; z-index: 1; }
+.hm-first .hm-cta-row { margin-top: 26px; padding-top: 0; padding-right: 92px; min-height: 72px; }
+
+/* first run: 'or pick a subject' has its own line under the coral at every width, so the CTA row holds only the coral and Tick, and its gaze
+   lands on the coral (P3-03; it once shared the row at 770–980 px, between the two) */
+.hm .hm-altline { margin-top: 14px; }
+/* the two-line coral (D1): 'Start here · Programming & DS · 30 min' over the lesson's title */
+.hm .btn.lg.hm-cta2 { max-width: 100%; }   /* the two-line coral is components.css's .hb-go family */
+.hm-alt { font-weight: 700; font-size: 14.5px; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 1px; white-space: nowrap; }
+.hm-alt:hover { color: var(--accent); }
+.hm-alt:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+/* the secondary link sits under the meta line, so the CTA row holds only the coral and Tick's gaze lands on it (P3-03) */
+.hm-more { margin-top: 10px !important; }
+/* a season line under the meta: the eve's checklist, exam day, or an assumed date's 'Set your date' (P1-61) */
+.hm-note { margin-top: 12px !important; font-size: 14.5px; line-height: 1.5; color: var(--ink-2); max-width: 520px; }
+.hm-note .hm-link { margin-left: 4px; }
+
+.hm-hero-r { background: var(--panel); color: var(--panel-ink); --accent-ink: var(--panel-ink); position: relative; padding: 20px 22px 18px; display: flex; flex-direction: column; min-width: 0; gap: 10px; }
+.hm-cap { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-weight: 700; font-size: 13px; min-height: 30px; }
+.hm-cap > span:first-child, .hm-cap-t { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hm .hm-cap-t { font: inherit; letter-spacing: 0; }                         /* the first-run question's heading (P3-06), styled as the caption */
+.hm-cap .mono { font-weight: 600; font-size: 12px; color: color-mix(in srgb, var(--accent-ink) 86%, var(--accent)); }   /* dimmed by colour, never opacity (P2-29) */
+.hm-replay { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 11px; border-radius: 9px; font: 700 12.5px var(--font-ui); color: var(--accent-ink); background: transparent; border: 1.5px solid color-mix(in srgb, var(--accent-ink) 45%, transparent); cursor: pointer; flex: none; }
+.hm-replay:hover { background: color-mix(in srgb, var(--accent-ink) 12%, transparent); }
+.hm-replay svg.i { width: 15px; height: 15px; }
+.hm-replay:focus-visible { outline: 2.5px solid var(--accent-ink); outline-offset: 2px; }
+.hm-stepcap { font-weight: 700; font-size: 14px; min-height: 21px; display: flex; gap: 10px; align-items: center; line-height: 1.35; }
+.hm-stepcap .n { font: 700 11.5px var(--font-mono); background: color-mix(in srgb, var(--accent-ink) 16%, transparent); border-radius: 6px; padding: 2px 7px; flex: none; white-space: nowrap; }
+
+/* the lesson's own first diagram on a surface card, built in once (Replay redraws) */
+/* min-height = the 260 px drawing budget + the 'k of N diagrams' line + padding, so the hero keeps its height when the drawing arrives */
+.hm-figbox { flex: 1; min-height: 312px; background: var(--surface); color: var(--ink); border-radius: var(--r); padding: 14px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; }
+/* the box is the card: the lesson sheet's figure.dg card (padding 16px 14px, its own scroll) is reset, so a drawing sized to the measured
+   room is never squeezed, scrolled sideways or cut at the right (P1-34) */
+.hm-figbox .hm-dg { margin: 0; padding: 0; border-radius: 0; background: none; box-shadow: none; overflow: hidden; flex: 1; display: grid; place-items: center; min-height: 0; min-width: 0; }
+.hm-figbox svg.dgs { display: block; width: 100%; height: auto; max-height: 220px; overflow: visible; }
+.hm-figbox.dg-fit svg.dgs, .hm-figbox.dg-crop svg.dgs { flex: none; }        /* explicit px size from home.js: >= 0.85x (0.8x cropped), <= 1.3x */
+.hm-figbox.dg-crop { justify-content: flex-start; }
+.hm-figbox.dg-crop .hm-dg { place-items: start; height: 220px; flex: none; overflow: hidden;    /* height: the budget home.js measured */
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 44px), transparent), linear-gradient(to right, #000 calc(100% - 44px), transparent);
+  -webkit-mask-composite: source-in; mask-image: linear-gradient(to bottom, #000 calc(100% - 44px), transparent), linear-gradient(to right, #000 calc(100% - 44px), transparent); mask-composite: intersect; }
+.hm-figbox.dg-crop .hm-dg > .dg-table, .hm-figbox.dg-crop .hm-dg > div { max-width: none; }
+.hm-figbox.dg-crop-y .hm-dg { justify-items: center; -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 44px), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 44px), transparent); }
+.hm-figbox.play svg.dgs > * { animation: hm-build .42s var(--hm-e) both; animation-delay: calc(var(--k, 0) * 70ms); }
+/* the rise uses the translate property, never transform: a kit group's own transform attribute (a plot's rotated axis label, a circuit's
+   placed parts) stays in force, so nothing swings in from the corner while it builds */
+@keyframes hm-build { from { opacity: 0; translate: 0 6px; } }
+.hm-figbox .hm-dg figcaption { display: none; }
+.hm-dgn { display: block; margin-top: 6px; font: 600 11.5px var(--font-mono); color: var(--muted); text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hm-figload { display: grid; gap: 10px; padding: 8px; }
+.hm-figload i { height: 26px; border-radius: var(--r-xs); background: var(--surface-3); animation: hm-pulse 1.4s ease-in-out infinite; }
+.hm-figload i:nth-child(2) { width: 78%; } .hm-figload i:nth-child(3) { width: 56%; }
+@keyframes hm-pulse { 50% { opacity: .55; } }
+.hm-figempty { display: grid; place-items: center; gap: 8px; text-align: center; font-weight: 700; color: var(--muted); padding: 20px; }
+.hm-figempty svg.i { width: 30px; height: 30px; color: var(--accent); }
+.hm-yticks { display: flex; gap: 3px; }
+.hm-yticks i { flex: 1; height: 10px; border-radius: 3px; background: color-mix(in srgb, var(--accent-ink) 22%, transparent); }
+.hm-yticks i.on { background: var(--accent-ink); }
+/* a test in progress: its answer sheet */
+
+.hm-figstats { flex: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; align-content: center; }
+.hm-figstats div { background: var(--surface); color: var(--ink); border-radius: var(--r); padding: 16px; }
+.hm-figstats b { display: block; font-size: 34px; font-weight: 700; letter-spacing: -.025em; line-height: 1; }
+.hm-figstats span { display: block; margin-top: 6px; font-size: 13px; color: var(--muted); font-weight: 600; }
+
+/* first run: a real question in the coloured panel */
+.hm-try { padding: 22px; }
+.hm-try .hm-cap { margin-bottom: 2px; }
+.hm-try .hm-qcard { background: var(--surface); color: var(--ink); border-radius: var(--r); padding: 18px; flex: 1; }
+.hm-qcard { min-width: 0; }
+
+/* ---------- 2. number strip ---------- */
+.hm-stats { list-style: none; margin: 14px 0 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); background: var(--surface); border-radius: var(--hm-rl); padding: 6px; box-shadow: var(--lift); }
+.hm-stats li { min-width: 0; display: flex; }
+.hm-stats li + li { border-left: 1px solid var(--line); }
+.hm-stat { flex: 1; display: block; padding: 16px 20px 15px; border-radius: var(--r); transition: background .2s; min-width: 0; }
+.hm-stat:hover { background: var(--surface-2); }
+.hm-stat b { display: block; font-size: 34px; line-height: 1; font-weight: 700; letter-spacing: -.025em; white-space: nowrap; }
+.hm-stat > span { display: block; margin-top: 7px; font-size: 13.5px; color: var(--muted); font-weight: 550; }
+.hm-nw { white-space: nowrap; }                                               /* '2007–2026' never breaks after its dash (P2-02) */
+/* a returning learner's own numbers over the totals (P2-02): '12 / 334' and a thin bar */
+.hm-stats.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.hm-stat b small { margin-left: 6px; font-size: 17px; font-weight: 750; letter-spacing: -.02em; color: var(--muted); }
+.hm-sbar { display: block; height: 5px; margin-top: 10px; border-radius: 3px; background: var(--surface-3); overflow: hidden; }
+.hm-sbar i { display: block; height: 100%; border-radius: 3px; background: var(--accent); }
+
+/* ---------- 3. subject bento ---------- */
+
+.hm-nm { font-weight: 750; font-size: 15.5px; letter-spacing: -.02em; line-height: 1.2; padding-right: 50px; }
+.hm-nm .s { display: none; }
+
+ 
+
+.hm-ring { position: absolute; top: 14px; right: 14px; width: 44px; height: 44px; }
+
+.hm-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); display: block; }
+.hm-ring .tr { fill: none; stroke: color-mix(in srgb, var(--ink) 12%, transparent); stroke-width: 4.5; }
+.hm-ring .pr { fill: none; stroke: var(--accent); stroke-width: 4.5; stroke-linecap: round; stroke-dasharray: 100; transition: stroke-dashoffset 1.1s var(--hm-e); }
+.hm-ring b { position: absolute; inset: 0; display: grid; place-items: center; font: 750 11.5px var(--font-ui); }
+
+/* P3-02: no evidence yet = an empty track and no label; after a first answer 'Started' until there is real evidence, then the percentage */
+.hm-ring.started b { font-size: 8.5px; font-weight: 750; letter-spacing: -.02em; color: var(--ink-2); }
+
+                                       /* the smallest desktop tiles: name and number (phones show every ring) */
+
+/* ---------- 4. what the papers say ---------- */
+.hm-finds { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.hm-find { background: var(--surface); border-radius: var(--hm-rl); padding: 20px 20px 18px; display: flex; flex-direction: column; box-shadow: var(--lift); transition: transform .25s var(--hm-spring); min-width: 0; }
+.hm-find:hover { box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 40%, transparent), var(--shadow-1); }
+.hm-find:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.hm-d { display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap; }
+.hm-d b { font-size: 46px; font-weight: 700; letter-spacing: -.025em; line-height: 1; }
+.hm-d span { font-size: 13px; color: var(--muted); font-weight: 650; }
+.hm-viz { margin: 14px 0; min-height: 22px; display: flex; align-items: center; }
+.hm-find h3 { font-size: 15.5px; font-weight: 750; letter-spacing: -.015em; line-height: 1.3; }
+.hm-find p { font-size: 13.5px; color: var(--muted); margin-top: 6px; line-height: 1.45; }
+.hm-go { margin-top: auto; padding-top: 14px; display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 14px; align-self: flex-start; }
+.hm-go span { border-bottom: 2px solid var(--accent); }
+.hm-go svg.i { width: 16px; height: 16px; transition: transform .2s var(--hm-e); }
+.hm-find:hover .hm-go svg.i { transform: translateX(3px); }
+.hm-ticks { display: flex; gap: 3px; width: 100%; }
+.hm-ticks i { flex: 1; height: 20px; border-radius: 3px; background: var(--surface-3); }
+.hm-ticks.p i { border-radius: 2px; }
+.hm-ticks i.on { background: var(--accent); }
+.hm-split { display: flex; width: 100%; height: 14px; border-radius: 7px; overflow: hidden; gap: 3px; }
+.hm-split i { background: var(--accent); min-width: 2px; }
+.hm-split i.msq { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); }
+.hm-split i.mcq { background: var(--surface-3); }
+.hm-split.stack i { background: var(--surface-3); } .hm-split.stack i.on { background: var(--accent); }
+/* each visual carries its key (P3-04): the year range under ticks, 'NAT · MSQ · MCQ' under a split, a label over each bar */
+.hm-vbox { display: grid; gap: 5px; width: 100%; }
+.hm-vcap { display: flex; justify-content: space-between; gap: 8px; font: 600 11px/1.2 var(--font-mono); color: var(--muted); }
+.hm-vcap.leg { justify-content: flex-start; gap: 4px 12px; flex-wrap: wrap; }
+.hm-vcap.leg span { display: inline-flex; align-items: center; gap: 5px; }
+.hm-vcap.leg i { width: 9px; height: 9px; border-radius: 3px; background: var(--accent); }
+.hm-vcap.leg i.msq { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); } .hm-vcap.leg i.mcq { background: var(--surface-3); box-shadow: inset 0 0 0 1px var(--line-2); }
+.hm-duo { width: 100%; display: grid; gap: 7px; }
+.hm-vrow { display: grid; gap: 3px; }
+.hm-vrow em { font: 600 11px/1.2 var(--font-mono); font-style: normal; color: var(--muted); }
+.hm-vrow > span { height: 7px; border-radius: 4px; background: var(--surface-3); position: relative; display: block; }
+.hm-vrow > span i { position: absolute; inset: 0 auto 0 0; border-radius: 4px; background: var(--accent); }
+.hm-vrow > span.time i { background: color-mix(in srgb, var(--accent) 55%, var(--surface)); }
+/* the four placeholders until the findings fill in after the first paint (P2-56) */
+.hm-fsk { min-height: 300px; gap: 12px; }
+.hm-fsk i { display: block; height: 14px; border-radius: 7px; background: var(--surface-3); animation: hm-pulse 1.4s ease-in-out infinite; }
+.hm-fsk i:first-child { width: 40%; height: 40px; border-radius: 10px; } .hm-fsk i:nth-child(2) { height: 20px; } .hm-fsk i:last-child { width: 70%; }
+
+/* ---------- 5. try a lab ----------
+   Plain cards from the catalogue (home.js labs()): icon, name, paper, blurb, 'Open the lab'. The preview classes (.hm-pv, .hm-res) stay for a
+   lab that brings its own home preview later. */
+.hm-labs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.hm-lab { background: var(--surface); border-radius: var(--hm-rl); padding: 18px; display: flex; flex-direction: column; gap: 12px; box-shadow: var(--lift); transition: transform .25s var(--hm-spring); min-width: 0; }
+.hm-lab:hover { box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 40%, transparent), var(--shadow-1); }
+.hm-lab:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.hm-lab-top { display: flex; align-items: center; gap: 12px; }
+.hm-lab-top > div { flex: 1; min-width: 0; }
+.hm-lab-top .ic { width: 40px; height: 40px; border-radius: var(--r-sm); background: var(--accent-soft-2); color: var(--accent); display: grid; place-items: center; flex: none; }
+.hm-lab-top .ic svg.i { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.hm-lab h3 { font-size: 16px; font-weight: 750; letter-spacing: -.015em; }
+.hm-lab-sub { font-size: 12.5px; color: var(--muted); font-weight: 550; }
+.hm-pv { background: var(--bg); border-radius: 15px; min-height: 150px; padding: 14px; position: relative; overflow: hidden; display: block; }
+.hm-pvh { font-size: 11.5px; color: var(--muted); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hm-what { font-size: 13.5px; color: var(--muted); line-height: 1.45; margin-top: auto !important; }
+.hm-what b { color: var(--ink); font-weight: 650; }
+.hm-res { margin-top: 10px; font-size: 12px; font-weight: 650; color: var(--ink-2); }
+.hm-res b { color: var(--ink); }
+@keyframes hm-fade { from { opacity: 0; } }
+/* ---------- 6–8. random question, tests, wrapped ---------- */
+/* equal heights (P2-05): the cards stretch to the row and their actions sit on the bottom edge, so no 130–180 px holes */
+.hm-duo-row { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 12px; align-items: stretch; }
+.hm-duo-row > .hm-card { display: flex; flex-direction: column; }
+.hm-duo-row .hm-mock-a { margin-top: auto; padding-top: 18px; }
+
+.hm-card { background: var(--surface); border-radius: var(--hm-rl); padding: var(--card-pad); box-shadow: var(--lift); position: relative; min-width: 0; }
+.hm-rq-h { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+.hm-rq-h h2, .hm-rq-h h3 { flex: 1; font-size: 21px; font-weight: 700; letter-spacing: -.02em; }
+.hm-qmeta { font-size: 12px; font-weight: 650; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.hm-qmeta b { color: var(--ink); font-weight: 750; }
+.hm-qmeta .hm-qbank { display: none; margin-left: auto; font-family: var(--font-ui); }   /* phones only, before an answer (P2-01) */
+.hm-qstem { font-size: 16.5px; line-height: 1.55; margin: 12px 0 16px; font-weight: 500; overflow-x: auto; }
+.hm-qstem p { margin: 0 0 .6em; } .hm-qstem p:last-child { margin: 0; }
+.hm-qstem em, .hm-op .t em { font-family: var(--font-read); font-size: 1.05em; }
+.hm-opts { display: grid; grid-template-columns: minmax(0, 1fr); gap: 9px; }   /* one shrinkable column: a long option wraps, never widens the card (P0-24) */
+.hm-op { display: flex; align-items: center; gap: 13px; width: 100%; min-height: 52px; padding: 8px 14px 8px 9px; border-radius: 14px; background: var(--surface-2); border: 2px solid transparent; color: var(--ink);
+  text-align: left; font: 600 15px/1.35 var(--font-ui); cursor: pointer; transition: border-color .2s, background .2s, transform .12s, opacity .2s; position: relative; }
+.hm-op:hover:not(:disabled) { border-color: var(--line-2); }
+.hm-op:active:not(:disabled) { transform: scale(.985); }
+.hm-op:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.hm-op:disabled { cursor: default; }
+.hm-op .k { width: 34px; height: 34px; border-radius: 10px; background: var(--surface); display: grid; place-items: center; font: 700 13px var(--font-mono); flex: none; border: 1.5px solid var(--line-2); transition: background .2s, color .2s, border-color .2s; }
+.hm-op .t { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.hm-op .t p { margin: 0; }
+.hm-op .katex .mfrac { font-size: 1.2em; }                                  /* inline fractions were 10.6 px (P3-07) */
+.hm-op .mk { margin-left: auto; width: 22px; height: 22px; display: none; flex: none; }
+.hm-op.ok { border-color: var(--ok); background: var(--ok-soft); }
+.hm-op.ok .k { background: var(--ok); color: var(--surface); border-color: var(--ok); }
+.hm-op.bad { border-color: var(--bad); background: var(--bad-soft); }
+.hm-op.bad .k { background: var(--bad); color: var(--surface); border-color: var(--bad); }
+.hm-op.ok .mk.y, .hm-op.bad .mk.x { display: block; }
+.hm-op.ok .mk { color: var(--ok); } .hm-op.bad .mk { color: var(--bad); }
+.hm-op.dim { color: var(--muted); }                                         /* the options not picked, dimmed by colour (P2-29) */
+.hm-op.dim .k { color: var(--muted); border-color: var(--line); }
+.hm-nat { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.hm-nat input { height: 52px; width: 170px; max-width: 100%; border-radius: 14px; border: 2px solid var(--line-2); background: var(--surface-2); color: var(--ink); padding: 0 16px; font: 750 18px var(--font-mono); }
+.hm-nat input::placeholder { font: 600 15px var(--font-ui); color: var(--faint); letter-spacing: 0; }
+.hm-nat input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft-2); }
+.hm-nat input.ok { border-color: var(--ok); } .hm-nat input.bad { border-color: var(--bad); }
+.hm-nat .hm-pm { width: 52px; min-width: 52px; height: 52px; padding: 0; border-radius: 14px; font: 700 20px var(--font-mono); flex: none; }
+.hm-hint { font-size: 12.5px; color: var(--muted); margin-top: 8px !important; }
+.hm-hint.warn { color: var(--ink); font-weight: 650; }
+.hm-hint.warn::before { content: "!"; display: inline-grid; place-items: center; width: 16px; height: 16px; margin-right: 7px; border-radius: 50%; background: var(--warn); color: var(--surface); font: 700 11px var(--font-ui); vertical-align: 1px; }
+.hm-shake { animation: hm-shake .42s var(--hm-e); }
+@keyframes hm-shake { 20% { transform: translateX(-7px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(2px); } }
+.hm-fb { margin-top: 14px; border-radius: 14px; padding: 13px 15px; font-size: 14.5px; line-height: 1.5; display: none; gap: 11px; align-items: flex-start; }
+.hm-fb.on { display: flex; animation: hm-rise .3s var(--hm-e) both; }
+.hm-fb.ok { background: var(--ok-soft); } .hm-fb.bad { background: var(--surface-2); }
+.hm-fb svg.i { margin-top: 2px; width: 18px; height: 18px; flex: none; } .hm-fb.ok svg.i { color: var(--ok); } .hm-fb.bad svg.i { color: var(--bad); }
+.hm-fb > div { flex: 1; min-width: 0; }
+.hm-fb p { margin: 0; }
+.hm-fb b { font-weight: 750; }
+.hm-fb:focus { outline: none; } .hm-fb:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.hm-trap { margin-top: 7px !important; padding-top: 7px; border-top: 1px solid var(--line); color: var(--ink-2); overflow-wrap: anywhere; }
+.hm-qfoot { display: flex; flex-direction: column; align-items: stretch; gap: 12px; margin-top: 16px; min-width: 0; }
+.hm-qfoot > .hm-link { align-self: flex-end; }
+.hm-qfoot > * { min-width: 0; }
+.hm-qacts { display: flex; align-items: center; gap: 10px 16px; flex-wrap: wrap; justify-content: space-between; min-width: 0; }
+.hm-qacts > :last-child { margin-left: auto; }
+.hm-learn { white-space: normal; flex: 0 1 auto; min-width: 0; }
+.hm-another { flex: none; }
+.hm-sol { min-width: 0; }                                                     /* P0-24: an open solution never widens the card or the page */
+.hm-sol > summary:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+.hm-sol-b { min-width: 0; font-size: 14.5px; line-height: 1.6; }
+.hm-sol-b > :first-child { margin-top: .4em; }
+.hm-sol-more { display: none; margin: 0 20px 16px; }
+@media (min-width: 701px) {                                                   /* desktop: a long solution is capped with a fade; phones read it in full */
+  .hm-sol.cap .hm-sol-b { max-height: 420px; overflow: hidden; -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 72px), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 72px), transparent); }
+  .hm-sol.cap .hm-sol-more { display: inline-flex; }
+}
+.hm-qsk { display: grid; gap: 10px; }
+.hm-qsk i { display: block; height: 14px; border-radius: 7px; background: var(--surface-3); animation: hm-pulse 1.4s ease-in-out infinite; }
+.hm-qsk b { display: block; height: 52px; border-radius: 14px; background: var(--surface-2); }
+.hm-qsk i:first-child { margin-bottom: 4px; height: 11px; }
+.hm-qsk i + b { margin-top: 8px; }
+.hm-empty { font-size: 14px; color: var(--muted); line-height: 1.5; margin: 18px 0 14px !important; }
+
+.hm-tag { font-size: 11.5px; font-weight: 650; color: var(--muted); }
+.hm-mock h3 { font-size: 19px; font-weight: 700; letter-spacing: -.02em; margin-top: 10px; }
+.hm-facts { display: flex; gap: 18px; margin-top: 12px; font-size: 13.5px; color: var(--muted); flex-wrap: wrap; }
+.hm-facts b { display: block; color: var(--ink); font-size: 20px; font-weight: 700; letter-spacing: -.03em; }
+.hm-spark { margin: 18px 0 14px; }
+.hm-spark svg { width: 100%; height: 98px; overflow: visible; display: block; }
+.hm-spark .ln { fill: none; stroke: var(--accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 400; stroke-dashoffset: 400; transition: stroke-dashoffset 1.2s var(--hm-e); }
+.hm-spark .ln.go { stroke-dashoffset: 0; }
+.hm-spark .ar { fill: color-mix(in srgb, var(--accent) 14%, transparent); }
+.hm-spark .pt { fill: var(--surface); stroke: var(--accent); stroke-width: 2.5; }
+.hm-spark text { fill: var(--muted); font: 600 10.5px var(--font-mono); }
+.hm-spark text.v { fill: var(--ink); font-weight: 750; }
+.hm-mock-a { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.hm-diag .hm-mock-a, .hm-warm .hm-mock-a { padding-top: 18px; }
+.hm-mock-t { margin-top: 4px !important; font-size: 14.5px; color: var(--ink-2); font-weight: 600; overflow-wrap: anywhere; }
+.hm-diag-l { margin-top: 8px !important; font-size: 14.5px; color: var(--muted); line-height: 1.5; max-width: 520px; }
+.hm-duo-row.solo { grid-template-columns: minmax(0, 1fr); }
+.hm-duo-row.solo .hm-diag { display: grid; grid-template-columns: minmax(0, 1.5fr) auto minmax(0, 1fr); align-items: center; gap: 12px 32px; padding: 24px 28px; }
+.hm-duo-row.solo .hm-diag .hm-facts { margin-top: 0; }
+.hm-duo-row.solo .hm-diag .hm-mock-a { margin-top: 0; padding-top: 0; justify-content: flex-end; }
+
+/* one bar per slide of the recap it opens, all unlit: nothing has been watched yet (P3-05) */
+ 
+
+/* burst on a correct answer (fixed, outside the card) */
+
+@keyframes hm-fly { to { transform: translate(var(--x), var(--y)) rotate(160deg) scale(.4); opacity: 0; } }
+@keyframes hm-ring { to { transform: scale(4.6); opacity: 0; } }
+
+.hm-foot { margin-top: 44px !important; text-align: center; font-size: 12.5px; color: var(--muted); line-height: 1.6; }
+.hm-foot a { color: var(--ink); font-weight: 650; border-bottom: 1.5px solid var(--accent); }
+
+/* ---------- responsive ---------- */
+@media (max-width: 1180px) {
+   
+  
+  .hm-finds { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hm-hero h1 { font-size: 42px; }
+  
+  
+}
+@media (min-width: 981px) and (max-width: 1180px) {
+  /* the Wrapped card spans the row here: one band, its number left, its lines in the middle, Open on the right (not a tall empty panel) */
+  
+     
+   
+}
+@media (max-width: 980px) {
+  .hm-hero { grid-template-columns: 1fr; }
+  .hm-hero-r { min-height: 300px; }
+  .hm-labs { grid-template-columns: 1fr 1fr; }
+  .hm-lab:nth-child(3):last-child { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); grid-template-rows: auto 1fr; column-gap: 18px; }
+  .hm-lab:nth-child(3):last-child .hm-lab-b { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
+  .hm-lab:nth-child(3):last-child .hm-what { grid-column: 1; grid-row: 2; }
+  .hm-duo-row { grid-template-columns: 1fr 1fr; }
+  .hm-duo-row .hm-rq, .hm-duo-row .hm-mock:last-child { grid-column: 1 / -1; }
+  
+  .hm-duo-row.solo .hm-diag { grid-template-columns: minmax(0, 1fr) auto; }
+  .hm-duo-row.solo .hm-diag .hm-mock-a { grid-column: 1 / -1; justify-content: flex-start; }
+  /* bento on 6 columns: xl 3×4, l 3×2, m 2×2, s 2×2, xs 2×1 (packs 14 subjects without holes) */
+  
+    
+   
+  .hm-stats { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .hm-stat { padding: 14px 14px 13px; } .hm-stat b { font-size: 28px; }
+  
+}
+@media (max-width: 700px) {
+  .hm { padding-top: 0; padding-bottom: 0; }                                  /* the shell's main already pads the page clear of the tab bar */
+  /* phone first screenful = hero + number strip: the first-run question moves below the strip */
+  .hm-top { display: flex; flex-direction: column; }
+  .hm-hero { border-radius: var(--r-lg); min-height: 0; }
+  .hm-first { display: contents; }
+  .hm-first .hm-hero-l { background: var(--surface); border-radius: var(--r-lg); box-shadow: var(--lift); order: 0; }
+  .hm-first .hm-hero-r { border-radius: var(--r-lg); order: 2; margin-top: 14px; }
+  .hm-top > .hm-stats { order: 1; }
+  .hm-hero-l { padding: 22px 20px 20px; }
+  .hm-hero h1 { font-size: 34px; margin: 12px 0 8px; padding-right: 64px; }
+  .hm-first h1 { padding-right: 70px; } .hm-first .hm-eyebrow { padding-right: 66px; }     /* clear of Tick, top right */
+  .hm-first .hm-cta-row { position: static; padding-right: 0; min-height: 0; }     /* Tick sits top-right of the card, looking down at the coral */
+  
+  .hm-nat { flex-wrap: nowrap; } .hm-nat input { flex: 1 1 0; width: auto; min-width: 0; }      /* ± · answer · Check on one row */
+  .hm-duo-row.solo .hm-diag { grid-template-columns: minmax(0, 1fr); padding: 20px; }
+  .hm-cta-row { padding-top: 18px; }
+  .hm-cta-row .btn.lg { flex: 1 1 auto; }
+  
+  
+  .hm-hero:not(.hm-first) .hm-hero-r { display: none; }
+  .hm-try { padding: 16px; }
+  .hm-try .hm-qcard { padding: 16px; }
+  .hm-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; padding: 0; overflow: hidden; background: var(--line); }
+  .hm-stats.four { grid-template-columns: repeat(2, minmax(0, 1fr)); }        /* a returning learner's four numbers, 2 × 2 */
+  .hm-stats li + li { border-left: 0; }
+  .hm-stats li { background: var(--surface); }
+  .hm-stats:not(.four) li:nth-child(5) { grid-column: span 2; }
+  .hm-stat { padding: 10px 12px 9px; border-radius: 0; } .hm-stat b { font-size: 26px; } .hm-stat > span { margin-top: 5px; font-size: 12.5px; line-height: 1.3; }
+  .hm-stat b small { margin-left: 4px; font-size: 14px; } .hm-sbar { margin-top: 8px; height: 4px; }
+  .hm-sec { margin-top: 26px; }
+  .hm-segs { margin: 14px 0 4px; } .hm-chiprow { margin-top: 8px; } .hm-more { margin-top: 6px !important; }
+  /* section heads: the link beside the title, the lead under both (no row of its own for the link) */
+  .hm-sec-h { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "h a" "p p"; align-items: center; column-gap: 12px; row-gap: 4px; margin-bottom: 10px; }
+  .hm-sec-h > div { display: contents; }
+  .hm-sec-h h2 { grid-area: h; } .hm-sec-h p { grid-area: p; margin-top: 0; font-size: 13.5px; } .hm-sec-h .hm-link { grid-area: a; }
+  .hm-nophone { display: none; }                                              /* the chip sentence: phones show no chips (P3-02) */
+  /* compact rows (P2-01): each paper keeps a 32 px mastery ring (no label on a ring under 36 px) */
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+                             /* the bold layer keeps numerals at 24 px or more (P1-57) */
+  
+  
+  
+          /* 4 px drawn */
+  .hm-nm .s { display: inline; } .hm-nm .f { display: none; }
+  /* What the papers say as a 2-up grid: the number, its visual and the claim (the evidence line is one tap away) */
+  .hm-finds { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .hm-find { padding: 14px 12px 12px; border-radius: var(--r); }
+  .hm-d { gap: 5px; } .hm-d b { font-size: 30px; } .hm-d span { font-size: 11.5px; }
+  .hm-viz { margin: 10px 0 8px; min-height: 0; }
+  .hm-find h3 { font-size: 13.5px; }
+  .hm-find p { display: none; }
+  .hm-go { padding-top: 10px; font-size: 12.5px; } .hm-find .hm-go svg.i { display: none; }
+  .hm-fsk { min-height: 190px; }
+  /* Try a lab: one row of two compact cards (D4; the first two of the three, untried first for a returning learner, P3-01). Every number in
+     every label stays at 11 px or more */
+  .hm-labs { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .hm-lab { padding: 12px; gap: 8px; border-radius: var(--r); }
+  .hm-lab:nth-child(n+3), .hm-lab:nth-child(3):last-child { display: none; }
+  .hm-lab-top .ic { display: none; }                                          /* the 2-up card gives its width to the name and the numbers */
+  .hm-lab h3 { font-size: 14px; } .hm-lab-sub { font-size: 11.5px; line-height: 1.35; }
+  .hm-pv { min-height: 0; padding: 9px; border-radius: var(--r-sm); flex: 1; display: flex; flex-direction: column; justify-content: center; }   /* fills the row's height */
+  .hm-pvh { display: none; }
+  .hm-res { margin-top: 6px; font-size: 11px; line-height: 1.35; }
+  .hm-duo-row { grid-template-columns: minmax(0, 1fr); }
+  
+  /* PassBook Wrapped as a compact cobalt card: its bars, the range, the big number and Open (the facts are the recap's own first slides) */
+  
+     
+   
+  .hm-rq-h h3 { font-size: 18px; }
+  .hm-duo-row { gap: 10px; } .hm-top > .hm-stats { margin-top: 10px; } .hm-first .hm-hero-r { margin-top: 10px; } .hm-foot { margin-top: 26px !important; }
+  .hm-duo-row .hm-mock-a, .hm-diag .hm-mock-a, .hm-warm .hm-mock-a { padding-top: 14px; }
+  .hm-qstem { font-size: 16px; margin: 9px 0 12px; }
+  .hm-opts { gap: 6px; } .hm-op { min-height: 44px; padding: 5px 12px 5px 7px; } .hm-op .k { width: 32px; height: 32px; }
+  /* before an answer the bank link ends the meta line, so the card has no footer row yet (P2-01); the answered footer is unchanged */
+  .hm-qcard:not([data-done="1"]) .hm-qmeta .hm-qbank { display: inline-flex; }
+  .hm-qcard:not([data-done="1"]) > .hm-qfoot { display: none; }
+  .hm-facts { gap: 14px; margin-top: 10px; } .hm-facts b { font-size: 18px; }
+  .hm-spark { margin: 12px 0 6px; } .hm-spark svg { height: 78px; }
+  .hm-mock h3 { margin-top: 8px; }
+  .hm-diag-l { margin-top: 6px !important; font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hm-enter .hm-st, .hm-segs i.done::after, .hm-figbox.play svg.dgs > *, .hm-fb.on, .hm-rise { animation: none !important; }
+  .hm-figload i, .hm-qsk i, .hm-fsk i { animation: none; }
+}
+
+/* =================================================================================================================================
+   2026-10-18 layout: Home as a sequence of full-width bands with a clear hierarchy. The page column stays 1240 px; each band paints
+   the window's full width behind it (border-image outset), sections alternate the page grey and white, and every section opens with
+   a small label, a 28 px title and one short line. The first visit opens on a navy band (the site's pitch, its two actions, a real
+   question and the catalogue numbers); a returning learner's hero sits on a quiet tinted band. */
+.hm { padding-bottom: 0; }
+.hm-top, .hm-sec, .hm-foot { position: relative; }
+.hm-sec { margin-top: 0; padding: 72px 0 80px; scroll-margin-top: 70px; border-image: conic-gradient(var(--hm-band, var(--bg)) 0 0) fill 0 // 0 100vmax; }
+.hm > section.hm-sec:nth-of-type(even) { --hm-band: var(--surface); }
+/* cards sitting on a white band take the soft grey, so they stay distinct from it */
+.hm > section.hm-sec:nth-of-type(even) :is(.hm-card, .hm-find, .hm-lab, .hm-rank) { background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--line); }
+.hm > section.hm-sec:nth-of-type(even) .hm-pv { background: var(--surface); }
+
+/* section heads */
+.hm-sec-h { align-items: flex-end; gap: 24px; margin-bottom: 28px; }
+.hm-kick { font: 700 12px/1 var(--font-ui); letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin: 0 0 12px !important; }
+.hm-sec-h h2 { font-size: 28px; font-weight: 700; letter-spacing: -.022em; line-height: 1.15; }
+.hm-sec-h p:not(.hm-kick) { margin-top: 8px !important; font-size: 15.5px; line-height: 1.5; color: var(--muted); max-width: 640px; }
+.hm-sec-h .hm-link { padding: 9px 14px; border: 1px solid var(--line-2); border-radius: var(--r-sm); background: var(--surface); font-weight: 600; color: var(--ink); }
+.hm-sec-h .hm-link:hover { border-color: color-mix(in srgb, var(--accent) 50%, transparent); color: var(--accent); }
+
+/* returning learner: the hero on a quiet tinted band */
+.hm:not(.hm-is-first) > .hm-top { margin-top: -34px; padding: 40px 0 48px; border-image: conic-gradient(var(--surface) 0 0) fill 0 // 0 100vmax; }
+.hm:not(.hm-is-first) > .hm-top :is(.hm-hero, .hm-stats) { box-shadow: inset 0 0 0 1px var(--line); }
+/* a section head names the practice row, so its cards drop their own small label */
+.hm-prac .hm-tag { display: none; }
+.hm-prac .hm-mock h3 { margin-top: 0; }
+
+/* first visit: the navy band */
+.hm-is-first > .hm-top { --pop: var(--panel-ink); --pop-ink: var(--panel); margin-top: -34px; padding: 64px 0 0; color: var(--panel-ink);
+  border-image: linear-gradient(160deg, color-mix(in srgb, var(--panel) 80%, var(--accent)) 0%, var(--panel) 52%, color-mix(in srgb, var(--panel) 88%, var(--ink)) 100%) fill 0 // 0 100vmax; }
+.hm-is-first .hm-hero.hm-first { background: transparent; box-shadow: none; border-radius: 0; overflow: visible; min-height: 0; column-gap: 56px; grid-template-columns: minmax(0, 1fr) minmax(0, .95fr); }
+.hm-first .hm-hero-l { padding: 10px 0 0; }
+.hm-first .hm-eyebrow { color: var(--panel-muted); }
+.hm-first .hm-eyebrow .dot { background: var(--panel-ink); }
+.hm-first.hm-hero h1 { color: var(--panel-ink); font-size: 54px; line-height: 1.04; letter-spacing: -.032em; margin: 20px 0 18px; }
+.hm-first .hm-meta { color: var(--panel-muted); font-size: 17px; line-height: 1.6; max-width: 520px; }
+.hm-first .hm-meta b { color: var(--panel-ink); }
+.hm-first .hm-cta-row { margin-top: 34px; padding-right: 0; min-height: 0; }
+.hm-first .btn.hm-alt { --b: transparent; --on: var(--panel-ink); --edge: var(--panel-line); color: var(--panel-ink); border-bottom-width: 1px; padding-bottom: 0; min-height: 56px; }
+.hm-first .btn.hm-alt:hover { background: color-mix(in srgb, var(--panel-ink) 8%, transparent); color: var(--panel-ink); }
+.hm-first .hm-hero-r.hm-try { background: transparent; padding: 0; }
+.hm-first .hm-try .hm-cap { color: var(--panel-muted); margin-bottom: 10px; }
+.hm-first .hm-try .hm-qcard { border-radius: var(--r-xl); padding: 24px 24px 20px; box-shadow: 0 30px 60px -30px rgba(0, 0, 0, .6); }
+/* the catalogue numbers along the band's foot */
+.hm-is-first > .hm-top > .hm-stats { margin-top: 64px; background: transparent; box-shadow: none; border-radius: 0; padding: 0; border-top: 1px solid var(--panel-line); }
+.hm-is-first .hm-stats li + li { border-left-color: var(--panel-line); }
+.hm-is-first .hm-stat { padding: 24px 24px 28px; border-radius: 0; }
+.hm-is-first .hm-stat:hover { background: color-mix(in srgb, var(--panel-ink) 5%, transparent); }
+.hm-is-first .hm-stat b { color: var(--panel-ink); font-size: 30px; }
+.hm-is-first .hm-stat > span { color: var(--panel-muted); }
+
+/* subjects by weight: one card, two ranked columns that read top to bottom */
+.hm-rank { list-style: none; margin: 0; padding: 6px 28px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-flow: column;
+  grid-template-rows: repeat(var(--rows, 7), auto); column-gap: 56px; background: var(--surface); border-radius: var(--r-xl); box-shadow: var(--lift); }
+.hm-rank li { min-width: 0; border-bottom: 1px solid var(--line); }
+.hm-rank li.end { border-bottom: 0; }
+.hm-rk { display: grid; grid-template-columns: 26px minmax(0, 1fr) minmax(48px, 112px) 88px 34px; align-items: center; gap: 16px; padding: 15px 2px; color: var(--ink); }
+.hm-rk:hover .hm-nm { color: var(--accent); }
+.hm-rk:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; border-radius: var(--r-xs); }
+.hm-rk-n { font: 600 12.5px var(--font-mono); color: var(--faint); }
+.hm-rk-t { min-width: 0; }
+.hm-rk .hm-nm { display: block; font-size: 15.5px; font-weight: 650; letter-spacing: -.01em; padding: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: color .15s; }
+.hm-rk-s { display: block; margin-top: 3px; font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hm-rk-bar { height: 6px; border-radius: 99px; background: var(--surface-3); overflow: hidden; }
+.hm-rk-bar i { display: block; height: 100%; border-radius: inherit; background: var(--accent); }
+.hm-rk-v { text-align: right; white-space: nowrap; }
+.hm-rk-v b { display: block; font-size: 20px; font-weight: 700; line-height: 1.05; letter-spacing: -.02em; }
+.hm-rk-v span { font-size: 11.5px; color: var(--muted); }
+.hm-rk .hm-ring { position: relative; top: auto; right: auto; width: 34px; height: 34px; }
+.hm-rk .hm-ring b { font-size: 9px; }
+
+/* the footer closes the page on its own band */
+.hm-foot { margin: 0 0 -72px !important; padding: 32px 0 calc(40px + 72px); border-image: conic-gradient(var(--bg-2) 0 0) fill 0 // 0 100vmax; }
+
+@media (max-width: 980px) {
+  .hm-is-first .hm-hero.hm-first { grid-template-columns: 1fr; row-gap: 36px; }
+  .hm-rank { grid-template-columns: 1fr; grid-auto-flow: row; grid-template-rows: none; padding: 4px 20px; }
+  .hm-rank li.end { border-bottom: 1px solid var(--line); } .hm-rank li:last-child { border-bottom: 0; }
+}
+@media (max-width: 700px) {
+  .hm-sec { padding: 40px 0 46px; }
+  .hm-sec-h h2 { font-size: 22px; }
+  .hm-kick { margin-bottom: 8px !important; }
+  .hm:not(.hm-is-first) > .hm-top { margin-top: -28px; padding: 18px 0 28px; }
+  .hm-is-first > .hm-top { margin-top: -28px; padding: 32px 0 28px; }
+  .hm-is-first .hm-first .hm-hero-l { background: transparent; box-shadow: none; padding: 4px 0 0; }
+  .hm-first.hm-hero h1, .hm-is-first .hm-first h1 { font-size: 36px; padding-right: 0; }
+  .hm-first .hm-eyebrow { padding-right: 0; }
+  .hm-first .hm-meta { font-size: 15.5px; }
+  .hm-is-first > .hm-top > .hm-stats { margin-top: 28px; background: var(--panel-line); border-top: 0; }
+  .hm-is-first .hm-stats li { background: var(--panel); }
+  .hm-is-first .hm-stat { padding: 12px 12px 12px; }
+  .hm-first .hm-try .hm-qcard { border-radius: var(--r-lg); padding: 16px; }
+  .hm-rank { padding: 2px 14px; border-radius: var(--r-lg); }
+  .hm-rk { grid-template-columns: 22px minmax(0, 1fr) auto 32px; gap: 10px; padding: 12px 0; }
+  .hm-rk-bar { display: none; }
+  .hm-rk .hm-ring { width: 32px; height: 32px; } .hm-rk .hm-ring b { display: none; }
+  .hm-foot { padding: 24px 0 calc(28px + 72px); }
+}
+@media (max-width: 700px) {
+  /* the label gets its own row above the title and its link; the lead stays under both */
+  .hm-sec-h { grid-template-areas: "k k" "h a" "p p"; }
+  .hm-sec-h p.hm-kick { grid-area: k; }
+  .hm-sec-h p:not(.hm-kick) { margin-top: 2px !important; font-size: 14.5px; }
+  .hm-sec-h .hm-link { padding: 7px 12px; }
+  /* phones: the top eight subjects; the full ranking is the syllabus, one tap away */
+  .hm-rank li:nth-child(n+9) { display: none; }
+  .hm-rank li:nth-child(8) { border-bottom: 0; }
+}
+
+/* ---------- CA Inter (PassBook) additions: the papers card, a strip of any length, plain lab cards ---------- */
+/* first run without ICAI questions: the four papers on the navy band, each with its marks and exam day (home.js papersCard) */
+.hm-first .hm-hero-r.hm-papers { background: transparent; padding: 0; gap: 0; }
+.hm-first .hm-papers .hm-cap { color: var(--panel-muted); margin-bottom: 10px; }
+.hm-pp { list-style: none; margin: 0; padding: 6px 0; background: var(--surface); color: var(--ink); border-radius: var(--r-xl); box-shadow: 0 30px 60px -30px rgba(0, 0, 0, .6); }
+.hm-pp li + li { border-top: 1px solid var(--line); }
+.hm-pp-r { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; gap: 14px; padding: 14px 20px; color: var(--ink); }
+.hm-pp-r:hover .hm-pp-t b { color: var(--accent); }
+.hm-pp-r:focus-visible { outline: 2.5px solid var(--accent); outline-offset: -2px; border-radius: var(--r); }
+.hm-pp-c { width: 44px; height: 44px; border-radius: var(--r-sm); display: grid; place-items: center; background: var(--accent-soft-2); color: var(--accent); font-size: 15px; font-weight: 700; }
+.hm-pp-t { min-width: 0; }
+.hm-pp-t b { display: block; font-size: 15.5px; font-weight: 650; letter-spacing: -.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: color .15s; }
+.hm-pp-t span { display: block; margin-top: 2px; font-size: 12.5px; color: var(--muted); }
+.hm-pp-d { text-align: right; white-space: nowrap; }
+.hm-pp-d b { display: block; font-size: 14px; font-weight: 700; }
+.hm-pp-d span { display: block; margin-top: 2px; font-size: 12px; color: var(--muted); }
+.hm-pp-f { margin: 12px 4px 0 !important; font-size: 13.5px; line-height: 1.5; color: var(--panel-muted); }
+/* the number strip shows only the counts that are not zero: 1 to 5 cells */
+.hm-stats.n1 { grid-template-columns: minmax(0, 1fr); } .hm-stats.n2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .hm-stats.n3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+/* a lab without a home preview: its blurb, then 'Open the lab' */
+.hm-lab-b { font-size: 14px; line-height: 1.5; color: var(--ink-2); margin: 0; }
+.hm-lab-p .hm-what { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
+.hm-lab-p .hm-go { display: inline-flex; align-items: center; gap: 4px; color: var(--accent); font-weight: 650; }
+.hm-lab-p .hm-go svg.i { width: 15px; height: 15px; }
+.hm-labs.n1 { grid-template-columns: minmax(0, 1fr); max-width: 520px; } .hm-labs.n2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 700px) {
+  .hm-first .hm-papers { margin-top: 14px; }
+  .hm-pp { border-radius: var(--r-lg); } .hm-pp-r { padding: 12px 14px; gap: 10px; grid-template-columns: 36px minmax(0, 1fr) auto; } .hm-pp-c { width: 36px; height: 36px; font-size: 13.5px; }
+  .hm-stats.n2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .hm-stats.n1 { grid-template-columns: minmax(0, 1fr); }
+  .hm-lab-p .hm-what { display: flex; } .hm-lab-b { font-size: 13px; }
+  .hm-labs.n1 { grid-template-columns: minmax(0, 1fr); }
+}
+/* a first run with fewer than two catalogue numbers has no strip: the band keeps its own foot */
+.hm-is-first > .hm-top:not(:has(> .hm-stats)) { padding-bottom: 60px; }
+@media (max-width: 700px) { .hm-is-first > .hm-top:not(:has(> .hm-stats)) { padding-bottom: 32px; } }

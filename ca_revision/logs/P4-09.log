@@ -1,0 +1,96 @@
+
+===== render.py synth dm_hi (450s)
+[dm_hi] engine ready in 14s; 63 lines
+[dm_hi] 0 cached, 63 to voice
+  L063 r0 ok  rec=0.78 pre=1.00 142wpm 6.34s 
+  L028 r0 ok  rec=1.00 pre=0.93 171wpm 8.08s 
+  L055 r0 ok  rec=1.00 pre=1.00 164wpm 7.7s 
+  L008 r0 ok  rec=0.95 pre=1.00 158wpm 9.1s 
+  L001 r0 RETRY rec=0.61 pre=0.90 121wpm 8.46s recall 0.615
+  L050 r0 ok  rec=1.00 pre=1.00 145wpm 9.5s 
+  L056 r0 ok  rec=1.00 pre=1.00 166wpm 8.66s 
+  L022 r0 ok  rec=0.94 pre=1.00 146wpm 10.72s 
+  L021 r0 ok  rec=1.00 pre=1.00 135wpm 8.86s 
+  L042 r0 ok  rec=1.00 pre=1.00 162wpm 8.5s 
+  L048 r0 ok  rec=1.00 pre=1.00 166wpm 9.4s 
+  L051 r0 ok  rec=1.00 pre=1.00 128wpm 11.22s 
+  L036 r0 ok  rec=1.00 pre=0.94 152wpm 9.46s 
+  L002 r0 ok  rec=0.94 pre=1.00 140wpm 11.16s 
+  L047 r0 ok  rec=1.00 pre=1.00 152wpm 9.08s 
+  L062 r0 ok  rec=0.88 pre=1.00 118wpm 11.72s 
+  .. batch 16 in 63s; total 2.5 min audio in 1.6 min (1.56x)
+  L003 r0 ok  rec=1.00 pre=1.00 175wpm 9.62s 
+  L045 r0 ok  rec=1.00 pre=1.00 141wpm 10.2s 
+  L034 r0 ok  rec=1.00 pre=0.93 153wpm 11.0s 
+  L006 r0 ok  rec=1.00 pre=1.00 124wpm 9.64s 
+  L020 r0 ok  rec=1.00 pre=1.00 145wpm 11.6s 
+  L046 r0 ok  rec=0.83 pre=0.79 161wpm 10.46s 
+  L010 r0 ok  rec=1.00 pre=1.00 147wpm 10.22s 
+  L058 r0 ok  rec=0.87 pre=0.88 155wpm 9.68s 
+  L040 r0 ok  rec=1.00 pre=1.00 141wpm 10.62s 
+  L053 r0 ok  rec=1.00 pre=0.95 152wpm 10.26s 
+  L024 r0 ok  rec=1.00 pre=1.00 145wpm 9.5s 
+  L007 r0 ok  rec=1.00 pre=0.88 140wpm 11.58s 
+  L009 r0 ok  rec=1.00 pre=1.00 137wpm 10.94s 
+  L023 r0 ok  rec=1.00 pre=1.00 155wpm 11.26s 
+  L054 r0 ok  rec=1.00 pre=0.91 155wpm 11.64s 
+  L060 r0 ok  rec=0.94 pre=0.90 151wpm 10.7s 
+  .. batch 16 in 65s; total 5.3 min audio in 3.2 min (1.68x)
+  L061 r0 ok  rec=1.00 pre=1.00 131wpm 12.86s 
+  L011 r0 ok  rec=1.00 pre=1.00 157wpm 12.24s 
+  L030 r0 ok  rec=1.00 pre=1.00 161wpm 11.54s 
+  L052 r0 ok  rec=1.00 pre=1.00 151wpm 11.96s 
+  L004 r0 ok  rec=1.00 pre=1.00 131wpm 11.44s 
+  L016 r0 ok  rec=1.00 pre=0.94 143wpm 13.02s 
+  L013 r0 ok  rec=1.00 pre=0.95 167wpm 11.48s 
+  L059 r0 ok  rec=1.00 pre=1.00 133wpm 12.16s 
+  L005 r0 ok  rec=1.00 pre=1.00 141wpm 10.62s 
+  L044 r0 ok  rec=1.00 pre=1.00 166wpm 10.48s 
+  L015 r0 ok  rec=0.94 pre=1.00 101wpm 13.7s 
+  L035 r0 ok  rec=1.00 pre=1.00 162wpm 10.76s 
+  L043 r0 ok  rec=1.00 pre=1.00 157wpm 11.82s 
+  L012 r0 ok  rec=1.00 pre=1.00 137wpm 12.74s 
+  L037 r0 ok  rec=0.94 pre=0.88 146wpm 9.86s 
+  L038 r0 ok  rec=0.85 pre=0.70 151wpm 11.56s 
+  .. batch 16 in 75s; total 8.4 min audio in 5.0 min (1.70x)
+  L041 r0 ok  rec=0.95 pre=0.90 125wpm 12.0s 
+  L017 r0 ok  rec=0.88 pre=0.94 127wpm 12.28s 
+  L026 r0 ok  rec=1.00 pre=1.00 130wpm 12.88s 
+  L014 r0 ok  rec=1.00 pre=0.94 148wpm 11.36s 
+  L031 r0 ok  rec=0.95 pre=1.00 154wpm 11.72s 
+  L029 r0 ok  rec=1.00 pre=1.00 165wpm 11.3s 
+  L032 r0 ok  rec=1.00 pre=1.00 127wpm 13.18s 
+  L049 r0 ok  rec=0.95 pre=0.91 171wpm 11.22s 
+  L057 r0 ok  rec=0.96 pre=0.84 136wpm 14.12s 
+  L018 r0 ok  rec=1.00 pre=1.00 138wpm 13.9s 
+  L025 r0 ok  rec=1.00 pre=1.00 124wpm 14.46s 
+  L027 r0 ok  rec=0.96 pre=0.89 137wpm 14.04s 
+  L033 r0 ok  rec=1.00 pre=1.00 127wpm 14.7s 
+  L039 r0 ok  rec=1.00 pre=0.95 118wpm 15.22s 
+  L019 r0 ok  rec=1.00 pre=1.00 133wpm 14.48s 
+  .. batch 15 in 76s; total 11.7 min audio in 6.7 min (1.76x)
+  L001 r1 RETRY rec=0.61 pre=0.90 114wpm 8.94s recall 0.615
+  .. batch 1 in 15s; total 11.8 min audio in 7.0 min (1.70x)
+  L001 r2 RETRY rec=0.61 pre=0.90 128wpm 7.94s recall 0.615
+  .. batch 1 in 13s; total 12.0 min audio in 7.2 min (1.66x)
+[dm_hi] done. 1 lines kept below the bar: ['L001']
+
+===== render.py mix dm_hi (40s)
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 12.56,
+ "words": 1682,
+ "overall_wpm": 134,
+ "lines": 63,
+ "lines_below_bar": [
+  "L001"
+ ],
+ "mean_recall": 0.9702,
+ "min_recall": 0.615,
+ "mp3": "/Users/ztejas/ca_revision/out/P4-09 - Job Costing - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.1
+}
+
+===== render.py narrate dm_hi (1s)
+narrate job 20261021-184313-7c5125

@@ -1,0 +1,18 @@
+{"t": 1792463537.8420851, "step": "start", "note": ""}
+{"t": 1792464109.9545321, "step": "aud.complete.sa260", "note": "1 rewritten (example 2: one-liner twist of RTP May 2025 Q15 / MTP May 2024 S2 Q6(b) / Sep 2024 Q6(a) OR)"}
+{"t": 1792464161.7741508, "step": "aud.complete.sa450", "note": "0 rewritten (7 fine)"}
+{"t": 1792464570.6081228, "step": "aud.complete.sa560", "note": "4 rewritten (ex1, ex2(ii), ex3, quiz 3)"}
+{"t": 1792464839.155637, "step": "aud.complete.sa570", "note": "4 rewritten (ex2, quiz 1-3)"}
+{"t": 1792465179.91697, "step": "aud.complete.sa580", "note": "3 rewritten (all three examples)"}
+{"t": 1792465735.0618749, "step": "aud.ethics.sa210", "note": "6 rewritten (3 examples, quiz 2, 3, 5)"}
+{"t": 1792465891.406728, "step": "aud.evid.assertions", "note": "2 items rewritten (ex1 iv, ex2 ii)"}
+{"t": 1792466033.446903, "step": "aud.evid.ifc", "note": "3 rewritten (ex2, quiz 2, 4)"}
+{"t": 1792466387.0029829, "step": "aud.evid.sa500", "note": "5 rewritten (ex2, ex3 item b, quiz 2, 4, 5)"}
+{"t": 1792466750.591338, "step": "aud.evid.sa501", "note": "4 rewritten (ex1(i), ex3, quiz 1, 4)"}
+{"t": 1792467023.341891, "step": "aud.evid.sa505", "note": "3 rewritten (ex1, ex2, ex4)"}
+{"t": 1792467223.9107788, "step": "aud.evid.sa510", "note": "1 rewritten (ex1)"}
+{"t": 1792467396.8955991, "step": "aud.evid.sa520", "note": "2 rewritten (ex3, quiz 2)"}
+{"t": 1792467466.237168, "step": "aud.evid.sa530", "note": "0 rewritten (8 fine)"}
+{"t": 1792467761.550169, "step": "aud.evid.sa550", "note": "3 rewritten (ex1, ex2 parts i/iii, quiz 2)"}
+{"t": 1792467932.470958, "step": "report", "note": "report at ~/ca_prompts/reports/sweep-aud.md; 41 rewritten in 15 lessons + 1 in sa230"}
+{"t": 1792467947.468243, "step": "report", "note": "report at ~/ca_prompts/reports/sweep-aud.md; 41 items rewritten in 13 of 15 lessons, plus 1 in aud.doc.sa230"}

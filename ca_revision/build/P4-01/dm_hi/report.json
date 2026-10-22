@@ -1,0 +1,29 @@
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 14.89,
+ "words": 1842,
+ "overall_wpm": 124,
+ "lines": 67,
+ "lines_below_bar": [
+  "L001",
+  "L008",
+  "L038"
+ ],
+ "mean_recall": 0.9383,
+ "min_recall": 0.067,
+ "mp3": "/Users/ztejas/CA_PERSONAL/ca_revision/out/P4-01 - Introduction to Cost and Management Accounting - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 14.4,
+ "loudness_in": {
+  "input_i": "-25.78",
+  "input_tp": "-4.56",
+  "input_lra": "2.20",
+  "input_thresh": "-36.17",
+  "output_i": "-16.47",
+  "output_tp": "-1.50",
+  "output_lra": "2.30",
+  "output_thresh": "-26.86",
+  "normalization_type": "dynamic",
+  "target_offset": "0.47"
+ }
+}

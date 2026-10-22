@@ -1,0 +1,7 @@
+NOTE FROM THE LEAD: consistency with the Variance Analysis Lab. The writer teaches the material price variance on the quantity PURCHASED
+"unless the question says otherwise" (SM 13.15), while the lab (app/js/labs/variance.js, report ~/CA_PERSONAL/ca_prompts/reports/lab-c4.md) defaults
+to the quantity CONSUMED because the Study Material's own Novell & Co. answer computes it that way (₹7,600 A; ₹8,000 A on purchases), with
+the purchase basis as an option. Read SM 13.15 and the Study Material's illustrations/answers yourself and decide which basis the
+Study Material states as its rule; make the lesson teach exactly that, with the other basis explained. Record your conclusion clearly in
+your report (first line) so the lead can align the lab's default and the lab embed configs with it. Also check the writer's labour
+efficiency point (hours worked vs hours paid when idle time exists) against SM 13.26 and the illustrations.

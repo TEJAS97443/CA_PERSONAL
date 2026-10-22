@@ -1,0 +1,24 @@
+# ICAI Board of Studies - Intermediate (New Scheme) Study Material - Paper 6A: Financial Management
+# Chapter 9: Management of Working Capital - Unit III: Management of Inventory
+# Edition: July 2024, Reprint August 2025 (cover: "Relevant for May 2026 Examination"); ICAI lists this edition as applicable for January 2027
+# Source: https://resource.cdn.icai.org/87749bos280825-cp9u3.pdf  (local ../pdf/ch09-u3.pdf, sha256 0069fc233951814b)
+# Page markers "=== p.N [X.Y] ===": N = page number inside the PDF file above, X.Y = ICAI printed page number
+# Text: poppler pdftotext -layout (columns of tables kept), symbol-font bullets -> "-", Rupee-font backtick -> ₹, running heads/footers removed. Equations from MathType objects are not reliable as text: see formula_pages in toc.json and render the PDF page
+
+=== p.1 [9.69] ===
+                            UNIT - III
+                     MANAGEMENT OF INVENTORY
+
+      14. INVENTORY MANAGEMENT
+Inventories constitute a major element of working capital. It is, therefore, important
+that investment in inventory is properly controlled. The objectives of inventory
+management are, to a great extent, similar to the objectives of cash management.
+Inventory management covers a large number of problems including fixation of
+minimum and maximum levels, determining the size of inventory to be carried,
+deciding about the issues, receipts and inspection procedures, determining the
+economic order quantity, proper storage facilities, keeping check over
+obsolescence and ensuring control over movement of inventories.
+
+Inventory Management has been discussed in detail in Chapter 2 (Material Cost)
+Paper 4: Cost and Management Accounting. Students are advised to refer the same.
+

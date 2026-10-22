@@ -1,0 +1,5 @@
+{"t": 1792441680.79316, "step": "start", "note": ""}
+{"t": 1792444314.243316, "step": "oh-distribution", "note": "21 tests (SM Ill.1-5, PP1-3; RTP Sep26 Q1, MTP May26 S1 Q3b, Exam Sep25 Q2b, MTP Sep25 S2 Q2a; brute force)"}
+{"t": 1792446328.551317, "step": "abc", "note": "16 tests (SM Ill.1-4, PP1 Woolmark, PP5 BABYSOFT; Exam Jan25 Case I, Exam Sep24 Q3a, MTP Sep26 S1 Q3a; brute force)"}
+{"t": 1792449797.262097, "step": "cost-sheet", "note": "18 tests (SM Ill.1-3, PP2, PP4, Case 1; Exam Jan26 Q2a, Exam Jan25 Q4b, MTP Sep26 S1 Q2a, RTP Jan26 Q13; brute force)"}
+{"t": 1792450333.608518, "step": "report", "note": "3 labs ready; 55 lab tests + shared 128 pass; report in reports/lab-c2.md"}

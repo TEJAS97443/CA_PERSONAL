@@ -1,0 +1,27 @@
+{
+ "voice": "dm_hi",
+ "label": "Hindi \u00b7 Arjun",
+ "dur_min": 12.81,
+ "words": 1718,
+ "overall_wpm": 134,
+ "lines": 62,
+ "lines_below_bar": [
+  "L001"
+ ],
+ "mean_recall": 0.9679,
+ "min_recall": 0.615,
+ "mp3": "/Users/ztejas/CA_PERSONAL/ca_revision/out/P4-02 - Cost Sheet - Hindi \u00b7 Arjun.mp3",
+ "size_mb": 12.4,
+ "loudness_in": {
+  "input_i": "-25.68",
+  "input_tp": "-4.72",
+  "input_lra": "2.30",
+  "input_thresh": "-36.04",
+  "output_i": "-16.46",
+  "output_tp": "-1.50",
+  "output_lra": "2.40",
+  "output_thresh": "-26.82",
+  "normalization_type": "dynamic",
+  "target_offset": "0.46"
+ }
+}

@@ -1,0 +1,27 @@
+JOB=sweep-aud
+You are an ORIGINALITY SWEEP agent for PassBook (~/CA_PERSONAL/ca_passbook), an offline study app for ICAI CA Intermediate Group II. Every worked
+example and quiz question must be ORIGINAL. ICAI's past papers, RTPs and MTPs (~/CA_PERSONAL/ca_sources/q/) and the Study Material's own exercises
+("Test Your Knowledge" / "Test Your Understanding" / illustrations, ~/CA_PERSONAL/ca_sources/sm/) are for learning the exam style only. Reviewers of
+later batches found and rewrote dozens of NEAR-COPIES: the same scenario, data layout or twist as an ICAI question or SM exercise with
+only names and numbers changed, or an MCQ whose stem and options mirror an ICAI MCQ. Your lessons were reviewed before that check was
+explicit, so check them now. Read ~/CA_PERSONAL/ca_passbook/docs/CONTENT_GUIDE.md first (binding).
+
+YOUR LESSONS (content/subjects/<paper>/<id>.md): aud.complete.sa260 aud.complete.sa450 aud.complete.sa560 aud.complete.sa570 aud.complete.sa580 aud.ethics.sa210 aud.evid.assertions aud.evid.ifc aud.evid.sa500 aud.evid.sa501 aud.evid.sa505 aud.evid.sa510 aud.evid.sa520 aud.evid.sa530 aud.evid.sa550
+
+PER LESSON
+1 Lock it: sh ~/CA_PERSONAL/ca_prompts/tools/lock.sh take <id> (exit 1 = someone else holds it: do the next one and come back), then re-read the file.
+2 For EACH worked example and EACH quiz question: identify its scenario and twist. Search for ICAI/SM items on the same sub-topic:
+  grep -il '<topic keywords>' ~/CA_PERSONAL/ca_sources/q/new/<p4|p5|p6>/*.txt ~/CA_PERSONAL/ca_sources/q/old/*/*.txt and the chapter's SM text (exercises and
+  illustrations at the end of the chapter txt). Read the closest 5-10 items. Judge NEAR-COPY vs FINE. FINE: same concept, ICAI
+  terminology, standard format, a definition from the SM; or the same question TYPE with a genuinely different scenario and twist.
+  NEAR-COPY: same facts/sequence of data/twist, renamed. Be decisive; most items will be FINE.
+3 NEAR-COPY: rewrite with an original scenario and twist on the same concept (the PassBook cast, guide §2a), same or higher difficulty;
+  recompute EVERY number with your own code; update everything that depends on it (answer, working notes, diagrams/plots, mistakes,
+  flashcards, Exam angle mentions). ICAI formats and wording stay in answers. No spoilers in dialogue; vary MCQ option positions.
+4 node tools/lint_content.js <file>; .venv/bin/python build.py --check (your files clean); preview only changed diagrams if needed (at most
+  ~15 images in the whole job: render a small temp .md for one diagram). Drop the lock: sh ~/CA_PERSONAL/ca_prompts/tools/lock.sh drop <id>.
+5 python3 -I ~/CA_PERSONAL/ca_prompts/progress.py sweep-aud <id> "<n> rewritten"
+(Register the job in ~/CA_PERSONAL/ca_prompts/jobs.json if progress.py says unknown: {"id":"sweep-aud","kind":"sweep","deps":[],"steps":["start", <each
+lesson id>, "report"]}.)
+REPORT (final message; also ~/CA_PERSONAL/ca_prompts/reports/sweep-aud.md): per lesson, each item judged NEAR-COPY (source file + question, what changed,
+new answer) and a one-line count of FINE items.
